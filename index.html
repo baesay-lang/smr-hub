@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMR 레퍼런스 허브</title>
+<style>
+  :root{
+    --bg:#0f1419; --bg-card:#1a212b; --bg-card-hover:#212a36; --border:#2a3441;
+    --text:#e6edf3; --text-dim:#9aa7b4; --accent:#4dabf7; --accent-dim:#1c3a52; --hi:#ffd43b;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,"Segoe UI","Malgun Gothic",sans-serif;background:var(--bg);color:var(--text);line-height:1.6;}
+  a{text-decoration:none;color:inherit;}
+  .wrap{max-width:980px;margin:0 auto;padding:56px 24px 60px;}
+  .hero h1{font-size:30px;margin:0 0 6px;}
+  .hero p{color:var(--text-dim);font-size:15px;margin:0 0 4px;}
+  .stamp{color:var(--text-dim);font-size:12.5px;margin-top:8px;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;margin-top:32px;}
+  .card{background:var(--bg-card);border:1px solid var(--border);border-radius:14px;padding:22px 22px 20px;transition:border-color .12s,transform .12s;display:block;}
+  .card:hover{border-color:var(--accent);transform:translateY(-2px);}
+  .card .ico{font-size:30px;}
+  .card .t{font-size:18px;font-weight:700;margin:10px 0 4px;}
+  .card .d{font-size:13.5px;color:var(--text-dim);}
+  .card .go{margin-top:12px;color:var(--accent);font-size:13px;font-weight:700;}
+  .card.feat{border-left:3px solid var(--hi);}
+  .foot{margin-top:36px;color:var(--text-dim);font-size:12px;border-top:1px solid var(--border);padding-top:16px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <h1>⚛️ SMR 레퍼런스 허브</h1>
+    <p>소형모듈원자로(SMR) 업무용 자료 모음 — 개발사 현황 · 인허가 트랙 · 노형 · 미국 규정(CFR) · 경제성</p>
+    <div class="stamp">최종 업데이트: 2026-06-09 · 비공개 자료</div>
+  </div>
+
+  <div class="grid">
+    <a class="card" href="SMR-developers.html">
+      <div class="ico">🏭</div>
+      <div class="t">SMR 개발사 현황</div>
+      <div class="d">13개 개발사의 노형·출력·전략과 인허가 단계(파이프라인). 카드 클릭 시 인허가 상황 펼침.</div>
+      <div class="go">열기 →</div>
+    </a>
+    <a class="card" href="SMR-licensing-tracks.html">
+      <div class="ico">🗂️</div>
+      <div class="t">인허가 트랙별 분류</div>
+      <div class="d">NRC Part 50/52/53 · 영국 GDA · 캐나다 CNSC · 한국 SDA. 트랙 클릭 시 해당 업체 펼침.</div>
+      <div class="go">열기 →</div>
+    </a>
+    <a class="card" href="SMR-reactor-types.html">
+      <div class="ico">🔬</div>
+      <div class="t">노형 분류</div>
+      <div class="d">경수로(PWR·BWR) vs 비경수로(SFR·HTGR·FHR·MSR)와 규제 함의. 노형별 제원·대표 개발사.</div>
+      <div class="go">열기 →</div>
+    </a>
+    <a class="card" href="SMR-reference.html">
+      <div class="ico">📚</div>
+      <div class="t">CFR 규정 레퍼런스</div>
+      <div class="d">원자력 업무용 미국 CFR(10/15/22) 정리 — 인허가·수출통제·EPC 품질. 검색·필터.</div>
+      <div class="go">열기 →</div>
+    </a>
+    <a class="card feat" href="SMR-dev-xenergy.html">
+      <div class="ico">📄</div>
+      <div class="t">X-energy / Xe-100 상세</div>
+      <div class="d">기술사양 · 부품 공급망(도해) · Off-taker · MOU · 누적 뉴스 피드. (개발사 상세 1호)</div>
+      <div class="go">열기 →</div>
+    </a>
+    <a class="card" href="LCOE_Calculator.html">
+      <div class="ico">🧮</div>
+      <div class="t">LCOE 계산기</div>
+      <div class="d">SMR / 석탄 / 가스 / 원자력 균등화발전원가(LCOE) 비교 계산.</div>
+      <div class="go">열기 →</div>
+    </a>
+  </div>
+
+  <div class="foot">
+    ⚠️ 인허가·사업 현황은 빠르게 변합니다 — 회의·보고 직전 각 규제기관·개발사 공시로 재확인 권장.<br>
+    SMR 레퍼런스 허브 · 내부용
+  </div>
+</div>
+</body>
+</html>

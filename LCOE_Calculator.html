@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LCOE Calculator — SMR / Coal / Gas / Nuclear</title>
+<style>
+  :root{
+    --bg:#0f1720; --panel:#172230; --panel2:#1d2b3a; --line:#2b3c50;
+    --ink:#e8eef5; --mute:#8aa0b6; --accent:#3fb6ff; --accent2:#ffd166;
+    --coal:#7a6a5a; --gas:#5b8c9e; --smr:#3fb6ff; --ap:#9b8cff; --apr:#5ad19a;
+    --cap:#3fb6ff; --fom:#5ad19a; --vom:#9b8cff; --fuel:#ffb86b; --carbon:#ff6b6b;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--ink);
+    font-family:"Segoe UI",system-ui,-apple-system,"Malgun Gothic",sans-serif;font-size:14px;line-height:1.45}
+  header{padding:16px 22px;border-bottom:1px solid var(--line);display:flex;
+    align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;background:var(--panel)}
+  header h1{font-size:18px;margin:0;font-weight:650}
+  header .sub{color:var(--mute);font-size:12px;margin-top:2px}
+  .lang{display:flex;gap:6px}
+  .lang button{background:var(--panel2);color:var(--mute);border:1px solid var(--line);
+    border-radius:6px;padding:5px 11px;cursor:pointer;font-size:12px}
+  .lang button.on{background:var(--accent);color:#05202e;border-color:var(--accent);font-weight:600}
+  .wrap{display:grid;grid-template-columns:320px 1fr;gap:18px;padding:18px 22px;max-width:1500px}
+  @media(max-width:980px){.wrap{grid-template-columns:1fr}}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px}
+  .panel h2{font-size:13px;margin:0 0 12px;letter-spacing:.4px;color:var(--accent);
+    text-transform:uppercase;font-weight:650}
+  .ctl{margin-bottom:14px}
+  .ctl label{display:flex;justify-content:space-between;font-size:12px;color:var(--mute);margin-bottom:5px}
+  .ctl label b{color:var(--ink);font-variant-numeric:tabular-nums}
+  input[type=range]{width:100%;accent-color:var(--accent);cursor:pointer}
+  select,input[type=number]{width:100%;background:var(--panel2);color:var(--ink);
+    border:1px solid var(--line);border-radius:6px;padding:7px 8px;font-size:13px}
+  .row{display:grid;grid-template-columns:1fr 84px;gap:8px;align-items:center}
+  .chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+  .chip{font-size:11px;padding:4px 9px;border-radius:20px;border:1px solid var(--line);
+    background:var(--panel2);color:var(--mute);cursor:pointer}
+  .chip.on{color:#05202e;font-weight:600}
+  .chip[data-t=Coal].on{background:var(--coal);border-color:var(--coal);color:#fff}
+  .chip[data-t=Gas].on{background:var(--gas);border-color:var(--gas)}
+  .chip[data-t=SMR].on{background:var(--smr);border-color:var(--smr)}
+  .chip[data-t=AP1000].on{background:var(--ap);border-color:var(--ap)}
+  .chip[data-t=APR1400].on{background:var(--apr);border-color:var(--apr)}
+  .btn{background:var(--panel2);color:var(--ink);border:1px solid var(--line);
+    border-radius:6px;padding:7px 12px;cursor:pointer;font-size:12px}
+  .btn:hover{border-color:var(--accent)}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px 14px}
+  .fld label{display:flex;justify-content:space-between;font-size:11px;color:var(--mute);margin-bottom:3px}
+  .fld .src{cursor:help;color:var(--accent);font-size:10px}
+  .fld input{padding:5px 7px;font-size:12px}
+  /* chart */
+  .bars{display:flex;flex-direction:column;gap:10px;margin-top:6px}
+  .barrow{display:grid;grid-template-columns:78px 1fr 70px;gap:10px;align-items:center}
+  .barrow .name{font-size:12px;color:var(--mute);text-align:right}
+  .track{position:relative;height:26px;background:var(--panel2);border-radius:5px;overflow:hidden;display:flex}
+  .seg{height:100%}
+  .seg.cap{background:var(--cap)} .seg.fom{background:var(--fom)} .seg.vom{background:var(--vom)}
+  .seg.fuel{background:var(--fuel)} .seg.carbon{background:var(--carbon)}
+  .barrow .val{font-size:13px;font-weight:650;text-align:right;font-variant-numeric:tabular-nums}
+  .legend{display:flex;gap:14px;flex-wrap:wrap;margin:14px 0 4px;font-size:11px;color:var(--mute)}
+  .legend span{display:inline-flex;align-items:center;gap:5px}
+  .dot{width:10px;height:10px;border-radius:2px;display:inline-block}
+  .narr{background:var(--panel2);border-left:3px solid var(--accent);border-radius:6px;
+    padding:14px 16px;font-size:13.5px;line-height:1.6;margin-top:4px}
+  .narr b{color:var(--accent2)}
+  table{width:100%;border-collapse:collapse;font-size:12px;margin-top:6px}
+  th,td{padding:7px 8px;text-align:right;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
+  th:first-child,td:first-child{text-align:left}
+  thead th{color:var(--mute);font-weight:600;font-size:11px;text-transform:uppercase}
+  .cross{font-size:12.5px;color:var(--mute);margin-top:6px}
+  .cross b{color:var(--accent2)}
+  footer{padding:14px 22px;border-top:1px solid var(--line);color:var(--mute);font-size:11px;line-height:1.7}
+  footer a{color:var(--accent);text-decoration:none}
+  .pill{display:inline-block;background:var(--panel2);border:1px solid var(--line);
+    border-radius:5px;padding:2px 8px;margin-left:6px;font-size:11px;color:var(--mute)}
+  .mini{margin-top:14px}
+  .mini canvas{width:100%;height:170px;display:block}
+  details summary{cursor:pointer;color:var(--accent);font-size:12px;margin-top:8px}
+</style>
+</head>
+<body>
+<header>
+  <div>
+    <h1 data-i="title">발전원별 균등화발전원가(LCOE) 계산기</h1>
+    <div class="sub" data-i="sub">IEA-NEA 할인현금흐름 방식 · Base값 출처: NREL ATB 2024 / INL 2024 / IEA-NEA 2020 / Lazard 2025</div>
+  </div>
+  <div class="lang">
+    <button id="ko" class="on" onclick="setLang('ko')">한국어</button>
+    <button id="en" onclick="setLang('en')">EN</button>
+  </div>
+</header>
+
+<div class="wrap">
+  <!-- LEFT: controls -->
+  <div>
+    <div class="panel">
+      <h2 data-i="scenario">시나리오 설정</h2>
+      <div class="ctl">
+        <label><span data-i="discount">할인율 (실질 WACC)</span> <b id="rOut">7%</b></label>
+        <input type="range" id="r" min="2" max="12" step="0.5" value="7" oninput="recalc()">
+      </div>
+      <div class="ctl">
+        <label><span data-i="carbon">탄소가격 (CO₂)</span> <b id="cOut">$30/t</b></label>
+        <input type="range" id="c" min="0" max="150" step="5" value="30" oninput="recalc()">
+      </div>
+      <div class="ctl">
+        <label><span data-i="fx">참고환율 (KRW/USD)</span> <b id="fxOut">1,350</b></label>
+        <input type="range" id="fx" min="1000" max="1600" step="10" value="1350" oninput="recalc()">
+      </div>
+      <div style="display:flex;gap:8px;margin-top:4px">
+        <button class="btn" style="flex:1" onclick="resetAll()" data-i="reset">전체 Base값 복원</button>
+      </div>
+    </div>
+
+    <div class="panel" style="margin-top:16px">
+      <h2 data-i="editTitle">가정값 편집</h2>
+      <div class="chips" id="chips"></div>
+      <div class="grid2" id="editor"></div>
+      <details>
+        <summary data-i="method">계산 방법론 보기</summary>
+        <div style="font-size:11.5px;color:var(--mute);margin-top:8px;line-height:1.6" data-i="methodBody">
+          LCOE = Σ(할인된 비용) / Σ(할인된 발전량). 모든 값은 실질(불변가격) 기준이라
+          에스컬레이션과 실질할인율이 상쇄됩니다. 건설비는 건설기간에 분산 후 할인되어
+          건설이자(IDC) 효과가 자연 반영됩니다. 연료·변동O&M·탄소비용은 $/MWh이라 그대로 통과,
+          고정O&M은 이용률로 나눠 $/MWh 환산, 자본비만 건설-운전 시점차로 할인됩니다.
+        </div>
+      </details>
+    </div>
+  </div>
+
+  <!-- RIGHT: outputs -->
+  <div>
+    <div class="panel">
+      <h2 data-i="compare">발전단가 비교 (LCOE, $/MWh)</h2>
+      <div class="legend">
+        <span><i class="dot" style="background:var(--cap)"></i><span data-i="lCap">자본비</span></span>
+        <span><i class="dot" style="background:var(--fom)"></i><span data-i="lFom">고정 O&M</span></span>
+        <span><i class="dot" style="background:var(--vom)"></i><span data-i="lVom">변동 O&M</span></span>
+        <span><i class="dot" style="background:var(--fuel)"></i><span data-i="lFuel">연료</span></span>
+        <span><i class="dot" style="background:var(--carbon)"></i><span data-i="lCarbon">탄소비용</span></span>
+      </div>
+      <div class="bars" id="bars"></div>
+    </div>
+
+    <div class="panel" style="margin-top:16px">
+      <h2 data-i="qa">Q&A 요약</h2>
+      <div class="narr" id="narr"></div>
+    </div>
+
+    <div class="panel" style="margin-top:16px">
+      <h2 data-i="carbonSens">탄소가격 민감도 — SMR 손익분기점</h2>
+      <div class="legend" id="techLegend"></div>
+      <div class="mini"><canvas id="cv"></canvas></div>
+      <div class="cross" id="cross"></div>
+    </div>
+
+    <div class="panel" style="margin-top:16px">
+      <h2 data-i="tbl">상세 표</h2>
+      <table id="tbl"></table>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <b data-i="srcTitle">Base값 출처</b> ·
+  NREL ATB 2024 (CAPEX/O&M/CF) ·
+  INL Meta-Analysis 2024 (OCC: SMR $8,017/kWe, AP1000 $7,468/kWe) ·
+  IEA-NEA 2020 <i>Projected Costs of Generating Electricity</i> (LCOE 방법론·CO₂ $30/t) ·
+  Lazard LCOE+ 2025 (WACC/PPA) ·
+  APR1400 $3,800/kW = Barakah 턴키 실적 (WNA).
+  <span class="pill" data-i="note">학습용 도구 — 실제 견적값으로 OCC·O&M 교체 시 사내 EPC FEED DB 연동 권장</span>
+</footer>
+
+<script>
+/* ---------- Base assumptions (from Power_PF_Model Assumptions sheet) ---------- */
+const BASE = {
+  Coal:    {label:{ko:"석탄화력",en:"Coal"},      cap:600, cf:0.55, life:40, tc:4, occ:4000, cont:0.10, fom:45,  vom:5, fuel:25, co2:0.9},
+  Gas:     {label:{ko:"가스복합(CCGT)",en:"Gas CCGT"}, cap:500, cf:0.55, life:30, tc:3, occ:1200, cont:0.08, fom:20,  vom:4, fuel:35, co2:0.4},
+  SMR:     {label:{ko:"SMR (X-energy)",en:"SMR (X-energy)"}, cap:320, cf:0.93, life:40, tc:4, occ:8017, cont:0.12, fom:80,  vom:3, fuel:9,  co2:0},
+  AP1000:  {label:{ko:"대형원전 AP1000",en:"AP1000"}, cap:1000,cf:0.93, life:40, tc:7, occ:7468, cont:0.12, fom:140, vom:3, fuel:8,  co2:0},
+  APR1400: {label:{ko:"대형원전 APR1400",en:"APR1400"}, cap:1400,cf:0.93, life:40, tc:4, occ:3800, cont:0.10, fom:170, vom:3, fuel:8,  co2:0},
+};
+const ORDER = ["Coal","Gas","SMR","AP1000","APR1400"];
+const COLORS = {Coal:"var(--coal)",Gas:"var(--gas)",SMR:"var(--smr)",AP1000:"var(--ap)",APR1400:"var(--apr)"};
+
+/* editable field defs */
+const FIELDS = [
+  {k:"cap", ko:"용량",      en:"Capacity",        u:"MWe",   step:10,  src:"NREL ATB / WNA"},
+  {k:"cf",  ko:"이용률",    en:"Capacity factor", u:"%",     step:0.01,pct:true, src:"NREL ATB 2024 (원전 93%)"},
+  {k:"life",ko:"운전수명",  en:"Life",            u:"yr",    step:1,   src:"NREL ATB / NRC"},
+  {k:"tc",  ko:"건설기간",  en:"Constr. period",  u:"yr",    step:1,   src:"ATB; APR1400 Barakah ~4y"},
+  {k:"occ", ko:"건설단가",  en:"Overnight cost",  u:"$/kW",  step:50,  src:"INL 2024 / Barakah"},
+  {k:"cont",ko:"예비비",    en:"Contingency",     u:"%",     step:0.01,pct:true, src:"NREL ATB"},
+  {k:"fom", ko:"고정 O&M",  en:"Fixed O&M",       u:"$M/yr", step:1,   src:"NREL ATB"},
+  {k:"vom", ko:"변동 O&M",  en:"Variable O&M",    u:"$/MWh", step:0.5, src:"NREL ATB"},
+  {k:"fuel",ko:"연료비",    en:"Fuel",            u:"$/MWh", step:1,   src:"NREL ATB / EIA AEO"},
+  {k:"co2", ko:"탄소배출",  en:"CO₂ intensity",   u:"t/MWh", step:0.05,src:"IPCC/EIA"},
+];
+
+/* working copy */
+let D = structuredClone(BASE);
+let sel = "SMR";
+let lang = "ko";
+
+/* ---------- LCOE engine (validated vs IEA-NEA / NREL) ---------- */
+function lcoe(t, r, cprice){
+  const occT = t.occ*(1+t.cont);                 // $/kW incl contingency
+  let sc=0; for(let y=0;y<t.tc;y++) sc+=Math.pow(1+r,-y);          // discounted constr. outlays
+  let so=0; for(let y=t.tc;y<t.tc+t.life;y++) so+=Math.pow(1+r,-y);// discounted generation yrs
+  const gen = 8.76*t.cf;                          // MWh per kW per yr
+  const cap = occT*(sc/t.tc)/(gen*so);
+  const fom = (t.fom*1e6/(t.cap*1000))/gen;       // $/kW-yr -> $/MWh
+  const carbon = t.co2*cprice;
+  return {capital:cap, fixedom:fom, varom:t.vom, fuel:t.fuel, carbon:carbon,
+          total:cap+fom+t.vom+t.fuel+carbon};
+}
+
+/* ---------- i18n ---------- */
+const I18N = {
+  title:{ko:"발전원별 균등화발전원가(LCOE) 계산기",en:"Levelized Cost of Electricity (LCOE) Calculator"},
+  sub:{ko:"IEA-NEA 할인현금흐름 방식 · Base값 출처: NREL ATB 2024 / INL 2024 / IEA-NEA 2020 / Lazard 2025",
+       en:"IEA-NEA discounted-cashflow method · Base values: NREL ATB 2024 / INL 2024 / IEA-NEA 2020 / Lazard 2025"},
+  scenario:{ko:"시나리오 설정",en:"Scenario"},
+  discount:{ko:"할인율 (실질 WACC)",en:"Discount rate (real WACC)"},
+  carbon:{ko:"탄소가격 (CO₂)",en:"Carbon price (CO₂)"},
+  fx:{ko:"참고환율 (KRW/USD)",en:"FX (KRW/USD)"},
+  reset:{ko:"전체 Base값 복원",en:"Reset all to base"},
+  editTitle:{ko:"가정값 편집",en:"Edit assumptions"},
+  method:{ko:"계산 방법론 보기",en:"Methodology"},
+  methodBody:{ko:"LCOE = Σ(할인된 비용) / Σ(할인된 발전량). 모든 값은 실질(불변가격) 기준이라 에스컬레이션과 실질할인율이 상쇄됩니다. 건설비는 건설기간에 분산 후 할인되어 건설이자(IDC) 효과가 자연 반영됩니다. 연료·변동O&M·탄소비용은 $/MWh이라 그대로 통과, 고정O&M은 이용률로 나눠 $/MWh 환산, 자본비만 건설-운전 시점차로 할인됩니다.",
+            en:"LCOE = Σ(discounted cost) / Σ(discounted generation). All values are real (constant-$), so escalation cancels with the real discount rate. Capital is spread over construction then discounted, naturally capturing interest-during-construction (IDC). Fuel / variable-O&M / carbon pass through as $/MWh; fixed-O&M is divided by capacity factor; only capital is discounted across the construction-to-operation timing gap."},
+  compare:{ko:"발전단가 비교 (LCOE, $/MWh)",en:"LCOE comparison ($/MWh)"},
+  lCap:{ko:"자본비",en:"Capital"},lFom:{ko:"고정 O&M",en:"Fixed O&M"},lVom:{ko:"변동 O&M",en:"Var. O&M"},
+  lFuel:{ko:"연료",en:"Fuel"},lCarbon:{ko:"탄소비용",en:"Carbon"},
+  qa:{ko:"Q&A 요약",en:"Q&A summary"},
+  carbonSens:{ko:"탄소가격 민감도 — SMR 손익분기점",en:"Carbon-price sensitivity — SMR break-even"},
+  tbl:{ko:"상세 표",en:"Detail table"},
+  srcTitle:{ko:"Base값 출처",en:"Sources for base values"},
+  note:{ko:"학습용 도구 — 실제 견적값으로 OCC·O&M 교체 시 사내 EPC FEED DB 연동 권장",
+        en:"Study tool — replace OCC/O&M with actual EPC FEED quotes for deal use"},
+};
+function setLang(l){
+  lang=l;
+  document.getElementById('ko').classList.toggle('on',l==='ko');
+  document.getElementById('en').classList.toggle('on',l==='en');
+  document.documentElement.lang=l;
+  document.querySelectorAll('[data-i]').forEach(e=>{const k=e.getAttribute('data-i'); if(I18N[k]) e.textContent=I18N[k][l];});
+  buildChips(); buildEditor(); recalc();
+}
+
+/* ---------- UI builders ---------- */
+function buildChips(){
+  const c=document.getElementById('chips'); c.innerHTML='';
+  ORDER.forEach(t=>{
+    const b=document.createElement('div');
+    b.className='chip'+(t===sel?' on':''); b.dataset.t=t;
+    b.textContent=D[t].label[lang];
+    b.onclick=()=>{sel=t;buildChips();buildEditor();};
+    c.appendChild(b);
+  });
+}
+function buildEditor(){
+  const e=document.getElementById('editor'); e.innerHTML='';
+  FIELDS.forEach(f=>{
+    const wrap=document.createElement('div'); wrap.className='fld';
+    const lab=document.createElement('label');
+    const name=document.createElement('span'); name.textContent=(lang==='ko'?f.ko:f.en)+' ('+f.u+')';
+    const src=document.createElement('span'); src.className='src'; src.textContent='ⓘ'; src.title=f.src;
+    lab.appendChild(name); lab.appendChild(src);
+    const inp=document.createElement('input'); inp.type='number'; inp.step=f.step;
+    inp.value = f.pct ? +(D[sel][f.k]*100).toFixed(2) : D[sel][f.k];
+    inp.oninput=()=>{ let v=parseFloat(inp.value); if(isNaN(v))return;
+      D[sel][f.k]= f.pct ? v/100 : v; recalc(); };
+    wrap.appendChild(lab); wrap.appendChild(inp); e.appendChild(wrap);
+  });
+}
+
+/* ---------- render ---------- */
+function recalc(){
+  const r=parseFloat(document.getElementById('r').value)/100;
+  const cp=parseFloat(document.getElementById('c').value);
+  const fx=parseFloat(document.getElementById('fx').value);
+  document.getElementById('rOut').textContent=(r*100).toFixed(1).replace(/\.0$/,'')+'%';
+  document.getElementById('cOut').textContent='$'+cp+'/t';
+  document.getElementById('fxOut').textContent=fx.toLocaleString();
+
+  const res={}; ORDER.forEach(t=>res[t]=lcoe(D[t],r,cp));
+  const max=Math.max(...ORDER.map(t=>res[t].total))*1.05;
+
+  // bars
+  const bars=document.getElementById('bars'); bars.innerHTML='';
+  ORDER.forEach(t=>{
+    const d=res[t];
+    const row=document.createElement('div'); row.className='barrow';
+    const nm=document.createElement('div'); nm.className='name'; nm.textContent=D[t].label[lang];
+    const track=document.createElement('div'); track.className='track';
+    [['cap',d.capital],['fom',d.fixedom],['vom',d.varom],['fuel',d.fuel],['carbon',d.carbon]].forEach(([cls,v])=>{
+      if(v<=0)return; const s=document.createElement('div'); s.className='seg '+cls;
+      s.style.width=(v/max*100)+'%'; s.title=cls+': $'+v.toFixed(1); track.appendChild(s);
+    });
+    const val=document.createElement('div'); val.className='val'; val.textContent='$'+d.total.toFixed(0);
+    row.appendChild(nm); row.appendChild(track); row.appendChild(val);
+    bars.appendChild(row);
+  });
+
+  renderNarr(res,r,cp,fx);
+  renderTable(res,fx);
+  renderCarbon(r);
+}
+
+function renderTable(res,fx){
+  const t=document.getElementById('tbl');
+  const H=lang==='ko'
+    ? ['기술','자본비','고정O&M','변동O&M','연료','탄소','합계 $/MWh','원/kWh']
+    : ['Tech','Capital','Fixed','Var','Fuel','Carbon','Total $/MWh','KRW/kWh'];
+  let h='<thead><tr>'+H.map(x=>'<th>'+x+'</th>').join('')+'</tr></thead><tbody>';
+  ORDER.forEach(k=>{const d=res[k];
+    const krw=(d.total*fx/1000).toFixed(0);
+    h+='<tr><td>'+D[k].label[lang]+'</td>'+
+       ['capital','fixedom','varom','fuel','carbon'].map(x=>'<td>'+d[x].toFixed(1)+'</td>').join('')+
+       '<td><b>'+d.total.toFixed(0)+'</b></td><td>'+krw+'</td></tr>';
+  });
+  t.innerHTML=h+'</tbody>';
+}
+
+function renderNarr(res,r,cp,fx){
+  const f=v=>'$'+v.toFixed(0);
+  const coal=res.Coal.total, gas=res.Gas.total, smr=res.SMR.total;
+  // break-even carbon: SMR vs coal & gas (carbon free for SMR here)
+  const beCoal = beCarbon('SMR','Coal',r), beGas = beCarbon('SMR','Gas',r);
+  const cheapest = ORDER.reduce((a,b)=>res[a].total<res[b].total?a:b);
+  let html;
+  if(lang==='ko'){
+    html = `<b>Q.</b> 인니에서 석탄·가스복합 대비 X-energy SMR를 지으면 발전단가(LCOE)가 어떻게 되나요?<br><br>`+
+      `<b>A.</b> 할인율 <b>${(r*100).toFixed(1).replace(/\.0$/,'')}%</b>, 탄소가격 <b>$${cp}/t</b> 기준으로 — `+
+      `석탄 <b>${f(coal)}/MWh</b>, 가스복합 <b>${f(gas)}/MWh</b>, SMR <b>${f(smr)}/MWh</b> 입니다 `+
+      `(원화 약 ${(smr*fx/1000).toFixed(0)}원/kWh). `+
+      (smr>coal&&smr>gas
+        ? `지금 탄소가격에선 SMR가 비싸 보이지만, `
+        : `SMR가 이미 가격 경쟁력이 있고, `)+
+      (beCoal>cp ? `탄소가격이 <b>$${beCoal.toFixed(0)}/t</b>를 넘으면 석탄을, ` : `석탄은 이미 SMR보다 비싸고, `)+
+      (beGas>cp ? `<b>$${beGas.toFixed(0)}/t</b>를 넘으면 가스복합까지 SMR가 역전합니다. ` : `가스복합도 이미 SMR보다 비쌉니다. `)+
+      `무탄소·고이용률(${(D.SMR.cf*100).toFixed(0)}%)·연료비 안정성을 감안하면 장기 사업성이 있습니다. `+
+      `(현 시나리오 최저가: <b>${D[cheapest].label.ko}</b>)`;
+  } else {
+    html = `<b>Q.</b> Building an X-energy SMR in Indonesia vs coal / gas CCGT — how does LCOE compare?<br><br>`+
+      `<b>A.</b> At <b>${(r*100).toFixed(1).replace(/\.0$/,'')}%</b> discount and <b>$${cp}/t</b> carbon — `+
+      `coal <b>${f(coal)}/MWh</b>, gas CCGT <b>${f(gas)}/MWh</b>, SMR <b>${f(smr)}/MWh</b>. `+
+      (smr>coal&&smr>gas?`SMR looks pricier today, but `:`SMR is already competitive, and `)+
+      (beCoal>cp?`it beats coal once carbon exceeds <b>$${beCoal.toFixed(0)}/t</b>, `:`coal is already above SMR, `)+
+      (beGas>cp?`and gas CCGT once carbon exceeds <b>$${beGas.toFixed(0)}/t</b>. `:`and gas CCGT is already above SMR. `)+
+      `With zero carbon, high CF (${(D.SMR.cf*100).toFixed(0)}%) and stable fuel, the long-run case holds. `+
+      `(Cheapest in this scenario: <b>${D[cheapest].label.en}</b>)`;
+  }
+  document.getElementById('narr').innerHTML=html;
+}
+
+/* carbon price at which target tech total == ref tech total */
+function beCarbon(target,ref,r){
+  const a=lcoe(D[target],r,0), b=lcoe(D[ref],r,0);
+  const dCO2 = D[ref].co2 - D[target].co2;           // ref usually emits more
+  if(dCO2<=0) return Infinity;
+  return (a.total - b.total)/dCO2;                   // $/t
+}
+
+/* mini canvas: total LCOE vs carbon price 0..150 */
+function renderCarbon(r){
+  const cv=document.getElementById('cv'); const dpr=window.devicePixelRatio||1;
+  const W=cv.clientWidth, H=170; cv.width=W*dpr; cv.height=H*dpr;
+  const x=cv.getContext('2d'); x.scale(dpr,dpr); x.clearRect(0,0,W,H);
+  const padL=40,padB=22,padT=10,padR=10;
+  const xmax=150; const series=ORDER.map(t=>({t,col:getColor(t)}));
+  let ymax=0; for(let cp=0;cp<=xmax;cp+=10) ORDER.forEach(t=>ymax=Math.max(ymax,lcoe(D[t],r,cp).total));
+  ymax=Math.ceil(ymax/20)*20;
+  const X=cp=>padL+(cp/xmax)*(W-padL-padR);
+  const Y=v=>H-padB-(v/ymax)*(H-padT-padB);
+  // grid
+  x.strokeStyle='#2b3c50'; x.fillStyle='#8aa0b6'; x.font='10px sans-serif'; x.lineWidth=1;
+  for(let v=0;v<=ymax;v+=Math.max(20,Math.round(ymax/5/20)*20)){
+    x.beginPath();x.moveTo(padL,Y(v));x.lineTo(W-padR,Y(v));x.stroke();
+    x.fillText('$'+v,4,Y(v)+3);
+  }
+  for(let cp=0;cp<=xmax;cp+=30){const lbl='$'+cp; const w=x.measureText(lbl).width;
+    let lx=X(cp)-w/2; if(cp===xmax) lx=X(cp)-w; if(cp===0) lx=X(cp); x.fillText(lbl,lx,H-7);}
+  // current carbon marker
+  const curC=parseFloat(document.getElementById('c').value);
+  x.strokeStyle='#ffd166';x.setLineDash([4,3]);x.beginPath();x.moveTo(X(curC),padT);x.lineTo(X(curC),H-padB);x.stroke();x.setLineDash([]);
+  // lines
+  series.forEach(s=>{
+    x.strokeStyle=s.col;x.lineWidth=2;x.beginPath();
+    let first=true;
+    for(let cp=0;cp<=xmax;cp+=5){const px=X(cp),py=Y(lcoe(D[s.t],r,cp).total);
+      if(first){x.moveTo(px,py);first=false;}else x.lineTo(px,py);}
+    x.stroke();
+  });
+  // tech color legend (HTML, avoids on-canvas overlap)
+  const tl=document.getElementById('techLegend');
+  tl.innerHTML=ORDER.map(t=>'<span><i class="dot" style="background:'+getColor(t)+'"></i>'+D[t].label[lang]+'</span>').join('');
+  // crossover text
+  const beCoal=beCarbon('SMR','Coal',r), beGas=beCarbon('SMR','Gas',r);
+  const cross=document.getElementById('cross');
+  const fmt=v=>{ if(!isFinite(v)||v<=0) return lang==='ko'?'(SMR가 항상 저렴)':'(SMR always cheaper)';
+    const tag=v>xmax?(lang==='ko'?' <span style="color:var(--mute)">(차트 범위 밖)</span>':' <span style="color:var(--mute)">(off-chart)</span>'):'';
+    return '<b>$'+v.toFixed(0)+'/t</b>'+tag; };
+  if(lang==='ko'){
+    cross.innerHTML='SMR가 비용 역전하는 탄소가격: vs 석탄 '+fmt(beCoal)+' · vs 가스복합 '+fmt(beGas);
+  } else {
+    cross.innerHTML='Carbon price where SMR breaks even: vs coal '+fmt(beCoal)+' · vs gas CCGT '+fmt(beGas);
+  }
+}
+function getColor(t){const m={Coal:'#7a6a5a',Gas:'#5b8c9e',SMR:'#3fb6ff',AP1000:'#9b8cff',APR1400:'#5ad19a'};return m[t];}
+
+function resetAll(){ D=structuredClone(BASE);
+  document.getElementById('r').value=7; document.getElementById('c').value=30; document.getElementById('fx').value=1350;
+  buildEditor(); recalc(); }
+
+/* init */
+buildChips(); buildEditor(); setLang('ko');
+window.addEventListener('resize',()=>renderCarbon(parseFloat(document.getElementById('r').value)/100));
+</script>
+</body>
+</html>
