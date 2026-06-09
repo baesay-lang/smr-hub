@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMR 인허가 트랙별 분류</title>
+<style>
+  :root{
+    --bg:#0f1419; --bg-card:#1a212b; --bg-card-hover:#212a36; --border:#2a3441;
+    --text:#e6edf3; --text-dim:#9aa7b4; --accent:#4dabf7; --accent-dim:#1c3a52;
+    --hi:#ffd43b; --hi-bg:#4a3f00;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,"Segoe UI","Malgun Gothic",sans-serif;background:var(--bg);color:var(--text);line-height:1.6;font-size:15px;}
+  a{color:var(--accent);text-decoration:none;}
+  a:hover{text-decoration:underline;}
+
+  .topnav{display:flex;gap:4px;background:#0b0f14;border-bottom:1px solid var(--border);padding:8px 16px;position:sticky;top:0;z-index:200;flex-wrap:wrap;}
+  .topnav a{color:var(--text-dim);padding:7px 14px;border-radius:7px;font-size:14px;font-weight:600;}
+  .topnav a:hover{background:var(--bg-card);color:var(--text);text-decoration:none;}
+  .topnav a.active{background:var(--accent-dim);color:var(--accent);}
+
+  header{padding:22px 24px 10px;}
+  h1{font-size:22px;margin:0 0 4px;}
+  .subtitle{color:var(--text-dim);font-size:13.5px;}
+
+  main{max-width:980px;margin:0 auto;padding:8px 24px 60px;}
+
+  .keynote{background:var(--bg-card);border:1px solid var(--border);border-left:3px solid var(--hi);border-radius:10px;padding:14px 18px;margin:14px 0 26px;font-size:14px;color:var(--text-dim);}
+  .keynote b{color:var(--text);}
+
+  .reg-group{margin-bottom:30px;}
+  .reg-head{font-size:13px;font-weight:700;color:var(--text-dim);text-transform:uppercase;letter-spacing:.5px;margin:0 0 12px;padding-bottom:6px;border-bottom:1px solid var(--border);}
+
+  .track{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;margin-bottom:12px;overflow:hidden;scroll-margin-top:70px;}
+  .track-head{padding:16px 20px;cursor:pointer;display:flex;align-items:center;gap:12px;user-select:none;}
+  .track-head:hover{background:var(--bg-card-hover);}
+  .track-badge{font-size:13px;font-weight:800;padding:4px 11px;border-radius:6px;white-space:nowrap;}
+  .b50{background:var(--accent-dim);color:var(--accent);}
+  .b52{background:#143620;color:#51cf66;}
+  .b53{background:var(--hi-bg);color:var(--hi);}
+  .bpre{background:#2a3441;color:var(--text-dim);}
+  .bgda{background:#3a2a10;color:#ffa94d;}
+  .bcnsc{background:#3a1818;color:#ff8787;}
+  .bkr{background:#2c2348;color:#b197fc;}
+  .track-title{font-weight:700;font-size:15.5px;}
+  .track-sub{color:var(--text-dim);font-size:12.5px;font-weight:400;display:block;margin-top:1px;}
+  .track-meta{margin-left:auto;display:flex;align-items:center;gap:12px;}
+  .cnt{background:#0b0f14;border:1px solid var(--border);color:var(--text-dim);font-size:12px;font-weight:700;padding:3px 10px;border-radius:20px;white-space:nowrap;}
+  .arrow{color:var(--text-dim);font-size:13px;transition:transform .15s;}
+  .track.open .arrow{transform:rotate(180deg);}
+
+  .track-body{display:none;padding:0 20px 16px;border-top:1px solid var(--border);}
+  .track.open .track-body{display:block;}
+  .track-desc{font-size:13.5px;color:var(--text-dim);padding:12px 0;margin:0;}
+  .track-desc b{color:var(--text);}
+  .track-desc .cfrlink{font-size:12.5px;}
+
+  .co-list{display:flex;flex-direction:column;gap:8px;}
+  .co{display:flex;align-items:center;gap:12px;background:#141a23;border:1px solid var(--border);border-radius:8px;padding:11px 14px;}
+  .co:hover{border-color:var(--accent);}
+  .co-flag{font-size:15px;}
+  .co-main{min-width:0;}
+  .co-name{font-weight:700;font-size:14.5px;}
+  .co-name a{color:var(--text);}
+  .co-name a:hover{color:var(--accent);}
+  .co-desc{font-size:12.5px;color:var(--text-dim);}
+  .co-stage{margin-left:auto;font-size:11.5px;font-weight:700;padding:3px 9px;border-radius:5px;white-space:nowrap;color:#0b0f14;}
+  .st1{background:#868e96;}.st2{background:#4dabf7;}.st3{background:#ffa94d;}.st4{background:#ffd43b;}.st5{background:#51cf66;}.st6{background:#69db7c;}
+  .empty{color:var(--text-dim);font-size:13.5px;padding:12px 0;font-style:italic;}
+
+  footer{max-width:980px;margin:0 auto;padding:20px 24px;color:var(--text-dim);font-size:12px;border-top:1px solid var(--border);}
+  .expandall{background:none;border:1px solid var(--border);color:var(--accent);font-size:13px;padding:7px 13px;border-radius:7px;cursor:pointer;margin:0 0 16px;}
+  .expandall:hover{background:var(--bg-card-hover);}
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a href="SMR-developers.html">🏭 SMR 개발사</a>
+  <a href="SMR-licensing-tracks.html" class="active">🗂️ 인허가 트랙</a>
+  <a href="SMR-reactor-types.html">⚛️ 노형 분류</a>
+  <a href="SMR-reference.html">📚 CFR 레퍼런스</a>
+</nav>
+
+<header>
+  <h1>🗂️ SMR 인허가 트랙별 분류</h1>
+  <div class="subtitle">어느 트랙으로 누가 가는가 — 트랙을 클릭하면 해당 트랙을 타는 개발사가 펼쳐집니다. 업체명 클릭 시 <a href="SMR-developers.html">개발사 상세</a>로 이동 (2026.6 기준)</div>
+</header>
+
+<main>
+  <div class="keynote">
+    <b>한눈에:</b> 미국 첨단로/SMR 실전 신청은 <b>대부분 NRC Part 50(2단계)</b>으로 진행 중. Part 52(설계인증/COL)는 NuScale·Oklo·Westinghouse(목표) 정도, <b>Part 53(첨단로 신규 트랙)은 신청자 0건</b>(발효 2026.4.29). 영국(GDA)·캐나다(CNSC)·한국(표준설계인가)은 각자 별도 체계 — 같은 개발사가 여러 나라 트랙을 동시에 타기도 함(예: GE-Hitachi, Holtec).
+  </div>
+
+  <button class="expandall" id="expandAll">전체 펼치기 ▾</button>
+
+  <!-- ===================== 미국 NRC ===================== -->
+  <div class="reg-group">
+    <div class="reg-head">🇺🇸 미국 — NRC (원자력규제위원회)</div>
+
+    <!-- Part 50 -->
+    <div class="track" id="part50">
+      <div class="track-head">
+        <span class="track-badge b50">Part 50</span>
+        <span class="track-title">2단계 허가 (건설허가 CP → 운영허가 OL)<span class="track-sub">현재 미국 첨단로/SMR 실전 신청의 주력 경로</span></span>
+        <span class="track-meta"><span class="cnt">5개사</span><span class="arrow">▼</span></span>
+      </div>
+      <div class="track-body">
+        <p class="track-desc">전통적 2단계 방식. 경수로 중심 틀이지만, 비경수로 첨단로들이 이미 검증된 이 경로로 대거 신청 중. <span class="cfrlink"><a href="SMR-reference.html">→ CFR Part 50 설명</a></span></p>
+        <div class="co-list">
+          <div class="co"><span class="co-flag">🇺🇸🇯🇵</span><div class="co-main"><div class="co-name"><a href="SMR-developers.html#gehitachi">GE Hitachi — BWRX-300</a></div><div class="co-desc">TVA Clinch River, CP 심사중(~2026.12)</div></div><span class="co-stage st5">건설 중*</span></div>
+          <div class="co"><span class="co-flag">🇺🇸</span><div class="co-main"><div class="co-name"><a href="SMR-developers.html#terrapower">TerraPower — Natrium</a></div><div class="co-desc">Kemmerer WY, 건설허가 발급(2026.3)</div></div><span class="co-stage st4">건설허가 발급</span></div>
+          <div class="co"><span class="co-flag">🇺🇸</span><div class="co-main"><div class="co-name"><a href="SMR-developers.html#kairos">Kairos Power — Hermes</a></div><div class="co-desc">Oak Ridge TN, 실증로 CP 발급·건설</div></div><span class="co-stage st5">건설 중</span></div>
+          <div class="co"><span class="co-flag">🇺🇸</span><div class="co-main"><div class="co-name"><a href="SMR-developers.html#xenergy">X-energy — Xe-100</a></div><div class="co-desc">Long Mott·Dow TX, CP 심사중(18개월)</div></div><span class="co-stage st3">건설허가 심사</span></div>
+          <div class="co"><span class="co-flag">🇺🇸</span><div class="co-main"><div class="co-name"><a href="SMR-developers.html#holtec">Holtec — SMR-300</a></div><div class="co-desc">Palisades MI, CP 접수(2026.2)</div></div><span class="co-stage st3">건설허가 심사</span></div>
+        </div>
+        <p class="track-desc" style="font-size:12px;">* GE-Hitachi의 “건설 중”은 캐나다 Darlington 기준. 미국 Part 50 신청(TVA)은 심사 단계.</p>
+      </div>
+    </div>
+
+    <!-- Part 52 -->
+    <div class="track" id="part52">
+      <div class="track-head">
+        <span class="track-badge b52">Part 52</span>
+        <span class="track-title">1단계형 (설계인증 DC / 통합건설운영허가 COL)<span class="track-sub">설계를 먼저 인증받거나, 건설+운영을 한 번에</span></span>
+        <span class="track-meta"><span class="cnt">3개사</span><span class="arrow">▼</span></span>
+      </div>
+      <div class="track-body">
+        <p class="track-desc">설계인증(DC)·표준설계승인(SDA)·통합건설운영허가(COL) 트랙. <span class="cfrlink"><a href="SMR-reference.html">→ CFR Part 52 설명</a></span></p>
+        <div class="co-list">
+          <div class="co"><span class="co-flag">🇺🇸</span><div class="co-main"><div class="co-name"><a href="SMR-developers.html#nuscale">NuScale Power</a></div><div class="co-desc">US600 설계인증 취득(2023), US460 SDA 심사 — DC 첫 획득</div></div><span class="co-stage st2">설계인증 완료</span></div>
+          <div class="co"><span class="co-flag">🇺🇸</span><div class="co-main"><div class="co-name"><a href="SMR-developers.html#oklo">Oklo — Aurora</a></div><div class="co-desc">단계형 COLA 재도전(2022 기각 후), INL</div></div><span class="co-stage st2">COL 재도전</span></div>
+          <div class="co"><span class="co-flag">🇺🇸</span><div class="co-main"><div class="co-name"><a href="SMR-developers.html#westinghouse">Westinghouse — AP300</a></div><div class="co-desc">설계인증(DC) 목표 2027, 현재 사전협의</div></div><span class="co-stage st1">사전협의</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Part 53 -->
+    <div class="track" id="part53">
+      <div class="track-head">
+        <span class="track-badge b53">Part 53</span>
+        <span class="track-title">첨단로 전용 신규 대안 트랙 (위험정보·성능기반)<span class="track-sub">발효 2026.4.29 — 비경수로·SMR·마이크로로 수용</span></span>
+        <span class="track-meta"><span class="cnt">신청 0건</span><span class="arrow">▼</span></span>
+      </div>
+      <div class="track-body">
+        <p class="track-desc"><b>현재 신청자 0건.</b> 발효된 지 얼마 안 된 신규 규칙으로, 향후 Xe-100 같은 비경수로가 <b>선택할 수 있는 대안</b>이지만 지금 실제 신청은 모두 Part 50/52로 진행 중. EO 14300 개정작업으로 세부 조항 추가 변경 가능. <span class="cfrlink"><a href="SMR-reference.html">→ CFR Part 53 상세</a></span></p>
+        <div class="empty">아직 이 트랙으로 신청한 개발사 없음 (사전협의는 일부 진행). 향후 후보: 비경수로 첨단로 전반.</div>
+      </div>
+    </div>
+
+    <!-- Pre-application -->
+    <div class="track" id="preapp">
+      <div class="track-head">
+        <span class="track-badge bpre">사전협의</span>
+        <span class="track-title">Pre-application Engagement<span class="track-sub">정식 신청 전 NRC와 사전 협의·토픽보고서 심사</span></span>
+        <span class="track-meta"><span class="cnt">1개사+</span><span class="arrow">▼</span></span>
+      </div>
+      <div class="track-body">
+        <p class="track-desc">정식 인허가 신청 전 단계. 설계기준·계측제어 등 토픽보고서를 미리 승인받아 본 신청을 단축.</p>
+        <div class="co-list">
+          <div class="co"><span class="co-flag">🇺🇸</span><div class="co-main"><div class="co-name"><a href="SMR-developers.html#westinghouse">Westinghouse — eVinci</a></div><div class="co-desc">I&C 플랫폼 승인(2024.12), 주요설계기준 승인(2025.4)</div></div><span class="co-stage st1">사전협의</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== 영국 ===================== -->
+  <div class="reg-group">
+    <div class="reg-head">🇬🇧 영국 — ONR (GDA)</div>
+    <div class="track" id="gda">
+      <div class="track-head">
+        <span class="track-badge bgda">UK GDA</span>
+        <span class="track-title">일반설계평가 (Generic Design Assessment)<span class="track-sub">ONR·EA·NRW 합동 설계 사전심사 (Step 1~3)</span></span>
+        <span class="track-meta"><span class="cnt">2개사</span><span class="arrow">▼</span></span>
+      </div>
+      <div class="track-body">
+        <p class="track-desc">부지와 무관하게 설계 자체를 단계별(Step 1~3)로 심사하는 영국식 트랙. 통과 후 부지별 인허가로 연결.</p>
+        <div class="co-list">
+          <div class="co"><span class="co-flag">🇬🇧</span><div class="co-main"><div class="co-name"><a href="SMR-developers.html#rollsroyce">Rolls-Royce SMR</a></div><div class="co-desc">Step 3(최종) 진행, ~2026.8 완료 예정. GBE-N 선정·Wylfa</div></div><span class="co-stage st2">설계심사 최종</span></div>
+          <div class="co"><span class="co-flag">🇺🇸</span><div class="co-main"><div class="co-name"><a href="SMR-developers.html#holtec">Holtec — SMR-300</a></div><div class="co-desc">Step 2 완료(근본 결함 없음). 미국 Part 50과 병행</div></div><span class="co-stage st2">설계심사 중</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== 캐나다 ===================== -->
+  <div class="reg-group">
+    <div class="reg-head">🇨🇦 캐나다 — CNSC</div>
+    <div class="track" id="cnsc">
+      <div class="track-head">
+        <span class="track-badge bcnsc">CNSC</span>
+        <span class="track-title">벤더설계심사(VDR) → 부지준비·건설·운영 허가<span class="track-sub">캐나다 원자력안전위원회 단계별 면허 체계</span></span>
+        <span class="track-meta"><span class="cnt">2개사</span><span class="arrow">▼</span></span>
+      </div>
+      <div class="track-body">
+        <p class="track-desc">VDR(설계 사전심사) 후 부지준비허가(LTPS)→건설허가(LTC)→운영허가로 진행. 북미 SMR 상용화의 최선두(Darlington).</p>
+        <div class="co-list">
+          <div class="co"><span class="co-flag">🇺🇸🇯🇵</span><div class="co-main"><div class="co-name"><a href="SMR-developers.html#gehitachi">GE Hitachi — BWRX-300 (OPG Darlington)</a></div><div class="co-desc">건설허가 발급(2025.4), 핵 콘크리트 타설, 운영허가 신청</div></div><span class="co-stage st5">건설 중</span></div>
+          <div class="co"><span class="co-flag">🇨🇦</span><div class="co-main"><div class="co-name"><a href="SMR-developers.html#arc">ARC Clean Technology — ARC-100 (Point Lepreau)</a></div><div class="co-desc">VDR Phase 2 완료(2025.7), 건설허가 신청 목표 2027</div></div><span class="co-stage st2">설계심사 완료</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== 한국 ===================== -->
+  <div class="reg-group">
+    <div class="reg-head">🇰🇷 한국 — NSSC / KINS</div>
+    <div class="track" id="korea">
+      <div class="track-head">
+        <span class="track-badge bkr">표준설계인가</span>
+        <span class="track-title">표준설계인가(SDA) → 건설·운영허가<span class="track-sub">원자력안전위원회(NSSC)·한국원자력안전기술원(KINS)</span></span>
+        <span class="track-meta"><span class="cnt">2개사</span><span class="arrow">▼</span></span>
+      </div>
+      <div class="track-body">
+        <p class="track-desc">설계를 표준설계인가(SDA)로 먼저 승인받는 한국 체계. SMART는 세계 첫 SMR SDA(2012) 사례.</p>
+        <div class="co-list">
+          <div class="co"><span class="co-flag">🇰🇷</span><div class="co-main"><div class="co-name"><a href="SMR-developers.html#smart">SMART / SMART100 (KAERI)</a></div><div class="co-desc">SMART100 표준설계인가 취득(2024.9), 사우디 수출 추진</div></div><span class="co-stage st2">설계인가 완료</span></div>
+          <div class="co"><span class="co-flag">🇰🇷</span><div class="co-main"><div class="co-name"><a href="SMR-developers.html#ismr">i-SMR (혁신형)</a></div><div class="co-desc">국책 개발사업, 표준설계인가 목표 2028</div></div><span class="co-stage st1">설계개발 중</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== 미진입 ===================== -->
+  <div class="reg-group">
+    <div class="reg-head">🌐 규제 트랙 미진입 (초기 단계)</div>
+    <div class="track" id="early">
+      <div class="track-head">
+        <span class="track-badge bpre">초기 R&D</span>
+        <span class="track-title">정식 인허가 트랙 진입 전<span class="track-sub">개념설계·실험 단계, 규제기관 미확정</span></span>
+        <span class="track-meta"><span class="cnt">1개사</span><span class="arrow">▼</span></span>
+      </div>
+      <div class="track-body">
+        <p class="track-desc">아직 특정 국가의 정식 인허가 트랙에 진입하지 않은 초기 단계 개발사.</p>
+        <div class="co-list">
+          <div class="co"><span class="co-flag">🇩🇰</span><div class="co-main"><div class="co-name"><a href="SMR-developers.html#seaborg">Seaborg (→ Saltfoss) — CMSR</a></div><div class="co-desc">해상 부유식 용융염로, 초기 R&D. 연료 LEU 전환. KHNP·삼성중공업 컨소시엄</div></div><span class="co-stage st1">개념·초기</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  ⚠️ 인허가는 빠르게 변합니다 — 회의·보고 직전 NRC·ONR·CNSC·NSSC 및 개발사 공시로 재확인 권장. · 2026.6 기준.<br>
+  🔗 <a href="SMR-developers.html">개발사별로 보기</a> · <a href="SMR-reference.html">CFR 규정 레퍼런스</a>
+</footer>
+
+<script>
+  const tracks=Array.from(document.querySelectorAll('.track'));
+  tracks.forEach(t=>{
+    t.querySelector('.track-head').addEventListener('click',()=>t.classList.toggle('open'));
+  });
+  // expand all toggle
+  const ea=document.getElementById('expandAll');
+  ea.addEventListener('click',()=>{
+    const anyClosed=tracks.some(t=>!t.classList.contains('open'));
+    tracks.forEach(t=>t.classList.toggle('open',anyClosed));
+    ea.textContent=anyClosed?'전체 접기 ▴':'전체 펼치기 ▾';
+  });
+  // open + scroll if arrived via #id
+  function openHash(){
+    if(!location.hash)return;
+    const el=document.querySelector(location.hash);
+    if(el&&el.classList.contains('track')){el.classList.add('open');el.scrollIntoView({behavior:'smooth',block:'start'});}
+  }
+  window.addEventListener('hashchange',openHash);
+  openHash();
+  // default: open Part 50 so page isn't empty on first load
+  if(!location.hash){document.getElementById('part50').classList.add('open');}
+</script>
+</body>
+</html>

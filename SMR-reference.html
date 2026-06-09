@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMR 규제·업무 레퍼런스</title>
+<style>
+  :root {
+    --bg: #0f1419;
+    --bg-card: #1a212b;
+    --bg-card-hover: #212a36;
+    --border: #2a3441;
+    --text: #e6edf3;
+    --text-dim: #9aa7b4;
+    --accent: #4dabf7;
+    --accent-dim: #1c3a52;
+    --hi: #ffd43b;
+    --hi-bg: #4a3f00;
+    --tag-nrc: #4dabf7;
+    --tag-doe: #51cf66;
+    --tag-bis: #ffa94d;
+    --tag-state: #ff8787;
+    --rel-high: #ff6b6b;
+    --rel-mid: #ffd43b;
+    --rel-low: #868e96;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, "Segoe UI", "Malgun Gothic", sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    font-size: 15px;
+  }
+  header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: rgba(15,20,25,0.96);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border);
+    padding: 16px 24px;
+  }
+  .header-top {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+  }
+  h1 { font-size: 20px; margin: 0; font-weight: 700; }
+  .subtitle { color: var(--text-dim); font-size: 13px; }
+  .search-row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  #search {
+    flex: 1;
+    min-width: 240px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text);
+    padding: 10px 14px;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+  }
+  #search:focus { border-color: var(--accent); }
+  .filters { display: flex; gap: 6px; flex-wrap: wrap; }
+  .chip {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    color: var(--text-dim);
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    cursor: pointer;
+    user-select: none;
+    transition: all 0.12s;
+  }
+  .chip:hover { background: var(--bg-card-hover); color: var(--text); }
+  .chip.active { background: var(--accent-dim); border-color: var(--accent); color: var(--accent); }
+  .result-count { color: var(--text-dim); font-size: 13px; margin-left: auto; }
+
+  main { max-width: 1100px; margin: 0 auto; padding: 24px; }
+
+  .intro {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 8px;
+    padding: 16px 20px;
+    margin-bottom: 24px;
+    font-size: 14px;
+    color: var(--text-dim);
+  }
+  .intro b { color: var(--text); }
+  .priority-box {
+    margin-top: 12px;
+    padding-top: 12px;
+    border-top: 1px dashed var(--border);
+  }
+
+  .section { margin-bottom: 32px; }
+  .section-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--accent);
+    margin: 0 0 4px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .section-desc { color: var(--text-dim); font-size: 13px; margin: 0 0 14px 0; }
+
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 18px;
+    margin-bottom: 10px;
+    transition: border-color 0.12s;
+  }
+  .card:hover { border-color: var(--accent); }
+  .card.star { border-left: 3px solid var(--hi); }
+  .card-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 6px;
+  }
+  .part-num { font-weight: 700; font-size: 15px; color: var(--text); }
+  .part-name { color: var(--text-dim); font-size: 14px; }
+  .tag {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    white-space: nowrap;
+  }
+  .tag-NRC { background: var(--accent-dim); color: var(--tag-nrc); }
+  .tag-DOE { background: #143620; color: var(--tag-doe); }
+  .tag-BIS { background: #3a2410; color: var(--tag-bis); }
+  .tag-State { background: #3a1818; color: var(--tag-state); }
+  .rel {
+    margin-left: auto;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 4px;
+    border: 1px solid;
+  }
+  .rel-high { color: var(--rel-high); border-color: var(--rel-high); }
+  .rel-mid { color: var(--rel-mid); border-color: var(--rel-mid); }
+  .rel-low { color: var(--rel-low); border-color: var(--rel-low); }
+  .card-body { font-size: 14px; color: var(--text-dim); }
+  .card-body .xe { color: var(--hi); }
+  .badge-star {
+    background: var(--hi-bg);
+    color: var(--hi);
+    font-size: 11px;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 4px;
+  }
+
+  /* comparison table */
+  .cmp-wrap { overflow-x: auto; border: 1px solid var(--border); border-radius: 8px; }
+  table.cmp { width: 100%; border-collapse: collapse; font-size: 13.5px; min-width: 720px; }
+  table.cmp th, table.cmp td { text-align: left; padding: 11px 14px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  table.cmp th { background: var(--bg-card-hover); color: var(--text); font-weight: 600; font-size: 12.5px; white-space: nowrap; }
+  table.cmp tr:last-child td { border-bottom: none; }
+  table.cmp tbody tr:hover { background: var(--bg-card); }
+  .co { font-weight: 700; color: var(--text); }
+  .co-sub { color: var(--text-dim); font-size: 12px; display: block; font-weight: 400; }
+  .trk { font-weight: 700; padding: 2px 8px; border-radius: 4px; font-size: 12px; white-space: nowrap; }
+  .trk-50 { background: var(--accent-dim); color: var(--accent); }
+  .trk-52 { background: #143620; color: var(--tag-doe); }
+  .trk-53 { background: var(--hi-bg); color: var(--hi); }
+  .noltr { color: var(--rel-high); font-weight: 600; }
+  .ltr { color: var(--tag-doe); font-weight: 600; }
+  .cmp-note { background: var(--bg-card); border:1px solid var(--border); border-left:3px solid var(--hi); border-radius:8px; padding:12px 16px; margin-bottom:14px; font-size:13.5px; color:var(--text-dim); }
+  .cmp-note b { color: var(--text); }
+
+  mark { background: var(--hi-bg); color: var(--hi); border-radius: 2px; padding: 0 1px; }
+
+  .hidden { display: none !important; }
+  .no-results {
+    text-align: center;
+    color: var(--text-dim);
+    padding: 40px;
+    font-size: 15px;
+  }
+  footer {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px;
+    color: var(--text-dim);
+    font-size: 12px;
+    border-top: 1px solid var(--border);
+  }
+  a { color: var(--accent); }
+
+  .topnav{display:flex;gap:4px;background:#0b0f14;border-bottom:1px solid var(--border);padding:8px 16px;flex-wrap:wrap;}
+  .topnav a{color:var(--text-dim);padding:7px 14px;border-radius:7px;font-size:14px;font-weight:600;text-decoration:none;}
+  .topnav a:hover{background:var(--bg-card);color:var(--text);}
+  .topnav a.active{background:var(--accent-dim);color:var(--accent);}
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a href="SMR-developers.html">🏭 SMR 개발사</a>
+  <a href="SMR-licensing-tracks.html">🗂️ 인허가 트랙</a>
+  <a href="SMR-reactor-types.html">⚛️ 노형 분류</a>
+  <a href="SMR-reference.html" class="active">📚 CFR 레퍼런스</a>
+</nav>
+<header>
+  <div class="header-top">
+    <h1>⚛️ SMR 규제·업무 레퍼런스</h1>
+    <span class="subtitle">원자력 / SMR / 수출 / EPC — 필요할 때 찾아보는 정리집</span>
+  </div>
+  <div class="search-row">
+    <input id="search" type="text" placeholder="검색… (예: Part 53, 수출통제, HALEU, QA, Xe-100)" autocomplete="off">
+    <div class="filters" id="filters">
+      <span class="chip active" data-filter="all">전체</span>
+      <span class="chip" data-filter="NRC">NRC</span>
+      <span class="chip" data-filter="DOE">DOE/NNSA</span>
+      <span class="chip" data-filter="BIS">상무부(BIS)</span>
+      <span class="chip" data-filter="State">국무부</span>
+      <span class="chip" data-filter="star">⭐ 우선순위</span>
+    </div>
+    <span class="result-count" id="count"></span>
+  </div>
+</header>
+
+<main id="content">
+
+  <div class="intro" data-section="intro">
+    <b>큰 틀 — CFR은 기관별로 나뉘어 있음 (이걸 먼저 잡고 가야 함)</b><br>
+    한국에서 일하더라도 X-energy/Xe-100처럼 <b>미국 기술 기반 사업</b>이면 결국 이 미국 규정들을 알아야 하는 구조.
+    <ul style="margin:10px 0 0 0; padding-left:20px;">
+      <li><b>10 CFR</b> = Title 10 "에너지" → <b>NRC</b>(원자력규제위) + <b>DOE</b>(에너지부) 소관. 원자력 핵심은 거의 다 여기.</li>
+      <li><b>15 CFR</b> = EAR(수출관리규정), <b>상무부(BIS)</b> 소관 → 이중용도(dual-use) 품목.</li>
+      <li><b>22 CFR</b> = ITAR(국제무기거래규정), <b>국무부</b> 소관 → 방산 품목. 원자력 직접 비중은 작지만 일부 군사 연계 기술이 걸릴 수 있음.</li>
+    </ul>
+    <div class="priority-box">
+      <b>업무 우선순위 (1순위 5개):</b>
+      Part 52·53 (인허가) + Part 810·110 (수출통제) + Part 50 App.B / Part 21 (EPC 품질).<br>
+      특히 <span style="color:var(--hi)">Part 53</span>은 발효된 지 얼마 안 된 신규 규칙 — "Xe-100 같은 비경수로는 Part 53 신규 트랙 대상"이라는 점이 시의성 좋음.
+    </div>
+  </div>
+
+  <!-- 1. 인허가 -->
+  <div class="section" data-cat="licensing">
+    <h2 class="section-title">1. 인허가 (Licensing)</h2>
+    <p class="section-desc">사업 인허가 트랙 — 가장 중요한 묶음</p>
+
+    <div class="card star" data-agency="NRC" data-star="1" data-keywords="part50 건설허가 운영허가 CP OL 경수로 LWR 국내허가 Xe-100 Long Mott Dow TerraPower Natrium BWRX-300 Kairos">
+      <div class="card-head"><span class="part-num">Part 50</span><span class="badge-star">⭐ 실전 트랙</span><span class="part-name">생산·이용시설 국내 허가 (Domestic Licensing)</span><span class="tag tag-NRC">NRC</span><span class="rel rel-high">Xe-100: 높음(실제)</span></div>
+      <div class="card-body">전통적 2단계 방식(건설허가 CP → 운영허가 OL). 경수로(LWR) 위주로 만들어진 오래된 틀이지만, <span class="xe">실제로 X-energy Xe-100(Long Mott·Dow)·TerraPower Natrium·GE-Hitachi BWRX-300(TVA)·Kairos Hermes 등 현재 미국 첨단로 신청이 대부분 이 Part 50으로 들어감.</span> "오래된 틀"이라는 인상과 달리 SMR 실전 인허가의 주력 경로 — 아래 「업체 인허가 트랙 비교」 참고.</div>
+    </div>
+
+    <div class="card" data-agency="NRC" data-keywords="part52 COL DC ESP 통합허가 설계인증 부지사전승인 신규원전">
+      <div class="card-head"><span class="part-num">Part 52</span><span class="part-name">신규원전 통합 허가</span><span class="tag tag-NRC">NRC</span><span class="rel rel-mid">Xe-100: 중간</span></div>
+      <div class="card-body">COL(통합건설운영허가)·DC(설계인증)·ESP(부지사전승인) 같은 1단계형 트랙. 현재 미국 신규원전 대부분이 타는 길.</div>
+    </div>
+
+    <div class="card star" data-agency="NRC" data-star="1" data-keywords="part53 첨단로 비경수로 SMR 마이크로로 위험정보기반 성능기반 기술포괄 PRA 확률론적안전성평가 HTGR Xe-100 EO14300">
+      <div class="card-head"><span class="part-num">Part 53</span><span class="badge-star">⭐ 핵심</span><span class="part-name">신규/첨단로(SMR·비경수로) 전용 대안 트랙</span><span class="tag tag-NRC">NRC</span><span class="rel rel-high">Xe-100: 높음</span></div>
+      <div class="card-body">
+        위험정보기반·성능기반·기술포괄(Risk-Informed, Performance-Based, Technology-Inclusive). 기존 Parts 50·52의 <b>선택적 대안</b>으로, 비경수로·SMR·마이크로로처럼 기존 경수로 중심 틀에 안 맞는 첨단로를 수용하기 위해 만듦. 규정식 요건을 고차원 성능기준(performance criteria)으로 대체해 PRA(확률론적안전성평가) 활용을 허용. <span class="xe">Xe-100(HTGR, 비경수로)이 향후 선택할 수 있는 대안 트랙 — 단, 현재 Xe-100의 실제 신청(Long Mott·Dow)은 Part 50으로 진행 중이며, Part 53 신청자는 아직 0건(발효 2026.4.29).</span><br><br>
+        <b>📅 시점:</b> 2026.3.26 위원 표결 최종 확정 → 3.30 연방관보 게재 → <b>발효일 2026.4.29</b> (출처: NRC, Federal Register 2026-06048). 발효 전엔 신청서 제출 불가하나, NRC 직원과의 사전협의(pre-application engagement)는 지금도 가능.<br><br>
+        <b>⚠️ 주의:</b> 행정명령 EO 14300에 따라 NRC가 규정 전반을 대대적 개정(wholesale revision) 중 → Part 53도 향후 추가 수정 가능. 세부 조항은 그때그때 <a href="https://www.ecfr.gov" target="_blank">eCFR</a> 원문 확인 필요.
+      </div>
+    </div>
+
+    <div class="card" data-agency="NRC" data-keywords="part51 환경영향평가 NEPA 범주적제외 categorical exclusion">
+      <div class="card-head"><span class="part-num">Part 51</span><span class="part-name">환경영향평가 (NEPA 이행)</span><span class="tag tag-NRC">NRC</span><span class="rel rel-mid">Xe-100: 중간</span></div>
+      <div class="card-body">Part 53과 함께 반복적 인허가 행위에 대한 범주적 제외(categorical exclusion)를 정비하는 별도 최종규칙이 같이 확정됨.</div>
+    </div>
+
+    <div class="card" data-agency="NRC" data-keywords="part54 운영허가갱신 license renewal">
+      <div class="card-head"><span class="part-num">Part 54</span><span class="part-name">운영허가 갱신 (License Renewal)</span><span class="tag tag-NRC">NRC</span><span class="rel rel-low">Xe-100: 낮음</span></div>
+      <div class="card-body">기존 원전 운영허가 기간 갱신.</div>
+    </div>
+
+    <div class="card" data-agency="NRC" data-keywords="part55 운전원면허 operators license">
+      <div class="card-head"><span class="part-num">Part 55</span><span class="part-name">운전원 면허 (Operators' Licenses)</span><span class="tag tag-NRC">NRC</span><span class="rel rel-low">Xe-100: 낮음</span></div>
+      <div class="card-body">원자로 운전원 개인 면허 요건.</div>
+    </div>
+
+    <div class="card" data-agency="NRC" data-keywords="part100 원자로부지기준 reactor site criteria">
+      <div class="card-head"><span class="part-num">Part 100</span><span class="part-name">원자로 부지 기준 (Reactor Site Criteria)</span><span class="tag tag-NRC">NRC</span><span class="rel rel-mid">Xe-100: 중간</span></div>
+      <div class="card-body">부지 선정·평가 기준.</div>
+    </div>
+  </div>
+
+  <!-- 1.5 업체 인허가 트랙 비교 -->
+  <div class="section" id="cmpSection" data-cat="compare">
+    <h2 class="section-title">📊 주요 SMR 업체 인허가 트랙 비교</h2>
+    <p class="section-desc">"어느 회사가 Part 몇으로 가는가" — 실제 NRC 신청 기준 (2026.6 현재)</p>
+
+    <div class="cmp-note">
+      <b>핵심 인사이트:</b> 현재 미국 SMR/첨단로 신청은 <b>대부분 Part 50(2단계: 건설허가 CP→운영허가 OL)</b>으로 진행됨.
+      Part 52(설계인증/COL)는 <b>NuScale·Oklo</b> 정도, <b>Part 53 신청자는 아직 0건</b>(발효 2026.4.29).
+      즉 "Part 53 = SMR"이 아니라, <b>실전은 Part 50이 주력</b>이고 Part 53는 앞으로 열리는 대안 트랙임.
+    </div>
+
+    <div class="cmp-wrap">
+      <table class="cmp">
+        <thead>
+          <tr>
+            <th>업체 / 프로젝트</th>
+            <th>원자로 (노형)</th>
+            <th>인허가 트랙</th>
+            <th>상태 (2026.6 기준)</th>
+            <th>비고</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr data-keywords="x-energy xenergy xe-100 htgr 비경수로 triso haleu long mott dow seadrift texas part50">
+            <td><span class="co">X-energy <span class="co-sub">Long Mott·Dow (Seadrift, TX)</span></span></td>
+            <td>Xe-100 <span class="noltr">비경수로(HTGR)</span><span class="co-sub">80MWe/200MWth, TRISO</span></td>
+            <td><span class="trk trk-50">Part 50</span></td>
+            <td>건설허가(CP) 접수·도케팅(2025), 18개월 심사 진행. NEPA를 EA(약식)로 통과 — 첫 사례</td>
+            <td>운영허가(OL)는 2단계로 추후. <b>Xe-100 실제 트랙</b></td>
+          </tr>
+          <tr data-keywords="nuscale us600 us460 voygr 경수로 lwr pwr 설계인증 dc sda part52">
+            <td><span class="co">NuScale <span class="co-sub">VOYGR / US600·US460</span></span></td>
+            <td>NuScale SMR <span class="ltr">경수로(PWR형)</span><span class="co-sub">모듈형 가압경수로</span></td>
+            <td><span class="trk trk-52">Part 52</span></td>
+            <td>US600 설계인증(DC) 2023 취득. 출력증강 US460 표준설계승인(SDA) 심사</td>
+            <td>유일하게 Part 52 설계 2건 보유. 인허가 선두</td>
+          </tr>
+          <tr data-keywords="terrapower natrium kemmerer wyoming sfr 비경수로 sodium 소듐냉각 고속로 part50">
+            <td><span class="co">TerraPower <span class="co-sub">Kemmerer (Wyoming)</span></span></td>
+            <td>Natrium <span class="noltr">비경수로(SFR)</span><span class="co-sub">345MWe, 소듐냉각+용융염저장</span></td>
+            <td><span class="trk trk-50">Part 50</span></td>
+            <td><b>건설허가(CP) 발급 완료(2026.3)</b> — 첫 상업용 비경수로 CP</td>
+            <td>40여 년 만의 비경수로 도케팅 사례. 선행주자</td>
+          </tr>
+          <tr data-keywords="ge hitachi gehitachi bwrx-300 bwrx300 tva clinch river 경수로 lwr bwr 비등경수로 part50">
+            <td><span class="co">GE-Hitachi <span class="co-sub">TVA Clinch River (TN)</span></span></td>
+            <td>BWRX-300 <span class="ltr">경수로(BWR형)</span><span class="co-sub">300MWe, 비등경수로 SMR</span></td>
+            <td><span class="trk trk-50">Part 50</span></td>
+            <td>건설허가(CP) 접수·도케팅(2025), 17개월 심사(~2026.12 목표)</td>
+            <td>미국 첫 BWRX-300 CP 신청(북미 2번째, 캐나다 OPG 선행)</td>
+          </tr>
+          <tr data-keywords="kairos power hermes fhr 비경수로 불소염 flibe 실증로 테스트로 part50">
+            <td><span class="co">Kairos Power <span class="co-sub">Hermes (Oak Ridge, TN)</span></span></td>
+            <td>Hermes <span class="noltr">비경수로(FHR)</span><span class="co-sub">불소염 냉각, 실증로</span></td>
+            <td><span class="trk trk-50">Part 50</span></td>
+            <td>건설허가(CP) 발급(비발전 실증로). 후속 Hermes 2 진행</td>
+            <td>상업로 아닌 실증로지만 Part 50 트랙 선례</td>
+          </tr>
+          <tr data-keywords="oklo aurora inl idaho 고속로 마이크로로 microreactor 비경수로 colა combined license part52">
+            <td><span class="co">Oklo <span class="co-sub">Aurora (INL, Idaho)</span></span></td>
+            <td>Aurora <span class="noltr">비경수로(고속 마이크로로)</span><span class="co-sub">~15MWe급</span></td>
+            <td><span class="trk trk-52">Part 52</span></td>
+            <td>통합건설운영허가(COL) 단계형 신청. 2022년 1차 기각 후 재도전</td>
+            <td>Part 50(CP+OL) 대신 Part 52 COL 단일트랙 선택</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="section-desc" style="margin-top:10px;">
+      🔎 <b>트랙 한눈에:</b>
+      <span class="trk trk-50">Part 50</span> 2단계(CP+OL), 현재 첨단로 주력 ·
+      <span class="trk trk-52">Part 52</span> 1단계(설계인증/COL) ·
+      <span class="trk trk-53">Part 53</span> 첨단로 전용 신규 대안(신청 0건)
+    </p>
+  </div>
+
+  <!-- 2. 안전·보안·품질 -->
+  <div class="section" data-cat="safety">
+    <h2 class="section-title">2. 안전·보안·품질</h2>
+    <p class="section-desc">공통 베이스 + EPC/공급망 품질 핵심</p>
+
+    <div class="card" data-agency="NRC" data-keywords="part20 방사선방호 radiation protection ALARA">
+      <div class="card-head"><span class="part-num">Part 20</span><span class="part-name">방사선방호 기준 (Radiation Protection, ALARA)</span><span class="tag tag-NRC">NRC</span><span class="rel rel-mid">Xe-100: 중간</span></div>
+      <div class="card-body">모든 인허가의 공통 베이스.</div>
+    </div>
+
+    <div class="card" data-agency="NRC" data-keywords="part21 결함보고 미준수보고 reporting defects noncompliance 공급망 EPC">
+      <div class="card-head"><span class="part-num">Part 21</span><span class="part-name">결함·미준수 보고 (Reporting of Defects and Noncompliance)</span><span class="tag tag-NRC">NRC</span><span class="rel rel-high">Xe-100: 높음</span></div>
+      <div class="card-body">EPC/공급망 품질에서 중요. (우선순위 5개 중 하나)</div>
+    </div>
+
+    <div class="card" data-agency="NRC" data-keywords="part26 종사자적합성 fitness for duty">
+      <div class="card-head"><span class="part-num">Part 26</span><span class="part-name">종사자 적합성 (Fitness for Duty)</span><span class="tag tag-NRC">NRC</span><span class="rel rel-low">Xe-100: 낮음</span></div>
+      <div class="card-body">종사자 마약·음주 등 적합성 관리.</div>
+    </div>
+
+    <div class="card star" data-agency="NRC" data-star="1" data-keywords="part50 appendix B 품질보증 QA 기자재조달 EPC 계약">
+      <div class="card-head"><span class="part-num">Part 50 App. B</span><span class="badge-star">⭐ 핵심</span><span class="part-name">원자력 품질보증(QA) 기준</span><span class="tag tag-NRC">NRC</span><span class="rel rel-high">Xe-100: 높음</span></div>
+      <div class="card-body">EPC 계약·기자재 조달에서 핵심. (우선순위 5개 중 하나)</div>
+    </div>
+
+    <div class="card" data-agency="NRC" data-keywords="part73 물리적방호 physical protection 보안 사이버보안 cyber security">
+      <div class="card-head"><span class="part-num">Part 73</span><span class="part-name">물리적방호 (Physical Protection, 보안)</span><span class="tag tag-NRC">NRC</span><span class="rel rel-mid">Xe-100: 중간</span></div>
+      <div class="card-body">사이버보안 포함.</div>
+    </div>
+
+    <div class="card" data-agency="NRC" data-keywords="part74 핵물질관리 계량 material control accounting MCA">
+      <div class="card-head"><span class="part-num">Part 74</span><span class="part-name">핵물질 관리·계량 (Material Control &amp; Accounting)</span><span class="tag tag-NRC">NRC</span><span class="rel rel-mid">Xe-100: 중간</span></div>
+      <div class="card-body">핵물질 계량관리.</div>
+    </div>
+  </div>
+
+  <!-- 3. 핵물질·연료·폐기물·운송 -->
+  <div class="section" data-cat="material">
+    <h2 class="section-title">3. 핵물질·연료·폐기물·운송</h2>
+    <p class="section-desc">TRISO/HALEU 연료, 운송, 폐기물</p>
+
+    <div class="card" data-agency="NRC" data-keywords="part30 부산물질 byproduct material">
+      <div class="card-head"><span class="part-num">Part 30</span><span class="part-name">부산물질(byproduct material) 허가</span><span class="tag tag-NRC">NRC</span><span class="rel rel-low">Xe-100: 낮음</span></div>
+      <div class="card-body">부산물질 취급·허가.</div>
+    </div>
+
+    <div class="card" data-agency="NRC" data-keywords="part40 원료물질 source material">
+      <div class="card-head"><span class="part-num">Part 40</span><span class="part-name">원료물질 (Source Material)</span><span class="tag tag-NRC">NRC</span><span class="rel rel-low">Xe-100: 낮음</span></div>
+      <div class="card-body">우라늄·토륨 등 원료물질.</div>
+    </div>
+
+    <div class="card" data-agency="NRC" data-keywords="part70 특수핵물질 special nuclear material TRISO HALEU 고순도저농축우라늄 연료">
+      <div class="card-head"><span class="part-num">Part 70</span><span class="part-name">특수핵물질 (Special Nuclear Material)</span><span class="tag tag-NRC">NRC</span><span class="rel rel-high">Xe-100: 높음</span></div>
+      <div class="card-body"><span class="xe">TRISO/HALEU(고순도 저농축 우라늄) 연료 관련해서 봐야 함.</span></div>
+    </div>
+
+    <div class="card" data-agency="NRC" data-keywords="part71 포장 운송 packaging transportation 방사성물질">
+      <div class="card-head"><span class="part-num">Part 71</span><span class="part-name">방사성물질 포장·운송 (Packaging and Transportation)</span><span class="tag tag-NRC">NRC</span><span class="rel rel-mid">Xe-100: 중간</span></div>
+      <div class="card-body">방사성물질 포장·운송 기준.</div>
+    </div>
+
+    <div class="card" data-agency="NRC" data-keywords="part72 사용후핵연료 고준위폐기물 건식저장 ISFSI">
+      <div class="card-head"><span class="part-num">Part 72</span><span class="part-name">사용후핵연료·고준위폐기물 건식저장 (ISFSI)</span><span class="tag tag-NRC">NRC</span><span class="rel rel-low">Xe-100: 낮음</span></div>
+      <div class="card-body">사용후핵연료 건식저장시설.</div>
+    </div>
+
+    <div class="card" data-agency="NRC" data-keywords="part61 저준위폐기물 육상처분 land disposal">
+      <div class="card-head"><span class="part-num">Part 61</span><span class="part-name">저준위폐기물 육상처분 (Land Disposal)</span><span class="tag tag-NRC">NRC</span><span class="rel rel-low">Xe-100: 낮음</span></div>
+      <div class="card-body">저준위폐기물 처분.</div>
+    </div>
+  </div>
+
+  <!-- 4. 수출통제 -->
+  <div class="section" data-cat="export">
+    <h2 class="section-title">4. 수출통제</h2>
+    <p class="section-desc">핵심 업무 (기술이전·해외배치). 단일 프로젝트가 110·810·EAR·ITAR에 동시에 걸릴 수 있어 <b>관할권(jurisdiction) 분석 필수</b></p>
+
+    <div class="card star" data-agency="NRC" data-star="1" data-keywords="part110 수출입 hardware 핵장비 자재 물질">
+      <div class="card-head"><span class="part-num">10 CFR Part 110</span><span class="badge-star">⭐ 핵심</span><span class="part-name">핵 장비·자재·물질의 수출입 (hardware)</span><span class="tag tag-NRC">NRC</span><span class="rel rel-high">Xe-100: 높음</span></div>
+      <div class="card-body">하드웨어(장비·자재·물질) 수출입. (우선순위 5개 중 하나)</div>
+    </div>
+
+    <div class="card star" data-agency="DOE" data-star="1" data-keywords="part810 기술이전 지원 서비스 technology assistance NNSA 외국인 교육 컨설팅 deemed export">
+      <div class="card-head"><span class="part-num">10 CFR Part 810</span><span class="badge-star">⭐ 핵심</span><span class="part-name">기술·지원·서비스 (Technology &amp; Assistance)</span><span class="tag tag-DOE">DOE/NNSA</span><span class="rel rel-high">Xe-100: 높음</span></div>
+      <div class="card-body"><span class="xe">외국인 대상 기술이전·교육·컨설팅이 여기 걸림 (미국 내에서도 적용).</span> (우선순위 5개 중 하나)</div>
+    </div>
+
+    <div class="card" data-agency="BIS" data-keywords="15CFR EAR 이중용도 dual-use 상무부 BIS">
+      <div class="card-head"><span class="part-num">15 CFR EAR</span><span class="part-name">이중용도 품목 (Export Administration Regulations)</span><span class="tag tag-BIS">상무부 BIS</span><span class="rel rel-mid">Xe-100: 중간</span></div>
+      <div class="card-body">이중용도(dual-use) 품목. 관할권 분석에서 같이 검토.</div>
+    </div>
+
+    <div class="card" data-agency="State" data-keywords="22CFR ITAR 방산 국무부 군사연계">
+      <div class="card-head"><span class="part-num">22 CFR ITAR</span><span class="part-name">방산 연계 기술 (Int'l Traffic in Arms Regulations)</span><span class="tag tag-State">국무부</span><span class="rel rel-low">Xe-100: 낮음</span></div>
+      <div class="card-body">방산 연계 기술. 원자력 직접 비중은 작으나 일부 걸릴 수 있음.</div>
+    </div>
+  </div>
+
+  <!-- 5. 행정·수수료 -->
+  <div class="section" data-cat="admin">
+    <h2 class="section-title">5. 행정·수수료</h2>
+    <p class="section-desc">NRC 수수료</p>
+
+    <div class="card" data-agency="NRC" data-keywords="part170 part171 수수료 fees 심사 연차">
+      <div class="card-head"><span class="part-num">Part 170 / 171</span><span class="part-name">NRC 심사·연차 수수료 (Fees)</span><span class="tag tag-NRC">NRC</span><span class="rel rel-low">Xe-100: 낮음</span></div>
+      <div class="card-body">NRC 심사 수수료(170) / 연차 수수료(171).</div>
+    </div>
+  </div>
+
+  <div class="no-results hidden" id="noResults">검색 결과가 없습니다.</div>
+
+</main>
+
+<footer>
+  💡 세부 조항(특히 Part 53)은 EO 14300 개정 작업으로 계속 바뀔 수 있으니 발표 직전 <a href="https://www.ecfr.gov" target="_blank">eCFR(ecfr.gov)</a>·<a href="https://www.nrc.gov" target="_blank">NRC 사이트</a>에서 최신본 재확인 권장.<br>
+  출처: NRC, Federal Register 2026-06048, Perkins Coie, Beveridge &amp; Diamond, NatLawReview, Ctp-inc.<br>
+  <span style="opacity:0.6">SMR 레퍼런스 — 추가 주제(설계·연료·시장·경쟁사 등)는 계속 확장 예정.</span>
+</footer>
+
+<script>
+  const search = document.getElementById('search');
+  const cards = Array.from(document.querySelectorAll('.card'));
+  const sections = Array.from(document.querySelectorAll('.section'));
+  const chips = Array.from(document.querySelectorAll('.chip'));
+  const countEl = document.getElementById('count');
+  const noResults = document.getElementById('noResults');
+  let activeFilter = 'all';
+
+  function clearMarks(el) {
+    el.querySelectorAll('mark').forEach(m => {
+      m.replaceWith(document.createTextNode(m.textContent));
+    });
+    el.normalize();
+  }
+
+  function highlight(el, term) {
+    if (!term) return;
+    const walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null);
+    const nodes = [];
+    while (walker.nextNode()) nodes.push(walker.currentNode);
+    const re = new RegExp('(' + term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + ')', 'gi');
+    nodes.forEach(node => {
+      if (!re.test(node.textContent)) return;
+      const span = document.createElement('span');
+      span.innerHTML = node.textContent.replace(re, '<mark>$1</mark>');
+      node.replaceWith(span);
+    });
+  }
+
+  const cmpSection = document.getElementById('cmpSection');
+  const cmpRows = Array.from(cmpSection.querySelectorAll('tbody tr'));
+
+  function apply() {
+    const term = search.value.trim().toLowerCase();
+    let visible = 0;
+
+    // comparison table: text-searchable; shown only for "all"/"star"/"compare-ish" filters
+    let cmpVisible = 0;
+    const cmpAgencyOK = (activeFilter === 'all' || activeFilter === 'star');
+    cmpRows.forEach(row => {
+      clearMarks(row);
+      const text = (row.textContent + ' ' + (row.dataset.keywords || '')).toLowerCase();
+      const show = cmpAgencyOK && (!term || text.includes(term));
+      row.classList.toggle('hidden', !show);
+      if (show) { cmpVisible++; if (term) highlight(row, term); }
+    });
+    cmpSection.classList.toggle('hidden', cmpVisible === 0);
+    visible += cmpVisible;
+
+    cards.forEach(card => {
+      clearMarks(card);
+      const text = (card.textContent + ' ' + (card.dataset.keywords || '')).toLowerCase();
+      const matchText = !term || text.includes(term);
+      const matchFilter =
+        activeFilter === 'all' ? true :
+        activeFilter === 'star' ? card.dataset.star === '1' :
+        card.dataset.agency === activeFilter;
+
+      const show = matchText && matchFilter;
+      card.classList.toggle('hidden', !show);
+      if (show) {
+        visible++;
+        if (term) highlight(card, term);
+      }
+    });
+
+    // hide empty sections
+    sections.forEach(sec => {
+      if (sec === cmpSection) return; // handled separately (table, not cards)
+      const anyVisible = sec.querySelectorAll('.card:not(.hidden)').length > 0;
+      sec.classList.toggle('hidden', !anyVisible);
+    });
+
+    // intro only shows when no filter/search narrowing
+    const intro = document.querySelector('.intro');
+    intro.classList.toggle('hidden', !!term || activeFilter !== 'all');
+
+    noResults.classList.toggle('hidden', visible > 0);
+    countEl.textContent = visible + '개';
+  }
+
+  search.addEventListener('input', apply);
+  chips.forEach(chip => {
+    chip.addEventListener('click', () => {
+      chips.forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      activeFilter = chip.dataset.filter;
+      apply();
+    });
+  });
+
+  // keyboard: "/" focuses search
+  document.addEventListener('keydown', e => {
+    if (e.key === '/' && document.activeElement !== search) {
+      e.preventDefault();
+      search.focus();
+    }
+  });
+
+  apply();
+</script>
+</body>
+</html>
