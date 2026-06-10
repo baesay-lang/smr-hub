@@ -4,116 +4,84 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SMR 개발사 현황 — 단계·인허가</title>
+<link rel="stylesheet" href="styles.css">
 <style>
-  :root{
-    --bg:#0f1419; --bg-card:#1a212b; --bg-card-hover:#212a36; --border:#2a3441;
-    --text:#e6edf3; --text-dim:#9aa7b4; --accent:#4dabf7; --accent-dim:#1c3a52;
-    --hi:#ffd43b; --hi-bg:#4a3f00;
-    --lwr:#4dabf7; --nonlwr:#ff8787; --msr:#b197fc;
-    --s1:#868e96; --s2:#4dabf7; --s3:#ffa94d; --s4:#ffd43b; --s5:#51cf66; --s6:#69db7c;
+  :root{ /* stage progression — single hue (blue) gradient */
+    --s1:#c3d4f5; --s2:#9bbcf2; --s3:#6f9eee; --s4:#4a82ea; --s5:#2f6be0; --s6:#1d4ed8;
   }
-  *{box-sizing:border-box;}
-  body{margin:0;font-family:-apple-system,"Segoe UI","Malgun Gothic",sans-serif;background:var(--bg);color:var(--text);line-height:1.6;font-size:15px;}
-  a{color:var(--accent);text-decoration:none;}
-  a:hover{text-decoration:underline;}
-
-  .topnav{display:flex;gap:4px;background:#0b0f14;border-bottom:1px solid var(--border);padding:8px 16px;position:sticky;top:0;z-index:200;flex-wrap:wrap;}
-  .topnav a{color:var(--text-dim);padding:7px 14px;border-radius:7px;font-size:14px;font-weight:600;}
-  .topnav a:hover{background:var(--bg-card);color:var(--text);text-decoration:none;}
-  .topnav a.active{background:var(--accent-dim);color:var(--accent);}
-
-  header{padding:22px 24px 8px;}
-  h1{font-size:22px;margin:0 0 4px;}
-  .subtitle{color:var(--text-dim);font-size:13.5px;}
-
-  .controls{position:sticky;top:45px;z-index:150;background:rgba(15,20,25,0.96);backdrop-filter:blur(8px);padding:14px 24px;border-bottom:1px solid var(--border);}
-  .search-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;}
-  #search{flex:1;min-width:220px;background:var(--bg-card);border:1px solid var(--border);color:var(--text);padding:10px 14px;border-radius:8px;font-size:15px;outline:none;}
-  #search:focus{border-color:var(--accent);}
+  .controls{position:sticky;top:46px;z-index:150;background:rgba(246,247,249,.94);backdrop-filter:blur(8px);
+    padding:13px 24px;border-bottom:1px solid var(--border);}
+  .search-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;max-width:1080px;margin:0 auto;}
+  .controls .search{flex:1;min-width:220px;}
   .filters{display:flex;gap:6px;flex-wrap:wrap;}
-  .chip{background:var(--bg-card);border:1px solid var(--border);color:var(--text-dim);padding:6px 12px;border-radius:20px;font-size:13px;cursor:pointer;user-select:none;}
-  .chip:hover{background:var(--bg-card-hover);color:var(--text);}
-  .chip.active{background:var(--accent-dim);border-color:var(--accent);color:var(--accent);}
-  .result-count{color:var(--text-dim);font-size:13px;margin-left:auto;}
 
-  main{max-width:1180px;margin:0 auto;padding:20px 24px 60px;}
-
-  /* pipeline legend */
-  .legend{background:var(--bg-card);border:1px solid var(--border);border-radius:10px;padding:14px 18px;margin-bottom:22px;}
-  .legend-title{font-size:13px;color:var(--text-dim);margin-bottom:10px;}
+  .legend{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+    padding:14px 18px;margin-bottom:22px;box-shadow:var(--shadow);}
+  .legend-title{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--text-faint);margin-bottom:11px;}
   .pipe{display:flex;gap:0;flex-wrap:wrap;}
-  .pipe-step{flex:1;min-width:120px;text-align:center;font-size:11.5px;color:var(--text-dim);position:relative;padding:6px 4px;border-top:3px solid var(--border);}
-  .pipe-step .n{display:inline-block;width:20px;height:20px;line-height:20px;border-radius:50%;font-weight:700;color:#0b0f14;font-size:11px;margin-bottom:3px;}
-  .pn1{background:var(--s1);}.pn2{background:var(--s2);}.pn3{background:var(--s3);}.pn4{background:var(--s4);}.pn5{background:var(--s5);}.pn6{background:var(--s6);}
+  .pipe-step{flex:1;min-width:120px;text-align:center;font-size:11.5px;color:var(--text-dim);padding:9px 4px 0;border-top:3px solid var(--border);}
+  .pipe-step .n{display:inline-block;width:20px;height:20px;line-height:20px;border-radius:50%;font-weight:700;color:#fff;font-size:11px;margin-bottom:5px;background:var(--accent);}
   .pt1{border-color:var(--s1);}.pt2{border-color:var(--s2);}.pt3{border-color:var(--s3);}.pt4{border-color:var(--s4);}.pt5{border-color:var(--s5);}.pt6{border-color:var(--s6);}
 
-  /* grid */
-  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(360px,1fr));gap:16px;}
-  .dev{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:0;overflow:hidden;display:flex;flex-direction:column;transition:border-color .12s;scroll-margin-top:120px;}
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(355px,1fr));gap:16px;}
+  .dev{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;
+    display:flex;flex-direction:column;transition:border-color .12s,box-shadow .12s;scroll-margin-top:120px;box-shadow:var(--shadow);}
   .dev:hover{border-color:var(--accent);}
   .dev-head{padding:16px 18px 12px;}
   .dev-top{display:flex;align-items:flex-start;gap:8px;margin-bottom:6px;}
-  .dev-name{font-size:17px;font-weight:700;line-height:1.25;}
-  .flag{font-size:15px;}
-  .type-tag{font-size:11px;font-weight:700;padding:2px 8px;border-radius:5px;white-space:nowrap;margin-left:auto;}
-  .t-lwr{background:#16344d;color:var(--lwr);}
-  .t-nonlwr{background:#3a1c1c;color:var(--nonlwr);}
-  .t-msr{background:#2c2348;color:var(--msr);}
+  .dev-name{font-size:16.5px;font-weight:700;line-height:1.3;color:var(--text);}
+  .type-tag{font-size:11px;font-weight:700;padding:2px 8px;border-radius:4px;white-space:nowrap;margin-left:auto;}
+  .t-lwr{background:var(--accent-weak);color:var(--accent-strong);}
+  .t-nonlwr{background:var(--surface-3);color:var(--text-dim);}
+  .t-msr{background:var(--surface-3);color:var(--text-dim);}
   .dev-reactor{font-size:13.5px;color:var(--text-dim);}
   .dev-reactor b{color:var(--text);}
-  .dev-feature{font-size:13.5px;color:var(--text-dim);margin-top:8px;}
+  .dev-feature{font-size:13px;color:var(--text-dim);margin-top:8px;}
 
-  /* per-card pipeline */
-  .mini-pipe{display:flex;gap:5px;align-items:center;padding:12px 18px;background:#141a23;border-top:1px solid var(--border);border-bottom:1px solid var(--border);}
-  .dot{width:13px;height:13px;border-radius:50%;background:var(--border);position:relative;}
-  .dot.done{opacity:.55;}
-  .dot.cur{box-shadow:0 0 0 3px rgba(255,255,255,.12);transform:scale(1.25);}
+  .mini-pipe{display:flex;gap:5px;align-items:center;padding:12px 18px;background:var(--surface-2);
+    border-top:1px solid var(--border);border-bottom:1px solid var(--border);}
+  .dot{width:12px;height:12px;border-radius:50%;background:var(--border-strong);}
+  .dot.cur{box-shadow:0 0 0 3px var(--accent-weak);transform:scale(1.2);}
   .dc1{background:var(--s1);}.dc2{background:var(--s2);}.dc3{background:var(--s3);}.dc4{background:var(--s4);}.dc5{background:var(--s5);}.dc6{background:var(--s6);}
-  .stage-label{margin-left:auto;font-size:12px;font-weight:700;padding:3px 9px;border-radius:5px;}
+  .stage-label{margin-left:auto;font-size:12px;font-weight:700;padding:3px 9px;border-radius:5px;background:var(--accent-weak);color:var(--accent-strong);}
 
   .dev-foot{padding:12px 18px 16px;}
   .tracks-row{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:4px;}
-  .trk{font-size:11.5px;font-weight:700;padding:3px 9px;border-radius:5px;}
-  .trk-nrc50{background:var(--accent-dim);color:var(--accent);}
-  .trk-nrc52{background:#143620;color:#51cf66;}
-  .trk-nrc53{background:var(--hi-bg);color:var(--hi);}
-  .trk-pre{background:#2a3441;color:var(--text-dim);}
-  .trk-gda{background:#3a2a10;color:#ffa94d;}
-  .trk-cnsc{background:#3a1818;color:#ff8787;}
-  .trk-kr{background:#2c2348;color:#b197fc;}
+  .trk{font-size:11.5px;font-weight:600;padding:3px 9px;border-radius:4px;background:var(--surface-2);color:var(--text-dim);border:1px solid var(--border);}
+  .trk-nrc50{background:var(--accent-weak);color:var(--accent-strong);border-color:var(--accent-weak-2);}
   .trk a{color:inherit;}
 
-  .toggle{margin-top:10px;background:none;border:1px solid var(--border);color:var(--accent);font-size:13px;font-weight:600;padding:7px 12px;border-radius:7px;cursor:pointer;width:100%;text-align:left;}
-  .toggle:hover{background:var(--bg-card-hover);}
-  .detail{display:none;margin-top:10px;font-size:13.5px;color:var(--text-dim);background:#141a23;border:1px solid var(--border);border-radius:8px;padding:12px 14px;}
+  .toggle{margin-top:10px;background:var(--surface);border:1px solid var(--border-strong);color:var(--accent-strong);
+    font-size:13px;font-weight:600;padding:8px 12px;border-radius:var(--radius-sm);cursor:pointer;width:100%;text-align:left;}
+  .toggle:hover{background:var(--surface-2);border-color:var(--accent);}
+  .detail{display:none;margin-top:10px;font-size:13px;color:var(--text-dim);background:var(--surface-2);
+    border:1px solid var(--border);border-radius:var(--radius-sm);padding:12px 14px;}
   .detail.open{display:block;}
   .detail b{color:var(--text);}
   .detail .row{margin-bottom:7px;}
-  .detail .k{color:var(--accent);font-weight:700;font-size:12px;display:block;}
-  .src{font-size:11.5px;}
-
-  mark{background:var(--hi-bg);color:var(--hi);border-radius:2px;padding:0 1px;}
-  .hidden{display:none!important;}
-  .no-results{text-align:center;color:var(--text-dim);padding:40px;}
-  footer{max-width:1180px;margin:0 auto;padding:20px 24px;color:var(--text-dim);font-size:12px;border-top:1px solid var(--border);}
+  .detail .k{color:var(--accent-strong);font-weight:700;font-size:12px;display:block;}
+  .src{font-size:11.5px;color:var(--text-faint);}
+  .src a{color:var(--text-dim);}
 </style>
 </head>
 <body>
 <nav class="topnav">
-  <a href="SMR-developers.html" class="active">🏭 SMR 개발사</a>
-  <a href="SMR-licensing-tracks.html">🗂️ 인허가 트랙</a>
-  <a href="SMR-reactor-types.html">⚛️ 노형 분류</a>
-  <a href="SMR-reference.html">📚 CFR 레퍼런스</a>
+  <a class="brand" href="index.html">SMR Reference</a>
+  <a href="SMR-developers.html" class="active">개발사</a>
+  <a href="SMR-licensing-tracks.html">인허가 트랙</a>
+  <a href="SMR-reactor-types.html">노형 분류</a>
+  <a href="SMR-reference.html">CFR 레퍼런스</a>
 </nav>
 
-<header>
-  <h1>🏭 SMR 개발사 현황 — 단계 · 인허가</h1>
-  <div class="subtitle">각 개발사의 노형·출력·핵심 전략과 <b>현재 인허가 단계</b>. 카드의 “인허가 상황 ▾” 클릭 시 상세 · 트랙 태그 클릭 시 <a href="SMR-licensing-tracks.html">트랙 페이지</a>로 이동 (2026.6 기준)</div>
+<header class="page">
+  <div class="kicker">Developers</div>
+  <h1>개발사 현황 — 단계 · 인허가</h1>
+  <p class="subtitle">각 개발사의 노형·출력·핵심 전략과 <b>현재 인허가 단계</b>. 카드의 “인허가 상황” 클릭 시 상세 · 트랙 태그 클릭 시 <a href="SMR-licensing-tracks.html">트랙 페이지</a>로 이동 (2026.6 기준)</p>
 </header>
 
 <div class="controls">
   <div class="search-row">
-    <input id="search" type="text" placeholder="검색… (예: 소듐, 용융염, Part 50, 한국, 건설중)" autocomplete="off">
+    <input id="search" class="search" type="text" placeholder="검색 (예: 소듐, 용융염, Part 50, 한국, 건설중)" autocomplete="off">
     <div class="filters" id="filters">
       <span class="chip active" data-f="all" data-g="type">전체</span>
       <span class="chip" data-f="lwr" data-g="type">경수로</span>
@@ -127,7 +95,7 @@
 
 <main>
   <div class="legend">
-    <div class="legend-title">📈 인허가 단계 스케일 (각 카드의 점이 현재 위치)</div>
+    <div class="legend-title">인허가 단계 스케일 — 각 카드의 점이 현재 위치</div>
     <div class="pipe">
       <div class="pipe-step pt1"><span class="n pn1">1</span><br>사전협의·설계개발</div>
       <div class="pipe-step pt2"><span class="n pn2">2</span><br>설계심사·인증</div>
@@ -143,23 +111,23 @@
     <!-- ===== GE Hitachi ===== -->
     <div class="dev" id="gehitachi" data-type="lwr" data-reg="nrc intl" data-kw="ge hitachi gehitachi bwrx-300 bwrx300 경수로 bwr 비등경수로 캐나다 darlington opg tva clinch river 건설중 300mwe">
       <div class="dev-head">
-        <div class="dev-top"><span class="dev-name">GE Hitachi <span class="flag">🇺🇸🇯🇵</span></span><span class="type-tag t-lwr">경수로</span></div>
+        <div class="dev-top"><span class="dev-name">GE Hitachi <span class="cc">US·JP</span></span><span class="type-tag t-lwr">경수로</span></div>
         <div class="dev-reactor"><b>BWRX-300</b> · 비등경수로(BWR형) · 300MWe</div>
         <div class="dev-feature">기존 BWR 기술 축소·단순화. <b>북미 최초 상용 SMR 건설</b> — 캐나다 Darlington에서 핵 콘크리트 타설 시작. 미국에서도 TVA가 신청.</div>
       </div>
       <div class="mini-pipe" data-stage="5">
         <span class="dot dc1 done"></span><span class="dot dc2 done"></span><span class="dot dc3 done"></span><span class="dot dc4 done"></span><span class="dot dc5 cur"></span><span class="dot dc6"></span>
-        <span class="stage-label" style="background:var(--s5);color:#0b0f14">5 · 건설 중</span>
+        <span class="stage-label">5 · 건설 중</span>
       </div>
       <div class="dev-foot">
         <div class="tracks-row">
-          <span class="trk trk-cnsc"><a href="SMR-licensing-tracks.html#cnsc">🇨🇦 CNSC (Darlington)</a></span>
-          <span class="trk trk-nrc50"><a href="SMR-licensing-tracks.html#part50">🇺🇸 NRC Part 50 (TVA)</a></span>
+          <span class="trk trk-cnsc"><a href="SMR-licensing-tracks.html#cnsc">CNSC (Darlington)</a></span>
+          <span class="trk trk-nrc50"><a href="SMR-licensing-tracks.html#part50">NRC Part 50 (TVA)</a></span>
         </div>
-        <button class="toggle">인허가 상황 ▾</button>
+        <button class="toggle">인허가 상황</button>
         <div class="detail">
-          <div class="row"><span class="k">🇨🇦 캐나다 (가장 앞섬)</span> CNSC가 OPG에 <b>건설허가(Licence to Construct) 발급(2025.4)</b> — 2035.3까지 유효. 핵 콘크리트 타설·원자로건물 기초공사 착수, <b>운영허가 신청 제출</b>. 1호기 2030년말 완공 목표. (세계 최초 BWRX-300 건설)</div>
-          <div class="row"><span class="k">🇺🇸 미국</span> TVA가 Clinch River(테네시) 부지로 <b>Part 50 건설허가(CP) 신청</b>, NRC 도케팅(2025), 약 17개월 심사(~2026.12 목표). 미국 첫 BWRX-300 신청.</div>
+          <div class="row"><span class="k">캐나다 (가장 앞섬)</span> CNSC가 OPG에 <b>건설허가(Licence to Construct) 발급(2025.4)</b> — 2035.3까지 유효. 핵 콘크리트 타설·원자로건물 기초공사 착수, <b>운영허가 신청 제출</b>. 1호기 2030년말 완공 목표. (세계 최초 BWRX-300 건설)</div>
+          <div class="row"><span class="k">미국</span> TVA가 Clinch River(테네시) 부지로 <b>Part 50 건설허가(CP) 신청</b>, NRC 도케팅(2025), 약 17개월 심사(~2026.12 목표). 미국 첫 BWRX-300 신청.</div>
           <div class="src">출처: <a href="https://www.gevernova.com/news/press-releases/ge-vernova-hitachi-bwrx-300-small-modular-reactor-approved-construction-province-ontario-opg" target="_blank">GE Vernova</a> · <a href="https://www.world-nuclear-news.org/articles/opg-applies-for-operating-licence-for-bwrx-300-smr" target="_blank">WNN</a> · <a href="https://www.federalregister.gov/documents/2025/07/01/2025-11037/tennessee-valley-authority-clinch-river-nuclear-site-construction-permit-application" target="_blank">Federal Register</a></div>
         </div>
       </div>
@@ -168,17 +136,17 @@
     <!-- ===== TerraPower ===== -->
     <div class="dev" id="terrapower" data-type="nonlwr" data-reg="nrc" data-kw="terrapower natrium 소듐냉각고속로 sfr 빌게이츠 bill gates 와이오밍 wyoming kemmerer 용융염저장 345mwe 비경수로 건설허가">
       <div class="dev-head">
-        <div class="dev-top"><span class="dev-name">TerraPower <span class="flag">🇺🇸</span></span><span class="type-tag t-nonlwr">비경수로</span></div>
+        <div class="dev-top"><span class="dev-name">TerraPower <span class="cc">US</span></span><span class="type-tag t-nonlwr">비경수로</span></div>
         <div class="dev-reactor"><b>Natrium</b> · 소듐냉각고속로(SFR) + 용융염 저장 · 345MWe</div>
         <div class="dev-feature">빌 게이츠 설립. 용융염 열저장으로 출력을 유연 조절(재생에너지 보완). 와이오밍 Kemmerer 실증.</div>
       </div>
       <div class="mini-pipe" data-stage="4">
         <span class="dot dc1 done"></span><span class="dot dc2 done"></span><span class="dot dc3 done"></span><span class="dot dc4 cur"></span><span class="dot dc5"></span><span class="dot dc6"></span>
-        <span class="stage-label" style="background:var(--s4);color:#0b0f14">4 · 건설허가 발급</span>
+        <span class="stage-label">4 · 건설허가 발급</span>
       </div>
       <div class="dev-foot">
-        <div class="tracks-row"><span class="trk trk-nrc50"><a href="SMR-licensing-tracks.html#part50">🇺🇸 NRC Part 50</a></span></div>
-        <button class="toggle">인허가 상황 ▾</button>
+        <div class="tracks-row"><span class="trk trk-nrc50"><a href="SMR-licensing-tracks.html#part50">NRC Part 50</a></span></div>
+        <button class="toggle">인허가 상황</button>
         <div class="detail">
           <div class="row"><span class="k">현황</span> 2024.3 <b>Part 50 건설허가(CP) 신청</b> → 2024.5 도케팅(40여 년 만의 상업용 비경수로 도케팅). NRC 안전심사 2025.12 조기 완료 → <b>2026.3 건설허가 발급</b> — 첫 상업용 Gen-IV/비경수로 CP.</div>
           <div class="row"><span class="k">다음</span> 비원자력 부지공사는 이미 진행 중. 2단계로 운영허가(OL) 신청 예정(FID 2028 전후).</div>
@@ -190,17 +158,17 @@
     <!-- ===== Kairos ===== -->
     <div class="dev" id="kairos" data-type="nonlwr" data-reg="nrc" data-kw="kairos power kp-fhr hermes 용융염 불소염 냉각 고온로 fhr fluoride salt 구글 google triso 실증로 건설중 비경수로">
       <div class="dev-head">
-        <div class="dev-top"><span class="dev-name">Kairos Power <span class="flag">🇺🇸</span></span><span class="type-tag t-nonlwr">비경수로</span></div>
+        <div class="dev-top"><span class="dev-name">Kairos Power <span class="cc">US</span></span><span class="type-tag t-nonlwr">비경수로</span></div>
         <div class="dev-reactor"><b>KP-FHR / Hermes</b> · 불소염 냉각 고온로(FHR) · TRISO 연료</div>
         <div class="dev-feature">불소염(FLiBe) 냉각 + TRISO 연료. <b>구글과 전력공급 계약</b> 체결. Hermes 실증로로 단계적 실증 중.</div>
       </div>
       <div class="mini-pipe" data-stage="5">
         <span class="dot dc1 done"></span><span class="dot dc2 done"></span><span class="dot dc3 done"></span><span class="dot dc4 done"></span><span class="dot dc5 cur"></span><span class="dot dc6"></span>
-        <span class="stage-label" style="background:var(--s5);color:#0b0f14">5 · 실증로 건설 중</span>
+        <span class="stage-label">5 · 실증로 건설 중</span>
       </div>
       <div class="dev-foot">
-        <div class="tracks-row"><span class="trk trk-nrc50"><a href="SMR-licensing-tracks.html#part50">🇺🇸 NRC Part 50</a></span></div>
-        <button class="toggle">인허가 상황 ▾</button>
+        <div class="tracks-row"><span class="trk trk-nrc50"><a href="SMR-licensing-tracks.html#part50">NRC Part 50</a></span></div>
+        <button class="toggle">인허가 상황</button>
         <div class="detail">
           <div class="row"><span class="k">현황</span> Hermes(비발전 실증로) <b>Part 50 건설허가 발급</b>(2023, 첫 비경수로 CP 사례), 후속 <b>Hermes 2</b>(쌍둥이) 건설허가도 확보 → 테네시 Oak Ridge에서 건설 진행.</div>
           <div class="row"><span class="k">참고</span> 현재는 상업 발전로가 아닌 실증로 단계. 상업화 전 기술실증·연료검증이 목적.</div>
@@ -212,17 +180,17 @@
     <!-- ===== X-energy ===== -->
     <div class="dev" id="xenergy" data-type="nonlwr" data-reg="nrc" data-kw="x-energy xenergy xe-100 htgr 고온가스로 triso haleu 공정열 process heat dow long mott seadrift texas 80mwe 비경수로 건설허가 심사">
       <div class="dev-head">
-        <div class="dev-top"><span class="dev-name">X-energy <span class="flag">🇺🇸</span></span><span class="type-tag t-nonlwr">비경수로</span></div>
+        <div class="dev-top"><span class="dev-name">X-energy <span class="cc">US</span></span><span class="type-tag t-nonlwr">비경수로</span></div>
         <div class="dev-reactor"><b>Xe-100</b> · 고온가스로(HTGR) · 80MWe / 200MWth · TRISO</div>
-        <div class="dev-feature">TRISO 연료 + 고온가스로로 <b>산업 공정열 시장</b> 공략. Dow 화학공장(텍사스)에 4기 공급 추진. <a href="SMR-dev-xenergy.html" style="font-weight:700;">📄 상세(사양·공급망·고객·뉴스) →</a></div>
+        <div class="dev-feature">TRISO 연료 + 고온가스로로 <b>산업 공정열 시장</b> 공략. Dow 화학공장(텍사스)에 4기 공급 추진. <a href="SMR-dev-xenergy.html" style="font-weight:600;">상세(사양·공급망·고객·뉴스) →</a></div>
       </div>
       <div class="mini-pipe" data-stage="3">
         <span class="dot dc1 done"></span><span class="dot dc2 done"></span><span class="dot dc3 cur"></span><span class="dot dc4"></span><span class="dot dc5"></span><span class="dot dc6"></span>
-        <span class="stage-label" style="background:var(--s3);color:#0b0f14">3 · 건설허가 심사</span>
+        <span class="stage-label">3 · 건설허가 심사</span>
       </div>
       <div class="dev-foot">
-        <div class="tracks-row"><span class="trk trk-nrc50"><a href="SMR-licensing-tracks.html#part50">🇺🇸 NRC Part 50</a></span></div>
-        <button class="toggle">인허가 상황 ▾</button>
+        <div class="tracks-row"><span class="trk trk-nrc50"><a href="SMR-licensing-tracks.html#part50">NRC Part 50</a></span></div>
+        <button class="toggle">인허가 상황</button>
         <div class="detail">
           <div class="row"><span class="k">현황</span> Dow 자회사 Long Mott Energy가 Seadrift(텍사스) 부지로 <b>Part 50 건설허가(CP) 신청</b>, NRC 도케팅(2025), <b>18개월 심사</b> 진행. 환경평가를 전체 EIS가 아닌 <b>약식 EA로 통과한 첫 사례</b>.</div>
           <div class="row"><span class="k">참고</span> Part 53(첨단로 신규 트랙)이 향후 대안이 될 수 있으나, <b>실제 신청은 Part 50</b>. (Part 53 신청자는 아직 0건)</div>
@@ -234,23 +202,23 @@
     <!-- ===== Holtec ===== -->
     <div class="dev" id="holtec" data-type="lwr" data-reg="nrc intl" data-kw="holtec smr-300 smr300 경수로 pwr 사용후핵연료 저장용기 석탄화력 대체 palisades 미시간 michigan pioneer uk gda 300mwe 건설허가 심사">
       <div class="dev-head">
-        <div class="dev-top"><span class="dev-name">Holtec International <span class="flag">🇺🇸</span></span><span class="type-tag t-lwr">경수로</span></div>
+        <div class="dev-top"><span class="dev-name">Holtec International <span class="cc">US</span></span><span class="type-tag t-lwr">경수로</span></div>
         <div class="dev-reactor"><b>SMR-300</b> · 가압경수로(PWR형) · 300MWe</div>
         <div class="dev-feature">사용후핵연료 저장용기 기술 기반. <b>노후 석탄화력 대체</b> 타깃. 재가동 추진 중인 Palisades 부지에 쌍둥이 배치.</div>
       </div>
       <div class="mini-pipe" data-stage="3">
         <span class="dot dc1 done"></span><span class="dot dc2 done"></span><span class="dot dc3 cur"></span><span class="dot dc4"></span><span class="dot dc5"></span><span class="dot dc6"></span>
-        <span class="stage-label" style="background:var(--s3);color:#0b0f14">3 · 건설허가 심사</span>
+        <span class="stage-label">3 · 건설허가 심사</span>
       </div>
       <div class="dev-foot">
         <div class="tracks-row">
-          <span class="trk trk-nrc50"><a href="SMR-licensing-tracks.html#part50">🇺🇸 NRC Part 50</a></span>
-          <span class="trk trk-gda"><a href="SMR-licensing-tracks.html#gda">🇬🇧 UK GDA</a></span>
+          <span class="trk trk-nrc50"><a href="SMR-licensing-tracks.html#part50">NRC Part 50</a></span>
+          <span class="trk trk-gda"><a href="SMR-licensing-tracks.html#gda">UK GDA</a></span>
         </div>
-        <button class="toggle">인허가 상황 ▾</button>
+        <button class="toggle">인허가 상황</button>
         <div class="detail">
-          <div class="row"><span class="k">🇺🇸 미국</span> Palisades(미시간) 부지 <b>Pioneer 1&2 건설허가(CP) 신청</b>(2025말 제출) → NRC 접수(2026.2). 1부에 <b>제한작업승인(LWA)</b>·면제요청·환경보고서 포함, 안전·환경평가 2027 상반기 완료 목표.</div>
-          <div class="row"><span class="k">🇬🇧 영국</span> SMR-300 <b>GDA Step 2 완료</b> — 근본적 결함 없음 판정. 영국·유럽·아시아 배치 추진.</div>
+          <div class="row"><span class="k">미국</span> Palisades(미시간) 부지 <b>Pioneer 1&2 건설허가(CP) 신청</b>(2025말 제출) → NRC 접수(2026.2). 1부에 <b>제한작업승인(LWA)</b>·면제요청·환경보고서 포함, 안전·환경평가 2027 상반기 완료 목표.</div>
+          <div class="row"><span class="k">영국</span> SMR-300 <b>GDA Step 2 완료</b> — 근본적 결함 없음 판정. 영국·유럽·아시아 배치 추진.</div>
           <div class="src">출처: <a href="https://www.ans.org/news/article-7673/holtec-submits-partial-construction-permit-application-for-smrs-at-palisades/" target="_blank">ANS</a> · <a href="https://www.world-nuclear-news.org/articles/holtec-smr-design-clears-key-uk-regulatory-stage" target="_blank">WNN</a></div>
         </div>
       </div>
@@ -259,17 +227,17 @@
     <!-- ===== NuScale ===== -->
     <div class="dev" id="nuscale" data-type="lwr" data-reg="nrc" data-kw="nuscale power voygr 경수로 ipwr pwr 모듈 설계인증 design certification dc sda us600 us460 77mwe 460 선두 첫 part52">
       <div class="dev-head">
-        <div class="dev-top"><span class="dev-name">NuScale Power <span class="flag">🇺🇸</span></span><span class="type-tag t-lwr">경수로</span></div>
+        <div class="dev-top"><span class="dev-name">NuScale Power <span class="cc">US</span></span><span class="type-tag t-lwr">경수로</span></div>
         <div class="dev-reactor"><b>NuScale Power Module / VOYGR</b> · 일체형 가압경수로(iPWR) · 77MWe/모듈</div>
         <div class="dev-feature"><b>NRC 설계인증을 최초로 획득</b>한 경수로형 SMR 선두주자. 모듈 다발(4·6·12기)로 플랜트 구성.</div>
       </div>
       <div class="mini-pipe" data-stage="2">
         <span class="dot dc1 done"></span><span class="dot dc2 cur"></span><span class="dot dc3"></span><span class="dot dc4"></span><span class="dot dc5"></span><span class="dot dc6"></span>
-        <span class="stage-label" style="background:var(--s2);color:#0b0f14">2 · 설계인증 완료</span>
+        <span class="stage-label">2 · 설계인증 완료</span>
       </div>
       <div class="dev-foot">
-        <div class="tracks-row"><span class="trk trk-nrc52"><a href="SMR-licensing-tracks.html#part52">🇺🇸 NRC Part 52</a></span></div>
-        <button class="toggle">인허가 상황 ▾</button>
+        <div class="tracks-row"><span class="trk trk-nrc52"><a href="SMR-licensing-tracks.html#part52">NRC Part 52</a></span></div>
+        <button class="toggle">인허가 상황</button>
         <div class="detail">
           <div class="row"><span class="k">현황</span> 50MWe 표준설계승인(SDA) → <b>US600(77MWe) 설계인증(DC) 2023 취득</b>(Part 52 Appendix G에 편입). 출력증강형 <b>US460의 SDA를 추가 심사</b> 중. Part 52 설계 2건 보유한 유일 개발사.</div>
           <div class="row"><span class="k">참고</span> 미국 CFPP(아이다호) 프로젝트는 2023 취소. 현재는 설계는 가장 앞서나 미국 내 착공 프로젝트는 부재(루마니아 등 해외 COL 추진).</div>
@@ -281,17 +249,17 @@
     <!-- ===== Rolls-Royce ===== -->
     <div class="dev" id="rollsroyce" data-type="lwr" data-reg="intl" data-kw="rolls-royce rollsroyce smr 영국 uk 경수로 pwr 모듈러 제작 470mwe gda 우선협상 wylfa great british energy 설계심사">
       <div class="dev-head">
-        <div class="dev-top"><span class="dev-name">Rolls-Royce SMR <span class="flag">🇬🇧</span></span><span class="type-tag t-lwr">경수로</span></div>
+        <div class="dev-top"><span class="dev-name">Rolls-Royce SMR <span class="cc">UK</span></span><span class="type-tag t-lwr">경수로</span></div>
         <div class="dev-reactor"><b>Rolls-Royce SMR</b> · 가압경수로(PWR형) · 470MWe</div>
         <div class="dev-feature">영국 정부 지원. <b>모듈러 공장제작을 극대화</b>(공기 단축·비용 절감). SMR 중 최대급 출력.</div>
       </div>
       <div class="mini-pipe" data-stage="2">
         <span class="dot dc1 done"></span><span class="dot dc2 cur"></span><span class="dot dc3"></span><span class="dot dc4"></span><span class="dot dc5"></span><span class="dot dc6"></span>
-        <span class="stage-label" style="background:var(--s2);color:#0b0f14">2 · 설계심사(GDA) 최종</span>
+        <span class="stage-label">2 · 설계심사(GDA) 최종</span>
       </div>
       <div class="dev-foot">
-        <div class="tracks-row"><span class="trk trk-gda"><a href="SMR-licensing-tracks.html#gda">🇬🇧 UK GDA (ONR)</a></span></div>
-        <button class="toggle">인허가 상황 ▾</button>
+        <div class="tracks-row"><span class="trk trk-gda"><a href="SMR-licensing-tracks.html#gda">UK GDA (ONR)</a></span></div>
+        <button class="toggle">인허가 상황</button>
         <div class="detail">
           <div class="row"><span class="k">현황</span> 영국 일반설계평가(GDA) <b>최종 단계(Step 3) 진행</b> — SMR 중 유일하게 이 단계 도달. 총 53개월, <b>2026.8 완료 예정</b>.</div>
           <div class="row"><span class="k">사업</span> Great British Energy-Nuclear(GBE-N) <b>우선협상 기술로 선정</b>, 부지는 <b>Wylfa</b>(최대 3기). 2026.4 site-specific 설계·규제·인허가 계약 체결, FID 전 단계.</div>
@@ -303,17 +271,17 @@
     <!-- ===== Oklo ===== -->
     <div class="dev" id="oklo" data-type="nonlwr" data-reg="nrc" data-kw="oklo aurora 소듐냉각고속로 sfr 고속로 마이크로로 microreactor haleu 데이터센터 data center 분산전원 inl idaho 75mwe 비경수로 col 재신청 part52 ebr-ii">
       <div class="dev-head">
-        <div class="dev-top"><span class="dev-name">Oklo <span class="flag">🇺🇸</span></span><span class="type-tag t-nonlwr">비경수로</span></div>
+        <div class="dev-top"><span class="dev-name">Oklo <span class="cc">US</span></span><span class="type-tag t-nonlwr">비경수로</span></div>
         <div class="dev-reactor"><b>Aurora Powerhouse</b> · 소듐냉각고속로(SFR) · ~75MWe · HALEU</div>
         <div class="dev-feature">EBR-II 계보의 소듐냉각고속로(초기 15MWe→75MWe로 확대). HALEU 금속연료. <b>데이터센터 분산전원</b> 시장 공략(소유·운영 모델).</div>
       </div>
       <div class="mini-pipe" data-stage="2">
         <span class="dot dc1 done"></span><span class="dot dc2 cur"></span><span class="dot dc3"></span><span class="dot dc4"></span><span class="dot dc5"></span><span class="dot dc6"></span>
-        <span class="stage-label" style="background:var(--s2);color:#0b0f14">2 · COL 재도전</span>
+        <span class="stage-label">2 · COL 재도전</span>
       </div>
       <div class="dev-foot">
-        <div class="tracks-row"><span class="trk trk-nrc52"><a href="SMR-licensing-tracks.html#part52">🇺🇸 NRC Part 52 (COL)</a></span></div>
-        <button class="toggle">인허가 상황 ▾</button>
+        <div class="tracks-row"><span class="trk trk-nrc52"><a href="SMR-licensing-tracks.html#part52">NRC Part 52 (COL)</a></span></div>
+        <button class="toggle">인허가 상황</button>
         <div class="detail">
           <div class="row"><span class="k">현황</span> 2020 첫 비경수로 통합건설운영허가(COLA) 제출 → <b>2022.1 기각(without prejudice)</b>. 이후 <b>단계형(phased) COLA</b>로 전략 수정, NRC <b>사전심사 준비평가(readiness assessment) 완료</b>, INL(아이다호) 첫 상업로 신청 준비.</div>
           <div class="row"><span class="k">참고</span> Part 50(CP+OL 2단계) 대신 <b>Part 52 COL 단일 트랙</b>을 선택한 사례.</div>
@@ -325,17 +293,17 @@
     <!-- ===== ARC ===== -->
     <div class="dev" id="arc" data-type="nonlwr" data-reg="intl" data-kw="arc clean technology arc-100 arc100 소듐냉각고속로 sfr 캐나다 canada 뉴브런즈윅 new brunswick point lepreau cnsc vdr 100mwe 비경수로 설계심사">
       <div class="dev-head">
-        <div class="dev-top"><span class="dev-name">ARC Clean Technology <span class="flag">🇨🇦🇺🇸</span></span><span class="type-tag t-nonlwr">비경수로</span></div>
+        <div class="dev-top"><span class="dev-name">ARC Clean Technology <span class="cc">CA·US</span></span><span class="type-tag t-nonlwr">비경수로</span></div>
         <div class="dev-reactor"><b>ARC-100</b> · 소듐냉각고속로(SFR) · 100MWe</div>
         <div class="dev-feature">소듐냉각고속로(EBR-II 계보). 캐나다 뉴브런즈윅 <b>Point Lepreau</b> 부지 실증 추진(산업 열 활용 포함).</div>
       </div>
       <div class="mini-pipe" data-stage="2">
         <span class="dot dc1 done"></span><span class="dot dc2 cur"></span><span class="dot dc3"></span><span class="dot dc4"></span><span class="dot dc5"></span><span class="dot dc6"></span>
-        <span class="stage-label" style="background:var(--s2);color:#0b0f14">2 · 설계심사(VDR) 완료</span>
+        <span class="stage-label">2 · 설계심사(VDR) 완료</span>
       </div>
       <div class="dev-foot">
-        <div class="tracks-row"><span class="trk trk-cnsc"><a href="SMR-licensing-tracks.html#cnsc">🇨🇦 CNSC</a></span></div>
-        <button class="toggle">인허가 상황 ▾</button>
+        <div class="tracks-row"><span class="trk trk-cnsc"><a href="SMR-licensing-tracks.html#cnsc">CNSC</a></span></div>
+        <button class="toggle">인허가 상황</button>
         <div class="detail">
           <div class="row"><span class="k">현황</span> CNSC <b>벤더설계심사(VDR) Phase 2 완료(2025.7)</b> — "근본적 인허가 장벽 없음" 판정. NB Power가 <b>부지준비허가(Licence to Prepare Site) 신청</b> 제출.</div>
           <div class="row"><span class="k">다음</span> 설계·안전해석 완성 후 <b>건설허가(Licence to Construct) 신청 목표 2027</b>. 1호기 가동은 2030년대 초 목표.</div>
@@ -347,22 +315,22 @@
     <!-- ===== Westinghouse ===== -->
     <div class="dev" id="westinghouse" data-type="lwr" data-reg="nrc" data-kw="westinghouse ap300 ap1000 경수로 pwr evinci 마이크로로 히트파이프 heat pipe 사전협의 설계인증 300mwe 5mwe">
       <div class="dev-head">
-        <div class="dev-top"><span class="dev-name">Westinghouse <span class="flag">🇺🇸</span></span><span class="type-tag t-lwr">경수로</span></div>
+        <div class="dev-top"><span class="dev-name">Westinghouse <span class="cc">US</span></span><span class="type-tag t-lwr">경수로</span></div>
         <div class="dev-reactor"><b>AP300</b> · PWR형(AP1000 축소) · 300MWe &nbsp;|&nbsp; <b>eVinci</b> · 히트파이프 마이크로로 · ~5MWe</div>
         <div class="dev-feature">검증된 <b>대형 AP1000 기술을 축소</b>한 AP300, 그리고 무펌프 히트파이프 초소형로 eVinci 두 갈래로 개발.</div>
       </div>
       <div class="mini-pipe" data-stage="1">
         <span class="dot dc1 cur"></span><span class="dot dc2"></span><span class="dot dc3"></span><span class="dot dc4"></span><span class="dot dc5"></span><span class="dot dc6"></span>
-        <span class="stage-label" style="background:var(--s1);color:#0b0f14">1 · 사전협의</span>
+        <span class="stage-label">1 · 사전협의</span>
       </div>
       <div class="dev-foot">
         <div class="tracks-row">
-          <span class="trk trk-nrc52"><a href="SMR-licensing-tracks.html#part52">🇺🇸 AP300 → 설계인증(Part 52)</a></span>
-          <span class="trk trk-pre"><a href="SMR-licensing-tracks.html#preapp">🇺🇸 eVinci 사전협의</a></span>
+          <span class="trk trk-nrc52"><a href="SMR-licensing-tracks.html#part52">AP300 → 설계인증(Part 52)</a></span>
+          <span class="trk trk-pre"><a href="SMR-licensing-tracks.html#preapp">eVinci 사전협의</a></span>
         </div>
-        <button class="toggle">인허가 상황 ▾</button>
+        <button class="toggle">인허가 상황</button>
         <div class="detail">
-          <div class="row"><span class="k">AP300</span> NRC <b>규제engagement plan 제출(2023.5)</b>, <b>설계인증(DC) 목표 2027</b> → 이후 부지별 인허가·착공.</div>
+          <div class="row"><span class="k">AP300</span> NRC <b>규제 engagement plan 제출(2023.5)</b>, <b>설계인증(DC) 목표 2027</b> → 이후 부지별 인허가·착공.</div>
           <div class="row"><span class="k">eVinci</span> NRC <b>사전협의 단계</b>. 계측제어(I&C) 플랫폼 승인(2024.12, 첫 마이크로로), <b>주요설계기준 토픽보고서 승인(2025.4)</b> 등 부분 마일스톤 확보.</div>
           <div class="src">출처: <a href="https://info.westinghousenuclear.com/news/westinghouse-submits-ap300-smr-reg-engagement-plan-to-nrc" target="_blank">Westinghouse</a> · <a href="https://www.world-nuclear-news.org/articles/pre-licensing-milestone-for-evinci" target="_blank">WNN</a></div>
         </div>
@@ -372,17 +340,17 @@
     <!-- ===== SMART ===== -->
     <div class="dev" id="smart" data-type="lwr" data-reg="intl" data-kw="smart smart100 한국 korea kaeri 경수로 ipwr pwr 표준설계인가 sda 사우디 saudi 현대 100mwe 110mwe">
       <div class="dev-head">
-        <div class="dev-top"><span class="dev-name">SMART / SMART100 <span class="flag">🇰🇷</span></span><span class="type-tag t-lwr">경수로</span></div>
+        <div class="dev-top"><span class="dev-name">SMART / SMART100 <span class="cc">KR</span></span><span class="type-tag t-lwr">경수로</span></div>
         <div class="dev-reactor"><b>SMART100</b> · 일체형 가압경수로(iPWR) · 100~110MWe</div>
         <div class="dev-feature">KAERI 개발, 한국 SMR의 원조. <b>세계 첫 SMR 표준설계인가(2012)</b>. 완전 피동안전 강화형 SMART100으로 진화.</div>
       </div>
       <div class="mini-pipe" data-stage="2">
         <span class="dot dc1 done"></span><span class="dot dc2 cur"></span><span class="dot dc3"></span><span class="dot dc4"></span><span class="dot dc5"></span><span class="dot dc6"></span>
-        <span class="stage-label" style="background:var(--s2);color:#0b0f14">2 · 표준설계인가 완료</span>
+        <span class="stage-label">2 · 표준설계인가 완료</span>
       </div>
       <div class="dev-foot">
-        <div class="tracks-row"><span class="trk trk-kr"><a href="SMR-licensing-tracks.html#korea">🇰🇷 한국 표준설계인가</a></span></div>
-        <button class="toggle">인허가 상황 ▾</button>
+        <div class="tracks-row"><span class="trk trk-kr"><a href="SMR-licensing-tracks.html#korea">한국 표준설계인가</a></span></div>
+        <button class="toggle">인허가 상황</button>
         <div class="detail">
           <div class="row"><span class="k">현황</span> SMART 표준설계인가 <b>세계 최초 취득(2012)</b> → 안전·경제성 강화한 <b>SMART100 표준설계인가 취득(2024.9)</b>.</div>
           <div class="row"><span class="k">수출</span> 사우디와 공동설계(1억 달러 투자), 현대ENG 협력으로 사우디·캐나다 등 수출 추진. 단, 국내 착공 프로젝트는 미정.</div>
@@ -394,17 +362,17 @@
     <!-- ===== i-SMR ===== -->
     <div class="dev" id="ismr" data-type="lwr" data-reg="intl" data-kw="i-smr ismr 혁신형 한국 korea 경수로 ipwr pwr 피동안전 표준설계인가 2028 170mwe 680mwe 4모듈">
       <div class="dev-head">
-        <div class="dev-top"><span class="dev-name">i-SMR (혁신형 SMR) <span class="flag">🇰🇷</span></span><span class="type-tag t-lwr">경수로</span></div>
+        <div class="dev-top"><span class="dev-name">i-SMR (혁신형 SMR) <span class="cc">KR</span></span><span class="type-tag t-lwr">경수로</span></div>
         <div class="dev-reactor"><b>i-SMR</b> · 일체형 경수로(iPWR) · ~170MWe/모듈 (4모듈 ~680MWe)</div>
         <div class="dev-feature">한국형 차세대 SMR 국책사업. SMART100 기반 + 혁신기술(완전 피동안전, 무붕산 등)로 안전성·경제성 강화.</div>
       </div>
       <div class="mini-pipe" data-stage="1">
         <span class="dot dc1 cur"></span><span class="dot dc2"></span><span class="dot dc3"></span><span class="dot dc4"></span><span class="dot dc5"></span><span class="dot dc6"></span>
-        <span class="stage-label" style="background:var(--s1);color:#0b0f14">1 · 설계개발(인가 전)</span>
+        <span class="stage-label">1 · 설계개발(인가 전)</span>
       </div>
       <div class="dev-foot">
-        <div class="tracks-row"><span class="trk trk-kr"><a href="SMR-licensing-tracks.html#korea">🇰🇷 한국 표준설계인가</a></span></div>
-        <button class="toggle">인허가 상황 ▾</button>
+        <div class="tracks-row"><span class="trk trk-kr"><a href="SMR-licensing-tracks.html#korea">한국 표준설계인가</a></span></div>
+        <button class="toggle">인허가 상황</button>
         <div class="detail">
           <div class="row"><span class="k">현황</span> 2023년 출범한 국책 개발사업. 표준설계 개발 진행 중, <b>표준설계인가(SDA) 목표 2028</b>.</div>
           <div class="row"><span class="k">참고</span> 한국전력기술 등이 설계 참여. 국내 SMR 주력 모델로 추진되나 아직 규제 인가 전 단계.</div>
@@ -416,17 +384,17 @@
     <!-- ===== Seaborg ===== -->
     <div class="dev" id="seaborg" data-type="msr" data-reg="intl" data-kw="seaborg saltfoss 덴마크 denmark cmsr 콤팩트 용융염로 molten salt 부유식 바지선 barge floating 해상 khnp 삼성중공업 100mwe 초기">
       <div class="dev-head">
-        <div class="dev-top"><span class="dev-name">Seaborg (→ Saltfoss) <span class="flag">🇩🇰</span></span><span class="type-tag t-msr">용융염로</span></div>
+        <div class="dev-top"><span class="dev-name">Seaborg (→ Saltfoss) <span class="cc">DK</span></span><span class="type-tag t-msr">용융염로</span></div>
         <div class="dev-reactor"><b>CMSR</b> · 콤팩트 용융염원자로 · 100MWe / 250MWth · 해상 부유식</div>
         <div class="dev-feature">연료=냉각재인 용융염로를 <b>해상 부유식 바지선(Power Barge)</b>에 탑재. KHNP·삼성중공업 컨소시엄. (2025.4 사명 Saltfoss로 변경)</div>
       </div>
       <div class="mini-pipe" data-stage="1">
         <span class="dot dc1 cur"></span><span class="dot dc2"></span><span class="dot dc3"></span><span class="dot dc4"></span><span class="dot dc5"></span><span class="dot dc6"></span>
-        <span class="stage-label" style="background:var(--s1);color:#0b0f14">1 · 개념·초기 R&D</span>
+        <span class="stage-label">1 · 개념·초기 R&D</span>
       </div>
       <div class="dev-foot">
         <div class="tracks-row"><span class="trk trk-pre">규제 미진입 (초기)</span></div>
-        <button class="toggle">인허가 상황 ▾</button>
+        <button class="toggle">인허가 상황</button>
         <div class="detail">
           <div class="row"><span class="k">현황</span> 정식 규제 인허가 트랙 진입 전 <b>초기 R&D·실험 단계</b>. 상용 프로토타입 2026, Power Barge 상업운전 2028 목표(목표 변동 가능성 큼).</div>
           <div class="row"><span class="k">변경</span> HALEU 공급 리스크로 <b>초기 연료를 LEU로 전환</b>(감속재도 흑연으로 변경). 해상 배치 특성상 선급·해사 규제와 원자력 규제 병행 필요.</div>
@@ -441,8 +409,8 @@
 </main>
 
 <footer>
-  ⚠️ 인허가 상황은 빠르게 변합니다 — 회의·보고 직전 각 규제기관(NRC·ONR·CNSC·NSSC) 및 개발사 공시로 최신본 재확인 권장. · 2026.6 기준 정리.<br>
-  🔗 <a href="SMR-licensing-tracks.html">트랙별로 보기</a> · <a href="SMR-reference.html">CFR 규정 레퍼런스</a>
+  <span class="note warn" style="display:block;margin-bottom:8px;"><span class="lead">주의</span> 인허가 상황은 빠르게 변합니다 — 회의·보고 직전 각 규제기관(NRC·ONR·CNSC·NSSC) 및 개발사 공시로 최신본 재확인 권장. (2026.6 기준)</span>
+  <a href="SMR-licensing-tracks.html">트랙별로 보기</a> · <a href="SMR-reference.html">CFR 규정 레퍼런스</a>
 </footer>
 
 <script>
@@ -453,12 +421,11 @@
   const noResults=document.getElementById('noResults');
   let fType='all', fReg=null;
 
-  // expand/collapse
   document.querySelectorAll('.toggle').forEach(btn=>{
     btn.addEventListener('click',()=>{
       const d=btn.nextElementSibling;
       const open=d.classList.toggle('open');
-      btn.textContent=open?'인허가 상황 ▴':'인허가 상황 ▾';
+      btn.textContent=open?'인허가 상황 닫기':'인허가 상황';
     });
   });
 
@@ -492,7 +459,6 @@
     chip.addEventListener('click',()=>{
       const g=chip.dataset.g;
       if(g==='type'){
-        chips.filter=null;
         document.querySelectorAll('.chip[data-g="type"]').forEach(c=>c.classList.remove('active'));
         chip.classList.add('active');fType=chip.dataset.f;
       }else if(g==='reg'){
@@ -506,7 +472,6 @@
   search.addEventListener('input',apply);
   document.addEventListener('keydown',e=>{if(e.key==='/'&&document.activeElement!==search){e.preventDefault();search.focus();}});
 
-  // open detail if arrived via #id
   if(location.hash){const el=document.querySelector(location.hash);if(el&&el.classList.contains('dev')){const b=el.querySelector('.toggle');if(b)b.click();}}
   apply();
 </script>

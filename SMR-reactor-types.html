@@ -4,119 +4,95 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SMR 노형 분류 — 경수로 vs 비경수로와 규제 함의</title>
+<link rel="stylesheet" href="styles.css">
 <style>
-  :root{
-    --bg:#0f1419; --bg-card:#1a212b; --bg-card-hover:#212a36; --border:#2a3441;
-    --text:#e6edf3; --text-dim:#9aa7b4; --accent:#4dabf7; --accent-dim:#1c3a52;
-    --hi:#ffd43b; --hi-bg:#4a3f00;
-    --lwr:#4dabf7; --nonlwr:#ff8787; --msr:#b197fc;
-  }
-  *{box-sizing:border-box;}
-  body{margin:0;font-family:-apple-system,"Segoe UI","Malgun Gothic",sans-serif;background:var(--bg);color:var(--text);line-height:1.6;font-size:15px;}
-  a{color:var(--accent);text-decoration:none;}
-  a:hover{text-decoration:underline;}
-
-  .topnav{display:flex;gap:4px;background:#0b0f14;border-bottom:1px solid var(--border);padding:8px 16px;position:sticky;top:0;z-index:200;flex-wrap:wrap;}
-  .topnav a{color:var(--text-dim);padding:7px 14px;border-radius:7px;font-size:14px;font-weight:600;}
-  .topnav a:hover{background:var(--bg-card);color:var(--text);text-decoration:none;}
-  .topnav a.active{background:var(--accent-dim);color:var(--accent);}
-
-  header{padding:22px 24px 6px;}
-  h1{font-size:22px;margin:0 0 4px;}
-  .subtitle{color:var(--text-dim);font-size:13.5px;}
-
-  main{max-width:1080px;margin:0 auto;padding:10px 24px 60px;}
-
-  .keynote{background:var(--bg-card);border:1px solid var(--border);border-left:3px solid var(--hi);border-radius:10px;padding:14px 18px;margin:14px 0 26px;font-size:14px;color:var(--text-dim);}
-  .keynote b{color:var(--text);}
-
-  /* group split */
-  .group-head{display:flex;align-items:baseline;gap:12px;margin:30px 0 6px;padding-bottom:8px;border-bottom:2px solid;}
-  .group-lwr{border-color:var(--lwr);}
-  .group-non{border-color:var(--nonlwr);}
-  .group-head h2{font-size:19px;margin:0;}
-  .group-lwr h2{color:var(--lwr);}
-  .group-non h2{color:var(--nonlwr);}
-  .group-tag{font-size:12px;font-weight:700;padding:3px 10px;border-radius:5px;}
-  .gt-lwr{background:#16344d;color:var(--lwr);}
-  .gt-non{background:#3a1c1c;color:var(--nonlwr);}
+  .group-head{display:flex;align-items:baseline;gap:12px;margin:30px 0 6px;padding-bottom:8px;border-bottom:2px solid var(--border);}
+  .group-lwr{border-color:var(--accent);}
+  .group-non{border-color:var(--border-strong);}
+  .group-head h2{font-size:18px;margin:0;}
+  .group-lwr h2{color:var(--accent-strong);}
+  .group-non h2{color:var(--text);}
+  .group-tag{font-size:12px;font-weight:700;padding:3px 10px;border-radius:4px;}
+  .gt-lwr{background:var(--accent-weak);color:var(--accent-strong);}
+  .gt-non{background:var(--surface-3);color:var(--text-dim);}
   .group-note{font-size:13.5px;color:var(--text-dim);margin:0 0 16px;}
   .group-note b{color:var(--text);}
 
-  .tcard{background:var(--bg-card);border:1px solid var(--border);border-radius:12px;padding:18px 20px;margin-bottom:16px;scroll-margin-top:60px;}
-  .tcard.lwr{border-left:3px solid var(--lwr);}
-  .tcard.non{border-left:3px solid var(--nonlwr);}
-  .tcard.mol{border-left:3px solid var(--msr);}
+  .tcard{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:18px 20px;
+    margin-bottom:14px;scroll-margin-top:60px;box-shadow:var(--shadow);}
+  .tcard.lwr{border-left:3px solid var(--accent);}
+  .tcard.non,.tcard.mol{border-left:3px solid var(--border-strong);}
   .tcard-head{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:4px;}
-  .tcard-abbr{font-size:18px;font-weight:800;}
+  .tcard-abbr{font-size:17px;font-weight:800;color:var(--text);}
+  .tcard.lwr .tcard-abbr{color:var(--accent-strong);}
   .tcard-ko{font-size:14px;color:var(--text-dim);}
-  .tcard-en{font-size:12px;color:var(--text-dim);}
+  .tcard-en{font-size:12px;color:var(--text-faint);}
   .tcard-lead{font-size:13.5px;color:var(--text-dim);margin:6px 0 14px;}
   .tcard-lead b{color:var(--text);}
 
-  .specs{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--border);border:1px solid var(--border);border-radius:8px;overflow:hidden;margin-bottom:14px;}
-  .spec{background:#141a23;padding:9px 12px;}
+  .specs{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:var(--border);
+    border:1px solid var(--border);border-radius:var(--radius-sm);overflow:hidden;margin-bottom:14px;}
+  .spec{background:var(--surface-2);padding:9px 12px;}
   .spec .lab{font-size:11px;color:var(--accent);font-weight:700;display:block;margin-bottom:1px;}
   .spec .val{font-size:13px;color:var(--text);}
 
-  .impl{background:#141a23;border:1px solid var(--border);border-radius:8px;padding:11px 14px;margin-bottom:12px;font-size:13.5px;color:var(--text-dim);}
-  .impl .ti{color:var(--hi);font-weight:700;font-size:12.5px;display:block;margin-bottom:3px;}
+  .impl{background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:11px 14px;
+    margin-bottom:12px;font-size:13.5px;color:var(--text-dim);}
+  .impl .ti{color:var(--accent-strong);font-weight:700;font-size:12.5px;display:block;margin-bottom:3px;}
   .impl b{color:var(--text);}
 
   .devs-row{display:flex;gap:7px;flex-wrap:wrap;align-items:center;}
-  .devs-row .lbl{font-size:12px;color:var(--text-dim);margin-right:2px;}
-  .devchip{font-size:12.5px;font-weight:600;background:#0b0f14;border:1px solid var(--border);padding:4px 11px;border-radius:20px;}
-  .devchip:hover{border-color:var(--accent);text-decoration:none;}
+  .devs-row .lbl{font-size:12px;color:var(--text-faint);margin-right:2px;}
+  .devchip{font-size:12.5px;font-weight:600;background:var(--surface);border:1px solid var(--border-strong);
+    padding:4px 11px;border-radius:20px;color:var(--text);}
+  .devchip:hover{border-color:var(--accent);color:var(--accent-strong);text-decoration:none;}
 
-  /* comparison table */
   h2.cmp-title{font-size:18px;margin:36px 0 12px;}
-  .cmp-wrap{overflow-x:auto;border:1px solid var(--border);border-radius:10px;}
   table.cmp{width:100%;border-collapse:collapse;font-size:13px;min-width:860px;}
   table.cmp th,table.cmp td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--border);vertical-align:top;}
-  table.cmp th{background:var(--bg-card-hover);font-weight:700;font-size:12px;white-space:nowrap;}
+  table.cmp th{background:var(--surface-2);font-weight:700;font-size:12px;color:var(--text-dim);white-space:nowrap;}
   table.cmp tr:last-child td{border-bottom:none;}
-  table.cmp tbody tr:hover{background:var(--bg-card);}
+  table.cmp tbody tr:hover{background:var(--surface-2);}
   .pill{font-size:11px;font-weight:700;padding:2px 7px;border-radius:4px;white-space:nowrap;}
-  .pill-lwr{background:#16344d;color:var(--lwr);}
-  .pill-non{background:#3a1c1c;color:var(--nonlwr);}
-  .pill-mol{background:#2c2348;color:var(--msr);}
-  .mature-h{color:#51cf66;font-weight:700;}
-  .mature-m{color:var(--hi);font-weight:700;}
-  .mature-l{color:#ff8787;font-weight:700;}
-
-  footer{max-width:1080px;margin:0 auto;padding:20px 24px;color:var(--text-dim);font-size:12px;border-top:1px solid var(--border);}
+  .pill-lwr{background:var(--accent-weak);color:var(--accent-strong);}
+  .pill-non,.pill-mol{background:var(--surface-3);color:var(--text-dim);}
+  .mature-h{color:var(--accent-strong);font-weight:700;}
+  .mature-m{color:var(--text-dim);font-weight:700;}
+  .mature-l{color:var(--text-faint);font-weight:700;}
 </style>
 </head>
 <body>
 <nav class="topnav">
-  <a href="SMR-developers.html">🏭 SMR 개발사</a>
-  <a href="SMR-licensing-tracks.html">🗂️ 인허가 트랙</a>
-  <a href="SMR-reactor-types.html" class="active">⚛️ 노형 분류</a>
-  <a href="SMR-reference.html">📚 CFR 레퍼런스</a>
+  <a class="brand" href="index.html">SMR Reference</a>
+  <a href="SMR-developers.html">개발사</a>
+  <a href="SMR-licensing-tracks.html">인허가 트랙</a>
+  <a href="SMR-reactor-types.html" class="active">노형 분류</a>
+  <a href="SMR-reference.html">CFR 레퍼런스</a>
 </nav>
 
-<header>
-  <h1>⚛️ SMR 노형 분류 — 경수로 vs 비경수로</h1>
-  <div class="subtitle">노형이 곧 규제 트랙·연료·공급망·안전논리를 가른다. 각 노형의 핵심 제원과 <b>규제 함의</b>, 대표 개발사(클릭 시 <a href="SMR-developers.html">개발사 상세</a>).</div>
+<header class="page">
+  <div class="kicker">Reactor Types</div>
+  <h1>노형 분류 — 경수로 vs 비경수로</h1>
+  <p class="subtitle">노형이 곧 규제 트랙·연료·공급망·안전논리를 가른다. 각 노형의 핵심 제원과 <b>규제 함의</b>, 대표 개발사(클릭 시 <a href="SMR-developers.html">개발사 상세</a>).</p>
 </header>
 
 <main>
-  <div class="keynote">
-    <b>왜 노형 구분이 중요한가:</b> 미국 규제(Part 50/52)는 <b>경수로(LWR)를 전제로</b> 만들어졌다. 그래서
-    <b style="color:var(--lwr)">경수로</b>는 기존 틀·코드·연료 공급망이 성숙해 인허가 리스크가 낮고,
-    <b style="color:var(--nonlwr)">비경수로(첨단로)</b>는 기존 요건이 안 맞아 <b>규정 면제·성능기반 접근(PRA)·새 연료(HALEU·TRISO) 공급망</b>이 필요하다.
+  <div class="note" style="margin-bottom:22px;">
+    <span class="lead">왜 노형 구분이 중요한가</span> 미국 규제(Part 50/52)는 <b>경수로(LWR)를 전제로</b> 만들어졌다. 그래서
+    <b>경수로</b>는 기존 틀·코드·연료 공급망이 성숙해 인허가 리스크가 낮고,
+    <b>비경수로(첨단로)</b>는 기존 요건이 안 맞아 <b>규정 면제·성능기반 접근(PRA)·새 연료(HALEU·TRISO) 공급망</b>이 필요하다.
     NRC가 <a href="SMR-reference.html">Part 53(성능기반·기술포괄)</a>을 만든 이유가 바로 이 비경수로 수용이다. → 같은 “SMR”이라도 노형에 따라 사업 난이도가 크게 다름.
   </div>
 
   <!-- ============ 경수로 ============ -->
   <div class="group-head group-lwr">
-    <h2>🔵 경수로 (LWR)</h2><span class="group-tag gt-lwr">Light Water Reactor</span>
+    <h2>경수로 (LWR)</h2><span class="group-tag gt-lwr">Light Water Reactor</span>
   </div>
   <p class="group-note">물을 냉각재이자 감속재로 사용. 기존 대형 원전과 같은 계열이라 <b>규제·코드·연료(UO₂, &lt;5% 농축) 공급망이 성숙</b>. SMR 중 인허가가 가장 앞선 그룹.</p>
 
   <!-- PWR -->
   <div class="tcard lwr" id="pwr">
-    <div class="tcard-head"><span class="tcard-abbr" style="color:var(--lwr)">PWR형</span><span class="tcard-ko">가압경수로</span><span class="tcard-en">Pressurized Water Reactor (iPWR 일체형 포함)</span></div>
+    <div class="tcard-head"><span class="tcard-abbr">PWR형</span><span class="tcard-ko">가압경수로</span><span class="tcard-en">Pressurized Water Reactor (iPWR 일체형 포함)</span></div>
     <div class="tcard-lead">노심을 고압으로 가압해 끓지 않는 물로 열을 빼낸 뒤 별도 증기발생기로 증기 생산. SMR에서는 <b>일체형(iPWR)</b>으로 증기발생기·가압기를 압력용기 안에 통합.</div>
     <div class="specs">
       <div class="spec"><span class="lab">냉각재/감속재</span><span class="val">경수(물)</span></div>
@@ -126,20 +102,20 @@
       <div class="spec"><span class="lab">출력 활용</span><span class="val">전기 위주</span></div>
       <div class="spec"><span class="lab">규제 성숙도</span><span class="val mature-h">높음</span></div>
     </div>
-    <div class="impl"><span class="ti">⚖️ 규제 함의</span> 기존 <b>Part 50/52 틀에 가장 잘 맞음</b>. 결정론적 규제·ASME 코드·연료 공급망 성숙 → 인허가 리스크 최저. iPWR의 피동안전으로 비상계획구역(EPZ) 축소를 논증.</div>
-    <div class="devs-row"><span class="lbl">대표 개발사:</span>
-      <a class="devchip" href="SMR-developers.html#nuscale">NuScale 🇺🇸</a>
-      <a class="devchip" href="SMR-developers.html#holtec">Holtec SMR-300 🇺🇸</a>
-      <a class="devchip" href="SMR-developers.html#rollsroyce">Rolls-Royce 🇬🇧</a>
-      <a class="devchip" href="SMR-developers.html#westinghouse">Westinghouse AP300 🇺🇸</a>
-      <a class="devchip" href="SMR-developers.html#smart">SMART100 🇰🇷</a>
-      <a class="devchip" href="SMR-developers.html#ismr">i-SMR 🇰🇷</a>
+    <div class="impl"><span class="ti">규제 함의</span> 기존 <b>Part 50/52 틀에 가장 잘 맞음</b>. 결정론적 규제·ASME 코드·연료 공급망 성숙 → 인허가 리스크 최저. iPWR의 피동안전으로 비상계획구역(EPZ) 축소를 논증.</div>
+    <div class="devs-row"><span class="lbl">대표 개발사</span>
+      <a class="devchip" href="SMR-developers.html#nuscale">NuScale <span class="cc">US</span></a>
+      <a class="devchip" href="SMR-developers.html#holtec">Holtec SMR-300 <span class="cc">US</span></a>
+      <a class="devchip" href="SMR-developers.html#rollsroyce">Rolls-Royce <span class="cc">UK</span></a>
+      <a class="devchip" href="SMR-developers.html#westinghouse">Westinghouse AP300 <span class="cc">US</span></a>
+      <a class="devchip" href="SMR-developers.html#smart">SMART100 <span class="cc">KR</span></a>
+      <a class="devchip" href="SMR-developers.html#ismr">i-SMR <span class="cc">KR</span></a>
     </div>
   </div>
 
   <!-- BWR -->
   <div class="tcard lwr" id="bwr">
-    <div class="tcard-head"><span class="tcard-abbr" style="color:var(--lwr)">BWR형</span><span class="tcard-ko">비등경수로</span><span class="tcard-en">Boiling Water Reactor</span></div>
+    <div class="tcard-head"><span class="tcard-abbr">BWR형</span><span class="tcard-ko">비등경수로</span><span class="tcard-en">Boiling Water Reactor</span></div>
     <div class="tcard-lead">노심에서 물을 <b>직접 끓여</b> 증기를 만들어 터빈으로 보냄(증기발생기 없음 → 계통 단순). BWRX-300은 기존 ESBWR을 대폭 단순화·축소.</div>
     <div class="specs">
       <div class="spec"><span class="lab">냉각재/감속재</span><span class="val">경수(물)</span></div>
@@ -149,21 +125,21 @@
       <div class="spec"><span class="lab">출력 활용</span><span class="val">전기 위주</span></div>
       <div class="spec"><span class="lab">규제 성숙도</span><span class="val mature-h">높음</span></div>
     </div>
-    <div class="impl"><span class="ti">⚖️ 규제 함의</span> 경수로라 <b>기존 틀 적용 용이</b> + 자연순환·피동냉각으로 안전계통 단순화를 강점으로 논증. 북미 SMR 상용화 최선두(캐나다 CNSC 건설허가).</div>
-    <div class="devs-row"><span class="lbl">대표 개발사:</span>
-      <a class="devchip" href="SMR-developers.html#gehitachi">GE Hitachi BWRX-300 🇺🇸🇯🇵</a>
+    <div class="impl"><span class="ti">규제 함의</span> 경수로라 <b>기존 틀 적용 용이</b> + 자연순환·피동냉각으로 안전계통 단순화를 강점으로 논증. 북미 SMR 상용화 최선두(캐나다 CNSC 건설허가).</div>
+    <div class="devs-row"><span class="lbl">대표 개발사</span>
+      <a class="devchip" href="SMR-developers.html#gehitachi">GE Hitachi BWRX-300 <span class="cc">US·JP</span></a>
     </div>
   </div>
 
   <!-- ============ 비경수로 ============ -->
   <div class="group-head group-non">
-    <h2>🔴 비경수로 (Non-LWR / 첨단로 Gen-IV)</h2><span class="group-tag gt-non">Advanced Reactors</span>
+    <h2>비경수로 (Non-LWR · 첨단로 Gen-IV)</h2><span class="group-tag gt-non">Advanced Reactors</span>
   </div>
   <p class="group-note">물 이외의 냉각재(소듐·헬륨·용융염)를 사용. <b>고온·고효율·장수명 연료·공정열</b>이 가능하지만, 기존 경수로 중심 규제가 안 맞아 <b>면제·성능기반(PRA)·새 연료 공급망(HALEU·TRISO)</b>이 필요. → <a href="SMR-reference.html">Part 53</a>의 주 대상.</p>
 
   <!-- SFR -->
   <div class="tcard non" id="sfr">
-    <div class="tcard-head"><span class="tcard-abbr" style="color:var(--nonlwr)">SFR</span><span class="tcard-ko">소듐냉각고속로</span><span class="tcard-en">Sodium-cooled Fast Reactor</span></div>
+    <div class="tcard-head"><span class="tcard-abbr">SFR</span><span class="tcard-ko">소듐냉각고속로</span><span class="tcard-en">Sodium-cooled Fast Reactor</span></div>
     <div class="tcard-lead">감속재 없이 <b>고속 중성자</b>로 운전, 액체 소듐으로 냉각. 상압 운전·높은 열효율, 사용후핵연료 일부 소각 가능. EBR-II 계보.</div>
     <div class="specs">
       <div class="spec"><span class="lab">냉각재</span><span class="val">액체 소듐(Na)</span></div>
@@ -173,17 +149,17 @@
       <div class="spec"><span class="lab">연료</span><span class="val">금속/산화물, HALEU</span></div>
       <div class="spec"><span class="lab">규제 성숙도</span><span class="val mature-m">중간</span></div>
     </div>
-    <div class="impl"><span class="ti">⚖️ 규제 함의</span> 상압·피동안전은 강점이나 <b>소듐 화재·소듐-물 반응</b>, 고속로 특유의 반응도(보이드 계수) 관리가 규제 쟁점. 연료가 <b>HALEU</b>라 공급망(Part 70)·수출통제가 따라옴. Part 50으로 신청해 면제를 얹는 방식이 현재 주류.</div>
-    <div class="devs-row"><span class="lbl">대표 개발사:</span>
-      <a class="devchip" href="SMR-developers.html#terrapower">TerraPower Natrium 🇺🇸</a>
-      <a class="devchip" href="SMR-developers.html#oklo">Oklo Aurora 🇺🇸</a>
-      <a class="devchip" href="SMR-developers.html#arc">ARC-100 🇨🇦</a>
+    <div class="impl"><span class="ti">규제 함의</span> 상압·피동안전은 강점이나 <b>소듐 화재·소듐-물 반응</b>, 고속로 특유의 반응도(보이드 계수) 관리가 규제 쟁점. 연료가 <b>HALEU</b>라 공급망(Part 70)·수출통제가 따라옴. Part 50으로 신청해 면제를 얹는 방식이 현재 주류.</div>
+    <div class="devs-row"><span class="lbl">대표 개발사</span>
+      <a class="devchip" href="SMR-developers.html#terrapower">TerraPower Natrium <span class="cc">US</span></a>
+      <a class="devchip" href="SMR-developers.html#oklo">Oklo Aurora <span class="cc">US</span></a>
+      <a class="devchip" href="SMR-developers.html#arc">ARC-100 <span class="cc">CA</span></a>
     </div>
   </div>
 
   <!-- HTGR -->
   <div class="tcard non" id="htgr">
-    <div class="tcard-head"><span class="tcard-abbr" style="color:var(--nonlwr)">HTGR</span><span class="tcard-ko">고온가스로</span><span class="tcard-en">High-Temperature Gas-cooled Reactor</span></div>
+    <div class="tcard-head"><span class="tcard-abbr">HTGR</span><span class="tcard-ko">고온가스로</span><span class="tcard-en">High-Temperature Gas-cooled Reactor</span></div>
     <div class="tcard-lead">헬륨으로 냉각, 흑연 감속. <b>TRISO 입자 연료</b>(세라믹 다중 코팅)로 매우 높은 온도까지 핵분열물질을 가둠 → 고유안전. 고온 출구로 <b>산업 공정열</b> 공급 가능.</div>
     <div class="specs">
       <div class="spec"><span class="lab">냉각재</span><span class="val">헬륨(He) 가스</span></div>
@@ -193,15 +169,15 @@
       <div class="spec"><span class="lab">연료</span><span class="val">TRISO, HALEU(~15–20%)</span></div>
       <div class="spec"><span class="lab">규제 성숙도</span><span class="val mature-m">중간</span></div>
     </div>
-    <div class="impl"><span class="ti">⚖️ 규제 함의</span> <b>TRISO 연료 건전성</b>이 안전논거의 핵심 → 연료 인증·고온재료가 쟁점. 고온 공정열은 비전력 응용이라 기존 발전로 규제와 결이 다름. <b>HALEU/TRISO 공급망(Part 70)과 수출통제(Part 810)</b> 직접 관련. 실제 신청은 Part 50(예: Xe-100).</div>
-    <div class="devs-row"><span class="lbl">대표 개발사:</span>
-      <a class="devchip" href="SMR-developers.html#xenergy">X-energy Xe-100 🇺🇸</a>
+    <div class="impl"><span class="ti">규제 함의</span> <b>TRISO 연료 건전성</b>이 안전논거의 핵심 → 연료 인증·고온재료가 쟁점. 고온 공정열은 비전력 응용이라 기존 발전로 규제와 결이 다름. <b>HALEU/TRISO 공급망(Part 70)과 수출통제(Part 810)</b> 직접 관련. 실제 신청은 Part 50(예: Xe-100).</div>
+    <div class="devs-row"><span class="lbl">대표 개발사</span>
+      <a class="devchip" href="SMR-developers.html#xenergy">X-energy Xe-100 <span class="cc">US</span></a>
     </div>
   </div>
 
   <!-- FHR -->
   <div class="tcard non" id="fhr">
-    <div class="tcard-head"><span class="tcard-abbr" style="color:var(--nonlwr)">FHR</span><span class="tcard-ko">불소염냉각 고온로</span><span class="tcard-en">Fluoride salt-cooled High-temperature Reactor</span></div>
+    <div class="tcard-head"><span class="tcard-abbr">FHR</span><span class="tcard-ko">불소염냉각 고온로</span><span class="tcard-en">Fluoride salt-cooled High-temperature Reactor</span></div>
     <div class="tcard-lead">HTGR의 <b>TRISO 연료(고체)</b>를 쓰되 냉각만 <b>액체 불소염(FLiBe)</b>으로. 상압에서 고온·고열용량 → 안전여유 큼. (연료는 고체라 MSR과 다름)</div>
     <div class="specs">
       <div class="spec"><span class="lab">냉각재</span><span class="val">불소염(FLiBe)</span></div>
@@ -211,15 +187,15 @@
       <div class="spec"><span class="lab">연료</span><span class="val">TRISO(고체), HALEU</span></div>
       <div class="spec"><span class="lab">규제 성숙도</span><span class="val mature-m">중간</span></div>
     </div>
-    <div class="impl"><span class="ti">⚖️ 규제 함의</span> 상압·고열용량이 안전 강점. <b>염 화학·부식·삼중수소</b> 관리가 신규 쟁점. TRISO+HALEU 공급망 공유. Kairos는 Hermes 실증로로 Part 50 트랙 선례를 축적 중.</div>
-    <div class="devs-row"><span class="lbl">대표 개발사:</span>
-      <a class="devchip" href="SMR-developers.html#kairos">Kairos Power KP-FHR 🇺🇸</a>
+    <div class="impl"><span class="ti">규제 함의</span> 상압·고열용량이 안전 강점. <b>염 화학·부식·삼중수소</b> 관리가 신규 쟁점. TRISO+HALEU 공급망 공유. Kairos는 Hermes 실증로로 Part 50 트랙 선례를 축적 중.</div>
+    <div class="devs-row"><span class="lbl">대표 개발사</span>
+      <a class="devchip" href="SMR-developers.html#kairos">Kairos Power KP-FHR <span class="cc">US</span></a>
     </div>
   </div>
 
   <!-- MSR -->
   <div class="tcard mol" id="msr">
-    <div class="tcard-head"><span class="tcard-abbr" style="color:var(--msr)">MSR</span><span class="tcard-ko">용융염원자로</span><span class="tcard-en">Molten Salt Reactor</span></div>
+    <div class="tcard-head"><span class="tcard-abbr">MSR</span><span class="tcard-ko">용융염원자로</span><span class="tcard-en">Molten Salt Reactor</span></div>
     <div class="tcard-lead"><b>연료가 냉각재에 녹아 있는</b> 액체연료 방식(연료=용융염). 상압·고온, 동결밸브 등 고유 피동안전. 규제·공급망이 가장 미성숙한 최전위 기술.</div>
     <div class="specs">
       <div class="spec"><span class="lab">냉각재</span><span class="val">용융 불소염 (연료=냉각재)</span></div>
@@ -229,17 +205,17 @@
       <div class="spec"><span class="lab">연료</span><span class="val">액체연료, LEU/HALEU</span></div>
       <div class="spec"><span class="lab">규제 성숙도</span><span class="val mature-l">낮음</span></div>
     </div>
-    <div class="impl"><span class="ti">⚖️ 규제 함의</span> <b>액체연료</b>라 핵물질 계량·관리(Part 74), 삼중수소·부식·연료 처리 등 기존 규제틀에 없는 쟁점이 다수 → 가장 어려운 인허가. Seaborg는 해상 부유식이라 <b>선급·해사 규제까지 병행</b>. 대부분 초기 R&D 단계.</div>
-    <div class="devs-row"><span class="lbl">대표 개발사:</span>
-      <a class="devchip" href="SMR-developers.html#seaborg">Seaborg (Saltfoss) CMSR 🇩🇰</a>
+    <div class="impl"><span class="ti">규제 함의</span> <b>액체연료</b>라 핵물질 계량·관리(Part 74), 삼중수소·부식·연료 처리 등 기존 규제틀에 없는 쟁점이 다수 → 가장 어려운 인허가. Seaborg는 해상 부유식이라 <b>선급·해사 규제까지 병행</b>. 대부분 초기 R&D 단계.</div>
+    <div class="devs-row"><span class="lbl">대표 개발사</span>
+      <a class="devchip" href="SMR-developers.html#seaborg">Seaborg (Saltfoss) CMSR <span class="cc">DK</span></a>
     </div>
   </div>
 
   <p class="group-note" style="margin-top:18px;">＊ <b>마이크로로 참고:</b> Westinghouse <a href="SMR-developers.html#westinghouse">eVinci</a>는 펌프·냉각수 없이 <b>히트파이프</b>로 열을 빼는 초소형로(~5MWe)로, 위 분류와 별개의 마이크로로 범주. Oklo Aurora는 초기 히트파이프 설계에서 <b>소듐냉각고속로(SFR)</b>로 전환·확대(75MWe)됨.</p>
 
   <!-- ============ 비교표 ============ -->
-  <h2 class="cmp-title">📊 노형 한눈 비교</h2>
-  <div class="cmp-wrap">
+  <h2 class="cmp-title">노형 한눈 비교</h2>
+  <div class="tbl-wrap">
     <table class="cmp">
       <thead>
         <tr><th>노형</th><th>냉각재</th><th>온도</th><th>압력</th><th>연료</th><th>강점</th><th>규제 성숙도</th><th>대표</th></tr>
@@ -258,7 +234,7 @@
 
 <footer>
   제원은 노형별 대표값(설계마다 상이) · 규제 성숙도는 미국 NRC 기준 상대 평가 · 2026.6 기준.<br>
-  🔗 <a href="SMR-developers.html">개발사별 보기</a> · <a href="SMR-licensing-tracks.html">인허가 트랙별 보기</a> · <a href="SMR-reference.html">CFR 규정 레퍼런스</a>
+  <a href="SMR-developers.html">개발사별 보기</a> · <a href="SMR-licensing-tracks.html">인허가 트랙별 보기</a> · <a href="SMR-reference.html">CFR 규정 레퍼런스</a>
 </footer>
 </body>
 </html>
