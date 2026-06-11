@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMR 뉴스 — 분류·노형별</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+  .controls{position:sticky;top:46px;z-index:150;background:rgba(247,248,250,.94);backdrop-filter:blur(8px);
+    padding:13px 24px;border-bottom:1px solid var(--border);}
+  .controls-inner{max-width:1080px;margin:0 auto;display:flex;flex-direction:column;gap:9px;}
+  .crow{display:flex;gap:8px;flex-wrap:wrap;align-items:center;}
+  .crow .lbl{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--text-faint);width:46px;flex-shrink:0;}
+  .controls .search{flex:1;min-width:220px;}
+  .result-count{color:var(--text-faint);font-size:12.5px;margin-left:auto;font-variant-numeric:tabular-nums;}
+
+  .feed{position:relative;padding-left:22px;margin-top:6px;}
+  .feed::before{content:"";position:absolute;left:5px;top:8px;bottom:8px;width:2px;background:var(--border);}
+  .item{position:relative;margin-bottom:18px;scroll-margin-top:120px;}
+  .item::before{content:"";position:absolute;left:-22px;top:5px;width:11px;height:11px;border-radius:50%;
+    background:var(--border-strong);border:2px solid var(--bg);}
+  .item.key::before{background:var(--accent);}
+  .item-date{font-size:12px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;}
+  .item-title{font-weight:700;font-size:15.5px;margin:1px 0 4px;color:var(--text);line-height:1.4;}
+  .item-body{font-size:13.5px;color:var(--text-dim);line-height:1.6;}
+  .item-tags{margin-top:7px;display:flex;gap:5px;flex-wrap:wrap;align-items:center;}
+  .tg{font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:4px;background:var(--surface-2);color:var(--text-dim);border:1px solid var(--border);}
+  .tg.key{background:var(--accent-weak);color:var(--accent-strong);border-color:var(--accent-weak-2);}
+  .tg.type{background:var(--surface-3);color:var(--text-dim);border-color:var(--surface-3);}
+  .item-src{font-size:11.5px;margin-top:4px;color:var(--text-faint);}
+  .item-src a{color:var(--text-dim);}
+  .no-results{text-align:center;color:var(--text-faint);padding:40px;}
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a class="brand" href="index.html">SMR Reference</a>
+  <a href="SMR-developers.html">개발사</a>
+  <a href="SMR-licensing-tracks.html">인허가 트랙</a>
+  <a href="SMR-reactor-types.html">노형 분류</a>
+  <a href="SMR-news.html" class="active">뉴스</a>
+  <a href="SMR-reference.html">CFR 레퍼런스</a>
+</nav>
+
+<header class="page">
+  <div class="kicker">News</div>
+  <h1>SMR 뉴스</h1>
+  <p class="subtitle">분류(인허가·계약·투자·기술·정책)와 노형별로 거른다. <b>인허가·계약</b>은 주요 표시. 공개 출처 기준 정리.</p>
+  <div class="stamp" id="stamp"></div>
+</header>
+
+<div class="controls">
+  <div class="controls-inner">
+    <div class="crow">
+      <input id="search" class="search" type="text" placeholder="뉴스 검색 (예: Dow, 건설허가, 두산, 영국)" autocomplete="off">
+      <span class="result-count" id="count"></span>
+    </div>
+    <div class="crow">
+      <span class="lbl">분류</span>
+      <div class="filters" id="catFilters">
+        <span class="chip active" data-cat="all">전체</span>
+        <span class="chip" data-cat="인허가">인허가</span>
+        <span class="chip" data-cat="계약">계약</span>
+        <span class="chip" data-cat="투자">투자</span>
+        <span class="chip" data-cat="기술">기술</span>
+        <span class="chip" data-cat="정책">정책</span>
+      </div>
+    </div>
+    <div class="crow">
+      <span class="lbl">노형</span>
+      <div class="filters" id="typeFilters">
+        <span class="chip active" data-type="all">전체</span>
+        <span class="chip" data-type="General">공통</span>
+        <span class="chip" data-type="PWR">PWR</span>
+        <span class="chip" data-type="BWR">BWR</span>
+        <span class="chip" data-type="SFR">SFR</span>
+        <span class="chip" data-type="HTGR">HTGR</span>
+        <span class="chip" data-type="FHR">FHR</span>
+        <span class="chip" data-type="MSR">MSR</span>
+        <span class="chip" data-type="Micro">Micro</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<main>
+  <div class="feed" id="feed"></div>
+  <div class="no-results hidden" id="noResults">조건에 맞는 뉴스가 없습니다.</div>
+</main>
+
+<footer>
+  <span class="note warn" style="display:block;margin-bottom:8px;"><span class="lead">주의</span> 공개 출처 기반 정리 — 회의·보고 직전 각 개발사·규제기관 공시로 재확인 권장. 향후 자동 트래킹으로 갱신 예정.</span>
+  데이터: <code>news-data.js</code> · <a href="SMR-developers.html">개발사</a> · <a href="SMR-licensing-tracks.html">인허가 트랙</a> · <a href="SMR-reference.html">CFR 레퍼런스</a>
+</footer>
+
+<script src="news-data.js"></script>
+<script>
+  var DATA = (window.SMR_NEWS || []).slice();
+  function dkey(d){ var p=String(d).split('-'); return (p[0]||'0000')+(p[1]||'12')+(p[2]||'28'); }
+  DATA.sort(function(a,b){ return dkey(b.date).localeCompare(dkey(a.date)); });
+
+  var KEYCATS = {'인허가':1,'계약':1};
+  var feed=document.getElementById('feed');
+  var noResults=document.getElementById('noResults');
+  var countEl=document.getElementById('count');
+  var search=document.getElementById('search');
+  var catF='all', typeF='all';
+
+  // build DOM once
+  DATA.forEach(function(n){
+    var key = KEYCATS[n.cat] ? ' key' : '';
+    var el=document.createElement('div');
+    el.className='item'+key;
+    el.dataset.cat=n.cat; el.dataset.type=n.type;
+    el.dataset.text=((n.title||'')+' '+(n.summary||'')+' '+(n.dev||'')+' '+(n.region||'')+' '+(n.source||'')).toLowerCase();
+    var src = n.url ? '<a href="'+n.url+'" target="_blank" rel="noopener">'+(n.source||'출처')+'</a>' : (n.source||'');
+    el.innerHTML =
+      '<div class="item-date">'+n.date+'</div>'+
+      '<div class="item-title">'+n.title+'</div>'+
+      '<div class="item-body">'+n.summary+'</div>'+
+      '<div class="item-tags">'+
+        '<span class="tg'+(KEYCATS[n.cat]?' key':'')+'">'+n.cat+'</span>'+
+        '<span class="tg type">'+n.type+'</span>'+
+        (n.dev?'<span class="tg">'+n.dev+'</span>':'')+
+        (n.region?'<span class="cc">'+n.region+'</span>':'')+
+      '</div>'+
+      '<div class="item-src">'+src+'</div>';
+    feed.appendChild(el);
+  });
+  var items=Array.from(feed.querySelectorAll('.item'));
+
+  function clearMarks(el){el.querySelectorAll('mark').forEach(function(m){m.replaceWith(document.createTextNode(m.textContent));});el.normalize();}
+  function highlight(el,term){
+    var w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT,null);var nodes=[];
+    while(w.nextNode())nodes.push(w.currentNode);
+    var re=new RegExp('('+term.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi');
+    nodes.forEach(function(node){if(!re.test(node.textContent))return;var s=document.createElement('span');s.innerHTML=node.textContent.replace(re,'<mark>$1</mark>');node.replaceWith(s);});
+  }
+
+  function apply(){
+    var term=search.value.trim().toLowerCase();
+    var vis=0;
+    items.forEach(function(it){
+      clearMarks(it);
+      var mc = catF==='all' || it.dataset.cat===catF;
+      var mt = typeF==='all' || it.dataset.type===typeF;
+      var ms = !term || it.dataset.text.indexOf(term)>=0;
+      var show = mc&&mt&&ms;
+      it.classList.toggle('hidden',!show);
+      if(show){vis++; if(term) highlight(it,term);}
+    });
+    noResults.classList.toggle('hidden',vis>0);
+    countEl.textContent=vis+'건';
+  }
+
+  function wire(id,key,setter){
+    var chips=Array.from(document.querySelectorAll('#'+id+' .chip'));
+    chips.forEach(function(c){c.addEventListener('click',function(){
+      chips.forEach(function(x){x.classList.remove('active');});
+      c.classList.add('active'); setter(c.dataset[key]); apply();
+    });});
+  }
+  wire('catFilters','cat',function(v){catF=v;});
+  wire('typeFilters','type',function(v){typeF=v;});
+  search.addEventListener('input',apply);
+
+  document.getElementById('stamp').textContent='총 '+DATA.length+'건 · 최신 '+(DATA[0]?DATA[0].date:'')+' 기준';
+  apply();
+</script>
+</body>
+</html>
