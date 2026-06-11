@@ -169,6 +169,20 @@ const REGION_RULES = [
   ['US',['united states',' u.s','us nrc','nuclear regulatory','department of energy','tva','wyoming','texas','idaho','michigan','tennessee','washington','american','oak ridge']],
 ];
 function firstMatch(hay, rules, def){ for (const [v, keys] of rules){ if (keys.some(k => hay.includes(k))) return v; } return def; }
+
+/* high-precision cat override: only RESCUES items left as 기술 (or invalid) — never downgrades a
+   specific call. Keywords are deliberately unambiguous to avoid false positives in the 인허가/계약 filters. */
+const CAT_OVERRIDE = [
+  ['인허가', ['표준설계','설계인증','건설허가','운영허가','design certification','construction permit','combined licen','vendor design review',' gda',' vdr','예비안전분석','표준설계인가','규제 승인','nrc approves','nrc certif']],
+  ['계약',   [' mou','양해각서','업무협약','공급계약','수주','offtake','off-take','power purchase',' ppa','합작','파트너십 체결','계약 체결','계약을 체결']],
+  ['투자',   ['ipo','투자 유치','지분 인수','펀딩','자금 조달','시리즈 ','신규 상장']],
+  ['정책',   ['행정명령','executive order','보조금','국책 ','정부 지원','법안 ']],
+];
+function betterCat(hay, cur){
+  if (cur && cur !== '기술' && VALIDCAT.includes(cur)) return cur;   // keep the model's specific call
+  for (const [v, keys] of CAT_OVERRIDE){ if (keys.some(k => hay.includes(k))) return v; }
+  return '기술';
+}
 function ruleTag(it){
   const hay = (it.title + ' ' + it.snip).toLowerCase();
   const sm = it.snip.trim();
@@ -196,6 +210,7 @@ function classifyPrompt(input){
  "type":${JSON.stringify(VALIDTYPE)} 중 하나(마이크로/초소형로=Micro, 소듐냉각고속로=SFR, 고온가스로=HTGR, 용융염=MSR, 가압/비등경수로=PWR/BWR; 특정 노형 불명확하면 "General"),
  "dev":개발사/기관 짧은 이름 또는 "",
  "region":"US"|"KR"|"UK"|"CA"|"DK"|"EU"|"JP"|"" }
+[중요] cat 분류 규칙을 엄격히 적용하라: 제목·요약에 MOU·양해각서·협약·공급계약·수주·PPA·합작·파트너십 체결이 있으면 반드시 "계약"; 인가·인증·허가·건설허가·운영허가·설계인증·GDA·VDR·표준설계·안전분석 승인이면 "인허가"; IPO·상장·투자·펀딩·지분 인수·자금 조달이면 "투자"; 정부 정책·행정명령·보조금·국책 프로그램이면 "정책". 이 신호가 분명하면 절대 "기술"로 분류하지 마라. "기술"은 위 어디에도 해당 안 되는 순수 기술·시운전·마일스톤에만 쓴다.
 반드시 입력과 같은 순서로, 오직 JSON 배열만 출력하라. 설명 금지.
 입력:
 ${JSON.stringify(input)}`;
@@ -245,6 +260,9 @@ async function main(){
   const useClaude = !!API_KEY;
   console.log('classify mode:', useClaude ? 'Claude API' : 'rule-based (free)');
   const existing = loadExisting();
+  let repaired = 0;   // self-heal previously mis-tagged 기술 items
+  existing.forEach(n => { const nc = betterCat(((n.title||'')+' '+(n.summary||'')).toLowerCase(), n.cat); if (nc !== n.cat){ n.cat = nc; repaired++; } });
+  if (repaired) console.log(`cat-repaired ${repaired} existing item(s)`);
   const seen = new Set(existing.map(n => (n.url||'').trim()).filter(Boolean));
   const seenTitles = new Set(existing.map(n => (n.title||'').trim()));
   const seenKeys = new Set(existing.map(n => n.k).filter(Boolean));  // cross-run, cross-source title dedup
@@ -268,7 +286,7 @@ async function main(){
       title,
       summary: (c.summary || '').trim(),
       summaryLong: (c.summaryLong || '').trim() || undefined,
-      cat: VALIDCAT.includes(c.cat) ? c.cat : '기술',
+      cat: betterCat(((c.titleKo||src.title)+' '+(src.title||'')+' '+(c.summary||'')).toLowerCase(), VALIDCAT.includes(c.cat) ? c.cat : '기술'),
       type: VALIDTYPE.includes(c.type) ? c.type : 'General',
       dev: (c.dev || '').trim(),
       region: (c.region || '').trim(),
@@ -278,7 +296,7 @@ async function main(){
     });
   });
 
-  if (toAdd.length === 0) { console.log('nothing relevant after classification — exiting'); return; }
+  if (toAdd.length === 0 && repaired === 0) { console.log('no new items & nothing to repair — exiting'); return; }
 
   const merged = existing.concat(toAdd);
   merged.sort((a,b)=> dkey(b.date).localeCompare(dkey(a.date)));
