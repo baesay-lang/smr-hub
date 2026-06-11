@@ -126,7 +126,7 @@
   - SVG 텍스트는 data-ko/data-en 으로 한/영 전환
 ============================================================= -->
 <div class="diagram">
-<svg id="diag" viewBox="0 0 1000 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SMR project structure diagram">
+<svg id="diag" viewBox="0 0 1000 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SMR project structure diagram">
   <defs>
     <marker id="arA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/>
@@ -152,106 +152,109 @@
     .lnGd{stroke:#9aa7b4;stroke-width:1.6;fill:none;stroke-dasharray:5 4;}
   </style>
 
-  <!-- ===== static channel spines (always visible) ===== -->
-  <path class="lnG" d="M330,86 V512"/>
-  <path class="lnG" d="M330,320 H380" marker-end="url(#arG)"/>
-  <path class="lnA" d="M620,320 H670"/>
-  <path class="lnA" d="M670,67 V512"/>
-  <text class="chan" x="318" y="300" font-size="11" transform="rotate(-90 318 300)" text-anchor="middle">FINANCIAL PARTNERS</text>
-  <text class="chan" x="682" y="290" font-size="11" transform="rotate(-90 682 290)" text-anchor="middle">OPERATING PARTNERS</text>
+  <!-- ===== column headers (horizontal) ===== -->
+  <text class="chan" x="152" y="40" font-size="11" text-anchor="middle">FINANCIAL PARTNERS</text>
+  <text class="chan" x="500" y="40" font-size="11" text-anchor="middle">PROJECT &amp; STATE</text>
+  <text class="chan" x="848" y="40" font-size="11" text-anchor="middle">OPERATING PARTNERS</text>
 
-  <!-- ===== LEFT — financial ===== -->
+  <!-- ===== static buses (always visible) — left collector, right distributor ===== -->
+  <path class="lnG" d="M326,165 V455"/>
+  <path class="lnG" d="M326,310 H384" marker-end="url(#arG)"/>
+  <path class="lnA" d="M616,310 H674"/>
+  <path class="lnA" d="M674,118 V502"/>
+
+  <!-- ===== LEFT — financial (3 boxes centered on SPV row) ===== -->
   <g class="node" data-box="offtaker">
-    <path class="lnG" d="M260,86 H330"/>
-    <rect class="bx" x="30" y="40" width="230" height="92" rx="9"/>
-    <use href="#plnBadge" x="99" y="50" width="30" height="30"/>
-    <text x="137" y="76" font-size="23" text-anchor="start" letter-spacing="1" style="font-family:Pretendard,system-ui,sans-serif;font-weight:800;fill:#1565c0">PLN</text>
-    <text class="role" x="145" y="106" font-size="11.5" text-anchor="middle" data-ko="전력 주 구매자 · Off-taker" data-en="Primary off-taker">전력 주 구매자 · Off-taker</text>
-    <text class="role" x="145" y="122" font-size="11" text-anchor="middle" data-ko="장기 전력판매계약(PPA)" data-en="Long-term PPA">장기 전력판매계약(PPA)</text>
+    <path class="lnG" d="M268,165 H326"/>
+    <rect class="bx" x="36" y="119" width="232" height="92" rx="9"/>
+    <use href="#plnBadge" x="112" y="129" width="30" height="30"/>
+    <text x="150" y="155" font-size="23" text-anchor="start" letter-spacing="1" style="font-family:Pretendard,system-ui,sans-serif;font-weight:800;fill:#1565c0">PLN</text>
+    <text class="role" x="152" y="184" font-size="11.5" text-anchor="middle" data-ko="전력 주 구매자 · Off-taker" data-en="Primary off-taker">전력 주 구매자 · Off-taker</text>
+    <text class="role" x="152" y="200" font-size="11" text-anchor="middle" data-ko="장기 전력판매계약(PPA)" data-en="Long-term PPA">장기 전력판매계약(PPA)</text>
   </g>
 
   <g class="node" data-box="grant">
-    <path class="lnG" d="M260,300 H330"/>
-    <rect class="bx" x="30" y="252" width="230" height="96" rx="9"/>
-    <text class="wm" x="145" y="284" font-size="16" text-anchor="middle">USTDA · US State FIRST</text>
-    <text class="role" x="145" y="306" font-size="11.5" text-anchor="middle" data-ko="보조금 · Grant funder" data-en="Grant funder">보조금 · Grant funder</text>
-    <text class="role" x="145" y="322" font-size="11" text-anchor="middle" data-ko="타당성조사 · 역량강화 지원" data-en="Feasibility &amp; capacity-building">타당성조사 · 역량강화 지원</text>
-    <text class="role" x="145" y="338" font-size="10.5" text-anchor="middle" fill="#8b93a2" data-ko="(+ IAEA TC, 무상 기술협력)" data-en="(+ IAEA technical cooperation)">(+ IAEA TC, 무상 기술협력)</text>
+    <path class="lnG" d="M268,310 H326"/>
+    <rect class="bx" x="36" y="262" width="232" height="96" rx="9"/>
+    <text class="wm" x="152" y="291" font-size="16" text-anchor="middle">USTDA · US State FIRST</text>
+    <text class="role" x="152" y="312" font-size="11.5" text-anchor="middle" data-ko="보조금 · Grant funder" data-en="Grant funder">보조금 · Grant funder</text>
+    <text class="role" x="152" y="328" font-size="11" text-anchor="middle" data-ko="타당성조사 · 역량강화 지원" data-en="Feasibility &amp; capacity-building">타당성조사 · 역량강화 지원</text>
+    <text class="role" x="152" y="344" font-size="10.5" text-anchor="middle" fill="#8b93a2" data-ko="(+ IAEA TC, 무상 기술협력)" data-en="(+ IAEA technical cooperation)">(+ IAEA TC, 무상 기술협력)</text>
   </g>
 
   <g class="node" data-box="equity">
-    <path class="lnG" d="M260,512 H330"/>
-    <rect class="bx" x="30" y="446" width="230" height="132" rx="9"/>
-    <text class="wm" x="145" y="478" font-size="15.5" text-anchor="middle">US DFC · US EXIM</text>
-    <text class="wm" x="145" y="500" font-size="15.5" text-anchor="middle">KEXIM · K-SURE</text>
-    <text class="role" x="145" y="524" font-size="11.5" text-anchor="middle" data-ko="지분투자 · 차관 · 보증" data-en="Equity · Debt · Guarantee">지분투자 · 차관 · 보증</text>
-    <text class="role" x="145" y="540" font-size="11" text-anchor="middle">Equity / Debt / ECA</text>
-    <text class="role" x="145" y="558" font-size="10.5" text-anchor="middle" fill="#8b93a2" data-ko="DFC=지분 가능 · EXIM/ECA=부채" data-en="DFC=equity-capable · EXIM/ECA=debt only">DFC=지분 가능 · EXIM/ECA=부채</text>
+    <path class="lnG" d="M268,455 H326"/>
+    <rect class="bx" x="36" y="389" width="232" height="132" rx="9"/>
+    <text class="wm" x="152" y="421" font-size="15.5" text-anchor="middle">US DFC · US EXIM</text>
+    <text class="wm" x="152" y="443" font-size="15.5" text-anchor="middle">KEXIM · K-SURE</text>
+    <text class="role" x="152" y="467" font-size="11.5" text-anchor="middle" data-ko="지분투자 · 차관 · 보증" data-en="Equity · Debt · Guarantee">지분투자 · 차관 · 보증</text>
+    <text class="role" x="152" y="483" font-size="11" text-anchor="middle">Equity / Debt / ECA</text>
+    <text class="role" x="152" y="501" font-size="10.5" text-anchor="middle" fill="#8b93a2" data-ko="DFC=지분 가능 · EXIM/ECA=부채" data-en="DFC=equity-capable · EXIM/ECA=debt only">DFC=지분 가능 · EXIM/ECA=부채</text>
   </g>
 
-  <!-- ===== MIDDLE — ownership chain ===== -->
+  <!-- ===== MIDDLE — ownership chain (owner / SPV / state, vertically centered) ===== -->
   <g class="node" data-box="owner">
-    <path class="lnA" d="M500,148 V268" marker-end="url(#arA)"/>
-    <text class="lbl" x="512" y="212" font-size="11.5" data-ko="지분 100%" data-en="100% equity">지분 100%</text>
-    <rect class="bx" x="380" y="44" width="240" height="104" rx="9"/>
-    <use href="#plnBadge" x="392" y="64" width="26" height="26"/>
-    <text class="wm2" x="514" y="84" font-size="18.5" text-anchor="middle">PLN Indonesia Power</text>
-    <text class="role" x="500" y="108" font-size="11.5" text-anchor="middle" data-ko="사업주 · Project Owner" data-en="Project Owner">사업주 · Project Owner</text>
-    <text class="role" x="500" y="126" font-size="11" text-anchor="middle" data-ko="PT PLN (Persero) 발전 자회사" data-en="Generation subsidiary of PT PLN (Persero)">PT PLN (Persero) 발전 자회사</text>
+    <path class="lnA" d="M500,213 V258" marker-end="url(#arA)"/>
+    <text class="lbl" x="512" y="241" font-size="11.5" data-ko="지분 100%" data-en="100% equity">지분 100%</text>
+    <rect class="bx" x="384" y="117" width="232" height="96" rx="9"/>
+    <use href="#plnBadge" x="396" y="135" width="26" height="26"/>
+    <text class="wm2" x="514" y="153" font-size="18.5" text-anchor="middle">PLN Indonesia Power</text>
+    <text class="role" x="500" y="178" font-size="11.5" text-anchor="middle" data-ko="사업주 · Project Owner" data-en="Project Owner">사업주 · Project Owner</text>
+    <text class="role" x="500" y="195" font-size="11" text-anchor="middle" data-ko="PT PLN (Persero) 발전 자회사" data-en="Generation subsidiary of PT PLN (Persero)">PT PLN (Persero) 발전 자회사</text>
   </g>
 
   <g data-box="spv">
-    <rect class="spv" x="380" y="268" width="240" height="108" rx="11"/>
-    <text class="wm2" x="500" y="308" font-size="20" text-anchor="middle">SMR Project SPV</text>
-    <text class="role" x="500" y="332" font-size="11.5" text-anchor="middle" data-ko="프로젝트 회사 · 특수목적법인" data-en="Project company · SPV">프로젝트 회사 · 특수목적법인</text>
-    <text class="role" x="500" y="350" font-size="11" text-anchor="middle" data-ko="자산 보유 · 계약 주체 · 자금조달 창구" data-en="Holds assets · signs contracts · financing vehicle">자산 보유 · 계약 주체 · 자금조달 창구</text>
+    <rect class="spv" x="384" y="258" width="232" height="104" rx="11"/>
+    <text class="wm2" x="500" y="298" font-size="20" text-anchor="middle">SMR Project SPV</text>
+    <text class="role" x="500" y="322" font-size="11.5" text-anchor="middle" data-ko="프로젝트 회사 · 특수목적법인" data-en="Project company · SPV">프로젝트 회사 · 특수목적법인</text>
+    <text class="role" x="500" y="340" font-size="11" text-anchor="middle" data-ko="자산 보유 · 계약 주체 · 자금조달 창구" data-en="Holds assets · signs contracts · financing vehicle">자산 보유 · 계약 주체 · 자금조달 창구</text>
   </g>
 
   <g class="node" data-box="nepio">
-    <path class="lnGd" d="M500,470 V376" marker-end="url(#arG)"/>
-    <text class="lbl" x="512" y="430" font-size="11" text-anchor="start" data-ko="국가 사업기반" data-en="National basis">국가 사업기반</text>
-    <text class="lbl" x="512" y="446" font-size="11" text-anchor="start" data-ko="(인허가·정책)" data-en="(licensing·policy)">(인허가·정책)</text>
-    <rect class="bx" x="380" y="470" width="240" height="104" rx="9"/>
-    <text class="wm" x="500" y="506" font-size="18" text-anchor="middle">NEPIO</text>
-    <text class="role" x="500" y="530" font-size="11.5" text-anchor="middle" data-ko="국가 원자력 도입 기구" data-en="Nuclear Energy Program Impl. Org">국가 원자력 도입 기구</text>
-    <text class="role" x="500" y="548" font-size="11" text-anchor="middle">National Enabling Body</text>
-    <text class="role" x="500" y="565" font-size="10.5" text-anchor="middle" fill="#8b93a2" data-ko="규제: BAPETEN · R&amp;D: BRIN" data-en="Regulator: BAPETEN · R&amp;D: BRIN">규제: BAPETEN · R&amp;D: BRIN</text>
+    <path class="lnGd" d="M500,403 V362" marker-end="url(#arG)"/>
+    <text class="lbl" x="512" y="380" font-size="11" text-anchor="start" data-ko="국가 사업기반" data-en="National basis">국가 사업기반</text>
+    <text class="lbl" x="512" y="395" font-size="11" text-anchor="start" data-ko="(인허가·정책)" data-en="(licensing·policy)">(인허가·정책)</text>
+    <rect class="bx" x="384" y="403" width="232" height="104" rx="9"/>
+    <text class="wm" x="500" y="437" font-size="18" text-anchor="middle">NEPIO</text>
+    <text class="role" x="500" y="461" font-size="11.5" text-anchor="middle" data-ko="국가 원자력 도입 기구" data-en="Nuclear Energy Program Impl. Org">국가 원자력 도입 기구</text>
+    <text class="role" x="500" y="479" font-size="11" text-anchor="middle">National Enabling Body</text>
+    <text class="role" x="500" y="496" font-size="10.5" text-anchor="middle" fill="#8b93a2" data-ko="규제: BAPETEN · R&amp;D: BRIN" data-en="Regulator: BAPETEN · R&amp;D: BRIN">규제: BAPETEN · R&amp;D: BRIN</text>
   </g>
 
-  <!-- ===== RIGHT — operating ===== -->
+  <!-- ===== RIGHT — operating (4 boxes centered on SPV row) ===== -->
   <g class="node" data-box="tech">
-    <path class="lnA" d="M670,67 H730" marker-end="url(#arA)"/>
-    <rect class="bx" x="730" y="28" width="250" height="80" rx="9"/>
-    <text class="wm" x="855" y="62" font-size="20" text-anchor="middle" letter-spacing="1">X·ENERGY</text>
-    <text class="role" x="855" y="86" font-size="11.5" text-anchor="middle" data-ko="원자로 기술 공급 · Technology" data-en="Reactor technology provider">원자로 기술 공급 · Technology</text>
-    <text class="role" x="855" y="101" font-size="10.5" text-anchor="middle" fill="#8b93a2">Xe-100 · HTGR · 80MWe</text>
+    <path class="lnA" d="M674,118 H732" marker-end="url(#arA)"/>
+    <rect class="bx" x="732" y="75" width="232" height="86" rx="9"/>
+    <text class="wm" x="848" y="109" font-size="20" text-anchor="middle" letter-spacing="1">X·ENERGY</text>
+    <text class="role" x="848" y="133" font-size="11.5" text-anchor="middle" data-ko="원자로 기술 공급 · Technology" data-en="Reactor technology provider">원자로 기술 공급 · Technology</text>
+    <text class="role" x="848" y="148" font-size="10.5" text-anchor="middle" fill="#8b93a2">Xe-100 · HTGR · 80MWe</text>
   </g>
 
   <g class="node" data-box="fuel">
-    <path class="lnA" d="M670,193 H730" marker-end="url(#arA)"/>
-    <rect class="bx" x="730" y="154" width="250" height="80" rx="9"/>
-    <text class="wm" x="855" y="188" font-size="19" text-anchor="middle" letter-spacing="1">TRISO·X</text>
-    <text class="role" x="855" y="212" font-size="11.5" text-anchor="middle" data-ko="핵연료 공급 · Fuel" data-en="Nuclear fuel provider">핵연료 공급 · Fuel</text>
-    <text class="role" x="855" y="227" font-size="10.5" text-anchor="middle" fill="#8b93a2" data-ko="TRISO · HALEU (X-energy 자회사)" data-en="TRISO · HALEU (X-energy subsidiary)">TRISO · HALEU (X-energy 자회사)</text>
+    <path class="lnA" d="M674,246 H732" marker-end="url(#arA)"/>
+    <rect class="bx" x="732" y="203" width="232" height="86" rx="9"/>
+    <text class="wm" x="848" y="237" font-size="19" text-anchor="middle" letter-spacing="1">TRISO·X</text>
+    <text class="role" x="848" y="261" font-size="11.5" text-anchor="middle" data-ko="핵연료 공급 · Fuel" data-en="Nuclear fuel provider">핵연료 공급 · Fuel</text>
+    <text class="role" x="848" y="276" font-size="10.5" text-anchor="middle" fill="#8b93a2" data-ko="TRISO · HALEU (X-energy 자회사)" data-en="TRISO · HALEU (X-energy subsidiary)">TRISO · HALEU (X-energy 자회사)</text>
   </g>
 
   <g class="node" data-box="operator">
-    <path class="lnA" d="M670,330 H730" marker-end="url(#arA)"/>
-    <rect class="bx" x="730" y="290" width="250" height="92" rx="9"/>
-    <use href="#plnBadge" x="748" y="307" width="20" height="20"/>
-    <text class="wm" x="867" y="322" font-size="15" text-anchor="middle">PLN Indonesia Power (O&amp;M)</text>
-    <text class="role" x="855" y="344" font-size="11.5" text-anchor="middle" data-ko="운영사 · Operator / O&amp;M" data-en="Operator / O&amp;M">운영사 · Operator / O&amp;M</text>
-    <text class="role" x="855" y="360" font-size="10.5" text-anchor="middle" fill="#8b93a2" data-ko="X-energy 운영·기술지원 (전용 OpCo 가능)" data-en="X-energy O&amp;M &amp; tech support (OpCo possible)">X-energy 운영·기술지원 (전용 OpCo 가능)</text>
+    <path class="lnA" d="M674,374 H732" marker-end="url(#arA)"/>
+    <rect class="bx" x="732" y="328" width="232" height="92" rx="9"/>
+    <use href="#plnBadge" x="750" y="345" width="20" height="20"/>
+    <text class="wm" x="862" y="360" font-size="15" text-anchor="middle">PLN Indonesia Power (O&amp;M)</text>
+    <text class="role" x="848" y="382" font-size="11.5" text-anchor="middle" data-ko="운영사 · Operator / O&amp;M" data-en="Operator / O&amp;M">운영사 · Operator / O&amp;M</text>
+    <text class="role" x="848" y="398" font-size="10.5" text-anchor="middle" fill="#8b93a2" data-ko="X-energy 운영·기술지원 (전용 OpCo 가능)" data-en="X-energy O&amp;M &amp; tech support (OpCo possible)">X-energy 운영·기술지원 (전용 OpCo 가능)</text>
   </g>
 
   <g class="node" data-box="epc">
-    <path class="lnA" d="M670,512 H730" marker-end="url(#arA)"/>
-    <rect class="bx" x="730" y="446" width="250" height="132" rx="9"/>
-    <text x="855" y="480" font-size="16.5" text-anchor="middle" style="font-family:Pretendard,system-ui,sans-serif;font-weight:700;fill:#1a2230"><tspan>DL E&amp;C</tspan><tspan style="fill:#8b93a2;font-weight:600"> + </tspan><tspan style="fill:#0072ce">Doosan</tspan><tspan> Enerbility</tspan></text>
-    <text class="role" x="855" y="502" font-size="11.5" text-anchor="middle" data-ko="설계·조달·시공 · EPC" data-en="Engineering · Procurement · Construction">설계·조달·시공 · EPC</text>
-    <text class="role" x="855" y="520" font-size="11" text-anchor="middle" data-ko="+ 현지 파트너 (Local Partners)" data-en="+ Local Partners">+ 현지 파트너 (Local Partners)</text>
-    <text class="role" x="855" y="540" font-size="10.5" text-anchor="middle" fill="#8b93a2" data-ko="Doosan=주기기/모듈 · DL E&amp;C=토목·시공" data-en="Doosan=main components/modules · DL E&amp;C=civil works">Doosan=주기기/모듈 · DL E&amp;C=토목·시공</text>
-    <text class="role" x="855" y="556" font-size="10.5" text-anchor="middle" fill="#8b93a2" data-ko="현지=토건·기자재·인허가 지원" data-en="Local=civil, materials, permitting support">현지=토건·기자재·인허가 지원</text>
+    <path class="lnA" d="M674,502 H732" marker-end="url(#arA)"/>
+    <rect class="bx" x="732" y="442" width="232" height="120" rx="9"/>
+    <text x="848" y="476" font-size="16.5" text-anchor="middle" style="font-family:Pretendard,system-ui,sans-serif;font-weight:700;fill:#1a2230"><tspan>DL E&amp;C</tspan><tspan style="fill:#8b93a2;font-weight:600"> + </tspan><tspan style="fill:#0072ce">Doosan</tspan><tspan> Enerbility</tspan></text>
+    <text class="role" x="848" y="498" font-size="11.5" text-anchor="middle" data-ko="설계·조달·시공 · EPC" data-en="Engineering · Procurement · Construction">설계·조달·시공 · EPC</text>
+    <text class="role" x="848" y="516" font-size="11" text-anchor="middle" data-ko="+ 현지 파트너 (Local Partners)" data-en="+ Local Partners">+ 현지 파트너 (Local Partners)</text>
+    <text class="role" x="848" y="534" font-size="10.5" text-anchor="middle" fill="#8b93a2" data-ko="Doosan=주기기/모듈 · DL E&amp;C=토목·시공" data-en="Doosan=main components/modules · DL E&amp;C=civil works">Doosan=주기기/모듈 · DL E&amp;C=토목·시공</text>
+    <text class="role" x="848" y="550" font-size="10.5" text-anchor="middle" fill="#8b93a2" data-ko="현지=토건·기자재·인허가 지원" data-en="Local=civil, materials, permitting support">현지=토건·기자재·인허가 지원</text>
   </g>
 </svg>
 </div>
