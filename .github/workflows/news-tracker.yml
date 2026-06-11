@@ -13,11 +13,11 @@ jobs:
   track:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
-          node-version: '20'
+          node-version: '24'
 
       - name: Install deps
         run: npm install rss-parser --no-save
@@ -28,7 +28,7 @@ jobs:
         run: node scripts/track-news.mjs
 
       - name: Open PR if news-data.js changed
-        uses: peter-evans/create-pull-request@v6
+        uses: peter-evans/create-pull-request@v7
         with:
           add-paths: news-data.js
           branch: auto/news-update
