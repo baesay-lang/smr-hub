@@ -56,6 +56,7 @@ const HEADER = `/* ============================================================
    Auto-updated by scripts/track-news.mjs (GitHub Actions); changes land via PR.
    Schema: date, title, summary, cat(인허가|계약|투자|기술|정책),
            type(General|PWR|BWR|SFR|HTGR|FHR|MSR|Micro), dev, region, source, url, k(internal dedup key)
+   Optional: summaryLong (2~3문장 — 홈 피처드 카드에서 summary 대신 표시)
    ============================================================ */
 window.SMR_NEWS = `;
 
@@ -175,6 +176,7 @@ function ruleTag(it){
     relevant: true,
     titleKo: it.title,                                  // free mode: keep original (English) title
     summary: sm.length > 170 ? sm.slice(0,170).trim() + '…' : sm,
+    summaryLong: sm.length > 380 ? sm.slice(0,380).trim() + '…' : sm,
     cat: firstMatch(hay, CAT_RULES, '기술'),
     type: firstMatch(hay, TYPE_RULES, 'General'),
     dev: firstMatch(hay, DEV_RULES, ''),
@@ -191,6 +193,7 @@ async function classify(items){
  "relevant":SMR·첨단로·관련 개발사/연료/인허가/계약/정책이면 true, 일반 대형원전·무관 뉴스면 false,
  "titleKo":한국어 제목(간결, 핵심만),
  "summary":한국어 1~2문장 요약,
+ "summaryLong":한국어 2~3문장 상세 요약(당사자·배경·수치·일정 등 핵심 사실 포함 — 홈 메인 피처드 카드용),
  "cat":${JSON.stringify(VALIDCAT)} 중 하나(건설허가·운영허가·설계인증·규제 신청/접수/도케팅·GDA·VDR·표준설계인가=인허가; 계약·MOU·부품 공급/수주·PPA·합작·파트너십=계약; 투자·펀딩·지분·IPO=투자; 정부 정책·규제 발효·국책 프로그램=정책; 그 외 기술·시운전·마일스톤=기술),
  "type":${JSON.stringify(VALIDTYPE)} 중 하나(마이크로/초소형로=Micro, 소듐냉각고속로=SFR, 고온가스로=HTGR, 용융염=MSR, 가압/비등경수로=PWR/BWR; 특정 노형 불명확하면 "General"),
  "dev":개발사/기관 짧은 이름 또는 "",
@@ -240,6 +243,7 @@ async function main(){
       date: src.date || todayISO(),
       title,
       summary: (c.summary || '').trim(),
+      summaryLong: (c.summaryLong || '').trim() || undefined,
       cat: VALIDCAT.includes(c.cat) ? c.cat : '기술',
       type: VALIDTYPE.includes(c.type) ? c.type : 'General',
       dev: (c.dev || '').trim(),

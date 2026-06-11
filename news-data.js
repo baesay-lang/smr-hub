@@ -3,12 +3,14 @@
    Auto-updated by scripts/track-news.mjs (GitHub Actions); changes land via PR.
    Schema: date, title, summary, cat(인허가|계약|투자|기술|정책),
            type(General|PWR|BWR|SFR|HTGR|FHR|MSR|Micro), dev, region, source, url
+   Optional: summaryLong (2~3문장 — 홈 피처드 카드에서 summary 대신 표시)
    ============================================================ */
 window.SMR_NEWS = [
   {
     "date": "2026-06-09",
     "title": "루마니아 항만, SMR 도입 타당성 검토",
     "summary": "아랍에미리트 DP World가 루마니아 콘스탄차 항만의 에너지 수요 충족을 위해 SMR 기술 도입 가능성을 검토하고 있다.",
+    "summaryLong": "물류기업 DP World가 프랑스 원자력청(CEA)·TerraWater Institute와 루마니아 콘스탄차 항만의 SMR 도입 타당성조사 협약을 체결했다. 2030~2050년 에너지 수요 전망을 바탕으로 원자력 기반 솔루션의 기술적·경제적 타당성과 안전기준·지역사회 영향을 평가한다. DP World는 별도로 영국 London Gateway 항만에 20MWe 마이크로원자로를 2030년 가동 목표로 추진 중이다.",
     "cat": "기술",
     "type": "General",
     "dev": "DP World",

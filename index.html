@@ -29,8 +29,6 @@
   .nh-row .d{flex:0 0 46px;font-size:12px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;padding-top:1px;}
   .nh-main{flex:1;min-width:0;}
   .nh-main .t{font-size:14.5px;font-weight:600;line-height:1.4;}
-  .nh-row.lg .t{font-size:15.5px;font-weight:700;}
-  .nh-main .s{font-size:13px;color:var(--text-dim);line-height:1.55;margin-top:4px;}
   .t a{color:var(--text);text-decoration:none;}
   .t a:hover{color:var(--accent-strong);text-decoration:underline;}
   .nh-tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:6px;}
@@ -115,19 +113,16 @@
 
   var f = NEWS[0];
   if(f){
+    // 피처드(맨 위 1건)는 긴 요약(summaryLong, 2~3문장) 우선 표시
     document.getElementById('feat').innerHTML =
       '<div class="d">'+esc(f.date)+'</div>'+
       '<div class="t">'+tlink(f)+'</div>'+
-      (f.summary ? '<div class="s">'+esc(f.summary)+'</div>' : '')+
+      ((f.summaryLong||f.summary) ? '<div class="s">'+esc(f.summaryLong||f.summary)+'</div>' : '')+
       '<div class="nh-tags">'+tags(f)+'</div>';
   }
-  // 상위 2~3번째 뉴스는 요약문까지(lg), 그 아래는 제목만 컴팩트하게
-  document.getElementById('newsList').innerHTML = NEWS.slice(1,6).map(function(n,i){
-    var lg = i<2;
-    return '<div class="nh-row'+(lg?' lg':'')+'"><div class="d">'+esc(String(n.date).slice(5)||n.date)+'</div>'+
-      '<div class="nh-main"><div class="t">'+tlink(n)+'</div>'+
-      (lg && n.summary ? '<div class="s">'+esc(n.summary)+'</div>' : '')+
-      '<div class="nh-tags">'+tags(n)+'</div></div></div>';
+  document.getElementById('newsList').innerHTML = NEWS.slice(1,6).map(function(n){
+    return '<div class="nh-row"><div class="d">'+esc(String(n.date).slice(5)||n.date)+'</div>'+
+      '<div class="nh-main"><div class="t">'+tlink(n)+'</div><div class="nh-tags">'+tags(n)+'</div></div></div>';
   }).join('');
 
   var upd = window.SMR_UPDATED || ((NEWS[0]?NEWS[0].date:'')+' 기준');
