@@ -59,7 +59,7 @@ async function fetchCandidates(seen){
     try {
       const feed = await parser.parseURL(url);
       for (const it of (feed.items||[])){
-        const link = (it.link||'').trim();
+        const link = (it.link||'').trim().replace(/([^:])\/\/+/g, '$1/');  // fix accidental // in feed links
         const title = (it.title||'').trim();
         if (!link || !title || seen.has(link) || dedupe.has(link)) continue;
         const snip = (it.contentSnippet || it.summary || it.content || '').replace(/\s+/g,' ').slice(0,400);
@@ -135,7 +135,7 @@ async function classify(items){
  "titleKo":한국어 제목(간결, 핵심만),
  "summary":한국어 1~2문장 요약,
  "cat":${JSON.stringify(VALIDCAT)} 중 하나,
- "type":${JSON.stringify(VALIDTYPE)} 중 하나(특정 노형 아니면 "General"),
+ "type":${JSON.stringify(VALIDTYPE)} 중 하나(마이크로/초소형로=Micro, 소듐냉각고속로=SFR, 고온가스로=HTGR, 용융염=MSR, 가압/비등경수로=PWR/BWR; 특정 노형 불명확하면 "General"),
  "dev":개발사/기관 짧은 이름 또는 "",
  "region":"US"|"KR"|"UK"|"CA"|"DK"|"EU"|"JP"|"" }
 반드시 입력과 같은 순서로, 오직 JSON 배열만 출력하라. 설명 금지.
