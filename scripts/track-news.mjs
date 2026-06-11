@@ -99,18 +99,21 @@ async function fetchCandidates(seen, seenKeys){
   }
 
   // --- HTML boards (no RSS) — KAIF 투데이뉴스 등 국내 매체 ---
+  const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36';
   for (const b of HTML_BOARDS){
     try {
-      const res = await fetch(b.url, { headers: { 'User-Agent': 'Mozilla/5.0 (smr-hub-news-tracker)' } });
+      const res = await fetch(b.url, { headers: { 'User-Agent': UA, 'Accept-Language': 'ko' } });
       const html = await res.text();
-      const re = /<td class="col-tit">\s*<a href="([^"]+)"[^>]*>([^<]+)<\/a>[\s\S]*?<td class="col-date">\s*([0-9.]+)\s*<\/td>/g;
-      let m, n = 0;
-      while ((m = re.exec(html)) !== null){
-        const href = m[1].replace(/&amp;/g, '&');
+      let n = 0, rows = html.split(/<tr[\s>]/i);
+      for (const row of rows){
+        const a = row.match(/class="col-tit">[\s\S]*?<a\s+href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/i);
+        if (!a) continue;
+        const href = a[1].replace(/&amp;/g, '&');
         const link = href.startsWith('http') ? href : b.base + href;
-        const title = m[2].replace(/\s+/g, ' ').trim();
+        const title = a[2].replace(/<[^>]+>/g, '').replace(/\s+/g, ' ').trim();
         if (!title) continue;
-        const date = m[3].replace(/\./g, '-').replace(/-+$/, '');
+        const dm = row.match(/class="col-date">\s*([0-9.]+)/i);
+        const date = dm ? dm[1].replace(/\./g, '-').replace(/-+$/, '') : '';
         const key = dedupKey(title);
         if (seen.has(link) || seenKeys.has(key) || keysThisRun.has(key)) continue;
         const hay = title.toLowerCase();
@@ -120,7 +123,7 @@ async function fetchCandidates(seen, seenKeys){
         out.push({ title, snip: '', link, date, key, priority, source: b.source });
         n++;
       }
-      console.log(`board ok: ${b.source} (+${n})`);
+      console.log(`board ok: ${b.source} (rows=${rows.length}, +${n})`);
     } catch (e) { console.error(`board fail: ${b.url} — ${e.message}`); }
   }
 
@@ -251,7 +254,8 @@ async function main(){
 
   const merged = existing.concat(toAdd);
   merged.sort((a,b)=> dkey(b.date).localeCompare(dkey(a.date)));
-  fs.writeFileSync(FILE, HEADER + JSON.stringify(merged, null, 2) + ';\n');
+  const updated = new Date(Date.now() + 9*3600*1000).toISOString().slice(0,16).replace('T',' ') + ' KST';
+  fs.writeFileSync(FILE, HEADER + JSON.stringify(merged, null, 2) + ';\nwindow.SMR_UPDATED = ' + JSON.stringify(updated) + ';\n');
   console.log(`added ${toAdd.length} item(s):`);
   toAdd.forEach(n => console.log(`  · ${n.date} [${n.cat}/${n.type}] ${n.title}`));
 }

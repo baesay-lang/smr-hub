@@ -2,7 +2,8 @@ name: SMR news tracker
 
 on:
   schedule:
-    - cron: '0 21 * * *'      # 06:00 KST daily (21:00 UTC prev day)
+    - cron: '0 21 * * *'      # 06:00 KST  (21:00 UTC prev day)
+    - cron: '0 3 * * *'       # 12:00 KST noon (03:00 UTC)
   workflow_dispatch: {}        # allow manual run from the Actions tab
 
 permissions:

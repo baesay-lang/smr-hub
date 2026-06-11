@@ -167,7 +167,8 @@
   wire('typeFilters','type',function(v){typeF=v;});
   search.addEventListener('input',apply);
 
-  document.getElementById('stamp').textContent='총 '+DATA.length+'건 · 최신 '+(DATA[0]?DATA[0].date:'')+' 기준';
+  var upd = window.SMR_UPDATED || ((DATA[0]?DATA[0].date:'')+' 기준');
+  document.getElementById('stamp').textContent='총 '+DATA.length+'건 · 마지막 업데이트 '+upd;
   apply();
 </script>
 </body>
