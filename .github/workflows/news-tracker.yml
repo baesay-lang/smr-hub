@@ -2,13 +2,12 @@ name: SMR news tracker
 
 on:
   schedule:
-    - cron: '0 21 * * *'      # 06:00 KST  (21:00 UTC prev day)
-    - cron: '0 3 * * *'       # 12:00 KST noon (03:00 UTC)
+    - cron: '31 21 * * *'      # ~06:31 KST  (avoid :00 — GitHub drops top-of-hour crons)
+    - cron: '31 3 * * *'       # ~12:31 KST noon
   workflow_dispatch: {}        # allow manual run from the Actions tab
 
 permissions:
   contents: write
-  pull-requests: write
 
 jobs:
   track:
@@ -28,15 +27,15 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: node scripts/track-news.mjs
 
-      - name: Open PR if news-data.js changed
-        uses: peter-evans/create-pull-request@v7
-        with:
-          add-paths: news-data.js
-          branch: auto/news-update
-          delete-branch: true
-          commit-message: "chore(news): auto-tracked SMR news"
-          title: "SMR 뉴스 자동 수집 (검토용)"
-          body: |
-            자동 수집·분류된 SMR 뉴스입니다 (Claude Haiku).
-            **검토 후 Merge**하면 라이브에 반영됩니다.
-            - 잘못 분류/중복/무관 항목은 이 PR에서 `news-data.js`를 직접 수정 후 Merge하거나, Close 하세요.
+      - name: Commit & push directly if news-data.js changed
+        run: |
+          if [ -n "$(git status --porcelain news-data.js)" ]; then
+            git config user.name "smr-news-bot"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add news-data.js
+            git commit -m "chore(news): auto-tracked SMR news"
+            git push
+            echo "News update pushed to main — live after Pages rebuild."
+          else
+            echo "No new news this run."
+          fi
