@@ -19,12 +19,19 @@ const SOURCES = [
   'https://news.google.com/rss/search?q=%22small%20modular%20reactor%22&hl=en-US&gl=US&ceid=US:en',
   'https://news.google.com/rss/search?q=SMR%20%EC%9B%90%EC%9E%90%EB%A0%A5&hl=ko&gl=KR&ceid=KR:ko',
 ];
+// non-RSS HTML boards (scraped). Korean domestic policy/news.
+const HTML_BOARDS = [
+  { url: 'https://www.kaif.or.kr/ko/?c=250', base: 'https://www.kaif.or.kr/ko/', source: 'KAIF 투데이뉴스' },
+];
 const KEYWORDS = [
   'smr','small modular','advanced reactor','microreactor','micro-reactor','gen iv','generation iv',
   'nuscale','x-energy','xe-100','terrapower','natrium','bwrx','kairos','oklo','holtec','smr-300',
   'rolls-royce smr','smart100','i-smr','seaborg','saltfoss','arc-100','evinci','ap300','westinghouse',
   'haleu','triso','part 53','molten salt','htgr','high-temperature gas','sodium-cooled','fast reactor',
   'vendor design review','construction permit','design certification','combined license',
+  // Korean terms (KAIF / 국내 매체)
+  '소형모듈','소형원자로','소형 원자로','초소형원자로','마이크로원자로','i-smr','혁신형','용융염','고온가스로','mmr','차세대 원전','첨단원자로','첨단 원자로',
+  '빌게이츠','빌 게이츠','bill gates',
 ];
 const MAX_NEW = 20;                         // cost cap per run
 const MODEL = 'claude-haiku-4-5-20251001';  // cheap + fast for tagging
@@ -37,7 +44,7 @@ const API_KEY = process.env.ANTHROPIC_API_KEY;
 const PRIORITY_DEVS = [
   'nuscale','x-energy','xenergy','xe-100','terrapower','natrium','ge hitachi','ge-hitachi','ge vernova','bwrx',
   'kairos','oklo','holtec','smr-300','rolls-royce','smart100','i-smr','seaborg','saltfoss','arc-100','arc clean',
-  'westinghouse','ap300','evinci',
+  'westinghouse','ap300','evinci','혁신형',
 ];
 // cross-source dedup key: normalized headline (also strips Google News " - Publisher" suffix)
 const dedupKey = (title) => String(title).toLowerCase()
@@ -90,6 +97,33 @@ async function fetchCandidates(seen, seenKeys){
       console.log(`feed ok: ${url} (+${out.length} cumulative)`);
     } catch (e) { console.error(`feed fail: ${url} — ${e.message}`); }
   }
+
+  // --- HTML boards (no RSS) — KAIF 투데이뉴스 등 국내 매체 ---
+  for (const b of HTML_BOARDS){
+    try {
+      const res = await fetch(b.url, { headers: { 'User-Agent': 'Mozilla/5.0 (smr-hub-news-tracker)' } });
+      const html = await res.text();
+      const re = /<td class="col-tit">\s*<a href="([^"]+)"[^>]*>([^<]+)<\/a>[\s\S]*?<td class="col-date">\s*([0-9.]+)\s*<\/td>/g;
+      let m, n = 0;
+      while ((m = re.exec(html)) !== null){
+        const href = m[1].replace(/&amp;/g, '&');
+        const link = href.startsWith('http') ? href : b.base + href;
+        const title = m[2].replace(/\s+/g, ' ').trim();
+        if (!title) continue;
+        const date = m[3].replace(/\./g, '-').replace(/-+$/, '');
+        const key = dedupKey(title);
+        if (seen.has(link) || seenKeys.has(key) || keysThisRun.has(key)) continue;
+        const hay = title.toLowerCase();
+        const priority = PRIORITY_DEVS.some(d => hay.includes(d));
+        if (!priority && !KEYWORDS.some(k => hay.includes(k))) continue;   // SMR-relevant only
+        keysThisRun.add(key);
+        out.push({ title, snip: '', link, date, key, priority, source: b.source });
+        n++;
+      }
+      console.log(`board ok: ${b.source} (+${n})`);
+    } catch (e) { console.error(`board fail: ${b.url} — ${e.message}`); }
+  }
+
   // keep ALL priority items (13 devs, never dropped) + up to MAX_NEW non-priority; hard ceiling for cost safety
   const pri = out.filter(c => c.priority);
   const rest = out.filter(c => !c.priority).slice(0, MAX_NEW);
