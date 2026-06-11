@@ -7,6 +7,7 @@
 (function () {
   var ENDPOINT = 'https://formspree.io/f/xeewllzn';   // Formspree form id
   var SHOW_NOTICE = true;   // ← 상단 'TESTING' 배너 표시 (정식 오픈 시 false 로 변경)
+  var MIRROR = '';          // ← Google Apps Script /exec URL (의견을 시트에 미러 → Claude가 읽음)
 
   var C = { acc:'#2563eb', accD:'#1d4ed8', accW:'#eef3ff', accW2:'#d7e3fe',
             sf:'#ffffff', sf2:'#f1f3f7', bd:'#e5e8ee', bdS:'#d2d7e0',
@@ -173,6 +174,7 @@
       시각: new Date().toLocaleString('ko-KR'),
       화면: window.innerWidth+'×'+window.innerHeight
     };
+    if (MIRROR) { try { fetch(MIRROR, {method:'POST', mode:'no-cors', headers:{'Content-Type':'text/plain;charset=utf-8'}, body:JSON.stringify(payload)}); } catch(_e){} }
     fetch(ENDPOINT,{ method:'POST', headers:{'Content-Type':'application/json','Accept':'application/json'}, body:JSON.stringify(payload) })
       .then(function(r){ return r.json().then(function(j){ return {ok:r.ok,j:j}; }); })
       .then(function(res){
