@@ -135,7 +135,7 @@ async function classify(items){
  "relevant":SMR·첨단로·관련 개발사/연료/인허가/계약/정책이면 true, 일반 대형원전·무관 뉴스면 false,
  "titleKo":한국어 제목(간결, 핵심만),
  "summary":한국어 1~2문장 요약,
- "cat":${JSON.stringify(VALIDCAT)} 중 하나,
+ "cat":${JSON.stringify(VALIDCAT)} 중 하나(건설허가·운영허가·설계인증·규제 신청/접수/도케팅·GDA·VDR·표준설계인가=인허가; 계약·MOU·부품 공급/수주·PPA·합작·파트너십=계약; 투자·펀딩·지분·IPO=투자; 정부 정책·규제 발효·국책 프로그램=정책; 그 외 기술·시운전·마일스톤=기술),
  "type":${JSON.stringify(VALIDTYPE)} 중 하나(마이크로/초소형로=Micro, 소듐냉각고속로=SFR, 고온가스로=HTGR, 용융염=MSR, 가압/비등경수로=PWR/BWR; 특정 노형 불명확하면 "General"),
  "dev":개발사/기관 짧은 이름 또는 "",
  "region":"US"|"KR"|"UK"|"CA"|"DK"|"EU"|"JP"|"" }
