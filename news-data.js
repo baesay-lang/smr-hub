@@ -14,7 +14,7 @@ window.SMR_NEWS = [
     "dev": "DP World",
     "region": "EU",
     "source": "World Nuclear News",
-    "url": "https://www.world-nuclear-news.org//articles/smrs-to-be-considered-at-romanian-port"
+    "url": "https://www.world-nuclear-news.org/articles/smrs-to-be-considered-at-romanian-port"
   },
   {
     "date": "2026-06-05",
@@ -25,7 +25,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "",
     "source": "World Nuclear News",
-    "url": "https://www.world-nuclear-news.org//articles/ceremony-to-mark-first-concrete-for-uzbekistan-smr"
+    "url": "https://www.world-nuclear-news.org/articles/ceremony-to-mark-first-concrete-for-uzbekistan-smr"
   },
   {
     "date": "2026-06-05",
@@ -36,7 +36,7 @@ window.SMR_NEWS = [
     "dev": "Antares Nuclear",
     "region": "US",
     "source": "World Nuclear News",
-    "url": "https://www.world-nuclear-news.org//articles/first-criticality-for-us-microreactor-under-doe-programme"
+    "url": "https://www.world-nuclear-news.org/articles/first-criticality-for-us-microreactor-under-doe-programme"
   },
   {
     "date": "2026-06-05",
@@ -47,7 +47,7 @@ window.SMR_NEWS = [
     "dev": "Blykalla",
     "region": "EU",
     "source": "World Nuclear News",
-    "url": "https://www.world-nuclear-news.org//articles/blykalla-applies-for-state-aid-for-smr-plant"
+    "url": "https://www.world-nuclear-news.org/articles/blykalla-applies-for-state-aid-for-smr-plant"
   },
   {
     "date": "2026-06-04",
@@ -69,7 +69,7 @@ window.SMR_NEWS = [
     "dev": "Deep Fission, NX Atomics",
     "region": "US",
     "source": "World Nuclear News",
-    "url": "https://www.world-nuclear-news.org//articles/us-smr-developers-announce-partnerships"
+    "url": "https://www.world-nuclear-news.org/articles/us-smr-developers-announce-partnerships"
   },
   {
     "date": "2026-06-03",
@@ -80,7 +80,7 @@ window.SMR_NEWS = [
     "dev": "X-energy",
     "region": "UK",
     "source": "World Nuclear News",
-    "url": "https://www.world-nuclear-news.org//articles/x-energy-submits-xe-100-for-uk-regulatory-assessment"
+    "url": "https://www.world-nuclear-news.org/articles/x-energy-submits-xe-100-for-uk-regulatory-assessment"
   },
   {
     "date": "2026-06-03",
@@ -91,7 +91,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "EU",
     "source": "World Nuclear News",
-    "url": "https://www.world-nuclear-news.org//articles/dutch-msr-testing-facility-launched"
+    "url": "https://www.world-nuclear-news.org/articles/dutch-msr-testing-facility-launched"
   },
   {
     "date": "2026-06-03",
@@ -102,7 +102,7 @@ window.SMR_NEWS = [
     "dev": "Alleima",
     "region": "EU",
     "source": "World Nuclear News",
-    "url": "https://www.world-nuclear-news.org//articles/alleima-expands-capacity-as-nuclear-demand-grows"
+    "url": "https://www.world-nuclear-news.org/articles/alleima-expands-capacity-as-nuclear-demand-grows"
   },
   {
     "date": "2026-05-29",
@@ -113,7 +113,7 @@ window.SMR_NEWS = [
     "dev": "Holtec",
     "region": "US",
     "source": "World Nuclear News",
-    "url": "https://www.world-nuclear-news.org//articles/nineteen-years-on-companies-team-up-for-us-new-build-project"
+    "url": "https://www.world-nuclear-news.org/articles/nineteen-years-on-companies-team-up-for-us-new-build-project"
   },
   {
     "date": "2026-05",
@@ -135,7 +135,7 @@ window.SMR_NEWS = [
     "dev": "Rolls-Royce",
     "region": "UK",
     "source": "World Nuclear News",
-    "url": "https://www.world-nuclear-news.org//articles/skoda-js-doosan-enerbility-get-key-rolls-royce-smr-work"
+    "url": "https://www.world-nuclear-news.org/articles/skoda-js-doosan-enerbility-get-key-rolls-royce-smr-work"
   },
   {
     "date": "2026-04-29",
