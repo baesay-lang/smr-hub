@@ -33,11 +33,22 @@ const VALIDTYPE = ['General','PWR','BWR','SFR','HTGR','FHR','MSR','Micro'];
 const FILE = 'news-data.js';
 const API_KEY = process.env.ANTHROPIC_API_KEY;
 
+// our 13 tracked developers — any news mentioning one of these is ALWAYS kept (ignores the cap & relevance filter)
+const PRIORITY_DEVS = [
+  'nuscale','x-energy','xenergy','xe-100','terrapower','natrium','ge hitachi','ge-hitachi','ge vernova','bwrx',
+  'kairos','oklo','holtec','smr-300','rolls-royce','smart100','i-smr','seaborg','saltfoss','arc-100','arc clean',
+  'westinghouse','ap300','evinci',
+];
+// cross-source dedup key: normalized headline (also strips Google News " - Publisher" suffix)
+const dedupKey = (title) => String(title).toLowerCase()
+  .replace(/\s+[-–—|]\s+[^-–—|]+$/, '')
+  .replace(/[^a-z0-9가-힣]+/g, ' ').trim();
+
 const HEADER = `/* ============================================================
    SMR News data — single source for SMR-news.html
    Auto-updated by scripts/track-news.mjs (GitHub Actions); changes land via PR.
    Schema: date, title, summary, cat(인허가|계약|투자|기술|정책),
-           type(General|PWR|BWR|SFR|HTGR|FHR|MSR|Micro), dev, region, source, url
+           type(General|PWR|BWR|SFR|HTGR|FHR|MSR|Micro), dev, region, source, url, k(internal dedup key)
    ============================================================ */
 window.SMR_NEWS = `;
 
@@ -52,30 +63,38 @@ function loadExisting(){
   return g.SMR_NEWS || [];
 }
 
-async function fetchCandidates(seen){
+async function fetchCandidates(seen, seenKeys){
   const parser = new Parser({ timeout: 15000, headers: { 'User-Agent': 'smr-hub-news-tracker' } });
-  const out = []; const dedupe = new Set();
+  const out = []; const keysThisRun = new Set();
+  // SOURCES order matters: direct outlets (WNN/POWER) before Google News, so the direct one wins on a cross-source dup
   for (const url of SOURCES){
     try {
       const feed = await parser.parseURL(url);
       for (const it of (feed.items||[])){
         const link = (it.link||'').trim().replace(/([^:])\/\/+/g, '$1/');  // fix accidental // in feed links
         const title = (it.title||'').trim();
-        if (!link || !title || seen.has(link) || dedupe.has(link)) continue;
+        if (!link || !title) continue;
+        const key = dedupKey(title);
+        if (seen.has(link) || seenKeys.has(key) || keysThisRun.has(key)) continue;  // URL + cross-source title dedup
         const snip = (it.contentSnippet || it.summary || it.content || '').replace(/\s+/g,' ').slice(0,400);
         const hay = (title + ' ' + snip).toLowerCase();
-        if (!KEYWORDS.some(k => hay.includes(k))) continue;
+        const priority = PRIORITY_DEVS.some(d => hay.includes(d));      // one of our 13 devs → always keep
+        if (!priority && !KEYWORDS.some(k => hay.includes(k))) continue;
         let date = '';
         if (it.isoDate) date = it.isoDate.slice(0,10);
         else if (it.pubDate) { const d = new Date(it.pubDate); if (!isNaN(d)) date = d.toISOString().slice(0,10); }
-        dedupe.add(link);
+        keysThisRun.add(key);
         const itemSrc = (typeof it.source === 'string' ? it.source : (it.source && it.source._)) || '';  // Google News: real publisher
-        out.push({ title, snip, link, date, source: itemSrc || feed.title || host(url) });
+        out.push({ title, snip, link, date, key, priority, source: itemSrc || feed.title || host(url) });
       }
-      console.log(`feed ok: ${url} (+${out.length} cumulative candidates)`);
+      console.log(`feed ok: ${url} (+${out.length} cumulative)`);
     } catch (e) { console.error(`feed fail: ${url} — ${e.message}`); }
   }
-  return out.slice(0, MAX_NEW);
+  // keep ALL priority items (13 devs, never dropped) + up to MAX_NEW non-priority; hard ceiling for cost safety
+  const pri = out.filter(c => c.priority);
+  const rest = out.filter(c => !c.priority).slice(0, MAX_NEW);
+  console.log(`candidates: ${pri.length} priority(13-dev) + ${rest.length} other`);
+  return [...pri, ...rest].slice(0, 60);
 }
 
 /* ---- rule-based classifier (free, no API key) ---- */
@@ -165,16 +184,18 @@ async function main(){
   const existing = loadExisting();
   const seen = new Set(existing.map(n => (n.url||'').trim()).filter(Boolean));
   const seenTitles = new Set(existing.map(n => (n.title||'').trim()));
+  const seenKeys = new Set(existing.map(n => n.k).filter(Boolean));  // cross-run, cross-source title dedup
 
-  const candidates = await fetchCandidates(seen);
+  const candidates = await fetchCandidates(seen, seenKeys);
   console.log(`candidates after filter: ${candidates.length}`);
   if (candidates.length === 0) { console.log('no new relevant candidates — exiting'); return; }
 
   const tagged = useClaude ? await classify(candidates) : candidates.map(ruleTag);
   const toAdd = [];
   tagged.forEach((c,i)=>{
-    if (!c || c.relevant === false) return;
     const src = candidates[i];
+    if (!c) return;
+    if (c.relevant === false && !src.priority) return;   // 13-dev news kept even if classifier says off-topic
     const title = (c.titleKo || src.title).trim();
     if (!title || seenTitles.has(title)) return;
     seenTitles.add(title);
@@ -188,6 +209,7 @@ async function main(){
       region: (c.region || '').trim(),
       source: src.source,
       url: src.link,
+      k: src.key,
     });
   });
 
