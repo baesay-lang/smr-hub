@@ -6,6 +6,7 @@
    ============================================================ */
 (function () {
   var ENDPOINT = 'https://formspree.io/f/xeewllzn';   // Formspree form id
+  var SHOW_NOTICE = true;   // ← 상단 'TESTING' 배너 표시 (정식 오픈 시 false 로 변경)
 
   var C = { acc:'#2563eb', accD:'#1d4ed8', accW:'#eef3ff', accW2:'#d7e3fe',
             sf:'#ffffff', sf2:'#f1f3f7', bd:'#e5e8ee', bdS:'#d2d7e0',
@@ -87,14 +88,16 @@
   btn.addEventListener('click', function(){ panel.hidden ? openPanel() : closePanel(); });
   root.querySelector('.fb-x').addEventListener('click', closePanel);
 
-  /* ---- testing notice bar (top of every page) ---- */
-  var notice = document.createElement('div');
-  notice.id = 'fb-notice';
-  notice.innerHTML = '<span class="fb-tag">TESTING</span>현재 테스트 중인 초안입니다 · 의견·오류·제안 무엇이든 우측 하단 <b>‘의견’</b> 버튼으로 보내주세요';
-  notice.addEventListener('click', openPanel);
-  var nav = document.querySelector('.topnav');
-  if (nav && nav.parentNode) { nav.parentNode.insertBefore(notice, nav.nextSibling); }
-  else { document.body.insertBefore(notice, document.body.firstChild); }
+  /* ---- testing notice bar (top of every page; toggle via SHOW_NOTICE) ---- */
+  if (SHOW_NOTICE) {
+    var notice = document.createElement('div');
+    notice.id = 'fb-notice';
+    notice.innerHTML = '<span class="fb-tag">TESTING</span>현재 테스트 중인 초안입니다 · 의견·오류·제안 무엇이든 우측 하단 <b>‘의견’</b> 버튼으로 보내주세요';
+    notice.addEventListener('click', openPanel);
+    var nav = document.querySelector('.topnav');
+    if (nav && nav.parentNode) { nav.parentNode.insertBefore(notice, nav.nextSibling); }
+    else { document.body.insertBefore(notice, document.body.firstChild); }
+  }
 
   /* ---- location picker ---- */
   var picking=false;
