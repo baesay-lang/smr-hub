@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>아시아 SMR 사업 구조 · SMR 레퍼런스</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+  .wrap{max-width:1080px;margin:0 auto;padding:36px 24px 4px;}
+  .wrap h1{font-size:28px;margin:8px 0 8px;}
+  .wrap .subtitle{font-size:15px;max-width:780px;color:var(--text-dim);margin:0 0 4px;}
+
+  /* country tabs + language toggle */
+  .ctrlbar{max-width:1080px;margin:0 auto;padding:8px 24px 0;display:flex;justify-content:space-between;align-items:flex-end;gap:16px;flex-wrap:wrap;}
+  .tabs{display:flex;gap:2px;border-bottom:1px solid var(--border);flex-wrap:wrap;}
+  .tab{appearance:none;background:none;border:none;font:inherit;font-size:13.5px;font-weight:600;color:var(--text-dim);
+    padding:8px 15px;border-bottom:2px solid transparent;margin-bottom:-1px;cursor:pointer;border-radius:6px 6px 0 0;}
+  .tab:hover:not(:disabled){color:var(--text);background:var(--surface-2);}
+  .tab.active{color:var(--accent-strong);border-bottom-color:var(--accent);}
+  .tab:disabled{color:var(--text-faint);cursor:not-allowed;}
+  .tab:disabled::after{content:"·soon";font-size:9px;font-weight:600;vertical-align:super;margin-left:3px;color:var(--text-faint);letter-spacing:.02em;}
+  .langtoggle{display:inline-flex;border:1px solid var(--border-strong);border-radius:8px;overflow:hidden;align-self:center;}
+  .langbtn{appearance:none;background:var(--surface);border:none;font:inherit;font-size:12.5px;font-weight:700;color:var(--text-dim);padding:6px 15px;cursor:pointer;letter-spacing:.02em;}
+  .langbtn+.langbtn{border-left:1px solid var(--border);}
+  .langbtn.active{background:var(--accent);color:#fff;}
+
+  /* box visibility panel */
+  .boxpanel{max-width:1080px;margin:10px auto 0;padding:10px 24px 2px;display:flex;flex-wrap:wrap;align-items:center;gap:8px 10px;}
+  .boxpanel .bp-title{font-size:11.5px;font-weight:700;color:var(--text-dim);text-transform:uppercase;letter-spacing:.06em;margin-right:2px;}
+  .boxpanel label{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;color:var(--text-dim);cursor:pointer;
+    background:var(--surface-2);border:1px solid var(--border);border-radius:20px;padding:3px 11px 3px 9px;user-select:none;}
+  .boxpanel label:hover{border-color:var(--border-strong);color:var(--text);}
+  .boxpanel input{accent-color:var(--accent);margin:0;width:13px;height:13px;}
+  .boxpanel label:has(input:not(:checked)){opacity:.5;text-decoration:line-through;}
+  .bp-reset{appearance:none;background:var(--surface);border:1px solid var(--border-strong);border-radius:7px;font:inherit;
+    font-size:12px;font-weight:600;color:var(--accent-strong);padding:4px 13px;cursor:pointer;margin-left:2px;}
+  .bp-reset:hover{background:var(--accent-weak);}
+
+  .diagram{max-width:1080px;margin:6px auto 0;padding:6px 16px 0;}
+  .diagram svg{width:100%;height:auto;display:block;}
+  .legend{max-width:1080px;margin:0 auto;padding:6px 24px 8px;display:flex;flex-wrap:wrap;gap:18px;font-size:12.5px;color:var(--text-dim);}
+  .legend .li{display:flex;align-items:center;gap:7px;}
+  .legend .ln{width:26px;height:0;border-top-width:2px;border-top-style:solid;}
+
+  .notes{max-width:1080px;margin:0 auto;padding:18px 24px 60px;}
+  .notes h2{font-size:15px;margin:22px 0 8px;letter-spacing:.04em;text-transform:uppercase;color:var(--text-dim);}
+  .notes table{width:100%;border-collapse:collapse;font-size:13px;margin:4px 0 10px;}
+  .notes th,.notes td{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid var(--border);}
+  .notes th{color:var(--text-dim);font-weight:600;font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;background:var(--surface-2);}
+  .notes td b{font-weight:600;}
+  .tag{display:inline-block;font-size:10.5px;font-weight:600;padding:1px 7px;border-radius:20px;line-height:1.7;letter-spacing:.02em;white-space:nowrap;}
+  .tag.ok{background:var(--accent-weak);color:var(--accent-strong);}
+  .tag.tmpl{background:var(--surface-3);color:var(--text-dim);}
+  .notes p{font-size:13px;color:var(--text-dim);line-height:1.6;}
+  .notes ul{font-size:13px;color:var(--text-dim);line-height:1.65;padding-left:18px;}
+  .notes a{font-weight:500;}
+
+  /* language switching */
+  [data-lang="en"] .only-ko{display:none;}
+  [data-lang="ko"] .only-en{display:none;}
+</style>
+</head>
+<body data-lang="ko">
+<nav class="topnav">
+  <a class="brand" href="index.html" style="text-decoration:none;">SMR Reference</a>
+  <a href="SMR-developers.html">개발사</a>
+  <a href="SMR-licensing-tracks.html">인허가 트랙</a>
+  <a href="SMR-reactor-types.html">노형 분류</a>
+  <a href="SMR-news.html">뉴스</a>
+  <a href="SMR-reference.html">CFR 레퍼런스</a>
+  <a href="SMR-asia-structure.html" class="active">사업 구조</a>
+</nav>
+
+<div class="wrap">
+  <div class="kicker">SMR Project Structure · ASEAN</div>
+  <h1 class="only-ko">아시아 SMR 사업 구조</h1>
+  <h1 class="only-en">Asia — SMR Project Structure</h1>
+  <p class="subtitle only-ko">아시아 주요국별 SMR 사업 구조도. 상단 탭에서 국가 선택 — 현재 <b>인도네시아</b>: PLN Indonesia Power가 100% 소유하는 프로젝트 SPV를 중심으로 <b>자금조달(Financial)</b> · <b>운영(Operating)</b> 파트너와 <b>국가 원자력 도입 기구(NEPIO)</b>를 연결. 확정 당사자와 표준 사업구조상의 후보 당사자를 구분 표기.</p>
+  <p class="subtitle only-en">SMR project structures across key Asian countries. Pick a country in the tabs above — currently <b>Indonesia</b>: a structure centered on the SPV wholly owned by PLN Indonesia Power, linking the <b>financial</b> and <b>operating</b> partners with the national nuclear program body (<b>NEPIO</b>). Confirmed parties are distinguished from typical structural candidates.</p>
+</div>
+
+<!-- country tabs + KO/EN toggle -->
+<div class="ctrlbar">
+  <div class="tabs" role="tablist">
+    <button class="tab active" data-country="id" data-ko="인도네시아" data-en="Indonesia">인도네시아</button>
+    <button class="tab" disabled title="준비 중 · Coming soon" data-country="ph" data-ko="필리핀" data-en="Philippines">필리핀</button>
+    <button class="tab" disabled title="준비 중 · Coming soon" data-country="vn" data-ko="베트남" data-en="Vietnam">베트남</button>
+    <button class="tab" disabled title="준비 중 · Coming soon" data-country="my" data-ko="말레이시아" data-en="Malaysia">말레이시아</button>
+    <button class="tab" disabled title="준비 중 · Coming soon" data-country="sg" data-ko="싱가포르" data-en="Singapore">싱가포르</button>
+  </div>
+  <div class="langtoggle" role="group" aria-label="language">
+    <button class="langbtn active" data-lang="ko">한국어</button>
+    <button class="langbtn" data-lang="en">EN</button>
+  </div>
+</div>
+
+<!-- box visibility controls -->
+<div class="boxpanel">
+  <span class="bp-title" data-ko="표시할 박스" data-en="Visible boxes">표시할 박스</span>
+  <label><input type="checkbox" class="boxtoggle" value="offtaker" checked><span data-ko="PLN(구매자)" data-en="PLN (off-taker)">PLN(구매자)</span></label>
+  <label><input type="checkbox" class="boxtoggle" value="grant" checked><span data-ko="보조금(USTDA/FIRST)" data-en="Grant (USTDA/FIRST)">보조금(USTDA/FIRST)</span></label>
+  <label><input type="checkbox" class="boxtoggle" value="equity" checked><span data-ko="투자·차관(DFC/EXIM)" data-en="Equity·Debt (DFC/EXIM)">투자·차관(DFC/EXIM)</span></label>
+  <label><input type="checkbox" class="boxtoggle" value="owner" checked><span data-ko="PLN IP(사업주)" data-en="PLN IP (owner)">PLN IP(사업주)</span></label>
+  <label><input type="checkbox" class="boxtoggle" value="nepio" checked><span data-ko="NEPIO" data-en="NEPIO">NEPIO</span></label>
+  <label><input type="checkbox" class="boxtoggle" value="tech" checked><span data-ko="X-energy(기술)" data-en="X-energy (tech)">X-energy(기술)</span></label>
+  <label><input type="checkbox" class="boxtoggle" value="fuel" checked><span data-ko="TRISO-X(연료)" data-en="TRISO-X (fuel)">TRISO-X(연료)</span></label>
+  <label><input type="checkbox" class="boxtoggle" value="operator" checked><span data-ko="운영사" data-en="Operator">운영사</span></label>
+  <label><input type="checkbox" class="boxtoggle" value="epc" checked><span data-ko="EPC(DL·두산)" data-en="EPC (DL·Doosan)">EPC(DL·두산)</span></label>
+  <button class="bp-reset" id="showAll" data-ko="전체 표시" data-en="Show all">전체 표시</button>
+</div>
+
+<!-- ============================================================
+  인도네시아 SMR 사업 구조도 (org/structure chart)
+  - 좌: Financial partners / 중: 소유 체인 + NEPIO / 우: Operating partners
+  - 각 주변 박스 = <g data-box="..."> (자체 커넥터 포함) → 토글로 숨김 가능
+  - SVG 텍스트는 data-ko/data-en 으로 한/영 전환
+============================================================= -->
+<div class="diagram">
+<svg id="diag" viewBox="0 0 1000 640" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="SMR project structure diagram">
+  <defs>
+    <marker id="arA" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/>
+    </marker>
+    <marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8b93a2"/>
+    </marker>
+    <symbol id="plnBadge" viewBox="0 0 30 30">
+      <rect x="0.5" y="0.5" width="29" height="29" rx="5" fill="#f4c20d"/>
+      <path d="M16,4 L7.5,17 L13,17 L11,26.5 L22.5,12.5 L15.5,12.5 Z" fill="#e8412a"/>
+    </symbol>
+  </defs>
+  <style>
+    .bx{fill:#ffffff;stroke:#d2d7e0;stroke-width:1.5;}
+    .spv{fill:#eef3ff;stroke:#2563eb;stroke-width:2;}
+    .wm{font-family:Pretendard,system-ui,sans-serif;font-weight:700;fill:#1a2230;}
+    .wm2{font-family:Pretendard,system-ui,sans-serif;font-weight:700;fill:#2563eb;}
+    .role{font-family:Pretendard,system-ui,sans-serif;font-weight:500;fill:#5a6473;}
+    .chan{font-family:Pretendard,system-ui,sans-serif;font-weight:600;fill:#8b93a2;letter-spacing:.16em;}
+    .lbl{font-family:Pretendard,system-ui,sans-serif;font-weight:600;fill:#5a6473;}
+    .lnA{stroke:#2563eb;stroke-width:1.8;fill:none;}
+    .lnG{stroke:#8b93a2;stroke-width:1.6;fill:none;}
+    .lnGd{stroke:#9aa7b4;stroke-width:1.6;fill:none;stroke-dasharray:5 4;}
+  </style>
+
+  <!-- ===== static channel spines (always visible) ===== -->
+  <path class="lnG" d="M330,86 V512"/>
+  <path class="lnG" d="M330,320 H380" marker-end="url(#arG)"/>
+  <path class="lnA" d="M620,320 H670"/>
+  <path class="lnA" d="M670,67 V512"/>
+  <text class="chan" x="318" y="300" font-size="11" transform="rotate(-90 318 300)" text-anchor="middle">FINANCIAL PARTNERS</text>
+  <text class="chan" x="682" y="290" font-size="11" transform="rotate(-90 682 290)" text-anchor="middle">OPERATING PARTNERS</text>
+
+  <!-- ===== LEFT — financial ===== -->
+  <g class="node" data-box="offtaker">
+    <path class="lnG" d="M260,86 H330"/>
+    <rect class="bx" x="30" y="40" width="230" height="92" rx="9"/>
+    <use href="#plnBadge" x="99" y="50" width="30" height="30"/>
+    <text x="137" y="76" font-size="23" text-anchor="start" letter-spacing="1" style="font-family:Pretendard,system-ui,sans-serif;font-weight:800;fill:#1565c0">PLN</text>
+    <text class="role" x="145" y="106" font-size="11.5" text-anchor="middle" data-ko="전력 주 구매자 · Off-taker" data-en="Primary off-taker">전력 주 구매자 · Off-taker</text>
+    <text class="role" x="145" y="122" font-size="11" text-anchor="middle" data-ko="장기 전력판매계약(PPA)" data-en="Long-term PPA">장기 전력판매계약(PPA)</text>
+  </g>
+
+  <g class="node" data-box="grant">
+    <path class="lnG" d="M260,300 H330"/>
+    <rect class="bx" x="30" y="252" width="230" height="96" rx="9"/>
+    <text class="wm" x="145" y="284" font-size="16" text-anchor="middle">USTDA · US State FIRST</text>
+    <text class="role" x="145" y="306" font-size="11.5" text-anchor="middle" data-ko="보조금 · Grant funder" data-en="Grant funder">보조금 · Grant funder</text>
+    <text class="role" x="145" y="322" font-size="11" text-anchor="middle" data-ko="타당성조사 · 역량강화 지원" data-en="Feasibility &amp; capacity-building">타당성조사 · 역량강화 지원</text>
+    <text class="role" x="145" y="338" font-size="10.5" text-anchor="middle" fill="#8b93a2" data-ko="(+ IAEA TC, 무상 기술협력)" data-en="(+ IAEA technical cooperation)">(+ IAEA TC, 무상 기술협력)</text>
+  </g>
+
+  <g class="node" data-box="equity">
+    <path class="lnG" d="M260,512 H330"/>
+    <rect class="bx" x="30" y="446" width="230" height="132" rx="9"/>
+    <text class="wm" x="145" y="478" font-size="15.5" text-anchor="middle">US DFC · US EXIM</text>
+    <text class="wm" x="145" y="500" font-size="15.5" text-anchor="middle">KEXIM · K-SURE</text>
+    <text class="role" x="145" y="524" font-size="11.5" text-anchor="middle" data-ko="지분투자 · 차관 · 보증" data-en="Equity · Debt · Guarantee">지분투자 · 차관 · 보증</text>
+    <text class="role" x="145" y="540" font-size="11" text-anchor="middle">Equity / Debt / ECA</text>
+    <text class="role" x="145" y="558" font-size="10.5" text-anchor="middle" fill="#8b93a2" data-ko="DFC=지분 가능 · EXIM/ECA=부채" data-en="DFC=equity-capable · EXIM/ECA=debt only">DFC=지분 가능 · EXIM/ECA=부채</text>
+  </g>
+
+  <!-- ===== MIDDLE — ownership chain ===== -->
+  <g class="node" data-box="owner">
+    <path class="lnA" d="M500,148 V268" marker-end="url(#arA)"/>
+    <text class="lbl" x="512" y="212" font-size="11.5" data-ko="지분 100%" data-en="100% equity">지분 100%</text>
+    <rect class="bx" x="380" y="44" width="240" height="104" rx="9"/>
+    <use href="#plnBadge" x="392" y="64" width="26" height="26"/>
+    <text class="wm2" x="514" y="84" font-size="18.5" text-anchor="middle">PLN Indonesia Power</text>
+    <text class="role" x="500" y="108" font-size="11.5" text-anchor="middle" data-ko="사업주 · Project Owner" data-en="Project Owner">사업주 · Project Owner</text>
+    <text class="role" x="500" y="126" font-size="11" text-anchor="middle" data-ko="PT PLN (Persero) 발전 자회사" data-en="Generation subsidiary of PT PLN (Persero)">PT PLN (Persero) 발전 자회사</text>
+  </g>
+
+  <g data-box="spv">
+    <rect class="spv" x="380" y="268" width="240" height="108" rx="11"/>
+    <text class="wm2" x="500" y="308" font-size="20" text-anchor="middle">SMR Project SPV</text>
+    <text class="role" x="500" y="332" font-size="11.5" text-anchor="middle" data-ko="프로젝트 회사 · 특수목적법인" data-en="Project company · SPV">프로젝트 회사 · 특수목적법인</text>
+    <text class="role" x="500" y="350" font-size="11" text-anchor="middle" data-ko="자산 보유 · 계약 주체 · 자금조달 창구" data-en="Holds assets · signs contracts · financing vehicle">자산 보유 · 계약 주체 · 자금조달 창구</text>
+  </g>
+
+  <g class="node" data-box="nepio">
+    <path class="lnGd" d="M500,470 V376" marker-end="url(#arG)"/>
+    <text class="lbl" x="512" y="430" font-size="11" text-anchor="start" data-ko="국가 사업기반" data-en="National basis">국가 사업기반</text>
+    <text class="lbl" x="512" y="446" font-size="11" text-anchor="start" data-ko="(인허가·정책)" data-en="(licensing·policy)">(인허가·정책)</text>
+    <rect class="bx" x="380" y="470" width="240" height="104" rx="9"/>
+    <text class="wm" x="500" y="506" font-size="18" text-anchor="middle">NEPIO</text>
+    <text class="role" x="500" y="530" font-size="11.5" text-anchor="middle" data-ko="국가 원자력 도입 기구" data-en="Nuclear Energy Program Impl. Org">국가 원자력 도입 기구</text>
+    <text class="role" x="500" y="548" font-size="11" text-anchor="middle">National Enabling Body</text>
+    <text class="role" x="500" y="565" font-size="10.5" text-anchor="middle" fill="#8b93a2" data-ko="규제: BAPETEN · R&amp;D: BRIN" data-en="Regulator: BAPETEN · R&amp;D: BRIN">규제: BAPETEN · R&amp;D: BRIN</text>
+  </g>
+
+  <!-- ===== RIGHT — operating ===== -->
+  <g class="node" data-box="tech">
+    <path class="lnA" d="M670,67 H730" marker-end="url(#arA)"/>
+    <rect class="bx" x="730" y="28" width="250" height="80" rx="9"/>
+    <text class="wm" x="855" y="62" font-size="20" text-anchor="middle" letter-spacing="1">X·ENERGY</text>
+    <text class="role" x="855" y="86" font-size="11.5" text-anchor="middle" data-ko="원자로 기술 공급 · Technology" data-en="Reactor technology provider">원자로 기술 공급 · Technology</text>
+    <text class="role" x="855" y="101" font-size="10.5" text-anchor="middle" fill="#8b93a2">Xe-100 · HTGR · 80MWe</text>
+  </g>
+
+  <g class="node" data-box="fuel">
+    <path class="lnA" d="M670,193 H730" marker-end="url(#arA)"/>
+    <rect class="bx" x="730" y="154" width="250" height="80" rx="9"/>
+    <text class="wm" x="855" y="188" font-size="19" text-anchor="middle" letter-spacing="1">TRISO·X</text>
+    <text class="role" x="855" y="212" font-size="11.5" text-anchor="middle" data-ko="핵연료 공급 · Fuel" data-en="Nuclear fuel provider">핵연료 공급 · Fuel</text>
+    <text class="role" x="855" y="227" font-size="10.5" text-anchor="middle" fill="#8b93a2" data-ko="TRISO · HALEU (X-energy 자회사)" data-en="TRISO · HALEU (X-energy subsidiary)">TRISO · HALEU (X-energy 자회사)</text>
+  </g>
+
+  <g class="node" data-box="operator">
+    <path class="lnA" d="M670,330 H730" marker-end="url(#arA)"/>
+    <rect class="bx" x="730" y="290" width="250" height="92" rx="9"/>
+    <use href="#plnBadge" x="748" y="307" width="20" height="20"/>
+    <text class="wm" x="867" y="322" font-size="15" text-anchor="middle">PLN Indonesia Power (O&amp;M)</text>
+    <text class="role" x="855" y="344" font-size="11.5" text-anchor="middle" data-ko="운영사 · Operator / O&amp;M" data-en="Operator / O&amp;M">운영사 · Operator / O&amp;M</text>
+    <text class="role" x="855" y="360" font-size="10.5" text-anchor="middle" fill="#8b93a2" data-ko="X-energy 운영·기술지원 (전용 OpCo 가능)" data-en="X-energy O&amp;M &amp; tech support (OpCo possible)">X-energy 운영·기술지원 (전용 OpCo 가능)</text>
+  </g>
+
+  <g class="node" data-box="epc">
+    <path class="lnA" d="M670,512 H730" marker-end="url(#arA)"/>
+    <rect class="bx" x="730" y="446" width="250" height="132" rx="9"/>
+    <text x="855" y="480" font-size="16.5" text-anchor="middle" style="font-family:Pretendard,system-ui,sans-serif;font-weight:700;fill:#1a2230"><tspan>DL E&amp;C</tspan><tspan style="fill:#8b93a2;font-weight:600"> + </tspan><tspan style="fill:#0072ce">Doosan</tspan><tspan> Enerbility</tspan></text>
+    <text class="role" x="855" y="502" font-size="11.5" text-anchor="middle" data-ko="설계·조달·시공 · EPC" data-en="Engineering · Procurement · Construction">설계·조달·시공 · EPC</text>
+    <text class="role" x="855" y="520" font-size="11" text-anchor="middle" data-ko="+ 현지 파트너 (Local Partners)" data-en="+ Local Partners">+ 현지 파트너 (Local Partners)</text>
+    <text class="role" x="855" y="540" font-size="10.5" text-anchor="middle" fill="#8b93a2" data-ko="Doosan=주기기/모듈 · DL E&amp;C=토목·시공" data-en="Doosan=main components/modules · DL E&amp;C=civil works">Doosan=주기기/모듈 · DL E&amp;C=토목·시공</text>
+    <text class="role" x="855" y="556" font-size="10.5" text-anchor="middle" fill="#8b93a2" data-ko="현지=토건·기자재·인허가 지원" data-en="Local=civil, materials, permitting support">현지=토건·기자재·인허가 지원</text>
+  </g>
+</svg>
+</div>
+
+<div class="legend">
+  <span class="li"><span class="ln" style="border-top-color:#2563eb;"></span><span data-ko="소유 / 운영 계약" data-en="Ownership / operating contract">소유 / 운영 계약</span></span>
+  <span class="li"><span class="ln" style="border-top-color:#8b93a2;"></span><span data-ko="자금조달 (Off-take · Grant · Equity/Debt)" data-en="Financing (Off-take · Grant · Equity/Debt)">자금조달 (Off-take · Grant · Equity/Debt)</span></span>
+  <span class="li"><span class="ln" style="border-top-color:#9aa7b4;border-top-style:dashed;"></span><span data-ko="국가 사업기반 (인허가·정책)" data-en="National basis (licensing·policy)">국가 사업기반 (인허가·정책)</span></span>
+</div>
+
+<!-- ===================== NOTES (KO) ===================== -->
+<div class="notes only-ko">
+  <h2>구성 당사자 · 역할</h2>
+  <table>
+    <thead><tr><th style="width:170px">당사자</th><th style="width:110px">역할</th><th>설명 · 근거</th><th style="width:84px">구분</th></tr></thead>
+    <tbody>
+      <tr><td><b>PLN (Persero)</b></td><td>전력 주 구매자 (Off-taker)</td><td>국가 전력공사. 장기 전력판매계약(PPA)으로 SPV의 매출 기반을 보장.</td><td><span class="tag ok">확정 구조</span></td></tr>
+      <tr><td><b>PLN Indonesia Power</b></td><td>사업주 (Owner)</td><td>PT PLN 발전 자회사. 프로젝트 SPV를 <b>100% 보유</b>. USTDA SMR 타당성 사업의 실수요 기관.</td><td><span class="tag ok">확정</span></td></tr>
+      <tr><td><b>SMR Project SPV</b></td><td>프로젝트 회사</td><td>자산 보유·계약 체결·자금조달의 단일 창구가 되는 특수목적법인.</td><td><span class="tag ok">확정 구조</span></td></tr>
+      <tr><td><b>NEPIO</b></td><td>국가 도입 기구</td><td>원자력 도입을 총괄하는 국가 조직(설립 추진 중). 규제는 <abbr title="Badan Pengawas Tenaga Nuklir — 인도네시아 원자력규제청">BAPETEN</abbr>, R&amp;D는 <abbr title="Badan Riset dan Inovasi Nasional — 국가연구혁신청">BRIN</abbr>이 담당.</td><td><span class="tag ok">확정</span></td></tr>
+      <tr><td><b>X-energy</b></td><td>기술 공급</td><td>Xe-100 (HTGR, 80MWe/200MWth) 원자로 기술 공급사.</td><td><span class="tag ok">확정</span></td></tr>
+      <tr><td><b>TRISO-X</b></td><td>핵연료 공급</td><td>X-energy 자회사. TRISO·HALEU 연료 공급.</td><td><span class="tag ok">확정</span></td></tr>
+      <tr><td><b>DL E&amp;C · Doosan Enerbility</b></td><td>EPC</td><td>X-energy의 한국 파트너 — DL E&amp;C(2023~ 협력)는 설계·시공, Doosan은 주기기·모듈 제작(16기 예약·창원 SMR 공장). 현지 파트너가 토건·기자재 분담.</td><td><span class="tag ok">확정 파트너</span></td></tr>
+      <tr><td><b>USTDA · US State FIRST</b></td><td>보조금 (Grant)</td><td><abbr title="U.S. Trade and Development Agency">USTDA</abbr>=타당성조사 무상지원(인니 SMR에 실제 공여), <abbr title="Foundational Infrastructure for the Responsible Use of SMR Technology">FIRST</abbr>=美 국무부 역량강화 지원. (+ IAEA 기술협력)</td><td><span class="tag ok">확정 메커니즘</span></td></tr>
+      <tr><td><b>US DFC · US EXIM · KEXIM · K-SURE</b></td><td>지분/부채 (Equity·Debt·ECA)</td><td><abbr title="U.S. International Development Finance Corp.">DFC</abbr>=해외 원자력에 지분투자·정치위험보험 가능(美 유일), <abbr title="Export-Import Bank of the US">EXIM</abbr>=차관·보증(법상 지분 불가). 한국 EPC분에 대해선 <abbr title="한국수출입은행">KEXIM</abbr>·<abbr title="한국무역보험공사">K-SURE</abbr> ECA 금융.</td><td><span class="tag tmpl">표준 후보</span></td></tr>
+      <tr><td><b>Operator (O&amp;M)</b></td><td>운영</td><td>통상 사업주(PLN IP)가 운영을 맡고 X-energy가 운영·기술지원. 별도 전용 운영회사(OpCo)를 둘 수도 있음.</td><td><span class="tag tmpl">표준 후보</span></td></tr>
+    </tbody>
+  </table>
+
+  <h2>주석 · 확실성</h2>
+  <ul>
+    <li><span class="tag ok">확정</span> = 공개 출처로 확인된 실제 당사자/구조, <span class="tag tmpl">표준 후보</span> = 美·韓 원자력 수출금융 구조상 통상적인 당사자(특정 인니 계약으로 확정된 것은 아님).</li>
+    <li><b>금융 구조 주의:</b> EXIM·KEXIM·K-SURE는 부채/보증만 가능하며 지분투자는 불가. 해외 원자력에서 美 정부 측 지분투자가 가능한 기구는 <b>DFC</b>이다. 다자개발은행(World Bank·ADB)은 원자력 금융을 통상 취급하지 않음.</li>
+    <li><b>별개 사업과 혼동 주의:</b> 인니에는 西칼리만탄 NuScale(462MWe, USTDA+Fluor+JGC) 건과 본 X-energy/HTGR 계열 구조가 병존. 본 구조도는 X-energy(Xe-100) 기준.</li>
+    <li>최종 지분·차주·운영 주체는 프로젝트 합의서로 확정되어야 하며, 위 금융 당사자는 후보 조합임.</li>
+  </ul>
+</div>
+
+<!-- ===================== NOTES (EN) ===================== -->
+<div class="notes only-en">
+  <h2>Parties · Roles</h2>
+  <table>
+    <thead><tr><th style="width:170px">Party</th><th style="width:120px">Role</th><th>Description · Basis</th><th style="width:96px">Status</th></tr></thead>
+    <tbody>
+      <tr><td><b>PLN (Persero)</b></td><td>Primary off-taker</td><td>National electricity utility. A long-term PPA secures the SPV's revenue base.</td><td><span class="tag ok">Structural</span></td></tr>
+      <tr><td><b>PLN Indonesia Power</b></td><td>Owner</td><td>Generation subsidiary of PT PLN. <b>Owns 100%</b> of the project SPV; counterpart of the USTDA SMR feasibility program.</td><td><span class="tag ok">Confirmed</span></td></tr>
+      <tr><td><b>SMR Project SPV</b></td><td>Project company</td><td>A special-purpose vehicle acting as the single entity that holds assets, signs contracts and raises finance.</td><td><span class="tag ok">Structural</span></td></tr>
+      <tr><td><b>NEPIO</b></td><td>National body</td><td>National organization leading nuclear adoption (being established). Regulator = <abbr title="Badan Pengawas Tenaga Nuklir — Nuclear Energy Regulatory Agency">BAPETEN</abbr>, R&amp;D = <abbr title="Badan Riset dan Inovasi Nasional — National Research & Innovation Agency">BRIN</abbr>.</td><td><span class="tag ok">Confirmed</span></td></tr>
+      <tr><td><b>X-energy</b></td><td>Technology</td><td>Supplier of the Xe-100 (HTGR, 80MWe/200MWth) reactor technology.</td><td><span class="tag ok">Confirmed</span></td></tr>
+      <tr><td><b>TRISO-X</b></td><td>Fuel</td><td>X-energy subsidiary; supplies TRISO·HALEU fuel.</td><td><span class="tag ok">Confirmed</span></td></tr>
+      <tr><td><b>DL E&amp;C · Doosan Enerbility</b></td><td>EPC</td><td>X-energy's Korean partners — DL E&amp;C (since 2023) for design/construction, Doosan for main components/modules (16-unit reservation, Changwon SMR plant). Local partners share civil works and materials.</td><td><span class="tag ok">Confirmed</span></td></tr>
+      <tr><td><b>USTDA · US State FIRST</b></td><td>Grant</td><td><abbr title="U.S. Trade and Development Agency">USTDA</abbr> = feasibility-study grants (actually awarded for Indonesia SMR); <abbr title="Foundational Infrastructure for the Responsible Use of SMR Technology">FIRST</abbr> = US State Dept capacity building. (+ IAEA technical cooperation)</td><td><span class="tag ok">Confirmed</span></td></tr>
+      <tr><td><b>US DFC · US EXIM · KEXIM · K-SURE</b></td><td>Equity·Debt·ECA</td><td><abbr title="U.S. International Development Finance Corp.">DFC</abbr> = equity + political-risk insurance for overseas nuclear (the only US tool that can take equity); <abbr title="Export-Import Bank of the US">EXIM</abbr> = loans/guarantees (no equity by statute). Korean EPC scope backed by <abbr title="Export-Import Bank of Korea">KEXIM</abbr>/<abbr title="Korea Trade Insurance Corp.">K-SURE</abbr> ECA finance.</td><td><span class="tag tmpl">Candidate</span></td></tr>
+      <tr><td><b>Operator (O&amp;M)</b></td><td>Operation</td><td>Typically the owner (PLN IP) operates with X-energy O&amp;M / technical support; a dedicated OpCo is also possible.</td><td><span class="tag tmpl">Candidate</span></td></tr>
+    </tbody>
+  </table>
+
+  <h2>Notes · Confidence</h2>
+  <ul>
+    <li><span class="tag ok">Confirmed</span> = a real party/structure verified from public sources; <span class="tag tmpl">Candidate</span> = a party typical of the US/Korea nuclear-export financing structure (not confirmed for a specific Indonesia contract).</li>
+    <li><b>Financing caveat:</b> EXIM/KEXIM/K-SURE provide debt and guarantees only, not equity. The US-government vehicle that can take equity in overseas nuclear is <b>DFC</b>. Multilateral banks (World Bank, ADB) generally do not finance nuclear.</li>
+    <li><b>Don't confuse with a separate project:</b> Indonesia also has the West Kalimantan NuScale case (462MWe; USTDA+Fluor+JGC) alongside this X-energy/HTGR structure. This chart is the X-energy (Xe-100) case.</li>
+    <li>Final equity, borrower and operator must be fixed by the project agreements; the financing parties above are a candidate set.</li>
+  </ul>
+</div>
+
+<!-- sources + footer (shared) -->
+<div class="notes">
+  <h2><span class="only-ko">출처</span><span class="only-en">Sources</span></h2>
+  <ul>
+    <li><a href="https://www.ustda.gov/ustda-indonesia-partner-on-nuclear-power/">USTDA — USTDA, Indonesia Partner on Nuclear Power</a></li>
+    <li><a href="https://www.world-nuclear-news.org/Articles/USA,-Indonesia-announce-partnership-on-SMRs">World Nuclear News — USA, Indonesia announce partnership on SMRs</a></li>
+    <li><a href="https://www.dfc.gov/sites/default/files/media/documents/DFC%20Report%20-%20Civilian%20Nuclear%20Energy%202024.pdf">DFC — Financing Nuclear Energy-Related Projects Overseas (2024)</a></li>
+    <li><a href="https://x-energy.com/news/x-energy-doosan-enerbility-announce-16-unit-reservation-agreement-and-capacity-expansion-to-support-11-gw-pipeline/">X-energy — Doosan 16-Unit Reservation / Changwon plant</a></li>
+    <li><a href="https://world-nuclear.org/information-library/country-profiles/countries-g-n/nuclear-power-in-indonesia">World Nuclear Association — Nuclear Power in Indonesia</a></li>
+  </ul>
+  <p style="margin-top:14px;color:var(--text-faint);font-size:12px;">
+    <span class="only-ko">최종 정리 2026-06-11 · 공개 출처 기준. 규제·금융 사실은 프로젝트 합의서로 재확인 필요.</span>
+    <span class="only-en">Compiled 2026-06-11 · based on public sources. Regulatory and financial facts to be re-confirmed against project agreements.</span>
+  </p>
+</div>
+
+<script>
+(function(){
+  var TITLES = {ko:"아시아 SMR 사업 구조 · SMR 레퍼런스", en:"Asia SMR Project Structure · SMR Reference"};
+  function setLang(lang){
+    document.body.setAttribute('data-lang', lang);
+    document.documentElement.setAttribute('lang', lang);
+    document.querySelectorAll('[data-ko]').forEach(function(el){
+      var v = el.getAttribute('data-'+lang);
+      if(v!=null) el.textContent = v;
+    });
+    document.title = TITLES[lang] || document.title;
+    document.querySelectorAll('.langbtn').forEach(function(b){
+      b.classList.toggle('active', b.getAttribute('data-lang')===lang);
+    });
+  }
+  document.querySelectorAll('.langbtn').forEach(function(b){
+    b.addEventListener('click', function(){ setLang(b.getAttribute('data-lang')); });
+  });
+
+  function toggleBox(value, show){
+    var g = document.querySelector('#diag g[data-box="'+value+'"]');
+    if(g) g.style.display = show ? '' : 'none';
+  }
+  document.querySelectorAll('.boxtoggle').forEach(function(cb){
+    cb.addEventListener('change', function(){ toggleBox(cb.value, cb.checked); });
+  });
+  document.getElementById('showAll').addEventListener('click', function(){
+    document.querySelectorAll('.boxtoggle').forEach(function(cb){ cb.checked = true; toggleBox(cb.value, true); });
+  });
+
+  setLang('ko');
+})();
+</script>
+
+</body>
+</html>
