@@ -155,15 +155,12 @@
   <text class="chan" x="500" y="86" font-size="11" text-anchor="middle">PROJECT &amp; STATE</text>
   <text class="chan" x="845" y="86" font-size="11" text-anchor="middle">OPERATING PARTNERS</text>
 
-  <!-- ===== static buses — left collector / right distributor ===== -->
-  <path class="lnG" d="M327,150 V450"/>
-  <path class="lnG" d="M327,300 H385" marker-end="url(#arG)"/>
-  <path class="lnA" d="M615,300 H672"/>
-  <path class="lnA" d="M672,150 V450"/>
+  <!-- connectors live inside each <g data-box> (full route to/from SPV) so hiding a box removes its line; overlapping segments read as one bus -->
+
 
   <!-- ===== LEFT — financial (uniform boxes; detail in annotation below) ===== -->
   <g class="node" data-box="offtaker">
-    <path class="lnG" d="M270,150 H327"/>
+    <path class="lnG" d="M270,150 H327 V300 H385" marker-end="url(#arG)"/>
     <rect class="bx" x="40" y="120" width="230" height="60" rx="9"/>
     <text class="wm" x="155" y="146" font-size="18" text-anchor="middle">PLN</text>
     <text class="role" x="155" y="166" font-size="11" text-anchor="middle" data-ko="구매자 · Off-taker" data-en="Off-taker">구매자 · Off-taker</text>
@@ -171,7 +168,7 @@
   </g>
 
   <g class="node" data-box="grant">
-    <path class="lnG" d="M270,300 H327"/>
+    <path class="lnG" d="M270,300 H385" marker-end="url(#arG)"/>
     <rect class="bx" x="40" y="270" width="230" height="60" rx="9"/>
     <text class="wm" x="155" y="295" font-size="15" text-anchor="middle">USTDA · US State FIRST</text>
     <text class="role" x="155" y="315" font-size="11" text-anchor="middle" data-ko="보조금 · Grant" data-en="Grant">보조금 · Grant</text>
@@ -179,7 +176,7 @@
   </g>
 
   <g class="node" data-box="equity">
-    <path class="lnG" d="M270,450 H327"/>
+    <path class="lnG" d="M270,450 H327 V300 H385" marker-end="url(#arG)"/>
     <rect class="bx" x="40" y="420" width="230" height="60" rx="9"/>
     <text class="wm" x="155" y="445" font-size="13" text-anchor="middle">DFC · EXIM · KEXIM · K-SURE</text>
     <text class="role" x="155" y="464" font-size="11" text-anchor="middle" data-ko="투자·차관 · Equity/Debt" data-en="Equity / Debt">투자·차관 · Equity/Debt</text>
@@ -214,7 +211,7 @@
 
   <!-- ===== RIGHT — operating (uniform boxes; detail in annotation below) ===== -->
   <g class="node" data-box="tech">
-    <path class="lnA" d="M672,150 H730" marker-end="url(#arA)"/>
+    <path class="lnA" d="M615,300 H672 V150 H730" marker-end="url(#arA)"/>
     <rect class="bx" x="730" y="120" width="230" height="60" rx="9"/>
     <text class="wm" x="845" y="146" font-size="18" text-anchor="middle" letter-spacing="1">X·ENERGY</text>
     <text class="role" x="845" y="166" font-size="11" text-anchor="middle" data-ko="기술 공급 · Technology" data-en="Technology">기술 공급 · Technology</text>
@@ -222,7 +219,7 @@
   </g>
 
   <g class="node" data-box="fuel">
-    <path class="lnA" d="M672,250 H730" marker-end="url(#arA)"/>
+    <path class="lnA" d="M615,300 H672 V250 H730" marker-end="url(#arA)"/>
     <rect class="bx" x="730" y="220" width="230" height="60" rx="9"/>
     <text class="wm" x="845" y="246" font-size="17" text-anchor="middle" letter-spacing="1">TRISO·X</text>
     <text class="role" x="845" y="266" font-size="11" text-anchor="middle" data-ko="핵연료 · Fuel" data-en="Fuel">핵연료 · Fuel</text>
@@ -230,7 +227,7 @@
   </g>
 
   <g class="node" data-box="operator">
-    <path class="lnA" d="M672,350 H730" marker-end="url(#arA)"/>
+    <path class="lnA" d="M615,300 H672 V350 H730" marker-end="url(#arA)"/>
     <rect class="bx" x="730" y="320" width="230" height="60" rx="9"/>
     <text class="wm" x="845" y="345" font-size="15" text-anchor="middle">PLN Indonesia Power</text>
     <text class="role" x="845" y="365" font-size="11" text-anchor="middle" data-ko="운영사 · O&amp;M" data-en="Operator / O&amp;M">운영사 · O&amp;M</text>
@@ -238,7 +235,7 @@
   </g>
 
   <g class="node" data-box="epc">
-    <path class="lnA" d="M672,450 H730" marker-end="url(#arA)"/>
+    <path class="lnA" d="M615,300 H672 V450 H730" marker-end="url(#arA)"/>
     <rect class="bx" x="730" y="420" width="230" height="60" rx="9"/>
     <text x="845" y="445" font-size="15" text-anchor="middle" style="font-family:Pretendard,system-ui,sans-serif;font-weight:700;fill:#1a2230"><tspan>DL E&amp;C</tspan><tspan style="fill:#8b93a2;font-weight:600"> + </tspan><tspan style="fill:#0072ce">Doosan</tspan></text>
     <text class="role" x="845" y="464" font-size="11" text-anchor="middle" data-ko="설계·시공 · EPC" data-en="EPC">설계·시공 · EPC</text>
