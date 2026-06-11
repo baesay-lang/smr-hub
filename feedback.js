@@ -5,7 +5,7 @@
    Loaded on every page via <script src="feedback.js" defer></script>
    ============================================================ */
 (function () {
-  var ENDPOINT = 'https://formspree.io/f/REPLACE_ME';   // ← paste your Formspree form id
+  var ENDPOINT = 'https://formspree.io/f/xeewllzn';   // Formspree form id
 
   var C = { acc:'#2563eb', accD:'#1d4ed8', accW:'#eef3ff', accW2:'#d7e3fe',
             sf:'#ffffff', sf2:'#f1f3f7', bd:'#e5e8ee', bdS:'#d2d7e0',
