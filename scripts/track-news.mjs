@@ -184,10 +184,8 @@ function ruleTag(it){
   };
 }
 
-async function classify(items){
-  const input = items.map((it,i)=>({ i, title: it.title, snippet: it.snip, source: it.source }));
-  const prompt =
-`아래는 원자력 뉴스 후보 목록이다. 각 항목을 SMR(소형모듈원자로)·첨단로 레퍼런스 사이트용으로 태깅하라.
+function classifyPrompt(input){
+  return `아래는 원자력 뉴스 후보 목록이다. 각 항목을 SMR(소형모듈원자로)·첨단로 레퍼런스 사이트용으로 태깅하라.
 각 항목마다 JSON 객체를 만들어라:
 {"i":번호,
  "relevant":SMR·첨단로·관련 개발사/연료/인허가/계약/정책이면 true, 일반 대형원전·무관 뉴스면 false,
@@ -201,20 +199,45 @@ async function classify(items){
 반드시 입력과 같은 순서로, 오직 JSON 배열만 출력하라. 설명 금지.
 입력:
 ${JSON.stringify(input)}`;
+}
 
+/* lenient JSON: try the whole array first, else salvage each {...} object (recovers truncated responses) */
+function salvageJsonArray(txt){
+  const m = txt.match(/\[[\s\S]*\]/);
+  if (m){ try { return JSON.parse(m[0]); } catch {} }
+  const objs = [];
+  for (const piece of (txt.match(/\{[^{}]*\}/g) || [])){
+    try { objs.push(JSON.parse(piece)); } catch {}
+  }
+  return objs;
+}
+
+async function classifyBatch(batch){
   const res = await fetch('https://api.anthropic.com/v1/messages', {
     method:'POST',
     headers:{ 'x-api-key': API_KEY, 'anthropic-version':'2023-06-01', 'content-type':'application/json' },
-    body: JSON.stringify({ model: MODEL, max_tokens: 4000, messages:[{ role:'user', content: prompt }] })
+    body: JSON.stringify({ model: MODEL, max_tokens: 8000, messages:[{ role:'user', content: classifyPrompt(batch) }] })
   });
-  if (!res.ok) throw new Error(`Anthropic API ${res.status}: ${await res.text()}`);
+  if (!res.ok) throw new Error(`Anthropic API ${res.status}: ${(await res.text()).slice(0,200)}`);
   const data = await res.json();
-  const txt = data?.content?.[0]?.text || '';
-  const m = txt.match(/\[[\s\S]*\]/);
-  if (!m) { console.error('no JSON array in model output'); return items.map(()=>null); }
-  let arr; try { arr = JSON.parse(m[0]); } catch(e){ console.error('JSON parse fail:', e.message); return items.map(()=>null); }
+  return salvageJsonArray(data?.content?.[0]?.text || '');
+}
+
+/* classify in small batches so each response stays well under max_tokens (a single 42-item
+   request truncates → invalid JSON → everything dropped). Each item keeps its GLOBAL index i. */
+async function classify(items){
   const out = items.map(()=>null);
-  for (const o of arr) if (o && Number.isInteger(o.i) && o.i>=0 && o.i<items.length) out[o.i] = o;
+  const input = items.map((it,i)=>({ i, title: it.title, snippet: it.snip, source: it.source }));
+  const BATCH = 8;
+  for (let s=0; s<input.length; s+=BATCH){
+    const batch = input.slice(s, s+BATCH);
+    let arr = [];
+    try { arr = await classifyBatch(batch); }
+    catch(e){ console.error(`classify batch ${s}-${s+batch.length-1} fail: ${e.message}`); }
+    let got = 0;
+    for (const o of arr) if (o && Number.isInteger(o.i) && o.i>=0 && o.i<items.length){ out[o.i] = o; got++; }
+    console.log(`classified ${s}-${s+batch.length-1}: ${got}/${batch.length}`);
+  }
   return out;
 }
 
@@ -234,6 +257,7 @@ async function main(){
   const toAdd = [];
   tagged.forEach((c,i)=>{
     const src = candidates[i];
+    if (!c && src.priority) c = ruleTag(src);   // classifier missed/failed but it's one of our 13 devs → keep (rule-based tags)
     if (!c) return;
     if (c.relevant === false && !src.priority) return;   // 13-dev news kept even if classifier says off-topic
     const title = (c.titleKo || src.title).trim();
