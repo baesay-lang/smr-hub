@@ -43,6 +43,13 @@
   +'.fb-send:disabled{opacity:.6;cursor:default;}'
   +'.fb-msg{font-size:12.5px;margin-top:9px;line-height:1.5;}'
   +'.fb-msg.ok{color:'+C.accD+';}.fb-msg.err{color:#b42318;}'
+  +'#fb-notice{font-family:"Pretendard",-apple-system,"Segoe UI","Malgun Gothic",sans-serif;font-size:13px;'
+  +'color:#b45309;background:#fffbeb;border-bottom:1px solid #fae3bf;padding:8px 16px;text-align:center;'
+  +'line-height:1.55;cursor:pointer;}'
+  +'#fb-notice:hover{background:#fff6e0;}'
+  +'#fb-notice b{color:#92400e;}'
+  +'#fb-notice .fb-tag{display:inline-block;background:#d97706;color:#fff;font-size:10px;font-weight:700;'
+  +'letter-spacing:.05em;padding:2px 7px;border-radius:4px;margin-right:8px;vertical-align:1px;}'
   +'#fb-hl{position:fixed;z-index:2147483500;pointer-events:none;border:2px solid '+C.acc+';background:rgba(37,99,235,.10);'
   +'border-radius:4px;display:none;transition:all .04s linear;}'
   +'body.fb-picking,body.fb-picking *{cursor:crosshair!important;}';
@@ -79,6 +86,15 @@
   function closePanel(){ panel.hidden=true; stopPick(); }
   btn.addEventListener('click', function(){ panel.hidden ? openPanel() : closePanel(); });
   root.querySelector('.fb-x').addEventListener('click', closePanel);
+
+  /* ---- testing notice bar (top of every page) ---- */
+  var notice = document.createElement('div');
+  notice.id = 'fb-notice';
+  notice.innerHTML = '<span class="fb-tag">TESTING</span>현재 테스트 중인 초안입니다 · 의견·오류·제안 무엇이든 우측 하단 <b>‘의견’</b> 버튼으로 보내주세요';
+  notice.addEventListener('click', openPanel);
+  var nav = document.querySelector('.topnav');
+  if (nav && nav.parentNode) { nav.parentNode.insertBefore(notice, nav.nextSibling); }
+  else { document.body.insertBefore(notice, document.body.firstChild); }
 
   /* ---- location picker ---- */
   var picking=false;
