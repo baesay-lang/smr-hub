@@ -1,0 +1,41 @@
+name: SMR news tracker
+
+on:
+  schedule:
+    - cron: '0 21 * * *'      # 06:00 KST daily (21:00 UTC prev day)
+  workflow_dispatch: {}        # allow manual run from the Actions tab
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install deps
+        run: npm install rss-parser --no-save
+
+      - name: Collect & classify news
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/track-news.mjs
+
+      - name: Open PR if news-data.js changed
+        uses: peter-evans/create-pull-request@v6
+        with:
+          add-paths: news-data.js
+          branch: auto/news-update
+          delete-branch: true
+          commit-message: "chore(news): auto-tracked SMR news"
+          title: "SMR 뉴스 자동 수집 (검토용)"
+          body: |
+            자동 수집·분류된 SMR 뉴스입니다 (Claude Haiku).
+            **검토 후 Merge**하면 라이브에 반영됩니다.
+            - 잘못 분류/중복/무관 항목은 이 PR에서 `news-data.js`를 직접 수정 후 Merge하거나, Close 하세요.

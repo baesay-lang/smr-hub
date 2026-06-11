@@ -1,0 +1,151 @@
+/* ============================================================
+   SMR news auto-tracker
+   - fetches RSS feeds, keeps SMR-relevant + new items
+   - classifies + Korean-summarizes via Claude API (Haiku)
+   - rewrites news-data.js  (PR is opened by the workflow)
+   Run: ANTHROPIC_API_KEY=... node scripts/track-news.mjs
+   ============================================================ */
+import Parser from 'rss-parser';
+import fs from 'node:fs';
+
+/* ---- config: edit these freely ---- */
+const SOURCES = [
+  // If a feed URL 404s it is skipped (logged). Adjust/extend anytime.
+  'https://www.world-nuclear-news.org/rss',
+  'https://www.ans.org/news/rss/',
+  'https://www.neimagazine.com/feeds/news/',
+  'https://www.powermag.com/feed/',
+  'https://www.nucnet.org/rss',
+];
+const KEYWORDS = [
+  'smr','small modular','advanced reactor','microreactor','micro-reactor','gen iv','generation iv',
+  'nuscale','x-energy','xe-100','terrapower','natrium','bwrx','kairos','oklo','holtec','smr-300',
+  'rolls-royce smr','smart','i-smr','seaborg','saltfoss','arc-100','evinci','ap300','westinghouse',
+  'haleu','triso','part 53','molten salt','htgr','high-temperature gas','sodium-cooled','fast reactor',
+  'vendor design review','construction permit','design certification','combined license',
+];
+const MAX_NEW = 20;                         // cost cap per run
+const MODEL = 'claude-haiku-4-5-20251001';  // cheap + fast for tagging
+const VALIDCAT = ['인허가','계약','투자','기술','정책'];
+const VALIDTYPE = ['General','PWR','BWR','SFR','HTGR','FHR','MSR','Micro'];
+const FILE = 'news-data.js';
+const API_KEY = process.env.ANTHROPIC_API_KEY;
+
+const HEADER = `/* ============================================================
+   SMR News data — single source for SMR-news.html
+   Auto-updated by scripts/track-news.mjs (GitHub Actions); changes land via PR.
+   Schema: date, title, summary, cat(인허가|계약|투자|기술|정책),
+           type(General|PWR|BWR|SFR|HTGR|FHR|MSR|Micro), dev, region, source, url
+   ============================================================ */
+window.SMR_NEWS = `;
+
+const dkey = (d) => { const p = String(d).split('-'); return (p[0]||'0000')+(p[1]||'12')+(p[2]||'28'); };
+const todayISO = () => new Date().toISOString().slice(0,10);
+const host = (u) => { try { return new URL(u).hostname.replace(/^www\./,''); } catch { return u; } };
+
+function loadExisting(){
+  const text = fs.readFileSync(FILE,'utf8');
+  const g = {};
+  new Function('window', text)(g);   // executes `window.SMR_NEWS = [...]`
+  return g.SMR_NEWS || [];
+}
+
+async function fetchCandidates(seen){
+  const parser = new Parser({ timeout: 15000, headers: { 'User-Agent': 'smr-hub-news-tracker' } });
+  const out = []; const dedupe = new Set();
+  for (const url of SOURCES){
+    try {
+      const feed = await parser.parseURL(url);
+      for (const it of (feed.items||[])){
+        const link = (it.link||'').trim();
+        const title = (it.title||'').trim();
+        if (!link || !title || seen.has(link) || dedupe.has(link)) continue;
+        const snip = (it.contentSnippet || it.summary || it.content || '').replace(/\s+/g,' ').slice(0,400);
+        const hay = (title + ' ' + snip).toLowerCase();
+        if (!KEYWORDS.some(k => hay.includes(k))) continue;
+        let date = '';
+        if (it.isoDate) date = it.isoDate.slice(0,10);
+        else if (it.pubDate) { const d = new Date(it.pubDate); if (!isNaN(d)) date = d.toISOString().slice(0,10); }
+        dedupe.add(link);
+        out.push({ title, snip, link, date, source: (feed.title || host(url)) });
+      }
+      console.log(`feed ok: ${url} (+${out.length} cumulative candidates)`);
+    } catch (e) { console.error(`feed fail: ${url} — ${e.message}`); }
+  }
+  return out.slice(0, MAX_NEW);
+}
+
+async function classify(items){
+  const input = items.map((it,i)=>({ i, title: it.title, snippet: it.snip, source: it.source }));
+  const prompt =
+`아래는 원자력 뉴스 후보 목록이다. 각 항목을 SMR(소형모듈원자로)·첨단로 레퍼런스 사이트용으로 태깅하라.
+각 항목마다 JSON 객체를 만들어라:
+{"i":번호,
+ "relevant":SMR·첨단로·관련 개발사/연료/인허가/계약/정책이면 true, 일반 대형원전·무관 뉴스면 false,
+ "titleKo":한국어 제목(간결, 핵심만),
+ "summary":한국어 1~2문장 요약,
+ "cat":${JSON.stringify(VALIDCAT)} 중 하나,
+ "type":${JSON.stringify(VALIDTYPE)} 중 하나(특정 노형 아니면 "General"),
+ "dev":개발사/기관 짧은 이름 또는 "",
+ "region":"US"|"KR"|"UK"|"CA"|"DK"|"EU"|"JP"|"" }
+반드시 입력과 같은 순서로, 오직 JSON 배열만 출력하라. 설명 금지.
+입력:
+${JSON.stringify(input)}`;
+
+  const res = await fetch('https://api.anthropic.com/v1/messages', {
+    method:'POST',
+    headers:{ 'x-api-key': API_KEY, 'anthropic-version':'2023-06-01', 'content-type':'application/json' },
+    body: JSON.stringify({ model: MODEL, max_tokens: 4000, messages:[{ role:'user', content: prompt }] })
+  });
+  if (!res.ok) throw new Error(`Anthropic API ${res.status}: ${await res.text()}`);
+  const data = await res.json();
+  const txt = data?.content?.[0]?.text || '';
+  const m = txt.match(/\[[\s\S]*\]/);
+  if (!m) { console.error('no JSON array in model output'); return items.map(()=>null); }
+  let arr; try { arr = JSON.parse(m[0]); } catch(e){ console.error('JSON parse fail:', e.message); return items.map(()=>null); }
+  const out = items.map(()=>null);
+  for (const o of arr) if (o && Number.isInteger(o.i) && o.i>=0 && o.i<items.length) out[o.i] = o;
+  return out;
+}
+
+async function main(){
+  if (!API_KEY) throw new Error('ANTHROPIC_API_KEY is not set');
+  const existing = loadExisting();
+  const seen = new Set(existing.map(n => (n.url||'').trim()).filter(Boolean));
+  const seenTitles = new Set(existing.map(n => (n.title||'').trim()));
+
+  const candidates = await fetchCandidates(seen);
+  console.log(`candidates after filter: ${candidates.length}`);
+  if (candidates.length === 0) { console.log('no new relevant candidates — exiting'); return; }
+
+  const tagged = await classify(candidates);
+  const toAdd = [];
+  tagged.forEach((c,i)=>{
+    if (!c || c.relevant === false) return;
+    const src = candidates[i];
+    const title = (c.titleKo || src.title).trim();
+    if (!title || seenTitles.has(title)) return;
+    seenTitles.add(title);
+    toAdd.push({
+      date: src.date || todayISO(),
+      title,
+      summary: (c.summary || '').trim(),
+      cat: VALIDCAT.includes(c.cat) ? c.cat : '기술',
+      type: VALIDTYPE.includes(c.type) ? c.type : 'General',
+      dev: (c.dev || '').trim(),
+      region: (c.region || '').trim(),
+      source: src.source,
+      url: src.link,
+    });
+  });
+
+  if (toAdd.length === 0) { console.log('nothing relevant after classification — exiting'); return; }
+
+  const merged = existing.concat(toAdd);
+  merged.sort((a,b)=> dkey(b.date).localeCompare(dkey(a.date)));
+  fs.writeFileSync(FILE, HEADER + JSON.stringify(merged, null, 2) + ';\n');
+  console.log(`added ${toAdd.length} item(s):`);
+  toAdd.forEach(n => console.log(`  · ${n.date} [${n.cat}/${n.type}] ${n.title}`));
+}
+
+main().catch(e => { console.error(e); process.exit(1); });

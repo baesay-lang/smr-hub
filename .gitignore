@@ -2,6 +2,11 @@
 .claude/
 memory/
 
+# node (news tracker deps — installed only in CI runner)
+node_modules/
+package.json
+package-lock.json
+
 # OS junk
 Thumbs.db
 desktop.ini
