@@ -6,21 +6,46 @@
 <title>SMR 레퍼런스 허브</title>
 <link rel="stylesheet" href="styles.css">
 <style>
-  .hub-hero{max-width:1080px;margin:0 auto;padding:44px 24px 10px;}
-  .hub-hero h1{font-size:30px;margin:8px 0 8px;}
-  .hub-hero .subtitle{font-size:15px;}
-  .hub-grid{max-width:1080px;margin:0 auto;padding:24px 24px 60px;
-    display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;}
-  .hub-card{display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--border);
-    border-radius:var(--radius);box-shadow:var(--shadow);padding:20px 20px 18px;transition:border-color .12s,box-shadow .12s;}
-  .hub-card:hover{border-color:var(--accent);box-shadow:0 2px 8px rgba(37,99,235,.10);text-decoration:none;}
-  .hub-card .kicker{margin-bottom:9px;}
-  .hub-card .t{font-size:17px;font-weight:700;color:var(--text);margin:0 0 5px;}
-  .hub-card .d{font-size:13px;color:var(--text-dim);line-height:1.55;}
-  .hub-card .go{margin-top:14px;color:var(--accent);font-size:13px;font-weight:600;}
-  .hub-card.feat{border-top:2px solid var(--accent);}
-  .hub-foot{max-width:1080px;margin:0 auto;padding:0 24px 50px;color:var(--text-faint);font-size:12px;}
-  .hub-foot .note{margin-bottom:0;}
+  .home{max-width:1080px;margin:0 auto;padding:0 24px;}
+  .home-hero{padding:40px 0 16px;}
+  .home-hero h1{font-size:30px;margin:8px 0 6px;}
+  .home-hero .subtitle{font-size:14.5px;max-width:700px;}
+  .home-hero .stamp{margin-top:10px;}
+
+  .news-panel{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:18px 20px 10px;}
+  .np-head{display:flex;align-items:center;gap:10px;margin-bottom:4px;}
+  .np-head h2{font-size:16px;margin:0;font-weight:700;}
+  .np-live{display:inline-flex;align-items:center;gap:5px;font-size:10.5px;font-weight:700;color:var(--accent-strong);background:var(--accent-weak);padding:2px 9px;border-radius:20px;letter-spacing:.02em;}
+  .np-live::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--accent);animation:pulse 2s infinite;}
+  @keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+  .np-all{margin-left:auto;font-size:13px;font-weight:600;color:var(--accent);white-space:nowrap;}
+
+  .nh-feat{padding:8px 0 15px;border-bottom:1px solid var(--border);}
+  .nh-feat .d{font-size:12px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;}
+  .nh-feat .t{font-size:19px;font-weight:700;line-height:1.34;margin:5px 0 7px;}
+  .nh-feat .s{font-size:13.5px;color:var(--text-dim);line-height:1.55;margin-bottom:9px;}
+  .nh-row{display:flex;gap:13px;padding:11px 0;border-bottom:1px solid var(--border);}
+  .nh-row:last-child{border-bottom:none;}
+  .nh-row .d{flex:0 0 46px;font-size:12px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;padding-top:1px;}
+  .nh-main{flex:1;min-width:0;}
+  .nh-main .t{font-size:14.5px;font-weight:600;line-height:1.4;}
+  .t a{color:var(--text);text-decoration:none;}
+  .t a:hover{color:var(--accent-strong);text-decoration:underline;}
+  .nh-tags{display:flex;gap:5px;flex-wrap:wrap;margin-top:6px;}
+  .tg{font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:4px;background:var(--surface-2);color:var(--text-dim);border:1px solid var(--border);white-space:nowrap;}
+  .tg.key{background:var(--accent-weak);color:var(--accent-strong);border-color:var(--accent-weak-2);}
+
+  .sec-label{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--text-faint);margin:26px 0 11px;}
+  .tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:10px;padding-bottom:14px;}
+  .tile{display:block;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);box-shadow:var(--shadow);
+    padding:13px 15px;transition:border-color .12s,box-shadow .12s,transform .12s;}
+  .tile:hover{border-color:var(--accent);box-shadow:0 2px 9px rgba(37,99,235,.09);text-decoration:none;transform:translateY(-1px);}
+  .tile .kicker{font-size:10px;margin-bottom:5px;}
+  .tile .tt{font-size:14px;font-weight:700;color:var(--text);}
+  .tile .dd{font-size:11.5px;color:var(--text-faint);margin-top:3px;line-height:1.45;}
+
+  .home-foot{padding:14px 0 50px;}
+  @media(max-width:520px){ .home-hero h1{font-size:25px;} .nh-feat .t{font-size:17px;} }
 </style>
 </head>
 <body>
@@ -34,66 +59,71 @@
   <a href="SMR-asia-structure.html">사업 구조</a>
 </nav>
 
-<div class="hub-hero">
-  <div class="kicker">Small Modular Reactor · 업무 레퍼런스</div>
-  <h1>SMR 레퍼런스 허브</h1>
-  <p class="subtitle">개발사 현황 · 인허가 트랙 · 노형 분류 · 미국 규정(CFR) · 경제성을 한곳에서. 인허가·사업 데이터는 공개 출처 기준으로 정리.</p>
-  <div class="stamp">최종 업데이트 2026-06-09</div>
+<div class="home">
+  <div class="home-hero">
+    <div class="kicker">Small Modular Reactor · 업무 레퍼런스</div>
+    <h1>SMR 레퍼런스 허브</h1>
+    <p class="subtitle">개발사 · 인허가 트랙 · 노형 · 미국 규정(CFR) · 경제성을 한곳에서. 뉴스는 매일 자동 수집·분류됩니다.</p>
+    <div class="stamp" id="stamp"></div>
+  </div>
+
+  <div class="news-panel">
+    <div class="np-head">
+      <h2>최신 뉴스</h2>
+      <span class="np-live">자동 트래킹</span>
+      <a class="np-all" href="SMR-news.html">전체 보기 →</a>
+    </div>
+    <div class="nh-feat" id="feat"></div>
+    <div id="newsList"></div>
+  </div>
+
+  <div class="sec-label">바로가기</div>
+  <div class="tiles">
+    <a class="tile" href="SMR-developers.html"><div class="kicker">Developers</div><div class="tt">개발사 현황</div><div class="dd">13개사 노형·단계</div></a>
+    <a class="tile" href="SMR-licensing-tracks.html"><div class="kicker">Licensing</div><div class="tt">인허가 트랙</div><div class="dd">Part 50/52/53·GDA·CNSC</div></a>
+    <a class="tile" href="SMR-reactor-types.html"><div class="kicker">Reactor Types</div><div class="tt">노형 분류</div><div class="dd">경수로 vs 비경수로</div></a>
+    <a class="tile" href="SMR-dev-xenergy.html"><div class="kicker">Deep Dive</div><div class="tt">X-energy / Xe-100</div><div class="dd">사양·공급망·고객</div></a>
+    <a class="tile" href="SMR-reference.html"><div class="kicker">Regulation</div><div class="tt">CFR 레퍼런스</div><div class="dd">미국 원자력 규정</div></a>
+    <a class="tile" href="SMR-asia-structure.html"><div class="kicker">Project Structure</div><div class="tt">아시아 사업 구조</div><div class="dd">SPV·자금·운영 구조도</div></a>
+    <a class="tile" href="LCOE_Calculator.html"><div class="kicker">Economics</div><div class="tt">LCOE 계산기</div><div class="dd">발전원가 비교</div></a>
+  </div>
+
+  <div class="home-foot">
+    <div class="note warn"><span class="lead">주의</span> 인허가·사업 현황은 빠르게 변합니다 — 회의·보고 직전 각 규제기관·개발사 공시로 최신본 재확인 권장.</div>
+  </div>
 </div>
 
-<div class="hub-grid">
-  <a class="hub-card feat" href="SMR-news.html">
-    <div class="kicker">News</div>
-    <div class="t">SMR 뉴스</div>
-    <div class="d">인허가·계약·투자·기술·정책 분류 + 노형별 필터. 인허가·계약은 주요 표시. (자동 트래킹 예정)</div>
-    <div class="go">열기 →</div>
-  </a>
-  <a class="hub-card" href="SMR-developers.html">
-    <div class="kicker">Developers</div>
-    <div class="t">개발사 현황</div>
-    <div class="d">주요 SMR 개발사 13곳의 노형·출력·전략과 인허가 단계. 카드에서 인허가 상황 상세 확인.</div>
-    <div class="go">열기 →</div>
-  </a>
-  <a class="hub-card" href="SMR-licensing-tracks.html">
-    <div class="kicker">Licensing</div>
-    <div class="t">인허가 트랙별 분류</div>
-    <div class="d">NRC Part 50/52/53 · 영국 GDA · 캐나다 CNSC · 한국 표준설계인가. 트랙별 해당 업체.</div>
-    <div class="go">열기 →</div>
-  </a>
-  <a class="hub-card" href="SMR-reactor-types.html">
-    <div class="kicker">Reactor Types</div>
-    <div class="t">노형 분류</div>
-    <div class="d">경수로(PWR·BWR)와 비경수로(SFR·HTGR·FHR·MSR)의 제원·규제 함의·대표 개발사.</div>
-    <div class="go">열기 →</div>
-  </a>
-  <a class="hub-card" href="SMR-reference.html">
-    <div class="kicker">Regulation</div>
-    <div class="t">CFR 규정 레퍼런스</div>
-    <div class="d">원자력 업무용 미국 CFR(10/15/22) — 인허가·수출통제·EPC 품질. 검색·필터 지원.</div>
-    <div class="go">열기 →</div>
-  </a>
-  <a class="hub-card feat" href="SMR-dev-xenergy.html">
-    <div class="kicker">Deep Dive</div>
-    <div class="t">X-energy / Xe-100 상세</div>
-    <div class="d">기술 사양 · 부품 공급망(도해) · Off-taker · MOU · 누적 뉴스. 개발사 상세 1호.</div>
-    <div class="go">열기 →</div>
-  </a>
-  <a class="hub-card" href="SMR-asia-structure.html">
-    <div class="kicker">Project Structure</div>
-    <div class="t">아시아 SMR 사업 구조</div>
-    <div class="d">아시아 주요국(인니·필리핀·베트남·말련·싱가포르)별 SMR 사업 구조도. 인도네시아: SPV 중심 자금조달·운영·NEPIO 연결. 한/영 전환·박스 토글 지원.</div>
-    <div class="go">열기 →</div>
-  </a>
-  <a class="hub-card" href="LCOE_Calculator.html">
-    <div class="kicker">Economics</div>
-    <div class="t">LCOE 계산기</div>
-    <div class="d">SMR / 석탄 / 가스 / 원자력 균등화발전원가(LCOE) 비교 계산.</div>
-    <div class="go">열기 →</div>
-  </a>
-</div>
+<script src="news-data.js"></script>
+<script>
+  var NEWS = (window.SMR_NEWS || []).slice();
+  function dkey(d){ var p=String(d).split('-'); return (p[0]||'0000')+(p[1]||'12')+(p[2]||'28'); }
+  NEWS.sort(function(a,b){ return dkey(b.date).localeCompare(dkey(a.date)); });
 
-<div class="hub-foot">
-  <div class="note warn"><span class="lead">주의</span> 인허가·사업 현황은 빠르게 변합니다 — 회의·보고 직전 각 규제기관·개발사 공시로 최신본 재확인 권장.</div>
-</div>
+  var KEY = {'인허가':1,'계약':1};
+  function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  function tlink(n){ var t=esc(n.title); return n.url ? '<a href="'+esc(n.url)+'" target="_blank" rel="noopener">'+t+'</a>' : t; }
+  function tags(n){
+    var h='<span class="tg'+(KEY[n.cat]?' key':'')+'">'+esc(n.cat)+'</span>';
+    if(n.type && n.type!=='General') h+='<span class="tg">'+esc(n.type)+'</span>';
+    if(n.dev) h+='<span class="tg">'+esc(n.dev)+'</span>';
+    return h;
+  }
+
+  var f = NEWS[0];
+  if(f){
+    document.getElementById('feat').innerHTML =
+      '<div class="d">'+esc(f.date)+'</div>'+
+      '<div class="t">'+tlink(f)+'</div>'+
+      (f.summary ? '<div class="s">'+esc(f.summary)+'</div>' : '')+
+      '<div class="nh-tags">'+tags(f)+'</div>';
+  }
+  document.getElementById('newsList').innerHTML = NEWS.slice(1,6).map(function(n){
+    return '<div class="nh-row"><div class="d">'+esc(String(n.date).slice(5)||n.date)+'</div>'+
+      '<div class="nh-main"><div class="t">'+tlink(n)+'</div><div class="nh-tags">'+tags(n)+'</div></div></div>';
+  }).join('');
+
+  var upd = window.SMR_UPDATED || ((NEWS[0]?NEWS[0].date:'')+' 기준');
+  document.getElementById('stamp').textContent = '뉴스 '+NEWS.length+'건 · 마지막 업데이트 '+upd;
+</script>
 </body>
 </html>
