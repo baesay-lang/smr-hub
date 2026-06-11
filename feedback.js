@@ -7,7 +7,7 @@
 (function () {
   var ENDPOINT = 'https://formspree.io/f/xeewllzn';   // Formspree form id
   var SHOW_NOTICE = true;   // ← 상단 'TESTING' 배너 표시 (정식 오픈 시 false 로 변경)
-  var MIRROR = '';          // ← Google Apps Script /exec URL (의견을 시트에 미러 → Claude가 읽음)
+  var MIRROR = 'https://script.google.com/macros/s/AKfycbwqMapueEaXuV6aG3aRtTXoJAlvYXcJzcK72sv8d-NpjZ3dKwdaZA_TA4GjTGSjEH39/exec';  // Apps Script 시트 미러
 
   var C = { acc:'#2563eb', accD:'#1d4ed8', accW:'#eef3ff', accW2:'#d7e3fe',
             sf:'#ffffff', sf2:'#f1f3f7', bd:'#e5e8ee', bdS:'#d2d7e0',
