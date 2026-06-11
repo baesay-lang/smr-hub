@@ -12,12 +12,12 @@ import fs from 'node:fs';
 
 /* ---- config: edit these freely ---- */
 const SOURCES = [
-  // If a feed URL 404s it is skipped (logged). Adjust/extend anytime.
+  // Verified working (2026-06). A feed that 404s is skipped + logged.
   'https://www.world-nuclear-news.org/rss',
-  'https://www.ans.org/news/rss/',
-  'https://www.neimagazine.com/feeds/news/',
   'https://www.powermag.com/feed/',
-  'https://www.nucnet.org/rss',
+  // Google News RSS — broad + fresh aggregator (English + Korean queries)
+  'https://news.google.com/rss/search?q=%22small%20modular%20reactor%22&hl=en-US&gl=US&ceid=US:en',
+  'https://news.google.com/rss/search?q=SMR%20%EC%9B%90%EC%9E%90%EB%A0%A5&hl=ko&gl=KR&ceid=KR:ko',
 ];
 const KEYWORDS = [
   'smr','small modular','advanced reactor','microreactor','micro-reactor','gen iv','generation iv',
@@ -69,7 +69,8 @@ async function fetchCandidates(seen){
         if (it.isoDate) date = it.isoDate.slice(0,10);
         else if (it.pubDate) { const d = new Date(it.pubDate); if (!isNaN(d)) date = d.toISOString().slice(0,10); }
         dedupe.add(link);
-        out.push({ title, snip, link, date, source: (feed.title || host(url)) });
+        const itemSrc = (typeof it.source === 'string' ? it.source : (it.source && it.source._)) || '';  // Google News: real publisher
+        out.push({ title, snip, link, date, source: itemSrc || feed.title || host(url) });
       }
       console.log(`feed ok: ${url} (+${out.length} cumulative candidates)`);
     } catch (e) { console.error(`feed fail: ${url} — ${e.message}`); }
