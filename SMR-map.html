@@ -58,11 +58,13 @@
   .trkchip.p50{background:var(--accent-weak);color:var(--accent-strong);}
   .stgchip{font-size:11px;font-weight:700;padding:2px 8px;border-radius:4px;white-space:nowrap;color:#fff;}
 
-  /* SVG map styles */
-  .land{fill:#eceff5;stroke:#d2d7e0;stroke-width:1.2;}
-  .lake{fill:#f7f8fa;stroke:#d2d7e0;stroke-width:1;}
-  .borderline{stroke:#9aa7b4;stroke-width:1.2;stroke-dasharray:6 4;fill:none;}
-  .geo-label{font-family:Pretendard,system-ui,sans-serif;font-weight:600;fill:#b6bdc9;letter-spacing:.22em;}
+  /* SVG map styles — 실제 주 경계(등장방형 투영) */
+  .ocean{fill:#e7edf6;}
+  .ca-land{fill:#edf1f7;stroke:#d4dae4;stroke-width:.8;stroke-linejoin:round;}
+  .state{fill:#f5f7fb;stroke:#c3ccda;stroke-width:.7;stroke-linejoin:round;}
+  .state-label{font-family:Pretendard,system-ui,sans-serif;font-weight:700;fill:#aab2c1;letter-spacing:.03em;pointer-events:none;}
+  .borderline{stroke:#9aa7b4;stroke-width:1.1;stroke-dasharray:5 4;fill:none;opacity:.65;}
+  .geo-label{font-family:Pretendard,system-ui,sans-serif;font-weight:700;fill:#9aa3b3;letter-spacing:.22em;pointer-events:none;}
   .mk{cursor:pointer;}
   .mk circle.c{stroke:#fff;stroke-width:2;transition:r .1s;}
   .mk:hover circle.c{stroke:var(--accent-strong);}
@@ -103,27 +105,14 @@
 
 <div class="maplay">
   <div class="mapwrap">
-    <!-- 스타일화된 북미(미국 + 캐나다 남부) — 정밀 지도가 아닌 위치 안내용 라인아트.
-         투영: x=(lon+128)*1000/66, y=(52-lat)*20, viewBox 0 0 1000 560 -->
+    <!-- 실제 미국 주 경계 + 캐나다 외곽선. 등장방형 투영 x=(lon+128)*1000/66, y=(52-lat)*20, viewBox 0 0 1000 560.
+         지오메트리는 us-geo.js 에서 렌더(출처: PublicaMundi US states GeoJSON, Natural Earth 110m). -->
     <svg id="map" viewBox="0 0 1000 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="북미 SMR 프로젝트 지도">
-      <!-- land -->
-      <path class="land" d="M0,38 L30,34 C44,46 50,58 53,72 C42,150 58,225 85,284 C100,332 124,350 145,360 L165,390
-        C210,402 280,409 326,404 L380,448 L467,522 C480,500 488,478 500,462 C525,448 552,445 576,442
-        C600,447 640,452 672,462 L695,470 L722,528 C728,540 716,544 710,533 L688,482
-        C700,452 704,440 705,434 L712,400 L795,336 C786,310 778,280 773,262 L818,226 L864,194 L924,144
-        L965,138 L1000,128 L1000,0 L0,0 Z"/>
-      <!-- great lakes (stylized) -->
-      <path class="lake" d="M560,78 C585,70 625,72 648,84 C660,92 656,102 640,104 C610,108 575,100 560,92 C552,88 552,82 560,78 Z"/>
-      <path class="lake" d="M612,128 C622,116 638,118 640,134 C642,156 638,182 630,198 C622,208 612,206 610,194 C606,172 606,146 612,128 Z"/>
-      <path class="lake" d="M662,118 C676,112 690,118 692,132 C694,148 690,162 682,170 C672,176 664,170 662,158 C660,144 658,128 662,118 Z"/>
-      <path class="lake" d="M688,186 C706,178 730,180 740,190 C746,198 740,206 726,206 C708,206 692,200 686,194 C684,190 684,188 688,186 Z"/>
-      <path class="lake" d="M736,160 C752,154 772,156 778,164 C782,172 774,178 760,178 C746,178 734,172 732,166 C732,163 733,161 736,160 Z"/>
-      <!-- US-Canada border (dashed) -->
-      <path class="borderline" d="M30,60 H500 L560,86"/>
-      <path class="borderline" d="M648,96 L662,118 M682,170 L688,186 M740,193 L752,176 M778,166 L800,140 L861,108 L905,80"/>
-      <!-- geo labels -->
-      <text class="geo-label" x="330" y="34" font-size="13">CANADA</text>
-      <text class="geo-label" x="380" y="330" font-size="13">UNITED STATES</text>
+      <rect class="ocean" x="0" y="0" width="1000" height="560"/>
+      <path id="canada" class="ca-land" d=""/>
+      <g id="states"></g>
+      <g id="statelabels"></g>
+      <text class="geo-label" x="300" y="40" font-size="13">CANADA</text>
       <g id="markers"></g>
     </svg>
   </div>
@@ -152,11 +141,39 @@
     <tbody id="tbody"></tbody>
   </table>
   <p style="font-size:12px;color:var(--text-faint);margin-top:10px;">
-    부지 미확정 개발사(NuScale 미국 신규부지, Westinghouse AP300, 한국 i-SMR/SMART 등)는 마커 없이 제외 — <a href="SMR-developers.html">개발사 현황</a> 참고. 지도는 위치 안내용 스타일화 도형으로 정밀 축척이 아님. 현황은 <a href="SMR-licensing-tracks.html">인허가 트랙</a> 기준(2026.6).
+    부지 미확정 개발사(NuScale 미국 신규부지, Westinghouse AP300, 한국 i-SMR/SMART 등)는 마커 없이 제외 — <a href="SMR-developers.html">개발사 현황</a> 참고. 지도는 실제 주 경계를 등장방형(equirectangular) 투영으로 표시 — 동서로 약간 늘어나 보일 수 있음(정밀 축척 아님). 현황은 <a href="SMR-licensing-tracks.html">인허가 트랙</a> 기준(2026.6).
   </p>
 </div>
 
+<script src="us-geo.js"></script>
 <script>
+var SVGNS='http://www.w3.org/2000/svg';
+
+// ---- 실제 지도 지오메트리 렌더 ----
+(function renderBasemap(){
+  if(typeof CA_OUTLINE!=='undefined'){
+    document.getElementById('canada').setAttribute('d',CA_OUTLINE);
+  }
+  if(typeof US_STATES==='undefined')return;
+  var gS=document.getElementById('states'), gL=document.getElementById('statelabels');
+  var LABEL_MIN=2900;   // 이 면적 이상인 주만 약어 표시(작은 북동부 주는 생략)
+  US_STATES.forEach(function(s){
+    var p=document.createElementNS(SVGNS,'path');
+    p.setAttribute('class','state'); p.setAttribute('d',s.d);
+    var ti=document.createElementNS(SVGNS,'title'); ti.textContent=s.name;
+    p.appendChild(ti); gS.appendChild(p);
+    if(s.area>=LABEL_MIN){
+      var t=document.createElementNS(SVGNS,'text');
+      t.setAttribute('class','state-label');
+      t.setAttribute('x',s.cx); t.setAttribute('y',s.cy+3);
+      t.setAttribute('text-anchor','middle');
+      t.setAttribute('font-size', s.area>9000?'13':'11');
+      t.textContent=s.abbr;
+      gL.appendChild(t);
+    }
+  });
+})();
+
 // 데이터: 본 사이트 개발사/인허가 트랙 페이지(2026.6 기준, 공개 출처 검증)와 동일
 var STAGE_COLORS={1:'#c3d4f5',2:'#9bbcf2',3:'#6f9eee',4:'#4a82ea',5:'#2f6be0',6:'#1d4ed8'};
 var STAGE_LABELS={1:'사전협의·설계',2:'설계심사·인증',3:'건설허가 심사',4:'건설허가 발급',5:'건설 중',6:'가동'};
