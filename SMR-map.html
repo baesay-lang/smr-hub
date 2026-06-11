@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>북미 SMR 프로젝트 맵 · SMR 레퍼런스</title>
+<link rel="stylesheet" href="styles.css">
+<style>
+  /* filter bar */
+  .mapbar{max-width:1080px;margin:6px auto 0;padding:0 24px;display:flex;gap:8px;flex-wrap:wrap;align-items:center;}
+  .mapbar .lbl{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--text-faint);margin-right:2px;}
+
+  /* layout: map + side panel */
+  .maplay{max-width:1080px;margin:14px auto 0;padding:0 24px;display:flex;gap:16px;align-items:stretch;}
+  .mapwrap{flex:1;min-width:0;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+    box-shadow:var(--shadow);padding:10px;}
+  .mapwrap svg{width:100%;height:auto;display:block;}
+  @media(max-width:900px){.maplay{flex-direction:column;}}
+
+  /* detail panel */
+  .panel{width:300px;flex-shrink:0;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);
+    box-shadow:var(--shadow);padding:16px 18px;display:flex;flex-direction:column;}
+  @media(max-width:900px){.panel{width:auto;}}
+  .panel .ph{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--text-faint);margin-bottom:10px;}
+  .panel .empty-msg{color:var(--text-faint);font-size:13px;line-height:1.6;margin:auto 0;text-align:center;padding:30px 0;}
+  .panel .pj-dev{font-size:12px;color:var(--text-dim);}
+  .panel .pj-name{font-size:16.5px;font-weight:700;color:var(--text);margin:2px 0 2px;line-height:1.35;}
+  .panel .pj-loc{font-size:12.5px;color:var(--text-dim);margin-bottom:10px;}
+  .panel .pj-stage{display:flex;gap:5px;align-items:center;margin:4px 0 10px;}
+  .panel .pj-stage .dot{width:11px;height:11px;border-radius:50%;background:var(--border-strong);}
+  .panel .pj-stage .stage-label{margin-left:auto;font-size:11.5px;font-weight:700;padding:3px 9px;border-radius:5px;background:var(--accent-weak);color:var(--accent-strong);}
+  .panel .pj-sum{font-size:13px;color:var(--text-dim);line-height:1.6;margin-bottom:14px;}
+  .panel .pj-sum b{color:var(--text);}
+  .panel .pj-links{display:flex;flex-direction:column;gap:7px;margin-top:auto;}
+  .panel .pj-links a{display:block;font-size:12.5px;font-weight:600;padding:8px 12px;border:1px solid var(--border-strong);
+    border-radius:var(--radius-sm);color:var(--accent-strong);background:var(--surface);}
+  .panel .pj-links a:hover{background:var(--accent-weak);border-color:var(--accent);text-decoration:none;}
+
+  /* stage legend */
+  .stageleg{max-width:1080px;margin:10px auto 0;padding:0 24px;display:flex;gap:14px;flex-wrap:wrap;align-items:center;
+    font-size:12px;color:var(--text-dim);}
+  .stageleg .t{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--text-faint);}
+  .stageleg .s{display:inline-flex;align-items:center;gap:5px;}
+  .stageleg .d{width:10px;height:10px;border-radius:50%;}
+
+  /* table */
+  .tblwrap{max-width:1080px;margin:22px auto 60px;padding:0 24px;}
+  .tblwrap h2{font-size:15px;margin:0 0 8px;letter-spacing:.04em;text-transform:uppercase;color:var(--text-dim);}
+  table.pj{width:100%;border-collapse:collapse;font-size:13px;}
+  table.pj th,table.pj td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--border);vertical-align:top;}
+  table.pj th{color:var(--text-dim);font-weight:600;font-size:11.5px;text-transform:uppercase;letter-spacing:.05em;background:var(--surface-2);white-space:nowrap;}
+  table.pj tbody tr{cursor:pointer;}
+  table.pj tbody tr:hover{background:var(--surface-2);}
+  table.pj tbody tr.sel{background:var(--accent-weak);}
+  table.pj .pn{font-weight:700;color:var(--text);}
+  table.pj .pd{font-size:12px;color:var(--text-dim);}
+  .trkchip{font-size:11px;font-weight:700;padding:2px 8px;border-radius:4px;white-space:nowrap;background:var(--surface-3);color:var(--text-dim);}
+  .trkchip.p50{background:var(--accent-weak);color:var(--accent-strong);}
+  .stgchip{font-size:11px;font-weight:700;padding:2px 8px;border-radius:4px;white-space:nowrap;color:#fff;}
+
+  /* SVG map styles */
+  .land{fill:#eceff5;stroke:#d2d7e0;stroke-width:1.2;}
+  .lake{fill:#f7f8fa;stroke:#d2d7e0;stroke-width:1;}
+  .borderline{stroke:#9aa7b4;stroke-width:1.2;stroke-dasharray:6 4;fill:none;}
+  .geo-label{font-family:Pretendard,system-ui,sans-serif;font-weight:600;fill:#b6bdc9;letter-spacing:.22em;}
+  .mk{cursor:pointer;}
+  .mk circle.c{stroke:#fff;stroke-width:2;transition:r .1s;}
+  .mk:hover circle.c{stroke:var(--accent-strong);}
+  .mk.sel circle.c{stroke:#1d4ed8;stroke-width:2.5;}
+  .mk text{font-family:Pretendard,system-ui,sans-serif;font-weight:600;fill:#3a4453;pointer-events:none;}
+  .mk.dim{opacity:.18;pointer-events:none;}
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a class="brand" href="index.html">SMR Reference</a>
+  <a href="SMR-news.html">뉴스</a>
+  <a href="SMR-developers.html">개발사</a>
+  <a href="SMR-licensing-tracks.html">인허가 트랙</a>
+  <a href="SMR-reactor-types.html">노형 분류</a>
+  <a href="SMR-reference.html">CFR 레퍼런스</a>
+  <a href="SMR-asia-structure.html">사업 구조</a>
+  <a href="SMR-map.html" class="active">프로젝트 맵</a>
+</nav>
+
+<header class="page">
+  <div class="kicker">Project Map · North America</div>
+  <h1>북미 SMR 프로젝트 맵</h1>
+  <p class="subtitle">주요 SMR 개발사의 <b>확정 부지 프로젝트</b>를 지도에서 한눈에. 마커 색 = <b>인허가 단계</b>(개발사 페이지와 동일한 6단계 스케일). 마커를 클릭하면 요약과 함께 <a href="SMR-licensing-tracks.html">인허가 트랙</a>·<a href="SMR-developers.html">개발사 카드</a>로 바로 연결됩니다. (2026.6 기준)</p>
+</header>
+
+<div class="mapbar">
+  <span class="lbl">트랙</span>
+  <div class="filters" id="trackFilters">
+    <span class="chip active" data-trk="all">전체</span>
+    <span class="chip" data-trk="p50">NRC Part 50</span>
+    <span class="chip" data-trk="p52">NRC Part 52</span>
+    <span class="chip" data-trk="cnsc">캐나다 CNSC</span>
+    <span class="chip" data-trk="pre">계획·사전협의</span>
+  </div>
+  <span class="result-count" id="count"></span>
+</div>
+
+<div class="maplay">
+  <div class="mapwrap">
+    <!-- 스타일화된 북미(미국 + 캐나다 남부) — 정밀 지도가 아닌 위치 안내용 라인아트.
+         투영: x=(lon+128)*1000/66, y=(52-lat)*20, viewBox 0 0 1000 560 -->
+    <svg id="map" viewBox="0 0 1000 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="북미 SMR 프로젝트 지도">
+      <!-- land -->
+      <path class="land" d="M0,38 L30,34 C44,46 50,58 53,72 C42,150 58,225 85,284 C100,332 124,350 145,360 L165,390
+        C210,402 280,409 326,404 L380,448 L467,522 C480,500 488,478 500,462 C525,448 552,445 576,442
+        C600,447 640,452 672,462 L695,470 L722,528 C728,540 716,544 710,533 L688,482
+        C700,452 704,440 705,434 L712,400 L795,336 C786,310 778,280 773,262 L818,226 L864,194 L924,144
+        L965,138 L1000,128 L1000,0 L0,0 Z"/>
+      <!-- great lakes (stylized) -->
+      <path class="lake" d="M560,78 C585,70 625,72 648,84 C660,92 656,102 640,104 C610,108 575,100 560,92 C552,88 552,82 560,78 Z"/>
+      <path class="lake" d="M612,128 C622,116 638,118 640,134 C642,156 638,182 630,198 C622,208 612,206 610,194 C606,172 606,146 612,128 Z"/>
+      <path class="lake" d="M662,118 C676,112 690,118 692,132 C694,148 690,162 682,170 C672,176 664,170 662,158 C660,144 658,128 662,118 Z"/>
+      <path class="lake" d="M688,186 C706,178 730,180 740,190 C746,198 740,206 726,206 C708,206 692,200 686,194 C684,190 684,188 688,186 Z"/>
+      <path class="lake" d="M736,160 C752,154 772,156 778,164 C782,172 774,178 760,178 C746,178 734,172 732,166 C732,163 733,161 736,160 Z"/>
+      <!-- US-Canada border (dashed) -->
+      <path class="borderline" d="M30,60 H500 L560,86"/>
+      <path class="borderline" d="M648,96 L662,118 M682,170 L688,186 M740,193 L752,176 M778,166 L800,140 L861,108 L905,80"/>
+      <!-- geo labels -->
+      <text class="geo-label" x="330" y="34" font-size="13">CANADA</text>
+      <text class="geo-label" x="380" y="330" font-size="13">UNITED STATES</text>
+      <g id="markers"></g>
+    </svg>
+  </div>
+
+  <aside class="panel" id="panel">
+    <div class="ph">프로젝트 요약</div>
+    <div class="empty-msg" id="panelEmpty">지도의 마커 또는 아래 표의 행을<br>클릭하면 요약이 표시됩니다.</div>
+    <div id="panelBody" class="hidden"></div>
+  </aside>
+</div>
+
+<div class="stageleg">
+  <span class="t">인허가 단계</span>
+  <span class="s"><span class="d" style="background:#c3d4f5"></span>1 사전협의·설계</span>
+  <span class="s"><span class="d" style="background:#9bbcf2"></span>2 설계심사·인증</span>
+  <span class="s"><span class="d" style="background:#6f9eee"></span>3 건설허가 심사</span>
+  <span class="s"><span class="d" style="background:#4a82ea"></span>4 건설허가 발급</span>
+  <span class="s"><span class="d" style="background:#2f6be0"></span>5 건설 중</span>
+  <span class="s"><span class="d" style="background:#1d4ed8"></span>6 가동</span>
+</div>
+
+<div class="tblwrap">
+  <h2>프로젝트 목록</h2>
+  <table class="pj">
+    <thead><tr><th>프로젝트 · 개발사</th><th>위치</th><th>인허가 트랙</th><th>단계</th></tr></thead>
+    <tbody id="tbody"></tbody>
+  </table>
+  <p style="font-size:12px;color:var(--text-faint);margin-top:10px;">
+    부지 미확정 개발사(NuScale 미국 신규부지, Westinghouse AP300, 한국 i-SMR/SMART 등)는 마커 없이 제외 — <a href="SMR-developers.html">개발사 현황</a> 참고. 지도는 위치 안내용 스타일화 도형으로 정밀 축척이 아님. 현황은 <a href="SMR-licensing-tracks.html">인허가 트랙</a> 기준(2026.6).
+  </p>
+</div>
+
+<script>
+// 데이터: 본 사이트 개발사/인허가 트랙 페이지(2026.6 기준, 공개 출처 검증)와 동일
+var STAGE_COLORS={1:'#c3d4f5',2:'#9bbcf2',3:'#6f9eee',4:'#4a82ea',5:'#2f6be0',6:'#1d4ed8'};
+var STAGE_LABELS={1:'사전협의·설계',2:'설계심사·인증',3:'건설허가 심사',4:'건설허가 발급',5:'건설 중',6:'가동'};
+var TRACKS={
+  p50:{label:'NRC Part 50',href:'SMR-licensing-tracks.html#part50',cls:'p50'},
+  p52:{label:'NRC Part 52',href:'SMR-licensing-tracks.html#part52',cls:''},
+  cnsc:{label:'캐나다 CNSC',href:'SMR-licensing-tracks.html#cnsc',cls:''},
+  pre:{label:'계획·사전협의',href:'SMR-licensing-tracks.html',cls:''}
+};
+var PROJECTS=[
+  {id:'darlington',dev:'GE Hitachi',devId:'gehitachi',name:'BWRX-300 — Darlington (OPG)',loc:'온타리오, 캐나다',trk:'cnsc',stage:5,x:752,y:156,lx:8,ly:-8,
+   sum:'<b>북미 최초 상용 SMR 건설.</b> OPG Darlington 신규원전 부지에 BWRX-300 1호기 핵 콘크리트 타설·건설 중. CNSC 건설허가 보유.'},
+  {id:'clinch',dev:'GE Hitachi',devId:'gehitachi',name:'BWRX-300 — TVA Clinch River',loc:'오크리지, 테네시',trk:'p50',stage:3,x:655,y:316,lx:-6,ly:-10,
+   sum:'TVA가 Clinch River 부지에 BWRX-300 건설허가(CP) 신청 — NRC 심사 중(~2026.12 목표). 미국 내 첫 BWRX-300.'},
+  {id:'natrium',dev:'TerraPower',devId:'terrapower',name:'Natrium — Kemmerer',loc:'케머러, 와이오밍',trk:'p50',stage:4,x:264,y:204,lx:10,ly:4,
+   sum:'소듐냉각 고속로(SFR)+용융염 저장(345MWe). 석탄화력 부지 전환. <b>건설허가 발급(2026.3)</b> — 비핵 시설은 선행 건설 진행.'},
+  {id:'hermes',dev:'Kairos Power',devId:'kairos',name:'Hermes 실증로 — Oak Ridge',loc:'오크리지, 테네시',trk:'p50',stage:5,x:668,y:336,lx:10,ly:12,
+   sum:'불소염 냉각 고온로(FHR) 실증로. CP 발급 후 <b>건설 중</b> — 단계적 실증(Hermes→Hermes 2) 전략. 구글과 전력공급 계약.'},
+  {id:'longmott',dev:'X-energy',devId:'xenergy',name:'Xe-100 — Long Mott (Dow)',loc:'시드리프트, 텍사스',trk:'p50',stage:3,x:474,y:472,lx:10,ly:4,
+   sum:'Dow 화학공장(UCC Seadrift)에 Xe-100 4기 — <b>산업 공정열+전력</b> 동시 공급. CP 심사 중(18개월 일정). 첫 산업용 HTGR.'},
+  {id:'palisades',dev:'Holtec',devId:'holtec',name:'SMR-300 — Palisades',loc:'코버트, 미시간',trk:'p50',stage:3,x:626,y:200,lx:-6,ly:-10,
+   sum:'재가동한 Palisades 원전 부지 인접에 SMR-300 2기 추진. CP 접수(2026.2) — 기존 원전 부지 활용 전략.'},
+  {id:'aurora',dev:'Oklo',devId:'oklo',name:'Aurora — INL',loc:'아이다호 국립연구소',trk:'p52',stage:2,x:229,y:170,lx:10,ly:-6,
+   sum:'소듐냉각 고속로(75MWe, EBR-II 계열). 2022년 COLA 기각 후 <b>단계형 재신청</b> 진행 — Part 52 경로.'},
+  {id:'richland',dev:'X-energy',devId:'xenergy',name:'Xe-100 — Energy Northwest',loc:'리치랜드, 워싱턴',trk:'pre',stage:1,x:132,y:114,lx:10,ly:-6,
+   sum:'Amazon 투자 기반 — Energy Northwest 부지에 Xe-100 최대 12기 계획. NRC 신청 전 <b>사전협의·부지작업 단계</b>.'}
+];
+
+var sel=null, trkF='all';
+var markersG=document.getElementById('markers');
+var tbody=document.getElementById('tbody');
+var SVGNS='http://www.w3.org/2000/svg';
+
+PROJECTS.forEach(function(p){
+  // marker
+  var g=document.createElementNS(SVGNS,'g');
+  g.setAttribute('class','mk'); g.setAttribute('data-id',p.id); g.setAttribute('data-trk',p.trk);
+  var c=document.createElementNS(SVGNS,'circle');
+  c.setAttribute('class','c'); c.setAttribute('cx',p.x); c.setAttribute('cy',p.y); c.setAttribute('r',9);
+  c.setAttribute('fill',STAGE_COLORS[p.stage]);
+  var t=document.createElementNS(SVGNS,'text');
+  t.setAttribute('font-size','11');
+  t.setAttribute('x',p.x+(p.lx>=0?p.lx+6:p.lx-6)); t.setAttribute('y',p.y+p.ly);
+  t.setAttribute('text-anchor',p.lx>=0?'start':'end');
+  t.textContent=p.dev;
+  var tip=document.createElementNS(SVGNS,'title');
+  tip.textContent=p.name+' · '+STAGE_LABELS[p.stage];
+  g.appendChild(tip); g.appendChild(c); g.appendChild(t);
+  g.addEventListener('click',function(){select(p.id);});
+  markersG.appendChild(g);
+
+  // table row
+  var tr=document.createElement('tr');
+  tr.setAttribute('data-id',p.id); tr.setAttribute('data-trk',p.trk);
+  tr.innerHTML='<td><span class="pn">'+p.name+'</span><div class="pd">'+p.dev+'</div></td>'+
+    '<td>'+p.loc+'</td>'+
+    '<td><a class="trkchip '+TRACKS[p.trk].cls+'" href="'+TRACKS[p.trk].href+'">'+TRACKS[p.trk].label+'</a></td>'+
+    '<td><span class="stgchip" style="background:'+STAGE_COLORS[p.stage]+(p.stage<3?';color:#3a4453':'')+'">'+p.stage+' · '+STAGE_LABELS[p.stage]+'</span></td>';
+  tr.addEventListener('click',function(e){ if(e.target.closest('a'))return; select(p.id);});
+  tbody.appendChild(tr);
+});
+
+function select(id){
+  sel = (sel===id)? id : id;
+  var p=PROJECTS.find(function(x){return x.id===id;});
+  document.querySelectorAll('.mk').forEach(function(m){m.classList.toggle('sel',m.getAttribute('data-id')===id);});
+  document.querySelectorAll('#tbody tr').forEach(function(r){r.classList.toggle('sel',r.getAttribute('data-id')===id);});
+  var body=document.getElementById('panelBody');
+  document.getElementById('panelEmpty').classList.add('hidden');
+  body.classList.remove('hidden');
+  var dots='';
+  for(var i=1;i<=6;i++){dots+='<span class="dot" style="'+(i<=p.stage?'background:'+STAGE_COLORS[i]:'')+(i===p.stage?';box-shadow:0 0 0 3px var(--accent-weak);transform:scale(1.15)':'')+'"></span>';}
+  var devLink = p.devId==='xenergy' ? 'SMR-dev-xenergy.html' : 'SMR-developers.html#'+p.devId;
+  body.innerHTML=
+    '<div class="pj-dev">'+p.dev+'</div>'+
+    '<div class="pj-name">'+p.name+'</div>'+
+    '<div class="pj-loc">'+p.loc+'</div>'+
+    '<div class="pj-stage">'+dots+'<span class="stage-label">'+p.stage+' · '+STAGE_LABELS[p.stage]+'</span></div>'+
+    '<div class="pj-sum">'+p.sum+'</div>'+
+    '<div class="pj-links">'+
+      '<a href="'+TRACKS[p.trk].href+'">인허가 트랙 — '+TRACKS[p.trk].label+' →</a>'+
+      '<a href="'+devLink+'">개발사 상세 — '+p.dev+' →</a>'+
+    '</div>';
+}
+
+function applyFilter(){
+  var vis=0;
+  document.querySelectorAll('.mk').forEach(function(m){
+    var on = trkF==='all'||m.getAttribute('data-trk')===trkF;
+    m.classList.toggle('dim',!on); if(on)vis++;
+  });
+  document.querySelectorAll('#tbody tr').forEach(function(r){
+    r.classList.toggle('hidden', !(trkF==='all'||r.getAttribute('data-trk')===trkF));
+  });
+  document.getElementById('count').textContent=vis+'개 프로젝트';
+}
+document.querySelectorAll('#trackFilters .chip').forEach(function(ch){
+  ch.addEventListener('click',function(){
+    document.querySelectorAll('#trackFilters .chip').forEach(function(x){x.classList.remove('active');});
+    ch.classList.add('active'); trkF=ch.getAttribute('data-trk'); applyFilter();
+  });
+});
+applyFilter();
+</script>
+
+</body>
+</html>
