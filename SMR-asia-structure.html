@@ -25,7 +25,8 @@
   .langbtn.active{background:var(--accent);color:#fff;}
 
   /* selected-country context line */
-  .country-note{max-width:1080px;margin:12px auto 0;padding:11px 16px 11px 14px;
+  .cn-wrap{max-width:1080px;margin:12px auto 0;padding:0 24px;}
+  .country-note{padding:11px 15px 11px 13px;
     background:var(--accent-weak);border:1px solid var(--accent-weak-2);border-left:3px solid var(--accent);
     border-radius:var(--radius-sm);font-size:13px;color:var(--text-dim);line-height:1.55;}
   .country-note b{color:var(--text);font-weight:600;}
@@ -102,7 +103,7 @@
 </div>
 
 <!-- selected-country context (driven by active tab) -->
-<div class="country-note" id="countryNote"></div>
+<div class="cn-wrap"><div class="country-note" id="countryNote"></div></div>
 
 <!-- box visibility controls -->
 <div class="boxpanel">
