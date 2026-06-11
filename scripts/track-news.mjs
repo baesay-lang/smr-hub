@@ -1,9 +1,11 @@
 /* ============================================================
-   SMR news auto-tracker
+   SMR news auto-tracker  (hybrid)
    - fetches RSS feeds, keeps SMR-relevant + new items
-   - classifies + Korean-summarizes via Claude API (Haiku)
+   - classify: rule-based by DEFAULT (free, no key) ;
+               Claude API (Haiku) automatically if ANTHROPIC_API_KEY is set
    - rewrites news-data.js  (PR is opened by the workflow)
-   Run: ANTHROPIC_API_KEY=... node scripts/track-news.mjs
+   Run: node scripts/track-news.mjs            (free)
+        ANTHROPIC_API_KEY=... node ...         (Claude)
    ============================================================ */
 import Parser from 'rss-parser';
 import fs from 'node:fs';
@@ -20,7 +22,7 @@ const SOURCES = [
 const KEYWORDS = [
   'smr','small modular','advanced reactor','microreactor','micro-reactor','gen iv','generation iv',
   'nuscale','x-energy','xe-100','terrapower','natrium','bwrx','kairos','oklo','holtec','smr-300',
-  'rolls-royce smr','smart','i-smr','seaborg','saltfoss','arc-100','evinci','ap300','westinghouse',
+  'rolls-royce smr','smart100','i-smr','seaborg','saltfoss','arc-100','evinci','ap300','westinghouse',
   'haleu','triso','part 53','molten salt','htgr','high-temperature gas','sodium-cooled','fast reactor',
   'vendor design review','construction permit','design certification','combined license',
 ];
@@ -75,6 +77,54 @@ async function fetchCandidates(seen){
   return out.slice(0, MAX_NEW);
 }
 
+/* ---- rule-based classifier (free, no API key) ---- */
+const CAT_RULES = [
+  ['인허가', ['construction permit','operating licence','operating license','combined license','combined licence','design certification','standard design','vendor design review',' vdr ',' gda',' sda','docket','license application','licence application','regulatory approval','nrc approves','nrc accepts','nrc issues','nrc dockets','표준설계','건설허가','운영허가']],
+  ['계약',   ['agreement','contract',' mou','memorandum','partnership','to supply','supply deal','offtake','off-take',' ppa','power purchase','signs','selected','preferred bidder','joint development','계약']],
+  ['투자',   ['investment','invests','funding','raises','financing','stake','series ','ipo','valuation','million','billion']],
+  ['정책',   ['executive order','government','policy','department of energy','doe announces','national strategy','loan guarantee','subsidy','programme','funding program']],
+];
+const TYPE_RULES = [
+  ['HTGR',  ['xe-100','x-energy','xenergy','high-temperature gas','htgr','pebble']],
+  ['BWR',   ['bwrx','boiling water',' bwr']],
+  ['SFR',   ['natrium','terrapower','sodium','arc-100','fast reactor','oklo','aurora']],
+  ['FHR',   ['kairos','kp-fhr','fluoride salt','flibe',' fhr']],
+  ['MSR',   ['seaborg','saltfoss','molten salt','cmsr',' msr']],
+  ['Micro', ['microreactor','micro-reactor','evinci']],
+  ['PWR',   ['nuscale','ap300','smart','i-smr','smr-300','holtec','rolls-royce','voygr','pressurized water','ipwr',' pwr']],
+];
+const DEV_RULES = [
+  ['두산에너빌리티',['doosan']],['X-energy',['x-energy','xenergy','xe-100']],['NuScale',['nuscale']],
+  ['TerraPower',['terrapower','natrium']],['GE-Hitachi',['ge hitachi','ge-hitachi','ge vernova','bwrx']],
+  ['Kairos Power',['kairos']],['Oklo',['oklo']],['Holtec',['holtec','smr-300']],
+  ['Rolls-Royce',['rolls-royce','rolls royce']],['Westinghouse',['westinghouse','ap300','evinci']],
+  ['KAERI/SMART',['kaeri','smart100']],['Seaborg',['seaborg','saltfoss']],['ARC',['arc-100','arc clean']],
+  ['Centrus',['centrus']],['KHNP',['khnp','korea hydro']],['TVA',['tva','tennessee valley']],
+  ['Amazon',['amazon']],['Centrica',['centrica']],['NRC',['nuclear regulatory','nrc ']],['DOE',['department of energy']],
+];
+const REGION_RULES = [
+  ['KR',['korea','korean','한국','khnp','kaeri','doosan','samsung','i-smr','smart100']],
+  ['UK',['united kingdom',' uk ','britain','british',' wales','wylfa','hartlepool','centrica','rolls-royce',' onr',' gda']],
+  ['CA',['canada','canadian','cnsc','ontario','opg','new brunswick','point lepreau','darlington']],
+  ['DK',['denmark','danish','seaborg','saltfoss']],
+  ['JP',['japan','japanese']],
+  ['US',['united states',' u.s','us nrc','nuclear regulatory','department of energy','tva','wyoming','texas','idaho','michigan','tennessee','washington','american','oak ridge']],
+];
+function firstMatch(hay, rules, def){ for (const [v, keys] of rules){ if (keys.some(k => hay.includes(k))) return v; } return def; }
+function ruleTag(it){
+  const hay = (it.title + ' ' + it.snip).toLowerCase();
+  const sm = it.snip.trim();
+  return {
+    relevant: true,
+    titleKo: it.title,                                  // free mode: keep original (English) title
+    summary: sm.length > 170 ? sm.slice(0,170).trim() + '…' : sm,
+    cat: firstMatch(hay, CAT_RULES, '기술'),
+    type: firstMatch(hay, TYPE_RULES, 'General'),
+    dev: firstMatch(hay, DEV_RULES, ''),
+    region: firstMatch(hay, REGION_RULES, ''),
+  };
+}
+
 async function classify(items){
   const input = items.map((it,i)=>({ i, title: it.title, snippet: it.snip, source: it.source }));
   const prompt =
@@ -109,7 +159,8 @@ ${JSON.stringify(input)}`;
 }
 
 async function main(){
-  if (!API_KEY) throw new Error('ANTHROPIC_API_KEY is not set');
+  const useClaude = !!API_KEY;
+  console.log('classify mode:', useClaude ? 'Claude API' : 'rule-based (free)');
   const existing = loadExisting();
   const seen = new Set(existing.map(n => (n.url||'').trim()).filter(Boolean));
   const seenTitles = new Set(existing.map(n => (n.title||'').trim()));
@@ -118,7 +169,7 @@ async function main(){
   console.log(`candidates after filter: ${candidates.length}`);
   if (candidates.length === 0) { console.log('no new relevant candidates — exiting'); return; }
 
-  const tagged = await classify(candidates);
+  const tagged = useClaude ? await classify(candidates) : candidates.map(ruleTag);
   const toAdd = [];
   tagged.forEach((c,i)=>{
     if (!c || c.relevant === false) return;
