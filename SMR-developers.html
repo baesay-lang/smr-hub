@@ -76,6 +76,13 @@
   .dev-news .dn-c.key{background:var(--accent-weak);color:var(--accent-strong);}
   .dev-news .dn-t{min-width:0;}
   .dev-news .dn-d{color:var(--text-faint);font-size:11px;font-variant-numeric:tabular-nums;margin-right:3px;}
+
+  /* stock chip (listed developers) */
+  .stock-chip{display:inline-flex;align-items:center;gap:4px;font-size:11px;font-weight:700;white-space:nowrap;
+    padding:2px 9px;border-radius:20px;background:var(--accent-weak);color:var(--accent-strong);
+    border:1px solid var(--accent-weak-2);text-decoration:none;margin-left:auto;flex:0 0 auto;}
+  .stock-chip:hover{background:var(--accent);color:#fff;border-color:var(--accent);text-decoration:none;}
+  .stock-chip .sx{font-size:9.5px;font-weight:700;opacity:.8;}
 </style>
 </head>
 <body>
@@ -534,6 +541,33 @@
         el.addEventListener('click', function(){ if(window.openNewsModal) window.openNewsModal(matches[i]); });
       });
     });
+  })();
+
+  /* listed pure-play SMR developers: stock-quote chip + float to the top of the grid */
+  (function(){
+    var STOCK = {
+      xenergy: { t:'XE',   g:'XE:NASDAQ', ex:'NASDAQ', name:'X-energy' },
+      nuscale: { t:'SMR',  g:'SMR:NYSE',  ex:'NYSE',   name:'NuScale Power' },
+      oklo:    { t:'OKLO', g:'OKLO:NYSE', ex:'NYSE',   name:'Oklo' }
+    };
+    Object.keys(STOCK).forEach(function(id){
+      var dev = document.getElementById(id); if(!dev) return;
+      var s = STOCK[id];
+      dev.setAttribute('data-listed','1');
+      var a = document.createElement('a');
+      a.className = 'stock-chip';
+      a.href = 'https://www.google.com/finance/quote/' + s.g;
+      a.target = '_blank'; a.rel = 'noopener';
+      a.title = s.name + ' 주가 · ' + s.ex + ':' + s.t + ' (Google Finance)';
+      a.innerHTML = '주가 ' + s.t + ' <span class="sx">↗</span>';
+      var row = dev.querySelector('.tracks-row');
+      if(row) row.appendChild(a); else { var foot = dev.querySelector('.dev-foot'); if(foot) foot.insertBefore(a, foot.firstChild); }
+    });
+    var grid = document.getElementById('grid');
+    if(grid){
+      // move listed cards to the front, preserving their relative order
+      Array.from(grid.querySelectorAll('.dev[data-listed]')).reverse().forEach(function(d){ grid.insertBefore(d, grid.firstChild); });
+    }
   })();
 </script>
 <script src="feedback.js" defer></script>
