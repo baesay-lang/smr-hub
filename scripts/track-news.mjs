@@ -205,7 +205,7 @@ function classifyPrompt(input){
  "relevant":SMR·첨단로·관련 개발사/연료/인허가/계약/정책이면 true, 일반 대형원전·무관 뉴스면 false,
  "titleKo":한국어 제목(간결, 핵심만),
  "summary":한국어 1~2문장 요약,
- "summaryLong":한국어 2~3문장 상세 요약(당사자·배경·수치·일정 등 핵심 사실 포함 — 홈 메인 피처드 카드용),
+ "summaryLong":한국어 4~5문장 상세 요약(무엇이 일어났는지 + 당사자·배경·핵심 수치·일정·의미/전망까지 풍부하게. 제공된 제목·스니펫을 근거로 작성하고, 없는 구체적 수치·날짜는 지어내지 말 것 — 클릭 시 모달 상세 보기용),
  "cat":${JSON.stringify(VALIDCAT)} 중 하나(건설허가·운영허가·설계인증·규제 신청/접수/도케팅·GDA·VDR·표준설계인가=인허가; 계약·MOU·부품 공급/수주·PPA·합작·파트너십=계약; 투자·펀딩·지분·IPO=투자; 정부 정책·규제 발효·국책 프로그램=정책; 그 외 기술·시운전·마일스톤=기술),
  "type":${JSON.stringify(VALIDTYPE)} 중 하나(마이크로/초소형로=Micro, 소듐냉각고속로=SFR, 고온가스로=HTGR, 용융염=MSR, 가압/비등경수로=PWR/BWR; 특정 노형 불명확하면 "General"),
  "dev":개발사/기관 짧은 이름 또는 "",
@@ -256,6 +256,46 @@ async function classify(items){
   return out;
 }
 
+function writeData(list){
+  list.sort((a,b)=> dkey(b.date).localeCompare(dkey(a.date)));
+  const updated = new Date(Date.now() + 9*3600*1000).toISOString().slice(0,16).replace('T',' ') + ' KST';
+  fs.writeFileSync(FILE, HEADER + JSON.stringify(list, null, 2) + ';\nwindow.SMR_UPDATED = ' + JSON.stringify(updated) + ';\n');
+}
+
+/* one-time backfill (env BACKFILL=true): re-summarize existing items whose summaryLong is missing/short,
+   so older items get the same fuller modal summary. Normal runs never call this (cost stays bounded). */
+async function backfillSummaries(items){
+  const targets = items.filter(n => !n.summaryLong || String(n.summaryLong).trim().length < 140);
+  console.log(`backfill: ${targets.length}/${items.length} item(s) need a fuller summary`);
+  const BATCH = 8; let updated = 0;
+  for (let s=0; s<targets.length; s+=BATCH){
+    const batch = targets.slice(s, s+BATCH);
+    const input = batch.map((n,j)=>({ i:j, title:n.title, summary:n.summary||'', cat:n.cat, dev:n.dev||'', region:n.region||'' }));
+    const prompt =
+`다음 SMR·원자력 뉴스 각 항목에 대해 한국어 상세 요약(summaryLong)을 4~5문장으로 풍부하게 작성하라.
+- 무엇이 일어났는지 + 당사자·배경·의미·전망을 자연스럽게 설명한다.
+- 제공된 제목·요약에 없는 '구체적 수치·날짜·고유명사'를 새로 지어내지 마라(일반적 배경 설명은 가능).
+각 항목마다 {"i":번호,"summaryLong":"..."} 형태로, 오직 JSON 배열만 출력하라. 설명 금지.
+입력:
+${JSON.stringify(input)}`;
+    let arr=[];
+    try {
+      const res = await fetch('https://api.anthropic.com/v1/messages', {
+        method:'POST',
+        headers:{ 'x-api-key': API_KEY, 'anthropic-version':'2023-06-01', 'content-type':'application/json' },
+        body: JSON.stringify({ model: MODEL, max_tokens: 8000, messages:[{ role:'user', content: prompt }] })
+      });
+      if (!res.ok) throw new Error(`API ${res.status}`);
+      const data = await res.json();
+      arr = salvageJsonArray(data?.content?.[0]?.text || '');
+    } catch(e){ console.error(`backfill batch ${s}-${s+batch.length-1} fail: ${e.message}`); }
+    for (const o of arr){ if (o && Number.isInteger(o.i) && o.i>=0 && o.i<batch.length && o.summaryLong){ batch[o.i].summaryLong = String(o.summaryLong).trim(); updated++; } }
+    console.log(`backfilled ${s}-${s+batch.length-1}`);
+  }
+  console.log(`backfill updated ${updated} item(s)`);
+  return updated;
+}
+
 async function main(){
   const useClaude = !!API_KEY;
   console.log('classify mode:', useClaude ? 'Claude API' : 'rule-based (free)');
@@ -263,6 +303,14 @@ async function main(){
   let repaired = 0;   // self-heal previously mis-tagged 기술 items
   existing.forEach(n => { const nc = betterCat(((n.title||'')+' '+(n.summary||'')).toLowerCase(), n.cat); if (nc !== n.cat){ n.cat = nc; repaired++; } });
   if (repaired) console.log(`cat-repaired ${repaired} existing item(s)`);
+
+  if (process.env.BACKFILL === 'true'){   // one-time: lengthen existing summaries, then write & exit
+    const u = await backfillSummaries(existing);
+    writeData(existing);
+    console.log(`backfill mode done — ${u} summaries updated, file written`);
+    return;
+  }
+
   const seen = new Set(existing.map(n => (n.url||'').trim()).filter(Boolean));
   const seenTitles = new Set(existing.map(n => (n.title||'').trim()));
   const seenKeys = new Set(existing.map(n => n.k).filter(Boolean));  // cross-run, cross-source title dedup
@@ -298,10 +346,7 @@ async function main(){
 
   if (toAdd.length === 0 && repaired === 0) { console.log('no new items & nothing to repair — exiting'); return; }
 
-  const merged = existing.concat(toAdd);
-  merged.sort((a,b)=> dkey(b.date).localeCompare(dkey(a.date)));
-  const updated = new Date(Date.now() + 9*3600*1000).toISOString().slice(0,16).replace('T',' ') + ' KST';
-  fs.writeFileSync(FILE, HEADER + JSON.stringify(merged, null, 2) + ';\nwindow.SMR_UPDATED = ' + JSON.stringify(updated) + ';\n');
+  writeData(existing.concat(toAdd));
   console.log(`added ${toAdd.length} item(s):`);
   toAdd.forEach(n => console.log(`  · ${n.date} [${n.cat}/${n.type}] ${n.title}`));
 }

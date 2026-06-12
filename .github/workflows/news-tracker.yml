@@ -4,7 +4,12 @@ on:
   schedule:
     - cron: '31 21 * * *'      # ~06:31 KST  (avoid :00 — GitHub drops top-of-hour crons)
     - cron: '31 3 * * *'       # ~12:31 KST noon
-  workflow_dispatch: {}        # allow manual run from the Actions tab
+  workflow_dispatch:           # allow manual run from the Actions tab
+    inputs:
+      backfill:
+        description: '기존 항목 요약을 더 길게 1회 재생성'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -25,6 +30,7 @@ jobs:
       - name: Collect & classify news
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          BACKFILL: ${{ github.event.inputs.backfill }}
         run: node scripts/track-news.mjs
 
       - name: Commit & push directly if news-data.js changed
