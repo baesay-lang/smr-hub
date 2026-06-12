@@ -59,6 +59,20 @@
   .mature-h{color:var(--accent-strong);font-weight:700;}
   .mature-m{color:var(--text-dim);font-weight:700;}
   .mature-l{color:var(--text-faint);font-weight:700;}
+
+  /* auto-attached reactor-type news (from news-data.js) */
+  .tcard-news{margin-top:14px;padding-top:12px;border-top:1px dashed var(--border);}
+  .tcard-news .tn-h{font-size:10px;font-weight:700;color:var(--text-faint);letter-spacing:.05em;text-transform:uppercase;
+    margin-bottom:6px;display:flex;align-items:center;gap:5px;}
+  .tcard-news .tn-h::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--accent);}
+  .tcard-news .tn-item{display:flex;gap:7px;align-items:baseline;font-size:12.5px;color:var(--text-dim);
+    padding:3px 0;cursor:pointer;line-height:1.4;}
+  .tcard-news .tn-item:hover{color:var(--accent-strong);}
+  .tcard-news .tn-c{flex:0 0 auto;font-size:9.5px;font-weight:700;padding:1px 6px;border-radius:3px;
+    background:var(--surface-3);color:var(--text-dim);}
+  .tcard-news .tn-c.key{background:var(--accent-weak);color:var(--accent-strong);}
+  .tcard-news .tn-t{min-width:0;}
+  .tcard-news .tn-d{color:var(--text-faint);font-size:11px;font-variant-numeric:tabular-nums;margin-right:3px;}
 </style>
 </head>
 <body>
@@ -239,6 +253,39 @@
   제원은 노형별 대표값(설계마다 상이) · 규제 성숙도는 미국 NRC 기준 상대 평가 · 2026.6 기준.<br>
   <a href="SMR-developers.html">개발사별 보기</a> · <a href="SMR-licensing-tracks.html">인허가 트랙별 보기</a> · <a href="SMR-reference.html">CFR 규정 레퍼런스</a>
 </footer>
+
+<script src="news-data.js"></script>
+<script src="news-modal.js"></script>
+<script>
+  /* attach auto-collected news to each reactor-type card (card id ↔ news .type). Pure front-end, zero API. */
+  (function(){
+    if(!window.SMR_NEWS) return;
+    function dkey(d){ var p=String(d).split('-'); return (p[0]||'0000')+(p[1]||'12')+(p[2]||'28'); }
+    function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+    var KEY = {'인허가':1,'계약':1};
+    var BYTYPE = {};
+    window.SMR_NEWS.slice()
+      .sort(function(a,b){ return dkey(b.date).localeCompare(dkey(a.date)); })
+      .forEach(function(n){
+        var t = String(n.type||'').toUpperCase();
+        if(!t || t==='GENERAL') return;
+        (BYTYPE[t] = BYTYPE[t] || []).push(n);
+      });
+    Array.from(document.querySelectorAll('.tcard')).forEach(function(card){
+      var matches = (BYTYPE[card.id.toUpperCase()] || []).slice(0,3);
+      if(!matches.length) return;
+      var box = document.createElement('div'); box.className='tcard-news';
+      box.innerHTML = '<div class="tn-h">최신 노형 뉴스 · 자동 수집</div>' + matches.map(function(n){
+        return '<span class="tn-item"><span class="tn-c'+(KEY[n.cat]?' key':'')+'">'+esc(n.cat)+'</span>'
+          + '<span class="tn-t"><span class="tn-d">'+esc(String(n.date).slice(5))+'</span>'+esc(n.title)+'</span></span>';
+      }).join('');
+      card.appendChild(box);
+      Array.from(box.querySelectorAll('.tn-item')).forEach(function(el,i){
+        el.addEventListener('click', function(){ if(window.openNewsModal) window.openNewsModal(matches[i]); });
+      });
+    });
+  })();
+</script>
 <script src="feedback.js" defer></script>
 </body>
 </html>
