@@ -150,6 +150,19 @@ window.SMR_NEWS = [
     "k": "small modular nuclear reactor developer deep fission slashes deal size by 72 ahead of 43 million ipo"
   },
   {
+    "date": "2026-06-10",
+    "title": "의견: 소형모듈원자로는 전력 위기 해결책은 아니지만 미래를 형성할 수 있다",
+    "summary": "소형모듈원자로의 장단점과 향후 전망에 관한 의견 기사.",
+    "summaryLong": "Moneycontrol에 게재된 기사로, 소형모듈원자로(SMR)의 역할과 한계, 그리고 향후 전망을 논의하고 있다. SMR이 현재의 전력 위기를 완전히 해결할 수는 없지만 에너지 정책과 기술 발전에 있어 중요한 역할을 할 수 있다는 관점을 제시한다. 이는 SMR 기술에 대한 균형 잡힌 평가와 산업 전망을 다루는 분석 콘텐츠이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObDNOXy0waU1lNVBtWk94ZXlna1l3WE9KS2tQMjVFQXlMTVRuSkJPdWtzay15SGJUMVhPeUlrZURzdVFXYzJrcWZCOFlnaVBJcnpkeGdLSGJPOVZ0S3hEenJ0SDc5NUt5VFVmTHVkbjVjWUoya0o1bF9wb1FDWlFxc0lkMjM4ZFZQRUczUHRRQTRlZnEwemppWGJNS1o1VDExWmF5WEhfOWlrSGtpcXJpZmluWC02c3J4MkRQNlBoZVEtd2N4TmZPRlhXd0tVenRLTE1wbDRWbUvSAd4BQVVfeXFMUHMxcm5EcHl5VDNKUk1RRlItc2tJeENveEFzaVBCUkllRWU3d3NYaWxCdV84blVjeDZIcHY2dUZaSnc0aW9zSWEyWktqemlsNWhsY2JrZ2I5U1FabzM1Q0lIckNrRTQ3YU0xMUtfN09rWllULVFyN1hmQnBiQjYxUmlBNmJMX0hLbFhoODVtcHd6dW1DcmJiVGtra0xUYlFieTd5clFDenNPRXFjNzFwLWkxSl80WjVpa19OaVRaaF9vMl9GelRYQnhiSk90aHF2UlZ2Z0dxTEtZaWVkdzVR?oc=5",
+    "k": "opinion small modular reactors may not solve the power crisis but they could shape the future"
+  },
+  {
     "date": "2026-06-09",
     "title": "루마니아 항만, SMR 도입 타당성 검토",
     "summary": "아랍에미리트 DP World가 루마니아 콘스탄차 항만의 에너지 수요 충족을 위해 SMR 기술 도입 가능성을 검토하고 있다.",
@@ -388,6 +401,19 @@ window.SMR_NEWS = [
     "k": "뉴스케일도 거친 crdm 검증 혁신형 smr도 도전장"
   },
   {
+    "date": "2026-06-02",
+    "title": "Day & Zimmermann-Deep Fission 파트너십, 지하형 SMR 건설 추진",
+    "summary": "Day & Zimmermann과 Deep Fission이 지하형 소형모듈원자로 건설을 위한 파트너십을 체결했다.",
+    "summaryLong": "엔지니어링 기업 Day & Zimmermann과 Deep Fission이 지하형 소형모듈원자로(SMR) 건설을 위한 파트너십을 발표했다. 이는 SMR 개발사와 건설·엔지니어링 기업 간의 전략적 협력 사례로, 상용 프로젝트 추진을 위한 실질적 파트너십 구축을 의미한다. 지하형 설계는 안전성과 비용 효율성을 강조하는 혁신적 접근 방식을 반영한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Deep Fission",
+    "region": "US",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaXhZdkV5cGNxVFhubnc4UXVhMThUZ2phd2E1Qkg5T2FhMmtRazdTRVVCVW55RUpWTGFqa3plNkp2YzQ2SS1lMHNDc3BWaXNyX2tpUHF6c29xelBTclFDdXlyNVV4NS1neW5WVVpyazdXU0FoeDVDTjRxWmdCRHZ4TjB3S1d5SGQ5V3pEYVBQVG9JaW9UUWpwMEowa0Yxa1VlV0pWcksxdzZLbGFVTG44NzRJb1RCX1ZCRHRqeFZiUWhfdi00RTRiX2xkNzdOem1Q?oc=5",
+    "k": "day zimmermann deep fission partner to build underground small modular reactor"
+  },
+  {
     "date": "2026-05-29",
     "title": "유타 그린리버 SMR 프로젝트 합작사 출범",
     "summary": "Fulcrum Point Holdings과 Blue Castle Holdings이 홀텍의 SMR-300 기술을 이용한 유타주 SMR 건설 프로젝트 추진을 위해 합작사를 설립했다.",
@@ -502,6 +528,19 @@ window.SMR_NEWS = [
     "k": "nppd identifies 4 nebraska communities as potential small modular reactor sites koln nebraska local news weather sports"
   },
   {
+    "date": "2026-05-20",
+    "title": "Deep Fission, 1억 5천만 달러 규모 IPO 신청",
+    "summary": "소형모듈원자로 개발사 Deep Fission이 1억 5천만 달러 규모의 기업공개를 신청했다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발 기업 Deep Fission이 1억 5천만 달러 규모의 기업공개(IPO)를 신청했다. 이는 SMR 업계의 또 다른 주요 자금 조달 움직임으로, 기업의 상용화 추진 과정에서 필요한 자본 조성을 시도하는 것을 보여준다. SMR 분야 투자자들의 관심 증가를 반영하는 사례이다.",
+    "cat": "투자",
+    "type": "General",
+    "dev": "Deep Fission",
+    "region": "US",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVURBM21uXy14bjFudk9WVV9Pd1l2RFVmWUF1dXQ5UzZXd1I5blhCMm5QZHJNRHF1U01jZzlKMXcxVm93dlJyZWNLekx5SHRYY3lVQTY3dFQ3SG80Z2hrMERkZl8wcHBodmRUU2lRN0pBclk3VGV4S18xNjdyMUtLTEFvRmxwUVN5Z1BlTmFrZ2xNa1dQZzQwSEJGNDVDbkVTYnFrU21OcmpWajlmMmZnTUk3alhBZlVpREZBd2VXUG9YZ3pnYVdJNW9ZNDhVdw?oc=5",
+    "k": "fisn ipo news small modular nuclear reactor developer deep fission files for a 150 million ipo"
+  },
+  {
     "date": "2026-05-15",
     "title": "DOE, 소형모듈원자로 배치 가속화를 위해 8개사에 9,400만 달러 지원",
     "summary": "미국 에너지부(DOE)가 소형모듈원자로 배치 가속화를 위해 8개 기업에 총 9,400만 달러를 지원한다.",
@@ -539,6 +578,19 @@ window.SMR_NEWS = [
     "source": "\"\"small modular reactor\"\" - Google News",
     "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNT3A1N3ZfV0tjekJmSzhLalpNU3N1bm11WVFpOWhzOVRxX2tEUWt1ZmRNWnFuRXVyaXVzZG1EdEFmNnZTZVBieTIyUlRSbWkwMWNCU2tGUlBZRDhPTEkzcVgwdUpYODF1dExwZXZyM0VONGVYeHdrOVM2d3E5RFBoZzAxWlQzLUlSalhTSlZ3SFNvWU5GQ3ExNmRQQ1c2bGo0dkpwYXAtZlRlWVE?oc=5",
     "k": "lg e and ku exploring use of small modular reactor nuclear energy"
+  },
+  {
+    "date": "2026-05-01",
+    "title": "다링턴 SMR 프로젝트 기초 모듈 마일스톤 달성",
+    "summary": "캐나다 다링턴의 SMR 프로젝트가 기초 모듈 완성이라는 주요 기술 마일스톤을 달성했다.",
+    "summaryLong": "캐나다의 다링턴 소형모듈원자로 프로젝트가 기초 모듈 설치 및 완성이라는 중요한 건설 마일스톤을 달성했다. 이는 SMR 현장 개발의 실질적 진전을 의미하며, 프로젝트의 순차적 진행 일정을 확인해주는 성과다. 다링턴 SMR은 캐나다의 선도적 소형로 상용화 사업으로서 국내 및 국제적 주목을 받고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Ontario Power Generation",
+    "region": "CA",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZS1YMUFUeGdvMlNtb2JDM3RpYjE5c0FBbUswa1VyY3NNOHloUlhJTzdZWlZRQzU2ZUxza0lzRV9tdWxCNS00SVY3cjJGalp6akIybndhdFI1ZV80RUxGejhCQXJJUldzMEFCSlp3Q01vbVprUDBpd0pkMTlzRllkb0tUNHc1aF95ZUF1T0E3eGFXQWd6bGxNcXl1TTRIVzRhOXZicA?oc=5",
+    "k": "darlington smr project s foundation module milestone"
   },
   {
     "date": "2026-04-29",
@@ -579,6 +631,19 @@ window.SMR_NEWS = [
     "k": "small modular reactor stocks soaring x energy surges 1 5x right after ipo is ai power hunger accelerating capital shifts spillover effects on related stocks"
   },
   {
+    "date": "2026-04-27",
+    "title": "온타리오-유콘, SMR 개발 협력 추진",
+    "summary": "캐나다 온타리오주와 유콘 준주가 소형모듈원자로 개발을 위한 파트너십을 체결했다.",
+    "summaryLong": "캐나다 온타리오주와 유콘 준주가 소형모듈원자로 개발 프로젝트에서 협력하기로 합의했다. 이는 캐나다 내 지역 간 SMR 개발 협력 체계를 강화하는 파트너십으로, 양 지역의 에너지 수급 전략에 SMR을 통합하려는 의도를 반영한다. 캐나다의 분산형 핵발전 정책 추진의 확대를 나타낸다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "CA",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVlRqaEtCSmJlenNMdlJqcURHWTBQMWllejNkODRxVUxmUWxHZU9mZW10S0JlN29CX0FWTVpYRWhGdlBnNEkyaHJsdkU2ajZNVzR4LTYwN1FPSDNBVlR5azNGVTA5dEQ4U3hyLUJNbzhkR0tKaE1Fc0xsLWFwblNZRHlmc2ZqTUlqckRZRDFPd0VJVWdiNG1KT0xaSzZpQzhEa3Jnay04cG83MjdRR1JXdmlMUkhoY3BaWE9MTw?oc=5",
+    "k": "ontario yukon partner on small modular reactor development"
+  },
+  {
     "date": "2026-04-24",
     "title": "X-Energy, SMR 개발사 최초 IPO 성공",
     "summary": "소형모듈원자로 개발사 X-Energy가 공모가 범위를 초과하여 주당 $23에 IPO를 실시했다.",
@@ -605,6 +670,19 @@ window.SMR_NEWS = [
     "k": "first american nuclear submits regulatory engagement plan for fast spectrum small modular reactor smr"
   },
   {
+    "date": "2026-04-15",
+    "title": "X-Energy, 7억 5천만 달러 규모 IPO 공시",
+    "summary": "소형모듈원자로 개발사 X-Energy가 7억 5천만 달러 규모의 기업공개를 진행한다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발 전문 기업 X-Energy가 7억 5천만 달러 규모의 기업공개(IPO)를 추진 중이다. 이는 SMR 분야의 주요 자금 조달 움직임으로, 기업이 상용화 단계로 나아가기 위한 필요 자본을 조성하는 것을 의미한다. SMR 산업의 성장성을 반영하는 투자 사례로 평가된다.",
+    "cat": "투자",
+    "type": "General",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNVBpeVpLbnoxZ0N4SjNzXzVEVUxQbm02Y2xCSnZtc1RSaWRMV0dRQm0xOENxZjJSaUtKU2k2RjBURmsxZHZ5aW1NamgxRkcxejJ1LW5taUF6dHlxUW5hYmR0SkdkcUNOeHR1ZXpoZWVPRXJPeU53UXpCTjN4cl9vNnZfRTNNMWdDeWFjZnJBcDMzRWdSOTBreUY5cWJlcXAyTS1iWkpTaEFDeDdnOVAtdWJTT2NySjBwZTBhUWFZdWpaX0taZVlDSWtR?oc=5",
+    "k": "xe ipo news small modular reactor developer x energy sets terms for 750 million ipo"
+  },
+  {
     "date": "2026-04-06",
     "title": "Fluor, X-Energy와 텍사스 첨단원전 계약",
     "summary": "Fluor가 X-Energy와 텍사스주의 첨단 소형모듈원자로 프로젝트 계약을 체결했다.",
@@ -616,6 +694,19 @@ window.SMR_NEWS = [
     "source": "\"\"small modular reactor\"\" - Google News",
     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWHhrTVRDOWVPNmJKU0x3M3ZhWHhTaklPN21JMHc1U2VoNjFHMG1OOTdBTEFwdE4zUXVDd2ZvMGxaNXdkenc1WmhyYmVIVXI3WFpzalNPTWRGUkFWcFpNODhrQnJIUEZFdC1aakVaQm1fSUpDRXcwMm42SEkwOFF6cVItd0YyQ0ZXaDdGbEZaN0oycXZRU3RnQUVfcFhSMEREMDZvVDdJZWhfbGU5Mk43UVlkZmVsN08xbWZ0aE9qYWNaZ1dOcHM4TFM2aklLcm50b1psOFhXZlhvZm5R?oc=5",
     "k": "fluor signs contract with x energy for advanced nuclear project in texas"
+  },
+  {
+    "date": "2026-04-04",
+    "title": "팰리세이즈 발전소에 소형모듈원자로 건설 준비 착수",
+    "summary": "Palisades 발전소 부지에 새로운 소형모듈원자로 건설을 위한 준비 작업이 진행 중이다.",
+    "summaryLong": "Palisades 발전소 부지에서 새로운 소형모듈원자로(SMR) 건설을 위한 준비 작업이 본격화하고 있다. 이는 기존 원전 부지의 리개발을 통한 SMR 상용화 사례로, 폐지된 또는 기존 원전 인프라를 활용한 SMR 프로젝트의 실제 진행 단계를 나타낸다. 미국 내 SMR 구체적 건설 프로젝트의 진행 상황을 보여주는 의미 있는 마일스톤이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWG9nSnBaRVo3OVliMnczMGNPOUltV19Dbld3Y2drLUdHNkFmU3JKSXlyS19aTVljeThZQTNEXzhOQzVyMmlxYUhaRlNmUGN6d0JrbTJ6TFFxRGI2Qlk2WFRDeHVLSWktLWtQcHNwX1dqRFh2c0U3dzN2azcxeVZvaVFORlZULUlkV0p0cm5KMG5ma2JsVGFRRG1TVlBod2VU?oc=5",
+    "k": "prep work for new small modular reactors at palisades now underway"
   },
   {
     "date": "2026-03",
@@ -682,6 +773,19 @@ window.SMR_NEWS = [
     "k": "nuscale highlights role of its small modular reactor technology in supplying dependable industrial nuclear energy"
   },
   {
+    "date": "2026-03-13",
+    "title": "Rolls-Royce SMR, 규제 정당성 검토 진행",
+    "summary": "영국의 Rolls-Royce가 자사 소형모듈원자로에 대한 규제 정당성(Regulatory justification)을 제시하고 있다.",
+    "summaryLong": "영국의 Rolls-Royce가 개발 중인 소형모듈원자로(SMR)에 대해 규제당국의 검토를 받고 있다. 규제 정당성(Regulatory justification) 단계는 설계의 안전성과 경제성, 환경 영향 등을 입증하는 절차로, 이는 인허가 취득 전 중요한 단계다. Rolls-Royce의 SMR은 영국 정부의 지원 아래 개발되고 있으며, 이 검토 결과는 향후 설계인증 등 본격적인 인허가 절차로 진행될 가능성을 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Rolls-Royce",
+    "region": "UK",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVXVTM2xpQS15TjRLWTN2S2dMUjZfckVZRVJMZndPRTRNVHl4bl9OVHd1TzF1V016ZHpmZ3N6Q1BWRGxfZTJ4RG44dXBOVTJFTHoyNHFZZW5zUkVVbWVnRzZTbFFwMUdBeV8yRW5WNnp6ZHUxY0ZHMDdReHBmSGdCZTdQemJLUDhUOVFRNndaZGtKdw?oc=5",
+    "k": "regulatory justification for rolls royce smr"
+  },
+  {
     "date": "2026-03-12",
     "title": "소형모듈원자로·마이크로원자로 전문가 인사이트",
     "summary": "미국 정책연구소가 SMR과 마이크로원자로에 대한 전문가 의견을 제시하고 있다.",
@@ -706,6 +810,19 @@ window.SMR_NEWS = [
     "source": "\"\"small modular reactor\"\" - Google News",
     "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUTJIdmN4Qi1xQjE1dnktSk5DajB0eGEtdUFJR3RlZXNXcnJ1ZUs2WUQ2M1JXanpWOGZXRmJkSFEtYjZra0txQ21XTWljMk80WTM3VlpUZEtRb3JDZ2hxdXRsMjRwcHhCenU0cEozelI3SHREWGZxYlhfWWJuZDFTRGZ6emJQdmhuWlRYMXVNamc5TnZ4TFVFemFwZzR4TVg3YmRzeTB3bFg4S01FQjRsMFFXRWQ?oc=5",
     "k": "rolls royce partners to explore small nuclear reactors for e saf"
+  },
+  {
+    "date": "2026-03-05",
+    "title": "TerraPower, 상용 SMR 플랜트 건설 미국 승인 획득",
+    "summary": "TerraPower가 상용 소형모듈원자로 발전소 건설에 대한 미국 정부 승인을 획득했다.",
+    "summaryLong": "핵 에너지 스타트업 TerraPower가 상용 소형모듈원자로(SMR) 발전소 건설에 대한 미국 정부 승인을 획득했다. 이는 SMR의 상용화 추진에 있어 중요한 규제 마일스톤으로, 기업이 실제 건설 단계로 진행할 수 있는 법적 근거를 확보한 것을 의미한다. 미국 내 첨단 원자로 개발 정책의 구체적 이행 사례를 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wcG9wUG9kSDNNUV9fYVQ0cXFkQTdsa2FNd3BKU3JJTmJLcDZCYjBxRWVBeFVqU2cyY1dEb0xvZWxmTG5ad1hfbDRVbXNuU3I4SWhrb0dBbnhpSFBNU1BkYWdEcXhXQk1u?oc=5",
+    "k": "nuclear startup terrapower wins us approval to build commercial smr plant"
   },
   {
     "date": "2026-03-04",
@@ -759,6 +876,19 @@ window.SMR_NEWS = [
     "k": "small modular reactors big dreams ontario s nuclear pitch"
   },
   {
+    "date": "2026-02-22",
+    "title": "패널 토론: 소형모듈원자로 핵 연구 - 퍼듀 대학교",
+    "summary": "퍼듀 대학교에서 소형모듈원자로 핵 연구에 관한 패널 토론을 개최.",
+    "summaryLong": "퍼듀 대학교에서 소형모듈원자로(SMR) 관련 핵 연구를 주제로 패널 토론을 진행하고 있다. 이는 학계의 SMR 기술 연구 및 교육 활동을 나타내는 사례이다. 기술 발전과 인력 양성, 정책 형성을 위한 지식 기반 구축 활동으로 의미가 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBSbnF4SHUwYTB5cGZiV1FRYmtFNHIwRGRLR3pvQUp3UEZWcVVMODhKZjJFZjlObjQtbkdTUURoWjFLVUgxdmplOE1UZVFfNjktY3VQVU0tYlF6UlFBRkh0MFhSOG1IOWdYNUQ3ZmNjMnB6aWZEU09tMg?oc=5",
+    "k": "panel discussion small modular reactor smr nuclear studies"
+  },
+  {
     "date": "2026-02-17",
     "title": "SMR vs. BWXT: 소형모듈원자로 주식 비교 분석",
     "summary": "투자 관점에서 SMR과 BWXT의 소형모듈원자로 관련 주식을 비교 분석하는 기사이다.",
@@ -770,6 +900,19 @@ window.SMR_NEWS = [
     "source": "\"\"small modular reactor\"\" - Google News",
     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9oZmNtUnpRNGJWbHNCNTBHTEdLbDk2U1lEX0hKLVp5ZHJ6VE5hQ0pKd3NHb0dOM0RPeWNhLU9jU3puanlpTHd2U0F0Wlk5bHVoT051OTRsTnlfT1FBbU9vWEhaWWcxOUxIVjhnUG5OMExyWGVBNGswSlg3aw?oc=5",
     "k": "smr vs bwxt which small modular reactor stock is a buy right now"
+  },
+  {
+    "date": "2026-02-13",
+    "title": "루마니아 Nuclearelectrica, 폐탄광 부지 SMR 프로젝트 승인",
+    "summary": "루마니아 국영 전력회사 Nuclearelectrica의 주주들이 폐 석탄광 부지에 소형모듈원자로 건설하는 프로젝트를 승인했다.",
+    "summaryLong": "루마니아의 국영 전력회사 Nuclearelectrica가 주주 승인을 통해 폐탄광 부지에 소형모듈원자로(SMR) 프로젝트를 추진하기로 결정했다. 이 프로젝트는 석탄 산업의 쇠퇴로 인한 지역 경제 침체에 대응하면서 동시에 루마니아의 저탄소 에너지 목표 달성을 추진하는 전략이다. 기존 에너지 기반시설을 활용할 수 있고 관련 숙련 인력이 있는 부지 선택으로 건설과 운영의 실현 가능성을 높였으며, 향후 설계 선정 및 규제 인허가 단계가 진행될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Nuclearelectrica",
+    "region": "EU",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxON2E1NVJaazV4M0U3UzA0TGd4d1BCbnBSaVJXSVVSRl94bmxlS0psMkYydU5hb2JUU1F4c1pPTG1tOWZGNjVQUW5GWmdQRDlfNmYzSDBQcGRKSDh4aHFhUzdjSngtY3cyeWhlaU1UeVNCZ2pCY3RXRzZWd09ja0JabTdwWGhWZXA1bkdZMEgtU21McFFiMlB6SEhrMVBnZ0pBV0s2bVRxYXFHV2ZXUU0ydWhTVVYzdEtjU1lHNTZzVGF5dWxhWm9Yb2pNX1VaTTJxRnltMllMZ0R4Zw?oc=5",
+    "k": "nuclearelectrica shareholders approve plans for small modular reactor project at former romania coal site"
   },
   {
     "date": "2026-02-06",
@@ -824,6 +967,19 @@ window.SMR_NEWS = [
     "k": "smr vs gev which small modular reactor stock is a better pick"
   },
   {
+    "date": "2026-01-15",
+    "title": "몽골, 신수도 건설에 소형모듈원자로 도입 검토",
+    "summary": "몽골이 신수도 건설 사업에 소형모듈원자로 도입을 검토하고 있다는 보도가 나왔다.",
+    "summaryLong": "몽골이 신수도 건설 프로젝트의 전력 공급원으로 소형모듈원자로(SMR) 도입을 검토 중이라고 보도되었다. 이는 SMR의 유연한 입지 선택, 소규모 전력 공급, 열 공급 가능성 등의 특성이 신도시 건설에 적합하다고 판단한 것으로 보인다. 몽골과 같은 개발도상국의 SMR 도입 검토는 이 기술의 글로벌 수요 확대를 보여주는 사례로, 향후 도입 추진 시 규제 정비와 국제 협력이 중요할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOWpBd3FaeGkwVjFpdnpXR0R2RkU5YTJQWC0zVzhKcDF4TlJWZG1sOUg1aExWcGVnRVNlMEFqVmNwc3NvZmZUZlRtX3lJd0VFVUY3UV9qNzZ5ZWFNMHp1bHVMU0tjV2VBY2oxdE1oMzh5cUdCcjhTZGYzdVI4eUcxXzFEZXMwZ25nWFBIYXVlNTFQWHVJd3RpbHdEaTVSYXJhSGVvQlEtWlQtNG5kN0IyZ1ZR?oc=5",
+    "k": "mongolia could build small modular reactor for new capital city says report"
+  },
+  {
     "date": "2025-12",
     "title": "NRC, Natrium 안전심사 조기 완료(예산 11% 절감)",
     "summary": "TerraPower Natrium 안전심사를 일정보다 앞서 완료 — 2026.3 CP 발급으로 이어짐.",
@@ -858,6 +1014,19 @@ window.SMR_NEWS = [
     "source": "Rolls-Royce SMR",
     "url": "https://www.rolls-royce-smr.com/our-progress",
     "summaryLong": "Rolls-Royce의 SMR이 영국 포괄설계평가(GDA) 최종단계인 Step 3에 진입하여 현재 개발 중인 SMR 프로젝트 중 유일하게 이 수준에 도달한 것으로 나타났다. 약 53개월의 총 심사 기간 중 2026년 8월 완료를 목표로 하고 있으며, 이는 영국의 SMR 상용화를 위한 규제 기반 구축이 구체적으로 진행되고 있음을 의미한다. GDA 최종 완료 시 Rolls-Royce는 영국에서 SMR의 설계 승인을 획득하게 되어 실제 건설 단계로의 진입이 가능해질 것으로 전망된다."
+  },
+  {
+    "date": "2025-12-27",
+    "title": "카자흐스탄 전력망에 소형모듈원자로 적용 검토",
+    "summary": "카자흐스탄의 전력망 특성에 SMR이 최적 솔루션으로 평가되는 분석 기사가 발표되었다.",
+    "summaryLong": "카자흐스탄의 에너지 수급 구조와 지역 특성상 소형모듈원자로가 적합한 전력 솔루션이 될 수 있다는 정책 분석 기사가 게재되었다. 이는 중앙아시아 지역의 SMR 도입 수요와 가능성을 시사하며, 카자흐스탄의 에너지 다원화 전략 속에서 SMR의 역할을 조명한다. 개발도상국 및 신흥 시장에서의 SMR 적용 가능성을 보여주는 사례 검토다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ0pGNG5XdWlUeG11eWJERXItZUdrcUhNTHRRUWNxbjJsLWdjWG9tb1JhUk1Pc05sMDFNem1KRTd3V0VVTnRwX0M3WDhCQ2lxUGRfc2xMNmlwVnhRcFJINzVUWUFKUE5vTi1uQTR5S3FDSjZqNWh4UngwZzFpSXBrd0gxOTI4Tjhudk9xMGdnUGdMaFl5Y3c5N3U5N1ZqRy1UekQ4QXJSUXg2LV83Mk9RWEFJRmlCX2pHcVRiS09yeWxTSHZHV2dv0gHMAUFVX3lxTFBMZkhsMlk3clN0QUlCUV8zUWJORDRLaDdoV3BMMlZXRlpVWnFwWGlxcEo5VURVQWl0cEtrSXZSTmlvbXJPZVRQSXpLNW01VGRFMHEtNlY2b19zZTVIQ3drYllaTzdmVkRUbGxzZ0IyZnc4N3lpeUlGZ1FEa05fNkhQVDVuS0tUdno0bm8wTlJDR0FEblkzRGxUektMeEpQSlpURzhMenJDRG5NczBwb2V1bUdCVEctdHRoSFpoRWJiVG9Yb2s1T0t1dEVLSA?oc=5",
+    "k": "small modular reactors are the perfect fit for kazakhstan s power grid crude oil prices today"
   },
   {
     "date": "2025-12-16",
@@ -899,6 +1068,19 @@ window.SMR_NEWS = [
     "k": "tva to develop america s first small modular reactor in tennessee"
   },
   {
+    "date": "2025-12-04",
+    "title": "듀크 에너지, 미국 SMR 배치 확대 지원 표명",
+    "summary": "듀크 에너지가 미국 에너지부의 신규 핵 투자 정책을 지지하며 SMR 배치 확대에 협력하겠다고 밝혔다.",
+    "summaryLong": "미국의 주요 전력회사 듀크 에너지가 에너지부의 신규 핵발전 투자 정책을 환영하며, 미국 내 소형모듈원자로 배치 촉진에 자사도 참여하겠다는 입장을 표명했다. 이는 주류 전력회사의 SMR 사업 참여 의지를 보여주며, 미국의 SMR 상용화 생태계 조성에 민간 사업자의 역할이 강화되고 있음을 나타낸다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Duke Energy",
+    "region": "US",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOU3VvUzlrcVJwd3gwTkQybFhJOWVFcFhNdVRqRmJWME1uZlk0VU8tU002M2lwMTFMekZDaTZ3TTRSOXc0aTBvSzJ6WVY3SFY4bVowRnViVHBpc2drd1NZRlgxc2gwT2k0U0xJNFVnWEFNVzRneExGSzRmQTJCVG1taXBXdDcxYVhWVFdCR2h4RXhLX1dzRVZ6cE5BbDNGWGRZdU4zdUJtLXJnelRaYlBwWXVfM0lKVk1yQ19sVDE3RVZSUzV2SzJBenpGOWd3NnFEOTVPLWxydnZqZndJeVFHYXlB?oc=5",
+    "k": "duke energy applauds department of energy s new nuclear investments helps advance deployment of smrs in the u s duke energy"
+  },
+  {
     "date": "2025-12-03",
     "title": "DOE, TVA·Holtec SMR 프로젝트 선정 지원",
     "summary": "미국 에너지부(DOE)가 TVA와 Holtec의 SMR 프로젝트를 지원 대상으로 선정했다.",
@@ -912,6 +1094,32 @@ window.SMR_NEWS = [
     "k": "doe selects tva and holtec for smr awards american nuclear society ans"
   },
   {
+    "date": "2025-12-03",
+    "title": "소형모듈원자로란 무엇인가 - AI 에너지 수요와의 연결성",
+    "summary": "AI 에너지 수요 증가 속에서 소형모듈원자로의 개념과 역할을 설명하는 교육 콘텐츠.",
+    "summaryLong": "플로리다 국제대학교 제공의 기사로, 인공지능 에너지 수요의 급증 속에서 소형모듈원자로(SMR)의 정의, 특징, 잠재적 역할을 설명하고 있다. 이는 SMR이 미래 전력 공급 솔루션으로 주목받고 있음을 보여주는 교육 자료이다. AI 산업의 성장과 연결되는 SMR의 시장 기회를 조망한 콘텐츠로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQjhsMnVQemxkWGJhZU9jdHZEZ3V2RnNtT29vanZNVV84X0xJdF9LZXd4em5HOHNpVUg4cFNWWk4tSkc4dVZ1ZUtybEFzVHNkYUxuMTN1Z1RzX1dSNWt1eENZb3o0RWdteHZiWURmanFvZEszZDhCQjZzVjhqTFAweWh0TDVORF9WbmVRZElwUTRyWHJuSjN3bXZNOFY0YVFUZ1ROZElYVXFlN2JtYXBOOXNNVVRFZGJsY2FDdkN4VWlaQQ?oc=5",
+    "k": "what are small modular reactors a new type of nuclear power plant sought to feed ai s energy demand"
+  },
+  {
+    "date": "2025-12-03",
+    "title": "NEA, SMR 안전평가 최근 진전과 과제 논의",
+    "summary": "국제원자력기구(NEA)가 소형모듈원자로의 안전평가 관련 최근 기술 진전과 도전 과제를 다루는 워크숍을 개최했다.",
+    "summaryLong": "국제원자력기구(NEA)가 소형모듈원자로(SMR) 안전평가 분야의 최근 기술 진전과 남은 과제를 논의하는 워크숍을 개최했다. 이 행사는 SMR 개발국들의 규제기관과 기술 전문가들이 모여 안전평가 방법론, 인허가 기준, 기술적 도전 사항 등을 공유하고 논의하는 자리였다. SMR이 상용화 단계로 접어들면서 국제적 안전평가 표준화와 규제 조화의 필요성이 대두되고 있는 상황에서 의미 있는 논의의 장을 마련했다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "NEA",
+    "region": "",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZDNHa0tRVkliODM3UlI2Q0Y5ZHVUbnNSNUdWNmFYaUYtTGNCU1RoX1NlMjI2T09KQVNfUmRxbDBwYk9GWlBfbVFqRVpWR29sUEdTajBJamZfb1ZXanBzejNGdENHVGljdUV4RVdnaVQ4RnVUbTVwUFpzMXpETnlPTS1IZUJNZFV6Sy1kM1lXb0VHN1RSWExObVVlUnNueUF3WnhIUFFHWEh3ZEg2MF9lLWVHOWQ2YV9QWlhJOEJvZC1nWlZiV0tGT1RoM1ppUQ?oc=5",
+    "k": "workshop highlights recent advances and challenges in small modular reactor safety assessment"
+  },
+  {
     "date": "2025-12-02",
     "title": "테네시주, 미국 최초 소형모듈원자로 건설 DOE 그랜트 확보",
     "summary": "테네시주가 Clinch River 부지에서 미국 최초의 소형모듈원자로 건설을 위한 연방 정부 지원금을 확보했다.",
@@ -923,6 +1131,32 @@ window.SMR_NEWS = [
     "source": "\"\"small modular reactor\"\" - Google News",
     "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNdFdETE5ZWjY3cjNwRk5adXlnNW4yYzl4b3FFMUFvRHdMY1ZTVkZ0eG1wcHp0YUtYTDRzRWRrcWhnUFVxcWRvUDhMZEZNQ2xOejItMUpONWt2bENVNDVjYmpQTTZJUkNFTVVZTmJIamxTQ1F3TUdDb0tTZHYxY2EtUlN5cktrMjFqbUdIcV9tbVh3dVBYeFh5TXNTdWlEcGR1bmR3R1k2WUV6Q0NQVU8zbDJzV0NHbkRhM25EdFBzTXlJdkwyeHZVRUtVc3Q3SnloOTk1amtHNll4UXhhNHBKaU1Pa09HVXJUYVN2cHVYSGVXQ3lRaWZPOFdn?oc=5",
     "k": "tennessee secures u s department of energy grant to develop nation s first small modular reactor at clinch river site"
+  },
+  {
+    "date": "2025-12-02",
+    "title": "TVA, 소형모듈원자로 개발에 연방 4억달러 지원금 획득",
+    "summary": "미국 테네시밸리오서티(TVA)가 소형모듈원자로(SMR) 개발을 위해 연방정부로부터 4억달러의 지원금을 확보했다.",
+    "summaryLong": "테네시밸리오서티(TVA)가 소형모듈원자로 개발 프로젝트를 지원하기 위해 연방정부로부터 4억달러의 교부금을 획득했다. 이는 미국 정부의 SMR 상용화 촉진 정책의 일환으로, 에너지부의 핵심 투자 우선순위를 반영한다. TVA는 이 자금을 통해 SMR 기술 개발과 배치 준비를 가속화할 계획이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "TVA",
+    "region": "US",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcnNPZkc5Q1czRkZQd0wxZXBUTHp5dFZsRmVKTFA2QWVLLUs2eFo3SHo3N282WkpGWWJkb0dzNjNNb2lTczRiNGNmcmdEMFF2ZlFFY0ZDZjh3SUtYVzJQY2xDWU1DaExqblhtejU2dG9zRHdhYk1wSF8tcFIwUjNYVGRIMXMxaXdNU01Sd0VRWmRPZ3BSNHlQLUFB?oc=5",
+    "k": "tva wins 400m federal grant for small modular nuclear reactor"
+  },
+  {
+    "date": "2025-12-02",
+    "title": "테네시 동부에 미국 최초 SMR 건설 계획 발표",
+    "summary": "테네시주 주지사가 미국 최초의 소형모듈원자로가 동부 테네시에 개발될 것이라고 발표했다.",
+    "summaryLong": "테네시주 주지사가 미국 최초의 소형모듈원자로가 테네시 동부에 건설될 예정이라고 공식 발표했다. 이는 미국의 SMR 상용화 추진 정책의 구체적 구현 단계로, 특정 지역의 선정을 통한 프로젝트 진척을 알리는 정책 발표다. SMR의 국내 배치가 현실화되는 주요 마일스톤으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQa3N2dG5WWXZXSFZudXA0V3ppc0w3dU9ZejhKZEVVTHNFVkdic3RGNjdHdEtnaUttYUw5VTZCVkhIeUY1VE5jN1I5MmFkNU9Fajk0dWo0Z0d2cXRGOHFEWDY3aTQzeUxqWUN0Q0w2LVVyZW9uVGdiR0JkVmVLR0tWaUdod3FvNTRYWjh4Y2pETHZrbzNySDdzelI2WFTSAbABQVVfeXFMUHNiWXd6VkJtYnJabV9yUHFJZkdPUUVxNVZDMmVidVJXUkxudTRIWXBLMjd4MlM3ZWxzVnBMcm1DamVxNWJoTWJ6VUJrdFB4V1RZM2ZXamhEN3ZOSkdtMXU4NXFUVFlqenUtT1lzZVBMTnBIdkpkY2NPd2w5MzV2ZGdOcWs1MXkzcUc1cE1VSWx2eGpyYnRTMkZJYkVGQTgxT1lWcTJaUVNaand6RDVQcXg?oc=5",
+    "k": "country s first small modular reactor to be developed in east tennessee governor says"
   },
   {
     "date": "2025-11",
@@ -950,6 +1184,19 @@ window.SMR_NEWS = [
     "k": "iaea launches pilot school for regulating small modular reactors"
   },
   {
+    "date": "2025-11-19",
+    "title": "태양광-SMR 하이브리드 마이크로그리드 운영 최적화 연구",
+    "summary": "태양광 발전과 소형모듈원자로를 결합한 하이브리드 마이크로그리드의 조화로운 운영과 최적화 방안에 관한 연구 논문이 발표되었다.",
+    "summaryLong": "Nature 저널에 태양광 발전과 소형모듈원자로를 통합한 하이브리드 마이크로그리드의 조화로운 운영 및 다계층 최적화 기법에 관한 연구가 게재되었다. 이 연구는 SMR의 유연성 있는 전력 공급 능력과 재생에너지의 간헐성 보완을 위한 기술적 가능성을 제시한다. SMR의 미래 배치 형태로서 분산형 에너지 시스템에서의 핵심 역할을 모색하는 학술 성과다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5DOUczakFmdzJLclJIS0pDMlRWTWNxZTctWXEzd2hWSFk1RUtnUE10YXBNWkw4bTZsbTVzcDhrMW1jQ0l4bmoyNHJuUmZaaW5aVGQ2elU1SUpSc0Y4RVJZ?oc=5",
+    "k": "coordinated operation and multi layered optimization of hybrid photovoltaic small modular reactor microgrids"
+  },
+  {
     "date": "2025-11-18",
     "title": "세계은행, SMR 산업은 최고 기술 1~2개 개발 집중해야",
     "summary": "세계은행 총재가 소형모듈원자로 산업의 기술 개발 방향으로 최적 기술 선택과 집중을 강조했다.",
@@ -961,6 +1208,19 @@ window.SMR_NEWS = [
     "source": "\"\"small modular reactor\"\" - Google News",
     "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbVlMUl9FMkZ3NVl3OVVHOEF2bmNGU0FTVkFMQ05vZjFMRjlXR1QxdlRpODJnbHNQYUZ3dVdUdDg0ME15ZDJCUGtzRVpTVmZVal9NQXI1NkMybW1sYmlfb3BXLS1yTGJldFFoWWdUdkRWc29pYTBxR2dXaEt2dmdSMHBBdWhYWjRMSUlmbmlDYkNld1NfNmFqaVY4UHU5WXFjYzRPZEloTmFSXzZrZlJsQ2h1SG0tUWhBQTV3NmJKbmY2MmpzRndGeWJoQ2M5dW1IWlIyclROVHA1eGc?oc=5",
     "k": "small modular reactor industry must focus on developing best one or two technologies says world bank head"
+  },
+  {
+    "date": "2025-11-14",
+    "title": "규제당국, 애팔래치아 전력의 SMR 부지비 지출 승인",
+    "summary": "미국 규제당국이 애팔래치아 전력에 소형모듈원자로 개발을 위한 부지비 지출을 승인했다.",
+    "summaryLong": "규제당국이 애팔래치아 전력(Appalachian Power)의 소형모듈원자로 프로젝트 부지 관련 선행 비용 지출을 승인했다. 이는 SMR 프로젝트 추진에 필요한 규제 허가의 진전을 나타내며, 해당 사업자의 프로젝트 진행 여건이 개선되었음을 의미한다. 부지 비용 승인은 건설 단계로의 이행을 위한 선제적 조치다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Appalachian Power",
+    "region": "US",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRGg4UjB1Vll4WUdZM0xOUV9xVVV6VF9GZEhMUjVYRVhJM1FPWGsyOW5aM3hmcEM5a0d4LUlDRHBiek9MazlVMlU4clZzRDRmSkplSDc4QzJjcGFGQmRkYnAyeUpuaHowRC02UHItdnJsdVh5a2JqVU8yR2JKajN5VzVWRVJXLXpKeW9qbDNTelYxYzdjSy1DekF6bWkxQ0wzYXhfUFcya1BGREhndWVET1hPT1dvXzV6bUw2eTJkVHluM0ZMVWUzNy04cWZTUmM?oc=5",
+    "k": "regulators give appalachian power green light to incur small modular nuclear reactor site costs"
   },
   {
     "date": "2025-11-10",
@@ -989,6 +1249,19 @@ window.SMR_NEWS = [
     "k": "aes small modular reactor announcement highlights nuclear summit at purdue university"
   },
   {
+    "date": "2025-11-06",
+    "title": "EDF, 2050년까지 소형모듈원자로 30기 생산 목표, 2026년 설계 예정",
+    "summary": "프랑스 전력공사 EDF가 2050년까지 30기의 소형모듈원자로 생산을 목표로 하며 2026년 설계 완료를 계획하고 있다.",
+    "summaryLong": "프랑스 전력공사 EDF가 소형모듈원자로(SMR) 분야의 야심찬 계획을 발표했다. EDF는 2050년까지 총 30기의 SMR을 생산하는 것을 목표로 하고 있으며, 2026년까지 설계를 완료할 계획이다. 이는 EDF의 장기 에너지 전략 일환으로, 프랑스의 탄소중립 목표 달성과 소형모듈원자로 시장 선점을 위한 전략적 움직임으로 평가된다. 설계 완료 후 인허가 취득 및 건설 단계가 이어질 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "EDF",
+    "region": "EU",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNekZzd0xjUGwtaS1YcHNobmZ6UWx6c0R2cU9GYzZqYjY0TVZuWF9kTzN2bWllNGR2a3lkXzdqZnRSdFY3bzZkb21uOE80RDlkWUVOaHp4RVM3bjZrZ3RiME9SWHoyNkR0MGdSd2wxR2xUU0hyTTBHMXBTS3FCSUNWVFNuZUREVk9SRnFPSHNnRm1CYkd2d2Y0Wjh5MEtLWGhkNWhSenBwbkdpRzFmQWE0UzZGOVI0LXY0QWpPMXFfMA?oc=5",
+    "k": "edf aims to produce 30 small modular reactors by 2050 design planned for 2026"
+  },
+  {
     "date": "2025-09",
     "title": "Centrica–X-energy 공동개발협약(JDA) — 영국 6GW, Hartlepool 우선부지",
     "summary": "英 최초 첨단모듈로 배치 JDA. 영국 내 6GW 추진, 1차 부지 Hartlepool, 2026 본격화 목표.",
@@ -1012,6 +1285,19 @@ window.SMR_NEWS = [
     "source": "\"\"small modular reactor\"\" - Google News",
     "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbEJ3aWlWdC1tQWVaTFF0d05yYmM1YS1ZampzUllTV3BPTFBZZ0hiVW1NelNBbnZzSUEzSjFnajVjMV8wS0RfTnA2YmdJRVViQU5fYi1uU1BXODN2Y1M4M2JtSHNrVGxlUEFwbzVONFliWFRfcHNsQmoxNUxYUVV5MEZZek5NUFBrOXA2aEZ1b0ZUVVBhcTBWVV9ONU9RbExfeXlwSlY3R2JPd0RpQVZVbUswLUotdXY2b1Bv?oc=5",
     "k": "x energy confirms feasibility of xe 100 advanced small modular reactor deployment in alberta x energy"
+  },
+  {
+    "date": "2025-09-15",
+    "title": "미국 콜로라도주 푸에블로, 소형모듈원자로 도입 검토",
+    "summary": "미국 콜로라도주 푸에블로가 소형모듈원자로 도입 가능성을 검토하고 있다.",
+    "summaryLong": "미국 콜로라도주 푸에블로 지역이 에너지 수급 및 산업 재개발 방안으로 소형모듈원자로(SMR) 도입을 검토 중이다. 푸에블로는 기존 석탄발전소 폐지로 인한 에너지 공백과 지역 경제 침체에 대응하기 위해 SMR이 제시하는 청정에너지 해법에 주목하고 있다. 다만 기술 상용화 일정, 규제 승인, 자금 조달 등 여러 과제가 남아있어 실제 도입까지는 추가 검토와 협력이 필요한 상황이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPamxXZ1JJWUk2MER6R2JQamQwTW1BUHdMTmdsU2hhZ2VDTHh1NUw0X29RM19abEJwZ19WYjNJdEZob0VycGotbFl6VzZ0aWM0MmVaUUdMbUhqM3NXSHcwa2psR0hCM1NBOXNBQmdHTFlRV19kak5RSDNaemwzWnJyTU9sWmRzMFhFQmc?oc=5",
+    "k": "small modular nuclear reactors are having a moment will they arrive in time for pueblo"
   },
   {
     "date": "2025-08",
@@ -1170,4 +1456,4 @@ window.SMR_NEWS = [
     "summaryLong": "NuScale의 US600(77MWe)이 미국 원자력규제위원회(NRC)로부터 설계인증(DC)을 획득하여 미국 최초의 SMR 설계 인증 사례가 되었다. 이후 NuScale은 출력을 증강한 US460 모델에 대해 표준설계승인(SDA) 추가 심사를 진행 중이며, 이는 SMR의 상용화 경로가 실질적으로 열리는 중요한 전환점을 의미한다. NRC 인증 취득은 SMR에 대한 규제 선례를 확립하고 후속 개발사들의 인허가 진행을 촉진할 가능성이 높아, SMR 산업화의 가속도를 높일 것으로 전망된다."
   }
 ];
-window.SMR_UPDATED = "2026-06-12 09:13 KST";
+window.SMR_UPDATED = "2026-06-12 13:12 KST";
