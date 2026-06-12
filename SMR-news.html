@@ -16,7 +16,8 @@
 
   .feed{position:relative;padding-left:22px;margin-top:6px;}
   .feed::before{content:"";position:absolute;left:5px;top:8px;bottom:8px;width:2px;background:var(--border);}
-  .item{position:relative;margin-bottom:18px;scroll-margin-top:120px;}
+  .item{position:relative;margin-bottom:18px;scroll-margin-top:120px;cursor:pointer;}
+  .item:hover .item-title{color:var(--accent-strong);}
   .item::before{content:"";position:absolute;left:-22px;top:5px;width:11px;height:11px;border-radius:50%;
     background:var(--border-strong);border:2px solid var(--bg);}
   .item.key::before{background:var(--accent);}
@@ -98,6 +99,7 @@
 </footer>
 
 <script src="news-data.js"></script>
+<script src="news-modal.js"></script>
 <script>
   var DATA = (window.SMR_NEWS || []).slice();
   function dkey(d){ var p=String(d).split('-'); return (p[0]||'0000')+(p[1]||'12')+(p[2]||'28'); }
@@ -120,7 +122,7 @@
     var src = n.url ? '<a href="'+n.url+'" target="_blank" rel="noopener">'+(n.source||'출처')+'</a>' : (n.source||'');
     el.innerHTML =
       '<div class="item-date">'+n.date+'</div>'+
-      '<div class="item-title">'+(n.url?'<a href="'+n.url+'" target="_blank" rel="noopener">'+n.title+'</a>':n.title)+'</div>'+
+      '<div class="item-title">'+n.title+'</div>'+
       '<div class="item-body">'+n.summary+'</div>'+
       '<div class="item-tags">'+
         '<span class="tg'+(KEYCATS[n.cat]?' key':'')+'">'+n.cat+'</span>'+
@@ -130,6 +132,7 @@
       '</div>'+
       '<div class="item-src">'+src+'</div>';
     feed.appendChild(el);
+    el.addEventListener('click', function(e){ if(e.target.closest('a')) return; if(window.openNewsModal) window.openNewsModal(n); });
   });
   var items=Array.from(feed.querySelectorAll('.item'));
 
