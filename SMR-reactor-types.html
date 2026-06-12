@@ -262,6 +262,7 @@
     if(!window.SMR_NEWS) return;
     function dkey(d){ var p=String(d).split('-'); return (p[0]||'0000')+(p[1]||'12')+(p[2]||'28'); }
     function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+    function ym(d){ var p=String(d==null?'':d).split('-'); if(!p[0]) return ''; return p[1] ? p[0]+'-'+('0'+p[1]).slice(-2) : p[0]; }
     var KEY = {'인허가':1,'계약':1};
     var BYTYPE = {};
     window.SMR_NEWS.slice()
@@ -277,7 +278,7 @@
       var box = document.createElement('div'); box.className='tcard-news';
       box.innerHTML = '<div class="tn-h">최신 노형 뉴스 · 자동 수집</div>' + matches.map(function(n){
         return '<span class="tn-item"><span class="tn-c'+(KEY[n.cat]?' key':'')+'">'+esc(n.cat)+'</span>'
-          + '<span class="tn-t"><span class="tn-d">'+esc(String(n.date).slice(5))+'</span>'+esc(n.title)+'</span></span>';
+          + '<span class="tn-t"><span class="tn-d">'+esc(ym(n.date))+'</span>'+esc(n.title)+'</span></span>';
       }).join('');
       card.appendChild(box);
       Array.from(box.querySelectorAll('.tn-item')).forEach(function(el,i){
