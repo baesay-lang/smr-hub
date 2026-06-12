@@ -229,6 +229,7 @@ function classifyPrompt(input){
  "dev":개발사/기관 짧은 이름 또는 "",
  "region":"US"|"KR"|"UK"|"CA"|"DK"|"EU"|"JP"|"" }
 [중요] cat 분류 규칙을 엄격히 적용하라: 제목·요약에 MOU·양해각서·협약·공급계약·수주·PPA·합작·파트너십 체결이 있으면 반드시 "계약"; 인가·인증·허가·건설허가·운영허가·설계인증·GDA·VDR·표준설계·안전분석 승인이면 "인허가"; IPO·상장·투자·펀딩·지분 인수·자금 조달이면 "투자"; 정부 정책·행정명령·보조금·국책 프로그램이면 "정책". 이 신호가 분명하면 절대 "기술"로 분류하지 마라. "기술"은 위 어디에도 해당 안 되는 순수 기술·시운전·마일스톤에만 쓴다.
+[표기] titleKo·summary·summaryLong 모두에서, 외국 지명·기관명·인명·전문용어·약어는 '한글(English)' 형태로 영문을 괄호 병기하라(예: 오버레이설주(Overijssel), 예비안전분석(PDSA), 미국 에너지부(DOE), 가압경수로(PWR)). 영문 명칭은 정확히 쓰고, 한국 고유명사나 이미 병기된 경우는 중복하지 마라.
 반드시 입력과 같은 순서로, 오직 JSON 배열만 출력하라. 설명 금지.
 입력:
 ${JSON.stringify(input)}`;
@@ -283,17 +284,17 @@ function writeData(list){
 /* one-time backfill (env BACKFILL=true): re-summarize existing items whose summaryLong is missing/short,
    so older items get the same fuller modal summary. Normal runs never call this (cost stays bounded). */
 async function backfillSummaries(items){
-  const targets = items.filter(n => !n.summaryLong || String(n.summaryLong).trim().length < 140);
-  console.log(`backfill: ${targets.length}/${items.length} item(s) need a fuller summary`);
   const BATCH = 8; let updated = 0;
-  for (let s=0; s<targets.length; s+=BATCH){
-    const batch = targets.slice(s, s+BATCH);
-    const input = batch.map((n,j)=>({ i:j, title:n.title, summary:n.summary||'', cat:n.cat, dev:n.dev||'', region:n.region||'' }));
+  console.log(`backfill: rewriting ${items.length} item(s) — KO(English) bilingual terms + fuller summaries`);
+  for (let s=0; s<items.length; s+=BATCH){
+    const batch = items.slice(s, s+BATCH);
+    const input = batch.map((n,j)=>({ i:j, title:n.title, summary:n.summary||'', cat:n.cat, dev:n.dev||'' }));
     const prompt =
-`다음 SMR·원자력 뉴스 각 항목에 대해 한국어 상세 요약(summaryLong)을 4~5문장으로 풍부하게 작성하라.
-- 무엇이 일어났는지 + 당사자·배경·의미·전망을 자연스럽게 설명한다.
-- 제공된 제목·요약에 없는 '구체적 수치·날짜·고유명사'를 새로 지어내지 마라(일반적 배경 설명은 가능).
-각 항목마다 {"i":번호,"summaryLong":"..."} 형태로, 오직 JSON 배열만 출력하라. 설명 금지.
+`다음 SMR·원자력 뉴스 항목의 한국어 제목과 요약을 다듬어라. 규칙:
+- 원래 의미·핵심 사실을 유지하고, 없는 수치·날짜·고유명사를 새로 지어내지 마라.
+- 외국 지명·기관명·인명·전문용어·약어는 '한글(English)' 형태로 영문을 괄호 병기하라(예: 오버레이설주(Overijssel), 예비안전분석(PDSA), 미국 에너지부(DOE), 가압경수로(PWR)). 한국 고유명사나 이미 병기된 경우는 중복하지 마라.
+- title: 간결한 한국어 제목(병기 포함). summary: 1~2문장. summaryLong: 4~5문장(배경·당사자·의미·전망).
+각 항목마다 {"i":번호,"title":"...","summary":"...","summaryLong":"..."} 형태로, 오직 JSON 배열만 출력하라. 설명 금지.
 입력:
 ${JSON.stringify(input)}`;
     let arr=[];
@@ -307,10 +308,17 @@ ${JSON.stringify(input)}`;
       const data = await res.json();
       arr = salvageJsonArray(data?.content?.[0]?.text || '');
     } catch(e){ console.error(`backfill batch ${s}-${s+batch.length-1} fail: ${e.message}`); }
-    for (const o of arr){ if (o && Number.isInteger(o.i) && o.i>=0 && o.i<batch.length && o.summaryLong){ batch[o.i].summaryLong = String(o.summaryLong).trim(); updated++; } }
-    console.log(`backfilled ${s}-${s+batch.length-1}`);
+    for (const o of arr){
+      if (!o || !Number.isInteger(o.i) || o.i<0 || o.i>=batch.length) continue;
+      const n = batch[o.i];
+      if (o.title && String(o.title).trim()) n.title = String(o.title).trim();
+      if (o.summary && String(o.summary).trim()) n.summary = String(o.summary).trim();
+      if (o.summaryLong && String(o.summaryLong).trim()) n.summaryLong = String(o.summaryLong).trim();
+      updated++;
+    }
+    console.log(`rewritten ${s}-${s+batch.length-1}`);
   }
-  console.log(`backfill updated ${updated} item(s)`);
+  console.log(`backfill rewrote ${updated} item(s)`);
   return updated;
 }
 
