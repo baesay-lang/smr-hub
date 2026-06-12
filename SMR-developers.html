@@ -62,6 +62,20 @@
   .detail .k{color:var(--accent-strong);font-weight:700;font-size:12px;display:block;}
   .src{font-size:11.5px;color:var(--text-faint);}
   .src a{color:var(--text-dim);}
+
+  /* auto-attached news (from news-data.js) */
+  .dev-news{margin-top:11px;padding-top:11px;border-top:1px dashed var(--border);}
+  .dev-news .dn-h{font-size:10px;font-weight:700;color:var(--text-faint);letter-spacing:.05em;text-transform:uppercase;
+    margin-bottom:6px;display:flex;align-items:center;gap:5px;}
+  .dev-news .dn-h::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--accent);}
+  .dev-news .dn-item{display:flex;gap:7px;align-items:baseline;font-size:12.5px;color:var(--text-dim);
+    padding:3px 0;cursor:pointer;line-height:1.4;}
+  .dev-news .dn-item:hover{color:var(--accent-strong);}
+  .dev-news .dn-c{flex:0 0 auto;font-size:9.5px;font-weight:700;padding:1px 6px;border-radius:3px;
+    background:var(--surface-3);color:var(--text-dim);}
+  .dev-news .dn-c.key{background:var(--accent-weak);color:var(--accent-strong);}
+  .dev-news .dn-t{min-width:0;}
+  .dev-news .dn-d{color:var(--text-faint);font-size:11px;font-variant-numeric:tabular-nums;margin-right:3px;}
 </style>
 </head>
 <body>
@@ -477,6 +491,49 @@
 
   if(location.hash){const el=document.querySelector(location.hash);if(el&&el.classList.contains('dev')){const b=el.querySelector('.toggle');if(b)b.click();}}
   apply();
+</script>
+<script src="news-data.js"></script>
+<script src="news-modal.js"></script>
+<script>
+  /* attach auto-collected 인허가·계약·투자 news to each developer card (matched by card id → news .dev/.title).
+     Pure front-end, zero API — new news lands automatically. */
+  (function(){
+    if(!window.SMR_NEWS) return;
+    function dkey(d){ var p=String(d).split('-'); return (p[0]||'0000')+(p[1]||'12')+(p[2]||'28'); }
+    function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+    var CATS = {'인허가':1,'계약':1,'투자':1}, KEY = {'인허가':1,'계약':1};
+    var POOL = window.SMR_NEWS.slice()
+      .filter(function(n){ return CATS[n.cat]; })
+      .sort(function(a,b){ return dkey(b.date).localeCompare(dkey(a.date)); });
+    if(!POOL.length) return;
+    var ALIAS = {
+      oklo:['oklo','aurora'], xenergy:['x-energy','xenergy','xe-100'],
+      nuscale:['nuscale','voygr'], terrapower:['terrapower','natrium'],
+      gehitachi:['ge-hitachi','ge hitachi','geh','bwrx'], kairos:['kairos','hermes'],
+      holtec:['holtec','smr-300'], rollsroyce:['rolls-royce','rolls royce'],
+      westinghouse:['westinghouse','ap300','evinci'], arc:['arc-100','arc clean'],
+      smart:['smart100','smart','kaeri'], ismr:['i-smr','ismr','혁신형'],
+      seaborg:['seaborg','saltfoss','cmsr']
+    };
+    Array.from(document.querySelectorAll('.dev')).forEach(function(dev){
+      var al = ALIAS[dev.id]; if(!al) return;
+      var matches = POOL.filter(function(n){
+        var hay = ((n.dev||'')+' '+(n.title||'')).toLowerCase();
+        return al.some(function(k){ return hay.indexOf(k) >= 0; });
+      }).slice(0,3);
+      if(!matches.length) return;
+      var foot = dev.querySelector('.dev-foot'); if(!foot) return;
+      var box = document.createElement('div'); box.className='dev-news';
+      box.innerHTML = '<div class="dn-h">최신 동향 · 자동 수집</div>' + matches.map(function(n){
+        return '<span class="dn-item"><span class="dn-c'+(KEY[n.cat]?' key':'')+'">'+esc(n.cat)+'</span>'
+          + '<span class="dn-t"><span class="dn-d">'+esc(String(n.date).slice(5))+'</span>'+esc(n.title)+'</span></span>';
+      }).join('');
+      foot.appendChild(box);
+      Array.from(box.querySelectorAll('.dn-item')).forEach(function(el,i){
+        el.addEventListener('click', function(){ if(window.openNewsModal) window.openNewsModal(matches[i]); });
+      });
+    });
+  })();
 </script>
 <script src="feedback.js" defer></script>
 </body>
