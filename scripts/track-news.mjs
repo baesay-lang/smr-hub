@@ -183,6 +183,24 @@ function betterCat(hay, cur){
   for (const [v, keys] of CAT_OVERRIDE){ if (keys.some(k => hay.includes(k))) return v; }
   return '기술';
 }
+
+/* developer/product → fixed reactor type. The classifier sometimes mis-types a known reactor
+   (e.g. Oklo Aurora = SFR, NOT Micro). Reactor type is a fixed fact per product, so a known
+   developer keyword authoritatively overrides the model's guess. Specific tokens only (avoid FPs). */
+const DEV_TYPE = [
+  ['evinci','Micro'],
+  ['xe-100','HTGR'], ['x-energy','HTGR'], ['xenergy','HTGR'],
+  ['bwrx','BWR'],
+  ['kairos','FHR'], ['kp-fhr','FHR'], ['hermes','FHR'],
+  ['oklo','SFR'], ['aurora','SFR'], ['natrium','SFR'], ['terrapower','SFR'], ['arc-100','SFR'], ['arc clean','SFR'],
+  ['seaborg','MSR'], ['saltfoss','MSR'], ['cmsr','MSR'],
+  ['nuscale','PWR'], ['voygr','PWR'], ['ap300','PWR'], ['holtec','PWR'], ['smr-300','PWR'],
+  ['rolls-royce','PWR'], ['rolls royce','PWR'], ['smart100','PWR'], ['i-smr','PWR'], ['ismr','PWR'], ['혁신형','PWR'],
+];
+function betterType(hay, cur){
+  for (const [kw, t] of DEV_TYPE){ if (hay.includes(kw)) return t; }
+  return VALIDTYPE.includes(cur) ? cur : 'General';
+}
 function ruleTag(it){
   const hay = (it.title + ' ' + it.snip).toLowerCase();
   const sm = it.snip.trim();
@@ -300,9 +318,13 @@ async function main(){
   const useClaude = !!API_KEY;
   console.log('classify mode:', useClaude ? 'Claude API' : 'rule-based (free)');
   const existing = loadExisting();
-  let repaired = 0;   // self-heal previously mis-tagged 기술 items
-  existing.forEach(n => { const nc = betterCat(((n.title||'')+' '+(n.summary||'')).toLowerCase(), n.cat); if (nc !== n.cat){ n.cat = nc; repaired++; } });
-  if (repaired) console.log(`cat-repaired ${repaired} existing item(s)`);
+  let repaired = 0;   // self-heal previously mis-tagged cat/type on existing items
+  existing.forEach(n => {
+    const hay = ((n.dev||'')+' '+(n.title||'')+' '+(n.summary||'')).toLowerCase();
+    const nc = betterCat(hay, n.cat); if (nc !== n.cat){ n.cat = nc; repaired++; }
+    const nt = betterType(hay, n.type); if (nt !== n.type){ n.type = nt; repaired++; }
+  });
+  if (repaired) console.log(`repaired ${repaired} cat/type field(s) on existing items`);
 
   if (process.env.BACKFILL === 'true'){   // one-time: lengthen existing summaries, then write & exit
     const u = await backfillSummaries(existing);
@@ -335,7 +357,7 @@ async function main(){
       summary: (c.summary || '').trim(),
       summaryLong: (c.summaryLong || '').trim() || undefined,
       cat: betterCat(((c.titleKo||src.title)+' '+(src.title||'')+' '+(c.summary||'')).toLowerCase(), VALIDCAT.includes(c.cat) ? c.cat : '기술'),
-      type: VALIDTYPE.includes(c.type) ? c.type : 'General',
+      type: betterType(((c.titleKo||src.title)+' '+(src.title||'')+' '+(c.dev||'')+' '+(c.summary||'')).toLowerCase(), VALIDTYPE.includes(c.type) ? c.type : 'General'),
       dev: (c.dev || '').trim(),
       region: (c.region || '').trim(),
       source: src.source,
