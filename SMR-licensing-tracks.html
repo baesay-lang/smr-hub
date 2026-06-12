@@ -48,6 +48,16 @@
   .empty{color:var(--text-dim);font-size:13.5px;padding:12px 0;font-style:italic;}
 
   .expandall{margin:0 0 16px;}
+
+  /* auto-attached licensing news (from news-data.js) */
+  .co-news{margin:2px 0 2px;padding:8px 13px;background:var(--surface);border:1px solid var(--border);
+    border-left:3px solid var(--accent);border-radius:0 var(--radius-sm) var(--radius-sm) 0;}
+  .co-news .cn-h{font-size:10px;font-weight:700;color:var(--accent-strong);letter-spacing:.04em;text-transform:uppercase;
+    margin-bottom:4px;display:flex;align-items:center;gap:5px;}
+  .co-news .cn-h::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--accent);}
+  .co-news .cn-item{display:block;font-size:12.5px;color:var(--text-dim);padding:3px 0;cursor:pointer;line-height:1.45;}
+  .co-news .cn-item:hover{color:var(--accent-strong);}
+  .co-news .cn-d{color:var(--text-faint);font-variant-numeric:tabular-nums;font-size:11px;margin-right:7px;}
 </style>
 </head>
 <body>
@@ -246,6 +256,47 @@
   window.addEventListener('hashchange',openHash);
   openHash();
   if(!location.hash){document.getElementById('part50').classList.add('open');}
+</script>
+<script src="news-data.js"></script>
+<script src="news-modal.js"></script>
+<script>
+  /* attach auto-collected 인허가 news under each developer row (matched by the
+     SMR-developers.html#key anchor → news .dev/.title). Pure front-end, zero API. */
+  (function(){
+    if(!window.SMR_NEWS) return;
+    function dkey(d){ var p=String(d).split('-'); return (p[0]||'0000')+(p[1]||'12')+(p[2]||'28'); }
+    function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
+    var LIC = window.SMR_NEWS.slice()
+      .filter(function(n){ return n.cat==='인허가'; })
+      .sort(function(a,b){ return dkey(b.date).localeCompare(dkey(a.date)); });
+    if(!LIC.length) return;
+    var ALIAS = {
+      oklo:['oklo','aurora'], xenergy:['x-energy','xenergy','xe-100'],
+      nuscale:['nuscale','voygr'], terrapower:['terrapower','natrium'],
+      gehitachi:['ge-hitachi','ge hitachi','geh','bwrx'], kairos:['kairos','hermes'],
+      holtec:['holtec','smr-300'], rollsroyce:['rolls-royce','rolls royce'],
+      westinghouse:['westinghouse','ap300','evinci'], arc:['arc-100','arc clean'],
+      smart:['smart100','smart','kaeri'], ismr:['i-smr','ismr','혁신형'],
+      seaborg:['seaborg','saltfoss','cmsr']
+    };
+    Array.from(document.querySelectorAll('.co')).forEach(function(co){
+      var a = co.querySelector('a[href*="#"]'); if(!a) return;
+      var key = (a.getAttribute('href').split('#')[1]||'').toLowerCase();
+      var al = ALIAS[key]; if(!al) return;
+      var matches = LIC.filter(function(n){
+        var hay = ((n.dev||'')+' '+(n.title||'')).toLowerCase();
+        return al.some(function(k){ return hay.indexOf(k) >= 0; });
+      }).slice(0,3);
+      if(!matches.length) return;
+      var box = document.createElement('div'); box.className='co-news';
+      box.innerHTML = '<div class="cn-h">최신 인허가 동향 · 자동 수집</div>' +
+        matches.map(function(n){ return '<span class="cn-item"><span class="cn-d">'+esc(n.date)+'</span>'+esc(n.title)+'</span>'; }).join('');
+      co.parentNode.insertBefore(box, co.nextSibling);
+      Array.from(box.querySelectorAll('.cn-item')).forEach(function(el,i){
+        el.addEventListener('click', function(){ if(window.openNewsModal) window.openNewsModal(matches[i]); });
+      });
+    });
+  })();
 </script>
 <script src="feedback.js" defer></script>
 </body>
