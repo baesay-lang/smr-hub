@@ -344,10 +344,9 @@ async function main(){
     });
   });
 
-  if (toAdd.length === 0 && repaired === 0) { console.log('no new items & nothing to repair — exiting'); return; }
-
+  // always rewrite so SMR_UPDATED reflects THIS run (last-checked time), even with 0 new items
   writeData(existing.concat(toAdd));
-  console.log(`added ${toAdd.length} item(s):`);
+  console.log(`run complete — added ${toAdd.length}, repaired ${repaired}:`);
   toAdd.forEach(n => console.log(`  · ${n.date} [${n.cat}/${n.type}] ${n.title}`));
 }
 
