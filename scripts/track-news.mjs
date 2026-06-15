@@ -25,6 +25,11 @@ const SOURCES = [
   'https://www.energy-news.co.kr/rss/allArticle.xml', // 에너지신문
   'https://www.yna.co.kr/rss/news.xml',               // 연합뉴스 (종합)
   'https://www.yna.co.kr/rss/economy.xml',            // 연합뉴스 (경제)
+  // developer / society primary sources (press releases — high-trust, full body)
+  'https://www.ans.org/news/feed/',                          // ANS Newswire (American Nuclear Society)
+  'https://holtecinternational.com/feed/',                   // Holtec International (보도자료)
+  'https://investors.x-energy.com/rss/news-releases.xml',    // X-energy IR (보도자료)
+  'https://investors.centrusenergy.com/rss/news-releases.xml', // Centrus (HALEU 연료)
   // Google News RSS — broad + fresh aggregator (links are redirects, body not fetchable)
   'https://news.google.com/rss/search?q=%22small%20modular%20reactor%22&hl=en-US&gl=US&ceid=US:en',
   'https://news.google.com/rss/search?q=SMR%20%EC%9B%90%EC%9E%90%EB%A0%A5&hl=ko&gl=KR&ceid=KR:ko',
