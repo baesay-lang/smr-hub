@@ -339,29 +339,47 @@ function writeData(list){
   fs.writeFileSync(FILE, HEADER + JSON.stringify(list, null, 2) + ';\nwindow.SMR_UPDATED = ' + JSON.stringify(updated) + ';\n');
 }
 
-/* AI 전문(detail) — transformative explainer (KO + EN + term glossary), NOT a copy of the source.
-   Written to articles/<id>.json and lazy-loaded by the modal. */
-async function generateDetail(item){
-  const isKo = /[가-힣]/.test(item.source || '');   // Korean-source article → no English version needed
-  const prompt = isKo ?
-`다음 한국 SMR·원자력 뉴스에 대해 '읽기 쉬운 상세 해설'을 한국어로 작성하라. 원문 복제 금지, 제공 정보와 배경지식으로 재구성, 없는 수치·날짜·고유명사 지어내지 마라.
-제목: ${item.title}
-요약: ${item.summaryLong || item.summary || ''}
+/* best-effort fetch of the real article body (direct outlets). Google News links are JS redirect
+   shells with no body → returns '' and we fall back to the snippet. */
+async function fetchBody(url){
+  if (!url || url.indexOf('news.google.') !== -1) return '';
+  const ctrl = new AbortController(); const to = setTimeout(()=>ctrl.abort(), 15000);
+  try {
+    const res = await fetch(url, { signal: ctrl.signal, redirect:'follow',
+      headers: { 'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36', 'Accept-Language':'en,ko' } });
+    clearTimeout(to);
+    if (!res.ok) return '';
+    let html = await res.text();
+    html = html.replace(/<script[\s\S]*?<\/script>/gi,' ').replace(/<style[\s\S]*?<\/style>/gi,' ');
+    const ps = html.match(/<p[\s>][\s\S]*?<\/p>/gi) || [];
+    let text = ps.map(p=>p.replace(/<[^>]+>/g,' ')).join('\n')
+      .replace(/&nbsp;/gi,' ').replace(/&amp;/gi,'&').replace(/&quot;/gi,'"').replace(/&#39;/gi,"'").replace(/&[a-z0-9#]+;/gi,' ')
+      .replace(/[ \t]+/g,' ').replace(/\n{2,}/g,'\n').trim();
+    return text.length > 200 ? text.slice(0, 4500) : '';
+  } catch(e){ clearTimeout(to); return ''; }
+}
+
+/* AI 전문(detail) — comprehensive Korean digest (KO [+EN] + term glossary). Grounded in the real
+   article body when available (direct outlets); else built from the snippet. A transformative
+   digest covering all key points — NOT a verbatim copy (copyright). */
+async function generateDetail(item, body){
+  const isKo = /[가-힣]/.test(item.source || '');
+  const hasBody = !!(body && body.length > 200);
+  const src = hasBody ? ('원문 본문:\n' + body) : ('제목: ' + item.title + '\n요약: ' + (item.summaryLong || item.summary || ''));
+  const koLine = hasBody
+    ? '"detailKo":"원문 본문의 핵심을 빠짐없이 담은 상세한 한국어 정리. 사실·수치·일정·관계자 발언 등 중요한 내용을 모두 포함하되 자연스러운 우리말로 재구성(직역·전체 복제 금지). 8~16문장, 문단은 \\n\\n 으로 구분, 외국 지명·기관·인명·전문용어·약어는 한글(English)로 병기, 가독성 있게.",'
+    : '"detailKo":"제공된 정보와 일반 배경지식으로 가능한 한 상세히 재구성한 한국어 정리. 배경→핵심→의미·전망. 6~10문장, 문단은 \\n\\n 으로 구분, 외국 지명·기관·용어·약어는 한글(English) 병기. 없는 수치·날짜·고유명사는 지어내지 말 것.",';
+  const enLine = isKo ? '"detailEn":"",'
+    : (hasBody ? '"detailEn":"위 한국어 정리와 같은 내용을 자연스러운 영어로 8~12문장.",' : '"detailEn":"같은 내용을 자연스러운 영어로 5~9문장.",');
+  const prompt =
+`다음 SMR·원자력 뉴스를 한국어로 상세히 정리하라. 원문을 그대로 복제하지 말고 핵심을 모두 담아 재구성하라. 제공된 내용에 없는 구체적 수치·날짜·고유명사를 새로 지어내지 마라.
+${src}
 분류: ${item.cat} / 노형: ${item.type} / 개발사: ${item.dev || ''} / 출처: ${item.source || ''}
-아래 JSON만 출력(설명 금지, 줄바꿈은 \\n):
-{"detailKo":"한국어 상세 해설 6~10문장, 문단은 \\n\\n 으로 구분, 외국 지명·기관·인명·전문용어·약어는 한글(English)로 병기, 가독성 있게.",
- "detailEn":"",
- "terms":[{"t":"용어 또는 약어(영문 포함)","d":"한국어 한 줄 설명"}]}`
-:
-`다음 SMR·원자력 뉴스에 대해 '읽기 쉬운 상세 해설'을 작성하라. 원문을 그대로 복제하지 말고, 제공된 정보와 일반 배경지식으로 재구성하라. 제공 정보에 없는 구체적 수치·날짜·고유명사를 새로 지어내지 마라.
-제목: ${item.title}
-요약: ${item.summaryLong || item.summary || ''}
-분류: ${item.cat} / 노형: ${item.type} / 개발사: ${item.dev || ''} / 출처: ${item.source || ''}
-아래 JSON만 출력하라(설명 금지). 문자열 내 줄바꿈은 \\n 으로 이스케이프:
-{"detailKo":"한국어 상세 해설. 배경→핵심 내용→의미·전망 흐름으로 6~10문장. 문단은 \\n\\n 으로 구분. 외국 지명·기관·인명·전문용어·약어는 한글(English)로 병기. 쉽고 가독성 있게.",
- "detailEn":"같은 내용을 자연스러운 영어로 5~9문장.",
+아래 JSON만 출력(설명 금지, 문자열 내 줄바꿈은 \\n):
+{${koLine}
+ ${enLine}
  "terms":[{"t":"용어 또는 약어(영문 포함)","d":"한국어 한 줄 설명"}]}`;
-  const body = JSON.stringify({ model: MODEL, max_tokens: 4000, messages:[{ role:'user', content: prompt }] });
+  const reqBody = JSON.stringify({ model: MODEL, max_tokens: 4000, messages:[{ role:'user', content: prompt }] });
   for (let attempt=0; attempt<3; attempt++){
     const ctrl = new AbortController();
     const to = setTimeout(()=>ctrl.abort(), 30000);   // hard 30s timeout so one hung request can't stall the run
@@ -369,7 +387,7 @@ async function generateDetail(item){
       const res = await fetch('https://api.anthropic.com/v1/messages', {
         method:'POST',
         headers:{ 'x-api-key': API_KEY, 'anthropic-version':'2023-06-01', 'content-type':'application/json' },
-        body, signal: ctrl.signal
+        body: reqBody, signal: ctrl.signal
       });
       clearTimeout(to);
       if (res.status === 429 || res.status >= 500){ await sleep(2000*(attempt+1)); continue; }   // throttled/5xx → backoff & retry
@@ -391,40 +409,34 @@ function writeDetail(id, item, d){
     detailKo: d.detailKo, detailEn: d.detailEn, terms: d.terms
   }));
 }
-async function ensureDetail(item){          // generate + persist detail; sets item.id
+async function ensureDetail(item){          // generate + persist detail; sets item.id (new-item path: skip if exists)
   const id = articleId(item.url);
   item.id = id;
   if (fs.existsSync(`${ARTICLES_DIR}/${id}.json`)) return false;   // already done
-  const d = await generateDetail(item);
+  const body = await fetchBody(item.url);
+  const d = await generateDetail(item, body);
   if (d){ writeDetail(id, item, d); return true; }
   return false;
 }
 
-/* one-time backfill (env BACKFILL=true): generate AI 전문 for every existing item that lacks one
-   (also stamps each with its id). Idempotent — skips items whose detail file already exists. */
+/* one-time backfill (env BACKFILL=true): REGENERATE the AI 전문 for every item, fetching the real
+   article body where available (direct outlets) so the 전문 contains the full detail. */
 async function backfillDetails(items){
   fs.mkdirSync(ARTICLES_DIR, { recursive: true });
-  items.forEach(it => { it.id = articleId(it.url); });                         // stamp id on every item
-  // free pass: strip the English version from existing Korean-source articles (no API call)
-  let stripped = 0;
-  for (const it of items){
-    const p = `${ARTICLES_DIR}/${it.id}.json`;
-    if (!fs.existsSync(p) || !/[가-힣]/.test(it.source||'')) continue;
-    try { const j = JSON.parse(fs.readFileSync(p,'utf8')); if (j.detailEn){ j.detailEn=''; fs.writeFileSync(p, JSON.stringify(j)); stripped++; } } catch {}
-  }
-  if (stripped) console.log(`stripped English from ${stripped} Korean-source article(s)`);
-  const todo = items.filter(it => !fs.existsSync(`${ARTICLES_DIR}/${it.id}.json`));
-  console.log(`detail backfill: ${todo.length}/${items.length} need a detail file`);
-  let made = 0, idx = 0;
+  items.forEach(it => { it.id = articleId(it.url); });            // stamp id on every item
+  console.log(`detail backfill: regenerating ${items.length} item(s) (fetching article body where available)`);
+  let made = 0, fetched = 0, idx = 0;
   async function worker(){
-    while (idx < todo.length){
-      const it = todo[idx++];
-      const d = await generateDetail(it);
-      if (d){ writeDetail(it.id, it, d); made++; if (made % 15 === 0) console.log(`... made ${made}/${todo.length}`); }
+    while (idx < items.length){
+      const it = items[idx++];
+      const body = await fetchBody(it.url);
+      if (body) fetched++;
+      const d = await generateDetail(it, body);
+      if (d){ writeDetail(it.id, it, d); made++; if (made % 20 === 0) console.log(`... ${made}/${items.length} (body-grounded ${fetched})`); }
     }
   }
-  await Promise.all(Array.from({ length: 6 }, worker));                        // 6 concurrent → ~6x faster, with per-call timeout
-  console.log(`detail backfill done — ${made} new detail file(s)`);
+  await Promise.all(Array.from({ length: 6 }, worker));           // 6 concurrent, each with per-call timeouts
+  console.log(`detail backfill done — regenerated ${made}/${items.length}, body-grounded ${fetched}`);
   return made;
 }
 
