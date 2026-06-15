@@ -23,6 +23,8 @@ const SOURCES = [
   'https://www.electimes.com/rss/allArticle.xml',     // 전기신문
   'https://www.e2news.com/rss/allArticle.xml',        // 이투뉴스
   'https://www.energy-news.co.kr/rss/allArticle.xml', // 에너지신문
+  'https://www.energydaily.co.kr/rss/allArticle.xml', // 에너지데일리
+  'https://www.todayenergy.kr/rss/allArticle.xml',    // 투데이에너지
   'https://www.yna.co.kr/rss/news.xml',               // 연합뉴스 (종합)
   'https://www.yna.co.kr/rss/economy.xml',            // 연합뉴스 (경제)
   // developer / society primary sources (press releases — high-trust, full body)
