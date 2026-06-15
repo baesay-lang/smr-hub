@@ -507,10 +507,13 @@ async function main(){
   let adds = toAdd;
   if (useClaude && adds.length > 1) adds = await dedupeNew(adds, existing.map(n => n.title));
 
-  // generate AI 전문 for each new item (sets .id, writes articles/<id>.json)
+  // generate AI 전문 for each new item (sets .id, writes articles/<id>.json) — concurrent so a
+  // surge of new items (e.g. when a new feed is first added) doesn't make the run crawl
   if (adds.length){
     fs.mkdirSync(ARTICLES_DIR, { recursive: true });
-    for (const n of adds){ await ensureDetail(n); }
+    let di = 0;
+    const dworker = async () => { while (di < adds.length){ await ensureDetail(adds[di++]); } };
+    await Promise.all(Array.from({ length: 6 }, dworker));
   }
   // always rewrite so SMR_UPDATED reflects THIS run (last-checked time), even with 0 new items
   writeData(existing.concat(adds));
