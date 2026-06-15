@@ -284,7 +284,7 @@ async function classify(items){
 async function dedupeNew(items, existingTitles){
   if (!API_KEY || items.length === 0) return items;
   const prompt =
-`아래 '신규' 기사 중에서 (a) 다른 신규 기사 또는 (b) '기존' 기사와 '동일한 구체적 사건·발표'를 다루는 중복만 제거하라. 단순히 같은 회사·주제·노형이라는 이유로는 중복이 아니다(서로 다른 사건이면 모두 유지). 남길 신규 기사의 i 번호만 JSON 배열로 출력하라(예: [0,2,3]). 설명 금지.
+`아래 '신규' 기사 중에서 (a) 다른 신규 기사 또는 (b) '기존' 기사와 '사실상 같은 내용(핵심 메시지·주제가 거의 동일)'인 중복을 제거하라. 같은 주제를 같은 시기에 다룬 다른 매체·칼럼도 중복으로 본다. 단, 시점이 뚜렷이 다른 후속 전개이거나 명백히 다른 사건(예: 인허가 발표 vs 계약 체결, 다른 부지·다른 국가)은 유지하라. 남길 신규 기사의 i 번호만 JSON 배열로 출력하라(예: [0,2,3]). 설명 금지.
 신규: ${JSON.stringify(items.map((n,i)=>({ i, title:n.title })))}
 기존: ${JSON.stringify(existingTitles.slice(0,40))}`;
   try {
@@ -311,7 +311,7 @@ async function dedupeExisting(items){
   if (!API_KEY || items.length < 2) return items;
   const input = items.map((n,i)=>({ i, title:n.title, date:n.date }));
   const prompt =
-`아래 기사 목록에서 '동일한 구체적 사건·발표'를 다루는 중복 그룹을 찾아, 각 그룹에서 date가 가장 최근인 1건만 남기고 나머지의 i 번호만 '제거 대상' JSON 배열로 출력하라(예: [5,12]). 단순히 같은 회사·주제·노형이면 중복이 아니다(서로 다른 사건이면 유지). 없으면 []. 설명 금지.
+`아래 기사 목록에서 '사실상 같은 내용(핵심 메시지·주제가 거의 동일)'인 중복 기사를 찾아라. 특히 date가 서로 7일 이내이고 같은 주제를 다루면 중복으로 본다(다른 매체·칼럼이어도). 각 중복 그룹에서 date가 가장 최근인 1건만 남기고 나머지의 i 번호만 '제거 대상' JSON 배열로 출력하라(예: [5,12]). 단, 시점이 뚜렷이 다른 후속 전개이거나 명백히 다른 사건(예: 인허가 발표 vs 계약 체결, 다른 부지·다른 국가)은 유지하라. 없으면 []. 설명 금지.
 ${JSON.stringify(input)}`;
   try {
     const res = await fetch('https://api.anthropic.com/v1/messages', {
