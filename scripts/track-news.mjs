@@ -30,9 +30,11 @@ const SOURCES = [
   'https://holtecinternational.com/feed/',                   // Holtec International (보도자료)
   'https://investors.x-energy.com/rss/news-releases.xml',    // X-energy IR (보도자료)
   'https://investors.centrusenergy.com/rss/news-releases.xml', // Centrus (HALEU 연료)
-  // Google News RSS — broad + fresh aggregator (links are redirects, body not fetchable)
+  // Google News RSS — broad + fresh aggregator (links are redirects, body not fetchable → 요약 전문)
   'https://news.google.com/rss/search?q=%22small%20modular%20reactor%22&hl=en-US&gl=US&ceid=US:en',
   'https://news.google.com/rss/search?q=SMR%20%EC%9B%90%EC%9E%90%EB%A0%A5&hl=ko&gl=KR&ceid=KR:ko',
+  // developer-name query — catches developer news that doesn't use the phrase "SMR"
+  'https://news.google.com/rss/search?q=%22NuScale%22%20OR%20%22X-energy%22%20OR%20%22Oklo%22%20OR%20%22TerraPower%22%20OR%20%22Kairos%20Power%22%20OR%20%22Rolls-Royce%20SMR%22%20OR%20%22BWRX-300%22%20OR%20%22eVinci%22&hl=en-US&gl=US&ceid=US:en',
 ];
 // non-RSS HTML boards (scraped). Korean domestic policy/news.
 const HTML_BOARDS = [
@@ -413,7 +415,7 @@ ${src}
       if (!m) return null;
       const d = JSON.parse(m[0]);
       if (!d.detailKo) return null;
-      return { detailKo: String(d.detailKo||''), detailEn: isKo ? '' : String(d.detailEn||''), terms: Array.isArray(d.terms) ? d.terms.slice(0,8) : [] };
+      return { detailKo: String(d.detailKo||''), detailEn: isKo ? '' : String(d.detailEn||''), terms: Array.isArray(d.terms) ? d.terms.slice(0,8) : [], grounded: hasBody };
     } catch(e){ clearTimeout(to); if (attempt === 2){ console.error(`detail gen fail: ${e.message}`); return null; } await sleep(1500); }
   }
   return null;
@@ -421,7 +423,7 @@ ${src}
 function writeDetail(id, item, d){
   fs.writeFileSync(`${ARTICLES_DIR}/${id}.json`, JSON.stringify({
     id, k: item.k || '', title: item.title, url: item.url || '', source: item.source || '',
-    detailKo: d.detailKo, detailEn: d.detailEn, terms: d.terms
+    detailKo: d.detailKo, detailEn: d.detailEn, terms: d.terms, grounded: !!d.grounded
   }));
 }
 async function ensureDetail(item){          // generate + persist detail; sets item.id (new-item path: skip if exists)

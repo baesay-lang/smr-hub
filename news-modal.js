@@ -43,6 +43,9 @@
     +'.nm-term{font-size:13px;line-height:1.55;color:var(--text-dim,#5a6473);}'
     +'.nm-term b{color:var(--accent-strong,#1d4ed8);font-weight:700;}'
     +'.nm-load{font-size:13px;color:var(--text-faint,#8b93a2);padding:10px 0;}'
+    +'.nm-note{font-size:12px;line-height:1.55;color:#92400e;background:#fffbeb;border:1px solid #fae3bf;'
+    +'border-radius:7px;padding:8px 11px;margin:2px 0 12px;}'
+    +'.nm-note b{color:#92400e;}'
     +'.nm-src{font-size:12px;color:var(--text-faint,#8b93a2);margin-top:16px;}'
     +'.nm-actions{display:flex;gap:9px;margin-top:14px;}'
     +'.nm-btn{display:inline-flex;align-items:center;justify-content:center;font:600 14px/1 inherit;padding:11px 16px;'
@@ -69,7 +72,7 @@
     + '<div class="nm-tags" id="nm-tags"></div>'
     + '<div class="nm-sumlabel">요약</div>'
     + '<div class="nm-sum" id="nm-sum"></div>'
-    + '<button class="nm-more" id="nm-more" hidden>전문 보기 ▾</button>'
+    + '<button class="nm-more" id="nm-more" hidden>자세히 보기 ▾</button>'
     + '<div id="nm-detail" hidden></div>'
     + '<div class="nm-src" id="nm-src"></div>'
     + '<div class="nm-actions">'
@@ -96,13 +99,16 @@
   }
 
   function renderDetail(d){
+    // body-grounded full text vs policy-limited summary (Google News redirects can't expose body)
+    var grounded = (d && typeof d.grounded === 'boolean') ? d.grounded : !(((curItem && curItem.url) || '').indexOf('news.google') >= 0);
     var html = '';
-    if (d && d.detailKo) html += '<div class="nm-sec">전문 · 한국어</div>' + paras(d.detailKo);
-    if (d && d.detailEn) html += '<div class="nm-sec">Full text · English</div><div class="en">' + paras(d.detailEn) + '</div>';
+    if (!grounded) html += '<div class="nm-note">ⓘ 이 기사는 제공처(예: 구글뉴스) 정책상 <b>원문 전문</b>을 싣지 못해, 핵심을 정리한 <b>요약</b>입니다. 전체 내용은 아래 <b>원문 보기</b>에서 확인하세요.</div>';
+    if (d && d.detailKo) html += '<div class="nm-sec">' + (grounded ? '전문 · 한국어' : '요약 · 한국어') + '</div>' + paras(d.detailKo);
+    if (d && d.detailEn) html += '<div class="nm-sec">' + (grounded ? 'Full text · English' : 'Summary · English') + '</div><div class="en">' + paras(d.detailEn) + '</div>';
     if (d && d.terms && d.terms.length) html += '<div class="nm-sec">주요 용어</div><div class="nm-terms">'
       + d.terms.map(function(t){ return '<div class="nm-term"><b>'+esc(t.t)+'</b> — '+esc(t.d)+'</div>'; }).join('') + '</div>';
-    detailEl.innerHTML = html || '<div class="nm-load">전문이 아직 없습니다 — 아래 원문을 참고해 주세요.</div>';
-    detailEl.hidden = false; curLoaded = true; moreBtn.textContent = '전문 접기 ▲';
+    detailEl.innerHTML = html || '<div class="nm-load">내용이 아직 없습니다 — 아래 원문을 참고해 주세요.</div>';
+    detailEl.hidden = false; curLoaded = true; moreBtn.textContent = '접기 ▲';
   }
 
   function loadDetail(id){
@@ -114,7 +120,7 @@
       .catch(function(){
         if (id !== curId) return;
         detailEl.innerHTML = '<div class="nm-load">전문을 준비 중입니다. 아래 <b>원문 보기</b>로 확인해 주세요.</div>';
-        detailEl.hidden = false; curLoaded = true; moreBtn.textContent = '전문 접기 ▲';
+        detailEl.hidden = false; curLoaded = true; moreBtn.textContent = '접기 ▲';
       });
   }
 
@@ -123,7 +129,7 @@
     if (curLoaded){
       var show = detailEl.hidden;
       detailEl.hidden = !show;
-      moreBtn.textContent = show ? '전문 접기 ▲' : '전문 보기 ▾';
+      moreBtn.textContent = show ? '접기 ▲' : '자세히 보기 ▾';
       return;
     }
     loadDetail(curId);
@@ -141,7 +147,7 @@
     curItem = n;
     curId = n.id || null; curLoaded = false;
     detailEl.hidden = true; detailEl.innerHTML = '';
-    if (curId){ moreBtn.hidden = false; moreBtn.textContent = '전문 보기 ▾'; } else { moreBtn.hidden = true; }
+    if (curId){ moreBtn.hidden = false; moreBtn.textContent = '자세히 보기 ▾'; } else { moreBtn.hidden = true; }
     ov.hidden = false;
     document.body.style.overflow = 'hidden';
     if (ov.querySelector('#nm-card')) ov.querySelector('#nm-card').scrollTop = 0;
