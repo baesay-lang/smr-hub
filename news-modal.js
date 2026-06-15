@@ -186,18 +186,10 @@
   function share(n){
     if (!n) return;
     var m = buildShare(n);
-    copyText(m.subject + '\r\n\r\n' + m.body);   // silent safety copy — no message shown if a mail app opens
+    copyText(m.subject + '\r\n\r\n' + m.body);   // always copy as a safety net
     var mailto = 'mailto:?subject=' + encodeURIComponent(m.subject) + '&body=' + encodeURIComponent(m.body);
-    // heuristic: if a mail app opens, the window loses focus → no notice. If nothing handles
-    // mailto (no Outlook/linked mail), no blur fires → fall back to "copied, paste it" notice.
-    var opened = false;
-    var onblur = function(){ opened = true; window.removeEventListener('blur', onblur); };
-    window.addEventListener('blur', onblur);
-    setTimeout(function(){
-      window.removeEventListener('blur', onblur);
-      if (!opened) toast('연결된 메일 앱이 없어요 — 내용을 클립보드에 복사했습니다. 메일/메신저 본문에 붙여넣기(Ctrl+V) 하세요.');
-    }, 1200);
     var a = document.createElement('a'); a.href = mailto; document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 0);
+    toast('내용을 클립보드에 복사했습니다 — 메일이 안 열리면 본문에 붙여넣기(Ctrl+V) 하세요.');
   }
   $('nm-share').addEventListener('click', function(){ share(curItem); });
 
