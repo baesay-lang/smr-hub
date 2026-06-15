@@ -23,6 +23,8 @@ const SOURCES = [
   'https://www.electimes.com/rss/allArticle.xml',     // 전기신문
   'https://www.e2news.com/rss/allArticle.xml',        // 이투뉴스
   'https://www.energy-news.co.kr/rss/allArticle.xml', // 에너지신문
+  'https://www.yna.co.kr/rss/news.xml',               // 연합뉴스 (종합)
+  'https://www.yna.co.kr/rss/economy.xml',            // 연합뉴스 (경제)
   // Google News RSS — broad + fresh aggregator (links are redirects, body not fetchable)
   'https://news.google.com/rss/search?q=%22small%20modular%20reactor%22&hl=en-US&gl=US&ceid=US:en',
   'https://news.google.com/rss/search?q=SMR%20%EC%9B%90%EC%9E%90%EB%A0%A5&hl=ko&gl=KR&ceid=KR:ko',
