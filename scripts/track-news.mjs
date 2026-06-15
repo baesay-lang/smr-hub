@@ -38,6 +38,7 @@ const MODEL = 'claude-haiku-4-5-20251001';  // cheap + fast for tagging
 const VALIDCAT = ['인허가','계약','투자','기술','정책'];
 const VALIDTYPE = ['General','PWR','BWR','SFR','HTGR','FHR','MSR','Micro'];
 const FILE = 'news-data.js';
+const ARTICLES_DIR = 'articles';            // per-article AI detail (전문) — lazy-loaded by the modal
 const API_KEY = process.env.ANTHROPIC_API_KEY;
 
 // our 13 tracked developers — any news mentioning one of these is ALWAYS kept (ignores the cap & relevance filter)
@@ -63,6 +64,8 @@ window.SMR_NEWS = `;
 const dkey = (d) => { const p = String(d).split('-'); return (p[0]||'0000')+(p[1]||'12')+(p[2]||'28'); };
 const todayISO = () => new Date().toISOString().slice(0,10);
 const host = (u) => { try { return new URL(u).hostname.replace(/^www\./,''); } catch { return u; } };
+// stable 8-hex id from the article url (FNV-1a) → articles/<id>.json filename
+const articleId = (url) => { let h = 0x811c9dc5; const s = String(url||''); for (let i=0;i<s.length;i++){ h = Math.imul(h ^ s.charCodeAt(i), 0x01000193); } return (h>>>0).toString(16).padStart(8,'0'); };
 
 function loadExisting(){
   const text = fs.readFileSync(FILE,'utf8');
@@ -281,45 +284,60 @@ function writeData(list){
   fs.writeFileSync(FILE, HEADER + JSON.stringify(list, null, 2) + ';\nwindow.SMR_UPDATED = ' + JSON.stringify(updated) + ';\n');
 }
 
-/* one-time backfill (env BACKFILL=true): re-summarize existing items whose summaryLong is missing/short,
-   so older items get the same fuller modal summary. Normal runs never call this (cost stays bounded). */
-async function backfillSummaries(items){
-  const BATCH = 8; let updated = 0;
-  console.log(`backfill: rewriting ${items.length} item(s) — KO(English) bilingual terms + fuller summaries`);
-  for (let s=0; s<items.length; s+=BATCH){
-    const batch = items.slice(s, s+BATCH);
-    const input = batch.map((n,j)=>({ i:j, title:n.title, summary:n.summary||'', cat:n.cat, dev:n.dev||'' }));
-    const prompt =
-`다음 SMR·원자력 뉴스 항목의 한국어 제목과 요약을 다듬어라. 규칙:
-- 원래 의미·핵심 사실을 유지하고, 없는 수치·날짜·고유명사를 새로 지어내지 마라.
-- 외국 지명·기관명·인명·전문용어·약어는 '한글(English)' 형태로 영문을 괄호 병기하라(예: 오버레이설주(Overijssel), 예비안전분석(PDSA), 미국 에너지부(DOE), 가압경수로(PWR)). 한국 고유명사나 이미 병기된 경우는 중복하지 마라.
-- title: 간결한 한국어 제목(병기 포함). summary: 1~2문장. summaryLong: 4~5문장(배경·당사자·의미·전망).
-각 항목마다 {"i":번호,"title":"...","summary":"...","summaryLong":"..."} 형태로, 오직 JSON 배열만 출력하라. 설명 금지.
-입력:
-${JSON.stringify(input)}`;
-    let arr=[];
-    try {
-      const res = await fetch('https://api.anthropic.com/v1/messages', {
-        method:'POST',
-        headers:{ 'x-api-key': API_KEY, 'anthropic-version':'2023-06-01', 'content-type':'application/json' },
-        body: JSON.stringify({ model: MODEL, max_tokens: 8000, messages:[{ role:'user', content: prompt }] })
-      });
-      if (!res.ok) throw new Error(`API ${res.status}`);
-      const data = await res.json();
-      arr = salvageJsonArray(data?.content?.[0]?.text || '');
-    } catch(e){ console.error(`backfill batch ${s}-${s+batch.length-1} fail: ${e.message}`); }
-    for (const o of arr){
-      if (!o || !Number.isInteger(o.i) || o.i<0 || o.i>=batch.length) continue;
-      const n = batch[o.i];
-      if (o.title && String(o.title).trim()) n.title = String(o.title).trim();
-      if (o.summary && String(o.summary).trim()) n.summary = String(o.summary).trim();
-      if (o.summaryLong && String(o.summaryLong).trim()) n.summaryLong = String(o.summaryLong).trim();
-      updated++;
-    }
-    console.log(`rewritten ${s}-${s+batch.length-1}`);
+/* AI 전문(detail) — transformative explainer (KO + EN + term glossary), NOT a copy of the source.
+   Written to articles/<id>.json and lazy-loaded by the modal. */
+async function generateDetail(item){
+  const prompt =
+`다음 SMR·원자력 뉴스에 대해 '읽기 쉬운 상세 해설'을 작성하라. 원문을 그대로 복제하지 말고, 제공된 정보와 일반 배경지식으로 재구성하라. 제공 정보에 없는 구체적 수치·날짜·고유명사를 새로 지어내지 마라.
+제목: ${item.title}
+요약: ${item.summaryLong || item.summary || ''}
+분류: ${item.cat} / 노형: ${item.type} / 개발사: ${item.dev || ''} / 출처: ${item.source || ''}
+아래 JSON만 출력하라(설명 금지). 문자열 내 줄바꿈은 \\n 으로 이스케이프:
+{"detailKo":"한국어 상세 해설. 배경→핵심 내용→의미·전망 흐름으로 6~10문장. 문단은 \\n\\n 으로 구분. 외국 지명·기관·인명·전문용어·약어는 한글(English)로 병기. 쉽고 가독성 있게.",
+ "detailEn":"같은 내용을 자연스러운 영어로 5~9문장.",
+ "terms":[{"t":"용어 또는 약어(영문 포함)","d":"한국어 한 줄 설명"}]}`;
+  try {
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method:'POST',
+      headers:{ 'x-api-key': API_KEY, 'anthropic-version':'2023-06-01', 'content-type':'application/json' },
+      body: JSON.stringify({ model: MODEL, max_tokens: 4000, messages:[{ role:'user', content: prompt }] })
+    });
+    if (!res.ok) throw new Error(`API ${res.status}`);
+    const data = await res.json();
+    const txt = data?.content?.[0]?.text || '';
+    const m = txt.match(/\{[\s\S]*\}/);
+    if (!m) return null;
+    const d = JSON.parse(m[0]);
+    if (!d.detailKo) return null;
+    return { detailKo: String(d.detailKo||''), detailEn: String(d.detailEn||''), terms: Array.isArray(d.terms) ? d.terms.slice(0,8) : [] };
+  } catch(e){ console.error(`detail gen fail: ${e.message}`); return null; }
+}
+function writeDetail(id, item, d){
+  fs.writeFileSync(`${ARTICLES_DIR}/${id}.json`, JSON.stringify({
+    id, k: item.k || '', title: item.title, url: item.url || '', source: item.source || '',
+    detailKo: d.detailKo, detailEn: d.detailEn, terms: d.terms
+  }));
+}
+async function ensureDetail(item){          // generate + persist detail; sets item.id
+  const id = articleId(item.url);
+  item.id = id;
+  if (fs.existsSync(`${ARTICLES_DIR}/${id}.json`)) return false;   // already done
+  const d = await generateDetail(item);
+  if (d){ writeDetail(id, item, d); return true; }
+  return false;
+}
+
+/* one-time backfill (env BACKFILL=true): generate AI 전문 for every existing item that lacks one
+   (also stamps each with its id). Idempotent — skips items whose detail file already exists. */
+async function backfillDetails(items){
+  fs.mkdirSync(ARTICLES_DIR, { recursive: true });
+  let made = 0;
+  for (let i=0; i<items.length; i++){
+    if (await ensureDetail(items[i])) made++;
+    if ((i+1) % 10 === 0) console.log(`detail backfill ${i+1}/${items.length} (made ${made})`);
   }
-  console.log(`backfill rewrote ${updated} item(s)`);
-  return updated;
+  console.log(`detail backfill done — ${made} new detail file(s) of ${items.length}`);
+  return made;
 }
 
 async function main(){
@@ -334,10 +352,10 @@ async function main(){
   });
   if (repaired) console.log(`repaired ${repaired} cat/type field(s) on existing items`);
 
-  if (process.env.BACKFILL === 'true'){   // one-time: lengthen existing summaries, then write & exit
-    const u = await backfillSummaries(existing);
+  if (process.env.BACKFILL === 'true'){   // one-time: generate AI 전문 for all existing items, then write & exit
+    const made = await backfillDetails(existing);
     writeData(existing);
-    console.log(`backfill mode done — ${u} summaries updated, file written`);
+    console.log(`backfill mode done — ${made} detail file(s), data written (ids stamped)`);
     return;
   }
 
@@ -374,6 +392,11 @@ async function main(){
     });
   });
 
+  // generate AI 전문 for each new item (sets .id, writes articles/<id>.json)
+  if (toAdd.length){
+    fs.mkdirSync(ARTICLES_DIR, { recursive: true });
+    for (const n of toAdd){ await ensureDetail(n); }
+  }
   // always rewrite so SMR_UPDATED reflects THIS run (last-checked time), even with 0 new items
   writeData(existing.concat(toAdd));
   console.log(`run complete — added ${toAdd.length}, repaired ${repaired}:`);

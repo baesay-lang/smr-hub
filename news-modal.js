@@ -1,21 +1,23 @@
 /* ============================================================
-   SMR Hub — news detail modal (shared by index.html + SMR-news.html)
-   Click a news item → modal shows the stored Korean summary + tags +
-   "원문 보기 ↗" link. Pure front-end: uses data already in news-data.js,
-   so it costs ZERO API (summaries are generated once at collection time).
-   Usage: include after news-data.js, then call window.openNewsModal(item).
+   SMR Hub — news detail modal (shared by all pages)
+   Flow: 요약(summary) → 전문(AI 상세해설: 한국어 + English + 용어주석, lazy-loaded
+   from articles/<id>.json) → 원문(original link).
+   Pure front-end. The 전문 is a transformative AI explainer (NOT a copy of the
+   source article) generated at collection time; original is one click away.
+   Include after news-data.js, then call window.openNewsModal(item).
    ============================================================ */
 (function () {
   var KEY = { '인허가': 1, '계약': 1 };
   function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+  function paras(txt){ return String(txt||'').split(/\n{2,}|\n/).map(function(p){return p.trim();}).filter(Boolean).map(function(p){ return '<p>'+esc(p)+'</p>'; }).join(''); }
 
   var css =
     '#nm-ov{position:fixed;inset:0;z-index:2147483300;background:rgba(15,23,42,.55);backdrop-filter:blur(3px);'
     +'display:flex;align-items:center;justify-content:center;padding:20px;}'
     +'#nm-ov[hidden]{display:none;}'
     +'#nm-card{position:relative;background:var(--surface,#fff);border:1px solid var(--border,#e5e8ee);'
-    +'border-radius:var(--radius,12px);box-shadow:0 18px 50px rgba(15,23,42,.28);width:100%;max-width:580px;'
-    +'max-height:85vh;overflow:auto;padding:24px 26px 22px;'
+    +'border-radius:var(--radius,12px);box-shadow:0 18px 50px rgba(15,23,42,.28);width:100%;max-width:600px;'
+    +'max-height:86vh;overflow:auto;padding:24px 26px 22px;'
     +'font-family:"Pretendard",-apple-system,"Segoe UI","Malgun Gothic",sans-serif;}'
     +'#nm-x{position:absolute;top:11px;right:13px;background:none;border:none;font-size:24px;line-height:1;'
     +'color:var(--text-faint,#8b93a2);cursor:pointer;padding:2px 6px;}'
@@ -26,9 +28,23 @@
     +'.nm-tags .tg{font-size:11px;font-weight:700;padding:3px 9px;border-radius:5px;background:var(--surface-2,#f1f3f7);'
     +'color:var(--text-dim,#5a6473);border:1px solid var(--border,#e5e8ee);}'
     +'.nm-tags .tg.key{background:var(--accent-weak,#eef3ff);color:var(--accent-strong,#1d4ed8);border-color:var(--accent-weak-2,#d7e3fe);}'
+    +'.nm-sumlabel,.nm-sec{font-size:10.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--text-faint,#8b93a2);margin:0 0 5px;}'
     +'.nm-sum{font-size:14.5px;line-height:1.75;color:var(--text,#1a2230);white-space:pre-line;}'
-    +'.nm-src{font-size:12px;color:var(--text-faint,#8b93a2);margin-top:14px;}'
-    +'.nm-actions{display:flex;gap:9px;margin-top:18px;}'
+    +'.nm-more{margin-top:16px;width:100%;background:var(--surface-2,#f1f3f7);border:1px solid var(--border-strong,#d2d7e0);'
+    +'color:var(--accent-strong,#1d4ed8);font:600 13.5px/1 inherit;padding:11px;border-radius:8px;cursor:pointer;}'
+    +'.nm-more:hover{background:var(--accent-weak,#eef3ff);border-color:var(--accent,#2563eb);}'
+    +'.nm-more[hidden]{display:none;}'
+    +'#nm-detail{margin-top:12px;}'
+    +'#nm-detail[hidden]{display:none;}'
+    +'.nm-sec{margin:16px 0 7px;padding-bottom:4px;border-bottom:1px solid var(--border,#e5e8ee);}'
+    +'#nm-detail p{font-size:14px;line-height:1.8;color:var(--text,#1a2230);margin:0 0 10px;}'
+    +'#nm-detail .en p{color:var(--text-dim,#5a6473);font-size:13.5px;line-height:1.75;}'
+    +'.nm-terms{display:flex;flex-direction:column;gap:8px;}'
+    +'.nm-term{font-size:13px;line-height:1.55;color:var(--text-dim,#5a6473);}'
+    +'.nm-term b{color:var(--accent-strong,#1d4ed8);font-weight:700;}'
+    +'.nm-load{font-size:13px;color:var(--text-faint,#8b93a2);padding:10px 0;}'
+    +'.nm-src{font-size:12px;color:var(--text-faint,#8b93a2);margin-top:16px;}'
+    +'.nm-actions{display:flex;gap:9px;margin-top:14px;}'
     +'.nm-btn{display:inline-flex;align-items:center;justify-content:center;font:600 14px/1 inherit;padding:11px 16px;'
     +'border-radius:8px;cursor:pointer;text-decoration:none;border:1px solid transparent;}'
     +'a.nm-btn{background:var(--accent,#2563eb);color:#fff;flex:1;}'
@@ -45,7 +61,10 @@
     + '<div class="nm-date" id="nm-date"></div>'
     + '<div class="nm-title" id="nm-title"></div>'
     + '<div class="nm-tags" id="nm-tags"></div>'
+    + '<div class="nm-sumlabel">요약</div>'
     + '<div class="nm-sum" id="nm-sum"></div>'
+    + '<button class="nm-more" id="nm-more" hidden>전문 보기 ▾</button>'
+    + '<div id="nm-detail" hidden></div>'
     + '<div class="nm-src" id="nm-src"></div>'
     + '<div class="nm-actions">'
     +   '<a id="nm-link" class="nm-btn" target="_blank" rel="noopener">원문 보기 ↗</a>'
@@ -55,8 +74,11 @@
   document.body.appendChild(ov);
 
   var $ = function(id){ return document.getElementById(id); };
-  var elDate=$('nm-date'), elTitle=$('nm-title'), elTags=$('nm-tags'),
-      elSum=$('nm-sum'), elSrc=$('nm-src'), elLink=$('nm-link');
+  var elDate=$('nm-date'), elTitle=$('nm-title'), elTags=$('nm-tags'), elSum=$('nm-sum'),
+      elSrc=$('nm-src'), elLink=$('nm-link'), moreBtn=$('nm-more'), detailEl=$('nm-detail');
+
+  var cache = {};      // id -> detail object
+  var curId = null, curLoaded = false;
 
   function tagHTML(n){
     var h = '<span class="tg'+(KEY[n.cat]?' key':'')+'">'+esc(n.cat)+'</span>';
@@ -66,6 +88,40 @@
     return h;
   }
 
+  function renderDetail(d){
+    var html = '';
+    if (d && d.detailKo) html += '<div class="nm-sec">전문 · 한국어</div>' + paras(d.detailKo);
+    if (d && d.detailEn) html += '<div class="nm-sec">Full text · English</div><div class="en">' + paras(d.detailEn) + '</div>';
+    if (d && d.terms && d.terms.length) html += '<div class="nm-sec">주요 용어</div><div class="nm-terms">'
+      + d.terms.map(function(t){ return '<div class="nm-term"><b>'+esc(t.t)+'</b> — '+esc(t.d)+'</div>'; }).join('') + '</div>';
+    detailEl.innerHTML = html || '<div class="nm-load">전문이 아직 없습니다 — 아래 원문을 참고해 주세요.</div>';
+    detailEl.hidden = false; curLoaded = true; moreBtn.textContent = '전문 접기 ▲';
+  }
+
+  function loadDetail(id){
+    if (cache[id]) { renderDetail(cache[id]); return; }
+    moreBtn.textContent = '불러오는 중…';
+    fetch('articles/' + id + '.json', { cache: 'no-cache' })
+      .then(function(r){ if(!r.ok) throw 0; return r.json(); })
+      .then(function(d){ if (id !== curId) return; cache[id] = d; renderDetail(d); })
+      .catch(function(){
+        if (id !== curId) return;
+        detailEl.innerHTML = '<div class="nm-load">전문을 준비 중입니다. 아래 <b>원문 보기</b>로 확인해 주세요.</div>';
+        detailEl.hidden = false; curLoaded = true; moreBtn.textContent = '전문 접기 ▲';
+      });
+  }
+
+  moreBtn.addEventListener('click', function(){
+    if (!curId) return;
+    if (curLoaded){
+      var show = detailEl.hidden;
+      detailEl.hidden = !show;
+      moreBtn.textContent = show ? '전문 접기 ▲' : '전문 보기 ▾';
+      return;
+    }
+    loadDetail(curId);
+  });
+
   function open(n){
     if (!n) return;
     elDate.textContent = n.date || '';
@@ -74,8 +130,13 @@
     elSum.textContent = (n.summaryLong || n.summary || '').trim() || '요약이 아직 없습니다.';
     elSrc.textContent = n.source ? ('출처 · ' + n.source) : '';
     if (n.url){ elLink.href = n.url; elLink.style.display = ''; } else { elLink.removeAttribute('href'); elLink.style.display = 'none'; }
+    // 전문 reset
+    curId = n.id || null; curLoaded = false;
+    detailEl.hidden = true; detailEl.innerHTML = '';
+    if (curId){ moreBtn.hidden = false; moreBtn.textContent = '전문 보기 ▾'; } else { moreBtn.hidden = true; }
     ov.hidden = false;
     document.body.style.overflow = 'hidden';
+    if (ov.querySelector('#nm-card')) ov.querySelector('#nm-card').scrollTop = 0;
   }
   function close(){ ov.hidden = true; document.body.style.overflow = ''; }
 

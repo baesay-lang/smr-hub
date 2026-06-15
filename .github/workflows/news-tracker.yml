@@ -35,10 +35,10 @@ jobs:
 
       - name: Commit & push directly if news-data.js changed
         run: |
-          if [ -n "$(git status --porcelain news-data.js)" ]; then
+          if [ -n "$(git status --porcelain news-data.js articles)" ]; then
             git config user.name "smr-news-bot"
             git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add news-data.js
+            git add news-data.js articles
             git commit -m "chore(news): auto-tracked SMR news"
             git push
             echo "News update pushed to main — live after Pages rebuild."
