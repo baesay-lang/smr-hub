@@ -88,7 +88,7 @@
       elSrc=$('nm-src'), elLink=$('nm-link'), moreBtn=$('nm-more'), detailEl=$('nm-detail');
 
   var cache = {};      // id -> detail object
-  var curId = null, curLoaded = false, curItem = null;
+  var curId = null, curLoaded = false, curItem = null, curSummaryOnly = false;
 
   function tagHTML(n){
     var h = '<span class="tg'+(KEY[n.cat]?' key':'')+'">'+esc(n.cat)+'</span>';
@@ -98,16 +98,24 @@
     return h;
   }
 
+  function termsHtml(terms){
+    return terms.map(function(t){ return '<div class="nm-term"><b>'+esc(t.t)+'</b> — '+esc(t.d)+'</div>'; }).join('');
+  }
   function renderDetail(d){
     // body-grounded full text vs policy-limited summary (Google News redirects can't expose body)
-    var grounded = (d && typeof d.grounded === 'boolean') ? d.grounded : !(((curItem && curItem.url) || '').indexOf('news.google') >= 0);
+    var grounded = (d && typeof d.grounded === 'boolean') ? d.grounded : !curSummaryOnly;
     var html = '';
-    if (!grounded) html += '<div class="nm-note">ⓘ 이 기사는 제공처(예: 구글뉴스) 정책상 <b>원문 전문</b>을 싣지 못해, 핵심을 정리한 <b>요약</b>입니다. 전체 내용은 아래 <b>원문 보기</b>에서 확인하세요.</div>';
-    if (d && d.detailKo) html += '<div class="nm-sec">' + (grounded ? '전문 · 한국어' : '요약 · 한국어') + '</div>' + paras(d.detailKo);
-    if (d && d.detailEn) html += '<div class="nm-sec">' + (grounded ? 'Full text · English' : 'Summary · English') + '</div><div class="en">' + paras(d.detailEn) + '</div>';
-    if (d && d.terms && d.terms.length) html += '<div class="nm-sec">주요 용어</div><div class="nm-terms">'
-      + d.terms.map(function(t){ return '<div class="nm-term"><b>'+esc(t.t)+'</b> — '+esc(t.d)+'</div>'; }).join('') + '</div>';
-    detailEl.innerHTML = html || '<div class="nm-load">내용이 아직 없습니다 — 아래 원문을 참고해 주세요.</div>';
+    if (grounded){
+      if (d && d.detailKo) html += '<div class="nm-sec">전문 · 한국어</div>' + paras(d.detailKo);
+      if (d && d.detailEn) html += '<div class="nm-sec">Full text · English</div><div class="en">' + paras(d.detailEn) + '</div>';
+      if (d && d.terms && d.terms.length) html += '<div class="nm-sec">주요 용어</div><div class="nm-terms">' + termsHtml(d.terms) + '</div>';
+    } else {
+      // summary-only source: the top 요약 already IS the Korean summary — don't duplicate it.
+      html += '<div class="nm-note">ⓘ 이 기사는 제공처(예: 구글뉴스) 정책상 <b>원문 전문</b>을 싣지 못합니다. 위 <b>요약</b>이 핵심 정리이며, 전체 내용은 아래 <b>원문 보기</b>에서 확인하세요.</div>';
+      if (d && d.detailEn) html += '<div class="nm-sec">Summary · English</div><div class="en">' + paras(d.detailEn) + '</div>';
+      if (d && d.terms && d.terms.length) html += '<div class="nm-sec">주요 용어</div><div class="nm-terms">' + termsHtml(d.terms) + '</div>';
+    }
+    detailEl.innerHTML = html || '<div class="nm-load">추가 정보가 없습니다 — 아래 원문을 참고해 주세요.</div>';
     detailEl.hidden = false; curLoaded = true; moreBtn.textContent = '접기 ▲';
   }
 
@@ -129,7 +137,7 @@
     if (curLoaded){
       var show = detailEl.hidden;
       detailEl.hidden = !show;
-      moreBtn.textContent = show ? '접기 ▲' : '자세히 보기 ▾';
+      moreBtn.textContent = show ? '접기 ▲' : (curSummaryOnly ? '추가 정보 보기 ▾' : '전문 보기 ▾');
       return;
     }
     loadDetail(curId);
@@ -146,8 +154,9 @@
     // 전문 reset
     curItem = n;
     curId = n.id || null; curLoaded = false;
+    curSummaryOnly = (((n.url) || '').indexOf('news.google') >= 0);
     detailEl.hidden = true; detailEl.innerHTML = '';
-    if (curId){ moreBtn.hidden = false; moreBtn.textContent = '자세히 보기 ▾'; } else { moreBtn.hidden = true; }
+    if (curId){ moreBtn.hidden = false; moreBtn.textContent = curSummaryOnly ? '추가 정보 보기 ▾' : '전문 보기 ▾'; } else { moreBtn.hidden = true; }
     ov.hidden = false;
     document.body.style.overflow = 'hidden';
     if (ov.querySelector('#nm-card')) ov.querySelector('#nm-card').scrollTop = 0;
