@@ -12,10 +12,18 @@ import fs from 'node:fs';
 
 /* ---- config: edit these freely ---- */
 const SOURCES = [
-  // Verified working (2026-06). A feed that 404s is skipped + logged.
+  // Direct outlets FIRST — their article bodies are fetchable → grounded 전문, and they win
+  // cross-source dedup over the Google News redirect copies. (Verified working 2026-06.)
   'https://www.world-nuclear-news.org/rss',
   'https://www.powermag.com/feed/',
-  // Google News RSS — broad + fresh aggregator (English + Korean queries)
+  'https://www.neimagazine.com/rss',            // Nuclear Engineering International
+  'https://www.power-eng.com/feed/',            // Power Engineering
+  'https://www.utilitydive.com/feeds/news/',    // Utility Dive (broad energy; keyword-filtered)
+  // Korean direct outlets (full-text fetchable → body-grounded 한국어 전문)
+  'https://www.electimes.com/rss/allArticle.xml',     // 전기신문
+  'https://www.e2news.com/rss/allArticle.xml',        // 이투뉴스
+  'https://www.energy-news.co.kr/rss/allArticle.xml', // 에너지신문
+  // Google News RSS — broad + fresh aggregator (links are redirects, body not fetchable)
   'https://news.google.com/rss/search?q=%22small%20modular%20reactor%22&hl=en-US&gl=US&ceid=US:en',
   'https://news.google.com/rss/search?q=SMR%20%EC%9B%90%EC%9E%90%EB%A0%A5&hl=ko&gl=KR&ceid=KR:ko',
 ];
