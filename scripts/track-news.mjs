@@ -66,6 +66,7 @@ const todayISO = () => new Date().toISOString().slice(0,10);
 const host = (u) => { try { return new URL(u).hostname.replace(/^www\./,''); } catch { return u; } };
 // stable 8-hex id from the article url (FNV-1a) → articles/<id>.json filename
 const articleId = (url) => { let h = 0x811c9dc5; const s = String(url||''); for (let i=0;i<s.length;i++){ h = Math.imul(h ^ s.charCodeAt(i), 0x01000193); } return (h>>>0).toString(16).padStart(8,'0'); };
+const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
 function loadExisting(){
   const text = fs.readFileSync(FILE,'utf8');
@@ -296,21 +297,29 @@ async function generateDetail(item){
 {"detailKo":"한국어 상세 해설. 배경→핵심 내용→의미·전망 흐름으로 6~10문장. 문단은 \\n\\n 으로 구분. 외국 지명·기관·인명·전문용어·약어는 한글(English)로 병기. 쉽고 가독성 있게.",
  "detailEn":"같은 내용을 자연스러운 영어로 5~9문장.",
  "terms":[{"t":"용어 또는 약어(영문 포함)","d":"한국어 한 줄 설명"}]}`;
-  try {
-    const res = await fetch('https://api.anthropic.com/v1/messages', {
-      method:'POST',
-      headers:{ 'x-api-key': API_KEY, 'anthropic-version':'2023-06-01', 'content-type':'application/json' },
-      body: JSON.stringify({ model: MODEL, max_tokens: 4000, messages:[{ role:'user', content: prompt }] })
-    });
-    if (!res.ok) throw new Error(`API ${res.status}`);
-    const data = await res.json();
-    const txt = data?.content?.[0]?.text || '';
-    const m = txt.match(/\{[\s\S]*\}/);
-    if (!m) return null;
-    const d = JSON.parse(m[0]);
-    if (!d.detailKo) return null;
-    return { detailKo: String(d.detailKo||''), detailEn: String(d.detailEn||''), terms: Array.isArray(d.terms) ? d.terms.slice(0,8) : [] };
-  } catch(e){ console.error(`detail gen fail: ${e.message}`); return null; }
+  const body = JSON.stringify({ model: MODEL, max_tokens: 4000, messages:[{ role:'user', content: prompt }] });
+  for (let attempt=0; attempt<3; attempt++){
+    const ctrl = new AbortController();
+    const to = setTimeout(()=>ctrl.abort(), 30000);   // hard 30s timeout so one hung request can't stall the run
+    try {
+      const res = await fetch('https://api.anthropic.com/v1/messages', {
+        method:'POST',
+        headers:{ 'x-api-key': API_KEY, 'anthropic-version':'2023-06-01', 'content-type':'application/json' },
+        body, signal: ctrl.signal
+      });
+      clearTimeout(to);
+      if (res.status === 429 || res.status >= 500){ await sleep(2000*(attempt+1)); continue; }   // throttled/5xx → backoff & retry
+      if (!res.ok) return null;
+      const data = await res.json();
+      const txt = data?.content?.[0]?.text || '';
+      const m = txt.match(/\{[\s\S]*\}/);
+      if (!m) return null;
+      const d = JSON.parse(m[0]);
+      if (!d.detailKo) return null;
+      return { detailKo: String(d.detailKo||''), detailEn: String(d.detailEn||''), terms: Array.isArray(d.terms) ? d.terms.slice(0,8) : [] };
+    } catch(e){ clearTimeout(to); if (attempt === 2){ console.error(`detail gen fail: ${e.message}`); return null; } await sleep(1500); }
+  }
+  return null;
 }
 function writeDetail(id, item, d){
   fs.writeFileSync(`${ARTICLES_DIR}/${id}.json`, JSON.stringify({
@@ -331,12 +340,19 @@ async function ensureDetail(item){          // generate + persist detail; sets i
    (also stamps each with its id). Idempotent — skips items whose detail file already exists. */
 async function backfillDetails(items){
   fs.mkdirSync(ARTICLES_DIR, { recursive: true });
-  let made = 0;
-  for (let i=0; i<items.length; i++){
-    if (await ensureDetail(items[i])) made++;
-    if ((i+1) % 10 === 0) console.log(`detail backfill ${i+1}/${items.length} (made ${made})`);
+  items.forEach(it => { it.id = articleId(it.url); });                         // stamp id on every item
+  const todo = items.filter(it => !fs.existsSync(`${ARTICLES_DIR}/${it.id}.json`));
+  console.log(`detail backfill: ${todo.length}/${items.length} need a detail file`);
+  let made = 0, idx = 0;
+  async function worker(){
+    while (idx < todo.length){
+      const it = todo[idx++];
+      const d = await generateDetail(it);
+      if (d){ writeDetail(it.id, it, d); made++; if (made % 15 === 0) console.log(`... made ${made}/${todo.length}`); }
+    }
   }
-  console.log(`detail backfill done — ${made} new detail file(s) of ${items.length}`);
+  await Promise.all(Array.from({ length: 6 }, worker));                        // 6 concurrent → ~6x faster, with per-call timeout
+  console.log(`detail backfill done — ${made} new detail file(s)`);
   return made;
 }
 
