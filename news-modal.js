@@ -51,6 +51,12 @@
     +'a.nm-btn:hover{background:var(--accent-strong,#1d4ed8);}'
     +'.nm-btn.ghost{background:var(--surface,#fff);color:var(--text-dim,#5a6473);border-color:var(--border-strong,#d2d7e0);}'
     +'.nm-btn.ghost:hover{background:var(--surface-2,#f1f3f7);}'
+    +'#nm-share{background:var(--accent-weak,#eef3ff);color:var(--accent-strong,#1d4ed8);border-color:var(--accent-weak-2,#d7e3fe);}'
+    +'#nm-share:hover{background:var(--accent,#2563eb);color:#fff;border-color:var(--accent,#2563eb);}'
+    +'#nm-toast{position:fixed;left:50%;bottom:26px;transform:translateX(-50%);z-index:2147483601;'
+    +'background:#1a2230;color:#fff;font:600 13px/1.55 "Pretendard",-apple-system,"Segoe UI","Malgun Gothic",sans-serif;'
+    +'padding:11px 16px;border-radius:9px;box-shadow:0 6px 22px rgba(0,0,0,.3);max-width:88vw;text-align:center;}'
+    +'#nm-toast[hidden]{display:none;}'
     +'@media(max-width:520px){#nm-card{padding:20px 18px;}.nm-title{font-size:18px;}}';
   var st = document.createElement('style'); st.textContent = css; document.head.appendChild(st);
 
@@ -68,6 +74,7 @@
     + '<div class="nm-src" id="nm-src"></div>'
     + '<div class="nm-actions">'
     +   '<a id="nm-link" class="nm-btn" target="_blank" rel="noopener">원문 보기 ↗</a>'
+    +   '<button id="nm-share" class="nm-btn">메일 공유</button>'
     +   '<button id="nm-close" class="nm-btn ghost">닫기</button>'
     + '</div>'
     + '</div>';
@@ -78,7 +85,7 @@
       elSrc=$('nm-src'), elLink=$('nm-link'), moreBtn=$('nm-more'), detailEl=$('nm-detail');
 
   var cache = {};      // id -> detail object
-  var curId = null, curLoaded = false;
+  var curId = null, curLoaded = false, curItem = null;
 
   function tagHTML(n){
     var h = '<span class="tg'+(KEY[n.cat]?' key':'')+'">'+esc(n.cat)+'</span>';
@@ -131,6 +138,7 @@
     elSrc.textContent = n.source ? ('출처 · ' + n.source) : '';
     if (n.url){ elLink.href = n.url; elLink.style.display = ''; } else { elLink.removeAttribute('href'); elLink.style.display = 'none'; }
     // 전문 reset
+    curItem = n;
     curId = n.id || null; curLoaded = false;
     detailEl.hidden = true; detailEl.innerHTML = '';
     if (curId){ moreBtn.hidden = false; moreBtn.textContent = '전문 보기 ▾'; } else { moreBtn.hidden = true; }
@@ -139,6 +147,46 @@
     if (ov.querySelector('#nm-card')) ov.querySelector('#nm-card').scrollTop = 0;
   }
   function close(){ ov.hidden = true; document.body.style.overflow = ''; }
+
+  /* ---- 메일 공유 ---- */
+  function buildShare(n, d){
+    var hub = 'https://baesay-lang.github.io/smr-hub/SMR-news.html#a=' + (n.id || '');
+    var full = (d && d.detailKo) ? (d.detailKo + (d.detailEn ? '\r\n\r\n[English]\r\n' + d.detailEn : '')) : (n.summaryLong || n.summary || '');
+    var subject = '[기사공유] ' + (n.title || '');
+    var head = '안녕하세요,\r\n\r\n' + (n.title || '해당') + ' 관련 기사 공유 드립니다.\r\n\r\n';
+    var fullBody  = head + '■ 기사 링크: ' + hub + '\r\n\r\n■ 전문:\r\n' + full + '\r\n\r\n■ 원본: ' + (n.url || '') + '\r\n';
+    var shortBody = head + '■ 기사 링크: ' + hub + '\r\n■ 원본: ' + (n.url || '') + '\r\n\r\n(전문 포함 전체 내용이 클립보드에 복사되어 있습니다 — 메일 본문에 붙여넣기[Ctrl+V] 하세요.)\r\n';
+    return { subject: subject, fullBody: fullBody, shortBody: shortBody };
+  }
+  function copyText(t){
+    try { if (navigator.clipboard && navigator.clipboard.writeText) return navigator.clipboard.writeText(t); } catch(e){}
+    try { var ta=document.createElement('textarea'); ta.value=t; ta.style.position='fixed'; ta.style.opacity='0'; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove(); } catch(e){}
+    return Promise.resolve();
+  }
+  var toastEl=null, toastTimer=null;
+  function toast(msg){
+    if (!toastEl){ toastEl=document.createElement('div'); toastEl.id='nm-toast'; toastEl.hidden=true; document.body.appendChild(toastEl); }
+    toastEl.textContent=msg; toastEl.hidden=false;
+    if (toastTimer) clearTimeout(toastTimer);
+    toastTimer=setTimeout(function(){ toastEl.hidden=true; }, 4500);
+  }
+  function doShare(n, d){
+    var m = buildShare(n, d);
+    copyText(m.subject + '\r\n\r\n' + m.fullBody);
+    var useFull = encodeURIComponent(m.fullBody).length < 1500;   // mailto URL length is limited (Korean encodes ~9x)
+    var mailto = 'mailto:?subject=' + encodeURIComponent(m.subject) + '&body=' + encodeURIComponent(useFull ? m.fullBody : m.shortBody);
+    var a=document.createElement('a'); a.href=mailto; document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 0);
+    toast(useFull ? '메일 작성 창을 열었어요 · 내용도 클립보드에 복사됐습니다'
+                  : '메일 작성 창을 열었어요 · 전문 포함 전체 내용이 클립보드에 복사됐으니 본문에 붙여넣기(Ctrl+V) 하세요');
+  }
+  $('nm-share').addEventListener('click', function(){
+    var n = curItem; if (!n) return;
+    if (n.id && cache[n.id]) { doShare(n, cache[n.id]); return; }
+    if (n.id){
+      fetch('articles/' + n.id + '.json', { cache:'no-cache' }).then(function(r){ return r.ok ? r.json() : null; })
+        .then(function(d){ if (d) cache[n.id]=d; doShare(n, d); }).catch(function(){ doShare(n, null); });
+    } else { doShare(n, null); }
+  });
 
   $('nm-x').addEventListener('click', close);
   $('nm-close').addEventListener('click', close);
