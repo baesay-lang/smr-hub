@@ -279,6 +279,60 @@ async function classify(items){
   return out;
 }
 
+/* semantic same-story dedup for NEW items: drop one if it covers the same specific event as another
+   new item or a recent existing one. Conservative — same company/topic alone is NOT a duplicate. */
+async function dedupeNew(items, existingTitles){
+  if (!API_KEY || items.length === 0) return items;
+  const prompt =
+`아래 '신규' 기사 중에서 (a) 다른 신규 기사 또는 (b) '기존' 기사와 '동일한 구체적 사건·발표'를 다루는 중복만 제거하라. 단순히 같은 회사·주제·노형이라는 이유로는 중복이 아니다(서로 다른 사건이면 모두 유지). 남길 신규 기사의 i 번호만 JSON 배열로 출력하라(예: [0,2,3]). 설명 금지.
+신규: ${JSON.stringify(items.map((n,i)=>({ i, title:n.title })))}
+기존: ${JSON.stringify(existingTitles.slice(0,40))}`;
+  try {
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method:'POST',
+      headers:{ 'x-api-key': API_KEY, 'anthropic-version':'2023-06-01', 'content-type':'application/json' },
+      body: JSON.stringify({ model: MODEL, max_tokens: 1500, messages:[{ role:'user', content: prompt }] })
+    });
+    if (!res.ok) return items;
+    const data = await res.json();
+    const m = (data?.content?.[0]?.text || '').match(/\[[\s\S]*\]/);
+    if (!m) return items;
+    const keep = JSON.parse(m[0]);
+    if (!Array.isArray(keep) || keep.length === 0) return items;
+    const ks = new Set(keep.filter(Number.isInteger));
+    const out = items.filter((_,i)=>ks.has(i));
+    console.log(`dedupe(new): kept ${out.length}/${items.length}`);
+    return out.length ? out : items;
+  } catch(e){ console.error(`dedupe(new) fail: ${e.message}`); return items; }
+}
+
+/* one-time: remove same-story duplicates already in the dataset (keep the newest of each group). */
+async function dedupeExisting(items){
+  if (!API_KEY || items.length < 2) return items;
+  const input = items.map((n,i)=>({ i, title:n.title, date:n.date }));
+  const prompt =
+`아래 기사 목록에서 '동일한 구체적 사건·발표'를 다루는 중복 그룹을 찾아, 각 그룹에서 date가 가장 최근인 1건만 남기고 나머지의 i 번호만 '제거 대상' JSON 배열로 출력하라(예: [5,12]). 단순히 같은 회사·주제·노형이면 중복이 아니다(서로 다른 사건이면 유지). 없으면 []. 설명 금지.
+${JSON.stringify(input)}`;
+  try {
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method:'POST',
+      headers:{ 'x-api-key': API_KEY, 'anthropic-version':'2023-06-01', 'content-type':'application/json' },
+      body: JSON.stringify({ model: MODEL, max_tokens: 2000, messages:[{ role:'user', content: prompt }] })
+    });
+    if (!res.ok) return items;
+    const data = await res.json();
+    const m = (data?.content?.[0]?.text || '').match(/\[[\s\S]*\]/);
+    if (!m) return items;
+    const remove = JSON.parse(m[0]);
+    if (!Array.isArray(remove) || remove.length === 0) return items;
+    const rs = new Set(remove.filter(x=>Number.isInteger(x) && x>=0 && x<items.length));
+    if (rs.size > items.length * 0.3){ console.log(`dedupe(existing): ${rs.size} flagged — too many, skipping for safety`); return items; }
+    const out = items.filter((_,i)=>!rs.has(i));
+    console.log(`dedupe(existing): removed ${items.length-out.length} duplicate(s)`);
+    return out;
+  } catch(e){ console.error(`dedupe(existing) fail: ${e.message}`); return items; }
+}
+
 function writeData(list){
   list.sort((a,b)=> dkey(b.date).localeCompare(dkey(a.date)));
   const updated = new Date(Date.now() + 9*3600*1000).toISOString().slice(0,16).replace('T',' ') + ' KST';
@@ -386,10 +440,11 @@ async function main(){
   });
   if (repaired) console.log(`repaired ${repaired} cat/type field(s) on existing items`);
 
-  if (process.env.BACKFILL === 'true'){   // one-time: generate AI 전문 for all existing items, then write & exit
-    const made = await backfillDetails(existing);
-    writeData(existing);
-    console.log(`backfill mode done — ${made} detail file(s), data written (ids stamped)`);
+  if (process.env.BACKFILL === 'true'){   // one-time maintenance: de-dup + generate AI 전문, then write & exit
+    const deduped = await dedupeExisting(existing);
+    const made = await backfillDetails(deduped);
+    writeData(deduped);
+    console.log(`backfill mode done — removed ${existing.length-deduped.length} dup(s), ${made} detail file(s)`);
     return;
   }
 
@@ -426,15 +481,19 @@ async function main(){
     });
   });
 
+  // semantic same-story dedup of new items (vs each other + recent existing)
+  let adds = toAdd;
+  if (useClaude && adds.length > 1) adds = await dedupeNew(adds, existing.map(n => n.title));
+
   // generate AI 전문 for each new item (sets .id, writes articles/<id>.json)
-  if (toAdd.length){
+  if (adds.length){
     fs.mkdirSync(ARTICLES_DIR, { recursive: true });
-    for (const n of toAdd){ await ensureDetail(n); }
+    for (const n of adds){ await ensureDetail(n); }
   }
   // always rewrite so SMR_UPDATED reflects THIS run (last-checked time), even with 0 new items
-  writeData(existing.concat(toAdd));
-  console.log(`run complete — added ${toAdd.length}, repaired ${repaired}:`);
-  toAdd.forEach(n => console.log(`  · ${n.date} [${n.cat}/${n.type}] ${n.title}`));
+  writeData(existing.concat(adds));
+  console.log(`run complete — added ${adds.length}, repaired ${repaired}:`);
+  adds.forEach(n => console.log(`  · ${n.date} [${n.cat}/${n.type}] ${n.title}`));
 }
 
 main().catch(e => { console.error(e); process.exit(1); });
