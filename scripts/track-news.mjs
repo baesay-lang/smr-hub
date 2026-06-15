@@ -394,10 +394,11 @@ async function generateDetail(item, body){
 `다음 SMR·원자력 뉴스를 한국어로 상세히 정리하라. 원문을 그대로 복제하지 말고 핵심을 모두 담아 재구성하라. 제공된 내용에 없는 구체적 수치·날짜·고유명사를 새로 지어내지 마라.
 ${src}
 분류: ${item.cat} / 노형: ${item.type} / 개발사: ${item.dev || ''} / 출처: ${item.source || ''}
+[용어 선정] "terms"에는 일반 독자가 모를 만한 것만 0~5개: (1) 전문 기술 용어·약어(예: TRISO, HALEU, GDA, PDSA, 소듐냉각고속로, 피동안전) 또는 (2) 잘 알려지지 않은 해외 기업·기관·인명·고유명칭. SMR·원자력·법제화·규제·정책·투자·계약 같은 일반/상식 용어, 누구나 아는 기관(NRC·DOE·IAEA·UN·EU), 한국 주요 기업·기관(한전·한수원·KAERI·한전기술 등)은 넣지 마라. 해당 없으면 빈 배열.
 아래 JSON만 출력(설명 금지, 문자열 내 줄바꿈은 \\n):
 {${koLine}
  ${enLine}
- "terms":[{"t":"용어 또는 약어(영문 포함)","d":"한국어 한 줄 설명"}]}`;
+ "terms":[{"t":"전문용어·약어 또는 생소한 고유명칭(영문 포함)","d":"한국어 한 줄 설명"}]}`;
   const reqBody = JSON.stringify({ model: MODEL, max_tokens: 4000, messages:[{ role:'user', content: prompt }] });
   for (let attempt=0; attempt<3; attempt++){
     const ctrl = new AbortController();
@@ -459,6 +460,39 @@ async function backfillDetails(items){
   return made;
 }
 
+/* one-time (env REFRESH_TERMS=true): re-extract each article's glossary from its stored detailKo,
+   keeping only technical terms / lesser-known foreign names. Leaves detailKo/detailEn untouched. */
+async function refreshTermsAll(){
+  fs.mkdirSync(ARTICLES_DIR, { recursive: true });
+  const recs = [];
+  for (const f of fs.readdirSync(ARTICLES_DIR).filter(f=>f.endsWith('.json'))){
+    try { const j = JSON.parse(fs.readFileSync(`${ARTICLES_DIR}/${f}`,'utf8')); if (j.detailKo) recs.push({ f, j }); } catch {}
+  }
+  console.log(`refresh-terms: ${recs.length} article(s)`);
+  const BATCH = 8; let done = 0, idx = 0;
+  async function worker(){
+    while (idx < recs.length){
+      const batch = recs.slice(idx, idx+BATCH); idx += BATCH;
+      const input = batch.map((r,j)=>({ i:j, text: String(r.j.detailKo).slice(0,1400) }));
+      const prompt =
+`각 글에서 '주요 용어' 목록을 다시 뽑아라. 일반 독자가 모를 만한 것만: (1) 전문 기술 용어·약어(예: TRISO, HALEU, GDA, PDSA, 소듐냉각고속로, 피동안전) 또는 (2) 잘 알려지지 않은 해외 기업·기관·인명·고유명칭. SMR·원자력·법제화·규제·정책·투자·계약 등 일반/상식 용어, 누구나 아는 기관(NRC·DOE·IAEA·UN·EU), 한국 주요 기업·기관(한전·한수원·KAERI·한전기술 등)은 제외. 각 글당 0~5개. 각 항목 {"i":번호,"terms":[{"t":"용어(영문 포함)","d":"한국어 한 줄 설명"}]} 형태로 JSON 배열만 출력. 설명 금지.
+입력: ${JSON.stringify(input)}`;
+      let arr=[];
+      try {
+        const res = await fetch('https://api.anthropic.com/v1/messages', { method:'POST',
+          headers:{ 'x-api-key': API_KEY, 'anthropic-version':'2023-06-01', 'content-type':'application/json' },
+          body: JSON.stringify({ model: MODEL, max_tokens: 3000, messages:[{ role:'user', content: prompt }] }) });
+        if (res.ok){ const data = await res.json(); arr = salvageJsonArray(data?.content?.[0]?.text || ''); }
+      } catch(e){ console.error(`refresh-terms fail: ${e.message}`); }
+      for (const o of arr){ if (o && Number.isInteger(o.i) && o.i>=0 && o.i<batch.length && Array.isArray(o.terms)){ const r = batch[o.i]; r.j.terms = o.terms.slice(0,6); fs.writeFileSync(`${ARTICLES_DIR}/${r.f}`, JSON.stringify(r.j)); done++; } }
+      console.log(`refreshed ${Math.min(idx,recs.length)}/${recs.length}`);
+    }
+  }
+  await Promise.all(Array.from({ length: 6 }, worker));
+  console.log(`refresh-terms done — updated ${done}`);
+  return done;
+}
+
 async function main(){
   const useClaude = !!API_KEY;
   console.log('classify mode:', useClaude ? 'Claude API' : 'rule-based (free)');
@@ -470,6 +504,13 @@ async function main(){
     const nt = betterType(hay, n.type); if (nt !== n.type){ n.type = nt; repaired++; }
   });
   if (repaired) console.log(`repaired ${repaired} cat/type field(s) on existing items`);
+
+  if (process.env.REFRESH_TERMS === 'true'){   // one-time: re-extract glossaries only, then write & exit
+    const u = await refreshTermsAll();
+    writeData(existing);
+    console.log(`refresh-terms mode done — ${u} article(s) updated`);
+    return;
+  }
 
   if (process.env.BACKFILL === 'true'){   // one-time maintenance: de-dup + generate AI 전문, then write & exit
     const deduped = await dedupeExisting(existing);
