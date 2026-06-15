@@ -7,6 +7,20 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-06-15",
+    "title": "한전기술, 베트남 SMR 협력 구체화",
+    "summary": "한전기술이 베트남의 소형모듈원자로(SMR) 법제화 움직임에 협력하며 전략적 교두보를 마련하고 있다.",
+    "summaryLong": "한전기술이 베트남의 소형모듈원자로(SMR) 도입을 위한 법제화 과정에 참여하여 국제 진출의 교두보를 마련하고 있다. 베트남의 규제 체계 정비 움직임에 한전기술이 협력함으로써 향후 한국 SMR 기술 수출 기반을 구축하려는 전략이다. 이는 한국 원자력 기업의 해외 시장 개척 노력을 반영하는 중요한 사례로, 아시아 지역에서의 SMR 확산에 기여할 것으로 전망된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한전기술",
+    "region": "KR",
+    "source": "\"SMR 원자력\" - Google 뉴스",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE54WXhwTlE0TzNvSHotLVlSSm1LSEFGc3FzdDI2dDVEU3JXbkNkZ3NreloycnBTbjVScy1sejkzclB1LXV4M0ZYY3p3b3NmZUNzV3ZZd0JlRl8zLW9SUTl2UTNBOA?oc=5",
+    "k": "한전기술 베트남 smr 전략적 교두보 마련 법제화 움직임에 협력 구체화",
+    "id": "5991988b"
+  },
+  {
     "date": "2026-06-14",
     "title": "우즈베키스탄 소형모듈원자로 수출 프로젝트 기공",
     "summary": "소형모듈원자로의 첫 수출 프로젝트가 우즈베키스탄에서 기공식을 개최했다.",
@@ -63,6 +77,20 @@ window.SMR_NEWS = [
     "id": "49274fde"
   },
   {
+    "date": "2026-06-14",
+    "title": "뉴스케일(NuScale), 10억 달러 자금으로도 2030년 첫 수익 목표",
+    "summary": "SMR 선두주자 뉴스케일이 10억 달러(USD 1 billion) 규모의 실탄을 확보했으나 상용화까지는 여전히 길다는 평가다.",
+    "summaryLong": "소형모듈원자로(SMR) 분야의 선도 기업인 뉴스케일(NuScale)이 10억 달러(USD 1 billion) 규모의 자금을 확보했으나, 첫 수익 창출 시점을 2030년으로 예상하고 있다. 이는 SMR 기술의 상용화 단계가 아직 초기 단계이며, 실제 경제성 달성까지 상당한 시간이 필요함을 시사한다. 규제 인허가, 건설, 운영 등 다양한 단계의 불확실성이 존재하는 가운데, 투자자들이 신중한 평가를 해야 한다는 점을 강조하고 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "\"SMR 원자력\" - Google 뉴스",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQTZicmFhQlZFQm9pX2JNMWtCMlNyUUxYVXc3N1lhcDdPRlpUX0pHbE9NeUNCS21kd2pjOVRBWldEYUtwUUtkelZEZk9sbjBrMTlGTTJJcmFpOHpjajdTX2IxVTZCSWJmREp1cm9wd1FubUJ5SW5DUnBWOW1SSkNFQk5IM2VsMElv?oc=5",
+    "k": "smr 선두 뉴스케일 10억 불 실탄에도 첫 수익 2030년 지금 들어가도 되나",
+    "id": "4ee1802d"
+  },
+  {
     "date": "2026-06-13",
     "title": "스웨덴의 선도적 SMR 전략, 글로벌 시장 영향력 확대",
     "summary": "스웨덴의 소형모듈원자로(SMR) 개발 추진이 글로벌 시장에 미칠 영향을 분석한 보도이다.",
@@ -75,6 +103,20 @@ window.SMR_NEWS = [
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1PeG4yTUhRU19ZRGNRQlN3RkRCaFY2R0U3TDlGRENDak1lcXM2SGs2WC1uWXItcHlubHZ3WFJqYWI2UVhDNlMwOVp5cTJubmpvRFFNYzZEeG1aV3lPVHh4ZEYwUUY?oc=5",
     "k": "앞서가는 스웨덴 smr 시계 글로벌 시장 뒤흔들까",
     "id": "7f0f8588"
+  },
+  {
+    "date": "2026-06-13",
+    "title": "미국 NRC(원자력규제위원회) 위원장, SMR 규제 장애물 제거 방침",
+    "summary": "미국 원자력규제위원회(NRC) 위원장이 소형모듈원자로(SMR)의 상용화를 위해 규제 장애물을 제거하겠다고 선언했다.",
+    "summaryLong": "미국 원자력규제위원회(NRC, Nuclear Regulatory Commission) 위원장이 소형모듈원자로(SMR)의 상용화 촉진을 위해 규제 절차상의 걸림돌을 해소하겠다는 의지를 표명했다. 이는 설계인증(Design Certification), 건설허가(Construction Permit), 운영허가(Operating License) 등 인허가 과정의 합리화를 통해 SMR 개발 기업들의 시장 진입을 가속화하려는 정부 차원의 정책적 지원을 나타낸다. 미국의 SMR 규제 프레임워크 개선은 글로벌 SMR 산업 발전의 중요한 신호로 작용할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "\"SMR 원자력\" - Google 뉴스",
+    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5McXU4U2xoTG5xY0t4WEJVT0N3b2dvQjBwWkhubDBVZXozd1hpRHJoRldxVFpwYmltbnRnRmlWMERDbERpTjY3TzNUSHNZRmdHVFhfMUo1Qks2NTk5SDJSRFNBR0c?oc=5",
+    "k": "nrc 위원장 smr 상용화 규제 걸림돌 없앨 것",
+    "id": "6396f58f"
   },
   {
     "date": "2026-06-12",
@@ -201,6 +243,48 @@ window.SMR_NEWS = [
     "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWWhCZ2hVSXVHVGpiTUdtcGhRYUdyRlZrQ2lSTmljTS1oNWJqbUJRdXY0el94TG52UDRrdkk0ZmtwaFRNYjhTTnl1V3hVNk9VZy1EZ3dYS3JNQkRmQnFINnI2a1p2eGEtOTV4SlJsX2FhYkdVSzNNZHU0ZnB6LVZEWURYMTdFbGVyTTBBZ2VMUUdXRUs4T043UW5JSHlLQQ?oc=5",
     "k": "smr에 100조원 투자 러트닉 상무 미일 세계 smr 선도할 것",
     "id": "aa8b69d8"
+  },
+  {
+    "date": "2026-06-12",
+    "title": "카이로스 파워(Kairos Power), 테네시주 오크릿지(Oak Ridge)에 원자로 시연 부지 착공",
+    "summary": "카이로스 파워가 테네시주 오크릿지의 원자로 시연 부지에서 새로운 건설 접근법으로 착공했다.",
+    "summaryLong": "카이로스 파워(Kairos Power)가 테네시주 오크릿지(Oak Ridge)에 위치한 원자로 시연 부지의 건설을 시작했다. 해당 부지는 약 85년 전 맨해튼 프로젝트(Manhattan Project) 당시 약 30,000명의 건설 노동자가 과수원과 농지를 원자력위원회(Atomic Energy Commission) 생산 시설로 변모시킨 역사적 위치이다. 이번 프로젝트는 소형모듈원자로(SMR) 기술의 실증 단계를 나타내며, 북미 지역의 첨단 원자로 개발 추진을 시사한다.",
+    "cat": "기술",
+    "type": "FHR",
+    "dev": "Kairos Power",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-06-12/article-8048/breaking-ground-on-a-new-approach-to-construction/",
+    "k": "breaking ground on a new approach to construction",
+    "id": "f0696c46"
+  },
+  {
+    "date": "2026-06-12",
+    "title": "오클로(Oklo), 미국 에너지부(DOE) 예비안전분석(PDSA) 승인 획득",
+    "summary": "오클로가 아이다호 국립연구소(INL)에서 건설 중인 오로라 파워하우스(Aurora Powerhouse)의 예비안전분석(PDSA) 승인을 에너지부로부터 획득했다.",
+    "summaryLong": "오클로(Oklo)가 미국 에너지부(DOE) 아이다호 운영 사무소(Idaho Operations Office)로부터 자사 첫 번째 배치인 오로라 파워하우스(Aurora Powerhouse)의 예비안전분석(PDSA) 승인을 획득했다고 발표했다. 오로라 파워하우스는 현재 아이다호 국립연구소(INL)에서 건설 중이며, 이는 원자로 파일럿 프로그램(Reactor Pilot Program)에 참여하는 10개 기업 중 최근의 중요한 인가 이정표이다.",
+    "cat": "인허가",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-06-12/article-8119/oklo-secures-doe-pdsa-approval/",
+    "k": "oklo secures doe pdsa approval",
+    "id": "2c2b2944"
+  },
+  {
+    "date": "2026-06-12",
+    "title": "미국 상무장관, 일본 자금으로 SMR 투자 제안",
+    "summary": "미국 상무장관이 일본의 자금을 활용한 소형모듈원자로(SMR) 투자를 제안하며 2050년 원전 4배 확대 계획을 지원하고 있다.",
+    "summaryLong": "미국 상무장관이 일본의 자본을 활용하여 소형모듈원자로(SMR)에 투자하는 방안을 제안했다. 이는 미국의 2050년 원자력 발전 4배 확대 목표를 달성하기 위한 전략의 일환으로, 일본과의 국제 협력을 통해 SMR 개발 자금을 확보하려는 시도다. 미·일 양국 간의 원자력 에너지 협력 강화를 통해 탄소 중립 달성과 에너지 안보 확보를 동시에 추구하는 정책적 접근이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "\"SMR 원자력\" - Google 뉴스",
+    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9pMGZrVmRFRmpUN3NHZmJEXzVrdG9Td21vczVDajFmcURJZ014LTZDdkhYNTN5dG1MVVV4TVF0N1lyZmZPd0F5dFBLRkkxN0tDVnl6S2ZOaUU2UWNUeVp4ZFNFei01bEJzSWJmMUpLYUUxWVE?oc=5",
+    "k": "미국 상무장관 일본 자금으로 smr에 투자 2050년 원전 4배 확대 계획 지원",
+    "id": "2d7518a5"
   },
   {
     "date": "2026-06-11",
@@ -511,6 +595,34 @@ window.SMR_NEWS = [
     "id": "49e84136"
   },
   {
+    "date": "2026-06-10",
+    "title": "한국 첫 혁신형 i-SMR, 경주 유치 제안",
+    "summary": "한국 최초의 혁신형 i-SMR(소형모듈원자로) 유치 후보지로 경주를 제안하는 기고문.",
+    "summaryLong": "황대욱 필자가 한국 최초의 혁신형 i-SMR 소형모듈원자로 도입 시 경주가 최적의 입지라는 의견을 제시했다. 경주는 기존 원자력 인프라와 지역 경험을 갖춘 입지로 평가되며, SMR 산업 육성과 지역 경제 활성화를 동시에 이룰 수 있다는 주장이다. 이는 정부의 SMR 정책 추진 및 지역 선정 과정과 맞닿아 있는 논의로, 주민 수용성과 정책 실현 방안에 대한 관심을 반영한다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "",
+    "region": "KR",
+    "source": "\"SMR 원자력\" - Google 뉴스",
+    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1IS0hoUmhURFJtNWxEbm9kTVJnTXNnQ1R6Y2YzWWNnZ1R2NENBRDRadnN6ajNNWFlkOWIxOW1QeDJFeEl6WVB1akp1SFl0bFJuOW1FTlJPYTA?oc=5",
+    "k": "황대욱 특별기고 대한민국 첫 i smr 답은 경주다",
+    "id": "72a92cd5"
+  },
+  {
+    "date": "2026-06-10",
+    "title": "홀텍(Holtec), 퇴역 원전 부지에 SMR 4기 배치로 AI 전력 수요 대응",
+    "summary": "홀텍이 퇴역 원자력발전소의 기존 부지를 재활용하여 소형모듈원자로(SMR) 4기를 배치함으로써 인공지능(AI) 데이터센터의 전력 병목 해결을 목표로 하고 있다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발사 홀텍(Holtec International)이 폐지된 대형 원자력발전소의 기존 부지와 인프라를 재활용하여 SMR 4기를 배치하는 전략을 추진하고 있다. 이는 기존 원자력 부지의 경제적 활용과 함께 급증하는 인공지능(AI) 데이터센터의 전력 공급 수요를 충족하려는 기술·상업 전략이다. 부지 재활용을 통해 규제 인허가 절차를 단축하고 기반시설 비용을 절감하면서도 고용 창출과 지역 경제 활성화를 도모할 수 있다는 점에서 SMR 상용화의 현실적 경로를 제시하는 사례다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Holtec",
+    "region": "US",
+    "source": "\"SMR 원자력\" - Google 뉴스",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRU9UZ0V2ODRJMHVObnIwc0QxMzY1c1pLc043WXhzb2xmd0FWTTREWjFpeURweXZPOEFscDV2a2lyS0VaZHlLT005bzNyeVBzQ0xGSW5WYTd2U2VkQk1fQmJTeXZ4QmVrdVJXQ294aHVDV0JzWWlDSGk2am5vYW5UNm9BRm0yTFEw?oc=5",
+    "k": "smr 4기 부지 재활용 승부수 홀텍 퇴역 원전으로 ai 전력 병목 뚫는다",
+    "id": "47b2c4b1"
+  },
+  {
     "date": "2026-06-09",
     "title": "SMR 회사 Oklo, 원자력 엔지니어링 전문기업 ArmecK 인수",
     "summary": "샘 올트먼(Sam Altman)이 지원하는 소형모듈원자로(SMR) 개발사 Oklo가 원자력 엔지니어링 전문기업 ArmecK를 인수했다.",
@@ -607,6 +719,20 @@ window.SMR_NEWS = [
     "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0tM256MlZ6R2c2bGVyVVVFX1l2WUZiNFNwSllMT3cxMlJDVlNMUHZvSkl3SlJPSFBYbE4wemFhMC04MGk4ZGdpY2lESVV3NG93MGpDbFJJU3dINFlHSVo4TzFKUnc?oc=5",
     "k": "k smr 상용화 설계 넘어 공급망이 관건",
     "id": "4133d829"
+  },
+  {
+    "date": "2026-06-08",
+    "title": "아이다호국립연구소 MARVEL 마이크로원자로 개발 교훈 공유",
+    "summary": "아이다호국립연구소(INL) MARVEL 팀이 마이크로원자로 설계·제조 과정에서 겪은 과제들을 미국 원자력학회 연례회에서 발표했다.",
+    "summaryLong": "아이다호국립연구소(INL) MARVEL 팀은 덴버에서 열린 미국 원자력학회(ANS) 연례회에서 마이크로원자로 개발 과정의 교훈을 공유했다. 발표 세션 '마이크로원자로 MARVEL 제조에서 배운 교훈'에서 설계에서 제조·조립으로의 전환 과정에서 발생한 과제들, 특히 원자로 부품 제조, 스털링엔진(Stirling Engine) 적용, 반응성 제어 등의 기술적 어려움을 강조했다. 이는 초소형 원자로(Micro) 개발의 현실적 난제를 산업계에 공유하는 의미 있는 기술 교류였다.",
+    "cat": "기술",
+    "type": "Micro",
+    "dev": "INL",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-06-08/article-8101/marvel-team-shares-lessons-learned-through-microreactor-development/",
+    "k": "marvel team shares lessons learned through microreactor development",
+    "id": "dc453469"
   },
   {
     "date": "2026-06-07",
@@ -717,6 +843,20 @@ window.SMR_NEWS = [
     "url": "https://www.world-nuclear-news.org/articles/ceremony-to-mark-first-concrete-for-uzbekistan-smr",
     "k": "ceremony to mark first concrete for uzbekistan smr",
     "id": "a261715c"
+  },
+  {
+    "date": "2026-06-05",
+    "title": "온타리오 파워 제네레이션(OPG), 다링턴(Darlington)에서 BWRX-300 건설허가 획득 및 기초공사 진행",
+    "summary": "온타리오 파워 제네레이션(OPG)이 다링턴 원전에 BWRX-300(비등경수로 소형모듈로) 첫 번째 기기의 건설허가를 2024년 4월 취득하고 기초공사를 진행하고 있다.",
+    "summaryLong": "온타리오 파워 제네레이션(OPG)이 캐나다 다링턴(Darlington) 원자력 발전소에 최대 4기의 BWRX-300(비등경수로, BWR) 소형모듈원자로(SMR) 첫 번째 기기의 건설을 위해 최종 투자 결정을 내린 지 1년 만에 2024년 4월 건설허가를 획득했다. 이어 새 원자로의 기초가 준비 위치로 올려졌으며, 온타리오 파워 제네레이션 임원은 '핵 르네상스'가 현실화되고 있다고 평가했다.",
+    "cat": "인허가",
+    "type": "BWR",
+    "dev": "OPG",
+    "region": "CA",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-06-05/article-8047/north-american-construction-is-back-smaller-and-faster-at-opgs-darlington/",
+    "k": "north american construction is back smaller and faster at opg s darlington",
+    "id": "6b7c366b"
   },
   {
     "date": "2026-06-04",
@@ -872,6 +1012,48 @@ window.SMR_NEWS = [
     "id": "3cd47fb1"
   },
   {
+    "date": "2026-06-04",
+    "title": "플루어(Fluor), X-에너지(X-energy) 도우(Dow) 씨드리프트(Seadrift) 프로젝트 계약 체결",
+    "summary": "플루어 코퍼레이션(Fluor Corporation)이 텍사스 씨드리프트에서 X-에너지(X-energy)의 소형모듈원자로(SMR) 프로젝트를 지원하는 계약을 체결했다.",
+    "summaryLong": "플루어 코퍼레이션(Fluor Corporation)이 X-에너지(X-energy)의 텍사스 남부 도우(Dow) UCC 씨드리프트 운영시설(Seadrift Operations)에 예정된 소형모듈원자로(SMR) 프로젝트를 지원하는 계약을 체결했다. 플루어는 프로젝트 정의를 포함한 프론트엔드 로딩(Front-End Loading) 단계 2 서비스 제공을 초기 역할로 한다.",
+    "cat": "계약",
+    "type": "HTGR",
+    "dev": "X-energy, Fluor",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-06-04/article-8045/industry-updatejune-2026/",
+    "k": "industry update june 2026",
+    "id": "efcb67a8"
+  },
+  {
+    "date": "2026-06-04",
+    "title": "X-Energy, 2026년 1분기 실적 발표 및 나스닥 상장",
+    "summary": "X-Energy(엑스-에너지)가 2026년 1분기 매출 4,300만 달러를 기록했으며, IPO(신규공개)를 통해 약 11억 달러를 조달해 나스닥(Nasdaq)에 'XE' 티커로 상장했다.",
+    "summaryLong": "고급 원자로 및 핵연료 기술 개발사 X-Energy(엑스-에너지)가 2026년 1분기 매출 및 정부 지원금 총 4,300만 달러(전년도 같은 기간 2,100만 달러 대비 증가)를 기록했다. 동사는 신규공개(IPO, Initial Public Offering)를 통해 약 11억 달러(순)를 조달했으며, 나스닥 글로벌셀렉트시장(Nasdaq Global Select Market)에 'XE' 티커로 상장했다. 이는 첨단로 개발사의 자본조달 확대를 의미한다.",
+    "cat": "투자",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "X-Energy, Inc. News Releases",
+    "url": "https://investors.x-energy.com/news-releases/news-release-details/x-energy-reports-first-quarter-2026-results",
+    "k": "x energy reports first quarter 2026 results",
+    "id": "930c145d"
+  },
+  {
+    "date": "2026-06-04",
+    "title": "뉴욕주, 원자력 개발 및 인력양성 제안요청 개시",
+    "summary": "뉴욕주 전력청(NYPA)이 2033년 전에 대규모 원자로 및 소형모듈원자로(SMR) 건설 가능 개발사를 모집하고 있다.",
+    "summaryLong": "뉴욕주 전력청(NYPA)은 뉴욕주 전력망에 최소 1 GW 이상의 신규 용량을 추가할 수 있는 대규모 원자로 및 소형모듈원자로(SMR) 개발사로부터 제안을 공모하기 시작했다. 모집 대상 기업들은 2033년 이전에 건설을 개시할 능력을 갖춰야 하며, 이는 미국 북동부 지역의 전력 수급 안정화 및 탈탄소화 정책의 일환이다. 이를 통해 뉴욕주는 SMR을 포함한 차세대 원자력 기술 도입을 본격화하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-06-04/article-8094/new-york-opens-rfq-rfa-windows-for-nuclear-development-and-workforce/",
+    "k": "new york opens rfq rfa windows for nuclear development and workforce",
+    "id": "b4fb7a1f"
+  },
+  {
     "date": "2026-06-03",
     "title": "X-energy, 영국 규제기관에 Xe-100 고온가스냉각로 인허가 신청",
     "summary": "미국의 첨단원전 개발사 X-energy가 고온가스냉각로(HTGR) Xe-100을 영국 제네릭 설계 평가 절차에 신청했다.",
@@ -967,6 +1149,20 @@ window.SMR_NEWS = [
     "id": "a8b84984"
   },
   {
+    "date": "2026-06-03",
+    "title": "국제원자력기구, 해양 소형모듈원자로 이니셔티브 8월 출범",
+    "summary": "국제원자력기구(IAEA)가 8월 해상 분야 소형모듈원자로 지원 이니셔티브 ATLAS(해상 응용 원자력 기술 허가)를 출범할 계획이다.",
+    "summaryLong": "국제원자력기구(IAEA)는 8월 26~27일 미국 워싱턴 D.C.에서 열리는 IAEA 장관급 회의에서 신규 이니셔티브 '해상 응용 원자력 기술 허가(ATLAS: Atomic Technologies Licensed for Applications at Sea)'를 공식 출범할 예정이다. 이 이니셔티브는 민간 선박 추진 및 해상 에너지 공급을 목적으로 소형모듈원자로(SMR) 도입을 추진하려는 해운업계를 지원하기 위한 국제 협력 체계로, 해양 분야 원자력 기술 활용의 새로운 장을 여는 의미 있는 정책 출범이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-06-03/article-8089/iaea-schedules-august-launch-of-atlas-maritime-nuclear-initiative/",
+    "k": "iaea schedules august launch of atlas maritime nuclear initiative",
+    "id": "c624d7ce"
+  },
+  {
     "date": "2026-06-02",
     "title": "혁신형 소형모듈원자로(SMR), 통제봉구동기구(CRDM) 검증 과제 직면",
     "summary": "뉴스케일(NuScale)을 포함한 혁신형 소형모듈원자로(SMR)가 통제봉구동기구(CRDM) 검증이라는 인허가 과제를 안고 있다.",
@@ -993,6 +1189,48 @@ window.SMR_NEWS = [
     "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaXhZdkV5cGNxVFhubnc4UXVhMThUZ2phd2E1Qkg5T2FhMmtRazdTRVVCVW55RUpWTGFqa3plNkp2YzQ2SS1lMHNDc3BWaXNyX2tpUHF6c29xelBTclFDdXlyNVV4NS1neW5WVVpyazdXU0FoeDVDTjRxWmdCRHZ4TjB3S1d5SGQ5V3pEYVBQVG9JaW9UUWpwMEowa0Yxa1VlV0pWcksxdzZLbGFVTG44NzRJb1RCX1ZCRHRqeFZiUWhfdi00RTRiX2xkNzdOem1Q?oc=5",
     "k": "day zimmermann deep fission partner to build underground small modular reactor",
     "id": "2064c2dc"
+  },
+  {
+    "date": "2026-06-02",
+    "title": "X-Energy, Xe-100 고온가스로를 영국 GDA에 신청",
+    "summary": "X-Energy(엑스-에너지)가 고온가스로(HTGR) Xe-100을 영국(UK)의 일반설계평가(GDA) 절차에 진입하기 위한 신청서를 제출했다.",
+    "summaryLong": "나스닥 상장사 X-Energy, Inc.(엑스-에너지)는 2026년 6월 고온가스로(HTGR, High Temperature Gas-cooled Reactor) Xe-100을 영국(UK)의 일반설계평가(GDA, Generic Design Assessment) 절차에 진입하기 위한 신청서를 공식 제출했다. GDA는 원자로 설계 인증 및 규제 검토의 첫 단계로, 영국 시장 진출과 글로벌 상용화를 위한 중요한 규제 이정표이다.",
+    "cat": "인허가",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "UK",
+    "source": "X-Energy, Inc. News Releases",
+    "url": "https://investors.x-energy.com/news-releases/news-release-details/x-energy-submits-xe-100-htgr-uk-generic-design-assessment",
+    "k": "x energy submits xe 100 htgr for uk generic design assessment",
+    "id": "00a4b296"
+  },
+  {
+    "date": "2026-06-02",
+    "title": "스웨덴 스투드스빅(Studsvik), 600~1,400 MWe 신규 원전 건설 신청; 정부, SMR 회사 지분 인수 추진",
+    "summary": "스웨덴의 엔지니어링 서비스 회사 스투드스빅(Studsvik)이 뉘쾨핑 시(Nyköping Municipality) 본사 인근에서 600~1,400 MWe 규모의 신규 원전 건설 신청서를 제출했으며, 스웨덴 정부는 소형모듈원자로(SMR) 개발사인 비더베르크 크래프트 AB(Videberg Kraft AB)의 주식 과반수 인수를 추진 중이다.",
+    "summaryLong": "스웨덴 엔지니어링 서비스 기업 스투드스빅(Studsvik)이 뉘쾨핑 시(Nyköping Municipality) 본사 위치한 부지에 600~1,400 MWe 규모의 새로운 원자력 발전용량 건설을 신청했다. 동시에 스웨덴 정부는 소형모듈원자로(SMR) 개발사인 비더베르크 크래프트 AB(Videberg Kraft AB)에 대한 과반 지분 인수를 추진하고 있다. 이러한 움직임은 스웨덴의 핵심 에너지 정책 방향을 반영하며, 국내 원전 산업의 지속 가능성과 정부의 주도적 역할을 강화하려는 의지를 보여준다.",
+    "cat": "투자",
+    "type": "General",
+    "dev": "Studsvik",
+    "region": "EU",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-06-02/article-8088/studsvik-applies-to-build-more-reactors-sweden-seeks-majority-control-of-smr-company/",
+    "k": "studsvik applies to build more reactors sweden seeks majority control of smr company",
+    "id": "6080a50d"
+  },
+  {
+    "date": "2026-06-01",
+    "title": "미국 유타주 블루 캐슬(Blue Castle) 프로젝트, 소형모듈원자로(SMR) 시설로 재추진",
+    "summary": "휴지 상태였던 유타주의 블루 캐슬(Blue Castle) 원전 프로젝트가 소형모듈원자로(SMR) 시설로 부활했으며, 블루 캐슬 홀딩스(Blue Castle Holdings)와 풀크럼 포인트 홀딩스(Fulcrum Point Holdings)가 그린 리버(Green River) 지역에서 해당 프로젝트를 추진하기 위한 합작사를 설립했다.",
+    "summaryLong": "유타주 그린 리버(Green River)의 블루 캐슬(Blue Castle) 원전 프로젝트가 소형모듈원자로(SMR) 시설로 재추진된다. 블루 캐슬 홀딩스(Blue Castle Holdings)와 하이 테크 솔루션(Hi Tech Solutions)의 소유자가 설립한 풀크럼 포인트 홀딩스(Fulcrum Point Holdings)가 공동으로 프로젝트를 진행하기 위한 합작사를 체결했다. 이 프로젝트는 원래 대규모 원전으로 추진되다가 중단되었으나, 소형모듈원자로(SMR) 기술의 발전으로 새로운 기회를 얻게 되었다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "Blue Castle Holdings, Fulcrum Point Holdings",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-06-01/article-8082/blue-castle-project-to-be-revived-as-smr-facility/",
+    "k": "blue castle project to be revived as smr facility",
+    "id": "703b3952"
   },
   {
     "date": "2026-05-31",
@@ -1103,6 +1341,20 @@ window.SMR_NEWS = [
     "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBlaXNYM042N1Q5UEwtQ3VPNFBEam42ZDZwSDh6akhhV2ltNGk2SzN0U3dRRmIxX0R1UWRtUlFib3pBamRnVzhMdWRQajFNU1FCY3ducg?oc=5",
     "k": "원자력연 인도 유럽에 국산 smr 수출 추진",
     "id": "70155af4"
+  },
+  {
+    "date": "2026-05-28",
+    "title": "홀텍 인터내셔널(Holtec International)의 SMR-300, 유타주 그린 리버(Green River) 첨단원자력 프로젝트 선정",
+    "summary": "홀텍 인터내셔널(Holtec International)의 SMR-300 소형모듈원자로가 유타주 그린 리버 첨단원자력 프로젝트의 원전으로 선정되었다.",
+    "summaryLong": "홀텍 인터내셔널(Holtec International)의 혁신적인 SMR-300 소형모듈원자로(SMR) 기술이 유타주 그린 리버(Green River) 첨단원자력 프로젝트에 채택되었다. 이 프로젝트는 해당 지역의 요구에 맞춘 신뢰성 있는 탄소 무배출 전력 생산을 지원한다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Holtec International",
+    "region": "US",
+    "source": "Holtec International",
+    "url": "https://holtecinternational.com/hh-41-08/",
+    "k": "holtec international s smr 300 chosen to power the green river advanced nuclear project in utah",
+    "id": "0e08c53d"
   },
   {
     "date": "2026-05-27",
@@ -1217,6 +1469,20 @@ window.SMR_NEWS = [
     "id": "d45c422e"
   },
   {
+    "date": "2026-05-20",
+    "title": "미국 네브래스카 발전공사(NPPD), 4개 지역을 소형모듈원자로(SMR) 건설 후보지로 지정",
+    "summary": "미국 네브래스카 발전공사(NPPD)가 네브래스카 주 내 4개 지역을 소형모듈원자로(SMR) 건설 후보지로 지정했다.",
+    "summaryLong": "미국 네브래스카 발전공사(NPPD)가 네브래스카(Nebraska) 주 내 4개 지역을 소형모듈원자로(SMR) 건설 가능 지역으로 공식 지정했다. 이는 기초 인프라 평가 및 부지 선정 프로세스의 중요한 단계를 나타내며, 지역사회 의견 수렴과 함께 향후 건설 적지 확정으로 이어질 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "NPPD",
+    "region": "US",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNb1V1ZVRpTDB1OUdtMG1NeWdxaWNYT1BvUWE2VVJxdF9pbkU3b2dRVUcwajNYUGhoNFNkY0ZjWnlsNzAwalVNZmVVZ1h5UUdNejN6M3g2VmplT1ZXYkVfMnNOYWwxRTkxcU8xNnlDNTRTYlBMcnVHUmRDYTBlYUtpSjVMTXJZUDdTYXFuTHF4YUxDVXRHN01uNkgzd2U5YlRyNHRRNUE0cnZLLTA2V2FoeTdCOEZKSl9XdHc?oc=5",
+    "k": "nppd identifies 4 nebraska communities as potential small modular reactor sites koln nebraska local news weather sports",
+    "id": "afdb85b0"
+  },
+  {
     "date": "2026-05-19",
     "title": "과기부, 차세대 SMR 조기확보 위한 미래 원자력 정책 추진",
     "summary": "과학기술정보통신부(과기부)가 차세대 소형모듈원자로(SMR) 조기 확보를 목표로 미래 원자력 정책 수립에 돌입했다.",
@@ -1229,6 +1495,34 @@ window.SMR_NEWS = [
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9OMndPM1hYcUlia250SHNHZ21aUk1KUHhMYVE4WVBXc3E2M1NQckE1dHF6M0NTRzNBdGFSSVN5MjJ1aFdZM2k4enFHWG5vR0lrUGtyUF93cERicTM1SWN6bmdtZTFOWUVORGJHaGNB?oc=5",
     "k": "차세대 smr 조기확보 과기부 미래 원자력 정책 수립 돌입",
     "id": "62ae6ead"
+  },
+  {
+    "date": "2026-05-19",
+    "title": "홀텍 인터내셔널, 르완다 공화국과 SMR-300 배치 포괄 개발 협약 체결",
+    "summary": "홀텍 인터내셔널(Holtec International)이 르완다(Rwanda) 공화국과 SMR-300 소형모듈원자로 배치를 위한 포괄 개발 협약을 체결했다.",
+    "summaryLong": "홀텍 인터내셔널(Holtec International)이 아프리카 원자력에너지 혁신 정상회의(Nuclear Energy Innovation Summit for Africa, NEISA)에서 르완다(Rwanda) 공화국과 SMR-300 소형모듈원자로(SMR) 배치를 위한 포괄 개발 협약(Comprehensive Development Agreement)을 체결했다. 이 협약은 중앙 아프리카 국가의 대륙 내 첨단 원자력 에너지 생산의 선구자가 되겠다는 열망의 구체적 진전을 나타낸다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Holtec International",
+    "region": "EU",
+    "source": "Holtec International",
+    "url": "https://holtecinternational.com/hol-41-07/",
+    "k": "holtec international and republic of rwanda sign a comprehensive development agreement to deploy smr 300 reactors in the country",
+    "id": "55785bad"
+  },
+  {
+    "date": "2026-05-18",
+    "title": "미국 원자력규제위원회(NRC), X-에너지·다우의 텍사스 고급원자로 사업 환경영향평가 완료",
+    "summary": "미국 원자력규제위원회(NRC)가 X-에너지(X-Energy)와 다우(Dow)의 텍사스 소형모듈원자로 건설허가 신청에 대한 환경영향평가(EA)를 완료하고 중대한 영향이 없다는 결론을 내렸다.",
+    "summaryLong": "미국 원자력규제위원회(NRC)는 X-에너지(X-Energy)와 다우(Dow)가 텍사스 미들랜드(Midland)에 제안한 소형모듈원자로(SMR) 사업에 대한 환경영향평가(EA)를 완료했다. 평가 결과 중대한 환경영향이 없다는 판단(Finding of No Significant Impact, FONSI)을 내렸으며, 이는 건설허가 신청의 중요한 마일스톤이다. 본 프로젝트는 미국 에너지부(DOE)의 고급원자로 실증 프로그램(Advanced Reactor Demonstration Program, ARDP)의 지원을 받고 있다.",
+    "cat": "인허가",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "X-Energy, Inc. News Releases",
+    "url": "https://investors.x-energy.com/news-releases/news-release-details/nrc-issues-environmental-assessment-finding-no-significant",
+    "k": "nrc issues environmental assessment with finding of no significant impact for dow and x energy s proposed advanced nuclear project in texas",
+    "id": "67391092"
   },
   {
     "date": "2026-05-15",
@@ -1369,6 +1663,20 @@ window.SMR_NEWS = [
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zY2tYeG5yYUM5NmtXeUwxelZudDByRWdDdVhqYXRzZ2tVcll5Y2laM0Y2dG1pZVR3RnVpcFpBWXlvWmthcWcwdzY1M3hkS01DcUJqWUY0OXBmTkZHSUkxdEdWRmJkenRzVFphbtIBcEFVX3lxTFBONHo1WHJkUHVLT09GUkR2cU0tb1JsNXA5ajRBcjNPSUgwN2xjNkp3Nk42Rm5JNzJpX3F3STUyZ3RrbzVoR1NibFBnZndBMXNOcngwNENSM2N0MXZ0UzM1a3AyMEt6czFFaWJBODJwUk4?oc=5",
     "k": "기장군 i smr 유치 공감대 확산 경주와 유치 경쟁 본격화",
     "id": "670a51e9"
+  },
+  {
+    "date": "2026-04-30",
+    "title": "루이스빌가스전기(LG&E)·켄터키유틸리티(KU), X-에너지와 소형원자로 협력 추진",
+    "summary": "루이스빌가스전기(LG&E)와 켄터키유틸리티(KU)가 X-에너지(X-Energy)와 협력하여 켄터키(Kentucky)에 소형모듈원자로(SMR) 도입 타당성을 검토한다.",
+    "summaryLong": "피피엘(PPL Corporation) 자회사인 루이스빌가스전기(LG&E)와 켄터키유틸리티(KU)가 X-에너지(X-Energy)와 협력을 발표했다. 양사는 켄터키(Kentucky) 지역의 전력망에 소형모듈원자로(SMR)를 추가하는 것의 기술적·경제적 타당성을 공동으로 검토할 예정이다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "X-Energy, Inc. News Releases",
+    "url": "https://investors.x-energy.com/news-releases/news-release-details/lge-and-ku-collaborate-x-energy-explore-nuclear-energy",
+    "k": "lg e and ku collaborate with x energy to explore nuclear energy",
+    "id": "a3b5cd28"
   },
   {
     "date": "2026-04-29",
@@ -1538,6 +1846,20 @@ window.SMR_NEWS = [
     "id": "ecd18210"
   },
   {
+    "date": "2026-04-24",
+    "title": "X-에너지, 기업공개(IPO) 공모가 결정 발표",
+    "summary": "X-에너지(X-Energy)가 주당 23달러의 기업공개(IPO) 공모가를 확정하고 44,254,659주의 확대된 규모의 공개를 발표했다.",
+    "summaryLong": "X-에너지(X-Energy)는 2026년 4월 23일 기업공개(IPO)의 최종 공모가를 주당 23달러로 결정했다고 공표했다. 원래 계획보다 확대된 규모인 44,254,659주의 A등급 보통주를 공모하며, 이는 고급 원자로 및 연료 기술 분야의 선도 개발사로서의 위치를 자본시장에 공식화하는 단계이다.",
+    "cat": "투자",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "X-Energy, Inc. News Releases",
+    "url": "https://investors.x-energy.com/news-releases/news-release-details/x-energy-announces-pricing-upsized-initial-public-offering",
+    "k": "x energy announces pricing of upsized initial public offering",
+    "id": "9a6951f0"
+  },
+  {
     "date": "2026-04-16",
     "title": "미국 원자력 회사, 240MW 소형모듈원자로 건설 계획 제출",
     "summary": "미국의 한 원자력 회사가 240MW 규모의 소형모듈원자로 건설 계획을 관계 당국에 제출했다.",
@@ -1578,6 +1900,20 @@ window.SMR_NEWS = [
     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNVBpeVpLbnoxZ0N4SjNzXzVEVUxQbm02Y2xCSnZtc1RSaWRMV0dRQm0xOENxZjJSaUtKU2k2RjBURmsxZHZ5aW1NamgxRkcxejJ1LW5taUF6dHlxUW5hYmR0SkdkcUNOeHR1ZXpoZWVPRXJPeU53UXpCTjN4cl9vNnZfRTNNMWdDeWFjZnJBcDMzRWdSOTBreUY5cWJlcXAyTS1iWkpTaEFDeDdnOVAtdWJTT2NySjBwZTBhUWFZdWpaX0taZVlDSWtR?oc=5",
     "k": "xe ipo news small modular reactor developer x energy sets terms for 750 million ipo",
     "id": "d2827aed"
+  },
+  {
+    "date": "2026-04-15",
+    "title": "X-에너지, 기업공개(IPO) 로드쇼 시작",
+    "summary": "X-에너지(X-Energy)가 42,857,143주 규모의 기업공개(IPO) 로드쇼 개시를 공식화했다.",
+    "summaryLong": "X-에너지(X-Energy)는 2026년 4월 15일 기업공개(IPO)를 위한 로드쇼 개시를 발표했다. 42,857,143주의 A등급 보통주를 공모 대상으로 하는 기업공개 절차의 투자자 설명회 단계에 진입했으며, 고급 원자로 및 핵연료 기술 분야에서의 성장을 자본시장에 알리는 기간이 된다.",
+    "cat": "투자",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "X-Energy, Inc. News Releases",
+    "url": "https://investors.x-energy.com/news-releases/news-release-details/x-energy-announces-launch-its-initial-public-offering",
+    "k": "x energy announces launch of its initial public offering",
+    "id": "2b76f759"
   },
   {
     "date": "2026-04-13",
@@ -1634,6 +1970,34 @@ window.SMR_NEWS = [
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWG9nSnBaRVo3OVliMnczMGNPOUltV19Dbld3Y2drLUdHNkFmU3JKSXlyS19aTVljeThZQTNEXzhOQzVyMmlxYUhaRlNmUGN6d0JrbTJ6TFFxRGI2Qlk2WFRDeHVLSWktLWtQcHNwX1dqRFh2c0U3dzN2azcxeVZvaVFORlZULUlkV0p0cm5KMG5ma2JsVGFRRG1TVlBod2VU?oc=5",
     "k": "prep work for new small modular reactors at palisades now underway",
     "id": "1c8f26ab"
+  },
+  {
+    "date": "2026-03-31",
+    "title": "홀텍 SMR-300, 영국 GDA 2단계 통과",
+    "summary": "홀텍 인터내셔널(Holtec International)의 SMR-300이 영국(UK)의 일반설계평가(GDA) 2단계를 완료해 영국 및 유럽·아시아 배치의 길을 열었다.",
+    "summaryLong": "홀텍 인터내셔널(Holtec International)의 SMR-300 소형모듈원자로가 영국(UK)의 일반설계평가(GDA, Generic Design Assessment) 2단계를 완료했다. 이는 설계 인증 과정의 중요한 규제 마일스톤으로, 그레이트브리튼(Great Britain)을 비롯해 유럽(Europe)과 아시아(Asia) 지역 배치 가능성을 한층 높였다. SMR-300의 상용화와 국제 확산 전략이 가속화될 것으로 예상된다.",
+    "cat": "인허가",
+    "type": "PWR",
+    "dev": "Holtec",
+    "region": "UK",
+    "source": "Holtec International",
+    "url": "https://holtecinternational.com/hh-41-04/",
+    "k": "holtec s smr 300 completes key regulatory milestone in the uk paving the way for deployments in great britain and other countries in europe and asia",
+    "id": "8e2610d1"
+  },
+  {
+    "date": "2026-03-30",
+    "title": "팰리세즈 재건정비 진전, 홀텍/현대 파이어니어 1·2 SMR-300 부지 공사 준비 시작",
+    "summary": "팰리세즈(Palisades) 원전의 재건정비 주요 마일스톤 완료로 홀텍(Holtec)과 현대중공업(Hyundai)이 파이어니어 1·2 SMR-300 배치를 위한 부지 공사 준비를 시작한다.",
+    "summaryLong": "홀텍 팰리세즈(Holtec Palisades)는 주요 시스템의 부동태화(passivation) 완료라는 중대 마일스톤을 달성해 원전 재가동을 향해 진전했다. 이를 바탕으로 홀텍(Holtec)과 현대중공업(Hyundai)으로 구성된 파트너십 팀이 팰리세즈 부지에 파이어니어(Pioneer) 1·2 SMR-300 소형모듈원자로 2기 건설을 위한 사전 부지 공사 계획을 공식 시작했다. 이는 미국 내 SMR 상용 배치의 구체적 진전 사례로 평가된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Holtec",
+    "region": "US",
+    "source": "Holtec International",
+    "url": "https://holtecinternational.com/hh-41-03/",
+    "k": "with major refurbishment milestones achieved palisades advances toward restart prompting the beginning of preparatory site construction planning by the holtec hyundai team to build the pioneer 1 2 smr 300 units",
+    "id": "ae24049a"
   },
   {
     "date": "2026-03",
@@ -1705,6 +2069,20 @@ window.SMR_NEWS = [
     "id": "4b94d6d7"
   },
   {
+    "date": "2026-03-20",
+    "title": "X-에너지, 증권거래위원회(SEC)에 기업공개 등록신청서 제출",
+    "summary": "X-에너지(X-Energy)가 미국 증권거래위원회(SEC)에 기업공개(IPO)를 위한 S-1 양식 등록신청 초안을 제출했다.",
+    "summaryLong": "X-에너지(X-Energy)는 2026년 3월 20일 미국 증권거래위원회(SEC)에 S-1 양식의 등록신청서 초안을 제출했다고 공표했다. 기업공개(IPO)의 공식적인 규제 신청 단계로, 고급 원자로 및 핵연료 기술 개발사로서의 자본시장 진입을 위한 법적 절차를 진행 중이다.",
+    "cat": "투자",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "X-Energy, Inc. News Releases",
+    "url": "https://investors.x-energy.com/news-releases/news-release-details/x-energy-submits-draft-registration-statement-sec-initial-public",
+    "k": "x energy submits draft registration statement to the sec for initial public offering",
+    "id": "f35432a0"
+  },
+  {
     "date": "2026-03-19",
     "title": "스웨덴 SMR 발전소 계획, 진행 중",
     "summary": "스웨덴의 소형모듈원자로(SMR) 발전소 건설 계획이 설계·인허가 단계를 진행 중이다.",
@@ -1719,6 +2097,20 @@ window.SMR_NEWS = [
     "id": "7444dd20"
   },
   {
+    "date": "2026-03-19",
+    "title": "X-에너지·탈렌에너지, XE-100 SMR 기가와트급 배치 공동 검토",
+    "summary": "X-에너지(X-Energy)와 탈렌에너지(Talen Energy)가 XE-100 소형모듈원자로(SMR)의 기가와트급 규모 배치를 평가하기 위한 양해각서(LOI)를 체결했다.",
+    "summaryLong": "X-에너지(X-Energy)는 독립발전사(IPP) 탈렌에너지(Talen Energy)와 2026년 3월 19일 양해각서(Letter of Intent, LOI)를 서명했다. 양사는 X-에너지의 XE-100 소형모듈원자로(SMR)의 기가와트급 규모 배치의 기술적·상업적 타당성을 공동으로 평가할 예정이며, 미국 내 고급 원자로 시장의 실질적 전개를 시사하는 중요한 파트너십이다.",
+    "cat": "계약",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "X-Energy, Inc. News Releases",
+    "url": "https://investors.x-energy.com/news-releases/news-release-details/x-energy-talen-energy-evaluate-gigawatt-scale-xe-100-smr",
+    "k": "x energy talen energy to evaluate gigawatt scale xe 100 smr deployment",
+    "id": "5f1b5cd2"
+  },
+  {
     "date": "2026-03-17",
     "title": "NuScale Power, 유일한 미국 NRC 인증 소형모듈원자로 기업",
     "summary": "NuScale Power는 미국 원자력규제위원회(NRC)로부터 인증받은 유일한 상용 소형모듈원자로(SMR) 기업이다.",
@@ -1731,6 +2123,20 @@ window.SMR_NEWS = [
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPanhYZEVnY0RyT3RkbTVNRXBWcjNwYXU0a0pqN3RCV2ZETjB2clVuQzBNVVg1X0FYdnNyN0ZfTV9UY3FXZ240c3NFX01fcG42TklocnpVNEh5eVcyY21uYzFMRlRJUDMyaFJkS29hVmxXU21EWE1XcjZRM0pUNFJ3SmlEajQzRFJUWTRwczlhM2wxRy1vMUZtSHptbU9SU1RxZi1mYjMzV2E2V2hnaTFJ?oc=5",
     "k": "nuscale power inside the only nrc certified small modular reactor company nyse smr",
     "id": "93c0f5ac"
+  },
+  {
+    "date": "2026-03-16",
+    "title": "X-에너지·아이에이치아이, 미국-일본 SMR 공급망 발전 협력",
+    "summary": "X-에너지(X-Energy)와 일본 아이에이치아이(IHI Corporation)가 미국-일본 소형모듈원자로(SMR) 공급망 발전을 위한 양해각서(MOU)를 체결했다.",
+    "summaryLong": "X-에너지(X-Energy)는 일본의 선도 엔지니어링 기업 아이에이치아이(IHI Corporation)와 2026년 3월 16일 양해각서(Memorandum of Understanding, MOU)를 서명했다. 양사는 미국-일본 간 소형모듈원자로(SMR) 공급망 개발 및 고도화를 공동으로 추진하며, 양국의 전략적 원자력 협력 강화 및 글로벌 SMR 산업 확대의 의미를 갖는다.",
+    "cat": "계약",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "X-Energy, Inc. News Releases",
+    "url": "https://investors.x-energy.com/news-releases/news-release-details/x-energy-ihi-corporation-partner-advance-us-japan-smr-supply",
+    "k": "x energy ihi corporation partner to advance u s japan smr supply chain development",
+    "id": "e5ef1f3c"
   },
   {
     "date": "2026-03-15",
@@ -1954,6 +2360,20 @@ window.SMR_NEWS = [
     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9oZmNtUnpRNGJWbHNCNTBHTEdLbDk2U1lEX0hKLVp5ZHJ6VE5hQ0pKd3NHb0dOM0RPeWNhLU9jU3puanlpTHd2U0F0Wlk5bHVoT051OTRsTnlfT1FBbU9vWEhaWWcxOUxIVjhnUG5OMExyWGVBNGswSlg3aw?oc=5",
     "k": "smr vs bwxt which small modular reactor stock is a buy right now",
     "id": "b64a5d19"
+  },
+  {
+    "date": "2026-02-16",
+    "title": "인도 NPCIL, 홀텍이 공동 설계·제조한 사용후핵연료 관리 장비 납품받다",
+    "summary": "홀텍 아시아(Holtec Asia)와 홀텍 인터내셔널(Holtec International)이 공동 설계·제조한 사용후핵연료 관리 장비가 인도 NPCIL의 쿠단쿨람(Kudankulam) 원전에 납품되었다.",
+    "summaryLong": "홀텍 아시아(Holtec Asia)와 홀텍 인터내셔널(Holtec International)이 공동으로 설계·제조한 사용후핵연료 관리 장비가 인도 핵전력공사(NPCIL, Nuclear Power Corporation of India Limited)의 쿠단쿨람(Kudankulam) 원전(타밀나두 소재, 러시아 설계)에 성공적으로 납품되었다. 이는 SMR과 무관한 대형 원전의 핵연료 관리 부품 공급 건으로, 홀텍의 부품 제조 역량 입증이지만 SMR 개발 프로젝트와는 별개이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Holtec",
+    "region": "",
+    "source": "Holtec International",
+    "url": "https://holtecinternational.com/hh-41-02/",
+    "k": "india s npcil receives state of the art used fuel management components co engineered and manufactured by holtec asia and holtec international",
+    "id": "2e20fc83"
   },
   {
     "date": "2026-02-13",
@@ -2331,6 +2751,20 @@ window.SMR_NEWS = [
     "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQa3N2dG5WWXZXSFZudXA0V3ppc0w3dU9ZejhKZEVVTHNFVkdic3RGNjdHdEtnaUttYUw5VTZCVkhIeUY1VE5jN1I5MmFkNU9Fajk0dWo0Z0d2cXRGOHFEWDY3aTQzeUxqWUN0Q0w2LVVyZW9uVGdiR0JkVmVLR0tWaUdod3FvNTRYWjh4Y2pETHZrbzNySDdzelI2WFTSAbABQVVfeXFMUHNiWXd6VkJtYnJabV9yUHFJZkdPUUVxNVZDMmVidVJXUkxudTRIWXBLMjd4MlM3ZWxzVnBMcm1DamVxNWJoTWJ6VUJrdFB4V1RZM2ZXamhEN3ZOSkdtMXU4NXFUVFlqenUtT1lzZVBMTnBIdkpkY2NPd2w5MzV2ZGdOcWs1MXkzcUc1cE1VSWx2eGpyYnRTMkZJYkVGQTgxT1lWcTJaUVNaand6RDVQcXg?oc=5",
     "k": "country s first small modular reactor to be developed in east tennessee governor says",
     "id": "f1a51a61"
+  },
+  {
+    "date": "2025-12-02",
+    "title": "미국 테네시 밸리 오소리티(TVA), 소형모듈원자로(SMR) 건설에 연방 보조금 4억 달러 확보",
+    "summary": "미국 테네시 밸리 오소리티(TVA)가 소형모듈원자로(SMR) 건설 사업에 4억 달러의 연방 보조금을 확보했다.",
+    "summaryLong": "미국의 대형 공기업인 테네시 밸리 오소리티(TVA)가 소형모듈원자로(SMR) 건설 프로젝트를 위해 4억 달러(약 5,200억 원)의 연방 정부 보조금을 획득했다. 이는 미국 연방정부의 차세대 원자력 기술 개발과 상업화를 지원하려는 정책 의지를 반영하며, 지역 전력 공급 안정화와 탄소중립 달성에 기여할 것으로 기대된다.",
+    "cat": "정책",
+    "type": "General",
+    "dev": "TVA",
+    "region": "US",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcnNPZkc5Q1czRkZQd0wxZXBUTHp5dFZsRmVKTFA2QWVLLUs2eFo3SHo3N282WkpGWWJkb0dzNjNNb2lTczRiNGNmcmdEMFF2ZlFFY0ZDZjh3SUtYVzJQY2xDWU1DaExqblhtejU2dG9zRHdhYk1wSF8tcFIwUjNYVGRIMXMxaXdNU01Sd0VRWmRPZ3BSNHlQLUFB?oc=5",
+    "k": "tva wins 400m federal grant for small modular nuclear reactor",
+    "id": "5555691a"
   },
   {
     "date": "2025-11",
@@ -2948,4 +3382,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-15 14:42 KST";
+window.SMR_UPDATED = "2026-06-15 15:05 KST";
