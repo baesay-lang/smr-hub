@@ -288,7 +288,17 @@ function writeData(list){
 /* AI 전문(detail) — transformative explainer (KO + EN + term glossary), NOT a copy of the source.
    Written to articles/<id>.json and lazy-loaded by the modal. */
 async function generateDetail(item){
-  const prompt =
+  const isKo = /[가-힣]/.test(item.source || '');   // Korean-source article → no English version needed
+  const prompt = isKo ?
+`다음 한국 SMR·원자력 뉴스에 대해 '읽기 쉬운 상세 해설'을 한국어로 작성하라. 원문 복제 금지, 제공 정보와 배경지식으로 재구성, 없는 수치·날짜·고유명사 지어내지 마라.
+제목: ${item.title}
+요약: ${item.summaryLong || item.summary || ''}
+분류: ${item.cat} / 노형: ${item.type} / 개발사: ${item.dev || ''} / 출처: ${item.source || ''}
+아래 JSON만 출력(설명 금지, 줄바꿈은 \\n):
+{"detailKo":"한국어 상세 해설 6~10문장, 문단은 \\n\\n 으로 구분, 외국 지명·기관·인명·전문용어·약어는 한글(English)로 병기, 가독성 있게.",
+ "detailEn":"",
+ "terms":[{"t":"용어 또는 약어(영문 포함)","d":"한국어 한 줄 설명"}]}`
+:
 `다음 SMR·원자력 뉴스에 대해 '읽기 쉬운 상세 해설'을 작성하라. 원문을 그대로 복제하지 말고, 제공된 정보와 일반 배경지식으로 재구성하라. 제공 정보에 없는 구체적 수치·날짜·고유명사를 새로 지어내지 마라.
 제목: ${item.title}
 요약: ${item.summaryLong || item.summary || ''}
@@ -316,7 +326,7 @@ async function generateDetail(item){
       if (!m) return null;
       const d = JSON.parse(m[0]);
       if (!d.detailKo) return null;
-      return { detailKo: String(d.detailKo||''), detailEn: String(d.detailEn||''), terms: Array.isArray(d.terms) ? d.terms.slice(0,8) : [] };
+      return { detailKo: String(d.detailKo||''), detailEn: isKo ? '' : String(d.detailEn||''), terms: Array.isArray(d.terms) ? d.terms.slice(0,8) : [] };
     } catch(e){ clearTimeout(to); if (attempt === 2){ console.error(`detail gen fail: ${e.message}`); return null; } await sleep(1500); }
   }
   return null;
@@ -341,6 +351,14 @@ async function ensureDetail(item){          // generate + persist detail; sets i
 async function backfillDetails(items){
   fs.mkdirSync(ARTICLES_DIR, { recursive: true });
   items.forEach(it => { it.id = articleId(it.url); });                         // stamp id on every item
+  // free pass: strip the English version from existing Korean-source articles (no API call)
+  let stripped = 0;
+  for (const it of items){
+    const p = `${ARTICLES_DIR}/${it.id}.json`;
+    if (!fs.existsSync(p) || !/[가-힣]/.test(it.source||'')) continue;
+    try { const j = JSON.parse(fs.readFileSync(p,'utf8')); if (j.detailEn){ j.detailEn=''; fs.writeFileSync(p, JSON.stringify(j)); stripped++; } } catch {}
+  }
+  if (stripped) console.log(`stripped English from ${stripped} Korean-source article(s)`);
   const todo = items.filter(it => !fs.existsSync(`${ARTICLES_DIR}/${it.id}.json`));
   console.log(`detail backfill: ${todo.length}/${items.length} need a detail file`);
   let made = 0, idx = 0;
