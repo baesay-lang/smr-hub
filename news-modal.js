@@ -88,7 +88,7 @@
       elSrc=$('nm-src'), elLink=$('nm-link'), moreBtn=$('nm-more'), detailEl=$('nm-detail');
 
   var cache = {};      // id -> detail object
-  var curId = null, curLoaded = false, curItem = null, curSummaryOnly = false;
+  var curId = null, curItem = null;
 
   function tagHTML(n){
     var h = '<span class="tg'+(KEY[n.cat]?' key':'')+'">'+esc(n.cat)+'</span>';
@@ -101,46 +101,45 @@
   function termsHtml(terms){
     return terms.map(function(t){ return '<div class="nm-term"><b>'+esc(t.t)+'</b> — '+esc(t.d)+'</div>'; }).join('');
   }
-  function renderDetail(d){
-    // body-grounded full text vs policy-limited summary (Google News redirects can't expose body)
-    var grounded = (d && typeof d.grounded === 'boolean') ? d.grounded : !curSummaryOnly;
+  function fullHtml(d){
     var html = '';
-    if (grounded){
-      if (d && d.detailKo) html += '<div class="nm-sec">전문 · 한국어</div>' + paras(d.detailKo);
-      if (d && d.detailEn) html += '<div class="nm-sec">Full text · English</div><div class="en">' + paras(d.detailEn) + '</div>';
-      if (d && d.terms && d.terms.length) html += '<div class="nm-sec">주요 용어</div><div class="nm-terms">' + termsHtml(d.terms) + '</div>';
-    } else {
-      // summary-only source: the top 요약 already IS the Korean summary — don't duplicate it.
-      html += '<div class="nm-note">ⓘ 이 기사는 제공처(예: 구글뉴스) 정책상 <b>원문 전문</b>을 싣지 못합니다. 위 <b>요약</b>이 핵심 정리이며, 전체 내용은 아래 <b>원문 보기</b>에서 확인하세요.</div>';
-      if (d && d.detailEn) html += '<div class="nm-sec">Summary · English</div><div class="en">' + paras(d.detailEn) + '</div>';
-      if (d && d.terms && d.terms.length) html += '<div class="nm-sec">주요 용어</div><div class="nm-terms">' + termsHtml(d.terms) + '</div>';
-    }
-    detailEl.innerHTML = html || '<div class="nm-load">추가 정보가 없습니다 — 아래 원문을 참고해 주세요.</div>';
-    detailEl.hidden = false; curLoaded = true; moreBtn.textContent = '접기 ▲';
+    if (d && d.detailKo) html += '<div class="nm-sec">전문 · 한국어</div>' + paras(d.detailKo);
+    if (d && d.detailEn) html += '<div class="nm-sec">Full text · English</div><div class="en">' + paras(d.detailEn) + '</div>';
+    if (d && d.terms && d.terms.length) html += '<div class="nm-sec">주요 용어</div><div class="nm-terms">' + termsHtml(d.terms) + '</div>';
+    return html || '<div class="nm-load">추가 정보가 없습니다.</div>';
   }
-
-  function loadDetail(id){
-    if (cache[id]) { renderDetail(cache[id]); return; }
-    moreBtn.textContent = '불러오는 중…';
+  function summaryExtrasHtml(d){
+    // summary-only (e.g. Google News): the top 요약 already covers the content; just add the
+    // policy notice + glossary (no English version, no duplicate Korean summary).
+    var html = '<div class="nm-note">ⓘ 이 기사는 제공처(예: 구글뉴스) 정책상 <b>원문 전문</b>을 싣지 못합니다. 위 <b>요약</b>이 핵심 정리이며, 전체 내용은 아래 <b>원문 보기</b>에서 확인하세요.</div>';
+    if (d && d.terms && d.terms.length) html += '<div class="nm-sec">주요 용어</div><div class="nm-terms">' + termsHtml(d.terms) + '</div>';
+    return html;
+  }
+  function applyDetail(id, d){
+    if (id !== curId) return;
+    if (!d){ detailEl.innerHTML = '<div class="nm-load">추가 정보를 불러오지 못했어요 — 아래 <b>원문 보기</b>를 참고하세요.</div>'; detailEl.hidden = false; moreBtn.hidden = true; return; }
+    // use stored grounded flag if present, else fall back to URL (Google News redirect = summary-only)
+    var grounded = (typeof d.grounded === 'boolean') ? d.grounded : (((d.url || (curItem && curItem.url) || '').indexOf('news.google')) < 0);
+    if (grounded){
+      detailEl.innerHTML = fullHtml(d); detailEl.hidden = true;     // full text behind "전문 보기"
+      moreBtn.hidden = false; moreBtn.textContent = '전문 보기 ▾';
+    } else {
+      detailEl.innerHTML = summaryExtrasHtml(d); detailEl.hidden = false;   // shown inline, no button
+      moreBtn.hidden = true;
+    }
+  }
+  function loadOnOpen(id){
+    if (cache[id]) { applyDetail(id, cache[id]); return; }
     fetch('articles/' + id + '.json', { cache: 'no-cache' })
       .then(function(r){ if(!r.ok) throw 0; return r.json(); })
-      .then(function(d){ if (id !== curId) return; cache[id] = d; renderDetail(d); })
-      .catch(function(){
-        if (id !== curId) return;
-        detailEl.innerHTML = '<div class="nm-load">전문을 준비 중입니다. 아래 <b>원문 보기</b>로 확인해 주세요.</div>';
-        detailEl.hidden = false; curLoaded = true; moreBtn.textContent = '접기 ▲';
-      });
+      .then(function(d){ cache[id] = d; applyDetail(id, d); })
+      .catch(function(){ applyDetail(id, null); });
   }
 
   moreBtn.addEventListener('click', function(){
-    if (!curId) return;
-    if (curLoaded){
-      var show = detailEl.hidden;
-      detailEl.hidden = !show;
-      moreBtn.textContent = show ? '접기 ▲' : (curSummaryOnly ? '추가 정보 보기 ▾' : '전문 보기 ▾');
-      return;
-    }
-    loadDetail(curId);
+    var show = detailEl.hidden;
+    detailEl.hidden = !show;
+    moreBtn.textContent = show ? '접기 ▲' : '전문 보기 ▾';
   });
 
   function open(n){
@@ -151,12 +150,12 @@
     elSum.textContent = (n.summaryLong || n.summary || '').trim() || '요약이 아직 없습니다.';
     elSrc.textContent = n.source ? ('출처 · ' + n.source) : '';
     if (n.url){ elLink.href = n.url; elLink.style.display = ''; } else { elLink.removeAttribute('href'); elLink.style.display = 'none'; }
-    // 전문 reset
+    // 전문/요약 영역 — 열 때 상세 JSON을 받아 grounded면 "전문 보기" 버튼, 아니면 안내+용어 인라인 표시
     curItem = n;
-    curId = n.id || null; curLoaded = false;
-    curSummaryOnly = (((n.url) || '').indexOf('news.google') >= 0);
+    curId = n.id || null;
     detailEl.hidden = true; detailEl.innerHTML = '';
-    if (curId){ moreBtn.hidden = false; moreBtn.textContent = curSummaryOnly ? '추가 정보 보기 ▾' : '전문 보기 ▾'; } else { moreBtn.hidden = true; }
+    moreBtn.hidden = true;
+    if (curId) loadOnOpen(curId);
     ov.hidden = false;
     document.body.style.overflow = 'hidden';
     if (ov.querySelector('#nm-card')) ov.querySelector('#nm-card').scrollTop = 0;
