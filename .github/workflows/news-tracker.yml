@@ -11,6 +11,11 @@ on:
         type: boolean
         default: false
 
+# serialize runs so two never race on the git push (which silently loses one run's commit)
+concurrency:
+  group: news-tracker
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
