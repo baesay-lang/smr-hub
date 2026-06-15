@@ -163,14 +163,13 @@
   function close(){ ov.hidden = true; document.body.style.overflow = ''; }
 
   /* ---- 메일 공유 ---- */
-  function buildShare(n, d){
-    var hub = 'https://baesay-lang.github.io/smr-hub/SMR-news.html#a=' + (n.id || '');
-    var full = (d && d.detailKo) ? (d.detailKo + (d.detailEn ? '\r\n\r\n[English]\r\n' + d.detailEn : '')) : (n.summaryLong || n.summary || '');
+  function buildShare(n){
     var subject = '[기사공유] ' + (n.title || '');
-    var head = '안녕하세요,\r\n\r\n' + (n.title || '해당') + ' 관련 기사 공유 드립니다.\r\n\r\n';
-    var fullBody  = head + '■ 기사 링크: ' + hub + '\r\n\r\n■ 전문:\r\n' + full + '\r\n\r\n■ 원본: ' + (n.url || '') + '\r\n';
-    var shortBody = head + '■ 기사 링크: ' + hub + '\r\n■ 원본: ' + (n.url || '') + '\r\n\r\n(전문 포함 전체 내용이 클립보드에 복사되어 있습니다 — 메일 본문에 붙여넣기[Ctrl+V] 하세요.)\r\n';
-    return { subject: subject, fullBody: fullBody, shortBody: shortBody };
+    var body = '안녕하세요,\r\n\r\n'
+      + (n.title || '해당') + ' 관련 기사 공유 드립니다.\r\n\r\n'
+      + '• 요약:\r\n' + (n.summaryLong || n.summary || '').trim() + '\r\n\r\n'
+      + '• 원본: ' + (n.url || '') + '\r\n\r\n감사합니다.\r\n';
+    return { subject: subject, body: body };
   }
   function copyText(t){
     try { if (navigator.clipboard && navigator.clipboard.writeText) return navigator.clipboard.writeText(t); } catch(e){}
@@ -182,25 +181,25 @@
     if (!toastEl){ toastEl=document.createElement('div'); toastEl.id='nm-toast'; toastEl.hidden=true; document.body.appendChild(toastEl); }
     toastEl.textContent=msg; toastEl.hidden=false;
     if (toastTimer) clearTimeout(toastTimer);
-    toastTimer=setTimeout(function(){ toastEl.hidden=true; }, 4500);
+    toastTimer=setTimeout(function(){ toastEl.hidden=true; }, 5000);
   }
-  function doShare(n, d){
-    var m = buildShare(n, d);
-    copyText(m.subject + '\r\n\r\n' + m.fullBody);
-    var useFull = encodeURIComponent(m.fullBody).length < 1500;   // mailto URL length is limited (Korean encodes ~9x)
-    var mailto = 'mailto:?subject=' + encodeURIComponent(m.subject) + '&body=' + encodeURIComponent(useFull ? m.fullBody : m.shortBody);
-    var a=document.createElement('a'); a.href=mailto; document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 0);
-    toast(useFull ? '메일 작성 창을 열었어요 · 내용도 클립보드에 복사됐습니다'
-                  : '메일 작성 창을 열었어요 · 전문 포함 전체 내용이 클립보드에 복사됐으니 본문에 붙여넣기(Ctrl+V) 하세요');
+  function share(n){
+    if (!n) return;
+    var m = buildShare(n);
+    copyText(m.subject + '\r\n\r\n' + m.body);   // silent safety copy — no message shown if a mail app opens
+    var mailto = 'mailto:?subject=' + encodeURIComponent(m.subject) + '&body=' + encodeURIComponent(m.body);
+    // heuristic: if a mail app opens, the window loses focus → no notice. If nothing handles
+    // mailto (no Outlook/linked mail), no blur fires → fall back to "copied, paste it" notice.
+    var opened = false;
+    var onblur = function(){ opened = true; window.removeEventListener('blur', onblur); };
+    window.addEventListener('blur', onblur);
+    setTimeout(function(){
+      window.removeEventListener('blur', onblur);
+      if (!opened) toast('연결된 메일 앱이 없어요 — 내용을 클립보드에 복사했습니다. 메일/메신저 본문에 붙여넣기(Ctrl+V) 하세요.');
+    }, 1200);
+    var a = document.createElement('a'); a.href = mailto; document.body.appendChild(a); a.click(); setTimeout(function(){ a.remove(); }, 0);
   }
-  $('nm-share').addEventListener('click', function(){
-    var n = curItem; if (!n) return;
-    if (n.id && cache[n.id]) { doShare(n, cache[n.id]); return; }
-    if (n.id){
-      fetch('articles/' + n.id + '.json', { cache:'no-cache' }).then(function(r){ return r.ok ? r.json() : null; })
-        .then(function(d){ if (d) cache[n.id]=d; doShare(n, d); }).catch(function(){ doShare(n, null); });
-    } else { doShare(n, null); }
-  });
+  $('nm-share').addEventListener('click', function(){ share(curItem); });
 
   $('nm-x').addEventListener('click', close);
   $('nm-close').addEventListener('click', close);
