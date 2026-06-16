@@ -47,6 +47,17 @@
   .trk-50{background:var(--accent-weak);color:var(--accent-strong);}
   .ltr{color:var(--accent-strong);font-weight:600;}
   .noltr{color:var(--text-dim);font-weight:600;}
+
+  /* licensing process flow diagram */
+  .flow{display:flex;flex-wrap:wrap;align-items:stretch;gap:6px;margin-top:14px;padding-top:13px;border-top:1px dashed var(--border);}
+  .flow-lab{flex-basis:100%;font-size:10.5px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--text-faint);margin-bottom:3px;}
+  .fstep{display:flex;flex-direction:column;justify-content:center;background:var(--surface-2);border:1px solid var(--border);
+    border-radius:6px;padding:6px 10px;font-size:12px;font-weight:600;color:var(--text-dim);line-height:1.25;white-space:nowrap;}
+  .fstep small{display:block;font-size:9.5px;font-weight:600;color:var(--text-faint);margin-top:1px;}
+  .fstep.key{background:var(--accent-weak);border-color:var(--accent-weak-2);color:var(--accent-strong);}
+  .fstep.key small{color:var(--accent-strong);opacity:.8;}
+  .fstep.muted{opacity:.5;border-style:dashed;}
+  .farr{display:flex;align-items:center;color:var(--text-faint);font-size:13px;font-weight:700;}
 </style>
 </head>
 <body>
@@ -104,12 +115,35 @@
 
     <div class="card star" data-agency="NRC" data-star="1" data-keywords="part50 건설허가 운영허가 CP OL 경수로 LWR 국내허가 Xe-100 Long Mott Dow TerraPower Natrium BWRX-300 Kairos">
       <div class="card-head"><span class="part-num">Part 50</span><span class="badge-star">실전 트랙</span><span class="part-name">생산·이용시설 국내 허가 (Domestic Licensing)</span><span class="tag tag-NRC">NRC</span><span class="rel rel-high">Xe-100: 높음(실제)</span></div>
-      <div class="card-body">전통적 2단계 방식(건설허가 CP → 운영허가 OL). 경수로(LWR) 위주로 만들어진 오래된 틀이지만, <span class="xe">실제로 X-energy Xe-100(Long Mott·Dow)·TerraPower Natrium·GE-Hitachi BWRX-300(TVA)·Kairos Hermes 등 현재 미국 첨단로 신청이 대부분 이 Part 50으로 들어감.</span> “오래된 틀”이라는 인상과 달리 SMR 실전 인허가의 주력 경로 — 아래 「업체 인허가 트랙 비교」 참고.</div>
+      <div class="card-body">전통적 2단계 방식(건설허가 CP → 운영허가 OL). 경수로(LWR) 위주로 만들어진 오래된 틀이지만, <span class="xe">실제로 X-energy Xe-100(Long Mott·Dow)·TerraPower Natrium·GE-Hitachi BWRX-300(TVA)·Kairos Hermes 등 현재 미국 첨단로 신청이 대부분 이 Part 50으로 들어감.</span> “오래된 틀”이라는 인상과 달리 SMR 실전 인허가의 주력 경로 — 아래 「업체 인허가 트랙 비교」 참고.
+        <div class="flow" aria-label="Part 50 인허가 절차">
+          <span class="flow-lab">절차 — 2단계 (건설허가 CP → 운영허가 OL)</span>
+          <span class="fstep">사전협의<small>Pre-app</small></span><span class="farr">→</span>
+          <span class="fstep key">건설허가 신청<small>CP</small></span><span class="farr">→</span>
+          <span class="fstep">안전·환경 심사</span><span class="farr">→</span>
+          <span class="fstep key">CP 발급</span><span class="farr">→</span>
+          <span class="fstep">건설</span><span class="farr">→</span>
+          <span class="fstep key">운영허가 신청<small>OL</small></span><span class="farr">→</span>
+          <span class="fstep">심사</span><span class="farr">→</span>
+          <span class="fstep key">OL 발급</span><span class="farr">→</span>
+          <span class="fstep">운영</span>
+        </div>
+      </div>
     </div>
 
     <div class="card" data-agency="NRC" data-keywords="part52 COL DC ESP 통합허가 설계인증 부지사전승인 신규원전">
       <div class="card-head"><span class="part-num">Part 52</span><span class="part-name">신규원전 통합 허가</span><span class="tag tag-NRC">NRC</span><span class="rel rel-mid">Xe-100: 중간</span></div>
-      <div class="card-body">COL(통합건설운영허가)·DC(설계인증)·ESP(부지사전승인) 같은 1단계형 트랙. 현재 미국 신규원전 대부분이 타는 길.</div>
+      <div class="card-body">COL(통합건설운영허가)·DC(설계인증)·ESP(부지사전승인) 같은 1단계형 트랙. 현재 미국 신규원전 대부분이 타는 길.
+        <div class="flow" aria-label="Part 52 인허가 절차">
+          <span class="flow-lab">절차 — 1단계 통합 (DC·ESP는 선택적 사전 단계)</span>
+          <span class="fstep">설계인증<small>DC/SDA · 선택</small></span><span class="farr">＋</span>
+          <span class="fstep">부지사전승인<small>ESP · 선택</small></span><span class="farr">→</span>
+          <span class="fstep key">통합건설운영허가 신청<small>COL</small></span><span class="farr">→</span>
+          <span class="fstep">심사</span><span class="farr">→</span>
+          <span class="fstep key">COL 발급</span><span class="farr">→</span>
+          <span class="fstep">건설 + 운영<small>1건으로</small></span>
+        </div>
+      </div>
     </div>
 
     <div class="card star" data-agency="NRC" data-star="1" data-keywords="part53 첨단로 비경수로 SMR 마이크로로 위험정보기반 성능기반 기술포괄 PRA 확률론적안전성평가 HTGR Xe-100 EO14300">
@@ -118,6 +152,13 @@
         위험정보기반·성능기반·기술포괄(Risk-Informed, Performance-Based, Technology-Inclusive). 기존 Parts 50·52의 <b>선택적 대안</b>으로, 비경수로·SMR·마이크로로처럼 기존 경수로 중심 틀에 안 맞는 첨단로를 수용하기 위해 만듦. 규정식 요건을 고차원 성능기준(performance criteria)으로 대체해 PRA(확률론적안전성평가) 활용을 허용. <span class="xe">Xe-100(HTGR, 비경수로)이 향후 선택할 수 있는 대안 트랙 — 단, 현재 Xe-100의 실제 신청(Long Mott·Dow)은 Part 50으로 진행 중이며, Part 53 신청자는 아직 0건(발효 2026.4.29).</span><br><br>
         <b>시점:</b> 2026.3.26 위원 표결 최종 확정 → 3.30 연방관보 게재 → <b>발효일 2026.4.29</b> (출처: NRC, Federal Register 2026-06048). 발효 전엔 신청서 제출 불가하나, NRC 직원과의 사전협의(pre-application engagement)는 지금도 가능.<br><br>
         <b>주의:</b> 행정명령 EO 14300에 따라 NRC가 규정 전반을 대대적 개정(wholesale revision) 중 → Part 53도 향후 추가 수정 가능. 세부 조항은 그때그때 <a href="https://www.ecfr.gov" target="_blank">eCFR</a> 원문 확인 필요.
+        <div class="flow" aria-label="Part 53 인허가 절차">
+          <span class="flow-lab">절차 — 첨단로 전용 대안 (성능기반·위험정보) · 현재 신청 0건</span>
+          <span class="fstep key">사전협의<small>지금 가능</small></span><span class="farr">→</span>
+          <span class="fstep muted">신청<small>발효 2026.4.29~</small></span><span class="farr">→</span>
+          <span class="fstep muted">심사<small>PRA 성능기준</small></span><span class="farr">→</span>
+          <span class="fstep muted">허가</span>
+        </div>
       </div>
     </div>
 
