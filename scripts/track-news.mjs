@@ -86,6 +86,8 @@ const host = (u) => { try { return new URL(u).hostname.replace(/^www\./,''); } c
 // stable 8-hex id from the article url (FNV-1a) → articles/<id>.json filename
 const articleId = (url) => { let h = 0x811c9dc5; const s = String(url||''); for (let i=0;i<s.length;i++){ h = Math.imul(h ^ s.charCodeAt(i), 0x01000193); } return (h>>>0).toString(16).padStart(8,'0'); };
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+// clean a source label: drop Google News query-string / redirect fallbacks → use the publisher domain
+const cleanSource = (src, url) => { src = (src||'').trim(); return (!src || src.indexOf(' OR ') >= 0 || src.indexOf('news.google') >= 0 || src.charAt(0) === '"') ? host(url) : src; };
 
 function loadExisting(){
   const text = fs.readFileSync(FILE,'utf8');
@@ -252,7 +254,7 @@ function classifyPrompt(input){
  "dev":개발사/기관 짧은 이름 또는 "",
  "region":"US"|"KR"|"UK"|"CA"|"DK"|"EU"|"JP"|"" }
 [중요] cat 분류 규칙을 엄격히 적용하라: 제목·요약에 MOU·양해각서·협약·공급계약·수주·PPA·합작·파트너십 체결이 있으면 반드시 "계약"; 인가·인증·허가·건설허가·운영허가·설계인증·GDA·VDR·표준설계·안전분석 승인이면 "인허가"; IPO·상장·투자·펀딩·지분 인수·자금 조달이면 "투자"; 정부 정책·행정명령·보조금·국책 프로그램이면 "정책". 이 신호가 분명하면 절대 "기술"로 분류하지 마라. "기술"은 위 어디에도 해당 안 되는 순수 기술·시운전·마일스톤에만 쓴다.
-[표기] titleKo·summary·summaryLong 모두에서, 외국 지명·기관명·인명·전문용어·약어는 '한글(English)' 형태로 영문을 괄호 병기하라(예: 오버레이설주(Overijssel), 예비안전분석(PDSA), 미국 에너지부(DOE), 가압경수로(PWR)). 영문 명칭은 정확히 쓰고, 한국 고유명사나 이미 병기된 경우는 중복하지 마라.
+[표기] titleKo·summary·summaryLong 모두에서, 외국 지명·기관명·인명·전문용어·약어는 '한글(English)' 형태로 영문을 괄호 병기하라(예: 오버레이설주(Overijssel), 예비안전분석(PDSA), 미국 에너지부(DOE), 가압경수로(PWR)). 영문 명칭은 정확히 쓰고, 한국 고유명사나 이미 병기된 경우는 중복하지 마라. 고유명사 음역은 통용 표기를 쓴다(예: Oklo=오클로, NuScale=뉴스케일, X-energy=엑스에너지, TerraPower=테라파워, Kairos=카이로스).
 반드시 입력과 같은 순서로, 오직 JSON 배열만 출력하라. 설명 금지.
 입력:
 ${JSON.stringify(input)}`;
@@ -423,7 +425,7 @@ async function generateDetail(item, body){
   const enLine = isKo ? '"detailEn":"",'
     : (hasBody ? '"detailEn":"위 한국어 정리와 같은 내용을 자연스러운 영어로 8~12문장.",' : '"detailEn":"같은 내용을 자연스러운 영어로 5~9문장.",');
   const prompt =
-`다음 SMR·원자력 뉴스를 한국어로 상세히 정리하라. 원문을 그대로 복제하지 말고 핵심을 모두 담아 재구성하라. 제공된 내용에 없는 구체적 수치·날짜·고유명사를 새로 지어내지 마라.
+`다음 SMR·원자력 뉴스를 한국어로 상세히 정리하라. 원문을 그대로 복제하지 말고 핵심을 모두 담아 재구성하라. 제공된 내용에 없는 구체적 수치·날짜·고유명사를 새로 지어내지 마라. 외국 고유명사 음역은 통용 표기로(예: Oklo=오클로, NuScale=뉴스케일, X-energy=엑스에너지), 첫 등장 시 '한글(English)' 병기.
 ${src}
 분류: ${item.cat} / 노형: ${item.type} / 개발사: ${item.dev || ''} / 출처: ${item.source || ''}
 [용어 선정] "terms"에는 일반 독자가 모를 만한 것만 0~5개: (1) 전문 기술 용어·약어(예: TRISO, HALEU, GDA, PDSA, 소듐냉각고속로, 피동안전) 또는 (2) 잘 알려지지 않은 해외 기업·기관·인명·고유명칭. SMR·원자력·법제화·규제·정책·투자·계약 같은 일반/상식 용어, 누구나 아는 기관(NRC·DOE·IAEA·UN·EU), 한국 주요 기업·기관(한전·한수원·KAERI·한전기술 등)은 넣지 마라. 해당 없으면 빈 배열.
@@ -463,6 +465,7 @@ function writeDetail(id, item, d){
 }
 async function ensureDetail(item){          // generate + persist detail; sets item.id (new-item path: skip if exists)
   item.url = await resolveGoogleNews(item.url);   // Google News redirect → real publisher URL
+  item.source = cleanSource(item.source, item.url);
   const id = articleId(item.url);
   item.id = id;
   if (fs.existsSync(`${ARTICLES_DIR}/${id}.json`)) return false;   // already done
@@ -484,6 +487,7 @@ async function backfillDetails(items){
       const before = it.url;
       it.url = await resolveGoogleNews(it.url);      // Google News redirect → real publisher URL
       if (it.url !== before) resolved++;
+      it.source = cleanSource(it.source, it.url);
       it.id = articleId(it.url);
       const body = await fetchBody(it.url);
       if (body) fetched++;
