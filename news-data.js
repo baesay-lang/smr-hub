@@ -7,6 +7,132 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-06-16",
+    "title": "일본의 뉴스케일 파워(NuScale Power) 250억 달러 투자 계획, 주가 급등",
+    "summary": "일본이 미국의 뉴스케일 파워(NuScale Power)에 250억 달러를 투자하기로 하며 주가가 급등했다.",
+    "summaryLong": "일본이 미국의 소형모듈원자로(SMR) 개발사 뉴스케일 파워(NuScale Power)에 250억 달러 규모의 투자를 추진하면서 뉴스케일 파워의 나스닥(NYSE) 상장 주식(SMR)이 장외 거래에서 급등했다. 이는 일본의 SMR 기술 도입 및 상용화 의지를 보여주는 대규모 투자 발표다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale Power",
+    "region": "US",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORGZweU41VFNxeV93YV9SOFJIaXZPS0E3aUJOUDhXLWdWcTNZbkl2TjRjU0NfMExRSWNqRXVodThsc1NrZU1XeTQ2YVFVQnpuQnBkV2lqdmMtMFRQQzA2cVU1Ry0xaFl6OWhmNXNzcGFHVC1uMUQwbG91VmJRa2ZFREk2enZhc3lqd1VLTUFTaGR1QTdGSDFwQkxfQXllYTM1Z3o1LXMxSWZXWXJiMEUyVV9neC1xY2pnbjRVVkhkMEVPMXdvbWhYUGt0a2s4cHNmbjkxQmpiX1BlZVltWHhBUQ?oc=5",
+    "k": "japan s 25 billion nuscale power nyse smr investment plan sends shares surging in overnight trading",
+    "id": "717d2cf9"
+  },
+  {
+    "date": "2026-06-16",
+    "title": "테라파워(TerraPower), 영국 소형모듈원자로 계획 차질",
+    "summary": "다음세대 원자력 회사 테라파워(TerraPower)가 영국 소형모듈원자로 건설 계획에 진전이 늦어지고 있다.",
+    "summaryLong": "다음 세대 첨단 원자로 개발 회사인 테라파워(TerraPower)가 영국에서 추진 중인 소형모듈원자로 프로젝트에 차질이 빚어지고 있는 것으로 보도됐다. 구체적인 지연 사유나 재계획 시점에 대한 상세 정보는 제공되지 않았으나, 영국의 첨단 원자로 개발 정책 환경과 규제 여건의 변화가 영향을 미치고 있을 것으로 예상된다. 이는 국제적 소형모듈원자로 프로젝트의 추진 현황과 과제를 보여주는 사례로 주목된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "UK",
+    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdFdEMG9mczhPSnBrNTdJb0U2Y3dsaHdNQ3U3Tmg5dHprZnVYQ2F5M0RESXBRbHRUcGZaUkhDUk9vcHdwWHFEU2NpX1diTUo0Uk9FRHRQcVhvWXQ4NzA3b1BUbHVSX1BneHVHaF80NVlYNkVzVHRveVZMczhRUlFNeV9MM1hIRWJRZm5ONA?oc=5",
+    "k": "next gen nuclear company terrapower plants flag in uk",
+    "id": "1f12e369"
+  },
+  {
+    "date": "2026-06-16",
+    "title": "오클로(Oklo), 스탠다드 뉴클리어와 연료 재활용 파트너십 체결",
+    "summary": "오클로(Oklo)가 스탠다드 뉴클리어(Standard Nuclear)와 연료 재활용 및 첨단로 공급망 구축을 위한 파트너십을 체결했다.",
+    "summaryLong": "소형 첨단원자로 개발사인 오클로(Oklo)가 스탠다드 뉴클리어(Standard Nuclear)와 핵연료 재활용 및 첨단 원자로 공급망 개발에 대한 파트너십을 공식 체결했다. 이 협력을 통해 양사는 사용 후 핵연료의 재활용 기술 및 소형모듈원자로 관련 부품 및 서비스 공급망을 함께 구축하기로 합의했다. 이는 오클로의 사업 확대와 더불어 첨단 원자로 산업의 전주기 수직 통합을 추진하는 전략적 움직임으로 평가된다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNanpkZi1oWTh6TWRSeFJQMkhOUDJwLXhTRzFkdGY2V2pQUUltN1J4Zkc5UmdMMy1HSjJPQmhhU0RBbkExZ3RQWVdCSWtvSkN0TEw2eFk5UUNMek9DVldVcHFZSGIwa0dYNEcwNVBlbGZMTUZva2tkek5YckVaZzBGU05IbUtxc08wZUpUR3dRY21nWU9NZWc?oc=5",
+    "k": "oklo and standard nuclear partner on fuel recycling and advanced reactor supply chain oklo",
+    "id": "456ca115"
+  },
+  {
+    "date": "2026-06-16",
+    "title": "오클로(Oklo), 미국 핵폐기물을 전력으로 변환하는 연료 거래 추진",
+    "summary": "오클로(Oklo)가 미국의 핵폐기물을 활용한 발전 사업을 목표로 연료 거래를 추진하고 있다.",
+    "summaryLong": "소형 첨단원자로 개발사인 오클로(Oklo)는 미국의 기존 핵폐기물(사용 후 핵연료)을 재활용하여 전력 생산에 사용하는 비즈니스 모델을 추진 중이다. 이를 위해 오클로는 전략적 연료 거래 협력을 체결하고 있으며, 이는 환경 문제 해결과 동시에 새로운 에너지원 확보라는 이중 목표를 달성하는 사업 전략으로 평가된다. 핵폐기물의 재자원화는 첨단 원자로 기술의 중요한 활용 분야로 부상하고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOM0NxOGdRQjZkaVpmTXhZcUxmTUdrRGtCWi0xU1RSY2ZXRkFySVFuMDZVOEhvZ3o5MUZYYV9qeFlpMEZLZnBuNXpBSHpfRVdkTW5FWXpiUGlsRldnUnNPbWhudFVoaDE3R3dpLUx3ZThFcUgtNFJySldySDFfNm5aZ2ZVOHppZ1ZnWWFHZW9CdzU0RzJLUmY4TmlIcWdOUmV4QVZ5M2thYWo0bGEweFBtWE13RkdPbm0wZnc?oc=5",
+    "k": "aims to turn u s nuclear waste into power oklo fuel deal",
+    "id": "8820bb6e"
+  },
+  {
+    "date": "2026-06-16",
+    "title": "롤스로이스(Rolls-Royce) SMR, 스웨덴 비데베리(Videberg) 프로젝트 수주",
+    "summary": "롤스로이스(Rolls-Royce) SMR이 스웨덴의 핵심 원자력 사업 수주 계약을 확보했다.",
+    "summaryLong": "영국 방위·항공우주 기업 롤스로이스(Rolls-Royce)의 소형모듈원자로(SMR) 사업부가 스웨덴의 비데베리(Videberg) 프로젝트에 선정되어 수주 계약을 체결했다. 이는 스웨덴이 40년 이상 신규 원자력 발전소 건설을 추진하는 프로젝트로, 롤스로이스 SMR의 유럽 시장 진출을 의미한다.",
+    "cat": "계약",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "UK",
+    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNFJMWWRJZ1R1RU54LXRNMzIwaGZQUEQ0S1NMSWdzN1U4SjU2d0lYcVh6dVRLY0JoU0FMdXVaSEg5QUR2V0dJZUE0WjM3YUh2RHc1bEtzSVNKbzRBVFlBVHYybDB2TWV4VE1FUmFPaWNUUEZaNTF6TXhGaVA2X0FkZDRYRUNOQjU5cWpLWE14WHlKRUE5Z09tY29Iaw?oc=5",
+    "k": "rolls royce smr secures swedish nuclear reactor deal videberg project news and statistics",
+    "id": "5fa87403"
+  },
+  {
+    "date": "2026-06-16",
+    "title": "미국 에너지부(DOE), 오클로 아이다호 오로라(Aurora) 사업 안전분석 승인",
+    "summary": "미국 에너지부(DOE)가 오클로(Oklo)의 아이다호(Idaho) 오로라(Aurora) 소형고속로 프로젝트 안전분석보고서(SAR)를 승인했다.",
+    "summaryLong": "미국 에너지부(DOE)가 오클로(Oklo)의 아이다호(Idaho) 주 오로라(Aurora) 소형고속로(SFR) 프로젝트에 대한 안전분석보고서(Safety Analysis Report) 승인을 발표했다. 이는 프로젝트의 건설 허가 및 운영허가 신청 과정에서 중요한 인허가 단계이며, 기술적 안전성 검증 완료를 의미한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE44Y2c4QkkzNnR1Z1hhNHFXSGRrLWlhalFuTVZoOXJsS1dqUHRHY2p1T0xlUlhZb0prUXRYMVB5MFE4MG5ZQjRZTTNfaWNFbHpVM25v?oc=5",
+    "k": "construction doe approves safety analysis for oklo s aurora powerhouse in idaho",
+    "id": "f7459b7a"
+  },
+  {
+    "date": "2026-06-16",
+    "title": "테라파워 나트륨(TerraPower Natrium) 제네릭설계평가(GDA) 3단계 시작 — 영국 원자력규제청(ONR)",
+    "summary": "테라파워의 나트륨(Natrium) 고속로가 영국 원자력규제청의 3단계 제네릭설계평가(GDA)를 개시했다.",
+    "summaryLong": "미국 테라파워(TerraPower)의 소듐냉각고속로(Sodium-cooled Fast Reactor, SFR) 나트륨(Natrium) 설계가 영국 원자력규제청(Office for Nuclear Regulation, ONR)의 3단계 제네릭설계평가(Generic Design Assessment, GDA)를 시작했다. GDA는 특정 부지와 무관하게 원자로 설계의 안전성·기술 타당성을 규제 당국이 사전에 검증하는 영국 고유의 인허가 제도다. 나트륨이 GDA 3단계에 진입함으로써 영국 내 첨단로 도입의 규제 절차가 구체화되고 있음을 보여준다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "UK",
+    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNEFwNTdxWmZta240akJJdllFMFNYaC02MFI1ZlY2QVdTVFF1VHRpSlNtQmNJR3Zodmo4bVJaY3h3MGZ3UUIxOTJyWFdoaWMwRkV0UWtoSURJSGR0eTNBUms3ZmxleldaYkRFNnlacmdQeDkzYlF3ZVFsRDJZQ3ZpNnZlNjBmcEw0dWQxUjVuZ1pHemRLSjd4b29qLThidmgwQ1BLZ0VR?oc=5",
+    "k": "terrapower natrium 3 step generic design assessment starts",
+    "id": "5a91e399"
+  },
+  {
+    "date": "2026-06-16",
+    "title": "\"분산에너지 특화지역에서 SMR 등 직접거래(PPA) 허용 검토 필요\"",
+    "summary": "한국 국회미래연구원이 분산에너지 특화지역 내 SMR에 대한 전력구매계약(PPA) 유사 직접거래 허용을 정책 제언했다.",
+    "summaryLong": "한국 국회미래연구원이 '제8회 국회미래산업포럼'에서 분산에너지 특화지역 내에서 소형모듈원자로(SMR), 연료전지, 열병합발전 등 첨단 분산 에너지원에 대해 재생에너지와 동일하게 전력구매계약(PPA)과 유사한 직접거래를 허용하는 제도 개선을 제안했다. 현재 한국의 PPA 제도가 재생에너지에만 한정된 것을 개선하여 SMR 등 첨단 에너지 기술의 시장 진입 기회를 확대하자는 정책 건의이다. 이는 에너지 대전환과 산업 성장의 조화를 위한 규제 개선 방안으로 주목된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "에너지데일리 - 전체기사",
+    "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=200452",
+    "k": "분산에너지 특화지역 smr 등 직접거래 허용 검토해야",
+    "id": "993e61bf"
+  },
+  {
+    "date": "2026-06-16",
+    "title": "미국 규제당국, 파이오니어(Pioneer) 소형모듈원자로 프로젝트 환경평가 개시",
+    "summary": "미국 규제당국이 파이오니어(Pioneer) 소형모듈원자로(SMR) 프로젝트에 대한 환경영향평가를 시작했다.",
+    "summaryLong": "미국 규제당국이 파이오니어(Pioneer) 소형모듈원자로(SMR) 프로젝트에 대한 환경영향평가를 개시했다. 이는 SMR 프로젝트의 인허가 프로세스 진행 중 환경검토 단계에 들어갔음을 의미한다. 동 프로젝트는 미국 내 소형모듈원자로 상용화 추진의 핵심 사례로 주목받고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "\"\"small modular reactor\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOT1B5eE5BemdSazh0RWNZU2V2anAtZGFpaTVqdmRCT1JwekhfOWczeF96MHNWVUg0TDRadjh3aU1RRnpmZ0d3TlRQMDhZVXNXSTRKbVl2enB1MkpxQ19tbHRBNGpxVEtLNEh2cnppWnVESGhaYnVqVnFKSGhyME5POW9ERE41dnlHUkJ2NEFvd1R0Y3ExaE5ueDJvUno0QUFuR3BGUmVZYndiU1E0ZzhjZmNCSl9veWJLbVE?oc=5",
+    "k": "us regulator begins environmental review of pioneer small modular reactor project",
+    "id": "f382e95e"
+  },
+  {
     "date": "2026-06-15",
     "title": "한전기술, 베트남 SMR 협력 구체화",
     "summary": "한전기술이 베트남의 소형모듈원자로(SMR) 법제화 움직임에 협력하며 전략적 교두보를 마련하고 있다.",
@@ -173,6 +299,48 @@ window.SMR_NEWS = [
     "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVFgzOEs3MmZOZVNVM0lIbHBtbl9BQ29FLUxaWHhNMGUxVXpHRlBYUEZXYUYyNUpSWkNkenpBSmJfS09JZXBqazdrc0VwRktaRVJoN25RX2FlVlJlZUt4U09YWWgtc1RCX1ZVZjY4OTMyenVsejgyUHp5aEMyT2xXZ0dGSlcwUFZJYXcyaWRERThHeUdNTHpZSkNzamcxNC0wWWd4NDVKU290UzBnN1dtZWl0QnBUbUd2MnBSY3huQ1FGUU0?oc=5",
     "k": "japan s 25b smr investment puts nuscale power nyse smr stock in the spotlight",
     "id": "6f21dd7c"
+  },
+  {
+    "date": "2026-06-15",
+    "title": "기장군, 혁신형 소형모듈원자로(i-SMR) 유치 총력전",
+    "summary": "부산 기장군이 18만 군민의 염원을 담아 혁신형 소형모듈원자로(i-SMR) 유치에 나섰다.",
+    "summaryLong": "부산의 기장군이 18만 군민의 지지를 바탕으로 혁신형 소형모듈원자로(i-SMR) 유치를 위한 범군 차원의 총력 추진에 나섰다. 이는 지역 경제 활성화와 에너지 자립을 목표로 하는 정책 추진으로, 소형모듈원자로 개발이 지자체 유치 경쟁으로 확대되고 있음을 보여준다. 기장군의 적극적인 유치 활동은 향후 부지 선정 및 인허가 절차로 이어질 것으로 예상된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "",
+    "region": "KR",
+    "source": "\"SMR 원자력\" - Google 뉴스",
+    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE15N2xQUk8yc0tVWmZBdlM5TGxVakdKSlpSNTNKbzdNZXFoeUxwOGpEM1QxbDFOUmRCaXM5a1ZBanBUbXBfZXZoZW9heGxFYUVNVmtuam5hazVlOENLR1g2SVJXNWF6ZXFG?oc=5",
+    "k": "18만 군민염원 담아 기장군 i smr 유치총력전 나서",
+    "id": "f9cc226e"
+  },
+  {
+    "date": "2026-06-15",
+    "title": "캐나다 사스카츠ewan주와 체코, SMR·마이크로모듈로 협력 양해각서 체결",
+    "summary": "캐나다 사스카츠ewan(Saskatchewan)주와 체코가 소형모듈원자로(SMR)와 마이크로모듈로(MMR) 개발·협력을 위한 양해각서(MOU)를 체결했다.",
+    "summaryLong": "캐나다의 사스카츠ewan(Saskatchewan)주 정부와 체코 정부가 소형모듈원자로(SMR)와 마이크로모듈원자로(MMR)를 포함한 청정에너지 솔루션 협력을 위한 양해각서(MOU)를 공식 체결했다. 이는 양국 간 첨단 원자로 기술 공동 개발, 인적·기술 교류, 규제 협력 등을 포함하는 전략적 파트너십이다. 해당 협약은 북미와 유럽 지역에서 소형모듈원자로 도입을 가속화하는 신호로 해석된다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "",
+    "region": "CA",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/saskatchewan-and-czech-aim-to-cooperate-smrs-mmrs",
+    "k": "saskatchewan czech republic aim to cooperate on smrs and mmrs",
+    "id": "995b55f5"
+  },
+  {
+    "date": "2026-06-15",
+    "title": "Natura Resources, 신생 핵연료 기업 QNI와 고농축저농축우라늄(HALEU) 공급계약 체결",
+    "summary": "용융염로(MSR) 개발사 Natura Resources가 신생 핵연료 기업 Quadrant Nuclear Industries(QNI)와 고농축저농축우라늄(HALEU) 공급계약을 체결했다.",
+    "summaryLong": "용융염로(MSR) 개발사 Natura Resources가 미국 뉴욕 소재의 신생 기업 Quadrant Nuclear Industries(QNI)와 고농축저농축우라늄(HALEU, High-Assay Low-Enriched Uranium) 공급을 위한 정식 계약을 체결했다. Natura의 상용 원자로 시스템이 필요로 하는 핵연료를 장기 안정적으로 확보하는 것을 목표로 한다. 이는 첨단 원자로와 신규 핵연료 공급망이 제휴를 통해 상용화 생태계를 구축하는 중요한 사례이다.",
+    "cat": "계약",
+    "type": "MSR",
+    "dev": "Natura Resources",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-06-15/article-8120/natura-agrees-to-haleu-offtake-from-nuclear-startup-qni/",
+    "k": "natura agrees to haleu offtake from nuclear start up qni",
+    "id": "a8222dd8"
   },
   {
     "date": "2026-06-14",
@@ -1197,6 +1365,20 @@ window.SMR_NEWS = [
     "id": "dc453469"
   },
   {
+    "date": "2026-06-08",
+    "title": "오클로(Oklo), ARMEC 인수로 첨단로·연료 제조 수직통합 역량 강화",
+    "summary": "오클로(Oklo)가 ARMEC을 인수하여 첨단로 및 연료 제조 분야의 수직통합 체계를 구축했다.",
+    "summaryLong": "미국(US) 첨단로 개발사 오클로(Oklo)가 ARMEC을 인수함으로써 원자로 설계부터 첨단 연료 제조까지 전 가치사슬 수직통합을 추진하고 있다. 이 인수는 오클로의 공급망 자립성 강화와 제조 역량 확대를 의미하며, 첨단로 상용화 시 생산 효율성 제고에 중요한 전략이다. 오클로는 소형 고속로(SFR) 기술과 회수 연료(recycled fuel) 활용으로 차별화를 추구하고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQQmNuUFQxU3dYYzZNc0N4QzNCMWMtQTltRG1sSVREdWg5ODJwbENuNzYzdk5IOTFldmRkTXJWX3dyYmtDSE0zakE3WVdaZm5wSEhyWllPWHVGdGt4d0hZQTI3bGk0dlJQaHpoN3lJakpWaG5YRmNZczhTRXZBQUY5SEpBTnY0ZE0xWmJZbVFRcmVSWk55YmV6WlpkRWpXdXZFSUYxY2k2b1AtVndNZXZDQXU5cjFyajBtaDhjWDQ4UUdSMlN4QUxTR3YySEQxSFNfQ0xJVWphRWhkYUQtaTBfNm9HV3NKeWZ1QW12ekQ4SnF1NUwtNzVoWFk0QkpIRmJ6THF2eXlYYUVxOGhwb0FJdVJzcGpYTGM?oc=5",
+    "k": "oklo acquires armec to expand vertically integrated manufacturing capabilities for advanced reactor and fuel manufacturing programs",
+    "id": "6f3493d2"
+  },
+  {
     "date": "2026-06-07",
     "title": "미국(USA), 마이크로 원자로로 핵 르네상스 추진, 글로벌 시장 진출",
     "summary": "미국이 소형모듈원자로(SMR) 및 마이크로 원자로 기술로 핵 르네상스를 견인하며 국제 시장 진출을 추진 중이다.",
@@ -1667,6 +1849,20 @@ window.SMR_NEWS = [
     "id": "41c00581"
   },
   {
+    "date": "2026-06-03",
+    "title": "X-energy, 영국(UK) 규제당국에 Xe-100 제출",
+    "summary": "X-energy가 고온가스로(HTGR) Xe-100을 영국 규제 평가를 위해 제출했다.",
+    "summaryLong": "고온가스로(HTGR) 개발사 X-energy가 소형모듈원자로(SMR) Xe-100을 영국의 규제당국에 인허가 심사를 위해 공식 제출했다. 이는 선진 원자로 기술이 국제 규제 체계 내에서 안전성과 설계 적격성을 인정받기 위한 중요한 단계이다. 영국은 혁신 원전 기술 도입을 적극 추진하는 국가 중 하나로, 이번 제출은 Xe-100의 상용화 가능성을 높이는 계기가 될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "UK",
+    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaklhYmlMRVpDeFYxSmpGenRONlRYYnVhdUVlaTZpS2k0UG9KM2t6QkVyWWpWUk1WdHJFc1BET1EwYTFHVHhlNjFHc2w4UjFHOWdtMW9XX0hlenlYdlo3V3Q4RlVTLXFsZ2dPTmZOVExmTS1qcGFzWWNUdUNkLTBlZVFtRFVkaEVlRTNXSDFiRzZwUUpmV1dyMlRmalU?oc=5",
+    "k": "x energy submits xe 100 for uk regulatory assessment",
+    "id": "2f56e45d"
+  },
+  {
     "date": "2026-06-02",
     "title": "혁신형 소형모듈원자로(SMR), 통제봉구동기구(CRDM) 검증 과제 직면",
     "summary": "뉴스케일(NuScale)을 포함한 혁신형 소형모듈원자로(SMR)가 통제봉구동기구(CRDM) 검증이라는 인허가 과제를 안고 있다.",
@@ -1973,6 +2169,34 @@ window.SMR_NEWS = [
     "id": "588c14ef"
   },
   {
+    "date": "2026-05-26",
+    "title": "경주의 혁신형 소형모듈원자로(i-SMR) 유치, 주민수용성이 핵심",
+    "summary": "경주에서 혁신형 소형모듈원자로(i-SMR) 유치 시 주민수용성의 중요성을 강조하는 주장이 제기됐다.",
+    "summaryLong": "경주가 추진 중인 혁신형 소형모듈원자로(i-SMR) 유치 사업의 성공을 위해서는 주민수용성 확보가 가장 중요한 요소라는 분석이 나왔다. 소형모듈원자로의 도입은 지역 경제에 긍정적 영향을 줄 수 있지만, 주민들의 신뢰와 동의 확보 없이는 사업 추진이 어려울 수 있다는 점을 지적하고 있다. 이는 향후 소형모듈원자로 유치 지자체들이 주민 소통과 설득 전략을 더욱 강화해야 함을 시사한다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "",
+    "region": "KR",
+    "source": "\"SMR 원자력\" - Google 뉴스",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kcHlyclltems3Q0hka2x2a3BxcnpmWHByc3NSWm92YzZqT1h6TWprZ0E1THpLZ0diX3gwQ21oRk1mYlB5dDRNYzZRN2Q5b2pHSG9oMElRRDJBdw?oc=5",
+    "k": "혁신형 i smr 소형모듈원자로 경주유치는 주민수용성이다",
+    "id": "56f63b65"
+  },
+  {
+    "date": "2026-05-26",
+    "title": "Oklo, 무기용 플루토늄을 핵연료로 전환 — 주가 상승",
+    "summary": "Oklo가 핵폐기물인 무기용 플루토늄을 상용 핵연료로 전환하는 기술을 개발했으며, 투자자들의 관심으로 주가가 올랐다.",
+    "summaryLong": "마이크로 모듈식 원자로(Micro) 개발사 Oklo Inc.가 냉전 시대 핵무기 비축 물질인 고농축 플루토늄을 자사의 고속로에 연료로 활용할 수 있는 기술을 보유하고 있다는 소식이 알려지면서 시장에서 긍정적 반응을 얻었다. 이는 기존 핵폐기물의 자원화, 비확산 정책 준수, 그리고 에너지 효율성을 동시에 달성하는 의미 있는 사례로 평가된다. Oklo의 기술이 상용화되면 글로벌 핵연료 수급 및 폐기물 관리 분야에 혁신을 가져올 수 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA2LUpBc3UyNXd3VVdFNXQ2dTlYaGlUVk1VVmZ0cXpjczVXVXRfaENBQXNFVEtMejdGQ1RUbWlCZVp5WHU3ODUzaTF5V2JRenpEcjlKOG5pY2V5UFVGV2UwYnVEZGkyVnROWURnd1dFc3VDZU5pMjg0clVR?oc=5",
+    "k": "oklo is turning weapons grade plutonium into nuclear fuel the stock is climbing",
+    "id": "8f4f5c44"
+  },
+  {
     "date": "2026-05-25",
     "title": "미국 에너지부, 소형모듈원자로 프로젝트 자금 지원",
     "summary": "미국 에너지부(DOE)가 소형모듈원자로 프로젝트 추진을 위해 자금을 지원.",
@@ -2055,6 +2279,20 @@ window.SMR_NEWS = [
     "url": "https://investors.x-energy.com/news-releases/news-release-details/x-energy-report-first-quarter-2026-results-june-4-2026",
     "k": "x energy to report first quarter 2026 results on june 4 2026",
     "id": "bf749b2d"
+  },
+  {
+    "date": "2026-05-21",
+    "title": "TerraPower와 HD현대, Natrium 원자로 협약 체결",
+    "summary": "TerraPower와 현대자동차그룹(HD Hyundai)이 소듐냉각고속로(SFR) Natrium 개발·건설 관련 협약을 체결했다.",
+    "summaryLong": "고급 원자로 개발사 TerraPower와 한국의 현대자동차그룹(HD Hyundai)이 소듐냉각고속로(SFR) Natrium 프로젝트와 관련한 계약·협약을 체결했다. 이 협력은 TerraPower의 차세대 원자로 기술을 글로벌 시장에 확대하고, 현대 그룹의 핵심 부품 공급 및 건설 역량을 결합하는 전략적 파트너십이다. 양사는 Natrium 원자로의 설계, 인허가, 건설 및 운영 단계에서 협력할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYW9lMDZVREExU2VScUduUFNXWGx2SHhyWk5tR0lBWDBUT2ZsOGV4SjJWbFFrOTZtbFcyY3JGNGdXUnBERWdjWGtwWnViZFN3NDd0a1BsemliOGxpMlhsM0JIR01uU3VObkRZX0ZxOFFERlZ6QllDZDBZSDZFeC1faHdxQ1pLLWNnT1Jva2V1bkNWRl9xajN5YjNGdXl1b1NWSGE0?oc=5",
+    "k": "terrapower and hd hyundai sign natrium reactor agreements",
+    "id": "1c030c6f"
   },
   {
     "date": "2026-05-20",
@@ -2574,6 +2812,20 @@ window.SMR_NEWS = [
     "id": "9a6951f0"
   },
   {
+    "date": "2026-04-24",
+    "title": "TerraPower, 미국 Kemmerer에서 Natrium 발전소 건설 착수",
+    "summary": "TerraPower가 미국 와이오밍주 Kemmerer에서 Natrium 소듐냉각고속로(SFR) 발전소 건설을 시작했다.",
+    "summaryLong": "소듐냉각고속로(SFR) 개발사 TerraPower가 미국 와이오밍주(Wyoming) Kemmerer 지역에서 상용 규모의 Natrium 발전소 건설을 공식 착수했다. 이는 고급 원자로 기술이 미국에서 처음으로 대규모 건설 단계에 진입하는 역사적 이정표이며, 정부 지원과 민간 투자를 결합한 프로젝트의 구체화를 의미한다. Natrium 발전소는 향후 미국의 탄소중립 에너지 전환에 중요한 역할을 할 것으로 기대된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSjE3alduOXg3aFFucnNoTl9QM2t5LUlOQ1prRWZiNmRmam1xcEhyRWMzV003aW14U1BqWld6X3J5ZjZmUmFVRVl1TmZWaFY5dGlJUnRfcnlQbnIzS3F4RG5Jb2p3YzNkT3AwdTNFUUZiWnBLNUR6WEJDMDVzQXN1WlBwT3NXZUlldjc2a2pvc0lQelFmQTV2aUlhSFF3Z2swd0MyM2lIUXIxM2tfbWtaNVhUeGVnZw?oc=5",
+    "k": "terrapower begins construction on natrium power plant in kemmerer american nuclear society ans",
+    "id": "7f718641"
+  },
+  {
     "date": "2026-04-23",
     "title": "X-에너지, 확대된 신규공개(IPO) 공모가 공시",
     "summary": "X-에너지(X-energy)가 확대된 규모의 신규공개(IPO)의 공모가를 공시.",
@@ -2614,6 +2866,20 @@ window.SMR_NEWS = [
     "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQlB3Q3lBSzZha01Qd2oxRVRQZHFWMjRKRnhrbS0xLUdTU1NwXzM5dVhMUEZaak9sdDZxdFl1UXpBbTVIS1FZS2FxcXpLak1vUHhUZnZfT1Rha2RGUVRBVnUtTHh4SWlraUhoQzJKMnlWdEdtbWNiZHhjdENYZ2JyYW9TaWpBZTJpQlI1QlVHb2ZVNkJ4RGd0RnhIWDNtYVB6SGZud29yVFFhN0RmOEEyN2JaOVFyN1RVWVIxbUM0d3k?oc=5",
     "k": "terrapower starts construction of first us utility scale advanced nuclear plant",
     "id": "4cd8c9ad"
+  },
+  {
+    "date": "2026-04-23",
+    "title": "테라파워(TerraPower), 미국 첫 상용 규모 첨단원전 건설 착공",
+    "summary": "테라파워(TerraPower)가 미국 최초의 상용 규모 첨단원자력발전소 건설을 시작했다.",
+    "summaryLong": "미국(US) 첨단로 기업 테라파워(TerraPower)가 미국 내 첫 상용 규모 첨단원자력발전소(Advanced Nuclear Power Plant)의 건설을 착공했다. 이는 첨단 원자력 기술의 상용화가 현실화되는 중요한 마일스톤으로, 테라파워의 나트륨냉각고속로(SFR) 기술 실증을 의미한다. 이 프로젝트는 미국 에너지부(DOE)와의 협력과 민간 투자를 통해 추진되고 있으며, 미국의 차세대 에너지 정책 이행의 중심이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVGE4a3hnanpvMV9nQzRCQzNGSWFsRUVuS1NWWXdLMjJqc1phTTdSMEZYMFlkVm9PRTM4aTNEdnYycFBiLWdQQXRRWHVmSlBSalpCVWFIYno1c0RVY1NrOHBNNVh3bmdkUHU3RTRqZFp1R3NOckxkS3hnVDUwNTg0VzNJc2diZEhUcVdoVnA1V2FqWWVSdW1pX3YtOENMVmNFTlRpSnd5ejA4RUJYU18wSzhoSmVBYnNVMXlETjNR?oc=5",
+    "k": "terrapower commences construction on america s first utility scale advanced nuclear power plant",
+    "id": "0dadb529"
   },
   {
     "date": "2026-04-21",
@@ -2698,6 +2964,20 @@ window.SMR_NEWS = [
     "url": "https://investors.x-energy.com/news-releases/news-release-details/x-energy-announces-launch-its-initial-public-offering",
     "k": "x energy announces launch of its initial public offering",
     "id": "2b76f759"
+  },
+  {
+    "date": "2026-04-15",
+    "title": "엑스-에너지(X-energy), 신규공개(IPO) 추진 선언",
+    "summary": "고온가스로(HTGR) 개발사 엑스-에너지(X-energy)가 신규공개(IPO) 계획을 발표했다.",
+    "summaryLong": "미국(US) 첨단로 기업 엑스-에너지(X-energy)가 신규공개(IPO)를 추진하겠다고 공식 선언했다. 엑스-에너지는 고온가스로(HTGR) 및 HALEU 연료 기술 개발로 주목받는 기업으로, 상장을 통해 상용화 자금 조달과 기술 개발을 가속화할 계획이다. 이는 첨단 원자력 기술 분야의 투자 관심 증대를 반영하는 신호다.",
+    "cat": "투자",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWWVzMnNEZTVGVTFZUy1ZMGVjTjhSOUFwdlNXUnJfOV9nV3ZHODJCbFJOZkxlQ2JWbVVFdVhZeFZ0VWFuMHVDT0VLUnZpelpXZkx2N052Rl95X0hDX3hZYlczalpVNm9DdjZYQTZhVUdzZkxsa2htLXRCLTV0Ukp2akt1RDViNnFMd0RN?oc=5",
+    "k": "x energy announces launch of its initial public offering x energy",
+    "id": "f36be1ca"
   },
   {
     "date": "2026-04-13",
@@ -2907,6 +3187,20 @@ window.SMR_NEWS = [
     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPanhYZEVnY0RyT3RkbTVNRXBWcjNwYXU0a0pqN3RCV2ZETjB2clVuQzBNVVg1X0FYdnNyN0ZfTV9UY3FXZ240c3NFX01fcG42TklocnpVNEh5eVcyY21uYzFMRlRJUDMyaFJkS29hVmxXU21EWE1XcjZRM0pUNFJ3SmlEajQzRFJUWTRwczlhM2wxRy1vMUZtSHptbU9SU1RxZi1mYjMzV2E2V2hnaTFJ?oc=5",
     "k": "nuscale power inside the only nrc certified small modular reactor company nyse smr",
     "id": "93c0f5ac"
+  },
+  {
+    "date": "2026-03-17",
+    "title": "Oklo, 미국 에너지부(DOE) 승인으로 Aurora 안전설계협약(NSDA) 획득",
+    "summary": "마이크로원자로(Micro) 개발사 Oklo가 미국 에너지부(DOE)의 Aurora Powerhouse 안전설계협약(NSDA) 승인을 받았다.",
+    "summaryLong": "마이크로 모듈식 원자로(Micro) 개발사 Oklo Inc.가 미국 에너지부(DOE)로부터 Idaho 국립연구소(INL)에 위치한 Aurora Powerhouse 프로젝트의 핵심 안전설계협약(NSDA)을 승인받았다. 이는 Oklo의 혁신적인 고속로 설계가 미국 연방 규제 기준을 만족하며, 상업화 경로가 진전됨을 의미한다. NSDA 승인은 최종 인허가 취득 전 설계의 안전성과 기술적 적격성을 검증하는 중요한 이정표이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
+    "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQTXdKS1Izc2Y1Q2lsazlRTXYyME45bnlnQnNJQ29VZlllSjdyRW9qdGhYd1p6SlF3WnFOZGxLNlFOQXUtcWR5OW9qS1VrRVkxcWJ5eFBIWW9Eck1kT0pQcjFWek9oSFVuM2taOF9hbG03dnhUaWYtVTByTVRkaGtMbkN3WTd0UnZ5OGZXU2FXSFhsQlFCRU94Y0dPWE1NYmJEaFNUcVExV1BSbWNmTVFhSC0xMlRlazh3bGNKaXFVUEZpN3ZiNU1hUHYzUmtqMFVxNHllT0s0UHBlYWdqdXY5dnJEYjJvb0IxTFpJOThaOXlJVmFFWVFqTjctaXFLQW1UVHpQY21EblRqWkpGWDBSbmdIUkpnWWFud1AzWA?oc=5",
+    "k": "oklo announces u s department of energy approval for nuclear safety design agreement of aurora powerhouse at idaho national laboratory",
+    "id": "b60c880e"
   },
   {
     "date": "2026-03-16",
@@ -4236,4 +4530,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-16 04:12 KST";
+window.SMR_UPDATED = "2026-06-17 01:07 KST";
