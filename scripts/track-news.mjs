@@ -378,6 +378,38 @@ async function fetchBody(url){
   } catch(e){ clearTimeout(to); return ''; }
 }
 
+/* resolve a Google News redirect (news.google.com/rss/articles/CBMi...) to the real publisher URL
+   via Google's internal batchexecute endpoint. Returns the original url on any failure (graceful). */
+async function resolveGoogleNews(url){
+  if (!url || url.indexOf('news.google.') === -1) return url;
+  const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36';
+  try {
+    const c1 = new AbortController(); const t1 = setTimeout(()=>c1.abort(), 15000);
+    const page = await fetch(url, { signal: c1.signal, headers:{ 'User-Agent': UA } });
+    clearTimeout(t1);
+    if (!page.ok) return url;
+    const html = await page.text();
+    const aid = (html.match(/data-n-a-id="([^"]+)"/) || [])[1];
+    const ts  = (html.match(/data-n-a-ts="([^"]+)"/) || [])[1];
+    const sg  = (html.match(/data-n-a-sg="([^"]+)"/) || [])[1];
+    if (!aid || !ts || !sg) return url;
+    const inner = JSON.stringify(["garturlreq",[["en-US","US",["FINANCE_TOP_INDICES","WEB_TEST_1_0_0"],null,null,1,1,"US:en",null,180,null,null,null,null,null,0,null,null,[1608992183,723341000]],"en-US","US",1,[2,3,4,8],1,0,"655000234",0,0,null,0],aid,parseInt(ts,10),sg]);
+    const freq = JSON.stringify([[["Fbv4je",inner,null,"generic"]]]);
+    const c2 = new AbortController(); const t2 = setTimeout(()=>c2.abort(), 15000);
+    const res = await fetch('https://news.google.com/_/DotsSplashUi/data/batchexecute', {
+      method:'POST', signal: c2.signal,
+      headers:{ 'User-Agent': UA, 'Content-Type':'application/x-www-form-urlencoded;charset=UTF-8' },
+      body: 'f.req=' + encodeURIComponent(freq)
+    });
+    clearTimeout(t2);
+    if (!res.ok) return url;
+    const txt = await res.text();
+    const part = txt.indexOf('garturlres') >= 0 ? txt.slice(txt.indexOf('garturlres')) : txt;
+    const m = part.match(/https?:\/\/[^\\"\s]+/);
+    return (m && m[0]) ? m[0] : url;
+  } catch(e){ return url; }
+}
+
 /* AI 전문(detail) — comprehensive Korean digest (KO [+EN] + term glossary). Grounded in the real
    article body when available (direct outlets); else built from the snippet. A transformative
    digest covering all key points — NOT a verbatim copy (copyright). */
@@ -430,6 +462,7 @@ function writeDetail(id, item, d){
   }));
 }
 async function ensureDetail(item){          // generate + persist detail; sets item.id (new-item path: skip if exists)
+  item.url = await resolveGoogleNews(item.url);   // Google News redirect → real publisher URL
   const id = articleId(item.url);
   item.id = id;
   if (fs.existsSync(`${ARTICLES_DIR}/${id}.json`)) return false;   // already done
@@ -443,20 +476,23 @@ async function ensureDetail(item){          // generate + persist detail; sets i
    article body where available (direct outlets) so the 전문 contains the full detail. */
 async function backfillDetails(items){
   fs.mkdirSync(ARTICLES_DIR, { recursive: true });
-  items.forEach(it => { it.id = articleId(it.url); });            // stamp id on every item
-  console.log(`detail backfill: regenerating ${items.length} item(s) (fetching article body where available)`);
-  let made = 0, fetched = 0, idx = 0;
+  console.log(`detail backfill: regenerating ${items.length} item(s) (resolve Google News URLs + fetch body)`);
+  let made = 0, fetched = 0, resolved = 0, idx = 0;
   async function worker(){
     while (idx < items.length){
       const it = items[idx++];
+      const before = it.url;
+      it.url = await resolveGoogleNews(it.url);      // Google News redirect → real publisher URL
+      if (it.url !== before) resolved++;
+      it.id = articleId(it.url);
       const body = await fetchBody(it.url);
       if (body) fetched++;
       const d = await generateDetail(it, body);
-      if (d){ writeDetail(it.id, it, d); made++; if (made % 20 === 0) console.log(`... ${made}/${items.length} (body-grounded ${fetched})`); }
+      if (d){ writeDetail(it.id, it, d); made++; if (made % 20 === 0) console.log(`... ${made}/${items.length} (resolved ${resolved}, body ${fetched})`); }
     }
   }
   await Promise.all(Array.from({ length: 6 }, worker));           // 6 concurrent, each with per-call timeouts
-  console.log(`detail backfill done — regenerated ${made}/${items.length}, body-grounded ${fetched}`);
+  console.log(`detail backfill done — regenerated ${made}, resolved ${resolved} google URLs, body-grounded ${fetched}`);
   return made;
 }
 
