@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMR 개발 연표 — 마일스톤 타임라인</title>
+<meta name="description" content="주요 SMR 개발사의 인허가·건설·가동 마일스톤을 2022–2031 시간축 한 장으로. 과거(실선·완료) vs 목표(점선·예정)를 한눈에.">
+<link rel="canonical" href="https://baesay-lang.github.io/smr-hub/SMR-timeline.html">
+<meta name="theme-color" content="#2563eb">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SMR HUB">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="SMR 개발 연표 · SMR HUB">
+<meta property="og:description" content="주요 SMR 개발사의 인허가·건설·가동 마일스톤을 2022–2031 시간축 한 장으로 — 완료 vs 목표를 한눈에.">
+<meta property="og:url" content="https://baesay-lang.github.io/smr-hub/SMR-timeline.html">
+<meta property="og:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SMR 개발 연표 · SMR HUB">
+<meta name="twitter:description" content="개발사별 마일스톤을 2022–2031 시간축으로 — 완료 vs 목표를 한눈에.">
+<meta name="twitter:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
+<link rel="stylesheet" href="styles.css?v=3">
+<script>(function(){try{var t=localStorage.getItem('smrhub-theme');if(t==='dark'||(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();</script>
+<script src="ui.js" defer></script>
+<style>
+  .tl-controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;max-width:1080px;margin:14px auto 0;padding:0 24px;}
+  .tl-controls .lbl{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--text-faint);margin-right:2px;}
+
+  .tl-wrap{max-width:1080px;margin:12px auto 0;padding:0 16px;}
+  .tl-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);
+    padding:8px 6px 10px;overflow-x:auto;}
+  .tl-card svg{display:block;width:100%;min-width:780px;height:auto;}
+
+  /* SVG element classes (themed via CSS vars — works in light/dark) */
+  .tl-bg{fill:var(--surface-2);opacity:.55;}
+  .tl-row:hover .tl-bg{opacity:1;fill:var(--accent-weak);}
+  .tl-row.dim{opacity:.2;}
+  .tl-row{cursor:pointer;transition:opacity .15s;}
+  .tl-hit{fill:transparent;}
+  .tl-grid{stroke:var(--border);stroke-width:1;}
+  .tl-grid-strong{stroke:var(--border-strong);stroke-width:1;}
+  .tl-year{fill:var(--text-faint);font-family:var(--sans);font-weight:700;font-size:12px;}
+  .tl-name{fill:var(--text);font-family:var(--sans);font-weight:700;font-size:13px;}
+  .tl-row:hover .tl-name{fill:var(--accent-strong);}
+  .tl-cc{fill:var(--text-faint);font-family:var(--sans);font-weight:600;font-size:9.5px;letter-spacing:.04em;}
+  .tl-traj{stroke:var(--border-strong);stroke-width:2;fill:none;}
+  .tl-traj-fut{stroke:var(--border-strong);stroke-width:2;fill:none;stroke-dasharray:3 4;opacity:.8;}
+  .tl-dot-done{fill:var(--accent);stroke:var(--surface);stroke-width:2;}
+  .tl-dot-target{fill:var(--surface);stroke:var(--accent);stroke-width:2;stroke-dasharray:2.2 2;}
+  .tl-dot-neg{fill:var(--text-faint);stroke:var(--surface);stroke-width:2;}
+  .tl-code{fill:var(--text-dim);font-family:var(--sans);font-weight:700;font-size:10px;}
+  .tl-code-t{fill:var(--text-faint);font-family:var(--sans);font-weight:600;font-size:10px;}
+  .tl-today{stroke:var(--accent);stroke-width:1.6;stroke-dasharray:4 3;}
+  .tl-today-lab{fill:var(--accent-strong);font-family:var(--sans);font-weight:800;font-size:11px;}
+  .tl-mk:hover .tl-dot-done{stroke:var(--accent-strong);}
+  /* fixed stage colors (single-hue gradient; readable in both themes) */
+  .stg1{fill:#c3d4f5;}.stg2{fill:#9bbcf2;}.stg3{fill:#6f9eee;}.stg4{fill:#4a82ea;}.stg5{fill:#2f6be0;}.stg6{fill:#1d4ed8;}
+
+  .tl-legend{max-width:1080px;margin:12px auto 0;padding:0 24px;display:flex;flex-wrap:wrap;gap:8px 18px;font-size:12px;color:var(--text-dim);align-items:center;}
+  .tl-legend .li{display:inline-flex;align-items:center;gap:7px;}
+  .tl-legend .dot{width:13px;height:13px;border-radius:50%;flex:0 0 auto;}
+  .tl-legend .d-done{background:var(--accent);}
+  .tl-legend .d-target{background:var(--surface);border:2px dashed var(--accent);box-sizing:border-box;}
+  .tl-legend .d-neg{background:var(--text-faint);}
+  .tl-legend .tline{width:18px;height:0;border-top:1.6px dashed var(--accent);}
+  .tl-legend .stages{display:inline-flex;align-items:center;gap:3px;}
+  .tl-legend .stages i{width:12px;height:12px;border-radius:3px;display:inline-block;}
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a class="brand" href="index.html">SMR HUB</a>
+  <a href="SMR-news.html">뉴스</a>
+  <a href="SMR-developers.html" class="active">개발사</a>
+  <a href="SMR-licensing-tracks.html">인허가 트랙</a>
+  <a href="SMR-reactor-types.html">노형 분류</a>
+  <a href="SMR-fuel-supply.html">연료 공급망</a>
+  <a href="SMR-reference.html">CFR 레퍼런스</a>
+  <a href="SMR-asia-structure.html">사업 구조</a>
+  <a href="SMR-korea-players.html">한국 기업</a>
+  <a href="SMR-map.html">프로젝트 맵</a>
+</nav>
+
+<div class="breadcrumb"><a href="SMR-developers.html">개발사</a> › 개발 연표</div>
+
+<header class="page">
+  <div class="kicker">Development Timeline</div>
+  <h1>SMR 개발 연표 — 마일스톤</h1>
+  <p class="subtitle">주요 개발사의 <b>인허가·건설·가동</b> 마일스톤을 한 시간축 위에. <b>실선·채운 점 = 완료</b>, <b>점선·빈 점 = 목표·예정</b>. 점/레인을 클릭하면 <a href="SMR-developers.html">개발사 상세</a>로 이동. (2026.6 기준)</p>
+</header>
+
+<div class="tl-controls">
+  <span class="lbl">트랙</span>
+  <div class="filters" id="trackFilters">
+    <span class="chip active" data-f="all">전체</span>
+    <span class="chip" data-f="nrc50">NRC Part 50</span>
+    <span class="chip" data-f="nrc52">NRC Part 52</span>
+    <span class="chip" data-f="intl">해외 (GDA·CNSC)</span>
+    <span class="chip" data-f="kr">한국</span>
+  </div>
+  <span class="result-count" id="count"></span>
+</div>
+
+<div class="tl-wrap">
+  <div class="tl-card"><div id="tl"></div></div>
+</div>
+
+<div class="tl-legend">
+  <span class="li"><span class="dot d-done"></span> 완료 (확정 사실)</span>
+  <span class="li"><span class="dot d-target"></span> 목표·예정 (변동 가능)</span>
+  <span class="li"><span class="dot d-neg"></span> 반려·기각</span>
+  <span class="li"><span class="tline"></span> 오늘(2026.6) 기준선</span>
+  <span class="li"><span class="stages"><i style="background:#c3d4f5"></i><i style="background:#6f9eee"></i><i style="background:#2f6be0"></i><i style="background:#1d4ed8"></i></span> 좌측 칩 = 현재 인허가 단계(1→6)</span>
+</div>
+
+<main style="padding-top:14px;">
+  <div class="note warn">
+    <span class="lead">주의</span> <b>목표 연도(가동·인가 목표 등)는 자주 바뀝니다</b> — 점선·빈 점은 잠정치입니다. 회의·보고 직전 각 규제기관·개발사 공시로 재확인 권장. 날짜는 <a href="SMR-developers.html">개발사 페이지</a>·<a href="SMR-licensing-tracks.html">인허가 트랙</a>과 동일 기준(2026.6, 공개 출처 검증).
+  </div>
+</main>
+
+<footer>
+  <a href="SMR-developers.html">개발사 카드로 보기</a> · <a href="SMR-licensing-tracks.html">인허가 트랙</a> · <a href="SMR-map.html">프로젝트 맵</a>
+</footer>
+
+<script>
+(function(){
+  var SVGNS='http://www.w3.org/2000/svg';
+  var W=1060, T0=2022, T1=2031, PX0=172, PX1=1040, PW=PX1-PX0;
+  var TOP=52, LANE=40, BOT=22;
+  var TODAY=2026.45;
+  function X(t){ return PX0 + (t-T0)/(T1-T0)*PW; }
+
+  // data mirrors SMR-developers.html (2026.6, public-source verified)
+  // status: done | target | neg ; link defaults to SMR-developers.html#id
+  var DEVS=[
+    {id:'gehitachi', name:'GE Hitachi', cc:'US·JP', stage:5, track:'nrc50 intl', ms:[
+      {t:2025.27, code:'건설허가', full:'캐나다 CNSC 건설허가(LTC) 발급 (2025.4) — 핵 콘크리트 타설·건설 착수', s:'done'},
+      {t:2025.6, code:'CP신청', full:'미국 TVA Clinch River, Part 50 건설허가(CP) 신청·도케팅 (2025)', s:'done'},
+      {t:2030.92, code:'가동', full:'캐나다 Darlington 1호기 완공 목표 (2030년말)', s:'target'} ]},
+    {id:'kairos', name:'Kairos Power', cc:'US', stage:5, track:'nrc50', ms:[
+      {t:2023.7, code:'CP발급', full:'Hermes 실증로 Part 50 건설허가 발급 (2023) — 첫 비경수로 CP', s:'done'},
+      {t:2025.4, code:'건설', full:'Oak Ridge에서 Hermes·Hermes 2 건설 진행', s:'done'} ]},
+    {id:'terrapower', name:'TerraPower', cc:'US', stage:4, track:'nrc50', ms:[
+      {t:2024.17, code:'CP신청', full:'Natrium Part 50 건설허가(CP) 신청 (2024.3)', s:'done'},
+      {t:2026.2, code:'CP발급', full:'건설허가(CP) 발급 (2026.3) — 첫 상업용 비경수로 CP', s:'done'},
+      {t:2028.0, code:'OL·FID', full:'운영허가(OL) 신청·최종투자결정(FID) 예정 (2028 전후)', s:'target'} ]},
+    {id:'xenergy', name:'X-energy', cc:'US', stage:3, track:'nrc50', link:'SMR-dev-xenergy.html', ms:[
+      {t:2025.4, code:'CP신청', full:'Dow Long Mott(Seadrift) Part 50 건설허가 신청·도케팅 (2025)', s:'done'},
+      {t:2027.0, code:'심사', full:'18개월 건설허가 심사 완료 목표 (~2027)', s:'target'},
+      {t:2030.0, code:'가동', full:'Dow Seadrift 가동 목표 (2030 전후)', s:'target'} ]},
+    {id:'holtec', name:'Holtec', cc:'US', stage:3, track:'nrc50 intl', ms:[
+      {t:2026.12, code:'CP접수', full:'Palisades Pioneer 1&2 건설허가(CP) 접수 (2026.2)', s:'done'},
+      {t:2027.4, code:'심사', full:'안전·환경평가 완료 목표 (2027 상반기)', s:'target'},
+      {t:2030.0, code:'가동', full:'SMR-300 가동 목표 (2030)', s:'target'} ]},
+    {id:'nuscale', name:'NuScale', cc:'US', stage:2, track:'nrc52', ms:[
+      {t:2023.05, code:'DC', full:'US600 설계인증(DC) 취득 (2023) — 첫 SMR 설계인증', s:'done'},
+      {t:2026.0, code:'SDA', full:'출력증강 US460 표준설계승인(SDA) 심사 중', s:'target'} ]},
+    {id:'rollsroyce', name:'Rolls-Royce', cc:'UK', stage:2, track:'intl', ms:[
+      {t:2025.5, code:'GBE-N', full:'Great British Energy-Nuclear 우선 기술 선정, 부지 Wylfa', s:'done'},
+      {t:2026.6, code:'GDA완료', full:'영국 GDA Step 3 완료 예정 (2026.8)', s:'target'} ]},
+    {id:'oklo', name:'Oklo', cc:'US', stage:2, track:'nrc52', ms:[
+      {t:2022.05, code:'기각', full:'첫 COLA 기각 (2022.1, without prejudice)', s:'neg'},
+      {t:2025.5, code:'재도전', full:'단계형 COLA 재도전 — NRC readiness 평가 완료, INL', s:'done'} ]},
+    {id:'arc', name:'ARC-100', cc:'CA', stage:2, track:'intl', ms:[
+      {t:2025.5, code:'VDR완료', full:'CNSC 벤더설계심사(VDR) Phase 2 완료 (2025.7)', s:'done'},
+      {t:2027.0, code:'건설허가', full:'건설허가(LTC) 신청 목표 (2027)', s:'target'},
+      {t:2030.6, code:'가동', full:'1호기 가동 목표 (2030년대 초)', s:'target'} ]},
+    {id:'smart', name:'SMART100', cc:'KR', stage:2, track:'kr', origin:'2012 세계 첫 SDA', ms:[
+      {t:2024.7, code:'SDA', full:'SMART100 표준설계인가 취득 (2024.9) · SMART 원조 SDA는 2012(세계 최초)', s:'done'} ]},
+    {id:'westinghouse', name:'Westinghouse', cc:'US', stage:1, track:'nrc52', ms:[
+      {t:2024.92, code:'I&C', full:'eVinci 계측제어(I&C) 플랫폼 승인 (2024.12)', s:'done'},
+      {t:2027.0, code:'DC', full:'AP300 설계인증(DC) 목표 (2027)', s:'target'} ]},
+    {id:'ismr', name:'i-SMR', cc:'KR', stage:1, track:'kr', ms:[
+      {t:2023.5, code:'출범', full:'국책 혁신형 i-SMR 개발사업 출범 (2023)', s:'done'},
+      {t:2028.0, code:'SDA', full:'표준설계인가(SDA) 목표 (2028)', s:'target'} ]},
+    {id:'seaborg', name:'Seaborg', cc:'DK', stage:1, track:'intl', ms:[
+      {t:2026.0, code:'시제', full:'상용 프로토타입 목표 (2026, 변동 큼)', s:'target'},
+      {t:2028.0, code:'운전', full:'해상 Power Barge 상업운전 목표 (2028, 변동 큼)', s:'target'} ]}
+  ];
+
+  function el(tag, attrs, txt){
+    var e=document.createElementNS(SVGNS, tag);
+    for(var k in attrs) e.setAttribute(k, attrs[k]);
+    if(txt!=null) e.textContent=txt;
+    return e;
+  }
+
+  var H = TOP + DEVS.length*LANE + BOT;
+  var svg = el('svg', {viewBox:'0 0 '+W+' '+H, role:'img', 'aria-label':'SMR 개발 마일스톤 타임라인'});
+
+  // --- year gridlines + labels ---
+  for(var y=T0; y<=T1; y++){
+    var gx=X(y);
+    svg.appendChild(el('line', {class:(y%1===0?'tl-grid':'tl-grid'), x1:gx, y1:TOP-12, x2:gx, y2:H-BOT+4}));
+    svg.appendChild(el('text', {class:'tl-year', x:gx, y:TOP-20, 'text-anchor':'middle'}, y));
+  }
+  // --- today line ---
+  var tx=X(TODAY);
+  svg.appendChild(el('line', {class:'tl-today', x1:tx, y1:TOP-12, x2:tx, y2:H-BOT+4}));
+  svg.appendChild(el('text', {class:'tl-today-lab', x:tx, y:H-BOT+18, 'text-anchor':'middle'}, '오늘'));
+
+  var STG={1:'stg1',2:'stg2',3:'stg3',4:'stg4',5:'stg5',6:'stg6'};
+
+  DEVS.forEach(function(d, i){
+    var cy = TOP + i*LANE + LANE/2;
+    var g = el('g', {class:'tl-row', 'data-track':d.track});
+    // alternating lane bg
+    g.appendChild(el('rect', {class:'tl-bg', x:PX0-2, y:cy-LANE/2+3, width:(PX1-PX0)+4, height:LANE-6, rx:6,
+      style:(i%2? '':'opacity:.28')}));
+    // left label (name + cc) — two lines
+    g.appendChild(el('text', {class:'tl-name', x:12, y:cy-1}, d.name));
+    g.appendChild(el('text', {class:'tl-cc', x:12, y:cy+12}, d.cc + (d.origin? '  ·  '+d.origin : '')));
+    // stage chip
+    g.appendChild(el('circle', {class:STG[d.stage], cx:158, cy:cy, r:6}));
+    g.appendChild(el('text', {x:158, y:cy+3, 'text-anchor':'middle', 'font-size':'8.5', 'font-weight':'800',
+      fill:(d.stage>=4?'#fff':'#1a2230'), 'font-family':'var(--sans)', style:'pointer-events:none'}, d.stage));
+
+    // trajectory line (solid past, dashed future) across milestones
+    var ts = d.ms.map(function(m){return m.t;});
+    var minT=Math.min.apply(null, ts), maxT=Math.max.apply(null, ts);
+    if(maxT>minT){
+      var splitT=Math.min(Math.max(TODAY,minT), maxT);
+      if(splitT>minT) g.appendChild(el('line', {class:'tl-traj', x1:X(minT), y1:cy, x2:X(splitT), y2:cy}));
+      if(maxT>splitT) g.appendChild(el('line', {class:'tl-traj-fut', x1:X(splitT), y1:cy, x2:X(maxT), y2:cy}));
+    }
+
+    // milestone dots + code labels (alternate above/below to avoid collisions)
+    d.ms.forEach(function(m, j){
+      var x=X(m.t);
+      var mk=el('g', {class:'tl-mk'});
+      var cls = m.s==='done'?'tl-dot-done' : (m.s==='neg'?'tl-dot-neg':'tl-dot-target');
+      var c=el('circle', {class:cls, cx:x, cy:cy, r:6});
+      c.appendChild(el('title', {}, m.full));
+      mk.appendChild(c);
+      var above = (j%2===0);
+      var ly = above ? cy-10 : cy+17;
+      var anchor = x>PX1-40 ? 'end' : (x<PX0+24 ? 'start':'middle');
+      mk.appendChild(el('text', {class:(m.s==='done'?'tl-code':'tl-code-t'), x:x, y:ly, 'text-anchor':anchor}, m.code));
+      g.appendChild(mk);
+    });
+
+    // full-lane click target
+    var hit=el('rect', {class:'tl-hit', x:0, y:cy-LANE/2, width:W, height:LANE});
+    hit.appendChild(el('title', {}, d.name+' — 상세 보기'));
+    g.appendChild(hit);
+
+    var link = d.link || ('SMR-developers.html#'+d.id);
+    g.addEventListener('click', function(){ window.location.href = link; });
+    svg.appendChild(g);
+  });
+
+  document.getElementById('tl').appendChild(svg);
+
+  // --- track filter ---
+  var rows = Array.prototype.slice.call(svg.querySelectorAll('.tl-row'));
+  var countEl = document.getElementById('count');
+  function applyFilter(f){
+    var vis=0;
+    rows.forEach(function(r){
+      var on = f==='all' || (r.getAttribute('data-track')||'').split(' ').indexOf(f)>=0;
+      r.classList.toggle('dim', !on);
+      if(on) vis++;
+    });
+    countEl.textContent = vis+'개사';
+  }
+  Array.prototype.slice.call(document.querySelectorAll('#trackFilters .chip')).forEach(function(ch){
+    ch.addEventListener('click', function(){
+      document.querySelectorAll('#trackFilters .chip').forEach(function(c){c.classList.remove('active');});
+      ch.classList.add('active');
+      applyFilter(ch.getAttribute('data-f'));
+    });
+  });
+  applyFilter('all');
+})();
+</script>
+<script src="feedback.js" defer></script>
+</body>
+</html>
