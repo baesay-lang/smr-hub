@@ -1,5 +1,5 @@
 /* ============================================================
-   SMR Hub — tester feedback widget (Formspree-backed)
+   SMR HUB — tester feedback widget (Formspree-backed)
    1) Create a form at https://formspree.io  → copy its endpoint
    2) Replace REPLACE_ME below with your form id (the part after /f/)
    Loaded on every page via <script src="feedback.js" defer></script>

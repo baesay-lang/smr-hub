@@ -1,5 +1,5 @@
 /* ============================================================
-   SMR Hub — news detail modal (shared by all pages)
+   SMR HUB — news detail modal (shared by all pages)
    Flow: 요약(summary) → 전문(AI 상세해설: 한국어 + English + 용어주석, lazy-loaded
    from articles/<id>.json) → 원문(original link).
    Pure front-end. The 전문 is a transformative AI explainer (NOT a copy of the
