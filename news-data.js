@@ -15,10 +15,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "NuScale Power",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORGZweU41VFNxeV93YV9SOFJIaXZPS0E3aUJOUDhXLWdWcTNZbkl2TjRjU0NfMExRSWNqRXVodThsc1NrZU1XeTQ2YVFVQnpuQnBkV2lqdmMtMFRQQzA2cVU1Ry0xaFl6OWhmNXNzcGFHVC1uMUQwbG91VmJRa2ZFREk2enZhc3lqd1VLTUFTaGR1QTdGSDFwQkxfQXllYTM1Z3o1LXMxSWZXWXJiMEUyVV9neC1xY2pnbjRVVkhkMEVPMXdvbWhYUGt0a2s4cHNmbjkxQmpiX1BlZVltWHhBUQ?oc=5",
+    "source": "foreignpolicyjournal.com",
+    "url": "https://www.foreignpolicyjournal.com/2026/06/16/japans-25-billion-nuscale-power-nyse-smr-investment-plan-sends-shares-surging-in-overnight-trading/",
     "k": "japan s 25 billion nuscale power nyse smr investment plan sends shares surging in overnight trading",
-    "id": "717d2cf9"
+    "id": "3c729139"
   },
   {
     "date": "2026-06-16",
@@ -29,38 +29,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "TerraPower",
     "region": "UK",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdFdEMG9mczhPSnBrNTdJb0U2Y3dsaHdNQ3U3Tmg5dHprZnVYQ2F5M0RESXBRbHRUcGZaUkhDUk9vcHdwWHFEU2NpX1diTUo0Uk9FRHRQcVhvWXQ4NzA3b1BUbHVSX1BneHVHaF80NVlYNkVzVHRveVZMczhRUlFNeV9MM1hIRWJRZm5ONA?oc=5",
+    "source": "geekwire.com",
+    "url": "https://www.geekwire.com/2026/next-gen-nuclear-company-terrapower-plants-flag-in-uk/",
     "k": "next gen nuclear company terrapower plants flag in uk",
-    "id": "1f12e369"
-  },
-  {
-    "date": "2026-06-16",
-    "title": "오클로(Oklo), 스탠다드 뉴클리어와 연료 재활용 파트너십 체결",
-    "summary": "오클로(Oklo)가 스탠다드 뉴클리어(Standard Nuclear)와 연료 재활용 및 첨단로 공급망 구축을 위한 파트너십을 체결했다.",
-    "summaryLong": "소형 첨단원자로 개발사인 오클로(Oklo)가 스탠다드 뉴클리어(Standard Nuclear)와 핵연료 재활용 및 첨단 원자로 공급망 개발에 대한 파트너십을 공식 체결했다. 이 협력을 통해 양사는 사용 후 핵연료의 재활용 기술 및 소형모듈원자로 관련 부품 및 서비스 공급망을 함께 구축하기로 합의했다. 이는 오클로의 사업 확대와 더불어 첨단 원자로 산업의 전주기 수직 통합을 추진하는 전략적 움직임으로 평가된다.",
-    "cat": "계약",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNanpkZi1oWTh6TWRSeFJQMkhOUDJwLXhTRzFkdGY2V2pQUUltN1J4Zkc5UmdMMy1HSjJPQmhhU0RBbkExZ3RQWVdCSWtvSkN0TEw2eFk5UUNMek9DVldVcHFZSGIwa0dYNEcwNVBlbGZMTUZva2tkek5YckVaZzBGU05IbUtxc08wZUpUR3dRY21nWU9NZWc?oc=5",
-    "k": "oklo and standard nuclear partner on fuel recycling and advanced reactor supply chain oklo",
-    "id": "456ca115"
-  },
-  {
-    "date": "2026-06-16",
-    "title": "오클로(Oklo), 미국 핵폐기물을 전력으로 변환하는 연료 거래 추진",
-    "summary": "오클로(Oklo)가 미국의 핵폐기물을 활용한 발전 사업을 목표로 연료 거래를 추진하고 있다.",
-    "summaryLong": "소형 첨단원자로 개발사인 오클로(Oklo)는 미국의 기존 핵폐기물(사용 후 핵연료)을 재활용하여 전력 생산에 사용하는 비즈니스 모델을 추진 중이다. 이를 위해 오클로는 전략적 연료 거래 협력을 체결하고 있으며, 이는 환경 문제 해결과 동시에 새로운 에너지원 확보라는 이중 목표를 달성하는 사업 전략으로 평가된다. 핵폐기물의 재자원화는 첨단 원자로 기술의 중요한 활용 분야로 부상하고 있다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOM0NxOGdRQjZkaVpmTXhZcUxmTUdrRGtCWi0xU1RSY2ZXRkFySVFuMDZVOEhvZ3o5MUZYYV9qeFlpMEZLZnBuNXpBSHpfRVdkTW5FWXpiUGlsRldnUnNPbWhudFVoaDE3R3dpLUx3ZThFcUgtNFJySldySDFfNm5aZ2ZVOHppZ1ZnWWFHZW9CdzU0RzJLUmY4TmlIcWdOUmV4QVZ5M2thYWo0bGEweFBtWE13RkdPbm0wZnc?oc=5",
-    "k": "aims to turn u s nuclear waste into power oklo fuel deal",
-    "id": "8820bb6e"
+    "id": "f9f6b37e"
   },
   {
     "date": "2026-06-16",
@@ -71,10 +43,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "Rolls-Royce",
     "region": "UK",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQNFJMWWRJZ1R1RU54LXRNMzIwaGZQUEQ0S1NMSWdzN1U4SjU2d0lYcVh6dVRLY0JoU0FMdXVaSEg5QUR2V0dJZUE0WjM3YUh2RHc1bEtzSVNKbzRBVFlBVHYybDB2TWV4VE1FUmFPaWNUUEZaNTF6TXhGaVA2X0FkZDRYRUNOQjU5cWpLWE14WHlKRUE5Z09tY29Iaw?oc=5",
+    "source": "indexbox.io",
+    "url": "https://www.indexbox.io/blog/rolls-royce-smr-wins-contract-to-build-nuclear-reactors-in-sweden/",
     "k": "rolls royce smr secures swedish nuclear reactor deal videberg project news and statistics",
-    "id": "5fa87403"
+    "id": "7caf6a6f"
   },
   {
     "date": "2026-06-16",
@@ -85,10 +57,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "Oklo",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE44Y2c4QkkzNnR1Z1hhNHFXSGRrLWlhalFuTVZoOXJsS1dqUHRHY2p1T0xlUlhZb0prUXRYMVB5MFE4MG5ZQjRZTTNfaWNFbHpVM25v?oc=5",
+    "source": "djc.com",
+    "url": "https://www.djc.com/news/co/12176338.html",
     "k": "construction doe approves safety analysis for oklo s aurora powerhouse in idaho",
-    "id": "f7459b7a"
+    "id": "b11072e7"
   },
   {
     "date": "2026-06-16",
@@ -99,10 +71,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "TerraPower",
     "region": "UK",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNEFwNTdxWmZta240akJJdllFMFNYaC02MFI1ZlY2QVdTVFF1VHRpSlNtQmNJR3Zodmo4bVJaY3h3MGZ3UUIxOTJyWFdoaWMwRkV0UWtoSURJSGR0eTNBUms3ZmxleldaYkRFNnlacmdQeDkzYlF3ZVFsRDJZQ3ZpNnZlNjBmcEw0dWQxUjVuZ1pHemRLSjd4b29qLThidmgwQ1BLZ0VR?oc=5",
+    "source": "onr.org.uk",
+    "url": "https://www.onr.org.uk/news/all-news/2026/06/terrapower-natrium-3-step-generic-design-assessment-starts",
     "k": "terrapower natrium 3 step generic design assessment starts",
-    "id": "5a91e399"
+    "id": "d146ab8c"
   },
   {
     "date": "2026-06-16",
@@ -127,10 +99,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOT1B5eE5BemdSazh0RWNZU2V2anAtZGFpaTVqdmRCT1JwekhfOWczeF96MHNWVUg0TDRadjh3aU1RRnpmZ0d3TlRQMDhZVXNXSTRKbVl2enB1MkpxQ19tbHRBNGpxVEtLNEh2cnppWnVESGhaYnVqVnFKSGhyME5POW9ERE41dnlHUkJ2NEFvd1R0Y3ExaE5ueDJvUno0QUFuR3BGUmVZYndiU1E0ZzhjZmNCSl9veWJLbVE?oc=5",
+    "source": "nucnet.org",
+    "url": "https://www.nucnet.org/news/us-regulator-begins-environmental-review-of-pioneer-small-modular-reactor-project-6-2-2026",
     "k": "us regulator begins environmental review of pioneer small modular reactor project",
-    "id": "f382e95e"
+    "id": "3ff3ac76"
   },
   {
     "date": "2026-06-16",
@@ -141,52 +113,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "Rolls-Royce",
     "region": "UK",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOc2dWUmItVHlrLUUzOGkxOGt3M2RVeGdnYnIzcDJqa2psWEdueEdTZGN2RlRXVTk4ZkhnR3pfcVBlY0hCNVpjS2R6YWVJdmEyRWdLdzhYWmdGT3J3MFhiNUNvb3ZXaXBqYWxkWmFZYzgyamd5YzBURUhyYlBaTGRDSzE4b3pDV21CWFRRQXpLcXpVbkpQRzFFTzNhTFkwOFVGS09LOThPdUdPMFNMeG0wWlFB?oc=5",
+    "source": "euronews.com",
+    "url": "https://www.euronews.com/business/2026/06/16/rolls-royce-secures-deal-to-build-small-nuclear-reactors-for-sweden",
     "k": "rolls royce secures deal to build small nuclear reactors for sweden",
-    "id": "09dbdefb"
-  },
-  {
-    "date": "2026-06-16",
-    "title": "옥로(Oklo), 스탠다드뉴클리어(Standard Nuclear)와 재활용 핵연료 공급 파트너십 체결",
-    "summary": "옥로(Oklo)가 스탠다드뉴클리어(Standard Nuclear)와 첨단로용 재활용 핵연료 공급 파트너십을 체결했다.",
-    "summaryLong": "미국의 첨단원자로 개발사 옥로(Oklo)가 핵연료 공급업체 스탠다드뉴클리어(Standard Nuclear)와 전략적 파트너십을 체결하고 재활용 핵연료(Recycled Fuel) 공급 체계를 강화하기로 합의했다. 이 계약은 옥로의 고속로(Fast Reactor) 등 첨단 원자로 운영에 필요한 연료 공급망을 확보하는 것으로, 폐연료 재활용을 통한 핵연료 순환경제 구현과 첨단로 상용화를 동시에 추진하는 전략을 보여준다.",
-    "cat": "계약",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQWFtU2lsRlJiREpzR3NFTzZhYlpScHZmbTl0T3JmUXhVVXlfMGhBX1ZDeHJfSlh5bmhzNjFsekxaZHhfQWZVWmhZOFY5RmI5WlE2TTZ4Z0VTMUJVeHFyVnExWkVlSXJXQkg1NjFlMVBiWnpGZm9SanZrOHgtQ2ZmczFIclBqVENycTFSenJUT0ZPT0JudGZZ?oc=5",
-    "k": "oklo oklo partners with standard nuclear on recycled fuel for advanced reactors",
-    "id": "d805fbb0"
-  },
-  {
-    "date": "2026-06-16",
-    "title": "옥로와 스탠다드뉴클리어, 첨단원자로 핵연료 공급망 강화 전략동맹 체결",
-    "summary": "옥로(Oklo)와 스탠다드뉴클리어(Standard Nuclear)가 첨단원자로용 핵연료 공급 체계를 강화하는 전략동맹을 체결했다.",
-    "summaryLong": "미국의 첨단원자로 개발사 옥로(Oklo)와 핵연료 전문업체 스탠다드뉴클리어(Standard Nuclear)가 전략적 동맹(Strategic Alliance)을 공식 체결했다고 비즈니스와이어(Business Wire)를 통해 공시했다. 양사는 재활용 핵연료 및 첨단 연료 공급망(Nuclear Fuel Supply Chain) 강화를 통해 고속로 등 차세대 원자로의 상용화 기반을 구축하려는 목표이며, 이는 원자력 산업 내 연료·기술 기업 간의 수직적 협력 확대 추세를 보여준다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOM0NVWWFPd0xZTVV1LWhkVnA5NUdtaDVKV1VLOVlab2Ixb19WT3ZhLU92VlF6NmZMR0hTeXhpTGRTOUIybXMxUEZwSFZ1VVhrN053ZTM2S2Z5MjU1Z21MNFNZbTRmLUMwME41b0R5NmFNd2dfSGZvRVEwWEZxa3dlS1pEVjV3dVNRN19hbkF1dUdNM3hJQzQxa3hiT0FCeExOdk9QR2FZdnNyR1RGVzc3azlpcnQ1YU1GSmwyTFF1ZmtINXJtQ19lUWVFVUhFWTRuR1M3ODBpbUpwQnRKdUJNc2M2V3lGaDZnVkJj?oc=5",
-    "k": "oklo and standard nuclear form strategic alliance to strengthen advanced nuclear fuel supply chain",
-    "id": "ef4c688d"
-  },
-  {
-    "date": "2026-06-16",
-    "title": "오클로(Oklo)·스탠더드 뉴클리어(Standard Nuclear), 핵연료 재활용 양해각서 체결",
-    "summary": "오클로(Oklo)와 스탠더드 뉴클리어(Standard Nuclear)가 고급 핵연료 공급망 강화를 위한 양해각서(MOU)를 체결했다.",
-    "summaryLong": "오클로(Oklo)와 스탠더드 뉴클리어(Standard Nuclear)가 핵연료 재활용 및 고급 핵연료 공급망 구축을 목표로 양해각서(MOU)를 체결했다. 이는 고급 반응로(Advanced Reactor) 개발 시 필수적인 연료 공급 체계를 구축하려는 전략적 협력이다. 양사의 협력은 폐연료 재활용과 핵연료 순환경제 구현을 통해 첨단 원자로의 상용화 조건을 마련하는 데 기여할 것으로 기대된다.",
-    "cat": "계약",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZUgzbENJTVlUaWVpbGViX2ZSSzhjelBUdG8yaXY5RXdlZFVoY2tBSFJZZ1NhVnFNMUdyNHhneTluMjRqX2Rnbk5NNHF6Tk1SSzlqcWljM1FLT3E1R0hMQjRaRko0VUJIcS1JN3dya1I3blVHNFlmTWFMZkFwVkJxVjNBSW1wemxJVGxPY0drLUZoTHpRREc5RFN1dXRSZHBiWTlkUUFJWFZpS0YyYlNzUkZMZw?oc=5",
-    "k": "oklo standard nuclear sign mou on nuclear fuel recycling",
-    "id": "447f7c0d"
+    "id": "d3fff296"
   },
   {
     "date": "2026-06-16",
@@ -197,10 +127,10 @@ window.SMR_NEWS = [
     "type": "HTGR",
     "dev": "X-Energy",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5HdWg1VUk1d0RrSWJ4SGprR1hwcUFnc05rU3ExVzBpa0MzVTNGamt6QlBPRnlrbUlBeFZ5NG5iQ09RMWtXMU5QUkU3aUwtS3h0SXlRVF84MGRvMXVXbUJSVUhCVmIwbXA3M2xIOUFmSk1URTRqeWZsVDRB?oc=5",
+    "source": "uk.finance.yahoo.com",
+    "url": "https://uk.finance.yahoo.com/news/x-energy-xe-powers-13-023459615.html",
     "k": "x energy xe powers 13 5 as cathie wood gobbles more stake",
-    "id": "e29ff9aa"
+    "id": "c650f034"
   },
   {
     "date": "2026-06-16",
@@ -211,10 +141,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5YT1VoYnlPR05NczZ1QnRDZjZ3RURCRTJ2eTJCM21iSzU0c3VKOXBSMTlmb1hpeVZfemxoSDlzZlFYMTBJM1g0OFZWWDlqSGtiRWloQ2h3?oc=5",
+    "source": "biz.heraldcorp.com",
+    "url": "https://biz.heraldcorp.com/article/10772621",
     "k": "신규 원전 smr 부지 다음주 발표 h exclusive",
-    "id": "2c148cee"
+    "id": "a6810b32"
   },
   {
     "date": "2026-06-16",
@@ -225,10 +155,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "서울대",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2OUJ2dlkwMnQyRG1BZksteDRGT3VEYjdCU3UzRzVmc3h2VmlUQjJ5TEhxaUwwa2VEWjhiRXdKSm44UWVYSnZ0eGdEa3VWRkFlU1Bid2JJbEFNSGtuOTJHdlg0QTg5S2ZLTmZwUzFwWW0?oc=5",
+    "source": "lecturernews.com",
+    "url": "https://www.lecturernews.com/news/articleView.html?idxno",
     "k": "미래 해양을 움직일 원자력의 청사진 서울대 smr 선박 상용화를 위한 산업 전략 세미나 개최",
-    "id": "759e6d92"
+    "id": "a96dfd23"
   },
   {
     "date": "2026-06-16",
@@ -239,10 +169,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "NuScale",
     "region": "US",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4yaXJHNWowWEhoT0NkYXZnOW9Lc29PclBJMHE1REEzalZzdWc2ZlNycE4ydFctbThUWXVWZ19lVmJtcEE3LTlqWDZ5X2tHc3B3Mi1ITFJWak1FXzRRWWFmX3lONjFublZBUmdQeUVzdVFVR0RXQ3c?oc=5",
+    "source": "infostockdaily.co.kr",
+    "url": "https://www.infostockdaily.co.kr/news/articleView.html?idxno",
     "k": "뉴스케일파워 smr 엔트라원 우려 해소 프로젝트 착수에 주목 im",
-    "id": "df074389"
+    "id": "b482fd9f"
   },
   {
     "date": "2026-06-16",
@@ -253,10 +183,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "EU",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE43SFpkXzh2bWhfUDlUbWhicE9SUjQ3d0tYb2ZEakN1aGlGLUlTcV9jM2daMEVyazdEVDhrejhwZ2YxSnU4U044YUNLRTgtR205OHdUNkRzbVlGRDUtSW82dk1PYm1nUFoz?oc=5",
+    "source": "2news.co.kr",
+    "url": "https://www.2news.co.kr/news/articleView.html?idxno",
     "k": "이탈리아 환경에너지안보부 smr 중심 신원전 활성화 추진",
-    "id": "b152ceaa"
+    "id": "28b68b97"
   },
   {
     "date": "2026-06-16",
@@ -267,10 +197,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "태웅",
     "region": "US",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE96YzZCZ0J5dVBRUFExSFI2aXdqeXJIaHFVWEkySDl0dXVLWHhlMWRNbFhKV01ta0hreF9Ha1JtdC10UnRDZThwOGlEMmVQZmtKWDlLMGtKNmJqNGZVbVh4TUp1b25MM2N3dmgtWnlpRTRQWDVB?oc=5",
+    "source": "busan.com",
+    "url": "https://www.busan.com/view/busan/view.php?code",
     "k": "태웅 첫 상업용 smr 핵심 부품 뚫었다",
-    "id": "da9ea92e"
+    "id": "c83786c7"
   },
   {
     "date": "2026-06-15",
@@ -281,10 +211,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "한전기술",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE54WXhwTlE0TzNvSHotLVlSSm1LSEFGc3FzdDI2dDVEU3JXbkNkZ3NreloycnBTbjVScy1sejkzclB1LXV4M0ZYY3p3b3NmZUNzV3ZZd0JlRl8zLW9SUTl2UTNBOA?oc=5",
+    "source": "theguru.co.kr",
+    "url": "https://www.theguru.co.kr/news/article.html?no",
     "k": "한전기술 베트남 smr 전략적 교두보 마련 법제화 움직임에 협력 구체화",
-    "id": "5991988b"
+    "id": "97b6e52e"
   },
   {
     "date": "2026-06-15",
@@ -299,20 +229,6 @@ window.SMR_NEWS = [
     "url": "https://www.world-nuclear-news.org/articles/rolls-royce-joins-uk-japan-HTGR-development-agreement",
     "k": "rolls royce joins uk japan htgr development agreement",
     "id": "db2270b7"
-  },
-  {
-    "date": "2026-06-15",
-    "title": "스웨덴 신규 원전 프로젝트, 롤스로이스 SMR 선정",
-    "summary": "비데베르그 크래프트(Videberg Kraft)가 린칼스(Ringhals) 인근 바뢰 반도(Värö Peninsula) 부지에 롤스로이스 소형모듈원자로(SMR) 3기 공급을 위한 공급사로 선정했다.",
-    "summaryLong": "스웨덴의 비데베르그 크래프트(Videberg Kraft)가 린칼스(Ringhals) 인근 바뢰 반도(Värö Peninsula)에 건설할 신규 원전 프로젝트의 공급사로 영국의 롤스로이스(Rolls-Royce) 소형모듈원자로(SMR)를 선정했다. 동 프로젝트는 총 3기의 롤스로이스 SMR 배치를 계획하고 있으며, 북유럽 지역의 에너지 전환과 탄소 감축 목표 달성을 지원할 것으로 예상된다. 이는 유럽 내 SMR 상용화 추진의 주요 계약사례로서, SMR의 산업화 진전을 보여주는 사례이다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "Rolls-Royce",
-    "region": "EU",
-    "source": "World Nuclear News",
-    "url": "https://www.world-nuclear-news.org/articles/swedish-new-nuclear-project-selects-rolls-royce-smrs",
-    "k": "swedish new nuclear project selects rolls royce smrs",
-    "id": "13724546"
   },
   {
     "date": "2026-06-15",
@@ -337,10 +253,10 @@ window.SMR_NEWS = [
     "type": "HTGR",
     "dev": "X-Energy",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeUwxMFh6NkRwZmRjUlBVcHJhV0g4dEZKR3UwUmhpM0tHdFkzR2dOeVFGU2tnVVRGMERMMjBnRDVyaE5iY0JzTnNvMEo4eXY3NEVma2I1SWJlMjJ5VWJsVEdUNy0tWEVkYTJMQjAza2hkbGZ5S3E2QXBCakR6bVJLQjZoMGlUNW1jckhSSlFEX2UwMGVLYnc?oc=5",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/sectors/energy/articles/x-energy-uk-reactor-review-131232017.html",
     "k": "x energy s uk reactor review marks key test for global growth plans",
-    "id": "e4944a53"
+    "id": "ab3bc49d"
   },
   {
     "date": "2026-06-15",
@@ -351,24 +267,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "Rolls-Royce",
     "region": "UK",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPX0ZLaUZDMlhxYW1lWW5Yc0xoTWhFUThKbmczVGRsNkdsLTQ5ZmhqRFBndXhjN3YxeUNITEY1Zlh1YUZYLU5Id1lhdDU4eEowV2pTYlc0dFFDSFI4cFNWQkNvdmpKUlh6Skw0WFRNcG0wZUFQSFlfWUx5aHRfWjJLQmJzcjZNaWMzOGR2Qm9Lb3Y1RjhIdE1tV3Q4eDNSVUlI?oc=5",
+    "source": "niauk.org",
+    "url": "https://www.niauk.org/nia-responds-to-sweden-selecting-rolls-royce-smr-for-nuclear-export-contract/",
     "k": "nia responds to sweden selecting rolls royce smr for nuclear export contract",
-    "id": "691c8d02"
-  },
-  {
-    "date": "2026-06-15",
-    "title": "롤스로이스(Rolls-Royce), 스웨덴 소형핵반응로 건설 계약 체결",
-    "summary": "롤스로이스(Rolls-Royce)가 스웨덴을 위한 소형모듈원자로 건설 계약을 확보했다.",
-    "summaryLong": "롤스로이스(Rolls-Royce)가 스웨덴의 소형모듈원자로 건설 프로젝트 공급 계약을 체결했다. 이는 영국 기업의 차세대 원자력 기술이 유럽 시장에서 상용화의 길을 열게 되는 중요한 계약이다. 해당 프로젝트는 스웨덴의 에너지 전환 및 탄소중립 목표 달성을 뒷받침하며, 글로벌 SMR 시장 성장을 견인할 것으로 예상된다.",
-    "cat": "계약",
-    "type": "PWR",
-    "dev": "Rolls-Royce SMR",
-    "region": "UK",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KUy1Td0p4WmcwVW04X3ZES2RsY3ZZbEkyYVdsTEtfOEQya1JkQlBHQ2dUaEc4ZWFDNGtURzVxZ2tmZGhza2pVYWZheU1IRUwyaXJrX0k2aUEtTVpLTS1zWllpY19acjBfZW1NQTFsWWo?oc=5",
-    "k": "rolls royce wins contract to build small nuclear reactors for sweden",
-    "id": "85aff787"
+    "id": "5b58d820"
   },
   {
     "date": "2026-06-15",
@@ -379,10 +281,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "Oklo",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQ0FuVFZkejExM0N4WGZnRG05OVNEM2lCY0tDeF94ZlVyMDE4V2Q3WlVicTdvWS10MnRtMmd2aHNXbDRCdFBQaWZfR25pNXJsVklGRGc4cDdlS093YjZEbk0xVENpamUzSUZfV3AzUFBuWE5CbjRCSnRGUGEzeWVPZWpoQ2tyQ3phZTJWaF83LVNveUN6SWw2YWViZkxWSnpHbURfdHRpaTVheFJGNlI3UnBB?oc=5",
+    "source": "247wallst.com",
+    "url": "https://247wallst.com/investing/2026/06/15/we-see-66-upside-in-oklo-as-pre-revenue-nuclear-execution-risk-eases/",
     "k": "we see 66 upside in oklo as pre revenue nuclear execution risk eases",
-    "id": "7a2febd4"
+    "id": "dd2f0fda"
   },
   {
     "date": "2026-06-15",
@@ -393,10 +295,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "NuScale",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdjJfOU1YTnVnVUp6SUpVT05TWExYazNqVjN4ak1abmNSN2ZjaW9KeGVkX1N5RlFoajRpZDh5QU5wcUNaR2pfWDhHcndEbnphSTVBYVN3OHhvNUhJY2FDNzB1bTF2NHpfTFFBLTE0ZHpXcURxZHhfRnBBX3NUMEpTN0dPVUZTdlhzM0hWbTdJY3Y5dkJXSDE0?oc=5",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/06/15/why-nuscale-power-stock-is-rocketing-higher-today/",
     "k": "why nuscale power stock is rocketing higher today",
-    "id": "37faa09f"
+    "id": "a61e6618"
   },
   {
     "date": "2026-06-15",
@@ -407,10 +309,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "NuScale",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdTZkdnRMR0ZFYm1SQzk2QlVCbGVNSjFMNnE1d2NYaldhRDNPNjMyNV80TmtCU201b1ZBRE45SEU0T1dDbkZ6YVlVekRIUGZ6S0ZuTG01TG9ZTFpma1EwMHBtcUVtWF9zUTZZNG5NVmNHcnlOU3hVU0szSXRpZGVaYmF6aw?oc=5",
+    "source": "stockstotrade.com",
+    "url": "https://stockstotrade.com/news/nuscale-power-corporation-smr-news-2026_06_15/",
     "k": "nuscale power stock slides as smr story builds out",
-    "id": "707f332b"
+    "id": "fbc71b31"
   },
   {
     "date": "2026-06-15",
@@ -421,10 +323,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "Oklo",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWnRyRHpMWnBDNDU4V0VLVTBDMExER3pCd0RKVFVEcFJVYUZpUFV2NlVLZlpZSGhrTEJRbDFwYmhXVDZ5RVdmSE02ODJhRjYtU3ZEV2picDhKOVp3UnZOSnJNTHZiRHhUZ0dqTVdOZzJKZnJ1RnJuX1B3SC15VXpMbjFaLVZkc1BFaEJlazVVYS1PV1FWZG5xTg?oc=5",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/06/15/down-around-70-from-its-high-is-now-the-time-to-bu/",
     "k": "down around 70 from its high is now the time to buy oklo stock",
-    "id": "8953a012"
+    "id": "997a7fdc"
   },
   {
     "date": "2026-06-15",
@@ -435,10 +337,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "NuScale",
     "region": "JP",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVFgzOEs3MmZOZVNVM0lIbHBtbl9BQ29FLUxaWHhNMGUxVXpHRlBYUEZXYUYyNUpSWkNkenpBSmJfS09JZXBqazdrc0VwRktaRVJoN25RX2FlVlJlZUt4U09YWWgtc1RCX1ZVZjY4OTMyenVsejgyUHp5aEMyT2xXZ0dGSlcwUFZJYXcyaWRERThHeUdNTHpZSkNzamcxNC0wWWd4NDVKU290UzBnN1dtZWl0QnBUbUd2MnBSY3huQ1FGUU0?oc=5",
+    "source": "foreignpolicyjournal.com",
+    "url": "https://www.foreignpolicyjournal.com/2026/06/15/japans-25b-smr-investment-puts-nuscale-power-nyse-smr-stock-in-the-spotlight/",
     "k": "japan s 25b smr investment puts nuscale power nyse smr stock in the spotlight",
-    "id": "6f21dd7c"
+    "id": "e6e9d2f6"
   },
   {
     "date": "2026-06-15",
@@ -449,10 +351,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE15N2xQUk8yc0tVWmZBdlM5TGxVakdKSlpSNTNKbzdNZXFoeUxwOGpEM1QxbDFOUmRCaXM5a1ZBanBUbXBfZXZoZW9heGxFYUVNVmtuam5hazVlOENLR1g2SVJXNWF6ZXFG?oc=5",
+    "source": "wbcb.co.kr",
+    "url": "https://www.wbcb.co.kr/news/articleView.html?idxno",
     "k": "18만 군민염원 담아 기장군 i smr 유치총력전 나서",
-    "id": "f9cc226e"
+    "id": "f267493c"
   },
   {
     "date": "2026-06-15",
@@ -484,20 +386,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-15",
-    "title": "비더베리 크래프트(Videberg Kraft), 스웨덴 원자로 건설에 롤스로이스(Rolls-Royce) SMR 선택",
-    "summary": "스웨덴의 비더베리 크래프트(Videberg Kraft)가 신규 원자로 건설에 롤스로이스(Rolls-Royce) SMR을 선택했다.",
-    "summaryLong": "스웨덴 전력회사인 비더베리 크래프트(Videberg Kraft)가 스웨덴 내 신규 원자로 건설 프로젝트에 롤스로이스(Rolls-Royce) SMR 기술을 도입하기로 결정했다. 이는 소형모듈원자로(SMR) 기술이 기존 대형원전을 대체할 수 있는 상용화 단계로 진입하고 있음을 보여주는 사례이다. 스웨덴이 에너지 안보와 탄소중립 목표 달성을 위해 SMR 도입을 추진하고 있음을 의미한다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "Rolls-Royce SMR",
-    "region": "UK",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWmJUcjJ0S2lDbHpYWnhWS2VmZ01PR2VnUEVJcktOcDFlckp3Um1oRHN6TjRMUEJvenZUb016NVlKbjEtT2kxWUNicndRRUloY2xrWnB1SEstZ3BTZGlXSjhKalhRNXFxamJzc0JwaUFMZmdLWlVWM2U5RHZ1aF81VjhRUmJkYjRnam1SdGhrZzZYQ2c1SWlEd0tHcy1NblA0SDRGdGNsODY3QQ?oc=5",
-    "k": "videberg kraft chooses rolls royce smr for nuclear reactors in sweden",
-    "id": "33bea3fc"
-  },
-  {
-    "date": "2026-06-15",
     "title": "IAEA(국제원자력기구), SMR \"아직 검증 안 된 기술…신중해야\"",
     "summary": "국제원자력기구(IAEA)가 SMR 열풍 속에서 아직 검증되지 않은 기술이라며 신중한 접근을 촉구했다.",
     "summaryLong": "국제원자력기구(IAEA)는 최근 소형모듈원자로(SMR)에 대한 글로벌 관심이 높아지는 가운데 해당 기술이 충분히 검증되지 않았다는 점을 강조하며 신중한 대응을 당부했다. IAEA는 SMR 개발 및 도입 시 안전성, 경제성, 규제 기준 등을 면밀히 검토해야 한다고 지적했다. 이는 SMR의 상용화 추진 움직임이 가속화되는 상황에서 국제 규제 기구의 신중한 입장을 보여주는 것으로, 향후 SMR 정책 결정에 영향을 미칠 수 있다.",
@@ -505,10 +393,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "IAEA",
     "region": "",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1fbnJJRG5Mdmh2eEN5WTVMb2JSdjV1NVc2c05uOGJoZmctTElCajZFMXJzektUeUNYT2FYMVhVYXhJVU1MSGtmVXgwOUJpbnlSemhwUU9KdHIweUFnQXJrcmZhUlFXUU9yX2FWbnhhQQ?oc=5",
+    "source": "newsworks.co.kr",
+    "url": "https://www.newsworks.co.kr/news/articleView.html?idxno",
     "k": "smr 열풍 속 iaea 아직 검증 안 된 기술 신중해야",
-    "id": "8a67221c"
+    "id": "1de4685d"
   },
   {
     "date": "2026-06-15",
@@ -519,10 +407,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "두산에너빌리티",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4wTlVRY21jZlpPeHV4bDFnaXlYckszOFcwNi1pbFVJZklyM09pMF9UWVFRbFNrUlM5V0VzblN5T3NZbk1JN2I5dmtKU0pmQlNiaEpZdmQ0WUllYkpsamp1a0I2N1RhblRpeS1NNXFzWG9mM1HSAXdBVV95cUxPeWtjTkVIeEZpOXBBdHJwWjlMbFo1NWVRSW5GM1NNenJjcEl1RVVyaVlsajh6TE4zWmRNRVVZQjJYVzJRZlhQalpvYVNyTVNLMG1lQTg4MkVtU3lhb1ZFejVSWVRsVFNqUWx5Zm1kZVdHOVcwR2FSVQ?oc=5",
+    "source": "pinpointnews.co.kr",
+    "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno",
     "k": "smr 넘어 미래 핵융합까지 두산에너빌리티 독보적 제조 역량 입증",
-    "id": "1abf8c39"
+    "id": "e81be1f4"
   },
   {
     "date": "2026-06-15",
@@ -533,24 +421,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "EU",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5uZ2p0T1ViblhJclBxamZEMm1qaHIyUzJMbHkyZ3YySS1McnFtbUFLN1hNSUlENnNYOTY2LUNvMFBRRDBfRkdIb3FTbWJTb1dIQldhMUx6VDVwTXQzQnRxbUE2RFE?oc=5",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno",
     "k": "지진 많은 그리스 smr 첫 원전 부지 예비연구 완료",
-    "id": "a7910b20"
-  },
-  {
-    "date": "2026-06-15",
-    "title": "체코, 캐나다 서스캐처원주와 SMR 협력 MOU 체결",
-    "summary": "우라늄 자원이 풍부한 체코가 캐나다 서스캐처원주(Saskatchewan)와 소형모듈원자로(SMR) 협력을 위한 양해각서(MOU)를 체결했다.",
-    "summaryLong": "우라늄 자원 강국인 체코가 캐나다의 서스캐처원주(Saskatchewan)와 소형모듈원자로(SMR) 협력을 위한 양해각서(MOU)를 체결했다. 이 협력은 우라늄 자원과 SMR 기술을 결합한 전략적 파트너십을 의미한다. 체코와 캐나다의 핵연료 및 원자력 기술 분야의 상호 보완적 강점을 활용하여 SMR 시장 진출을 가속화할 것으로 예상되며, 향후 양국 간 구체적인 사업 개발로 확대될 가능성이 높다.",
-    "cat": "계약",
-    "type": "General",
-    "dev": "",
-    "region": "CA",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBWYnJVN1h4bXVLRDVLeEZ5eU9scENxWElxV2FNS3ZwZVpkRHh1T2RsSDNlRWVHanJHUlJia2xObFJ4VWJFT0k2cktiZVhNeGZmN1F4T2JreWQ1SlZUckJfTDV2cEI?oc=5",
-    "k": "우라늄 강자와 손잡는 체코 캐나다 서스캐처원주와 smr 협력 mou",
-    "id": "36e24cb8"
+    "id": "fbaa4f4f"
   },
   {
     "date": "2026-06-14",
@@ -561,10 +435,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9fcDNHZFcxa185emVBS2xhNE96aG85UUIzU21HV01BN1BvRmdxRHJYeDFmR3FfRHE5encyRVVsQkhNRHdKeEpyS0FMMA?oc=5",
+    "source": "informante.web.na",
+    "url": "https://informante.web.na/?p",
     "k": "first export small modular nuclear plant breaks ground in uzbekistan",
-    "id": "a8db5ba8"
+    "id": "2760df98"
   },
   {
     "date": "2026-06-14",
@@ -575,10 +449,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "Rolls-Royce",
     "region": "UK",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPUWlpcjF3ZkdfYzE4NkUwcXZLLW5MOUJhdE92Yks1dTVibUNzekl0YVhMWGN6WWdGVkFrN05HTHhrOTM3QmtQYkVXWTNuaDRXZ3Q2QmQ2M0owa3FvUVFOSXVZNEw4S0VTa3Y2SlBhNzl5SGNrNVVWQWdkRXNnXzNveGJSdHZjN25hNVZsU0ZNSzFNZVFGdmVF?oc=5",
+    "source": "telegraph.co.uk",
+    "url": "https://www.telegraph.co.uk/business/2026/06/14/rolls-royce-strikes-nuclear-deal-with-japan/",
     "k": "rolls royce strikes nuclear deal with japan",
-    "id": "aaeb3184"
+    "id": "56639037"
   },
   {
     "date": "2026-06-14",
@@ -589,10 +463,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "NARI",
     "region": "JP",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5hck9kaFNoOHktbWVZaUtqWlNHeWM2TlRVWHM0VHhlSXd6dW9nR3NZUWVTSXc0MEk2TXBaMGYwdkY1RXdfUWp5RDVHbGZZdlI3cktXdjZlVDFwQVAwdkx1eThWajAwdnZiamMzUUtYZVUtal9BbUFtYQ?oc=5",
+    "source": "taipeitimes.com",
+    "url": "https://www.taipeitimes.com/News/front/archives/2026/06/15/2003859106",
     "k": "nari speeding up nuclear fusion smr research",
-    "id": "a456f66f"
+    "id": "2be586bc"
   },
   {
     "date": "2026-06-14",
@@ -603,10 +477,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeTk5RDlXTGI4X0dzLUVlSGlNZFhjVndTbnpVMXdBZ2NDS2pSNUlQZTJ5M1lWZ3VoQTNUX2g3VXhuN0xQdWc1WUpBUlFSTHFCbTMzSTBYRFBGYUZVeW4tOUdla2JyWF9Ob0dZYnZna1dtZVZXTVUxckJYa0RMa2RjczE5RUI?oc=5",
+    "source": "chosun.com",
+    "url": "https://www.chosun.com/english/world-en/2026/06/13/GBJVUNI2VZDM7ITMYKLG22ZSMU/",
     "k": "japan u s partner on 65 billion smr project",
-    "id": "49274fde"
+    "id": "579007c2"
   },
   {
     "date": "2026-06-14",
@@ -617,10 +491,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "NuScale",
     "region": "US",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQTZicmFhQlZFQm9pX2JNMWtCMlNyUUxYVXc3N1lhcDdPRlpUX0pHbE9NeUNCS21kd2pjOVRBWldEYUtwUUtkelZEZk9sbjBrMTlGTTJJcmFpOHpjajdTX2IxVTZCSWJmREp1cm9wd1FubUJ5SW5DUnBWOW1SSkNFQk5IM2VsMElv?oc=5",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/Global-Biz/2026/06/202606150558242652fbbec65dfb_1",
     "k": "smr 선두 뉴스케일 10억 불 실탄에도 첫 수익 2030년 지금 들어가도 되나",
-    "id": "4ee1802d"
+    "id": "deb79fd0"
   },
   {
     "date": "2026-06-14",
@@ -631,10 +505,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "Oklo",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTlRrWmpiMXlWUHZCUk5jT1REVjNMTlctVGxMaS1wdGh1WnZZRjR0N2YwWWhla04wSC1yazNEcTk2SC1ETzdPOGtZTTJrUGREZUpVYW11ODNZTVlybnJSQk8wTUZLYTVKLWQwLWtGNEdJV05WMGlZYXMwX1FXVGRnMVJUMmt0ZHZmdTZ4dGg5SE95VUJQdFNYcjB2a3BQQ0JXTEtBMVNMbV9tcUxvempXNXM3UllwSXNBN05Z?oc=5",
+    "source": "foreignpolicyjournal.com",
+    "url": "https://www.foreignpolicyjournal.com/2026/06/14/whats-next-for-oklo-nyseoklo-stock-price-following-doe-safety-approval/",
     "k": "what s next for oklo nyse oklo stock price following doe safety approval",
-    "id": "af326338"
+    "id": "852dc74c"
   },
   {
     "date": "2026-06-14",
@@ -645,10 +519,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "NuScale",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbnhWNjRCT29PS2ItLVlvODg3am1TeVB0VkVjQWtjd0Z1ZTQ3eWZQaU5PM014Rm16NmE3azU4bmVkdlRldkJZY05YMHZEUXo0Z3N1T19Odm5aSE91QXJmTlFfZDg3WDVEYkdDczNLX0VHODlHVVYtVXhtT0dwSGVRMkRBTU91QWZvY1dmNlFiUHFEbW5VcjdoMUkxNUM0LW45RlNtVW1GMkYwWlpBRE1ZWEU1dG5oUjNuVlBwTGl6MzgtM29ZTERWR2ZlR0YyNVloQjcteWNmNVczejhid011R0pn?oc=5",
+    "source": "foreignpolicyjournal.com",
+    "url": "https://www.foreignpolicyjournal.com/2026/06/14/nuscale-power-nyse-smr-stock-price-sits-75-below-all-time-highs-as-investors-weigh-a-3-year-outlook/",
     "k": "nuscale power nyse smr stock price sits 75 below all time highs as investors weigh a 3 year outlook",
-    "id": "ff266c42"
+    "id": "c730c261"
   },
   {
     "date": "2026-06-14",
@@ -659,10 +533,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBsVGxRR0dxQTcyc3h1NFVzS0pnblV3LTdyREN2THprT293Z0pTTHh6MHVVUVpiUzYxTmE5bW1FdWdXblpBSGRpVjBOWDlfYkhsQTc3SFpnaUJsMVlFV2RDRnhB?oc=5",
+    "source": "imaeil.com",
+    "url": "https://www.imaeil.com/page/view/2026061109010642168",
     "k": "기고 김석기 smr 원전의 경주 유치가 국익",
-    "id": "6f501414"
+    "id": "08214ed1"
   },
   {
     "date": "2026-06-13",
@@ -673,10 +547,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "EU",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1PeG4yTUhRU19ZRGNRQlN3RkRCaFY2R0U3TDlGRENDak1lcXM2SGs2WC1uWXItcHlubHZ3WFJqYWI2UVhDNlMwOVp5cTJubmpvRFFNYzZEeG1aV3lPVHh4ZEYwUUY?oc=5",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno",
     "k": "앞서가는 스웨덴 smr 시계 글로벌 시장 뒤흔들까",
-    "id": "7f0f8588"
+    "id": "fbaa4f4f"
   },
   {
     "date": "2026-06-13",
@@ -687,10 +561,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5McXU4U2xoTG5xY0t4WEJVT0N3b2dvQjBwWkhubDBVZXozd1hpRHJoRldxVFpwYmltbnRnRmlWMERDbERpTjY3TzNUSHNZRmdHVFhfMUo1Qks2NTk5SDJSRFNBR0c?oc=5",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno",
     "k": "nrc 위원장 smr 상용화 규제 걸림돌 없앨 것",
-    "id": "6396f58f"
+    "id": "fbaa4f4f"
   },
   {
     "date": "2026-06-13",
@@ -701,10 +575,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "Oklo",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNG9wNElRVE00NWZuQWI2a3RrcG1NUFpvd1pMSG1idGlERlFaTkd1V3N0U3dfRERwSlR0Z2xfck54cE11RmpsWUl0R09rQ0Uxd3NUM1MtZ0ZhZGc4aUg3YnFYcy1HUXgyOEEyZ1FPc2ppcU5Na2Z4RUE5T2l6TGNxSWtRLTNsVEpwU0JIaXJ4WWIyNlNqa0UzNVM0SGdUNndnMzBUajAzSGl3dw?oc=5",
+    "source": "ans.org",
+    "url": "https://www.ans.org/news/article-7830/oklo-centrus-collaborate-on-haleu-deconversionenrichment-initiative/",
     "k": "oklo centrus collaborate on haleu deconversion enrichment initiative american nuclear society ans",
-    "id": "c2bced72"
+    "id": "2fb5ca2a"
   },
   {
     "date": "2026-06-13",
@@ -715,24 +589,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "NuScale",
     "region": "JP",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTlJFTWFvZVBVWXFEdXNzLWNsUzBzRnNrUDdsdHRUX3hSNmFDOGNCQ1hVSGdIWm90T0pXcjF4Z0NTdWZ0OWlxQnhBcXI0Y0twRmhrZ0xnNlllVm9Hb0x3SDZTY0ZlNkZjR2RhaHZGRlYwbmVVZUtoS3NNNzIxbXdtUGR2WlBvNGdJcG9JZmNya2J2QQ?oc=5",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/japan-us-25b-smr-pledge-220930830.html",
     "k": "japan s us 25b smr pledge puts nuscale s risk reward in focus",
-    "id": "fa257d77"
-  },
-  {
-    "date": "2026-06-13",
-    "title": "오클로(Oklo), 미국 에너지부(DOE) 예비안전분석(PDSA) 승인 확보",
-    "summary": "마이크로 원자로 개발사 오클로(Oklo)가 미국 에너지부(DOE)로부터 예비안전분석(PDSA) 승인을 획득했다.",
-    "summaryLong": "마이크로 원자로 개발사 오클로(Oklo)가 미국 에너지부(DOE)로부터 예비안전분석(Preliminary Determination of Safety Assessment, PDSA) 승인을 확보했다고 미국 핵학회(American Nuclear Society, ANS)에서 보도했다. 예비안전분석 승인은 설계 및 안전성 검토 단계에서 규제 기관의 사전 동의를 획득하는 중요한 인허가 단계로, 오클로의 기술이 연방 안전 기준을 만족함을 입증한다. 이번 승인은 오클로의 상용화 진행을 앞당기는 주요 마일스톤이며, 마이크로 원자로 시장의 규제 경로 정립에도 의미 있는 신호를 전달한다.",
-    "cat": "인허가",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBxa1h1dnJ2dkJqeWdOc0FZYkpvUFRiZ3pWYmNSTnBkblVkdGQ0NVcyWnVFcEZnQmpwS3F6X0Q2bUE2SVljMGJPYmo5YnRsR0Q3ZHJReFFsaHZDTElFNnFuZVoyRDZ6NmFnREdiZWdlR3kycEFpSE85Nw?oc=5",
-    "k": "oklo secures doe pdsa approval american nuclear society ans",
-    "id": "335c3eea"
+    "id": "d9c291cb"
   },
   {
     "date": "2026-06-13",
@@ -743,10 +603,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "Oklo",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQZnFOeVRSOW1BT2FrZVNQTGxwSDRIMVAtbGJuWWhldzVPc280VW93LXplVk9EdWZGejJ6amVXN3FTREZIb2x2OUZleGR6NGV1NUVVbVFiVjVKZURESjdjVERNemZYbFpheXp5YlJrSGpnQVhFUVpjMzVqbTRvWDNRNWdLbUtfMHVVS1dZYlZ2aW1JZTJYUmNIRWx0MjlRSVZmbEE?oc=5",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/sectors/energy/articles/oklo-oklo-acquires-armec-strengthen-183807696.html",
     "k": "oklo oklo acquires armec to strengthen vertically integrated nuclear manufacturing",
-    "id": "6aa4bc55"
+    "id": "ccadc7f0"
   },
   {
     "date": "2026-06-13",
@@ -757,24 +617,10 @@ window.SMR_NEWS = [
     "type": "HTGR",
     "dev": "X-Energy",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQUlSUmo5d25OdnZNRHRpQ1lpUnhFejFYUmpuS1VrY0lNU19GQ1Zkc2tLdS1RRFBxREhXaXpjQjBPRUZtc3hDVE9ISnRyV2hnTDJ0T2VfZ2xqVFFIX2VyZnRZZ0pYMjBndzZyZi1McUZOS2pFMTBQUkRiZXIzT2QzQVZCME8wdXRBUllaZTN3?oc=5",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/x-energy-xe-one-best-183955837.html",
     "k": "is x energy xe one of the best young stocks with the highest upside potential",
-    "id": "38652ce1"
-  },
-  {
-    "date": "2026-06-13",
-    "title": "Oklo의 미국 에너지부(DOE) 안전승인, 진전과 투자 트레이드오프 조명",
-    "summary": "Oklo(오클로)가 미국 에너지부(DOE) 안전승인을 획득하며 기술 진전을 보이고 있음을 보도.",
-    "summaryLong": "소형모듈원자로(SMR) 개발사 Oklo(오클로)가 미국 에너지부(DOE)로부터 안전 승인(Safety Approval)을 취득한 것으로 보도됨. 이는 Oklo(오클로)의 설계와 안전성이 규제 당국으로부터 인정받은 주요 마일스톤으로 평가됨. 동시에 투자자 입장에서의 긍정적 신호와 상업화까지 남은 과제 사이의 균형을 분석하는 내용.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQdGRmY0NhRkEyUnN4V0pFVWdSb2hUelBCRHplNjRocXVwOEJFYnplZUJhZUV2cEZvYUZhYVlhRmxzT2MtVG9TU21LNTNCMGRPbUFuVU9KU1FLSzR4c2pqNm5qWXl2V3JuaERBbmhwYWkzaTB0TG0zX0N0al9VRmdDTWhMR0J4MWFHMGlfaXhUb1JqNHgzcWhRX212TkpHMmI1R1dDR1l1TUxReWFBN3d5djZWUHAwaHVKMlJHRERjMNIBxAFBVV95cUxONFFQZXpYYXpqZ3NRMzdGa1pYRHBsMzRKR1JOczl4blk0WS1ncnF1bC13UzR1TmZjOWhaM0dMYV95NU5IdWcyWEN4YzRfNGwtWkYxMEpWbGhMdjBpZDdqb3lwOGxieDZWRXVuT2d2VVpId1MtcjRydzB1akNYSG91UDdTT0o5ZU5Idm5rSHUxMDNWZlI3bW5iN1pnellTN1VKS1UtZ1VqYTlBRkw2M01vV2pOQUFVNk9tQkdJazloUU5ReEtr?oc=5",
-    "k": "oklo s doe safety approval highlights progress and investor trade offs",
-    "id": "caa00964"
+    "id": "8e23f286"
   },
   {
     "date": "2026-06-12",
@@ -785,10 +631,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16Tm55X3FVNkM3dm1Lck9PbmktZVpxcThISlctWk1QdW5MRnJ6UHlLQ0ZYUkIwV1hHMnFINWtjaVdyZldNQUFLQkt0N0E3S3lueXBCeURyUHd3X1hRYmpXLWs3cHFBSEpnRnJGZDhR?oc=5",
+    "source": "newskorea.ne.kr",
+    "url": "https://www.newskorea.ne.kr/news/articleView.html?idxno",
     "k": "한국 카자흐스탄 차세대 smr 협력 본격화 원전 인재 양성도 추진",
-    "id": "1de1e2c5"
+    "id": "8cfc3234"
   },
   {
     "date": "2026-06-12",
@@ -799,10 +645,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOLUR2WEVkb1VWcklweUNwWlA2cGd6SGFVY3RMZTByeFRFSnJrbmJEWTlNQzVzS1hHNzFIOEZWMnB3ZXBqR2RFZy00RVowa0VfYk9VcDFjU3lOTG50aFFldzAxYUpXakp5czFKcThDNlVfZjZGWUtrcFNnQjQ5R2NUcDktWTI?oc=5",
+    "source": "chosun.com",
+    "url": "https://www.chosun.com/english/world-en/2026/06/12/4BEG7YE3HZFYHAU4QQBS56OI7Y/",
     "k": "japan invests 65 billion in u s smr projects",
-    "id": "04f4ce03"
+    "id": "c2567f31"
   },
   {
     "date": "2026-06-12",
@@ -813,10 +659,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1aRWlNR0lTNUZuYkZ3V0c3NFlRSzBkbEVWbnNGZlpiWmotZTRCWWhiMWFHQzhNM1NHNk5wU0NRWThaWHlUYnROSGNQUk5oaGpuOFBwWWo3WXVPQ2RXSVE?oc=5",
+    "source": "theguru.co.kr",
+    "url": "https://theguru.co.kr/news/article.html?no",
     "k": "smr 추진 선박 개발 검토 k 조선 원전 기회",
-    "id": "2dd3ff4e"
+    "id": "c867730d"
   },
   {
     "date": "2026-06-12",
@@ -841,10 +687,10 @@ window.SMR_NEWS = [
     "type": "MSR",
     "dev": "",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcWRmZnczRUtoY0ExUUxwZkNrY1RqQXU0cGg1bG9aSk83UTVEdEVMcXhZNVZsOGFOd052c3NxVG9XTFo0dmFtVHJmcmR2N3Z0a3JaTzh3d2dGQ0Y2b3dVUjlWY2FmVVFJUGY5NWhiV1F2aEVqVVpBRUpaVXBmYUZ4QWFHdVhxVFp5Q0lXM19UZDIwTWl3RHF0LTJQSEx6eVFRc0E?oc=5",
+    "source": "interestingengineering.com",
+    "url": "https://interestingengineering.com/transportation/ship-integrated-nuclear-propulsion-design-approval",
     "k": "nuclear shipping large vehicle carrier with molten salt reactor gets design approval",
-    "id": "5c4154cb"
+    "id": "ad43653c"
   },
   {
     "date": "2026-06-12",
@@ -855,10 +701,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOUjdLUXdyQnhCSHZzSWlsOW81bXFockZSd09MVjd1Z3dhWElRZEhYcTlrZllBZnVPTy1jYTNpNWxlV2p5clFPdXR4Y3hyc3FCQ0pNQ1p5TXI2WkdrRUkxd0tYdFlndGlHZUpwQUtGalZhX01IMjlVRms1Rm9EaVZLbTJ4cTlMZ3N0Tmp6c2lqMDVyNGtvM3FFc3lBRTFvMXZaZHU4bg?oc=5",
+    "source": "en.sedaily.com",
+    "url": "https://en.sedaily.com/international/2026/06/13/us-japan-join-forces-on-small-modular-reactors-amid-ai",
     "k": "us japan join forces on small modular reactors amid ai power crunch",
-    "id": "08fd15dc"
+    "id": "00073d69"
   },
   {
     "date": "2026-06-12",
@@ -869,10 +715,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5GV2RicWI0TTV1dWVjeHlPQnpkWFh2UWdfbjZVajV0dEFCaktXOFhKVzE0OWpodE1VREtNM2FDejBHNzRRUmE4QzVUZmpidU9NQmN1enotR0ZwckdCaXlYVEp0R21NVkxwM0E?oc=5",
+    "source": "snmnews.com",
+    "url": "https://www.snmnews.com/news/articleView.html?idxno",
     "k": "상업용 smr 추진선 생태계 구축 국내 철강 조선 원전 산업에 새로운 기회",
-    "id": "c8e7a4b5"
+    "id": "941d2239"
   },
   {
     "date": "2026-06-12",
@@ -883,10 +729,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1TQ3kwdmhRbE9aOFZxVl96bGFvQXFZLWlNWnFyRklabndaMms3UHhCODREbzZPSExCb3VpRHNPeXU0QXJXMk12VDd4a2xPcDZsYWFTa3dSblNPZ2pvU1c5N1AzN1NrbDdxOThqZGNCdVpuMU5uT3FMUFFnUdIBgAFBVV95cUxNbS02Y0FfRWxpeFdidTRzUGVlbHB3YlNVbzFHUTYtT29qY3FWTkZtZkpEd0c3elNZTDlvU0tVWV9SbTRUZlVva3ZrclVKa1czb3hCR1REaXZqMFB1R1dIMlpBM19EaGFMNWZnb0o5Qzhxc0FWTVA0alNoUExVZHNTag?oc=5",
+    "source": "biz.newdaily.co.kr",
+    "url": "https://biz.newdaily.co.kr/site/data/html/2026/06/12/2026061200071.html",
     "k": "smr 건설주 하반기 대미투자 수혜주로 뜨나",
-    "id": "3878431b"
+    "id": "54bafaf5"
   },
   {
     "date": "2026-06-12",
@@ -897,10 +743,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWWhCZ2hVSXVHVGpiTUdtcGhRYUdyRlZrQ2lSTmljTS1oNWJqbUJRdXY0el94TG52UDRrdkk0ZmtwaFRNYjhTTnl1V3hVNk9VZy1EZ3dYS3JNQkRmQnFINnI2a1p2eGEtOTV4SlJsX2FhYkdVSzNNZHU0ZnB6LVZEWURYMTdFbGVyTTBBZ2VMUUdXRUs4T043UW5JSHlLQQ?oc=5",
+    "source": "chosun.com",
+    "url": "https://www.chosun.com/international/international_general/2026/06/12/2FUH6MF5LRAUDBHCTSRSEIAORY/",
     "k": "smr에 100조원 투자 러트닉 상무 미일 세계 smr 선도할 것",
-    "id": "aa8b69d8"
+    "id": "250e0ada"
   },
   {
     "date": "2026-06-12",
@@ -918,20 +764,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-12",
-    "title": "오클로(Oklo), 미국 에너지부(DOE) 예비안전분석(PDSA) 승인 획득",
-    "summary": "오클로가 아이다호 국립연구소(INL)에서 건설 중인 오로라 파워하우스(Aurora Powerhouse)의 예비안전분석(PDSA) 승인을 에너지부로부터 획득했다.",
-    "summaryLong": "오클로(Oklo)가 미국 에너지부(DOE) 아이다호 운영 사무소(Idaho Operations Office)로부터 자사 첫 번째 배치인 오로라 파워하우스(Aurora Powerhouse)의 예비안전분석(PDSA) 승인을 획득했다고 발표했다. 오로라 파워하우스는 현재 아이다호 국립연구소(INL)에서 건설 중이며, 이는 원자로 파일럿 프로그램(Reactor Pilot Program)에 참여하는 10개 기업 중 최근의 중요한 인가 이정표이다.",
-    "cat": "인허가",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "ANS Newswire",
-    "url": "https://www.ans.org/news/2026-06-12/article-8119/oklo-secures-doe-pdsa-approval/",
-    "k": "oklo secures doe pdsa approval",
-    "id": "2c2b2944"
-  },
-  {
-    "date": "2026-06-12",
     "title": "미국 상무장관, 일본 자금으로 SMR 투자 제안",
     "summary": "미국 상무장관이 일본의 자금을 활용한 소형모듈원자로(SMR) 투자를 제안하며 2050년 원전 4배 확대 계획을 지원하고 있다.",
     "summaryLong": "미국 상무장관이 일본의 자본을 활용하여 소형모듈원자로(SMR)에 투자하는 방안을 제안했다. 이는 미국의 2050년 원자력 발전 4배 확대 목표를 달성하기 위한 전략의 일환으로, 일본과의 국제 협력을 통해 SMR 개발 자금을 확보하려는 시도다. 미·일 양국 간의 원자력 에너지 협력 강화를 통해 탄소 중립 달성과 에너지 안보 확보를 동시에 추구하는 정책적 접근이다.",
@@ -939,38 +771,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9pMGZrVmRFRmpUN3NHZmJEXzVrdG9Td21vczVDajFmcURJZ014LTZDdkhYNTN5dG1MVVV4TVF0N1lyZmZPd0F5dFBLRkkxN0tDVnl6S2ZOaUU2UWNUeVp4ZFNFei01bEJzSWJmMUpLYUUxWVE?oc=5",
+    "source": "businesspost.co.kr",
+    "url": "https://www.businesspost.co.kr/BP?command",
     "k": "미국 상무장관 일본 자금으로 smr에 투자 2050년 원전 4배 확대 계획 지원",
-    "id": "2d7518a5"
-  },
-  {
-    "date": "2026-06-12",
-    "title": "미국 에너지부(DOE), 오클로 오로라(Aurora) 원전 핵심 안전분석 승인",
-    "summary": "오클로의 아이다호 오로라 프로젝트가 미국 에너지부로부터 안전분석 승인을 획득했다.",
-    "summaryLong": "고속로(SFR) 개발사 오클로(Oklo Inc.)의 아이다호(Idaho)주 오로라(Aurora) 원자력발전소 프로젝트가 미국 에너지부(DOE)로부터 주요 안전분석(Safety Analysis Report) 승인을 받았다. 이는 오클로의 첫 상용 고속로 프로젝트 개발에서 중요한 규제 이정표이며, 상업 운영 허가 취득을 향한 진전을 의미한다. 이 승인으로 오클로는 오로라 프로젝트의 실현 가능성을 입증하게 되었다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYU9hQ040ZzktOUZpbWMtTXRpNGJCempESWk1NXdNZE9jaFA1QWdfMkJrRm9oR1IwYmFJV0Q1eGVhcC01S21kbUpOdEsxRE5YVDFaVWFMUmJIU044ckpSZ3N5ck1BZUhlenJFYU84TktWUThLNUstQWhxTmpra05mckVVd3N0X3EzaVdRcGlMYTNWWGtZV1dKSmk4Q0FiNTBtekNlRUlUQ1FVRG9F?oc=5",
-    "k": "doe approves key safety analysis for oklo aurora nuclear plant in idaho",
-    "id": "19dad1c6"
-  },
-  {
-    "date": "2026-06-12",
-    "title": "오클로(Oklo), 미국 에너지부(DOE) 안전 마일스톤 달성",
-    "summary": "오클로(Oklo)가 미국 에너지부(DOE) 안전 마일스톤을 달성하며 파일럿 단계에서 상용화 단계로의 경로를 재정의하고 있다.",
-    "summaryLong": "오클로(Oklo)는 미국 에너지부(DOE)의 안전 관련 마일스톤을 달성함으로써 소형모듈원자로(SMR) 파일럿 프로젝트에서 향후 상용 함대 배치로의 진로를 명확히 하고 있다. 이 성과는 규제당국의 안전성 검증 진행과 상용화 가능성을 시사한다. 미국 에너지부(DOE)와의 협력 하에서 달성된 이번 마일스톤은 오클로의 기술 개발 진전을 보여주며 소형모듈원자로(SMR) 산업의 발전 속도를 가속화하는 신호로 평가된다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQkpwa1VIbDdTbTk4NW8xcGNKWnF5M2Y3ZUpacnVyaVZqeFdBLVJfcWNhVWZuT0F3LXpaSFpRSERaZHNibzJORTBiUVo4WV9TTzJReHZkd2ZhaEFya2tRTVc1QnlzeGtqQ1N3MDhsd25kRUNkYk44NS1VcWRoSnV4dFhURDNtcWtKdEc0TjVuZzZhZFBC?oc=5",
-    "k": "does oklo s oklo doe safety milestone quietly redefine its path from pilot to fleet",
-    "id": "ffd4c8ba"
+    "id": "e81ba777"
   },
   {
     "date": "2026-06-12",
@@ -981,10 +785,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "Oklo",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdEdUWnlHQWVIOXhjNVFMbVEzMl81eUpnTlZvMkcxcVRJaUNWS0kxNmxlaHk1Y2E3bUhBZEVLMGVNb2xaVWtjSXo3dGJlWFA3MVIxY2ZQWkFIZTJ5NHdLejhYLXUtaERkNDlNOWxuQXoxamd3Vmt0dnEwR0plczF2YkdweWhHQTZoZC1tRUJNV1BWT0R4bjB6c05Ea1FjRWpxNE1fNmtscDJ3WjQ?oc=5",
+    "source": "tikr.com",
+    "url": "https://www.tikr.com/blog/oklo-stock-is-down-72-from-its-52-week-high-but-the-build-out-keeps-moving-anyway",
     "k": "oklo stock is down 72 from its 52 week high but the build out keeps moving anyway",
-    "id": "fced6777"
+    "id": "69f7cb72"
   },
   {
     "date": "2026-06-12",
@@ -995,10 +799,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "NuScale",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNd0RKVkRIXzhTcTVIamQ5Tk8xMTVmb3B6SXBkX0tfcW1DQ1hyYWpGQmFld21rVHVqeURJY3gtVmkyXy1UV1hXY015cWJaU25mOWpIYVVvSkN1bHYtN0ZjVldHSllzQVVSRm9aRjFaamI5dEJRdnJ2RXRjTEZvd3daLVlWZ191VlBhSnBhYVBScGdwZHhaR0NsM1hhWmtkTlBLYVlYQ0lHU2stS1pqaWdNNThZVWp1amgzajZQVVZ6ZFpWU2hGc1B2UUFIeWFUbGfSAdQBQVVfeXFMUFdCRkp5M2FQcVBBNWVIWDZFYTR5YWdndjA4am5SYmdrenp0OE1td0g3dU5RQ2ktWDRmVEJqXzdTM2Vpa1RMV1VObldIS08wVVpLNWI2a2duZFdscmQwOXFhdkNvc3F6dm5oZkhBTFhnb0xMQkhGS2VsU3BEOTE5dTdJM3RDYVoxc1piM0p0aEdqVlpOZk5SdXR2SzVCMDFpZklRQzNXWGNpdnVBY2RnT1lyTlV3VVhhZzZYSEw4NktuTzF2cm1wLW9UN2VtdXYtZVRpTlA?oc=5",
+    "source": "simplywall.st",
+    "url": "https://simplywall.st/stocks/us/capital-goods/nyse-smr/nuscale-power/news/is-nuscale-powers-smr-expanding-e2-center-network-quietly-re",
     "k": "is nuscale power s smr expanding e2 center network quietly rewriting its nuclear investment narrative",
-    "id": "aca70cb2"
+    "id": "68f85666"
   },
   {
     "date": "2026-06-12",
@@ -1009,10 +813,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "Oklo",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSENKYjBkS0Z1NktVeXJvcVNfTUxnc0trSWRsLUtVc0xFSmFxemEtV0U0QzhJZWtUM09FdnZoT2pXMU83VW91cGpmbTJsbGJONFlvekxTT0phZVlzd1VJOHV4ZFJuU3NCdWQ4R1JfWG5RcmRkcTNiSFh3UDdqTUFkZkRkZElLOGVucUxZdEtfM1V1SE12cGprVGgxOXUweGhwQk0xYVAwRVI?oc=5",
+    "source": "tomorrowsworldtoday.com",
+    "url": "https://www.tomorrowsworldtoday.com/energy/oklos-advanced-nuclear-reactor-aurora-gets-us-design-approval/",
     "k": "oklo s advanced nuclear reactor aurora gets u s design approval",
-    "id": "b08c89f0"
+    "id": "7c78c29c"
   },
   {
     "date": "2026-06-12",
@@ -1023,10 +827,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "NuScale",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOQWVlVTlkc0tTVExwWjBFVFFaOFQyUnFuZEsxZ0dPS2o2QW5CN3Rpa0RPSm9sZkhSWTk3ZFRuUGpreTIyWFowM1JwQUhjT1B5NzdJcTFnTWdOb3BvTjNHWnRzamhZMjJ2Vy1DWlBtNU5Ub3BDY2VjMzMyeXhrc01ESDNfV2lhS0k3dUlRTmJ1VE1HT1pSTHhUNUdEaF9DWlFHUDE5blRhNlZVaW9pdUdyazcyZFZfb2ZMeTk0SWZDY0NfTmtwOWYzUVdGaw?oc=5",
+    "source": "benzinga.com",
+    "url": "https://www.benzinga.com/markets/equities/26/06/53167766/nuscale-stock-gains-as-it-opens-latest-nuclear-training-center-in-virginia",
     "k": "nuscale stock gains as it opens latest nuclear training center in virginia",
-    "id": "b481f0f6"
+    "id": "a2e7ab77"
   },
   {
     "date": "2026-06-12",
@@ -1037,10 +841,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "NuScale",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaC1qenpnS2NZcDJobUhWb3lLMGpXaXQ0cmVrTDBxY0VicHJMZFdGNHVYOXpCNFA5VVNBZnRYZFhuMmhPc0xMYUVmYUE4LUxtSDBFS3VrY3lOMk9YZ1lsQXh0by0tVkxmcHJ1czA3RDAtVUtobzFfTnFHeFlmTVkwQ3RQT1p3ak1BNWV0WTg5cmRoN0Z6SGtReTlhZDhOM0x5?oc=5",
+    "source": "zacks.com",
+    "url": "https://www.zacks.com/stock/news/2936350/nuscales-behind-the-meter-push-targets-the-grid-bottleneck",
     "k": "nuscale s behind the meter push targets the grid bottleneck",
-    "id": "9184ef38"
+    "id": "c6d01151"
   },
   {
     "date": "2026-06-12",
@@ -1051,10 +855,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "NuScale",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWUdsMmQtSUlvdHh5aUhENGxLRTVYYzh6SWdraHRLazdmVXhNcE44NnZXQVd4T0hWdXhBdXF0WGZCcFQ4Ynh3YzV6VEJxOFRRcWRibERRTXVkU2QzZzdWMWRxY0pqZzVNV2tKRkFWZUFjV0tocGZKOXhmbTlkZDlick1vdw?oc=5",
+    "source": "stockstotrade.com",
+    "url": "https://stockstotrade.com/news/nuscale-power-corporation-smr-news-2026_06_12/",
     "k": "smr stock slides as nuscale builds nuclear power pipeline",
-    "id": "58521c5d"
+    "id": "9bc4457a"
   },
   {
     "date": "2026-06-12",
@@ -1065,24 +869,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE81dTBKMjBMaHlHWlcwQUZlcndSUEd0MmZicHNNT3AtU1JJTEZ0WDlxcHB4X0NhRGdBcnZud3MxZEdxRjRjWW1naG5IM0ZVcnltZ3h4NjZR?oc=5",
+    "source": "joongang.co.kr",
+    "url": "https://www.joongang.co.kr/article/25436226",
     "k": "투자금 105조원으로 원전 짓는다 트럼프 smr 세계 주도",
-    "id": "ee76621d"
-  },
-  {
-    "date": "2026-06-11",
-    "title": "미국 에너지부(DOE), 오클로(Oklo)의 오로라(Aurora) 원자로 예비안전분석(PDSA) 승인",
-    "summary": "미국 에너지부(DOE)가 오클로(Oklo)의 오로라(Aurora) 원자로에 대한 예비안전분석(PDSA)을 승인했으며, 이는 아이다호 국립연구소 건설을 향한 인허가 과정의 중요한 이정표이다.",
-    "summaryLong": "미국 에너지부(DOE)는 오클로(Oklo)의 오로라(Aurora) 소형모듈원자로에 대한 예비안전분석(PDSA) 승인을 완료했다. 이는 아이다호(Idaho) 국립연구소 내 건설 예정인 오로라 원자로의 인허가 과정에서 핵심적인 진전이다. 예비안전분석 승인은 설계 안전성이 확보되었음을 의미하며, 후속 상세설계 및 건설 인허가 단계로 나아갈 수 있는 기초를 마련했다. 이는 미국의 SMR 상용화 일정을 앞당기는 데 중요한 역할을 할 것으로 기대된다.",
-    "cat": "인허가",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "World Nuclear News",
-    "url": "https://www.world-nuclear-news.org/articles/doe-approval-milestone-for-oklo-reactor",
-    "k": "doe approval milestone for oklo reactor",
-    "id": "e9c89609"
+    "id": "a711110f"
   },
   {
     "date": "2026-06-11",
@@ -1093,10 +883,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPT3hLRkpXUXhmbzRlVC1JYUtOaDk1Y3l2Zm5FdVZZNnNFTWNwTjJpLWkwanhwUG9xUjBFNjFLU2p4VzJGZkd1cGI4dDZTSkRNX25UaXNhNnBOTjZPQ1pPaFI4QUVodXplTlVfNmFXRkQwaEJQREFUR0hramduNWNDZ0JGZ0FXbWYzdkYtdGh5cTBuNy1yYXhiMHhUVFYtLThnSjE0TklIRlIzTXZLV3ZxbGo5VVh6d2piNGdjM3JRTGpFV244a0NueVZlNHA5MmRLU3lv?oc=5",
+    "source": "stocktwits.com",
+    "url": "https://stocktwits.com/news-articles/markets/equity/smr-nne-oklo-stocks-gain-trump-epa-lee-zeldin-touts-small-modular-reactor/cZ0F1x0ReCd",
     "k": "smr nne oklo gain after trump s epa chief lee zeldin touts small modular reactor buildout",
-    "id": "78738556"
+    "id": "d1fb434e"
   },
   {
     "date": "2026-06-11",
@@ -1135,10 +925,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBWb3RfcUdSUWRCOU9uNmZSVlNEUkJtby1uTXZKYkplQm52SGowd1dmYWt2aDBMU05IZGQ0SXNkTlUtbzBqeW1KaE9ONWZoMzhyN01ncTF1Y3doREh6ME5hTHcwOXhYZG5sWWd6blBB?oc=5",
+    "source": "energize.co.za",
+    "url": "https://www.energize.co.za/article/smr-studied-to-power-ports",
     "k": "smr studied to power ports",
-    "id": "f25fda11"
+    "id": "2ffd3c01"
   },
   {
     "date": "2026-06-11",
@@ -1149,10 +939,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "HD현대",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9rc2ZiLU9JZGJMREpSUTl2bUVUaHVNUHRsQ1dVY2FXak03amVNZWRKSzlsNXVHU1F6bk13Qy1fcWNpSkRSVG5wOGRaTHZmZ1Z4d2hOQ21kWGp0M3hnU2xWZUZsbGx6cjBlSUh30gFvQVVfeXFMUExiWG9oN3hoWFJWN2s1cXZBSzNtNWJxMW5relk3WjZjTVd6OTR0N0lwd0tQTWpRRTVGbHctSEtnSGQzTHlwcjQ0OGhWWHlVRnN5VWhhSS00bmgyVEhZWjlZNHVzNWZ1b2VHakxkZlBj?oc=5",
+    "source": "ntoday.co.kr",
+    "url": "https://www.ntoday.co.kr/news/articleView.html?idxno",
     "k": "hd현대의 원자력 기업 변신 smr 원자력 추진선 선점 나선다",
-    "id": "b131c66e"
+    "id": "31a24eab"
   },
   {
     "date": "2026-06-11",
@@ -1163,10 +953,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTGg3Y3kyT281NFdTR3JleVJJV3B2eVd0dEhVa24yTks0SnJycGxrQ0o4ZUVPdHYtQjlEN1RZd0dJVVhfTTVna05GR1pfMnVkdGRXWjlmUjZYR29kaTlqYTVmMk1zRGtkemFCR2wwYnNYUlA4Ynk1T0l6bjhQZHdTaw?oc=5",
+    "source": "edaily.co.kr",
+    "url": "https://www.edaily.co.kr/News/Read?newsId",
     "k": "김용범 eu와 소형모듈원전 논의 변화된 글로벌환경 반영",
-    "id": "2995c1e8"
+    "id": "803eb3fc"
   },
   {
     "date": "2026-06-11",
@@ -1177,10 +967,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5SRFp1OTIyeHpQcWJxM1Z2akFRWWZhOS1PWU50YUV6OHJwNE5XNDRjLUQ1bUNScjlnVXA2cVUyOERIbTlBQTZ6dU9LQU0yTzlLQ0NRYWJCOFlvYWIzVGVTdEoyelZ4WllkZ1hVR1pCZlVmajg?oc=5",
+    "source": "shippingnewsnet.com",
+    "url": "https://www.shippingnewsnet.com/news/articleView.html?idxno",
     "k": "상업용 원자력 추진선 시대 준비 본격화하는 미국 해상 smr 생태계 구축 나섰다",
-    "id": "8bd32060"
+    "id": "a05a3cca"
   },
   {
     "date": "2026-06-11",
@@ -1191,24 +981,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE85ZDNrTXpUZThnV083MjNSVms2aGcxeDVXM3NPVDhEdFZwcnZKaXlGR1Y5UUJrOUdzQ1RvWjNnakYwY1YyYjFjQ3NzUEZxb1kzNy11cE9jUGxTZl9OSW1MdlBGd0ZVUQ?oc=5",
+    "source": "inpnews.kr",
+    "url": "https://www.inpnews.kr/news/articleView.html?idxno",
     "k": "원자력 조선 해양학회 smr 선박 개발 지지 공동선언",
-    "id": "e356aa7b"
-  },
-  {
-    "date": "2026-06-11",
-    "title": "미국 에너지부(DOE), 오클로(Oklo) 오로라 파워하우스 예비안전분석 승인",
-    "summary": "오클로(Oklo)의 아이다호 국립연구소(INL) 내 오로라(Aurora) 소형모듈원자로가 미국 에너지부로부터 예비안전분석(PDSA) 승인을 획득했다.",
-    "summaryLong": "미국 에너지부(DOE)가 오클로(Oklo)가 아이다호 국립연구소(Idaho National Laboratory, INL)에서 개발 중인 오로라(Aurora) 소형모듈원자로의 예비안전분석(Preliminary Documented Safety Analysis, PDSA)을 승인했다. 이는 오클로의 고속로(SFR) 기술이 미국 규제 프로세스에서 중요한 마일스톤을 달성한 것으로, 향후 최종 안전분석 및 운영 허가 취득으로 향하는 과정에서 핵심적인 진전이다. 예비안전분석 승인은 설계의 안전성과 규제 적합성을 검증하는 단계로, 소형모듈원자로의 상용화 추진에 있어 중요한 인허가 단계이다.",
-    "cat": "인허가",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPNURJWGlMb1N6YjFYMkxhSFlDeS1WRS1FNTZvblgtSUxURnNDMEJ4UEN3allkQ0k5bXlIZGlEODdjTzF1WDY3blpiQ2VrU0c5QmxWX3gtVHVOMlFYZzVHaHNCNE1mZlpTQjlsb2JMMlhObHQ5SmV5ODlJMkU4N1gwS3B6RndLVDBkOXY3eGM5VXFYbExKQmdWeWVtbzVuQXBodmRURDAzYXR6MXJkWHF5aXE2dHBWT3k5dWhCcndxOF94blFUajdiaWwzUHB3NlRYYXlUR2FKWWxWeVlXWnU0NGdkMWcyODd1WElZTk9oLVdzai1rSmRCdWVGWDlLS2NzVnJ6VlEwMkt2cUJtVEE?oc=5",
-    "k": "u s department of energy approves preliminary documented safety analysis for aurora powerhouse at idaho national laboratory",
-    "id": "4de353fe"
+    "id": "c1c99c1a"
   },
   {
     "date": "2026-06-11",
@@ -1219,10 +995,10 @@ window.SMR_NEWS = [
     "type": "HTGR",
     "dev": "X-Energy",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQNXRRYWxQSFdvZkZlSkVhQ1BkV25uQmNVenV2SllZdmg4N3A2ckQ3dFFrZnZEMndad19DRFFOcWxtX0p4b1gwRnZ4RXd5MkJsQzlqM0UycUVQbUF6eFJaZWpCbGx5aE5nNUJWemNvUmNJN0FKWURJakpaT2Fmemt4MU9FeDNVaXVxT19iQ2JObzl0cVBm?oc=5",
+    "source": "seekingalpha.com",
+    "url": "https://seekingalpha.com/article/4914178-x-energy-the-better-smr-bet-but-not-a-cheap-stock",
     "k": "x energy the better smr bet but not a cheap stock nasdaq xe",
-    "id": "f74df8b5"
+    "id": "a09487e2"
   },
   {
     "date": "2026-06-11",
@@ -1233,10 +1009,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "NuScale",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOc211dlNCRkpGa0FGU3dRVTdoTUhhUmZqRThkcjU4ZVQzcVdPejQxajdzb0hCZURMSFhoSVBFVVE1YUtxT3NPajc0eFhFWVRybDNJU0pOUkFlY3VJcU40TWJoYXp2VXdKT3RWUUU3YmZSaXVMbGhPbld2cllHRjl1QzV5ZjYzMmpDbjJCMFNKTTNkR3l5dE1GLVVNM21nem8?oc=5",
+    "source": "zacks.com",
+    "url": "https://www.zacks.com/stock/news/2935764/nuscale-power-down-35-ytd-is-it-a-buy-the-dip-opportunity",
     "k": "nuscale power down 35 ytd is it a buy the dip opportunity",
-    "id": "15d9bbfc"
+    "id": "cbb21e62"
   },
   {
     "date": "2026-06-11",
@@ -1247,10 +1023,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "Oklo",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRkRzVDE3SXlfb2xoekgyUkY1QVYzdWJXaXpEYW9nMGc3cVREMEtSVndBZVdrbzF4M05HOWtKeGoxcDJBUklIbnV5ZnZQU0xMUlFiSDgyOEtPM1ZTbGRzVDFkSWJBNzFXRzR2NXNnXzJkQWVDeEFQTmRMZ2xHMGJiYkMtR1ZOZ1lpQ19pY3J4NDVZWHRKcXJqcFpFSXl4YjFYSmlPdHhHNTRaNm9rc1lhcGI4d2M3ZzhXRjU1VQ?oc=5",
+    "source": "investing.com",
+    "url": "https://www.investing.com/news/analyst-ratings/ubs-lowers-oklo-stock-price-target-to-55-on-capital-concerns-93CH-4737233",
     "k": "ubs lowers oklo stock price target to 55 on capital concerns",
-    "id": "b74245fe"
+    "id": "b9ee0b68"
   },
   {
     "date": "2026-06-10",
@@ -1261,10 +1037,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "Holtec",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWnJIaTk3Y0cxaW5YR2Nxa0RpRDVDdkNtckQxX1hoMjZRZVpwbTUyNUNXdEl6V2dkc05yZU9KZHVUZE40QXg2am9IeVM0dXdxUzJxaXFGWkZmNk5NaVNCMzFIbVh6VDRCRFo5V2hfWkdfdk1kdENHLXJVTmlJQXJqOWE1NlRCc2FIcXVxUlRrbHFsRzZrdmMwNy1nenR4YjBFemtkUnFlMkJZRzd3azQzcVlSc3J0SXROYTU0NA?oc=5",
+    "source": "app.com",
+    "url": "https://www.app.com/story/news/local/land-environment/2026/06/10/holtec-nuclear-reactors-oyster-creek-lacey/90479462007/",
     "k": "holtec considers 4 nuclear reactors for oyster creek site in lacey",
-    "id": "e42080ca"
+    "id": "614985b3"
   },
   {
     "date": "2026-06-10",
@@ -1303,10 +1079,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "Deep Fission",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPcHJiMkc2YndWcElGdnM1bjJtMmpYNklTanB2Z0Y4azVLeDd6V2RhSm0wRncySE5SR25NbnZoUG95cDNzZFBMTHk5TDhhRkw1OUJmdkc3OWZFMDJhMWl0VHF6cmFObm9ZYldjZmp4Vk8ySkNuVy0wbTFYZlRTMENwLTg0N3N0Y3Z5M040UXluM0RrbEM4WkxFaHdoZU5WUzdfVkhyNlg1U2dZNjc2Y3hJbDZMNVJCSkhXS0prU3JoRzZfMjNZVEdJejVkVldZQQ?oc=5",
+    "source": "renaissancecapital.com",
+    "url": "https://www.renaissancecapital.com/IPO-Center/News/119731/Small-modular-nuclear-reactor-developer-Deep-Fission-slashes-deal-size-by-7",
     "k": "small modular nuclear reactor developer deep fission slashes deal size by 72 ahead of 43 million ipo",
-    "id": "c51eb076"
+    "id": "e781de10"
   },
   {
     "date": "2026-06-10",
@@ -1317,10 +1093,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxObDNOXy0waU1lNVBtWk94ZXlna1l3WE9KS2tQMjVFQXlMTVRuSkJPdWtzay15SGJUMVhPeUlrZURzdVFXYzJrcWZCOFlnaVBJcnpkeGdLSGJPOVZ0S3hEenJ0SDc5NUt5VFVmTHVkbjVjWUoya0o1bF9wb1FDWlFxc0lkMjM4ZFZQRUczUHRRQTRlZnEwemppWGJNS1o1VDExWmF5WEhfOWlrSGtpcXJpZmluWC02c3J4MkRQNlBoZVEtd2N4TmZPRlhXd0tVenRLTE1wbDRWbUvSAd4BQVVfeXFMUHMxcm5EcHl5VDNKUk1RRlItc2tJeENveEFzaVBCUkllRWU3d3NYaWxCdV84blVjeDZIcHY2dUZaSnc0aW9zSWEyWktqemlsNWhsY2JrZ2I5U1FabzM1Q0lIckNrRTQ3YU0xMUtfN09rWllULVFyN1hmQnBiQjYxUmlBNmJMX0hLbFhoODVtcHd6dW1DcmJiVGtra0xUYlFieTd5clFDenNPRXFjNzFwLWkxSl80WjVpa19OaVRaaF9vMl9GelRYQnhiSk90aHF2UlZ2Z0dxTEtZaWVkdzVR?oc=5",
+    "source": "moneycontrol.com",
+    "url": "https://www.moneycontrol.com/news/opinion/small-modular-reactors-may-not-solve-the-power-crisis-but-they-could-shape-the-future-13945363.html",
     "k": "opinion small modular reactors may not solve the power crisis but they could shape the future",
-    "id": "029cfd82"
+    "id": "5b874b04"
   },
   {
     "date": "2026-06-10",
@@ -1331,10 +1107,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA0U1ZhSkZsUjhRZEpSQUE1R0syQjFhd0FJSFhwbElMNXdEdm5INGdoN0xMSFR4bG81Rlhpck9vY1psbUp5ai1XQ051MzJXU1oxc0YwSVlOQXI4RFd2Y3ZUN3FZVURmaTFrbmRYeVljdw?oc=5",
+    "source": "kyongbuk.co.kr",
+    "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno",
     "k": "원전 르네상스에 들썩이는 경북 동해안 smr 수소산업 새 기회",
-    "id": "a7c614c8"
+    "id": "4de5f354"
   },
   {
     "date": "2026-06-10",
@@ -1345,10 +1121,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5PQUdaQ2JxMGowVHhJMW5Sa01IdlhtZ0steWlOT0dtNGtWR1NGNnVkLU96VmJkclREU3pzN29UMEIwLW56MFM2Z041ZWlBN3pyaXM5R2VYZm83bEYtZlBXR2V0d0Q?oc=5",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno",
     "k": "바다 위 소형모듈원전 smr 해양 패권과 에너지 안보의 새 지평을 열다",
-    "id": "e2c7253a"
+    "id": "fbaa4f4f"
   },
   {
     "date": "2026-06-10",
@@ -1359,10 +1135,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBuZ0Z0d1FBT01DWVN5WFB3WDNLNXFNS0xVREloUHk4RnFDdS1wWjBOX1RqR1Myc3QzdVBGSDR0eXBPYWxCdUpETzNDMllhYVJsM2gwQmVmdXZ6TkRzSlZmOE5pOHNGTndIcXc?oc=5",
+    "source": "snmnews.com",
+    "url": "https://www.snmnews.com/news/articleView.html?idxno",
     "k": "용융염원자로 smr 적용 자동차운반선 개념설계 로이드선급 기본승인 획득",
-    "id": "6d2b8afe"
+    "id": "941d2239"
   },
   {
     "date": "2026-06-10",
@@ -1373,10 +1149,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2b0UyRDkwWWhlcTg1dUJ3SHp4MVpSSEFmZkJRcUhyN2p3N2JEbFNjUXF4T1F4MHhaLXNsN2JlWW9CMnM3MlRkeDBLTFNUWm1yemx3blEtamE0RWMxRmpzcUdZd25DdFFod0VpTU5iUUfSAXRBVV95cUxPQ19LaDhHLUhtTGRiT0g5Rlp5aEJwdFpLcm5rT21OVXJNN2Q2Sk1OZlNtXzZkZjR4bmNKLXFLVHhLaUZmY2lUdnB6VVptNXI5Q2hWVFZPYU1pT1duRzhnOWdYb2ZhZnlxckU0bnhuMGt4N2R2aw?oc=5",
+    "source": "enewstoday.co.kr",
+    "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno",
     "k": "smr 초도호기 인허가 돌입했는데 전용 규제 체계 구축은 하세월",
-    "id": "17e01fd4"
+    "id": "23aa4c58"
   },
   {
     "date": "2026-06-10",
@@ -1387,10 +1163,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiWnZiOTZDRW1OazZpclh3MjBDR1NtV1ZBLTZiaDdMdHJNOGlJWFJDRUwzR3U1djhBVEZfVVQxd3JFLVZIODFaMjRxM1ZSTlZFLTRQSzc4QVVZZ9IBX0FVX3lxTFBIQjJyMEVobFAtRTM5M0tYUnB2ZmZoNURLX0VEUzBKX2tyLThqVHpGUHFXaUdCcllVS0pSVzJ1N2pCSjdEY1Q5Znk5Z0cwRUhmU1VWLUw1M0RBOXlSN09r?oc=5",
+    "source": "khan.co.kr",
+    "url": "https://www.khan.co.kr/article/202606101132021",
     "k": "경남도 원전 투자펀드 첫 주인공 선정 글로벌 smr 시장 선점 시동",
-    "id": "ca60c255"
+    "id": "deae61e7"
   },
   {
     "date": "2026-06-10",
@@ -1401,10 +1177,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Ld1YwclB6emwxZ3EyN0FQTmhKcW1pTGdiX1ZpN2ZKMm5oUVNmWU5FaG0wbC1KV2E2TEdGekJPQXBjbUdfeFBXQzJPQ0hUVkhJX21JalQzUEJ5M1U?oc=5",
+    "source": "news1.kr",
+    "url": "https://www.news1.kr/politics/president/6193793",
     "k": "한 eu 경제안보 에너지 고위급 대화 출범 smr 등 저탄소 협력 추진",
-    "id": "982a1f45"
+    "id": "7028c3e4"
   },
   {
     "date": "2026-06-10",
@@ -1415,10 +1191,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "DOE",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBPVUJRRUU2RXBmUU5TN2NVc21mVFVaZ0NscGpnVk84WWZHV2Mxd1I2VmpldkJCUEt5a2xpQ0s0VWtZeW5waDYwRXJ5NkZBNUZtcC1JWURVT0czNlVxbFkwZmNNdThHd1dNejVQZEtaMA?oc=5",
+    "source": "energy.gov",
+    "url": "https://www.energy.gov/ne/advanced-small-modular-reactors-smrs",
     "k": "advanced small modular reactors smrs",
-    "id": "9e2216fc"
+    "id": "b4d0fc65"
   },
   {
     "date": "2026-06-10",
@@ -1429,10 +1205,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "DP월드",
     "region": "EU",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5QTVBenhMbDQ0QTBFSzlXYmlzcUVTQlF1eDNZRlNqX2gyWXZ0VV8wRW1wS092RUhoVlRRcWZ2bllFRlgyY1JtRmdIN1YzTEhKSVo4VXBiQlJqV3laTkJSeEpnSQ?oc=5",
+    "source": "theguru.co.kr",
+    "url": "https://www.theguru.co.kr/news/article.html?no",
     "k": "uae 국영 dp월드 루마니아 항구에 smr 추진",
-    "id": "49e84136"
+    "id": "97b6e52e"
   },
   {
     "date": "2026-06-10",
@@ -1443,10 +1219,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1IS0hoUmhURFJtNWxEbm9kTVJnTXNnQ1R6Y2YzWWNnZ1R2NENBRDRadnN6ajNNWFlkOWIxOW1QeDJFeEl6WVB1akp1SFl0bFJuOW1FTlJPYTA?oc=5",
+    "source": "kbsm.net",
+    "url": "https://www.kbsm.net/news/view.php?idx",
     "k": "황대욱 특별기고 대한민국 첫 i smr 답은 경주다",
-    "id": "72a92cd5"
+    "id": "cae9efc5"
   },
   {
     "date": "2026-06-10",
@@ -1457,10 +1233,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "Holtec",
     "region": "US",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRU9UZ0V2ODRJMHVObnIwc0QxMzY1c1pLc043WXhzb2xmd0FWTTREWjFpeURweXZPOEFscDV2a2lyS0VaZHlLT005bzNyeVBzQ0xGSW5WYTd2U2VkQk1fQmJTeXZ4QmVrdVJXQ294aHVDV0JzWWlDSGk2am5vYW5UNm9BRm0yTFEw?oc=5",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/Global-Biz/2026/06/202606110633303976fbbec65dfb_1",
     "k": "smr 4기 부지 재활용 승부수 홀텍 퇴역 원전으로 ai 전력 병목 뚫는다",
-    "id": "47b2c4b1"
+    "id": "0ba5b571"
   },
   {
     "date": "2026-06-10",
@@ -1471,10 +1247,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "Oklo",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPX2U5UWNjc19VZXlCVUtBaVJjNjlReTNvbng5al91eUpteGhNelZNTDBGY1M5MlNCRnN2WjJyQl9UaDBDMHhvb01haUhqenBoLVQ2THBqNUQ1d3JaaGxkaDRfWEdJSmdlcjc2TDVTRWQyRHo4cnQwdFRGT3hpYmJSS05wSjQzSjduU2xOTDZybw?oc=5",
+    "source": "energy.gov",
+    "url": "https://www.energy.gov/ne/articles/video-oklo-cofounder-caroline-cochran-talks-nuclear",
     "k": "video oklo cofounder caroline cochran talks nuclear",
-    "id": "dc383187"
+    "id": "61180ac1"
   },
   {
     "date": "2026-06-10",
@@ -1485,24 +1261,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "NuScale",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQZXU5UXMzNEh3bkVmX19JS1R4U3c2b1EyUjQ0S1dRVUhzYlFwSzZhWUtKVXdUZER4ZlZfQWk4MjJ3YUFickZWdEMwNzFfbktpQmhlLWE4eDlfelZHY2ZRTjhUQWpjWXp0eE1nTFZ4blkwcVZ0ckxiZ0hDYzVKaDMzV3VqYjE3VnlyQ1daX1hDNmx2Y0VEdjV6bjBGc2VBVDAxaVhjZlM1Vm0yWV9SLXZzQlFoTHN1VU1Cc0VHNWpmanZTSE1SZmdHbzIyNHUxeXA5anRn?oc=5",
+    "source": "businesswire.com",
+    "url": "https://www.businesswire.com/news/home/20260610102438/en/University-of-Virginias-College-at-Wise-Debuts-NuScale-Energy-Exploration-Center",
     "k": "university of virginia s college at wise debuts nuscale energy exploration center",
-    "id": "84b0a3e3"
-  },
-  {
-    "date": "2026-06-10",
-    "title": "오클로(Oklo), 정밀 제조사 아르메크(ARMEC) 인수, 원자로 배치 가속화",
-    "summary": "오클로(Oklo)가 정밀 제조업체 아르메크(ARMEC)를 인수하여 첨단원자로 및 연료 제조 역량을 강화하고 배치 일정을 단축한다.",
-    "summaryLong": "오클로(Oklo)는 정밀 제조 전문 기업인 아르메크(ARMEC)를 인수함으로써 수직 통합 제조 역량을 확보했다. 이 인수는 오클로가 원자로 설계, 핵연료 제조, 부품 조달 전 과정을 내부화하여 공급망 위험을 줄이고 생산 효율을 극대화하려는 전략의 일환이다. 아르메크의 정밀 제조 기술과 품질 관리 노하우는 소형모듈원자로(SMR)의 높은 품질 요구사항과 규제 기준을 충족하는 데 필수적이다. 이를 통해 오클로는 배치 시간 단축, 제조 원가 절감, 공급 확실성 향상을 동시에 달성할 수 있게 되어, 상업화 경쟁에서 핵심 경쟁 우위를 확보한 것으로 평가된다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOYXZ1TUZQQXI4Q3BPVEk5QXhCMkhyd0tKNmxzSmR4VmsxVVU3SFhabVYySFo5NFo2VHBWOE9hTFdGQXFmVzVSTzFLOHRYR1RIOWY4cUNWbFhEeExrc0VCWDhxSUNrOERiNWZZbjR3VWtKZmlUbURFOUg2dGVNUGhNRVppZE1XS0NkNGVxeENwZzBLTmZNS3E5OWJ2eTF1V3g1WmZnMUFKV2JVWVl0VTNVbVdTWERhd1Y0elBpWEwwNy1YVWxSSUVzMkFFdXNaRDRyanBHMDUzcHlibnNhZ0hmYmVTbUNLQWRQ?oc=5",
-    "k": "oklo buys precision manufacturing company armec to speed up reactor deployment what this means for oklo stock",
-    "id": "45932beb"
+    "id": "d49fb251"
   },
   {
     "date": "2026-06-10",
@@ -1520,20 +1282,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-09",
-    "title": "SMR 회사 Oklo, 원자력 엔지니어링 전문기업 ArmecK 인수",
-    "summary": "샘 올트먼(Sam Altman)이 지원하는 소형모듈원자로(SMR) 개발사 Oklo가 원자력 엔지니어링 전문기업 ArmecK를 인수했다.",
-    "summaryLong": "소형모듈원자로(SMR) 개발 회사인 Oklo가 원자력 엔지니어링 전문기업 ArmecK를 인수했다. Oklo는 OpenAI CEO 샘 올트먼(Sam Altman)과 기타 투자자들의 지원을 받는 유망 SMR 스타트업으로, ArmecK 인수를 통해 설계·건설·운영 역량을 강화하려는 전략이다. 이는 SMR 산업의 기술 통합과 가치사슬 고도화를 보여주는 사례이다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9FSzdfUFE1dERfUkM0NGJmYjMycmNyczByVzd6ZEFDZHdaUkYzMjZuQnJrV0tPcDdmRUJ3R3NiY1cwRHNVMkpTelJubk93Ym9ENGVMYlZaQ09FVGZZb0YtaWU0Yw?oc=5",
-    "k": "샘 올트먼 smr 오클로 원자력 엔지니어링 전문기업 아르멕 인수",
-    "id": "e57b1809"
-  },
-  {
-    "date": "2026-06-09",
     "title": "서울대, 반도체·SMR 융합 연구단체 첫 출범 중국 추격 경고",
     "summary": "서울대학교가 반도체와 소형모듈원자로 분야를 통합하는 연구단체를 새로 구성하며 국가 경쟁력 강화에 나섰다.",
     "summaryLong": "서울대학교가 반도체와 소형모듈원자로(SMR) 연구를 융합하는 새로운 연구단체를 첫 출범시켰다. 이는 첨단 기술 분야에서 중국의 추격을 우려하며 한국의 과학 기술 경쟁력을 강화하려는 국내 학계의 움직임을 보여준다. SMR은 반도체 제조, 데이터센터, 산업열 등 차세대 산업 수요와의 연계 가능성이 높아, 미래 에너지 솔루션으로서의 중요성이 부각되고 있다. 대학의 기초 연구 강화는 한국의 SMR 산업 생태계 성숙과 기술 자주성 확보를 위한 초석이 될 것으로 예상된다.",
@@ -1541,10 +1289,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "서울대",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1LV3Z0emNwRTIta1NwTWlLVEpXT2N1SWhqbEhzclRGUTRwVEpLR1RVNkdnXzRJREdLX043d0dYb1hka3ZBX0FwS1JCQWN1Y1I3TVFKUVNtTEVMOEtfR21RVnduYngxbUl3OU1XNEJB0gFzQVVfeXFMUEdHM09VWXBya0hub0tTVVlIOFZxc016UHpoX2JneXZnZm00TGtWMTQ4UW8yMnFpUG54NEc1bEtYZ1hWRUZ1dkU1ajFWQVRCbnBndEo4UmxEQVBmZEFRM2pzLVhRS1FQUkVLdkNzQkZta2hmVQ?oc=5",
+    "source": "hankookilbo.com",
+    "url": "https://www.hankookilbo.com/news/article/A2026060914460004394",
     "k": "이대로면 중국에 다 따라잡힌다 서울대 반도체 smr 연구단체 첫 출범",
-    "id": "e4d61d6c"
+    "id": "003d939c"
   },
   {
     "date": "2026-06-09",
@@ -1555,10 +1303,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1RY0FzQVFUbVNEVzhxQkJUUmU2NHpLWTJoNjYyMks0N0xQUWtiY3NIZDZPaDJ5YUNfMnhENVFNSHZSLW13NGdUQ3ZIWnFIM1U?oc=5",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260609200005693",
     "k": "smr 반드시 찬성을 기장군 여론 조작 우성빈 부적절",
-    "id": "817f6001"
+    "id": "82017068"
   },
   {
     "date": "2026-06-09",
@@ -1583,10 +1331,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPdHBSQ0oxbUhYYWc2cXMxM2hOTHJTUDZuOEZ5VHBDcGJDUnZQb3IxazdNa1h0TW40R1BoeWVZV25Xb1gxLVNIUWc3V3ljQzdTRWxIUUk3ZWFPOFJRb19pRm1zUlQyVEM1SldXQy03Y1lVeFNLdENkQ3JOX1JHNGhoYmc3RTJkcEZnSnBWZHA3T3dQU2MteXFnOHdER3kwQ2ZRZHcwalIwaThRdnpSam9rNVE1WjVIQVdzM0VrcUk0ZlI0dnREdUw00gHHAUFVX3lxTE90cFJDSjFtSFhhZzZxczEzaE5MclNQNm44RnlUcENwYkNSdlBvcjFrN01rWHRNbjRHUGh5ZVlXbldvWDEtU0hRZzdXeWNDN1NFbEhRSTdlYU84UlFvX2lGbXNSVDJUQzVKV1dDLTdjWVV4U0t0Q2RDck5fUkc0aGhiZzdFMmRwRmdKcFZkcDdPd1BTYy15cWc4d0RHeTBDZlFkdzBqUjBpOFF2elJqb2s1UTVaNUhBV3MzRWtxSTRmUjR2dER1TDQ?oc=5",
+    "source": "einnews.com",
+    "url": "https://www.einnews.com/amp/pr_news/918134655/global-small-modular-reactor-market-growth-driven-by-advanced-nuclear-technologies",
     "k": "global small modular reactor market growth driven by advanced nuclear technologies",
-    "id": "316acdc0"
+    "id": "48b8cbf3"
   },
   {
     "date": "2026-06-08",
@@ -1597,10 +1345,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5BU3FpdU1Wck04X2k4WUpGSE5KbG8yR1EzRXo2U3U4dVpyXzN6WERoRkF3VW9CcTNNSXgyQ2tRRlRlUWV6UkUxaE9vX1pteEJIa25TdW85S242NDZJVkh6eGVPUm1Qbk0?oc=5",
+    "source": "ynenews.kr",
+    "url": "https://www.ynenews.kr/news/articleView.html?idxno",
     "k": "기획보도 원전 연구개발 산업생태계 모두 갖췄다 경주가 smr 초도호기 최적지인 까닭",
-    "id": "606448c8"
+    "id": "b08f8787"
   },
   {
     "date": "2026-06-08",
@@ -1611,10 +1359,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0tM256MlZ6R2c2bGVyVVVFX1l2WUZiNFNwSllMT3cxMlJDVlNMUHZvSkl3SlJPSFBYbE4wemFhMC04MGk4ZGdpY2lESVV3NG93MGpDbFJJU3dINFlHSVo4TzFKUnc?oc=5",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno",
     "k": "k smr 상용화 설계 넘어 공급망이 관건",
-    "id": "4133d829"
+    "id": "fbaa4f4f"
   },
   {
     "date": "2026-06-08",
@@ -1631,20 +1379,6 @@ window.SMR_NEWS = [
     "id": "dc453469"
   },
   {
-    "date": "2026-06-08",
-    "title": "오클로(Oklo), ARMEC 인수로 첨단로·연료 제조 수직통합 역량 강화",
-    "summary": "오클로(Oklo)가 ARMEC을 인수하여 첨단로 및 연료 제조 분야의 수직통합 체계를 구축했다.",
-    "summaryLong": "미국(US) 첨단로 개발사 오클로(Oklo)가 ARMEC을 인수함으로써 원자로 설계부터 첨단 연료 제조까지 전 가치사슬 수직통합을 추진하고 있다. 이 인수는 오클로의 공급망 자립성 강화와 제조 역량 확대를 의미하며, 첨단로 상용화 시 생산 효율성 제고에 중요한 전략이다. 오클로는 소형 고속로(SFR) 기술과 회수 연료(recycled fuel) 활용으로 차별화를 추구하고 있다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQQmNuUFQxU3dYYzZNc0N4QzNCMWMtQTltRG1sSVREdWg5ODJwbENuNzYzdk5IOTFldmRkTXJWX3dyYmtDSE0zakE3WVdaZm5wSEhyWllPWHVGdGt4d0hZQTI3bGk0dlJQaHpoN3lJakpWaG5YRmNZczhTRXZBQUY5SEpBTnY0ZE0xWmJZbVFRcmVSWk55YmV6WlpkRWpXdXZFSUYxY2k2b1AtVndNZXZDQXU5cjFyajBtaDhjWDQ4UUdSMlN4QUxTR3YySEQxSFNfQ0xJVWphRWhkYUQtaTBfNm9HV3NKeWZ1QW12ekQ4SnF1NUwtNzVoWFk0QkpIRmJ6THF2eXlYYUVxOGhwb0FJdVJzcGpYTGM?oc=5",
-    "k": "oklo acquires armec to expand vertically integrated manufacturing capabilities for advanced reactor and fuel manufacturing programs",
-    "id": "6f3493d2"
-  },
-  {
     "date": "2026-06-07",
     "title": "미국(USA), 마이크로 원자로로 핵 르네상스 추진, 글로벌 시장 진출",
     "summary": "미국이 소형모듈원자로(SMR) 및 마이크로 원자로 기술로 핵 르네상스를 견인하며 국제 시장 진출을 추진 중이다.",
@@ -1653,10 +1387,10 @@ window.SMR_NEWS = [
     "type": "Micro",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNMjdpMnpvcGl2LUhEX29sLXVPX1QzYWx4Vm5MQm5XQXFCV0FsclJFX2VXTWpBVERTQ2doZk51RHZoZUQ1WTJTMjhIY1dsT3N0MjVFc0l5T0ZNNEZOeDlvQldoM2dnZ01sMUMzbXp5RFFiWUczYWktT2NQQ2JxdWFpM1dTVldkaGM5X2FkN3pWa0k4ZE44Z19tdVpya215QnZBWE90RzdrTGZHcnYzNXFEOC1Dd3p5bUdRc3AxbnhnR0FWWVV6dWluWnlwcm5yVmRT0gHWAUFVX3lxTE1rSmNKTXJ2bUZfTDQ3Zm5pNDgzM1JCN0JnWmFVTkJrY1RHQnJXTmhNUldNNFJsMmVDaEYzanRJR09fVlVITElTVlp0dURqZDJUcHdUa29aQktQcndzVXY3VkItLXV4eGExRHJwWGpBQUhfN1hTcUlMX0RKZEx0WGFaNzVzRUNkcm5BTlRsajBTUTgzSkNFRk0wODlual9RblVBV0ZxZC1tNjhEaTg3QXlRVl9HTGRDVVZPQm9VbVFaZU1KU3U1Znk0TEg0NUtxRDg0X1RWeVE?oc=5",
+    "source": "business-standard.com",
+    "url": "https://www.business-standard.com/world-news/us-sees-nuclear-renaissance-with-new-micro-reactor-eyes-global-markets-126060700567_1.html",
     "k": "us sees nuclear renaissance with new micro reactor eyes global markets",
-    "id": "55ca5cbe"
+    "id": "d9b51748"
   },
   {
     "date": "2026-06-06",
@@ -1667,10 +1401,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wdjBtSXNYQXluVm9hUV8tdmx2TGowZEdKNWRRM0xjMDBfdjNfdjJYQXZLTm44c21fcGVIc3I2VzdHc2kzZkNsTGQzUnd3Z2FFb2tVblozM3p5VzJHTlRZTVpMZGVtRmdE?oc=5",
+    "source": "jgtimes.com",
+    "url": "https://www.jgtimes.com/news/articleView.html?idxno",
     "k": "혁신형 smr 기장유치 염원하는 일광읍민들",
-    "id": "2de84666"
+    "id": "0f8556cd"
   },
   {
     "date": "2026-06-05",
@@ -1707,10 +1441,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "Rolls-Royce",
     "region": "UK",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOMGUzcERuMHNCUDdPc2s2aDlwb2hybzRmSEc5Rzg1ekl1VS04LVhWaVFiR1VuRklobWFZRURRMTdsN3NhWmQzQU9VZ09zRmh2VXM1YWJqWkUtZHBlRGtlY2g4V0VRZ182ZXNWOGM2QjNYczNXN1gtZFBDYnVFaEJNeW5KbVA?oc=5",
+    "source": "ft.com",
+    "url": "https://www.ft.com/content/dcc90c25-43e7-4456-84bb-35458dc6726c?syn-25a6b1a6",
     "k": "rolls royce under fire for outsourcing parts of uk nuclear project to south korea",
-    "id": "cbea39e1"
+    "id": "8cf45a8a"
   },
   {
     "date": "2026-06-05",
@@ -1721,10 +1455,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPc1pTZEpKVHowV2VpVEdNY3g3d2NwQ3dKTWFDa3dMeGgtRGhnbGkxbHdOSmpqVVo1NnRNQ3lwVWxCX2lvLTlLbUpWVGp1R1VfQk1PVTFxT0RQUjFtd1VQNlFVME9aOFgySTF2RTJNb3EyS1B1Y1M3SWhfWENjN1RpRzkzTkczSmxjZWxfRmFfTXhUSFROUVVmdg?oc=5",
+    "source": "arstechnica.com",
+    "url": "https://arstechnica.com/science/2026/06/first-us-test-of-modular-reactor-reaches-criticality/",
     "k": "small modular nuclear reactor reaches criticality in first test",
-    "id": "77139b6d"
+    "id": "664f8b3f"
   },
   {
     "date": "2026-06-05",
@@ -1735,10 +1469,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPOTNPWlR5VWVKTzlHbTRHX1diN09ydzFuT3BQQXBMZlJaMkp1T09pa0ZBak94eXlISjdQWnR6akpLWjJheWZMS05PUHlJeEYyQlVVVGxJakdNQXhKU3hYVVYzSVdyYkl5Ung0N2Q4WWc5ZXFtek4zTEdiN0lYRXhSX2REcmJkNm1tUjJNTGhIYTRRYlJhcGVnTzBEa2pnWHBVTVHSAacBQVVfeXFMTkEzQ2xuT3MzemtNOXh6LUtJVEZjRHhoaVdnU0JnVnJ1Wm0tcHRUSXNOaTktcGJfTGxkWUV0QnV3Y2w4aGVQNFNRZGt5czNqUFpIdnNDRlIyMC1LY0FVdGhEY1dFNThYZTlGUW00S25uT19GTkF2NWczRHUyQWZmeVh5aEpHX3N4aWFTb3ZkeFRCUkZROEYyR25WcUpUSlFvem1fb284dHc?oc=5",
+    "source": "smartwatermagazine.com",
+    "url": "https://smartwatermagazine.com/blogs/marco-cioffi/power-and-desalinated-water-small-modular-reactors",
     "k": "power and desalinated water by small modular reactors",
-    "id": "7072efc2"
+    "id": "a017e57f"
   },
   {
     "date": "2026-06-05",
@@ -1777,10 +1511,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "Oklo",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNY0pLZVNObDN0bndTRkFHUVVLMlhBbmotRldFbzVvR0Z2R0V4QmNtMmEyNjRQaUlfT3paajh0V29UbWRYVmxaZ2NqcDIwc182eUlfX1RhUkhRLVpyUzNmOXVFRV8tQlhieHlNM0wxR0lUWUloa2MxWUFpZ3hfNXc0S21RSXN1bkd5V2lWZm81T0Uzazl3YW5mV0ZtMGFIOTBUQ3c?oc=5",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-reactor-progress-deals-reframe-042436816.html",
     "k": "oklo s reactor progress and deals reframe risks and opportunity for investors",
-    "id": "7ccbabde"
+    "id": "1baf6fc5"
   },
   {
     "date": "2026-06-04",
@@ -1804,10 +1538,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "Holtec",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1EbUY4UFc2ZUw2bU92b1J1bnlBQzNiT25BNVNaTEVYblNnejdsVHd2T084T2hCUkFQMXRockRXeVN4RjBUYTZ2R2ZwbXJ1RWtiLU10RFptNzZTSHQ2S2ZpWGhkWGhBVnZVQk1N?oc=5",
+    "source": "energiesmedia.com",
+    "url": "https://energiesmedia.com/blue-castle-nuclear-project-utah/",
     "k": "blue castle nuclear project in utah revived as small modular reactor facility in partnership with holtec international",
-    "id": "a49f7590"
+    "id": "a045c962"
   },
   {
     "date": "2026-06-04",
@@ -1818,10 +1552,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "TerraPower",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTUp2UFIxUDRDdmRfS0Fidi1aY01lT2NrRjhfODhrNVl5WTRFSVNlV2RYRWhnSHloZnJYXzQxdV9CU2Jfbk9EVVRxbmJpY0ZOWnQ5cm41SjVTMGhKRUVtWHowOHNnNE9NQUwtRlVsd2dhM2wyN3l2Tmh2SDJwNkJwVXpvNzg?oc=5",
+    "source": "chosun.com",
+    "url": "https://www.chosun.com/english/world-en/2026/06/05/CQVDQ4PBUZEYLLTVEISRVVJFMI/",
     "k": "terrapower starts first u s commercial smr construction in wyoming",
-    "id": "15ae9c89"
+    "id": "24dc0d8b"
   },
   {
     "date": "2026-06-04",
@@ -1832,10 +1566,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "NX Atomics, Sciaky",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOV0lJNFJYLXhLeTlFX2RJSGFQenl6N2poaTFqQWhwbE9VQWNTMWRud2EzSHFKbHNoZ1JxNWxnSjhkQ0wzLU10UFVFME5BTlN3eWcyYVBoNWNja01kcDZPWlVVS2xGYTRjSzNXX0RqbUxVaVdUMG5Sc24yUzhfQ0ZWdzVqMVBmU0RYR2luVFhHNmFqZEhPYzNOelNuejZySXfSAaQBQVVfeXFMTmZzVV92MUp2d1l2UTZUVVBhVzRSdHRSWF93eVZWOUtFN081c3hDT1pzY2hWOEE1emp3aWhFLW9BODBZYlVnUGdxQTIwM3U5NWNPUXFnTEtBQkVGLVVkWnhndmdvdWpOZE1nZGNDbnJsT1A2Q0dwQ1EtTW1Ya0tMaXUydVFxUXhmUXNQVVNJejBEVDZpY1lGOVJYWmhQMkgxVHZxbng?oc=5",
+    "source": "voxelmatters.com",
+    "url": "https://www.voxelmatters.com/nx-atomics-and-sciaky-bring-ebam-to-small-modular-reactor-components/",
     "k": "nx atomics and sciaky bring ebam to small modular reactor components",
-    "id": "d691850b"
+    "id": "15f2a55c"
   },
   {
     "date": "2026-06-04",
@@ -1846,10 +1580,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUUl4QVNzZUIwRTB5bFp5MjdjWXI2blJJRS0xbHZOVUVvMnNSUHBoa3J5dVdTYmM3X3NmeGtTMFJHbmlkWUFGeGJZYTAxZTduWG9DSTEwVGxyQjNpLXRISm5vLURIS1pwcW9NUnN0R0Z0Y0J5d2ktQUQ1OWUyNS11UzlLdG50UEZrTTRVRWZXUU9EeVZI?oc=5",
+    "source": "energy.gov",
+    "url": "https://www.energy.gov/ne/articles/infographic-5-resilient-features-small-modular-reactors",
     "k": "infographic 5 resilient features of small modular reactors",
-    "id": "09766a49"
+    "id": "9a82a83d"
   },
   {
     "date": "2026-06-04",
@@ -1860,10 +1594,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPemFSNnhYMjVGTDlhNVJ3amhNRF83YjRYU2hHTGhJYklxZHFPVV9vV1VfbzFvNFJ3N0xCUksyMEswc1JoNk0weTZEb2ZxamJVaTV1cGt5UTJiRHQ4RWgxejJkUG1IVzJiR3pKcm83ek1HN3J0U1hGdnVaYkhHSTdHcXNEd1A?oc=5",
+    "source": "chosun.com",
+    "url": "https://www.chosun.com/international/us/2026/06/05/FLWG4MFLSRAW3G6EPL5MZP2YXU/",
     "k": "smr은 안전 인구 밀집 지역에 건설해도 문제 없어",
-    "id": "fa1984f2"
+    "id": "288db57d"
   },
   {
     "date": "2026-06-04",
@@ -1874,10 +1608,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "SK",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1oN0ZnV3dNMDhLcEx3WFZOcWdTQll0RG9ab2VYUWd4VXJaVWhRVktzWlI0RExvVnhmc2oydXVsRy1ST1M2SmpESGVaX2NrUU1RcGtmWmg2N1VNUdIBVEFVX3lxTE96SnV6SE0zUUJibkkxd1hiMDdrN3dCMkppMzVMRWJPVEdid3YwblBnWkVmYlVkTTkzNTN3UEMwZUxSazJlQm9sdmJSX1pzbll6QXhlNQ?oc=5",
+    "source": "hankyung.com",
+    "url": "https://www.hankyung.com/article/2026060480721",
     "k": "차세대 원전 여기서 시작 sk가 투자한 smr 건설 속도",
-    "id": "674ac4ed"
+    "id": "89452245"
   },
   {
     "date": "2026-06-04",
@@ -1888,10 +1622,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "DOE",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc1BYLXBDc3V3YzU5Q3lpdG5lXzdHUVRrRTR6eWo2aUYzeTEzaDFURTJBQkN4SXp1dUh3d3ZBZnhZbVdQS011cnN5NzRlYmZKVzF3MWdZWnR3MzdlTFBYdGM4SVVDVGRvS0Rsb2tvcHB2b2FIR1YxcWlmM00xb0FZelJZTzB1bW1Ia3JTWFEzX05MbXBsTGFPU3Q4Uzg0NkJyTnhncHBxSU84NHgxMDVnLTZIVGg?oc=5",
+    "source": "energy.gov",
+    "url": "https://www.energy.gov/ne/articles/nations-first-small-modular-reactor-plant-power-nuclear-research-idaho-national",
     "k": "nation s first small modular reactor plant to power nuclear research at idaho national laboratory",
-    "id": "0334d20c"
+    "id": "64438abb"
   },
   {
     "date": "2026-06-04",
@@ -1902,10 +1636,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNRG5xSHBtV1E5WmtCY2w2bHBOWl9mZkw5SG9YQzh6bUZvT2E0eDd6MFhSUGNuTl9qNWhKSVRxNUE3cjI0U3lPT0xxRzVYRDJhamJ0bzhCaWxOMG5OLTBaWlZyS3VDTmdqdmQ2SWFZbzcxYnhKNEZ5bVdDYVR4RUJOVDNUY1E?oc=5",
+    "source": "chosun.com",
+    "url": "https://www.chosun.com/english/world-en/2026/06/04/2ZDECEJD2BC2LLPIVEU3TU7DOQ/",
     "k": "us approves first commercial smr in 40 years powers ai era",
-    "id": "79fd6edf"
+    "id": "fe7109c3"
   },
   {
     "date": "2026-06-04",
@@ -1930,10 +1664,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNQUJ3ZGpJN0J4YnRObTVSTjlHX1MzbVZ2ZzVWMlpTblo1T21KWVlodGZVWEtoUVpMRlZON1FsdGxsSXg2UFRSSnA0ODh4NUMtcGJjQnJXRURKZU9IZGRhcHlCcVM2Xy1TZ0xwcXBNR0xiMEFxa1NXak55amtDOVl0Ql9pMmtBRTI0TUdWZHJB?oc=5",
+    "source": "interestingengineering.com",
+    "url": "https://interestingengineering.com/energy/small-modular-reactor-power-nuclear-project",
     "k": "us firm s small modular reactor that generates 300 mwe electricity to power nuclear project",
-    "id": "3cd47fb1"
+    "id": "d0fad2ce"
   },
   {
     "date": "2026-06-04",
@@ -1976,20 +1710,6 @@ window.SMR_NEWS = [
     "url": "https://www.ans.org/news/2026-06-04/article-8094/new-york-opens-rfq-rfa-windows-for-nuclear-development-and-workforce/",
     "k": "new york opens rfq rfa windows for nuclear development and workforce",
     "id": "b4fb7a1f"
-  },
-  {
-    "date": "2026-06-04",
-    "title": "엑스에너지(X-energy), 2026년 1분기 실적 발표",
-    "summary": "고온가스로 개발사 엑스에너지가 2026년 1분기 실적을 보고함.",
-    "summaryLong": "고온가스로(HTGR) 기술을 개발하는 엑스에너지(X-energy)가 2026년 1분기 사업 실적을 발표했다. 구체적인 재무 성과나 기술 진전 내용은 공시 자료를 통해 확인할 수 있으며, 첨단 소형모듈원자로 개발사의 사업 진행 상황을 나타낸다.",
-    "cat": "기술",
-    "type": "HTGR",
-    "dev": "X-energy",
-    "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1yWnkyeEJQU2hiQWR1U0dvUElXVGZ2N1Mtenh0d1Y0dGhDdEh4RFZ5QjNRRVhzMl9wZExxekpHbDAzVGw4ZWprMkx6SlpNZXAwa21QQUlWQmpEZERZNzlBQWo5WWZqTVNIVVkzaHUtOUJ1N3JpaXU0b1FB?oc=5",
-    "k": "x energy reports first quarter 2026 results x energy",
-    "id": "18e2696e"
   },
   {
     "date": "2026-06-03",
@@ -2039,10 +1759,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "i-SMRDA",
     "region": "KR",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQXl5blNxY0JBUk9yWk9XbmZfRTZ3WWVwd3NUQkRQMXNmSERtbWFsbDZkVV83Z2prQ0UzQWhaeHpOT0plWW4tYmpwcHl2RWh4ck9ZLWhuZnBQSGU4ZFhGbHE0cnNFb3JBal9TaXBqU0w0bDNUc1lJaGRwdExMaDkxZjZWRG5MaHJHS3o5RU5ScXZWUzFMZXFwREZuUkxPUzZFYTNiYUZ30gGrAUFVX3lxTE9kMGNoLVItbjRqWV9uZm5EUGE0MUktRC1QbC1nMEhfaVZIbkREYXl1MHA5a0l1UkFVckthNE1hVzdFaXZuYjh4Qm5QdzAxblRUY1RoLTkxT1ptTXlrZXBoV0NIQU1OTER5M0NMcGU4b3UtT2NBWUpPWXpiMnBBX2ZFQTMtbFFKcDU1TjNKSkZjZjJQcDloaEFLb1k3RU1wSmE2aGg0dlIyN3VHWQ?oc=5",
+    "source": "dailysabah.com",
+    "url": "https://www.dailysabah.com/business/energy/south-koreas-i-smrda-turkiyes-nuclean-ink-co-op-deal-on-smrs",
     "k": "south korea s i smrda t rkiye s nuclean ink co op deal on smrs daily sabah",
-    "id": "2d549fc5"
+    "id": "5ac4cb01"
   },
   {
     "date": "2026-06-03",
@@ -2053,10 +1773,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "SK",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA5MnFTUldfbkhJbGRjT2pSbUxYQVBkbWd3ZXYxSnV3SzR4c1hmM09BYmNvMDdsdGZIMmVMQmhSQmRWbi1GdnU3cEowNWJsWVNwVWNWUS1n?oc=5",
+    "source": "joongang.co.kr",
+    "url": "https://www.joongang.co.kr/article/25433919",
     "k": "미래 원전 smr 짓는 빌 게이츠 sk 등 기업이 날개 달았다 르포",
-    "id": "ba50e330"
+    "id": "55ffa0c9"
   },
   {
     "date": "2026-06-03",
@@ -2067,10 +1787,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1obTdQdXVQWmt3UDhiMWtaYXZ6U3JQRndLTkVCTVRJdVBBc3UxSC11ZHJablduemN1c3JLOUZyeWZaUW9YUDZLeVF4NHJ5ZXlvR0xpRjdOSnhNUExqM1JoS1JvbTZZdjJ2RVNrNnhPcGowU1dyeGVz?oc=5",
+    "source": "kr.investing.com",
+    "url": "https://kr.investing.com/news/stock-market-news/article-93CH-1971200",
     "k": "citi smr 개발 가속화 속 주요 원자력 주식 순위 공개",
-    "id": "40196cdf"
+    "id": "61e7f5f9"
   },
   {
     "date": "2026-06-03",
@@ -2081,10 +1801,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "Rolls-Royce",
     "region": "UK",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNUzB2WDJVbnFnTmp6dkVlMXVWY0ZrcEtWMC1ZUTJfejhMaUdOVk1QS19OQ09VMmhadkVOakRlU3A3SjUzSV9FeUoyWXNwUmtybGpNMThVd2I5dDdpbGI3cXUzVklsUnJjTWNCVjVWZi1zYWFyZFY4bHNoa0xydVVobUF6UkFQVlZDRGZPQVBWV1lpZThYbjJsMVJmNEJjOGJQRTJYbEZtM2FWSmlJbmlsMlpCWkZSNC1CTXI3MVhxbDU2a3FmVlk0S2dPbTVrSnZRbW8yeGExOVUwNndkdWV4aUtTa2FpUEE1MXBoNXE0V0RtcVZVc3MtamxkOVBSeWkyejNv?oc=5",
+    "source": "vozpopuli.com",
+    "url": "https://www.vozpopuli.com/indux/en/rolls-royce-is-turning-a-quiet-welsh-site-into-a-nuclear-bet-and-the-strange-part-is-how-many-homes-three-small-reactors-could-power/5488/",
     "k": "rolls royce is turning a quiet welsh site into a nuclear bet and the strange part is how many homes three small reactors could power",
-    "id": "a8b84984"
+    "id": "37f6b11d"
   },
   {
     "date": "2026-06-03",
@@ -2123,10 +1843,10 @@ window.SMR_NEWS = [
     "type": "HTGR",
     "dev": "X-energy",
     "region": "UK",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaklhYmlMRVpDeFYxSmpGenRONlRYYnVhdUVlaTZpS2k0UG9KM2t6QkVyWWpWUk1WdHJFc1BET1EwYTFHVHhlNjFHc2w4UjFHOWdtMW9XX0hlenlYdlo3V3Q4RlVTLXFsZ2dPTmZOVExmTS1qcGFzWWNUdUNkLTBlZVFtRFVkaEVlRTNXSDFiRzZwUUpmV1dyMlRmalU?oc=5",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/x-energy-submits-xe-100-for-uk-regulatory-assessment",
     "k": "x energy submits xe 100 for uk regulatory assessment",
-    "id": "2f56e45d"
+    "id": "7b0da62d"
   },
   {
     "date": "2026-06-02",
@@ -2137,10 +1857,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1vOEZqZmJHQ2QxdHMwdlQwT2psVWp1MV85WVRMWE9fZHVWaW15T3JqcUJoZ1plQW1kQlJnckJZYjZQenhZQmo5Y3lWeVRVaXljUVZWMFVqcUxoNmJEeG1ZalNEdnVDanV3QkpLadIBcEFVX3lxTE43ZzRzVjRfQlgyN3Q5aWU5Smx0dU40VXB3ZVVDY1Q3WTVoYUJjNWhGUi1nU1Qxak1OMXFkTmNlWFlpUDN5TTh5UUQ0b3NwSXVCZnJqd0wtMUV1OEtjWFZvVmJZb2w0N081Y0FRaGlia1A?oc=5",
+    "source": "electimes.com",
+    "url": "https://www.electimes.com/news/articleView.html?idxno",
     "k": "뉴스케일도 거친 crdm 검증 혁신형 smr도 도전장",
-    "id": "9190f4ac"
+    "id": "a366aa9f"
   },
   {
     "date": "2026-06-02",
@@ -2151,24 +1871,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "Deep Fission",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQaXhZdkV5cGNxVFhubnc4UXVhMThUZ2phd2E1Qkg5T2FhMmtRazdTRVVCVW55RUpWTGFqa3plNkp2YzQ2SS1lMHNDc3BWaXNyX2tpUHF6c29xelBTclFDdXlyNVV4NS1neW5WVVpyazdXU0FoeDVDTjRxWmdCRHZ4TjB3S1d5SGQ5V3pEYVBQVG9JaW9UUWpwMEowa0Yxa1VlV0pWcksxdzZLbGFVTG44NzRJb1RCX1ZCRHRqeFZiUWhfdi00RTRiX2xkNzdOem1Q?oc=5",
+    "source": "prnewswire.com",
+    "url": "https://www.prnewswire.com/news-releases/day--zimmermann-deep-fission-partner-to-build-underground-small-modular-reactor-302788879.html",
     "k": "day zimmermann deep fission partner to build underground small modular reactor",
-    "id": "2064c2dc"
-  },
-  {
-    "date": "2026-06-02",
-    "title": "X-Energy, Xe-100 고온가스로를 영국 GDA에 신청",
-    "summary": "X-Energy(엑스-에너지)가 고온가스로(HTGR) Xe-100을 영국(UK)의 일반설계평가(GDA) 절차에 진입하기 위한 신청서를 제출했다.",
-    "summaryLong": "나스닥 상장사 X-Energy, Inc.(엑스-에너지)는 2026년 6월 고온가스로(HTGR, High Temperature Gas-cooled Reactor) Xe-100을 영국(UK)의 일반설계평가(GDA, Generic Design Assessment) 절차에 진입하기 위한 신청서를 공식 제출했다. GDA는 원자로 설계 인증 및 규제 검토의 첫 단계로, 영국 시장 진출과 글로벌 상용화를 위한 중요한 규제 이정표이다.",
-    "cat": "인허가",
-    "type": "HTGR",
-    "dev": "X-Energy",
-    "region": "UK",
-    "source": "X-Energy, Inc. News Releases",
-    "url": "https://investors.x-energy.com/news-releases/news-release-details/x-energy-submits-xe-100-htgr-uk-generic-design-assessment",
-    "k": "x energy submits xe 100 htgr for uk generic design assessment",
-    "id": "00a4b296"
+    "id": "8ced04d7"
   },
   {
     "date": "2026-06-02",
@@ -2183,20 +1889,6 @@ window.SMR_NEWS = [
     "url": "https://www.ans.org/news/2026-06-02/article-8088/studsvik-applies-to-build-more-reactors-sweden-seeks-majority-control-of-smr-company/",
     "k": "studsvik applies to build more reactors sweden seeks majority control of smr company",
     "id": "6080a50d"
-  },
-  {
-    "date": "2026-06-02",
-    "title": "X-에너지(X-energy), Xe-100 고온가스로(HTGR) 영국 설계인증(GDA) 신청",
-    "summary": "X-에너지(X-energy)가 Xe-100 고온가스로(HTGR)를 영국의 일반설계평가(GDA) 심사에 제출했다.",
-    "summaryLong": "고온가스로(HTGR) 개발사인 X-에너지(X-energy)가 자사의 Xe-100 노형을 영국 규제당국의 일반설계평가(GDA, Generic Design Assessment) 절차에 공식 신청했다. GDA는 원자로 설계의 안전성과 규제 적합성을 사전에 검증하는 영국의 인허가 체계이며, 이 신청은 Xe-100의 유럽 시장 진입 의도를 명확히 하는 전략적 단계이다. GDA 승인은 향후 영국 내 건설허가 절차를 단축하고 시장 신뢰성을 높일 수 있다.",
-    "cat": "인허가",
-    "type": "HTGR",
-    "dev": "X-energy",
-    "region": "UK",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcHJHVzQtcUVpdkxHSGZfTDk2bTRwYmk5YWFWcDJNUFBTZld0WGU1R3lUZmlYemY5UnNMTFNBOFpMeHRndFRaTlN0bnIyV0JrUThjTHRRVW1sVWtHai1pVkE2V2xrcDJJQTd4Rk8tTEtOWm4yYTJxUVBTY1hVSVFQam9Qa0NnaXBfUkhzNUpmTjFVdw?oc=5",
-    "k": "x energy submits xe 100 htgr for uk generic design assessment x energy",
-    "id": "d27861bb"
   },
   {
     "date": "2026-06-01",
@@ -2221,10 +1913,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "Oklo",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOLTJPYzk2cDlHRlZBcE51NUZiTUd1VmZjS255bnhkRkY3MDFnRU9FS1g1QkNkUTZudEJBM2Fxdm4yTkQ4ZzVKR0Q4OU5MRlNiNzl3V25qcDA5N2lwZzNmWmc0X0NvZklmTEttRDU5UncwVVVFWE5zbVA2RkR1Nnk3T1NyQ04wY0JrN0ZrZDFUT2hobDQzd2VKOG9iUTF6TkV3ekNkNGtn?oc=5",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-stock-ticket-becoming-millionaire-093600771.html",
     "k": "is oklo stock your ticket to becoming a millionaire",
-    "id": "f95d51b4"
+    "id": "9783c15b"
   },
   {
     "date": "2026-06-01",
@@ -2235,10 +1927,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "NuScale",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMjlzeDFHZWdWZGpLRzE3bXIxS2NVN2RndkQ0YVE1ejZIYU14NzJ3Q19vREdCTHhoU3VCNzZpU3hmdmdOZUc3UjMxal9tZ2VvYnZ3NFJ5ejhfUERpQVhBTmF3YURzT3pLZzJicEhHTmRkOHBlQkZaQ2czVzVKRFNpaHFBMVVJNUQwVW9DZ3JJYUJ4WXNVMXdCVw?oc=5",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/sectors/energy/articles/nuscale-power-sale-could-buy-172000732.html",
     "k": "nuscale power is on sale could this be the buy that sets you up for life",
-    "id": "27ab58d4"
+    "id": "48cd2f0b"
   },
   {
     "date": "2026-06-01",
@@ -2249,10 +1941,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "NuScale",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQS1FHSWg4YmZGLV94YmVZZVVFdDlteW1GUnF3Z01vNE5uNFVlbTJaQzcybDhOelpTNDRSUUlGZmJxeG1ZMzREelcwcHhwM3RhZ3JvMUxmaDF6bF9UVVlaS2ZiZHE2ZjRYZldNSERuSGM3MmE2TjZ6bjVUeEw3SFhmLXJhNDdRRFlpNEEzUDlnNjBuRHM?oc=5",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/sectors/energy/articles/why-nuscale-power-smr-13-061014147.html",
     "k": "why nuscale power smr is up 13 1 after advancing global smr partnership talks and projects",
-    "id": "5fdf3caa"
+    "id": "7cfbc59b"
   },
   {
     "date": "2026-05-31",
@@ -2263,10 +1955,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOS2dZLUpJVkFFYm03cFh1cmhZWkoyaXNmSmx5aElNN3BjcEtpbXBPYjJob2FVRUVkQUlmRFNqaFJaMlk3U1lKN2xMbEMxeHgteWpablkwSDkyaUIyVzRWRmVfTGRLNDdjMkZIU0g4TTBmSEFDSzNwaHloWE1pa2d6UWZzMVZ2Y1d5RmhVR21wS3hpRzVaeVdiS0lZWUlEQQ?oc=5",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/sectors/energy/articles/u-pushing-small-modular-reactors-190320406.html",
     "k": "u s pushing small modular reactors for commercial shipping in major nuclear maritime push",
-    "id": "d4b1e9fb"
+    "id": "b8a0f183"
   },
   {
     "date": "2026-05-31",
@@ -2277,10 +1969,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBNSlVvUHJLUERiRTNEZncxTXBLOWVEZHFQQ0JtSm5jMy1GdUtQVXVGVUM5ckgzNHVJS0pKcWE1SGVRX3Zfb3c0R3N1ZFJjQzEzajl0OE9rdEhiaW5wQnE1ZFI4ZnR1OW1F?oc=5",
+    "source": "wbcb.co.kr",
+    "url": "https://www.wbcb.co.kr/news/articleView.html?idxno",
     "k": "부산시 2030년까지 원자력산업 육성에 1882억 투입 smr 원전해체 허브 도약",
-    "id": "b720d531"
+    "id": "f267493c"
   },
   {
     "date": "2026-05-29",
@@ -2304,10 +1996,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ3k0MFFtZUVDZ01RSlFTRENvaktLb0QtSHAwTFVudV8xdWhJYm1PejNTYW0xcF9UWEhHNU1mSF9CNk1YX3pPZ0pwV0ZsUWgzc3JmclotNEprU2pjT2s0ZjlvQ1lHZ182bHBDR2ZNUG4zYU9iYTVfejJ5ZG9xOWFKSDBiZUJpbWVmTjNySjlicw?oc=5",
+    "source": "sk.usembassy.gov",
+    "url": "https://sk.usembassy.gov/u-s-government-promotes-small-modular-reactor-smr-technology/",
     "k": "u s government promotes small modular reactor smr technology",
-    "id": "d34955c3"
+    "id": "f1c4a001"
   },
   {
     "date": "2026-05-29",
@@ -2318,10 +2010,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1GS3pPYkN3ZGxKbGhpRGRHemlwSzBZSmlWSl9BbGhJNGZvMjdhSmU3UWhwekR6ZFJQRUJrTlFmYURSdk1QNDAzNExMRHk5NDl6aVpmYUlVMHpFb1lSazhXZVBZMmE?oc=5",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno",
     "k": "영국 원자력 70년의 통찰 한국형 smr이 가야 할 길",
-    "id": "913cef3f"
+    "id": "fbaa4f4f"
   },
   {
     "date": "2026-05-29",
@@ -2332,10 +2024,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE92Mm5ZM3ZRdzE0X1FJQl9weFhPN3hadDRJb0VXeXo1UWpWOEtRZVpjNUNvS3hyN0RFX3B1bUZRbTVoX19Yc29RcHBMQnE0Z0FMMEljcWJLaXBVNjU3THVlYlQ5c2xZajdYa08zdWRndTNPZw?oc=5",
+    "source": "energy-news.co.kr",
+    "url": "https://www.energy-news.co.kr/news/articleView.html?idxno",
     "k": "smr 적기 개발 촉진할 가상원자로 베일 벗다",
-    "id": "6ff8566d"
+    "id": "19224922"
   },
   {
     "date": "2026-05-29",
@@ -2346,10 +2038,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOYWJpMXV3ZkpCUUFjVUNkUlA5QVRmbzlCRWhDMmZlR3NTX3BYaWs0blY2a0pidUtJaXlGUV9zSlhNS0ZFTE5HcWJYMXZma3cwUThGTHZmcVMwUXZweEFjYlJhZ3hINGdzakR4OFlNS3NtbWc5bHY1ZFZNTkI0djhDbGdkZmU3ZUd6MTRIbmpFNEJJUVZv?oc=5",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/05/29/nuclear-stock-face-off-is-oklo-or-nuscale-power/",
     "k": "nuclear stock face off is oklo or nuscale power the better buy right now",
-    "id": "c6bd2602"
+    "id": "9f5f22ef"
   },
   {
     "date": "2026-05",
@@ -2373,10 +2065,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "원자력연",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBlaXNYM042N1Q5UEwtQ3VPNFBEam42ZDZwSDh6akhhV2ltNGk2SzN0U3dRRmIxX0R1UWRtUlFib3pBamRnVzhMdWRQajFNU1FCY3ducg?oc=5",
+    "source": "dongascience.com",
+    "url": "https://www.dongascience.com/ko/news/78122",
     "k": "원자력연 인도 유럽에 국산 smr 수출 추진",
-    "id": "70155af4"
+    "id": "1bcb173d"
   },
   {
     "date": "2026-05-28",
@@ -2401,10 +2093,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "Rolls-Royce SMR",
     "region": "UK",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeWhhRVh5YVBYOGI3bFZRSExIdFJiMXNnaTdhU1lRaGt0dk1fbFlmNXQxTzRsdkxTc3VOZjQ2M0F1emRjZHpEdFpIWjJzUEVDU0NWQ3cyN2FveHhxQV9abjJQWnBTSlp4VFk5OUtHTU44V3FkWEFScjlKb1NZRm56MmNkS1c4NVJsT2M5WWtaUndzNzlmOGxwRFdha1pyRjNz?oc=5",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/skoda-js-doosan-enerbility-get-key-rolls-royce-smr-work",
     "k": "koda js doosan enerbility get key rolls royce smr work",
-    "id": "23277d3c"
+    "id": "0117a254"
   },
   {
     "date": "2026-05-28",
@@ -2415,10 +2107,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "i-SMR",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBMMk5nQUNjZ2VtQlBsb3I4bERRbWJQZXBfVW96MXlRTUotYXAyUUZPeG51RDlRMjJkY3NkTUZPbVpINndJMjlhTkZDVGtKYlBmLWVVWkNybmFKMGJkdW90dVBEakpLQQ?oc=5",
+    "source": "eroun.net",
+    "url": "https://www.eroun.net/news/articleView.html?idxno",
     "k": "기고 이재근 경주시 원자력정책 자문관 혁신형 i smr 경주유치는 주민수용성이다",
-    "id": "7cb43295"
+    "id": "7814b8e3"
   },
   {
     "date": "2026-05-27",
@@ -2429,10 +2121,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "Oklo",
     "region": "US",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE4wZjIzN2tkS3I4Wk5UYTNTZktnTk9XcUZESHFtVU9uVm00eFFRYnVxWDBZZHZLSmptb1RfeUdfd2swYW9vd3dpTkYxYTZ6RUVZZW9JZER4TUNRNEFaWmdfOVZNQQ?oc=5",
+    "source": "theguru.co.kr",
+    "url": "https://www.theguru.co.kr/news/article.html?no",
     "k": "샘 올트먼 smr 오클로 에너지부 핵탄두 추출 플루토늄 원자로 연료 사업 참여",
-    "id": "80632f4b"
+    "id": "97b6e52e"
   },
   {
     "date": "2026-05-27",
@@ -2443,10 +2135,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "Oklo",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTTZWVlZ6Z1ZwUUZJemsyRmpxTmJSNjJ4MGNtM1RreHZvcXFvVTNYLTdTRVQwQnZZTXc5czU3dTVqMHB2VWIwWTExM1F2aEkyTDhNT0lhYjcwTmh1cjZWSlRScTNqd2czNWFDMVBTNjRWcm1JNWJhSXl6TWVydXlxMVpYTmY4VW9mM3lxbXRXMXJaeU44TDBZ?oc=5",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/oklo-selected-for-us-surplus-plutonium-programme",
     "k": "oklo selected for us surplus plutonium programme",
-    "id": "a8d9fc6c"
+    "id": "8db7f1d3"
   },
   {
     "date": "2026-05-26",
@@ -2457,10 +2149,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "EU",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOVDBOT1BETGh0bXZBR2UtNTVycWl2VFQtbnVuUXZPVG1OdVFmN0RGdS05SmI2bURVQ0gxTGhNTjVqcVZaV09fcXpkbXVTSV8wNXJEb2hRWmxuVm5UZjhoMU9Tb25pMW9BNE9FNnhQSmV1MjdhVmhBY0NrcXJ6S3hVS3FmNG9mZE5XTTFuNkFtaFV6Nno4?oc=5",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/third-application-lodged-for-swedish-smr-plant",
     "k": "third application lodged for swedish smr plant",
-    "id": "588c14ef"
+    "id": "d8ea2656"
   },
   {
     "date": "2026-05-26",
@@ -2471,10 +2163,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kcHlyclltems3Q0hka2x2a3BxcnpmWHByc3NSWm92YzZqT1h6TWprZ0E1THpLZ0diX3gwQ21oRk1mYlB5dDRNYzZRN2Q5b2pHSG9oMElRRDJBdw?oc=5",
+    "source": "gjnews.com",
+    "url": "https://www.gjnews.com/news/view.php?idx",
     "k": "혁신형 i smr 소형모듈원자로 경주유치는 주민수용성이다",
-    "id": "56f63b65"
+    "id": "adb60fc4"
   },
   {
     "date": "2026-05-26",
@@ -2485,10 +2177,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "Oklo",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA2LUpBc3UyNXd3VVdFNXQ2dTlYaGlUVk1VVmZ0cXpjczVXVXRfaENBQXNFVEtMejdGQ1RUbWlCZVp5WHU3ODUzaTF5V2JRenpEcjlKOG5pY2V5UFVGV2UwYnVEZGkyVnROWURnd1dFc3VDZU5pMjg0clVR?oc=5",
+    "source": "barrons.com",
+    "url": "https://www.barrons.com/articles/oklo-stock-plutonium-nuclear-f2c6cd60",
     "k": "oklo is turning weapons grade plutonium into nuclear fuel the stock is climbing",
-    "id": "8f4f5c44"
+    "id": "965e556c"
   },
   {
     "date": "2026-05-25",
@@ -2499,10 +2191,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUE83UUZMZ0NqamFxMFFyYm9yYUhMbG84MTdmTUxWY0xNSUxKYlZDNVNkbEY4QmV6MUQwTTFDemh1UEFhYlRDQm9FTTFPWkNEQU9DSVNCZUNWaGotMmtLSy1ZcmsyS25YZnNQSk1SZ296SWd4eDNJUkF0N3FDRFhsaWpxTGFjWTJSVFhURTQyZTlnVWh0TUtzMFp4RFdpNWJ1QUtZV2JHa0ZPdlV6dDEtTmQ1VU94WXg3d1NTZGkwMjVMYXVu?oc=5",
+    "source": "presidentialprayerteam.org",
+    "url": "https://www.presidentialprayerteam.org/2026/05/25/energy-department-awards-funding-to-expedite-small-modular-reactor-projects/",
     "k": "energy department awards funding to expedite small modular reactor projects",
-    "id": "b04d9866"
+    "id": "5af56cee"
   },
   {
     "date": "2026-05-25",
@@ -2513,10 +2205,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "NuScale",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOeWYtSVVselIxYWFuUHdPSHdEaHVKYmFIWi1reXFTQTFDX3NzdUFuMXVxMjYyV0xQU2Q3b201ZkFsMXhKazB4QkZyX3JEVURiaGRjbEotc2gtVDJ1Tm9lNzlKR1NPNHRkamNWQmJUTl9aRWk1OW9CTl9GbS12d2VNbkxsQmtqcHVwbG9vaVZzUlVYRnVCNjVXMmphNA?oc=5",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/sectors/energy/articles/nuscale-pursues-6-gigawatt-smr-042855370.html",
     "k": "nuscale pursues 6 gigawatt smr buildout and moves toward first projects",
-    "id": "31d28d08"
+    "id": "90bc75f5"
   },
   {
     "date": "2026-05-25",
@@ -2527,10 +2219,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdnBBMFAxSFR3LUtyNncwRVNjX2V0eWRkdUFHWWZDYnBBR2M2YU9RdF9TTno4Nk9Ldi0yY19IQlhDa3plQlMxcGhzbW05TXVReW1zR2QyLUktVV9fbW9Tanh0VGNLdlowcXM2WGFqc28zUjFTZEItTzZPWXRWSjM0cElJb0luQW9WWGtLdlRLaFRGMmNla0E?oc=5",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/sectors/energy/articles/oklo-vs-nuscale-power-2026-112000234.html",
     "k": "oklo vs nuscale power in 2026 which one is actually worth buying",
-    "id": "c47ce077"
+    "id": "b7a1e24e"
   },
   {
     "date": "2026-05-24",
@@ -2541,10 +2233,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "HD현대重",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE44TjRBbkpoWG5SbFBoZnJZRjdvMEtOSVRKeS1CM1pZaE5ld1huRzBIZmVtYUpUZUF2cmlNRl8tdG9GR01MTHVBYVJDVmhUdW8?oc=5",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260524122703823",
     "k": "실증 원전 넘어 상업용 smr로 hd현대 최종 목표는 원자력 추진선",
-    "id": "80a1a08d"
+    "id": "7ecdc9fd"
   },
   {
     "date": "2026-05-22",
@@ -2555,10 +2247,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE83U3I2YXREbllpQk5iOUxZa2hBb0xPMy1Rd0hUX3hjeFJHeFNseGlWWGVyNHo4Q3Iwek1kUzVJSVJzRnpBUlFSNlRTUHc2bnYxMk9PMA?oc=5",
+    "source": "dongascience.com",
+    "url": "https://www.dongascience.com/ko/news/78037",
     "k": "특별기고 smr 시대 원자력 안전규제 사전검토제도의 의미",
-    "id": "c9ce475a"
+    "id": "2a2c4044"
   },
   {
     "date": "2026-05-21",
@@ -2569,24 +2261,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "NPPD",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQUTZBWmF4aWpFOVlRZDBuaWRsWEhYdERPNnYyUk8yRm1MT1MyMWtDbGpKZm1IelB4SmhOT3NqYmN2UEt0NVRGNXA5NnMyZzhYV0loeXBvaUFVUkZrMFVEcEQyai1UdmMwdmNwVGR6Sl80cHBvV2hXT3IwNU8yOWc1Y1Rkd1ljOHVHSVVpZ0JxZGtCeXZ0akxLa21yeElmeEstWkVzMnNudDczSlBIdkp3TkdyX1RYMlpuNl91bTZ2amtoVFBGcGtCMlFldkJqODlkaUxVetIB6AFBVV95cUxQZmpjeUl4ZTJYTV9PZ0I4UnptSkgzeXNuY0huanNhLTFTdURsYXJWSmFXVEhrVGV5RzFHWGx2Rm1NX2I3c1h0VFIzRVVObmhHd2cyVWg3em5pQVdFLWpUS0ZsQzd6YTNmSzFiMV9vSVZHTkMzM28tdUtYaVFJQ1VzZW5oUzJrUS01MjBGZzdzQzNfbkVGVE9GaUxDV1g4ZGRibDhwZkk0dGlyVkFYZlZ5aF9hQWR4OE93enNlSU1xN3hPeXNMaGRBSEU3Y2YyeDFHZEp2UVBWZGNFVjF6TUdaT1ZidUlyVXlh?oc=5",
+    "source": "knopnews2.com",
+    "url": "https://www.knopnews2.com/2026/05/21/continuing-coverage-lincoln-county-leaders-push-sutherland-nppd-small-modular-reactor-search-narrows/",
     "k": "continuing coverage lincoln county leaders push for sutherland as nppd small modular reactor search narrows",
-    "id": "11137a58"
-  },
-  {
-    "date": "2026-05-21",
-    "title": "X-에너지, 2026년 1분기 실적 발표 예정",
-    "summary": "X-에너지(X-Energy)가 2026년 6월 4일 1분기 재무 실적을 발표할 예정이다.",
-    "summaryLong": "미국 에너지부(DOE) 지원을 받는 고급 원자로 기술 개발사 X-에너지(X-Energy, NASDAQ: XE)가 2026년 6월 4일 1분기 재무 실적을 보고할 계획을 발표했다. 이는 첨단핵연료 제조사이자 설계사로서의 회사 성과를 정기적으로 공개하는 상장사의 투명성 공시다. 해당 실적 발표를 통해 회사의 사업 진행 상황과 재무 건전성을 확인할 수 있을 것으로 예상된다.",
-    "cat": "기술",
-    "type": "HTGR",
-    "dev": "X-Energy",
-    "region": "US",
-    "source": "X-Energy, Inc. News Releases",
-    "url": "https://investors.x-energy.com/news-releases/news-release-details/x-energy-report-first-quarter-2026-results-june-4-2026",
-    "k": "x energy to report first quarter 2026 results on june 4 2026",
-    "id": "bf749b2d"
+    "id": "75a25596"
   },
   {
     "date": "2026-05-21",
@@ -2597,10 +2275,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "TerraPower",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYW9lMDZVREExU2VScUduUFNXWGx2SHhyWk5tR0lBWDBUT2ZsOGV4SjJWbFFrOTZtbFcyY3JGNGdXUnBERWdjWGtwWnViZFN3NDd0a1BsemliOGxpMlhsM0JIR01uU3VObkRZX0ZxOFFERlZ6QllDZDBZSDZFeC1faHdxQ1pLLWNnT1Jva2V1bkNWRl9xajN5YjNGdXl1b1NWSGE0?oc=5",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/terrapower-and-hd-hyundai-sign-natrium-reactor-agreements",
     "k": "terrapower and hd hyundai sign natrium reactor agreements",
-    "id": "1c030c6f"
+    "id": "8ed112a2"
   },
   {
     "date": "2026-05-20",
@@ -2611,38 +2289,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "Deep Fission",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVURBM21uXy14bjFudk9WVV9Pd1l2RFVmWUF1dXQ5UzZXd1I5blhCMm5QZHJNRHF1U01jZzlKMXcxVm93dlJyZWNLekx5SHRYY3lVQTY3dFQ3SG80Z2hrMERkZl8wcHBodmRUU2lRN0pBclk3VGV4S18xNjdyMUtLTEFvRmxwUVN5Z1BlTmFrZ2xNa1dQZzQwSEJGNDVDbkVTYnFrU21OcmpWajlmMmZnTUk3alhBZlVpREZBd2VXUG9YZ3pnYVdJNW9ZNDhVdw?oc=5",
+    "source": "renaissancecapital.com",
+    "url": "https://www.renaissancecapital.com/IPO-Center/News/119212/Small-modular-nuclear-reactor-developer-Deep-Fission-files-for-a-$150-milli",
     "k": "fisn ipo news small modular nuclear reactor developer deep fission files for a 150 million ipo",
-    "id": "1eb98125"
-  },
-  {
-    "date": "2026-05-20",
-    "title": "네브래스카 전력공사, 소형모듈원자로 잠재 입지 4곳 선정",
-    "summary": "미국 네브래스카 전력공사(NPPD)가 소형모듈원자로(SMR) 건설 후보지로 네브래스카주 4개 지역사회를 선정했다.",
-    "summaryLong": "미국 네브래스카주의 주요 전력공사인 네브래스카 전력공사(NPPD)가 소형모듈원자로(SMR) 개발을 위한 잠재 입지로 네브래스카주 내 4개 지역사회를 선정했다. 이는 NPPD의 에너지 공급 다원화 전략 및 탄소감축 목표 달성을 위한 구체적인 실행 계획을 나타낸다. SMR 건설 후보지 선정은 미국의 지역사회 기반 에너지 자립화 추진을 시사하며, 향후 입지 협의 및 인허가 과정으로 진전될 것으로 예상된다.",
-    "cat": "기술",
-    "type": "General",
-    "dev": "NPPD",
-    "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYmc5cmFKOU54VTFxM3RudjQyM0wwZE5nS3JEVldjLUtvUEN4LThhc2NaNDdjUG80TGZvV25IZWxObHJsS1R4LXVkbURYU1dGMzZJNUMzTkZwUmZrR0U4d2ZIMVVPSk9na0tvQzcwSlU5a1doNHM3T09PM0ZMdmY0eEgyM3BNYkNSTjFuQVBNc3JuSmpfVnhrRUkwOXRSRy15SGN4YTR1ZDlsVWVzNzlhQlNYekg?oc=5",
-    "k": "nppd identifies 4 nebraska communities as potential small modular reactor sites",
-    "id": "d45c422e"
-  },
-  {
-    "date": "2026-05-20",
-    "title": "미국 네브래스카 발전공사(NPPD), 4개 지역을 소형모듈원자로(SMR) 건설 후보지로 지정",
-    "summary": "미국 네브래스카 발전공사(NPPD)가 네브래스카 주 내 4개 지역을 소형모듈원자로(SMR) 건설 후보지로 지정했다.",
-    "summaryLong": "미국 네브래스카 발전공사(NPPD)가 네브래스카(Nebraska) 주 내 4개 지역을 소형모듈원자로(SMR) 건설 가능 지역으로 공식 지정했다. 이는 기초 인프라 평가 및 부지 선정 프로세스의 중요한 단계를 나타내며, 지역사회 의견 수렴과 함께 향후 건설 적지 확정으로 이어질 것으로 예상된다.",
-    "cat": "기술",
-    "type": "General",
-    "dev": "NPPD",
-    "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNb1V1ZVRpTDB1OUdtMG1NeWdxaWNYT1BvUWE2VVJxdF9pbkU3b2dRVUcwajNYUGhoNFNkY0ZjWnlsNzAwalVNZmVVZ1h5UUdNejN6M3g2VmplT1ZXYkVfMnNOYWwxRTkxcU8xNnlDNTRTYlBMcnVHUmRDYTBlYUtpSjVMTXJZUDdTYXFuTHF4YUxDVXRHN01uNkgzd2U5YlRyNHRRNUE0cnZLLTA2V2FoeTdCOEZKSl9XdHc?oc=5",
-    "k": "nppd identifies 4 nebraska communities as potential small modular reactor sites koln nebraska local news weather sports",
-    "id": "afdb85b0"
+    "id": "3873a96a"
   },
   {
     "date": "2026-05-19",
@@ -2653,10 +2303,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9OMndPM1hYcUlia250SHNHZ21aUk1KUHhMYVE4WVBXc3E2M1NQckE1dHF6M0NTRzNBdGFSSVN5MjJ1aFdZM2k4enFHWG5vR0lrUGtyUF93cERicTM1SWN6bmdtZTFOWUVORGJHaGNB?oc=5",
+    "source": "asiatoday.co.kr",
+    "url": "https://www.asiatoday.co.kr/kn/view.php?key",
     "k": "차세대 smr 조기확보 과기부 미래 원자력 정책 수립 돌입",
-    "id": "62ae6ead"
+    "id": "b20d13d1"
   },
   {
     "date": "2026-05-19",
@@ -2695,10 +2345,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5RTUVJaUpaNUVKSWliWDNuUXdmNXZmVTRzTXI5cG81VThFY3B1aUlNZ19maVN4c25tRGZRZHNReTNqaE1Ic3VOY1UxcG85c0NYemVpbWpUU1FXTGlzNm9xSlNLOEw5YmR0djE4TUtST1VWUFhHWXllT3lXNEhnZzQ?oc=5",
+    "source": "executivegov.com",
+    "url": "https://www.executivegov.com/articles/doe-small-modular-reactor-deployment",
     "k": "doe awards 94m to 8 companies to accelerate small modular reactor deployment",
-    "id": "d3188cc4"
+    "id": "c928d9e9"
   },
   {
     "date": "2026-05-15",
@@ -2709,10 +2359,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82T0NkTkhWVjd0cjI2RGJaeEkyVEhNUks2ZzdrZm90QnNWOVdTM0UweFduVnhyQXYxczhQV2hEc2ZCS1VJWnNlYl94bVFLWVdjN0Y3V3N1Uk05cGtOWkt1cDROeU0wcjloVXNQRGxyQXA?oc=5",
+    "source": "market.us",
+    "url": "https://market.us/report/nuclear-small-modular-reactors-market/",
     "k": "nuclear small modular reactors market size cagr of 14 8",
-    "id": "e1416aad"
+    "id": "81f7fb8d"
   },
   {
     "date": "2026-05-12",
@@ -2723,10 +2373,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "VTT",
     "region": "EU",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNMkVSOXlBWlhIVndyMFk4ZWpyNUxENHU2em56Zk8zZEQ3NWpyeFRGTnI5LWpzR3IzVlA4QTkyZ01sYU54MkI1THdXVXNFM3dZUFI2Q2tWQVpoQTFpaUlNVVU1eVNrN0lKSnRCZndBOHl6WGQ1UzVZTkF1ZzNMUGx2dF84RXpQNFN2Z1hVZS01NG8wdEZWRUtZV2pLMFllaVZ5WHFqTzRjT2pzYm1TOVBPX25uUzVCMTRsV2huSU1JQ0lWQQ?oc=5",
+    "source": "vttresearch.com",
+    "url": "https://www.vttresearch.com/en/news-and-ideas/integrating-waste-management-small-modular-reactor-design-start-we-aim-support",
     "k": "integrating waste management into small modular vtt news",
-    "id": "8684c2b2"
+    "id": "53e73999"
   },
   {
     "date": "2026-05-12",
@@ -2737,10 +2387,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAtNlVILTBEakJCWS1veE5JQVR1UGxiV0NuUmtGR3BxQktDeTlubWNxSnRMbXpWT2VRRkp3LV9IVzlwdzFnbXB3T0hKQ3BmOWFRT2swNnNiT1k3SmhsWUE?oc=5",
+    "source": "ikbn.news",
+    "url": "https://www.ikbn.news/news/article.html?no",
     "k": "소형모듈원자로 smr 핵연료물질 안전 규제 혁신을 위한 원자력안전법 개정",
-    "id": "8121f3c1"
+    "id": "9ad87ab2"
   },
   {
     "date": "2026-05-11",
@@ -2751,10 +2401,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNOWkwVnA5V0VBRVUwSXF4YzNjTnExX1VneHNMcVpxUzBaNG5KeGFnZU9mRXVnZmlWQkhBczhTX0RaenUzSGxfNjlWLVFXMDZQLW9mOFdEcUgyUmNmZmpGTVJ4bnZxV3E5aHNwZ0pNWGxFeWxkSWZ0NXJmQlZHTGFHc3U5bzNxZldnMTdDUWxGT2dtTW9IOWlwY3lraEwwc0gyYzE1M3FkdVZ6WVl3MGNFOTZETkpIRmRR0gG-AUFVX3lxTE5JQnVoVTNFMlFBSGR5MkRLTEdKUWloZlB3a1FRbFByZWdxTkd4Nkl6UVc1RVpnQWIyVjFnaDUzUDJ5TUluMlBtSGFPTXJ4RGcxcEFpZEtMR2tNbHNSb2t6YkdYQWRhbjVMZnlQWXNwaUxYSVZJb191RnIyaV9xYjZkSkxja0l4YUx2ZXppNXdMYTB0N1JJdW1ZeUl2UGVKRFhDRlV5bkNDb19oY0l0SllGaUt0TWdwbFJLZ2RyMGc?oc=5",
+    "source": "oilprice.com",
+    "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/SMRs-Arent-Losing-on-Technology-Theyre-Losing-on-Economics.html",
     "k": "smrs aren t losing on technology they re losing on economics crude oil prices today",
-    "id": "8414c09c"
+    "id": "63db7208"
   },
   {
     "date": "2026-05-11",
@@ -2779,10 +2429,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pNVJXYVhzTm0zSWZ6R28xRG9BTUk0c09YRmtNcDRZQVpjY0RpZlppOGpFYVY4RzBvR21BNHByZTFtTDl2RmlVSUh4MlpLMUdDMjNDM2lqTGtxaW1uM3NGMDNIUV8?oc=5",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno",
     "k": "뉴햄프셔 smr 법안 통과 2030년대 원전 배치 본격화",
-    "id": "9c50fe92"
+    "id": "fbaa4f4f"
   },
   {
     "date": "2026-05-07",
@@ -2793,10 +2443,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "NuScale",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdVpYbWJLQXp2bkkwUkNiSFk3V1RBX0xlYXpzT01yNnE0cldKZ09RMFdrTUdvUUtUNGNuTmtrY2pxbnZlMXdCV21DcjZleVpuRG1RcExYTzgzVTdtdzBURzBLNlZ4WW5TNGRWdGg3ampIeWtIMUgwcWdmSDRfQUNHMGFiTTVCelV3SkhaOEpob3MtNURwaDB4bFFVZ3NhUdIBrgFBVV95cUxPQ25ESmc1YVEwWktRUG5HekxsZ0tSb2w2RzlPY1Q1X05sZmtCT0c3Yk1SV29uMktEcmt5eXBzVEw0bDRxVUx5dUZCdFNqbEVZOU5Yd2x5NXhZd1cxX3V5M0w5Q2xhZWVNZzdWejlNN19PcG9qbnVRcTZZT2lfb1g3WHNvUU9YNU1HbDk3Vkpqd0h1Sm94ZkEweG41V1pCa045SERjampkMmxzV2ZzblE?oc=5",
+    "source": "nuscalepower.com",
+    "url": "https://www.nuscalepower.com/press-releases/2026/nuscale-power-reports-first-quarter-2026-results",
     "k": "nuscale power reports first quarter 2026 results",
-    "id": "ad5d3661"
+    "id": "0125bc80"
   },
   {
     "date": "2026-05-06",
@@ -2807,10 +2457,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "Oklo",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQV1NLbnVnWDVfZ0dWUTNzN2x4TjFTQ0lpNEdob3NNSEhSeHFNbE9VcVA4RE9icnBZWS1EQTA2RHN4NFhMUm1jQmNwRHRiMWlHR1JJREE0eTlWQ2ViMGxSbkVtNnpVNnZfY2ZwbldTSnZCQjllc1ljRldyNU9VaTdoY0Z1bWtNZzl1akdKY3YzalNiMTFkZ04tWmNfT2hIUE1oM2NQRHNzRU5JbnRubXpHMXdZNy1GZ01WRW1EQlowRngyN2JIVTNuMzNqblhWWjk3dVczSEdPeWx3eVRMeS12bA?oc=5",
+    "source": "oklo.com",
+    "url": "https://oklo.com/newsroom/news-details/2026/Oklos-NRC-Principal-Design-Criteria-Topical-Report-Approved-for-Aurora-Powerhouse-in-Idaho/default.aspx",
     "k": "oklo s nrc principal design criteria topical report approved for aurora powerhouse in idaho",
-    "id": "c6ad5010"
+    "id": "270775ed"
   },
   {
     "date": "2026-05-06",
@@ -2821,10 +2471,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "TerraPower",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNenFYdFdWSGFNZ3VaeFpzaGFFdXJmbVFqc3c1ZURaTmtLR3dVQ1ZfTXZBYVM4MFlQLXYxUlV1amdrZ28wVVNydUVtSFpQRmZLOExfajdYN0o4ejU5dTBoVTZXdzlOTWd4d183ZXZCN3JVU0dvelY5RWRjd1FkWEJ1NkhyUGlHM0pCeU0xeE9JdjN1a2ppN2hueTZIS3ZuWmw3RmxudWxBUTYyQmlkWERMRURYV3p2MWxETl8zbThSYzVwTlVxWWxRMVlONWs?oc=5",
+    "source": "dced.pa.gov",
+    "url": "https://dced.pa.gov/newsroom/shapiro-administration-breaks-ground-on-new-terrapower-isotopes-manufacturing-facility-in-philadelphia/",
     "k": "shapiro administration breaks ground on new terrapower isotopes manufacturing facility in philadelphia",
-    "id": "8cf5c3c4"
+    "id": "6f1485b9"
   },
   {
     "date": "2026-05-04",
@@ -2835,10 +2485,10 @@ window.SMR_NEWS = [
     "type": "MSR",
     "dev": "",
     "region": "",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE53ZUhUcnpoTHItd3l5MW5PcXZZTTBUcW1wRzI5U3lZbTVBY2huaDZsM09jNGdxczh4UjdObHhKVkpoaWFfcDJYVERxZGdGUXI5cFd3c3Q4a0x6SUIyOUQwTzZOdXY5NWx5aXVqdjZSeng?oc=5",
+    "source": "news.einfomax.co.kr",
+    "url": "https://news.einfomax.co.kr/news/articleView.html?idxno",
     "k": "smr 패권경쟁 바다 위에 띄우는 원자로 msr 2035년 건조 착수",
-    "id": "7fc4922e"
+    "id": "42951eb3"
   },
   {
     "date": "2026-05-04",
@@ -2863,10 +2513,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "LG&E and KU",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNT3A1N3ZfV0tjekJmSzhLalpNU3N1bm11WVFpOWhzOVRxX2tEUWt1ZmRNWnFuRXVyaXVzZG1EdEFmNnZTZVBieTIyUlRSbWkwMWNCU2tGUlBZRDhPTEkzcVgwdUpYODF1dExwZXZyM0VONGVYeHdrOVM2d3E5RFBoZzAxWlQzLUlSalhTSlZ3SFNvWU5GQ3ExNmRQQ1c2bGo0dkpwYXAtZlRlWVE?oc=5",
+    "source": "lanereport.com",
+    "url": "https://www.lanereport.com/187431/2026/05/lge-and-ku-exploring-use-of-small-modular-reactor-nuclear-energy/",
     "k": "lg e and ku exploring use of small modular reactor nuclear energy",
-    "id": "153886b7"
+    "id": "2bd6c306"
   },
   {
     "date": "2026-05-01",
@@ -2877,10 +2527,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "Ontario Power Generation",
     "region": "CA",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZS1YMUFUeGdvMlNtb2JDM3RpYjE5c0FBbUswa1VyY3NNOHloUlhJTzdZWlZRQzU2ZUxza0lzRV9tdWxCNS00SVY3cjJGalp6akIybndhdFI1ZV80RUxGejhCQXJJUldzMEFCSlp3Q01vbVprUDBpd0pkMTlzRllkb0tUNHc1aF95ZUF1T0E3eGFXQWd6bGxNcXl1TTRIVzRhOXZicA?oc=5",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/darlington-smr-nuclear-project-foundation-module-milestone",
     "k": "darlington smr project s foundation module milestone",
-    "id": "e7266e3f"
+    "id": "68bbd271"
   },
   {
     "date": "2026-04-30",
@@ -2891,10 +2541,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "i-SMR",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1zY2tYeG5yYUM5NmtXeUwxelZudDByRWdDdVhqYXRzZ2tVcll5Y2laM0Y2dG1pZVR3RnVpcFpBWXlvWmthcWcwdzY1M3hkS01DcUJqWUY0OXBmTkZHSUkxdEdWRmJkenRzVFphbtIBcEFVX3lxTFBONHo1WHJkUHVLT09GUkR2cU0tb1JsNXA5ajRBcjNPSUgwN2xjNkp3Nk42Rm5JNzJpX3F3STUyZ3RrbzVoR1NibFBnZndBMXNOcngwNENSM2N0MXZ0UzM1a3AyMEt6czFFaWJBODJwUk4?oc=5",
+    "source": "electimes.com",
+    "url": "https://www.electimes.com/news/articleView.html?idxno",
     "k": "기장군 i smr 유치 공감대 확산 경주와 유치 경쟁 본격화",
-    "id": "670a51e9"
+    "id": "a366aa9f"
   },
   {
     "date": "2026-04-30",
@@ -2946,10 +2596,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "Rolls-Royce",
     "region": "UK",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNMWVQY0J3OG9IOGU1THpNQlMzSDI2blE3NXVudWZoSS1XcDg3QUx2VTR2LUVWbE5qbVB3UlhZYTNMNW8wR0dIa3QwNFV3V0t3UUJTWVNka01HM1NscGhJLU5VaHlxcWUxWFJBVm04NE03U21yRHhmeXoxUERWQWJnM0JwRUIwMTRxdUVJV1hIX2ktYXBHOFRfZ1JIcGEzbjRkVkQyWUlNd1MwZGtibzNJWXIzeTAwdVg4SEJSTGFZZG1uZlRIT3hpNGo2dHJ3Ylp0VEV2WjExTEs?oc=5",
+    "source": "akersolutions.com",
+    "url": "https://www.akersolutions.com/news/news-archive/2026/aker-solutions-signs-mou-with-rolls-royce-smr-for-small-modular-reactor-energy-projects/",
     "k": "aker solutions signs mou with rolls royce smr for small modular reactor energy projects",
-    "id": "29ea8e90"
+    "id": "9f70215a"
   },
   {
     "date": "2026-04-29",
@@ -2960,10 +2610,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "DL E&C",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOd2U3ZXNoMkxwMDBwa0puaWJDUENmWGRnR0pKbUwzTFB2SndxNWNoZXA2SlRfMXNUM09oRWR5SzBMeWc3YWlxLU9uUE9tOHFZMWNiOXRjUmVnMnNoZFNVZ3JOR3RGOG5XOG40ZThCTkFGaWIwZVRmN085VDhCSGV0eTBvc1ItM21aM1RjYzloSHpvem5Uemo3QjdlaGnSAaIBQVVfeXFMT1pyWXpheWt1dE1Yc2VMT1BlczNIeEVLRkFMZm13OGsxRnhvYjBKWGtlRThnVnE1cDZoV3VEMTd6NUVSS3pwcHljV0NoZUtMMFNBWHlySE9HLTBnckViYWFtWDBPbGQxZDgzSnZHTEFJTVBXbEV0Rm9xZk8wWjdNWlhHVDBBSVBWVjQxMFRHZTR2eGdOOV9kRlBSTmZEajJ5a3RR?oc=5",
+    "source": "upi.com",
+    "url": "https://www.upi.com/Top_News/World-News/2026/04/29/business-small-modular-reactor/4731777516294/",
     "k": "dl e c s stake in u s small modular reactor firm jumps sixfold",
-    "id": "963ae4c6"
+    "id": "511be5bb"
   },
   {
     "date": "2026-04-29",
@@ -2974,10 +2624,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8zSDFlUGlUVnpaMnpuSHFPMlp4ME9nbDhXVkVtQjFIMHRJZUdfUGVpLXMtbDVncEx0c3VCNW45SEdpN0ZFQlQ1d3BEa2p2UUN6bE45Zg?oc=5",
+    "source": "dongascience.com",
+    "url": "https://www.dongascience.com/ko/news/77658",
     "k": "2035년 소형원자로 선박 건조 착수 중국 따라잡을 것",
-    "id": "4a853060"
+    "id": "b5437526"
   },
   {
     "date": "2026-04-29",
@@ -2988,10 +2638,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "NuScale",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTWV0ZnlFMHphN0RQZzJyX3E2al90YUtXeFp5TjJ5T2JpdDhUYmtMczV4TDNTTF9LU0FLVlllRHlYMlZJV3NpRm5hVW1WZjJKd0E4QU4yakQtS3JEY2FybXo5RW9Cb2VDNVFqbTZpQmtyYWV3SFdCUG5WMlIybzFOc09aUEVlNlFoM2UxQnJCNE9KanZubUtteE1TZmxWa0h5cjltNW9FUFF2SE8wYlNLdnBqLUZsQlJYcWd0c1JB0gHOAUFVX3lxTFBMQm5pSGR1N2VOVnhOVjhhdXZvZVBZUjhXMl9YbGZJY1FEaXBwY2tURVpETko2djNIQ3VDTURkN3lIUEtkVU9yd24wRlBKRnl2ZlZYTFpUS1MtX3otal9scHYyeWJuZVdPY2dzWnp6VXIyYXp4T1lXVkdHcWR3S3B6Vk81a0lKbUJURlFsc19DVUF4czNibDVid0tOVXNoYzJGZUQyOW8zNXZmcjdfM2sxcFFRZ3lmdlBBUGNkTGVKX3F5SlVQbURSWDhSWk9B?oc=5",
+    "source": "nuscalepower.com",
+    "url": "https://www.nuscalepower.com/press-releases/2026/nuscale-power-announces-opening-of-an-operations-center-in-houston-texas",
     "k": "nuscale power announces opening of an operations center in houston texas",
-    "id": "94132a9c"
+    "id": "5c5e1e6c"
   },
   {
     "date": "2026-04-28",
@@ -3002,10 +2652,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE42LXVoSzhjRWNnQjllMTEzQWpCdEZubEhyaDBCWF9sOEVwZjI4NVgtMnNmWmpNUFUtQWIxMkZ1TzJObHdnY3pFRThoSUtsRmJjdl91Ui16Tk44RXd0akdUZTBhTC1SOVRGeGVJZNIBcEFVX3lxTE5pYWJPOWJJc2ctT2hyNnpBRmh2UDFNRXRvTmljbGpoajIwX1g3OVVOQzZpMUhHRHpkRE12WWZhcFFKeGRVQWRta3l5clBkWXJIMW0zY2lEcE5sbnlEZ2F5R3RpcU5hSDM3UWIwa0lIZ1k?oc=5",
+    "source": "electimes.com",
+    "url": "https://www.electimes.com/news/articleView.html?idxno",
     "k": "경남 275억 규모 smr 시험검사지원센터 유치",
-    "id": "07984727"
+    "id": "a366aa9f"
   },
   {
     "date": "2026-04-27",
@@ -3016,10 +2666,10 @@ window.SMR_NEWS = [
     "type": "HTGR",
     "dev": "X-Energy",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQckpjQURJcGVEb1ZEcWhvUWt0cW9uaEpOTXltNzhkcDBXZlJWSzFhUzFEckRZcG41eUZnWW5xRHJXMnpCSEJBMmJrcTRvdkN3QTVPcFk5TTRPX3FHREIyam05WTk1ZkwwVUJidTNBSzlRdE5sLUZFOFR1UWdkZGRtV19Wa3VEcFpYU3hNY0xiMzl2ckVNblJPTmZZUFVFZ2o5THJaMnMwUTEzSXRwWEpMeFdWTQ?oc=5",
+    "source": "moomoo.com",
+    "url": "http://www.moomoo.com/community/feed/small-reactor-stocks-soar-1-5x-immediately-after-ipo-capital-116481030684678",
     "k": "small modular reactor stocks soaring x energy surges 1 5x right after ipo is ai power hunger accelerating capital shifts spillover effects on related stocks",
-    "id": "7ed222ac"
+    "id": "544f9a49"
   },
   {
     "date": "2026-04-27",
@@ -3030,10 +2680,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "CA",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNVlRqaEtCSmJlenNMdlJqcURHWTBQMWllejNkODRxVUxmUWxHZU9mZW10S0JlN29CX0FWTVpYRWhGdlBnNEkyaHJsdkU2ajZNVzR4LTYwN1FPSDNBVlR5azNGVTA5dEQ4U3hyLUJNbzhkR0tKaE1Fc0xsLWFwblNZRHlmc2ZqTUlqckRZRDFPd0VJVWdiNG1KT0xaSzZpQzhEa3Jnay04cG83MjdRR1JXdmlMUkhoY3BaWE9MTw?oc=5",
+    "source": "canada.constructconnect.com",
+    "url": "https://canada.constructconnect.com/dcn/news/resource/2026/04/ontario-yukon-partner-on-small-modular-reactor-development",
     "k": "ontario yukon partner on small modular reactor development",
-    "id": "fe43a092"
+    "id": "a3b6695a"
   },
   {
     "date": "2026-04-27",
@@ -3044,10 +2694,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5uMlpRX0FJc01oVmJ6VXY1d3VreWdEVTR2RFNZQzgzcUotdC1OUkFwWlhmVENxYzdUanp1MV9Ga1VIQ1p0cDhsNDVGMlNiNE1VY1JHc2g1c2dGc2MxTDduWmVSMA?oc=5",
+    "source": "eia.gov",
+    "url": "https://www.eia.gov/todayinenergy/detail.php?id",
     "k": "small modular reactors and microreactors under development in the united states",
-    "id": "540d669f"
+    "id": "c8851e2b"
   },
   {
     "date": "2026-04-27",
@@ -3058,10 +2708,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "EU",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMkxCRDl6TnlMRk1IUENHRzdBalN2em4xaThxRU0wOVhmeHhPdFo3bk10R243SERFOFZNdlVhQTlyMW1BQ0RxZUUybW1sM0RJUHBNQ0tMZEdTMmFYdTdlS3pmc05Oc2tXSUhBR3E3dzRxY0xSU0lrNHJGblJpMzRYRVlWeFZhNUt4eTY0UmtybU9OVVQ2Q3c?oc=5",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/czech-smr-project---early-works-contract-signed",
     "k": "czech smr project early works contract signed",
-    "id": "2d2a1d5a"
+    "id": "b254d886"
   },
   {
     "date": "2026-04-25",
@@ -3072,10 +2722,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8wcndvZ1RLUF9rdm54bWpRZmlmZ1RWVWN2UFRMYXNTbTZjdFBPdlBRVWRtMGVGMEc3Z09SbDlNeDJIMFRmdlFvak1ENW52VnVBX1o2STQ4NWkwbGZ1N0dZVjluRDkwOVRFYUc1WNIBcEFVX3lxTE1QYnM1bDR2Qlhtb0JtZlNyMEdta2JzeEEzS0p2YUxpVzY3aWJsMGRUVnhneVBpRGRsekZFbkxSR1hhaFFDSXpubHpVcmpQRHhCX2pXS3ZaNUtSUmluU29aTDJWdVR5Z1dqblhMa3huRlc?oc=5",
+    "source": "electimes.com",
+    "url": "https://www.electimes.com/news/articleView.html?idxno",
     "k": "경남도 smr 패스트트랙 원자력안전법 개정안 국회 통과 환영",
-    "id": "41c7dab6"
+    "id": "a366aa9f"
   },
   {
     "date": "2026-04-24",
@@ -3086,10 +2736,10 @@ window.SMR_NEWS = [
     "type": "HTGR",
     "dev": "X-Energy",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPdk5MNlJqUk11MUJTaXRwVThhenB4b0d6S3BVNW8yWjFUc1pLMU9Vd08yWVFjWjlLYUJKUi1ZVnZjX2w4X00tYnpRSGlYTDRrbjN6UGlYLWhSZy1aMFJKaU9KeWpwRUg5ckN0X0VpQm1oUl9Zd004VUxmRTNRdzZSVExPdkRTZDdmWmlFeS1hSkRCOU5fUVVwNVRiNXJlUndMcmxiYzljQmJybjhWYkdENnRqNWladURmdlNhM1I2M0h5RDhWSjZDeWFVVEtqUQ?oc=5",
+    "source": "renaissancecapital.com",
+    "url": "https://www.renaissancecapital.com/IPO-Center/News/118531/Small-modular-reactor-developer-X-Energy-prices-upsized-IPO-at-$23-above-th",
     "k": "xe ipo news small modular reactor developer x energy prices upsized ipo at 23 above the range",
-    "id": "06d46f9b"
+    "id": "aa8777b4"
   },
   {
     "date": "2026-04-24",
@@ -3100,10 +2750,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdHJJWjFxWkdQa0oxdUFiZDJOQ2UtVVczcU94QWpDcXNXeGd5UThKOFRrUDAzRzRQOE96cmFpVGlINVRldTY3bzZTZ1htSE4zZGE4NW5rb2F4cG43LUwwWnhhT2pjWU5EX1NFZHZEZVkyRGdZRkh2TWdIMnFwREUwYXduYzBhS3FtUmV0enlSNWtDbHVxWjZ1dnNFSnYtYXQzQTBJSWcxS0l3YXJt?oc=5",
+    "source": "orfme.org",
+    "url": "https://orfme.org/research/big-aspirations-for-small-modular-reactors-understanding-indias-strategy-on-smrs/",
     "k": "big aspirations for small modular reactors understanding india s strategy on smrs",
-    "id": "ecd18210"
+    "id": "4ebd772a"
   },
   {
     "date": "2026-04-24",
@@ -3128,10 +2778,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "TerraPower",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQSjE3alduOXg3aFFucnNoTl9QM2t5LUlOQ1prRWZiNmRmam1xcEhyRWMzV003aW14U1BqWld6X3J5ZjZmUmFVRVl1TmZWaFY5dGlJUnRfcnlQbnIzS3F4RG5Jb2p3YzNkT3AwdTNFUUZiWnBLNUR6WEJDMDVzQXN1WlBwT3NXZUlldjc2a2pvc0lQelFmQTV2aUlhSFF3Z2swd0MyM2lIUXIxM2tfbWtaNVhUeGVnZw?oc=5",
+    "source": "ans.org",
+    "url": "https://www.ans.org/news/2026-04-24/article-7975/terrapower-begins-construction-on-natrium-power-plant-in-kemmerer/",
     "k": "terrapower begins construction on natrium power plant in kemmerer american nuclear society ans",
-    "id": "7f718641"
+    "id": "1c9c3016"
   },
   {
     "date": "2026-04-23",
@@ -3142,10 +2792,10 @@ window.SMR_NEWS = [
     "type": "HTGR",
     "dev": "X-energy",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQYTFkdWVmd0U0VXlHSkp2X0p5WVVUVFh5ZDg0U0xBMjZCdFZWSzhKTW9TbDFQNVVfVVMxbXplaEJtZllYOUpyUVp3MEtwRVdqWFJtLWNjUU9TSjZPM1p2V052R211T0J2cE80SHhNVy14anpXRU9kTHF3VGtHbE00SXN6eTJSWkY0YmUtRGU2R2hlQQ?oc=5",
+    "source": "x-energy.com",
+    "url": "https://x-energy.com/news/x-energy-announces-pricing-of-upsized-initial-public-offering/",
     "k": "x energy announces pricing of upsized initial public offering x energy",
-    "id": "1216a380"
+    "id": "c11d46ca"
   },
   {
     "date": "2026-04-23",
@@ -3156,10 +2806,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "Oklo",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMisAJBVV95cUxPVzJEbXd5T1VkZ0o2X2RwbHhxaEZkR05GV2JUM2tMOW50RkxiUFhtc201Sl9oNzB4VF9IbUpDdklqTHcxNHVrMjE2LVdZTUdkZnU4ZHZnNmZNeFZ5SXdSZFRpRzZSSXAwQVBoWEFWVnlObHM3SklmTEpqTmxwTllBUUc2b2dETVRQeHlsVG1JU24xb3c2NzA5UzJXMXF0bzVycWd4RnFGTHBCTzI2SWk4b2sxT2ljQ2xSLWxjZzV1UHNIcVVJM3N1TnNjR2toc3E5aG5mUVFpeURrX01vM1N6azdrX2dOSDhORnFWcEFJS2pUZUowWGkySXEzellGaHlkWUxIbHBsanNxOFB3b29CQXM1aGhtVTBoME5WU3p6VnZCLUNjYW9QZEFnV0l3dE5R?oc=5",
+    "source": "oklo.com",
+    "url": "https://oklo.com/newsroom/news-details/2026/Oklo-NVIDIA-and-Los-Alamos-National-Laboratory-Collaborate-to-Advance-Nuclear-Fuel-Validation-at-Los-Alamos-in-Support-of-Nuclear-Powered-AI-Factories/default.aspx",
     "k": "oklo nvidia and los alamos national laboratory collaborate to advance nuclear fuel validation at los alamos in support of nuclear powered ai factories",
-    "id": "63e82dd5"
+    "id": "b3bafdb2"
   },
   {
     "date": "2026-04-23",
@@ -3170,24 +2820,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "TerraPower",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQlB3Q3lBSzZha01Qd2oxRVRQZHFWMjRKRnhrbS0xLUdTU1NwXzM5dVhMUEZaak9sdDZxdFl1UXpBbTVIS1FZS2FxcXpLak1vUHhUZnZfT1Rha2RGUVRBVnUtTHh4SWlraUhoQzJKMnlWdEdtbWNiZHhjdENYZ2JyYW9TaWpBZTJpQlI1QlVHb2ZVNkJ4RGd0RnhIWDNtYVB6SGZud29yVFFhN0RmOEEyN2JaOVFyN1RVWVIxbUM0d3k?oc=5",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/terrapower-starts-construction-of-first-us-utility-scale-advanced-nuclear-plant",
     "k": "terrapower starts construction of first us utility scale advanced nuclear plant",
-    "id": "4cd8c9ad"
-  },
-  {
-    "date": "2026-04-23",
-    "title": "테라파워(TerraPower), 미국 첫 상용 규모 첨단원전 건설 착공",
-    "summary": "테라파워(TerraPower)가 미국 최초의 상용 규모 첨단원자력발전소 건설을 시작했다.",
-    "summaryLong": "미국(US) 첨단로 기업 테라파워(TerraPower)가 미국 내 첫 상용 규모 첨단원자력발전소(Advanced Nuclear Power Plant)의 건설을 착공했다. 이는 첨단 원자력 기술의 상용화가 현실화되는 중요한 마일스톤으로, 테라파워의 나트륨냉각고속로(SFR) 기술 실증을 의미한다. 이 프로젝트는 미국 에너지부(DOE)와의 협력과 민간 투자를 통해 추진되고 있으며, 미국의 차세대 에너지 정책 이행의 중심이다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "TerraPower",
-    "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPVGE4a3hnanpvMV9nQzRCQzNGSWFsRUVuS1NWWXdLMjJqc1phTTdSMEZYMFlkVm9PRTM4aTNEdnYycFBiLWdQQXRRWHVmSlBSalpCVWFIYno1c0RVY1NrOHBNNVh3bmdkUHU3RTRqZFp1R3NOckxkS3hnVDUwNTg0VzNJc2diZEhUcVdoVnA1V2FqWWVSdW1pX3YtOENMVmNFTlRpSnd5ejA4RUJYU18wSzhoSmVBYnNVMXlETjNR?oc=5",
-    "k": "terrapower commences construction on america s first utility scale advanced nuclear power plant",
-    "id": "0dadb529"
+    "id": "f22505ec"
   },
   {
     "date": "2026-04-21",
@@ -3198,10 +2834,10 @@ window.SMR_NEWS = [
     "type": "FHR",
     "dev": "Kairos Power",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeWpUdkRucklKRzJmTzR2RTROVDNzQUZmeXFqOEZIdVRrVllRdVlybnNBcDl4YzlJNEtQbUpvaWdacnhGcmFJQVMzYkk1ZFdFM0xWSjRkS1h2RU8yWVdUMWZnb3A0ZWRmcTc1LV9hOE1yZ2VZRTk5VzBhVVB0QnlPQ0xySk9XUjVkaGpzM3VqTXpzN2cyUDd2eWlmbFVsdG90NDlRcXZjLVNldTBKVWJVV1hMeGdCdFBXX1Q4Y3R3?oc=5",
+    "source": "ans.org",
+    "url": "https://www.ans.org/news/2026-04-21/article-7964/kairos-power-breaks-ground-on-first-powerproducing-reactor-in-oak-ridge/",
     "k": "kairos power breaks ground on first power producing reactor in oak ridge american nuclear society ans",
-    "id": "c78a9618"
+    "id": "69ebfc32"
   },
   {
     "date": "2026-04-16",
@@ -3212,10 +2848,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPQUlUOFNSMm1qNnJwWVk5YjJSUlNTUFJMZ3RaQnlLV2NDbE1rbk1reTJ6djFmUnNEeWo4VHVsaGdEVktyRXZVQUxUZ0dMWU84dlZmZG5BdVE5WXRsRlRicXZQYzNIN0VXYXNxNElOdlRtdTc0ZldUWWs2ZG54SjEwd1JMcWxOQQ?oc=5",
+    "source": "interestingengineering.com",
+    "url": "https://interestingengineering.com/energy/small-modular-reactor-design-approval",
     "k": "us nuclear firm submits plan for 240 mw small modular reactor to power 1 5 million homes",
-    "id": "3a35a14a"
+    "id": "b6de6c26"
   },
   {
     "date": "2026-04-16",
@@ -3240,10 +2876,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "First American Nuclear",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPaEJEQmhDNVNlaE1MNWRBY2hlc0plaWxNd1FzMVRoYkhkaTZnQmpRZVUzMHliRUlZSGtvN3Z0VVBlMW11SzdQNGJMOUV6dG56YWJyRTFKSE9YbjdnUS11YURJRldsei05bUhlMEJDUHItTmhBbkxhZHVYa3NFUFZma2VnT3pEa0o3U2RrS2laTU5hN0duaXNnX1FMdkw1SUtBU2llaktuUDNwMU9IYlVuMVBpOTk4b0R3dS1QMmdEVmd6akV6ZUIzODhQVGhsMkQzcmVvRUJfNkNYV2cxOTE1QzBnVEw1ZVo4NTNMeFFn?oc=5",
+    "source": "prnewswire.com",
+    "url": "https://www.prnewswire.com/news-releases/first-american-nuclear-submits-regulatory-engagement-plan-for-fast-spectrum-small-modular-reactor-smr-302743110.html",
     "k": "first american nuclear submits regulatory engagement plan for fast spectrum small modular reactor smr",
-    "id": "f8d808db"
+    "id": "50c1f416"
   },
   {
     "date": "2026-04-15",
@@ -3254,10 +2890,10 @@ window.SMR_NEWS = [
     "type": "HTGR",
     "dev": "X-Energy",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPNVBpeVpLbnoxZ0N4SjNzXzVEVUxQbm02Y2xCSnZtc1RSaWRMV0dRQm0xOENxZjJSaUtKU2k2RjBURmsxZHZ5aW1NamgxRkcxejJ1LW5taUF6dHlxUW5hYmR0SkdkcUNOeHR1ZXpoZWVPRXJPeU53UXpCTjN4cl9vNnZfRTNNMWdDeWFjZnJBcDMzRWdSOTBreUY5cWJlcXAyTS1iWkpTaEFDeDdnOVAtdWJTT2NySjBwZTBhUWFZdWpaX0taZVlDSWtR?oc=5",
+    "source": "renaissancecapital.com",
+    "url": "https://www.renaissancecapital.com/IPO-Center/News/118337/Small-modular-reactor-developer-X-Energy-sets-terms-for-$750-million-IPO",
     "k": "xe ipo news small modular reactor developer x energy sets terms for 750 million ipo",
-    "id": "d2827aed"
+    "id": "4e30110b"
   },
   {
     "date": "2026-04-15",
@@ -3282,10 +2918,10 @@ window.SMR_NEWS = [
     "type": "HTGR",
     "dev": "X-energy",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQWWVzMnNEZTVGVTFZUy1ZMGVjTjhSOUFwdlNXUnJfOV9nV3ZHODJCbFJOZkxlQ2JWbVVFdVhZeFZ0VWFuMHVDT0VLUnZpelpXZkx2N052Rl95X0hDX3hZYlczalpVNm9DdjZYQTZhVUdzZkxsa2htLXRCLTV0Ukp2akt1RDViNnFMd0RN?oc=5",
+    "source": "x-energy.com",
+    "url": "https://x-energy.com/news/x-energy-announces-launch-of-its-initial-public-offering/",
     "k": "x energy announces launch of its initial public offering x energy",
-    "id": "f36be1ca"
+    "id": "ac59b8f5"
   },
   {
     "date": "2026-04-13",
@@ -3296,10 +2932,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "Rolls-Royce",
     "region": "UK",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQVG4teFc1U1RMdjU4MWtyaU9fRl9heUVMU3hHTVhHU3lyQUlsQXZOMFZqVmNvdEFicHUxT09hS1ZsVDAzRm93dTlNVUdTdWRyVHQwbmQwODNDWndQdzJoam02ZmluVm93Nm1HdkxVR0E2eTVZcVB5dDFJdzg0NXFFNTNKZHIyTzdfenBkNDVhT21aNWx0cUpHTTVwYkVYTGxqaUpOaW1pREZFalZ4SjBGQ2ZlWFlMN1Ew?oc=5",
+    "source": "eandt.theiet.org",
+    "url": "https://eandt.theiet.org/2026/04/13/rolls-royce-smr-secures-deal-deliver-uk-s-first-small-modular-reactor-power-plant",
     "k": "rolls royce secures deal to deliver uk s first small modular reactor power plant",
-    "id": "9c0260ea"
+    "id": "04a5ee19"
   },
   {
     "date": "2026-04-08",
@@ -3310,10 +2946,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBTN3pfT0s4TGZLU2hXbmlUY3djM2xDV1J1dGU3ODYzdTRLMENmVFpMVkNEYWRYaGtVWFpJN0E0cUp5YjlWbzc2QjZpdkpHcTJGeDdiQi1VbWp1U29tZ1VjYmt2ck1FZGVtYlZpQlRWT3A4QQ?oc=5",
+    "source": "energydaily.co.kr",
+    "url": "https://www.energydaily.co.kr/news/articleView.html?idxno",
     "k": "smr 경쟁 대응 원자력 진흥법 개정 추진 기술 인력 재정 3축 강화",
-    "id": "664231a6"
+    "id": "f3a8bebf"
   },
   {
     "date": "2026-04-06",
@@ -3324,10 +2960,10 @@ window.SMR_NEWS = [
     "type": "HTGR",
     "dev": "X-Energy",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQWHhrTVRDOWVPNmJKU0x3M3ZhWHhTaklPN21JMHc1U2VoNjFHMG1OOTdBTEFwdE4zUXVDd2ZvMGxaNXdkenc1WmhyYmVIVXI3WFpzalNPTWRGUkFWcFpNODhrQnJIUEZFdC1aakVaQm1fSUpDRXcwMm42SEkwOFF6cVItd0YyQ0ZXaDdGbEZaN0oycXZRU3RnQUVfcFhSMEREMDZvVDdJZWhfbGU5Mk43UVlkZmVsN08xbWZ0aE9qYWNaZ1dOcHM4TFM2aklLcm50b1psOFhXZlhvZm5R?oc=5",
+    "source": "newsroom.fluor.com",
+    "url": "https://newsroom.fluor.com/news-releases/news-details/2026/Fluor-Signs-Contract-With-X-Energy-for-Advanced-Nuclear-Project-in-Texas/default.aspx",
     "k": "fluor signs contract with x energy for advanced nuclear project in texas",
-    "id": "a23bde45"
+    "id": "413ac250"
   },
   {
     "date": "2026-04-04",
@@ -3338,10 +2974,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWG9nSnBaRVo3OVliMnczMGNPOUltV19Dbld3Y2drLUdHNkFmU3JKSXlyS19aTVljeThZQTNEXzhOQzVyMmlxYUhaRlNmUGN6d0JrbTJ6TFFxRGI2Qlk2WFRDeHVLSWktLWtQcHNwX1dqRFh2c0U3dzN2azcxeVZvaVFORlZULUlkV0p0cm5KMG5ma2JsVGFRRG1TVlBod2VU?oc=5",
+    "source": "wsjm.com",
+    "url": "https://www.wsjm.com/2026/04/04/prep-work-for-new-small-modular-reactors-at-palisades-now-underway/",
     "k": "prep work for new small modular reactors at palisades now underway",
-    "id": "1c8f26ab"
+    "id": "5ccce54f"
   },
   {
     "date": "2026-03-31",
@@ -3393,10 +3029,10 @@ window.SMR_NEWS = [
     "type": "BWR",
     "dev": "GEH",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMzhndEdYYThMWTFrYWowUFhZY0EzYlhodjdJUENFbVV1c053aHdjNmU5eFNVdWJUNng4am9pU1VxNkpOcE1DbTBWSl96R2M3NzFXRi14U1NqRHJhMkNmX3ZFLVRXN2kwUUhXNVkwVUJMZHloZFB1R21rbUxLV3N4UFlEX0pnYjVmb2p6X29ubE0tY3RieU9rRF81azRyUQ?oc=5",
+    "source": "ans.org",
+    "url": "https://www.ans.org/news/2026-03-25/article-7878/new-us-bwrx300-projects-get-japanese-investment/",
     "k": "new u s bwrx 300 projects get japanese investment american nuclear society ans",
-    "id": "791da203"
+    "id": "746edec2"
   },
   {
     "date": "2026-03-24",
@@ -3407,10 +3043,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOYklXWFRyYVQ1SmtiaGhxaGV2ZmN6MUp6bEVnYThreUJTNmp6U2JnczdnRmM4UVZNVWdxeV9tV1AyaGQ5dWZoNjQ2Z0VidlhUNnB2eHQ5bkljc2FrbVlmRDB3U1phaVhPazJGWUY3U01Bc0N0OFpsOTN3dy1YbjNTd1JDZUpkR0FyNGJOdXNxVDZiZWRBOHUxYnppVTYzZ2F2Zi02bUFrUEJwUVJVbG92cGlicmp5MnhhMjhJMHVqUXlvRG9Nbi1lUmtEdVprelcyb0dRV2U5aV83TlNxQmo0MGpxOA?oc=5",
+    "source": "valtioneuvosto.fi",
+    "url": "https://valtioneuvosto.fi/en/-/finland-becomes-contributing-partner-in-us-led-programme-promoting-responsible-use-of-small-modular-reactor-technology",
     "k": "finland becomes contributing partner in us led programme promoting responsible use of small modular reactor technology finnish government",
-    "id": "c9572491"
+    "id": "dcfffbdb"
   },
   {
     "date": "2026-03-23",
@@ -3421,10 +3057,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "EU",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQ2JCVWZlVnJLQ1ZzOXRsMTV3bHVjRlc1bzhSMTRlMnVnTUt1TDBLSnJBWTdUT2d2blc0Q3AydDhJOWN2UGRFNWVRc0ZQZ1huN1dKOEktLU1uRWF0TUR4QUJoN2lJVWcxRzFvQXVxckdMM2FNVnFvcWxxZ3BwTXc3cTJYNkVkRWdQeEg4QV9vRzg?oc=5",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/application-submitted-for-swedish-smr-plant",
     "k": "application submitted for swedish smr plant",
-    "id": "adb2b719"
+    "id": "d4db1f26"
   },
   {
     "date": "2026-03-20",
@@ -3463,10 +3099,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "EU",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdFZsSmlDd1J4d2ZJZkktR0JaZ1Z4V3VrTWt6eG5GT0ZvZU9LVTFoMjcyQVFvWVkxbS1fX1dhVlFnYldkbmtOVG5NdHpzcllRNVg4UFVWSi1XU2lLZjFIaVhrSWU3YWJQcERkZm5hQlgxdEU0eUh3NUVaU3oxWmZfWTZlWFVaMXpCekNV?oc=5",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/planning-for-swedish-smr-plant-proceeds",
     "k": "planning for swedish smr plant proceeds",
-    "id": "7444dd20"
+    "id": "ad65e15d"
   },
   {
     "date": "2026-03-19",
@@ -3491,10 +3127,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "NuScale",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPanhYZEVnY0RyT3RkbTVNRXBWcjNwYXU0a0pqN3RCV2ZETjB2clVuQzBNVVg1X0FYdnNyN0ZfTV9UY3FXZ240c3NFX01fcG42TklocnpVNEh5eVcyY21uYzFMRlRJUDMyaFJkS29hVmxXU21EWE1XcjZRM0pUNFJ3SmlEajQzRFJUWTRwczlhM2wxRy1vMUZtSHptbU9SU1RxZi1mYjMzV2E2V2hnaTFJ?oc=5",
+    "source": "seekingalpha.com",
+    "url": "https://seekingalpha.com/article/4882641-nuscale-power-inside-only-nrc-certified-small-modular-reactor-company",
     "k": "nuscale power inside the only nrc certified small modular reactor company nyse smr",
-    "id": "93c0f5ac"
+    "id": "1a7e1b1c"
   },
   {
     "date": "2026-03-17",
@@ -3505,10 +3141,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "Oklo",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQTXdKS1Izc2Y1Q2lsazlRTXYyME45bnlnQnNJQ29VZlllSjdyRW9qdGhYd1p6SlF3WnFOZGxLNlFOQXUtcWR5OW9qS1VrRVkxcWJ5eFBIWW9Eck1kT0pQcjFWek9oSFVuM2taOF9hbG03dnhUaWYtVTByTVRkaGtMbkN3WTd0UnZ5OGZXU2FXSFhsQlFCRU94Y0dPWE1NYmJEaFNUcVExV1BSbWNmTVFhSC0xMlRlazh3bGNKaXFVUEZpN3ZiNU1hUHYzUmtqMFVxNHllT0s0UHBlYWdqdXY5dnJEYjJvb0IxTFpJOThaOXlJVmFFWVFqTjctaXFLQW1UVHpQY21EblRqWkpGWDBSbmdIUkpnWWFud1AzWA?oc=5",
+    "source": "oklo.com",
+    "url": "https://oklo.com/newsroom/news-details/2026/Oklo-Announces-U-S--Department-of-Energy-Approval-for-Nuclear-Safety-Design-Agreement-of-Aurora-Powerhouse-at-Idaho-National-Laboratory/default.aspx",
     "k": "oklo announces u s department of energy approval for nuclear safety design agreement of aurora powerhouse at idaho national laboratory",
-    "id": "b60c880e"
+    "id": "7768255d"
   },
   {
     "date": "2026-03-16",
@@ -3533,10 +3169,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "NuScale",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOR01GZzl4N3VVSElXY3pVRnRYMks0TGFQbWpReHF2TnpqaU82X05uS1RiLWNkY2oybEJMT29Sa3JTSEdNS05JYXVrcVlsVUdfcjZiai1KakR3NVBDTkRXbDBxQ2xfa0tFdjRlWjZ1UDY2aGI2Wk83MzczYjMwWXJwTA?oc=5",
+    "source": "energiesmedia.com",
+    "url": "https://energiesmedia.com/nuscale-small-modular-reactor-industrial-nuclear/",
     "k": "nuscale highlights role of its small modular reactor technology in supplying dependable industrial nuclear energy",
-    "id": "dce67c4a"
+    "id": "a91f5425"
   },
   {
     "date": "2026-03-13",
@@ -3547,10 +3183,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "Rolls-Royce",
     "region": "UK",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVXVTM2xpQS15TjRLWTN2S2dMUjZfckVZRVJMZndPRTRNVHl4bl9OVHd1TzF1V016ZHpmZ3N6Q1BWRGxfZTJ4RG44dXBOVTJFTHoyNHFZZW5zUkVVbWVnRzZTbFFwMUdBeV8yRW5WNnp6ZHUxY0ZHMDdReHBmSGdCZTdQemJLUDhUOVFRNndaZGtKdw?oc=5",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/regulatory-justification-for-rolls-royce-smr",
     "k": "regulatory justification for rolls royce smr",
-    "id": "b5311d54"
+    "id": "b210b6f9"
   },
   {
     "date": "2026-03-12",
@@ -3561,10 +3197,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaURLN1hFQWVNZFNLdHc5R2R1VnZiQUlSS2N4ejVYWnpVMXBTSEltampDMWhOUWpzT0k4ZW40VlR1UFg4NFNjdEFZendzZFd2WFU0enIxNVozd25jRlhHUVVkeHozSzJtOWNkRURjRnB4djlkbzliT29KWXE0VDQ0VHNvVk8?oc=5",
+    "source": "americafirstpolicy.com",
+    "url": "https://www.americafirstpolicy.com/issues/small-modular-reactors-microreactors",
     "k": "small modular reactors microreactors expert insights energy environment",
-    "id": "7d1672e8"
+    "id": "c56355f2"
   },
   {
     "date": "2026-03-12",
@@ -3575,10 +3211,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAtMS0zNERObms5M3JpbWNhQVNDUnpPQV8wWGM4RXBPQ0pKR0U0VjJjVFVwQ1dyVTlGTUgxb3ZHYnZWUDlzc2VBS0R1eVhmOE94MUhia1J2emVra3lZVDhrbld0ZTBydFVoYzdIVFVR0gFyQVVfeXFMTjJRdE9NZXFBUVVYcmN3Z3d6dHZwZWlJNTZqTXRXbS11YWZwb2d2SWx3Sk5qQzNhUXhyLW9Jd3RPNlZrMHhMdUc0UFVfcTZvTFBkZG10N1E0OTQ0UGRUMnZiQy1vanlkeXp5eWlUUHN6UGN3?oc=5",
+    "source": "lawtimes.co.kr",
+    "url": "https://www.lawtimes.co.kr/news/articleView.html?idxno",
     "k": "smr 특별법안 통과 차세대 원자력 산업 육성 및 다각적 지원 체계의 주요 내용",
-    "id": "5cda0acd"
+    "id": "f23932a6"
   },
   {
     "date": "2026-03-11",
@@ -3589,10 +3225,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5CQWd5TU1ramRyV1Zsa1FBd1BfZ3lkOVF6WHNzUlRabEdrckFwQzF2TmR0ejlDa2Q0MG5TNldLWHdkS2UtUm90LVJHc1hQcDZkcUgwR096UGNkVlBfenZiam9QN0EydFhnMXJuSdIBcEFVX3lxTFBqQ0JWeUh1Zi1pUlZ5Wi01bmJaV2tVdTlpZlJIY05hbFc5aHU3OGhhTDNpOURiblpjSVZkd1I4dzBKWmJWbi11TFdpUUJDRDRYWUVQdWo0WnJpNUkxT3JHWEVkc25qSFdtZXFVTmFrX3Y?oc=5",
+    "source": "electimes.com",
+    "url": "https://www.electimes.com/news/articleView.html?idxno",
     "k": "산단 smr 띄우려면 원전 ppa 허용 민간 참여가 관건",
-    "id": "125e807d"
+    "id": "a366aa9f"
   },
   {
     "date": "2026-03-09",
@@ -3603,10 +3239,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "Rolls-Royce",
     "region": "UK",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNUTJIdmN4Qi1xQjE1dnktSk5DajB0eGEtdUFJR3RlZXNXcnJ1ZUs2WUQ2M1JXanpWOGZXRmJkSFEtYjZra0txQ21XTWljMk80WTM3VlpUZEtRb3JDZ2hxdXRsMjRwcHhCenU0cEozelI3SHREWGZxYlhfWWJuZDFTRGZ6emJQdmhuWlRYMXVNamc5TnZ4TFVFemFwZzR4TVg3YmRzeTB3bFg4S01FQjRsMFFXRWQ?oc=5",
+    "source": "aviationweek.com",
+    "url": "https://aviationweek.com/aerospace/emerging-technologies/rolls-royce-partners-explore-small-nuclear-reactors-e-saf",
     "k": "rolls royce partners to explore small nuclear reactors for e saf",
-    "id": "65ec4932"
+    "id": "f489e8f4"
   },
   {
     "date": "2026-03-09",
@@ -3617,10 +3253,10 @@ window.SMR_NEWS = [
     "type": "SFR",
     "dev": "TerraPower",
     "region": "US",
-    "source": "\"\"NuScale\" OR \"X-energy\" OR \"Oklo\" OR \"TerraPower\" OR \"Kairos Power\" OR \"Rolls-Royce SMR\" OR \"BWRX-300\" OR \"eVinci\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPT1hIUkgzRjMwcjVUZUdFd1ZLR2ZuWWNEMzhad1ZpTmQwVDQ5bURZLUJ0T0ZIWjJ2WUJsTl80Z1VLdU5OM0U0WUkxNWphWEE1MFZxMlFEVG16UHJWYnZyMThZWmx6a1I3cUJGcnBMT2FiMzJtWWFtWV8xQkxiOEZtUDZfTWl5TlZYQkJ1ZENtV3NCa3JWYkRwRDlaVEtCeF9Ed3Qycw?oc=5",
+    "source": "energy.gov",
+    "url": "https://www.energy.gov/ne/articles/nrc-issues-construction-permit-terrapowers-natrium-advanced-reactor",
     "k": "nrc issues construction permit for terrapower s natrium advanced reactor",
-    "id": "23def9b8"
+    "id": "9aef3916"
   },
   {
     "date": "2026-03-06",
@@ -3631,24 +3267,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "Duke Energy",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE92Q3BQcVdtdjEybzJNUC1qRUV6YnBMUGdqekpGTzc0dWlnRnpDcnJoSjAzbkIwTHRiUUVNaWJmTFNwcXg1Tmxzc01SZUVNdjNJbnA1NXVKSXNqMWkxV2YyRDNR?oc=5",
+    "source": "purdue.edu",
+    "url": "https://www.purdue.edu/operations/nuclear/home/duke/",
     "k": "study with duke energy small modular reactor smr nuclear studies",
-    "id": "b76c8c23"
-  },
-  {
-    "date": "2026-03-05",
-    "title": "테라파워(TerraPower), 상용 소형모듈원자로(SMR) 발전소 건설 미국 승인 획득",
-    "summary": "테라파워(TerraPower)가 상용 소형모듈원자로(SMR) 발전소 건설에 대한 미국 정부 승인을 획득했다.",
-    "summaryLong": "테라파워(TerraPower)가 소형모듈원자로(SMR) 상용 발전소 건설 프로젝트에 대해 미국 정부의 공식 승인을 받았다. 이는 테라파워의 소형모듈원자로 기술이 규제 기준을 충족하고 상용화 단계로 진입했음을 의미한다. 테라파워는 혁신적인 냉각 기술과 설계를 통해 소형모듈원자로의 경제성과 안전성을 강화하고 있다. 이번 승인은 미국 내 소형모듈원자로 상용화 추진에 중요한 이정표가 될 것으로 평가된다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "TerraPower",
-    "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wcG9wUG9kSDNNUV9fYVQ0cXFkQTdsa2FNd3BKU3JJTmJLcDZCYjBxRWVBeFVqU2cyY1dEb0xvZWxmTG5ad1hfbDRVbXNuU3I4SWhrb0dBbnhpSFBNU1BkYWdEcXhXQk1u?oc=5",
-    "k": "nuclear startup terrapower wins us approval to build commercial smr plant",
-    "id": "668b07e8"
+    "id": "a4545c57"
   },
   {
     "date": "2026-03-05",
@@ -3659,10 +3281,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "Rolls-Royce",
     "region": "UK",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlM1NncEdHR2lEOWc0NU5IeC1fMUNvX0xLakNiZUVKczFLczZoaVZ1MVBDbXE2b1JRRWV6Z2VqNFNwTnFsazgzTWRGWmVPRV9lVHpFT0wtbnFnMVp4aGlYaEJhQzMxYUUyV0RmZHRoY2swOFBKck9DaFRab1Y5dWs?oc=5",
+    "source": "energiesmedia.com",
+    "url": "https://energiesmedia.com/amentum-rolls-royce-smr-small-uk-czech-republic/",
     "k": "amentum teams with rolls royce smr to advance small modular reactor projects in the uk and czech republic",
-    "id": "d5d58594"
+    "id": "3da238d9"
   },
   {
     "date": "2026-03-04",
@@ -3673,10 +3295,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "i-SMR",
     "region": "CA",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNbV9jMko3WkpMYmY1MlhORG51N3EzXzAwQU9xbGx5WHZJUWFOV1lVdVlxWFZlcHFHcngtTXhKMlh1V2FiRGRRcXNiVmFWMGQ3T0syaG4xYmdoTDA5RHVXRzBESzRPNEJTR3M4R0tHMmhhYW14VW9DZjIydjlmTFE0UW5qVzVMNUNiX3c2OUlB?oc=5",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/standard-design-approval-sought-for-i-smr",
     "k": "standard design approval sought for i smr",
-    "id": "99f3ab8a"
+    "id": "ed95b2a5"
   },
   {
     "date": "2026-03-04",
@@ -3687,10 +3309,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeERwbEpSc3djVEZKY1dlaUp6Y2xYd1R1RG9zSmpXRmNKZjRaSkROanFRdlZQMGlaWmd3dUFPT2lvaXlmSkNJeWdCektrTFVOS0Jid2xvRTZFa3FNTC04dEV0NUZiRm5UN1VXc1FhblphMlQ2LWM3ekcxYWppZzZDT2ZnNi16aUhlMG1MTC1xcGQ2TWJVYVNRbk9iYUpiZ0VSQjU0RWxFSS1lUXhyOHZMb1BqZjlzMi13NVhv?oc=5",
+    "source": "id.usembassy.gov",
+    "url": "https://id.usembassy.gov/indonesia-united-states-and-japan-host-conference-on-nuclear-small-modular-reactor-deployment/",
     "k": "indonesia united states and japan host conference on nuclear small modular reactor deployment",
-    "id": "3671042d"
+    "id": "34dc2e0e"
   },
   {
     "date": "2026-02",
@@ -3714,10 +3336,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "CA",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQUWtCc3J2NWdpelRHSmpIaGZhZHI2eDJmT25FdDJqTHh2a05POUlGNDJaUGhXYWpkVV9qX3JtVmZNSXRpVVFyZUhPLWprbldNUjN1T0hWbW0wUE5KRmFEenZ5QmIxTTQwQ2hhbDFISXVlaHVNMExUdHJaRUdORGY2R2ItX19PSkk1aWxpeWxka0l4ZWtT?oc=5",
+    "source": "knsiradio.com",
+    "url": "https://knsiradio.com/2026/02/27/small-modular-reactors-big-dreams-ontarios-nuclear-pitch/",
     "k": "small modular reactors big dreams ontario s nuclear pitch",
-    "id": "525dd889"
+    "id": "a7212675"
   },
   {
     "date": "2026-02-27",
@@ -3728,10 +3350,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9peHZSY21EQm9JUjloNzUwb2xQNGN2bUVONEFaVUxFakN4QjY3cU01SkljTzl6QXFZUGV6V3pBU0FIQ1FScTUycW93SDFVVTdOT0l0b3RKYzdId0xjYzlZMkdJeUtzaVdkVlJycw?oc=5",
+    "source": "hani.co.kr",
+    "url": "https://www.hani.co.kr/arti/society/environment/1246870.html",
     "k": "혁신형 smr 원안위에 표준설계인가 신청 본격적 인허가 단계 진입",
-    "id": "37572cc0"
+    "id": "89325b84"
   },
   {
     "date": "2026-02-25",
@@ -3742,10 +3364,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SeEN6eHpvMm1ONTJIUGlOQ2NtaDdEOWYyVzR6YlBlelUtMDlQRVFTT2NQQTJ5VmRSeTZRaHktRHcyYjlIRmdBMF8wRkNYdVVwUUhHWEJBSTZMcHd5UXpMOXlUVWFIUVE2UVdISdIBcEFVX3lxTE5zV3VveXNEelRzYjlKNzd1SWplblJvRlhndVF2bGplVTdtb1ZmeXV0X1M3bjNfc0RydzN5eEl4VklDOWlmdGIwQ3JCeWpsd0VZMy1TbHlTQzh4UHBMNldkX1E2UWR3azBDS3h0MjRaMmU?oc=5",
+    "source": "electimes.com",
+    "url": "https://www.electimes.com/news/articleView.html?idxno",
     "k": "기장군 혁신형 smr 유치 본격화 tf 출범 주민 설명회 병행",
-    "id": "3c5ae6d8"
+    "id": "a366aa9f"
   },
   {
     "date": "2026-02-22",
@@ -3756,10 +3378,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBSbnF4SHUwYTB5cGZiV1FRYmtFNHIwRGRLR3pvQUp3UEZWcVVMODhKZjJFZjlObjQtbkdTUURoWjFLVUgxdmplOE1UZVFfNjktY3VQVU0tYlF6UlFBRkh0MFhSOG1IOWdYNUQ3ZmNjMnB6aWZEU09tMg?oc=5",
+    "source": "purdue.edu",
+    "url": "https://www.purdue.edu/operations/nuclear/home/duke/panel-discussion/",
     "k": "panel discussion small modular reactor smr nuclear studies",
-    "id": "ec33785f"
+    "id": "7996e533"
   },
   {
     "date": "2026-02-19",
@@ -3784,10 +3406,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "SMR, BWXT",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9oZmNtUnpRNGJWbHNCNTBHTEdLbDk2U1lEX0hKLVp5ZHJ6VE5hQ0pKd3NHb0dOM0RPeWNhLU9jU3puanlpTHd2U0F0Wlk5bHVoT051OTRsTnlfT1FBbU9vWEhaWWcxOUxIVjhnUG5OMExyWGVBNGswSlg3aw?oc=5",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/news/smr-vs-bwxt-small-modular-154400245.html",
     "k": "smr vs bwxt which small modular reactor stock is a buy right now",
-    "id": "b64a5d19"
+    "id": "df9001ee"
   },
   {
     "date": "2026-02-16",
@@ -3812,10 +3434,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBSdVY1bjhFTnhUSlQ4YVR4MnFWZExXdThqelNkSXB4RU03X1o4QlBENXlRQXRGSGtyVVJFQ1VrN3BYclMyRk5ZbTVMXzNrR2hlVmhGWk9LR0xiWEpteDd6eWtDcExHOTJsWEFubg?oc=5",
+    "source": "korea.kr",
+    "url": "https://www.korea.kr/news/policyNewsView.do?newsId",
     "k": "smr 특별법 국회 통과 소형모듈원자로 r d 실증 가속",
-    "id": "a5a8b44b"
+    "id": "a38b0b11"
   },
   {
     "date": "2026-02-13",
@@ -3826,10 +3448,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "Nuclearelectrica",
     "region": "EU",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxON2E1NVJaazV4M0U3UzA0TGd4d1BCbnBSaVJXSVVSRl94bmxlS0psMkYydU5hb2JUU1F4c1pPTG1tOWZGNjVQUW5GWmdQRDlfNmYzSDBQcGRKSDh4aHFhUzdjSngtY3cyeWhlaU1UeVNCZ2pCY3RXRzZWd09ja0JabTdwWGhWZXA1bkdZMEgtU21McFFiMlB6SEhrMVBnZ0pBV0s2bVRxYXFHV2ZXUU0ydWhTVVYzdEtjU1lHNTZzVGF5dWxhWm9Yb2pNX1VaTTJxRnltMllMZ0R4Zw?oc=5",
+    "source": "nucnet.org",
+    "url": "https://www.nucnet.org/news/nuclearelectrica-shareholders-approve-plans-for-small-modular-reactor-project-at-former-romania-coal-site-2-5-2026",
     "k": "nuclearelectrica shareholders approve plans for small modular reactor project at former romania coal site",
-    "id": "6970e949"
+    "id": "51c4f0eb"
   },
   {
     "date": "2026-02-06",
@@ -3840,10 +3462,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "Rolls-Royce",
     "region": "UK",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPZWZDblF4emNqSEpLRmpveEFpOVpyRjlaaTdRSjhoSkZiMFRoNk5GYzExZkNzdGdXWDhPWDJHWDFLcGhkRUkybHVtdnF1QnBKMW5fV2xTMkFQdDZqWjhoUUw5X1UxbDFSb0VEdW9ySDdYQ3huRndNNjVrblNDZ2x2QjM5UlFsUE96c1daNEhmbGhpYkRuZ0swOVVvUUN6UFpsUjcyOTRTbzN2a0M3ZnltUzVUWQ?oc=5",
+    "source": "powermag.com",
+    "url": "https://www.powermag.com/rolls-royce-smr-taps-yokogawa-to-supply-control-systems-for-small-modular-reactor-fleet/",
     "k": "rolls royce smr taps yokogawa to supply control systems for small modular reactor fleet",
-    "id": "231c1c6c"
+    "id": "a36f4418"
   },
   {
     "date": "2026-02-05",
@@ -3854,10 +3476,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9VSndjaGtRdzk1dl9FV3R5bWltN3huVFJOVXdwcXVMREhmRFdNaDM3cjFXY2dmdEZUTkFsTEl6eTVNVUx1ckJISW41ZW5MdnNzdTVqNGxQZ3NkbU1VU1gtZExMOVliZw?oc=5",
+    "source": "inpnews.kr",
+    "url": "https://www.inpnews.kr/news/articleView.html?idxno",
     "k": "집콕사이언스 smr 원자력의 미래를 어떻게 바꿀까",
-    "id": "50684b68"
+    "id": "c1c99c1a"
   },
   {
     "date": "2026-01-30",
@@ -3868,10 +3490,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "NEA",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNTlaNHNSOElINkpnU19mU3dyLWVLNDlpNDhIZ3RPRXhtbUpCNkZXcXNITm40Z0ZPUTgya2ppcGRUWjhQSDc2YS1yZjlFSTdJMmtpeXBTTUozUk11cWE5a3hOTWNIVmdkYnpjZk5teEQ2aUZGRVVaMEtQeUw3V0t1UnJ3U290Tnp5V0lTa3hsTEc0MVdHbGlxTUhQT2VYZ1BQQkVZTmQyUTJZeEJVaDBoRHJJcFBHVjBNd2Q3dWlsWWtpQ0JFOExN?oc=5",
+    "source": "oecd-nea.org",
+    "url": "https://www.oecd-nea.org/jcms/pl_114667/launch-of-edition-3-1-and-new-rolling-update-nea-small-modular-reactor-digital-dashboard",
     "k": "launch of edition 3 1 and new rolling update nea small modular reactor digital dashboard",
-    "id": "5d9da12f"
+    "id": "78ffee35"
   },
   {
     "date": "2026-01-23",
@@ -3882,10 +3504,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOVjc3N2h4V1B4X0JTMDhjdWxQNHJrYTN5ZzlTZ3gwd0xLUk5LcjQ2VEp1THZHY1BieDJqU1RzbnVtcklTX3VlQzRFV0lueDRtWTd3dlUtOWptTEhqa2FPRnpSOUVIY21FcUN5LVhRNlBfeUtUZ0dncVd2MUFHa29LS3NSazRsM2hEdThvNVIwd1VmdW9ocHVOLWhfX3hQTC1aOXVaSzIxYU5tNlZsUkgzVDBZa1paQ00?oc=5",
+    "source": "multistate.us",
+    "url": "https://www.multistate.us/insider/2026/1/23/how-small-modular-reactor-laws-are-reshaping-state-nuclear-energy-policy",
     "k": "how small modular reactor laws are reshaping state nuclear energy policy",
-    "id": "f22389ca"
+    "id": "af64259c"
   },
   {
     "date": "2026-01-22",
@@ -3896,10 +3518,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5NeVVNSy01XzY2Z2UwNlRhMDB0NFNGdm50a0x6YUtfa3AzRWZ1bVpnM1Ffb2xuYXV1OWFOSWs1ektOLWIwOUJuMHVHUVE0VWRZTFd4cnFxcHpYUm5VM0VuenRIbFR2ckhqNHBJM0ZrVHBhcG95S1RrSzF3?oc=5",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/news/smr-vs-gev-small-modular-141900765.html",
     "k": "smr vs gev which small modular reactor stock is a better pick",
-    "id": "03a10c64"
+    "id": "768fa721"
   },
   {
     "date": "2026-01-19",
@@ -3910,10 +3532,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "CA",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOb2x3b0Zha0VYZGdwektVQ2syX2kwSUU1bVVGYW9YbTlFM3B2aTFnckp5M21MWEUyd2RNcHE2eGV5T0RhS090am95eUJfbEpzYXhsUTdkc2ZYX19WNGZybGEzeEhLMzV6NlNmOHpQbFFJZEQ3dmZZeWMwd2RVMHhtR084Z3JGV0VvcXc?oc=5",
+    "source": "cbc.ca",
+    "url": "https://www.cbc.ca/news/canada/saskatchewan/smr-safety-funding-saskpower-9.7051664",
     "k": "small modular nuclear reactor testing centre planned for regina",
-    "id": "6715f7ce"
+    "id": "68c34acd"
   },
   {
     "date": "2026-01-17",
@@ -3924,10 +3546,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPeE5DUzBrNlJXck9DTHllb0ZiNkhIZlJkcDE1T0xGdnRYZ01Bc2QtbTBUdGU5UmZ3Qnp3bU45TkRNZE5tUEpiZ202TDk3TlBmZlVkU0lKY0hjZ0pSOTZ6WHB4YnpMbnZqY0dvdGZrLXhzcFJScFRJalFCSEZRR28wMWhVdngzNy1NaFN6RWFjM1ZwUWNZZkdR?oc=5",
+    "source": "e-ir.info",
+    "url": "https://www.e-ir.info/2026/01/17/proliferation-risks-associated-with-small-modular-reactors/",
     "k": "proliferation risks associated with small modular reactors e international relations",
-    "id": "e24c2008"
+    "id": "49e8083a"
   },
   {
     "date": "2026-01-16",
@@ -3938,10 +3560,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "JP",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRk1mNU90Mzl4MEMzR3pMS3pLRnFVYURtQVl4VlRTcUx2ZS0tc3hJLVlDNXdYbGhQc3M3aDhHeGNzbXF4YTVMY2paaHh3c1NRc0tXQThWcXlKMkE5Y3lTaGpCc2ozUXEtallXMC1hbFB3QWxCMUpuR09YQUdYTE1UZ19xaHkwUFdBNXpCRkVUOWRZVmk0RENDREZuZFFqQQ?oc=5",
+    "source": "physicsworld.com",
+    "url": "https://physicsworld.com/a/india-turns-to-small-modular-nuclear-reactors-to-meet-climate-targets/",
     "k": "india turns to small modular nuclear reactors to meet climate targets",
-    "id": "7ae6aa16"
+    "id": "d9644095"
   },
   {
     "date": "2026-01-15",
@@ -3952,10 +3574,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOWpBd3FaeGkwVjFpdnpXR0R2RkU5YTJQWC0zVzhKcDF4TlJWZG1sOUg1aExWcGVnRVNlMEFqVmNwc3NvZmZUZlRtX3lJd0VFVUY3UV9qNzZ5ZWFNMHp1bHVMU0tjV2VBY2oxdE1oMzh5cUdCcjhTZGYzdVI4eUcxXzFEZXMwZ25nWFBIYXVlNTFQWHVJd3RpbHdEaTVSYXJhSGVvQlEtWlQtNG5kN0IyZ1ZR?oc=5",
+    "source": "nucnet.org",
+    "url": "https://www.nucnet.org/news/mongolia-could-build-small-modular-reactor-for-new-capital-city-says-report-1-4-2026",
     "k": "mongolia could build small modular reactor for new capital city says report",
-    "id": "955aa614"
+    "id": "635e832a"
   },
   {
     "date": "2026-01-10",
@@ -3966,10 +3588,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NazdEdk4wSGFNa3lRQlVNM205UGY0RXFNTkFYSWpPWXZUWE1OdXRMWUZlNnAtZXZDNUZzV0FKblU2aEhjdVA2VmY1cWFDWjFMbmZQWG1KUzViYXZmcFlZR1ROZmpBMGRxMDgyRdIBcEFVX3lxTE1xMVBBX2RmUVc2eWFpSFhtaGFmTzZEclNhb2VfU1IxbUd0Tm9McDlTZktPVVJ2SnlBOE50a0FaZ3p3WVNRM25NRndROUxaZE5xaHMwaUFUQTZFOEt4YWROSUlRWVhURzFLM2lZUkFXcjU?oc=5",
+    "source": "electimes.com",
+    "url": "https://www.electimes.com/news/articleView.html?idxno",
     "k": "산업단지에도 smr 배치 길 열린다",
-    "id": "eff30083"
+    "id": "a366aa9f"
   },
   {
     "date": "2026-01-08",
@@ -3980,10 +3602,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdXNYczVIRDZLT29mUG5zSkFrc2k4Xy0xUWNWamZTNm15OFF3U2VOcjRObkxNakxITGdJUU5wMmozbkhBRTNOTHFheml4cl9VTFVhQWZyeDFHMHdjNHhpdHVLS0NLVkVJcDFmMEtlWnNQblZPdUxiaWtnQlRoVzFrbFE4ckZfU2FSTGUwTnVHdExLS0NmNFBrVV9qR1I1dw?oc=5",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/chinese-smr-completes-non-nuclear-steam-start-up-test",
     "k": "chinese smr completes non nuclear steam start up test",
-    "id": "66f6fc80"
+    "id": "a1e45f8c"
   },
   {
     "date": "2026-01-06",
@@ -3994,10 +3616,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNU0ctdEhCamJmWFZEMGxnZFZhbkJVMi15QVlPNjlweXh3ZTlETmxpelVScmlhSW1lS0FXOEdLSFYxZ1AtMmh5OU84dmNoNzJrS0kwTWg2RFhTVEdZTGFSVlhGV3l3S1pJNEZKNlduYmhBTGxqVDR5cmt4Nk9weldhb2VOb1UyWDZ0aTdvVW1zVDhUMjNWaW1GN1FkMHIweDl0dXlGZ1N1X1ZjMm5CN2FERUljOWdLdw?oc=5",
+    "source": "ans.org",
+    "url": "https://www.ans.org/news/2026-01-06/article-7651/us-and-kazakhstan-launch-initiatives-to-facilitate-smr-deployment/",
     "k": "u s and kazakhstan launch initiatives to facilitate smr deployment american nuclear society ans",
-    "id": "fc122766"
+    "id": "2cbc378b"
   },
   {
     "date": "2026-01-05",
@@ -4035,10 +3657,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZ0pGNG5XdWlUeG11eWJERXItZUdrcUhNTHRRUWNxbjJsLWdjWG9tb1JhUk1Pc05sMDFNem1KRTd3V0VVTnRwX0M3WDhCQ2lxUGRfc2xMNmlwVnhRcFJINzVUWUFKUE5vTi1uQTR5S3FDSjZqNWh4UngwZzFpSXBrd0gxOTI4Tjhudk9xMGdnUGdMaFl5Y3c5N3U5N1ZqRy1UekQ4QXJSUXg2LV83Mk9RWEFJRmlCX2pHcVRiS09yeWxTSHZHV2dv0gHMAUFVX3lxTFBMZkhsMlk3clN0QUlCUV8zUWJORDRLaDdoV3BMMlZXRlpVWnFwWGlxcEo5VURVQWl0cEtrSXZSTmlvbXJPZVRQSXpLNW01VGRFMHEtNlY2b19zZTVIQ3drYllaTzdmVkRUbGxzZ0IyZnc4N3lpeUlGZ1FEa05fNkhQVDVuS0tUdno0bm8wTlJDR0FEblkzRGxUektMeEpQSlpURzhMenJDRG5NczBwb2V1bUdCVEctdHRoSFpoRWJiVG9Yb2s1T0t1dEVLSA?oc=5",
+    "source": "oilprice.com",
+    "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Small-Modular-Reactors-Are-the-Perfect-Fit-for-Kazakhstans-Power-Grid.html",
     "k": "small modular reactors are the perfect fit for kazakhstan s power grid crude oil prices today",
-    "id": "0086e9f4"
+    "id": "b0b13ed2"
   },
   {
     "date": "2025-12-16",
@@ -4049,10 +3671,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "삼성건설",
     "region": "KR",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPTGN0c3NFeUlMeGxTdG1DdVZnQmRDeDVFRzdSaGlQMzRZdlJ1WURQdDZCQWpzT3h4ckZvZVRKRkxjUUpUZE1OMkJ5d1VtSEg3LWJOUmdVdUVNYU5wNDMzdjFXVWUwdTJKM0tCLTBSTDhxR2MtQ2pCSTV6ZEdxbXoyMkpJVUlZYjE4alV5WjV3ODdWN1B2NndlaE5uZGdYc2RhUlpXeXNFUTJTb19wUTZSVHhLYjJ4MUZm?oc=5",
+    "source": "nucnet.org",
+    "url": "https://www.nucnet.org/news/poland-s-sge-signs-small-modular-reactor-mou-with-south-korea-s-samsung-c-and-t-12-2-2025",
     "k": "poland s sge signs small modular reactor mou with south korea s samsung c t",
-    "id": "9c386d62"
+    "id": "7a2471e9"
   },
   {
     "date": "2025-12-11",
@@ -4063,10 +3685,10 @@ window.SMR_NEWS = [
     "type": "BWR",
     "dev": "GEH",
     "region": "UK",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOZl9sdUJtaXVCRkV5WnlTOTZFRnhZNUR5djVNUk9ERmRFaElHbVFBMTZkdEw4WnpFbUxfQ21xQldKNnhVTG51dHFhWHlpZEFubXZQaEZjVVFyejExWTlOeEJDcHpOX3VaMWFOYko5V1ZVdVJLVE0tNXBual9feFRLWmwwQ2hrYmVVZEZvaXhySFNpb01PT3JGOVBPb1NubjdSUjJRWjJNRzl3SUxCbFJiNTV2MTNGX28?oc=5",
+    "source": "nucnet.org",
+    "url": "https://www.nucnet.org/news/bwrx-300-small-modular-reactor-passes-step-2-of-uk-s-generic-design-assessment-12-4-2025",
     "k": "bwrx 300 small modular reactor passes step 2 of uk s generic design assessment",
-    "id": "0151cfd3"
+    "id": "9db6275c"
   },
   {
     "date": "2025-12-11",
@@ -4077,10 +3699,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "JP",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNZ1RHVzQwVFhqRWpNbjl6ZFVybVVueHVBa2hGYnFwbU1CaWhkUUlzQW1Kd0FsdGhRS2lzVzlIZmpLMWR3YUpuVVBRTDdNdUxscHhULUJ6akMtUEJNbFBDZ21hVURyX2tUUWw2ZnpwNDZZU1UyM0E5Si1uQmdTZWljdHpJcEplbGxEMUVwX0lhRHU1MU9IZGxBdVRUSmRXSHMzTVZYcW91Q2RQMVnSAbABQVVfeXFMTW9zQ00tT1RHbzROTS1zd2s4aHZLUWxlTmdubWxseVJPZ1lHWG5SamhBXzRzZHRyd1NFWjBrYUE4QmZQUXRwZ2VhNy1rZklVb3QzNkJMemFaamlKNXpDeTRqMi1DcWhlYmw0X3VFSHRyOVV0QW16RVFsaG4tZlYtRmZPenNSM1VGTnNTQV8wNVpmeHVQWXkyeVptVlQ3MHlCS1JFMmM2dEhDRjc3ZVkzS0c?oc=5",
+    "source": "oilprice.com",
+    "url": "https://oilprice.com/Latest-Energy-News/World-News/China-to-Launch-First-Small-Modular-Reactor-in-2026.html",
     "k": "china to launch first small modular reactor in 2026 crude oil prices today",
-    "id": "954cc7f1"
+    "id": "8282230d"
   },
   {
     "date": "2025-12-10",
@@ -4091,10 +3713,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "JP",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ2pBZXZrcmpoQVZfdUpTeGJZNVFZVVNZMDcwb2wwV1FBUlBPakR6NzYtZ0o1NzlLcUZjVEhXRWVwM0VWeVlual9XcUg0RUIyaDlNbFpJUWdnTlBJenZzeWx3NlV0aGxqOXVyOUYyUVA5UGtGQm1GWVpvR2diTmZIY0NTUllOWlV6U2RYUlFGVUdSMnhSb1dGYWJ6d2FpSzZrNERj?oc=5",
+    "source": "world-nuclear-news.org",
+    "url": "https://world-nuclear-news.org/articles/maharashtra-and-andhra-pradesh-proposed-for-first-indian-smrs",
     "k": "maharashtra and andhra pradesh proposed for first indian smrs",
-    "id": "1a87d946"
+    "id": "59d469ab"
   },
   {
     "date": "2025-12-04",
@@ -4105,10 +3727,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "TVA",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQc1VzZXFhNVFWVjhmZUpKWXB3X3Y3cld0Y3FjdDBqNlljRHpiMDVweXY4ZVM4TmxLWDdHTjJmcWJJaEZ1NGtBQ1Y3SXlpZndHMm15UE9vVlpnNDVveGFQUnBtTWJRa0tzYlRyRHQ2a192UGkxcFdvMVJwVi16S2tLLWVEalJHRGpRRk1nbmJJNjA4YUJPZXpQREM0TFlBM3fSAbMBQVVfeXFMTm5TSlJLUkR6a2JmVlFfd25PMGtob195RHU2VVJvQWVqdERIc0hTMmFWRHpKOWEzd2NfQlZaQVdkd1ZudV81RllreGdRTFBmRTJmTzFGZjBrNmxWT2EyLS0tVnpYcnRIUURwVXoxRVlaYXppLUN0SE9zU2tuZy1pZW5Gc1c0Zk9JV21mZ1FvMEVZeTdtSGFzWUNWZnRLVlZqNDI3M3VoOVpqWHdsRUZYWHAtQms?oc=5",
+    "source": "actionnews5.com",
+    "url": "https://www.actionnews5.com/2025/12/05/tva-develop-americas-first-small-modular-reactor-tennessee/",
     "k": "tva to develop america s first small modular reactor in tennessee",
-    "id": "58985587"
+    "id": "98d55271"
   },
   {
     "date": "2025-12-04",
@@ -4119,10 +3741,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "Duke Energy",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOU3VvUzlrcVJwd3gwTkQybFhJOWVFcFhNdVRqRmJWME1uZlk0VU8tU002M2lwMTFMekZDaTZ3TTRSOXc0aTBvSzJ6WVY3SFY4bVowRnViVHBpc2drd1NZRlgxc2gwT2k0U0xJNFVnWEFNVzRneExGSzRmQTJCVG1taXBXdDcxYVhWVFdCR2h4RXhLX1dzRVZ6cE5BbDNGWGRZdU4zdUJtLXJnelRaYlBwWXVfM0lKVk1yQ19sVDE3RVZSUzV2SzJBenpGOWd3NnFEOTVPLWxydnZqZndJeVFHYXlB?oc=5",
+    "source": "news.duke-energy.com",
+    "url": "https://news.duke-energy.com/releases/duke-energy-applauds-department-of-energys-new-nuclear-investments-helps-advance-deployment-of-smrs-in-the-u-s",
     "k": "duke energy applauds department of energy s new nuclear investments helps advance deployment of smrs in the u s duke energy",
-    "id": "dc5f1960"
+    "id": "8a7c5653"
   },
   {
     "date": "2025-12-03",
@@ -4133,10 +3755,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPQjhsMnVQemxkWGJhZU9jdHZEZ3V2RnNtT29vanZNVV84X0xJdF9LZXd4em5HOHNpVUg4cFNWWk4tSkc4dVZ1ZUtybEFzVHNkYUxuMTN1Z1RzX1dSNWt1eENZb3o0RWdteHZiWURmanFvZEszZDhCQjZzVjhqTFAweWh0TDVORF9WbmVRZElwUTRyWHJuSjN3bXZNOFY0YVFUZ1ROZElYVXFlN2JtYXBOOXNNVVRFZGJsY2FDdkN4VWlaQQ?oc=5",
+    "source": "news.fiu.edu",
+    "url": "https://news.fiu.edu/2025/what-are-small-modular-reactors-a-new-type-of-nuclear-power-plant-sought-to-feed-ais-energy-demand",
     "k": "what are small modular reactors a new type of nuclear power plant sought to feed ai s energy demand",
-    "id": "568cb4ec"
+    "id": "1e513726"
   },
   {
     "date": "2025-12-03",
@@ -4147,10 +3769,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "NEA",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQZDNHa0tRVkliODM3UlI2Q0Y5ZHVUbnNSNUdWNmFYaUYtTGNCU1RoX1NlMjI2T09KQVNfUmRxbDBwYk9GWlBfbVFqRVpWR29sUEdTajBJamZfb1ZXanBzejNGdENHVGljdUV4RVdnaVQ4RnVUbTVwUFpzMXpETnlPTS1IZUJNZFV6Sy1kM1lXb0VHN1RSWExObVVlUnNueUF3WnhIUFFHWEh3ZEg2MF9lLWVHOWQ2YV9QWlhJOEJvZC1nWlZiV0tGT1RoM1ppUQ?oc=5",
+    "source": "oecd-nea.org",
+    "url": "https://www.oecd-nea.org/jcms/pl_112742/workshop-highlights-recent-advances-and-challenges-in-small-modular-reactor-safety-assessment",
     "k": "workshop highlights recent advances and challenges in small modular reactor safety assessment",
-    "id": "1e209234"
+    "id": "433191ab"
   },
   {
     "date": "2025-12-03",
@@ -4161,10 +3783,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "TVA, Holtec",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQYkVKSC1ZX0l5eE9wRUpSZU1tNS1raVk4QVozcl92blBDZEU3RXVwNXJFY2oyb3BlR0QwcFFBSlVmRFAxbnNtVE9ELXhDR2tSdnBTWWJXM0JBamszeVg0eVp2SThaLVJPNjJGcXp1UXRBR2FqQ0xqTW03Ul93MF9hOHYzZmI2MjdscjVzRnBMOS1lRFoyenc?oc=5",
+    "source": "ans.org",
+    "url": "https://www.ans.org/news/2025-12-03/article-7593/doe-selects-tva-and-holtec-for-smr-awards/",
     "k": "doe selects tva and holtec for smr awards american nuclear society ans",
-    "id": "41122084"
+    "id": "7cd2a59d"
   },
   {
     "date": "2025-12-02",
@@ -4175,10 +3797,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNdFdETE5ZWjY3cjNwRk5adXlnNW4yYzl4b3FFMUFvRHdMY1ZTVkZ0eG1wcHp0YUtYTDRzRWRrcWhnUFVxcWRvUDhMZEZNQ2xOejItMUpONWt2bENVNDVjYmpQTTZJUkNFTVVZTmJIamxTQ1F3TUdDb0tTZHYxY2EtUlN5cktrMjFqbUdIcV9tbVh3dVBYeFh5TXNTdWlEcGR1bmR3R1k2WUV6Q0NQVU8zbDJzV0NHbkRhM25EdFBzTXlJdkwyeHZVRUtVc3Q3SnloOTk1amtHNll4UXhhNHBKaU1Pa09HVXJUYVN2cHVYSGVXQ3lRaWZPOFdn?oc=5",
+    "source": "tn.gov",
+    "url": "https://www.tn.gov/governor/news/2025/12/2/tennessee-secures-u-s--department-of-energy-grant-to-develop-nation-s-first-small-modular-reactor-at-clinch-river-site.html",
     "k": "tennessee secures u s department of energy grant to develop nation s first small modular reactor at clinch river site",
-    "id": "c0a23cf6"
+    "id": "c4e84108"
   },
   {
     "date": "2025-12-02",
@@ -4189,10 +3811,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQa3N2dG5WWXZXSFZudXA0V3ppc0w3dU9ZejhKZEVVTHNFVkdic3RGNjdHdEtnaUttYUw5VTZCVkhIeUY1VE5jN1I5MmFkNU9Fajk0dWo0Z0d2cXRGOHFEWDY3aTQzeUxqWUN0Q0w2LVVyZW9uVGdiR0JkVmVLR0tWaUdod3FvNTRYWjh4Y2pETHZrbzNySDdzelI2WFTSAbABQVVfeXFMUHNiWXd6VkJtYnJabV9yUHFJZkdPUUVxNVZDMmVidVJXUkxudTRIWXBLMjd4MlM3ZWxzVnBMcm1DamVxNWJoTWJ6VUJrdFB4V1RZM2ZXamhEN3ZOSkdtMXU4NXFUVFlqenUtT1lzZVBMTnBIdkpkY2NPd2w5MzV2ZGdOcWs1MXkzcUc1cE1VSWx2eGpyYnRTMkZJYkVGQTgxT1lWcTJaUVNaand6RDVQcXg?oc=5",
+    "source": "wvlt.tv",
+    "url": "https://www.wvlt.tv/2025/12/03/countrys-first-small-modular-reactor-be-developed-east-tennessee/",
     "k": "country s first small modular reactor to be developed in east tennessee governor says",
-    "id": "f1a51a61"
+    "id": "87e26f28"
   },
   {
     "date": "2025-12-02",
@@ -4203,10 +3825,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "TVA",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcnNPZkc5Q1czRkZQd0wxZXBUTHp5dFZsRmVKTFA2QWVLLUs2eFo3SHo3N282WkpGWWJkb0dzNjNNb2lTczRiNGNmcmdEMFF2ZlFFY0ZDZjh3SUtYVzJQY2xDWU1DaExqblhtejU2dG9zRHdhYk1wSF8tcFIwUjNYVGRIMXMxaXdNU01Sd0VRWmRPZ3BSNHlQLUFB?oc=5",
+    "source": "timesfreepress.com",
+    "url": "https://www.timesfreepress.com/news/2025/dec/02/tva-wins-400m-federal-grant-for-small-modular/",
     "k": "tva wins 400m federal grant for small modular nuclear reactor",
-    "id": "5555691a"
+    "id": "952a73b8"
   },
   {
     "date": "2025-11",
@@ -4230,10 +3852,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "IAEA",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdGdqRl9lclc0UFNKRkJRQ3J1UnRCSE1QV2FPX2dMbjE5a1BVQWpRVWdmN3I1WnRLRG1hTmR5R043eVZpYmpXcGF4N1hoNW90WVEyYkdiN0JRc2h0ZnBfVld6bzQxa0FKVUV3SFBMcWo1Rl9NLU9WUV9maUtINHdNNFZVRXhKdllIb2x2VFZmOVYxZTF6cWdwRTNDUkxkb2ZLeHc?oc=5",
+    "source": "iaea.org",
+    "url": "http://www.iaea.org/newscenter/news/iaea-launches-pilot-school-for-regulating-small-modular-reactors",
     "k": "iaea launches pilot school for regulating small modular reactors",
-    "id": "e2092447"
+    "id": "9a400dac"
   },
   {
     "date": "2025-11-28",
@@ -4244,10 +3866,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "NuScale",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSURyM1dyMUhzYW55aFNBTUZnbVB5MDYyX0VXclY5TExfU1phUGdwZ0JVbzhiTHo1d29iSFBUdEJDZUNYaWI5QWY2VDMwT0JISUd4TDNDeGdfQTJidUt5eU9DWXFYVHBIM3d1ZFJyYTAyUHVrbWhuN1hzU2xXZzJGXzE4bnQ3Y00taER1VmJ0M3M4ZWliVElROENaakVJaGtHTmJIMmxUZV8zWmFhSlQ3Slk5dVJtdw?oc=5",
+    "source": "seekingalpha.com",
+    "url": "https://seekingalpha.com/article/4848562-nuscale-small-modular-reactor-ahead-of-competition-profitability-uncertain",
     "k": "nuscale small modular reactor ahead of competition profitability uncertain",
-    "id": "32c3eb3e"
+    "id": "41a81959"
   },
   {
     "date": "2025-11-25",
@@ -4258,10 +3880,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9aQ2draXdnTWRvcXBvaHVseFNSNm82N2hEUGxzR1pmOUFrOVRGRTVoYWVXN3NwbVlBem9sbkN6MGhRM1pfYW1qOGlRc1V4R1ptRnc?oc=5",
+    "source": "gisreportsonline.com",
+    "url": "https://www.gisreportsonline.com/r/smrs/",
     "k": "what is holding up progress on small modular reactors",
-    "id": "d4f507d3"
+    "id": "72b6c2a3"
   },
   {
     "date": "2025-11-20",
@@ -4272,10 +3894,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVmR4cXNKOS13ajZSRFA4V094QlkzbW5udEZ6ODl0VmZJb3FZR0xhcEdXa2J3RzRfZW9mQTdIakNkby12OURJbEt1a1FqNXJ5MkptZlRDMHV4SFRwdEMtOG1uVHdJVHAtQ0MyaHhsQWhLQVp3clVKbDQwdUphS0pKNDRSQzdpQjg?oc=5",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/news/small-modular-reactor-market-reach-110000915.html",
     "k": "small modular reactor market to reach usd 6 48 billion by 2031 as global energy systems shift toward safe modular low carbon power according to datam intelligence",
-    "id": "9aecb0f3"
+    "id": "3a2494cf"
   },
   {
     "date": "2025-11-19",
@@ -4286,10 +3908,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5DOUczakFmdzJLclJIS0pDMlRWTWNxZTctWXEzd2hWSFk1RUtnUE10YXBNWkw4bTZsbTVzcDhrMW1jQ0l4bmoyNHJuUmZaaW5aVGQ2elU1SUpSc0Y4RVJZ?oc=5",
+    "source": "nature.com",
+    "url": "https://www.nature.com/articles/s41598-025-24599-z",
     "k": "coordinated operation and multi layered optimization of hybrid photovoltaic small modular reactor microgrids",
-    "id": "1249ae8e"
+    "id": "9d01122b"
   },
   {
     "date": "2025-11-18",
@@ -4300,10 +3922,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQbVlMUl9FMkZ3NVl3OVVHOEF2bmNGU0FTVkFMQ05vZjFMRjlXR1QxdlRpODJnbHNQYUZ3dVdUdDg0ME15ZDJCUGtzRVpTVmZVal9NQXI1NkMybW1sYmlfb3BXLS1yTGJldFFoWWdUdkRWc29pYTBxR2dXaEt2dmdSMHBBdWhYWjRMSUlmbmlDYkNld1NfNmFqaVY4UHU5WXFjYzRPZEloTmFSXzZrZlJsQ2h1SG0tUWhBQTV3NmJKbmY2MmpzRndGeWJoQ2M5dW1IWlIyclROVHA1eGc?oc=5",
+    "source": "nucnet.org",
+    "url": "https://www.nucnet.org/news/small-modular-reactor-industry-must-focus-on-developing-best-one-or-two-technologies-says-world-bank-head-11-2-2025",
     "k": "small modular reactor industry must focus on developing best one or two technologies says world bank head",
-    "id": "330276b3"
+    "id": "d13274b0"
   },
   {
     "date": "2025-11-17",
@@ -4314,10 +3936,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "NEA",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMmJoS1ozNjV4QVRoVW1YeG5FMlVIVjRrREgyTk9ONGFFeHQ2SmhZbURpbTJUcmZpclJwWkVvRTBxRmZCQXRWaUM0Nl9kQmFPbmpDTXJRRmdOcnVQdG4zM3hPYnZubVBSZ0lpV3d5Vmo3RTlsNF8yMnZ6Mk1aWUhXNVlUcGdBb0twM3ZfT1hRaXFSeWZSQklPcU5lX21uNXNqdlRwN1duekxmdWU0?oc=5",
+    "source": "oecd-nea.org",
+    "url": "https://www.oecd-nea.org/jcms/pl_112226/user-feedback-survey-nea-small-modular-reactor-smr-digital-dashboard",
     "k": "user feedback survey nea small modular reactor smr digital dashboard",
-    "id": "aced4de5"
+    "id": "4bc7b28a"
   },
   {
     "date": "2025-11-14",
@@ -4328,10 +3950,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "Appalachian Power",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRGg4UjB1Vll4WUdZM0xOUV9xVVV6VF9GZEhMUjVYRVhJM1FPWGsyOW5aM3hmcEM5a0d4LUlDRHBiek9MazlVMlU4clZzRDRmSkplSDc4QzJjcGFGQmRkYnAyeUpuaHowRC02UHItdnJsdVh5a2JqVU8yR2JKajN5VzVWRVJXLXpKeW9qbDNTelYxYzdjSy1DekF6bWkxQ0wzYXhfUFcya1BGREhndWVET1hPT1dvXzV6bUw2eTJkVHluM0ZMVWUzNy04cWZTUmM?oc=5",
+    "source": "cardinalnews.org",
+    "url": "https://cardinalnews.org/2025/11/14/regulators-give-appalachian-power-green-light-to-recover-small-modular-nuclear-reactor-site-costs/",
     "k": "regulators give appalachian power green light to incur small modular nuclear reactor site costs",
-    "id": "6d4ed639"
+    "id": "686a6941"
   },
   {
     "date": "2025-11-10",
@@ -4342,10 +3964,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "EU",
     "region": "EU",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcng3YzJDUDdacEhmMFY1aHdxRjdaYWRSZUlsWmdmN2RRRV9qZ0NzbjBjN2x0VlhHV0JJYnhHQUQ2ZjRpYjcxSTZRVjlnNmdkSm13R2F6U0xUa3dRbUtvNXBpS1F2RmFmTkdmVEpLUHdSbEhvaEJ0OUFwVndHWTZyRUduUHFlQnl5N1pmRE4wUmV3eF9TSE9vQ2t6QkZ2YWdxWmduZlEwOTVkTmZ3MFZkaEZ3?oc=5",
+    "source": "energy.ec.europa.eu",
+    "url": "https://energy.ec.europa.eu/news/commission-invites-views-shape-its-small-modular-reactor-strategy-2025-11-10_en",
     "k": "commission invites views to shape its small modular reactor strategy",
-    "id": "0f30e462"
+    "id": "24fb7d76"
   },
   {
     "date": "2025-11-10",
@@ -4356,10 +3978,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "TVA",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLUlOQjlmTXViUFJVMGNYZkVrY2FEZ0FhOThudFpwRlpXZEtwWld5LWIxZVFjWXJKY0s2cjJBTmVrdi1vVTFJSTd4TnBxNzRSaW9PNGZnVnJPYnBCZ3RvR1lyY1J0YS13U2N6VnpxdTNzMHFtLUY2S3FVWTI3RV9zN1ozZzF5emVQb3VjSi1wWmR3Sl9PMVplZHEtYjY?oc=5",
+    "source": "timesfreepress.com",
+    "url": "https://www.timesfreepress.com/news/2025/nov/10/nuclear-agency-recommends-approval-of-tva-small/",
     "k": "nuclear agency recommends approval of tva small modular reactor",
-    "id": "9e0d8f3f"
+    "id": "17e272b7"
   },
   {
     "date": "2025-11-06",
@@ -4370,10 +3992,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "AES",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQWxuMDI1M0hHS1dhdVgyczdkOTg2MTliYUE3bHhhMlptc0g4czRNb3RmaEx3MlQ0NU1EUnFPb201QVFSWk1KVGhsLXd1NnBMS2JFWjFuZzJJMzhJbFpERkJVUWNCV1l2LS1QRjNGWkh4eVhMRU96TVBIVExQd2pfYml3N01FdDRfRVM2UE1ZTWl0ZzRudEo5ZGRCc0IwZWZ0ZnVXMDZscTNQLWFRTmFLLWRGamdvVWM5UDBXbEpHcU9ac1A1ZllnbC1n?oc=5",
+    "source": "indianacapitalchronicle.com",
+    "url": "https://indianacapitalchronicle.com/2025/11/06/aes-small-modular-reactor-announcement-highlights-two-day-nuclear-summit-at-purdue/",
     "k": "aes small modular reactor announcement highlights nuclear summit at purdue university",
-    "id": "e5289107"
+    "id": "36588f46"
   },
   {
     "date": "2025-11-06",
@@ -4384,10 +4006,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "EDF",
     "region": "EU",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNekZzd0xjUGwtaS1YcHNobmZ6UWx6c0R2cU9GYzZqYjY0TVZuWF9kTzN2bWllNGR2a3lkXzdqZnRSdFY3bzZkb21uOE80RDlkWUVOaHp4RVM3bjZrZ3RiME9SWHoyNkR0MGdSd2wxR2xUU0hyTTBHMXBTS3FCSUNWVFNuZUREVk9SRnFPSHNnRm1CYkd2d2Y0Wjh5MEtLWGhkNWhSenBwbkdpRzFmQWE0UzZGOVI0LXY0QWpPMXFfMA?oc=5",
+    "source": "reuters.com",
+    "url": "https://www.reuters.com/business/energy/edf-aims-produce-30-small-modular-reactors-by-2050-design-planned-2026-2025-11-06/",
     "k": "edf aims to produce 30 small modular reactors by 2050 design planned for 2026",
-    "id": "d980b185"
+    "id": "9f7daa07"
   },
   {
     "date": "2025-11-01",
@@ -4398,10 +4020,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "IAEA",
     "region": "EU",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOSEhuWUlzcmtPb2hlY2dBazZlVUJmeDY4NlJGZnV1aUhIVmkxdFRFWS02ZzU3QTdtd0RwdlJYcTlUQWNKV1JsZllXMHBtQ2JubnVMclQzamh3QWxNOXlNQnlZT01tWlhPd2Ftc18xemU0MFI1YjhsdTFhY3lTRkIwRVJUWlJqNFVtbE1EY0xQamdUTFJGTElDQ0s5d0Q0WXFsSzVHZEp2OHlSaHRiVjNScGZzcWNnZGFVVWxRbFNUT0Zfa29Cel9J?oc=5",
+    "source": "iaea.org",
+    "url": "https://www.iaea.org/interactive/annual-report/2024/in-focus/iaea-platform-on-small-modular-reactors-and-their-applications.html",
     "k": "iaea platform on small modular reactors and their applications",
-    "id": "1a89ebef"
+    "id": "f49cab51"
   },
   {
     "date": "2025-10-28",
@@ -4412,10 +4034,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "Alten",
     "region": "EU",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxONmMyMmEzc3N2MjRBSHZ1cXhpUlJycWdCZFhwbVduSDVNWURhM1Nkel9SeWdBc2F3X0VLVi0xLUxTM3JhbnRvdTcyYUpyZUloZ0VfMzBzUWZvcVBFYnMwcFB6ZnNCOWREM1RPakhKS1p1X1pqMXBSRUdBb0dPQVJMSURR?oc=5",
+    "source": "alten.com",
+    "url": "https://www.alten.com/small-modular-reactors-france-faces-a-major-challenge/",
     "k": "small modular reactors france faces a major challenge",
-    "id": "9a505348"
+    "id": "6f7ea16b"
   },
   {
     "date": "2025-10-27",
@@ -4426,10 +4048,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQVUsxM3dpVFViYU0wZzhSNE9xSGtnN1Q0cDNpOEdnaVZhRGV3WE0wRFl4emZHbVdwQ0VLeVh2Q21YbHlYMEF4S1k1VzRadlBRVGdMd2cxYkp2VUpza1FBb3hkYmpiLUF2cl9ySFhxczJDMnJFRGJVODRULTg1a2J2U1NIU04weWlDVFhBbF9ha1dPcjlfNkhmRUd5RXlmT1ctZjZ0N0VtNjVyRmVHTVJxdGZwR0ZYbTJLTWpaVFdZRHZqN2lpZF80?oc=5",
+    "source": "constructionbriefing.com",
+    "url": "https://www.constructionbriefing.com/news/design-builder-appointed-for-amazon-backed-small-modular-reactor-plant/8087657.article",
     "k": "design builder appointed for amazon backed small modular reactor plant",
-    "id": "9fcfd183"
+    "id": "f2e99e67"
   },
   {
     "date": "2025-10-25",
@@ -4440,10 +4062,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9PZGtVQ1NVdFVEd0Q5aldTanpUUXQ0OGh6UG5DdjhwNVpYdUFSV056WnlvamMtWjRaOWZJc1RYY2diWW1xa0xzTTJHNEU1d041amppTGNJMGFoYlI2WWN5TkhKcnNIcHE5R3RzYktKYV9JaUhn0gF0QVVfeXFMT05zNDJYRW9nNVZxZVBpUE00TlRFbGtWZUVheXdZVjgtYWtEUENHaXF3VEt2NEx4ZDdpWU54eFNGbUk4ajBqcVNqMXRBUU54ZTdDSWtKWFVXbXhpODlyd2NERWpIeDB6ekdpemZzRGZVSEEzWHM?oc=5",
+    "source": "tri-cityherald.com",
+    "url": "https://www.tri-cityherald.com/news/business/article312625224.html",
     "k": "wa 1st small modular nuclear reactors team picked to build near richland tri city herald",
-    "id": "b62ba4b4"
+    "id": "6596e69d"
   },
   {
     "date": "2025-10-22",
@@ -4454,10 +4076,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "NEA",
     "region": "EU",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQTmtLeFZLa1NVbjR4SzEwRmN3VE1ENG9VZFlDM0NDRGdaeUZwWk9RRnVsZXcyZVFKVXl5R1I2MXpoc21qelZxcV9NTmpkcVRBMHJxVEN4U3kwckZfaWxMM09YdG1tdHZ1YXdFMVlmMTJaSFlHbnNDdzc2S1pRckNtaWdJTTJzemdrTkl1NWFpTVVZM3BuVlZfWjA1LW42aGc3?oc=5",
+    "source": "oecd-nea.org",
+    "url": "https://www.oecd-nea.org/jcms/pl_111230/open-for-update-nea-small-modular-reactor-digital-dashboard",
     "k": "open for update nea small modular reactor digital dashboard",
-    "id": "4b2f150d"
+    "id": "47f68457"
   },
   {
     "date": "2025-10-16",
@@ -4468,10 +4090,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYU5FWW5fTVlyejhNQ29qM05CZ0lWN1F0NGlTVElsOGJPQ2xJRXVvc0hEeFZId1QxV3lLYl9aNFFwN19kLWNSdzNzMXNtRG1sc1dLNGJOeXp2U1lzazFtR2RhMXQyY2lkdmtHUjRDNm1pUnFQWWlSRHNvakdlUG9BTnFsTGsyMmNmdmxPbUo5bmpuaU1qcFNValZ2bVg?oc=5",
+    "source": "utilitydive.com",
+    "url": "https://www.utilitydive.com/news/washington-nuclear-facility-smrs-cascade-amazon-modular/802967/",
     "k": "washington nuclear facility will deploy 12 amazon funded smrs",
-    "id": "32eea43a"
+    "id": "6a0c053b"
   },
   {
     "date": "2025-10-14",
@@ -4482,10 +4104,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "KR",
-    "source": "\"SMR 원자력\" - Google 뉴스",
-    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBONjhDU3VxTS00UHlHXzZoRVV2SUJyelBCb3g5UVlpY0lRaEZUbVlsUWZjWm1YdFFDYWV4RkJHbWtkc1hUVnRfLWx0TTBmUC1ReXplNERfV0NpRTRuOE9xSE4xUVBFdU01d2lqZ0VsaHNENWFnczZF?oc=5",
+    "source": "ohmynews.com",
+    "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD",
     "k": "새로운 미래 원자력 산업계가 감추는 smr의 불편한 진실",
-    "id": "7f38d9a8"
+    "id": "59c253bc"
   },
   {
     "date": "2025-10-10",
@@ -4496,10 +4118,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNRXRfc1F1a2lud09JMnVyMFhrcFktSURRQS1EbUIyNU5XVmczY2RhMlZYT3labXBJZFI3OXZlVVNRQlEyamFKcFk4OUtqRkVxYjI2b3dKNGNHTjB4QUlmNVhlcTFMVUtLNTlTc0R6eFNvaWg3T25uNk1WNlA5YWY0RzZBWERHdzYyZFJLR1M2ZDJmTDdoUzVMQlNPVDFDaGs?oc=5",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/excavation-works-begin-for-uzbek-small-modular-reactor",
     "k": "excavation works begin for uzbekistan small modular reactor",
-    "id": "61dec3d7"
+    "id": "f311f95c"
   },
   {
     "date": "2025-10-05",
@@ -4510,10 +4132,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1aQnpLTGNGSXVadFQxVUdKNnVBR3lvamZPLTUtOU9VeTE2UWhIV1p1ZXdhSUhjaGhhYnpRR3JRNmlVMUc2MEJfYTRsOGtDZ1ZWdEU0M2dDTzlYa1J4bDg5cjZrc1RvM2ZYSjhIU295RGtfZUtEUXJsYg?oc=5",
+    "source": "purdue.edu",
+    "url": "https://www.purdue.edu/operations/nuclear/home/duke/korsnick-lecture/",
     "k": "korsnick lecture small modular reactor smr nuclear studies",
-    "id": "844eb2e6"
+    "id": "37cdf88b"
   },
   {
     "date": "2025-09",
@@ -4537,10 +4159,10 @@ window.SMR_NEWS = [
     "type": "HTGR",
     "dev": "X-Energy",
     "region": "CA",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbEJ3aWlWdC1tQWVaTFF0d05yYmM1YS1ZampzUllTV3BPTFBZZ0hiVW1NelNBbnZzSUEzSjFnajVjMV8wS0RfTnA2YmdJRVViQU5fYi1uU1BXODN2Y1M4M2JtSHNrVGxlUEFwbzVONFliWFRfcHNsQmoxNUxYUVV5MEZZek5NUFBrOXA2aEZ1b0ZUVVBhcTBWVV9ONU9RbExfeXlwSlY3R2JPd0RpQVZVbUswLUotdXY2b1Bv?oc=5",
+    "source": "x-energy.com",
+    "url": "https://x-energy.com/news/x-energy-confirms-feasibility-of-xe-100-advanced-small-modular-reactor-deployment-in-alberta/",
     "k": "x energy confirms feasibility of xe 100 advanced small modular reactor deployment in alberta x energy",
-    "id": "7b584e20"
+    "id": "3353a7f8"
   },
   {
     "date": "2025-09-24",
@@ -4551,10 +4173,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "NuScale",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYVR2SUJ5SG93b2l0ZXlqZHduUVZjZGlTOFFtNVRxa21iWUZJSDJyMlZHREo0QVcyV1hqdlFySnRzc2o4TW14UG1odlJsemlEUnJYN1h3dmVOcnpZYUEyaGZqY05jSng0U2xRSVppTzV1anBOYjJZejNRZVJ5TmR5NXZNZ2R5M1dYNGp3WHljV2cyMkctaHl3VFpxWjdiVnFiTXk2aFB5OW5XSGhhWjRyektBa2RJNHQwV2l6Zmg0MNIBzwFBVV95cUxOcUdzMGtWaGtSSVQyM294UWVQS0dVSmxBbnl5Qmx0SDZpYVhtOGlfZnBqNDFkZXFyQ2x5RzB3NG1sa3FyYzNFQUdITXhpSFMwRzQ2V1VOQ2YwRnRWZWQ4eUh6Rzd1aDAwa2YzRFBxekxCN2Q5Y1Rpa056Xzh1OWtaazdXVWdXVDl4X1Ftc2xYd3g1WlpSckNYQUVMNi1QZTI0bUYxQTBmbWpJekwtSnYwcER6cFp3WU1vTWEtT1RtX0JvWnhkTzFhZE5ncGhDSFk?oc=5",
+    "source": "nuscalepower.com",
+    "url": "https://www.nuscalepower.com/smr-insights-blog/why-nuscales-smr-design-is-the-worlds-first-truly-scalable-nuclear-solution",
     "k": "why nuscale s smr design is the world s first truly scalable nuclear solution",
-    "id": "7a3d9857"
+    "id": "e7b20cba"
   },
   {
     "date": "2025-09-15",
@@ -4565,10 +4187,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPamxXZ1JJWUk2MER6R2JQamQwTW1BUHdMTmdsU2hhZ2VDTHh1NUw0X29RM19abEJwZ19WYjNJdEZob0VycGotbFl6VzZ0aWM0MmVaUUdMbUhqM3NXSHcwa2psR0hCM1NBOXNBQmdHTFlRV19kak5RSDNaemwzWnJyTU9sWmRzMFhFQmc?oc=5",
+    "source": "coloradosun.com",
+    "url": "https://coloradosun.com/2025/09/15/small-modular-nuclear-reactors-pueblo-colorado/",
     "k": "small modular nuclear reactors are having a moment will they arrive in time for pueblo",
-    "id": "e5393f3b"
+    "id": "9ae8c05a"
   },
   {
     "date": "2025-09-15",
@@ -4579,10 +4201,10 @@ window.SMR_NEWS = [
     "type": "PWR",
     "dev": "Rolls-Royce",
     "region": "UK",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNRFphZzR6X1RGc01pcG1kWjNUQzdJSE5zaDNXc0ozclNoZ2dGOGVyYk5BNkdkUHlGbGpUbkR5X281UHg5Z1UzTW96WGc2SC1sV3BsaWRRNWY0T2ZQeGFSRzBuYkJ1ckYyaHBRaGZ3Z1RjNDV0b2RPZXRmY1UwdU9LUEFwXzhmOTZJaE02UXlsOEtMUmZIWlVlYjBMQkZGQ3kwWGZWTmY5djNnTS1DMVdWSENrc0JSMkh3bERTdVZ2aTVDYVBVRTBrRExLVTdia2hNWlJZbWpGYWt0R1hueUF0M2pZRW1LVmhpd1ZPdzREdjZ1UQ?oc=5",
+    "source": "rolls-royce.com",
+    "url": "https://www.rolls-royce.com/media/press-releases/2025/15-09-2025-rr-welcomes-action-from-uk-and-us-governments-to-usher-in-new-golden-age-of-nuclear-energy.aspx",
     "k": "rolls royce welcomes action from uk and us governments to usher in new golden age of nuclear energy rolls royce plc",
-    "id": "6e0e8805"
+    "id": "ec8e5c45"
   },
   {
     "date": "2025-08",
@@ -4619,10 +4241,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPanlkeTlPaGlVTE9BMVBuMDdIYlY4S0Nua2t1czBoQlF5cF9TZVEwS2V6cy00b1BORi1WcDNXQmhLcFVRZ0V5SUkzV19qT09EUmtfYkZnRDhnbXVvRmJReU1rTFV5a01Pdk9HVlA1RFFGcUFTdlBiNDdaVHNpejFLaDdQX0FGdlU?oc=5",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/news/small-modular-reactor-smr-research-115100166.html",
     "k": "small modular reactor smr research report 2025 2030 revolutionizing energy manufacturing and supply chains with enhanced efficiency safety and cost savings",
-    "id": "a169bb27"
+    "id": "bba018e1"
   },
   {
     "date": "2025-08-04",
@@ -4633,10 +4255,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "IAEA",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPT2dxNnQwcU15SGRueW9FQ2Q3c1RfQk0tMU8wVXhqODhWeFhfN3FwZHNCRmRobWN6c0NjcGFUUFVGNkRDajZ6RlVmYlNFY3lWY01BYnJsQUZfSnJSdERsZEZ3bVVfcHd3Qnh2eU1kd2djWXFtcHV6TUdhRzZsNG9EN3RZeUxXRldHTnRhUnpLM2NPa200eWtqN0RSbTBoQVpSUlRVX1ZwTHktdU5KUnZoTw?oc=5",
+    "source": "iaea.org",
+    "url": "http://www.iaea.org/newscenter/news/iaea-expands-global-initiative-to-boost-knowledge-of-small-modular-reactors",
     "k": "iaea expands global initiative to boost knowledge of small modular reactors",
-    "id": "9e1a1583"
+    "id": "67da7f4b"
   },
   {
     "date": "2025-07",
@@ -4673,10 +4295,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "NEA",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWUZ4eWdzOWRETVdVbGJFQWhoeUpNbDk4aXpjMERwYkNUSEctNG51RUJpd2RQUmJCWDB2M1BpVUdGeHk2Q0Qtak1ybGp6bkJFdk1NcXlRY2JKZzNXX1Flb1A1Qnh1RC1uX0k1c21DMFhWWlFuREU4cHdnRVJJZW56YXpaS1lRWVptMEFYNjFkS3hfSVFKak4yd01wd1lZOGNuYzhvVHNqSVJpbnVaZ1RVa2N1TV9UUmt0TnFsRHBuWnNEeW0zdnNjRGV3?oc=5",
+    "source": "oecd-nea.org",
+    "url": "https://www.oecd-nea.org/jcms/pl_108268/new-nea-small-modular-reactor-dashboard-edition-reveals-global-expansion-of-smr-deployment",
     "k": "new nea small modular reactor dashboard edition reveals global expansion of smr deployment",
-    "id": "f1bc9919"
+    "id": "da6ddd52"
   },
   {
     "date": "2025-07-21",
@@ -4687,10 +4309,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "",
     "region": "",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLWc2T29NVWFGY250cmw5dTB3UGhoUEtMMFk2Wko3VUdLcS03SkZ1ZHdCaEJhY015cld6QUI3N3dFLXc3d1pFYVQ5bjFsWFE4blBlWUVhbkREMnZEQmY4WjVaaTdiMzFjOVpQbzhzQkRNSDdVaXU1X2NNVmJydXpHdVZyNEwxRDlDMWR1a3hkMGFCMm13SW9mVDN5dFBwUU5tVGRlS1NvTFp5QQ?oc=5",
+    "source": "canarymedia.com",
+    "url": "https://www.canarymedia.com/articles/nuclear/small-modular-reactors-are-having-a-moment-will-any-get-built",
     "k": "small modular reactors are gaining steam globally will any get built",
-    "id": "32311738"
+    "id": "b3393a90"
   },
   {
     "date": "2025-07-16",
@@ -4701,10 +4323,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "NEA",
     "region": "EU",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVFo4eVgyQVRldE9lX3RsSm1tYVVYRHp2LVBkUE5aOTN6b3FSbzlvd1RyN0FJMHU0Qm1Pbkpvb3UxR0JqODd3VloyV0wxUW5Ed0YySWhfRVItX2JsREw0eTh0SUdMRGVwNGJwdmFsVjhrYXBxUG5XdGs2a2N5MnpqU1luU3BFMnowUUc4?oc=5",
+    "source": "oecd-nea.org",
+    "url": "https://www.oecd-nea.org/jcms/pl_107879/nea-small-modular-reactor-digital-dashboard",
     "k": "nea small modular reactor digital dashboard",
-    "id": "c5fab225"
+    "id": "19229bb2"
   },
   {
     "date": "2025-07-11",
@@ -4715,10 +4337,10 @@ window.SMR_NEWS = [
     "type": "General",
     "dev": "TVA",
     "region": "US",
-    "source": "\"\"small modular reactor\"\" - Google News",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQlB0NkVhUEd2Y3BDLVZCZlFTRUp2WEZzTjYwSi0tR0pscm1iZzBGZUZEWFBZSDJHakRJQ3ktc3RrVTJ5bzZUM0x6cGxpQ2ZyeUhXUHYzeUsyVkVGek5iN0dBMjh0cFk2X2hEMmlveWJHeC1UaXhEUkRNc0ZqQ0t5Q1RuNk5nbUZRRXhwX2Z2aHJCSXp5MTFHenZ3SWdvMnVFQUlBUVJFbw?oc=5",
+    "source": "energy.gov",
+    "url": "https://www.energy.gov/ne/articles/nrc-dockets-construction-permit-application-tva-small-modular-reactor",
     "k": "nrc dockets construction permit application for tva small modular reactor",
-    "id": "db234998"
+    "id": "a8337272"
   },
   {
     "date": "2025-05",
@@ -4838,4 +4460,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-17 03:52 KST";
+window.SMR_UPDATED = "2026-06-17 09:01 KST";
