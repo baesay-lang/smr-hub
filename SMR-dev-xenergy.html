@@ -22,7 +22,9 @@
 <meta name="twitter:title" content="X-energy / Xe-100 상세 · SMR HUB">
 <meta name="twitter:description" content="Xe-100(HTGR) 사양·공급망·고객·파트너십·뉴스 상세.">
 <meta name="twitter:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="styles.css?v=2">
+<script>(function(){try{var t=localStorage.getItem('smrhub-theme');if(t==='dark'||(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();</script>
+<script src="ui.js" defer></script>
 <style>
   .breadcrumb .sep{color:var(--text-faint);}
   .h-top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;}
@@ -30,6 +32,14 @@
   .type-tag{font-size:12px;font-weight:700;padding:3px 10px;border-radius:4px;background:var(--surface-3);color:var(--text-dim);}
   .pub-tag{font-size:12px;font-weight:700;padding:3px 10px;border-radius:4px;background:var(--accent-weak);color:var(--accent-strong);}
   .updated{font-size:12px;color:var(--text-faint);margin-top:6px;font-variant-numeric:tabular-nums;}
+
+  /* reactor hero figure (재사용: 노형별 SVG 모형) */
+  .reactor-hero{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap;}
+  .rh-text{flex:1 1 320px;min-width:270px;}
+  .reactor-figure{flex:0 0 auto;margin:0;width:230px;max-width:100%;}
+  .reactor-figure svg{display:block;width:100%;height:auto;}
+  .reactor-figure figcaption{font-size:11px;color:var(--text-faint);text-align:center;margin-top:2px;letter-spacing:.02em;}
+  @media(max-width:600px){.reactor-figure{margin:6px auto 0;}}
 
   section{margin-top:30px;scroll-margin-top:56px;}
   .sec-head{font-size:17px;font-weight:700;color:var(--text);margin:0 0 4px;}
@@ -122,14 +132,99 @@
 
 <div class="breadcrumb"><a href="SMR-developers.html">개발사</a> <span class="sep">›</span> <a href="SMR-developers.html#xenergy">X-energy</a> <span class="sep">›</span> 상세</div>
 
-<header class="page">
-  <div class="h-top">
-    <h1>X-energy / Xe-100</h1>
-    <span class="type-tag">비경수로 · HTGR</span>
-    <span class="pub-tag">Nasdaq: XE</span>
+<header class="page reactor-hero">
+  <div class="rh-text">
+    <div class="h-top">
+      <h1>X-energy / Xe-100</h1>
+      <span class="type-tag">비경수로 · HTGR</span>
+      <span class="pub-tag">Nasdaq: XE</span>
+    </div>
+    <p class="subtitle">고온가스로(HTGR) 페블형(Pebble-bed) + TRISO 연료로 <b>전력·공정열</b> 시장 공략. 인허가는 <a href="SMR-licensing-tracks.html#part50">NRC Part 50</a>(Long Mott·Dow).</p>
+    <div class="updated">최종 업데이트 2026-06-17 · 파이프라인 144기 · 약 11.5 GWe (美·英, 2026-03-31 기준)</div>
   </div>
-  <p class="subtitle">고온가스로(HTGR) 페블형(Pebble-bed) + TRISO 연료로 <b>전력·공정열</b> 시장 공략. 인허가는 <a href="SMR-licensing-tracks.html#part50">NRC Part 50</a>(Long Mott·Dow).</p>
-  <div class="updated">최종 업데이트 2026-06-17 · 파이프라인 144기 · 약 11.5 GWe (美·英, 2026-03-31 기준)</div>
+
+  <!-- ===== 노형 모형(재사용 패턴): 페블베드 HTGR. 모든 색은 CSS 변수 → 다크모드 자동 대응 ===== -->
+  <figure class="reactor-figure">
+    <svg viewBox="0 0 230 165" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+         role="img" aria-label="Xe-100 페블베드 고온가스로 개략 모형: 노심의 페블이 상단 투입·하단 배출로 재순환하고 헬륨이 750°C로 열을 전달">
+      <title>Xe-100 페블베드 HTGR 모형</title>
+      <style>
+        .xe-vessel{fill:var(--surface);stroke:var(--border-strong);stroke-width:2.6}
+        .xe-core{fill:var(--accent-weak)}
+        .xe-funnel{fill:var(--surface-2);stroke:var(--border-strong);stroke-width:1.4}
+        .xe-pipe{fill:none;stroke:var(--border-strong);stroke-linejoin:round;stroke-linecap:round}
+        .xe-graph{fill:var(--text-faint)}
+        .xe-fuel{fill:var(--accent)}
+        .xe-bed circle{stroke:var(--surface);stroke-width:.6}
+        .xe-hot{stroke:var(--accent);stroke-width:2.4;fill:none}
+        .xe-cold{stroke:var(--text-faint);stroke-width:2;stroke-dasharray:3 2.5;fill:none}
+        .xe-mk-hot{fill:var(--accent)}
+        .xe-mk-cold{fill:var(--text-faint)}
+        .xe-t{font-size:8px;font-weight:700;fill:var(--text-faint)}
+        .xe-t-a{font-size:8px;font-weight:700;fill:var(--accent)}
+        .xe-t-as{font-size:8px;font-weight:700;fill:var(--accent-strong)}
+        .xe-t-s{font-size:7.5px;font-weight:700;fill:var(--text-faint)}
+        @keyframes xeDrop{0%{transform:translateY(-15px);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translateY(10px);opacity:0}}
+        .xe-drop{animation:xeDrop 2.6s linear infinite}
+        @media(prefers-reduced-motion:reduce){.xe-drop{animation:none;opacity:1}.xe-flow{display:none}}
+      </style>
+      <defs>
+        <marker id="xeHot" markerWidth="7" markerHeight="7" refX="5.5" refY="3" orient="auto"><path class="xe-mk-hot" d="M0,0 L6,3 L0,6 Z"/></marker>
+        <marker id="xeCold" markerWidth="7" markerHeight="7" refX="5.5" refY="3" orient="auto"><path class="xe-mk-cold" d="M0,0 L6,3 L0,6 Z"/></marker>
+        <clipPath id="xeBed"><rect x="62" y="44" width="56" height="92" rx="26"/></clipPath>
+        <path id="xeLoop" d="M90 150 L90 156 L128 156 L128 30 L98 26" fill="none"/>
+        <path id="xeHe" d="M50 60 L34 60 L34 124 L50 124" fill="none"/>
+      </defs>
+
+      <!-- 헬륨 1차 루프 (좌측) -->
+      <path class="xe-pipe" style="stroke-width:2.4" d="M50 60 L34 60 L34 124 L50 124"/>
+      <circle class="xe-flow xe-fuel" r="2.6"><animateMotion dur="3s" repeatCount="indefinite"><mpath xlink:href="#xeHe"/></animateMotion></circle>
+      <line class="xe-hot" x1="50" y1="60" x2="40" y2="60" marker-start="url(#xeHot)"/>
+      <line class="xe-cold" x1="40" y1="124" x2="50" y2="124" marker-end="url(#xeCold)"/>
+      <text class="xe-t-a" x="33" y="50" text-anchor="middle">750°C</text>
+      <text class="xe-t" x="33" y="138" text-anchor="middle">260°C</text>
+      <text class="xe-t-s" x="19" y="94" text-anchor="middle" transform="rotate(-90 19 94)">He 1차 루프</text>
+
+      <!-- 페블 재순환 파이프 (우측, 핵연료취급계통) -->
+      <path class="xe-pipe" style="stroke-width:3" d="M90 150 L90 156 L128 156 L128 30 L98 26"/>
+      <text class="xe-t-s" x="139" y="96" text-anchor="middle" transform="rotate(90 139 96)">페블 재순환 ↻</text>
+
+      <!-- 원자로압력용기(RPV) + 노심 + 깔때기/콘 -->
+      <rect class="xe-vessel" x="54" y="28" width="72" height="118" rx="34"/>
+      <rect class="xe-core" x="62" y="44" width="56" height="92" rx="26"/>
+      <polygon class="xe-funnel" points="74,30 106,30 98,46 82,46"/>
+      <polygon class="xe-funnel" points="66,128 114,128 98,146 82,146"/>
+
+      <!-- 페블 베드 (정적, 클립) — 흑연 다수 + 신연료(accent) 소수 -->
+      <g class="xe-bed" clip-path="url(#xeBed)">
+        <g class="xe-graph">
+          <circle cx="70" cy="52" r="4.4"/><circle cx="80" cy="50" r="4.4"/><circle cx="100" cy="50" r="4.4"/><circle cx="110" cy="54" r="4.4"/>
+          <circle cx="75" cy="60" r="4.4"/><circle cx="95" cy="58" r="4.4"/><circle cx="105" cy="62" r="4.4"/>
+          <circle cx="68" cy="68" r="4.4"/><circle cx="88" cy="66" r="4.4"/><circle cx="112" cy="70" r="4.4"/>
+          <circle cx="78" cy="74" r="4.4"/><circle cx="98" cy="74" r="4.4"/>
+          <circle cx="70" cy="82" r="4.4"/><circle cx="90" cy="82" r="4.4"/><circle cx="110" cy="82" r="4.4"/>
+          <circle cx="80" cy="90" r="4.4"/><circle cx="100" cy="90" r="4.4"/><circle cx="68" cy="96" r="4.4"/><circle cx="112" cy="96" r="4.4"/>
+          <circle cx="78" cy="104" r="4.4"/><circle cx="98" cy="102" r="4.4"/>
+          <circle cx="70" cy="112" r="4.4"/><circle cx="90" cy="110" r="4.4"/><circle cx="110" cy="112" r="4.4"/>
+          <circle cx="82" cy="120" r="4.4"/><circle cx="100" cy="120" r="4.4"/>
+        </g>
+        <g class="xe-fuel">
+          <circle cx="90" cy="50" r="4.4"/><circle cx="84" cy="82" r="4.4"/><circle cx="104" cy="74" r="4.4"/><circle cx="74" cy="92" r="4.4"/><circle cx="92" cy="120" r="4.4"/>
+        </g>
+        <circle class="xe-drop xe-fuel" cx="90" cy="48" r="4.4" style="animation-delay:0s"/>
+        <circle class="xe-drop xe-fuel" cx="86" cy="48" r="4.4" style="animation-delay:-1.3s"/>
+      </g>
+
+      <!-- 재순환 중인 페블 (우측 파이프 상승) -->
+      <circle class="xe-flow xe-fuel" r="4"><animateMotion dur="5s" repeatCount="indefinite"><mpath xlink:href="#xeLoop"/></animateMotion></circle>
+      <circle class="xe-flow xe-fuel" r="4"><animateMotion dur="5s" begin="-2.5s" repeatCount="indefinite"><mpath xlink:href="#xeLoop"/></animateMotion></circle>
+
+      <!-- 라벨 -->
+      <text class="xe-t-as" x="90" y="22" text-anchor="middle">신연료 투입</text>
+      <text class="xe-t" x="90" y="163" text-anchor="middle">사용후 배출</text>
+    </svg>
+    <figcaption>Xe-100 · 페블베드 HTGR (개략 모형)</figcaption>
+  </figure>
 </header>
 
 <main>
