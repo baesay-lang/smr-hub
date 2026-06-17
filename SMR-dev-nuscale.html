@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NuScale Power Module / VOYGR 상세 — 사양·공급망·고객·뉴스</title>
+<meta name="description" content="NuScale Power Module(일체형 PWR)·VOYGR 플랜트 기술 사양·부품 공급망·고객(Off-taker)·파트너십·뉴스 상세. 한국(두산·삼성물산·GS에너지) 참여 정리.">
+<link rel="canonical" href="https://baesay-lang.github.io/smr-hub/SMR-dev-nuscale.html">
+<meta name="theme-color" content="#2563eb">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SMR HUB">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="NuScale Power Module / VOYGR 상세 · SMR HUB">
+<meta property="og:description" content="NuScale Power Module(일체형 PWR)·VOYGR 플랜트 기술 사양·부품 공급망·고객·파트너십·뉴스 상세.">
+<meta property="og:url" content="https://baesay-lang.github.io/smr-hub/SMR-dev-nuscale.html">
+<meta property="og:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="NuScale Power Module / VOYGR 상세 · SMR HUB">
+<meta name="twitter:description" content="NuScale(일체형 PWR) 사양·공급망·고객·파트너십·뉴스 상세.">
+<meta name="twitter:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
+<link rel="stylesheet" href="styles.css?v=3">
+<script>(function(){try{var t=localStorage.getItem('smrhub-theme');if(t==='dark'||(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();</script>
+<script src="ui.js" defer></script>
+<style>
+  .breadcrumb .sep{color:var(--text-faint);}
+  .h-top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;}
+  h1{font-size:23px;margin:6px 0 2px;}
+  .type-tag{font-size:12px;font-weight:700;padding:3px 10px;border-radius:4px;background:var(--surface-3);color:var(--text-dim);}
+  .pub-tag{font-size:12px;font-weight:700;padding:3px 10px;border-radius:4px;background:var(--accent-weak);color:var(--accent-strong);}
+  .updated{font-size:12px;color:var(--text-faint);margin-top:6px;font-variant-numeric:tabular-nums;}
+
+  /* reactor hero figure (재사용: 노형별 SVG 모형) */
+  .reactor-hero{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap;}
+  .rh-text{flex:1 1 320px;min-width:270px;}
+  .reactor-figure{flex:0 0 auto;margin:0;width:150px;max-width:100%;}
+  .reactor-figure svg{display:block;width:100%;height:auto;}
+  .reactor-figure figcaption{font-size:11px;color:var(--text-faint);text-align:center;margin-top:2px;letter-spacing:.02em;}
+  @media(max-width:600px){.reactor-figure{margin:6px auto 0;}}
+
+  section{margin-top:30px;scroll-margin-top:56px;}
+  .sec-head{font-size:17px;font-weight:700;color:var(--text);margin:0 0 4px;}
+  .sec-head .no{color:var(--accent);margin-right:6px;}
+  .sec-sub{color:var(--text-dim);font-size:13px;margin:0 0 14px;}
+
+  .jump{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 6px;}
+  .jump a{font-size:13px;font-weight:600;background:var(--surface);border:1px solid var(--border);padding:6px 13px;border-radius:20px;color:var(--text-dim);}
+  .jump a:hover{border-color:var(--accent);color:var(--accent-strong);text-decoration:none;}
+
+  .specs{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1px;background:var(--border);
+    border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;}
+  .spec{background:var(--surface-2);padding:11px 14px;}
+  .spec .lab{font-size:11px;color:var(--accent);font-weight:700;display:block;margin-bottom:2px;}
+  .spec .val{font-size:14px;color:var(--text);}
+  .spec .val small{color:var(--text-dim);font-size:12px;}
+  .tech-note{background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--accent);
+    border-radius:var(--radius-sm);padding:12px 16px;margin-top:12px;font-size:13.5px;color:var(--text-dim);}
+  .tech-note b{color:var(--text);}
+
+  table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:640px;}
+  th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--border);vertical-align:top;}
+  th{background:var(--surface-2);font-weight:700;font-size:12px;color:var(--text-dim);white-space:nowrap;}
+  tr:last-child td{border-bottom:none;}
+  tbody tr:hover{background:var(--surface-2);}
+  td b{color:var(--text);}
+  .badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:4px;white-space:nowrap;background:var(--surface-3);color:var(--text-dim);}
+  .st-ok,.st-prog{color:var(--accent-strong);font-weight:700;}
+  .st-plan{color:var(--text-faint);font-weight:700;}
+  .st-stop{color:var(--alert);font-weight:700;}
+
+  .mou{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:13px 16px;margin-bottom:10px;box-shadow:var(--shadow);}
+  .mou-top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:3px;}
+  .mou-date{font-size:12px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;}
+  .mou-party{font-weight:700;font-size:15px;color:var(--text);}
+  .mou-body{font-size:13.5px;color:var(--text-dim);}
+  .mou-body b{color:var(--text);}
+
+  .diagram-wrap{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:12px;overflow-x:auto;margin-bottom:10px;}
+  .diagram-wrap svg{display:block;min-width:720px;height:auto;}
+  .sub-h{font-size:14px;font-weight:700;color:var(--text);margin:20px 0 8px;}
+  .sub-h .pin{font-size:12px;font-weight:800;color:var(--accent);margin-right:6px;}
+  .cochip{display:inline-block;font-size:12px;font-weight:700;padding:3px 9px;border-radius:5px;cursor:pointer;
+    border:1px solid var(--border-strong);background:var(--surface);color:var(--text);margin:2px 4px 2px 0;}
+  .cochip:hover{border-color:var(--accent);color:var(--accent-strong);}
+  .cochip.active{background:var(--accent-weak);border-color:var(--accent);color:var(--accent-strong);}
+  .cochip .ccx{font-size:10px;color:var(--text-faint);font-weight:700;margin-left:3px;}
+  .co-detail{background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:13px 15px;margin-top:8px;font-size:13.5px;color:var(--text-dim);}
+  .co-detail .nm{font-weight:700;color:var(--text);font-size:15px;}
+  .co-detail .role{color:var(--accent-strong);font-size:12px;font-weight:700;margin:1px 0 6px;}
+  .co-detail .lnk{margin-top:8px;font-size:13px;}
+  .co-detail.empty{font-style:italic;color:var(--text-faint);}
+  .co-detail b{color:var(--text);}
+  .num{font-weight:700;color:var(--text);font-variant-numeric:tabular-nums;}
+
+  .news-controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px;}
+  #newsSearch{flex:1;min-width:200px;}
+  .tagchips{display:flex;gap:6px;flex-wrap:wrap;}
+
+  .feed{position:relative;padding-left:22px;}
+  .feed::before{content:"";position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:var(--border);}
+  .item{position:relative;margin-bottom:16px;}
+  .item::before{content:"";position:absolute;left:-22px;top:5px;width:11px;height:11px;border-radius:50%;background:var(--accent);border:2px solid var(--bg);}
+  .item-date{font-size:12px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;}
+  .item-title{font-weight:700;font-size:15px;margin:1px 0 3px;color:var(--text);}
+  .item-body{font-size:13.5px;color:var(--text-dim);}
+  .item-body b{color:var(--text);}
+  .item-tags{margin-top:5px;display:flex;gap:5px;flex-wrap:wrap;}
+  .tg{font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:4px;background:var(--surface-2);color:var(--text-dim);border:1px solid var(--border);}
+  .item-src{font-size:11.5px;margin-top:3px;}
+  .news-hidden{display:none;}
+  .news-tip{background:var(--surface-2);border:1px dashed var(--border-strong);border-radius:var(--radius-sm);padding:10px 14px;font-size:12.5px;color:var(--text-dim);margin-bottom:16px;}
+  .news-tip code{background:var(--surface-3);padding:1px 5px;border-radius:4px;color:var(--accent-strong);font-size:11.5px;}
+
+  .src{font-size:11.5px;color:var(--text-faint);}
+  .src a{color:var(--text-dim);}
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a class="brand" href="index.html">SMR HUB</a>
+  <a href="SMR-news.html">뉴스</a>
+  <a href="SMR-developers.html">개발사</a>
+  <a href="SMR-licensing-tracks.html">인허가 트랙</a>
+  <a href="SMR-reactor-types.html">노형 분류</a>
+  <a href="SMR-reference.html">CFR 레퍼런스</a>
+  <a href="SMR-asia-structure.html">사업 구조</a>
+  <a href="SMR-korea-players.html">한국 기업</a>
+  <a href="SMR-map.html">프로젝트 맵</a>
+</nav>
+
+<div class="breadcrumb"><a href="SMR-developers.html">개발사</a> <span class="sep">›</span> <a href="SMR-developers.html#nuscale">NuScale</a> <span class="sep">›</span> 상세</div>
+
+<header class="page reactor-hero">
+  <div class="rh-text">
+    <div class="h-top">
+      <h1>NuScale Power Module / VOYGR</h1>
+      <span class="type-tag">경수로 · 일체형 PWR</span>
+      <span class="pub-tag">NYSE: SMR</span>
+    </div>
+    <p class="subtitle">자연순환 <b>일체형 가압경수로(iPWR)</b> — 공장제작 모듈을 수조에 침수, 4·6·12기로 확장. 美 NRC <a href="SMR-licensing-tracks.html#part52">설계인증·SDA</a> 보유. 주력 프로젝트는 루마니아 <b>Doicești</b>(RoPower).</p>
+    <div class="updated">최종 업데이트 2026-06-17 · US600 설계인증(2023) · US460 SDA(2025-05) · RoPower FID(2026-02)</div>
+  </div>
+
+  <!-- ===== 노형 모형(재사용 패턴): 회색 음영 3D 모델 렌더. NuScale = 슬림 일체형 모듈(CNV). ===== -->
+  <figure class="reactor-figure">
+    <svg viewBox="0 0 150 200" xmlns="http://www.w3.org/2000/svg"
+         role="img" aria-label="NuScale Power Module 모형: 슬림한 일체형 원통 모듈(격납용기 CNV) 상단에 제어봉 구동부, 하단에 지지 스커트">
+      <title>NuScale Power Module (NPM) 모형</title>
+      <defs>
+        <linearGradient id="nsCylV" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#99a2ac"/><stop offset="0.12" stop-color="#c2c9d1"/><stop offset="0.30" stop-color="#e9ecef"/>
+          <stop offset="0.48" stop-color="#ffffff"/><stop offset="0.64" stop-color="#eceef1"/><stop offset="0.80" stop-color="#c6ccd3"/><stop offset="1" stop-color="#959fa9"/>
+        </linearGradient>
+        <linearGradient id="nsCap" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#d7dce1"/><stop offset="0.5" stop-color="#f6f7f9"/><stop offset="1" stop-color="#cfd4da"/>
+        </linearGradient>
+        <style>
+          .ns-body{stroke:var(--border-strong);stroke-width:.8}
+          .ns-cap{fill:url(#nsCap);stroke:var(--border-strong);stroke-width:.7}
+          .ns-capb{fill:#aab2bc;stroke:var(--border-strong);stroke-width:.7}
+          .ns-flange{fill:#cdd3da;stroke:var(--border-strong);stroke-width:.6}
+          .ns-rib{stroke:#aab2bc;stroke-width:.7;fill:none}
+          .ns-shadow{fill:var(--border-strong);opacity:.5}
+        </style>
+      </defs>
+
+      <!-- 바닥 그림자 -->
+      <ellipse class="ns-shadow" cx="73" cy="191" rx="40" ry="5"/>
+
+      <!-- 상단 제어봉 구동부(CRDM) 스택 -->
+      <ellipse class="ns-cap" cx="73" cy="20" rx="9" ry="3"/>
+      <rect class="ns-body" x="64" y="20" width="18" height="18" fill="url(#nsCylV)"/>
+      <g class="ns-rib"><line x1="68" y1="22" x2="68" y2="37"/><line x1="73" y1="22" x2="73" y2="37"/><line x1="78" y1="22" x2="78" y2="37"/></g>
+
+      <!-- 격납용기(CNV) 동체 — 슬림 일체형 -->
+      <ellipse class="ns-cap" cx="73" cy="42" rx="25" ry="7"/>
+      <rect class="ns-body" x="48" y="42" width="50" height="138" fill="url(#nsCylV)"/>
+      <!-- 중앙 정비 플랜지 -->
+      <rect class="ns-flange" x="46" y="108" width="54" height="4" rx="2"/>
+      <!-- 하부 반구 + 지지 스커트 -->
+      <ellipse class="ns-capb" cx="73" cy="180" rx="25" ry="7"/>
+      <rect class="ns-body" x="56" y="180" width="34" height="10" fill="url(#nsCylV)"/>
+    </svg>
+    <figcaption>NuScale Power Module (NPM)</figcaption>
+  </figure>
+</header>
+
+<main>
+  <div class="jump">
+    <a href="#tech">① 기술 사양</a>
+    <a href="#supply">② 부품 공급망</a>
+    <a href="#offtaker">③ Off-taker</a>
+    <a href="#mou">④ 파트너십·MOU</a>
+    <a href="#news">⑤ 관련 뉴스</a>
+  </div>
+
+  <!-- ===================== 기술 사양 ===================== -->
+  <section id="tech">
+    <h2 class="sec-head"><span class="no">①</span>기술 사양</h2>
+    <p class="sec-sub">일체형 가압경수로(integral PWR) · 모듈당 77MWe / 250MWth · 자연순환(냉각재 펌프 없음) · 표준 6모듈(US460) = 462MWe</p>
+    <div class="specs">
+      <div class="spec"><span class="lab">노형</span><span class="val">일체형 PWR<small> (integral PWR · 경수/경수)</small></span></div>
+      <div class="spec"><span class="lab">출력</span><span class="val">77 MWe<small> (gross) / 250 MWth · 모듈당</small></span></div>
+      <div class="spec"><span class="lab">표준 구성</span><span class="val">4 / 6 / 12 모듈<small> 308 / 462 / 924 MWe (VOYGR-4/6/12)</small></span></div>
+      <div class="spec"><span class="lab">기준 설계</span><span class="val">6모듈 = 462 MWe<small> US460 (SDA 기준 플랜트)</small></span></div>
+      <div class="spec"><span class="lab">1차 순환</span><span class="val">자연순환<small> 냉각재 펌프(RCP) 없음</small></span></div>
+      <div class="spec"><span class="lab">운전 압력</span><span class="val">13.8 / 4.3 MPa<small> 1차 / 2차</small></span></div>
+      <div class="spec"><span class="lab">냉각재 온도</span><span class="val">249 / 316 °C<small> 입구 / 출구</small></span></div>
+      <div class="spec"><span class="lab">연료</span><span class="val">UO₂ 펠릿<small> 17×17 (절반 높이), 농축도 ≤4.95%</small></span></div>
+      <div class="spec"><span class="lab">노심</span><span class="val">연료집합체 37<small> 제어봉 16 (제어 4 + 정지 12, B₄C)</small></span></div>
+      <div class="spec"><span class="lab">증기발생기</span><span class="val">헬리컬코일 2기<small> RPV 내장 · 관류형(once-through)</small></span></div>
+      <div class="spec"><span class="lab">가압기</span><span class="val">일체형<small> RPV 상부 내장</small></span></div>
+      <div class="spec"><span class="lab">재장전</span><span class="val">18개월 주기<small> 모듈 분리 후 공용 수조서 교체</small></span></div>
+      <div class="spec"><span class="lab">연소도</span><span class="val">50–55 GWd/tU<small> 주기 최적화 시</small></span></div>
+      <div class="spec"><span class="lab">설계수명 · 내진</span><span class="val">60년<small> · SSE 0.5 g</small></span></div>
+      <div class="spec"><span class="lab">원자로용기(RPV)</span><span class="val">높이 17.7m · ⌀2.7m</span></div>
+      <div class="spec"><span class="lab">격납</span><span class="val">원통형 CNV<small> 수조 침수(pool-type)</small></span></div>
+      <div class="spec"><span class="lab">운전</span><span class="val">단일 제어실 최대 12기<small> 운전원 3명</small></span></div>
+      <div class="spec"><span class="lab">용도</span><span class="val">전력 · 부하추종 · 공정열/열병합</span></div>
+    </div>
+    <div class="tech-note">
+      <b>핵심 차별점:</b> ① <b>자연순환</b> — RPV 내부 부력만으로 냉각재를 순환시켜 <b>냉각재 펌프(RCP)가 없음</b>(능동기기·배관 최소화) · ② <b>일체형(integral)</b> — 하나의 RPV 안에 노심·증기발생기·가압기를 모두 담고, 이를 원통형 <b>격납용기(CNV)</b>째 <b>수조에 침수</b> → AC/DC 전원·운전원 조치·보충수 <b>없이도 무한시간 피동냉각</b>(NuScale Triple Crown) · ③ <b>NRC 인증 완료</b> — US600(50MWe×12) 2023 설계인증(美 최초 SMR), 우상향 <b>US460(77MWe×6)</b> 2025-05 표준설계승인(SDA) · ④ <b>모듈식 확장</b> — 공장제작 모듈을 4·6·12기로 묶어 수요에 맞춤, 단일 제어실서 운전.
+      자세한 노형 비교는 <a href="SMR-reactor-types.html#pwr">노형 분류 › PWR</a> 참고.
+    </div>
+    <p class="src" style="margin:10px 0 0;">＊ 사양 교차검증: <b>IAEA <i>Advances in SMR Technology Developments 2024</i></b> 카탈로그(NuScale Power Module). 출력 250/77(gross)·RPV 17.7m×⌀2.7m·37 연료집합체·자연순환 등 일치. 모듈 출력은 50MWe(US600)→77MWe(US460)로 상향됐으며, 최종 수치는 프로젝트별 확인 권장.</p>
+  </section>
+
+  <!-- ===================== 부품 공급망 ===================== -->
+  <section id="supply">
+    <h2 class="sec-head"><span class="no">②</span>주요 부품·연료 공급망</h2>
+    <p class="sec-sub"><b>NuScale Power Module(<abbr title="Reactor Pressure Vessel">RPV</abbr>·<abbr title="Containment Vessel">CNV</abbr>·증기발생기·가압기 일체)의 핵심 제작은 한국 두산</b>, 연료는 상용 PWR LEU, 건설(EPC)은 Fluor·삼성물산, 글로벌 상업화는 ENTRA1</p>
+
+    <div class="sub-h"><span class="pin">②-A</span>NuScale 일체형 모듈 구성 — 도해</div>
+    <!-- DIAGRAM CONVENTION (reuse): viewBox 0 0 900 440 · Nuclear Island(left, dashed) + Conventional Island(right).
+         Vessels = rounded rect, fill accent-weak, stroke accent 2px. Components ①..⑦ map to the supply table.
+         Flows: primary/steam = solid accent arrow; feedwater = dashed gray. Pool = accent-weak fill. -->
+    <div class="diagram-wrap">
+      <svg viewBox="0 0 900 440" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, sans-serif" aria-label="NuScale integral module schematic">
+        <defs>
+          <marker id="m-acc" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker>
+          <marker id="m-gray" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#9aa7b4"/></marker>
+        </defs>
+
+        <!-- islands -->
+        <rect x="24" y="56" width="548" height="352" rx="12" fill="none" stroke="#d2d7e0" stroke-dasharray="6 5"/>
+        <text x="40" y="46" fill="#8b93a2" font-size="11" font-weight="700" letter-spacing="1.4">NUCLEAR ISLAND (NI)</text>
+        <rect x="604" y="56" width="272" height="352" rx="12" fill="none" stroke="#d2d7e0" stroke-dasharray="6 5"/>
+        <text x="620" y="46" fill="#8b93a2" font-size="11" font-weight="700" letter-spacing="1.4">CONVENTIONAL ISLAND (CI)</text>
+
+        <!-- Reactor Pool (수조) -->
+        <rect x="60" y="150" width="430" height="240" rx="6" fill="#eef3ff" stroke="#c3d4f5"/>
+        <path d="M60 158 q12 -7 24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t24 0 t22 0" fill="none" stroke="#9bb6f0" stroke-width="1.5"/>
+        <text x="470" y="378" fill="#7f9bd6" font-size="10" font-weight="700" text-anchor="end">Reactor Pool</text>
+
+        <!-- Containment Vessel (CNV ⑥) outer capsule -->
+        <text x="210" y="86" fill="#1d4ed8" font-size="11" font-weight="700" text-anchor="middle">CRDM ⑤</text>
+        <rect x="200" y="92" width="20" height="20" rx="3" fill="#ffffff" stroke="#2563eb"/>
+        <g stroke="#2563eb" stroke-width="2"><line x1="205" y1="112" x2="205" y2="140"/><line x1="210" y1="112" x2="210" y2="140"/><line x1="215" y1="112" x2="215" y2="140"/></g>
+        <rect x="150" y="118" width="120" height="268" rx="60" fill="none" stroke="#2563eb" stroke-width="2"/>
+        <text x="288" y="140" fill="#1d4ed8" font-size="11" font-weight="700">CNV ⑥</text>
+        <line x1="270" y1="150" x2="286" y2="138" stroke="#c0c7d1"/>
+
+        <!-- Reactor Pressure Vessel (RPV ①) inner capsule -->
+        <rect x="172" y="134" width="76" height="234" rx="38" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="210" y="408" fill="#1d4ed8" font-size="11.5" font-weight="700" text-anchor="middle">RPV ① (CNV에 일체 수납)</text>
+
+        <!-- Pressurizer (④) top of RPV -->
+        <rect x="186" y="146" width="48" height="34" rx="8" fill="#e3ecff" stroke="#c3d4f5"/>
+        <text x="210" y="167" fill="#1d4ed8" font-size="9.5" font-weight="700" text-anchor="middle">Pressurizer ④</text>
+
+        <!-- Steam Generator (③) helical coils in annulus -->
+        <g fill="none" stroke="#9aa7b4" stroke-width="2">
+          <ellipse cx="186" cy="214" rx="9" ry="5"/><ellipse cx="186" cy="232" rx="9" ry="5"/><ellipse cx="186" cy="250" rx="9" ry="5"/><ellipse cx="186" cy="268" rx="9" ry="5"/><ellipse cx="186" cy="286" rx="9" ry="5"/>
+          <ellipse cx="234" cy="214" rx="9" ry="5"/><ellipse cx="234" cy="232" rx="9" ry="5"/><ellipse cx="234" cy="250" rx="9" ry="5"/><ellipse cx="234" cy="268" rx="9" ry="5"/><ellipse cx="234" cy="286" rx="9" ry="5"/>
+        </g>
+        <line x1="248" y1="250" x2="262" y2="250" stroke="#c0c7d1"/>
+        <text x="266" y="254" fill="#1d4ed8" font-size="9.5" font-weight="700">SG ③ (헬리컬 ×2)</text>
+
+        <!-- Riser (hot leg) -->
+        <line x1="210" y1="330" x2="210" y2="196" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
+        <text x="210" y="250" fill="#7e8a99" font-size="8.5" text-anchor="middle" transform="rotate(-90 210 250)">Riser (자연순환)</text>
+
+        <!-- Core (②) bottom -->
+        <rect x="188" y="330" width="44" height="32" rx="4" fill="#e3ecff" stroke="#2563eb"/>
+        <g stroke="#9aa7b4" stroke-width="1.4"><line x1="196" y1="334" x2="196" y2="358"/><line x1="204" y1="334" x2="204" y2="358"/><line x1="212" y1="334" x2="212" y2="358"/><line x1="220" y1="334" x2="220" y2="358"/><line x1="228" y1="334" x2="228" y2="358"/></g>
+        <text x="210" y="380" fill="#1d4ed8" font-size="10.5" font-weight="700" text-anchor="middle">Core ② (UO₂ 17×17)</text>
+
+        <!-- steam loop to turbine -->
+        <line x1="248" y1="200" x2="648" y2="200" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
+        <text x="450" y="191" fill="#8b93a2" font-size="9.5" text-anchor="middle">Steam (과열증기)</text>
+        <polyline points="690,236 690,300 250,300 250,300" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
+        <text x="470" y="314" fill="#8b93a2" font-size="9.5" text-anchor="middle">Feedwater</text>
+
+        <!-- Turbine (⑦) + Generator -->
+        <polygon points="648,178 712,166 712,238 648,226" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="680" y="150" fill="#1d4ed8" font-size="11.5" font-weight="700" text-anchor="middle">Turbine ⑦</text>
+        <text x="680" y="162" fill="#54606f" font-size="9.5" text-anchor="middle">모듈당 전용 T/G</text>
+        <line x1="712" y1="202" x2="740" y2="202" stroke="#9aa7b4" stroke-width="3"/>
+        <circle cx="764" cy="202" r="22" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="764" y="208" fill="#1d4ed8" font-size="15" font-weight="700" text-anchor="middle">G</text>
+        <text x="764" y="240" fill="#54606f" font-size="9.5" text-anchor="middle">Generator</text>
+      </svg>
+    </div>
+    <p class="src" style="margin:0 0 14px;">＊ 모식도(개략). 번호 ①–⑦은 아래 공급사 표와 연결. 노심에서 가열된 물이 부력으로 라이저를 타고 상승 → 환형부의 헬리컬 SG에서 2차측에 열 전달 → 하강(자연순환). SG의 과열증기로 모듈 전용 터빈이 발전. RPV·SG·가압기·CNV가 하나로 일체화된 점이 핵심.</p>
+
+    <div class="sub-h"><span class="pin">②-B</span>주기기·부품별 공급사 <span style="font-weight:400;color:var(--text-dim);font-size:12.5px;">(공급사 칩 클릭 → 설명·링크)</span></div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>#</th><th>부품·기기</th><th>공급사 (클릭)</th><th>구분 (NI/CI)</th></tr></thead>
+        <tbody>
+          <tr><td class="num">①</td><td><b>원자로압력용기 (<abbr title="Reactor Pressure Vessel">RPV</abbr>)</b></td><td><span class="cochip" data-co="doosan">두산에너빌리티<span class="ccx">KR</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Nuclear Steam Supply System">NSSS</abbr></td></tr>
+          <tr><td class="num">②</td><td><b>핵연료 (UO₂ 17×17, ≤4.95%)</b></td><td><span class="badge">상용 PWR LEU</span> <span style="color:var(--text-faint);font-size:12px;">표준 연료(다수 인증 벤더) · HALEU 불필요</span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Reactor Core">Core</abbr></td></tr>
+          <tr><td class="num">③</td><td><b>증기발생기 (<abbr title="Steam Generator">SG</abbr>, 헬리컬코일 ×2)</b></td><td><span class="cochip" data-co="doosan">두산에너빌리티<span class="ccx">KR</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Nuclear Steam Supply System">NSSS</abbr></td></tr>
+          <tr><td class="num">④</td><td><b>가압기 (Pressurizer, 일체형)</b></td><td><span class="cochip" data-co="doosan">두산에너빌리티<span class="ccx">KR</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Nuclear Steam Supply System">NSSS</abbr></td></tr>
+          <tr><td class="num">⑤</td><td><b>제어봉구동장치 (<abbr title="Control Rod Drive Mechanism">CRDM</abbr>)</b></td><td><span class="badge">NPM 일체</span> <span style="color:var(--text-faint);font-size:12px;">모듈 제작(두산)에 통합 · 세부 공급사 프로젝트별</span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Nuclear Steam Supply System">NSSS</abbr></td></tr>
+          <tr><td class="num">⑥</td><td><b>격납용기 (<abbr title="Containment Vessel">CNV</abbr>)</b></td><td><span class="cochip" data-co="doosan">두산에너빌리티<span class="ccx">KR</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Containment">격납</abbr></td></tr>
+          <tr><td class="num">⑦</td><td><b>증기터빈·발전기</b> <span style="color:var(--text-faint);font-size:12px;">(모듈당 전용 T/G)</span></td><td><span class="badge">표준 T/G</span> <span style="color:var(--text-faint);font-size:12px;">프로젝트·부지별 선정</span></td><td><abbr title="Conventional Island">CI</abbr> · <abbr title="Turbine–Generator">T/G</abbr></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="src" style="margin:8px 0 0;line-height:1.85;">
+      <b style="color:var(--text-dim);">구분 약어</b> (커서 올리면 풀네임) —
+      <abbr title="Nuclear Island">NI</abbr> Nuclear Island ·
+      <abbr title="Conventional Island">CI</abbr> Conventional Island ·
+      <abbr title="Nuclear Steam Supply System">NSSS</abbr> Nuclear Steam Supply System ·
+      <abbr title="Turbine–Generator">T/G</abbr> Turbine–Generator ·
+      <abbr title="Containment Vessel">CNV</abbr> Containment Vessel ·
+      <abbr title="Reactor Pressure Vessel">RPV</abbr> Reactor Pressure Vessel<br>
+      <span style="color:var(--text-faint);">＊ NuScale은 RPV·증기발생기·가압기를 한 용기에 담은 <b style="color:var(--text-dim);">일체형(integral)</b> 구조라 전통 PWR처럼 별도 SG·RCP·가압기를 따로 발주하지 않음 → 모듈(NPM) 통째가 <b style="color:var(--text-dim);">NSSS 공급 범위(스코프, scope)</b>의 핵심이며, 한국 <b style="color:var(--text-dim);">두산</b>이 그 제작을 맡음. 최종 스코프는 프로젝트 문서 기준 확인.</span>
+    </p>
+    <div class="co-detail empty" id="coDetail">위 공급사 칩을 클릭하면 회사 설명과 공식 링크가 여기에 표시됩니다.</div>
+
+    <div class="sub-h"><span class="pin">②-C</span>건설·투자·전략 파트너</div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>파트너</th><th>국적</th><th>역할</th><th>현황</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>ENTRA1 Energy</b></td>
+            <td><span class="badge">US</span></td>
+            <td>NuScale SMR의 <b>글로벌 독점 상업화·배치 파트너</b>(50:50 합작 ENTRA1 NuScale LLC). 고객 대상 발전인프라 공급 주체.</td>
+            <td><span class="st-prog">진행</span> · TVA 6GW·Standard Power 데이터센터 등 추진. 美·日 협정서 최대 $25B 거론.</td>
+          </tr>
+          <tr>
+            <td><b>Fluor</b></td>
+            <td><span class="badge">US</span></td>
+            <td>NuScale 설립 후 <b>대주주·EPC</b>. RoPower(루마니아) FEED 수행.</td>
+            <td><span class="st-prog">진행</span> · 지분은 단계적 축소 중이나 EPC 핵심.</td>
+          </tr>
+          <tr>
+            <td><b>삼성물산</b><br><span class="src">Samsung C&amp;T</span></td>
+            <td><span class="badge">KR</span></td>
+            <td><b>EPC 파트너</b> + NuScale 지분 <b>약 $70M 투자</b>(2021~).</td>
+            <td><span class="st-prog">진행</span> · 2022 GS·두산과 3자 MOU.</td>
+          </tr>
+          <tr>
+            <td><b>GS에너지</b><br><span class="src">GS Energy</span></td>
+            <td><span class="badge">KR</span></td>
+            <td>NuScale 지분 <b>약 $40M 투자</b> + <b>한국 배치 검토</b>(수소생산 연계 등).</td>
+            <td><span class="st-prog">진행</span> · 2022 삼성·두산과 3자 MOU.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="src" style="margin-top:8px;">＊ <b>한국 비중이 큼</b> — 두산(NPM 제작), 삼성물산(EPC), GS에너지(투자·배치). 두산은 美 데이터센터 2개소용 약 <b>$1.5B 규모 기기 공급</b>도 보도됨. → 한국 입장에선 <b>제작 국산화·EPC 품질(Part 50 App.B/Part 21)·수출통제</b> 시사점. → <a href="SMR-reference.html">CFR 레퍼런스</a> · <a href="SMR-korea-players.html">한국 기업</a></p>
+  </section>
+
+  <!-- ===================== Off-taker ===================== -->
+  <section id="offtaker">
+    <h2 class="sec-head"><span class="no">③</span>Off-taker (고객·프로젝트)</h2>
+    <p class="sec-sub">유럽 주력 = 루마니아 RoPower(Doicești) · 美 = ENTRA1 경유 TVA·데이터센터. 첫 미국 프로젝트(CFPP)는 2023년 취소</p>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>고객·프로젝트</th><th>지역</th><th>규모</th><th>현황</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>RoPower</b><br><span class="src">Doicești · 석탄→SMR 전환</span></td>
+            <td><span class="badge">RO · 루마니아</span></td>
+            <td><b>VOYGR-6</b> = 6×77 = <b>462 MWe</b> (US460)</td>
+            <td><span class="st-prog">실시설계</span> · <b>2026-02 FID 승인</b>(Nuclearelectrica 주총), US EXIM 자금. 유럽 최선두 SMR, 배치 목표 ~2029~30. (첫 1기 선시험 후 6기 추진 검토)</td>
+          </tr>
+          <tr>
+            <td><b>TVA</b><br><span class="src">ENTRA1 경유</span></td>
+            <td><span class="badge">US · 동남부 7개주</span></td>
+            <td>최대 <b>6 GW</b> 배치 프로그램</td>
+            <td><span class="st-plan">개발</span> · 2025 ENTRA1–TVA 협력. 부지·일정 구체화 단계.</td>
+          </tr>
+          <tr>
+            <td><b>Standard Power</b><br><span class="src">ENTRA1 경유 · 데이터센터</span></td>
+            <td><span class="badge">US · 오하이오·펜실베이니아</span></td>
+            <td>2개 부지 약 <b>2 GWe</b> (데이터센터 전원)</td>
+            <td><span class="st-plan">개발</span> · 2023 NuScale+ENTRA1 기술 선정. AI 데이터센터 전원 목적.</td>
+          </tr>
+          <tr>
+            <td><b>UAMPS · CFPP</b><br><span class="src">Idaho INL (구 1호 프로젝트)</span></td>
+            <td><span class="badge">US · 아이다호</span></td>
+            <td>(구) 6×77 = 462 MWe</td>
+            <td><span class="st-stop">취소</span> · 2023-11 가입 물량 부족으로 종료. 첫 미국 배치는 무산.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="src" style="margin-top:8px;">＊ 2023년 첫 미국 프로젝트(CFPP/UAMPS) 취소 후, 사업 모델이 <b>ENTRA1(글로벌 독점 상업화) 경유 데이터센터·유틸리티 공급</b> + <b>루마니아 RoPower</b> 중심으로 재편됨.</p>
+  </section>
+
+  <!-- ===================== MOU ===================== -->
+  <section id="mou">
+    <h2 class="sec-head"><span class="no">④</span>파트너십 · 인허가 이정표</h2>
+    <p class="sec-sub">시간순(최신 위). 인허가(NRC SDA)·루마니아 FID·ENTRA1 상업화·한국(두산·삼성·GS) 양대 축</p>
+
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2026-02-12</span><span class="mou-party">RoPower / Nuclearelectrica (루마니아)</span></div>
+      <div class="mou-body"><b>최종투자결정(FID) 승인</b> — Nuclearelectrica 주총이 Doicești VOYGR-6 사업의 FID를 승인, '분석 단계 → 실행 단계' 전환. 유럽 최선두 SMR.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2025</span><span class="mou-party">ENTRA1 · TVA / US-Japan</span></div>
+      <div class="mou-body">ENTRA1–<b>TVA 최대 6GW</b> 배치 프로그램 협력. ENTRA1은 美·日 프레임워크 협정에서 <b>최대 $25B</b> 규모 거론.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2025-05-29</span><span class="mou-party">美 NRC — US460 SDA</span></div>
+      <div class="mou-body"><b>표준설계승인(SDA) 발급</b> — 우상향 <b>US460(77MWe×6=462MWe)</b> 표준설계 승인. 건설·운영허가(CP/COL/ML) 신청 시 참조 가능.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2023-11-08</span><span class="mou-party">UAMPS — CFPP 취소</span></div>
+      <div class="mou-body"><b>첫 미국 프로젝트(Carbon Free Power Project) 종료</b> — 회원 유틸리티 가입 물량 부족·원가 상승으로 아이다호 INL 6모듈 계획 취소.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2023-01</span><span class="mou-party">美 NRC — US600 설계인증</span></div>
+      <div class="mou-body"><b>美 최초 SMR 설계인증</b> — US600(50MWe×12) 설계가 NRC 규칙으로 인증됨(첫 SMR 설계인증 사례).</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2022</span><span class="mou-party">GS에너지 · 두산 · 삼성물산 (한국)</span></div>
+      <div class="mou-body"><b>3자 MOU</b> — VOYGR 플랜트 배치 협력. 2019년 이후 한국 3사의 NuScale <b>투자(삼성 $70M·GS $40M 등)</b> 위에 두산 제작·삼성 EPC·GS 투자/배치 구도.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2022</span><span class="mou-party">NYSE 상장 (SPAC)</span></div>
+      <div class="mou-body">Spring Valley Acquisition과 합병해 <b>NYSE: SMR</b> 상장. Fluor가 대주주.</div>
+    </div>
+  </section>
+
+  <!-- ===================== 뉴스 ===================== -->
+  <section id="news">
+    <h2 class="sec-head"><span class="no">⑤</span>관련 뉴스 (계속 누적)</h2>
+    <p class="sec-sub">최신순. 검색·태그로 거르기. 새 소식은 맨 위에 항목을 추가하면 됨.</p>
+
+    <div class="news-tip">
+      <b>새 뉴스 추가법:</b> 아래 <code>&lt;!-- NEWS-TEMPLATE --&gt;</code> 주석의 양식을 복사해 피드 맨 위에 붙이고 날짜·제목·내용·태그(<code>기술/공급망/고객/규제/투자/MOU</code>)·출처만 채우면 됩니다.
+    </div>
+
+    <div class="news-controls">
+      <input id="newsSearch" class="search" type="text" placeholder="뉴스 검색 (예: RoPower, US460, 두산, 데이터센터)" autocomplete="off">
+      <div class="tagchips" id="tagchips">
+        <span class="chip active" data-tag="all">전체</span>
+        <span class="chip" data-tag="기술">기술</span>
+        <span class="chip" data-tag="공급망">공급망</span>
+        <span class="chip" data-tag="고객">고객</span>
+        <span class="chip" data-tag="규제">규제</span>
+        <span class="chip" data-tag="투자">투자</span>
+        <span class="chip" data-tag="MOU">MOU</span>
+      </div>
+    </div>
+
+    <div class="feed" id="feed">
+
+      <!-- NEWS-TEMPLATE (복사용)
+      <div class="item" data-tags="기술" data-date="YYYY-MM-DD">
+        <div class="item-date">YYYY-MM-DD</div>
+        <div class="item-title">제목</div>
+        <div class="item-body">내용 요약.</div>
+        <div class="item-tags"><span class="tg">기술</span></div>
+        <div class="item-src"><a href="URL" target="_blank">출처</a></div>
+      </div>
+      -->
+
+      <div class="item" data-tags="고객 규제" data-date="2026-02-12">
+        <div class="item-date">2026-02-12</div>
+        <div class="item-title">루마니아 RoPower, FID 승인 — Doicești VOYGR-6 실행 단계로</div>
+        <div class="item-body">Nuclearelectrica 주총이 <b>최종투자결정(FID)</b>을 승인. Doicești(석탄 폐부지) <b>6×77=462MWe</b> 사업이 분석에서 실행 단계로 전환 — 유럽 최선두 SMR.</div>
+        <div class="item-tags"><span class="tg">고객</span><span class="tg">규제</span></div>
+        <div class="item-src"><a href="https://www.world-nuclear-news.org/articles/final-investment-decision-taken-for-romanias-smrs" target="_blank">World Nuclear News</a></div>
+      </div>
+
+      <div class="item" data-tags="고객 투자" data-date="2025-10">
+        <div class="item-date">2025-10</div>
+        <div class="item-title">ENTRA1, 美·日 협정서 최대 $25B 거론 + 대규모 인프라 배치 합의</div>
+        <div class="item-body">NuScale의 글로벌 독점 파트너 <b>ENTRA1 Energy</b>가 美·日 프레임워크 협정과 연계해 대규모 발전인프라 배치를 추진. NuScale SMR 상업화의 자금 축.</div>
+        <div class="item-tags"><span class="tg">고객</span><span class="tg">투자</span></div>
+        <div class="item-src"><a href="https://www.nuscalepower.com/press-releases/2025/nuscale-power-proudly-supports-entra1-energys-25-billion-agreement-to-deploy-large-scale-power-infrastructure-assets-across-the-united-states" target="_blank">NuScale</a></div>
+      </div>
+
+      <div class="item" data-tags="고객" data-date="2025">
+        <div class="item-date">2025</div>
+        <div class="item-title">ENTRA1·TVA, 최대 6GW NuScale SMR 배치 프로그램</div>
+        <div class="item-body">ENTRA1과 <b>TVA</b>가 동남부 7개주에 걸쳐 <b>최대 6GW</b> NuScale SMR 배치 협력을 발표. 데이터센터·전력수요 대응.</div>
+        <div class="item-tags"><span class="tg">고객</span></div>
+        <div class="item-src"><a href="https://www.world-nuclear-news.org/articles/tva-entra1-energy-team-up-for-smr-deployment" target="_blank">World Nuclear News</a></div>
+      </div>
+
+      <div class="item" data-tags="규제 기술" data-date="2025-05-29">
+        <div class="item-date">2025-05-29</div>
+        <div class="item-title">NRC, NuScale US460(77MWe) 표준설계승인(SDA) 발급</div>
+        <div class="item-body">우상향 모듈 <b>US460(77MWe×6=462MWe)</b> 표준설계가 NRC <b>SDA</b>를 받음 — 첫 펌 오더로 가는 발판. (US600 50MWe는 2023 설계인증)</div>
+        <div class="item-tags"><span class="tg">규제</span><span class="tg">기술</span></div>
+        <div class="item-src"><a href="https://www.ans.org/news/2025-06-02/article-7080/nrc-approves-nuscale-uprated-smr-design/" target="_blank">ANS Nuclear Newswire</a></div>
+      </div>
+
+      <div class="item" data-tags="공급망 투자" data-date="2025">
+        <div class="item-date">2025</div>
+        <div class="item-title">두산에너빌리티, 美 데이터센터용 약 $1.5B 기기 공급 보도</div>
+        <div class="item-body">두산이 NuScale 모듈(NPM) 기기를 <b>美 데이터센터 2개소</b>용으로 공급하는 약 <b>$1.5B</b> 규모 거래가 보도됨. 창원 제작 기반 한국 공급망 핵심.</div>
+        <div class="item-tags"><span class="tg">공급망</span><span class="tg">투자</span></div>
+        <div class="item-src"><a href="https://www.energycentral.com/energy-biz/post/nuscale-reported-ink-15-billion-reactor-equipment-deal-south-korea-s-doosan-TqO0q2J9LSGDAA9" target="_blank">Energy Central</a></div>
+      </div>
+
+      <div class="item" data-tags="고객" data-date="2023-11-08">
+        <div class="item-date">2023-11-08</div>
+        <div class="item-title">첫 미국 프로젝트 CFPP(UAMPS) 취소</div>
+        <div class="item-body">회원 유틸리티 가입 물량 부족·원가 상승으로 아이다호 INL <b>Carbon Free Power Project(6모듈) 종료</b>. NuScale 사업모델이 ENTRA1·해외로 재편되는 계기.</div>
+        <div class="item-tags"><span class="tg">고객</span></div>
+        <div class="item-src"><a href="https://www.nuscalepower.com/press-releases/2023/utah-associated-municipal-power-systems-and-nuscale-power-agree-to-terminate-the-carbon-free-power-project" target="_blank">NuScale</a></div>
+      </div>
+
+      <div class="item" data-tags="고객 공급망" data-date="2023">
+        <div class="item-date">2023</div>
+        <div class="item-title">Standard Power, 데이터센터 전원으로 NuScale+ENTRA1 기술 선정</div>
+        <div class="item-body">오하이오·펜실베이니아 2개 부지 약 <b>2GWe</b>를 NuScale SMR + ENTRA1로 공급하는 데이터센터 전원 사업 발표.</div>
+        <div class="item-tags"><span class="tg">고객</span><span class="tg">공급망</span></div>
+        <div class="item-src"><a href="https://www.nuscalepower.com/press-releases/2023/standard-power-chooses-nuscales-approved-smr-technology-and-entra1-energy-to-energize-data-centers" target="_blank">NuScale</a></div>
+      </div>
+
+      <div class="item" data-tags="규제 기술" data-date="2023-01">
+        <div class="item-date">2023-01</div>
+        <div class="item-title">NRC, NuScale US600 설계인증 — 美 최초 SMR</div>
+        <div class="item-body">US600(50MWe×12) 설계가 NRC 규칙으로 <b>인증</b> — 미국에서 설계인증을 받은 <b>첫 SMR</b>.</div>
+        <div class="item-tags"><span class="tg">규제</span><span class="tg">기술</span></div>
+        <div class="item-src"><a href="https://www.nrc.gov/reactors/new-reactors/smr/licensing-activities/nuscale.html" target="_blank">NRC</a></div>
+      </div>
+
+      <div class="item" data-tags="MOU 투자 공급망" data-date="2022-04">
+        <div class="item-date">2022-04</div>
+        <div class="item-title">NuScale·GS에너지·두산·삼성물산 3자 MOU</div>
+        <div class="item-body">VOYGR 플랜트 배치를 위한 한국 3사 협력 — <b>두산(제작)·삼성물산(EPC)·GS에너지(투자/배치)</b>. 2019년 이후 투자(삼성 $70M·GS $40M 등) 기반.</div>
+        <div class="item-tags"><span class="tg">MOU</span><span class="tg">투자</span><span class="tg">공급망</span></div>
+        <div class="item-src"><a href="https://www.nuscalepower.com/press-releases/2022/nuscale-signs-mou-with-gs-energy-doosan-and-samsung-to-explore-small-modular-reactor-deployment" target="_blank">NuScale</a></div>
+      </div>
+
+    </div>
+    <div class="news-hidden" id="newsNone" style="display:none;color:var(--text-faint);padding:20px;text-align:center;">검색 결과가 없습니다.</div>
+  </section>
+
+</main>
+
+<footer>
+  <span class="note warn" style="display:block;margin-bottom:8px;"><span class="lead">주의</span> 인허가·사업 현황은 빠르게 변합니다 — 회의·보고 직전 NuScale IR·NRC·각 파트너 공시로 재확인 권장. (2026-06-17 기준)</span>
+  <a href="SMR-developers.html#nuscale">개발사 카드로</a> · <a href="SMR-reactor-types.html#pwr">PWR 노형</a> · <a href="SMR-licensing-tracks.html#part52">설계인증·SDA 트랙</a> · <a href="SMR-korea-players.html">한국 기업</a> · <a href="SMR-reference.html">CFR 레퍼런스</a>
+</footer>
+
+<script>
+  const newsSearch=document.getElementById('newsSearch');
+  const items=Array.from(document.querySelectorAll('.item'));
+  const tagchips=Array.from(document.querySelectorAll('#tagchips .chip'));
+  const newsNone=document.getElementById('newsNone');
+  let activeTag='all';
+
+  function clearMarks(el){el.querySelectorAll('mark').forEach(m=>m.replaceWith(document.createTextNode(m.textContent)));el.normalize();}
+  function highlight(el,term){
+    const walker=document.createTreeWalker(el,NodeFilter.SHOW_TEXT,null);const nodes=[];
+    while(walker.nextNode())nodes.push(walker.currentNode);
+    const re=new RegExp('('+term.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi');
+    nodes.forEach(node=>{if(!re.test(node.textContent))return;const span=document.createElement('span');span.innerHTML=node.textContent.replace(re,'<mark>$1</mark>');node.replaceWith(span);});
+  }
+  function applyNews(){
+    const term=newsSearch.value.trim().toLowerCase();
+    let vis=0;
+    items.forEach(it=>{
+      clearMarks(it);
+      const text=it.textContent.toLowerCase();
+      const tags=(it.dataset.tags||'').split(' ');
+      const matchText=!term||text.includes(term);
+      const matchTag=activeTag==='all'||tags.includes(activeTag);
+      const show=matchText&&matchTag;
+      it.classList.toggle('news-hidden',!show);
+      it.style.display=show?'':'none';
+      if(show){vis++;if(term)highlight(it,term);}
+    });
+    newsNone.style.display=vis?'none':'block';
+  }
+  newsSearch.addEventListener('input',applyNews);
+  tagchips.forEach(c=>c.addEventListener('click',()=>{
+    tagchips.forEach(x=>x.classList.remove('active'));c.classList.add('active');activeTag=c.dataset.tag;applyNews();
+  }));
+
+  // ---- supplier company directory ----
+  const COMPANIES={
+    doosan:{nm:'두산에너빌리티 (Doosan Enerbility)',role:'NuScale Power Module 제작 · 한국',
+      desc:'창원 통합 제작시설 기반 원자력 주기기 글로벌 선두(원자로용기 34기·증기발생기 124기 공급 실적). NuScale의 <b>일체형 모듈(NPM) — RPV·CNV·증기발생기·가압기</b>의 핵심 제작사. 美 데이터센터 2개소용 약 $1.5B 기기 공급 보도. NuScale 투자자이기도 함.',
+      url:'https://www.doosanenerbility.com/en/'},
+    fluor:{nm:'Fluor Corporation',role:'대주주·EPC · 미국',
+      desc:'NuScale 설립 후 오랜 <b>대주주이자 EPC</b> 파트너. 루마니아 RoPower(Doicești) FEED(개념·기본설계)를 수행. 지분은 단계적으로 축소 중이나 EPC 핵심 역할 유지.',
+      url:'https://www.fluor.com/'},
+    samsung:{nm:'삼성물산 (Samsung C&T)',role:'EPC·투자 · 한국',
+      desc:'40년+ 글로벌 EPC 경험. NuScale에 <b>약 $70M 투자</b>(2021~)하고 VOYGR 플랜트 <b>EPC 파트너</b>로 참여. 2022년 두산·GS에너지와 3자 MOU.',
+      url:'https://www.samsungcnt.com/eng/index.do'},
+    gsenergy:{nm:'GS에너지 (GS Energy)',role:'투자·한국 배치 · 한국',
+      desc:'GS그룹 에너지 지주. NuScale에 <b>약 $40M 투자</b>, 한국 내 SMR 배치(수소생산 연계 등)를 검토. 2022년 두산·삼성물산과 3자 MOU.',
+      url:'https://www.gsenergy.com/'}
+  };
+  const coDetail=document.getElementById('coDetail');
+  const cochips=Array.from(document.querySelectorAll('.cochip'));
+  cochips.forEach(chip=>chip.addEventListener('click',()=>{
+    const c=COMPANIES[chip.dataset.co];if(!c)return;
+    cochips.forEach(x=>x.classList.toggle('active',x.dataset.co===chip.dataset.co));
+    coDetail.classList.remove('empty');
+    coDetail.innerHTML='<div class="nm">'+c.nm+'</div><div class="role">'+c.role+'</div><div>'+c.desc+'</div><div class="lnk"><a href="'+c.url+'" target="_blank" rel="noopener">공식 웹사이트 →</a></div>';
+  }));
+</script>
+<script src="feedback.js" defer></script>
+</body>
+</html>
