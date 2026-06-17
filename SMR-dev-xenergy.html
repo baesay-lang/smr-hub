@@ -36,7 +36,7 @@
   /* reactor hero figure (재사용: 노형별 SVG 모형) */
   .reactor-hero{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap;}
   .rh-text{flex:1 1 320px;min-width:270px;}
-  .reactor-figure{flex:0 0 auto;margin:0;width:230px;max-width:100%;}
+  .reactor-figure{flex:0 0 auto;margin:0;width:178px;max-width:100%;}
   .reactor-figure svg{display:block;width:100%;height:auto;}
   .reactor-figure figcaption{font-size:11px;color:var(--text-faint);text-align:center;margin-top:2px;letter-spacing:.02em;}
   @media(max-width:600px){.reactor-figure{margin:6px auto 0;}}
@@ -143,87 +143,71 @@
     <div class="updated">최종 업데이트 2026-06-17 · 파이프라인 144기 · 약 11.5 GWe (美·英, 2026-03-31 기준)</div>
   </div>
 
-  <!-- ===== 노형 모형(재사용 패턴): 페블베드 HTGR. 모든 색은 CSS 변수 → 다크모드 자동 대응 ===== -->
+  <!-- ===== 노형 모형(재사용 패턴): 회색 음영 3D 모델 렌더 스타일. 라벨/애니메이션 없는 제품 모형 느낌.
+       금속 음영은 중립 그레이 고정값(렌더 미감 — 라이트/다크 배경 모두에서 흰 렌더처럼 읽힘);
+       바닥 그림자·외곽선만 CSS 변수로 테마 대응. ===== -->
   <figure class="reactor-figure">
-    <svg viewBox="0 0 230 165" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-         role="img" aria-label="Xe-100 페블베드 고온가스로 개략 모형: 노심의 페블이 상단 투입·하단 배출로 재순환하고 헬륨이 750°C로 열을 전달">
-      <title>Xe-100 페블베드 HTGR 모형</title>
-      <style>
-        .xe-vessel{fill:var(--surface);stroke:var(--border-strong);stroke-width:2.6}
-        .xe-core{fill:var(--accent-weak)}
-        .xe-funnel{fill:var(--surface-2);stroke:var(--border-strong);stroke-width:1.4}
-        .xe-pipe{fill:none;stroke:var(--border-strong);stroke-linejoin:round;stroke-linecap:round}
-        .xe-graph{fill:var(--text-faint)}
-        .xe-fuel{fill:var(--accent)}
-        .xe-bed circle{stroke:var(--surface);stroke-width:.6}
-        .xe-hot{stroke:var(--accent);stroke-width:2.4;fill:none}
-        .xe-cold{stroke:var(--text-faint);stroke-width:2;stroke-dasharray:3 2.5;fill:none}
-        .xe-mk-hot{fill:var(--accent)}
-        .xe-mk-cold{fill:var(--text-faint)}
-        .xe-t{font-size:8px;font-weight:700;fill:var(--text-faint)}
-        .xe-t-a{font-size:8px;font-weight:700;fill:var(--accent)}
-        .xe-t-as{font-size:8px;font-weight:700;fill:var(--accent-strong)}
-        .xe-t-s{font-size:7.5px;font-weight:700;fill:var(--text-faint)}
-        @keyframes xeDrop{0%{transform:translateY(-15px);opacity:0}15%{opacity:1}85%{opacity:1}100%{transform:translateY(10px);opacity:0}}
-        .xe-drop{animation:xeDrop 2.6s linear infinite}
-        @media(prefers-reduced-motion:reduce){.xe-drop{animation:none;opacity:1}.xe-flow{display:none}}
-      </style>
+    <svg viewBox="0 0 195 215" xmlns="http://www.w3.org/2000/svg"
+         role="img" aria-label="Xe-100 원자로 모듈 모형: 좌측 원자로압력용기(RPV)와 상단 제어봉 구동부, 십자배관으로 연결된 우측 증기발생기 어셈블리">
+      <title>Xe-100 원자로 모듈 모형 (RPV + 증기발생기)</title>
       <defs>
-        <marker id="xeHot" markerWidth="7" markerHeight="7" refX="5.5" refY="3" orient="auto"><path class="xe-mk-hot" d="M0,0 L6,3 L0,6 Z"/></marker>
-        <marker id="xeCold" markerWidth="7" markerHeight="7" refX="5.5" refY="3" orient="auto"><path class="xe-mk-cold" d="M0,0 L6,3 L0,6 Z"/></marker>
-        <clipPath id="xeBed"><rect x="62" y="44" width="56" height="92" rx="26"/></clipPath>
-        <path id="xeLoop" d="M90 150 L90 156 L128 156 L128 30 L98 26" fill="none"/>
-        <path id="xeHe" d="M50 60 L34 60 L34 124 L50 124" fill="none"/>
+        <linearGradient id="xeCylV" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#99a2ac"/><stop offset="0.12" stop-color="#c2c9d1"/><stop offset="0.30" stop-color="#e9ecef"/>
+          <stop offset="0.48" stop-color="#ffffff"/><stop offset="0.64" stop-color="#eceef1"/><stop offset="0.80" stop-color="#c6ccd3"/><stop offset="1" stop-color="#959fa9"/>
+        </linearGradient>
+        <linearGradient id="xeCylH" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#c6ccd3"/><stop offset="0.38" stop-color="#ffffff"/><stop offset="0.60" stop-color="#e7eaee"/><stop offset="1" stop-color="#969fa9"/>
+        </linearGradient>
+        <linearGradient id="xeCap" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#d7dce1"/><stop offset="0.5" stop-color="#f6f7f9"/><stop offset="1" stop-color="#cfd4da"/>
+        </linearGradient>
+        <style>
+          .xe-body{stroke:var(--border-strong);stroke-width:.8}
+          .xe-cap{fill:url(#xeCap);stroke:var(--border-strong);stroke-width:.7}
+          .xe-capb{fill:#aab2bc;stroke:var(--border-strong);stroke-width:.7}
+          .xe-rib{stroke:#aab2bc;stroke-width:.7;fill:none}
+          .xe-flange{fill:#cdd3da;stroke:var(--border-strong);stroke-width:.6}
+          .xe-shadow{fill:var(--border-strong);opacity:.5}
+        </style>
       </defs>
 
-      <!-- 헬륨 1차 루프 (좌측) -->
-      <path class="xe-pipe" style="stroke-width:2.4" d="M50 60 L34 60 L34 124 L50 124"/>
-      <circle class="xe-flow xe-fuel" r="2.6"><animateMotion dur="3s" repeatCount="indefinite"><mpath xlink:href="#xeHe"/></animateMotion></circle>
-      <line class="xe-hot" x1="50" y1="60" x2="40" y2="60" marker-start="url(#xeHot)"/>
-      <line class="xe-cold" x1="40" y1="124" x2="50" y2="124" marker-end="url(#xeCold)"/>
-      <text class="xe-t-a" x="33" y="50" text-anchor="middle">750°C</text>
-      <text class="xe-t" x="33" y="138" text-anchor="middle">260°C</text>
-      <text class="xe-t-s" x="19" y="94" text-anchor="middle" transform="rotate(-90 19 94)">He 1차 루프</text>
+      <!-- 바닥 그림자 -->
+      <ellipse class="xe-shadow" cx="92" cy="208" rx="74" ry="6"/>
 
-      <!-- 페블 재순환 파이프 (우측, 핵연료취급계통) -->
-      <path class="xe-pipe" style="stroke-width:3" d="M90 150 L90 156 L128 156 L128 30 L98 26"/>
-      <text class="xe-t-s" x="139" y="96" text-anchor="middle" transform="rotate(90 139 96)">페블 재순환 ↻</text>
+      <!-- ===== 우측: 증기발생기(SG) 어셈블리 (RPV 뒤로 일부 겹침 → 먼저 그림) ===== -->
+      <!-- 헤더 스탠드파이프 2본 -->
+      <ellipse class="xe-cap" cx="124" cy="80" rx="6.5" ry="3"/>
+      <rect class="xe-body" x="117.5" y="80" width="13" height="30" fill="url(#xeCylV)"/>
+      <ellipse class="xe-cap" cx="141" cy="80" rx="6.5" ry="3"/>
+      <rect class="xe-body" x="134.5" y="80" width="13" height="30" fill="url(#xeCylV)"/>
+      <!-- 정션 블록 -->
+      <rect class="xe-body" x="110" y="104" width="46" height="30" rx="6" fill="url(#xeCylV)"/>
+      <!-- SG 동체 -->
+      <ellipse class="xe-cap" cx="133" cy="134" rx="20" ry="5.5"/>
+      <rect class="xe-body" x="113" y="134" width="40" height="66" fill="url(#xeCylV)"/>
+      <ellipse class="xe-capb" cx="133" cy="200" rx="20" ry="6.5"/>
+      <rect class="xe-flange" x="111" y="132" width="44" height="3.5" rx="1.5"/>
 
-      <!-- 원자로압력용기(RPV) + 노심 + 깔때기/콘 -->
-      <rect class="xe-vessel" x="54" y="28" width="72" height="118" rx="34"/>
-      <rect class="xe-core" x="62" y="44" width="56" height="92" rx="26"/>
-      <polygon class="xe-funnel" points="74,30 106,30 98,46 82,46"/>
-      <polygon class="xe-funnel" points="66,128 114,128 98,146 82,146"/>
+      <!-- ===== 십자배관 (RPV ↔ SG, 동축 덕트) ===== -->
+      <rect class="xe-body" x="84" y="110" width="30" height="18" fill="url(#xeCylH)"/>
+      <rect class="xe-flange" x="86" y="108" width="3.5" height="22" rx="1.5"/>
+      <rect class="xe-flange" x="108" y="108" width="3.5" height="22" rx="1.5"/>
 
-      <!-- 페블 베드 (정적, 클립) — 흑연 다수 + 신연료(accent) 소수 -->
-      <g class="xe-bed" clip-path="url(#xeBed)">
-        <g class="xe-graph">
-          <circle cx="70" cy="52" r="4.4"/><circle cx="80" cy="50" r="4.4"/><circle cx="100" cy="50" r="4.4"/><circle cx="110" cy="54" r="4.4"/>
-          <circle cx="75" cy="60" r="4.4"/><circle cx="95" cy="58" r="4.4"/><circle cx="105" cy="62" r="4.4"/>
-          <circle cx="68" cy="68" r="4.4"/><circle cx="88" cy="66" r="4.4"/><circle cx="112" cy="70" r="4.4"/>
-          <circle cx="78" cy="74" r="4.4"/><circle cx="98" cy="74" r="4.4"/>
-          <circle cx="70" cy="82" r="4.4"/><circle cx="90" cy="82" r="4.4"/><circle cx="110" cy="82" r="4.4"/>
-          <circle cx="80" cy="90" r="4.4"/><circle cx="100" cy="90" r="4.4"/><circle cx="68" cy="96" r="4.4"/><circle cx="112" cy="96" r="4.4"/>
-          <circle cx="78" cy="104" r="4.4"/><circle cx="98" cy="102" r="4.4"/>
-          <circle cx="70" cy="112" r="4.4"/><circle cx="90" cy="110" r="4.4"/><circle cx="110" cy="112" r="4.4"/>
-          <circle cx="82" cy="120" r="4.4"/><circle cx="100" cy="120" r="4.4"/>
-        </g>
-        <g class="xe-fuel">
-          <circle cx="90" cy="50" r="4.4"/><circle cx="84" cy="82" r="4.4"/><circle cx="104" cy="74" r="4.4"/><circle cx="74" cy="92" r="4.4"/><circle cx="92" cy="120" r="4.4"/>
-        </g>
-        <circle class="xe-drop xe-fuel" cx="90" cy="48" r="4.4" style="animation-delay:0s"/>
-        <circle class="xe-drop xe-fuel" cx="86" cy="48" r="4.4" style="animation-delay:-1.3s"/>
+      <!-- ===== 좌측: 원자로압력용기(RPV) + 상단 제어봉 구동부 ===== -->
+      <!-- 상단 제어봉 구동부(리브 다발) -->
+      <ellipse class="xe-cap" cx="60" cy="26" rx="17" ry="5"/>
+      <rect class="xe-body" x="43" y="26" width="34" height="26" fill="url(#xeCylV)"/>
+      <g class="xe-rib">
+        <line x1="48" y1="28" x2="48" y2="50"/><line x1="52" y1="28" x2="52" y2="50"/><line x1="56" y1="28" x2="56" y2="50"/>
+        <line x1="60" y1="28" x2="60" y2="50"/><line x1="64" y1="28" x2="64" y2="50"/><line x1="68" y1="28" x2="68" y2="50"/><line x1="72" y1="28" x2="72" y2="50"/>
       </g>
-
-      <!-- 재순환 중인 페블 (우측 파이프 상승) -->
-      <circle class="xe-flow xe-fuel" r="4"><animateMotion dur="5s" repeatCount="indefinite"><mpath xlink:href="#xeLoop"/></animateMotion></circle>
-      <circle class="xe-flow xe-fuel" r="4"><animateMotion dur="5s" begin="-2.5s" repeatCount="indefinite"><mpath xlink:href="#xeLoop"/></animateMotion></circle>
-
-      <!-- 라벨 -->
-      <text class="xe-t-as" x="90" y="22" text-anchor="middle">신연료 투입</text>
-      <text class="xe-t" x="90" y="163" text-anchor="middle">사용후 배출</text>
+      <!-- RPV 동체 -->
+      <ellipse class="xe-cap" cx="60" cy="52" rx="25" ry="6.5"/>
+      <rect class="xe-flange" x="34" y="50" width="52" height="4" rx="2"/>
+      <rect class="xe-body" x="35" y="54" width="50" height="138" fill="url(#xeCylV)"/>
+      <ellipse class="xe-capb" cx="60" cy="192" rx="25" ry="7.5"/>
     </svg>
-    <figcaption>Xe-100 · 페블베드 HTGR (개략 모형)</figcaption>
+    <figcaption>Xe-100 원자로 모듈 (RPV · 증기발생기)</figcaption>
   </figure>
 </header>
 
