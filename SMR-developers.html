@@ -521,7 +521,7 @@
   apply();
 </script>
 <script src="news-data.js"></script>
-<script src="news-modal.js"></script>
+<script src="news-modal.js?v=2"></script>
 <script>
   /* attach auto-collected 인허가·계약·투자 news to each developer card (matched by card id → news .dev/.title).
      Pure front-end, zero API — new news lands automatically. */
@@ -554,12 +554,14 @@
       var foot = dev.querySelector('.dev-foot'); if(!foot) return;
       var box = document.createElement('div'); box.className='dev-news';
       box.innerHTML = '<div class="dn-h">최신 동향 · 자동 수집</div>' + matches.map(function(n){
-        return '<span class="dn-item"><span class="dn-c'+(KEY[n.cat]?' key':'')+'">'+esc(n.cat)+'</span>'
+        return '<span class="dn-item" role="button" tabindex="0"><span class="dn-c'+(KEY[n.cat]?' key':'')+'">'+esc(n.cat)+'</span>'
           + '<span class="dn-t"><span class="dn-d">'+esc(ym(n.date))+'</span>'+esc(n.title)+'</span></span>';
       }).join('');
       foot.appendChild(box);
       Array.from(box.querySelectorAll('.dn-item')).forEach(function(el,i){
-        el.addEventListener('click', function(){ if(window.openNewsModal) window.openNewsModal(matches[i]); });
+        function go(){ if(window.openNewsModal) window.openNewsModal(matches[i]); }
+        el.addEventListener('click', go);
+        el.addEventListener('keydown', function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); go(); } });
       });
     });
   })();

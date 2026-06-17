@@ -279,7 +279,7 @@
   if(!location.hash){document.getElementById('part50').classList.add('open');}
 </script>
 <script src="news-data.js"></script>
-<script src="news-modal.js"></script>
+<script src="news-modal.js?v=2"></script>
 <script>
   /* attach auto-collected 인허가 news under each developer row (matched by the
      SMR-developers.html#key anchor → news .dev/.title). Pure front-end, zero API. */
@@ -312,10 +312,12 @@
       if(!matches.length) return;
       var box = document.createElement('div'); box.className='co-news';
       box.innerHTML = '<div class="cn-h">최신 인허가 동향 · 자동 수집</div>' +
-        matches.map(function(n){ return '<span class="cn-item"><span class="cn-d">'+esc(ym(n.date))+'</span> '+esc(n.title)+'</span>'; }).join('');
+        matches.map(function(n){ return '<span class="cn-item" role="button" tabindex="0"><span class="cn-d">'+esc(ym(n.date))+'</span> '+esc(n.title)+'</span>'; }).join('');
       co.parentNode.insertBefore(box, co.nextSibling);
       Array.from(box.querySelectorAll('.cn-item')).forEach(function(el,i){
-        el.addEventListener('click', function(){ if(window.openNewsModal) window.openNewsModal(matches[i]); });
+        function go(){ if(window.openNewsModal) window.openNewsModal(matches[i]); }
+        el.addEventListener('click', go);
+        el.addEventListener('keydown', function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); go(); } });
       });
     });
   })();

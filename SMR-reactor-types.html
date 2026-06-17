@@ -276,7 +276,7 @@
 </footer>
 
 <script src="news-data.js"></script>
-<script src="news-modal.js"></script>
+<script src="news-modal.js?v=2"></script>
 <script>
   /* attach auto-collected news to each reactor-type card (card id ↔ news .type). Pure front-end, zero API. */
   (function(){
@@ -298,12 +298,14 @@
       if(!matches.length) return;
       var box = document.createElement('div'); box.className='tcard-news';
       box.innerHTML = '<div class="tn-h">최신 노형 뉴스 · 자동 수집</div>' + matches.map(function(n){
-        return '<span class="tn-item"><span class="tn-c'+(KEY[n.cat]?' key':'')+'">'+esc(n.cat)+'</span>'
+        return '<span class="tn-item" role="button" tabindex="0"><span class="tn-c'+(KEY[n.cat]?' key':'')+'">'+esc(n.cat)+'</span>'
           + '<span class="tn-t"><span class="tn-d">'+esc(ym(n.date))+'</span>'+esc(n.title)+'</span></span>';
       }).join('');
       card.appendChild(box);
       Array.from(box.querySelectorAll('.tn-item')).forEach(function(el,i){
-        el.addEventListener('click', function(){ if(window.openNewsModal) window.openNewsModal(matches[i]); });
+        function go(){ if(window.openNewsModal) window.openNewsModal(matches[i]); }
+        el.addEventListener('click', go);
+        el.addEventListener('keydown', function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); go(); } });
       });
     });
   })();

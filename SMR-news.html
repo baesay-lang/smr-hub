@@ -120,7 +120,7 @@
 </footer>
 
 <script src="news-data.js"></script>
-<script src="news-modal.js"></script>
+<script src="news-modal.js?v=2"></script>
 <script>
   var DATA = (window.SMR_NEWS || []).slice();
   function dkey(d){ var p=String(d).split('-'); return (p[0]||'0000')+(p[1]||'12')+(p[2]||'28'); }
@@ -139,6 +139,7 @@
     var key = KEYCATS[n.cat] ? ' key' : '';
     var el=document.createElement('div');
     el.className='item'+key;
+    el.setAttribute('role','button'); el.setAttribute('tabindex','0');
     el.dataset.cat=n.cat; el.dataset.type=n.type;
     el.dataset.text=((n.title||'')+' '+(n.summary||'')+' '+(n.dev||'')+' '+(n.region||'')+' '+(n.source||'')).toLowerCase();
     var src = n.url ? '<a href="'+esc(n.url)+'" target="_blank" rel="noopener">'+esc(n.source||'출처')+'</a>' : esc(n.source||'');
@@ -155,6 +156,7 @@
       '<div class="item-src">'+src+'</div>';
     feed.appendChild(el);
     el.addEventListener('click', function(e){ if(e.target.closest('a')) return; if(window.openNewsModal) window.openNewsModal(n); });
+    el.addEventListener('keydown', function(e){ if((e.key==='Enter'||e.key===' ')&&!e.target.closest('a')){ e.preventDefault(); if(window.openNewsModal) window.openNewsModal(n); } });
   });
   var items=Array.from(feed.querySelectorAll('.item'));
 

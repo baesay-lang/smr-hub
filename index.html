@@ -120,7 +120,7 @@
 </div>
 
 <script src="news-data.js"></script>
-<script src="news-modal.js"></script>
+<script src="news-modal.js?v=2"></script>
 <script>
   var NEWS = (window.SMR_NEWS || []).slice();
   function dkey(d){ var p=String(d).split('-'); return (p[0]||'0000')+(p[1]||'12')+(p[2]||'28'); }
@@ -140,6 +140,8 @@
     // 피처드(맨 위 1건)는 긴 요약(summaryLong, 2~3문장) 우선 표시
     var feat = document.getElementById('feat');
     feat.setAttribute('data-idx','0');
+    feat.setAttribute('role','button');
+    feat.setAttribute('tabindex','0');
     feat.innerHTML =
       '<div class="d">'+esc(f.date)+'</div>'+
       '<div class="t">'+esc(f.title)+'</div>'+
@@ -147,17 +149,15 @@
       '<div class="nh-tags">'+tags(f)+'</div>';
   }
   document.getElementById('newsList').innerHTML = NEWS.slice(1,6).map(function(n,i){
-    return '<div class="nh-row" data-idx="'+(i+1)+'"><div class="d">'+esc(String(n.date).slice(5)||n.date)+'</div>'+
+    return '<div class="nh-row" data-idx="'+(i+1)+'" role="button" tabindex="0"><div class="d">'+esc(String(n.date).slice(5)||n.date)+'</div>'+
       '<div class="nh-main"><div class="t">'+esc(n.title)+'</div><div class="nh-tags">'+tags(n)+'</div></div></div>';
   }).join('');
 
-  // click any news item → detail modal (uses stored summary; no API)
-  document.querySelector('.news-panel').addEventListener('click', function(e){
-    var row = e.target.closest('[data-idx]');
-    if(!row) return;
-    var n = NEWS[+row.getAttribute('data-idx')];
-    if(n && window.openNewsModal) window.openNewsModal(n);
-  });
+  // click / Enter / Space on any news item → detail modal (uses stored summary; no API)
+  var newsPanel = document.querySelector('.news-panel');
+  function openNews(row){ var n = NEWS[+row.getAttribute('data-idx')]; if(n && window.openNewsModal) window.openNewsModal(n); }
+  newsPanel.addEventListener('click', function(e){ var row = e.target.closest('[data-idx]'); if(row) openNews(row); });
+  newsPanel.addEventListener('keydown', function(e){ if(e.key!=='Enter'&&e.key!==' ') return; var row=e.target.closest('[data-idx]'); if(row){ e.preventDefault(); openNews(row); } });
 
   var upd = window.SMR_UPDATED || ((NEWS[0]?NEWS[0].date:'')+' 기준');
   document.getElementById('stamp').textContent = '뉴스 '+NEWS.length+'건 · 마지막 업데이트 '+upd;

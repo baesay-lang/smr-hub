@@ -89,6 +89,7 @@
 
   var cache = {};      // id -> detail object
   var curId = null, curItem = null;
+  var lastFocused = null;   // element to restore focus to on close (a11y)
 
   function tagHTML(n){
     var h = '<span class="tg'+(KEY[n.cat]?' key':'')+'">'+esc(n.cat)+'</span>';
@@ -144,6 +145,7 @@
 
   function open(n){
     if (!n) return;
+    lastFocused = document.activeElement;
     elDate.textContent = n.date || '';
     elTitle.textContent = n.title || '';
     elTags.innerHTML = tagHTML(n);
@@ -159,8 +161,12 @@
     ov.hidden = false;
     document.body.style.overflow = 'hidden';
     if (ov.querySelector('#nm-card')) ov.querySelector('#nm-card').scrollTop = 0;
+    var xb = document.getElementById('nm-x'); if (xb) xb.focus();   // move focus into dialog
   }
-  function close(){ ov.hidden = true; document.body.style.overflow = ''; }
+  function close(){
+    ov.hidden = true; document.body.style.overflow = '';
+    if (lastFocused && typeof lastFocused.focus === 'function') { try { lastFocused.focus(); } catch (e) {} }
+  }
 
   /* ---- 메일 공유 ---- */
   function buildShare(n){
@@ -197,6 +203,17 @@
   $('nm-close').addEventListener('click', close);
   ov.addEventListener('click', function(e){ if (e.target === ov) close(); });
   document.addEventListener('keydown', function(e){ if (e.key === 'Escape' && !ov.hidden) close(); });
+
+  // trap Tab focus within the open dialog
+  ov.addEventListener('keydown', function(e){
+    if (e.key !== 'Tab' || ov.hidden) return;
+    var f = Array.prototype.slice.call(ov.querySelectorAll('button, a[href], input, [tabindex]'))
+      .filter(function(el){ return !el.disabled && el.offsetParent !== null && el.getAttribute('tabindex') !== '-1'; });
+    if (!f.length) return;
+    var first = f[0], last = f[f.length - 1];
+    if (e.shiftKey && document.activeElement === first){ e.preventDefault(); last.focus(); }
+    else if (!e.shiftKey && document.activeElement === last){ e.preventDefault(); first.focus(); }
+  });
 
   window.openNewsModal = open;
 })();
