@@ -43,6 +43,8 @@ body{
   margin:0;font-family:var(--sans);background:var(--bg);color:var(--text);
   line-height:1.62;font-size:15px;letter-spacing:-0.006em;
   -webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility;
+  /* 한글 줄바꿈: 글자 단위(경/유) 끊김 방지 → 띄어쓰기(단어) 단위로만 줄바꿈. 넘칠 때만 강제 분할 */
+  word-break:keep-all;overflow-wrap:break-word;
 }
 /* thin identity bar at very top */
 body::before{content:"";position:fixed;top:0;left:0;right:0;height:3px;background:var(--accent);z-index:300;}
