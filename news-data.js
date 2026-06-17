@@ -105,6 +105,34 @@ window.SMR_NEWS = [
     "id": "635a86bd"
   },
   {
+    "date": "2026-06-17",
+    "title": "테라파워(TerraPower) 나트륨로, 영국(UK) GDA 프로세스 착수",
+    "summary": "테라파워의 나트륨냉각 고속로 나트륨(Natrium) 345MW급이 영국의 설계인증(GDA) 절차를 공식 개시했다.",
+    "summaryLong": "테라파워(TerraPower)의 나트륨냉각 고속로 나트륨(Natrium) 345MW급이 용융염 기반 에너지저장 시스템을 탑재하고 영국 원자력청의 설계인증(Generic Design Assessment, GDA) 절차에 공식 진입했다. GDA는 영국에서 신형 원자로 설계를 검증하는 필수 인허가 단계로, 이는 테라파워의 나트륨로 상용화 진행의 중요 마일스톤이다. 이 프로세스 개시는 첨단 소듐냉각 고속로 기술의 규제 승인 경로 확보를 의미한다.",
+    "cat": "인허가",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "UK",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/terrapowers-natrium-reactor-begins-uk-gda-process",
+    "k": "terrapower s natrium reactor begins uk gda process",
+    "id": "660842dc"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "한국, 영덕에 대형원전·기장에 혁신형 SMR 부지 선정, 2035~2037년 준공",
+    "summary": "한국이 경상북도 영덕을 신규 대형원전 부지로, 부산 기장을 국내 첫 혁신형 소형모듈원자로(I-SMR) 부지로 선정하고 2035년 SMR 준공 일정을 확정했다.",
+    "summaryLong": "한국수력원자력(한수원)은 부지선정평가위원회를 개최해 경상북도 영덕군을 2.8GW 규모 대형원전 2기 건설지로, 부산 기장군을 혁신형 소형모듈원자로(I-SMR) 0.7GW 1기 건설지로 최종 선정했다. 영덕은 부지적정성·환경성·건설적합성·주민수용성 등 4개 평가항목에서 91.01점을 획득해 울산 울주군(82.63점)을 제치고 선정되었으며, SMR은 2035년, 대형원전은 2037~2038년 준공 일정이 확정되었다. 이는 국내 첫 혁신형 SMR 상용화 프로젝트의 건설 부지 확정으로 정부 원전정책의 본격 추진을 의미한다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "한수원",
+    "region": "KR",
+    "source": "전기신문 - 전체기사",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=369227",
+    "k": "신규 대형원전은 영덕 smr은 기장 선정 건설에 속도 2037년 준공",
+    "id": "0a0458a7"
+  },
+  {
     "date": "2026-06-16",
     "title": "일본의 뉴스케일 파워(NuScale Power) 250억 달러 투자 계획, 주가 급등",
     "summary": "일본이 미국의 뉴스케일 파워(NuScale Power)에 250억 달러를 투자하기로 하며 주가가 급등했다.",
@@ -1043,6 +1071,20 @@ window.SMR_NEWS = [
     "id": "a711110f"
   },
   {
+    "date": "2026-06-12",
+    "title": "오클로, 미국 에너지부(DOE) 예비안전분석(PDSA) 승인 획득",
+    "summary": "오클로(Oklo)가 자사 오로라(Aurora) 파워하우스의 예비안전분석(PDSA)을 미국 에너지부 아이다호 운영사무소로부터 승인받았다.",
+    "summaryLong": "마이크로로 개발사 오클로(Oklo)는 미국 에너지부(DOE) 아이다호 운영사무소(Idaho Operations Office)로부터 아이다호 국립연구소(Idaho National Laboratory)에서 건설 중인 오로라(Aurora) 파워하우스 첫 배치의 예비안전분석(Preliminary Documented Safety Analysis, PDSA) 승인을 획득했다고 발표했다. 이는 원자로 파일럿 프로그램(Reactor Pilot Program)에 참여 중인 10개 기업 중 최근 진행 상황 공개다. PDSA 승인은 설계 검증 및 규제 진행의 중요 인허가 단계로, 오클로의 마이크로로 상용화 추진의 실질적 진전을 나타낸다.",
+    "cat": "인허가",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-06-12/article-8119/oklo-secures-doe-pdsa-approval/",
+    "k": "oklo secures doe pdsa approval",
+    "id": "2c2b2944"
+  },
+  {
     "date": "2026-06-11",
     "title": "트럼프 행정부 환경청(EPA) 청장, 소형모듈원자로(SMR) 확대 지지 표명",
     "summary": "미국 환경청(EPA) 청장 리 젤딘(Lee Zeldin)이 소형모듈원자로(SMR) 확대를 지지하면서 관련 기업들의 주가가 상승했다.",
@@ -1559,6 +1601,20 @@ window.SMR_NEWS = [
     "url": "https://www.ans.org/news/2026-06-08/article-8101/marvel-team-shares-lessons-learned-through-microreactor-development/",
     "k": "marvel team shares lessons learned through microreactor development",
     "id": "dc453469"
+  },
+  {
+    "date": "2026-06-08",
+    "title": "오클로, ARMEC 인수로 첨단로 및 연료 제조 수직통합 확대",
+    "summary": "오클로(Oklo)가 ARMEC을 인수하여 첨단원자로 및 연료 제조 능력의 수직통합을 강화한다.",
+    "summaryLong": "미국 첨단원자로 개발 회사 오클로(Oklo)가 제조 회사 ARMEC을 인수하는 결정을 내렸다. 이를 통해 오클로는 자신의 첨단원자로(고속로 기반) 및 첨단 핵연료 제조 프로그램의 수직통합 능력을 대폭 확대하게 된다. 이번 인수는 오클로의 공급망 안정성 강화와 기술 독립성 확보 전략의 핵심 사례이며, 미국 첨단원전 산업의 자급자족 기반 구축을 의미한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "businesswire.com",
+    "url": "https://www.businesswire.com/news/home/20260608510049/en/Oklo-Acquires-ARMEC-to-Expand-Vertically-Integrated-Manufacturing-Capabilities-for-Advanced-Reactor-and-Fuel-Manufacturing-Programs",
+    "k": "oklo acquires armec to expand vertically integrated manufacturing capabilities for advanced reactor and fuel manufacturing programs",
+    "id": "58e5a8d7"
   },
   {
     "date": "2026-06-07",
@@ -2085,6 +2141,20 @@ window.SMR_NEWS = [
     "url": "https://investors.x-energy.com/news-releases/news-release-details/x-energy-submits-xe-100-htgr-uk-generic-design-assessment",
     "k": "x energy submits xe 100 htgr for uk generic design assessment",
     "id": "00a4b296"
+  },
+  {
+    "date": "2026-06-02",
+    "title": "엑스에너지(X-energy), Xe-100 고온가스로(HTGR) 영국(UK) 일반설계평가(GDA) 신청",
+    "summary": "엑스에너지가 자사의 Xe-100 고온가스로를 영국의 일반설계평가 절차에 제출했다.",
+    "summaryLong": "엑스에너지(X-energy)가 개발 중인 Xe-100 고온가스로(HTGR)를 영국의 일반설계평가(Generic Design Assessment, GDA) 대상으로 제출했다. GDA는 영국 원자력규제청(ONR)이 수행하는 설계인증 절차로, 선행 인허가 단계이다. 이는 영국 시장 진출을 위한 첨단로 설계의 안전성·기술성 검토 신청으로, 영국의 소형모듈원자로 및 첨단로 인허가 추진 정책과 맞물린 중요한 진전이다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "UK",
+    "source": "x-energy.com",
+    "url": "https://x-energy.com/news/x-energy-submits-xe-100-htgr-for-uk-generic-design-assessment/",
+    "k": "x energy submits xe 100 htgr for uk generic design assessment x energy",
+    "id": "189c3e3e"
   },
   {
     "date": "2026-06-01",
@@ -3020,6 +3090,20 @@ window.SMR_NEWS = [
     "url": "https://www.world-nuclear-news.org/articles/terrapower-starts-construction-of-first-us-utility-scale-advanced-nuclear-plant",
     "k": "terrapower starts construction of first us utility scale advanced nuclear plant",
     "id": "f22505ec"
+  },
+  {
+    "date": "2026-04-23",
+    "title": "테라파워, 미국 첫 대규모 첨단원자로 발전소 건설 착공",
+    "summary": "테라파워(TerraPower)가 미국 최초의 상용규모 첨단원자로 발전소 건설을 시작했다.",
+    "summaryLong": "미국 첨단원자로 개발사 테라파워(TerraPower)가 미국 최초의 대규모 상용 첨단원자로 발전소의 본격적인 건설을 개시했다고 발표했다. 이 프로젝트는 미국의 첨단원자로(소듐냉각 고속로 기반) 상용화 추진에서 설계·인허가 단계를 거쳐 실제 시공으로 진입하는 획기적 이정표를 나타낸다. 해당 시설은 미국 에너지부(DOE) 지원 하에 추진되며, 향후 미국 첨단원전 산업 확대의 기초가 될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "terrapower.com",
+    "url": "https://www.terrapower.com/TerraPower-Commences-Construction-on-Americas-First-Utility-Scale-Advanced-Nuclear-Power-Plant",
+    "k": "terrapower commences construction on america s first utility scale advanced nuclear power plant",
+    "id": "66401abf"
   },
   {
     "date": "2026-04-21",
@@ -4726,4 +4810,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-17 21:44 KST";
+window.SMR_UPDATED = "2026-06-17 23:43 KST";
