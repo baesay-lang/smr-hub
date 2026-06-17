@@ -26,7 +26,19 @@
 <script>(function(){try{var t=localStorage.getItem('smrhub-theme');if(t==='dark'||(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();</script>
 <script src="ui.js" defer></script>
 <style>
-  .tl-controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;max-width:1080px;margin:14px auto 0;padding:0 24px;}
+  /* compact filter bar (collapsed by default so the timeline stays the focus) */
+  .tl-bar{max-width:1080px;margin:14px auto 0;padding:0 24px;display:flex;align-items:center;gap:12px;}
+  .tl-fbtn{appearance:none;background:var(--surface);border:1px solid var(--border-strong);border-radius:8px;font:inherit;
+    font-size:12.5px;font-weight:700;color:var(--text-dim);padding:6px 13px;cursor:pointer;display:inline-flex;align-items:center;gap:7px;}
+  .tl-fbtn:hover{border-color:var(--accent);color:var(--text);}
+  .tl-fbtn .chev{font-size:10px;transition:transform .15s;}
+  .tl-fbtn[aria-expanded="true"]{color:var(--accent-strong);border-color:var(--accent-weak-2);background:var(--accent-weak);}
+  .tl-fbtn[aria-expanded="true"] .chev{transform:rotate(180deg);}
+  .tl-fbtn.flt-on::after{content:"";width:6px;height:6px;border-radius:50%;background:var(--accent);display:inline-block;}
+  .tl-filters[hidden]{display:none;}
+  .tl-filters{margin-top:2px;}
+
+  .tl-controls{display:flex;gap:8px;flex-wrap:wrap;align-items:center;max-width:1080px;margin:8px auto 0;padding:0 24px;}
   .tl-controls .lbl{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--text-faint);margin-right:2px;}
 
   /* reactor-type checkbox panel */
@@ -108,23 +120,30 @@
   <p class="subtitle"><b>프로젝트 단위</b>로 인허가·건설·가동 마일스톤을 한 시간축 위에 (개발사당 주요 2개까지 분리·좌측 묶음선으로 그룹). <b>개발사 체크박스로 원하는 개발사만</b> 골라 볼 수 있습니다. <b>실선·채운 점=완료</b>, <b>점선·빈 점=목표·예정</b>. 점/레인 클릭 시 <a href="SMR-developers.html">개발사 상세</a>로 이동. (2026.6 기준)</p>
 </header>
 
-<div class="tl-controls">
-  <span class="lbl">트랙</span>
-  <div class="filters" id="trackFilters">
-    <span class="chip active" data-f="all">전체</span>
-    <span class="chip" data-f="nrc50">NRC Part 50</span>
-    <span class="chip" data-f="nrc52">NRC Part 52</span>
-    <span class="chip" data-f="intl">해외 (GDA·CNSC)</span>
-    <span class="chip" data-f="kr">한국</span>
-  </div>
+<div class="tl-bar">
+  <button class="tl-fbtn" id="filterToggle" type="button" aria-expanded="false" aria-controls="filterBody">
+    필터 <span class="chev" aria-hidden="true">▾</span>
+  </button>
   <span class="result-count" id="count"></span>
 </div>
 
-<div class="tl-types" id="devPanel">
-  <span class="lbl">개발사</span>
-  <span id="devBoxes" style="display:contents"></span>
-  <button class="allbtn" id="devAll">전체</button>
-  <button class="allbtn" id="devNone">해제</button>
+<div class="tl-filters" id="filterBody" hidden>
+  <div class="tl-controls">
+    <span class="lbl">트랙</span>
+    <div class="filters" id="trackFilters">
+      <span class="chip active" data-f="all">전체</span>
+      <span class="chip" data-f="nrc50">NRC Part 50</span>
+      <span class="chip" data-f="nrc52">NRC Part 52</span>
+      <span class="chip" data-f="intl">해외 (GDA·CNSC)</span>
+      <span class="chip" data-f="kr">한국</span>
+    </div>
+  </div>
+  <div class="tl-types" id="devPanel">
+    <span class="lbl">개발사</span>
+    <span id="devBoxes" style="display:contents"></span>
+    <button class="allbtn" id="devAll">전체</button>
+    <button class="allbtn" id="devNone">해제</button>
+  </div>
 </div>
 
 <div class="tl-wrap">
@@ -224,6 +243,7 @@
 
   var host=document.getElementById('tl');
   var countEl=document.getElementById('count');
+  var filterToggle=document.getElementById('filterToggle');
   var trackF='all';
   // unique developers, in PROJECTS order
   var DEVLIST=[]; PROJECTS.forEach(function(p){ if(DEVLIST.indexOf(p.dev)<0) DEVLIST.push(p.dev); });
@@ -240,6 +260,8 @@
     var list=visibleList();
     host.innerHTML='';
     countEl.textContent = list.length+'개 프로젝트';
+    var active = trackF!=='all' || DEVLIST.some(function(d){ return !devOn[d]; });
+    if(filterToggle) filterToggle.classList.toggle('flt-on', active);
     if(!list.length){
       var d=document.createElement('div'); d.className='tl-empty';
       d.textContent='선택한 조건에 맞는 프로젝트가 없습니다 — 노형/트랙 필터를 조정하세요.';
@@ -357,6 +379,13 @@
   }
   document.getElementById('devAll').addEventListener('click', function(){ setAll(true); });
   document.getElementById('devNone').addEventListener('click', function(){ setAll(false); });
+
+  // collapsible filter panel (collapsed by default)
+  filterToggle.addEventListener('click', function(){
+    var open = filterToggle.getAttribute('aria-expanded')==='true';
+    filterToggle.setAttribute('aria-expanded', open?'false':'true');
+    document.getElementById('filterBody').hidden = open;
+  });
 
   render();
 })();
