@@ -203,7 +203,7 @@
     <p class="sec-sub">일체형 가압경수로(integral PWR) · 모듈당 77MWe / 250MWth · 자연순환(냉각재 펌프 없음) · 표준 6모듈(US460) = 462MWe</p>
     <div class="specs">
       <div class="spec"><span class="lab">노형</span><span class="val">일체형 PWR<small> (integral PWR · 경수/경수)</small></span></div>
-      <div class="spec"><span class="lab">출력</span><span class="val">77 MWe<small> (gross) / 250 MWth · 모듈당</small></span></div>
+      <div class="spec"><span class="lab">출력</span><span class="val">77 MWe<small> / 250 MWth · 모듈당</small></span></div>
       <div class="spec"><span class="lab">표준 구성</span><span class="val">4 / 6 / 12 모듈<small> 308 / 462 / 924 MWe (VOYGR-4/6/12)</small></span></div>
       <div class="spec"><span class="lab">기준 설계</span><span class="val">6모듈 = 462 MWe<small> US460 (SDA 기준 플랜트)</small></span></div>
       <div class="spec"><span class="lab">1차 순환</span><span class="val">자연순환<small> 냉각재 펌프(RCP) 없음</small></span></div>
@@ -225,7 +225,7 @@
       <b>핵심 차별점:</b> ① <b>자연순환</b> — RPV 내부 부력만으로 냉각재를 순환시켜 <b>냉각재 펌프(RCP)가 없음</b>(능동기기·배관 최소화) · ② <b>일체형(integral)</b> — 하나의 RPV 안에 노심·증기발생기·가압기를 모두 담고, 이를 원통형 <b>격납용기(CNV)</b>째 <b>수조에 침수</b> → AC/DC 전원·운전원 조치·보충수 <b>없이도 무한시간 피동냉각</b>(NuScale Triple Crown) · ③ <b>NRC 인증 완료</b> — US600(50MWe×12) 2023 설계인증(美 최초 SMR), 우상향 <b>US460(77MWe×6)</b> 2025-05 표준설계승인(SDA) · ④ <b>모듈식 확장</b> — 공장제작 모듈을 4·6·12기로 묶어 수요에 맞춤, 단일 제어실서 운전.
       자세한 노형 비교는 <a href="SMR-reactor-types.html#pwr">노형 분류 › PWR</a> 참고.
     </div>
-    <p class="src" style="margin:10px 0 0;">＊ 사양 교차검증: <b>IAEA <i>Advances in SMR Technology Developments 2024</i></b> 카탈로그(NuScale Power Module). 출력 250/77(gross)·RPV 17.7m×⌀2.7m·37 연료집합체·자연순환 등 일치. 모듈 출력은 50MWe(US600)→77MWe(US460)로 상향됐으며, 최종 수치는 프로젝트별 확인 권장.</p>
+    <p class="src" style="margin:10px 0 0;">＊ 사양 교차검증: <b>IAEA <i>Advances in SMR Technology Developments 2024</i></b> 카탈로그(NuScale Power Module). 출력 250/77·RPV 17.7m×⌀2.7m·37 연료집합체·자연순환 등 일치. 모듈 출력은 50MWe(US600)→77MWe(US460)로 상향됐으며, 최종 수치는 프로젝트별 확인 권장.</p>
   </section>
 
   <!-- ===================== 부품 공급망 ===================== -->
@@ -276,23 +276,24 @@
           <ellipse cx="186" cy="214" rx="9" ry="5"/><ellipse cx="186" cy="232" rx="9" ry="5"/><ellipse cx="186" cy="250" rx="9" ry="5"/><ellipse cx="186" cy="268" rx="9" ry="5"/><ellipse cx="186" cy="286" rx="9" ry="5"/>
           <ellipse cx="234" cy="214" rx="9" ry="5"/><ellipse cx="234" cy="232" rx="9" ry="5"/><ellipse cx="234" cy="250" rx="9" ry="5"/><ellipse cx="234" cy="268" rx="9" ry="5"/><ellipse cx="234" cy="286" rx="9" ry="5"/>
         </g>
-        <line x1="248" y1="250" x2="262" y2="250" stroke="#c0c7d1"/>
-        <text x="266" y="254" fill="#1d4ed8" font-size="9.5" font-weight="700">SG ③ (헬리컬 ×2)</text>
+        <line x1="243" y1="250" x2="288" y2="252" stroke="#c0c7d1"/>
+        <text x="292" y="255" fill="#1d4ed8" font-size="9.5" font-weight="700">SG ③ (헬리컬 ×2)</text>
 
-        <!-- Riser (hot leg) -->
-        <line x1="210" y1="330" x2="210" y2="196" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
-        <text x="210" y="250" fill="#7e8a99" font-size="8.5" text-anchor="middle" transform="rotate(-90 210 250)">Riser (자연순환)</text>
+        <!-- Riser (hot leg) — 자연순환 상승류. 라벨은 화살표 위에 배치(겹침 방지) -->
+        <line x1="210" y1="328" x2="210" y2="200" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
+        <text x="210" y="192" fill="#1d4ed8" font-size="8" font-weight="700" text-anchor="middle">자연순환 ↑</text>
 
         <!-- Core (②) bottom -->
         <rect x="188" y="330" width="44" height="32" rx="4" fill="#e3ecff" stroke="#2563eb"/>
         <g stroke="#9aa7b4" stroke-width="1.4"><line x1="196" y1="334" x2="196" y2="358"/><line x1="204" y1="334" x2="204" y2="358"/><line x1="212" y1="334" x2="212" y2="358"/><line x1="220" y1="334" x2="220" y2="358"/><line x1="228" y1="334" x2="228" y2="358"/></g>
-        <text x="210" y="380" fill="#1d4ed8" font-size="10.5" font-weight="700" text-anchor="middle">Core ② (UO₂ 17×17)</text>
+        <text x="210" y="382" fill="#1d4ed8" font-size="10.5" font-weight="700" text-anchor="middle">Core ② (UO₂ 17×17)</text>
 
-        <!-- steam loop to turbine -->
+        <!-- steam loop to turbine (증기 → 우측 터빈) -->
         <line x1="248" y1="200" x2="648" y2="200" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
-        <text x="450" y="191" fill="#8b93a2" font-size="9.5" text-anchor="middle">Steam (과열증기)</text>
-        <polyline points="690,236 690,300 250,300 250,300" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
-        <text x="470" y="314" fill="#8b93a2" font-size="9.5" text-anchor="middle">Feedwater</text>
+        <text x="448" y="191" fill="#8b93a2" font-size="9.5" text-anchor="middle">Steam (과열증기) →</text>
+        <!-- feedwater 복귀 (터빈 → 모듈로): 화살표는 모듈 쪽(좌측)을 향함 -->
+        <polyline points="690,240 690,300 248,300" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
+        <text x="452" y="314" fill="#8b93a2" font-size="9.5" text-anchor="middle">← Feedwater (급수 복귀)</text>
 
         <!-- Turbine (⑦) + Generator -->
         <polygon points="648,178 712,166 712,238 648,226" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
