@@ -11,3 +11,12 @@ package-lock.json
 Thumbs.db
 desktop.ini
 .DS_Store
+
+# personal / unrelated local files — keep out of the public site repo
+smr-live-caption/
+triso_excel/
+*.zip
+*.exe
+폴더생성기.*
+__pycache__/
+*.pyc
