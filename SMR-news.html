@@ -130,6 +130,7 @@
   var countEl=document.getElementById('count');
   var search=document.getElementById('search');
   var catF='all', typeF='all';
+  function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
 
   // build DOM once
   DATA.forEach(function(n){
@@ -138,16 +139,16 @@
     el.className='item'+key;
     el.dataset.cat=n.cat; el.dataset.type=n.type;
     el.dataset.text=((n.title||'')+' '+(n.summary||'')+' '+(n.dev||'')+' '+(n.region||'')+' '+(n.source||'')).toLowerCase();
-    var src = n.url ? '<a href="'+n.url+'" target="_blank" rel="noopener">'+(n.source||'출처')+'</a>' : (n.source||'');
+    var src = n.url ? '<a href="'+esc(n.url)+'" target="_blank" rel="noopener">'+esc(n.source||'출처')+'</a>' : esc(n.source||'');
     el.innerHTML =
-      '<div class="item-date">'+n.date+'</div>'+
-      '<div class="item-title">'+n.title+'</div>'+
-      '<div class="item-body">'+n.summary+'</div>'+
+      '<div class="item-date">'+esc(n.date)+'</div>'+
+      '<div class="item-title">'+esc(n.title)+'</div>'+
+      '<div class="item-body">'+esc(n.summary)+'</div>'+
       '<div class="item-tags">'+
-        '<span class="tg'+(KEYCATS[n.cat]?' key':'')+'">'+n.cat+'</span>'+
-        '<span class="tg type">'+n.type+'</span>'+
-        (n.dev?'<span class="tg">'+n.dev+'</span>':'')+
-        (n.region?'<span class="cc">'+n.region+'</span>':'')+
+        '<span class="tg'+(KEYCATS[n.cat]?' key':'')+'">'+esc(n.cat)+'</span>'+
+        '<span class="tg type">'+esc(n.type)+'</span>'+
+        (n.dev?'<span class="tg">'+esc(n.dev)+'</span>':'')+
+        (n.region?'<span class="cc">'+esc(n.region)+'</span>':'')+
       '</div>'+
       '<div class="item-src">'+src+'</div>';
     feed.appendChild(el);
