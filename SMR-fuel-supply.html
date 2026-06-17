@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMR 연료 공급망 — HALEU·TRISO</title>
+<meta name="description" content="비경수로 SMR의 최대 병목인 HALEU(고순도 저농축우라늄)·TRISO 연료 공급망 — 농축(Centrus·Urenco)·제조(TRISO-X·BWXT)·러시아 의존 탈피·개발사별 연료 매핑·한국 관점.">
+<link rel="canonical" href="https://baesay-lang.github.io/smr-hub/SMR-fuel-supply.html">
+<meta name="theme-color" content="#2563eb">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SMR HUB">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="SMR 연료 공급망 — HALEU·TRISO · SMR HUB">
+<meta property="og:description" content="비경수로 SMR의 최대 병목인 HALEU·TRISO 연료 공급망 — 농축·제조 플레이어, 러시아 의존 탈피, 개발사별 연료 매핑, 한국 관점.">
+<meta property="og:url" content="https://baesay-lang.github.io/smr-hub/SMR-fuel-supply.html">
+<meta property="og:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SMR 연료 공급망 — HALEU·TRISO · SMR HUB">
+<meta name="twitter:description" content="비경수로 SMR의 최대 병목 — HALEU·TRISO 공급망, 농축·제조 플레이어, 한국 관점.">
+<meta name="twitter:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
+<link rel="stylesheet" href="styles.css?v=3">
+<script>(function(){try{var t=localStorage.getItem('smrhub-theme');if(t==='dark'||(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();</script>
+<script src="ui.js" defer></script>
+<style>
+  .sec{margin:30px 0;scroll-margin-top:60px;}
+  .sec-title{font-size:17px;font-weight:700;color:var(--text);margin:0 0 4px;}
+  .sec-title .no{color:var(--accent);margin-right:7px;font-variant-numeric:tabular-nums;}
+  .sec-desc{color:var(--text-dim);font-size:13px;margin:0 0 14px;}
+
+  /* two-group split (LWR vs non-LWR fuel) */
+  .split{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:8px;}
+  @media(max-width:680px){.split{grid-template-columns:1fr;}}
+  .gcard{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:15px 17px;box-shadow:var(--shadow);}
+  .gcard.lwr{border-left:3px solid var(--accent);}
+  .gcard.non{border-left:3px solid var(--border-strong);}
+  .gcard h3{font-size:14.5px;margin:0 0 3px;color:var(--text);}
+  .gcard .sub{font-size:12px;color:var(--text-faint);margin-bottom:9px;}
+  .gcard ul{margin:0;padding-left:17px;font-size:13px;color:var(--text-dim);line-height:1.65;}
+  .gcard ul b{color:var(--text);}
+  .gcard .fuelbadge{display:inline-block;font-size:11px;font-weight:700;padding:2px 9px;border-radius:4px;margin-bottom:9px;}
+  .fb-lwr{background:var(--accent-weak);color:var(--accent-strong);}
+  .fb-non{background:var(--surface-3);color:var(--text-dim);}
+
+  /* supply-chain stepper */
+  .chain{display:flex;flex-wrap:wrap;gap:7px;align-items:stretch;margin:6px 0 4px;}
+  .step{flex:1;min-width:128px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-sm);
+    padding:11px 12px;box-shadow:var(--shadow);display:flex;flex-direction:column;}
+  .step.key{border-color:var(--accent-weak-2);background:var(--accent-weak);}
+  .step .st-n{font-size:10px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--text-faint);}
+  .step.key .st-n{color:var(--accent-strong);}
+  .step .st-t{font-size:13.5px;font-weight:700;color:var(--text);margin:2px 0 1px;}
+  .step .st-d{font-size:11.5px;color:var(--text-dim);line-height:1.45;}
+  .step .st-p{margin-top:7px;display:flex;flex-wrap:wrap;gap:4px;}
+  .pchip{font-size:10px;font-weight:700;padding:1px 7px;border-radius:20px;background:var(--surface-2);color:var(--text-dim);border:1px solid var(--border);white-space:nowrap;}
+  .pchip.kr{background:var(--accent-weak);color:var(--accent-strong);border-color:var(--accent-weak-2);}
+  .chain-arrow{display:flex;align-items:center;color:var(--text-faint);font-weight:700;font-size:14px;}
+  @media(max-width:680px){.chain-arrow{display:none;} .chain{flex-direction:column;}}
+
+  .fork{font-size:12px;color:var(--text-dim);margin:8px 0 0;}
+  .fork b{color:var(--text);}
+
+  table.data td .ff{font-weight:700;}
+  .ff-haleu{color:var(--accent-strong);}
+  .ff-leu{color:var(--text-dim);}
+  .ff-triso{color:var(--accent-strong);}
+  .mini-cc{font-size:10px;}
+
+  .kbox{background:var(--accent-weak);border:1px solid var(--accent-weak-2);border-left:3px solid var(--accent);
+    border-radius:var(--radius-sm);padding:14px 17px;font-size:13.5px;color:var(--text-dim);line-height:1.65;}
+  .kbox h3{margin:0 0 7px;font-size:14.5px;color:var(--accent-strong);}
+  .kbox b{color:var(--text);}
+  .kbox ul{margin:7px 0 0;padding-left:18px;}
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a class="brand" href="index.html">SMR HUB</a>
+  <a href="SMR-news.html">뉴스</a>
+  <a href="SMR-developers.html">개발사</a>
+  <a href="SMR-licensing-tracks.html">인허가 트랙</a>
+  <a href="SMR-reactor-types.html">노형 분류</a>
+  <a href="SMR-fuel-supply.html" class="active">연료 공급망</a>
+  <a href="SMR-reference.html">CFR 레퍼런스</a>
+  <a href="SMR-asia-structure.html">사업 구조</a>
+  <a href="SMR-korea-players.html">한국 기업</a>
+  <a href="SMR-map.html">프로젝트 맵</a>
+</nav>
+
+<header class="page">
+  <div class="kicker">Fuel Supply Chain</div>
+  <h1>연료 공급망 — HALEU · TRISO</h1>
+  <p class="subtitle">비경수로 SMR의 <b>최대 병목</b>은 인허가가 아니라 <b>연료</b>다. 새 연료(<abbr title="High-Assay Low-Enriched Uranium, 고순도 저농축우라늄 5–20%">HALEU</abbr>·<abbr title="TRi-structural ISOtropic, 세라믹 다중 코팅 입자연료">TRISO</abbr>)의 공급망이 이제 막 만들어지는 중. 누가 농축하고 누가 제조하나, 그리고 <a href="SMR-reactor-types.html">노형</a>별 연료가 사업 난이도를 어떻게 가르나. (2026.6 기준)</p>
+</header>
+
+<main>
+  <div class="note" style="margin-bottom:22px;">
+    <span class="lead">한눈에</span> <b>경수로(LWR) SMR</b>은 기존 대형원전과 같은 <b>UO₂ &lt;5% 저농축우라늄(LEU)</b>을 써서 연료 공급망이 이미 성숙 — 연료 리스크가 낮다. 반면 <b>비경수로(첨단로)</b>는 대부분 <b>HALEU(5–20%)</b>를 요구하고, 일부는 <b>TRISO</b> 입자연료까지 필요한데, <b>HALEU의 유일한 상업 공급원이 사실상 러시아(Rosatom)뿐</b>이었다. 미국이 <b>러시아 우라늄 수입을 금지(2024.8)</b>하고 국내 공급망 구축에 <b>$2.72B</b>를 투입하며 판이 바뀌는 중. → 같은 “SMR”이라도 <b>연료가 곧 일정·비용 리스크</b>.
+  </div>
+
+  <!-- ============ 1. 연료로 갈리는 두 그룹 ============ -->
+  <section class="sec" id="split">
+    <h2 class="sec-title"><span class="no">1</span>연료로 갈리는 두 그룹</h2>
+    <p class="sec-desc">노형이 연료를 정하고, 연료가 공급망 성숙도(=리스크)를 정한다.</p>
+    <div class="split">
+      <div class="gcard lwr">
+        <h3>경수로(LWR) SMR</h3>
+        <div class="sub">PWR · BWR · iPWR</div>
+        <span class="fuelbadge fb-lwr">UO₂ · &lt;5% LEU · 성숙</span>
+        <ul>
+          <li>기존 상용원전과 <b>동일 연료</b> — 농축·성형 공급망 완비</li>
+          <li>연료 리스크 <b>낮음</b>, 별도 신규 투자 불필요</li>
+          <li>예: <a href="SMR-developers.html#nuscale">NuScale</a>·<a href="SMR-developers.html#holtec">Holtec</a>·<a href="SMR-developers.html#gehitachi">GE-Hitachi</a>·<a href="SMR-developers.html#rollsroyce">Rolls-Royce</a>·<a href="SMR-developers.html#smart">SMART</a>·<a href="SMR-developers.html#ismr">i-SMR</a></li>
+        </ul>
+      </div>
+      <div class="gcard non">
+        <h3>비경수로(첨단로)</h3>
+        <div class="sub">SFR · HTGR · FHR · MSR · 마이크로</div>
+        <span class="fuelbadge fb-non">HALEU 5–20% ± TRISO · 미성숙</span>
+        <ul>
+          <li><b>HALEU</b> 필수(고연소도·고온·소형노심). 일부는 <b>TRISO</b> 입자연료까지</li>
+          <li>공급망이 <b>이제 구축 중</b> → 연료가 사업 일정의 핵심 변수</li>
+          <li>예: <a href="SMR-developers.html#terrapower">TerraPower</a>·<a href="SMR-developers.html#xenergy">X-energy</a>·<a href="SMR-developers.html#oklo">Oklo</a>·<a href="SMR-developers.html#kairos">Kairos</a>·<a href="SMR-developers.html#westinghouse">eVinci</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 2. 공급망 흐름 ============ -->
+  <section class="sec" id="flow">
+    <h2 class="sec-title"><span class="no">2</span>공급망 흐름 — 광석에서 원자로까지</h2>
+    <p class="sec-desc">농축 단계에서 LEU와 HALEU가 갈리고, 성형 단계에서 펠릿·금속·TRISO로 갈린다. <span style="color:var(--accent-strong);font-weight:600;">파란 단계 = 비경수로의 신규 병목.</span></p>
+    <div class="chain">
+      <div class="step">
+        <span class="st-n">1 · 채광·정련</span><span class="st-t">U₃O₈ (옐로케이크)</span>
+        <span class="st-d">천연우라늄 채굴·정련</span>
+        <span class="st-p"><span class="pchip">Cameco</span><span class="pchip">Kazatomprom</span><span class="pchip">Orano</span></span>
+      </div>
+      <div class="chain-arrow">→</div>
+      <div class="step">
+        <span class="st-n">2 · 변환</span><span class="st-t">UF₆</span>
+        <span class="st-d">농축 투입용 육불화우라늄으로 변환</span>
+        <span class="st-p"><span class="pchip">Cameco</span><span class="pchip">Orano</span><span class="pchip">ConverDyn</span></span>
+      </div>
+      <div class="chain-arrow">→</div>
+      <div class="step key">
+        <span class="st-n">3 · 농축</span><span class="st-t">LEU &lt;5% &nbsp;|&nbsp; HALEU 5–20%</span>
+        <span class="st-d"><b>HALEU 농축이 핵심 병목</b> — 러 의존 탈피 중</span>
+        <span class="st-p"><span class="pchip">Centrus</span><span class="pchip">Urenco</span><span class="pchip">Orano</span><span class="pchip">General Matter</span></span>
+      </div>
+      <div class="chain-arrow">→</div>
+      <div class="step key">
+        <span class="st-n">4 · 탈변환·연료성형</span><span class="st-t">펠릿 · 금속 · TRISO</span>
+        <span class="st-d">노형별 연료 형태로 가공</span>
+        <span class="st-p"><span class="pchip">TRISO-X</span><span class="pchip">BWXT</span><span class="pchip kr">KEPCO NF</span></span>
+      </div>
+      <div class="chain-arrow">→</div>
+      <div class="step">
+        <span class="st-n">5 · 원자로</span><span class="st-t">장전·운전</span>
+        <span class="st-d">노심 장전 후 발전·공정열</span>
+        <span class="st-p"><span class="pchip">개발사·사업주</span></span>
+      </div>
+    </div>
+    <p class="fork">＊ <b>성형 분기:</b> 경수로=<b>UO₂ 펠릿</b>(KEPCO NF 등 성숙) · SFR=<b>금속연료</b>(HALEU) · HTGR/FHR=<b>TRISO</b>(HALEU 커널) · MSR=<b>용융염 용해연료</b>. 칩의 <span class="pchip kr" style="display:inline-block">파란색</span>=한국 기업.</p>
+  </section>
+
+  <!-- ============ 3. HALEU ============ -->
+  <section class="sec" id="haleu">
+    <h2 class="sec-title"><span class="no">3</span>HALEU — 고순도 저농축우라늄</h2>
+    <p class="sec-desc">High-Assay Low-Enriched Uranium · U-235 농축도 <b>5–20%</b> (기존 LWR은 &lt;5%, 무기급은 &gt;90%)</p>
+
+    <div class="card" style="margin-bottom:12px;">
+      <div class="card-body" style="font-size:13.5px;color:var(--text-dim);line-height:1.7;">
+        <b style="color:var(--text);">왜 필요한가</b> — 첨단로는 노심을 작게·고연소도로 설계해 더 높은 농축도가 필요하다. <b>금속(SFR)·산화물·TRISO 커널</b> 등 형태도 다양. <br>
+        <b style="color:var(--text);">왜 병목인가</b> — <b>상업용 HALEU의 사실상 유일한 공급원이 러시아 Rosatom(TENEX)</b>이었다. 미국은 자체 상업 농축 능력이 없었음.
+      </div>
+    </div>
+
+    <div class="note warn" style="margin-bottom:12px;">
+      <span class="lead">전환점</span> 미국 <b>「러시아 우라늄 수입 금지법」(H.R.1042)</b> — 2024.8.11 발효(2040년까지). 이 법으로 <b>약 $2.72B</b>(IRA의 HALEU $700M 포함)가 국내 LEU·HALEU 공급망 구축에 풀림(핵연료안보법 Nuclear Fuel Security Act 이행). 단, 대체 공급원이 없을 경우 <b>한시적 면제(waiver)</b>로 러 LEU를 제한 수입 가능.
+    </div>
+
+    <div class="tbl-wrap" style="margin-bottom:6px;">
+      <table class="data">
+        <thead><tr><th>국내 농축·공급 플레이어</th><th>거점</th><th>현황 (2026.6 기준)</th></tr></thead>
+        <tbody>
+          <tr><td><b>Centrus Energy</b> <span class="cc">US</span></td><td>American Centrifuge Plant — Piketon, Ohio</td><td><b>미국 첫 HALEU 농축</b>. DOE 실증 캐스케이드에서 <b>900kg+ 납품</b>(2025 중반), 계약 1년 연장. 상업 확장 추진</td></tr>
+          <tr><td><b>Urenco USA</b> <span class="cc">UK·EU</span></td><td>Eunice, New Mexico</td><td>신규 원심분리기로 <b>+70만 SWU/년</b>(약 +15%) 증설(2025~). 현재 LEU, HALEU 확대 검토</td></tr>
+          <tr><td><b>Orano</b> <span class="cc">FR</span></td><td>(미국 내 농축·탈변환 참여)</td><td>DOE HALEU 농축·탈변환 사업자 선정. 미국 신규 농축시설 검토</td></tr>
+          <tr><td><b>General Matter</b> <span class="cc">US</span></td><td>(신생)</td><td>DOE HALEU 농축 사업자 선정 — 신규 진입사</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="sec-desc" style="margin-top:8px;">＊ <b>탈변환(deconversion)</b> 6개사도 선정(DOE, 10년 최대 $800M): <b>Nuclear Fuel Services(BWXT)·American Centrifuge Operating(Centrus)·Framatome·GE Vernova·Orano·Westinghouse</b>.</p>
+  </section>
+
+  <!-- ============ 4. TRISO ============ -->
+  <section class="sec" id="triso">
+    <h2 class="sec-title"><span class="no">4</span>TRISO — 세라믹 다중코팅 입자연료</h2>
+    <p class="sec-desc">TRi-structural ISOtropic · HALEU 커널을 탄소·탄화규소(SiC) 다층으로 코팅한 양귀비씨 크기 입자 → <b>1,800℃에서도 핵분열물질을 가둠</b>(고유안전)</p>
+
+    <div class="card" style="margin-bottom:12px;">
+      <div class="card-body" style="font-size:13.5px;color:var(--text-dim);line-height:1.7;">
+        <b style="color:var(--text);">누가 쓰나</b> — <a href="SMR-developers.html#xenergy">X-energy Xe-100</a>(HTGR, 페블), <a href="SMR-developers.html#kairos">Kairos KP-FHR</a>(불소염 냉각, 고체 TRISO), <abbr title="현대엔지니어링이 지분투자한 마이크로로 — USNC 파산 후 NANO Nuclear가 인수">USNC/NANO MMR</abbr> 등. <a href="SMR-reactor-types.html#htgr">HTGR·FHR</a>의 안전논거 핵심이 바로 이 TRISO 건전성.<br>
+        <b style="color:var(--text);">병목 포인트</b> — TRISO는 <b>HALEU 커널 + 정밀 코팅 + 흑연 매트릭스(페블/컴팩트)</b>까지 묶인 신규 제조라인이 필요. 대규모 상업 생산설비가 이제야 생긴다.
+      </div>
+    </div>
+
+    <div class="tbl-wrap">
+      <table class="data">
+        <thead><tr><th>TRISO 제조 플레이어</th><th>거점</th><th>현황 (2026.6 기준)</th></tr></thead>
+        <tbody>
+          <tr><td><b>TRISO-X</b> (X-energy 자회사) <span class="cc">US</span></td><td>TX-1 — Oak Ridge Horizon Center, TN</td><td><b>NRC Cat-II 특수핵물질 라이선스 취득(2026.2.13, SNM-7007)</b> — <b>50여 년 만의 첫 신규 연료제조 인가</b>·첫 상업 Cat-II 시설. 연 <b>70만 페블</b>(≈ Xe-100 11기분), 건설 중</td></tr>
+          <tr><td><b>BWXT</b> <span class="cc">US</span></td><td>Lynchburg, Virginia</td><td>기존 TRISO 생산 경험 보유. <b>Kairos Power와 상업 TRISO 제조 협력</b> — 공동 라인 검토</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ============ 5. 개발사별 연료 매핑 ============ -->
+  <section class="sec" id="map">
+    <h2 class="sec-title"><span class="no">5</span>개발사별 연료 매핑</h2>
+    <p class="sec-desc">“누가 어떤 연료를 쓰고, 무엇이 리스크인가” — 경수로는 성숙(LEU), 비경수로는 HALEU/TRISO 신규 공급망 의존</p>
+    <div class="tbl-wrap">
+      <table class="data">
+        <thead><tr><th>개발사 / 노형</th><th>연료 형태</th><th>농축</th><th>성형(제조)</th><th>공급망</th></tr></thead>
+        <tbody>
+          <tr><td><a href="SMR-developers.html#gehitachi">GE-Hitachi BWRX-300</a> <span class="mini-cc">BWR</span></td><td><span class="ff ff-leu">UO₂ &lt;5% LEU</span></td><td>기존 LEU</td><td>UO₂ 펠릿(성숙)</td><td><b style="color:var(--accent-strong)">성숙</b></td></tr>
+          <tr><td><a href="SMR-developers.html#nuscale">NuScale</a> · <a href="SMR-developers.html#holtec">Holtec</a> · <a href="SMR-developers.html#rollsroyce">Rolls-Royce</a> <span class="mini-cc">PWR</span></td><td><span class="ff ff-leu">UO₂ &lt;5% LEU</span></td><td>기존 LEU</td><td>UO₂ 펠릿(성숙)</td><td><b style="color:var(--accent-strong)">성숙</b></td></tr>
+          <tr><td><a href="SMR-developers.html#terrapower">TerraPower Natrium</a> <span class="mini-cc">SFR</span></td><td><span class="ff ff-haleu">HALEU 금속연료</span></td><td>HALEU 필요</td><td>금속연료 성형</td><td>신규(HALEU)</td></tr>
+          <tr><td><a href="SMR-developers.html#oklo">Oklo Aurora</a> <span class="mini-cc">SFR</span></td><td><span class="ff ff-haleu">HALEU 금속연료</span></td><td>HALEU 필요</td><td>금속연료(INL 계열)</td><td>신규(HALEU)</td></tr>
+          <tr><td><a href="SMR-developers.html#xenergy">X-energy Xe-100</a> <span class="mini-cc">HTGR</span></td><td><span class="ff ff-triso">TRISO 페블</span></td><td>HALEU ~15.5%</td><td><b>TRISO-X</b>(TX-1)</td><td>신규(HALEU+TRISO)</td></tr>
+          <tr><td><a href="SMR-developers.html#kairos">Kairos Hermes</a> <span class="mini-cc">FHR</span></td><td><span class="ff ff-triso">TRISO(고체)</span></td><td>HALEU 필요</td><td><b>BWXT</b> 협력</td><td>신규(HALEU+TRISO)</td></tr>
+          <tr><td><a href="SMR-developers.html#westinghouse">Westinghouse eVinci</a> <span class="mini-cc">마이크로</span></td><td><span class="ff ff-triso">TRISO/HALEU</span></td><td>HALEU 필요</td><td>TRISO 계열</td><td>신규(HALEU)</td></tr>
+          <tr><td><a href="SMR-developers.html#seaborg">Seaborg CMSR</a> <span class="mini-cc">MSR</span></td><td><span class="ff ff-leu">용융염 용해연료(LEU)</span></td><td>LEU로 전환*</td><td>염 용해(개발 중)</td><td>초기 R&amp;D</td></tr>
+          <tr><td><a href="SMR-developers.html#smart">SMART100</a> · <a href="SMR-developers.html#ismr">i-SMR</a> <span class="mini-cc">PWR·KR</span></td><td><span class="ff ff-leu">UO₂ &lt;5% LEU</span></td><td>기존 LEU</td><td><b>KEPCO NF</b>(성숙)</td><td><b style="color:var(--accent-strong)">성숙</b></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="sec-desc" style="margin-top:9px;">＊ Seaborg는 HALEU 수급 리스크로 <b>초기 연료를 LEU로 전환</b>(감속재도 흑연으로). 농축도·연료형태는 설계 변경에 따라 달라질 수 있음.</p>
+  </section>
+
+  <!-- ============ 6. 한국 관점 ============ -->
+  <section class="sec" id="korea">
+    <h2 class="sec-title"><span class="no">6</span>한국 관점 — 농축 못 하는 나라의 연료 전략</h2>
+    <div class="kbox">
+      <h3>핵심 — 한국은 우라늄 농축을 못 한다</h3>
+      <ul>
+        <li><b>한·미 원자력협정(123 Agreement)</b>상 한국의 <b>농축·재처리(ENR)는 제약</b> — 국내 상업 농축 불가. HALEU는 <b>전량 해외(미국 등) 의존</b> 구조.</li>
+        <li><b>경수로형 한국 SMR</b>(<a href="SMR-developers.html#smart">SMART100</a>·<a href="SMR-developers.html#ismr">i-SMR</a>)은 <b>&lt;5% LEU</b>를 쓰므로 <b><abbr title="한전원자력연료">KEPCO NF</abbr>의 기존 성형 공급망으로 충분</b> — 연료 병목이 적다. 이게 LWR 노선의 숨은 장점.</li>
+        <li><b>비경수로 노출은 글로벌 파트너십을 통해</b> 들어온다 — <a href="SMR-korea-players.html">두산·DL E&amp;C가 참여하는 X-energy(Xe-100)</a>는 <b>TRISO-X의 HALEU·TRISO에 의존</b>. 즉 한국 기업의 비경수로 사업은 <b>미국 HALEU 공급망의 일정·정책에 연동</b>된다.</li>
+        <li>전략 함의: 한국은 <b>연료 자립이 아니라 “신뢰할 수 있는 공급 확보”</b>가 관건 — 미국 HALEU 램프업 속도, 면제·수출통제(<a href="SMR-reference.html">Part 810·110</a>)가 곧 사업 리스크.</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <span class="note warn" style="display:block;margin-bottom:8px;"><span class="lead">주의</span> 공급망·정책은 빠르게 변합니다 — 회의·보고 직전 DOE·NRC·개발사 공시로 재확인 권장. 농축도·연료형태는 설계 변경 가능. (2026.6 기준)</span>
+  출처:
+  <a href="https://www.powermag.com/centrus-completes-900-kg-haleu-delivery-to-doe-in-u-s-nuclear-fuel-enrichment-milestone/" target="_blank">POWER(Centrus)</a> ·
+  <a href="https://www.world-nuclear-news.org/articles/doe-selects-haleu-enrichment-providers" target="_blank">WNN(DOE 농축 선정)</a> ·
+  <a href="https://www.powermag.com/triso-x-secures-first-ever-nrc-category-ii-license-for-commercial-advanced-nuclear-fuel-fabrication/" target="_blank">POWER(TRISO-X 라이선스)</a> ·
+  <a href="https://www.energy.gov/ne/articles/russian-uranium-ban-will-speed-development-us-nuclear-fuel-supply-chain" target="_blank">DOE(러 우라늄 금지)</a> ·
+  <a href="https://world-nuclear.org/information-library/nuclear-fuel-cycle/conversion-enrichment-and-fabrication/high-assay-low-enriched-uranium-haleu" target="_blank">WNA(HALEU)</a><br>
+  <a href="SMR-reactor-types.html">노형 분류</a> · <a href="SMR-korea-players.html">한국 기업</a> · <a href="SMR-reference.html">CFR 레퍼런스</a>
+</footer>
+
+<script src="feedback.js" defer></script>
+</body>
+</html>
