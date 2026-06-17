@@ -83,6 +83,33 @@
   .notes ul{font-size:13px;color:var(--text-dim);line-height:1.65;padding-left:18px;}
   .notes a{font-weight:500;}
 
+  /* party configurator */
+  .editbar{max-width:1080px;margin:8px auto 0;padding:0 24px;display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .edit-toggle{appearance:none;background:var(--surface);border:1px solid var(--border-strong);border-radius:8px;font:inherit;
+    font-size:12.5px;font-weight:700;color:var(--accent-strong);padding:6px 14px;cursor:pointer;}
+  .edit-toggle:hover,.edit-toggle.on{background:var(--accent-weak);border-color:var(--accent-weak-2);}
+  .edit-hint{font-size:11.5px;color:var(--text-faint);}
+  .editpanel{max-width:1080px;margin:8px auto 0;padding:14px 24px 2px;}
+  .ep-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:9px;}
+  .ep-title{font-size:11.5px;font-weight:700;color:var(--text-dim);text-transform:uppercase;letter-spacing:.06em;}
+  .ep-reset{appearance:none;background:var(--surface);border:1px solid var(--border-strong);border-radius:7px;font:inherit;
+    font-size:12px;font-weight:600;color:var(--accent-strong);padding:4px 13px;cursor:pointer;}
+  .ep-reset:hover{background:var(--accent-weak);}
+  .ep-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:10px 16px;}
+  .ep-row{display:flex;flex-direction:column;gap:6px;background:var(--surface-2);border:1px solid var(--border);
+    border-radius:10px;padding:9px 11px 10px;}
+  .ep-label{font-size:11.5px;font-weight:700;color:var(--text-dim);}
+  .ep-label .ep-tag{font-size:9.5px;font-weight:600;color:var(--accent-strong);background:var(--accent-weak);
+    border-radius:10px;padding:1px 7px;margin-left:6px;letter-spacing:.02em;vertical-align:middle;}
+  .ep-select{appearance:none;background:var(--surface);border:1px solid var(--border-strong);border-radius:7px;font:inherit;
+    font-size:13px;color:var(--text);padding:6px 9px;cursor:pointer;width:100%;}
+  .ep-custom{display:flex;gap:6px;}
+  .ep-custom[hidden]{display:none;}
+  .ep-custom input{min-width:0;background:var(--surface);border:1px solid var(--accent-weak-2);border-radius:7px;font:inherit;
+    font-size:12.5px;color:var(--text);padding:6px 8px;}
+  .ep-in-name{flex:0 0 44%;}
+  .ep-in-sub{flex:1;}
+
   /* language switching */
   [data-lang="en"] .only-ko{display:none;}
   [data-lang="ko"] .only-en{display:none;}
@@ -143,6 +170,19 @@
   <button class="bp-reset" id="showAll" data-ko="전체 표시" data-en="Show all">전체 표시</button>
 </div>
 
+<!-- party configurator: pick each party from a list or type your own -->
+<div class="editbar">
+  <button id="editToggle" class="edit-toggle" data-ko="✎ 구성 당사자 편집" data-en="✎ Configure parties">✎ 구성 당사자 편집</button>
+  <span class="edit-hint" data-ko="기술선·EPC·연료 등 당사자를 목록에서 고르거나 직접 입력하세요." data-en="Pick each party (technology, EPC, fuel…) from a list, or type your own.">기술선·EPC·연료 등 당사자를 목록에서 고르거나 직접 입력하세요.</span>
+</div>
+<div class="editpanel" id="editPanel" hidden>
+  <div class="ep-head">
+    <span class="ep-title" data-ko="구성 당사자" data-en="Parties">구성 당사자</span>
+    <button class="ep-reset" id="cfgReset" data-ko="기본값 복원" data-en="Restore defaults">기본값 복원</button>
+  </div>
+  <div class="ep-grid" id="epGrid"></div>
+</div>
+
 <!-- ============================================================
   인도네시아 SMR 사업 구조도 (org/structure chart)
   - 좌: Financial partners / 중: 소유 체인 + NEPIO / 우: Operating partners
@@ -185,25 +225,25 @@
   <g class="node" data-box="offtaker">
     <path class="lnG" d="M270,150 H327 V300 H385" marker-end="url(#arG)"/>
     <rect class="bx" x="40" y="120" width="230" height="60" rx="9"/>
-    <text class="wm" x="155" y="146" font-size="18" text-anchor="middle">PLN</text>
+    <text class="wm" id="n-offtaker" x="155" y="146" font-size="18" text-anchor="middle">PLN</text>
     <text class="role" x="155" y="166" font-size="11" text-anchor="middle" data-ko="구매자 · Off-taker" data-en="Off-taker">구매자 · Off-taker</text>
-    <text class="ann" x="155" y="196" font-size="10.5" text-anchor="middle" data-ko="장기 전력판매계약(PPA)" data-en="Long-term PPA (power purchase)">장기 전력판매계약(PPA)</text>
+    <text class="ann" id="s-offtaker" x="155" y="196" font-size="10.5" text-anchor="middle" data-ko="장기 전력판매계약(PPA)" data-en="Long-term PPA (power purchase)">장기 전력판매계약(PPA)</text>
   </g>
 
   <g class="node" data-box="grant">
     <path class="lnG" d="M270,300 H385" marker-end="url(#arG)"/>
     <rect class="bx" x="40" y="270" width="230" height="60" rx="9"/>
-    <text class="wm" x="155" y="295" font-size="15" text-anchor="middle">USTDA · US State FIRST</text>
+    <text class="wm" id="n-grant" x="155" y="295" font-size="15" text-anchor="middle">USTDA · US State FIRST</text>
     <text class="role" x="155" y="315" font-size="11" text-anchor="middle" data-ko="보조금 · Grant" data-en="Grant">보조금 · Grant</text>
-    <text class="ann" x="155" y="346" font-size="10.5" text-anchor="middle" data-ko="타당성조사·역량강화 (+ IAEA TC)" data-en="Feasibility &amp; capacity-building (+ IAEA TC)">타당성조사·역량강화 (+ IAEA TC)</text>
+    <text class="ann" id="s-grant" x="155" y="346" font-size="10.5" text-anchor="middle" data-ko="타당성조사·역량강화 (+ IAEA TC)" data-en="Feasibility &amp; capacity-building (+ IAEA TC)">타당성조사·역량강화 (+ IAEA TC)</text>
   </g>
 
   <g class="node" data-box="equity">
     <path class="lnG" d="M270,450 H327 V300 H385" marker-end="url(#arG)"/>
     <rect class="bx" x="40" y="420" width="230" height="60" rx="9"/>
-    <text class="wm" x="155" y="445" font-size="13" text-anchor="middle">DFC · EXIM · KEXIM · K-SURE</text>
+    <text class="wm" id="n-equity" x="155" y="445" font-size="13" text-anchor="middle">DFC · EXIM · KEXIM · K-SURE</text>
     <text class="role" x="155" y="464" font-size="11" text-anchor="middle" data-ko="투자·차관 · Equity/Debt" data-en="Equity / Debt">투자·차관 · Equity/Debt</text>
-    <text class="ann" x="155" y="495" font-size="10" text-anchor="middle" data-ko="US DFC=지분가능 · EXIM·KEXIM·K-SURE=부채/보증" data-en="DFC=equity-capable · EXIM/KEXIM/K-SURE=debt">US DFC=지분가능 · EXIM·KEXIM·K-SURE=부채/보증</text>
+    <text class="ann" id="s-equity" x="155" y="495" font-size="10" text-anchor="middle" data-ko="US DFC=지분가능 · EXIM·KEXIM·K-SURE=부채/보증" data-en="DFC=equity-capable · EXIM/KEXIM/K-SURE=debt">US DFC=지분가능 · EXIM·KEXIM·K-SURE=부채/보증</text>
   </g>
 
   <!-- ===== MIDDLE — ownership chain (annotation masks the connector cleanly) ===== -->
@@ -212,7 +252,7 @@
     <rect x="390" y="186" width="220" height="15" fill="#f7f8fa"/>
     <text class="ann" x="500" y="196" font-size="10.5" text-anchor="middle" data-ko="지분 100% · PT PLN(Persero) 발전 자회사" data-en="100% equity · subsidiary of PT PLN (Persero)">지분 100% · PT PLN(Persero) 발전 자회사</text>
     <rect class="bx" x="385" y="120" width="230" height="60" rx="9"/>
-    <text class="wm2" x="500" y="146" font-size="15.5" text-anchor="middle">PLN Indonesia Power</text>
+    <text class="wm2" id="n-owner" x="500" y="146" font-size="15.5" text-anchor="middle">PLN Indonesia Power</text>
     <text class="role" x="500" y="166" font-size="11" text-anchor="middle" data-ko="사업주 · Owner" data-en="Owner">사업주 · Owner</text>
   </g>
 
@@ -234,33 +274,33 @@
   <g class="node" data-box="tech">
     <path class="lnA" d="M615,300 H672 V150 H730" marker-end="url(#arA)"/>
     <rect class="bx" x="730" y="120" width="230" height="60" rx="9"/>
-    <text class="wm" x="845" y="146" font-size="18" text-anchor="middle" letter-spacing="1">X·ENERGY</text>
+    <text class="wm" id="n-tech" x="845" y="146" font-size="18" text-anchor="middle" letter-spacing="1">X·ENERGY</text>
     <text class="role" x="845" y="166" font-size="11" text-anchor="middle" data-ko="기술 공급 · Technology" data-en="Technology">기술 공급 · Technology</text>
-    <text class="ann" x="845" y="196" font-size="10.5" text-anchor="middle">Xe-100 · HTGR · 80MWe</text>
+    <text class="ann" id="s-tech" x="845" y="196" font-size="10.5" text-anchor="middle" data-ko="Xe-100 · HTGR · 80MWe" data-en="Xe-100 · HTGR · 80MWe">Xe-100 · HTGR · 80MWe</text>
   </g>
 
   <g class="node" data-box="fuel">
     <path class="lnA" d="M615,300 H672 V250 H730" marker-end="url(#arA)"/>
     <rect class="bx" x="730" y="220" width="230" height="60" rx="9"/>
-    <text class="wm" x="845" y="246" font-size="17" text-anchor="middle" letter-spacing="1">TRISO·X</text>
+    <text class="wm" id="n-fuel" x="845" y="246" font-size="17" text-anchor="middle" letter-spacing="1">TRISO·X</text>
     <text class="role" x="845" y="266" font-size="11" text-anchor="middle" data-ko="핵연료 · Fuel" data-en="Fuel">핵연료 · Fuel</text>
-    <text class="ann" x="845" y="296" font-size="10.5" text-anchor="middle" data-ko="TRISO · HALEU (X-energy 자회사)" data-en="TRISO · HALEU (X-energy subsidiary)">TRISO · HALEU (X-energy 자회사)</text>
+    <text class="ann" id="s-fuel" x="845" y="296" font-size="10.5" text-anchor="middle" data-ko="TRISO · HALEU (X-energy 자회사)" data-en="TRISO · HALEU (X-energy subsidiary)">TRISO · HALEU (X-energy 자회사)</text>
   </g>
 
   <g class="node" data-box="operator">
     <path class="lnA" d="M615,300 H672 V350 H730" marker-end="url(#arA)"/>
     <rect class="bx" x="730" y="320" width="230" height="60" rx="9"/>
-    <text class="wm" x="845" y="345" font-size="15" text-anchor="middle">PLN Indonesia Power</text>
+    <text class="wm" id="n-operator" x="845" y="345" font-size="15" text-anchor="middle">PLN Indonesia Power</text>
     <text class="role" x="845" y="365" font-size="11" text-anchor="middle" data-ko="운영사 · O&amp;M" data-en="Operator / O&amp;M">운영사 · O&amp;M</text>
-    <text class="ann" x="845" y="395" font-size="10.5" text-anchor="middle" data-ko="X-energy 운영·기술지원 (전용 OpCo 가능)" data-en="X-energy O&amp;M support (OpCo possible)">X-energy 운영·기술지원 (전용 OpCo 가능)</text>
+    <text class="ann" id="s-operator" x="845" y="395" font-size="10.5" text-anchor="middle" data-ko="X-energy 운영·기술지원 (전용 OpCo 가능)" data-en="X-energy O&amp;M support (OpCo possible)">X-energy 운영·기술지원 (전용 OpCo 가능)</text>
   </g>
 
   <g class="node" data-box="epc">
     <path class="lnA" d="M615,300 H672 V450 H730" marker-end="url(#arA)"/>
     <rect class="bx" x="730" y="420" width="230" height="60" rx="9"/>
-    <text x="845" y="445" font-size="15" text-anchor="middle" style="font-family:Pretendard,system-ui,sans-serif;font-weight:700;fill:#1a2230"><tspan>DL E&amp;C</tspan><tspan style="fill:#8b93a2;font-weight:600"> + </tspan><tspan style="fill:#0072ce">Doosan</tspan><tspan style="fill:#8b93a2;font-weight:600"> + Local</tspan></text>
+    <text id="n-epc" x="845" y="445" font-size="15" text-anchor="middle" style="font-family:Pretendard,system-ui,sans-serif;font-weight:700;fill:#1a2230"><tspan>DL E&amp;C</tspan><tspan style="fill:#8b93a2;font-weight:600"> + </tspan><tspan style="fill:#0072ce">Doosan</tspan><tspan style="fill:#8b93a2;font-weight:600"> + Local</tspan></text>
     <text class="role" x="845" y="464" font-size="11" text-anchor="middle" data-ko="설계·조달·시공 · EPC" data-en="EPC">설계·조달·시공 · EPC</text>
-    <text class="ann" x="845" y="495" font-size="10" text-anchor="middle" data-ko="DL E&amp;C=설계·구매·CM · Doosan=주기기 · 현지 파트너=시공" data-en="DL E&amp;C=E·P·CM · Doosan=main equipment · local=construction">DL E&amp;C=설계·구매·CM · Doosan=주기기 · 현지 파트너=시공</text>
+    <text class="ann" id="s-epc" x="845" y="495" font-size="10" text-anchor="middle" data-ko="DL E&amp;C=설계·구매·CM · Doosan=주기기 · 현지 파트너=시공" data-en="DL E&amp;C=E·P·CM · Doosan=main equipment · local=construction">DL E&amp;C=설계·구매·CM · Doosan=주기기 · 현지 파트너=시공</text>
   </g>
 </svg>
 </div>
@@ -365,6 +405,7 @@
   }
 
   function setLang(lang){
+    curLang = lang;
     document.body.setAttribute('data-lang', lang);
     document.documentElement.setAttribute('lang', lang);
     document.querySelectorAll('[data-ko]').forEach(function(el){
@@ -376,6 +417,9 @@
       b.classList.toggle('active', b.getAttribute('data-lang')===lang);
     });
     renderCountryNote(lang);
+    setEditorLang(lang);
+    // re-apply any custom party edits (keeps custom names + picks correct sub-label language)
+    Object.keys(touched).forEach(function(k){ if(touched[k]) applyBox(k); });
   }
   document.querySelectorAll('.langbtn').forEach(function(b){
     b.addEventListener('click', function(){ setLang(b.getAttribute('data-lang')); });
@@ -401,6 +445,166 @@
   });
   document.getElementById('showAll').addEventListener('click', function(){
     document.querySelectorAll('.boxtoggle').forEach(function(cb){ cb.checked = true; toggleBox(cb.value, true); });
+  });
+
+  // ===== party configurator =====
+  // Each party box can be set from a preset list or via free text ("type your own").
+  // The Indonesia values are the first option of each list = the default first screen.
+  var curLang = 'ko';
+  var PARTIES = [
+    {key:'offtaker', ko:'구매자 (Off-taker)', en:'Off-taker', opts:[
+      {name:'PLN', sub_ko:'장기 전력판매계약(PPA)', sub_en:'Long-term PPA (power purchase)'},
+      {name:'TNB · Malaysia', sub_ko:'장기 전력판매계약(PPA)', sub_en:'Long-term PPA'},
+      {name:'Meralco · Philippines', sub_ko:'장기 전력판매계약(PPA)', sub_en:'Long-term PPA'},
+      {name:'EVN · Vietnam', sub_ko:'장기 전력판매계약(PPA)', sub_en:'Long-term PPA'}
+    ]},
+    {key:'grant', ko:'보조금 (Grant)', en:'Grant', opts:[
+      {name:'USTDA · US State FIRST', sub_ko:'타당성조사·역량강화 (+ IAEA TC)', sub_en:'Feasibility & capacity-building (+ IAEA TC)'},
+      {name:'IAEA TC', sub_ko:'기술협력·역량강화', sub_en:'Technical cooperation & capacity-building'},
+      {name:'EU / Euratom', sub_ko:'협력·역량강화 프로그램', sub_en:'Cooperation & capacity-building'}
+    ]},
+    {key:'equity', ko:'투자·차관 (Equity/Debt)', en:'Equity / Debt', opts:[
+      {name:'DFC · EXIM · KEXIM · K-SURE', sub_ko:'US DFC=지분가능 · EXIM·KEXIM·K-SURE=부채/보증', sub_en:'DFC=equity-capable · EXIM/KEXIM/K-SURE=debt'},
+      {name:'US DFC · US EXIM', sub_ko:'DFC=지분·정치위험보험 · EXIM=차관/보증', sub_en:'DFC=equity & PRI · EXIM=loans/guarantees'},
+      {name:'KEXIM · K-SURE', sub_ko:'한국 ECA 금융 (부채/보증)', sub_en:'Korean ECA finance (debt/guarantee)'},
+      {name:'JBIC · NEXI', sub_ko:'일본 ECA 금융 (부채/보증)', sub_en:'Japanese ECA finance (debt/guarantee)'}
+    ]},
+    {key:'owner', ko:'사업주 (Owner)', en:'Owner', opts:[
+      {name:'PLN Indonesia Power', sub_ko:null, sub_en:null},
+      {name:'PLN Nusantara Power', sub_ko:null, sub_en:null}
+    ]},
+    {key:'tech', ko:'기술 공급 (Technology)', en:'Technology', opts:[
+      {name:'X·ENERGY', sub_ko:'Xe-100 · HTGR · 80MWe', sub_en:'Xe-100 · HTGR · 80MWe'},
+      {name:'NuScale', sub_ko:'VOYGR · 경수로(PWR) · 77MWe', sub_en:'VOYGR · PWR · 77MWe'},
+      {name:'GE Hitachi', sub_ko:'BWRX-300 · 비등경수로 · 300MWe', sub_en:'BWRX-300 · BWR · 300MWe'},
+      {name:'Rolls-Royce SMR', sub_ko:'PWR · 470MWe', sub_en:'PWR · 470MWe'},
+      {name:'Holtec', sub_ko:'SMR-300 · PWR · 300MWe', sub_en:'SMR-300 · PWR · 300MWe'},
+      {name:'TerraPower', sub_ko:'Natrium · 소듐냉각고속로 · 345MWe', sub_en:'Natrium · SFR · 345MWe'},
+      {name:'Westinghouse', sub_ko:'AP300 · PWR · 300MWe', sub_en:'AP300 · PWR · 300MWe'},
+      {name:'KAERI', sub_ko:'i-SMR · PWR · 170MWe', sub_en:'i-SMR · PWR · 170MWe'}
+    ]},
+    {key:'fuel', ko:'핵연료 (Fuel)', en:'Fuel', opts:[
+      {name:'TRISO·X', sub_ko:'TRISO · HALEU (X-energy 자회사)', sub_en:'TRISO · HALEU (X-energy subsidiary)'},
+      {name:'Centrus', sub_ko:'HALEU 농축 (美)', sub_en:'HALEU enrichment (US)'},
+      {name:'Urenco', sub_ko:'농축 우라늄', sub_en:'Uranium enrichment'},
+      {name:'Orano', sub_ko:'연료주기 서비스', sub_en:'Fuel-cycle services'}
+    ]},
+    {key:'operator', ko:'운영사 (Operator · O&M)', en:'Operator (O&M)', opts:[
+      {name:'PLN Indonesia Power', sub_ko:'X-energy 운영·기술지원 (전용 OpCo 가능)', sub_en:'X-energy O&M support (OpCo possible)'},
+      {name:'전용 OpCo / Dedicated OpCo', sub_ko:'기술공급사 운영·기술지원', sub_en:'Vendor O&M / technical support'}
+    ]},
+    {key:'epc', ko:'설계·시공 (EPC)', en:'EPC', opts:[
+      {name:'DL E&C + Doosan + Local', sub_ko:'DL E&C=설계·구매·CM · Doosan=주기기 · 현지=시공', sub_en:'DL E&C=E·P·CM · Doosan=main equipment · local=construction'},
+      {name:'Hyundai E&C', sub_ko:'설계·구매·시공 (EPC)', sub_en:'Engineering, procurement & construction'},
+      {name:'Samsung C&T', sub_ko:'설계·구매·시공 (EPC)', sub_en:'Engineering, procurement & construction'},
+      {name:'GS E&C', sub_ko:'설계·구매·시공 (EPC)', sub_en:'Engineering, procurement & construction'},
+      {name:'Fluor', sub_ko:'설계·구매·시공 (EPC)', sub_en:'Engineering, procurement & construction'},
+      {name:'Bechtel', sub_ko:'설계·구매·시공 (EPC)', sub_en:'Engineering, procurement & construction'}
+    ]}
+  ];
+
+  var cfg = {}, DEFAULTS = {}, touched = {};
+
+  // shrink SVG text to fit inside its box (handles long custom names)
+  function fitText(el, max){
+    if(!el) return;
+    var base = el.getAttribute('data-fs');
+    if(base == null){ base = el.getAttribute('font-size') || '14'; el.setAttribute('data-fs', base); }
+    base = parseFloat(base);
+    el.setAttribute('font-size', base);
+    var len;
+    try { len = el.getComputedTextLength(); } catch(e){ return; }
+    if(len > max) el.setAttribute('font-size', (base * max / len).toFixed(1));
+  }
+
+  function applyBox(key){
+    var c = cfg[key];
+    var nEl = document.getElementById('n-'+key);
+    if(nEl){ nEl.textContent = c.name; fitText(nEl, 212); }
+    var sEl = document.getElementById('s-'+key);
+    if(sEl && c.sub_ko != null){
+      sEl.setAttribute('data-ko', c.sub_ko);
+      sEl.setAttribute('data-en', c.sub_en);
+      sEl.textContent = (curLang === 'en') ? c.sub_en : c.sub_ko;
+      fitText(sEl, 226);
+    }
+    touched[key] = true;
+  }
+
+  function setEditorLang(lang){
+    document.querySelectorAll('.ep-custom-opt').forEach(function(o){
+      o.textContent = (lang === 'en') ? '✎ Type your own…' : '✎ 직접 입력…';
+    });
+    document.querySelectorAll('.ep-in-name').forEach(function(i){ i.placeholder = (lang === 'en') ? 'Name' : '이름'; });
+    document.querySelectorAll('.ep-in-sub').forEach(function(i){ i.placeholder = (lang === 'en') ? 'Sub-label (optional)' : '부가 설명 (선택)'; });
+  }
+
+  var grid = document.getElementById('epGrid');
+  PARTIES.forEach(function(p){
+    var d = p.opts[0];
+    cfg[p.key] = {name:d.name, sub_ko:d.sub_ko, sub_en:d.sub_en};
+    DEFAULTS[p.key] = {name:d.name, sub_ko:d.sub_ko, sub_en:d.sub_en};
+
+    var row = document.createElement('div'); row.className = 'ep-row';
+    var lab = document.createElement('label'); lab.className = 'ep-label';
+    lab.setAttribute('data-ko', p.ko); lab.setAttribute('data-en', p.en); lab.textContent = p.ko;
+    row.appendChild(lab);
+
+    var sel = document.createElement('select'); sel.className = 'ep-select';
+    p.opts.forEach(function(o, i){
+      var op = document.createElement('option'); op.value = String(i); op.textContent = o.name; sel.appendChild(op);
+    });
+    var cu = document.createElement('option'); cu.value = '__custom'; cu.className = 'ep-custom-opt'; cu.textContent = '✎ 직접 입력…';
+    sel.appendChild(cu);
+    row.appendChild(sel);
+
+    var custom = document.createElement('div'); custom.className = 'ep-custom'; custom.hidden = true;
+    var inName = document.createElement('input'); inName.className = 'ep-in-name'; inName.type = 'text'; inName.placeholder = '이름';
+    var inSub = document.createElement('input'); inSub.className = 'ep-in-sub'; inSub.type = 'text'; inSub.placeholder = '부가 설명 (선택)';
+    custom.appendChild(inName);
+    if(d.sub_ko != null) custom.appendChild(inSub);
+    row.appendChild(custom);
+    grid.appendChild(row);
+
+    p._sel = sel; p._custom = custom; p._inName = inName; p._inSub = inSub;
+
+    function applyFromInputs(){
+      cfg[p.key].name = inName.value || ' ';
+      if(DEFAULTS[p.key].sub_ko != null){ cfg[p.key].sub_ko = inSub.value; cfg[p.key].sub_en = inSub.value; }
+      applyBox(p.key);
+    }
+    inName.addEventListener('input', applyFromInputs);
+    inSub.addEventListener('input', applyFromInputs);
+
+    sel.addEventListener('change', function(){
+      if(sel.value === '__custom'){
+        custom.hidden = false;
+        inName.value = cfg[p.key].name;
+        inSub.value = (DEFAULTS[p.key].sub_ko != null) ? ((curLang === 'en') ? cfg[p.key].sub_en : cfg[p.key].sub_ko) : '';
+        applyFromInputs();
+        inName.focus(); inName.select();
+      } else {
+        custom.hidden = true;
+        var o = p.opts[parseInt(sel.value, 10)];
+        cfg[p.key] = {name:o.name, sub_ko:o.sub_ko, sub_en:o.sub_en};
+        applyBox(p.key);
+      }
+    });
+  });
+
+  document.getElementById('cfgReset').addEventListener('click', function(){
+    PARTIES.forEach(function(p){
+      cfg[p.key] = {name:DEFAULTS[p.key].name, sub_ko:DEFAULTS[p.key].sub_ko, sub_en:DEFAULTS[p.key].sub_en};
+      p._sel.value = '0'; p._custom.hidden = true;
+      applyBox(p.key);
+    });
+  });
+
+  var editPanel = document.getElementById('editPanel');
+  document.getElementById('editToggle').addEventListener('click', function(){
+    var open = editPanel.hasAttribute('hidden');
+    if(open) editPanel.removeAttribute('hidden'); else editPanel.setAttribute('hidden', '');
+    this.classList.toggle('on', open);
   });
 
   setLang('ko');
