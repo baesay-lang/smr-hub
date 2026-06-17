@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SMR 개발 연표 — 마일스톤 타임라인</title>
-<meta name="description" content="주요 SMR 프로젝트의 인허가·건설·가동 마일스톤을 2022–2031 시간축 한 장으로. 개발사별 주요 프로젝트(최대 2개)를 분리, 노형 체크박스로 원하는 노형만, 과거(실선·완료) vs 목표(점선·예정)를 한눈에.">
+<meta name="description" content="주요 SMR 프로젝트의 인허가·건설·가동 마일스톤을 2022–2031 시간축 한 장으로. 개발사별 주요 프로젝트(최대 2개)를 분리, 개발사 체크박스로 원하는 개발사만, 과거(실선·완료) vs 목표(점선·예정)를 한눈에.">
 <link rel="canonical" href="https://baesay-lang.github.io/smr-hub/SMR-timeline.html">
 <meta name="theme-color" content="#2563eb">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
@@ -13,14 +13,14 @@
 <meta property="og:site_name" content="SMR HUB">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:title" content="SMR 개발 연표 · SMR HUB">
-<meta property="og:description" content="주요 SMR 프로젝트의 인허가·건설·가동 마일스톤을 2022–2031 시간축으로 — 노형 필터, 완료 vs 목표를 한눈에.">
+<meta property="og:description" content="주요 SMR 프로젝트의 인허가·건설·가동 마일스톤을 2022–2031 시간축으로 — 개발사 필터, 완료 vs 목표를 한눈에.">
 <meta property="og:url" content="https://baesay-lang.github.io/smr-hub/SMR-timeline.html">
 <meta property="og:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="SMR 개발 연표 · SMR HUB">
-<meta name="twitter:description" content="주요 SMR 프로젝트 마일스톤을 2022–2031 시간축으로 — 노형 필터, 완료 vs 목표.">
+<meta name="twitter:description" content="주요 SMR 프로젝트 마일스톤을 2022–2031 시간축으로 — 개발사 필터, 완료 vs 목표.">
 <meta name="twitter:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
 <link rel="stylesheet" href="styles.css?v=3">
 <script>(function(){try{var t=localStorage.getItem('smrhub-theme');if(t==='dark'||(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();</script>
@@ -105,7 +105,7 @@
 <header class="page">
   <div class="kicker">Development Timeline</div>
   <h1>SMR 개발 연표 — 프로젝트별 마일스톤</h1>
-  <p class="subtitle"><b>프로젝트 단위</b>로 인허가·건설·가동 마일스톤을 한 시간축 위에 (개발사당 주요 2개까지 분리·좌측 묶음선으로 그룹). <b>노형 체크박스로 원하는 노형만</b> 골라 볼 수 있습니다. <b>실선·채운 점=완료</b>, <b>점선·빈 점=목표·예정</b>. 점/레인 클릭 시 <a href="SMR-developers.html">개발사 상세</a>로 이동. (2026.6 기준)</p>
+  <p class="subtitle"><b>프로젝트 단위</b>로 인허가·건설·가동 마일스톤을 한 시간축 위에 (개발사당 주요 2개까지 분리·좌측 묶음선으로 그룹). <b>개발사 체크박스로 원하는 개발사만</b> 골라 볼 수 있습니다. <b>실선·채운 점=완료</b>, <b>점선·빈 점=목표·예정</b>. 점/레인 클릭 시 <a href="SMR-developers.html">개발사 상세</a>로 이동. (2026.6 기준)</p>
 </header>
 
 <div class="tl-controls">
@@ -120,17 +120,11 @@
   <span class="result-count" id="count"></span>
 </div>
 
-<div class="tl-types" id="typePanel">
-  <span class="lbl">노형</span>
-  <label><input type="checkbox" class="typebox" value="PWR" checked> PWR</label>
-  <label><input type="checkbox" class="typebox" value="BWR" checked> BWR</label>
-  <label><input type="checkbox" class="typebox" value="SFR" checked> SFR</label>
-  <label><input type="checkbox" class="typebox" value="HTGR" checked> HTGR</label>
-  <label><input type="checkbox" class="typebox" value="FHR" checked> FHR</label>
-  <label><input type="checkbox" class="typebox" value="MSR" checked> MSR</label>
-  <label><input type="checkbox" class="typebox" value="Micro" checked> Micro</label>
-  <button class="allbtn" id="typeAll">전체</button>
-  <button class="allbtn" id="typeNone">해제</button>
+<div class="tl-types" id="devPanel">
+  <span class="lbl">개발사</span>
+  <span id="devBoxes" style="display:contents"></span>
+  <button class="allbtn" id="devAll">전체</button>
+  <button class="allbtn" id="devNone">해제</button>
 </div>
 
 <div class="tl-wrap">
@@ -231,13 +225,14 @@
   var host=document.getElementById('tl');
   var countEl=document.getElementById('count');
   var trackF='all';
-  var TYPES=['PWR','BWR','SFR','HTGR','FHR','MSR','Micro'];
-  var typeOn={}; TYPES.forEach(function(t){ typeOn[t]=true; });
+  // unique developers, in PROJECTS order
+  var DEVLIST=[]; PROJECTS.forEach(function(p){ if(DEVLIST.indexOf(p.dev)<0) DEVLIST.push(p.dev); });
+  var devOn={}; DEVLIST.forEach(function(d){ devOn[d]=true; });
 
   function visibleList(){
     return PROJECTS.filter(function(p){
       var tr = trackF==='all' || (p.track||'').split(' ').indexOf(trackF)>=0;
-      return tr && typeOn[p.type];
+      return tr && devOn[p.dev];
     });
   }
 
@@ -347,16 +342,21 @@
       render();
     });
   });
-  // reactor-type checkboxes
-  Array.prototype.slice.call(document.querySelectorAll('.typebox')).forEach(function(cb){
-    cb.addEventListener('change', function(){ typeOn[cb.value]=cb.checked; render(); });
+  // developer checkboxes (built from DEVLIST)
+  var devBoxes=document.getElementById('devBoxes');
+  DEVLIST.forEach(function(d){
+    var lab=document.createElement('label');
+    var cb=document.createElement('input'); cb.type='checkbox'; cb.className='devbox'; cb.value=d; cb.checked=true;
+    cb.addEventListener('change', function(){ devOn[d]=cb.checked; render(); });
+    lab.appendChild(cb); lab.appendChild(document.createTextNode(' '+d));
+    devBoxes.appendChild(lab);
   });
   function setAll(on){
-    Array.prototype.slice.call(document.querySelectorAll('.typebox')).forEach(function(cb){ cb.checked=on; typeOn[cb.value]=on; });
+    Array.prototype.slice.call(document.querySelectorAll('.devbox')).forEach(function(cb){ cb.checked=on; devOn[cb.value]=on; });
     render();
   }
-  document.getElementById('typeAll').addEventListener('click', function(){ setAll(true); });
-  document.getElementById('typeNone').addEventListener('click', function(){ setAll(false); });
+  document.getElementById('devAll').addEventListener('click', function(){ setAll(true); });
+  document.getElementById('devNone').addEventListener('click', function(){ setAll(false); });
 
   render();
 })();
