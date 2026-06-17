@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>한국 기업 SMR 참여 현황 · SMR HUB</title>
+<meta name="description" content="두산에너빌리티·현대건설·DL E&C·삼성물산·GS에너지·삼성중공업·KHNP·한국전력기술 등 한국 기업이 글로벌 SMR 프로젝트에 어떤 역할(주기기·EPC·연료·투자·설계)로 참여하는지 한 장으로 정리.">
+<link rel="stylesheet" href="styles.css">
+<style>
+  .controls{position:sticky;top:46px;z-index:150;background:rgba(246,247,249,.94);backdrop-filter:blur(8px);
+    padding:13px 0;border-bottom:1px solid var(--border);}
+  .search-row{display:flex;gap:10px;flex-wrap:wrap;align-items:center;max-width:1080px;margin:0 auto;padding:0 24px;}
+  .controls .search{flex:1;min-width:220px;}
+  .filters{display:flex;gap:6px;flex-wrap:wrap;}
+
+  /* summary matrix */
+  .matrix{margin-bottom:26px;}
+  .matrix h2{font-size:13px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--text-faint);margin:0 0 10px;}
+  table.mx{width:100%;border-collapse:collapse;font-size:13px;min-width:680px;}
+  table.mx th,table.mx td{text-align:left;padding:10px 13px;border-bottom:1px solid var(--border);vertical-align:top;}
+  table.mx th{background:var(--surface-2);font-weight:700;font-size:11.5px;color:var(--text-dim);white-space:nowrap;letter-spacing:.02em;}
+  table.mx tbody tr:hover{background:var(--surface-2);}
+  table.mx .kco{font-weight:700;color:var(--text);}
+  table.mx .role-pill{font-size:11px;font-weight:700;padding:2px 8px;border-radius:4px;white-space:nowrap;}
+
+  /* role colors — single blue hue, neutral for support roles */
+  .r-mfg{background:var(--accent-weak);color:var(--accent-strong);}
+  .r-epc{background:var(--surface-3);color:var(--text-dim);}
+  .r-inv{background:var(--surface-3);color:var(--text-dim);}
+  .r-mar{background:var(--surface-3);color:var(--text-dim);}
+  .r-ops{background:var(--surface-3);color:var(--text-dim);}
+  .r-des{background:var(--surface-3);color:var(--text-dim);}
+
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:16px;}
+  .kc{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;
+    display:flex;flex-direction:column;transition:border-color .12s;box-shadow:var(--shadow);scroll-margin-top:120px;}
+  .kc:hover{border-color:var(--accent);}
+  .kc-head{padding:15px 17px 12px;border-bottom:1px solid var(--border);}
+  .kc-top{display:flex;align-items:flex-start;gap:8px;margin-bottom:5px;}
+  .kc-name{font-size:16px;font-weight:700;line-height:1.3;color:var(--text);}
+  .kc-en{font-size:11px;color:var(--text-faint);font-weight:600;display:block;margin-top:1px;}
+  .kc-role{font-size:11px;font-weight:700;padding:2px 9px;border-radius:4px;white-space:nowrap;margin-left:auto;flex:0 0 auto;}
+  .kc-lead{font-size:12.5px;color:var(--text-dim);line-height:1.5;}
+
+  .kc-body{padding:12px 17px 15px;display:flex;flex-direction:column;gap:0;}
+  .eng{padding:10px 0;border-bottom:1px dashed var(--border);}
+  .eng:last-of-type{border-bottom:none;}
+  .eng-top{display:flex;align-items:center;gap:7px;flex-wrap:wrap;margin-bottom:3px;}
+  .eng-dev{font-size:13.5px;font-weight:700;}
+  .eng-dev a{color:var(--accent-strong);}
+  .eng-dev a:hover{color:var(--accent);}
+  .eng-type{font-size:10px;font-weight:700;padding:1px 7px;border-radius:3px;background:var(--surface-2);color:var(--text-dim);border:1px solid var(--border);}
+  .eng-conf{margin-left:auto;font-size:10px;font-weight:700;padding:1px 7px;border-radius:3px;}
+  .conf-ok{background:var(--accent-weak);color:var(--accent-strong);}
+  .conf-plan{background:var(--surface-2);color:var(--text-faint);border:1px solid var(--border);}
+  .eng-desc{font-size:12.5px;color:var(--text-dim);line-height:1.5;}
+  .eng-desc b{color:var(--text);}
+
+  .kc-src{padding:9px 17px 13px;font-size:11px;color:var(--text-faint);background:var(--surface-2);border-top:1px solid var(--border);margin-top:auto;}
+  .kc-src a{color:var(--text-dim);}
+
+  .legend-conf{display:flex;gap:16px;flex-wrap:wrap;font-size:12px;color:var(--text-dim);margin:14px 0 22px;align-items:center;}
+  .legend-conf .li{display:inline-flex;align-items:center;gap:6px;}
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a class="brand" href="index.html">SMR HUB</a>
+  <a href="SMR-news.html">뉴스</a>
+  <a href="SMR-developers.html">개발사</a>
+  <a href="SMR-licensing-tracks.html">인허가 트랙</a>
+  <a href="SMR-reactor-types.html">노형 분류</a>
+  <a href="SMR-reference.html">CFR 레퍼런스</a>
+  <a href="SMR-asia-structure.html">사업 구조</a>
+  <a href="SMR-korea-players.html" class="active">한국 기업</a>
+  <a href="SMR-map.html">프로젝트 맵</a>
+</nav>
+
+<header class="page">
+  <div class="kicker">Korean Players</div>
+  <h1>한국 기업 SMR 참여 현황</h1>
+  <p class="subtitle">어느 한국 기업이 <b>어느 글로벌 SMR 프로젝트에, 무슨 역할</b>(주기기·EPC·연료·투자·설계)로 들어가 있나 — 한 장으로. 파트너(개발사) 클릭 시 <a href="SMR-developers.html">개발사 상세</a>로 이동 (2026.6 기준)</p>
+</header>
+
+<div class="controls">
+  <div class="search-row">
+    <input id="search" class="search" type="text" placeholder="검색 (예: 두산, NuScale, 주기기, Palisades, 부유식)" autocomplete="off">
+    <div class="filters" id="filters">
+      <span class="chip active" data-f="all">전체</span>
+      <span class="chip" data-f="mfg">주기기·제조</span>
+      <span class="chip" data-f="epc">EPC·건설</span>
+      <span class="chip" data-f="inv">투자·사업권</span>
+      <span class="chip" data-f="mar">조선·부유식</span>
+      <span class="chip" data-f="ops">운영·사업주</span>
+      <span class="chip" data-f="des">설계·R&D</span>
+    </div>
+    <span class="result-count" id="count"></span>
+  </div>
+</div>
+
+<main>
+  <div class="note" style="margin-bottom:18px;">
+    <span class="lead">큰 그림</span> 한국 기업은 자체 노형(<a href="SMR-developers.html#smart">SMART100</a>·<a href="SMR-developers.html#ismr">i-SMR</a>) 개발과 동시에, <b>미국·덴마크 개발사의 글로벌 SMR 공급망에 제조·EPC·투자로 깊이 참여</b>하고 있다. 특히 <b>두산에너빌리티(주기기)</b>·<b>현대건설(EPC)</b>·<b>NuScale 투자 3사(삼성물산·GS에너지·두산)</b>가 핵심 축. → 같은 글로벌 프로젝트가 여러 한국 기업과 동시에 연결된다.
+  </div>
+
+  <div class="legend-conf">
+    <span class="li"><span class="eng-conf conf-ok">확정</span> 공개 출처로 확인된 계약·협약·공급</span>
+    <span class="li"><span class="eng-conf conf-plan">계획</span> 추진·협력의향(MOU)·국내 프로젝트 계획 단계</span>
+  </div>
+
+  <!-- ===== summary matrix ===== -->
+  <div class="matrix tbl-wrap" style="padding:0;">
+    <table class="mx">
+      <thead>
+        <tr><th>한국 기업</th><th>핵심 역할</th><th>주요 글로벌 파트너 (노형)</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="kco">두산에너빌리티</td><td><span class="role-pill r-mfg">주기기·제조</span></td><td><a href="SMR-developers.html#xenergy">X-energy</a>(HTGR) · <a href="SMR-developers.html#nuscale">NuScale</a>(PWR) · <a href="SMR-developers.html#terrapower">TerraPower</a>(SFR)</td></tr>
+        <tr><td class="kco">현대건설</td><td><span class="role-pill r-epc">EPC·건설</span></td><td><a href="SMR-developers.html#holtec">Holtec SMR-300</a>(PWR)</td></tr>
+        <tr><td class="kco">DL E&amp;C</td><td><span class="role-pill r-epc">EPC·CM</span></td><td><a href="SMR-developers.html#xenergy">X-energy</a>(HTGR)</td></tr>
+        <tr><td class="kco">삼성물산</td><td><span class="role-pill r-inv">투자·개발</span></td><td><a href="SMR-developers.html#nuscale">NuScale</a>(PWR)</td></tr>
+        <tr><td class="kco">GS에너지</td><td><span class="role-pill r-inv">투자·사업권</span></td><td><a href="SMR-developers.html#nuscale">NuScale</a>(PWR)</td></tr>
+        <tr><td class="kco">삼성중공업</td><td><span class="role-pill r-mar">조선·부유식</span></td><td><a href="SMR-developers.html#seaborg">Seaborg(Saltfoss)</a>(MSR)</td></tr>
+        <tr><td class="kco">한국수력원자력(KHNP)</td><td><span class="role-pill r-ops">운영·개발</span></td><td><a href="SMR-developers.html#seaborg">Seaborg</a>(MSR) · <a href="SMR-developers.html#ismr">i-SMR</a>(PWR)</td></tr>
+        <tr><td class="kco">한국전력기술(KEPCO E&amp;C)</td><td><span class="role-pill r-des">설계</span></td><td><a href="SMR-developers.html#smart">SMART100</a> · <a href="SMR-developers.html#ismr">i-SMR</a> (PWR)</td></tr>
+        <tr><td class="kco">한국원자력연구원(KAERI)</td><td><span class="role-pill r-des">원천설계·R&amp;D</span></td><td><a href="SMR-developers.html#smart">SMART</a> · <a href="SMR-developers.html#ismr">i-SMR</a> (PWR)</td></tr>
+        <tr><td class="kco">현대엔지니어링</td><td><span class="role-pill r-des">설계·EPC</span></td><td><a href="SMR-developers.html#smart">SMART100</a> 수출(PWR)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ===== company cards ===== -->
+  <div class="grid" id="grid">
+
+    <!-- 두산에너빌리티 -->
+    <div class="kc" id="doosan" data-role="mfg" data-kw="두산 doosan enerbility 주기기 단조 모듈 rpv urpv 압력용기 창원 x-energy nuscale terrapower htgr pwr sfr 제조 entra1 tva">
+      <div class="kc-head">
+        <div class="kc-top"><span class="kc-name">두산에너빌리티<span class="kc-en">Doosan Enerbility</span></span><span class="kc-role r-mfg">주기기·제조</span></div>
+        <div class="kc-lead">한국 SMR <b>제조의 중심</b> — 글로벌 개발사 다수의 주기기·모듈 공급. 창원에 SMR 전용공장 구축.</div>
+      </div>
+      <div class="kc-body">
+        <div class="eng">
+          <div class="eng-top"><span class="eng-dev"><a href="SMR-developers.html#xenergy">X-energy</a></span><span class="eng-type">HTGR</span><span class="eng-conf conf-ok">확정</span></div>
+          <div class="eng-desc"><b>16기 예약 계약</b> + 창원 SMR 전용공장(약 8,068억원 투자, 2026.3~2031.6 / 연 20기 제작 capacity). 주기기·모듈 공급.</div>
+        </div>
+        <div class="eng">
+          <div class="eng-top"><span class="eng-dev"><a href="SMR-developers.html#nuscale">NuScale</a></span><span class="eng-type">PWR</span><span class="eng-conf conf-ok">확정</span></div>
+          <div class="eng-desc">상부 원자로압력용기(URPV) 부품 <b>공급계약(2024.12)</b>, ENTRA1·TVA향 모듈 제작 추진. 삼성물산·GS에너지와 NuScale 글로벌 MOU(2022.4).</div>
+        </div>
+        <div class="eng">
+          <div class="eng-top"><span class="eng-dev"><a href="SMR-developers.html#terrapower">TerraPower</a></span><span class="eng-type">SFR</span><span class="eng-conf conf-ok">확정</span></div>
+          <div class="eng-desc">Natrium 주기기 분야 협업.</div>
+        </div>
+      </div>
+      <div class="kc-src">출처: <a href="https://edata.ekn.kr/article/view/ekn202507140027" target="_blank">에너지경제</a> · <a href="https://www.asiae.co.kr/article/2025121718174881529" target="_blank">아시아경제</a> · <a href="https://x-energy.com/news/x-energy-doosan-enerbility-announce-16-unit-reservation-agreement-and-capacity-expansion-to-support-11-gw-pipeline/" target="_blank">X-energy</a></div>
+    </div>
+
+    <!-- 현대건설 -->
+    <div class="kc" id="hdec" data-role="epc" data-kw="현대건설 hyundai e&c hdec holtec smr-300 smr-160 palisades 미시간 epc 건설 시공 foak 10gw 영국 2차계통">
+      <div class="kc-head">
+        <div class="kc-top"><span class="kc-name">현대건설<span class="kc-en">Hyundai E&amp;C</span></span><span class="kc-role r-epc">EPC·건설</span></div>
+        <div class="kc-lead">Holtec의 <b>글로벌 EPC 전략 파트너</b> — 미국 첫 SMR-300 건설을 맡아 북미 fleet 확장.</div>
+      </div>
+      <div class="kc-body">
+        <div class="eng">
+          <div class="eng-top"><span class="eng-dev"><a href="SMR-developers.html#holtec">Holtec SMR-300</a></span><span class="eng-type">PWR</span><span class="eng-conf conf-ok">확정</span></div>
+          <div class="eng-desc"><b>Palisades(미시간) FOAK 1호기 EPC</b> — 2025말 착공·2030 상업운전 목표. 2030년대 <b>북미 10GW SMR-300 fleet</b> 전략 파트너. 영국 SMR 시장 진출도 추진.</div>
+        </div>
+        <div class="eng">
+          <div class="eng-top"><span class="eng-dev">Holtec SMR-160</span><span class="eng-type">PWR</span><span class="eng-conf conf-ok">확정</span></div>
+          <div class="eng-desc">2차계통 상세설계·시공 담당. 2021년 협력협약으로 시작된 파트너십.</div>
+        </div>
+      </div>
+      <div class="kc-src">출처: <a href="https://www.hdec.kr/kr/company/press_view.aspx?CompanyPressSeq=479" target="_blank">현대건설</a> · <a href="http://www.impacton.net/news/articleView.html?idxno=14174" target="_blank">임팩트온</a></div>
+    </div>
+
+    <!-- DL E&C -->
+    <div class="kc" id="dlenc" data-role="epc" data-kw="dl e&c 디엘이앤씨 x-energy htgr epc 설계 구매 cm 건설관리 인도네시아 공정열">
+      <div class="kc-head">
+        <div class="kc-top"><span class="kc-name">DL E&amp;C<span class="kc-en">DL E&amp;C</span></span><span class="kc-role r-epc">EPC·CM</span></div>
+        <div class="kc-lead">X-energy의 한국 EPC 파트너 — 설계·구매·건설관리(CM)를 담당.</div>
+      </div>
+      <div class="kc-body">
+        <div class="eng">
+          <div class="eng-top"><span class="eng-dev"><a href="SMR-developers.html#xenergy">X-energy</a></span><span class="eng-type">HTGR</span><span class="eng-conf conf-ok">확정</span></div>
+          <div class="eng-desc"><b>설계·구매·건설관리(CM)</b> 담당(2023~ 협력). <a href="SMR-asia-structure.html">아시아 사업 구조</a>(인니 Xe-100)에서 Doosan(주기기)·현지 시공사와 EPC 컨소시엄을 구성.</div>
+        </div>
+      </div>
+      <div class="kc-src">출처: <a href="SMR-asia-structure.html">사업 구조 페이지</a> · X-energy</div>
+    </div>
+
+    <!-- 삼성물산 -->
+    <div class="kc" id="samsungct" data-role="inv" data-kw="삼성물산 samsung c&t nuscale pwr 투자 지분 7천만달러 70 million 전략적 파트너 개발">
+      <div class="kc-head">
+        <div class="kc-top"><span class="kc-name">삼성물산<span class="kc-en">Samsung C&amp;T</span></span><span class="kc-role r-inv">투자·개발</span></div>
+        <div class="kc-lead">NuScale에 지분 투자한 전략적 파트너 — 글로벌 SMR 발전사업 공동개발.</div>
+      </div>
+      <div class="kc-body">
+        <div class="eng">
+          <div class="eng-top"><span class="eng-dev"><a href="SMR-developers.html#nuscale">NuScale</a></span><span class="eng-type">PWR</span><span class="eng-conf conf-ok">확정</span></div>
+          <div class="eng-desc">NuScale에 <b>총 7,000만 달러 투자</b>로 전략 파트너십 구축. GS에너지·두산에너빌리티와 함께 글로벌 SMR 발전소 공동개발 MOU(2022.4).</div>
+        </div>
+      </div>
+      <div class="kc-src">출처: <a href="https://www.newsis.com/view/NISX20220426_0001848194" target="_blank">뉴시스</a> · <a href="https://www.gs.co.kr/ko/news/view?bbsSq=761" target="_blank">GS</a></div>
+    </div>
+
+    <!-- GS에너지 -->
+    <div class="kc" id="gsenergy" data-role="inv" data-kw="gs에너지 gs energy nuscale pwr 투자 한반도 독점 사업권 울진 462mwe 462mw 6모듈 국내">
+      <div class="kc-head">
+        <div class="kc-top"><span class="kc-name">GS에너지<span class="kc-en">GS Energy</span></span><span class="kc-role r-inv">투자·사업권</span></div>
+        <div class="kc-lead">NuScale 투자로 <b>한반도 독점 사업권</b> 확보 — 국내 SMR 도입 추진.</div>
+      </div>
+      <div class="kc-body">
+        <div class="eng">
+          <div class="eng-top"><span class="eng-dev"><a href="SMR-developers.html#nuscale">NuScale</a></span><span class="eng-type">PWR</span><span class="eng-conf conf-ok">확정</span></div>
+          <div class="eng-desc">2021.6 NuScale 투자로 <b>한반도 독점 사업권</b> 확보. 삼성물산·두산과 글로벌 SMR 드림팀 구성.</div>
+        </div>
+        <div class="eng">
+          <div class="eng-top"><span class="eng-dev">경북 울진 SMR</span><span class="eng-type">PWR</span><span class="eng-conf conf-plan">계획</span></div>
+          <div class="eng-desc">NuScale 6모듈 <b>462MW급 국내 SMR</b> 추진(부지·일정은 계획 단계).</div>
+        </div>
+      </div>
+      <div class="kc-src">출처: <a href="https://www.gs.co.kr/ko/news/view?bbsSq=761" target="_blank">GS</a> · <a href="https://www.newsis.com/view/NISX20220426_0001848194" target="_blank">뉴시스</a></div>
+    </div>
+
+    <!-- 삼성중공업 -->
+    <div class="kc" id="samsungshi" data-role="mar" data-kw="삼성중공업 samsung heavy industries shi seaborg saltfoss cmsr msr 용융염 부유식 바지선 해상 선급 800mwe 800mw 조선">
+      <div class="kc-head">
+        <div class="kc-top"><span class="kc-name">삼성중공업<span class="kc-en">Samsung Heavy Ind.</span></span><span class="kc-role r-mar">조선·부유식</span></div>
+        <div class="kc-lead">해상 부유식 원자로의 <b>바지선·선체 건조</b> — 조선 기술을 SMR에 접목.</div>
+      </div>
+      <div class="kc-body">
+        <div class="eng">
+          <div class="eng-top"><span class="eng-dev"><a href="SMR-developers.html#seaborg">Seaborg (Saltfoss)</a></span><span class="eng-type">MSR</span><span class="eng-conf conf-ok">확정</span></div>
+          <div class="eng-desc">CMSR(용융염로) <b>부유식 Power Barge 건조</b> 협력 — 최대 800MW급 모델 개발, 선급(船級)인증 추진. KHNP와 <b>3자 컨소시엄(2023.4)</b>. 2026 건조 착수 계획(일정 변동 가능).</div>
+        </div>
+      </div>
+      <div class="kc-src">출처: <a href="https://www.electimes.com/news/articleView.html?idxno=309589" target="_blank">전기신문</a> · <a href="https://blog.samsungshi.com/840" target="_blank">삼성중공업</a></div>
+    </div>
+
+    <!-- KHNP -->
+    <div class="kc" id="khnp" data-role="ops" data-kw="한국수력원자력 khnp 한수원 seaborg msr 부유식 운영 사업주 i-smr 혁신형 개발 주관 컨소시엄">
+      <div class="kc-head">
+        <div class="kc-top"><span class="kc-name">한국수력원자력<span class="kc-en">KHNP</span></span><span class="kc-role r-ops">운영·개발</span></div>
+        <div class="kc-lead">국내 원전 운영사 — 해외 부유식 SMR 컨소시엄 + 국책 i-SMR 개발 주관.</div>
+      </div>
+      <div class="kc-body">
+        <div class="eng">
+          <div class="eng-top"><span class="eng-dev"><a href="SMR-developers.html#seaborg">Seaborg (Saltfoss)</a></span><span class="eng-type">MSR</span><span class="eng-conf conf-ok">확정</span></div>
+          <div class="eng-desc">삼성중공업·Seaborg와 <b>부유식 원자로 3자 컨소시엄(2023.4)</b> — 운영·사업화 관점 참여.</div>
+        </div>
+        <div class="eng">
+          <div class="eng-top"><span class="eng-dev"><a href="SMR-developers.html#ismr">i-SMR (혁신형)</a></span><span class="eng-type">PWR</span><span class="eng-conf conf-ok">확정</span></div>
+          <div class="eng-desc">KAERI와 함께 <b>국책 i-SMR 개발 주관</b>(~179MWe). 2028 표준설계인가, 2030년대 수출이 정부 목표.</div>
+        </div>
+      </div>
+      <div class="kc-src">출처: <a href="https://www.electimes.com/news/articleView.html?idxno=309589" target="_blank">전기신문</a> · KAERI·KHNP</div>
+    </div>
+
+    <!-- 한국전력기술 -->
+    <div class="kc" id="kepcoenc" data-role="des" data-kw="한국전력기술 kepco e&c enc smart smart100 i-smr sfr 종합설계 원자로계통설계 표준설계인가 사우디 ppe 설계">
+      <div class="kc-head">
+        <div class="kc-top"><span class="kc-name">한국전력기술<span class="kc-en">KEPCO E&amp;C</span></span><span class="kc-role r-des">설계</span></div>
+        <div class="kc-lead">한국 SMR의 <b>종합설계·원자로계통설계</b> 수행 주체.</div>
+      </div>
+      <div class="kc-body">
+        <div class="eng">
+          <div class="eng-top"><span class="eng-dev"><a href="SMR-developers.html#smart">SMART / SMART100</a></span><span class="eng-type">PWR</span><span class="eng-conf conf-ok">확정</span></div>
+          <div class="eng-desc">종합설계·원자로계통설계 수행 → <b>세계 첫 SMR 표준설계인가(2012)</b>. 한-사우디 건설전설계(PPE)로 피동형 SMART100 개발 완료.</div>
+        </div>
+        <div class="eng">
+          <div class="eng-top"><span class="eng-dev"><a href="SMR-developers.html#ismr">i-SMR</a></span><span class="eng-type">PWR</span><span class="eng-conf conf-ok">확정</span></div>
+          <div class="eng-desc">국책 i-SMR 표준설계 참여(SFR 등 차세대로 설계도 수행).</div>
+        </div>
+      </div>
+      <div class="kc-src">출처: <a href="https://www.kepco-enc.com/menu.es?mid=a10302040200" target="_blank">한국전력기술</a></div>
+    </div>
+
+    <!-- 한국원자력연구원 -->
+    <div class="kc" id="kaeri" data-role="des" data-kw="한국원자력연구원 kaeri 원천설계 r&d smart i-smr 개발 연구 혁신형">
+      <div class="kc-head">
+        <div class="kc-top"><span class="kc-name">한국원자력연구원<span class="kc-en">KAERI</span></span><span class="kc-role r-des">원천설계·R&amp;D</span></div>
+        <div class="kc-lead">한국 SMR의 <b>원천기술 개발 기관</b> — SMART의 원개발자이자 i-SMR 공동개발 주체.</div>
+      </div>
+      <div class="kc-body">
+        <div class="eng">
+          <div class="eng-top"><span class="eng-dev"><a href="SMR-developers.html#smart">SMART</a></span><span class="eng-type">PWR</span><span class="eng-conf conf-ok">확정</span></div>
+          <div class="eng-desc">SMART 원자로 <b>원개발 기관</b> — 한국 SMR의 원조.</div>
+        </div>
+        <div class="eng">
+          <div class="eng-top"><span class="eng-dev"><a href="SMR-developers.html#ismr">i-SMR</a></span><span class="eng-type">PWR</span><span class="eng-conf conf-ok">확정</span></div>
+          <div class="eng-desc">KHNP와 함께 혁신형 i-SMR <b>공동개발</b>(완전 피동안전·무붕산 등 혁신기술).</div>
+        </div>
+      </div>
+      <div class="kc-src">출처: <a href="https://kaeri.re.kr" target="_blank">KAERI</a></div>
+    </div>
+
+    <!-- 현대엔지니어링 -->
+    <div class="kc" id="hyundaieng" data-role="des" data-kw="현대엔지니어링 hyundai engineering smart smart100 사우디 수출 설계 epc 협력">
+      <div class="kc-head">
+        <div class="kc-top"><span class="kc-name">현대엔지니어링<span class="kc-en">Hyundai Engineering</span></span><span class="kc-role r-des">설계·EPC</span></div>
+        <div class="kc-lead">SMART100 해외 수출 협력 — 설계·EPC 역량으로 참여.</div>
+      </div>
+      <div class="kc-body">
+        <div class="eng">
+          <div class="eng-top"><span class="eng-dev"><a href="SMR-developers.html#smart">SMART100</a></span><span class="eng-type">PWR</span><span class="eng-conf conf-plan">계획</span></div>
+          <div class="eng-desc">SMART100 <b>사우디·캐나다 등 수출 협력</b> 추진(개발사 페이지 기준). ※ 현대<b>건설</b>(Holtec EPC)과는 별개 회사.</div>
+        </div>
+      </div>
+      <div class="kc-src">출처: <a href="SMR-developers.html#smart">개발사 — SMART</a></div>
+    </div>
+
+  </div>
+
+  <div class="no-results hidden" id="noResults">검색 결과가 없습니다.</div>
+</main>
+
+<footer>
+  <span class="note warn" style="display:block;margin-bottom:8px;"><span class="lead">주의</span> 기업 참여·계약은 빠르게 변합니다 — 회의·보고 직전 각 기업 공시·보도자료로 최신본 재확인 권장. 투자·지분 구조는 변동될 수 있음. (2026.6 기준)</span>
+  <a href="SMR-developers.html">개발사별로 보기</a> · <a href="SMR-asia-structure.html">아시아 사업 구조</a> · <a href="SMR-map.html">프로젝트 맵</a>
+</footer>
+
+<script>
+  const search=document.getElementById('search');
+  const cards=Array.from(document.querySelectorAll('.kc'));
+  const chips=Array.from(document.querySelectorAll('.chip'));
+  const countEl=document.getElementById('count');
+  const noResults=document.getElementById('noResults');
+  let fRole='all';
+
+  function clearMarks(el){el.querySelectorAll('mark').forEach(m=>m.replaceWith(document.createTextNode(m.textContent)));el.normalize();}
+  function highlight(el,term){
+    const walker=document.createTreeWalker(el,NodeFilter.SHOW_TEXT,null);const nodes=[];
+    while(walker.nextNode())nodes.push(walker.currentNode);
+    const re=new RegExp('('+term.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi');
+    nodes.forEach(node=>{if(node.parentNode.tagName==='SCRIPT')return;if(!re.test(node.textContent))return;
+      const span=document.createElement('span');span.innerHTML=node.textContent.replace(re,'<mark>$1</mark>');node.replaceWith(span);});
+  }
+
+  function apply(){
+    const term=search.value.trim().toLowerCase();
+    let visible=0;
+    cards.forEach(card=>{
+      clearMarks(card);
+      const text=(card.textContent+' '+(card.dataset.kw||'')).toLowerCase();
+      const matchText=!term||text.includes(term);
+      const matchRole=fRole==='all'||(card.dataset.role||'')===fRole;
+      const show=matchText&&matchRole;
+      card.classList.toggle('hidden',!show);
+      if(show){visible++;if(term)highlight(card,term);}
+    });
+    noResults.classList.toggle('hidden',visible>0);
+    countEl.textContent=visible+'개사';
+  }
+
+  chips.forEach(chip=>{
+    chip.addEventListener('click',()=>{
+      chips.forEach(c=>c.classList.remove('active'));
+      chip.classList.add('active');fRole=chip.dataset.f;
+      apply();
+    });
+  });
+  search.addEventListener('input',apply);
+  document.addEventListener('keydown',e=>{if(e.key==='/'&&document.activeElement!==search){e.preventDefault();search.focus();}});
+  apply();
+</script>
+<script src="feedback.js" defer></script>
+</body>
+</html>
