@@ -2,8 +2,14 @@ name: SMR news tracker
 
 on:
   schedule:
+    # GitHub frequently delays/drops cron — so fire several times per window. The script skips a
+    # redundant commit when it already updated within the last few hours (see track-news.mjs).
     - cron: '31 21 * * *'      # ~06:31 KST  (avoid :00 — GitHub drops top-of-hour crons)
+    - cron: '9 22 * * *'       # ~07:09 KST  (morning retry)
+    - cron: '49 22 * * *'      # ~07:49 KST  (morning retry)
     - cron: '31 3 * * *'       # ~12:31 KST noon
+    - cron: '9 4 * * *'        # ~13:09 KST  (noon retry)
+    - cron: '49 4 * * *'       # ~13:49 KST  (noon retry)
   workflow_dispatch:           # allow manual run from the Actions tab
     inputs:
       backfill:

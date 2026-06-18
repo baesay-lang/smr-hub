@@ -95,6 +95,13 @@ function loadExisting(){
   new Function('window', text)(g);   // executes `window.SMR_NEWS = [...]`
   return g.SMR_NEWS || [];
 }
+// ms epoch of the last SMR_UPDATED stamp (KST) — used to skip redundant retry-cron commits
+function lastUpdatedMs(){
+  try {
+    const m = fs.readFileSync(FILE,'utf8').match(/SMR_UPDATED = "(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2}) KST"/);
+    return m ? Date.UTC(+m[1], +m[2]-1, +m[3], +m[4]-9, +m[5]) : 0;   // KST → UTC
+  } catch { return 0; }
+}
 
 async function fetchCandidates(seen, seenKeys){
   const parser = new Parser({ timeout: 15000, headers: { 'User-Agent': 'smr-hub-news-tracker' } });
@@ -596,6 +603,13 @@ async function main(){
   // semantic same-story dedup of new items (vs each other + recent existing)
   let adds = toAdd;
   if (useClaude && adds.length > 1) adds = await dedupeNew(adds, existing.map(n => n.title));
+
+  // retry-cron dedup: if nothing changed AND we already updated within ~3h, skip (no redundant commit)
+  const hrsSince = (Date.now() - lastUpdatedMs()) / 3600000;
+  if (adds.length === 0 && repaired === 0 && hrsSince < 3) {
+    console.log(`no new items · updated ${hrsSince.toFixed(1)}h ago — skip (avoid redundant commit)`);
+    return;
+  }
 
   // generate AI 전문 for each new item (sets .id, writes articles/<id>.json) — concurrent so a
   // surge of new items (e.g. when a new feed is first added) doesn't make the run crawl
