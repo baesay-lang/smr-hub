@@ -287,6 +287,160 @@ window.SMR_NEWS = [
     "id": "fea260b0"
   },
   {
+    "date": "2026-06-18",
+    "title": "오클로 오로라(Aurora), 지멘스에너지(Siemens Energy) 터빈 패키지 생산 진행",
+    "summary": "오클로(Oklo)의 첫 번째 오로라 발전소(아이다호 국립연구소(INL) 소재)용 증기터빈 및 발전기 패키지가 지멘스에너지의 괴를리츠(Görlitz) 및 에르푸르트(Erfurt), 독일 시설에서 적극적으로 생산 중이다.",
+    "summaryLong": "오클로(Oklo)는 첫 번째 상용 오로라 발전소를 아이다호 국립연구소(INL)에 건설 중이며, 이를 위한 증기터빈 및 발전기 패키지 제조가 지멘스에너지(Siemens Energy)의 독일 시설(괴를리츠, 에르푸르트)에서 실행 단계에 접어들었다. 이는 업계에서 확립된 대형 터빈 플랫폼이 첫 세대 첨단로의 종래 부분에 처음 적용되는 사례로 주목된다. 양사는 이 프로젝트를 통해 첨단로의 상용화 가능성을 입증하고 있으며, 터빈 생산의 진전은 향후 건설 일정에 중요한 진척을 의미한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "POWER Magazine",
+    "url": "https://www.powermag.com/in-a-first-for-advanced-nuclear-siemens-energy-turbine-package-advances-for-oklos-aurora-inl/",
+    "k": "in a first for advanced nuclear siemens energy turbine package advances for oklo s aurora inl",
+    "id": "1bcf6cbb"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "영국 첨단원자로 섹터 진전: 롤스로이스·NNLAB·일본원자력기구 고온가스로 협력 양해각서 체결",
+    "summary": "롤스로이스(Rolls-Royce), 영국국립핵연구소(NNLAB), 일본원자력기구(JAEA)가 고온가스냉각로(HTGR) 기술 협력을 위한 양자 간 양해각서 2건을 6월 14일 체결했다.",
+    "summaryLong": "영국의 첨단원자로 부문에서 주요 진전이 있었다. 롤스로이스(Rolls-Royce), 영국국립핵연구소(NNLAB), 일본원자력기구(JAEA)는 6월 14일 소형모듈원자로(SMR) 기술, 특히 고온가스냉각로(HTGR)에 대한 협력을 목표로 하는 양자 간 양해각서 2건을 체결했다. 이 협력은 영국의 첨단로 개발 프로그램과 일본의 원자력 정책 간의 국제 협력 확대를 의미하며, 고온가스로의 상용화 가속화에 기여할 것으로 예상된다.",
+    "cat": "계약",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "UK",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-06-18/article-8134/two-steps-forward-for-uk-advanced-nuclear/",
+    "k": "two steps forward for u k advanced nuclear",
+    "id": "98139f38"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "파라곤(Paragon), 뉴스케일 소형모듈원자로 최종 설계 작업 수행",
+    "summary": "포트워스의 파라곤(Paragon)이 뉴스케일(NuScale)의 소형모듈원자로(SMR) 최종 설계를 지원하는 작업을 수행한다.",
+    "summaryLong": "포트워스 소재 엔지니어링 기업 파라곤(Paragon)이 뉴스케일(NuScale)의 소형모듈원자로(SMR) 개발 프로젝트의 최종 설계 단계를 지원하기로 했다. 이는 뉴스케일이 설계 인증 및 상용화 준비 단계에서 핵심 기술 파트너를 확보한 것을 의미하며, 뉴스케일 SMR의 미국 내 첫 상용 배치 사업 추진에 중요한 이정표가 될 것으로 보인다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "dallasinnovates.com",
+    "url": "https://dallasinnovates.com/fort-worths-paragon-to-perform-final-design-work-supporting-nuscales-small-modular-reactor/",
+    "k": "fort worth s paragon to perform final design work supporting nuscale s small modular reactor",
+    "id": "4e2893a6"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "센트러스 에너지(Centrus Energy)와 오클로(Oklo), 다년간 핵연료 공급 계약 체결",
+    "summary": "핵연료 공급업체 센트러스 에너지(Centrus Energy)와 첨단로 개발사 오클로(Oklo)가 다년간의 핵연료 공급 계약을 체결했다.",
+    "summaryLong": "미국의 고농축우라늄(HALEU) 연료 공급 업체인 센트러스 에너지(Centrus Energy)와 첨단 소형로 개발사 오클로(Oklo)가 다년간의 핵연료 공급 계약을 체결했다. 이 계약은 오클로의 첨단로 상용화를 위한 연료 공급망 확보를 의미하며, 미국 첨단 원자력 산업의 공급망 통합을 보여주는 중요한 계약이다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Oklo, Centrus Energy",
+    "region": "US",
+    "source": "mining.com",
+    "url": "https://www.mining.com/centrus-energy-oklo-sign-multi-year-nuclear-fuel-deal/",
+    "k": "centrus energy oklo sign multi year nuclear fuel deal",
+    "id": "fdb959f4"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "엘리먼틀(Elementl), 오하이오(Ohio)에 1.5GW 비등경수로(BWRX-300) SMR 플랜트 배치",
+    "summary": "롤스로이스(Rolls-Royce) 계열의 비등경수로(BWRX-300) 소형모듈원자로를 전개하는 엘리먼틀(Elementl)이 미국 오하이오에 1.5기가와트(GW) 규모의 SMR 플랜트를 배치할 예정이다.",
+    "summaryLong": "소형모듈원자로(SMR) 플랜트 배치사 엘리먼틀(Elementl)이 미국 오하이오(Ohio) 주에 1.5기가와트(GW) 규모의 비등경수로(BWRX-300) 기반 SMR 플랜트를 전개할 계획을 발표했다. 롤스로이스(Rolls-Royce)가 개발한 BWRX-300는 캐나다(CA)의 뉴비(Newbuild) 설계 표준이며, 이 프로젝트는 미국 오하이오에서 첨단 SMR 상용화의 구체적인 마일스톤을 대표한다.",
+    "cat": "기술",
+    "type": "BWR",
+    "dev": "Elementl, Rolls-Royce",
+    "region": "US",
+    "source": "energyintel.com",
+    "url": "https://www.energyintel.com/0000019e-daec-d15f-afff-fffe2a730000",
+    "k": "elementl to deploy 1 5 gw bwrx 300 smr plant in ohio",
+    "id": "4e974faa"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "오클로(Oklo), 센트러스에너지와 5기 오로라 원자로용 연료 공급 계약 체결",
+    "summary": "오클로가 센트러스에너지(Centrus Energy)와 오로라(Aurora) 소형 고속로 5기의 연료 공급 계약을 확보했다.",
+    "summaryLong": "소형모듈원자로 개발 기업 오클로가 핵연료 제조사 센트러스에너지와 오로라 소형모듈원자로 5기 운영에 필요한 연료 공급 계약을 체결했다. 이는 오클로의 소듐냉각고속로(SFR) 기술 상용화 경로에서 연료 공급망 확보라는 중요한 계약 이행을 의미한다. 양사의 협력은 미국의 첨단 원자로 생태계 구축과 연료 자립화 전략의 실질적 진전을 보여주는 사례다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/oklo-oklo-secures-centrus-fuel-190630740.html",
+    "k": "oklo oklo secures centrus fuel deal for five aurora reactors",
+    "id": "ca46ed21"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "롤스로이스(Rolls-Royce) SMR, 스웨덴에 핵시설 건설",
+    "summary": "롤스로이스(Rolls-Royce) SMR 부문이 스웨덴에 원자력 시설을 건설하기로 결정.",
+    "summaryLong": "영국의 롤스로이스(Rolls-Royce) SMR 개발 부문이 스웨덴에서 원자력 관련 시설을 건설하는 프로젝트를 추진하기로 발표했다. 이 결정은 스웨덴의 강력한 원자력 정책과 에너지 수급 필요성을 배경으로 한 것으로, 롤스로이스 SMR의 유럽 시장 진출 전략을 보여준다. 스웨덴은 재생에너지 외에도 첨단 원자력 기술 도입에 적극적인 국가로, 이 프로젝트는 유럽 내 SMR 상용화의 중요한 거점이 될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "UK",
+    "source": "enlit.world",
+    "url": "https://www.enlit.world/library/rolls-royce-smr-to-build-nuclear-facilities-in-sweden",
+    "k": "rolls royce smr to build nuclear facilities in sweden",
+    "id": "cca9261b"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "텍사스 A&M, RELLIS 캠퍼스 소형모듈원전 개발 추진",
+    "summary": "텍사스 A&M 대학이 RELLIS 캠퍼스에서 소형모듈원전(SMR) 개발을 진행하기 위해 파트너와 협력하고 있다.",
+    "summaryLong": "텍사스 A&M 대학이 RELLIS 캠퍼스에서 소형모듈원전(SMR) 개발을 진전시키기 위해 파트너 기관과의 협력을 추진하고 있다. 이 프로젝트는 캠퍼스 내 소형모듈원전(SMR) 시스템 개발 및 실증을 목표로 하며, 학계와 산업의 협력을 통해 소형모듈원전(SMR) 기술 발전을 도모하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Texas A&M",
+    "region": "US",
+    "source": "dallasinnovates.com",
+    "url": "https://dallasinnovates.com/texas-am-partners-to-advance-development-of-small-modular-nuclear-reactor-at-rellis-campus/",
+    "k": "texas a m partners to advance development of small modular nuclear reactor at rellis campus",
+    "id": "b1b50c7d"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "텍사스 A&M, 테라스트리얼 에너지에 SMR 개발용 77에이커 부지 제공",
+    "summary": "텍사스 A&M(Texas A&M) 대학이 소형모듈원자로(SMR) 개발사 테라스트리얼 에너지(Terrestrial Energy)에 77에이커 규모의 부지를 제공하기로 합의했다.",
+    "summaryLong": "미국 텍사스 A&M 대학이 캐나다 기반 SMR 개발업체 테라스트리얼 에너지(Terrestrial Energy)와 협력하여 소형모듈원자로 개발 및 실증을 위한 77에이커 규모의 부지를 제공하기로 했다. 이는 SMR 기술의 미국 내 실증 기지 확보와 산학협력 강화를 의미한다. 테라스트리얼 에너지는 용융염냉각 고급 원자로(Advanced Reactor) 개발을 추진 중이며, 대학 캠퍼스 내 dedicated 부지 확보는 규제 접근성과 R&D 환경 개선을 의도한 것으로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Terrestrial Energy",
+    "region": "US",
+    "source": "crossroadstoday.com",
+    "url": "https://www.crossroadstoday.com/news/technology/texas-a-m-grants-terrestrial-energy-77-acres-for-small-modular-reactor-development/article_946f39ff-1a82-404d-af25-bf9abe0474b2.html",
+    "k": "texas a m grants terrestrial energy 77 acres for small modular reactor development",
+    "id": "00318a3e"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "SMR 연료 개발사 스탠더드 뉴클리어, 1억 달러 규모 IPO 신청",
+    "summary": "소형모듈원자로(SMR) 전용 핵연료 개발 회사 스탠더드 뉴클리어(Standard Nuclear)가 나스닥 상장을 위해 1억 달러 규모의 IPO를 신청했다.",
+    "summaryLong": "SMR 및 첨단원자로용 핵연료 개발 전문 회사인 스탠더드 뉴클리어(Standard Nuclear)가 나스닥(Nasdaq) 상장을 목표로 약 1억 달러 규모의 신규공개(IPO) 신청서를 제출했다. 이는 SMR 산업 생태계 확장 과정에서 연료 공급 및 기술 개발 부문의 자본화를 반영한다. 스탠더드 뉴클리어는 다양한 첨단로형 개발사들의 연료 수요에 대응하기 위한 맞춤형 핵연료 개발을 추진 중이며, 이번 자금 조달은 제조 역량 확대 및 상용화 일정 단축에 활용될 것으로 예상된다.",
+    "cat": "투자",
+    "type": "General",
+    "dev": "Standard Nuclear",
+    "region": "US",
+    "source": "renaissancecapital.com",
+    "url": "https://www.renaissancecapital.com/IPO-Center/News/119952/Small-modular-reactor-fuel-developer-Standard-Nuclear-files-for-a-$100-mill",
+    "k": "stdn ipo news small modular reactor fuel developer standard nuclear files for a 100 million ipo",
+    "id": "db7b002f"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "딥 피션, 심지공 SMR 기술로 나스닥 IPO 신청",
+    "summary": "심지공(Deep-Borehole) 기반 소형모듈원자로 기술 개발사 딥 피션(Deep Fission)이 나스닥 상장을 위한 IPO를 신청했다.",
+    "summaryLong": "심지공 천공 기술 기반의 혁신형 SMR을 개발 중인 딥 피션(Deep Fission)이 나스닥(Nasdaq) 상장을 목표로 신규공개(IPO) 신청서를 제출했다. 심지공 원자로(Deep-Borehole Reactor)는 깊은 지하 천공 내에 원자로를 설치하는 기술로, 소형화·안전성·폐기물 관리 측면에서 혁신적인 설계로 평가받고 있다. 이는 미국 내 차세대 SMR 및 첨단로 개발사들의 자본시장 진출 확대 추세를 보여주며, SMR 산업의 상용화 단계 진입과 투자 확대를 의미한다.",
+    "cat": "투자",
+    "type": "General",
+    "dev": "Deep Fission",
+    "region": "US",
+    "source": "tradingview.com",
+    "url": "https://www.tradingview.com/news/tradingview:5f6dbd211adaa:0-deep-fission-deep-borehole-smr-nuclear-tech-files-for-nasdaq-ipo/",
+    "k": "deep fission deep borehole smr nuclear tech files for nasdaq ipo",
+    "id": "3ee18970"
+  },
+  {
     "date": "2026-06-17",
     "title": "태웅, 테라파워(TerraPower) 나트륨(Natrium) SMR 주기기 부품 수주",
     "summary": "국내 원전 부품 전문기업 태웅이 빌 게이츠 설립 미국 테라파워사의 4세대 소형모듈원자로(SMR) 나트륨 프로젝트에 주기기 핵심부품을 공급하는 계약을 체결했다.",
@@ -637,6 +791,34 @@ window.SMR_NEWS = [
     "id": "715bee79"
   },
   {
+    "date": "2026-06-17",
+    "title": "오클로, 스탠다드 뉴클리어(Standard Nuclear)와 플루토늄 재활용 탐색 양해각서 체결",
+    "summary": "오클로가 스탠다드 뉴클리어와 플루토늄 재활용 기술 개발을 위한 양해각서(MOU)를 체결했다.",
+    "summaryLong": "소형모듈원자로 개발사 오클로가 핵연료 및 폐기물 관리 기업 스탠다드 뉴클리어와 플루토늄 재활용 가능성을 탐색하기 위한 양해각서(MOU)를 체결했다. 이 협력은 오클로의 소듐냉각고속로(SFR)가 경험된 핵연료(spent fuel)와 플루토늄을 활용할 수 있는 기술 특성을 바탕으로 진행되는 것으로, 핵폐기물 감소 및 자원 효율성 향상을 목표로 한다. 이는 첨단 원자로 기술이 순환 핵연료 경제 구축에 기여할 수 있음을 보여준다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "ans.org",
+    "url": "https://www.ans.org/news/2026-06-17/article-8130/oklo-signs-mou-with-standard-nuclear-to-explore-plutonium-recycling/",
+    "k": "oklo signs mou with standard nuclear to explore plutonium recycling ans nuclear newswire american nuclear society ans",
+    "id": "0e049549"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "신규원전 후보지 확정, SMR은 부산 기장군 선정",
+    "summary": "제11차 전력수급기본계획에 반영된 신규 원전 부지가 최종 확정되어, 소형모듈원전(SMR) 실증로 1기(0.7GW)는 부산 기장군에 건설될 예정이다.",
+    "summaryLong": "신규원전 부지선정평가위원회는 제11차 전력수급기본계획 반영 신규원전 건설 후보부지 최종 선정 결과를 공개했다. 부산 기장군이 소형모듈원전(SMR) 실증로 1기(0.7GW) 건설 후보지로 선정되었으며, 대형원전 2기(총 2.8GW)는 경북 영덕군이 낙점됐다. 부지 평가는 부지적정성, 환경성, 건설적합성, 주민수용성 등 4개 분야를 기준으로 엄격하게 진행되었으며, 이번 선정은 국가 기저전원 확보와 미래 에너지 경쟁력 강화를 위한 중요한 전환점이 될 것으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한수원",
+    "region": "KR",
+    "source": "에너지신문 - 전체기사",
+    "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=226173",
+    "k": "신규원전 후보지 확정 주민수용성 부지적정성 이 승부 갈랐다",
+    "id": "4b1076c2"
+  },
+  {
     "date": "2026-06-16",
     "title": "일본의 뉴스케일 파워(NuScale Power) 250억 달러 투자 계획, 주가 급등",
     "summary": "일본이 미국의 뉴스케일 파워(NuScale Power)에 250억 달러를 투자하기로 하며 주가가 급등했다.",
@@ -971,6 +1153,20 @@ window.SMR_NEWS = [
     "url": "https://www.ans.org/news/2026-06-17/article-8130/oklo-signs-mou-with-standard-nuclear-to-explore-plutonium-recycling/",
     "k": "oklo signs mou with standard nuclear to explore plutonium recycling ans nuclear newswire",
     "id": "0e049549"
+  },
+  {
+    "date": "2026-06-16",
+    "title": "롤스로이스(Rolls-Royce) SMR, 스웨덴에서 원자로 건설 계약 체결",
+    "summary": "롤스로이스(Rolls-Royce) SMR이 스웨덴에서 소형모듈원자로 건설 프로젝트를 수주했다.",
+    "summaryLong": "영국의 롤스로이스(Rolls-Royce)가 개발하는 소형모듈원자로(SMR) 기술이 스웨덴에서 상용화 단계로 나아가며, 구체적인 건설 계약을 체결했다. 이는 롤스로이스 SMR의 첫 유럽 건설 프로젝트로 평가되며, 설계 단계에서 실제 건설로의 진전을 의미한다. 스웨덴의 에너지 정책 변화와 유럽의 에너지 위기 대응이 이 프로젝트를 추진하는 배경이 되었으며, 향후 유럽 내 유사 프로젝트의 모범 사례가 될 것으로 예상된다.",
+    "cat": "계약",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "EU",
+    "source": "iom3.org",
+    "url": "https://www.iom3.org/resource/rolls-royce-smr-to-build-reactors-in-sweden.html",
+    "k": "rolls royce smr to build reactors in sweden",
+    "id": "d462dea2"
   },
   {
     "date": "2026-06-15",
@@ -4951,6 +5147,20 @@ window.SMR_NEWS = [
     "id": "952a73b8"
   },
   {
+    "date": "2025-12-02",
+    "title": "미국 에너지부(DOE), 지이 버노바 소형모듈원자로 상용화에 4억 달러 펀딩 발표",
+    "summary": "미국 에너지부(DOE)가 지이 버노바(GE Vernova)의 소형모듈원자로(SMR) 상용화 가속화를 위해 4억 달러 규모의 자금을 지원한다.",
+    "summaryLong": "미국 에너지부(DOE)는 지이 버노바(GE Vernova)가 추진하는 미국 최초 상용 소형모듈원자로(SMR) 배치 사업에 4억 달러를 지원하기로 발표했다. 이는 미국 정부의 SMR 상용화 정책의 일환으로, 지이 버노바의 BWRX-300 등 차세대 원자로 개발 및 실증 프로젝트 가속화를 목표로 한다. 이 펀딩은 미국이 첨단원자력 기술 주도권을 확보하고 2030년대 상용 운영을 목표로 하는 국책 추진의 중요한 재정적 백업을 의미한다.",
+    "cat": "투자",
+    "type": "BWR",
+    "dev": "GE Vernova",
+    "region": "US",
+    "source": "gevernova.com",
+    "url": "https://www.gevernova.com/news/press-releases/us-department-energy-announces-400-million-funding-accelerate-deployment-nation-first-commercial-small-modular-nuclear-reactor",
+    "k": "u s department of energy announces 400 million in funding to accelerate deployment of the nation s first commercial small modular nuclear reactor",
+    "id": "297eb6c7"
+  },
+  {
     "date": "2025-11",
     "title": "X-energy, TRISO-X 연료 조사시험 개시 및 TX-1 착공",
     "summary": "X-energy가 아이다호국립연구소(INL) 고급시험로(ATR)에서 TRISO-X 연료 조사시험을 시작하고, 테네시 오크리지(Oak Ridge)의 TX-1 연료제조시설 건설을 착수했다.",
@@ -5256,6 +5466,20 @@ window.SMR_NEWS = [
     "url": "https://www.world-nuclear-news.org/articles/excavation-works-begin-for-uzbek-small-modular-reactor",
     "k": "excavation works begin for uzbekistan small modular reactor",
     "id": "f311f95c"
+  },
+  {
+    "date": "2025-10-07",
+    "title": "지이 버노바·히타치 핵에너지와 삼성물산, BWRX-300 배치 전략 연합 체결",
+    "summary": "지이 버노바 히타치 핵에너지(GE Vernova Hitachi Nuclear Energy)와 삼성물산(Samsung C&T)이 소형모듈원자로 BWRX-300 배치를 위한 전략 연합을 체결했다.",
+    "summaryLong": "지이 버노바 히타치 핵에너지(GE Vernova Hitachi Nuclear Energy)와 삼성물산(Samsung C&T)은 소형모듈원자로(SMR) BWRX-300의 향후 배치 추진을 위한 전략 연합을 체결했다. 이 파트너십은 BWRX-300의 기술 및 상용화 경로에 대한 삼성물산의 지원 강화를 의미하며, 한국 대형 건설·에너지 기업의 글로벌 SMR 사업 참여 확대 신호로 평가된다. 양사는 미국 및 국제 시장에서 BWRX-300의 배치 추진을 공동으로 추진할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "BWR",
+    "dev": "GE Vernova",
+    "region": "US",
+    "source": "gevernova.com",
+    "url": "https://www.gevernova.com/news/press-releases/ge-vernova-hitachi-nuclear-energy-samsung-ct-form-strategic-alliance-deployment-bwrx-300-smr",
+    "k": "ge vernova hitachi nuclear energy and samsung c t form strategic alliance to advance deployment of the bwrx 300 small modular reactor",
+    "id": "9f711f78"
   },
   {
     "date": "2025-10-05",
@@ -5594,4 +5818,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-19 01:49 KST";
+window.SMR_UPDATED = "2026-06-19 08:23 KST";
