@@ -7,6 +7,20 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-06-18",
+    "title": "부산 기장, 국내 첫 혁신형 SMR 입지 확정",
+    "summary": "부산 기장이 국내 처음으로 혁신형 소형모듈원자로(SMR) 입지로 선정되었다.",
+    "summaryLong": "부산의 기장군이 한국 최초의 혁신형 소형모듈원자로 입지로 확정되었다. 이는 한국 정부의 SMR 국산화 및 상용화 전략의 구체적 실현을 의미하며, 기장 지역의 원자력 산업 허브화를 추진하는 정부 정책의 일환이다. 국내 첫 혁신형 SMR 입지 선정은 한국의 원자력 기술력 고도화 및 지역 경제 활성화에 기여할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "",
+    "region": "KR",
+    "source": "sedaily.com",
+    "url": "https://www.sedaily.com/article/20057248",
+    "k": "부산 기장 국내 첫 혁신형 smr 품었다",
+    "id": "11df7b25"
+  },
+  {
     "date": "2026-06-17",
     "title": "태웅, 테라파워(TerraPower) 나트륨(Natrium) SMR 주기기 부품 수주",
     "summary": "국내 원전 부품 전문기업 태웅이 빌 게이츠 설립 미국 테라파워사의 4세대 소형모듈원자로(SMR) 나트륨 프로젝트에 주기기 핵심부품을 공급하는 계약을 체결했다.",
@@ -131,6 +145,76 @@ window.SMR_NEWS = [
     "url": "https://www.electimes.com/news/articleView.html?idxno=369227",
     "k": "신규 대형원전은 영덕 smr은 기장 선정 건설에 속도 2037년 준공",
     "id": "0a0458a7"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "GE 베르노바, 지속가능성 보고서 발표",
+    "summary": "GE 베르노바가 2025년 지속가능성 보고서를 발표하며 전력화 및 탄소감축 목표 진전을 강조했다.",
+    "summaryLong": "에너지 기업 GE 베르노바(GE Vernova)는 6월 17일 2025년 지속가능성 보고서를 공개했다. 보고서는 전력망에 발전 용량을 추가하면서 전기화 및 탈탄소화 목표를 달성해 나가고 있음을 강조하고 있다. 회사는 전력 발전 분야에 새로운 혁신 기술과 돌파적 기술을 가져오는 데 중점을 두고 있다. 이는 기업의 지속가능성 전략과 기후 변화 대응 노력을 보여주는 정기 보고이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "GE Vernova",
+    "region": "US",
+    "source": "POWER Magazine",
+    "url": "https://www.powermag.com/ge-vernova-highlights-more-generation-carbon-reductions-new-technologies-in-sustainability-report/",
+    "k": "ge vernova highlights more generation carbon reductions new technologies in sustainability report",
+    "id": "012d41d3"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "오클로, 스탠다드 뉴클리어와 플루토늄 재활용 협력 양해각서 체결",
+    "summary": "오클로(Oklo)가 스탠다드 뉴클리어(Standard Nuclear)와 핵연료 재활용 및 첨단 연료 제조 분야 협력을 탐색하기 위한 양해각서를 체결했다.",
+    "summaryLong": "첨단로 개발사 오클로(Oklo)는 TRISO 연료 제조사인 스탠다드 뉴클리어(Standard Nuclear)와 양해각서(MOU)를 체결했다고 발표했다. 양측의 협력은 핵연료 재활용 및 첨단 연료 제조 분야의 상용화 협력을 목표로 한다. 이는 오클로가 재활용 핵물질을 포함한 잉여 미국 플루토늄의 첫 번째 제3자 인수 경로를 확보하는 의미가 있다. 협력을 통해 폐연료 및 핵무기 비축 자산의 상업적 활용이 가능해질 전망이다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-06-17/article-8130/oklo-signs-mou-with-standard-nuclear-to-explore-plutonium-recycling/",
+    "k": "oklo signs mou with standard nuclear to explore plutonium recycling",
+    "id": "0e049549"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "파라곤, 뉴스케일 소형모듈원자로 최종 설계 작업 계약 수주",
+    "summary": "파라곤(Paragon)이 뉴스케일 파워(NuScale Power)의 소형모듈원자로(SMR) 최종 설계 작업을 지원하는 계약을 수주했다.",
+    "summaryLong": "파라곤은 뉴스케일 파워의 소형모듈원자로 개발 사업에서 최종 설계 작업을 담당하는 계약을 체결했다. 이는 뉴스케일의 소형모듈원자로 상용화 과정에서 설계 고도화 단계를 지원하는 계약으로, 파라곤의 기술 역량과 뉴스케일의 개발 일정을 반영한 것이다. 해당 계약은 뉴스케일의 주요 미국 프로젝트인 아이다호 국립연구소(INL) VOYGR 프로젝트 등의 추진에 기여할 것으로 예상된다.",
+    "cat": "계약",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "nuscalepower.com",
+    "url": "https://www.nuscalepower.com/press-releases/2026/paragon-awarded-contract-to-complete-final-design-work-supporting-nuscale-powers-small-modular-reactor",
+    "k": "paragon awarded contract to complete final design work supporting nuscale power s small modular reactor",
+    "id": "9374e2aa"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "GE(General Electric) 버노바·히타치, 벨란과 협력 확대로 BWRX-300 유럽 배치 지원",
+    "summary": "GE(General Electric) 버노바(Vernova)와 히타치(Hitachi), 그리고 벨란(Velan)이 BWRX-300 소형모듈원자로의 유럽 배치를 위한 협력을 확대했다.",
+    "summaryLong": "GE 버노바와 히타치, 부품 공급업체 벨란이 BWRX-300 소형모듈원자로의 유럽 시장 진출을 위한 협력 관계를 확대했다. 이는 BWRX-300의 유럽 각국 배치 사업 지원을 위한 부품·설계 협력 강화 및 파트너십 체결을 의미한다. 세 기관의 협력 확대는 BWRX-300의 유럽 규제 인허가 및 건설 사업 추진을 뒷받침할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "BWR",
+    "dev": "GE Vernova",
+    "region": "EU",
+    "source": "tradingview.com",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN42P09C:0-ge-vernova-hitachi-and-velan-expand-collaboration-to-support-bwrx-300-small-modular-reactor-deployment-in-europe/",
+    "k": "ge vernova hitachi and velan expand collaboration to support bwrx 300 small modular reactor deployment in europe",
+    "id": "09330e10"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "CNBC 크래머, 엑스에너지(X-Energy) 투자 추천",
+    "summary": "미국의 저명 투자 전문가 짐 크래머(Jim Cramer)가 고온가스로(HTGR) 개발사 엑스에너지(X-Energy)의 투자 가치를 긍정적으로 평가했다.",
+    "summaryLong": "CNBC의 유명 투자 분석가 짐 크래머(Jim Cramer)가 고온가스로(HTGR) 기술 개발사인 엑스에너지(X-Energy)에 대한 투자 추천 의견을 제시했다. 크래머의 긍정적 평가는 엑스에너지의 기술과 사업 전망에 대한 신뢰를 나타내며, 첨단로 개발사에 대한 시장의 투자 관심도를 반영한다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-x-energy-ll-163842508.html",
+    "k": "jim cramer on x energy i ll bless it you can buy some",
+    "id": "c48d6093"
   },
   {
     "date": "2026-06-16",
@@ -607,6 +691,20 @@ window.SMR_NEWS = [
     "url": "https://www.world-nuclear-news.org/articles/swedish-new-nuclear-project-selects-rolls-royce-smrs",
     "k": "swedish new nuclear project selects rolls royce smrs",
     "id": "13724546"
+  },
+  {
+    "date": "2026-06-15",
+    "title": "스웨덴 바텐팔, SMR 공급사로 롤스로이스 선정",
+    "summary": "스웨덴의 바텐팔(Vattenfall)이 소형모듈원자로(SMR) 공급업체로 롤스로이스(Rolls-Royce)를 선택했다.",
+    "summaryLong": "스웨덴의 주요 전력 공급사 바텐팔(Vattenfall)이 소형모듈원자로(SMR) 사업의 원자로 공급사로 롤스로이스(Rolls-Royce)를 선정했다. 이 계약은 스웨덴이 40년 만에 추진하는 새로운 원자력 프로젝트의 핵심이 될 전망이다. SMR 기술의 상업화 확대와 함께 유럽의 에너지 안보 강화에 기여할 것으로 예상된다. 영국의 SMR 개발 기술이 국제 시장에서의 입지를 다지는 사례가 되고 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "UK",
+    "source": "reuters.com",
+    "url": "https://www.reuters.com/business/swedens-vattenfall-picks-rolls-royce-smr-nuclear-power-project-2026-06-15/",
+    "k": "sweden s vattenfall picks rolls royce smr for nuclear power project",
+    "id": "d364a586"
   },
   {
     "date": "2026-06-14",
@@ -1251,6 +1349,20 @@ window.SMR_NEWS = [
     "url": "https://www.world-nuclear-news.org/articles/doe-approval-milestone-for-oklo-reactor",
     "k": "doe approval milestone for oklo reactor",
     "id": "e9c89609"
+  },
+  {
+    "date": "2026-06-11",
+    "title": "미국 에너지부, 오클로 오로라 원자로 예비안전분석 승인",
+    "summary": "미국 에너지부(DOE)가 아이다호 국립연구소(INL)의 오클로(Oklo) 오로라(Aurora) 원자로에 대한 예비안전분석(PDSA) 승인을 발표했다.",
+    "summaryLong": "미국 에너지부(DOE)가 아이다호 국립연구소(Idaho National Laboratory, INL)에 설치될 오클로(Oklo)의 오로라(Aurora) 소형모듈원자로에 대한 예비안전분석(Preliminary Documented Safety Analysis, PDSA)을 공식 승인했다. 이는 오클로의 고속로(SFR) 기술 개발이 미국 규제 체계 내에서 실질적으로 진행되고 있음을 보여주는 중요한 인허가 마일스톤으로, 향후 상세설계 및 운영 허가로 나아가는 길을 열었다.",
+    "cat": "인허가",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "oklo.com",
+    "url": "https://oklo.com/newsroom/news-details/2026/U-S--Department-of-Energy-Approves-Preliminary-Documented-Safety-Analysis-for-Aurora-Powerhouse-at-Idaho-National-Laboratory/default.aspx",
+    "k": "u s department of energy approves preliminary documented safety analysis for aurora powerhouse at idaho national laboratory",
+    "id": "2c09e7b5"
   },
   {
     "date": "2026-06-10",
@@ -2547,6 +2659,20 @@ window.SMR_NEWS = [
     "id": "8ed112a2"
   },
   {
+    "date": "2026-05-21",
+    "title": "엑스에너지, 2026년 1분기 실적 보고 예정",
+    "summary": "엑스에너지(X-Energy)가 2026년 1분기 재무결과 보고를 6월 4일에 발표할 예정이라고 공시했다.",
+    "summaryLong": "고온가스로(HTGR) 개발사 엑스에너지(X-Energy)는 2026년 5월 21일 NASDAQ 공개기업으로서 1분기 재무결과를 6월 4일 보고할 것임을 공지했다. 엑스에너지는 첨단 원자로 기술 설계 및 핵연료 제조 업체로 자리매김하고 있다. 정기 실적 공시는 기업의 영업 진행 상황과 상용화 진전을 확인하는 지표가 된다. 이는 첨단로 부문의 주요 상장사 중 하나로서의 위상을 보여주는 공시다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "X-Energy, Inc. News Releases",
+    "url": "https://investors.x-energy.com/news-releases/news-release-details/x-energy-report-first-quarter-2026-results-june-4-2026",
+    "k": "x energy to report first quarter 2026 results on june 4 2026",
+    "id": "bf749b2d"
+  },
+  {
     "date": "2026-05-20",
     "title": "Deep Fission(딥 피션), 1억 5천만 달러 규모 기업공개 신청",
     "summary": "소형모듈원자로 개발사 Deep Fission(딥 피션)이 1억 5천만 달러 규모의 기업공개를 신청했다.",
@@ -3340,6 +3466,20 @@ window.SMR_NEWS = [
     "source": "ans.org",
     "url": "https://www.ans.org/news/2026-03-25/article-7878/new-us-bwrx300-projects-get-japanese-investment/",
     "k": "new u s bwrx 300 projects get japanese investment american nuclear society ans",
+    "id": "746edec2"
+  },
+  {
+    "date": "2026-03-25",
+    "title": "미국 BWRX-300 프로젝트, 일본 투자 유치",
+    "summary": "미국의 BWRX-300 소형모듈원자로 프로젝트가 일본 투자자들로부터 자금을 유치했다.",
+    "summaryLong": "미국에서 추진 중인 BWRX-300 소형모듈원자로 프로젝트가 일본으로부터 투자 자금을 확보했다. 이는 일본이 소형모듈원자로 기술에 대한 전략적 관심을 반영하며, 미국과 일본 간 원자력 협력 강화를 시사한다. 일본의 투자 유입은 BWRX-300 프로젝트의 재정 기반을 튼튼히 하고 국제 공동 개발 구조를 확대하는 의미를 갖는다.",
+    "cat": "투자",
+    "type": "BWR",
+    "dev": "GE Vernova",
+    "region": "US",
+    "source": "ans.org",
+    "url": "https://www.ans.org/news/2026-03-25/article-7878/new-us-bwrx300-projects-get-japanese-investment/",
+    "k": "new u s bwrx 300 projects get japanese investment",
     "id": "746edec2"
   },
   {
@@ -4810,4 +4950,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-17 23:43 KST";
+window.SMR_UPDATED = "2026-06-18 11:04 KST";
