@@ -21,6 +21,34 @@ window.SMR_NEWS = [
     "id": "11df7b25"
   },
   {
+    "date": "2026-06-18",
+    "title": "오클로(Oklo)·센트러스(Centrus), 오로라(Aurora) 연료 공급 양해각서 체결",
+    "summary": "오클로가 센트러스와 고농축저농축우라늄(HALEU) 공급 계약을 체결하여 오하이오(Ohio) 남부에 배치될 오로라 원자로 최대 5기를 지원할 연료를 확보했다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발사 오클로(Oklo)가 연료 공급업체 센트러스 에너지(Centrus Energy Corp.)와 고농축저농축우라늄(HALeu) 공급을 위한 양해각서를 체결했다. 이 대규모 상업용 연료 공급 계약은 센트러스가 오클로의 오로라(Aurora) 발전소 최대 5기를 지원할 수 있는 충분한 연료를 다년간 제공하는 내용으로, 오클로의 선금 지원도 포함될 것으로 예상된다. 이는 첨단원자로 상용화의 핵심 과제인 연료 안정 공급망 구축의 중요한 계약이며, 오클로의 1.2GW 규모 배치 계획을 뒷받침하는 전략적 의의를 갖는다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "Centrus Energy Corp. News Releases",
+    "url": "https://investors.centrusenergy.com/news-releases/news-release-details/oklo-centrus-sign-letter-intent-purchase-nuclear-fuel-aurora",
+    "k": "oklo centrus sign letter of intent to purchase nuclear fuel for aurora powerhouse deployment in southern ohio",
+    "id": "5a3820e2"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "테라파워, 나트륨(Natrium) 원자로 영국 설계인증(GDA) 신청",
+    "summary": "테라파워(TerraPower)가 나트륨 고속로 기술에 대한 영국 설계인증을 공식 시작함.",
+    "summaryLong": "테라파워(TerraPower)가 자사의 나트륨(Natrium) 고속냉각로에 대해 영국(UK) 설계인증(Generic Design Assessment, GDA) 프로세스를 개시했다. GDA는 영국 원자력규제청(ONR)이 실시하는 신형 원자로 설계에 대한 기술적 평가 단계로, 향후 건설 허가 취득의 전제 조건이 된다. 이는 테라파워의 SFR 기술이 영국 시장 진입을 위한 공식 규제 절차에 진입했음을 의미하며, 설계 검증(Design-led Justifying Design, 'Design-led JDD') 단계의 진전을 보여주는 중요한 마일스톤이다.",
+    "cat": "인허가",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "UK",
+    "source": "energynews.pro",
+    "url": "https://energynews.pro/en/terrapower-launches-uk-generic-design-assessment-for-its-natrium-reactor",
+    "k": "terrapower launches uk generic design assessment for its natrium reactor",
+    "id": "73397c42"
+  },
+  {
     "date": "2026-06-17",
     "title": "태웅, 테라파워(TerraPower) 나트륨(Natrium) SMR 주기기 부품 수주",
     "summary": "국내 원전 부품 전문기업 태웅이 빌 게이츠 설립 미국 테라파워사의 4세대 소형모듈원자로(SMR) 나트륨 프로젝트에 주기기 핵심부품을 공급하는 계약을 체결했다.",
@@ -215,6 +243,76 @@ window.SMR_NEWS = [
     "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-x-energy-ll-163842508.html",
     "k": "jim cramer on x energy i ll bless it you can buy some",
     "id": "c48d6093"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "뉴스케일(NuScale), 파라곤(Paragon) 원자로 안전 계약으로 주가 상승",
+    "summary": "뉴스케일이 파라곤 원자로 안전 계약을 체결하여 주가가 상승했다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발사 뉴스케일 파워(NuScale Power)가 파라곤(Paragon) 원자로 안전 관련 계약을 체결하면서 주가가 상승했다. 이는 뉴스케일의 SMR 사업 확장과 안전 기술 강화의 구체적 진전을 보여주는 사건이다.",
+    "cat": "계약",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "ts2.tech",
+    "url": "https://ts2.tech/en/nuscale-power-stock-rises-after-paragon-reactor-safety-contract/",
+    "k": "nuscale power stock rises after paragon reactor safety contract",
+    "id": "2abae06d"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "한국 첫 소형모듈원자로, 부산 기장에 최종 부지 선정",
+    "summary": "한국 정부가 첫 혁신형 소형모듈원자로(SMR)의 건설 부지로 부산 기장(釜山 機張)을 최종 선정했다. 신규 대형 원전 2기는 경북 영덕(慶北 盈德)에 건설될 예정이다.",
+    "summaryLong": "한국 정부는 국내 첫 혁신형 소형모듈원자로(SMR)의 건설 부지로 부산 기장을 최종 선정하고, 신규 대형 원전 2기는 경북 영덕에 건설하기로 결정했다. 부산 기장은 경주(慶州)와의 경쟁을 거쳐 최종 선정되었으며, 지역의 새로운 성장동력과 AI 등 신산업 유치의 거점이 될 것으로 기대된다. 이는 한국의 SMR 상용화 추진과 원자력 정책의 주요 이정표이며, 향후 한국 원자력산업의 신산업 거점으로서 기장 지역의 발전을 견인할 것으로 전망된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "",
+    "region": "KR",
+    "source": "khan.co.kr",
+    "url": "https://www.khan.co.kr/article/202606171929001",
+    "k": "속보 신규 대형 원전은 경북 영덕 smr은 부산 기장에",
+    "id": "64de6852"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "파라곤, 뉴스케일 SMR 안전 시스템 계약 수주",
+    "summary": "포트워스 소재 파라곤(Paragon)이 뉴스케일(NuScale) 소형모듈원자로의 안전 시스템 공급 계약을 수주했다.",
+    "summaryLong": "텍사스주 포트워스(Fort Worth) 기반의 파라곤(Paragon)이 뉴스케일(NuScale)의 소형모듈원자로(SMR) 안전 시스템 관련 계약을 수주했다. 이는 뉴스케일의 원자로 부품 및 시스템 공급망 확충의 일부로, SMR의 안전성 강화와 상용화 추진을 위한 중요한 협력이다. 파라곤은 이 계약을 통해 원자력 산업 분야에서의 입지를 강화하고 있다.",
+    "cat": "계약",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "fortworthinc.com",
+    "url": "https://fortworthinc.com/innovators/fort-worth-s-paragon-wins-contract-for-nuscale-nuclear-react/",
+    "k": "fort worth s paragon wins contract for nuscale nuclear reactor safety systems",
+    "id": "2b228b03"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "오클로, 스탠다드 뉴클리어와 고급 연료 재활용 계약",
+    "summary": "오클로(Oklo)가 스탠다드 뉴클리어(Standard Nuclear)와 고급 연료 재활용 계약을 체결했다.",
+    "summaryLong": "오클로(Oklo)가 스탠다드 뉴클리어(Standard Nuclear)와 첨단 핵연료 재활용 관련 계약을 체결했다. 이는 오클로의 오로라(Aurora) 소형모듈원자로가 사용할 핵연료의 공급 및 재활용 체계를 구축하는 것으로, 원형 경제(circular economy) 원칙에 기반한 지속 가능한 연료 공급망 확보를 의미한다. 이 계약은 오클로의 연료 공급 전략을 재편하고 시장 입지를 강화하는 중요한 계약이다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "simplywall.st",
+    "url": "https://simplywall.st/stocks/us/utilities/nyse-oklo/oklo/news/will-oklos-oklo-standard-nuclear-fuel-recycling-deal-reshape",
+    "k": "will oklo s oklo standard nuclear fuel recycling deal reshape its advanced fuel supply narrative",
+    "id": "a54e2a60"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "GE 베르노바(Vernova), 히타치(Hitachi), 벨란(Velan) 협력 확대",
+    "summary": "GE 베르노바(Vernova), 히타치(Hitachi), 벨란(Velan)이 협력을 확대한다.",
+    "summaryLong": "GE 베르노바(Vernova), 히타치(Hitachi), 벨란(Velan)이 협력 관계를 확대하기로 했다. 이는 원자력 산업협회(Nuclear Industry Association)에 의해 보도되었다. 다만 해당 협력의 구체적 범위, 제품·서비스, 일정이 명시되지 않아 상세 내용 파악이 필요하다. 일반 대형원전 부품 및 시스템 협력으로 예상되며, 소형모듈원자로(SMR)·첨단로와의 직접 연관성은 명확하지 않다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "niauk.org",
+    "url": "https://www.niauk.org/ge-vernova-hitachi-and-velan-expand-collaboration/",
+    "k": "ge vernova hitachi and velan expand collaboration",
+    "id": "cf9578f4"
   },
   {
     "date": "2026-06-16",
@@ -707,6 +805,20 @@ window.SMR_NEWS = [
     "id": "d364a586"
   },
   {
+    "date": "2026-06-15",
+    "title": "롤스로이스(Rolls-Royce), 스웨덴 소형모듈원자로 건설 계약 수주",
+    "summary": "영국(UK) 롤스로이스가 스웨덴(Sweden)의 소형모듈원자로 건설 계약을 수주했다.",
+    "summaryLong": "영국(UK) 방위·항공우주 기업 롤스로이스(Rolls-Royce)가 스웨덴(Sweden)에서 소형모듈원자로(SMR) 건설 계약을 체결했다. 이 프로젝트는 스웨덴이 40년 이상 추진해온 신규 원자력발전 사업의 일환으로, 롤스로이스 SMR 기술의 유럽 진출 및 영국 수출의 주요 이정표가 된다.",
+    "cat": "계약",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "UK",
+    "source": "ft.com",
+    "url": "https://www.ft.com/content/69e92d5c-44f7-4a40-b251-b62c69c645b9?syn-25a6b1a6",
+    "k": "rolls royce wins contract to build small nuclear reactors for sweden",
+    "id": "69135119"
+  },
+  {
     "date": "2026-06-14",
     "title": "우즈베키스탄 소형모듈원자로 수출 프로젝트 기공",
     "summary": "소형모듈원자로의 첫 수출 프로젝트가 우즈베키스탄에서 기공식을 개최했다.",
@@ -1181,6 +1293,20 @@ window.SMR_NEWS = [
     "url": "https://www.ans.org/news/2026-06-12/article-8119/oklo-secures-doe-pdsa-approval/",
     "k": "oklo secures doe pdsa approval",
     "id": "2c2b2944"
+  },
+  {
+    "date": "2026-06-12",
+    "title": "미국 에너지부, 오클로(Oklo) 오로라 핵심 안전분석 승인",
+    "summary": "미국 에너지부(DOE)가 오클로(Oklo)의 아이다호(Idaho) 오로라(Aurora) 핵발전소 핵심 안전분석을 승인했다.",
+    "summaryLong": "미국 에너지부(DOE)는 오클로(Oklo)가 아이다호(Idaho)에서 추진 중인 오로라(Aurora) 소형모듈원자로 프로젝트의 주요 안전분석 보고서를 승인했다. 이는 오클로의 설계기반 금속 냉각 고속로(fast reactor) 개발에서 인허가 프로세스의 중요한 진전을 의미한다. 해당 승인은 향후 건설허가 및 운영허가로 진행하는 데 필수 선행 절차로, 프로젝트 추진의 신뢰성을 높이는 결과다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "nucnet.org",
+    "url": "https://www.nucnet.org/news/doe-approves-key-safety-analysis-for-oklo-aurora-nuclear-plant-in-idaho-6-5-2026",
+    "k": "doe approves key safety analysis for oklo aurora nuclear plant in idaho",
+    "id": "77727cb6"
   },
   {
     "date": "2026-06-11",
@@ -2895,6 +3021,20 @@ window.SMR_NEWS = [
     "url": "https://holtecinternational.com/hh-41-05/",
     "k": "time magazine names holtec one of ten most influential energy companies in the united states",
     "id": "ae2881c8"
+  },
+  {
+    "date": "2026-05-04",
+    "title": "루이빌 가스·전기(LG&E), 켄터키 유틸리티스, 엑스에너지(X-energy) 소형모듈원자로 배치 계획 추진",
+    "summary": "미국의 루이빌 가스·전기(LG&E), 켄터키 유틸리티스(Kentucky Utilities)와 엑스에너지(X-energy)가 소형모듈원자로(SMR) 배치 계획을 수립하기 위한 협력을 시작했다.",
+    "summaryLong": "미국 켄터키주의 주요 전력회사인 루이빌 가스·전기(LG&E)와 켄터키 유틸리티스(Kentucky Utilities)가 고온가스로(HTGR) 개발 기업 엑스에너지(X-energy)와 소형모듈원자로(SMR) 배치 계획을 수립하는 협력을 진행 중이다. 이 파트너십은 미국 남부 지역의 에너지 안보와 탈탄소 목표 달성을 위한 전력 회사의 현실적 대응이며, SMR의 상용화 단계 진입을 앞두고 실제 배치 사업이 본격화됨을 보여준다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "mining.com",
+    "url": "https://www.mining.com/lge-kentucky-utilities-x-energy-to-plan-small-modular-reactor-deployment/",
+    "k": "lg e kentucky utilities x energy to plan small modular reactor deployment",
+    "id": "b323d498"
   },
   {
     "date": "2026-05-01",
@@ -4950,4 +5090,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-18 11:04 KST";
+window.SMR_UPDATED = "2026-06-18 21:01 KST";
