@@ -102,10 +102,17 @@
   function termsHtml(terms){
     return terms.map(function(t){ return '<div class="nm-term"><b>'+esc(t.t)+'</b> — '+esc(t.d)+'</div>'; }).join('');
   }
+  function isKoreanItem(n){
+    if (!n) return false;
+    if (n.region === 'KR') return true;                       // Korean-topic articles are Korean-language sources
+    if (/[가-힣]/.test(n.source||'')) return true;
+    var h=''; try { h = new URL(n.url).hostname; } catch(e) { h = String(n.url||''); }
+    return /\.kr$/.test(h) || /\.co\.kr/.test(h);
+  }
   function fullHtml(d){
     var html = '';
     if (d && d.detailKo) html += '<div class="nm-sec">전문 · 한국어</div>' + paras(d.detailKo);
-    if (d && d.detailEn) html += '<div class="nm-sec">Full text · English</div><div class="en">' + paras(d.detailEn) + '</div>';
+    if (d && d.detailEn && !isKoreanItem(curItem)) html += '<div class="nm-sec">Full text · English</div><div class="en">' + paras(d.detailEn) + '</div>';
     if (d && d.terms && d.terms.length) html += '<div class="nm-sec">주요 용어</div><div class="nm-terms">' + termsHtml(d.terms) + '</div>';
     return html || '<div class="nm-load">추가 정보가 없습니다.</div>';
   }

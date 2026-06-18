@@ -423,7 +423,8 @@ async function resolveGoogleNews(url){
    article body when available (direct outlets); else built from the snippet. A transformative
    digest covering all key points — NOT a verbatim copy (copyright). */
 async function generateDetail(item, body){
-  const isKo = /[가-힣]/.test(item.source || '');
+  // Korean article → no English (source may now be a domain, so use region/.kr too)
+  const isKo = item.region === 'KR' || /[가-힣]/.test(item.source || '') || /\.kr(\/|$)/.test(item.url || '') || /\.co\.kr/.test(item.url || '');
   const hasBody = !!(body && body.length > 200);
   const src = hasBody ? ('원문 본문:\n' + body) : ('제목: ' + item.title + '\n요약: ' + (item.summaryLong || item.summary || ''));
   const koLine = hasBody
