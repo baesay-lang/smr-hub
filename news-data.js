@@ -161,6 +161,132 @@ window.SMR_NEWS = [
     "id": "8371cdfe"
   },
   {
+    "date": "2026-06-18",
+    "title": "기장군, 대한민국 첫 혁신형 SMR 최종 부지 선정",
+    "summary": "부산 기장군이 한국 첫 혁신형 소형모듈원자로(SMR) 건설 부지로 최종 선정되었다.",
+    "summaryLong": "부산광역시 기장군이 대한민국 첫 혁신형 소형모듈원자로(SMR) 건설 부지로 최종 선정되었다. 경주시 등 경쟁 지역을 제치고 기장군이 선택됨으로써 지역이 미래 원자력산업의 중심 도시로 도약할 것으로 예상된다. 이는 한국의 SMR 국책 사업 추진의 주요 이정표로, 지역 경제와 국내 원자력산업 발전에 미칠 영향이 크다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "",
+    "region": "KR",
+    "source": "enewstoday.co.kr",
+    "url": "http://www.enewstoday.co.kr/news/articleViewAmp.html?idxno",
+    "k": "기장군 대한민국 첫 혁신형 smr 최종 부지 선정 미래 원자력산업 중심도시 도약",
+    "id": "4b48b5f2"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "오클로(Oklo), 센트러스(Centrus)와 연료 공급 계약",
+    "summary": "오클로(Oklo)가 센트러스(Centrus)와 원자력 연료 공급 계약을 체결하여 오하이오(Ohio) 핵연료 프로젝트를 추진한다.",
+    "summaryLong": "혁신형 소형모듈원자로(SMR) 개발사 오클로(Oklo)가 핵연료 전문 기업 센트러스(Centrus)와 연료 공급 협약을 체결했다. 이 계약은 오클로의 오하이오(Ohio) 지역 핵 프로젝트를 진행하는 데 필요한 연료 공급을 확보하는 것으로, 혁신형 SMR의 연료 자립화 문제 해결에 중요한 단계이다. 오클로와 센트러스의 협력은 미국 SMR 산업의 공급망 완성도를 높이는 의미 있는 사례가 된다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "barrons.com",
+    "url": "https://www.barrons.com/articles/oklo-stock-centrus-nuclear-fuel-4aee1e37",
+    "k": "oklo strikes centrus deal has it solved the nuclear fuel problem",
+    "id": "b693addb"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "오클로·센트러스, 오하이오 핵 프로젝트 연료 공급 계약 체결",
+    "summary": "오클로(Oklo)와 센트러스(Centrus)가 오하이오(Ohio) 핵 프로젝트를 위한 연료 공급 협약을 체결했다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발사 오클로(Oklo)와 핵연료 업체 센트러스(Centrus)가 오하이오(Ohio) 지역의 핵 프로젝트를 위한 연료 공급 협약을 체결했다. 이는 오클로의 SMR 상용화 계획을 추진하는 데 있어 안정적인 핵연료 공급을 확보하는 중요한 계약이다. 두 기업의 협력을 통해 미국의 혁신형 원자력 프로젝트의 실현 가능성이 높아질 것으로 전망된다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/oklo-centrus-advance-ohio-nuclear-125223175.html",
+    "k": "oklo and centrus advance ohio nuclear project with fuel supply agreement oklo",
+    "id": "eb2a3d6b"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "센트러스 에너지, 오클로와 핵연료 공급 계약 체결",
+    "summary": "센트러스 에너지(Centrus Energy)가 오클로(Oklo)와 핵연료 공급 계약을 체결하면서 주가가 상승했다.",
+    "summaryLong": "센트러스 에너지(Centrus Energy)가 소형모듈원자로(SMR) 개발사 오클로(Oklo)와 핵연료 공급 계약을 체결했다. 이 계약은 오클로의 차세대 원자로 운영에 필요한 핵연료를 센트러스가 공급하는 내용을 담고 있으며, 양사의 전략적 파트너십을 나타낸다. 계약 체결 소식에 센트러스 에너지의 주가가 상승했다. 이는 SMR 산업의 연료 공급망 구축이 진전되고 있음을 시사한다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Centrus, Oklo",
+    "region": "US",
+    "source": "benzinga.com",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/06/53284245/centrus-energy-stock-climbs-after-signing-nuclear-fuel-agreement-with-oklo",
+    "k": "centrus energy stock climbs after signing nuclear fuel agreement with oklo",
+    "id": "2cbbb16b"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "롤스로이스 SMR, 스웨덴 40년 만의 신규 원전 사업 선정",
+    "summary": "롤스로이스(Rolls-Royce) SMR이 스웨덴에서 40년 만의 신규 원자력발전소 건설 사업에 선정되었다.",
+    "summaryLong": "영국 방위산업 기업 롤스로이스(Rolls-Royce)의 소형모듈원자로(SMR) 기술이 스웨덴의 신규 원자력발전소 건설 사업에 선정되었다. 이는 스웨덴에서 40년 이상 처음으로 추진되는 신규 원전 프로젝트이며, 롤스로이스 SMR의 영유럽 시장 진출을 의미한다. 해당 프로젝트는 스웨덴의 에너지 정책 추진 의지와 SMR 기술에 대한 신뢰를 보여주는 사례다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "UK",
+    "source": "themanufacturer.com",
+    "url": "https://www.themanufacturer.com/articles/rolls-royce-smr-selected-for-swedens-first-new-nuclear-power-plant-in-more-than-40-years/",
+    "k": "rolls royce smr selected for sweden s first new nuclear power plant in more than 40 years",
+    "id": "53254735"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "오클로(Oklo), 센트러스 에너지(Centrus Energy)와 고농축우라늄(HALEU) 공급 파트너십 체결",
+    "summary": "오클로(Oklo)가 센트러스 에너지(Centrus Energy)와 고농축우라늄(HALEU) 공급 계약을 체결했다.",
+    "summaryLong": "마이크로원자로 개발사 오클로(Oklo)가 우라늄 농축 기업 센트러스 에너지(Centrus Energy)와 고농축우라늄(HALEU, High-Assay Low-Enriched Uranium) 공급 계약을 체결했다. 이 파트너십은 오클로의 마이크로원자로 운영에 필요한 핵연료 공급을 보장하는 전략적 협력이다. 센트러스 에너지는 미국 내 주요 HALEU 생산 능력을 보유한 기업으로, 양사의 계약은 SMR·첨단로 개발 생태계 구축의 중요한 사례가 된다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "gurufocus.com",
+    "url": "https://www.gurufocus.com/news/8922529/oklo-oklo-partners-with-centrus-energy-leu-for-haleu-supply",
+    "k": "oklo oklo partners with centrus energy leu for haleu supply",
+    "id": "2e797ab7"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "오클로(Oklo), 센트러스(Centrus)와 핵연료 공급 양해각서 체결",
+    "summary": "오클로(Oklo)가 센트러스(Centrus)와 소형모듈원자로(SMR) 용 핵연료 공급 양해각서를 체결했다.",
+    "summaryLong": "오클로(Oklo)는 센트러스(Centrus)와 핵연료 공급 계약을 위한 양해각서(Letter of Intent)를 체결했다. 이는 소형모듈원자로(SMR) 개발사인 오클로(Oklo)가 안정적인 핵연료 공급 기반을 확보하기 위한 전략적 파트너십으로, 센트러스(Centrus)의 농축 우라늄 생산 역량과 오클로(Oklo)의 SMR 사업을 연결하는 의미있는 공급망 구축이다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "ca.investing.com",
+    "url": "https://ca.investing.com/news/stock-market-news/oklo-signs-letter-of-intent-with-centrus-for-nuclear-fuel-supply-93CH-4697872",
+    "k": "oklo signs letter of intent with centrus for nuclear fuel supply",
+    "id": "a396ac25"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "딥 피션(Deep Fission), SMR 개발사 IPO 공모가 $16 확정",
+    "summary": "소형모듈원전(SMR) 개발사 딥 피션(Deep Fission)이 IPO 공모가를 목표가 범위의 최저 수준인 $16으로 책정했다.",
+    "summaryLong": "소형모듈원전(SMR) 개발사 딥 피션(Deep Fission)이 기업공개(IPO) 공모가를 $16으로 확정했다. 이는 공시된 목표가 범위의 최저 수준이다. 해당 공모는 회사의 자금 조달 및 SMR 사업 확대를 위한 중요한 단계이다.",
+    "cat": "투자",
+    "type": "General",
+    "dev": "Deep Fission",
+    "region": "US",
+    "source": "renaissancecapital.com",
+    "url": "https://www.renaissancecapital.com/IPO-Center/News/119911/Small-modular-nuclear-reactor-developer-Deep-Fission-prices-IPO-at-$16-the-",
+    "k": "fisn ipo news small modular nuclear reactor developer deep fission prices ipo at 16 the low end of the range",
+    "id": "a92abba2"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "한국, 신규 대형원전 2기와 첫 SMR 건설 추진",
+    "summary": "한국이 신규 대형원전 2기와 첫 소형모듈원전(SMR) 1기 건설을 추진하기로 결정했다. 원전 산업 부흥 및 AI 전력 수요 대응의 의미.",
+    "summaryLong": "한국은 신규 대형원전 2기와 첫 소형모듈원전(SMR) 1기 건설을 추진함으로써 국내 원자력 산업의 부흥 신호를 보내고 있다. 이러한 결정은 인공지능(AI) 산업의 급증하는 전력 수요 대응과 에너지 안보 강화라는 전략적 배경을 가지고 있다. 한국의 SMR 건설 추진은 소형모듈원전 기술 개발 및 글로벌 시장 진출의 기반이 될 것으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "kedglobal.com",
+    "url": "https://www.kedglobal.com/policy/newsView/ked202606180001",
+    "k": "s korea to build 2 new reactors 1st smr moves signify nuclear revival meet ai power demand",
+    "id": "fea260b0"
+  },
+  {
     "date": "2026-06-17",
     "title": "태웅, 테라파워(TerraPower) 나트륨(Natrium) SMR 주기기 부품 수주",
     "summary": "국내 원전 부품 전문기업 태웅이 빌 게이츠 설립 미국 테라파워사의 4세대 소형모듈원자로(SMR) 나트륨 프로젝트에 주기기 핵심부품을 공급하는 계약을 체결했다.",
@@ -467,6 +593,48 @@ window.SMR_NEWS = [
     "url": "https://www.electimes.com/news/articleView.html?idxno=369224",
     "k": "신규 대형원전 2기 영덕에 짓는다 국내 1호 smr은 기장에 건설",
     "id": "0b045a3a"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "캐나다 기업, 토론토 동쪽에 SMR 부품 제조공장 건설",
+    "summary": "몬트리올(Montreal) 소재 기업이 공급망 협력 계약 일환으로 토론토(Toronto) 동쪽에 소형모듈원자로(SMR) 부품 제조공장 건설을 계획하고 있다.",
+    "summaryLong": "캐나다 몬트리올 지역 기업이 소형모듈원자로(SMR) 부품 생산 시설을 토론토 동쪽에 신축하는 공급망 협력 계약을 체결했다. 이 계획은 캐나다 원자력 산업의 공급망 강화와 지역 경제 활성화를 목표로 하며, SMR 기술의 상용화 과정에서 부품 국산화 역량을 갖추려는 움직임을 보여준다. 해당 시설은 SMR 개발사들과의 계약을 통해 필요한 부품을 공급하는 역할을 할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "CA",
+    "source": "ca.finance.yahoo.com",
+    "url": "https://ca.finance.yahoo.com/news/montreal-company-plans-build-plant-193020430.html",
+    "k": "montreal company plans to build a plant for small modular reactor parts east of toronto in supply chain deal",
+    "id": "2b88d32a"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "Applied Atomics, BWX Technologies로부터 mPower SMR 기술 육상용 독점 라이선스 획득",
+    "summary": "Applied Atomics가 BWX Technologies(BWX 테크놀로지스)로부터 mPower 소형모듈원자로(SMR) 기술의 육상 지역 독점 라이선스를 확보했다.",
+    "summaryLong": "Applied Atomics가 BWX Technologies(BWX 테크놀로지스)의 mPower 소형모듈원자로(SMR) 기술에 대한 육상용 독점 라이선스 계약을 체결했다. 이 라이선스는 특정 지역의 육상 시설에 대한 mPower 기술 활용 권한을 Applied Atomics에게 부여하는 것으로, SMR 기술 사업화를 위한 중요한 계약 이정표다. 해당 거래는 BWX Technologies와 신규 사업 파트너 간 기술 이전 및 상용화 추진 의지를 보여주며, 가압경수로(PWR) 기반 mPower 기술의 시장 확대 가능성을 시사한다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "BWX Technologies",
+    "region": "US",
+    "source": "marketscreener.com",
+    "url": "https://www.marketscreener.com/news/applied-atomics-secures-exclusive-land-based-license-for-mpower-small-modular-reactor-technology-fro-ce7f5cdcd18ef723",
+    "k": "applied atomics secures exclusive land based license for mpower small modular reactor technology from bwx technologies",
+    "id": "506ae1c7"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "한국 첫 소형모듈원자로 개발 진전, K-원전 수출 확대 기반 마련",
+    "summary": "한국의 첫 소형모듈원자로(SMR) 개발이 진전되고 있으며, 이는 한국형 원전 수출 확대의 발판이 될 것으로 기대된다.",
+    "summaryLong": "한국이 개발 중인 첫 소형모듈원자로(SMR) 사업이 진전을 거두고 있으며, 이를 통해 한국형 원전 기술의 국제 경쟁력을 강화하고 글로벌 시장 진출을 확대하려는 전략을 추진 중이다. 한국의 SMR 기술 개발 성공은 기존 대형 가압경수로(PWR) 수출 경험에 기반하여, 소규모 전력망이나 열병합 수요가 있는 국가들을 새로운 수출 시장으로 확보할 수 있는 기회를 제공한다. 정부와 한전, 관련 기업들의 협력을 통해 국내 SMR 기술의 상용화와 국제 표준설계인가(SDC) 추진이 함께 진행되고 있는 상황이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "mk.co.kr",
+    "url": "https://www.mk.co.kr/en/business/12076788",
+    "k": "south korea s first small modular reactor moves ahead expanding k nuclear power export reach",
+    "id": "715bee79"
   },
   {
     "date": "2026-06-16",
@@ -777,6 +945,34 @@ window.SMR_NEWS = [
     "id": "74bc64b1"
   },
   {
+    "date": "2026-06-16",
+    "title": "롤스로이스(Rolls-Royce), 스웨덴 첫 소형모듈원자로 건설 계약 체결",
+    "summary": "롤스로이스가 스웨덴의 소형모듈원자로(SMR) 건설 계약을 수주했다. 스웨덴의 40년 만의 신규 원전 프로젝트다.",
+    "summaryLong": "영국의 롤스로이스(Rolls-Royce)가 스웨덴의 소형모듈원자로(SMR) 건설 계약을 체결했다. 이는 스웨덴이 40년 만에 추진하는 신규 원전 프로젝트로, 롤스로이스의 SMR 기술이 국제 시장에서 상업화되는 주요 계약이다. 이 계약은 롤스로이스의 소형모듈원자로 사업 확대와 북유럽 지역의 탈탄소화 정책을 반영한다.",
+    "cat": "계약",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "UK",
+    "source": "biz.liga.net",
+    "url": "https://biz.liga.net/en/energy/news/rolls-royce-wins-contract-to-build-sweden39s-first-nuclear-power-plant-in-40-years",
+    "k": "rolls royce wins contract to build sweden s first nuclear power plant in 40 years",
+    "id": "ddf7b218"
+  },
+  {
+    "date": "2026-06-16",
+    "title": "오클로(Oklo), 스탠다드 뉴클리어(Standard Nuclear)와 플루토늄 재활용 탐색 MOU 체결",
+    "summary": "오클로(Oklo)가 스탠다드 뉴클리어(Standard Nuclear)와 플루토늄 재활용 탐색을 위한 양해각서(MOU)를 체결했다.",
+    "summaryLong": "마이크로원자로 개발사 오클로(Oklo)가 스탠다드 뉴클리어(Standard Nuclear)와 플루토늄 재활용 기술 개발을 위한 양해각서(MOU)를 체결했다고 미국 원자력학회(ANS, American Nuclear Society)가 보도했다. 본 협약은 폐기된 핵무기 또는 기존 원자로에서 나온 플루토늄을 오클로의 마이크로원자로 연료로 재활용하는 방안을 공동으로 탐색하기 위한 것이다. 이는 핵폐기물 감량 및 자원 재순환이라는 정책 목표와 부합하며, 차세대 원자로의 차별화된 경쟁력을 강화하는 전략이다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "ans.org",
+    "url": "https://www.ans.org/news/2026-06-17/article-8130/oklo-signs-mou-with-standard-nuclear-to-explore-plutonium-recycling/",
+    "k": "oklo signs mou with standard nuclear to explore plutonium recycling ans nuclear newswire",
+    "id": "0e049549"
+  },
+  {
     "date": "2026-06-15",
     "title": "한전기술, 베트남 SMR 협력 구체화",
     "summary": "한전기술이 베트남의 소형모듈원자로(SMR) 법제화 움직임에 협력하며 전략적 교두보를 마련하고 있다.",
@@ -1071,6 +1267,20 @@ window.SMR_NEWS = [
     "id": "666cea9c"
   },
   {
+    "date": "2026-06-15",
+    "title": "롤스로이스 SMR, 스웨덴 40년 만의 신규 원전 공급 계약 확정",
+    "summary": "롤스로이스(Rolls-Royce) SMR이 스웨덴의 신규 원전 프로젝트 공급자로 공식 선정되었다.",
+    "summaryLong": "영국 롤스로이스(Rolls-Royce)가 스웨덴에서 40년 이상 만에 처음으로 추진되는 신규 원자력발전소 건설 프로젝트의 소형모듈원자로(SMR) 공급자로 확정되었다. 롤스로이스 SMR은 영국 설계의 선진형 원자로로서, 본 프로젝트를 통해 스칸디나비아 지역 시장 진입을 이루게 된다. 이는 SMR 기술의 상용화 가속과 유럽의 에너지 안보 강화 정책의 일환을 나타낸다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "UK",
+    "source": "rolls-royce.com",
+    "url": "https://www.rolls-royce.com/media/press-releases/2026/15-06-2026-rr-smr-selected-to-deliver-swedens-first-new-nuclear-power-for-over-40-years.aspx",
+    "k": "rolls royce smr selected to deliver sweden s first new nuclear power for over 40 years rolls royce plc",
+    "id": "fb5fbe15"
+  },
+  {
     "date": "2026-06-14",
     "title": "우즈베키스탄 소형모듈원자로 수출 프로젝트 기공",
     "summary": "소형모듈원자로의 첫 수출 프로젝트가 우즈베키스탄에서 기공식을 개최했다.",
@@ -1279,6 +1489,20 @@ window.SMR_NEWS = [
     "url": "https://www.ans.org/news/article-7830/oklo-centrus-collaborate-on-haleu-deconversionenrichment-initiative/",
     "k": "oklo centrus collaborate on haleu deconversion enrichment initiative",
     "id": "2fb5ca2a"
+  },
+  {
+    "date": "2026-06-13",
+    "title": "오클로(Oklo), 미국 에너지부(DOE) 안전 승인 획득—진전과 투자 구도 분석",
+    "summary": "오클로(Oklo)가 미국 에너지부(DOE)로부터 안전 승인을 획득했으며, 이는 기술 진전과 투자 가치 사이의 트레이드오프를 시사한다.",
+    "summaryLong": "선진 핵연료 및 마이크로원자로 기술을 개발하는 오클로(Oklo)가 미국 에너지부(DOE)로부터 안전성 관련 승인을 획득했다. 이 인허가 진전은 오클로의 기술 신뢰성과 상용화 진전을 입증하는 이정표이지만, 동시에 투자자들은 근접한 자금 소진 일정, 규제 승인 완료 시점, 상용화 경로의 불확실성 등 여러 리스크 요소를 종합적으로 평가하고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "simplywall.st",
+    "url": "https://simplywall.st/stocks/us/utilities/nyse-oklo/oklo/news/oklos-doe-safety-approval-highlights-progress-and-investor-t",
+    "k": "oklo s doe safety approval highlights progress and investor trade offs",
+    "id": "11895fc0"
   },
   {
     "date": "2026-06-12",
@@ -2245,6 +2469,20 @@ window.SMR_NEWS = [
     "id": "1baf6fc5"
   },
   {
+    "date": "2026-06-05",
+    "title": "뉴스케일 파워(NuScale Power), 소형모듈원자로 규제 우위 점유",
+    "summary": "뉴스케일 파워가 소형모듈원자로 시장 경쟁에서 규제 승인 측면의 경쟁 우위를 보유하고 있다.",
+    "summaryLong": "미국의 뉴스케일 파워(NuScale Power, 나스닥 상장 기호: SMR)가 소형모듈원자로(SMR) 산업의 빠른 성장 속에서 규제 승인 분야에서 경쟁 우위를 보유하고 있다고 평가되고 있다. 설계인증(design certification) 등 규제 진전이 상용화 시기를 좌우하는 SMR 시장에서 규제 선점의 중요성이 강조되고 있다.",
+    "cat": "인허가",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "foreignpolicyjournal.com",
+    "url": "https://www.foreignpolicyjournal.com/2026/06/05/nuscale-power-nyse-smr-holds-regulatory-edge-in-growing-small-modular-reactor-race/",
+    "k": "nuscale power nyse smr holds regulatory edge in growing small modular reactor race",
+    "id": "0cb52c03"
+  },
+  {
     "date": "2026-06-04",
     "title": "엑스에너지(X-energy), 나스닥(Nasdaq) 상장 후 2026년 1분기 분기별 파이프라인 144기·11.5GWe 공시",
     "summary": "나스닥 상장 후 분기 공시에서 미국·영국 합산 144기, 약 11.5 GWe의 파이프라인(고객 권리 전량 행사 가정)을 공개했다.",
@@ -3063,6 +3301,20 @@ window.SMR_NEWS = [
     "url": "https://www.renaissancecapital.com/IPO-Center/News/119212/Small-modular-nuclear-reactor-developer-Deep-Fission-files-for-a-$150-milli",
     "k": "fisn ipo news small modular nuclear reactor developer deep fission files for a 150 million ipo",
     "id": "3873a96a"
+  },
+  {
+    "date": "2026-05-20",
+    "title": "NPPD, 네브래스카 4개 지역을 잠정 SMR 입지로 선정",
+    "summary": "네브래스카 공공전력공사(NPPD)가 소형모듈원자로(SMR) 건설 후보지로 네브래스카(Nebraska) 내 4개 지역사회를 선정했다.",
+    "summaryLong": "미국 네브래스카 공공전력공사(NPPD)가 소형모듈원자로(SMR) 도입을 위한 잠정 입지선정 단계에서 주 내 4개 지역사회를 후보지로 지정했다. 이는 네브래스카 지역의 전력 수급 안정화 및 탈탄소화 전략의 일환으로, SMR의 실제 건설 가능성을 검토하고 지역사회와의 협의를 진행하는 초기 단계다. NPPD의 이러한 움직임은 미국 내 SMR 사업화의 구체적 진전 신호이며, 향후 설계인증(DCA) 및 건설허가 단계로 진행될 가능성을 제시한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "NPPD",
+    "region": "US",
+    "source": "knopnews2.com",
+    "url": "https://www.knopnews2.com/2026/05/20/nppd-identifies-4-nebraska-communities-potential-small-modular-reactor-sites/",
+    "k": "nppd identifies 4 nebraska communities as potential small modular reactor sites",
+    "id": "ef5b62c9"
   },
   {
     "date": "2026-05-19",
@@ -5342,4 +5594,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-18 23:37 KST";
+window.SMR_UPDATED = "2026-06-19 01:49 KST";
