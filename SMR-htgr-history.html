@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HTGR(고온가스로) — 역사와 현재</title>
+<meta name="description" content="고온가스로(HTGR)의 작동 원리·피복입자(BISO/TRISO)·역사(Daniels Pile→Dragon→Peach Bottom→AVR→THTR→Fort St. Vrain→HTTR→HTR-PM→HTR-PM600)와 현재(Xe-100·HECTAR). 왜 멈췄나 — 물리가 아니라 공학신뢰성·경제 실패라는 핵심 테제.">
+<link rel="canonical" href="https://baesay-lang.github.io/smr-hub/SMR-htgr-history.html">
+<meta name="theme-color" content="#2563eb">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SMR HUB">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="HTGR(고온가스로) — 역사와 현재 · SMR HUB">
+<meta property="og:description" content="고온가스로의 작동 원리·피복입자(BISO/TRISO)·역사(Dragon→AVR→FSV→HTR-PM)와 현재(Xe-100·HECTAR). 왜 멈췄나 — 물리가 아니라 공학신뢰성·경제 실패.">
+<meta property="og:url" content="https://baesay-lang.github.io/smr-hub/SMR-htgr-history.html">
+<meta property="og:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="HTGR(고온가스로) — 역사와 현재 · SMR HUB">
+<meta name="twitter:description" content="고온가스로의 원리·피복입자·역사와 현재. 왜 멈췄나 — 물리가 아니라 공학신뢰성·경제 실패.">
+<meta name="twitter:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
+<link rel="stylesheet" href="styles.css?v=3">
+<script>(function(){try{var t=localStorage.getItem('smrhub-theme');if(t==='dark'||(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();</script>
+<script src="ui.js" defer></script>
+<style>
+  .sec{margin:34px 0;scroll-margin-top:62px;}
+  .sec-title{font-size:18px;font-weight:700;color:var(--text);margin:0 0 4px;}
+  .sec-title .no{color:var(--accent);margin-right:8px;font-variant-numeric:tabular-nums;}
+  .sec-desc{color:var(--text-dim);font-size:13px;margin:0 0 16px;}
+
+  /* central thesis box */
+  .thesis{background:var(--accent-weak);border:1px solid var(--accent-weak-2);border-left:3px solid var(--accent);
+    border-radius:var(--radius);padding:16px 19px;color:var(--text-dim);line-height:1.7;font-size:13.8px;}
+  .thesis h3{margin:0 0 8px;font-size:15px;color:var(--accent-strong);}
+  .thesis b{color:var(--text);}
+  .thesis .big{font-size:14.5px;color:var(--text);font-weight:600;display:block;margin:9px 0 4px;}
+
+  /* how-it-works: two columns */
+  .hw{display:grid;grid-template-columns:1.1fr .9fr;gap:16px;align-items:start;}
+  @media(max-width:760px){.hw{grid-template-columns:1fr;}}
+  .hw ul{margin:6px 0 0;padding-left:18px;font-size:13.5px;color:var(--text-dim);line-height:1.7;}
+  .hw ul b{color:var(--text);}
+
+  /* coated-particle figure */
+  .cp-fig{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px;text-align:center;}
+  .cp-fig svg{max-width:100%;height:auto;}
+  .cp-cap{font-size:11.5px;color:var(--text-faint);margin-top:8px;line-height:1.5;}
+
+  /* form split: pebble vs prismatic */
+  .forms{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
+  @media(max-width:600px){.forms{grid-template-columns:1fr;}}
+  .fcard{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:14px 16px;box-shadow:var(--shadow);}
+  .fcard h4{margin:0 0 4px;font-size:14px;color:var(--text);}
+  .fcard .who{font-size:11.5px;color:var(--text-faint);margin-bottom:8px;}
+  .fcard p{margin:0;font-size:12.8px;color:var(--text-dim);line-height:1.6;}
+
+  /* era band */
+  .era{display:flex;align-items:center;gap:10px;margin:30px 0 14px;}
+  .era .yr{font-variant-numeric:tabular-nums;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+    color:var(--accent-strong);background:var(--accent-weak);border:1px solid var(--accent-weak-2);padding:3px 10px;border-radius:20px;white-space:nowrap;}
+  .era .lab{font-size:14.5px;font-weight:700;color:var(--text);}
+  .era .line{flex:1;height:1px;background:var(--border);}
+
+  /* reactor history cards */
+  .rcard{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);box-shadow:var(--shadow);
+    padding:16px 18px;margin-bottom:12px;transition:border-color .14s;}
+  .rcard:hover{border-color:var(--border-strong);}
+  .rc-head{display:flex;align-items:baseline;gap:9px;flex-wrap:wrap;margin-bottom:3px;}
+  .rc-head h3{margin:0;font-size:16px;color:var(--text);}
+  .rc-head .when{font-size:12px;color:var(--text-faint);font-variant-numeric:tabular-nums;font-weight:600;}
+  .rc-kind{font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:4px;background:var(--surface-2);color:var(--text-dim);border:1px solid var(--border);white-space:nowrap;}
+  .rc-spec{font-size:12px;color:var(--text-faint);margin:2px 0 10px;font-variant-numeric:tabular-nums;}
+  .rc-spec b{color:var(--text-dim);font-weight:600;}
+  .rc-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+  @media(max-width:640px){.rc-grid{grid-template-columns:1fr;}}
+  .rc-grid .col h5{margin:0 0 4px;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--text-faint);}
+  .rc-grid .col.win h5{color:var(--accent-strong);}
+  .rc-grid .col.fail h5{color:var(--alert);}
+  .rc-grid .col p{margin:0;font-size:12.8px;color:var(--text-dim);line-height:1.62;}
+  .rc-grid .col p b{color:var(--text);}
+  .rc-foot{margin-top:11px;padding-top:10px;border-top:1px dashed var(--border);font-size:12.5px;color:var(--text-dim);line-height:1.6;}
+  .rc-foot b{color:var(--text);}
+
+  /* verdict badge */
+  .verdict{font-size:10.5px;font-weight:700;padding:2px 9px;border-radius:20px;white-space:nowrap;margin-left:auto;}
+  .v-tech{background:var(--accent-weak);color:var(--accent-strong);border:1px solid var(--accent-weak-2);}
+  .v-biz{background:var(--surface-2);color:var(--text-dim);border:1px solid var(--border-strong);}
+  .v-live{background:var(--accent);color:#fff;border:1px solid var(--accent);}
+  .v-dev{background:var(--surface);color:var(--text-faint);border:1px solid var(--border-strong);}
+
+  .legend{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 6px;font-size:11.5px;color:var(--text-faint);align-items:center;}
+
+  table.data td .yn{font-weight:700;}
+  .kbox{background:var(--accent-weak);border:1px solid var(--accent-weak-2);border-left:3px solid var(--accent);
+    border-radius:var(--radius-sm);padding:15px 18px;font-size:13.5px;color:var(--text-dim);line-height:1.7;}
+  .kbox h3{margin:0 0 8px;font-size:15px;color:var(--accent-strong);}
+  .kbox b{color:var(--text);}
+  .kbox ul{margin:8px 0 0;padding-left:18px;}
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a class="brand" href="index.html">SMR HUB</a>
+  <a href="SMR-news.html">뉴스</a>
+  <a href="SMR-developers.html">개발사</a>
+  <a href="SMR-licensing-tracks.html">인허가 트랙</a>
+  <a href="SMR-reactor-types.html">노형 분류</a>
+  <a href="SMR-fuel-supply.html">연료 공급망</a>
+  <a href="SMR-reference.html">CFR 레퍼런스</a>
+  <a href="SMR-asia-structure.html">사업 구조</a>
+  <a href="SMR-korea-players.html">한국 기업</a>
+  <a href="SMR-map.html">프로젝트 맵</a>
+</nav>
+
+<div class="breadcrumb"><a href="SMR-reactor-types.html">노형 분류</a> › <a href="SMR-reactor-types.html#htgr">HTGR</a> › 역사와 현재</div>
+
+<header class="page">
+  <div class="kicker">HTGR Deep Dive</div>
+  <h1>HTGR — 고온가스로의 역사와 현재</h1>
+  <p class="subtitle"><b>헬륨으로 식히고 흑연으로 감속하는</b> 고온가스로(High-Temperature Gas-cooled Reactor). <abbr title="TRi-structural ISOtropic — 세라믹 다중 코팅 입자연료">TRISO</abbr> 연료로 ~750–950 ℃ 고온을 뽑아 <b>발전+산업 공정열·수소</b>까지 노린다. 80년 역사 — Daniels Pile에서 중국 HTR-PM, 미국 <a href="SMR-dev-xenergy.html">Xe-100</a>, 한국 HECTAR까지. <b>왜 그렇게 많은 노형이 멈췄나</b>를 중심으로 정리. (2026.6 기준)</p>
+</header>
+
+<main>
+
+  <!-- ============ 핵심 테제 ============ -->
+  <section class="sec" id="thesis">
+    <div class="thesis">
+      <h3>핵심 테제 — 멈춘 건 물리가 아니다</h3>
+      Dragon · Peach Bottom · AVR · Fort St. Vrain 모두 <b>노물리(고유안전·고온운전)는 입증</b>했다. 정지·실패의 실제 원인은 두 가지였다 —
+      ① <b>공학신뢰성</b>(FSV 순환기 물침투, AVR·THTR 흑연분진·볼트 파손, 헬륨 누설·정제계통),
+      ② <b>경제성·정치</b>(체르노빌 후 반핵, 냉전 종식 예산 삭감, 인허가 지연 비용). 고속로 Monju·Super-Phénix도 같은 패턴이었다.
+      <span class="big">→ “대부분 Gen-IV 정지는 물리 실패가 아니라 공학-신뢰성/경제 실패였다.”</span>
+      이는 <a href="SMR-dev-xenergy.html">Xe-100</a>·HECTAR 설계·EPC에서 <b>순환기·헬륨정제·연료 신뢰성·건설비/공기 관리</b>가 노물리보다 더 결정적인 성공요인임을 시사한다.
+    </div>
+  </section>
+
+  <!-- ============ 1. 작동 원리 ============ -->
+  <section class="sec" id="how">
+    <h2 class="sec-title"><span class="no">1</span>어떻게 작동하나</h2>
+    <p class="sec-desc">물(경수로)이 아니라 <b>헬륨 가스</b>로 식히고 <b>흑연</b>으로 중성자를 감속한다 — 그래서 더 높은 온도가 가능하다.</p>
+    <div class="hw">
+      <div>
+        <ul>
+          <li><b>헬륨 냉각</b> — 화학적으로 불활성, 상변화·부식 없음. 압력 ~7 MPa로 경수로(~15 MPa)보다 낮다. 출구온도 <b>750–950 ℃</b>(경수로 ~320 ℃).</li>
+          <li><b>흑연 감속</b> — 거대한 흑연 열용량이 사고 시 온도 상승을 느리게 만든다(열관성). 노심 용융 개념 자체가 성립하기 어렵다.</li>
+          <li><b>높은 열효율</b> — 고온 헬륨 → 더 효율적인 증기/가스터빈 사이클. HTGR <b>열효율 ~37–43%</b>로 경수로(~33%)보다 높다.</li>
+          <li><b>고온 공정열</b> — 전기뿐 아니라 <b>제철·석유화학 공정열·수소(SMR·IS공정)·담수화</b>에 직접 쓸 수 있는 것이 가장 큰 차별점.</li>
+          <li><b>고유안전</b> — 연료가 1,600 ℃ 이상에서도 핵분열물질을 가두고, 음(−)의 도플러 반응도로 출력이 스스로 잡힌다(AVR·HTR-PM 실증).</li>
+        </ul>
+      </div>
+      <div class="cp-fig">
+        <svg viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="TRISO 4층 피복입자 vs BISO 2층 피복입자 단면도">
+          <title>피복입자 단면 — BISO(2층) vs TRISO(4층)</title>
+          <style>
+            .cpk{fill:#9aa7b4;}
+            .cp-buf{fill:#cdd5e0;}
+            .cp-ipyc{fill:#aeb9c8;}
+            .cp-sic{fill:#1d4ed8;}
+            .cp-opyc{fill:#7e8aa0;}
+            .cp-pyc{fill:#7e8aa0;}
+            .cpt{fill:var(--text);font-size:11px;font-weight:700;font-family:var(--sans);}
+            .cps{fill:var(--text-faint);font-size:8.5px;font-family:var(--sans);}
+            .cpl{stroke:var(--border-strong);stroke-width:1;}
+          </style>
+          <!-- TRISO -->
+          <g transform="translate(82,86)">
+            <circle r="62" class="cp-opyc"/>
+            <circle r="53" class="cp-sic"/>
+            <circle r="44" class="cp-ipyc"/>
+            <circle r="35" class="cp-buf"/>
+            <circle r="22" class="cpk"/>
+          </g>
+          <text x="82" y="180" text-anchor="middle" class="cpt">TRISO · 4층</text>
+          <!-- callouts -->
+          <line x1="144" y1="40" x2="116" y2="58" class="cpl"/><text x="148" y="42" class="cps">OPyC (외부 열분해탄소)</text>
+          <line x1="144" y1="62" x2="125" y2="72" class="cpl"/><text x="148" y="64" class="cps" fill="#1d4ed8">SiC — 핵분열물질 차단 핵심</text>
+          <line x1="144" y1="84" x2="118" y2="90" class="cpl"/><text x="148" y="86" class="cps">IPyC (내부 열분해탄소)</text>
+          <line x1="144" y1="106" x2="104" y2="100" class="cpl"/><text x="148" y="108" class="cps">Buffer (다공질 완충층)</text>
+          <line x1="144" y1="128" x2="82" y2="86" class="cpl"/><text x="148" y="130" class="cps">Kernel — HALEU 산화우라늄</text>
+        </svg>
+        <div class="cp-cap"><b style="color:var(--accent-strong)">SiC층</b>이 핵분열생성물을 가두는 핵심. <b>BISO(2층, buffer+PyC)</b>는 950 ℃에서 차단 한계 → <b>TRISO(4층)</b>로 표준화.</div>
+      </div>
+    </div>
+
+    <div style="margin-top:16px;">
+      <div class="legend"><b style="color:var(--text-dim)">노심 형태 두 갈래</b></div>
+      <div class="forms">
+        <div class="fcard">
+          <h4>페블베드 (Pebble-bed)</h4>
+          <div class="who">AVR · THTR-300 · HTR-10 · HTR-PM · Xe-100</div>
+          <p>당구공 크기 흑연 페블 안에 TRISO 수만 개를 담아 노심에 쌓는다. <b>온라인 연료 교체</b>(운전 중 페블 순환) 가능. 독일 계보 → 중국 HTR-PM, 미국 Xe-100.</p>
+        </div>
+        <div class="fcard">
+          <h4>블록형 (Prismatic)</h4>
+          <div class="who">Dragon · Peach Bottom · Fort St. Vrain · HTTR · GTHTR300</div>
+          <p>육각 흑연 블록에 TRISO 컴팩트를 끼워 적층. 노심 형상이 안정적이고 출력밀도를 높이기 쉽다. 미·일 계보(GA·JAEA).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 2. 역사 ============ -->
+  <section class="sec" id="history">
+    <h2 class="sec-title"><span class="no">2</span>역사 — 80년의 계보</h2>
+    <p class="sec-desc">뿌리(1944)에서 세계 유일 상용로(2023)까지. 각 카드: <b>입증한 것 / 실패한 것 / 판정</b>.</p>
+    <div class="legend">
+      판정:
+      <span class="verdict v-tech">기술적 성공</span>
+      <span class="verdict v-biz">사업·정치 실패</span>
+      <span class="verdict v-live">가동 중</span>
+      <span class="verdict v-dev">개발 중</span>
+    </div>
+
+    <!-- 뿌리 -->
+    <div class="era"><span class="yr">1944–1947</span><span class="lab">뿌리 — 아이디어의 탄생</span><span class="line"></span></div>
+    <div class="rcard">
+      <div class="rc-head"><h3>Daniels Pile</h3><span class="cc">US</span><span class="when">1944–47 (개념)</span><span class="rc-kind">미건설 개념</span><span class="verdict v-dev">개념</span></div>
+      <div class="rc-spec"><b>헬륨 냉각 · BeO(산화베릴륨) 감속 · 40 MWth · 출구 650 ℃ · 10–15 MWe</b></div>
+      <div class="rc-grid">
+        <div class="col">
+          <p>Farrington Daniels(Met Lab 소장, 1945–46)가 1944년 헬륨냉각 고온로를 구상하고 1947년 <b>페블베드 개념</b>을 명명. 모든 후대 HTGR·페블베드의 사상적 원류. 1947년 AEC가 기술적 이유로 중단.</p>
+        </div>
+        <div class="col fail">
+          <h5>흔한 오해 정정</h5>
+          <p>감속재는 <b>흑연이 아니라 BeO</b>였다. “1942–44 제안”도 과장 — 헬륨냉각로 거론은 1944, 페블베드 구상은 1947이 정확.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 1세대 -->
+    <div class="era"><span class="yr">1960s–70s</span><span class="lab">1세대 실험·실증로 — 노물리를 증명하다</span><span class="line"></span></div>
+
+    <div class="rcard">
+      <div class="rc-head"><h3>Dragon</h3><span class="cc">UK</span><span class="when">1964 임계 · 1966–75 운전</span><span class="rc-kind">실험로 · 블록형</span><span class="verdict v-tech">기술적 성공</span></div>
+      <div class="rc-spec"><b>20 MWth · 발전 없음 · 헬륨 750 ℃ · UKAEA Winfrith</b> · OECD/NEA <b>12–13개국</b> 공동사업(자료별 상이)</div>
+      <div class="rc-grid">
+        <div class="col win">
+          <h5>입증한 것</h5>
+          <p><b>최초의 HTGR 하드웨어.</b> TRISO 입자를 선구적으로 시험해 유럽 고온로 데이터를 축적. 17년간 약 1,000건 보고서. 헬륨 vs CO₂ 논쟁에서 <b>헬륨 채택</b>(AGR의 CO₂ 부식 경험 반영).</p>
+        </div>
+        <div class="col fail">
+          <h5>한계 / 종료</h5>
+          <p>대안 노형 관심 감소로 대형 상용화엔 이르지 못함. <b>계획적 완료</b>(실패가 아닌 임무 종료). 사용후연료 Sellafield 처리.</p>
+        </div>
+      </div>
+      <div class="rc-foot"><b>정정:</b> 최초임계는 1965가 아니라 <b>1964</b>. 참여국은 자료별 12~13개국.</div>
+    </div>
+
+    <div class="rcard">
+      <div class="rc-head"><h3>Peach Bottom Unit 1</h3><span class="cc">US</span><span class="when">1966–1974</span><span class="rc-kind">실증 · 블록형</span><span class="verdict v-tech">기술적 성공</span></div>
+      <div class="rc-spec"><b>115 MWth · 40 MWe · GA 설계 · Philadelphia Electric 운영</b> · 50개+ 전력사 컨소시엄</div>
+      <div class="rc-grid">
+        <div class="col win">
+          <h5>입증한 것</h5>
+          <p><b>최초의 발전 HTGR.</b> 1,349 EFPD, 120만 MWh 초과, 누적 열효율 ~37.2%, NSSS 가용도 88%. 부하추종 시연, 작업자 피폭 &lt;10 man-rem/yr. 해체 시 증기발생기 양호 확인.</p>
+        </div>
+        <div class="col fail">
+          <h5>문제 / 종료</h5>
+          <p>코어1 연료의 핵분열생성물 방출 → 코어2에서 <b>이중피복(BISO)</b>으로 개선. <b>계획적 완료</b>(1974 mothball). ※ Peach Bottom 2·3호기는 별개의 GE BWR로 현재도 가동 — 혼동 주의.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="rcard">
+      <div class="rc-head"><h3>AVR</h3><span class="cc">DE</span><span class="when">1967–1988 (21년)</span><span class="rc-kind">실험·실증 · 페블베드</span><span class="verdict v-biz">정치·안전 복합 정지</span></div>
+      <div class="rc-spec"><b>세계 최초 페블베드 · 46 MWth · 15 MWe · Jülich</b> · R. Schulten “페블베드의 지적 아버지”</div>
+      <div class="rc-grid">
+        <div class="col win">
+          <h5>입증한 것</h5>
+          <p><b>1970년 자연정지 실험</b> — 냉각 중단 + 제어봉 무력화에도 도플러(U-238 흡수)로 약 300 kW에서 자기안정. <b>고유안전성 입증.</b> 출구온도 950 ℃까지 상향 운전.</p>
+        </div>
+        <div class="col fail">
+          <h5>문제 / 종료</h5>
+          <p>950 ℃가 <b>BISO(2층)와 부적합</b> → Cs-137 오염 흑연분진, 헬륨 누설. <b>1978년 약 30톤 증기 침투</b>로 Sr-90 토양·지하수 오염(은폐 의혹 2014년 공식 인정). 1986 체르노빌 후 반핵정서로 1988 정지.</p>
+        </div>
+      </div>
+      <div class="rc-foot"><b>계보의 시작:</b> 마지막 시험연료가 독일 HTR-MODUL용 LEU TRISO — 이것이 <b>중국 HTR-PM의 뿌리</b>가 됐다.</div>
+    </div>
+
+    <!-- 상용 도전 -->
+    <div class="era"><span class="yr">1980s</span><span class="lab">상용 스케일업 도전 — 그리고 좌절</span><span class="line"></span></div>
+
+    <div class="rcard">
+      <div class="rc-head"><h3>THTR-300</h3><span class="cc">DE</span><span class="when">1985–1989</span><span class="rc-kind">상용 · 페블베드</span><span class="verdict v-biz">사업·정치 실패</span></div>
+      <div class="rc-spec"><b>750 MWth · 300 MWe · 토륨-우라늄 페블 · Hamm-Uentrop</b> · 건설비 €2.05B</div>
+      <div class="rc-grid">
+        <div class="col win">
+          <h5>입증한 것</h5>
+          <p>토륨-우라늄 페블의 <b>상용 규모 운전</b>. 출구온도를 750 ℃로 낮춰 TRISO(1,800 ℃ 견딤) 사용. 2번째 코어는 가동률 93% 달성(고품질 입증). 580,000개 조사연료 완전 인출(페블 세계 최초).</p>
+        </div>
+        <div class="col fail">
+          <h5>문제 / 종료</h5>
+          <p>1988.10 점검 시 <b>고온가스덕트 단열판 고정 볼트 다수 파손</b>. 인허가 지연 → 건설비 급등, 장기정지 중 거의 파산(정부 9,200만 마르크 구제). 체르노빌+반핵이 최종타. 실적 423 full-load일 / 2,891,000 MWh.</p>
+        </div>
+      </div>
+      <div class="rc-foot"><b>계보 이전:</b> 후속 HTR-Module·HTR-500이 사회적 저항으로 취소 → 개념이 <b>중국 HTR-PM으로</b> 넘어갔다. SAFSTOR 1997.2 도달, 본격해체 2027 이후.</div>
+    </div>
+
+    <div class="rcard">
+      <div class="rc-head"><h3>Fort St. Vrain (FSV)</h3><span class="cc">US</span><span class="when">1979–1989</span><span class="rc-kind">상용 · 블록형</span><span class="verdict v-biz">기술 성공 / 사업 실패</span></div>
+      <div class="rc-spec"><b>미국 최초 상용 HTGR · 842 MWth · 330 MWe · GA 설계 · PCRV</b> · 평생 이용률 &lt;15%(~14.6%)</div>
+      <div class="rc-grid">
+        <div class="col win">
+          <h5>입증한 것</h5>
+          <p><b>4층 TRISO 연료가 설계자 예상보다 우수.</b> 후기 열효율 39–40%. PCRV(프리스트레스트 콘크리트 압력용기) 차폐 우수, 작업자 피폭이 경수로 대비 2자릿수 낮음.</p>
+        </div>
+        <div class="col fail">
+          <h5>문제 / 종료</h5>
+          <p>최대 문제는 <b>헬륨 순환기</b> — 수냉 베어링(백업 Pelton 수차)의 압력균형 붕괴 → <b>물이 헬륨계통 침투</b> → 흑연·연료피복 위협 → 잦은 정지·저가용도. 설계자도 “수냉 베어링이 물침투·저가용도의 주원인”이라 인정.</p>
+        </div>
+      </div>
+      <div class="rc-foot"><b>핵심 교훈:</b> 노물리는 정상이었고 <b>공학 신뢰성(순환기·물침투)이 사업을 죽였다</b> — Monju·Super-Phénix와 같은 패턴. 미국은 FSV 이후 신규 상용 HTGR이 없다(Xe-100·Kairos가 약 35년 만의 재도전).</div>
+    </div>
+
+    <!-- 시험로 부활 -->
+    <div class="era"><span class="yr">1998–2003</span><span class="lab">시험로 부활 — 아시아가 불씨를 살리다</span><span class="line"></span></div>
+
+    <div class="rcard">
+      <div class="rc-head"><h3>HTTR</h3><span class="cc">JP</span><span class="when">1998 임계 · 가동 중</span><span class="rc-kind">시험로 · 블록형</span><span class="verdict v-live">가동 중</span></div>
+      <div class="rc-spec"><b>30 MWth · 발전 없음 · JAEA · 출구 950 ℃ 세계 최초(2004)</b></div>
+      <div class="rc-grid">
+        <div class="col win">
+          <h5>입증한 것</h5>
+          <p>2004년 <b>출구 950 ℃ 세계 최초 달성</b>, 2010 LOFC 시험. 2개 독립 VCS(용기냉각계통)로 <b>피동안전 입증</b>. 후쿠시마 후 신규제 대응 인허가 → 2021.7 재가동. OECD/NEA LOFC 시험 2022·2024.</p>
+        </div>
+        <div class="col">
+          <h5>지향점</h5>
+          <p>HTTR Heat Application Test Facility로 <b>IS공정·메탄 수증기개질 수소 생산</b> 실증 추진. 시험로(HTTR)→상용설계(GTHTR300)의 일본 로드맵 핵심.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="rcard">
+      <div class="rc-head"><h3>HTR-10</h3><span class="cc">CN</span><span class="when">2000 임계</span><span class="rc-kind">시험로 · 페블베드</span><span class="verdict v-tech">기술적 성공</span></div>
+      <div class="rc-spec"><b>10 MWth · Tsinghua INET</b> · 2003 전출력 · 2003–06 4건 안전실험</div>
+      <div class="rc-grid">
+        <div class="col win">
+          <h5>입증한 것</h5>
+          <p>독일 페블베드 기술을 중국이 흡수·검증. 일련의 피동안전 실험 성공.</p>
+        </div>
+        <div class="col">
+          <h5>의의</h5>
+          <p><b>HTR-PM으로 가는 가교</b> — 시험로에서 상용 모듈로 직행한 유일한 사례.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- 상용 재점화 -->
+    <div class="era"><span class="yr">2021–</span><span class="lab">상용 재점화 — 세계 유일 상용 HTGR</span><span class="line"></span></div>
+
+    <div class="rcard">
+      <div class="rc-head"><h3>HTR-PM (Shidaowan)</h3><span class="cc">CN</span><span class="when">2023.12 상업운전</span><span class="rc-kind">상용 · 페블베드</span><span class="verdict v-live">가동 중 · 세계 유일</span></div>
+      <div class="rc-spec"><b>2×250 MWth → 210 MWe(2모듈 1터빈) · 출구 750 ℃ · 효율 43.7%</b> · China Huaneng·CNNC·Tsinghua</div>
+      <div class="rc-grid">
+        <div class="col win">
+          <h5>입증한 것</h5>
+          <p><b>“모듈+TRISO+저온(750 ℃)”로 페블베드를 세계 최초 상용화.</b> 2023.8 세계 최초 상용 규모 <b>LOFC 안전시험</b>(각 200 MWth) 성공. 장비 국산화율 93.4%, 2025.3 지역난방 연결.</p>
+        </div>
+        <div class="col fail">
+          <h5>제기된 의문 (확인 필요)</h5>
+          <p>일부 분석(GSIEN)은 초기 가동률 저조(2023년 744시간·112 GWh)와 설계순출력 하향을 주장. <b>단 GSIEN은 반핵 성향 → 단정 불가</b>, IAEA PRIS 원자료 확인 권장.</p>
+        </div>
+      </div>
+      <div class="rc-foot"><b>독일 계보의 결실:</b> AVR→THTR→HTR-Module의 페블베드 사상이 중국에서 상용으로 완성. 페블 약 245,000~400,000개/모듈, 8.5% 농축.</div>
+    </div>
+
+    <div class="rcard">
+      <div class="rc-head"><h3>HTR-PM600 (Xuwei)</h3><span class="cc">CN</span><span class="when">2024.8 승인 · 2026.1 콘크리트</span><span class="rc-kind">상용 건설 착수 · 페블베드</span><span class="verdict v-dev">건설 중</span></div>
+      <div class="rc-spec"><b>6×250 MWth → 1터빈 약 660 MWe · 장쑤성 롄윈강 Xuwei(徐圩)</b> · 상업운전 목표 2030</div>
+      <div class="rc-grid">
+        <div class="col win">
+          <h5>현황</h5>
+          <p>Xuwei Phase I이 <b>2024.8.19 국무원 승인</b>, <b>2026.1 중순 원자로건물 최초 콘크리트</b>. HTR-PM 검증 모듈·증기발생기를 재사용해 리스크 저감. 단일 대형 저압 격납 하 6모듈 병렬.</p>
+        </div>
+        <div class="col">
+          <h5>의의</h5>
+          <p>CNNC “세계 최초 <b>3세대 PWR(Hualong One 2기) + 4세대 HTGR 660 MWe 하이브리드</b>” 실증. ※ 과거 거론된 Ruijin/Sanmen은 후보였을 뿐, <b>실제 1호는 Xuwei로 확정</b>.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 3. 현재 개발 ============ -->
+  <section class="sec" id="current">
+    <h2 class="sec-title"><span class="no">3</span>현재 개발 중인 HTGR</h2>
+    <p class="sec-desc">미국·일본·영국·한국의 재도전. 사용자 주력 <a href="SMR-dev-xenergy.html">Xe-100</a>은 2025–26 급진전 중.</p>
+
+    <div class="rcard">
+      <div class="rc-head"><h3>X-energy Xe-100</h3><span class="cc">US</span><span class="when">건설허가 2027 Q1 예상</span><span class="rc-kind">상용 FOAK 추진 · 페블베드</span><span class="verdict v-dev">개발 중 · 선두</span></div>
+      <div class="rc-spec"><b>모듈당 200 MWth · 80 MWe · 4-pack=320 MWe · 출구 750 ℃ · TRISO-X(HALEU)</b></div>
+      <div class="rc-grid">
+        <div class="col win">
+          <h5>2025–26 급진전</h5>
+          <p><b>TRISO-X 연료시설 NRC 면허(SNM-7007, 2026.2.13)</b> — 약 50년 만의 신규·미국 최초 Category II. <b>2026.4.24 나스닥 IPO(티커 XE)</b> 공모가 $23, 데뷔 +30.9%, ~$1.02B 조달. Dow Seadrift CPA 심사 중(2026.5 환경평가+FONSI — 상용원자로 최초 EA).</p>
+        </div>
+        <div class="col fail">
+          <h5>리스크</h5>
+          <p>아직 상업전력 0, 건설허가 심사 중. <abbr title="DOE Advanced Reactor Demonstration Program">ARDP</abbr> 예산기간(2026.8 만료, 연장 시 ~2030) 초과 가능 → FOAK 일정·비용 리스크.</p>
+        </div>
+      </div>
+      <div class="rc-foot"><b>한국 연계 [DL E&amp;C 관점]:</b> <a href="SMR-korea-players.html">두산에너빌리티가 RPV/SGPV 핵심기기 공급(16세트 예약)</a>, DL E&amp;C+두산 $25M 투자(2023). 2025.8 4자 MOU(X-energy·두산·Amazon·KHNP)로 2039년까지 최대 $50B 동원 약정. → <a href="SMR-fuel-supply.html">TRISO-X의 HALEU·TRISO 공급망</a>에 사업 일정이 연동.</div>
+    </div>
+
+    <div class="tbl-wrap" style="margin-bottom:6px;">
+      <table class="data">
+        <thead><tr><th>그 외 노력</th><th>국가</th><th>제원 / 형태</th><th>현황 (2026.6)</th></tr></thead>
+        <tbody>
+          <tr><td><b>GTHTR300</b> (JAEA)</td><td><span class="cc">JP</span></td><td>600 MWth · 블록형 · 직접 가스터빈</td><td>순효율 ~50%. 병산형(GTHTR300C)은 헬륨 가스터빈+IS공정 수소. HTTR 데이터로 검증, 2030년대 상용 목표</td></tr>
+          <tr><td><b>UK AMR (HTGR)</b></td><td><span class="cc">UK</span></td><td>실증 — USNC UK / NNL+JAEA</td><td>2021.12 정부가 HTGR을 AMR 실증 기술로 확정(£170–236M). Phase B FEED 2종, 조기 2030년대 실증 목표</td></tr>
+          <tr><td><b>USNC/NANO MMR</b> (KRONOS)</td><td><span class="cc">US·CA</span></td><td>마이크로 · 15/5 또는 45/15(자료별)</td><td>USNC 2024.11 파산 → NANO Nuclear 인수·리브랜딩. UIUC NRC 건설허가 신청(2025.9), Chalk River CNSC 추진</td></tr>
+          <tr><td><b>U-Battery</b> (Urenco)</td><td><span class="cc">UK</span></td><td>마이크로 · 4 MWe / 10 MWth</td><td><b>2023.3 Urenco 지원 중단(사실상 중단)</b>, IP는 NNL로 이전 — 마이크로 HTGR의 사업화 난이도 사례</td></tr>
+          <tr><td><b>MHTGR / GT-MHR</b> (역사)</td><td><span class="cc">US·RU</span></td><td>350 / 600 MWth · 블록형</td><td>미건설. NPR-MHTGR은 냉전기 삼중수소 생산용 → 1993 종료. GT-MHR은 러 무기급 Pu 소각용. <b>350 MWth 환형노심 개념이 후속 모듈로 전파</b></td></tr>
+          <tr><td><b>Kairos KP-FHR</b> (구분 필요)</td><td><span class="cc">US</span></td><td><a href="SMR-reactor-types.html#fhr">FHR</a> — 염냉각 + TRISO 페블</td><td><b>엄밀히는 가스냉각이 아닌 불화염(FLiBe) 냉각.</b> TRISO 페블 연료는 공유. Hermes 1 건설허가 2023.12, 2027 가동 목표</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ============ 4. 한국 / HECTAR ============ -->
+  <section class="sec" id="korea">
+    <h2 class="sec-title"><span class="no">4</span>한국 — HECTAR</h2>
+    <div class="kbox">
+      <h3>HECTAR — 90 MWth·750 ℃ 공정열·수소용 HTGR (KAERI)</h3>
+      <ul>
+        <li><b>정체:</b> 블록형 · 출구 750 ℃ · 3차계통 증기 500 ℃. HTR-PM(전력용)과 달리 <b>석유화학 등 hard-to-abate 산업의 공정열·수소</b>가 타깃.</li>
+        <li><b>강점:</b> 국산 설계·해석코드(<abbr title="KAERI 노심 해석 코드군">DeCART·CAPP·CORONA</abbr>) 보유.</li>
+        <li><b>약점:</b> <b>TRISO 연료 제조·실증 경험 부재, 실증로 부재</b> — 가장 큰 격차. → <a href="SMR-fuel-supply.html">연료 공급망</a>에서 한국은 농축 불가(123협정)로 HALEU 전량 수입.</li>
+        <li><b>현황:</b> KAERI–한국석유화학협회 MoU(2026.3.6), <abbr title="Small Modular Reactor 특별법">SMR 특별법</abbr> 국회 통과(2026.2), MSIT 2030년까지 3종 국산 SMR에 KRW 1.2조($830M) 투자 계획. <b>확정 예산·부지·일정은 확인 필요</b> — 설계 초기 단계.</li>
+      </ul>
+      <div style="margin-top:11px;padding-top:10px;border-top:1px dashed var(--accent-weak-2);font-size:13px;">
+        <b>DL E&amp;C 관점:</b> <a href="SMR-dev-xenergy.html">Xe-100 EPC 경험</a>을 HECTAR 공정열 사업화로 연결할 잠재 포지션 — 두산(기기)·KHNP·KAERI 생태계 활용. FSV·AVR·THTR 교훈(<b>순환기·헬륨정제·연료 신뢰성·건설비/공기</b>)을 리스크 레지스터에 우선 반영해야.
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 5. 요약 비교 ============ -->
+  <section class="sec" id="summary">
+    <h2 class="sec-title"><span class="no">5</span>한눈에 — HTGR 계보 비교</h2>
+    <div class="tbl-wrap">
+      <table class="data">
+        <thead><tr><th>노형</th><th>국가</th><th>시기</th><th>구분</th><th>출력</th><th>형태</th><th>판정</th></tr></thead>
+        <tbody>
+          <tr><td><b>Daniels Pile</b></td><td><span class="cc">US</span></td><td>1944–47</td><td>개념</td><td class="num">40 MWth</td><td>—</td><td>미건설(원류)</td></tr>
+          <tr><td><b>Dragon</b></td><td><span class="cc">UK</span></td><td>1964–75</td><td>실험로</td><td class="num">20 MWth</td><td>블록형</td><td><b style="color:var(--accent-strong)">기술 성공</b></td></tr>
+          <tr><td><b>Peach Bottom 1</b></td><td><span class="cc">US</span></td><td>1966–74</td><td>실증</td><td class="num">40 MWe</td><td>블록형</td><td><b style="color:var(--accent-strong)">기술 성공</b></td></tr>
+          <tr><td><b>AVR</b></td><td><span class="cc">DE</span></td><td>1967–88</td><td>실험·실증</td><td class="num">15 MWe</td><td>페블베드</td><td>정치·안전 정지</td></tr>
+          <tr><td><b>THTR-300</b></td><td><span class="cc">DE</span></td><td>1985–89</td><td>상용</td><td class="num">300 MWe</td><td>페블베드</td><td>사업·정치 실패</td></tr>
+          <tr><td><b>Fort St. Vrain</b></td><td><span class="cc">US</span></td><td>1979–89</td><td>상용</td><td class="num">330 MWe</td><td>블록형</td><td>사업 실패</td></tr>
+          <tr><td><b>HTTR</b></td><td><span class="cc">JP</span></td><td>1998–</td><td>시험로</td><td class="num">30 MWth</td><td>블록형</td><td><b style="color:var(--accent)">가동 중</b></td></tr>
+          <tr><td><b>HTR-10</b></td><td><span class="cc">CN</span></td><td>2000–</td><td>시험로</td><td class="num">10 MWth</td><td>페블베드</td><td><b style="color:var(--accent-strong)">기술 성공</b></td></tr>
+          <tr><td><b>HTR-PM</b></td><td><span class="cc">CN</span></td><td>2023–</td><td>상용</td><td class="num">210 MWe</td><td>페블베드</td><td><b style="color:var(--accent)">가동 중·유일</b></td></tr>
+          <tr><td><b>HTR-PM600</b></td><td><span class="cc">CN</span></td><td>2026–</td><td>상용</td><td class="num">660 MWe</td><td>페블베드</td><td>건설 중</td></tr>
+          <tr><td><b><a href="SMR-dev-xenergy.html">Xe-100</a></b></td><td><span class="cc">US</span></td><td>~2030</td><td>상용 FOAK</td><td class="num">320 MWe</td><td>페블베드</td><td>개발 중·선두</td></tr>
+          <tr><td><b>HECTAR</b></td><td><span class="cc">KR</span></td><td>설계 초기</td><td>공정열</td><td class="num">90 MWth</td><td>블록형</td><td>설계 단계</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <span class="note warn" style="display:block;margin-bottom:10px;"><span class="lead">주의</span> 일부 항목은 출처 간 불일치 또는 1차출처 확인 필요(AVR 1978 세부, HTR-PM 실가동률, MMR 출력, HECTAR 확정예산). 회의·보고 직전 NEA·IAEA·NRC·개발사 공시로 재확인 권장. (2026.6 기준)</span>
+  출처:
+  <a href="https://www.oecd-nea.org/jcms/pl_20371/the-dragon-project" target="_blank">OECD-NEA(Dragon)</a> ·
+  <a href="https://en.wikipedia.org/wiki/AVR_reactor" target="_blank">AVR</a> ·
+  <a href="https://en.wikipedia.org/wiki/THTR-300" target="_blank">THTR-300</a> ·
+  <a href="https://en.wikipedia.org/wiki/Fort_St._Vrain_Generating_Station" target="_blank">Fort St. Vrain</a> ·
+  <a href="https://world-nuclear-news.org/" target="_blank">WNN(HTR-PM·HTR-PM600)</a> ·
+  <a href="https://www.iaea.org/resources/databases/power-reactor-information-system-pris" target="_blank">IAEA PRIS</a><br>
+  관련: <a href="SMR-reactor-types.html#htgr">노형 분류 — HTGR</a> · <a href="SMR-dev-xenergy.html">X-energy / Xe-100</a> · <a href="SMR-fuel-supply.html">연료 공급망(HALEU·TRISO)</a>
+</footer>
+
+<script src="feedback.js" defer></script>
+</body>
+</html>
