@@ -67,7 +67,7 @@ b,strong{font-weight:600;}
   padding:14px 16px 14px 0;margin-right:8px;border-right:1px solid var(--border);text-transform:uppercase;
 }
 .topnav a{
-  color:var(--text-dim);padding:14px 14px;font-size:13.5px;font-weight:600;letter-spacing:-0.01em;
+  color:var(--text-dim);padding:14px 11px;font-size:13.5px;font-weight:600;letter-spacing:-0.01em;
   border-bottom:2px solid transparent;margin-bottom:-1px;transition:color .12s;
 }
 .topnav a:hover{color:var(--text);text-decoration:none;}
@@ -212,7 +212,7 @@ body{transition:background-color .2s ease, color .2s ease;}
 .theme-toggle{margin-left:auto;}
 .nav-toggle{display:none;}
 
-@media(max-width:1040px){
+@media(max-width:900px){
   .topnav{padding:0 12px;}
   .topnav .brand{order:1;}
   .theme-toggle{order:2;margin-left:auto;}
