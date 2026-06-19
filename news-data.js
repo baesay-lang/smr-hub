@@ -413,6 +413,90 @@ window.SMR_NEWS = [
     "id": "dd1382bd"
   },
   {
+    "date": "2026-06-19",
+    "title": "엘리멘틀 파워, 오하이오주 SMR 프로젝트 GE 버노바 히타치와 협약",
+    "summary": "엘리멘틀 파워(Elementl Power)가 GE 버노바 히타치 핵에너지(GE Vernova Hitachi Nuclear Energy)와 소형모듈원자로(SMR) 기반 발전소 건설을 위한 협약을 체결했다. 오하이오주 콜럼버스 남동쪽 약 160km 오하이오강(Ohio River) 인근에 위치하며 최대 1.5GW 규모로 계획되고 있다.",
+    "summaryLong": "엘리멘틀 파워(Elementl Power)는 6월 18일 GE 버노바 히타치 핵에너지(GE Vernova Hitachi Nuclear Energy)와 소형모듈원자로(SMR) 기반 발전소 건설을 위한 협약을 체결했다고 발표했다. 이 프로젝트는 오하이오주 콜럼버스 남동쪽 약 160km 오하이오강(Ohio River) 인근에 위치하며, 최대 1.5GW의 발전 용량을 목표로 하고 있다. 이는 유틸리티급 원자력 발전 프로젝트 개발사인 엘리멘틀 파워의 대규모 SMR 프로젝트로, GE 버노바 히타치와의 전략적 협력을 통해 미국 내 SMR 산업화를 가속화하는 의미를 갖는다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Elementl Power, GE Vernova",
+    "region": "US",
+    "source": "POWER Magazine",
+    "url": "https://www.powermag.com/elementl-power-developing-ohio-smr-project-with-ge-vernova-hitachi-nuclear-energy/",
+    "k": "elementl power developing ohio smr project with ge vernova hitachi nuclear energy",
+    "id": "d3a926ec"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "오클로와 센트러스, 오하이오 캠퍼스용 핵연료 협약",
+    "summary": "오클로(Oklo)와 센트러스(Centrus)가 오하이오주 캠퍼스를 위한 핵연료 공급 협약을 체결했다.",
+    "summaryLong": "오클로(Oklo)와 센트러스(Centrus)가 오하이오주 캠퍼스 프로젝트를 위한 핵연료 공급 협약을 체결했다. 구체적인 협약 규모 및 일정에 대한 추가 정보는 제공되지 않았으나, 이는 미국의 소형모듈원자로(SMR) 산업 확대와 국내 핵연료 공급망 강화 차원에서 의미 있는 전략적 협력이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo, Centrus",
+    "region": "US",
+    "source": "zacks.com",
+    "url": "https://www.zacks.com/stock/news/2940275/oklo-and-centrus-forge-nuclear-fuel-deal-for-ohio-campus\",1]",
+    "k": "oklo and centrus forge nuclear fuel deal for ohio campus",
+    "id": "2398c74b"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "엘리멘틀 파워, 오하이오주에 BWRX-300 SMR 5기 1.5GW 계획",
+    "summary": "엘리멘틀 파워(Elementl Power)가 오하이오주에 BWRX-300 소형모듈원자로 5기를 이용해 총 1.5GW 규모의 발전소를 건설할 계획이다.",
+    "summaryLong": "엘리멘틀 파워(Elementl Power)가 오하이오주에 GE 버노바 히타치 핵에너지(GE Vernova Hitachi Nuclear Energy)의 BWRX-300 비등경수로(BWR) 기반 소형모듈원자로 5기를 이용해 총 1.5GW 규모의 발전소를 건설할 계획이다. 이는 미국 내 소형모듈원자로의 대규모 다중 동시 배치 프로젝트로, BWRX-300의 상용화 및 산업화를 가속화하는 주요 이정표가 될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "BWR",
+    "dev": "Elementl Power",
+    "region": "US",
+    "source": "energynews.pro",
+    "url": "https://energynews.pro/en/elementl-power-plans-five-bwrx-300-smr-reactors-in-ohio-for-15-gw\",1]",
+    "k": "elementl power plans five bwrx 300 smr reactors in ohio for 1 5 gw",
+    "id": "6d056722"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "영국 에너지 기업, 부유식 소형모듈원자로 탐색",
+    "summary": "영국의 한 에너지 기업이 부유식 소형모듈원자로(SMR) 개발을 검토하고 있다.",
+    "summaryLong": "영국의 에너지 기업이 부유식 소형모듈원자로(SMR) 기술 도입을 탐색하고 있는 것으로 보도되었다. 부유식 SMR은 해양 환경에서 운영 가능하도록 설계된 차세대 원자로로, 입지 제약이 적고 건설 기간 단축이 가능한 장점을 가지고 있다. 이는 영국의 탄소중립 에너지 정책과 SMR 상용화 추진 방향을 반영한 것으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "UK",
+    "source": "tomorrowsworldtoday.com",
+    "url": "https://www.tomorrowsworldtoday.com/energy/uk-energy-firm-explores-floating-small-modular-nuclear-reactors/\",1]",
+    "k": "uk energy firm explores floating small modular nuclear reactors",
+    "id": "f1a9ad5e"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "비더엑스 테크놀로지스(BWX), 소형모듈원자로 개발 계약 체결",
+    "summary": "미국의 비더엑스 테크놀로지스가 소형모듈원자로 개발을 위한 계약에 서명했다.",
+    "summaryLong": "미국의 원자력 기술 기업 비더엑스 테크놀로지스(BWX Technologies)가 소형모듈원자로(SMR) 개발을 위한 계약에 서명했다. 이번 계약은 SMR 상용화를 위한 기술 개발 및 설계 개선 작업을 포함하는 것으로 보이며, 동사의 SMR 포트폴리오 확대 및 시장 진출 가속화 전략의 일환이다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "BWX",
+    "region": "US",
+    "source": "akm.ru",
+    "url": "https://www.akm.ru/eng/news/bwx-technologies-has-signed-an-agreement-to-develop-a-small-modular-reactor-/\",1]",
+    "k": "bwx technologies has signed an agreement to develop a small modular reactor",
+    "id": "dd2a5a7a"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "미국 원자로 9개월 만에 임계 성공… SMR, '테슬라식 하드웨어'로 진화",
+    "summary": "미국의 소형모듈원자로가 착공 9개월 만에 임계 성공을 달성했으며, SMR이 기존 인프라 중심에서 혁신형 하드웨어로 진화하고 있다.",
+    "summaryLong": "미국에서 개발 중인 소형모듈원자로가 맨땅에서 착공한 지 9개월 만에 임계(criticality) 달성에 성공했다. 이는 SMR이 기존의 대형 원전 중심 인프라 모델에서 벗어나 독립적인 하드웨어 제품으로 진화하고 있음을 보여주는 사례로, 건설 기간 단축과 모듈식 설계의 장점을 실증했다는 평가를 받고 있다. 이러한 성과는 SMR의 상용화 가능성을 높이고 글로벌 원자력 시장에서의 경쟁력 강화를 의미한다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "",
+    "region": "US",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/Global-Biz/2026/06/202606200654533634fbbec65dfb_1\",1]",
+    "k": "맨땅서 9개월 원자로 임계 성공 smr 인프라 아닌 테슬라식 하드웨어 로 진화",
+    "id": "e0eca70a"
+  },
+  {
     "date": "2026-06-18",
     "title": "부산 기장, 국내 첫 혁신형 SMR 입지 확정",
     "summary": "부산 기장이 국내 처음으로 혁신형 소형모듈원자로(SMR) 입지로 선정되었다.",
@@ -1377,6 +1461,20 @@ window.SMR_NEWS = [
     "url": "https://www.snmnews.com/news/articleView.html?idxno\\u003d570950\",1]",
     "k": "태웅 4세대 smr 주기기 핵심부품 수주 모든 smr 레퍼런스 확보",
     "id": "a33367c3"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "기장군, 혁신형 SMR 최종 부지 확정",
+    "summary": "기장군이 혁신형 소형모듈원자로(SMR) 프로젝트의 최종 부지를 확정했다.",
+    "summaryLong": "기장군이 혁신형 소형모듈원자로(SMR) 프로젝트의 최종 부지를 확정했다. 구체적인 부지 정보와 프로젝트 규모에 대한 추가 정보는 제공되지 않았으나, 이는 한국의 첨단 원자로 개발 정책의 일환으로 추진되고 있는 것으로 보인다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "",
+    "region": "KR",
+    "source": "pressian.com",
+    "url": "https://www.pressian.com/pages/articles/2026061811220084105\",1]",
+    "k": "기장군 혁신형 smr 최종 부지 확정",
+    "id": "845930a4"
   },
   {
     "date": "2026-06-17",
@@ -5835,6 +5933,20 @@ window.SMR_NEWS = [
     "id": "9aef3916"
   },
   {
+    "date": "2026-03-09",
+    "title": "스웨덴 스투드스빅, 소형모듈원자로 스타트업 카른풀 넥스트 인수",
+    "summary": "스웨덴의 스투드스빅이 소형모듈원자로 개발 스타트업 카른풀 넥스트를 인수했다.",
+    "summaryLong": "스웨덴의 원자력 기술 회사 스투드스빅(Studsvik)이 소형모듈원자로(SMR) 개발 스타트업 카른풀 넥스트(Kärnfull Next)를 인수했다. 이번 인수는 스투드스빅의 SMR 포트폴리오 강화 및 첨단 원자로 기술 확보 전략을 반영하고 있으며, 북유럽 지역의 탄소중립 에너지 수요 증가에 대응하기 위한 조치로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Studsvik",
+    "region": "EU",
+    "source": "nucnet.org",
+    "url": "https://www.nucnet.org/news/sweden-s-studsvik-acquires-small-modular-reactor-startup-kaernfull-next-3-1-2026\",1]",
+    "k": "sweden s studsvik acquires small modular reactor startup k rnfull next",
+    "id": "39aa15cd"
+  },
+  {
     "date": "2026-03-06",
     "title": "퍼듀대학교(Purdue University)·듀크에너지(Duke Energy), 소형모듈원자로(SMR) 핵학 연구 프로그램 협력",
     "summary": "퍼듀대학교(Purdue University)가 듀크에너지(Duke Energy)와 협력하여 소형모듈원자로(SMR) 관련 핵학 연구 프로그램을 운영한다.",
@@ -7148,4 +7260,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-19 23:33 KST";
+window.SMR_UPDATED = "2026-06-20 07:33 KST";
