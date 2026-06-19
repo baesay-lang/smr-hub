@@ -287,6 +287,48 @@ window.SMR_NEWS = [
     "id": "224bd505"
   },
   {
+    "date": "2026-06-19",
+    "title": "센트러스(Centrus), 오클로(Oklo)에 고농축저농축우라늄(HALEU) 공급 계약",
+    "summary": "미국 우라늄 농축 회사 센트러스(Centrus)가 오클로(Oklo)의 오로라(Aurora) 소형모듈원자로 최대 5기에 공급할 고농축저농축우라늄(HALEU) 다년 공급 계약을 체결했으며, 2029년부터 납입 예정이다.",
+    "summaryLong": "미국의 우라늄 농축 회사 센트러스(Centrus)는 소형모듈원자로 개발사 오클로(Oklo)와 고농축저농축우라늄(HALEU) 공급 계약을 체결했다. 이 계약에 따라 센트러스는 오클로의 오로라(Aurora) 소형모듈원자로 최대 5기를 가동할 핵연료를 다년에 걸쳐 공급하게 된다. 납입은 2029년부터 시작될 예정이며, 이는 오클로의 상용 원자로 배치를 뒷받침하는 중요한 연료 공급 기반 확보를 의미한다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Oklo, Centrus",
+    "region": "US",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/centrus-oklo-haleu-agreement-to-support-reactor-deployment",
+    "k": "centrus oklo haleu agreement to support reactor deployment",
+    "id": "bea0f621"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "엘레멘틀 파워(Elementl Power), 오하이오주에서 비등경수로형 소형모듈원자로(BWRX-300) 추진",
+    "summary": "핵전력 개발사 엘레멘틀 파워(Elementl Power)가 지이 베르노바 히타치 원자력 에너지(GE Vernova Hitachi Nuclear Energy)와 조기공사 협약(Early Works Agreement)을 체결하고, 미국 오하이오주 메이그스 카운티의 소형모듈원자로 프로젝트에 비등경수로형 소형모듈원자로(BWRX-300)를 활용하기로 했다.",
+    "summaryLong": "핵전력 개발사 엘레멘틀 파워(Elementl Power)는 지이 베르노바 히타치 원자력 에너지(GE Vernova Hitachi Nuclear Energy)와 조기공사 협약(Early Works Agreement)을 체결했다. 이 협약에 따라 엘레멘틀 파워는 미국 오하이오주 메이그스 카운티(Meigs County) 남동부 지역의 소형모듈원자로 프로젝트에 지이 베르노바의 비등경수로형 소형모듈원자로(BWRX-300)를 적용하게 된다. 이는 미국 내 소형모듈원자로 배치 확대를 위한 파트너십 구축 사례로, 지이 베르노바의 BWRX-300 기술 활용을 통한 상용화 추진을 보여준다.",
+    "cat": "기술",
+    "type": "BWR",
+    "dev": "Elementl Power, GE Vernova",
+    "region": "US",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/elementl-power-plans-bwrx-300-smrs-in-ohio",
+    "k": "elementl power plans bwrx 300 smrs in ohio",
+    "id": "63cc2bb4"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "현대건설·한국남동발전, 석탄화력발전소 소형모듈원자로(SMR) 전환기술 공동개발",
+    "summary": "현대건설과 한국남동발전이 석탄화력발전소의 보일러를 소형모듈원자로(SMR, 30만㎾급) 기반 발전설비로 전환하는 기술을 공동으로 개발한다.",
+    "summaryLong": "현대건설과 한국남동발전이 기존 석탄화력발전소의 보일러를 소형모듈원자로(SMR) 기반 발전설비로 전환하는 기술 개발을 공동 추진하기로 했다. 대상 소형모듈원자로는 30만㎾급 발전용량을 갖는 것으로, 폐지되거나 유휴 중인 석탄화력발전소의 에너지 인프라를 활용한 탈탄소 전환을 목표로 한다. 이는 한국의 에너지 다원화 및 소형모듈원자로 기술 실용화를 위한 중요한 협력 사례이자, 기존 발전소 부지 재활용을 통한 원자력 기술 확산 전략을 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대건설, 한국남동발전",
+    "region": "KR",
+    "source": "연합뉴스 경제 최신기사",
+    "url": "https://www.yna.co.kr/view/AKR20260619093900003",
+    "k": "현대건설 남동발전 석탄화력발전소 smr 전환기술 공동개발",
+    "id": "0741a65f"
+  },
+  {
     "date": "2026-06-18",
     "title": "부산 기장, 국내 첫 혁신형 SMR 입지 확정",
     "summary": "부산 기장이 국내 처음으로 혁신형 소형모듈원자로(SMR) 입지로 선정되었다.",
@@ -1155,6 +1197,34 @@ window.SMR_NEWS = [
     "id": "c709c34f"
   },
   {
+    "date": "2026-06-18",
+    "title": "부산 기장군, 혁신형 소형모듈원자로(SMR) 최종 부지로 선정",
+    "summary": "부산 기장군이 경주를 제치고 한국의 혁신형 소형모듈원자로(SMR) 최종 부지로 선정되었다.",
+    "summaryLong": "부산 기장군이 경주를 제치고 한국의 혁신형 소형모듈원자로(SMR) 최종 건설 부지로 선정되었다. 이는 한국 정부의 혁신형 소형모듈원자로 사업 추진에 따른 부지 결정으로, 부산 지역의 원자력 산업 육성 및 지역 경제 활성화와 관련된 정책적 결정이다. 기장군의 최종 선정은 부산을 소형모듈원자로 기술 개발 및 배치의 거점 지역으로 육성하려는 정부 정책의 반영을 의미한다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "",
+    "region": "KR",
+    "source": "sisajournal.com",
+    "url": "https://www.sisajournal.com/news/articleView.html?idxno\\u003d377005\",1,\"https://www.sisajournal.com/news/articleViewAmp.html?idxno\\u003d377005\"]",
+    "k": "부산 기장군 경주 제치고 혁신형 smr 최종 부지로 선정",
+    "id": "dff6ba95"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "에스토니아, SMR 추진 관련법 통과…삼성물산 수혜 기대",
+    "summary": "에스토니아가 소형모듈원자로(SMR) 도입을 위한 관련 법안을 의회에서 통과시켜 삼성물산 등 한국 기업의 사업 기회가 증가할 것으로 예상된다.",
+    "summaryLong": "에스토니아 의회가 소형모듈원자로(SMR) 도입 추진을 위한 법안을 통과시켰다. 이는 유럽의 에너지 안보 강화 및 탄소중립 달성을 위한 정책 추진의 일환이다. 에스토니아의 SMR 관련법 통과는 삼성물산을 포함한 한국의 원자력 건설·엔지니어링 업체들에게 북유럽 시장 진출의 기회를 제공한다. EU의 택소노미(Taxonomy) 분류에서 원자력이 포함되면서 유럽의 SMR 수요가 증가하는 추세 속에서 한국 기업의 국제 경쟁력 강화 가능성을 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "EU",
+    "source": "theguru.co.kr",
+    "url": "https://theguru.co.kr/news/article.html?no\\u003d103284\",1]",
+    "k": "에스토니아 smr 추진 관련법 통과 삼성물산 수혜 기대",
+    "id": "ed5f729d"
+  },
+  {
     "date": "2026-06-17",
     "title": "태웅, 테라파워(TerraPower) 나트륨(Natrium) SMR 주기기 부품 수주",
     "summary": "국내 원전 부품 전문기업 태웅이 빌 게이츠 설립 미국 테라파워사의 4세대 소형모듈원자로(SMR) 나트륨 프로젝트에 주기기 핵심부품을 공급하는 계약을 체결했다.",
@@ -1629,6 +1699,20 @@ window.SMR_NEWS = [
     "url": "https://www.yna.co.kr/amp/view/AKR20260617164500530\",1,\"https://www.yna.co.kr/amp/view/AKR20260617164500530\"]",
     "k": "신규 대형원전 smr 후보지 선정 전력수요 급증 전망에 속도",
     "id": "152b89a3"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "코어파워, 해상 원전 SMR 타당성 조사 착수",
+    "summary": "코어파워(CorePower)가 해상 배치형 소형모듈원자로(SMR) 사업의 타당성 조사를 시작했다.",
+    "summaryLong": "국내 SMR 개발사 코어파워가 해상 환경에 배치 가능한 소형모듈원자로(SMR) 사업의 타당성 조사(Feasibility Study)를 공식 착수했다. 해상 SMR은 육상 부지 확보 제약을 극복하고 냉각수 확보가 용이한 차세대 원전 개념으로, 도서지역 에너지 공급 및 해수담수화 등 다목적 활용 가능성을 가진다. 코어파워의 타당성 조사는 한국의 SMR 다각화 추진과 기술 개발 고도화를 의미하며, 산업용·해양용 열수급 활용 등 SMR의 응용 범위 확대 신호이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "코어파워",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno\\u003d4532\",1]",
+    "k": "코어파워 해상 원전 smr 타당성 조사 착수",
+    "id": "7971ad35"
   },
   {
     "date": "2026-06-16",
@@ -5638,6 +5722,20 @@ window.SMR_NEWS = [
     "id": "89325b84"
   },
   {
+    "date": "2026-02-27",
+    "title": "2026년 국가별 SMR 핵시설 현황",
+    "summary": "통계 자료로서 2026년까지의 국가별 소형모듈원자로(SMR) 핵시설 배치 현황을 정리한 것이다.",
+    "summaryLong": "Statista에서 제공하는 2026년까지의 국가별 소형모듈원자로(SMR) 핵시설 현황에 관한 통계 자료이다. 전 세계 주요 국가들의 SMR 도입 및 배치 계획을 비교 분석할 수 있는 레퍼런스 자료로, SMR의 지역별·국가별 확대 추이를 파악하는 데 유용하다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "statista.com",
+    "url": "https://www.statista.com/statistics/1551301/smr-facilities-by-country/\",1]",
+    "k": "smr nuclear facilities by country 2026",
+    "id": "257b7911"
+  },
+  {
     "date": "2026-02-25",
     "title": "기장군, 혁신형 SMR 유치 본격화…TF 출범·주민 설명회",
     "summary": "기장군이 혁신형 SMR 유치를 위해 전담반(TF)을 출범시키고 주민 설명회를 병행하며 본격적인 유치 활동을 추진 중이다.",
@@ -5734,6 +5832,20 @@ window.SMR_NEWS = [
     "url": "https://www.nucnet.org/news/nuclearelectrica-shareholders-approve-plans-for-small-modular-reactor-project-at-former-romania-coal-site-2-5-2026",
     "k": "nuclearelectrica shareholders approve plans for small modular reactor project at former romania coal site",
     "id": "51c4f0eb"
+  },
+  {
+    "date": "2026-02-13",
+    "title": "루마니아 SMR 프로젝트 최종 투자결정 수립",
+    "summary": "루마니아 소형모듈원자로(SMR) 프로젝트가 최종 투자결정(FID)을 완료했다.",
+    "summaryLong": "루마니아의 소형모듈원자로(SMR) 프로젝트가 최종 투자결정(Final Investment Decision, FID)을 수립했다. 이는 해당 프로젝트가 사전 개발 단계를 완료하고 본격적인 건설·개발 단계로 진입함을 의미하며, 유럽 지역 SMR 확대의 주요 이정표이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "EU",
+    "source": "world-nuclear-news.org",
+    "url": "https://world-nuclear-news.org/articles/final-investment-decision-taken-for-romanias-smrs\",1]",
+    "k": "final investment decision taken for romanian smr project",
+    "id": "2a8ec5ea"
   },
   {
     "date": "2026-02-06",
@@ -6083,6 +6195,20 @@ window.SMR_NEWS = [
     "url": "https://www.ans.org/news/2025-12-03/article-7593/doe-selects-tva-and-holtec-for-smr-awards/",
     "k": "doe selects tva and holtec for smr awards",
     "id": "7cd2a59d"
+  },
+  {
+    "date": "2025-12-03",
+    "title": "미국 연방 자금 지원 SMR 프로젝트 2개 선정",
+    "summary": "미국이 연방 정부 자금 지원 대상 소형모듈원자로(SMR) 프로젝트 2개를 선정했다.",
+    "summaryLong": "미국 정부가 연방 자금 지원 대상이 될 소형모듈원자로(SMR) 프로젝트 2개를 선정했다. 이는 미국 정부의 SMR 상용화 및 국내 산업 육성 정책의 일환으로, 선정된 프로젝트들은 정부 지원을 통해 개발·건설을 가속화할 수 있을 것으로 기대된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/two-smr-projects-selected-for-us-federal-funding\",1]",
+    "k": "two smr projects selected for us federal funding",
+    "id": "edffa836"
   },
   {
     "date": "2025-12-02",
@@ -6798,4 +6924,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-19 18:24 KST";
+window.SMR_UPDATED = "2026-06-19 21:39 KST";
