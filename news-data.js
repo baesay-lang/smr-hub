@@ -72,7 +72,7 @@ window.SMR_NEWS = [
     "dev": "현대건설, 남동발전",
     "region": "KR",
     "source": "electimes.com",
-    "url": "https://www.electimes.com/news/articleView.html?idxno",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=369314",
     "k": "석탄발전소의 변신 현대건설 남동발전 smr 리트로핏 맞손",
     "id": "a366aa9f"
   },
@@ -128,7 +128,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "mediainnews.com",
-    "url": "https://www.mediainnews.com/news/articleView.html?idxno",
+    "url": "http://www.mediainnews.com/news/articleView.html?idxno=46132",
     "k": "기장군 국내 첫 혁신형 smr 부지 선정 2035년 상업운전 목표",
     "id": "764ab406"
   },
@@ -240,7 +240,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "enewstoday.co.kr",
-    "url": "http://www.enewstoday.co.kr/news/articleViewAmp.html?idxno",
+    "url": "https://www.google.com/search?q=%EA%B8%B0%EC%9E%A5%EA%B5%B0%2C%20%EB%8C%80%ED%95%9C%EB%AF%BC%EA%B5%AD%20%EC%B2%AB%20%ED%98%81%EC%8B%A0%ED%98%95%20SMR%20%EC%B5%9C%EC%A2%85%20%EB%B6%80%EC%A7%80%20%EC%84%A0%EC%A0%95",
     "k": "기장군 대한민국 첫 혁신형 smr 최종 부지 선정 미래 원자력산업 중심도시 도약",
     "id": "4b48b5f2"
   },
@@ -758,7 +758,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "kookje.co.kr",
-    "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code",
+    "url": "https://www.google.com/search?q=%EA%B8%B0%EC%9E%A5%20SMR%2C%20%EB%B6%80%EC%82%B0%20%EB%B0%9C%EC%A0%84%20%EA%B8%B0%EB%8C%80%20%EC%86%8D%20%EC%95%88%EC%A0%84%C2%B7%EC%83%81%EC%83%9D%20%EC%88%99%EC%A0%9C%EB%8F%84%20%ED%81%AC%EB%8B%A4",
     "k": "사설 기장 smr 소형모듈원자로 부산 발전 기대 속 안전 상생 숙제도 크다",
     "id": "b2b79b5c"
   },
@@ -814,7 +814,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "kookje.co.kr",
-    "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code",
+    "url": "https://www.google.com/search?q=SMR%2C%20%EB%B6%80%EC%82%B0%EC%9D%98%20%EC%83%88%20%EC%84%B1%EC%9E%A5%EB%8F%99%EB%A0%A5%E2%80%A6AI%20%EB%93%B1%20%EC%8B%A0%EC%82%B0%EC%97%85%20%EC%9C%A0%EC%B9%98%20%EC%97%94%EC%A7%84%20%EA%B8%B0%EB%8C%80",
     "k": "smr 부산 새 성장동력 ai 등 신산업 유치 엔진 기대",
     "id": "b2b79b5c"
   },
@@ -828,7 +828,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "m.science.ytn.co.kr",
-    "url": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd",
+    "url": "https://www.google.com/search?q=%EB%8F%84%EC%8B%AC%20%EC%9D%B8%EA%B7%BC%EC%97%90%EB%8F%84%20%EC%84%A4%EC%B9%98%20%EA%B0%80%EB%8A%A5%E2%80%A6%EA%B5%AD%EB%82%B4%20%EC%B2%AB%20SMR%20%EB%B3%B8%EA%B6%A4%EB%8F%84",
     "k": "도심 인근에도 설치 가능 국내 첫 smr 본궤도",
     "id": "8af0001b"
   },
@@ -1430,7 +1430,7 @@ window.SMR_NEWS = [
     "dev": "서울대",
     "region": "KR",
     "source": "lecturernews.com",
-    "url": "https://www.lecturernews.com/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EC%84%9C%EC%9A%B8%EB%8C%80%2C%20%27SMR%20%EC%84%A0%EB%B0%95%20%EC%83%81%EC%9A%A9%ED%99%94%EB%A5%BC%20%EC%9C%84%ED%95%9C%20%EC%82%B0%EC%97%85%20%EC%A0%84%EB%9E%B5%27%20%EC%84%B8%EB%AF%B8%EB%82%98%20%EA%B0%9C%EC%B5%9C",
     "k": "미래 해양을 움직일 원자력의 청사진 서울대 smr 선박 상용화를 위한 산업 전략 세미나 개최",
     "id": "a96dfd23"
   },
@@ -1444,7 +1444,7 @@ window.SMR_NEWS = [
     "dev": "NuScale",
     "region": "US",
     "source": "infostockdaily.co.kr",
-    "url": "https://www.infostockdaily.co.kr/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EB%89%B4%EC%8A%A4%EC%BC%80%EC%9D%BC%ED%8C%8C%EC%9B%8C%28NuScale%29%20SMR%2C%20%EC%97%94%ED%8A%B8%EB%9D%BC%EC%9B%90%28Entergy%29%20%EC%9A%B0%EB%A0%A4%20%ED%95%B4%EC%86%8C%E2%80%A6%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%B0%A9%EC%88%98",
     "k": "뉴스케일파워 smr 엔트라원 우려 해소 프로젝트 착수에 주목 im",
     "id": "b482fd9f"
   },
@@ -1458,7 +1458,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "EU",
     "source": "2news.co.kr",
-    "url": "https://www.2news.co.kr/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EC%9D%B4%ED%83%88%EB%A6%AC%EC%95%84%20%ED%99%98%EA%B2%BD%EC%97%90%EB%84%88%EC%A7%80%EC%95%88%EB%B3%B4%EB%B6%80%2C%20SMR%20%EC%A4%91%EC%8B%AC%20%EC%8B%A0%EC%9B%90%EC%A0%84%20%ED%99%9C%EC%84%B1%ED%99%94%20%EC%B6%94%EC%A7%84",
     "k": "이탈리아 환경에너지안보부 smr 중심 신원전 활성화 추진",
     "id": "28b68b97"
   },
@@ -1472,7 +1472,7 @@ window.SMR_NEWS = [
     "dev": "태웅",
     "region": "US",
     "source": "busan.com",
-    "url": "https://www.busan.com/view/busan/view.php?code",
+    "url": "https://www.google.com/search?q=%ED%83%9C%EC%9B%85%2C%20%EB%AF%B8%EA%B5%AD%20%EC%B2%AB%20%EC%83%81%EC%97%85%EC%9A%A9%20SMR%20%ED%95%B5%EC%8B%AC%20%EB%B6%80%ED%92%88%20%EA%B0%9C%EB%B0%9C%20%EC%84%B1%EA%B3%B5",
     "k": "태웅 첫 상업용 smr 핵심 부품 뚫었다",
     "id": "c83786c7"
   },
@@ -1710,7 +1710,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "e-platform.net",
-    "url": "http://www.e-platform.net/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EC%A0%84%EB%AC%B8%EA%B0%80%3A%2012%EC%B0%A8%20%EC%A0%84%EA%B8%B0%EB%B3%B8%EC%97%90%20%EB%8C%80%ED%98%95%EC%9B%90%EC%A0%84%C2%B7SMR%20%EB%B0%98%EC%98%81%20%ED%95%84%EC%88%98",
     "k": "12차 전기본에 대형원전 3기 smr 2기 반영 안하면 탄소중립 의지 없는 것",
     "id": "19686de6"
   },
@@ -1724,7 +1724,7 @@ window.SMR_NEWS = [
     "dev": "한전기술",
     "region": "KR",
     "source": "theguru.co.kr",
-    "url": "https://www.theguru.co.kr/news/article.html?no",
+    "url": "https://www.google.com/search?q=%ED%95%9C%EC%A0%84%EA%B8%B0%EC%88%A0%2C%20%EB%B2%A0%ED%8A%B8%EB%82%A8%20SMR%20%ED%98%91%EB%A0%A5%20%EA%B5%AC%EC%B2%B4%ED%99%94",
     "k": "한전기술 베트남 smr 전략적 교두보 마련 법제화 움직임에 협력 구체화",
     "id": "97b6e52e"
   },
@@ -1864,7 +1864,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "wbcb.co.kr",
-    "url": "https://www.wbcb.co.kr/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EA%B8%B0%EC%9E%A5%EA%B5%B0%2C%20%ED%98%81%EC%8B%A0%ED%98%95%20%EC%86%8C%ED%98%95%EB%AA%A8%EB%93%88%EC%9B%90%EC%9E%90%EB%A1%9C%28i-SMR%29%20%EC%9C%A0%EC%B9%98%20%EC%B4%9D%EB%A0%A5%EC%A0%84",
     "k": "18만 군민염원 담아 기장군 i smr 유치총력전 나서",
     "id": "f267493c"
   },
@@ -1906,7 +1906,7 @@ window.SMR_NEWS = [
     "dev": "IAEA",
     "region": "",
     "source": "newsworks.co.kr",
-    "url": "https://www.newsworks.co.kr/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=IAEA%28%EA%B5%AD%EC%A0%9C%EC%9B%90%EC%9E%90%EB%A0%A5%EA%B8%B0%EA%B5%AC%29%2C%20SMR%20%22%EC%95%84%EC%A7%81%20%EA%B2%80%EC%A6%9D%20%EC%95%88%20%EB%90%9C%20%EA%B8%B0%EC%88%A0%E2%80%A6%EC%8B%A0%EC%A4%91%ED%95%B4%EC%95%BC%22",
     "k": "smr 열풍 속 iaea 아직 검증 안 된 기술 신중해야",
     "id": "1de4685d"
   },
@@ -1920,7 +1920,7 @@ window.SMR_NEWS = [
     "dev": "두산에너빌리티",
     "region": "KR",
     "source": "pinpointnews.co.kr",
-    "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EB%91%90%EC%82%B0%EC%97%90%EB%84%88%EB%B9%8C%EB%A6%AC%ED%8B%B0%2C%20SMR%20%EB%84%98%EC%96%B4%20%EB%AF%B8%EB%9E%98%20%ED%95%B5%EC%9C%B5%ED%95%A9%EA%B9%8C%EC%A7%80%20%EC%A0%9C%EC%A1%B0%20%EC%97%AD%EB%9F%89%20%EC%9E%85%EC%A6%9D",
     "k": "smr 넘어 미래 핵융합까지 두산에너빌리티 독보적 제조 역량 입증",
     "id": "e81be1f4"
   },
@@ -1934,7 +1934,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "EU",
     "source": "esnews.kr",
-    "url": "https://www.esnews.kr/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EA%B7%B8%EB%A6%AC%EC%8A%A4%2C%20SMR%20%EC%B2%AB%20%EC%9B%90%EC%A0%84%20%EB%B6%80%EC%A7%80%EC%97%90%20%EB%8C%80%ED%95%9C%20%EC%98%88%EB%B9%84%EC%97%B0%EA%B5%AC%20%EC%99%84%EB%A3%8C",
     "k": "지진 많은 그리스 smr 첫 원전 부지 예비연구 완료",
     "id": "fbaa4f4f"
   },
@@ -2032,7 +2032,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "",
     "source": "informante.web.na",
-    "url": "https://informante.web.na/?p",
+    "url": "https://www.google.com/search?q=%EC%9A%B0%EC%A6%88%EB%B2%A0%ED%82%A4%EC%8A%A4%ED%83%84%20%EC%86%8C%ED%98%95%EB%AA%A8%EB%93%88%EC%9B%90%EC%9E%90%EB%A1%9C%20%EC%88%98%EC%B6%9C%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B8%B0%EA%B3%B5",
     "k": "first export small modular nuclear plant breaks ground in uzbekistan",
     "id": "2760df98"
   },
@@ -2144,7 +2144,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "EU",
     "source": "esnews.kr",
-    "url": "https://www.esnews.kr/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EC%8A%A4%EC%9B%A8%EB%8D%B4%EC%9D%98%20%EC%84%A0%EB%8F%84%EC%A0%81%20SMR%20%EC%A0%84%EB%9E%B5%2C%20%EA%B8%80%EB%A1%9C%EB%B2%8C%20%EC%8B%9C%EC%9E%A5%20%EC%98%81%ED%96%A5%EB%A0%A5%20%ED%99%95%EB%8C%80",
     "k": "앞서가는 스웨덴 smr 시계 글로벌 시장 뒤흔들까",
     "id": "fbaa4f4f"
   },
@@ -2158,7 +2158,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "US",
     "source": "esnews.kr",
-    "url": "https://www.esnews.kr/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EB%AF%B8%EA%B5%AD%20NRC%28%EC%9B%90%EC%9E%90%EB%A0%A5%EA%B7%9C%EC%A0%9C%EC%9C%84%EC%9B%90%ED%9A%8C%29%20%EC%9C%84%EC%9B%90%EC%9E%A5%2C%20SMR%20%EA%B7%9C%EC%A0%9C%20%EC%9E%A5%EC%95%A0%EB%AC%BC%20%EC%A0%9C%EA%B1%B0%20%EB%B0%A9%EC%B9%A8",
     "k": "nrc 위원장 smr 상용화 규제 걸림돌 없앨 것",
     "id": "fbaa4f4f"
   },
@@ -2270,7 +2270,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "newskorea.ne.kr",
-    "url": "https://www.newskorea.ne.kr/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%ED%95%9C%EA%B5%AD%C2%B7%EC%B9%B4%EC%9E%90%ED%9D%90%EC%8A%A4%ED%83%84%2C%20%EC%B0%A8%EC%84%B8%EB%8C%80%20SMR%20%ED%98%91%EB%A0%A5%20%ED%99%95%EB%8C%80%20%EB%B0%8F%20%EC%9B%90%EC%A0%84%20%EC%9D%B8%EC%9E%AC%20%EC%96%91%EC%84%B1%20%EC%B6%94%EC%A7%84",
     "k": "한국 카자흐스탄 차세대 smr 협력 본격화 원전 인재 양성도 추진",
     "id": "8cfc3234"
   },
@@ -2298,7 +2298,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "US",
     "source": "theguru.co.kr",
-    "url": "https://theguru.co.kr/news/article.html?no",
+    "url": "https://www.google.com/search?q=%EB%AF%B8%EA%B5%AD%2C%20SMR%20%EC%B6%94%EC%A7%84%20%EC%84%A0%EB%B0%95%20%EA%B0%9C%EB%B0%9C%20%EA%B2%80%ED%86%A0%E2%80%A6%ED%95%9C%EA%B5%AD%20%EC%A1%B0%EC%84%A0%C2%B7%EC%9B%90%EC%A0%84%20%EA%B8%B0%ED%9A%8C",
     "k": "smr 추진 선박 개발 검토 k 조선 원전 기회",
     "id": "c867730d"
   },
@@ -2354,7 +2354,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "snmnews.com",
-    "url": "https://www.snmnews.com/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EB%AF%B8%EA%B5%AD%2C%20%EC%83%81%EC%97%85%EC%9A%A9%20SMR%20%EC%83%9D%ED%83%9C%EA%B3%84%20%EA%B5%AC%EC%B6%95%EC%9C%BC%EB%A1%9C%20%EA%B5%AD%EB%82%B4%20%EC%B2%A0%EA%B0%95%C2%B7%EC%A1%B0%EC%84%A0%C2%B7%EC%9B%90%EC%A0%84%20%EC%82%B0%EC%97%85%EC%97%90%20%EA%B8%B0%ED%9A%8C%20%EC%A0%9C%EA%B3%B5",
     "k": "상업용 smr 추진선 생태계 구축 국내 철강 조선 원전 산업에 새로운 기회",
     "id": "941d2239"
   },
@@ -2410,7 +2410,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "US",
     "source": "businesspost.co.kr",
-    "url": "https://www.businesspost.co.kr/BP?command",
+    "url": "https://www.google.com/search?q=%EB%AF%B8%EA%B5%AD%20%EC%83%81%EB%AC%B4%EC%9E%A5%EA%B4%80%2C%20%EC%9D%BC%EB%B3%B8%20%EC%9E%90%EA%B8%88%EC%9C%BC%EB%A1%9C%20SMR%20%ED%88%AC%EC%9E%90%20%EC%A0%9C%EC%95%88",
     "k": "미국 상무장관 일본 자금으로 smr에 투자 2050년 원전 4배 확대 계획 지원",
     "id": "e81ba777"
   },
@@ -2606,7 +2606,7 @@ window.SMR_NEWS = [
     "dev": "HD현대",
     "region": "KR",
     "source": "ntoday.co.kr",
-    "url": "https://www.ntoday.co.kr/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=HD%ED%98%84%EB%8C%80%2C%20%EC%86%8C%ED%98%95%EB%AA%A8%EB%93%88%EC%9B%90%EC%9E%90%EB%A1%9C%28SMR%29%C2%B7%EC%9B%90%EC%9E%90%EB%A0%A5%20%EC%B6%94%EC%A7%84%EC%84%A0%EC%9C%BC%EB%A1%9C%20%27%EC%9B%90%EC%9E%90%EB%A0%A5%20%EA%B8%B0%EC%97%85%27%20%EB%B3%80%EC%8B%A0%20%EC%B6%94%EC%A7%84",
     "k": "hd현대의 원자력 기업 변신 smr 원자력 추진선 선점 나선다",
     "id": "31a24eab"
   },
@@ -2620,7 +2620,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "edaily.co.kr",
-    "url": "https://www.edaily.co.kr/News/Read?newsId",
+    "url": "https://www.google.com/search?q=%EC%A0%95%EB%B6%80%20%EC%97%90%EB%84%88%EC%A7%80%20%EC%A0%95%EC%B1%85%EB%8B%B4%EB%8B%B9%EC%9E%90%2C%20%EC%9C%A0%EB%9F%BD%EC%97%B0%ED%95%A9%28EU%29%EA%B3%BC%EC%9D%98%20%EC%86%8C%ED%98%95%EB%AA%A8%EB%93%88%EC%9B%90%EC%9E%90%EB%A1%9C%28SMR%29%20%EB%85%BC%EC%9D%98%EB%A1%9C%20%EA%B8%80%EB%A1%9C%EB%B2%8C%20%EC%A0%95%EC%B1%85%20%EB%B3%80%ED%99%94%20%EB%B0%98%EC%98%81",
     "k": "김용범 eu와 소형모듈원전 논의 변화된 글로벌환경 반영",
     "id": "803eb3fc"
   },
@@ -2634,7 +2634,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "US",
     "source": "shippingnewsnet.com",
-    "url": "https://www.shippingnewsnet.com/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EB%AF%B8%EA%B5%AD%2C%20%EC%83%81%EC%97%85%EC%9A%A9%20%EC%9B%90%EC%9E%90%EB%A0%A5%20%EC%B6%94%EC%A7%84%EC%84%A0%20%EC%8B%9C%EB%8C%80%20%EC%A4%80%EB%B9%84%20%EB%B3%B8%EA%B2%A9%ED%99%94%EB%A1%9C%20%ED%95%B4%EC%83%81%20%EC%86%8C%ED%98%95%EB%AA%A8%EB%93%88%EC%9B%90%EC%9E%90%EB%A1%9C%28SMR%29%20%EC%83%9D%ED%83%9C%EA%B3%84%20%EA%B5%AC%EC%B6%95",
     "k": "상업용 원자력 추진선 시대 준비 본격화하는 미국 해상 smr 생태계 구축 나섰다",
     "id": "a05a3cca"
   },
@@ -2648,7 +2648,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "inpnews.kr",
-    "url": "https://www.inpnews.kr/news/articleView.html?idxno",
+    "url": "http://www.inpnews.kr/news/articleView.html?idxno=7133",
     "k": "원자력 조선 해양학회 smr 선박 개발 지지 공동선언",
     "id": "c1c99c1a"
   },
@@ -2802,7 +2802,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "kyongbuk.co.kr",
-    "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EB%AF%B8%EA%B5%AD%28USA%29%EC%9D%98%20%EC%9B%90%EC%A0%84%20%EB%A5%B4%EB%84%A4%EC%83%81%EC%8A%A4%EB%A1%9C%20%EA%B2%BD%EB%B6%81%20%EB%8F%99%ED%95%B4%EC%95%88%EC%97%90%20%EC%86%8C%ED%98%95%EB%AA%A8%EB%93%88%EC%9B%90%EC%9E%90%EB%A1%9C%28SMR%29%C2%B7%EC%88%98%EC%86%8C%EC%82%B0%EC%97%85%20%EA%B8%B0%ED%9A%8C%20%ED%99%95%EC%82%B0",
     "k": "원전 르네상스에 들썩이는 경북 동해안 smr 수소산업 새 기회",
     "id": "4de5f354"
   },
@@ -2816,7 +2816,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "",
     "source": "esnews.kr",
-    "url": "https://www.esnews.kr/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EB%B0%94%EB%8B%A4%20%EC%9C%84%EC%9D%98%20%EC%86%8C%ED%98%95%EB%AA%A8%EB%93%88%EC%9B%90%EC%A0%84%28SMR%29%2C%20%ED%95%B4%EC%96%91%20%ED%8C%A8%EA%B6%8C%EA%B3%BC%20%EC%97%90%EB%84%88%EC%A7%80%20%EC%95%88%EB%B3%B4%EC%9D%98%20%EC%83%88%20%EC%A7%80%ED%8F%89%20%EC%97%B4%EB%8B%A4",
     "k": "바다 위 소형모듈원전 smr 해양 패권과 에너지 안보의 새 지평을 열다",
     "id": "fbaa4f4f"
   },
@@ -2830,7 +2830,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "snmnews.com",
-    "url": "https://www.snmnews.com/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EC%9A%A9%EC%9C%B5%EC%97%BC%EC%9B%90%EC%9E%90%EB%A1%9C%28MSR%29%20SMR%20%EC%A0%81%EC%9A%A9%20%EC%9E%90%EB%8F%99%EC%B0%A8%EC%9A%B4%EB%B0%98%EC%84%A0%20%EA%B0%9C%EB%85%90%EC%84%A4%EA%B3%84%2C%20%EB%A1%9C%EC%9D%B4%EB%93%9C%EC%84%A0%EA%B8%89%28Lloyd%27s%20Register%29%20%EA%B8%B0%EB%B3%B8%EC%8A%B9%EC%9D%B8%20%ED%9A%8D%EB%93%9D",
     "k": "용융염원자로 smr 적용 자동차운반선 개념설계 로이드선급 기본승인 획득",
     "id": "941d2239"
   },
@@ -2844,7 +2844,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "enewstoday.co.kr",
-    "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=SMR%20%EC%B4%88%EB%8F%84%ED%98%B8%EA%B8%B0%20%EC%9D%B8%ED%97%88%EA%B0%80%20%EC%A7%84%ED%96%89%20%EC%A4%91%EC%9D%B4%EB%82%98%20%EC%A0%84%EC%9A%A9%20%EA%B7%9C%EC%A0%9C%20%EC%B2%B4%EA%B3%84%20%EA%B5%AC%EC%B6%95%20%EC%A7%80%EC%B2%B4",
     "k": "smr 초도호기 인허가 돌입했는데 전용 규제 체계 구축은 하세월",
     "id": "23aa4c58"
   },
@@ -2900,7 +2900,7 @@ window.SMR_NEWS = [
     "dev": "DP월드",
     "region": "EU",
     "source": "theguru.co.kr",
-    "url": "https://www.theguru.co.kr/news/article.html?no",
+    "url": "https://www.google.com/search?q=UAE%20%EA%B5%AD%EC%98%81%20DP%EC%9B%94%EB%93%9C%2C%20%EB%A3%A8%EB%A7%88%EB%8B%88%EC%95%84%20%ED%95%AD%EA%B5%AC%EC%97%90%20SMR%20%EC%B6%94%EC%A7%84",
     "k": "uae 국영 dp월드 루마니아 항구에 smr 추진",
     "id": "97b6e52e"
   },
@@ -2914,7 +2914,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "kbsm.net",
-    "url": "https://www.kbsm.net/news/view.php?idx",
+    "url": "https://www.google.com/search?q=%ED%95%9C%EA%B5%AD%20%EC%B2%AB%20%ED%98%81%EC%8B%A0%ED%98%95%20i-SMR%2C%20%EA%B2%BD%EC%A3%BC%20%EC%9C%A0%EC%B9%98%20%EC%A0%9C%EC%95%88",
     "k": "황대욱 특별기고 대한민국 첫 i smr 답은 경주다",
     "id": "cae9efc5"
   },
@@ -3054,7 +3054,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "ynenews.kr",
-    "url": "https://www.ynenews.kr/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EA%B2%BD%EC%A3%BC%28Gyeongju%29%EA%B0%80%20%ED%95%9C%EA%B5%AD%28Korea%29%20SMR%20%EC%B4%88%EB%8F%84%ED%98%B8%EA%B8%B0%20%EC%B5%9C%EC%A0%81%EC%A7%80%EC%9D%B8%20%EC%9D%B4%EC%9C%A0",
     "k": "기획보도 원전 연구개발 산업생태계 모두 갖췄다 경주가 smr 초도호기 최적지인 까닭",
     "id": "b08f8787"
   },
@@ -3068,7 +3068,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "esnews.kr",
-    "url": "https://www.esnews.kr/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%ED%95%9C%EA%B5%AD%28Korea%29%20SMR%20%EC%83%81%EC%9A%A9%ED%99%94%2C%20%EC%84%A4%EA%B3%84%20%EC%9D%B4%ED%9B%84%20%EA%B3%B5%EA%B8%89%EB%A7%9D%20%ED%99%95%EB%B3%B4%EA%B0%80%20%EA%B4%80%EA%B1%B4",
     "k": "k smr 상용화 설계 넘어 공급망이 관건",
     "id": "fbaa4f4f"
   },
@@ -3124,7 +3124,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "jgtimes.com",
-    "url": "https://www.jgtimes.com/news/articleView.html?idxno",
+    "url": "https://www.jgtimes.com/news/articleView.html?idxno=32152",
     "k": "혁신형 smr 기장유치 염원하는 일광읍민들",
     "id": "0f8556cd"
   },
@@ -3622,7 +3622,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "electimes.com",
-    "url": "https://www.electimes.com/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%ED%98%81%EC%8B%A0%ED%98%95%20%EC%86%8C%ED%98%95%EB%AA%A8%EB%93%88%EC%9B%90%EC%9E%90%EB%A1%9C%28SMR%29%2C%20%ED%86%B5%EC%A0%9C%EB%B4%89%EA%B5%AC%EB%8F%99%EA%B8%B0%EA%B5%AC%28CRDM%29%20%EA%B2%80%EC%A6%9D%20%EA%B3%BC%EC%A0%9C%20%EC%A7%81%EB%A9%B4",
     "k": "뉴스케일도 거친 crdm 검증 혁신형 smr도 도전장",
     "id": "a366aa9f"
   },
@@ -3776,7 +3776,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "wbcb.co.kr",
-    "url": "https://www.wbcb.co.kr/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EB%B6%80%EC%82%B0%EC%8B%9C%2C%202030%EB%85%84%EA%B9%8C%EC%A7%80%20%EC%9B%90%EC%9E%90%EB%A0%A5%EC%82%B0%EC%97%85%20%EC%9C%A1%EC%84%B1%EC%97%90%201882%EC%96%B5%20%ED%88%AC%EC%9E%85",
     "k": "부산시 2030년까지 원자력산업 육성에 1882억 투입 smr 원전해체 허브 도약",
     "id": "f267493c"
   },
@@ -3817,7 +3817,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "esnews.kr",
-    "url": "https://www.esnews.kr/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EC%98%81%EA%B5%AD%20%EC%9B%90%EC%9E%90%EB%A0%A5%2070%EB%85%84%20%EA%B2%BD%ED%97%98%2C%20%ED%95%9C%EA%B5%AD%ED%98%95%20SMR%20%EB%B0%9C%EC%A0%84%20%EB%B0%A9%ED%96%A5%20%EC%A0%9C%EC%8B%9C",
     "k": "영국 원자력 70년의 통찰 한국형 smr이 가야 할 길",
     "id": "fbaa4f4f"
   },
@@ -3831,7 +3831,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "energy-news.co.kr",
-    "url": "https://www.energy-news.co.kr/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=SMR%20%EA%B0%9C%EB%B0%9C%20%EC%B4%89%EC%A7%84%EC%9D%84%20%EC%9C%84%ED%95%9C%20%27%EA%B0%80%EC%83%81%EC%9B%90%EC%9E%90%EB%A1%9C%27%20%EA%B3%B5%EA%B0%9C",
     "k": "smr 적기 개발 촉진할 가상원자로 베일 벗다",
     "id": "19224922"
   },
@@ -3914,7 +3914,7 @@ window.SMR_NEWS = [
     "dev": "i-SMR",
     "region": "KR",
     "source": "eroun.net",
-    "url": "https://www.eroun.net/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EC%9D%B4%EC%9E%AC%EA%B7%BC%20%EA%B2%BD%EC%A3%BC%EC%8B%9C%20%EC%9B%90%EC%9E%90%EB%A0%A5%EC%A0%95%EC%B1%85%20%EC%9E%90%EB%AC%B8%EA%B4%80%2C%20%ED%98%81%EC%8B%A0%ED%98%95%20i-SMR%20%EA%B2%BD%EC%A3%BC%20%EC%9C%A0%EC%B9%98%EC%9D%98%20%ED%95%B5%EC%8B%AC%EC%9D%80%20%EC%A3%BC%EB%AF%BC%EC%88%98%EC%9A%A9%EC%84%B1",
     "k": "기고 이재근 경주시 원자력정책 자문관 혁신형 i smr 경주유치는 주민수용성이다",
     "id": "7814b8e3"
   },
@@ -3928,7 +3928,7 @@ window.SMR_NEWS = [
     "dev": "Oklo",
     "region": "US",
     "source": "theguru.co.kr",
-    "url": "https://www.theguru.co.kr/news/article.html?no",
+    "url": "https://www.google.com/search?q=%EC%98%A4%ED%81%B4%EB%A1%9C%28Oklo%29%2C%20%EB%AF%B8%EA%B5%AD%20%EC%97%90%EB%84%88%EC%A7%80%EB%B6%80%28DOE%29%20%ED%95%B5%ED%83%84%EB%91%90%20%ED%94%8C%EB%A3%A8%ED%86%A0%EB%8A%84%20%EC%9E%AC%ED%99%9C%EC%9A%A9%20%EC%82%AC%EC%97%85%20%EC%B0%B8%EC%97%AC",
     "k": "샘 올트먼 smr 오클로 에너지부 핵탄두 추출 플루토늄 원자로 연료 사업 참여",
     "id": "97b6e52e"
   },
@@ -3970,7 +3970,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "gjnews.com",
-    "url": "https://www.gjnews.com/news/view.php?idx",
+    "url": "https://www.google.com/search?q=%EA%B2%BD%EC%A3%BC%EC%9D%98%20%ED%98%81%EC%8B%A0%ED%98%95%20%EC%86%8C%ED%98%95%EB%AA%A8%EB%93%88%EC%9B%90%EC%9E%90%EB%A1%9C%28i-SMR%29%20%EC%9C%A0%EC%B9%98%2C%20%EC%A3%BC%EB%AF%BC%EC%88%98%EC%9A%A9%EC%84%B1%EC%9D%B4%20%ED%95%B5%EC%8B%AC",
     "k": "혁신형 i smr 소형모듈원자로 경주유치는 주민수용성이다",
     "id": "adb60fc4"
   },
@@ -4152,7 +4152,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "asiatoday.co.kr",
-    "url": "https://www.asiatoday.co.kr/kn/view.php?key",
+    "url": "https://www.google.com/search?q=%EA%B3%BC%EA%B8%B0%EB%B6%80%2C%20%EC%B0%A8%EC%84%B8%EB%8C%80%20SMR%20%EC%A1%B0%EA%B8%B0%ED%99%95%EB%B3%B4%20%EC%9C%84%ED%95%9C%20%EB%AF%B8%EB%9E%98%20%EC%9B%90%EC%9E%90%EB%A0%A5%20%EC%A0%95%EC%B1%85%20%EC%B6%94%EC%A7%84",
     "k": "차세대 smr 조기확보 과기부 미래 원자력 정책 수립 돌입",
     "id": "b20d13d1"
   },
@@ -4236,7 +4236,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "ikbn.news",
-    "url": "https://www.ikbn.news/news/article.html?no",
+    "url": "https://www.google.com/search?q=SMR%C2%B7%ED%95%B5%EC%97%B0%EB%A3%8C%EB%AC%BC%EC%A7%88%20%EC%95%88%EC%A0%84%20%EA%B7%9C%EC%A0%9C%20%ED%98%81%EC%8B%A0%EC%9D%84%20%EC%9C%84%ED%95%9C%20%EC%9B%90%EC%9E%90%EB%A0%A5%EC%95%88%EC%A0%84%EB%B2%95%20%EA%B0%9C%EC%A0%95",
     "k": "소형모듈원자로 smr 핵연료물질 안전 규제 혁신을 위한 원자력안전법 개정",
     "id": "9ad87ab2"
   },
@@ -4278,7 +4278,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "US",
     "source": "esnews.kr",
-    "url": "https://www.esnews.kr/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EB%AF%B8%EA%B5%AD%20%EB%89%B4%ED%96%84%ED%94%84%EC%85%94%20SMR%20%EB%B2%95%EC%95%88%20%ED%86%B5%EA%B3%BC%2C%202030%EB%85%84%EB%8C%80%20%EC%9B%90%EC%A0%84%20%EB%B0%B0%EC%B9%98%20%EB%B3%B8%EA%B2%A9%ED%99%94",
     "k": "뉴햄프셔 smr 법안 통과 2030년대 원전 배치 본격화",
     "id": "fbaa4f4f"
   },
@@ -4334,7 +4334,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "",
     "source": "news.einfomax.co.kr",
-    "url": "https://news.einfomax.co.kr/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EB%B0%94%EB%8B%A4%20%EC%9C%84%EC%97%90%20%EB%9D%84%EC%9A%B0%EB%8A%94%20%EC%9B%90%EC%9E%90%EB%A1%9C%20MSR%2C%202035%EB%85%84%20%EA%B1%B4%EC%A1%B0%20%EC%B0%A9%EC%88%98",
     "k": "smr 패권경쟁 바다 위에 띄우는 원자로 msr 2035년 건조 착수",
     "id": "42951eb3"
   },
@@ -4404,7 +4404,7 @@ window.SMR_NEWS = [
     "dev": "i-SMR",
     "region": "KR",
     "source": "electimes.com",
-    "url": "https://www.electimes.com/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EA%B8%B0%EC%9E%A5%EA%B5%B0%2C%20i-SMR%20%EC%9C%A0%EC%B9%98%20%EA%B3%B5%EA%B0%90%EB%8C%80%20%ED%99%95%EC%82%B0...%EA%B2%BD%EC%A3%BC%EC%99%80%20%EA%B2%BD%EC%9F%81%20%EB%B3%B8%EA%B2%A9%ED%99%94",
     "k": "기장군 i smr 유치 공감대 확산 경주와 유치 경쟁 본격화",
     "id": "a366aa9f"
   },
@@ -4445,7 +4445,7 @@ window.SMR_NEWS = [
     "dev": "NRC",
     "region": "US",
     "source": "Federal Register 2026-06048",
-    "url": "https://www.ecfr.gov",
+    "url": "https://www.google.com/search?q=%EB%AF%B8%EA%B5%AD%20%ED%95%B5%EA%B7%9C%EC%A0%9C%EC%9C%84%EC%9B%90%ED%9A%8C%28NRC%29%20Part%2053%20%EB%B0%9C%ED%9A%A8%2C%20%EC%B2%A8%EB%8B%A8%EB%A1%9C%20%EC%A0%84%EC%9A%A9%20%EC%9D%B8%ED%97%88%EA%B0%80%20%ED%8A%B8%EB%9E%99%20%EA%B0%9C%EC%84%A4",
     "summaryLong": "미국 핵규제위원회(NRC)의 Part 53 규정이 발효되어 첨단원자로 전용 인허가 트랙이 공식 개설되었다. 이 트랙은 위험정보 기반(Risk-informed)·성능기반(Performance-based)·기술 포괄적 특성을 갖춘 신규 인허가 경로다. 현재 신청자는 없으나 비경수로 및 소형모듈원자로(SMR) 개발사들의 향후 활용이 예상된다. Part 53은 기존 인허가 체계(Part 50, 52)의 한계를 보완하여 혁신형 원자로의 상용화 진입장벽을 낮출 것으로 평가된다.",
     "id": "313af40b"
   },
@@ -4515,7 +4515,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "electimes.com",
-    "url": "https://www.electimes.com/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EA%B2%BD%EB%82%A8%2C%20275%EC%96%B5%20%EA%B7%9C%EB%AA%A8%20SMR%20%EC%8B%9C%ED%97%98%EA%B2%80%EC%82%AC%EC%A7%80%EC%9B%90%EC%84%BC%ED%84%B0%20%EC%9C%A0%EC%B9%98",
     "k": "경남 275억 규모 smr 시험검사지원센터 유치",
     "id": "a366aa9f"
   },
@@ -4557,7 +4557,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "US",
     "source": "eia.gov",
-    "url": "https://www.eia.gov/todayinenergy/detail.php?id",
+    "url": "https://www.google.com/search?q=%EB%AF%B8%EA%B5%AD%20%EB%82%B4%20%EA%B0%9C%EB%B0%9C%20%EC%A4%91%EC%9D%B8%20%EC%86%8C%ED%98%95%EB%AA%A8%EB%93%88%EC%9B%90%EC%9E%90%EB%A1%9C%28SMR%29%EC%99%80%20%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C%EC%9B%90%EC%9E%90%EB%A1%9C",
     "k": "small modular reactors and microreactors under development in the united states",
     "id": "c8851e2b"
   },
@@ -4585,7 +4585,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "electimes.com",
-    "url": "https://www.electimes.com/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EA%B2%BD%EB%82%A8%EB%8F%84%2C%20SMR%20%ED%8C%A8%EC%8A%A4%ED%8A%B8%ED%8A%B8%EB%9E%99%20%EC%9B%90%EC%9E%90%EB%A0%A5%EC%95%88%EC%A0%84%EB%B2%95%20%EA%B0%9C%EC%A0%95%EC%95%88%20%EA%B5%AD%ED%9A%8C%20%ED%86%B5%EA%B3%BC%20%ED%99%98%EC%98%81",
     "k": "경남도 smr 패스트트랙 원자력안전법 개정안 국회 통과 환영",
     "id": "a366aa9f"
   },
@@ -4837,7 +4837,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "energydaily.co.kr",
-    "url": "https://www.energydaily.co.kr/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=SMR%20%EA%B2%BD%EC%9F%81%20%EB%8C%80%EC%9D%91%20%27%EC%9B%90%EC%9E%90%EB%A0%A5%20%EC%A7%84%ED%9D%A5%EB%B2%95%27%20%EA%B0%9C%EC%A0%95%20%EC%B6%94%EC%A7%84%2C%20%EA%B8%B0%EC%88%A0%C2%B7%EC%9D%B8%EB%A0%A5%C2%B7%EC%9E%AC%EC%A0%95%203%EC%B6%95%20%EA%B0%95%ED%99%94",
     "k": "smr 경쟁 대응 원자력 진흥법 개정 추진 기술 인력 재정 3축 강화",
     "id": "f3a8bebf"
   },
@@ -5130,7 +5130,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "lawtimes.co.kr",
-    "url": "https://www.lawtimes.co.kr/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=SMR%20%ED%8A%B9%EB%B3%84%EB%B2%95%EC%95%88%20%ED%86%B5%EA%B3%BC%2C%20%EC%B0%A8%EC%84%B8%EB%8C%80%20%EC%9B%90%EC%9E%90%EB%A0%A5%20%EC%82%B0%EC%97%85%20%EC%9C%A1%EC%84%B1%20%EB%B0%8F%20%EC%A7%80%EC%9B%90%20%EC%B2%B4%EA%B3%84%20%ED%99%95%EB%8C%80",
     "k": "smr 특별법안 통과 차세대 원자력 산업 육성 및 다각적 지원 체계의 주요 내용",
     "id": "f23932a6"
   },
@@ -5144,7 +5144,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "electimes.com",
-    "url": "https://www.electimes.com/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EC%82%B0%EB%8B%A8%20SMR%20%EC%B6%94%EC%A7%84%2C%20%EC%9B%90%EC%A0%84%20PPA%20%ED%97%88%EC%9A%A9%C2%B7%EB%AF%BC%EA%B0%84%20%EC%B0%B8%EC%97%AC%EA%B0%80%20%EA%B4%80%EA%B1%B4",
     "k": "산단 smr 띄우려면 원전 ppa 허용 민간 참여가 관건",
     "id": "a366aa9f"
   },
@@ -5297,7 +5297,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "electimes.com",
-    "url": "https://www.electimes.com/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EA%B8%B0%EC%9E%A5%EA%B5%B0%2C%20%ED%98%81%EC%8B%A0%ED%98%95%20SMR%20%EC%9C%A0%EC%B9%98%20%EB%B3%B8%EA%B2%A9%ED%99%94%E2%80%A6TF%20%EC%B6%9C%EB%B2%94%C2%B7%EC%A3%BC%EB%AF%BC%20%EC%84%A4%EB%AA%85%ED%9A%8C",
     "k": "기장군 혁신형 smr 유치 본격화 tf 출범 주민 설명회 병행",
     "id": "a366aa9f"
   },
@@ -5367,7 +5367,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "korea.kr",
-    "url": "https://www.korea.kr/news/policyNewsView.do?newsId",
+    "url": "https://www.google.com/search?q=%27SMR%20%ED%8A%B9%EB%B3%84%EB%B2%95%27%20%EA%B5%AD%ED%9A%8C%20%ED%86%B5%EA%B3%BC%E2%80%A6R%26D%C2%B7%EC%8B%A4%EC%A6%9D%20%EA%B0%80%EC%86%8D",
     "k": "smr 특별법 국회 통과 소형모듈원자로 r d 실증 가속",
     "id": "a38b0b11"
   },
@@ -5409,7 +5409,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "inpnews.kr",
-    "url": "https://www.inpnews.kr/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=SMR%2C%20%EC%9B%90%EC%9E%90%EB%A0%A5%EC%9D%98%20%EB%AF%B8%EB%9E%98%EB%A5%BC%20%EC%96%B4%EB%96%BB%EA%B2%8C%20%EB%B0%94%EA%BF%80%EA%B9%8C",
     "k": "집콕사이언스 smr 원자력의 미래를 어떻게 바꿀까",
     "id": "c1c99c1a"
   },
@@ -5521,7 +5521,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "electimes.com",
-    "url": "https://www.electimes.com/news/articleView.html?idxno",
+    "url": "https://www.google.com/search?q=%EC%82%B0%EC%97%85%EB%8B%A8%EC%A7%80%EC%97%90%EB%8F%84%20SMR%20%EB%B0%B0%EC%B9%98%20%EA%B8%B8%20%EC%97%B4%EB%A6%B0%EB%8B%A4",
     "k": "산업단지에도 smr 배치 길 열린다",
     "id": "a366aa9f"
   },
@@ -6079,7 +6079,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "ohmynews.com",
-    "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD",
+    "url": "https://www.google.com/search?q=%EC%9B%90%EC%9E%90%EB%A0%A5%20%EC%82%B0%EC%97%85%EA%B3%84%EA%B0%80%20%EA%B0%90%EC%B6%94%EB%8A%94%20SMR%EC%9D%98%20%EB%B6%88%ED%8E%B8%ED%95%9C%20%EC%A7%84%EC%8B%A4",
     "k": "새로운 미래 원자력 산업계가 감추는 smr의 불편한 진실",
     "id": "59c253bc"
   },

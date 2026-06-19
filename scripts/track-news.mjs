@@ -414,8 +414,13 @@ async function resolveGoogleNews(url){
     if (!res.ok) return url;
     const txt = await res.text();
     const part = txt.indexOf('garturlres') >= 0 ? txt.slice(txt.indexOf('garturlres')) : txt;
-    const m = part.match(/https?:\/\/[^\\"\s]+/);
-    return (m && m[0]) ? m[0] : url;
+    // capture URL incl. JSON escapes (= is sent as =, & as &, / as \/), then decode —
+    // a naive [^\\] match would stop at the first escape and truncate the query (e.g. ?idxno=123)
+    const m = part.match(/https?:\/\/(?:[^"\\\s]|\\u[0-9a-fA-F]{4}|\\.)+/);
+    if (!m) return url;
+    let u = m[0];
+    try { u = JSON.parse('"' + u + '"'); } catch(e){}
+    return u || url;
   } catch(e){ return url; }
 }
 
