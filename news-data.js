@@ -329,6 +329,48 @@ window.SMR_NEWS = [
     "id": "0741a65f"
   },
   {
+    "date": "2026-06-19",
+    "title": "센트러스 에너지(Centrus Energy), 오클로(Oklo)와 협력 심화",
+    "summary": "센트러스 에너지가 소형모듈원자로 개발사 오클로와의 관계를 강화하며 주가 20.6% 상승했다.",
+    "summaryLong": "저농축우라늄(LEU) 제조업체 센트러스 에너지(Centrus Energy)와 소형모듈원자로(SMR) 개발사 오클로(Oklo) 간의 협력이 심화되었다. 이 소식에 따라 센트러스 에너지의 주가가 20.6% 상승하며 시장의 긍정적 반응을 보였다. 양사의 협력 강화는 미국의 고급 원자력 기술 개발과 상용화 추진의 일환으로 평가된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Centrus Energy, Oklo",
+    "region": "US",
+    "source": "simplywall.st",
+    "url": "https://simplywall.st/stocks/us/energy/nyse-leu/centrus-energy/news/why-centrus-energy-leu-is-up-206-after-deepening-ties-with-o\",1,\"https://simplywall.st/stocks/us/energy/nyse-leu/centrus-energy/news/why-centrus-energy-leu-is-up-206-after-deepening-ties-with-o/amp\"]",
+    "k": "why centrus energy leu is up 20 6 after deepening ties with oklo and tightening governance",
+    "id": "9ccbfd4a"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "현대건설, 석탄발전소 소형모듈원자로(SMR)로 전환 추진",
+    "summary": "현대건설이 기존 석탄발전소를 소형모듈원자로(SMR)로 전환하는 사업을 추진하고 있다.",
+    "summaryLong": "현대건설이 석탄발전소를 소형모듈원자로(SMR)로 전환하는 프로젝트를 추진 중이다. 이는 기존 화석연료 발전 인프라를 활용하면서 저탄소·친환경 원자력 에너지로 전환하는 전략으로, 탄소중립 목표 달성과 지역 에너지 공급 안정성 확보를 동시에 추구하는 것을 의미한다. 현대건설의 이러한 움직임은 국내 SMR 산업 생태계 조성과 건설 부문의 원자력 기술 확보라는 차원에서 의미 있는 진전으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대건설",
+    "region": "KR",
+    "source": "2news.co.kr",
+    "url": "https://www.2news.co.kr/news/articleView.html?idxno\\u003d11723\",1]",
+    "k": "현대건설 석탄발전소 smr로 전환 추진",
+    "id": "49d650e9"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "경주시, 소형모듈원자로(SMR) 유치 불발에도 원자력산업 육성 의지 재확인",
+    "summary": "경주시가 소형모듈원자로(SMR) 부지선정 탈락에도 불구하고 원자력산업 육성 의지를 재확인했다.",
+    "summaryLong": "경주시는 정부의 소형모듈원자로(SMR) 부지선정에서 탈락했으나, 원자력산업 육성 및 지역 경제 활성화에 대한 의지를 재확인했다. 경주는 국내 최대 원자력 밀집 지역으로 원자력 산업 기반과 인프라가 풍부하며, SMR 부지선정 탈락 이후에도 관련 산업 생태계 조성, 기술 개발 지원, 인력 양성 등을 통해 원자력 산업의 중심지로서의 지위를 강화하겠다는 입장을 드러냈다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "stnsports.co.kr",
+    "url": "https://www.stnsports.co.kr/news/articleView.html?idxno\\u003d317997\",1]",
+    "k": "경주시 smr 유치 불발에도 원자력산업 육성 의지 재확인",
+    "id": "dd07400a"
+  },
+  {
     "date": "2026-06-18",
     "title": "부산 기장, 국내 첫 혁신형 SMR 입지 확정",
     "summary": "부산 기장이 국내 처음으로 혁신형 소형모듈원자로(SMR) 입지로 선정되었다.",
@@ -1225,6 +1267,62 @@ window.SMR_NEWS = [
     "id": "ed5f729d"
   },
   {
+    "date": "2026-06-18",
+    "title": "기장군, 대한민국 첫 혁신형 SMR 부지 선정",
+    "summary": "한국이 부산 기장에 첫 소형모듈원자로(SMR) 부지를 선정하고 원자력 신산업 거점화를 추진 중이다.",
+    "summaryLong": "한국 정부가 부산 기장군을 대한민국 첫 혁신형 소형모듈원자로(SMR) 부지로 선정했다. 이는 국내 원자력 산업의 새로운 전환점으로 평가되며, 건설 산업계로부터 최대 18조 원 규모의 경제 효과에 대한 기대를 받고 있다. 기장 부지 선정과 함께 경북 영덕에 신규 대형원전 건설이 함께 추진되며, 향후 인허가 절차 진행에 따라 건설이 가속화될 전망이다. 이 사업은 AI 등 신산업 유치의 성장동력이 될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "",
+    "region": "KR",
+    "source": "bseconomy.com",
+    "url": "http://www.bseconomy.com/news/view.php?idx\\u003d55030\\u0026page\\u003d97\",1]",
+    "k": "기장군 대한민국 첫 혁신형 smr 부지 선정 원자력 신산업 거점 도약",
+    "id": "a606f1ff"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "경주시, SMR 초도호기 선정 결과 수용",
+    "summary": "경주시가 소형모듈원자로(SMR) 초도호기 선정 결과를 수용하고 원자력산업 육성을 지속 추진하기로 발표했다.",
+    "summaryLong": "경주시는 소형모듈원자로(SMR) 초도호기 선정 결과를 받아들이며 앞으로도 원자력산업 육성에 흔들림 없이 나갈 것을 표명했다. 이는 국내 첫 SMR 부지 선정과 관련하여 지역 정부의 정책 입장을 보여주는 사항으로, 에너지 정책 및 지역개발 차원에서 의의가 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "biz.heraldcorp.com",
+    "url": "https://biz.heraldcorp.com/article/10780741\",1]",
+    "k": "경주시 smr 초도호기 선정 결과 수용 원자력산업 육성 흔들림 없이 추진",
+    "id": "6c629ca4"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "부산 기장에 국내 첫 SMR 건설…2040년 400조 시장 선점",
+    "summary": "부산시 기장군이 국내 첫 소형모듈원자로(SMR) 건설지로 선정되면서 2040년 400조 원대 글로벌 SMR 시장 진출을 노린다.",
+    "summaryLong": "부산시 기장군이 국내 최초의 소형모듈원자로(SMR) 건설 부지로 공식 낙점됨에 따라 한국이 차세대 원자력 시장 진출을 본격화한다. 정부는 2040년 예상되는 400조 원대의 글로벌 SMR 시장 선점을 전략적 목표로 삼고 기장 지역을 중심으로 SMR 산업 생태계 구축을 추진할 계획이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "betanews.net",
+    "url": "https://www.betanews.net/article/view/beta202606180098\",1]",
+    "k": "부산 기장에 국내 첫 smr 2040년 400조 시장 선점 나선다",
+    "id": "248106d7"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "기장군 SMR 건설 놓고 '찬반' 대립…환경단체 vs 부산·기장",
+    "summary": "기장군 소형모듈원자로(SMR) 건설 선정을 두고 환경단체는 즉각 철회를 요구하는 반면, 부산시와 기장군은 지역 성장 동력으로 평가하며 입장이 대립하고 있다.",
+    "summaryLong": "부산시 기장군이 국내 첫 소형모듈원자로(SMR) 건설지로 확정되면서 찬반 논쟁이 발생했다. 환경단체들은 건설 즉각 철회를 주장하는 반면, 부산시와 기장군 지방정부는 이를 지역경제 성장의 핵심 동력으로 평가하고 있어 정책 추진 과정에서 이해관계자 간 갈등이 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260618183034721\",1]",
+    "k": "환경단체 즉각 철회 vs 부산시 기장군 성장 동력 기장군 오는 smr",
+    "id": "3ce1a924"
+  },
+  {
     "date": "2026-06-17",
     "title": "태웅, 테라파워(TerraPower) 나트륨(Natrium) SMR 주기기 부품 수주",
     "summary": "국내 원전 부품 전문기업 태웅이 빌 게이츠 설립 미국 테라파워사의 4세대 소형모듈원자로(SMR) 나트륨 프로젝트에 주기기 핵심부품을 공급하는 계약을 체결했다.",
@@ -1713,6 +1811,20 @@ window.SMR_NEWS = [
     "url": "https://www.esnews.kr/news/articleView.html?idxno\\u003d4532\",1]",
     "k": "코어파워 해상 원전 smr 타당성 조사 착수",
     "id": "7971ad35"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "국내 첫 소형모듈원자로(SMR) 본궤도 진입, K-원전 수출 영토 확장",
+    "summary": "국내 첫 소형모듈원자로(SMR)가 본격 추진 단계에 진입하면서 한국 원전의 수출 경쟁력이 강화될 것으로 기대된다.",
+    "summaryLong": "국내에서 개발 중인 첫 소형모듈원자로(SMR)가 본격적인 궤도에 올라 실질적 추진 단계로 진입한 것으로 보도되었다. 이는 한국형 원자로(K-원전) 기술의 다양화를 의미하며, 기존의 대형 가압경수로(PWR) 중심 수출 구조에서 벗어나 중소형 및 첨단로 시장 진출을 통해 글로벌 수출 영토를 확장하는 전략의 일환이다. SMR의 상용화 진전은 국내 원자력 산업의 경쟁력 강화와 수출 다변화에 중요한 의미를 갖는다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260618052705239\",1]",
+    "k": "국내 첫 소형모듈원자로 본궤도 k 원전 수출 영토 넓히나",
+    "id": "dd9a7f38"
   },
   {
     "date": "2026-06-16",
@@ -2455,6 +2567,20 @@ window.SMR_NEWS = [
     "url": "https://www.rolls-royce.com/media/press-releases/2026/15-06-2026-rr-smr-selected-to-deliver-swedens-first-new-nuclear-power-for-over-40-years.aspx",
     "k": "rolls royce smr selected to deliver sweden s first new nuclear power for over 40 years rolls royce plc",
     "id": "fb5fbe15"
+  },
+  {
+    "date": "2026-06-15",
+    "title": "오클로(Oklo) 주가 연초 대비 15% 하락, 미국 에너지부(DOE) 획기적 진전으로 전환 기대",
+    "summary": "소형모듈원자로 개발사 오클로의 부진한 주가가 미국 에너지부의 획기적 기술 진전으로 반전될 수 있을 것으로 예상되고 있다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발사 오클로(Oklo)의 주식이 올해 들어 15% 하락했으나, 미국 에너지부(DOE)의 획기적인 기술 또는 정책 진전이 주가 반전의 계기가 될 수 있다는 분석이다. 오클로의 기술 개발 진행 상황과 규제 환경 개선이 향후 회사 가치 평가에 긍정적 영향을 미칠 것으로 평가된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "barchart.com",
+    "url": "https://www.barchart.com/story/news/2477128/oklo-stock-has-fallen-15-ytd-this-doe-breakthrough-could-start-to-change-everything\",1]",
+    "k": "oklo stock has fallen 15 ytd this doe breakthrough could start to change everything",
+    "id": "64e286f0"
   },
   {
     "date": "2026-06-14",
@@ -3910,6 +4036,20 @@ window.SMR_NEWS = [
     "id": "f20623f7"
   },
   {
+    "date": "2026-06-04",
+    "title": "오클로(Oklo) 주식: 투자 가치 분석",
+    "summary": "소형모듈원자로 개발사 오클로의 장기 투자 가치에 대한 시장 평가와 분석이 제시되고 있다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발 기업 오클로(Oklo)의 주식 투자 가치에 대한 분석 기사다. 오클로가 미래의 큰 수익을 창출할 수 있는 '백만장자 메이커'인지, 아니면 시장 과장인지에 대한 진솔한 평가를 제시하고 있다. 현재의 주가 수준과 회사의 기술 발전, 사업 전망을 종합적으로 검토하고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/06/04/millionaire-maker-or-market-hype-the-honest-truth/\",1]",
+    "k": "millionaire maker or market hype the honest truth about oklo",
+    "id": "62e1b727"
+  },
+  {
     "date": "2026-06-03",
     "title": "X-energy, 영국 규제기관에 Xe-100 고온가스냉각로 인허가 신청",
     "summary": "미국의 첨단원전 개발사 X-energy가 고온가스냉각로(HTGR) Xe-100을 영국 제네릭 설계 평가 절차에 신청했다.",
@@ -4187,6 +4327,20 @@ window.SMR_NEWS = [
     "id": "7cfbc59b"
   },
   {
+    "date": "2026-06-01",
+    "title": "오클로(Oklo) vs. BWX테크놀로지스(BWX Technologies): 핵심 원자력 매출 경쟁",
+    "summary": "소형모듈원자로 개발사 오클로와 원자력 부품 제조사 BWX테크놀로지스의 매출 기반과 경쟁력을 비교 분석하고 있다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발사 오클로(Oklo)와 원자력 산업 부품 제조사 BWX테크놀로지스(BWX Technologies) 간의 핵심 원자력 매출 기반과 경쟁력을 비교하는 분석이다. 두 회사의 사업 모델, 수익 창출 구조, 시장 지위를 상세히 검토하고 명확한 승자를 제시하고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo, BWX Technologies",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/coverage/charts/2026/06/01/oklo-vs-bwx-technologies-the-big-nuclear-revenue-face-off-and-one-clear-winner/\",1]",
+    "k": "oklo vs bwx technologies the big nuclear revenue face off and one clear winner",
+    "id": "ac6567f3"
+  },
+  {
     "date": "2026-05-31",
     "title": "미국, 해운 상용화용 소형모듈원자로 추진 본격화",
     "summary": "미국이 상용 해운 부문에 소형모듈원자로(SMR)를 도입하기 위한 주요 정책을 추진하고 있다.",
@@ -4213,6 +4367,20 @@ window.SMR_NEWS = [
     "url": "https://www.google.com/search?q=%EB%B6%80%EC%82%B0%EC%8B%9C%2C%202030%EB%85%84%EA%B9%8C%EC%A7%80%20%EC%9B%90%EC%9E%90%EB%A0%A5%EC%82%B0%EC%97%85%20%EC%9C%A1%EC%84%B1%EC%97%90%201882%EC%96%B5%20%ED%88%AC%EC%9E%85",
     "k": "부산시 2030년까지 원자력산업 육성에 1882억 투입 smr 원전해체 허브 도약",
     "id": "f267493c"
+  },
+  {
+    "date": "2026-05-30",
+    "title": "뉴스케일 파워(NuScale Power) 주식: $13 이하 수준의 투자 기회 검토",
+    "summary": "소형모듈원자로 개발사 뉴스케일 파워의 현재 저가 주식에 대한 장기 투자 관점의 검토를 다루고 있다.",
+    "summaryLong": "소형모듈원자로(SMR) 선도 개발사 뉴스케일 파워(NuScale Power)의 주가가 $13 이하 수준에서 형성되고 있다. 장기 투자자들이 현재의 저가 주가 수준에서 진입할 가치가 있는지를 평가하는 분석 기사다. 회사의 기술 진전, 시장 수요, 규제 환경 등 종합적 요인들을 고려한 투자 판단 자료를 제공하고 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/sectors/energy/articles/nuscale-power-still-under-13-152000477.html\",1]",
+    "k": "nuscale power is still under 13 here s whether long term investors should pounce",
+    "id": "2377e229"
   },
   {
     "date": "2026-05-29",
@@ -6924,4 +7092,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-19 21:39 KST";
+window.SMR_UPDATED = "2026-06-19 21:56 KST";
