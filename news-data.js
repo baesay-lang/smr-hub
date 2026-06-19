@@ -371,6 +371,48 @@ window.SMR_NEWS = [
     "id": "dd07400a"
   },
   {
+    "date": "2026-06-19",
+    "title": "뉴스케일파워 주가와 원자력 섹터 발전",
+    "summary": "뉴스케일파워(NuScale)와 SMR·첨단로 개발사들의 주가 및 시장 전망에 관한 분석 기사.",
+    "summaryLong": "뉴스케일파워(NuScale) 등 주요 SMR·첨단로 개발사들의 주가 움직임과 원자력 섹터 발전에 대한 시장 의견을 다룬 기사다. 엑스에너지(X-energy), 오클로(Oklo), 테라파워(TerraPower), 카이로스(Kairos Power), 롤스로이스(Rolls-Royce) SMR, BWRX-300, eVinci 등 주요 개발사들의 동향을 포괄적으로 다루고 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "뉴스케일",
+    "region": "US",
+    "source": "quiverquant.com",
+    "url": "https://www.quiverquant.com/news/NuScale+Power+Stock+%28SMR%29+Opinions+on+Nuclear+Sector+Developments\",1]",
+    "k": "nuscale power stock smr opinions on nuclear sector developments",
+    "id": "b2d8703f"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "오클로-센트러스, 피크톤 연료 공급 계약 체결",
+    "summary": "오클로(Oklo)가 센트러스(Centrus)와 피크톤(Piketon)에서 첨단핵연료 공급 계약을 체결하며 오하이오 남부를 첨단원자력 에너지 허브로 조성.",
+    "summaryLong": "오클로(Oklo)가 핵연료 제조업체 센트러스(Centrus)와 오하이오주 피크톤(Piketon)에서 첨단원자력(advanced nuclear) 연료 공급 계약을 체결했다. 이 계약은 오하이오 남부 지역을 첨단원자력 에너지 허브로 육성하기 위한 중요한 조치로, 오클로의 고속로 개발 계획을 지원하는 핵심 인프라 구축이다. 센트러스의 기존 핵연료 시설이 재가동되어 차세대 로형을 위한 연료 공급 기반을 마련한다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "오클로",
+    "region": "US",
+    "source": "portsmouth-dailytimes.com",
+    "url": "https://www.portsmouth-dailytimes.com/news/oklo-centrus-sign-fuel-agreement-in-piketon-positioning-southern-ohio-as-an-advanced-nuclear-energy/article_d5603d8c-368e-4579-97c1-c733e756d383.html\",1]",
+    "k": "oklo centrus sign fuel agreement in piketon positioning southern ohio as an advanced nuclear energy hub",
+    "id": "1da1d100"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "영덕 대형원전·기장 SMR 후보지 선정, 건설업계 '18조원 기대'",
+    "summary": "정부가 신규 대형원전 부지로 경북 영덕, 국내 첫 SMR 부지로 부산 기장을 선정하며 건설 경기 활성화 기대.",
+    "summaryLong": "한국 정부가 신규 대형원전 건설 후보지로 경북 영덕군을, 국내 첫 소형모듈원자로(SMR) 건설 후보지로 부산 기장군을 선정했다. 건설업계는 최대 18조원대의 건설 수주 기회로 평가하며, 기장은 국내 첫 원전이 건설된 지역으로서 원자력산업 거점으로의 재도약을 기대하고 있다. SMR을 통해 인공지능(AI) 등 신산업 유치의 엔진 역할을 기대하는 분석도 나오고 있다.",
+    "cat": "정책",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "m.ekn.kr",
+    "url": "https://m.ekn.kr/view.php?key\\u003d20260619020534782\",1]",
+    "k": "영덕 원전 기장 smr 후보지 선정 건설업계 최대 18조원 잭팟 기대",
+    "id": "dd1382bd"
+  },
+  {
     "date": "2026-06-18",
     "title": "부산 기장, 국내 첫 혁신형 SMR 입지 확정",
     "summary": "부산 기장이 국내 처음으로 혁신형 소형모듈원자로(SMR) 입지로 선정되었다.",
@@ -1321,6 +1363,20 @@ window.SMR_NEWS = [
     "url": "https://v.daum.net/v/20260618183034721\",1]",
     "k": "환경단체 즉각 철회 vs 부산시 기장군 성장 동력 기장군 오는 smr",
     "id": "3ce1a924"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "태웅, 4세대 SMR 주기기 핵심부품 수주…모든 SMR 레퍼런스 확보",
+    "summary": "태웅이 4세대 소형모듈원자로(SMR)의 주요기기 핵심부품을 수주했다.",
+    "summaryLong": "태웅은 4세대 소형모듈원자로(SMR) 개발 프로젝트에서 주요기기(primary component) 핵심부품 공급 계약을 체결했다. 이 수주를 통해 태웅은 다양한 SMR 레퍼런스 설계(reference design)에 참여하며 핵심 부품 공급자로서의 입지를 확대했다. 이는 국내 원자력 부품 제조업체의 첨단로 공급망 구축에 의미 있는 성과이며, 향후 SMR 상용화 단계에서의 부품 공급 기반을 마련한 것으로 평가된다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "태웅",
+    "region": "KR",
+    "source": "snmnews.com",
+    "url": "https://www.snmnews.com/news/articleView.html?idxno\\u003d570950\",1]",
+    "k": "태웅 4세대 smr 주기기 핵심부품 수주 모든 smr 레퍼런스 확보",
+    "id": "a33367c3"
   },
   {
     "date": "2026-06-17",
@@ -7092,4 +7148,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-19 21:56 KST";
+window.SMR_UPDATED = "2026-06-19 23:33 KST";
