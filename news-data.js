@@ -77,6 +77,104 @@ window.SMR_NEWS = [
     "id": "a366aa9f"
   },
   {
+    "date": "2026-06-19",
+    "title": "영덕 대형원전·기장 혁신형 SMR 부지 선정, 인허가 가속화",
+    "summary": "경상북도 영덕군이 대형원전 2기, 부산 기장군이 국내 첫 혁신형 소형모듈원자로(SMR) 건설지로 선정되어 인허가 절차 단축과 준공 일정 단축이 예상된다.",
+    "summaryLong": "한국수력원자력은 신규원전 부지선정평가위원회 회의를 통해 총 2.8GW 규모의 대형 원전 2기 건설 부지를 경상북도 영덕군으로, 혁신형 소형모듈원자로(SMR)의 첫 건설지를 부산 기장군으로 확정했다. 부지 선정 후 주민 설득에 통상 2~3년이 소요되던 것을 공모 방식으로 단축할 수 있게 되었으며, 정부는 전력 수요 대응을 위해 인허가 절차를 최대한 신속히 처리할 계획이다. 정부의 원래 준공 목표는 대형원전 2037년과 2038년, SMR 2035년이었으나 이 일정이 더욱 단축될 것으로 전망되고 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "한국수력원자력(KHNP)",
+    "region": "KR",
+    "source": "전기신문 - 전체기사",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=369257",
+    "k": "신규 대형원전은 영덕 smr은 기장 선정 인허가 빨라지며 건설에 속도",
+    "id": "89f85634"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "뉴스케일 파워, UVA(University of Virginia) Wise E2 센터로 상용화 경로 구축",
+    "summary": "뉴스케일 파워(NuScale Power)가 버지니아대 와이즈(UVA Wise) 캠퍼스의 E2 센터를 통해 소형모듈원자로(SMR) 상용화 전략을 추진 중이다.",
+    "summaryLong": "뉴스케일 파워(NuScale Power)가 버지니아대학교 와이즈(UVA Wise) 캠퍼스에 E2 센터를 설립하여 소형모듈원자로(SMR)의 상용화 경로를 조용히 구축하고 있는 것으로 보인다. 이는 미국의 소형모듈원자로 개발 및 상용화 인프라 구축의 일환으로, 뉴스케일의 기술 실증과 시장 진출 전략의 중요한 단계로 평가된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "뉴스케일(NuScale)",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/nuscale-power-smr-uva-wise-043255461.html\",1]",
+    "k": "is nuscale power s smr new uva wise e2 center quietly shaping its commercialization path",
+    "id": "c60486df"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "HD현대重, 테라파워(TerraPower)와 공급권 협약 체결",
+    "summary": "HD현대 중공업이 첨단로 개발사 테라파워(TerraPower)와 공급권 협약을 확인했다.",
+    "summaryLong": "HD현대 중공업이 차세대 소형모듈원자로 및 첨단로 개발사 테라파워(TerraPower)와 공급권 협약을 체결했다. 이 협약은 테라파워의 첨단 원자로 프로젝트 구현을 위한 부품 공급 및 제조 협력을 포함한다. HD현대는 국내 원자력 산업의 글로벌 경쟁력을 강화하고 첨단로 시장 진출의 발판을 마련하는 계기가 될 것으로 기대하고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "HD현대",
+    "region": "US",
+    "source": "marketscreener.com",
+    "url": "https://www.marketscreener.com/news/hd-hyundai-heavy-industries-confirms-supply-rights-agreement-with-terrapower-ce7f5cd2db81f62d\",1]",
+    "k": "hd hyundai heavy industries confirms supply rights agreement with terrapower",
+    "id": "1a8464cd"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "발라르 애토믹스(Valar Atomics) 워드 250(Ward 250), 미국 에너지부(DOE) 시범 프로그램 하에서 두 번째 로 임계 달성",
+    "summary": "발라르 애토믹스(Valar Atomics)의 고온가스로(HTGR) 워드 250이 미국 에너지부(DOE) 원자로 시범 프로그램 하에서 두 번째로 자율 임계 상태에 도달했다.",
+    "summaryLong": "고온가스로(HTGR) 개발사 발라르 애토믹스(Valar Atomics)가 유타(Utah) 주 에머리 카운티(Emery County)의 산 라파엘 에너지 연구소(San Rafael Energy Lab)에서 자체 개발한 워드 250(Ward 250) 원자로의 자율 임계 달성과 영점출력 시험을 완료했다. 이는 미국 에너지부(DOE)의 원자로 시범 프로그램(Reactor Pilot Program) 하에서 달성된 두 번째 사건으로, 발라르 애토믹스의 삼중 구조 등방성(TRISO) 연료 고온가스로 기술이 상용화 단계로 한 발 더 나아갔음을 보여준다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "Valar Atomics",
+    "region": "US",
+    "source": "POWER Magazine",
+    "url": "https://www.powermag.com/valar-atomics-ward-250-becomes-second-reactor-to-go-critical-under-doe-pilot-program/",
+    "k": "valar atomic s ward 250 becomes second reactor to go critical under doe pilot program",
+    "id": "830bf03e"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "한국남동발전-현대건설, 석탄발전 인프라 SMR 리트로핏 기술개발 착수",
+    "summary": "한국남동발전이 현대건설과 손잡고 노후 석탄화력발전소 인프라를 소형모듈원자로(SMR)로 전환하는 리트로핏(Retrofit) 기술개발을 시작했다.",
+    "summaryLong": "한국남동발전이 현대건설과 '석탄발전설비 인프라 연계 SMR 기술개발 연구 협력체계 구축 및 사업화 공동 추진 기반 마련을 위한 업무협약'을 체결했다. 이 협약을 통해 단계적으로 폐지될 예정인 남동발전 산하 석탄화력발전소의 기존 인프라(부지, 송전망, 냉각수 시설 등)를 활용하여 소형모듈원자로(SMR)로 전환하는 리트로핏 기술을 개발하고 사업화할 계획이다. 이는 국가 탄소중립 달성과 지역 경제 활성화를 동시에 추구하는 전략으로, 경제성·시공 속도·지역상생의 세 가지 효과를 기대하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한국남동발전·현대건설",
+    "region": "KR",
+    "source": "에너지신문 - 전체기사",
+    "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=226237",
+    "k": "노후 석탄발전 smr 경제성 속도 지역상생 다 잡는다",
+    "id": "9e04911b"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "에너토크, SMR 핵심 구동계 국산화 기여",
+    "summary": "에너토크가 소형모듈원자로(SMR)의 핵심 구동계를 국산화하는 데 기여했다.",
+    "summaryLong": "에너토크가 소형모듈원자로(SMR)의 핵심 부품인 구동계의 국산화 개발에 성공하여 국내 SMR 기술 자립화를 촉진했다. 이는 SMR 상용화에 필수적인 핵심 부품의 국내 기술 확보로, 향후 SMR 프로젝트의 비용 경쟁력과 공급망 안정성 향상에 기여할 것으로 기대된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "에너토크",
+    "region": "KR",
+    "source": "news.nate.com",
+    "url": "https://news.nate.com/view/20260619n22425\",1]",
+    "k": "에너토크 smr 핵심 구동계 국산화 기여",
+    "id": "f157249c"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "AI 인공지능이 촉발한 '원전 르네상스'…14년 만의 대형·SMR 시공권 개시",
+    "summary": "인공지능(AI) 수요 증가로 촉발된 '원전 르네상스' 속에서 14년 만에 신규 대형원전과 SMR 건설 시공권이 개시되어 건설업계가 주목하고 있다.",
+    "summaryLong": "인공지능(AI)의 급증하는 전력 수요를 배경으로 '원전 르네상스'가 도래하고 있으며, 14년 만에 신규 대형원전과 소형모듈원자로(SMR) 건설 시공권이 개시됨으로써 건설업계의 관심이 집중되고 있다. 이는 한국 정부의 원전 정책 전환과 함께 에너지 안보 및 탄소중립 목표 달성을 위한 원전 확대 전략의 구체화이다. AI 데이터센터 등 신산업의 에너지 수요가 원전 재투자를 견인하는 새로운 흐름이 형성되고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "mediapen.com",
+    "url": "https://www.mediapen.com/news/view/1105377\",1,\"https://www.mediapen.com/newsamp/view/1105377\"]",
+    "k": "ai가 쏘아 올린 원전 르네상스 14년 만의 대형 smr 시공권에 건설업계 후끈",
+    "id": "cf83129f"
+  },
+  {
     "date": "2026-06-18",
     "title": "부산 기장, 국내 첫 혁신형 SMR 입지 확정",
     "summary": "부산 기장이 국내 처음으로 혁신형 소형모듈원자로(SMR) 입지로 선정되었다.",
@@ -831,6 +929,34 @@ window.SMR_NEWS = [
     "url": "https://www.google.com/search?q=%EB%8F%84%EC%8B%AC%20%EC%9D%B8%EA%B7%BC%EC%97%90%EB%8F%84%20%EC%84%A4%EC%B9%98%20%EA%B0%80%EB%8A%A5%E2%80%A6%EA%B5%AD%EB%82%B4%20%EC%B2%AB%20SMR%20%EB%B3%B8%EA%B6%A4%EB%8F%84",
     "k": "도심 인근에도 설치 가능 국내 첫 smr 본궤도",
     "id": "8af0001b"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "스웨덴, 롤스로이스 소형모듈원자로 선택 — 40년 이상 만에 신규 원전",
+    "summary": "스웨덴이 롤스로이스(Rolls-Royce)의 소형모듈원자로를 선택하여 40년 이상 만에 신규 원전 건설을 추진한다.",
+    "summaryLong": "스웨덴이 롤스로이스(Rolls-Royce)의 소형모듈원자로(SMR) 기술을 채택하여 40년 이상의 공백 이후 처음으로 신규 원자력 발전소 건설에 나선다. 이는 유럽의 탈탄소화 및 에너지 안보 강화 전략의 일환으로, 롤스로이스 SMR 기술의 상업화에 중요한 이정표가 된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "UK",
+    "source": "gulfnews.com",
+    "url": "https://gulfnews.com/business/energy/sweden-picks-rolls-royce-modular-reactor-first-new-nuclear-power-plants-in-40-years-1.500579442\",1,\"https://gulfnews.com/amp/story/business%2Fenergy%2Fsweden-picks-rolls-royce-modular-reactor-first-new-nuclear-power-plants-in-40-years-1.500579442\"]",
+    "k": "sweden picks rolls royce modular reactors first new nuclear power plants in 40 years",
+    "id": "4ce0f85c"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "센트러스 에너지와 오클로, 소형모듈원자로용 HALEU 공급 계약 체결",
+    "summary": "센트러스 에너지(Centrus Energy)와 오클로(Oklo)가 고농축 우라늄(HALEU) 공급 계약을 체결하여 소형모듈원자로 연료 공급망을 확보했다.",
+    "summaryLong": "센트러스 에너지(Centrus Energy)와 소형모듈원자로 개발사 오클로(Oklo)가 고농축 우라늄(HALEU, High-Assay Low-Enriched Uranium) 공급 계약을 체결했다. 이 계약은 오클로의 소형모듈원자로 사업에 필요한 핵연료 공급을 안정적으로 보장하는 것으로, 미국 내 SMR 상용화 추진에 있어 핵심적인 인프라 구축 단계로 평가된다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "오클로(Oklo)",
+    "region": "US",
+    "source": "indexbox.io",
+    "url": "https://www.indexbox.io/blog/centrus-energy-to-supply-haleu-to-oklo-for-ohio-smr-campus/\",1]",
+    "k": "centrus energy and oklo sign haleu supply agreement for small modular reactors news and statistics",
+    "id": "964bfa9d"
   },
   {
     "date": "2026-06-17",
@@ -6448,4 +6574,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-19 13:21 KST";
+window.SMR_UPDATED = "2026-06-19 17:54 KST";
