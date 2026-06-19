@@ -497,6 +497,76 @@ window.SMR_NEWS = [
     "id": "e0eca70a"
   },
   {
+    "date": "2026-06-19",
+    "title": "오클로, 오하이오 기가와트 캠퍼스용 국내 핵연료 공급 확보",
+    "summary": "오클로(Oklo)가 오하이오주 시설에 공급할 핵연료 공급처를 확보했다.",
+    "summaryLong": "오클로(Oklo)가 오하이오주에 건설 중인 기가와트급 캠퍼스 시설을 위한 국내 핵연료 공급 계약을 체결했다. 이 계약은 오클로의 소형모듈원자로(SMR) 실증사업에 필수적인 핵연료 공급망을 확보하는 중요한 마일스톤이다. 국내 연료 공급 확보는 공급망 자주성과 프로젝트 진행성을 동시에 강화하는 것으로 평가된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "tradingview.com",
+    "url": "https://www.tradingview.com/news/gurufocus:77654ee19094b:0-oklo-locks-in-domestic-nuclear-fuel-supply-for-its-ohio-gigawatt-campus/\",1]",
+    "k": "oklo locks in domestic nuclear fuel supply for its ohio gigawatt campus",
+    "id": "c813673f"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "뉴스케일 파워, 패러곤(Paragon) SMR 계약 체결 후 주가 상승 후 거래 중단",
+    "summary": "뉴스케일 파워(NuScale Power)가 패러곤(Paragon) 소형모듈원자로 거래 체결 발표 후 주가가 올랐지만 준틴스데이(Juneteenth) 휴장으로 거래가 중단되었다.",
+    "summaryLong": "뉴스케일 파워(NuScale Power)가 소형모듈원자로(SMR) 관련 계약을 체결하면서 주가가 상승했으나, 미국의 준틴스데이(Juneteenth) 연방 휴일로 인해 시장 거래가 일시 중단되었다. 이 계약은 뉴스케일의 소형모듈원자로 사업 확대를 보여주는 신호로 평가되고 있다.",
+    "cat": "계약",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "ts2.tech",
+    "url": "https://ts2.tech/en/nuscale-power-halts-after-gains-on-paragon-smr-deal-juneteenth-pause/\",1]",
+    "k": "nuscale power halts after gains on paragon smr deal juneteenth pause",
+    "id": "ba36d440"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "태국 SMR(소형모듈원자로) 시장 개방, 미국 원전 기술 수출 가속",
+    "summary": "미국이 태국의 소형모듈원자로 시장 진출을 추진하며 원전 기술 수출 경쟁을 벌이고 있다.",
+    "summaryLong": "태국이 소형모듈원자로 시장을 개방하면서 미국을 비롯한 원전 기술 보유국들의 수출 경쟁이 격화되고 있다. 미국은 자국의 SMR 기술을 태국에 수출하기 위해 발빠르게 움직이고 있으며, 이는 아시아 태평양 지역에서의 미국 원전 기술 입지 강화 전략의 일환으로 평가된다. 태국의 에너지 수요 증가와 탈탄소화 목표가 SMR 도입을 촉진하고 있으며, 향후 다국적 원전 기업들의 진출 경쟁이 심화될 전망이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno\\u003d4581\",1]",
+    "k": "태국 smr 시장 열린다 미국 원전 기술 수출 속도전",
+    "id": "21e83ff3"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "부산 기장에 국내 첫 SMR(소형모듈원자로) 부지 확정",
+    "summary": "한국 정부가 부산 기장을 국내 첫 소형모듈원자로 건설 부지로 확정했다.",
+    "summaryLong": "한국 정부가 부산(Busan) 기장(Gijang)을 국내 최초의 소형모듈원자로 건설 부지로 낙점했다. 이는 한국의 원전 정책 방향을 SMR 중심으로 전환하는 중요한 결정으로, 정부는 이를 통해 세계 시장에 한국형 원전 모델을 제시할 계획이다. 기장 부지 선정은 한국의 에너지 안보 강화와 탄소 중립 달성을 위한 전략적 결정으로 평가되며, 향후 국내 SMR 산업 발전의 거점이 될 것으로 기대된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "opinionnews.co.kr",
+    "url": "https://www.opinionnews.co.kr/news/articleView.html?idxno\\u003d140325\",1]",
+    "k": "소형모듈원자로 smr 부지 부산 기장 낙점 세계시장에 한국형 원전 모델 제시",
+    "id": "d1ba9676"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "미국 유일 원자로 설계승인 뉴스케일, 착공이 관건",
+    "summary": "미국 유일의 SMR 설계승인을 받은 뉴스케일(NuScale)의 다음 과제는 실제 착공 단계 진입이다.",
+    "summaryLong": "미국 유일하게 원자로 설계승인(설계인증)을 획득한 뉴스케일(NuScale)은 규제 단계를 완료했으나, 본격적인 상용화를 위해서는 실제 건설 착공이 중요한 과제로 남아있다. 뉴스케일은 미국 에너지부(DOE) 지원 프로젝트와 민간 고객 확보를 통해 초기 프로젝트를 추진 중이며, 착공 일정과 비용 확보가 회사의 상업적 성공 여부를 결정할 핵심 요소다. 이는 전 세계 SMR 기술의 상용화 진전을 보여주는 중요한 지표로 평가되고 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "edaily.co.kr",
+    "url": "https://www.edaily.co.kr/News/Read?newsId\\u003d01174246645483688\\u0026mediaCodeNo\\u003d257\",1]",
+    "k": "유일 원자로 설계승인 smr 누스케일 관건은 착공",
+    "id": "564edefa"
+  },
+  {
     "date": "2026-06-18",
     "title": "부산 기장, 국내 첫 혁신형 SMR 입지 확정",
     "summary": "부산 기장이 국내 처음으로 혁신형 소형모듈원자로(SMR) 입지로 선정되었다.",
@@ -1475,6 +1545,20 @@ window.SMR_NEWS = [
     "url": "https://www.pressian.com/pages/articles/2026061811220084105\",1]",
     "k": "기장군 혁신형 smr 최종 부지 확정",
     "id": "845930a4"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "기장 SMR(소형모듈원자로) 2030년경 착공 전망",
+    "summary": "부산 기장지구의 소형모듈원자로 건설이 2030년경 착공될 것으로 전망된다.",
+    "summaryLong": "부산 기장지구에 건설될 예정인 소형모듈원자로(SMR)의 착공이 2030년경으로 전망되고 있다. 이는 한국의 SMR 도입 및 국내 건설 추진 일정을 보여주는 것으로, 정부의 원전 정책 추진 로드맵과 연계된 지역 개발 계획이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "kookje.co.kr",
+    "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code\\u003d0200\\u0026key\\u003d20260619.22003005454\",1]",
+    "k": "기장 smr 2030년께 착공 전망",
+    "id": "33b3ad61"
   },
   {
     "date": "2026-06-17",
@@ -4204,6 +4288,20 @@ window.SMR_NEWS = [
     "id": "62e1b727"
   },
   {
+    "date": "2026-06-04",
+    "title": "미국원자력위원회(NRC), 테라파워 나트륨 원자로 건설허가 신청서 접수",
+    "summary": "미국원자력위원회(NRC)가 테라파워(TerraPower)의 나트륨(Natrium) 고속로에 대한 건설허가 신청서를 접수했다.",
+    "summaryLong": "미국원자력위원회(NRC)가 테라파워(TerraPower)의 나트륨(Natrium) 소듐냉각고속로에 대한 건설허가(Construction Permit) 신청서를 공식 접수(Docket)했다. 이는 나트륨 원자로의 설계·안전성 검토가 본격적으로 진행되는 단계로, 미국의 첨단원자로 인허가 절차가 구체적으로 진행되고 있음을 나타낸다. 나트륨 원자로는 발전과 열 공급을 동시에 할 수 있는 기술로 주목받고 있다.",
+    "cat": "인허가",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "energy.gov",
+    "url": "https://www.energy.gov/ne/articles/nrc-dockets-construction-permit-application-terrapowers-natrium-reactor\",1]",
+    "k": "nrc dockets construction permit application for terrapower s natrium reactor",
+    "id": "4008c0c7"
+  },
+  {
     "date": "2026-06-03",
     "title": "X-energy, 영국 규제기관에 Xe-100 고온가스냉각로 인허가 신청",
     "summary": "미국의 첨단원전 개발사 X-energy가 고온가스냉각로(HTGR) Xe-100을 영국 제네릭 설계 평가 절차에 신청했다.",
@@ -4423,6 +4521,20 @@ window.SMR_NEWS = [
     "url": "https://finance.yahoo.com/markets/stocks/articles/im-calling-oklo-very-different-133500870.html",
     "k": "i m calling it oklo will be a very different stock after july for 1 reason",
     "id": "a544282d"
+  },
+  {
+    "date": "2026-06-02",
+    "title": "뉴스케일 파워, 신규 이사회 멤버 2인 영입 발표",
+    "summary": "뉴스케일 파워(NuScale Power)가 지속적인 성장과 리더십을 지원할 신규 이사회 멤버 2인을 영입했다.",
+    "summaryLong": "뉴스케일 파워(NuScale Power)가 회사의 지속적 성장과 경영 리더십 강화를 위해 이사회에 신규 멤버 2명을 추가 영입했다고 발표했다. 이는 뉴스케일이 소형모듈원자로 실증과 상용화 단계로의 진입 과정에서 경영진 확충을 통해 조직 역량을 강화하려는 전략으로 평가된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "nuscalepower.com",
+    "url": "https://www.nuscalepower.com/press-releases/2026/nuscale-power-announces-two-new-board-members-to-support-continued-growth-and-leadership\",1,\"https://www.nuscalepower.com/press-releases/2026/nuscale-power-announces-two-new-board-members-to-support-continued-growth-and-leadership?hs_amp\\u003dtrue\"]",
+    "k": "nuscale power announces two new board members to support continued growth and leadership",
+    "id": "9aa5b2a2"
   },
   {
     "date": "2026-06-01",
@@ -6324,6 +6436,20 @@ window.SMR_NEWS = [
     "id": "a366aa9f"
   },
   {
+    "date": "2026-01-09",
+    "title": "오클로·메타, 오하이오 남부 1.2GW 핵에너지 개발 협약 체결",
+    "summary": "오클로(Oklo)와 메타(Meta)가 오하이오주 남부에서 1.2기가와트(GW) 규모의 핵에너지 개발을 지원하기 위한 협약을 체결했다.",
+    "summaryLong": "오클로(Oklo)와 메타(Meta)가 오하이오주 남부에서 추진할 1.2기가와트(GW) 규모의 소형모듈원자로 기반 핵에너지 개발을 지원하기 위한 협력 협약을 체결했다. 메타는 데이터센터의 전력 수요 증가에 대응하기 위해 오클로와 협력하게 되며, 이는 대형 기술기업의 청정에너지 수요와 SMR 사업의 결합을 보여주는 중요한 사례이다. 이 프로젝트는 오클로의 오하이오 캠퍼스 구축의 핵심 수요처 확보를 의미한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "oklo.com",
+    "url": "https://oklo.com/newsroom/news-details/2026/Oklo-Meta-Announce-Agreement-in-Support-of-1-2-GW-Nuclear-Energy-Development-in-Southern-Ohio/default.aspx\",1]",
+    "k": "oklo meta announce agreement in support of 1 2 gw nuclear energy development in southern ohio",
+    "id": "30792dab"
+  },
+  {
     "date": "2026-01-08",
     "title": "중국 소형모듈원자로 비핵 증기 시운전 완료",
     "summary": "중국이 개발한 소형모듈원자로가 비핵 증기 시운전(non-nuclear steam test)을 성공적으로 완료했다.",
@@ -7260,4 +7386,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-20 07:33 KST";
+window.SMR_UPDATED = "2026-06-20 08:10 KST";
