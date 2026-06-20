@@ -567,6 +567,48 @@ window.SMR_NEWS = [
     "id": "564edefa"
   },
   {
+    "date": "2026-06-19",
+    "title": "센트루스 에너지(Centrus Energy), 오클로(Oklo) HALEU 공급 계약으로 주가 12.4% 상승",
+    "summary": "센트루스 에너지(Centrus Energy)가 오클로(Oklo)와 고농축우라늄(HALEU) 공급 계약을 체결하면서 주가가 12.4% 급등했다.",
+    "summaryLong": "센트루스 에너지(Centrus Energy)가 오클로(Oklo)와 고농축우라늄(HALEU, High-Assay Low-Enriched Uranium) 공급 계약을 체결하며 시장의 주목을 받았다. 이 계약으로 센트루스의 뉴욕증권거래소(NYSE) 상장 주식(LEU)이 12.4% 상승하며 강세를 보였다. 오클로의 오로라(Aurora) 소형모듈원자로(SMR) 다섯 기가 오하이오(Ohio)에 건설될 예정이며, 이번 연료 공급 계약은 미국의 첨단 원자로 개발 생태계 확대를 의미한다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Centrus, Oklo",
+    "region": "US",
+    "source": "foreignpolicyjournal.com",
+    "url": "https://www.foreignpolicyjournal.com/2026/06/19/centrus-energy-nyse-leu-stock-price-surges-12-4-on-oklo-haleu-supply-deal-can-the-rally-continue/\",1]",
+    "k": "centrus energy nyse leu stock price surges 12 4 on oklo haleu supply deal can the rally continue",
+    "id": "0ccf1497"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "오클로(Oklo)·센트루스, 오하이오 오로라(Aurora) 5기용 HALEU 연료 공급 계약 체결",
+    "summary": "오클로(Oklo)와 센트루스 에너지(Centrus Energy)가 오하이오의 오로라(Aurora) 소형모듈원자로 5기에 공급할 고농축우라늄(HALEU) 연료 공급 계약을 체결했다.",
+    "summaryLong": "오클로(Oklo)와 센트루스 에너지(Centrus Energy)가 고농축우라늄(HALEU, High-Assay Low-Enriched Uranium) 연료 공급 계약을 공식 체결했다. 이 계약은 오클로의 오로라(Aurora) 소형모듈원자로(SMR) 5기가 오하이오(Ohio)에 건설될 때 필요한 연료를 센트루스가 공급하는 내용을 담고 있다. 센트루스는 미국의 주요 우라늄 농축 시설을 운영하는 기업으로, 이번 계약은 미국의 선진 원자로 개발 전략과 국내 우라늄 공급망 확보를 동시에 추진하는 정책의 일환이다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Oklo, Centrus",
+    "region": "US",
+    "source": "energynews.pro",
+    "url": "https://energynews.pro/en/oklo-and-centrus-sign-haleu-fuel-agreement-for-five-aurora-reactors-in-ohio\",1]",
+    "k": "oklo and centrus sign haleu fuel agreement for five aurora reactors in ohio",
+    "id": "d2e2229d"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "신규원전·소형모듈원자로(SMR) 부지 선정에 대한 언론의 평가",
+    "summary": "신규원전과 소형모듈원자로(SMR) 부지 선정 발표에 대해 주요 언론이 긍정적 반응을 보였다.",
+    "summaryLong": "정부가 발표한 신규원전과 소형모듈원자로(SMR) 부지 선정에 대해 국내 주요 언론사들이 지지와 환영의 의견을 드러냈다. 대형원전과 소형모듈원자로(SMR)의 병행 추진이 한국의 에너지 안보와 탄소중립 목표 달성에 기여할 것이라는 평가가 중심이다. 이는 정부의 원자력 정책이 사회적 합의 기반을 확보하고 있음을 시사하는 긍정적 신호로 해석된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "mediatoday.co.kr",
+    "url": "https://www.mediatoday.co.kr/news/articleView.html?idxno\\u003d335271\",1]",
+    "k": "신규 원전 smr 부지 선정에 환영한 신문사들은",
+    "id": "78d3bbd8"
+  },
+  {
     "date": "2026-06-18",
     "title": "부산 기장, 국내 첫 혁신형 SMR 입지 확정",
     "summary": "부산 기장이 국내 처음으로 혁신형 소형모듈원자로(SMR) 입지로 선정되었다.",
@@ -1561,6 +1603,90 @@ window.SMR_NEWS = [
     "id": "33b3ad61"
   },
   {
+    "date": "2026-06-18",
+    "title": "기장에 첫 SMR 건설…부산, '에너지 전환' 중심지로",
+    "summary": "한국의 부산 기장에 국내 첫 소형모듈원자로(SMR)가 건설될 예정이며, 부산이 에너지 전환의 중심지로 도약할 것으로 기대된다.",
+    "summaryLong": "한국 부산광역시 기장군에 국내 첫 소형모듈원자로(SMR)가 건설될 계획이다. 기장은 이미 한국의 첫 원자력발전소가 들어선 역사적 의미 있는 지역으로, 이번 SMR 건설을 통해 에너지 전환과 첨단 원자력 기술 실증의 중심지로 거듭날 것으로 예상된다. 이는 정부의 원자력 정책 방향을 반영한 것으로, 대형 원전(영덕)과 함께 소형 모듈식 원자로 다원화 전략의 일환이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "kookje.co.kr",
+    "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code\\u003d0200\\u0026key\\u003d20260619.22001005404\",1]",
+    "k": "기장에 첫 smr 부산 에너지 전환 중심지로",
+    "id": "8502e97e"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "신규 대형원전 영덕·국내 첫 SMR 기장에 건설 결정",
+    "summary": "한국이 신규 대형원전을 경주 영덕에, 국내 첫 소형모듈원자로(SMR)를 부산 기장에 건설하기로 결정했다.",
+    "summaryLong": "한국 정부가 탈탄소 및 에너지 안보 강화를 위한 원자력 발전 정책의 일환으로 신규 대형원전 부지를 경상북도 영덕으로, 국내 첫 소형모듈원자로(SMR) 부지를 부산광역시 기장으로 최종 확정했다. 이는 기존 대형 원전과 새로운 소형 모듈식 원자로 기술을 병행하는 선진국형 에너지 정책을 추진하는 전략이며, 기장은 한국 원자력 발전의 시작점이자 첨단 원자로 기술의 신 출발지가 될 것으로 기대된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "korean-culture.org",
+    "url": "https://www.korean-culture.org/koreanet/view.do?seq\\u003d1054781\\u0026page\\u003d1\\u0026pageSize\\u003d10\\u0026photoPageSize\\u003d6\\u0026totalCount\\u003d0\\u0026searchType\\u003dnull\\u0026searchText\\u003d\\u0026searchCondition\\u003d1\\u0026cateCode\\u003d\",1]",
+    "k": "코리아넷뉴스 신규 대형원전 영덕 국내 첫 smr 기장에 짓는다",
+    "id": "b1fe055f"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "경주의 소형모듈원자로(SMR) 유치 실패, 원자력 중심 도시 도약은 계속된다",
+    "summary": "경주가 소형모듈원자로(SMR) 건설 후보지 선정에서 탈락했으나, 원자력 산업 중심 도시로서의 역할 강화는 지속될 것으로 전망된다.",
+    "summaryLong": "부산 기장군이 국내 첫 소형모듈원자로(SMR) 건설지로 선정되면서, 원자력 산업 거점 도시를 지향해온 경주는 이번 선정에서 탈락하게 되었다. 그러나 경주는 이미 월성원전(月城原電) 등 대규모 원자력 시설을 보유하고 있으며, 향후 지역 에너지 정책과 원자력 산업의 고도화를 통해 원자력 중심 도시로서의 입지를 계속 강화할 수 있을 것으로 평가된다. 이는 소형모듈원자로(SMR) 부지 선정이 전국의 원자력 정책 추진에 미치는 영향을 보여주는 사례다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "2news.co.kr",
+    "url": "https://www.2news.co.kr/news/articleView.html?idxno\\u003d11468\",1]",
+    "k": "경주 smr 유치 실패 원자력 중심 도시 도약은 계속된다",
+    "id": "d38336e1"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "원전주, 신규원전·소형모듈원자로(SMR) 부지 선정 발표에 상승 후 조정",
+    "summary": "신규원전과 소형모듈원자로(SMR) 부지 선정 발표 이후 원자력 관련 주가가 상승했다가 일부 조정되었다.",
+    "summaryLong": "정부의 신규원전과 소형모듈원자로(SMR) 부지 선정 발표에 반응하여 원자력 산업 관련 주가가 초기에 상승세를 보였으나, 이후 상승폭의 일부를 반납하는 조정 현상을 보였다. 이는 부지 선정이라는 상징적 신호에 대한 시장의 긍정적 평가가 있으나, 실제 사업 추진 과정의 불확실성에 대한 신중한 접근이 함께 이루어지고 있음을 의미한다. 소형모듈원자로(SMR) 사업의 경제성과 건설 일정에 대한 구체적 정보가 추가로 필요한 상황이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "yna.co.kr",
+    "url": "https://www.yna.co.kr/view/AKR20260618048551008\",1,\"https://www.yna.co.kr/amp/view/AKR20260618048551008\"]",
+    "k": "특징주 원전주 원전 smr 부지 선정에 올랐다가 상승폭 반납 종합",
+    "id": "cd5db4f2"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "경주시, SMR(소형모듈원자로) 초도호기 탈락 결과 수용",
+    "summary": "경주시가 SMR 초도호기 유치 탈락을 수용하며 국가산단과 문무대왕연구소 사업 차질이 없을 것으로 발표했다.",
+    "summaryLong": "경주시가 소형모듈원자로(SMR) 초도호기 건설부지 선정에서 탈락한 결과를 공식 수용했다. 시는 이번 탈락이 원자력산업 중심도시 전략에 영향을 주지 않을 것으로 강조하면서 국가산단과 문무대왕연구소 등 관련 사업들이 차질 없이 진행될 것임을 밝혔다. 탈락 발표 후 지역의 원자력산업 육성 계획을 지속적으로 추진하기로 하는 정공법으로 대응하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "straightnews.co.kr",
+    "url": "https://www.straightnews.co.kr/news/articleView.html?idxno\\u003d305086\",1,\"https://www.straightnews.co.kr/news/articleViewAmp.html?idxno\\u003d305086\"]",
+    "k": "경주시 smr 초도호기 탈락 결과 수용 국가산단 문무대왕연구소 차질 없다 정공법",
+    "id": "6629f0cb"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "SMR 초도호기 유치 불발한 경주, 원자력산업 중심도시 전략 계속 추진",
+    "summary": "경주시가 SMR 초도호기 유치에 실패했으나 원자력산업 중심도시로서의 전략을 지속 추진할 계획이다.",
+    "summaryLong": "SMR(소형모듈원자로) 초도호기 건설부지 선정에서 탈락한 경주시는 이 결과에도 불구하고 원자력산업 중심도시로서의 발전 전략을 계속 추진하기로 결정했다. 경주는 기존의 원자력산업 인프라와 관련 기관들을 바탕으로 원자력산업 생태계 조성에 집중할 방침이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "shinailbo.co.kr",
+    "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno\\u003d5031877\",1]",
+    "k": "smr 초도호기 유치 불발한 경주 원자력산업 중심도시 전략은 계속",
+    "id": "fc65b5dc"
+  },
+  {
     "date": "2026-06-17",
     "title": "태웅, 테라파워(TerraPower) 나트륨(Natrium) SMR 주기기 부품 수주",
     "summary": "국내 원전 부품 전문기업 태웅이 빌 게이츠 설립 미국 테라파워사의 4세대 소형모듈원자로(SMR) 나트륨 프로젝트에 주기기 핵심부품을 공급하는 계약을 체결했다.",
@@ -2063,6 +2189,48 @@ window.SMR_NEWS = [
     "url": "https://v.daum.net/v/20260618052705239\",1]",
     "k": "국내 첫 소형모듈원자로 본궤도 k 원전 수출 영토 넓히나",
     "id": "dd9a7f38"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "신규 대형원전 부지 경북 영덕…SMR은 부산 기장",
+    "summary": "한국 정부가 신규 대형원전 부지로 경상북도 영덕을, 첫 소형모듈원자로(SMR) 부지로 부산 기장을 선정했다.",
+    "summaryLong": "한국 정부가 향후 원자력 발전 다원화 전략의 일환으로 신규 대형원전 건설 부지를 경상북도 영덕으로, 국내 첫 소형모듈원자로(SMR) 건설 부지를 부산광역시 기장으로 확정했다. 이는 대형 원전과 소형 모듈식 원자로를 병행 추진하는 정부의 원자력 정책 방향을 반영한 결정이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "yna.co.kr",
+    "url": "https://www.yna.co.kr/amp/view/MYH20260617018100038\",1,\"https://www.yna.co.kr/amp/view/MYH20260617018100038\"]",
+    "k": "신규 대형원전 부지 경북 영덕 smr은 부산 기장",
+    "id": "5cacd3bf"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "영덕 대형원전·기장 SMR 후보지 확정, 신규 원전 건설 절차 본격화",
+    "summary": "영덕 대형원전과 기장 소형모듈원자로(SMR)가 건설부지 후보지로 확정되며 신규 원전 건설 절차가 본격화된다.",
+    "summaryLong": "정부가 신규 대형원전 건설부지로 경상북도 영덕을, 소형모듈원자로(SMR) 건설부지로 부산 기장을 최종 확정했다. 이로써 한국의 신규 원전 건설 사업이 실질적인 착공 단계로 진입하게 되었으며, 관련된 행정 및 규제 절차가 본격적으로 시작될 것으로 전망된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "hellodd.com",
+    "url": "https://www.hellodd.com/news/articleView.html?idxno\\u003d112158\",1]",
+    "k": "영덕 대형원전 기장 smr 후보지로 확정 신규 원전 건설 절차 본격",
+    "id": "2fa5c8d8"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "신규 대형원전 부지 영덕, SMR 기장으로 최종 선정",
+    "summary": "정부가 신규 대형원전 건설부지로 영덕, 소형모듈원자로(SMR)로 기장을 최종 선정했다.",
+    "summaryLong": "정부는 신규 원전 건설 사업의 부지 선정을 완료하여 대형원전 건설부지로 경상북도 영덕, 소형모듈원자로(SMR) 건설부지로 부산 기장을 최종 선정하였다. 이는 한국의 원자력 발전 확대 정책의 핵심 결정으로, 두 지역에서 각각 대형 경수로와 소형모듈원자로의 건설이 추진될 예정이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "magazine.hankyung.com",
+    "url": "https://magazine.hankyung.com/business/amp/202606172828b\",1]",
+    "k": "속보 신규 대형 원전 부지에 영덕 smr은 기장 최종 선정",
+    "id": "2584173f"
   },
   {
     "date": "2026-06-16",
@@ -7386,4 +7554,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-20 08:10 KST";
+window.SMR_UPDATED = "2026-06-20 08:54 KST";
