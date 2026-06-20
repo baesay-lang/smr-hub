@@ -7,6 +7,20 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-06-20",
+    "title": "국립한국해양대, 세계 첫 해양 SMR 추진단 출범",
+    "summary": "국립한국해양대학교가 세계 최초로 해양 소형모듈원자로(SMR) 추진단을 출범하고 국제인증 허브 구축을 추진하고 있다.",
+    "summaryLong": "국립한국해양대학교는 세계 최초의 해양 소형모듈원자로(SMR) 추진단을 출범하였다. 이 추진단은 해상 플랫폼 기반 SMR 기술 개발 및 표준화를 담당하며, 국제 인증 허브로서의 지위 확보를 목표로 하고 있다. 이는 한국의 해양 에너지 산업과 SMR 기술을 결합한 차별화된 전략으로, 도서 지역 전력 공급, 해수 담수화, 산업 열 공급 등 다양한 응용 분야에 활용될 전망이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "국립한국해양대",
+    "region": "KR",
+    "source": "mnlnews.net",
+    "url": "https://mnlnews.net/news/view.php?bIdx\\u003d48638\",1]",
+    "k": "국립한국해양대 세계 첫 해양 smr 추진단 출범 국제인증 허브 도전",
+    "id": "bdfce9ac"
+  },
+  {
     "date": "2026-06-19",
     "title": "오클로(Oklo) 주가 급등",
     "summary": "선진 소형모듈원자로(SMR) 및 첨단 원자로 개발사인 오클로(Oklo)의 주가가 목요일 큰 폭으로 상승했다.",
@@ -607,6 +621,20 @@ window.SMR_NEWS = [
     "url": "https://www.mediatoday.co.kr/news/articleView.html?idxno\\u003d335271\",1]",
     "k": "신규 원전 smr 부지 선정에 환영한 신문사들은",
     "id": "78d3bbd8"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "태국 SMR 시장 개방, 미국·한국 원전 수출 경쟁 심화",
+    "summary": "태국이 소형모듈원자로(SMR) 시장을 개방하면서 미국과 한국의 원전 수출 경쟁이 심화되고 있다.",
+    "summaryLong": "태국이 소형모듈원자로(SMR) 시장을 개방함에 따라 미국과 한국 원전산업 간의 전략적 경쟁이 가속화되고 있다. 미국은 자국의 주요 SMR 개발사들의 기술 수출을 통해 아시아-태평양 시장 진출을 빠르게 추진하고 있으며, 한국 원전산업도 이에 대응하는 전략적 신호를 보이고 있다. 태국의 SMR 도입은 동남아시아 지역의 에너지 전환 흐름을 반영하며, 주요 원전 수출국들에게 중요한 시장 기회가 될 것으로 분석되고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno\\u003d4581\",1]",
+    "k": "태국 smr 시장 열린다 미국 원전수출 속도전 한국 원전산업 전략적 신호",
+    "id": "21e83ff3"
   },
   {
     "date": "2026-06-18",
@@ -1685,6 +1713,34 @@ window.SMR_NEWS = [
     "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno\\u003d5031877\",1]",
     "k": "smr 초도호기 유치 불발한 경주 원자력산업 중심도시 전략은 계속",
     "id": "fc65b5dc"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "부산 기장에 국내 첫 소형모듈원자로(SMR) 건설 추진",
+    "summary": "부산 기장에 국내 첫 소형모듈원자로(SMR) 건설이 추진되며, 새로운 성장 기회로 평가되고 있다.",
+    "summaryLong": "한국이 부산 기장에 국내 첫 소형모듈원자로(SMR)를 건설하기로 추진하고 있다. 이는 경북 영덕의 신규 대형원전 건설과 함께 한국의 원전 확대 정책의 일환으로, SMR을 새로운 성장 동력으로 육성하려는 국가적 전략이다. 정부와 지자체는 SMR을 통해 인공지능(AI) 등 신산업 유치의 핵심 에너지원으로 기대하고 있으며, 이를 통해 지역 경제 활성화와 미래 에너지 안보를 강화할 계획이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "marketin.edaily.co.kr",
+    "url": "https://marketin.edaily.co.kr/News/ReadE?newsId\\u003d01689206645483360\",1]",
+    "k": "부산 기장에 smr 소형 원전 블루오션 선점 기회다",
+    "id": "7689f0e4"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "뉴스케일(NuScale) SMR 핵심 안전 시스템 최종 설계 착수",
+    "summary": "뉴스케일(NuScale)이 소형모듈원자로(SMR)의 핵심 안전 시스템에 대한 최종 설계를 착수했다.",
+    "summaryLong": "뉴스케일(NuScale)이 자사 소형모듈원자로(SMR) 프로젝트의 핵심 안전 시스템에 대한 최종 설계 단계를 시작했다. 이는 뉴스케일의 SMR 개발이 설계 검증 단계에서 상용화 실현을 위한 실질적 진전을 이루었음을 의미한다. 안전 시스템 최종 설계는 규제 인가와 실제 건설으로 가는 중요한 마일스톤이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "2news.co.kr",
+    "url": "https://www.2news.co.kr/news/articleView.html?idxno\\u003d11517\",1]",
+    "k": "뉴스케일 smr 핵심 안전 시스템 최종 설계 착수",
+    "id": "732b8ba4"
   },
   {
     "date": "2026-06-17",
@@ -6366,6 +6422,20 @@ window.SMR_NEWS = [
     "id": "a366aa9f"
   },
   {
+    "date": "2026-02-24",
+    "title": "GE 버노바, 폴란드 BWRX-300 배치 설계 개발 진전",
+    "summary": "GE 버노바(GE Vernova)가 폴란드에 소형모듈원자로(SMR) BWRX-300(비등경수로)을 배치하기 위한 설계 개발에서 주요 진전을 이루었다.",
+    "summaryLong": "GE 버노바(GE Vernova)는 폴란드 내 BWRX-300 소형모듈원자로(SMR) 배치 계획이 설계 개발 단계에서 중요한 진전을 이루었다고 발표했다. BWRX-300은 비등경수로(BWR) 기반의 300MW급 소형 원전으로, GE 버노바가 추진 중인 핵심 SMR 프로젝트다. 폴란드는 탈석탄 에너지 정책의 일환으로 SMR 도입을 추진하고 있으며, 이번 설계 개발 진전은 유럽 내 SMR 시장 진출의 중요한 마일스톤이 될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "BWR",
+    "dev": "GE 버노바",
+    "region": "US",
+    "source": "gevernova.com",
+    "url": "https://www.gevernova.com/news/press-releases/deployment-bwrx-300-small-modular-reactor-poland-major-step-forward-design-development\",1]",
+    "k": "deployment of bwrx 300 small modular reactor in poland takes major step forward with design development",
+    "id": "cb4c6ccf"
+  },
+  {
     "date": "2026-02-22",
     "title": "퍼듀 대학교(Purdue University)의 소형모듈원자로(SMR) 핵 연구 패널 토론",
     "summary": "퍼듀 대학교에서 소형모듈원자로 핵 연구에 관한 패널 토론을 개최했다.",
@@ -7554,4 +7624,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-20 08:54 KST";
+window.SMR_UPDATED = "2026-06-20 16:13 KST";
