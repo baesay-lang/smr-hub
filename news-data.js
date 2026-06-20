@@ -77,6 +77,48 @@ window.SMR_NEWS = [
     "id": "3c7fea96"
   },
   {
+    "date": "2026-06-20",
+    "title": "오클로, 센트러스 연료 계약 체결로 주가 상승",
+    "summary": "오클로(Oklo)가 센트러스(Centrus)와 핵연료 공급 계약을 체결하면서 원전 공급망 우려 해소에 따른 주가 급등이 이루어졌다.",
+    "summaryLong": "오클로(Oklo)와 센트러스(Centrus)의 핵연료 공급 계약 체결이 주목받으면서 오클로의 주가가 주간 상승률을 기록했다. 이 계약은 소형모듈원자로(SMR) 및 첨단로 상용화 과정에서 핵연료 공급의 안정성을 확보하는 데 중요한 의미를 갖는다. 센트러스는 미국의 주요 농축 연료 공급사로, 원전 산업의 공급망 리스크에 대한 시장 우려가 이 계약 체결로 완화된 것으로 해석된다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "ts2.tech",
+    "url": "https://ts2.tech/en/oklo-rises-for-the-week-after-centrus-fuel-agreement-draws-attention-to-nuclear-supply-concerns/\",1]",
+    "k": "oklo rises for the week after centrus fuel agreement draws attention to nuclear supply concerns",
+    "id": "cfdd9ddc"
+  },
+  {
+    "date": "2026-06-20",
+    "title": "소형모듈원자로, 국가안보 우선순위 부상",
+    "summary": "소형모듈원자로(SMR)가 미국의 국가안보 전략의 우선순위로 대두되는 배경과 의의를 분석한 기사이다.",
+    "summaryLong": "오일프라이스(OilPrice.com)는 소형모듈원자로(SMR)가 미국의 국가안보 및 에너지 독립성 전략에서 왜 우선순위 기술로 부상하고 있는지를 분석했다. SMR은 분산형 전력 공급, 공정열 이용, 그리고 공급망 자립화 측면에서 전략적 중요성을 갖는 것으로 평가된다. 이는 AI 데이터센터의 전력 수요 증가, 탄소중립 산업 전환, 에너지 안보 강화 등 미국의 정책 목표와 부합하는 기술로 인식되고 있음을 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "oilprice.com",
+    "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Why-Small-Modular-Reactors-Are-Becoming-a-National-Security-Priority.html\",1,\"https://oilprice.com/Alternative-Energy/Nuclear-Power/Why-Small-Modular-Reactors-Are-Becoming-a-National-Security-Priority.amp.html\"]",
+    "k": "why small modular reactors are becoming a national security priority crude oil prices today",
+    "id": "1b2246d3"
+  },
+  {
+    "date": "2026-06-20",
+    "title": "한국형 SMR 본궤도…AI 전력 400조 시장 승부처",
+    "summary": "한국형 소형모듈원자로(SMR)가 상용화 단계로 진입하면서 AI 전력 시장에서의 경쟁력이 주목받고 있다. 안전성과 경제성이 시장 성공의 핵심 요소로 지적되고 있다.",
+    "summaryLong": "한국형 소형모듈원자로(SMR)가 상용화의 본궤도에 진입한 가운데, 빠르게 성장하는 AI 전력 시장에서의 역할이 주목받고 있다. 이 시장은 약 400조 규모로 평가되며, SMR은 소규모 전력 공급과 높은 가동률로 AI 데이터센터의 전력 수요를 충족할 수 있는 솔루션으로 제시되고 있다. 한국형 SMR의 시장 성공을 위해서는 안전성 입증과 경제적 경쟁력 확보가 가장 중요한 승부처로 분석되고 있다. 정부와 산업계는 국제 표준 인증과 원가 절감에 집중하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "news1.kr",
+    "url": "https://www.news1.kr/economy/trend/6203283\",1]",
+    "k": "한국형 smr 본궤도 ai 전력 400조 시장 승부처는 안전 경제성",
+    "id": "7191da3c"
+  },
+  {
     "date": "2026-06-19",
     "title": "오클로(Oklo) 주가 급등",
     "summary": "선진 소형모듈원자로(SMR) 및 첨단 원자로 개발사인 오클로(Oklo)의 주가가 목요일 큰 폭으로 상승했다.",
@@ -1967,6 +2009,20 @@ window.SMR_NEWS = [
     "id": "63af9345"
   },
   {
+    "date": "2026-06-18",
+    "title": "경주시, SMR(소형모듈원자로) 초도호기 선정 결과 수용",
+    "summary": "경주시가 SMR 초도호기 선정 결과를 수용하고 원자력산업 육성을 지속 추진하기로 했다.",
+    "summaryLong": "경주시가 정부의 SMR(소형모듈원자로) 초도호기 건설 부지 선정 결과를 받아들이고, 향후 원자력산업 육성을 계속 추진하겠다고 밝혔다. 이는 초도호기 부지 선정을 둘러싼 지자체 간 경쟁에서 경주시가 탈락한 후의 공식 입장으로, 경주시는 SMR 산업 생태계 조성 등을 통해 원자력 중심도시로서의 위상을 유지하겠다는 의지를 나타냈다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "ajunews.com",
+    "url": "https://www.ajunews.com/view/20260619000858199\",1,\"https://www.ajunews.com/amp/20260619000858199\"]",
+    "k": "경주시 smr 초도호기 선정 결과 수용 원자력산업 육성 지속 추진",
+    "id": "3e498e18"
+  },
+  {
     "date": "2026-06-17",
     "title": "태웅, 테라파워(TerraPower) 나트륨(Natrium) SMR 주기기 부품 수주",
     "summary": "국내 원전 부품 전문기업 태웅이 빌 게이츠 설립 미국 테라파워사의 4세대 소형모듈원자로(SMR) 나트륨 프로젝트에 주기기 핵심부품을 공급하는 계약을 체결했다.",
@@ -2651,6 +2707,48 @@ window.SMR_NEWS = [
     "url": "https://news.kbs.co.kr/news/view.do?ncd\\u003d8588748\",1]",
     "k": "한수원 대형 원전 2기 경북 영덕 smr 1기 부산 기장 후보 부지 로 선정",
     "id": "5169f5d7"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "엑스에너지, 노심용융 불가능한 페블베드 원자로 개발",
+    "summary": "엑스에너지(X-energy)가 미국 에너지부(DOE) 지원 하에 노심용융 방지 기술을 갖춘 페블베드 고온가스로(HTGR)를 개발 중이다.",
+    "summaryLong": "엑스에너지(X-energy)는 미국 에너지부(DOE)와 함께 본질적 안전성을 특징으로 하는 페블베드 고온가스로(HTGR) 개발을 추진 중이다. 이 로형은 구형 연료 요소와 불활성 냉각재를 이용해 극한 상황에서도 노심용융이 불가능하도록 설계되었다. 페블베드 기술은 소형모듈원자로(SMR) 범주의 첨단로 중 하나로, 높은 출구 온도와 공정열 이용 능력이 특징이다. 이는 차세대 원전 기술의 안전성과 활용도를 강화하려는 미국의 에너지 정책 방향을 반영한다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "energy.gov",
+    "url": "https://www.energy.gov/ne/articles/x-energy-developing-pebble-bed-reactor-they-say-cant-melt-down\",1]",
+    "k": "x energy is developing a pebble bed reactor that they say can t melt down",
+    "id": "d7435a37"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "신규원전 후보부지 선정: 대형원전 영덕, SMR 기장",
+    "summary": "한국 정부가 신규 원전 건설 부지를 확정했으며, 대형원전 2기는 경북 영덕, 국내 첫 소형모듈원자로(SMR)는 부산 기장으로 선정했다.",
+    "summaryLong": "한국 정부가 신규 원전 부지 선정을 완료하여, 대형원전(가압경수로, PWR) 2기는 경북 영덕군에, 국내 첫 소형모듈원자로(SMR) 1호는 부산 기장군에 건설할 계획을 발표했다. 이는 정부의 에너지 정책과 탄소중립 목표 달성을 위한 원전 확대 전략의 일환으로, SMR 도입은 소규모 전력 공급과 산업용 열에너지 활용 등 다목적 활용 가능성을 시사한다. 두 부지 선정은 지역의 사회·경제적 조건과 환경성, 주민 수용성 등을 종합 평가한 결과로 알려져 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "energydaily.co.kr",
+    "url": "https://www.energydaily.co.kr/news/articleView.html?idxno\\u003d200532\",1]",
+    "k": "신규원전 후보부지 대형원전 영덕군 smr 기장군 선정",
+    "id": "8275d113"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "신규 원전·SMR 부지 선정에 환경단체 비판",
+    "summary": "환경단체가 영덕과 기장 선정에 대해 '에너지 식민 정책'이라고 비판했다.",
+    "summaryLong": "신규 원전과 SMR 부지가 각각 경북 영덕과 부산 기장으로 확정되자, 환경단체들이 이번 결정을 '에너지 식민 정책'이라고 비판하며 반발하고 있다. 환경 영향과 지역주민 수용성 문제를 제기하며 정부의 에너지 정책 방향에 대한 근본적인 문제 제기를 하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "khan.co.kr",
+    "url": "https://www.khan.co.kr/article/202606172101001\",1,\"https://www.khan.co.kr/article/202606172101001/amp\"]",
+    "k": "신규 원전 smr 부지 영덕 기장 선정에 환경단체 에너지 식민 정책 비판",
+    "id": "3d095138"
   },
   {
     "date": "2026-06-16",
@@ -5403,6 +5501,20 @@ window.SMR_NEWS = [
     "id": "8db7f1d3"
   },
   {
+    "date": "2026-05-27",
+    "title": "2026년 원전 투자 선택: 뉴스케일 vs 오클로",
+    "summary": "뉴스케일(NuScale)과 오클로(Oklo)의 원전 기술과 사업 전망을 비교 분석한 투자 판단 기사이다.",
+    "summaryLong": "모틀리풀(Motley Fool)이 뉴스케일파워(NuScale Power)와 오클로(Oklo) 두 소형모듈원자로(SMR)·첨단로 개발사의 기술, 사업 모델, 규제 진행 상황 및 투자 가치를 비교 분석했다. 뉴스케일의 가압경수로(PWR) 기반 소형로와 오클로의 고속로 기술의 차이, 각사의 상용화 일정과 시장 기회를 평가한 것으로 보인다. 이는 차세대 원전 기술 기업들의 투자 매력도를 분석하려는 시장 관심을 반영한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/coverage/better-buy/2026/05/27/nuscale-power-vs-oklo-which-nuclear-stock-is-a-better-buy-in-2026/\",1]",
+    "k": "nuscale power vs oklo which nuclear stock is a better buy in 2026",
+    "id": "cf4b2f0d"
+  },
+  {
     "date": "2026-05-26",
     "title": "스웨덴 소형모듈원자로(SMR) 발전소, 세 번째 인허가 신청 제출",
     "summary": "스웨덴에서 세 번째 소형모듈원자로 발전소 건설에 대한 규제 신청이 접수되었다.",
@@ -6130,6 +6242,20 @@ window.SMR_NEWS = [
     "id": "1c9c3016"
   },
   {
+    "date": "2026-04-24",
+    "title": "엑스에너지 IPO 후 인공지능 수요 주도로 주가 27% 급등",
+    "summary": "엑스에너지(X-energy)의 신규공개(IPO) 후 인공지능 데이터센터 전력 수요 관심으로 주가가 27% 상승했다.",
+    "summaryLong": "엑스에너지(X-energy)는 신규공개(IPO) 이후 인공지능(AI) 데이터센터의 원전 전력 수요 증가에 대한 시장 관심이 높아지면서 주가가 27% 급등했다. 고온가스로(HTGR) 기술의 전력 생산 및 공정열 공급 능력이 AI 인프라의 신뢰할 수 있는 전원으로 주목받고 있다. 이는 소형모듈원자로(SMR)와 첨단로 개발사들의 자본시장 가치가 에너지 전환 및 AI 산업 성장과 밀접하게 연동되고 있음을 보여준다.",
+    "cat": "투자",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "cnbc.com",
+    "url": "https://www.cnbc.com/2026/04/24/nuclear-reactor-company-x-energy-begins-trading-as-ai-drives-interest-in-the-industry.html\",1,\"https://www.cnbc.com/amp/2026/04/24/nuclear-reactor-company-x-energy-begins-trading-as-ai-drives-interest-in-the-industry.html\"]",
+    "k": "nuclear reactor company x energy shares surge 27 as ai drives interest in its ipo",
+    "id": "f201591c"
+  },
+  {
     "date": "2026-04-23",
     "title": "X-에너지, 확대된 신규공개(IPO) 공모가 공시",
     "summary": "X-에너지(X-energy)가 확대된 규모의 신규공개(IPO)의 공모가를 공시.",
@@ -6519,6 +6645,20 @@ window.SMR_NEWS = [
     "url": "https://investors.x-energy.com/news-releases/news-release-details/x-energy-talen-energy-evaluate-gigawatt-scale-xe-100-smr",
     "k": "x energy talen energy to evaluate gigawatt scale xe 100 smr deployment",
     "id": "5f1b5cd2"
+  },
+  {
+    "date": "2026-03-19",
+    "title": "뉴스케일·에바라 엘리엇, 석유화학 플랜트 전력 공급 전략 파트너십 발표",
+    "summary": "뉴스케일파워(NuScale Power)와 에바라 엘리엇 에너지(Ebara Elliott Energy)가 첨단 원자로 기술을 이용한 석유화학 산업 전력화 전략 파트너십을 발표했다.",
+    "summaryLong": "뉴스케일파워(NuScale Power)와 에바라 엘리엇 에너지(Ebara Elliott Energy)가 소형모듈원자로(SMR) 기술을 활용하여 석유화학 플랜트에 청정 전력과 공정열을 공급하는 전략적 파트너십을 발표했다. 이 협력은 에너지 다소비 산업의 탄소중립화 지원을 목표로 하며, 뉴스케일의 가압경수로(PWR) 기반 SMR이 산업용 열·전력 통합 공급에 활용될 것으로 예상된다. 파트너십을 통해 두 회사는 SMR의 산업 부하 전력화 및 공정열 이용 분야의 실증 기회를 확보하려 한다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "nuscalepower.com",
+    "url": "https://www.nuscalepower.com/press-releases/2026/nuscale-power-and-ebara-elliott-energy-announce-a-strategic-partnership-to-showcase-use-of-advanced-nuclear-technology-to-power-petrochemical-plants\",1,\"https://www.nuscalepower.com/press-releases/2026/nuscale-power-and-ebara-elliott-energy-announce-a-strategic-partnership-to-showcase-use-of-advanced-nuclear-technology-to-power-petrochemical-plants?hs_amp\\u003dtrue\"]",
+    "k": "nuscale power and ebara elliott energy announce a strategic partnership to showcase use of advanced nuclear technology to power petrochemical plants",
+    "id": "e0e1074a"
   },
   {
     "date": "2026-03-17",
@@ -8016,4 +8156,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-21 07:46 KST";
+window.SMR_UPDATED = "2026-06-21 08:21 KST";
