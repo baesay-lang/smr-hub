@@ -21,6 +21,20 @@ window.SMR_NEWS = [
     "id": "bdfce9ac"
   },
   {
+    "date": "2026-06-20",
+    "title": "남동발전, 좌초자산 석탄발전소 SMR 전환으로 해결 모색",
+    "summary": "한국남동발전이 노후 석탄발전소를 소형모듈원자로(SMR)로 전환하는 방안을 검토하고 있다.",
+    "summaryLong": "한국남동발전이 좌초자산으로 전락한 석탄발전소의 활용 방안으로 소형모듈원자로(SMR) 전환을 추진하고 있다. 이는 탈탄소화와 기존 발전소 부지의 재활용이라는 정책 목표를 동시에 달성하는 전략으로, 국내 SMR 실증·상용화 계획의 일환으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "남동발전",
+    "region": "KR",
+    "source": "energytimes.kr",
+    "url": "https://www.energytimes.kr/news/articleView.html?idxno\\u003d70237\",1]",
+    "k": "좌초자산 석탄발전 남동발전 smr 전환으로 해법 모색",
+    "id": "522cbbe7"
+  },
+  {
     "date": "2026-06-19",
     "title": "오클로(Oklo) 주가 급등",
     "summary": "선진 소형모듈원자로(SMR) 및 첨단 원자로 개발사인 오클로(Oklo)의 주가가 목요일 큰 폭으로 상승했다.",
@@ -635,6 +649,34 @@ window.SMR_NEWS = [
     "url": "https://www.esnews.kr/news/articleView.html?idxno\\u003d4581\",1]",
     "k": "태국 smr 시장 열린다 미국 원전수출 속도전 한국 원전산업 전략적 신호",
     "id": "21e83ff3"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "오클로(Oklo) 주가 기관투자자 유동성 지표로 주목",
+    "summary": "오클로(Oklo)를 포함한 SMR·첨단로 개발사 주가가 기관투자자의 매매 지표로 관심받고 있다.",
+    "summaryLong": "뉴스레터는 오클로(Oklo), 뉴스케일(NuScale), 엑스에너지(X-energy), 테라파워(TerraPower), 카이로스(Kairos Power), 롤스로이스 SMR(Rolls-Royce SMR) 등 주요 SMR·첨단로 개발사의 주가 움직임을 기관투자자 트레이딩 지표로 분석하고 있다. 이는 이들 회사의 시장 위상과 투자 관심도를 반영하는 지표로 평가된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "news.stocktradersdaily.com",
+    "url": "https://news.stocktradersdaily.com/news_release/24/OKLO_as_a_Liquidity_Pulse_for_Institutional_Tactics_061926090001_1781917201.html\",1]",
+    "k": "oklo as a liquidity pulse for institutional tactics",
+    "id": "71371371"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "SMR 유치 실패에도 '원자력 중심도시' 강조만 반복",
+    "summary": "지자체의 SMR 유치 실패에 대한 책임 있는 진단이 부재한 채 정책 홍보만 계속되고 있다는 비판.",
+    "summaryLong": "지자체가 소형모듈원자로(SMR) 유치에 실패했음에도 불구하고 책임 있는 진단과 개선책 없이 '원자력 중심도시' 구상만 강조하고 있다는 비판이 제기되었다. 이는 정부의 SMR 정책 홍보와 지역 유치 간의 불일치 문제를 지적하는 의견으로, SMR 국책사업의 실행 과제를 반영한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "hgnews.co.kr",
+    "url": "http://www.hgnews.co.kr/default/index_view_page.php?part_idx\\u003d307\\u0026idx\\u003d58678\",1]",
+    "k": "책임 있는 진단은 없고 smr 유치 실패에도 원자력 중심도시 만 강조",
+    "id": "2a167350"
   },
   {
     "date": "2026-06-18",
@@ -1743,6 +1785,48 @@ window.SMR_NEWS = [
     "id": "732b8ba4"
   },
   {
+    "date": "2026-06-18",
+    "title": "국내 첫 SMR 확정, K-원전 미래 전략",
+    "summary": "국내 첫 소형모듈원자로(SMR) 사업이 확정되면서 반도체에 이어 원전 산업의 미래 먹거리로 육성해야 한다는 입장을 제시한 사설.",
+    "summaryLong": "국내 첫 소형모듈원자로(SMR) 프로젝트의 확정 소식을 배경으로, 한국 원전 산업의 미래 경쟁력 강화 방안을 다룬 언론 사설이다. 기존 대형 원전 중심의 원전 정책에서 벗어나 SMR과 같은 첨단 원전 기술 개발에 국가적 역량을 집중해야 한다는 주장을 제기한다. 반도체 산업처럼 SMR을 한국의 새로운 수출 전략산업으로 육성할 필요성을 강조하며, 이를 통해 글로벌 에너지 시장에서의 한국의 위상 제고를 주장한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "chosun.com",
+    "url": "https://www.chosun.com/opinion/editorial/2026/06/19/LF36QT5PJRAWNISGACBANYSONA/\",1]",
+    "k": "사설 국내 첫 smr 확정 반도체 이을 k 원전 미래로 키워야",
+    "id": "0f07ebb3"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "SMR 탈락한 경주, 재도전 의지 표현",
+    "summary": "소형모듈원자로(SMR) 유치에 탈락한 경주 지역이 SMR 유치를 재추진하겠다는 의지를 표현했다.",
+    "summaryLong": "부산 기장으로의 소형모듈원자로(SMR) 부지 선정에서 탈락한 경주 시가 재도전 의지를 드러냈다. 경주는 자신들의 지역이 원전 입지와 지역 인프라 측면에서 SMR 건설에 최적이라고 주장하면서, 향후 정부의 SMR 확대 계획 또는 추가 사업에서 다시 유치를 신청할 계획임을 밝혔다. 이는 SMR이 한국의 장기 에너지 정책에서 주요 사업으로 인식되고 있음을 반영하며, 지역 입장에서는 원전 관련 일자리와 지역 경제 활성화의 기회로 평가되고 있음을 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "idaegu.com",
+    "url": "https://www.idaegu.com/news/articleView.html?idxno\\u003d663729\",1]",
+    "k": "smr 놓친 경주 경주는 자타 공인 smr 최적지 계속 도전하겠다",
+    "id": "e8a0573c"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "뉴욕, 33조 원 투입해 대형원전 대신 SMR 선호 이유",
+    "summary": "미국 뉴욕 지역이 대형 원전보다 소형모듈원자로(SMR)에 더 큰 정책적·재정적 가치를 부여하는 현황을 분석한 기사.",
+    "summaryLong": "미국 뉴욕 주가 에너지 정책 투자에서 33조 원대의 규모 있는 자금을 배치하면서, 대형 원전보다 소형모듈원자로(SMR) 도입을 우선시하는 추세를 보이고 있다. SMR이 대형 원전 대비 건설 기간 단축, 유연한 입지 선택, 탄소 중립 달성의 효율성 등에서 장점을 가지고 있으며, 미국의 에너지 안보 및 기후 변화 대응 목표를 달성하는 데 더 적합하다고 판단되고 있음을 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno\\u003d4536\",1]",
+    "k": "33조 투입하는 뉴욕 왜 대형 원전보다 smr 원할까",
+    "id": "6bcb0601"
+  },
+  {
     "date": "2026-06-17",
     "title": "태웅, 테라파워(TerraPower) 나트륨(Natrium) SMR 주기기 부품 수주",
     "summary": "국내 원전 부품 전문기업 태웅이 빌 게이츠 설립 미국 테라파워사의 4세대 소형모듈원자로(SMR) 나트륨 프로젝트에 주기기 핵심부품을 공급하는 계약을 체결했다.",
@@ -2287,6 +2371,34 @@ window.SMR_NEWS = [
     "url": "https://magazine.hankyung.com/business/amp/202606172828b\",1]",
     "k": "속보 신규 대형 원전 부지에 영덕 smr은 기장 최종 선정",
     "id": "2584173f"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "SMR 부지 선정 탈락한 경주, 정치적 고려 항의",
+    "summary": "소형모듈원자로(SMR) 부지로 선정되지 못한 경주가 정치적 고려에 따른 결정이라며 강한 반발을 드러냈다.",
+    "summaryLong": "국내 첫 소형모듈원자로(SMR) 건설부지로 부산 기장이 선정되면서, 부지 경합에 탈락한 경주 지역이 정치적 고려에 따른 불공정한 결정이라며 실망감과 강한 반발을 표시했다. 경주는 기존 월성 원전 부지 등 풍부한 원자력 인프라와 전문 인력을 보유한 지역으로, SMR 건설에 최적의 조건을 갖추고 있다고 주장하면서 부지 선정 결정에 대한 재검토를 요구하고 있다. 이는 신규 원전 부지 선정을 둘러싼 지역 간 갈등과 정치적 논란이 계속되고 있음을 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "imaeil.com",
+    "url": "https://www.imaeil.com/page/view/2026061718454937192\",1]",
+    "k": "smr 놓친 경주 정치적 고려에 희생 당해 실망감과 강력 반발",
+    "id": "20b4bc67"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "영덕 대형원전 선정, 경주 SMR 탈락…경북 원전 정책 엇갈린 결과",
+    "summary": "경북 지역에서 영덕에 대형 원전 2기 건설이 승인된 반면, 경주의 SMR 사업 유치는 실패한 상황을 분석한 기사.",
+    "summaryLong": "경상북도 지역의 원전 유치 정책에 엇갈린 결과가 나타났다. 영덕 지역은 대형 원전 2기 건설 부지로 최종 선정되어 국책사업 확보에 성공한 반면, 경주 지역은 소형모듈원자로(SMR) 유치 경쟁에서 탈락했다. 이는 같은 원전 정책 내에서도 지역별로 서로 다른 결과를 얻게 되었음을 의미하며, 경북 원전 벨트의 향후 발전 방향에 중요한 영향을 미칠 것으로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한수원",
+    "region": "KR",
+    "source": "yeongnam.com",
+    "url": "https://www.yeongnam.com/web/view.php?key\\u003d20260617025200733\",1]",
+    "k": "영덕 대형원전 축배 경주 smr 고배 경북 원전 벨트 절반의 성과",
+    "id": "06d23769"
   },
   {
     "date": "2026-06-16",
@@ -7624,4 +7736,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-20 16:13 KST";
+window.SMR_UPDATED = "2026-06-20 16:57 KST";
