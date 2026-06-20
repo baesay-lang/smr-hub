@@ -35,6 +35,48 @@ window.SMR_NEWS = [
     "id": "522cbbe7"
   },
   {
+    "date": "2026-06-20",
+    "title": "뉴스케일(NuScale), 버지니아주립대 와이즈 캠퍼스에 12번째 E2 센터 개설",
+    "summary": "뉴스케일 파워(NuScale Power)가 미국 버지니아주립대 와이즈(UVA Wise) 캠퍼스에 12번째 E2(교육·훈련) 센터를 개설하며 상용화 추진을 가속화하고 있다.",
+    "summaryLong": "뉴스케일 파워(NuScale Power)가 미국 버지니아주립대 와이즈(UVA Wise) 캠퍼스에 12번째 E2 센터를 개설했다. E2 센터는 뉴스케일의 소형모듈원자로(SMR) 기술과 상용 추진 전략을 홍보하고 인력 양성을 지원하는 교육·훈련 거점이다. 이번 개설은 뉴스케일이 미국 내 SMR 산업 생태계 구축과 공공 신뢰도 제고에 나서고 있음을 보여주며, 향후 상용화 계약 체결로 이어질 가능성이 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "foreignpolicyjournal.com",
+    "url": "https://www.foreignpolicyjournal.com/2026/06/20/nuscale-power-nyse-smr-opens-12th-e2-center-at-uva-wise-targeting-commercial-momentum/\",1]",
+    "k": "nuscale power nyse smr opens 12th e2 center at uva wise targeting commercial momentum",
+    "id": "469ea030"
+  },
+  {
+    "date": "2026-06-20",
+    "title": "오클로(Oklo), 센트러스(Centrus)와 고강화우라늄(HALEU) 연료 공급 계약 체결",
+    "summary": "오클로(Oklo)가 센트러스(Centrus)와 국내산 고강화우라늄(HALEU) 연료 공급 계약을 체결하고 오하이오주 핵연료 캠퍼스 사업을 추진한다.",
+    "summaryLong": "고속노형 소형모듈원자로(SFR) 개발사 오클로(Oklo)가 우라늄 농축 기업 센트러스(Centrus)와 고강화우라늄(HALEU, High-Assay Low-Enriched Uranium) 연료 공급 계약을 체결했다. 이는 오클로의 오하이오주 핵연료 캠퍼스 사업을 지원하기 위한 국내산 HALEU 공급을 확보한 것으로, 미국의 핵연료 자급화 정책 추진과 첨단로의 상용화 기반 구축을 의미한다. 센트러스의 HALEU 생산 능력 확보로 미국 내 고급 핵연료 공급망이 강화될 전망이다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "foreignpolicyjournal.com",
+    "url": "https://www.foreignpolicyjournal.com/2026/06/20/oklo-nyse-oklo-secures-domestic-haleu-fuel-deal-with-centrus-nyse-leu-to-power-ohio-nuclear-campus/\",1]",
+    "k": "oklo nyse oklo secures domestic haleu fuel deal with centrus nyse leu to power ohio nuclear campus",
+    "id": "d1aa0809"
+  },
+  {
+    "date": "2026-06-20",
+    "title": "나노 뉴클리어(Nano Nuclear), 원자력규제위원회(NRC) 건설허가 신청 정식 접수",
+    "summary": "나노 뉴클리어(Nano Nuclear)의 소형모듈원자로 건설허가 신청이 미국 원자력규제위원회(NRC)에 정식 접수되었다.",
+    "summaryLong": "미국 원자력규제위원회(NRC)가 나노 뉴클리어(Nano Nuclear)의 소형모듈원자로(SMR) 건설허가 신청을 정식 접수했다. 이는 나노 뉴클리어의 SMR 개발이 실질적 인허가 단계로 진입했음을 의미하며, NRC 심사 절차가 진행될 것으로 예상된다. 허가 획득 시 미국 SMR 산업 발전을 견인할 수 있는 주요 이정표가 될 것으로 평가된다.",
+    "cat": "인허가",
+    "type": "General",
+    "dev": "Nano Nuclear",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/06/20/nuclear-regulatory-commission-nano-nuclear-permit/\",1]",
+    "k": "the nuclear regulatory commission formally accepted nano nuclear s construction permit application here s what that means for investors",
+    "id": "3c7fea96"
+  },
+  {
     "date": "2026-06-19",
     "title": "오클로(Oklo) 주가 급등",
     "summary": "선진 소형모듈원자로(SMR) 및 첨단 원자로 개발사인 오클로(Oklo)의 주가가 목요일 큰 폭으로 상승했다.",
@@ -1883,6 +1925,48 @@ window.SMR_NEWS = [
     "id": "177ba096"
   },
   {
+    "date": "2026-06-18",
+    "title": "AI 데이터센터 전력 폭증으로 SMR 등 에너지 솔루션 주목",
+    "summary": "인공지능(AI) 데이터센터의 급증한 전력수요가 SMR 등 신규 에너지 기술의 중요성을 부각시키고 있다.",
+    "summaryLong": "생성형 인공지능(AI) 기술 확산으로 데이터센터의 전력수요가 급증하면서 소형모듈원자로(SMR)를 포함한 차세대 에너지 솔루션이 부상하고 있다. 기존 대형 원전만으로는 급증한 전력 수요를 충족하기 어려워, 유연한 배치가 가능한 SMR의 활용 가치가 높아지고 있다. 이는 에너지 전환 시대에 SMR 기술의 상업화와 보급 확대가 전략적 중요성을 갖게 됨을 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "womentimes.co.kr",
+    "url": "https://www.womentimes.co.kr/news/articleView.html?idxno\\u003d103728\",1,\"https://www.womentimes.co.kr/news/articleViewAmp.html?idxno\\u003d103728\"]",
+    "k": "ai 데이터센터 등 폭증한 전력수요 smr 등 에너지 전환 급부상",
+    "id": "dfdd4d2d"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "[사설] 신규원전·SMR 추진, 정치적 흔들림 없어야",
+    "summary": "신규원전과 SMR 사업의 안정적 추진을 위해 정치적 영향 최소화가 필수라는 주장이 제기되었다.",
+    "summaryLong": "신규 원전 및 소형모듈원자로(SMR) 건설 사업의 성공적 추진을 위해 정치적 논쟁과 간섭으로부터 보호되어야 한다는 사설이 발표되었다. 국내 에너지 정책과 기술 개발의 방향성이 정권 교체나 정치 상황에 따라 자주 흔들리는 문제를 지적하고, 장기적 관점에서 일관된 정책 추진의 필요성을 강조했다. 이는 SMR을 포함한 원자력 정책의 정치적 중립화와 과학적·경제적 근거 기반 추진의 중요성을 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260619011303285\",1]",
+    "k": "사설 첫발 뗀 신규 원전과 smr 또 정치에 휘둘려선 안 된다",
+    "id": "da6e481d"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "환경단체, 영덕 원전·기장 SMR 건설 철회 촉구",
+    "summary": "환경단체들이 영덕 대형원전과 기장 SMR 건설 사업의 철회를 주장하고 있다.",
+    "summaryLong": "환경운동단체들이 경북 영덕 대형원전과 부산 기장 소형모듈원자로(SMR) 건설 사업의 중단을 촉구하고 나섰다. 환경 보전, 방사능 오염 우려, 지진 위험 등을 이유로 사업 추진 철회를 주장하고 있다. 부지 선정 이후 인허가 과정에서 환경 진영의 반대가 주요 쟁점이 될 것으로 예상되며, 정부·사업자·환경단체 간 대립이 격화될 것으로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "safetimes.co.kr",
+    "url": "https://www.safetimes.co.kr/news/articleView.html?idxno\\u003d243582\",1,\"https://www.safetimes.co.kr/news/articleViewAmp.html?idxno\\u003d243582\"]",
+    "k": "환경단체 영덕 원전 기장 smr 철회해야",
+    "id": "63af9345"
+  },
+  {
     "date": "2026-06-17",
     "title": "태웅, 테라파워(TerraPower) 나트륨(Natrium) SMR 주기기 부품 수주",
     "summary": "국내 원전 부품 전문기업 태웅이 빌 게이츠 설립 미국 테라파워사의 4세대 소형모듈원자로(SMR) 나트륨 프로젝트에 주기기 핵심부품을 공급하는 계약을 체결했다.",
@@ -2539,6 +2623,34 @@ window.SMR_NEWS = [
     "url": "https://news.kbs.co.kr/news/view.do?ncd\\u003d8588916\",1]",
     "k": "한국 1호 smr ai 전력난 게임체인저 될까",
     "id": "678bf9b2"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "부산시·기장군, 국내 첫 원전 부지에서 SMR 건설 시작의 의미 강조",
+    "summary": "부산시와 기장군이 국내 첫 소형모듈원자로 건설 부지 선정을 환영하며 지역 발전의 기회로 평가했다.",
+    "summaryLong": "부산시와 부산시 기장군은 국내 첫 소형모듈원자로(SMR) 건설 부지로 선정된 기장에 대해 한국 원자력 산업 발전의 거점이자 지역 경제 활성화의 계기가 될 것이라고 의미를 부여했다. 기장군은 역사적으로 한국 최초의 원전이 건설된 지역으로, SMR 도입이 원자력 산업의 새로운 장을 여는 상징적 의미를 지닌다고 평가했다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "yna.co.kr",
+    "url": "https://www.yna.co.kr/view/AKR20260617168100051\",1,\"https://www.yna.co.kr/amp/view/AKR20260617168100051\"]",
+    "k": "부산시 기장군 국내 첫 원전 들어선 기장에서 smr 시작 큰 의미",
+    "id": "b8a884c6"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "한수원, 대형원전 2기·SMR 1기 부지 후보 선정",
+    "summary": "한국수력원자력(한수원)이 대형원전 2기는 경북 영덕, SMR 1기는 부산 기장을 신규 원전 부지 후보로 선정했다.",
+    "summaryLong": "한국수력원자력(한수원)이 신규 원전 건설을 위한 부지 선정 결과를 발표했다. 대형 가압경수로(PWR) 2기는 경북 영덕에, 소형모듈원자로(SMR) 1기는 부산 기장에 후보 부지로 확정되었다. 이는 국내 첫 SMR 건설을 위한 공식 입지 선정으로, 향후 환경영향평가 등 인허가 절차를 거칠 예정이다. 부산 기장 부지 선정으로 기존 원전 밀집지역인 경주의 추가 유치 기대는 무산되었다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한수원",
+    "region": "KR",
+    "source": "news.kbs.co.kr",
+    "url": "https://news.kbs.co.kr/news/view.do?ncd\\u003d8588748\",1]",
+    "k": "한수원 대형 원전 2기 경북 영덕 smr 1기 부산 기장 후보 부지 로 선정",
+    "id": "5169f5d7"
   },
   {
     "date": "2026-06-16",
@@ -5557,6 +5669,34 @@ window.SMR_NEWS = [
     "id": "81f7fb8d"
   },
   {
+    "date": "2026-05-14",
+    "title": "팬코(FANCO)와 앳킨스레알리스(AtkinsRéalis), SMR 전개 전략동맹 체결",
+    "summary": "팬코(FANCO)와 캐나다 엔지니어링 회사 앳킨스레알리스(AtkinsRéalis)가 소형모듈원자로(SMR) 배치를 위한 전략동맹을 체결했다.",
+    "summaryLong": "팬코(FANCO)와 캐나다의 대규모 엔지니어링·설계 회사 앳킨스레알리스(AtkinsRéalis)가 소형모듈원자로(SMR) 배치 및 상용화를 위한 전략적 파트너십을 체결했다. 이 동맹은 SMR 프로젝트의 엔지니어링, 설계, 시공, 운영 분야에서의 협력을 포괄하며, SMR 상용화 추진 가속화와 업계 생태계 구축을 의도한 것으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "FANCO",
+    "region": "CA",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/fanco-and-atkinsrealis-form-strategic-alliance-for-smr-deployment\",1]",
+    "k": "fanco and atkinsr alis form strategic alliance for smr deployment",
+    "id": "deb1984a"
+  },
+  {
+    "date": "2026-05-13",
+    "title": "한국, 서던컴퍼니와 뉴스케일 SMR 도입 검토",
+    "summary": "한국이 미국의 서던컴퍼니(Southern Company)와 뉴스케일(NuScale)의 소형모듈원자로(SMR) 도입을 검토 중이다.",
+    "summaryLong": "한국이 미국 서던컴퍼니(Southern Company)와 뉴스케일(NuScale)의 소형모듈원자로(SMR) 기술 도입을 검토하고 있다. 이는 한국의 SMR 산업 전략과 미국 주도 첨단로 기술의 국내 적용 가능성을 탐색하는 정책적 움직임으로, 향후 정부 차원의 국제 협력 협약이나 기술 이전 논의로 발전할 수 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "KR",
+    "source": "ans.org",
+    "url": "https://www.ans.org/news/article-8028/south-korea-looks-to-southern-and-nuscale/\",1]",
+    "k": "south korea looks to southern and nuscale american nuclear society ans",
+    "id": "7d4291ff"
+  },
+  {
     "date": "2026-05-12",
     "title": "소형모듈원자로 폐기물 관리 통합 연구",
     "summary": "VTT(핀란드 기술연구센터)가 소형모듈원자로(SMR)의 폐기물 관리 통합 방안에 대한 연구를 진행하고 있다.",
@@ -7876,4 +8016,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-20 17:15 KST";
+window.SMR_UPDATED = "2026-06-21 07:46 KST";
