@@ -35,6 +35,62 @@ window.SMR_NEWS = [
     "id": "dc2af34a"
   },
   {
+    "date": "2026-06-21",
+    "title": "소형모듈원자로 혁명의 현황과 과제",
+    "summary": "SMR 산업의 발전 현황과 직면한 과제들을 다룬 분석 기사이다.",
+    "summaryLong": "소형모듈원자로(SMR) 기술이 초기 기대와 달리 상용화에서 직면하는 현실적 과제들을 분석하는 기사이다. SMR 개발사들의 기술 진전, 규제 인허가 진행, 비용 이슈 등 산업 전반의 동향을 검토하고 있으며, SMR 혁명이라 불렸던 초기 낙관론과 현재 시장 상황의 갭을 짚고 있다. 이는 글로벌 SMR 산업 생태계의 현주소와 향후 발전 방향에 대한 통찰을 제공한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "oilprice.com",
+    "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Whatever-Happened-to-the-Small-Modular-Reactor-Revolution.html\",1,\"https://oilprice.com/Alternative-Energy/Nuclear-Power/Whatever-Happened-to-the-Small-Modular-Reactor-Revolution.amp.html\"]",
+    "k": "whatever happened to the small modular reactor revolution crude oil prices today",
+    "id": "5fb5330f"
+  },
+  {
+    "date": "2026-06-21",
+    "title": "미국 기업, 300 MW 소형모듈원자로 기반 1.5 GW 핵발전소 프로젝트 공개",
+    "summary": "미국 기업이 300 MW급 SMR 6개를 조합한 1.5 GW 규모의 원자력발전소 프로젝트를 발표했다.",
+    "summaryLong": "미국의 한 핵전력 기업이 300 MW급 소형모듈원자로(SMR) 여러 개를 모듈식으로 조합하여 총 1.5 GW 규모의 핵발전소 구축 프로젝트를 공개했다. 이는 SMR의 모듈식 특성을 활용하여 기존 대형 원자로와 경쟁할 수 있는 규모의 발전소를 구성하는 산업 트렌드를 보여주는 사례이다. 프로젝트는 경제성, 안전성, 건설 일정 단축 등 SMR의 장점을 강조하고 있으며, 향후 산업용 열 공급과 전력 생산을 목표로 하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "interestingengineering.com",
+    "url": "https://interestingengineering.com/energy/us-nuclear-plant-project-modular-reactors\",1]",
+    "k": "us firm unveils 1 5 gw nuclear plant project with 300 mw small modular reactors",
+    "id": "ddb2ea12"
+  },
+  {
+    "date": "2026-06-21",
+    "title": "두산, SMR 핵심 공급망 선점…영국 제조 병목 기회 활용",
+    "summary": "두산이 소형모듈원자로의 핵심 부품 공급망을 선점하며 영국의 제조 병목을 기회로 삼고 있다.",
+    "summaryLong": "두산(Doosan)이 소형모듈원자로 사업의 핵심 공급망 확보에 나서며, 영국의 제조 능력 부족(락인 기회)을 활용하는 전략을 추진 중이다. 이는 SMR 부품 공급에서의 국제적 경쟁력 강화와 장기 수주 확보를 목표로 한 것으로, 두산의 원자력 산업 다각화 및 글로벌 시장 진출 전략의 일환이다. 영국의 SMR 프로젝트(예: Rolls-Royce) 확대에 따른 부품 수요 증가를 선제적으로 대응하려는 움직임이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "두산(Doosan)",
+    "region": "KR",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/Global-Biz/2026/06/20260622063323547fbbec65dfb_1\",1]",
+    "k": "두산 smr 핵심 공급망 선점 제조 병목이 부른 락인 기회",
+    "id": "e4fc1e86"
+  },
+  {
+    "date": "2026-06-21",
+    "title": "삼성·현대·대우건설, 해외 SMR 사업 진출",
+    "summary": "삼성, 현대, 대우건설 등 국내 주요 건설사들이 국내 원전 산업의 호황을 바탕으로 해외 소형모듈원자로(SMR) 시장 진출을 추진 중이다.",
+    "summaryLong": "삼성, 현대, 대우건설 등 국내 대형 건설사들이 최근의 국내 원전 산업 활성화 추세를 배경으로 해외 소형모듈원자로(SMR) 사업 진출을 검토하고 있다. 국내 원전 산업의 긍정적 경기 흐름을 기반으로 SMR 등 첨단 원자력 기술 시장 진출을 모색하려는 움직임이다. 구체적인 진출 지역, 일정, 협력사 정보 등은 제시되지 않았으나, 국내 건설 역량을 바탕으로 글로벌 SMR 시장 확대에 대응하려는 의도로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "삼성·현대·대우건설",
+    "region": "KR",
+    "source": "it.chosun.com",
+    "url": "https://it.chosun.com/news/articleView.html?idxno\\u003d2023092164288\",1,\"https://it.chosun.com/news/articleViewAmp.html?idxno\\u003d2023092164288\"]",
+    "k": "삼성 현대 대우건설 국내 원전 훈풍 해외 smr까지 분다",
+    "id": "8cf54a89"
+  },
+  {
     "date": "2026-06-20",
     "title": "국립한국해양대, 세계 첫 해양 SMR 추진단 출범",
     "summary": "국립한국해양대학교가 세계 최초로 해양 소형모듈원자로(SMR) 추진단을 출범하고 국제인증 허브 구축을 추진하고 있다.",
@@ -2163,6 +2219,20 @@ window.SMR_NEWS = [
     "id": "8d05ca33"
   },
   {
+    "date": "2026-06-18",
+    "title": "오클로, 센트러스 에너시와 SMR 연료 공급 계약 체결",
+    "summary": "오클로(Oklo)가 센트러스 에너시(Centrus Energy)와 소형모듈원자로(SMR) 핵심 연료 공급 계약을 체결했다.",
+    "summaryLong": "미국의 소형모듈원자로(SMR) 개발사 오클로(Oklo)가 핵연료 공급업체 센트러스 에너시(Centrus Energy)와 SMR용 핵심 연료 공급 계약을 체결했다. 이 계약은 오클로의 SMR 상용화 전략에서 연료 공급망 확보라는 중요한 마일스톤으로, 오클로의 향후 SMR 건설 및 운영을 위한 필수 기반을 마련했다. 계약 체결 소식은 투자자들의 긍정적 반응으로 오클로 주가 상승으로 이어졌다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "marketin.edaily.co.kr",
+    "url": "https://marketin.edaily.co.kr/News/ReadE?newsId\\u003d01262806645483360\",1]",
+    "k": "오클로 센트러스 에너시와 smr 핵심 연료 공급 계약 체결 주가 강세",
+    "id": "f40eaa61"
+  },
+  {
     "date": "2026-06-17",
     "title": "태웅, 테라파워(TerraPower) 나트륨(Natrium) SMR 주기기 부품 수주",
     "summary": "국내 원전 부품 전문기업 태웅이 빌 게이츠 설립 미국 테라파워사의 4세대 소형모듈원자로(SMR) 나트륨 프로젝트에 주기기 핵심부품을 공급하는 계약을 체결했다.",
@@ -2961,6 +3031,20 @@ window.SMR_NEWS = [
     "id": "82476d87"
   },
   {
+    "date": "2026-06-17",
+    "title": "신규 대형원전 영덕·첫 SMR은 부산 기장 선정",
+    "summary": "한국 정부가 신규 대형원전 부지로 경북 영덕을, 첫 소형모듈원자로(SMR) 부지로 부산 기장을 선정했다.",
+    "summaryLong": "한국 정부는 신규 원전 입지 선정 결과를 공개하여 대형원전 건설 부지로는 경북 영덕을, 국내 첫 소형모듈원자로(SMR) 초도호기 부지로는 부산 기장을 최종 선정했다. 이는 국가 에너지 정책의 일환으로 원전 확대 정책을 구체화한 결정으로, 영덕에는 대형원전을, 기장에는 SMR을 배치함으로써 지역별 전략적 역할 분담을 도모한 것으로 해석된다. 이 선정은 향후 대형원전과 소형모듈원자로 건설 추진의 기반이 될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "hankyung.com",
+    "url": "https://www.hankyung.com/article/2026061727857\",1,\"https://www.hankyung.com/amp/2026061727857\"]",
+    "k": "신규 대형 원전 부지 영덕 첫 smr은 부산 기장 선정",
+    "id": "b798fa53"
+  },
+  {
     "date": "2026-06-16",
     "title": "일본의 뉴스케일 파워(NuScale Power) 250억 달러 투자 계획, 주가 급등",
     "summary": "일본이 미국의 뉴스케일 파워(NuScale Power)에 250억 달러를 투자하기로 하며 주가가 급등했다.",
@@ -3407,6 +3491,20 @@ window.SMR_NEWS = [
     "url": "https://www.fool.com/investing/2026/06/16/nuscale-smr-under-10-bargain-or-trap-answer/\",1]",
     "k": "is smr under 10 a bargain or a trap here s the honest answer",
     "id": "ebfb082d"
+  },
+  {
+    "date": "2026-06-16",
+    "title": "롤스로이스(Rolls-Royce), 스웨덴의 소형모듈원자로 사업 선정",
+    "summary": "롤스로이스가 스웨덴의 소형모듈원자로(SMR) 개발 사업에 선정되었다.",
+    "summaryLong": "영국의 항공방위 기업 롤스로이스(Rolls-Royce)가 스웨덴의 소형모듈원자로 프로젝트에 파트너로 선택되었다. 이는 스웨덴의 탈화석 에너지 정책과 에너지 안보 강화 배경에서 이루어진 것으로 보인다. 롤스로이스는 자체 설계한 SMR 기술을 바탕으로 스웨덴 시장 진출을 추진 중이며, 이번 선정은 유럽에서의 SMR 상용화 전략의 주요 진전이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "UK",
+    "source": "straitstimes.com",
+    "url": "https://www.straitstimes.com/world/europe/rolls-royce-picked-by-sweden-for-new-small-nuclear-reactors\",1]",
+    "k": "rolls royce picked by sweden for new small nuclear reactors",
+    "id": "caa4f0ac"
   },
   {
     "date": "2026-06-15",
@@ -6201,6 +6299,20 @@ window.SMR_NEWS = [
     "id": "6f1485b9"
   },
   {
+    "date": "2026-05-05",
+    "title": "캐나다 OPG, 댈링턴 SMR 첫 번째 원자로 기초판 설치 완료",
+    "summary": "캐나다 온타리오전력(OPG)이 댈링턴(Darlington) 소형모듈원자로 프로젝트의 원자로 기초판 설치를 완료했다.",
+    "summaryLong": "캐나다 온타리오전력(Ontario Power Generation, OPG)이 댈링턴 발전소 부지에 건설 중인 첫 번째 소형모듈원자로의 원자로 기초판(reactor basemat) 설치를 완료했다. 이는 댈링턴 SMR 프로젝트의 주요 건설 마일스톤으로, 원자로 본체 설치를 향한 진전을 의미한다. OPG의 댈링턴 SMR 사업은 캐나다의 첨단 원자력 기술 상용화를 선도하는 프로젝트로 평가받고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "OPG",
+    "region": "CA",
+    "source": "nucnet.org",
+    "url": "https://www.nucnet.org/news/canada-s-opg-completes-installation-of-reactor-basemat-for-first-darlington-smr-5-5-2026\",1]",
+    "k": "canada s opg completes installation of reactor basemat for first darlington smr",
+    "id": "60ecb491"
+  },
+  {
     "date": "2026-05-04",
     "title": "바다 위에 띄우는 원자로 MSR, 2035년 건조 착수",
     "summary": "해상에 설치되는 용융염원자로(MSR) 건조가 2035년경 시작될 것으로 예상된다.",
@@ -6592,6 +6704,20 @@ window.SMR_NEWS = [
     "id": "66401abf"
   },
   {
+    "date": "2026-04-22",
+    "title": "온타리오와 유콘, 소형모듈원자로 개발 협력 추진",
+    "summary": "캐나다 온타리오주와 유콘(Yukon) 지역이 소형모듈원자로 개발을 함께 추진하기로 합의했다.",
+    "summaryLong": "캐나다 온타리오(Ontario)주와 유콘(Yukon) 준주가 소형모듈원자로 기술 개발 및 배포를 협력하기로 나섰다. 두 지역이 SMR을 통해 원격 지역의 전력 공급과 탈탄소화를 동시에 해결하려는 전략으로, 캐나다 북부 지역의 에너지 독립성 강화를 목표로 한다. 이는 캐나다 정부의 SMR 정책 추진의 일환이며, 지역별 맞춤형 에너지 솔루션 구축을 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "CA",
+    "source": "news.ontario.ca",
+    "url": "https://news.ontario.ca/en/release/1007340/ontario-and-yukon-working-together-to-advance-small-modular-reactor-development\",1]",
+    "k": "ontario and yukon working together to advance small modular reactor development",
+    "id": "53d01461"
+  },
+  {
     "date": "2026-04-21",
     "title": "카이로스 파워, 오크릿지(Oak Ridge)에서 첫 상용 원자로 착공",
     "summary": "카이로스 파워(Kairos Power)가 미국 테네시주 오크릿지(Oak Ridge)에서 첫 번째 상용 전력생산 원자로의 착공식을 개최.",
@@ -6618,6 +6744,20 @@ window.SMR_NEWS = [
     "url": "https://www.ans.org/news/2026-04-21/article-7964/kairos-power-breaks-ground-on-first-powerproducing-reactor-in-oak-ridge/",
     "k": "kairos power breaks ground on first power producing reactor in oak ridge",
     "id": "69ebfc32"
+  },
+  {
+    "date": "2026-04-17",
+    "title": "온타리오전력공사(OPG), 다링턴의 BWRX-300 운영 허가 신청",
+    "summary": "캐나다 온타리오전력공사(OPG)가 다링턴 핵발전소에 BWRX-300 소형모듈원자로의 운영 허가를 신청했다.",
+    "summaryLong": "캐나다 온타리오 주의 주요 전력 생산사인 온타리오전력공사(OPG)가 다링턴(Darlington) 부지에서 캐나다 우규 에너지(Canada Deuterium Uranium Limited, CANDU) 기술 기반 BWRX-300 소형모듈원자로의 운영 허가를 신청했다. 이는 기존 핵발전소 부지의 재활용을 통한 SMR 상용화 전략으로, 캐나다의 SMR 규제 및 상용화 진전을 나타내는 중요한 단계이다. BWRX-300은 비등경수로(BWR) 기반의 300 MW급 초소형 원자로로, 안전성과 경제성을 강조하는 신세대 SMR이다.",
+    "cat": "기술",
+    "type": "BWR",
+    "dev": "GE Hitachi",
+    "region": "CA",
+    "source": "foronuclear.org",
+    "url": "https://www.foronuclear.org/en/updates/news/ontario-power-generation-applies-for-operating-licence-for-a-bwrx-300-small-modular-reactor-at-darlington/\",1]",
+    "k": "ontario power generation applies for operating licence for a bwrx 300 small modular reactor at darlington",
+    "id": "b8d6534f"
   },
   {
     "date": "2026-04-16",
@@ -8436,4 +8576,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-21 17:40 KST";
+window.SMR_UPDATED = "2026-06-22 07:47 KST";
