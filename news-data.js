@@ -91,6 +91,48 @@ window.SMR_NEWS = [
     "id": "8cf54a89"
   },
   {
+    "date": "2026-06-21",
+    "title": "뉴스케일(NuScale) 주식, 지금 사야 할까?",
+    "summary": "뉴스케일 파워의 주식 투자 가치를 분석하는 기사로, SMR(소형모듈원자로) 붐 속에서 현재 주가 수준의 투자 매력도를 평가한다.",
+    "summaryLong": "야후 파이낸스에서 게재한 분석 기사로, 뉴스케일 파워(NuScale Power)의 주식 투자 가치를 검토하고 있다. SMR 시장이 성장 단계에 진입하는 가운데 현재의 주가 수준이 장기 투자 기회인지를 판단하는 내용으로, SMR 산업의 전망과 함께 개별 기업의 투자 포지셔닝을 다루고 있다. 이 기사는 향후 10년 시장 전망 속에서 뉴스케일의 경쟁력과 성장 잠재력을 평가하는 것을 목표로 한다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/10-years-wish-youd-bought-142500302.html\",1]",
+    "k": "in 10 years will you wish you d bought nuscale power stock right now",
+    "id": "4be02309"
+  },
+  {
+    "date": "2026-06-21",
+    "title": "뉴스케일 파워 14% 상승 후 파라곤(Paragon) SMR 계약 추진",
+    "summary": "뉴스케일이 주가 14% 상승 후 파라곤과의 SMR 거래를 진행 중인 것으로 보도되었다.",
+    "summaryLong": "뉴스케일 파워의 주가가 14% 상승한 후 파라곤(Paragon)과의 SMR 거래 또는 계약 관련 뉴스가 보도되었다. 이는 뉴스케일의 사업 확장 및 계약 체결이 주가 상승으로 이어지는 긍정적 시장 반응을 반영하는 것으로 보인다. 구체적인 거래 규모, 내용, 일정 등은 스니펫 정보로는 확인 불가하나, 뉴스케일의 비즈니스 모멘텀이 강화되고 있음을 시사한다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "ts2.tech",
+    "url": "https://ts2.tech/en/nuscale-power-eyes-week-after-14-gain-and-paragon-smr-deal/\",1]",
+    "k": "nuscale power eyes week after 14 gain and paragon smr deal",
+    "id": "b1e2d6ce"
+  },
+  {
+    "date": "2026-06-21",
+    "title": "\"경주는 SMR 건설 적지\"…도전은 계속된다",
+    "summary": "경주가 SMR 건설의 최적지로 평가받으며, 삼성·현대·대우건설 등 대형 건설사들이 국내 원전 활성화에 따라 해외 SMR 시장까지 진출하고 있다.",
+    "summaryLong": "경북 경주가 SMR(소형모듈원자로) 건설의 최적지로 자리매김하고 있으며, 삼성물산, 현대건설, 대우건설 등 국내 주요 건설사들이 국내 원전 훈풍을 타고 해외 SMR 시장 진출을 추진하는 중이다. 부산 지역도 원전산업의 운영·제작·해체·실증·수출 역량을 강화하며 산업 주도권을 확보하려는 움직임을 보이고 있다. 이러한 지역 간 경쟁 속에서 경주의 SMR 건설 기지로서의 입지 강화 노력이 지속되고 있음을 나타낸다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "imaeil.com",
+    "url": "https://www.imaeil.com/page/view/2026062111011024780\",1]",
+    "k": "자타공인 경주는 smr 건설 적지 도전은 계속된다",
+    "id": "8bf14c4e"
+  },
+  {
     "date": "2026-06-20",
     "title": "국립한국해양대, 세계 첫 해양 SMR 추진단 출범",
     "summary": "국립한국해양대학교가 세계 최초로 해양 소형모듈원자로(SMR) 추진단을 출범하고 국제인증 허브 구축을 추진하고 있다.",
@@ -2233,6 +2275,20 @@ window.SMR_NEWS = [
     "id": "f40eaa61"
   },
   {
+    "date": "2026-06-18",
+    "title": "경주시, 소형모듈원자로(SMR) 초도호기 부지 선정 결과 수용",
+    "summary": "경주시가 소형모듈원자로(SMR) 초도호기 부지 선정에서 탈락한 결과를 수용하고 원자력산업 육성을 지속 추진하기로 했다.",
+    "summaryLong": "경주시가 소형모듈원자로(SMR) 초도호기 부지 선정 경쟁에서 낙선한 결과를 공식 수용했다. 경주시는 이 결정에 불복하지 않고 대신 기존의 원자력산업 기반을 활용하여 산업 육성을 지속 추진할 방침을 밝혔다. 경주는 한국의 주요 원자력산업 클러스터로서 소형모듈원자로(SMR) 관련 부품·연료·기술 산업 등의 유치와 발전을 모색할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "egn.kr",
+    "url": "https://www.egn.kr/news/articleView.html?idxno\\u003d209839\",1]",
+    "k": "경주시 smr 초도호기 부지 선정 결과 수용 원자력산업 육성 지속 추진",
+    "id": "9f701a6d"
+  },
+  {
     "date": "2026-06-17",
     "title": "태웅, 테라파워(TerraPower) 나트륨(Natrium) SMR 주기기 부품 수주",
     "summary": "국내 원전 부품 전문기업 태웅이 빌 게이츠 설립 미국 테라파워사의 4세대 소형모듈원자로(SMR) 나트륨 프로젝트에 주기기 핵심부품을 공급하는 계약을 체결했다.",
@@ -3043,6 +3099,34 @@ window.SMR_NEWS = [
     "url": "https://www.hankyung.com/article/2026061727857\",1,\"https://www.hankyung.com/amp/2026061727857\"]",
     "k": "신규 대형 원전 부지 영덕 첫 smr은 부산 기장 선정",
     "id": "b798fa53"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "온타리오 주, 소형모듈원자로 공급망을 유럽 시장으로 확대",
+    "summary": "캐나다 온타리오 주가 SMR 공급망을 유럽 시장으로 확대하는 정책을 추진 중이다.",
+    "summaryLong": "캐나다 온타리오 주 정부가 소형모듈원자로(SMR) 관련 공급망과 기술을 유럽 시장으로 확대하는 전략을 수립했다. 이는 온타리오 지역의 원자력 산업 경쟁력을 유럽 시장에 수출하려는 정부 차원의 정책 추진으로, SMR 국제화 및 지역 산업 육성을 동시에 목표로 하고 있다. 온타리오의 SMR 개발 기업들과 부품 공급업체들이 유럽의 성장하는 SMR 수요에 진출할 수 있는 기반을 마련하는 것으로 파악된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "CA",
+    "source": "news.ontario.ca",
+    "url": "https://news.ontario.ca/en/release/1007617/ontario-expanding-small-modular-reactor-supply-chain-into-european-markets\",1]",
+    "k": "ontario expanding small modular reactor supply chain into european markets",
+    "id": "a0fccb59"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "신규 원전 입지: 대형원전 영덕, 소형모듈원자로(SMR) 기장 선정",
+    "summary": "한국 정부가 신규 원전 입지를 확정하면서 대형원전은 경북(北) 영덕에, 소형모듈원자로(SMR)는 부산 기장에 배치하기로 결정했다.",
+    "summaryLong": "한국 정부의 신규 원전 입지 결정에 따라 대형원전은 경북(北) 영덕에, 소형모듈원자로(SMR)는 부산 기장에 배치되는 것으로 확정되었다. 이는 원전 인프라를 다층화하고 지역별 에너지 정책을 재편하려는 국책 사업의 일환이다. 소형모듈원자로(SMR) 부지 선정은 향후 초도호기 건설 추진의 중요한 이정표가 될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260618002118413\",1]",
+    "k": "신규 원전 영덕 smr은 기장",
+    "id": "a128de87"
   },
   {
     "date": "2026-06-16",
@@ -8576,4 +8660,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-22 07:47 KST";
+window.SMR_UPDATED = "2026-06-22 08:26 KST";
