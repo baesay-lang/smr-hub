@@ -7,6 +7,34 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-06-21",
+    "title": "센트러스 에너지(Centrus Energy), 오클로(Oklo)의 HALEU 계약 체결로 주가 저평가 가능성",
+    "summary": "센트러스 에너지(Centrus Energy)가 오클로(Oklo)와 HALEU(고농축우라늄) 공급 계약을 체결하면서 주가 저평가 논의가 제기되고 있다.",
+    "summaryLong": "오클로(Oklo)가 센트러스 에너지(Centrus Energy)와 HALEU(고농축우라늄) 공급 계약을 체결함에 따라, 금융 분석가들이 센트러스의 주가(LEU)가 현재 공정가치 대비 약 42% 저평가되어 있을 가능성을 제시하고 있다. 이 계약은 오클로의 고급 소형모듈원자로(SMR) 개발과 상용화를 위한 핵 연료 공급망 확보의 중요한 이정표를 나타낸다. HALEU는 차세대 첨단로의 고효율·고성능 운영에 필수적인 특수 핵 연료로, 센트러스가 미국 내 주요 공급자 역할을 수행하고 있다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "simplywall.st",
+    "url": "https://simplywall.st/stocks/us/energy/nyse-leu/centrus-energy/news/centrus-energy-leu-stock-could-be-42-below-fair-value-after\",1,\"https://simplywall.st/stocks/us/energy/nyse-leu/centrus-energy/news/centrus-energy-leu-stock-could-be-42-below-fair-value-after/amp\"]",
+    "k": "centrus energy leu stock could be 42 below fair value after oklo haleu deal",
+    "id": "91b47526"
+  },
+  {
+    "date": "2026-06-21",
+    "title": "K-SMR(국산 소형모듈원자로), 대미 진출 유력 후보로 국내 사업까지 시동",
+    "summary": "국산 소형모듈원자로(K-SMR)가 미국 수출 유력 후보로 부각되면서 국내 상용화 사업도 동시 추진되고 있다.",
+    "summaryLong": "한국의 소형모듈원자로(K-SMR) 개발이 미국 진출의 유력한 후보로 평가받으면서, 동시에 국내 시장 진출도 본격화하고 있다. 국산 SMR은 기존의 대형 원전 기술 노하우를 바탕으로 개발되어 국제 경쟁력을 갖추고 있으며, 정부의 적극적인 정책 지원과 산업체의 투자 확대가 이루어지고 있다. 이는 한국 원자력 산업이 첨단로 분야에서 글로벌 시장 진입을 준비하는 단계임을 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "m-i.kr",
+    "url": "https://www.m-i.kr/news/articleView.html?idxno\\u003d1383332\",1]",
+    "k": "유력 대미 1호 에 국내 사업 시동까지 k smr 초읽기",
+    "id": "dc2af34a"
+  },
+  {
     "date": "2026-06-20",
     "title": "국립한국해양대, 세계 첫 해양 SMR 추진단 출범",
     "summary": "국립한국해양대학교가 세계 최초로 해양 소형모듈원자로(SMR) 추진단을 출범하고 국제인증 허브 구축을 추진하고 있다.",
@@ -2121,6 +2149,20 @@ window.SMR_NEWS = [
     "id": "84bc3393"
   },
   {
+    "date": "2026-06-18",
+    "title": "테라파워(TerraPower), 펜실베이니아주 필라델피아에 4억5천만 달러 투자로 방사성동위원소 제조시설 건설",
+    "summary": "테라파워(TerraPower)가 펜실베이니아주 필라델피아에 암 치료용 방사성동위원소 제조시설 건설을 위해 4억5천만 달러를 투자하기로 결정했다.",
+    "summaryLong": "테라파워(TerraPower)가 펜실베이니아주 필라델피아의 벨웨더 지구(Bellwether District)에 암 치료 관련 방사성동위원소 제조시설 건설을 위해 4억5천만 달러 규모의 투자를 확보했다. 이는 셰이피로 주지사(Governor Shapiro)의 경제개발 정책 추진 일환으로 지역 일자리 창출을 목표로 하고 있다. 테라파워의 이번 투자는 미국 첨단 에너지 기술 개발 및 제조 기반 확대의 일부로, 소형모듈원자로(SMR) 및 관련 핵 연료·동위원소 사업 포트폴리오 확장을 반영한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "dced.pa.gov",
+    "url": "https://dced.pa.gov/newsroom/creating-jobs-in-philadelphia-governor-shapiro-secures-450-million-investment-from-terrapower-isotopes-to-build-cancer-fighting-radioisotope-manufacturing-facility-in-the-bellwether-district/\",1]",
+    "k": "creating jobs in philadelphia governor shapiro secures 450 million investment from terrapower isotopes to build cancer fighting radioisotope manufacturing facility in the bellwether district",
+    "id": "8d05ca33"
+  },
+  {
     "date": "2026-06-17",
     "title": "태웅, 테라파워(TerraPower) 나트륨(Natrium) SMR 주기기 부품 수주",
     "summary": "국내 원전 부품 전문기업 태웅이 빌 게이츠 설립 미국 테라파워사의 4세대 소형모듈원자로(SMR) 나트륨 프로젝트에 주기기 핵심부품을 공급하는 계약을 체결했다.",
@@ -2875,6 +2917,20 @@ window.SMR_NEWS = [
     "url": "https://v.daum.net/v/20260617213945294\",1]",
     "k": "경주 smr 실증로 유치 고배 국가산단 전략 수정 불가피",
     "id": "02c7a7e5"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "14년 만 신규 원전 부지 확정: 영덕(대형), 기장(첫 SMR)",
+    "summary": "약 14년 만에 신규 원전 건설 부지가 확정되었으며, 대형원전은 영덕, 최초 SMR은 부산(釜山) 기장으로 결정되었다.",
+    "summaryLong": "한국이 약 14년 만에 신규 원전 부지를 확정했다. 대형원전은 경북(慶北) 영덕에, 첫 번째 소형모듈원자로(SMR)는 부산(釜山) 기장에 건설될 예정이다. 이는 국내 에너지 정책의 중요한 결정으로, 장기간의 사회적 논의와 합의를 거친 결과이다. SMR 부지의 선정은 차세대 원자력 기술의 국내 도입과 산업화를 위한 첫 단계로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한수원",
+    "region": "KR",
+    "source": "kbthink.com",
+    "url": "https://kbthink.com/news-list/view.html?newsId\\u003d20260617200606424\",1]",
+    "k": "14년만 신규 원전 부지 열렸다 대형 영덕 최초 smr 기장 낙점 종합",
+    "id": "09e8acb9"
   },
   {
     "date": "2026-06-16",
@@ -4613,6 +4669,20 @@ window.SMR_NEWS = [
     "id": "16c4f674"
   },
   {
+    "date": "2026-06-10",
+    "title": "원자력연, 소형원자로 기반 자동차운반선 기본설계 승인 획득",
+    "summary": "한국원자력연구원이 소형원자로(SMR) 기반의 자동차운반선에 대한 기본설계 승인을 획득했다.",
+    "summaryLong": "한국원자력연구원이 소형모듈원자로(SMR) 기술을 활용한 자동차운반선의 기본설계에 대해 관련 기관의 승인을 획득했다. 이는 SMR 기술의 해양 수송 분야로의 확대 적용을 의미하며, 원자력 기술의 활용 범위를 넓히려는 노력의 결과이다. 해양 수송 부문의 탈탄소화와 혁신적 에너지 솔루션 개발에 기여할 것으로 기대된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "원자력연",
+    "region": "KR",
+    "source": "KAIF 투데이뉴스",
+    "url": "https://www.kaif.or.kr/ko/?c=250&s=&gp=1&gbn=view&ix=29906",
+    "k": "원자력연 소형 원자로 기반 자동차운반선 기본승인 획득",
+    "id": "3fefcfe8"
+  },
+  {
     "date": "2026-06-09",
     "title": "서울대, 반도체·SMR 융합 연구단체 첫 출범 중국 추격 경고",
     "summary": "서울대학교가 반도체와 소형모듈원자로 분야를 통합하는 연구단체를 새로 구성하며 국가 경쟁력 강화에 나섰다.",
@@ -4723,6 +4793,20 @@ window.SMR_NEWS = [
     "url": "https://www.businesswire.com/news/home/20260608510049/en/Oklo-Acquires-ARMEC-to-Expand-Vertically-Integrated-Manufacturing-Capabilities-for-Advanced-Reactor-and-Fuel-Manufacturing-Programs",
     "k": "oklo acquires armec to expand vertically integrated manufacturing capabilities for advanced reactor and fuel manufacturing programs",
     "id": "58e5a8d7"
+  },
+  {
+    "date": "2026-06-08",
+    "title": "빌 게이츠와 한미 원전 협력, AI 에너지 주도권 선점",
+    "summary": "빌 게이츠(Bill Gates)와 SK가 협력하여 첨단 원자로 기술을 통해 AI 에너지 수요에 대응하는 한미 원전 협력을 추진 중이다.",
+    "summaryLong": "빌 게이츠 재단과 연계된 첨단 원자로 기술 개발사들과 SK가 협력하여 AI 시대의 에너지 솔루션으로 소형모듈원자로(SMR) 및 첨단로 기술을 추진하고 있다. 한국과 미국(US) 간의 원전 협력을 통해 차세대 에너지 기술 주도권 확보를 목표로 하고 있으며, 이는 전 세계적 AI 에너지 수요 증가에 대응하기 위한 전략적 협력이다. 빌 게이츠가 지원하는 테라파워(TerraPower) 등의 첨단로 개발 기업들과의 연계를 통해 기술 혁신을 가속화할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "SK, TerraPower",
+    "region": "US|KR",
+    "source": "KAIF 투데이뉴스",
+    "url": "https://www.kaif.or.kr/ko/?c=250&s=&gp=1&gbn=view&ix=29901",
+    "k": "빌게이츠 손잡고 한미 원전 협력 ai 에너지 주도권 선점",
+    "id": "46efdaed"
   },
   {
     "date": "2026-06-07",
@@ -5126,6 +5210,20 @@ window.SMR_NEWS = [
     "url": "https://www.energy.gov/ne/articles/nrc-dockets-construction-permit-application-terrapowers-natrium-reactor\",1]",
     "k": "nrc dockets construction permit application for terrapower s natrium reactor",
     "id": "4008c0c7"
+  },
+  {
+    "date": "2026-06-04",
+    "title": "초소형원자로(MMR), 한미 우주협력의 새로운 카드",
+    "summary": "한국의 초소형원자로(MMR) 기술이 한미 우주협력 분야에서 새로운 에너지 솔루션으로 활용될 가능성을 제시한다.",
+    "summaryLong": "마이크로 규모의 초소형원자로(MMR, Micro Modular Reactor) 기술이 우주 탐사 및 우주 기지의 전력 공급 솔루션으로 주목받고 있으며, 한국과 미국(US) 간의 우주협력 사업에서 전략적 역할을 할 수 있을 것으로 전망되고 있다. 마이크로 원자로의 소형화, 경량화, 자율 운영 특성이 우주 환경에 최적화될 수 있어 양국의 우주 탐사 협력 강화에 기여할 수 있을 것으로 예상된다.",
+    "cat": "기술",
+    "type": "Micro",
+    "dev": "",
+    "region": "US|KR",
+    "source": "KAIF 투데이뉴스",
+    "url": "https://www.kaif.or.kr/ko/?c=250&s=&gp=1&gbn=view&ix=29895",
+    "k": "초소형원자로 mmr 한미 우주협력 새 카드 되나",
+    "id": "2b70885b"
   },
   {
     "date": "2026-06-03",
@@ -8296,4 +8394,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-21 08:54 KST";
+window.SMR_UPDATED = "2026-06-21 17:16 KST";
