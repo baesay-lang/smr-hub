@@ -2933,6 +2933,34 @@ window.SMR_NEWS = [
     "id": "09e8acb9"
   },
   {
+    "date": "2026-06-17",
+    "title": "대형 원전 2기는 경북 영덕·SMR은 부산 기장으로 선정",
+    "summary": "정부가 신규 대형 원전 2기의 건설지를 경북 영덕으로, 국내 첫 소형모듈원자로(SMR)를 부산 기장으로 확정했다.",
+    "summaryLong": "정부 관계 부처가 신규 원전 입지 선정 절차를 통해 대형 원전 2기의 건설지를 경북(Gyeongbuk) 영덕(Yeongdeok)으로, 국내 첫 소형모듈원자로(SMR)를 부산(Busan) 기장(Gijang)으로 최종 선정했다. 이는 한국 원전 정책의 주요 방향 전환을 반영하며, 차세대 원자력 기술인 SMR의 국내 도입을 본격화하는 결정이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "imnews.imbc.com",
+    "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6830965_37004.html\",1]",
+    "k": "대형 원전 2기 경북 영덕 smr 부산 기장 후보 부지로 선정",
+    "id": "9efcd3e4"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "한수원 공식 발표: 신규 원전은 영덕, SMR은 기장",
+    "summary": "한국수력원자력(한수원)이 신규 원전의 부지를 영덕으로, 소형모듈원자로(SMR)를 기장으로 선정했음을 공식 발표했다.",
+    "summaryLong": "한국수력원자력(한수원)이 신규 원전 입지 결정을 공식 발표하여, 대형 원전의 건설지를 경북(Gyeongbuk) 영덕(Yeongdeok)으로, 소형모듈원자로(SMR)를 부산(Busan) 기장(Gijang)으로 확정했다. 한수원의 공식 입장은 정부 정책 결정을 이행하는 단계로, 향후 각 부지의 부지개발(Site Development) 및 인허가 절차로 진행될 것을 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한수원",
+    "region": "KR",
+    "source": "kbsm.net",
+    "url": "https://www.kbsm.net/news/view.php?idx\\u003d523468\",1]",
+    "k": "한수원 신규 원전은 영덕 smr은 기장",
+    "id": "82476d87"
+  },
+  {
     "date": "2026-06-16",
     "title": "일본의 뉴스케일 파워(NuScale Power) 250억 달러 투자 계획, 주가 급등",
     "summary": "일본이 미국의 뉴스케일 파워(NuScale Power)에 250억 달러를 투자하기로 하며 주가가 급등했다.",
@@ -4959,6 +4987,20 @@ window.SMR_NEWS = [
     "url": "https://www.foreignpolicyjournal.com/2026/06/05/nuscale-power-nyse-smr-holds-regulatory-edge-in-growing-small-modular-reactor-race/",
     "k": "nuscale power nyse smr holds regulatory edge in growing small modular reactor race",
     "id": "0cb52c03"
+  },
+  {
+    "date": "2026-06-05",
+    "title": "빌 게이츠·에스케이(SK)가 주목한 미래 원전 현장 방문기",
+    "summary": "빌 게이츠(Bill Gates)와 에스케이(SK)가 관심을 두고 있는 미래 원전 건설 현장을 취재했다.",
+    "summaryLong": "기사는 빌 게이츠 테라파워(TerraPower) 회장과 에스케이(SK) 등이 주목하고 있는 첨단 소형모듈원자로(SMR) 또는 차세대 원전 관련 프로젝트의 현장을 직접 방문하여 취재한 내용을 다루고 있다. 글로벌 기술 리더와 한국 대형 기업이 협력하는 미래 원전 분야의 개발 현황과 진전 상황을 조명함으로써, 차세대 원자력 에너지의 상용화 가능성과 산업 전망을 보여주고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "SK",
+    "region": "KR",
+    "source": "KAIF 투데이뉴스",
+    "url": "https://www.kaif.or.kr/ko/?c=250&s=&gp=1&gbn=view&ix=29898",
+    "k": "빌 게이츠 sk가 점찍은 미래 원전 현장을 가다",
+    "id": "2670807c"
   },
   {
     "date": "2026-06-04",
@@ -8394,4 +8436,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-21 17:16 KST";
+window.SMR_UPDATED = "2026-06-21 17:40 KST";
