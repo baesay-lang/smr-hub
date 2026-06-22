@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rolls-Royce SMR 상세 — 사양·공급망·고객·뉴스</title>
+<meta name="description" content="Rolls-Royce SMR(영국 3-loop 가압경수로 PWR, 470MWe) 기술 사양·부품 공급망·고객(Off-taker)·파트너십·뉴스 상세. GBN 선정·Wylfa 3기·체코 ČEZ 정리.">
+<link rel="canonical" href="https://baesay-lang.github.io/smr-hub/SMR-dev-rollsroyce.html">
+<meta name="theme-color" content="#2563eb">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SMR HUB">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="Rolls-Royce SMR 상세 · SMR HUB">
+<meta property="og:description" content="Rolls-Royce SMR(영국 3-loop PWR, 470MWe) 기술 사양·공급망·고객·파트너십·뉴스 상세.">
+<meta property="og:url" content="https://baesay-lang.github.io/smr-hub/SMR-dev-rollsroyce.html">
+<meta property="og:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Rolls-Royce SMR 상세 · SMR HUB">
+<meta name="twitter:description" content="Rolls-Royce SMR(영국 3-loop PWR, 470MWe) 사양·공급망·고객·파트너십·뉴스.">
+<meta name="twitter:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
+<link rel="stylesheet" href="styles.css?v=3">
+<script>(function(){try{var t=localStorage.getItem('smrhub-theme');if(t==='dark'||(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();</script>
+<script src="ui.js" defer></script>
+<style>
+  .breadcrumb .sep{color:var(--text-faint);}
+  .h-top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;}
+  h1{font-size:23px;margin:6px 0 2px;}
+  .type-tag{font-size:12px;font-weight:700;padding:3px 10px;border-radius:4px;background:var(--surface-3);color:var(--text-dim);}
+  .pub-tag{font-size:12px;font-weight:700;padding:3px 10px;border-radius:4px;background:var(--accent-weak);color:var(--accent-strong);}
+  .updated{font-size:12px;color:var(--text-faint);margin-top:6px;font-variant-numeric:tabular-nums;}
+
+  /* reactor hero figure (재사용: 노형별 SVG 모형) */
+  .reactor-hero{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap;}
+  .rh-text{flex:1 1 320px;min-width:270px;}
+  .reactor-figure{flex:0 0 auto;margin:0;width:166px;max-width:100%;}
+  .reactor-figure svg{display:block;width:100%;height:auto;}
+  .reactor-figure figcaption{font-size:11px;color:var(--text-faint);text-align:center;margin-top:2px;letter-spacing:.02em;}
+  @media(max-width:600px){.reactor-figure{margin:6px auto 0;}}
+
+  section{margin-top:30px;scroll-margin-top:56px;}
+  .sec-head{font-size:17px;font-weight:700;color:var(--text);margin:0 0 4px;}
+  .sec-head .no{color:var(--accent);margin-right:6px;}
+  .sec-sub{color:var(--text-dim);font-size:13px;margin:0 0 14px;}
+
+  .jump{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 6px;}
+  .jump a{font-size:13px;font-weight:600;background:var(--surface);border:1px solid var(--border);padding:6px 13px;border-radius:20px;color:var(--text-dim);}
+  .jump a:hover{border-color:var(--accent);color:var(--accent-strong);text-decoration:none;}
+
+  .specs{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1px;background:var(--border);
+    border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;}
+  .spec{background:var(--surface-2);padding:11px 14px;}
+  .spec .lab{font-size:11px;color:var(--accent);font-weight:700;display:block;margin-bottom:2px;}
+  .spec .val{font-size:14px;color:var(--text);}
+  .spec .val small{color:var(--text-dim);font-size:12px;}
+  .tech-note{background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--accent);
+    border-radius:var(--radius-sm);padding:12px 16px;margin-top:12px;font-size:13.5px;color:var(--text-dim);}
+  .tech-note b{color:var(--text);}
+
+  table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:640px;}
+  th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--border);vertical-align:top;}
+  th{background:var(--surface-2);font-weight:700;font-size:12px;color:var(--text-dim);white-space:nowrap;}
+  tr:last-child td{border-bottom:none;}
+  tbody tr:hover{background:var(--surface-2);}
+  td b{color:var(--text);}
+  .badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:4px;white-space:nowrap;background:var(--surface-3);color:var(--text-dim);}
+  .st-ok,.st-prog{color:var(--accent-strong);font-weight:700;}
+  .st-plan{color:var(--text-faint);font-weight:700;}
+  .st-stop{color:var(--alert);font-weight:700;}
+
+  .mou{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:13px 16px;margin-bottom:10px;box-shadow:var(--shadow);}
+  .mou-top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:3px;}
+  .mou-date{font-size:12px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;}
+  .mou-party{font-weight:700;font-size:15px;color:var(--text);}
+  .mou-body{font-size:13.5px;color:var(--text-dim);}
+  .mou-body b{color:var(--text);}
+
+  .diagram-wrap{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:12px;overflow-x:auto;margin-bottom:10px;}
+  .diagram-wrap svg{display:block;min-width:720px;height:auto;}
+  .sub-h{font-size:14px;font-weight:700;color:var(--text);margin:20px 0 8px;}
+  .sub-h .pin{font-size:12px;font-weight:800;color:var(--accent);margin-right:6px;}
+  .cochip{display:inline-block;font-size:12px;font-weight:700;padding:3px 9px;border-radius:5px;cursor:pointer;
+    border:1px solid var(--border-strong);background:var(--surface);color:var(--text);margin:2px 4px 2px 0;}
+  .cochip:hover{border-color:var(--accent);color:var(--accent-strong);}
+  .cochip.active{background:var(--accent-weak);border-color:var(--accent);color:var(--accent-strong);}
+  .cochip .ccx{font-size:10px;color:var(--text-faint);font-weight:700;margin-left:3px;}
+  .co-detail{background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:13px 15px;margin-top:8px;font-size:13.5px;color:var(--text-dim);}
+  .co-detail .nm{font-weight:700;color:var(--text);font-size:15px;}
+  .co-detail .role{color:var(--accent-strong);font-size:12px;font-weight:700;margin:1px 0 6px;}
+  .co-detail .lnk{margin-top:8px;font-size:13px;}
+  .co-detail.empty{font-style:italic;color:var(--text-faint);}
+  .co-detail b{color:var(--text);}
+  .num{font-weight:700;color:var(--text);font-variant-numeric:tabular-nums;}
+
+  .news-controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px;}
+  #newsSearch{flex:1;min-width:200px;}
+  .tagchips{display:flex;gap:6px;flex-wrap:wrap;}
+
+  .feed{position:relative;padding-left:22px;}
+  .feed::before{content:"";position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:var(--border);}
+  .item{position:relative;margin-bottom:16px;}
+  .item::before{content:"";position:absolute;left:-22px;top:5px;width:11px;height:11px;border-radius:50%;background:var(--accent);border:2px solid var(--bg);}
+  .item-date{font-size:12px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;}
+  .item-title{font-weight:700;font-size:15px;margin:1px 0 3px;color:var(--text);}
+  .item-body{font-size:13.5px;color:var(--text-dim);}
+  .item-body b{color:var(--text);}
+  .item-tags{margin-top:5px;display:flex;gap:5px;flex-wrap:wrap;}
+  .tg{font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:4px;background:var(--surface-2);color:var(--text-dim);border:1px solid var(--border);}
+  .item-src{font-size:11.5px;margin-top:3px;}
+  .news-hidden{display:none;}
+  .news-tip{background:var(--surface-2);border:1px dashed var(--border-strong);border-radius:var(--radius-sm);padding:10px 14px;font-size:12.5px;color:var(--text-dim);margin-bottom:16px;}
+  .news-tip code{background:var(--surface-3);padding:1px 5px;border-radius:4px;color:var(--accent-strong);font-size:11.5px;}
+
+  .src{font-size:11.5px;color:var(--text-faint);}
+  .src a{color:var(--text-dim);}
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a class="brand" href="index.html">SMR HUB</a>
+  <a href="SMR-news.html">뉴스</a>
+  <a href="SMR-developers.html">개발사</a>
+  <a href="SMR-licensing-tracks.html">인허가 트랙</a>
+  <a href="SMR-reactor-types.html">노형 분류</a>
+  <a href="SMR-reference.html">CFR 레퍼런스</a>
+  <a href="SMR-asia-structure.html">사업 구조</a>
+  <a href="SMR-korea-players.html">한국 기업</a>
+  <a href="SMR-map.html">프로젝트 맵</a>
+</nav>
+
+<div class="breadcrumb"><a href="SMR-developers.html">개발사</a> <span class="sep">›</span> <a href="SMR-developers.html#rollsroyce">Rolls-Royce SMR</a> <span class="sep">›</span> 상세</div>
+
+<header class="page reactor-hero">
+  <div class="rh-text">
+    <div class="h-top">
+      <h1>Rolls-Royce SMR</h1>
+      <span class="type-tag">경수로 · 3-loop PWR</span>
+      <span class="pub-tag">영국 · LSE: RR</span>
+    </div>
+    <p class="subtitle">검증된 <b>3-loop 가압경수로(PWR)</b>를 <b>공장제작·모듈화</b>로 단순화한 470MWe 노. 영국 <b>GBN 경쟁 선정</b>으로 <b>Wylfa</b>(웨일스)에 첫 선단 3기, 체코 ČEZ로 확장.</p>
+    <div class="updated">최종 업데이트 2026-06-17 · GBN 선정(2025) · Wylfa 3기 계약(2025-11) · UK 정부 계약(2026-04) · UK GDA Step 3</div>
+  </div>
+
+  <!-- ===== 노형 모형(재사용 패턴): 회색 음영 3D 모델. Rolls-Royce SMR = 중앙 RPV + 양옆 U-tube 증기발생기(3-loop). ===== -->
+  <figure class="reactor-figure">
+    <svg viewBox="0 0 166 172" xmlns="http://www.w3.org/2000/svg"
+         role="img" aria-label="Rolls-Royce SMR 모형: 중앙 원자로압력용기와 양옆에 키 큰 U-튜브 증기발생기 두 기(3-loop PWR)">
+      <title>Rolls-Royce SMR (3-loop PWR) 모형</title>
+      <defs>
+        <linearGradient id="rrCylV" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#99a2ac"/><stop offset="0.12" stop-color="#c2c9d1"/><stop offset="0.30" stop-color="#e9ecef"/>
+          <stop offset="0.48" stop-color="#ffffff"/><stop offset="0.64" stop-color="#eceef1"/><stop offset="0.80" stop-color="#c6ccd3"/><stop offset="1" stop-color="#959fa9"/>
+        </linearGradient>
+        <linearGradient id="rrCap" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#d7dce1"/><stop offset="0.5" stop-color="#f6f7f9"/><stop offset="1" stop-color="#cfd4da"/>
+        </linearGradient>
+        <style>
+          .rr-body{stroke:var(--border-strong);stroke-width:.8}
+          .rr-cap{fill:url(#rrCap);stroke:var(--border-strong);stroke-width:.7}
+          .rr-capb{fill:#aab2bc;stroke:var(--border-strong);stroke-width:.7}
+          .rr-flange{fill:#cdd3da;stroke:var(--border-strong);stroke-width:.6}
+          .rr-pipe{fill:none;stroke:#aab2bc;stroke-width:2}
+          .rr-shadow{fill:var(--border-strong);opacity:.5}
+        </style>
+      </defs>
+
+      <!-- 바닥 그림자 -->
+      <ellipse class="rr-shadow" cx="83" cy="164" rx="76" ry="5"/>
+
+      <!-- 루프 연결 배관 -->
+      <path class="rr-pipe" d="M44 96 h22"/>
+      <path class="rr-pipe" d="M100 96 h22"/>
+
+      <!-- 좌측 U-tube 증기발생기 -->
+      <ellipse class="rr-cap" cx="30" cy="50" rx="15" ry="5"/>
+      <rect class="rr-body" x="15" y="50" width="30" height="92" fill="url(#rrCylV)"/>
+      <ellipse class="rr-capb" cx="30" cy="142" rx="15" ry="5"/>
+
+      <!-- 우측 U-tube 증기발생기 -->
+      <ellipse class="rr-cap" cx="136" cy="50" rx="15" ry="5"/>
+      <rect class="rr-body" x="121" y="50" width="30" height="92" fill="url(#rrCylV)"/>
+      <ellipse class="rr-capb" cx="136" cy="142" rx="15" ry="5"/>
+
+      <!-- 중앙 원자로압력용기 (앞쪽, 약간 넓고 낮음) -->
+      <ellipse class="rr-cap" cx="83" cy="70" rx="22" ry="7"/>
+      <rect class="rr-flange" x="59" y="78" width="48" height="4" rx="2"/>
+      <rect class="rr-body" x="60" y="82" width="46" height="66" fill="url(#rrCylV)"/>
+      <ellipse class="rr-capb" cx="83" cy="148" rx="23" ry="7"/>
+    </svg>
+    <figcaption>Rolls-Royce SMR · 3-loop PWR (중앙 RPV + U-tube SG)</figcaption>
+  </figure>
+</header>
+
+<main>
+  <div class="jump">
+    <a href="#tech">① 기술 사양</a>
+    <a href="#supply">② 부품 공급망</a>
+    <a href="#offtaker">③ Off-taker</a>
+    <a href="#mou">④ 파트너십·이정표</a>
+    <a href="#news">⑤ 관련 뉴스</a>
+  </div>
+
+  <!-- ===================== 기술 사양 ===================== -->
+  <section id="tech">
+    <h2 class="sec-head"><span class="no">①</span>기술 사양</h2>
+    <p class="sec-sub">3-loop 가압경수로(PWR) · 1358MWth / 470MWe · 검증된 PWR + 전(全) 플랜트 모듈화 · 붕소 미사용(가돌리니아)</p>
+    <div class="specs">
+      <div class="spec"><span class="lab">노형</span><span class="val">가압경수로(PWR)<small> 3-loop 밀결합(close-coupled)</small></span></div>
+      <div class="spec"><span class="lab">출력</span><span class="val">470 MWe<small> / 1,358 MWth</small></span></div>
+      <div class="spec"><span class="lab">증기발생기</span><span class="val">U-튜브 ×3<small> + 가압기 (간접 랭킨)</small></span></div>
+      <div class="spec"><span class="lab">1차 순환</span><span class="val">강제(RCP ×3)<small> 백업 붕괴열은 자연순환</small></span></div>
+      <div class="spec"><span class="lab">운전 압력</span><span class="val">15.5 / 7.4 MPa<small> 1차 / 2차</small></span></div>
+      <div class="spec"><span class="lab">냉각재 온도</span><span class="val">295 / 322 °C<small> 입구 / 출구</small></span></div>
+      <div class="spec"><span class="lab">연료</span><span class="val">UO₂ 펠릿<small> 17×17, 농축도 &lt;4.95% · Zr 피복</small></span></div>
+      <div class="spec"><span class="lab">노심</span><span class="val">연료집합체 121<small> 유효길이 2.8m</small></span></div>
+      <div class="spec"><span class="lab">반응도 제어</span><span class="val">제어봉 + 가돌리니아<small> 소듐붕소 미사용(no soluble boron)</small></span></div>
+      <div class="spec"><span class="lab">재장전</span><span class="val">18개월 주기</span></div>
+      <div class="spec"><span class="lab">연소도</span><span class="val">~65 GWd/tHM</span></div>
+      <div class="spec"><span class="lab">설계수명 · 내진</span><span class="val">60년<small> · DBE 0.3 g</small></span></div>
+      <div class="spec"><span class="lab">원자로용기(RPV)</span><span class="val">높이 7.82m · ⌀4.20m<small> 무게 169톤</small></span></div>
+      <div class="spec"><span class="lab">부지면적</span><span class="val">약 54,500 m²</span></div>
+      <div class="spec"><span class="lab">안전</span><span class="val">피동 + 능동</span></div>
+      <div class="spec"><span class="lab">용도</span><span class="val">기저부하 전력 · 열 · e-fuel</span></div>
+    </div>
+    <div class="tech-note">
+      <b>핵심 차별점:</b> ① <b>검증된 PWR + 전(全) 플랜트 모듈화</b> — 신기술 위험을 줄인 표준 3-loop PWR을, <b>공장에서 모듈로 제작·운반·조립</b>해 건설기간·비용을 낮추는 데 집중(설계보다 <b>공급망·생산방식</b> 혁신) · ② <b>대형 SMR(470MWe)</b> — SMR 중 출력이 큰 편이라 단위출력 경제성 유리, 기저부하용 · ③ <b>붕소 미사용</b> — 1차 냉각수에 소듐붕소를 쓰지 않고 제어봉·가돌리니아로 반응도 제어(운영 단순화) · ④ <b>영국 국가 선택</b> — Great British Nuclear 경쟁에서 선정돼 英 첫 SMR 선단(Wylfa)을 건설, 유럽 첫 SMR 선단을 노림.
+      자세한 노형 비교는 <a href="SMR-reactor-types.html#pwr">노형 분류 › PWR</a> 참고.
+    </div>
+    <p class="src" style="margin:10px 0 0;">＊ 사양 교차검증: <b>IAEA <i>Advances in SMR Technology Developments 2024</i></b> 카탈로그(Rolls-Royce SMR). 1,358MWth/470MWe·15.5/7.4MPa·295/322°C·121 연료집합체·U-튜브 SG×3·RPV 7.82m×⌀4.20m·169톤 등 일치.</p>
+  </section>
+
+  <!-- ===================== 부품 공급망 ===================== -->
+  <section id="supply">
+    <h2 class="sec-head"><span class="no">②</span>주요 부품·연료 공급망</h2>
+    <p class="sec-sub">Rolls-Royce SMR이 설계·통합(integrator), 다수 기기를 <b>영국 공급망</b>에서 모듈로 조달, 연료는 상용 PWR LEU</p>
+
+    <div class="sub-h"><span class="pin">②-A</span>Rolls-Royce SMR 3-loop 구성 — 도해</div>
+    <!-- DIAGRAM CONVENTION (reuse): viewBox 0 0 900 440. 3-loop PWR; 한 루프만 대표로 그리고 ×3 표기.
+         Vessels = rounded rect fill accent-weak stroke accent. Components ①..⑥ map to supply table.
+         Flows: hot/steam = solid accent; cold/feed = dashed gray. -->
+    <div class="diagram-wrap">
+      <svg viewBox="0 0 900 440" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, sans-serif" aria-label="Rolls-Royce SMR 3-loop PWR schematic">
+        <defs>
+          <marker id="m-acc" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker>
+          <marker id="m-gray" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#9aa7b4"/></marker>
+        </defs>
+
+        <!-- islands -->
+        <rect x="24" y="56" width="470" height="352" rx="12" fill="none" stroke="#d2d7e0" stroke-dasharray="6 5"/>
+        <text x="40" y="46" fill="#8b93a2" font-size="11" font-weight="700" letter-spacing="1.4">NUCLEAR ISLAND (NI) · 3-loop(대표 1루프 표시)</text>
+        <rect x="526" y="56" width="350" height="352" rx="12" fill="none" stroke="#d2d7e0" stroke-dasharray="6 5"/>
+        <text x="542" y="46" fill="#8b93a2" font-size="11" font-weight="700" letter-spacing="1.4">CONVENTIONAL ISLAND (CI)</text>
+
+        <!-- RPV ① + core ② -->
+        <rect x="96" y="150" width="92" height="196" rx="20" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="142" y="368" fill="#1d4ed8" font-size="11.5" font-weight="700" text-anchor="middle">원자로용기(RPV) ①</text>
+        <rect x="118" y="300" width="48" height="34" rx="3" fill="#e3ecff" stroke="#2563eb"/>
+        <g stroke="#9aa7b4" stroke-width="1.4"><line x1="126" y1="304" x2="126" y2="330"/><line x1="134" y1="304" x2="134" y2="330"/><line x1="142" y1="304" x2="142" y2="330"/><line x1="150" y1="304" x2="150" y2="330"/><line x1="158" y1="304" x2="158" y2="330"/></g>
+        <text x="84" y="320" fill="#1d4ed8" font-size="10.5" font-weight="700" text-anchor="end">Core ②</text>
+        <line x1="88" y1="316" x2="116" y2="316" stroke="#c0c7d1"/>
+        <!-- pressurizer ④ -->
+        <rect x="118" y="116" width="22" height="34" rx="5" fill="#e3ecff" stroke="#2563eb"/>
+        <text x="142" y="110" fill="#1d4ed8" font-size="10" font-weight="700" text-anchor="middle">가압기 ④</text>
+
+        <!-- U-tube SG ③ -->
+        <path d="M300 320 v-150 a36 36 0 0 1 72 0 v150" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <g fill="none" stroke="#9aa7b4" stroke-width="1.6"><path d="M318 312 v-128 a18 18 0 0 1 36 0 v128"/></g>
+        <text x="336" y="338" fill="#1d4ed8" font-size="10.5" font-weight="700" text-anchor="middle">증기발생기(U-튜브) ③</text>
+        <text x="336" y="352" fill="#8b93a2" font-size="9" text-anchor="middle">× 3 loop (대칭)</text>
+
+        <!-- hot leg RPV→SG, RCP ⑤, cold leg back -->
+        <line x1="188" y1="196" x2="300" y2="196" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
+        <text x="244" y="188" fill="#8b93a2" font-size="9" text-anchor="middle">고온수(hot leg) →</text>
+        <circle cx="244" cy="276" r="15" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="244" y="280" fill="#1d4ed8" font-size="9" font-weight="700" text-anchor="middle">RCP⑤</text>
+        <polyline points="300,276 259,276" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
+        <polyline points="229,276 188,276" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
+        <text x="244" y="300" fill="#8b93a2" font-size="9" text-anchor="middle">← 저온수(cold leg)</text>
+
+        <!-- steam → turbine ⑥ -->
+        <line x1="372" y1="170" x2="688" y2="170" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
+        <text x="520" y="162" fill="#8b93a2" font-size="9.5" text-anchor="middle">Steam →</text>
+        <polyline points="730,250 730,310 372,310 372,260" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
+        <text x="520" y="324" fill="#8b93a2" font-size="9.5" text-anchor="middle">← Feedwater</text>
+        <polygon points="688,148 752,136 752,208 688,196" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="720" y="130" fill="#1d4ed8" font-size="11.5" font-weight="700" text-anchor="middle">Turbine ⑥</text>
+        <line x1="752" y1="172" x2="780" y2="172" stroke="#9aa7b4" stroke-width="3"/>
+        <circle cx="804" cy="172" r="20" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="804" y="177" fill="#1d4ed8" font-size="14" font-weight="700" text-anchor="middle">G</text>
+        <text x="804" y="206" fill="#54606f" font-size="9.5" text-anchor="middle">Generator</text>
+      </svg>
+    </div>
+    <p class="src" style="margin:0 0 14px;">＊ 모식도(개략, 3루프 중 1루프 대표 표시). 번호 ①–⑥은 아래 표와 연결. 노심 열이 <b>3개의 RCP·U-튜브 증기발생기</b>를 통해 2차측 증기를 만들고(간접 랭킨), 그 증기로 터빈 발전. 신기술보다 <b>표준 PWR의 모듈식 생산</b>에 방점.</p>
+
+    <div class="sub-h"><span class="pin">②-B</span>주기기·연료별 공급/책임 <span style="font-weight:400;color:var(--text-dim);font-size:12.5px;">(칩 클릭 → 설명·링크)</span></div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>#</th><th>부품·연료</th><th>공급/책임 (클릭)</th><th>구분 (NI/CI)</th></tr></thead>
+        <tbody>
+          <tr><td class="num">①</td><td><b>원자로압력용기 (<abbr title="Reactor Pressure Vessel">RPV</abbr>)</b></td><td><span class="cochip" data-co="rr">Rolls-Royce SMR<span class="ccx">UK</span></span> <span style="color:var(--text-faint);font-size:12px;">+ 英 공급망</span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Nuclear Steam Supply System">NSSS</abbr></td></tr>
+          <tr><td class="num">②</td><td><b>핵연료 (UO₂ 17×17, &lt;4.95%)</b></td><td><span class="badge">상용 PWR LEU</span> <span style="color:var(--text-faint);font-size:12px;">표준 연료(가돌리니아 가연성독물)</span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Reactor Core">Core</abbr></td></tr>
+          <tr><td class="num">③</td><td><b>증기발생기 (U-튜브 ×3)</b></td><td><span class="cochip" data-co="rr">Rolls-Royce SMR<span class="ccx">UK</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Nuclear Steam Supply System">NSSS</abbr></td></tr>
+          <tr><td class="num">④</td><td><b>가압기 (Pressurizer)</b></td><td><span class="cochip" data-co="rr">Rolls-Royce SMR<span class="ccx">UK</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Nuclear Steam Supply System">NSSS</abbr></td></tr>
+          <tr><td class="num">⑤</td><td><b>원자로냉각재펌프 (<abbr title="Reactor Coolant Pump">RCP</abbr> ×3)</b></td><td><span class="cochip" data-co="rr">Rolls-Royce SMR<span class="ccx">UK</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Nuclear Steam Supply System">NSSS</abbr></td></tr>
+          <tr><td class="num">⑥</td><td><b>증기터빈·발전기</b></td><td><span class="badge">표준 T/G</span> <span style="color:var(--text-faint);font-size:12px;">재래식 발전부(프로젝트별)</span></td><td><abbr title="Conventional Island">CI</abbr> · <abbr title="Turbine–Generator">T/G</abbr></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="src" style="margin:8px 0 0;line-height:1.85;">
+      <b style="color:var(--text-dim);">구분 약어</b> (커서 올리면 풀네임) —
+      <abbr title="Nuclear Island">NI</abbr> Nuclear Island ·
+      <abbr title="Conventional Island">CI</abbr> Conventional Island ·
+      <abbr title="Nuclear Steam Supply System">NSSS</abbr> Nuclear Steam Supply System ·
+      <abbr title="Reactor Coolant Pump">RCP</abbr> Reactor Coolant Pump ·
+      <abbr title="Turbine–Generator">T/G</abbr> Turbine–Generator<br>
+      <span style="color:var(--text-faint);">＊ Rolls-Royce SMR은 <b style="color:var(--text-dim);">시스템 통합자(integrator)</b>로, NSSS 주기기·모듈을 영국 공급망과 함께 제작·조립함(전 플랜트 모듈화). 발전부(터빈)는 재래식 표준 기기. <b style="color:var(--text-dim);">한국 기업의 직접 참여는 현재 두드러지지 않음.</b></span>
+    </p>
+    <div class="co-detail empty" id="coDetail">위 칩을 클릭하면 회사 설명과 공식 링크가 여기에 표시됩니다.</div>
+
+    <div class="sub-h"><span class="pin">②-C</span>고객·투자·전개 파트너</div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>파트너</th><th>국적</th><th>역할</th><th>현황</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>Great British Energy – Nuclear</b><br><span class="src">英 정부 SMR 사업체(구 GBN)</span></td>
+            <td><span class="badge">UK</span></td>
+            <td>英 첫 SMR 선단의 <b>발주·자금·부지(Wylfa)</b> 주체.</td>
+            <td><span class="st-prog">계약</span> · 3기 계약(2025-11), 정부 계약(2026-04).</td>
+          </tr>
+          <tr>
+            <td><b>ČEZ Group</b><br><span class="src">체코 국영 유틸리티</span></td>
+            <td><span class="badge">CZ</span></td>
+            <td>체코 부지 <b>최대 3GW</b> 전개 — 초기작업협약.</td>
+            <td><span class="st-plan">개발</span> · early works agreement.</td>
+          </tr>
+          <tr>
+            <td><b>Rolls-Royce Holdings</b><br><span class="src">모회사 + 투자자</span></td>
+            <td><span class="badge">UK</span></td>
+            <td>설계·기술 보유(Rolls-Royce SMR Ltd) · 모회사 LSE: RR.</td>
+            <td><span class="st-prog">진행</span> · UK GDA Step 3(최종).</td>
+          </tr>
+          <tr>
+            <td><b>유럽 기타</b><br><span class="src">스웨덴·네덜란드 등</span></td>
+            <td><span class="badge">EU</span></td>
+            <td>전개 후보지 검토.</td>
+            <td><span class="st-plan">검토</span> · 다수 유럽국 관심.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="src" style="margin-top:8px;">＊ Rolls-Royce SMR은 <b>영국 정부 주도(GBE-N)</b>로 자국 선단을 먼저 구축하고 유럽으로 수출하는 모델 — 한국 기업 참여는 아직 두드러지지 않음(정직 표기). → <a href="SMR-korea-players.html">한국 기업</a> · <a href="SMR-licensing-tracks.html#gda">UK GDA 트랙</a></p>
+  </section>
+
+  <!-- ===================== Off-taker ===================== -->
+  <section id="offtaker">
+    <h2 class="sec-head"><span class="no">③</span>Off-taker (고객·프로젝트)</h2>
+    <p class="sec-sub">영국 Wylfa(국가 선단 3기)를 선두로 체코·유럽으로 확장. 그리드 공급 목표 2030년대 중반</p>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>고객·프로젝트</th><th>지역</th><th>규모</th><th>현황</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>Great British Energy – Nuclear</b><br><span class="src">Wylfa (Ynys Môn/Anglesey)</span></td>
+            <td><span class="badge">UK · 웨일스</span></td>
+            <td><b>3기</b> ≈ 1.4 GWe</td>
+            <td><span class="st-prog">계약·인허가</span> · GBN 선정 후 <b>Wylfa 3기 계약</b>(2025-11), 정부 계약(2026-04). 그리드 공급 ~2030년대 중반. <b>영국·유럽 첫 SMR 선단</b>.</td>
+          </tr>
+          <tr>
+            <td><b>ČEZ Group</b><br><span class="src">체코</span></td>
+            <td><span class="badge">CZ · 체코</span></td>
+            <td>최대 <b>3 GW</b> (다수기)</td>
+            <td><span class="st-plan">개발</span> · 초기작업협약으로 부지 작업 착수.</td>
+          </tr>
+          <tr>
+            <td><b>유럽 기타</b><br><span class="src">스웨덴·네덜란드 등</span></td>
+            <td><span class="badge">EU</span></td>
+            <td>검토 단계</td>
+            <td><span class="st-plan">검토</span> · 다수 유럽국이 Rolls-Royce SMR 도입 평가.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="src" style="margin-top:8px;">＊ Rolls-Royce SMR은 <b>UK GDA에서 가장 앞선(Step 3, 경쟁사 대비 18개월 선행)</b> 영국 설계. 미국 NRC가 아닌 <b>UK 규제</b>가 1차 트랙.</p>
+  </section>
+
+  <!-- ===================== MOU ===================== -->
+  <section id="mou">
+    <h2 class="sec-head"><span class="no">④</span>파트너십 · 이정표</h2>
+    <p class="sec-sub">시간순(최신 위). 英 정부(GBE-N) 선정·계약 + UK GDA + 체코 ČEZ</p>
+
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2026-04</span><span class="mou-party">英 정부 — 본계약</span></div>
+      <div class="mou-body">UK 정부와 SMR 공급 <b>본계약(landmark contract)</b> 체결 — 첫 선단(Wylfa) 인도 확정.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2025-11</span><span class="mou-party">GBE-N — Wylfa 3기 계약</span></div>
+      <div class="mou-body">총리 발표와 함께 <b>Wylfa(웨일스)에 SMR 3기</b> 인도 계약 — 영국·유럽 첫 SMR 선단.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2025</span><span class="mou-party">Great British Nuclear — 경쟁 선정</span></div>
+      <div class="mou-body">英 SMR 기술 경쟁에서 <b>Rolls-Royce SMR 선정</b>(우선 공급자) — 국가 SMR 사업 파트너 확정.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2025</span><span class="mou-party">체코 ČEZ — 초기작업협약</span></div>
+      <div class="mou-body">ČEZ와 <b>초기작업협약(early works)</b> — 체코 부지에 최대 3GW 전개 추진.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">진행 중</span><span class="mou-party">UK GDA — Step 3</span></div>
+      <div class="mou-body">영국 일반설계평가(GDA) <b>최종 단계(Step 3)</b> 진입 — 경쟁사 대비 약 18개월 선행.</div>
+    </div>
+  </section>
+
+  <!-- ===================== 뉴스 ===================== -->
+  <section id="news">
+    <h2 class="sec-head"><span class="no">⑤</span>관련 뉴스 (계속 누적)</h2>
+    <p class="sec-sub">최신순. 검색·태그로 거르기. 새 소식은 맨 위에 항목을 추가하면 됨.</p>
+
+    <div class="news-tip">
+      <b>새 뉴스 추가법:</b> 아래 <code>&lt;!-- NEWS-TEMPLATE --&gt;</code> 주석의 양식을 복사해 피드 맨 위에 붙이고 날짜·제목·내용·태그(<code>기술/공급망/고객/규제/투자/MOU</code>)·출처만 채우면 됩니다.
+    </div>
+
+    <div class="news-controls">
+      <input id="newsSearch" class="search" type="text" placeholder="뉴스 검색 (예: Wylfa, GBN, ČEZ, GDA)" autocomplete="off">
+      <div class="tagchips" id="tagchips">
+        <span class="chip active" data-tag="all">전체</span>
+        <span class="chip" data-tag="기술">기술</span>
+        <span class="chip" data-tag="공급망">공급망</span>
+        <span class="chip" data-tag="고객">고객</span>
+        <span class="chip" data-tag="규제">규제</span>
+        <span class="chip" data-tag="투자">투자</span>
+        <span class="chip" data-tag="MOU">MOU</span>
+      </div>
+    </div>
+
+    <div class="feed" id="feed">
+
+      <!-- NEWS-TEMPLATE (복사용)
+      <div class="item" data-tags="기술" data-date="YYYY-MM-DD">
+        <div class="item-date">YYYY-MM-DD</div>
+        <div class="item-title">제목</div>
+        <div class="item-body">내용 요약.</div>
+        <div class="item-tags"><span class="tg">기술</span></div>
+        <div class="item-src"><a href="URL" target="_blank">출처</a></div>
+      </div>
+      -->
+
+      <div class="item" data-tags="고객 규제" data-date="2026-04-13">
+        <div class="item-date">2026-04</div>
+        <div class="item-title">Rolls-Royce, UK 정부와 SMR 공급 본계약</div>
+        <div class="item-body">UK 정부와 <b>SMR 인도 본계약(landmark contract)</b> 체결 — Wylfa 첫 선단 건설을 위한 계약적 확실성 확보.</div>
+        <div class="item-tags"><span class="tg">고객</span><span class="tg">규제</span></div>
+        <div class="item-src"><a href="https://www.rolls-royce.com/media/press-releases/2026/13-04-2026-rr-welcomes-contract-with-uk-government-for-delivery-of-small-modular-reactors.aspx" target="_blank">Rolls-Royce</a></div>
+      </div>
+
+      <div class="item" data-tags="고객" data-date="2025-11">
+        <div class="item-date">2025-11</div>
+        <div class="item-title">Wylfa에 Rolls-Royce SMR 3기 — 영국 첫 선단</div>
+        <div class="item-body">총리 발표와 함께 <b>웨일스 Wylfa에 SMR 3기(≈1.4GWe)</b> 인도 계약. 영국·유럽 첫 SMR 선단.</div>
+        <div class="item-tags"><span class="tg">고객</span></div>
+        <div class="item-src"><a href="https://neutronbytes.com/2025/11/16/uk-govt-taps-rolls-royce-for-three-480-mw-pwrs-at-wylfa/" target="_blank">Neutron Bytes</a></div>
+      </div>
+
+      <div class="item" data-tags="고객 MOU" data-date="2025-06">
+        <div class="item-date">2025-06</div>
+        <div class="item-title">Great British Nuclear, Rolls-Royce SMR 선정</div>
+        <div class="item-body">英 SMR 기술 경쟁에서 <b>Rolls-Royce SMR이 우선 공급자로 선정</b> — 국가 SMR 사업 파트너 확정.</div>
+        <div class="item-tags"><span class="tg">고객</span><span class="tg">MOU</span></div>
+        <div class="item-src"><a href="https://www.rolls-royce.com/media/press-releases/2025/10-06-2025-rr-welcomes-great-british-nuclear-decision-on-smrs.aspx" target="_blank">Rolls-Royce</a></div>
+      </div>
+
+      <div class="item" data-tags="고객" data-date="2025">
+        <div class="item-date">2025</div>
+        <div class="item-title">체코 ČEZ, Rolls-Royce SMR 초기작업협약 — 최대 3GW</div>
+        <div class="item-body">ČEZ가 체코 부지에 <b>최대 3GW</b> 전개를 위한 초기작업협약 — 유럽 확장의 거점.</div>
+        <div class="item-tags"><span class="tg">고객</span></div>
+        <div class="item-src"><a href="https://www.rolls-royce-smr.com/press/rolls-royce-smr-secures-contractual-certainty-to-build-europes-first-smr-fleet" target="_blank">Rolls-Royce SMR</a></div>
+      </div>
+
+      <div class="item" data-tags="규제" data-date="2025">
+        <div class="item-date">2025</div>
+        <div class="item-title">UK GDA 최종 단계(Step 3) 진입 — 18개월 선행</div>
+        <div class="item-body">영국 일반설계평가(GDA) <b>Step 3</b>로 진입, 경쟁사 대비 약 18개월 앞섬. 英 첫 SMR 설계심사 선두.</div>
+        <div class="item-tags"><span class="tg">규제</span></div>
+        <div class="item-src"><a href="https://gda.rolls-royce-smr.com/our-technology" target="_blank">Rolls-Royce SMR GDA</a></div>
+      </div>
+
+    </div>
+    <div class="news-hidden" id="newsNone" style="display:none;color:var(--text-faint);padding:20px;text-align:center;">검색 결과가 없습니다.</div>
+  </section>
+
+</main>
+
+<footer>
+  <span class="note warn" style="display:block;margin-bottom:8px;"><span class="lead">주의</span> 인허가·사업 현황은 빠르게 변합니다 — 회의·보고 직전 Rolls-Royce SMR·英 규제(ONR)·각 파트너 공시로 재확인 권장. (2026-06-17 기준)</span>
+  <a href="SMR-developers.html#rollsroyce">개발사 카드로</a> · <a href="SMR-reactor-types.html#pwr">PWR 노형</a> · <a href="SMR-licensing-tracks.html#gda">UK GDA 트랙</a> · <a href="SMR-korea-players.html">한국 기업</a> · <a href="SMR-reference.html">CFR 레퍼런스</a>
+</footer>
+
+<script>
+  const newsSearch=document.getElementById('newsSearch');
+  const items=Array.from(document.querySelectorAll('.item'));
+  const tagchips=Array.from(document.querySelectorAll('#tagchips .chip'));
+  const newsNone=document.getElementById('newsNone');
+  let activeTag='all';
+
+  function clearMarks(el){el.querySelectorAll('mark').forEach(m=>m.replaceWith(document.createTextNode(m.textContent)));el.normalize();}
+  function highlight(el,term){
+    const walker=document.createTreeWalker(el,NodeFilter.SHOW_TEXT,null);const nodes=[];
+    while(walker.nextNode())nodes.push(walker.currentNode);
+    const re=new RegExp('('+term.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi');
+    nodes.forEach(node=>{if(!re.test(node.textContent))return;const span=document.createElement('span');span.innerHTML=node.textContent.replace(re,'<mark>$1</mark>');node.replaceWith(span);});
+  }
+  function applyNews(){
+    const term=newsSearch.value.trim().toLowerCase();
+    let vis=0;
+    items.forEach(it=>{
+      clearMarks(it);
+      const text=it.textContent.toLowerCase();
+      const tags=(it.dataset.tags||'').split(' ');
+      const matchText=!term||text.includes(term);
+      const matchTag=activeTag==='all'||tags.includes(activeTag);
+      const show=matchText&&matchTag;
+      it.classList.toggle('news-hidden',!show);
+      it.style.display=show?'':'none';
+      if(show){vis++;if(term)highlight(it,term);}
+    });
+    newsNone.style.display=vis?'none':'block';
+  }
+  newsSearch.addEventListener('input',applyNews);
+  tagchips.forEach(c=>c.addEventListener('click',()=>{
+    tagchips.forEach(x=>x.classList.remove('active'));c.classList.add('active');activeTag=c.dataset.tag;applyNews();
+  }));
+
+  // ---- supplier company directory ----
+  const COMPANIES={
+    rr:{nm:'Rolls-Royce SMR Limited',role:'설계·시스템 통합 · 영국',
+      desc:'Rolls-Royce가 주도하는 SMR 전담사. 검증된 <b>3-loop PWR</b>을 <b>전(全) 플랜트 모듈화</b>로 설계·통합하고, <b>RPV·증기발생기(U-튜브)·가압기·RCP</b> 등 NSSS 주기기·모듈을 영국 공급망과 함께 제작·조립. 모회사 Rolls-Royce Holdings(LSE: RR).',
+      url:'https://www.rolls-royce-smr.com/'}
+  };
+  const coDetail=document.getElementById('coDetail');
+  const cochips=Array.from(document.querySelectorAll('.cochip'));
+  cochips.forEach(chip=>chip.addEventListener('click',()=>{
+    const c=COMPANIES[chip.dataset.co];if(!c)return;
+    cochips.forEach(x=>x.classList.toggle('active',x.dataset.co===chip.dataset.co));
+    coDetail.classList.remove('empty');
+    coDetail.innerHTML='<div class="nm">'+c.nm+'</div><div class="role">'+c.role+'</div><div>'+c.desc+'</div><div class="lnk"><a href="'+c.url+'" target="_blank" rel="noopener">공식 웹사이트 →</a></div>';
+  }));
+</script>
+<script src="feedback.js" defer></script>
+</body>
+</html>
