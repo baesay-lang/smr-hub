@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TerraPower / Natrium 상세 — 사양·공급망·고객·뉴스</title>
+<meta name="description" content="TerraPower Natrium(소듐냉각고속로 SFR + 용융염 저장) 기술 사양·부품 공급망·고객(Off-taker)·파트너십·뉴스 상세. 와이오밍 Kemmerer(NRC 건설허가 1호)·한국(SK·KHNP) 참여 정리.">
+<link rel="canonical" href="https://baesay-lang.github.io/smr-hub/SMR-dev-terrapower.html">
+<meta name="theme-color" content="#2563eb">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SMR HUB">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="TerraPower / Natrium 상세 · SMR HUB">
+<meta property="og:description" content="TerraPower Natrium(SFR + 용융염 저장) 기술 사양·부품 공급망·고객·파트너십·뉴스 상세.">
+<meta property="og:url" content="https://baesay-lang.github.io/smr-hub/SMR-dev-terrapower.html">
+<meta property="og:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="TerraPower / Natrium 상세 · SMR HUB">
+<meta name="twitter:description" content="Natrium(SFR + 용융염 저장) 사양·공급망·고객·파트너십·뉴스 상세.">
+<meta name="twitter:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
+<link rel="stylesheet" href="styles.css?v=3">
+<script>(function(){try{var t=localStorage.getItem('smrhub-theme');if(t==='dark'||(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();</script>
+<script src="ui.js" defer></script>
+<style>
+  .breadcrumb .sep{color:var(--text-faint);}
+  .h-top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;}
+  h1{font-size:23px;margin:6px 0 2px;}
+  .type-tag{font-size:12px;font-weight:700;padding:3px 10px;border-radius:4px;background:var(--surface-3);color:var(--text-dim);}
+  .pub-tag{font-size:12px;font-weight:700;padding:3px 10px;border-radius:4px;background:var(--accent-weak);color:var(--accent-strong);}
+  .updated{font-size:12px;color:var(--text-faint);margin-top:6px;font-variant-numeric:tabular-nums;}
+
+  /* reactor hero figure (재사용: 노형별 SVG 모형) */
+  .reactor-hero{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap;}
+  .rh-text{flex:1 1 320px;min-width:270px;}
+  .reactor-figure{flex:0 0 auto;margin:0;width:172px;max-width:100%;}
+  .reactor-figure svg{display:block;width:100%;height:auto;}
+  .reactor-figure figcaption{font-size:11px;color:var(--text-faint);text-align:center;margin-top:2px;letter-spacing:.02em;}
+  @media(max-width:600px){.reactor-figure{margin:6px auto 0;}}
+
+  section{margin-top:30px;scroll-margin-top:56px;}
+  .sec-head{font-size:17px;font-weight:700;color:var(--text);margin:0 0 4px;}
+  .sec-head .no{color:var(--accent);margin-right:6px;}
+  .sec-sub{color:var(--text-dim);font-size:13px;margin:0 0 14px;}
+
+  .jump{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 6px;}
+  .jump a{font-size:13px;font-weight:600;background:var(--surface);border:1px solid var(--border);padding:6px 13px;border-radius:20px;color:var(--text-dim);}
+  .jump a:hover{border-color:var(--accent);color:var(--accent-strong);text-decoration:none;}
+
+  .specs{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1px;background:var(--border);
+    border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;}
+  .spec{background:var(--surface-2);padding:11px 14px;}
+  .spec .lab{font-size:11px;color:var(--accent);font-weight:700;display:block;margin-bottom:2px;}
+  .spec .val{font-size:14px;color:var(--text);}
+  .spec .val small{color:var(--text-dim);font-size:12px;}
+  .tech-note{background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--accent);
+    border-radius:var(--radius-sm);padding:12px 16px;margin-top:12px;font-size:13.5px;color:var(--text-dim);}
+  .tech-note b{color:var(--text);}
+
+  table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:640px;}
+  th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--border);vertical-align:top;}
+  th{background:var(--surface-2);font-weight:700;font-size:12px;color:var(--text-dim);white-space:nowrap;}
+  tr:last-child td{border-bottom:none;}
+  tbody tr:hover{background:var(--surface-2);}
+  td b{color:var(--text);}
+  .badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:4px;white-space:nowrap;background:var(--surface-3);color:var(--text-dim);}
+  .st-ok,.st-prog{color:var(--accent-strong);font-weight:700;}
+  .st-plan{color:var(--text-faint);font-weight:700;}
+  .st-stop{color:var(--alert);font-weight:700;}
+
+  .mou{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:13px 16px;margin-bottom:10px;box-shadow:var(--shadow);}
+  .mou-top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:3px;}
+  .mou-date{font-size:12px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;}
+  .mou-party{font-weight:700;font-size:15px;color:var(--text);}
+  .mou-body{font-size:13.5px;color:var(--text-dim);}
+  .mou-body b{color:var(--text);}
+
+  .diagram-wrap{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:12px;overflow-x:auto;margin-bottom:10px;}
+  .diagram-wrap svg{display:block;min-width:760px;height:auto;}
+  .sub-h{font-size:14px;font-weight:700;color:var(--text);margin:20px 0 8px;}
+  .sub-h .pin{font-size:12px;font-weight:800;color:var(--accent);margin-right:6px;}
+  .cochip{display:inline-block;font-size:12px;font-weight:700;padding:3px 9px;border-radius:5px;cursor:pointer;
+    border:1px solid var(--border-strong);background:var(--surface);color:var(--text);margin:2px 4px 2px 0;}
+  .cochip:hover{border-color:var(--accent);color:var(--accent-strong);}
+  .cochip.active{background:var(--accent-weak);border-color:var(--accent);color:var(--accent-strong);}
+  .cochip .ccx{font-size:10px;color:var(--text-faint);font-weight:700;margin-left:3px;}
+  .co-detail{background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:13px 15px;margin-top:8px;font-size:13.5px;color:var(--text-dim);}
+  .co-detail .nm{font-weight:700;color:var(--text);font-size:15px;}
+  .co-detail .role{color:var(--accent-strong);font-size:12px;font-weight:700;margin:1px 0 6px;}
+  .co-detail .lnk{margin-top:8px;font-size:13px;}
+  .co-detail.empty{font-style:italic;color:var(--text-faint);}
+  .co-detail b{color:var(--text);}
+  .num{font-weight:700;color:var(--text);font-variant-numeric:tabular-nums;}
+
+  .news-controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px;}
+  #newsSearch{flex:1;min-width:200px;}
+  .tagchips{display:flex;gap:6px;flex-wrap:wrap;}
+
+  .feed{position:relative;padding-left:22px;}
+  .feed::before{content:"";position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:var(--border);}
+  .item{position:relative;margin-bottom:16px;}
+  .item::before{content:"";position:absolute;left:-22px;top:5px;width:11px;height:11px;border-radius:50%;background:var(--accent);border:2px solid var(--bg);}
+  .item-date{font-size:12px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;}
+  .item-title{font-weight:700;font-size:15px;margin:1px 0 3px;color:var(--text);}
+  .item-body{font-size:13.5px;color:var(--text-dim);}
+  .item-body b{color:var(--text);}
+  .item-tags{margin-top:5px;display:flex;gap:5px;flex-wrap:wrap;}
+  .tg{font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:4px;background:var(--surface-2);color:var(--text-dim);border:1px solid var(--border);}
+  .item-src{font-size:11.5px;margin-top:3px;}
+  .news-hidden{display:none;}
+  .news-tip{background:var(--surface-2);border:1px dashed var(--border-strong);border-radius:var(--radius-sm);padding:10px 14px;font-size:12.5px;color:var(--text-dim);margin-bottom:16px;}
+  .news-tip code{background:var(--surface-3);padding:1px 5px;border-radius:4px;color:var(--accent-strong);font-size:11.5px;}
+
+  .src{font-size:11.5px;color:var(--text-faint);}
+  .src a{color:var(--text-dim);}
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a class="brand" href="index.html">SMR HUB</a>
+  <a href="SMR-news.html">뉴스</a>
+  <a href="SMR-developers.html">개발사</a>
+  <a href="SMR-licensing-tracks.html">인허가 트랙</a>
+  <a href="SMR-reactor-types.html">노형 분류</a>
+  <a href="SMR-reference.html">CFR 레퍼런스</a>
+  <a href="SMR-asia-structure.html">사업 구조</a>
+  <a href="SMR-korea-players.html">한국 기업</a>
+  <a href="SMR-map.html">프로젝트 맵</a>
+</nav>
+
+<div class="breadcrumb"><a href="SMR-developers.html">개발사</a> <span class="sep">›</span> <a href="SMR-developers.html#terrapower">TerraPower</a> <span class="sep">›</span> 상세</div>
+
+<header class="page reactor-hero">
+  <div class="rh-text">
+    <div class="h-top">
+      <h1>TerraPower / Natrium</h1>
+      <span class="type-tag">비경수로 · 소듐냉각고속로(SFR)</span>
+      <span class="pub-tag">비상장 · Bill Gates 설립</span>
+    </div>
+    <p class="subtitle"><b>풀형 소듐냉각고속로(SFR)</b>에 <b>용융염 열저장</b>을 결합 — 원자로는 일정 출력, 그리드 출력은 저장으로 100~500MWe 변동. 와이오밍 <b>Kemmerer</b>가 <b>NRC 건설허가 1호</b>(상업급 첨단로 최초)로 건설 중.</p>
+    <div class="updated">최종 업데이트 2026-06-17 · NRC 건설허가(2026-03-04) · Kemmerer 착공(2026-04-23) · KHNP 지분이관 완료(2026-01)</div>
+  </div>
+
+  <!-- ===== 노형 모형(재사용 패턴): 회색 음영 3D 모델. Natrium = 풀형(넓은) SFR 용기 + 용융염 저장탱크. ===== -->
+  <figure class="reactor-figure">
+    <svg viewBox="0 0 172 175" xmlns="http://www.w3.org/2000/svg"
+         role="img" aria-label="Natrium 모형: 넓고 낮은 풀형 소듐냉각 원자로 용기와, 옆에 키 큰 용융염 저장탱크">
+      <title>Natrium 풀형 SFR + 용융염 저장탱크 모형</title>
+      <defs>
+        <linearGradient id="tpCylV" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#99a2ac"/><stop offset="0.12" stop-color="#c2c9d1"/><stop offset="0.30" stop-color="#e9ecef"/>
+          <stop offset="0.48" stop-color="#ffffff"/><stop offset="0.64" stop-color="#eceef1"/><stop offset="0.80" stop-color="#c6ccd3"/><stop offset="1" stop-color="#959fa9"/>
+        </linearGradient>
+        <linearGradient id="tpCap" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#d7dce1"/><stop offset="0.5" stop-color="#f6f7f9"/><stop offset="1" stop-color="#cfd4da"/>
+        </linearGradient>
+        <style>
+          .tp-body{stroke:var(--border-strong);stroke-width:.8}
+          .tp-cap{fill:url(#tpCap);stroke:var(--border-strong);stroke-width:.7}
+          .tp-capb{fill:#aab2bc;stroke:var(--border-strong);stroke-width:.7}
+          .tp-flange{fill:#cdd3da;stroke:var(--border-strong);stroke-width:.6}
+          .tp-shadow{fill:var(--border-strong);opacity:.5}
+        </style>
+      </defs>
+
+      <!-- 바닥 그림자 -->
+      <ellipse class="tp-shadow" cx="86" cy="168" rx="78" ry="5"/>
+
+      <!-- 풀형 원자로 용기 (넓고 낮음) -->
+      <!-- 상부 회전플러그 + 제어봉구동 -->
+      <rect class="tp-body" x="40" y="58" width="22" height="14" fill="url(#tpCap)"/>
+      <g stroke="#aab2bc" stroke-width=".8"><line x1="46" y1="60" x2="46" y2="71"/><line x1="51" y1="60" x2="51" y2="71"/><line x1="56" y1="60" x2="56" y2="71"/></g>
+      <ellipse class="tp-cap" cx="51" cy="74" rx="38" ry="9"/>
+      <rect class="tp-flange" x="12" y="82" width="78" height="4" rx="2"/>
+      <rect class="tp-body" x="13" y="86" width="76" height="62" fill="url(#tpCylV)"/>
+      <ellipse class="tp-capb" cx="51" cy="148" rx="38" ry="10"/>
+
+      <!-- 용융염 저장탱크 (키 큰 원통) -->
+      <ellipse class="tp-cap" cx="138" cy="56" rx="20" ry="6"/>
+      <rect class="tp-body" x="118" y="56" width="40" height="98" fill="url(#tpCylV)"/>
+      <g class="tp-flange"><rect x="117" y="86" width="42" height="3"/><rect x="117" y="116" width="42" height="3"/></g>
+      <ellipse class="tp-capb" cx="138" cy="154" rx="20" ry="6"/>
+    </svg>
+    <figcaption>Natrium 풀형 SFR + 용융염 저장탱크</figcaption>
+  </figure>
+</header>
+
+<main>
+  <div class="jump">
+    <a href="#tech">① 기술 사양</a>
+    <a href="#supply">② 부품 공급망</a>
+    <a href="#offtaker">③ Off-taker</a>
+    <a href="#mou">④ 파트너십·이정표</a>
+    <a href="#news">⑤ 관련 뉴스</a>
+  </div>
+
+  <!-- ===================== 기술 사양 ===================== -->
+  <section id="tech">
+    <h2 class="sec-head"><span class="no">①</span>기술 사양</h2>
+    <p class="sec-sub">풀형 소듐냉각고속로(SFR) · 840MWth / 345MWe · 용융염 열저장으로 최대 500MWe·5.5시간 · 저압(가압기 없음)</p>
+    <div class="specs">
+      <div class="spec"><span class="lab">노형</span><span class="val">소듐냉각고속로(SFR)<small> 풀형(pool-type) · 고속중성자</small></span></div>
+      <div class="spec"><span class="lab">출력</span><span class="val">345 MWe<small> / 840 MWth</small></span></div>
+      <div class="spec"><span class="lab">에너지 저장</span><span class="val">최대 500 MWe · 5.5h<small> 용융염(질산염) 열저장 ~1 GWh</small></span></div>
+      <div class="spec"><span class="lab">출력 변동</span><span class="val">100 → 500 MWe<small> 원자로 출력은 일정, 저장으로 디스패치</small></span></div>
+      <div class="spec"><span class="lab">냉각재</span><span class="val">액체 소듐(Na)<small> 감속재 없음(고속로)</small></span></div>
+      <div class="spec"><span class="lab">운전 압력</span><span class="val">저압 · 상압<small> 가압기 없음</small></span></div>
+      <div class="spec"><span class="lab">노심 출구온도</span><span class="val">약 540 °C<small> 고온 출구(열저장 유리)</small></span></div>
+      <div class="spec"><span class="lab">연료</span><span class="val">금속우라늄 합금(U-Zr)<small> HALEU ≤19.75%, 육각집합체, HT9 피복</small></span></div>
+      <div class="spec"><span class="lab">연소도</span><span class="val">150 GWd/tHM</span></div>
+      <div class="spec"><span class="lab">1차 순환</span><span class="val">강제(1차 소듐펌프)<small> 정지 시 자연순환</small></span></div>
+      <div class="spec"><span class="lab">제어</span><span class="val">상부 제어봉구동<small> 회전플러그 드라이브라인</small></span></div>
+      <div class="spec"><span class="lab">재장전</span><span class="val">18–24개월 주기</span></div>
+      <div class="spec"><span class="lab">설계수명 · 내진</span><span class="val">60년<small> · SSE >0.3 g</small></span></div>
+      <div class="spec"><span class="lab">원자로용기(RPV)</span><span class="val">높이 20.4m · ⌀11.6m<small> 무게 2,450톤 · 풀형(넓음)</small></span></div>
+      <div class="spec"><span class="lab">안전</span><span class="val">피동<small> 가드베셀 · 1차계통 용기 내장</small></span></div>
+      <div class="spec"><span class="lab">용도</span><span class="val">전력(저장형 부하추종) · 열 · 증기</span></div>
+    </div>
+    <div class="tech-note">
+      <b>핵심 차별점:</b> ① <b>용융염 열저장 결합</b> — 원자로 열을 중간 소듐루프 → 소듐-염 열교환기 → <b>고온 염탱크</b>에 저장했다가 필요할 때 증기를 만들어 발전. <b>원자로는 일정 출력</b>을 유지하면서 그리드 출력만 <b>100~500MWe</b>로 변동(배터리보다 빠른 디스패치, 하루 3회 충·방전) · ② <b>풀형 소듐고속로</b> — 1차 냉각계통 전체가 원자로 용기 안에 있고 <b>저압·상압</b> 운전(가압기 불필요) → 용기 하부 관통이 없어 냉각재상실(LOCA) 확률↓ · ③ <b>고속중성자</b> — 감속재 없이 금속 HALEU 연료(U-Zr) 사용 · ④ <b>NRC 건설허가 1호(2026-03)</b> — 상업급 첨단로 최초로 건설허가 취득.
+      자세한 노형 비교는 <a href="SMR-reactor-types.html#sfr">노형 분류 › SFR</a> 참고.
+    </div>
+    <p class="src" style="margin:10px 0 0;">＊ 사양 교차검증: <b>IAEA <i>Advances in SMR Technology Developments 2024</i></b> 카탈로그(Natrium). 840MWth/345MWe·RPV 20.4m×⌀11.6m·2,450톤·HALEU ≤19.75%·150GWd/t·용융염 저장 등 일치.</p>
+  </section>
+
+  <!-- ===================== 부품 공급망 ===================== -->
+  <section id="supply">
+    <h2 class="sec-head"><span class="no">②</span>주요 부품·연료 공급망</h2>
+    <p class="sec-sub">원자로 기술은 <b>TerraPower + GE Vernova Hitachi</b>, 건설(EPC)은 <b>Bechtel</b>, HALEU 금속연료는 Framatome 협력, 한국은 SK·KHNP가 투자·협력</p>
+
+    <div class="sub-h"><span class="pin">②-A</span>Natrium 3계통(원자로 → 염저장 → 발전) — 도해</div>
+    <!-- DIAGRAM CONVENTION (reuse): viewBox 0 0 900 440. Nuclear Island(원자로+중간소듐) ↔ Energy Island(염저장+증기+터빈).
+         Vessels = rounded rect fill accent-weak stroke accent. Components ①..⑧ map to supply table.
+         핵심: 원자로(일정출력)와 발전(저장 경유)이 분리. Flows: 소듐/증기 = solid accent; 복귀 = dashed gray. -->
+    <div class="diagram-wrap">
+      <svg viewBox="0 0 900 440" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, sans-serif" aria-label="Natrium three-loop schematic">
+        <defs>
+          <marker id="m-acc" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker>
+          <marker id="m-gray" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#9aa7b4"/></marker>
+        </defs>
+
+        <!-- islands -->
+        <rect x="24" y="56" width="300" height="352" rx="12" fill="none" stroke="#d2d7e0" stroke-dasharray="6 5"/>
+        <text x="40" y="46" fill="#8b93a2" font-size="11" font-weight="700" letter-spacing="1.4">NUCLEAR ISLAND (원자로)</text>
+        <rect x="356" y="56" width="520" height="352" rx="12" fill="none" stroke="#d2d7e0" stroke-dasharray="6 5"/>
+        <text x="372" y="46" fill="#8b93a2" font-size="11" font-weight="700" letter-spacing="1.4">ENERGY ISLAND (저장 + 발전)</text>
+
+        <!-- 풀형 원자로 ① -->
+        <text x="120" y="96" fill="#1d4ed8" font-size="10" font-weight="700" text-anchor="middle">회전플러그·제어봉</text>
+        <rect x="98" y="100" width="44" height="14" rx="3" fill="#ffffff" stroke="#2563eb"/>
+        <g stroke="#2563eb" stroke-width="2"><line x1="108" y1="114" x2="108" y2="132"/><line x1="120" y1="114" x2="120" y2="132"/><line x1="132" y1="114" x2="132" y2="132"/></g>
+        <rect x="70" y="132" width="170" height="210" rx="22" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="155" y="362" fill="#1d4ed8" font-size="11.5" font-weight="700" text-anchor="middle">풀형 원자로(RPV·가드베셀) ①</text>
+        <!-- core ② -->
+        <rect x="92" y="288" width="46" height="34" rx="3" fill="#e3ecff" stroke="#2563eb"/>
+        <g stroke="#9aa7b4" stroke-width="1.4"><line x1="100" y1="292" x2="100" y2="318"/><line x1="108" y1="292" x2="108" y2="318"/><line x1="116" y1="292" x2="116" y2="318"/><line x1="124" y1="292" x2="124" y2="318"/><line x1="132" y1="292" x2="132" y2="318"/></g>
+        <text x="84" y="308" fill="#1d4ed8" font-size="10.5" font-weight="700" text-anchor="end">Core ②</text>
+        <line x1="86" y1="304" x2="90" y2="304" stroke="#c0c7d1"/>
+        <!-- IHX ③ immersed -->
+        <rect x="196" y="170" width="30" height="140" rx="4" fill="#e3ecff" stroke="#2563eb"/>
+        <text x="232" y="166" fill="#1d4ed8" font-size="10" font-weight="700">IHX ③</text>
+        <!-- PSP ④ -->
+        <circle cx="92" cy="158" r="13" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="92" y="162" fill="#1d4ed8" font-size="9" font-weight="700" text-anchor="middle">PSP④</text>
+
+        <!-- intermediate sodium loop → Na-salt HX ⑤ -->
+        <polyline points="226,196 300,196 300,210" fill="none" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
+        <text x="270" y="188" fill="#8b93a2" font-size="9" text-anchor="middle">중간 소듐(고온)</text>
+        <polyline points="318,300 318,250 240,250 240,250" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
+        <rect x="282" y="210" width="56" height="92" rx="5" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="310" y="320" fill="#1d4ed8" font-size="10" font-weight="700" text-anchor="middle">Na–염 HX ⑤</text>
+
+        <!-- molten salt storage ⑥: hot + cold tanks -->
+        <rect x="392" y="150" width="62" height="160" rx="8" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="423" y="142" fill="#1d4ed8" font-size="10" font-weight="700" text-anchor="middle">고온 염탱크</text>
+        <rect x="470" y="200" width="54" height="110" rx="8" fill="#f1f3f7" stroke="#9aa7b4" stroke-width="2"/>
+        <text x="497" y="192" fill="#54606f" font-size="10" font-weight="700" text-anchor="middle">저온 염탱크</text>
+        <text x="458" y="330" fill="#1d4ed8" font-size="11" font-weight="700" text-anchor="middle">용융염 저장 ⑥</text>
+        <!-- salt charge: HX → hot tank -->
+        <line x1="338" y1="200" x2="390" y2="200" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
+        <text x="364" y="192" fill="#8b93a2" font-size="8.5" text-anchor="middle">염</text>
+        <!-- cold tank → HX (return) -->
+        <polyline points="470,275 360,275 360,260" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
+
+        <!-- hot tank → SG ⑦ -->
+        <line x1="454" y1="180" x2="560" y2="180" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
+        <text x="510" y="172" fill="#8b93a2" font-size="8.5" text-anchor="middle">고온 염 →</text>
+        <rect x="560" y="186" width="50" height="110" rx="5" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="585" y="312" fill="#1d4ed8" font-size="10.5" font-weight="700" text-anchor="middle">증기발생기 ⑦</text>
+        <!-- SG → cold tank (return) -->
+        <polyline points="560,250 524,250 524,200" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
+
+        <!-- steam → turbine ⑧ -->
+        <line x1="610" y1="208" x2="690" y2="208" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
+        <text x="650" y="200" fill="#8b93a2" font-size="9" text-anchor="middle">증기 →</text>
+        <polygon points="690,186 754,174 754,246 690,234" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="722" y="160" fill="#1d4ed8" font-size="11.5" font-weight="700" text-anchor="middle">Turbine ⑧</text>
+        <line x1="754" y1="210" x2="782" y2="210" stroke="#9aa7b4" stroke-width="3"/>
+        <circle cx="806" cy="210" r="20" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="806" y="215" fill="#1d4ed8" font-size="14" font-weight="700" text-anchor="middle">G</text>
+        <!-- feedwater return SG -->
+        <polyline points="782,250 610,250 610,300" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
+        <text x="690" y="314" fill="#8b93a2" font-size="9" text-anchor="middle">← Feedwater</text>
+      </svg>
+    </div>
+    <p class="src" style="margin:0 0 14px;">＊ 모식도(개략). 번호 ①–⑧은 아래 공급사 표와 연결. 노심 열 → 풀 내 <b>중간열교환기(IHX)</b> → 중간 소듐 → <b>Na–염 열교환기</b> → <b>고온 염탱크에 저장</b>. 발전이 필요할 때 고온 염으로 <b>증기발생기</b>를 돌려 터빈 발전(원자로 출력은 일정). 원자로(NI)와 발전(에너지섬)이 <b>열저장으로 분리</b>된 점이 핵심.</p>
+
+    <div class="sub-h"><span class="pin">②-B</span>주기기·계통별 공급/책임 <span style="font-weight:400;color:var(--text-dim);font-size:12.5px;">(칩 클릭 → 설명·링크)</span></div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>#</th><th>부품·계통</th><th>공급/책임 (클릭)</th><th>구분 (NI/EI)</th></tr></thead>
+        <tbody>
+          <tr><td class="num">①</td><td><b>풀형 원자로용기·가드베셀 (<abbr title="Reactor Pressure Vessel">RPV</abbr>)</b></td><td><span class="cochip" data-co="terrapower">TerraPower<span class="ccx">US</span></span><span class="cochip" data-co="gvh">GE Vernova Hitachi<span class="ccx">US·JP</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Nuclear Steam Supply System">NSSS</abbr></td></tr>
+          <tr><td class="num">②</td><td><b>노심·금속연료 (U-Zr HALEU)</b></td><td><span class="cochip" data-co="terrapower">TerraPower<span class="ccx">US</span></span><span class="cochip" data-co="framatome">Framatome<span class="ccx">US·FR · HALEU</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Reactor Core">Core</abbr></td></tr>
+          <tr><td class="num">③</td><td><b>중간열교환기 (<abbr title="Intermediate Heat Exchanger">IHX</abbr>)</b></td><td><span class="cochip" data-co="gvh">GE Vernova Hitachi<span class="ccx">US·JP</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Nuclear Steam Supply System">NSSS</abbr></td></tr>
+          <tr><td class="num">④</td><td><b>1차 소듐펌프 (<abbr title="Primary Sodium Pump">PSP</abbr>)</b></td><td><span class="cochip" data-co="gvh">GE Vernova Hitachi<span class="ccx">US·JP</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Nuclear Steam Supply System">NSSS</abbr></td></tr>
+          <tr><td class="num">⑤</td><td><b>소듐-염 열교환기 · 염 수송계통</b></td><td><span class="cochip" data-co="terrapower">TerraPower<span class="ccx">US</span></span></td><td>EI · 열저장</td></tr>
+          <tr><td class="num">⑥</td><td><b>용융염 저장탱크 (고온/저온)</b></td><td><span class="cochip" data-co="bechtel">Bechtel<span class="ccx">US · EPC</span></span></td><td>EI · 저장</td></tr>
+          <tr><td class="num">⑦⑧</td><td><b>증기발생기 · 증기터빈/발전기</b></td><td><span class="cochip" data-co="gvh">GE Vernova<span class="ccx">US</span></span></td><td>EI · <abbr title="Turbine–Generator">T/G</abbr></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="src" style="margin:8px 0 0;line-height:1.85;">
+      <b style="color:var(--text-dim);">구분 약어</b> (커서 올리면 풀네임) —
+      <abbr title="Nuclear Island">NI</abbr> Nuclear Island(원자로) ·
+      EI Energy Island(저장+발전) ·
+      <abbr title="Intermediate Heat Exchanger">IHX</abbr> Intermediate Heat Exchanger ·
+      <abbr title="Primary Sodium Pump">PSP</abbr> Primary Sodium Pump ·
+      <abbr title="Turbine–Generator">T/G</abbr> Turbine–Generator<br>
+      <span style="color:var(--text-faint);">＊ Natrium은 원자로(소듐, NI)와 발전부(용융염 저장+증기, EI)가 <b style="color:var(--text-dim);">물리적으로 분리</b>된 구조라, 발전부(터빈·염저장)는 <b style="color:var(--text-dim);">비핵(non-nuclear)</b> 표준 기기에 가까움 → 공장제작·일정 단축에 유리. 세부 기기 공급사는 프로젝트 진행에 따라 발표되며 최종 스코프는 프로젝트 문서 기준 확인.</span>
+    </p>
+    <div class="co-detail empty" id="coDetail">위 칩을 클릭하면 회사 설명과 공식 링크가 여기에 표시됩니다.</div>
+
+    <div class="sub-h"><span class="pin">②-C</span>개발·건설·투자 파트너</div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>파트너</th><th>국적</th><th>역할</th><th>현황</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>GE Vernova Hitachi</b><br><span class="src">GVH</span></td>
+            <td><span class="badge">US·JP</span></td>
+            <td>Natrium <b>원자로·터빈 기술 공동</b>(PRISM 소듐로 계보 지원). "TerraPower & GVH 기술".</td>
+            <td><span class="st-prog">진행</span> · 원자로계통·발전섬 협력.</td>
+          </tr>
+          <tr>
+            <td><b>Bechtel</b></td>
+            <td><span class="badge">US</span></td>
+            <td>Kemmerer <b>EPC(설계·조달·건설)</b> 파트너.</td>
+            <td><span class="st-prog">건설</span> · 부지·구조 공사 진행.</td>
+          </tr>
+          <tr>
+            <td><b>SK</b><br><span class="src">SK inc · SK이노베이션</span></td>
+            <td><span class="badge">KR</span></td>
+            <td>TerraPower에 <b>약 $250M 투자</b>(2022.8) · 상업화 협력.</td>
+            <td><span class="st-prog">진행</span> · 일부 지분 KHNP로 이관.</td>
+          </tr>
+          <tr>
+            <td><b>KHNP</b><br><span class="src">한국수력원자력</span></td>
+            <td><span class="badge">KR</span></td>
+            <td>SK 지분 일부를 이관받아 <b>전략 투자자</b> 합류 · 실증·상업화 협력.</td>
+            <td><span class="st-prog">진행</span> · CFIUS 통과(2025.12), 지분이관 완료(2026.1).</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="src" style="margin-top:8px;">＊ 한국은 <b>제작보다 투자·상업화 협력</b> 중심(SK 투자 → KHNP 합류). 향후 한국 내 Natrium 배치·기기참여로 확장 가능성. → <a href="SMR-korea-players.html">한국 기업</a> · <a href="SMR-reference.html">CFR 레퍼런스</a></p>
+  </section>
+
+  <!-- ===================== Off-taker ===================== -->
+  <section id="offtaker">
+    <h2 class="sec-head"><span class="no">③</span>Off-taker (고객·프로젝트)</h2>
+    <p class="sec-sub">와이오밍 Kemmerer 1호(건설 중·세계 첫 상업급 첨단로 CP)를 시작으로 확장</p>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>고객·프로젝트</th><th>지역</th><th>규모</th><th>현황</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>PacifiCorp</b><br><span class="src">Kemmerer Unit 1 (Naughton 인근)</span></td>
+            <td><span class="badge">US · 와이오밍</span></td>
+            <td>345 MWe (저장 시 500 MWe)</td>
+            <td><span class="st-prog">건설</span> · <b>NRC 건설허가(2026-03-04)</b>, 착공(2026-04-23). 첫 핵 콘크리트 2027, 연료장전 2030, <b>상업운전 2031</b> 목표.</td>
+          </tr>
+          <tr>
+            <td><b>PacifiCorp 추가 선단</b></td>
+            <td><span class="badge">US · 서부</span></td>
+            <td>최대 다수기 검토</td>
+            <td><span class="st-plan">계획</span> · 통합자원계획(IRP)에 추가 Natrium 검토.</td>
+          </tr>
+          <tr>
+            <td><b>영국 (UK)</b><br><span class="src">규제 진입</span></td>
+            <td><span class="badge">UK · 영국</span></td>
+            <td>—</td>
+            <td><span class="st-plan">규제 착수</span> · UK 규제 승인 절차(GDA) 첫 단계 진입.</td>
+          </tr>
+          <tr>
+            <td><b>한국 (검토)</b><br><span class="src">SK·KHNP 협력</span></td>
+            <td><span class="badge">KR</span></td>
+            <td>—</td>
+            <td><span class="st-plan">협력</span> · 실증·상업화 협력 기반, 향후 국내 배치 가능성 논의.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="src" style="margin-top:8px;">＊ Natrium은 <b>HALEU(고순도 저농축) 연료</b>가 필요해 연료공급망이 일정의 변수였음 — TerraPower는 Framatome 등과 HALEU 금속화 공급망을 구축 중. 첫호기 상업운전 목표는 2031.</p>
+  </section>
+
+  <!-- ===================== MOU ===================== -->
+  <section id="mou">
+    <h2 class="sec-head"><span class="no">④</span>파트너십 · 이정표</h2>
+    <p class="sec-sub">시간순(최신 위). 미국(NRC·Kemmerer) 건설 선두 + 한국(SK·KHNP) 투자·협력</p>
+
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2026-04-23</span><span class="mou-party">Kemmerer 1 — 착공</span></div>
+      <div class="mou-body"><b>미국 첫 유틸리티급 첨단원자로 건설 시작</b> — 건설허가 취득 후 본격 원자로 공사 착수.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2026-03-04</span><span class="mou-party">美 NRC — 건설허가(CP)</span></div>
+      <div class="mou-body"><b>상업급 첨단로 최초로 NRC 건설허가 취득</b> — Kemmerer Unit 1. (Part 50 건설허가)</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2026-01</span><span class="mou-party">KHNP — 지분 이관 완료</span></div>
+      <div class="mou-body">SK가 보유한 TerraPower 지분 일부의 <b>KHNP 이관 완료</b>(CFIUS 통과 2025.12). KHNP가 전략 투자자로 합류.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2025-12</span><span class="mou-party">美 NRC — 안전성 심사 완료</span></div>
+      <div class="mou-body">NRC가 Kemmerer <b>최종 안전성평가(FSER)</b>를 일정보다 앞당겨 완료(예산 절감). 건설허가 발급의 길을 엶.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2024-06</span><span class="mou-party">Kemmerer — 비원자력 부지공사 착수</span></div>
+      <div class="mou-body">건설허가 전, <b>비원자력 부속시설 공사</b> 착수(에너지섬·부지 정지 등)로 일정을 병행.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2023-04</span><span class="mou-party">SK · KHNP — 전략 협력협약</span></div>
+      <div class="mou-body">TerraPower–SK–KHNP <b>Natrium 실증·상업화 협력협약</b> 체결.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2022-08</span><span class="mou-party">SK — $250M 투자</span></div>
+      <div class="mou-body">SK inc·SK이노베이션이 TerraPower에 <b>약 $250M 공동 투자</b> — 주요 주주로 합류.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2020~21</span><span class="mou-party">DOE ARDP + Natrium 발표</span></div>
+      <div class="mou-body">DOE 첨단로 실증 프로그램(ARDP) 선정(비용분담). TerraPower–GEH가 <b>Natrium</b>(용융염 저장 결합) 발표. (Bill Gates 설립)</div>
+    </div>
+  </section>
+
+  <!-- ===================== 뉴스 ===================== -->
+  <section id="news">
+    <h2 class="sec-head"><span class="no">⑤</span>관련 뉴스 (계속 누적)</h2>
+    <p class="sec-sub">최신순. 검색·태그로 거르기. 새 소식은 맨 위에 항목을 추가하면 됨.</p>
+
+    <div class="news-tip">
+      <b>새 뉴스 추가법:</b> 아래 <code>&lt;!-- NEWS-TEMPLATE --&gt;</code> 주석의 양식을 복사해 피드 맨 위에 붙이고 날짜·제목·내용·태그(<code>기술/공급망/고객/규제/투자/MOU</code>)·출처만 채우면 됩니다.
+    </div>
+
+    <div class="news-controls">
+      <input id="newsSearch" class="search" type="text" placeholder="뉴스 검색 (예: Kemmerer, 건설허가, KHNP, HALEU)" autocomplete="off">
+      <div class="tagchips" id="tagchips">
+        <span class="chip active" data-tag="all">전체</span>
+        <span class="chip" data-tag="기술">기술</span>
+        <span class="chip" data-tag="공급망">공급망</span>
+        <span class="chip" data-tag="고객">고객</span>
+        <span class="chip" data-tag="규제">규제</span>
+        <span class="chip" data-tag="투자">투자</span>
+        <span class="chip" data-tag="MOU">MOU</span>
+      </div>
+    </div>
+
+    <div class="feed" id="feed">
+
+      <!-- NEWS-TEMPLATE (복사용)
+      <div class="item" data-tags="기술" data-date="YYYY-MM-DD">
+        <div class="item-date">YYYY-MM-DD</div>
+        <div class="item-title">제목</div>
+        <div class="item-body">내용 요약.</div>
+        <div class="item-tags"><span class="tg">기술</span></div>
+        <div class="item-src"><a href="URL" target="_blank">출처</a></div>
+      </div>
+      -->
+
+      <div class="item" data-tags="고객 규제" data-date="2026-04-23">
+        <div class="item-date">2026-04-23</div>
+        <div class="item-title">TerraPower, Kemmerer에서 Natrium 원자로 건설 착수</div>
+        <div class="item-body">건설허가 취득 후 와이오밍 Kemmerer에서 <b>미국 첫 유틸리티급 첨단원자로 건설 시작</b>. 첫 핵 콘크리트 2027, 상업운전 2031 목표.</div>
+        <div class="item-tags"><span class="tg">고객</span><span class="tg">규제</span></div>
+        <div class="item-src"><a href="https://www.ans.org/news/2026-04-24/article-7975/terrapower-begins-construction-on-natrium-power-plant-in-kemmerer/" target="_blank">ANS Nuclear Newswire</a></div>
+      </div>
+
+      <div class="item" data-tags="규제" data-date="2026-03-04">
+        <div class="item-date">2026-03-04</div>
+        <div class="item-title">NRC, Natrium에 건설허가 발급 — 상업급 첨단로 최초</div>
+        <div class="item-body">NRC가 Kemmerer Unit 1에 <b>건설허가(CP)</b>를 발급. <b>상업급 첨단원자로로는 사상 최초</b>의 건설허가.</div>
+        <div class="item-tags"><span class="tg">규제</span></div>
+        <div class="item-src"><a href="https://www.terrapower.com/NRC-Approves-Natrium-Reactor-Construction-Permit" target="_blank">TerraPower</a></div>
+      </div>
+
+      <div class="item" data-tags="투자 MOU" data-date="2026-01-21">
+        <div class="item-date">2026-01-21</div>
+        <div class="item-title">KHNP, TerraPower 지분 이관 완료 — 전략 투자자 합류</div>
+        <div class="item-body">SK이노베이션이 보유한 TerraPower 지분 일부의 <b>KHNP 이관을 완료</b>(CFIUS 통과 2025.12). 한국 원전공기업이 Natrium 투자자로 합류.</div>
+        <div class="item-tags"><span class="tg">투자</span><span class="tg">MOU</span></div>
+        <div class="item-src"><a href="https://www.world-nuclear-news.org/articles/khnp-takes-stake-in-terrapower" target="_blank">World Nuclear News</a></div>
+      </div>
+
+      <div class="item" data-tags="규제" data-date="2025-12">
+        <div class="item-date">2025-12</div>
+        <div class="item-title">NRC, Kemmerer 안전성 심사 완료(일정 단축)</div>
+        <div class="item-body">NRC가 Natrium 건설 관련 <b>최종 안전성평가</b>를 일정보다 앞당겨·예산 절감하며 완료 — 건설허가 발급의 발판.</div>
+        <div class="item-tags"><span class="tg">규제</span></div>
+        <div class="item-src"><a href="https://www.ans.org/news/2025-12-03/article-7590/nrc-completes-safety-review-for-terrapowers-kemmerer-project/" target="_blank">ANS Nuclear Newswire</a></div>
+      </div>
+
+      <div class="item" data-tags="공급망 기술" data-date="2025">
+        <div class="item-date">2025</div>
+        <div class="item-title">TerraPower–Framatome, HALEU 금속화 시험라인 협력</div>
+        <div class="item-body">Natrium의 <b>U-Zr 금속연료</b>를 위해 Framatome(워싱턴 Richland)에 <b>HALEU 금속화(deconversion) 파일럿 라인</b> 구축 협력 — 연료공급망 핵심 단계.</div>
+        <div class="item-tags"><span class="tg">공급망</span><span class="tg">기술</span></div>
+        <div class="item-src"><a href="https://www.terrapower.com/natrium/" target="_blank">TerraPower</a></div>
+      </div>
+
+      <div class="item" data-tags="투자 MOU" data-date="2023-04-25">
+        <div class="item-date">2023-04-25</div>
+        <div class="item-title">TerraPower·SK·KHNP, Natrium 협력협약</div>
+        <div class="item-body">TerraPower와 한국 SK·KHNP가 <b>Natrium 실증·상업화 협력협약</b> 체결. 한국의 SFR 글로벌 진출 연결.</div>
+        <div class="item-tags"><span class="tg">투자</span><span class="tg">MOU</span></div>
+        <div class="item-src"><a href="https://www.terrapower.com/terrapower-announces-strategic-collaboration-agreement-with-sk-and-khnp/" target="_blank">TerraPower</a></div>
+      </div>
+
+      <div class="item" data-tags="투자" data-date="2022-08">
+        <div class="item-date">2022-08</div>
+        <div class="item-title">SK, TerraPower에 약 $250M 투자</div>
+        <div class="item-body">SK inc·SK이노베이션이 공동으로 TerraPower에 <b>약 2.5억 달러 투자</b> — 주요 주주로 합류.</div>
+        <div class="item-tags"><span class="tg">투자</span></div>
+        <div class="item-src"><a href="https://www.world-nuclear-news.org/Articles/South-Koreas-SK-Group-invests-in-TerraPower" target="_blank">World Nuclear News</a></div>
+      </div>
+
+    </div>
+    <div class="news-hidden" id="newsNone" style="display:none;color:var(--text-faint);padding:20px;text-align:center;">검색 결과가 없습니다.</div>
+  </section>
+
+</main>
+
+<footer>
+  <span class="note warn" style="display:block;margin-bottom:8px;"><span class="lead">주의</span> 인허가·사업 현황은 빠르게 변합니다 — 회의·보고 직전 TerraPower·NRC·각 파트너 공시로 재확인 권장. (2026-06-17 기준)</span>
+  <a href="SMR-developers.html#terrapower">개발사 카드로</a> · <a href="SMR-reactor-types.html#sfr">SFR 노형</a> · <a href="SMR-licensing-tracks.html#part50">Part 50 트랙</a> · <a href="SMR-korea-players.html">한국 기업</a> · <a href="SMR-reference.html">CFR 레퍼런스</a>
+</footer>
+
+<script>
+  const newsSearch=document.getElementById('newsSearch');
+  const items=Array.from(document.querySelectorAll('.item'));
+  const tagchips=Array.from(document.querySelectorAll('#tagchips .chip'));
+  const newsNone=document.getElementById('newsNone');
+  let activeTag='all';
+
+  function clearMarks(el){el.querySelectorAll('mark').forEach(m=>m.replaceWith(document.createTextNode(m.textContent)));el.normalize();}
+  function highlight(el,term){
+    const walker=document.createTreeWalker(el,NodeFilter.SHOW_TEXT,null);const nodes=[];
+    while(walker.nextNode())nodes.push(walker.currentNode);
+    const re=new RegExp('('+term.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi');
+    nodes.forEach(node=>{if(!re.test(node.textContent))return;const span=document.createElement('span');span.innerHTML=node.textContent.replace(re,'<mark>$1</mark>');node.replaceWith(span);});
+  }
+  function applyNews(){
+    const term=newsSearch.value.trim().toLowerCase();
+    let vis=0;
+    items.forEach(it=>{
+      clearMarks(it);
+      const text=it.textContent.toLowerCase();
+      const tags=(it.dataset.tags||'').split(' ');
+      const matchText=!term||text.includes(term);
+      const matchTag=activeTag==='all'||tags.includes(activeTag);
+      const show=matchText&&matchTag;
+      it.classList.toggle('news-hidden',!show);
+      it.style.display=show?'':'none';
+      if(show){vis++;if(term)highlight(it,term);}
+    });
+    newsNone.style.display=vis?'none':'block';
+  }
+  newsSearch.addEventListener('input',applyNews);
+  tagchips.forEach(c=>c.addEventListener('click',()=>{
+    tagchips.forEach(x=>x.classList.remove('active'));c.classList.add('active');activeTag=c.dataset.tag;applyNews();
+  }));
+
+  // ---- supplier company directory ----
+  const COMPANIES={
+    terrapower:{nm:'TerraPower',role:'Natrium 설계·기술 보유 · 미국',
+      desc:'Bill Gates가 설립한 첨단원자로 기업. <b>Natrium(풀형 소듐고속로 + 용융염 저장)</b> 설계·개발·라이선싱 주체. 금속 HALEU(U-Zr) 연료·소듐-염 열저장계통 등 핵심 기술 보유.',
+      url:'https://www.terrapower.com/'},
+    gvh:{nm:'GE Vernova Hitachi Nuclear Energy (GVH)',role:'원자로·터빈 기술 공동 · 미국·일본',
+      desc:'GE Vernova + Hitachi 합작. <b>소듐고속로(PRISM) 계보</b>를 바탕으로 Natrium의 <b>원자로계통(IHX·소듐펌프 등)과 발전섬(증기터빈/발전기)</b>을 TerraPower와 공동 개발·공급.',
+      url:'https://www.gevernova.com/nuclear/'},
+    bechtel:{nm:'Bechtel',role:'EPC(설계·조달·건설) · 미국',
+      desc:'글로벌 EPC 대기업. Kemmerer Natrium 실증플랜트의 <b>설계·조달·건설(EPC)</b> 파트너로 부지·구조·에너지섬 공사를 수행.',
+      url:'https://www.bechtel.com/'},
+    framatome:{nm:'Framatome',role:'HALEU 금속화·연료 협력 · 미국·프랑스',
+      desc:'원자력 연료·기기 글로벌 기업. Natrium의 <b>U-Zr 금속연료</b>를 위해 워싱턴 Richland에 <b>HALEU 금속화(deconversion) 파일럿 라인</b> 구축에 협력.',
+      url:'https://www.framatome.com/'}
+  };
+  const coDetail=document.getElementById('coDetail');
+  const cochips=Array.from(document.querySelectorAll('.cochip'));
+  cochips.forEach(chip=>chip.addEventListener('click',()=>{
+    const c=COMPANIES[chip.dataset.co];if(!c)return;
+    cochips.forEach(x=>x.classList.toggle('active',x.dataset.co===chip.dataset.co));
+    coDetail.classList.remove('empty');
+    coDetail.innerHTML='<div class="nm">'+c.nm+'</div><div class="role">'+c.role+'</div><div>'+c.desc+'</div><div class="lnk"><a href="'+c.url+'" target="_blank" rel="noopener">공식 웹사이트 →</a></div>';
+  }));
+</script>
+<script src="feedback.js" defer></script>
+</body>
+</html>
