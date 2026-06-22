@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kairos Power / KP-FHR·Hermes 상세 — 사양·공급망·고객·뉴스</title>
+<meta name="description" content="Kairos Power KP-FHR(불소염냉각 고온로 FHR, TRISO 페블 + FLiBe) 기술 사양·부품 공급망·고객(Google·TVA)·파트너십·뉴스 상세. Hermes 실증로 정리.">
+<link rel="canonical" href="https://baesay-lang.github.io/smr-hub/SMR-dev-kairos.html">
+<meta name="theme-color" content="#2563eb">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SMR HUB">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="Kairos Power / KP-FHR·Hermes 상세 · SMR HUB">
+<meta property="og:description" content="Kairos KP-FHR(FHR, TRISO 페블+FLiBe) 기술 사양·공급망·고객·파트너십·뉴스 상세.">
+<meta property="og:url" content="https://baesay-lang.github.io/smr-hub/SMR-dev-kairos.html">
+<meta property="og:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Kairos Power / KP-FHR·Hermes 상세 · SMR HUB">
+<meta name="twitter:description" content="KP-FHR(FHR, TRISO 페블+FLiBe) 사양·공급망·고객·파트너십·뉴스 상세.">
+<meta name="twitter:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
+<link rel="stylesheet" href="styles.css?v=3">
+<script>(function(){try{var t=localStorage.getItem('smrhub-theme');if(t==='dark'||(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();</script>
+<script src="ui.js" defer></script>
+<style>
+  .breadcrumb .sep{color:var(--text-faint);}
+  .h-top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;}
+  h1{font-size:23px;margin:6px 0 2px;}
+  .type-tag{font-size:12px;font-weight:700;padding:3px 10px;border-radius:4px;background:var(--surface-3);color:var(--text-dim);}
+  .pub-tag{font-size:12px;font-weight:700;padding:3px 10px;border-radius:4px;background:var(--accent-weak);color:var(--accent-strong);}
+  .updated{font-size:12px;color:var(--text-faint);margin-top:6px;font-variant-numeric:tabular-nums;}
+
+  /* reactor hero figure (재사용: 노형별 SVG 모형) */
+  .reactor-hero{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap;}
+  .rh-text{flex:1 1 320px;min-width:270px;}
+  .reactor-figure{flex:0 0 auto;margin:0;width:150px;max-width:100%;}
+  .reactor-figure svg{display:block;width:100%;height:auto;}
+  .reactor-figure figcaption{font-size:11px;color:var(--text-faint);text-align:center;margin-top:2px;letter-spacing:.02em;}
+  @media(max-width:600px){.reactor-figure{margin:6px auto 0;}}
+
+  section{margin-top:30px;scroll-margin-top:56px;}
+  .sec-head{font-size:17px;font-weight:700;color:var(--text);margin:0 0 4px;}
+  .sec-head .no{color:var(--accent);margin-right:6px;}
+  .sec-sub{color:var(--text-dim);font-size:13px;margin:0 0 14px;}
+
+  .jump{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 6px;}
+  .jump a{font-size:13px;font-weight:600;background:var(--surface);border:1px solid var(--border);padding:6px 13px;border-radius:20px;color:var(--text-dim);}
+  .jump a:hover{border-color:var(--accent);color:var(--accent-strong);text-decoration:none;}
+
+  .specs{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1px;background:var(--border);
+    border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;}
+  .spec{background:var(--surface-2);padding:11px 14px;}
+  .spec .lab{font-size:11px;color:var(--accent);font-weight:700;display:block;margin-bottom:2px;}
+  .spec .val{font-size:14px;color:var(--text);}
+  .spec .val small{color:var(--text-dim);font-size:12px;}
+  .tech-note{background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--accent);
+    border-radius:var(--radius-sm);padding:12px 16px;margin-top:12px;font-size:13.5px;color:var(--text-dim);}
+  .tech-note b{color:var(--text);}
+
+  table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:640px;}
+  th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--border);vertical-align:top;}
+  th{background:var(--surface-2);font-weight:700;font-size:12px;color:var(--text-dim);white-space:nowrap;}
+  tr:last-child td{border-bottom:none;}
+  tbody tr:hover{background:var(--surface-2);}
+  td b{color:var(--text);}
+  .badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:4px;white-space:nowrap;background:var(--surface-3);color:var(--text-dim);}
+  .st-ok,.st-prog{color:var(--accent-strong);font-weight:700;}
+  .st-plan{color:var(--text-faint);font-weight:700;}
+  .st-stop{color:var(--alert);font-weight:700;}
+
+  .mou{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:13px 16px;margin-bottom:10px;box-shadow:var(--shadow);}
+  .mou-top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:3px;}
+  .mou-date{font-size:12px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;}
+  .mou-party{font-weight:700;font-size:15px;color:var(--text);}
+  .mou-body{font-size:13.5px;color:var(--text-dim);}
+  .mou-body b{color:var(--text);}
+
+  .diagram-wrap{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:12px;overflow-x:auto;margin-bottom:10px;}
+  .diagram-wrap svg{display:block;min-width:720px;height:auto;}
+  .sub-h{font-size:14px;font-weight:700;color:var(--text);margin:20px 0 8px;}
+  .sub-h .pin{font-size:12px;font-weight:800;color:var(--accent);margin-right:6px;}
+  .cochip{display:inline-block;font-size:12px;font-weight:700;padding:3px 9px;border-radius:5px;cursor:pointer;
+    border:1px solid var(--border-strong);background:var(--surface);color:var(--text);margin:2px 4px 2px 0;}
+  .cochip:hover{border-color:var(--accent);color:var(--accent-strong);}
+  .cochip.active{background:var(--accent-weak);border-color:var(--accent);color:var(--accent-strong);}
+  .cochip .ccx{font-size:10px;color:var(--text-faint);font-weight:700;margin-left:3px;}
+  .co-detail{background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:13px 15px;margin-top:8px;font-size:13.5px;color:var(--text-dim);}
+  .co-detail .nm{font-weight:700;color:var(--text);font-size:15px;}
+  .co-detail .role{color:var(--accent-strong);font-size:12px;font-weight:700;margin:1px 0 6px;}
+  .co-detail .lnk{margin-top:8px;font-size:13px;}
+  .co-detail.empty{font-style:italic;color:var(--text-faint);}
+  .co-detail b{color:var(--text);}
+  .num{font-weight:700;color:var(--text);font-variant-numeric:tabular-nums;}
+
+  .news-controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px;}
+  #newsSearch{flex:1;min-width:200px;}
+  .tagchips{display:flex;gap:6px;flex-wrap:wrap;}
+
+  .feed{position:relative;padding-left:22px;}
+  .feed::before{content:"";position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:var(--border);}
+  .item{position:relative;margin-bottom:16px;}
+  .item::before{content:"";position:absolute;left:-22px;top:5px;width:11px;height:11px;border-radius:50%;background:var(--accent);border:2px solid var(--bg);}
+  .item-date{font-size:12px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;}
+  .item-title{font-weight:700;font-size:15px;margin:1px 0 3px;color:var(--text);}
+  .item-body{font-size:13.5px;color:var(--text-dim);}
+  .item-body b{color:var(--text);}
+  .item-tags{margin-top:5px;display:flex;gap:5px;flex-wrap:wrap;}
+  .tg{font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:4px;background:var(--surface-2);color:var(--text-dim);border:1px solid var(--border);}
+  .item-src{font-size:11.5px;margin-top:3px;}
+  .news-hidden{display:none;}
+  .news-tip{background:var(--surface-2);border:1px dashed var(--border-strong);border-radius:var(--radius-sm);padding:10px 14px;font-size:12.5px;color:var(--text-dim);margin-bottom:16px;}
+  .news-tip code{background:var(--surface-3);padding:1px 5px;border-radius:4px;color:var(--accent-strong);font-size:11.5px;}
+
+  .src{font-size:11.5px;color:var(--text-faint);}
+  .src a{color:var(--text-dim);}
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a class="brand" href="index.html">SMR HUB</a>
+  <a href="SMR-news.html">뉴스</a>
+  <a href="SMR-developers.html">개발사</a>
+  <a href="SMR-licensing-tracks.html">인허가 트랙</a>
+  <a href="SMR-reactor-types.html">노형 분류</a>
+  <a href="SMR-reference.html">CFR 레퍼런스</a>
+  <a href="SMR-asia-structure.html">사업 구조</a>
+  <a href="SMR-korea-players.html">한국 기업</a>
+  <a href="SMR-map.html">프로젝트 맵</a>
+</nav>
+
+<div class="breadcrumb"><a href="SMR-developers.html">개발사</a> <span class="sep">›</span> <a href="SMR-developers.html#kairos">Kairos Power</a> <span class="sep">›</span> 상세</div>
+
+<header class="page reactor-hero">
+  <div class="rh-text">
+    <div class="h-top">
+      <h1>Kairos Power / KP-FHR</h1>
+      <span class="type-tag">비경수로 · 불소염냉각 고온로(FHR)</span>
+      <span class="pub-tag">비상장 · Kairos Power</span>
+    </div>
+    <p class="subtitle"><b>TRISO 페블 + 용융 불소염(FLiBe)</b> 냉각의 고온·저압 노(FHR). 시험로 <b>Hermes</b>(테네시 Oak Ridge)를 반복 건설하며 빠르게 학습. <b>Google</b>이 최대 500MW 선구매(데이터센터).</p>
+    <div class="updated">최종 업데이트 2026-06-17 · Hermes 1 핵 건설(2025-05) · Hermes 2 건설허가(2024-11)·착공(2026-04) · Google·TVA PPA(2025-08)</div>
+  </div>
+
+  <!-- ===== 노형 모형(재사용 패턴): 회색 음영 3D 모델. KP-FHR = 컴팩트 염냉각 페블베드 용기 + 상부 페블장입·측면 염노즐. ===== -->
+  <figure class="reactor-figure">
+    <svg viewBox="0 0 150 180" xmlns="http://www.w3.org/2000/svg"
+         role="img" aria-label="KP-FHR 모형: 컴팩트한 염냉각 페블베드 원자로 용기, 상부 페블 장입관과 측면 용융염 입·출구 노즐">
+      <title>KP-FHR 페블베드 염냉각로 모형</title>
+      <defs>
+        <linearGradient id="kaCylV" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#99a2ac"/><stop offset="0.12" stop-color="#c2c9d1"/><stop offset="0.30" stop-color="#e9ecef"/>
+          <stop offset="0.48" stop-color="#ffffff"/><stop offset="0.64" stop-color="#eceef1"/><stop offset="0.80" stop-color="#c6ccd3"/><stop offset="1" stop-color="#959fa9"/>
+        </linearGradient>
+        <linearGradient id="kaCap" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#d7dce1"/><stop offset="0.5" stop-color="#f6f7f9"/><stop offset="1" stop-color="#cfd4da"/>
+        </linearGradient>
+        <style>
+          .ka-body{stroke:var(--border-strong);stroke-width:.8}
+          .ka-cap{fill:url(#kaCap);stroke:var(--border-strong);stroke-width:.7}
+          .ka-capb{fill:#aab2bc;stroke:var(--border-strong);stroke-width:.7}
+          .ka-flange{fill:#cdd3da;stroke:var(--border-strong);stroke-width:.6}
+          .ka-shadow{fill:var(--border-strong);opacity:.5}
+        </style>
+      </defs>
+
+      <!-- 바닥 그림자 -->
+      <ellipse class="ka-shadow" cx="73" cy="171" rx="44" ry="5"/>
+
+      <!-- 상부 페블 장입관 -->
+      <rect class="ka-body" x="66" y="30" width="14" height="22" fill="url(#kaCap)"/>
+      <ellipse class="ka-cap" cx="73" cy="30" rx="7" ry="2.5"/>
+
+      <!-- 측면 용융염 노즐 (입/출구) -->
+      <rect class="ka-body" x="104" y="74" width="12" height="8" fill="url(#kaCap)"/>
+      <rect class="ka-body" x="104" y="118" width="12" height="8" fill="url(#kaCap)"/>
+
+      <!-- 컴팩트 원자로 용기 (염냉각 페블베드) -->
+      <ellipse class="ka-cap" cx="73" cy="56" rx="32" ry="10"/>
+      <rect class="ka-flange" x="40" y="64" width="66" height="4" rx="2"/>
+      <rect class="ka-body" x="41" y="68" width="64" height="78" fill="url(#kaCylV)"/>
+      <ellipse class="ka-capb" cx="73" cy="146" rx="32" ry="9"/>
+      <!-- 하부 지지 스커트 -->
+      <rect class="ka-body" x="55" y="146" width="36" height="9" fill="url(#kaCylV)"/>
+    </svg>
+    <figcaption>KP-FHR 페블베드 염냉각로</figcaption>
+  </figure>
+</header>
+
+<main>
+  <div class="jump">
+    <a href="#tech">① 기술 사양</a>
+    <a href="#supply">② 부품 공급망</a>
+    <a href="#offtaker">③ Off-taker</a>
+    <a href="#mou">④ 파트너십·이정표</a>
+    <a href="#news">⑤ 관련 뉴스</a>
+  </div>
+
+  <!-- ===================== 기술 사양 ===================== -->
+  <section id="tech">
+    <h2 class="sec-head"><span class="no">①</span>기술 사양</h2>
+    <p class="sec-sub">불소염냉각 고온로(FHR) · 페블베드 · 320MWth / 140MWe(상용 KP-X) · 저압(&lt;0.2MPa) · 고온(출구 650°C)</p>
+    <div class="specs">
+      <div class="spec"><span class="lab">노형</span><span class="val">불소염냉각 고온로(FHR)<small> 페블베드 · 열중성자</small></span></div>
+      <div class="spec"><span class="lab">출력</span><span class="val">140 MWe<small> / 320 MWth (상용 KP-X)</small></span></div>
+      <div class="spec"><span class="lab">냉각재</span><span class="val">FLiBe(2LiF·BeF₂)<small> 용융 불소염 · 감속재 흑연</small></span></div>
+      <div class="spec"><span class="lab">운전 압력</span><span class="val">&lt; 0.2 MPa<small> 저압(상압에 가까움)</small></span></div>
+      <div class="spec"><span class="lab">냉각재 온도</span><span class="val">550 / 650 °C<small> 입구 / 출구 (고온)</small></span></div>
+      <div class="spec"><span class="lab">연료</span><span class="val">TRISO 페블<small> 흑연 매트릭스 · ⌀4cm · 염에 부유</small></span></div>
+      <div class="spec"><span class="lab">농축도</span><span class="val">HALEU 19.75%</span></div>
+      <div class="spec"><span class="lab">재장전</span><span class="val">온라인(페블)<small> 연속 순환</small></span></div>
+      <div class="spec"><span class="lab">출력 변환</span><span class="val">과열증기 랭킨 사이클</span></div>
+      <div class="spec"><span class="lab">제어</span><span class="val">제어요소 · 붕소</span></div>
+      <div class="spec"><span class="lab">1차 순환</span><span class="val">강제 순환(염 펌프)</span></div>
+      <div class="spec"><span class="lab">설계수명</span><span class="val">용기 20년 / 플랜트 80년</span></div>
+      <div class="spec"><span class="lab">원자로용기(RPV)</span><span class="val">높이 7.2m · ⌀3.9m<small> 컴팩트</small></span></div>
+      <div class="spec"><span class="lab">안전</span><span class="val">피동<small> 72시간+ 무전원·무조작 냉각</small></span></div>
+      <div class="spec"><span class="lab">용도</span><span class="val">전력(디스패처블) · 데이터센터</span></div>
+    </div>
+    <div class="tech-note">
+      <b>핵심 차별점:</b> ① <b>TRISO 페블 + 불소염</b> — Xe-100식 <b>TRISO 페블</b>(고온에서도 핵분열물질을 가둠)을 헬륨 대신 <b>저압 용융 불소염(FLiBe)</b>으로 냉각 → 고온(650°C)·저압 운전. 페블은 염보다 가벼워 <b>염 속에 떠서 순환</b> · ② <b>저압·피동안전</b> — &lt;0.2MPa 운전, <b>72시간 이상</b> 무전원·무조작 냉각 가능 · ③ <b>수직통합·반복개발</b> — Kairos가 TRISO 페블·FLiBe 염·기기를 <b>직접 제작</b>하고, 시험로(Hermes)를 반복 건설해 빠르게 학습(빠른 반복 개발 전략) · ④ <b>Hermes 실증</b> — Hermes 1(35MWth 비발전 시험로)이 <b>수십 년 만의 비경수로 NRC 건설허가</b>(2023)를 받았고, 발전형 Hermes 2(TVA·Google)로 확장.
+      자세한 노형 비교는 <a href="SMR-reactor-types.html#fhr">노형 분류 › FHR</a> · TRISO 연료는 <a href="SMR-dev-xenergy.html">X-energy 상세</a> 참고.
+    </div>
+    <p class="src" style="margin:10px 0 0;">＊ 사양 교차검증: <b>IAEA <i>Advances in SMR Technology Developments 2024</i></b> 카탈로그(KP-FHR). 320MWth/140MWe·&lt;0.2MPa·550/650°C·TRISO 페블·HALEU 19.75%·RPV 7.2m×⌀3.9m 등 일치. (상용 KP-X 기준; 시험로 Hermes 1은 35MWth 비발전)</p>
+  </section>
+
+  <!-- ===================== 부품 공급망 ===================== -->
+  <section id="supply">
+    <h2 class="sec-head"><span class="no">②</span>주요 부품·연료 공급망</h2>
+    <p class="sec-sub">Kairos가 <b>TRISO 페블·FLiBe 염·기기를 직접 제작(수직통합)</b>, 상업 TRISO는 BWXT와 협력, 터빈 등 발전부는 표준 기기</p>
+
+    <div class="sub-h"><span class="pin">②-A</span>KP-FHR 구성 — 도해</div>
+    <!-- DIAGRAM CONVENTION (reuse): viewBox 0 0 900 440. Nuclear Island(원자로+1차 염) ↔ Power(증기+터빈).
+         Vessels = rounded rect fill accent-weak stroke accent. Components ①..⑥ map to supply table.
+         페블은 염(accent-weak)에 부유. Flows: 1차 염/증기 = solid accent; 복귀 = dashed gray. -->
+    <div class="diagram-wrap">
+      <svg viewBox="0 0 900 440" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, sans-serif" aria-label="KP-FHR schematic">
+        <defs>
+          <marker id="m-acc" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker>
+          <marker id="m-gray" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#9aa7b4"/></marker>
+        </defs>
+
+        <!-- islands -->
+        <rect x="24" y="56" width="430" height="352" rx="12" fill="none" stroke="#d2d7e0" stroke-dasharray="6 5"/>
+        <text x="40" y="46" fill="#8b93a2" font-size="11" font-weight="700" letter-spacing="1.4">NUCLEAR ISLAND (원자로 · 1차 염)</text>
+        <rect x="486" y="56" width="390" height="352" rx="12" fill="none" stroke="#d2d7e0" stroke-dasharray="6 5"/>
+        <text x="502" y="46" fill="#8b93a2" font-size="11" font-weight="700" letter-spacing="1.4">POWER (증기 · 발전)</text>
+
+        <!-- 페블 장입관 ③ + 원자로용기 ① -->
+        <rect x="150" y="92" width="20" height="22" rx="3" fill="#ffffff" stroke="#2563eb"/>
+        <text x="160" y="86" fill="#1d4ed8" font-size="10" font-weight="700" text-anchor="middle">페블 장입 ③</text>
+        <rect x="118" y="118" width="120" height="226" rx="22" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="178" y="368" fill="#1d4ed8" font-size="11.5" font-weight="700" text-anchor="middle">원자로용기(RPV·FLiBe) ①</text>
+        <!-- 페블 베드 ② (염에 부유) -->
+        <g fill="#9aa7b4">
+          <circle cx="150" cy="150" r="5"/><circle cx="166" cy="146" r="5"/><circle cx="184" cy="150" r="5"/><circle cx="200" cy="148" r="5"/>
+          <circle cx="158" cy="166" r="5"/><circle cx="176" cy="164" r="5"/><circle cx="194" cy="168" r="5"/>
+          <circle cx="150" cy="184" r="5"/><circle cx="168" cy="182" r="5"/><circle cx="186" cy="186" r="5"/><circle cx="204" cy="182" r="5"/>
+          <circle cx="158" cy="202" r="5"/><circle cx="176" cy="200" r="5"/><circle cx="194" cy="204" r="5"/>
+          <circle cx="150" cy="220" r="5"/><circle cx="168" cy="220" r="5"/><circle cx="186" cy="222" r="5"/><circle cx="204" cy="218" r="5"/>
+          <circle cx="160" cy="238" r="5"/><circle cx="180" cy="238" r="5"/><circle cx="198" cy="240" r="5"/>
+        </g>
+        <text x="246" y="200" fill="#1d4ed8" font-size="10.5" font-weight="700">TRISO 페블베드 ②</text>
+        <line x1="210" y1="200" x2="242" y2="198" stroke="#c0c7d1"/>
+        <!-- 염 펌프 ④ -->
+        <circle cx="150" cy="316" r="14" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="150" y="320" fill="#1d4ed8" font-size="8.5" font-weight="700" text-anchor="middle">염펌프④</text>
+
+        <!-- 1차 염 (고온) → 증기발생기 ⑤ -->
+        <polyline points="238,164 360,164 360,180" fill="none" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
+        <text x="300" y="156" fill="#8b93a2" font-size="9" text-anchor="middle">1차 염(고온 650°C) →</text>
+        <polyline points="378,300 378,250 238,250 238,250" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
+        <text x="300" y="264" fill="#8b93a2" font-size="9" text-anchor="middle">염 복귀(저온) ←</text>
+        <rect x="342" y="180" width="56" height="120" rx="5" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="370" y="318" fill="#1d4ed8" font-size="10.5" font-weight="700" text-anchor="middle">증기발생기 ⑤</text>
+
+        <!-- 증기 → 터빈 ⑥ -->
+        <line x1="398" y1="210" x2="648" y2="210" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
+        <text x="520" y="202" fill="#8b93a2" font-size="9" text-anchor="middle">증기 →</text>
+        <polyline points="690,250 690,310 398,310" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
+        <text x="520" y="324" fill="#8b93a2" font-size="9" text-anchor="middle">← Feedwater</text>
+        <polygon points="648,188 712,176 712,248 648,236" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="680" y="170" fill="#1d4ed8" font-size="11.5" font-weight="700" text-anchor="middle">Turbine ⑥</text>
+        <line x1="712" y1="212" x2="740" y2="212" stroke="#9aa7b4" stroke-width="3"/>
+        <circle cx="764" cy="212" r="20" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="764" y="217" fill="#1d4ed8" font-size="14" font-weight="700" text-anchor="middle">G</text>
+        <text x="764" y="246" fill="#54606f" font-size="9.5" text-anchor="middle">Generator</text>
+      </svg>
+    </div>
+    <p class="src" style="margin:0 0 14px;">＊ 모식도(개략). 번호 ①–⑥은 아래 표와 연결. TRISO 페블이 <b>FLiBe 염에 떠서</b> 노심을 순환(상부 장입·하부 배출), 가열된 1차 염이 <b>증기발생기</b>에서 증기를 만들어 터빈 발전. 헬륨 대신 <b>저압 염</b>으로 냉각하는 점이 Xe-100(HTGR)과의 차이.</p>
+
+    <div class="sub-h"><span class="pin">②-B</span>주기기·연료별 공급/책임 <span style="font-weight:400;color:var(--text-dim);font-size:12.5px;">(칩 클릭 → 설명·링크)</span></div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>#</th><th>부품·연료</th><th>공급/책임 (클릭)</th><th>구분 (NI/PI)</th></tr></thead>
+        <tbody>
+          <tr><td class="num">①</td><td><b>원자로용기 (<abbr title="Reactor Pressure Vessel">RPV</abbr>, 저압 스테인리스)</b></td><td><span class="cochip" data-co="kairos">Kairos Power<span class="ccx">US</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Nuclear Steam Supply System">NSSS</abbr></td></tr>
+          <tr><td class="num">②</td><td><b>TRISO 페블 연료 (⌀4cm)</b></td><td><span class="cochip" data-co="kairos">Kairos Power<span class="ccx">US</span></span><span class="cochip" data-co="bwxt">BWXT<span class="ccx">US · 상업 TRISO</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Reactor Core">Core</abbr></td></tr>
+          <tr><td class="num">③</td><td><b>페블 취급계통 (온라인 재장전)</b></td><td><span class="cochip" data-co="kairos">Kairos Power<span class="ccx">US</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Fuel Handling System">FHS</abbr></td></tr>
+          <tr><td class="num">④</td><td><b>FLiBe 염 · 1차 염펌프</b></td><td><span class="cochip" data-co="kairos">Kairos Power<span class="ccx">US · 염공장</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Nuclear Steam Supply System">NSSS</abbr></td></tr>
+          <tr><td class="num">⑤</td><td><b>증기발생기 (염→증기)</b></td><td><span class="cochip" data-co="kairos">Kairos Power<span class="ccx">US</span></span></td><td>PI · 발전</td></tr>
+          <tr><td class="num">⑥</td><td><b>증기터빈·발전기</b></td><td><span class="badge">표준 T/G</span> <span style="color:var(--text-faint);font-size:12px;">재래식 랭킨 발전부(프로젝트별)</span></td><td>PI · <abbr title="Turbine–Generator">T/G</abbr></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="src" style="margin:8px 0 0;line-height:1.85;">
+      <b style="color:var(--text-dim);">구분 약어</b> (커서 올리면 풀네임) —
+      <abbr title="Nuclear Island">NI</abbr> Nuclear Island(원자로·1차 염) ·
+      PI Power Island(증기·발전) ·
+      <abbr title="Nuclear Steam Supply System">NSSS</abbr> Nuclear Steam Supply System ·
+      <abbr title="Fuel Handling System">FHS</abbr> Fuel Handling System ·
+      <abbr title="Turbine–Generator">T/G</abbr> Turbine–Generator<br>
+      <span style="color:var(--text-faint);">＊ Kairos는 <b style="color:var(--text-dim);">수직통합</b> 전략 — TRISO 페블·FLiBe 염·기기를 직접 제작해 공급망을 내재화함(상업 TRISO는 BWXT와 협력). 발전부(터빈)는 재래식 표준 기기. <b style="color:var(--text-dim);">한국 기업의 직접 참여는 현재 두드러지지 않음</b>(X-energy·NuScale·TerraPower 대비).</span>
+    </p>
+    <div class="co-detail empty" id="coDetail">위 칩을 클릭하면 회사 설명과 공식 링크가 여기에 표시됩니다.</div>
+
+    <div class="sub-h"><span class="pin">②-C</span>고객·협력 파트너</div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>파트너</th><th>국적</th><th>역할</th><th>현황</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>Google</b></td>
+            <td><span class="badge">US</span></td>
+            <td>세계 첫 다수기 첨단로 <b>기업 선구매</b> — 최대 <b>500MW</b>(6~7기) 데이터센터 전원.</td>
+            <td><span class="st-prog">진행</span> · 2024 협약, 첫호기 2030·나머지 2035.</td>
+          </tr>
+          <tr>
+            <td><b>TVA</b><br><span class="src">Tennessee Valley Authority</span></td>
+            <td><span class="badge">US</span></td>
+            <td>Hermes 2 전력을 <b>그리드로 인수(PPA)</b> — Google 데이터센터 전원.</td>
+            <td><span class="st-prog">진행</span> · 2025.8 Google·TVA·Kairos 50MW PPA.</td>
+          </tr>
+          <tr>
+            <td><b>BWXT</b></td>
+            <td><span class="badge">US</span></td>
+            <td><b>상업용 TRISO 제조</b> 협력.</td>
+            <td><span class="st-prog">진행</span> · 2025 TRISO 제조 협력.</td>
+          </tr>
+          <tr>
+            <td><b>북미 유틸리티 얼라이언스</b></td>
+            <td><span class="badge">US·CA</span></td>
+            <td>KP-FHR 개발·인허가·상업화 지원 <b>컨소시엄</b>.</td>
+            <td><span class="st-plan">협력</span> · 다수 유틸리티 참여.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="src" style="margin-top:8px;">＊ Kairos는 <b>Google·TVA 등 미국 수요·유틸리티 중심</b>으로, 한국 기업의 제작·투자 참여는 아직 두드러지지 않음(정직 표기). → <a href="SMR-korea-players.html">한국 기업</a> · <a href="SMR-reference.html">CFR 레퍼런스</a></p>
+  </section>
+
+  <!-- ===================== Off-taker ===================== -->
+  <section id="offtaker">
+    <h2 class="sec-head"><span class="no">③</span>Off-taker (고객·프로젝트)</h2>
+    <p class="sec-sub">시험로 Hermes(테네시 Oak Ridge)로 실증하며, Google·TVA를 통해 데이터센터 전원으로 확장</p>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>고객·프로젝트</th><th>지역</th><th>규모</th><th>현황</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>Hermes 1</b><br><span class="src">저출력 시험로(비발전)</span></td>
+            <td><span class="badge">US · 테네시 Oak Ridge</span></td>
+            <td>35 MWth (발전 없음)</td>
+            <td><span class="st-prog">건설</span> · NRC 건설허가(2023), 핵 건설(2025-05), 가동 목표 2027. 운영허가 신청 준비(2026).</td>
+          </tr>
+          <tr>
+            <td><b>Hermes 2</b><br><span class="src">발전형 실증 + TVA·Google</span></td>
+            <td><span class="badge">US · 테네시 Oak Ridge</span></td>
+            <td>2×35 MWth → 약 <b>50 MW</b> 그리드</td>
+            <td><span class="st-prog">건설</span> · NRC 건설허가(2024-11), 착공(2026-04). <b>TVA 그리드 50MW PPA</b>로 Google 전원.</td>
+          </tr>
+          <tr>
+            <td><b>Google 선단</b><br><span class="src">KP-X 상용 다수기</span></td>
+            <td><span class="badge">US</span></td>
+            <td>최대 <b>500 MW</b> (6~7기)</td>
+            <td><span class="st-plan">개발</span> · 첫호기 2030, 나머지 2035 목표. 데이터센터 전원.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="src" style="margin-top:8px;">＊ Kairos 전략은 <b>시험로(Hermes) 반복 건설 → 빠른 학습 → 상용(KP-X) 전개</b>. Hermes 1은 발전하지 않는 순수 시험로, Hermes 2부터 그리드 전력 공급.</p>
+  </section>
+
+  <!-- ===================== MOU ===================== -->
+  <section id="mou">
+    <h2 class="sec-head"><span class="no">④</span>파트너십 · 이정표</h2>
+    <p class="sec-sub">시간순(최신 위). NRC 인허가(Hermes 1·2) + Google·TVA 수요 + BWXT(TRISO)</p>
+
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2026-04</span><span class="mou-party">Hermes 2 — 착공</span></div>
+      <div class="mou-body">발전형 실증플랜트 <b>Hermes 2(2×35MWth) 착공</b>(groundbreaking) — TVA 그리드로 약 50MW 공급 예정.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2026-02</span><span class="mou-party">Hermes 1 — 운영허가 준비</span></div>
+      <div class="mou-body">Hermes 1 <b>운영허가(Operating License) 신청 준비</b> 단계 — 가동(2027)을 향한 인허가 진행.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2025-09</span><span class="mou-party">BWXT — 상업 TRISO 협력</span></div>
+      <div class="mou-body">Kairos–BWXT가 <b>상업용 TRISO 제조</b> 협력 — 페블 연료 공급망 확장.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2025-08</span><span class="mou-party">Google · TVA · Kairos — PPA</span></div>
+      <div class="mou-body">3자 <b>전력구매계약(PPA)</b> — Hermes 2가 <b>TVA 그리드에 약 50MW</b> 공급, Google 데이터센터(앨라배마·테네시) 전원.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2025-05</span><span class="mou-party">Hermes 1 — 핵 건설 착수</span></div>
+      <div class="mou-body">Hermes 1 <b>원자로(핵) 건설 시작</b> — 2024.7 착공(부지)에 이어 본격 핵 구조물 공사.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2024-11</span><span class="mou-party">美 NRC — Hermes 2 건설허가</span></div>
+      <div class="mou-body">발전형 <b>Hermes 2 건설허가(CP)</b> 발급.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2024-10</span><span class="mou-party">Google — 500MW 협약</span></div>
+      <div class="mou-body">Google–Kairos <b>세계 첫 다수기 첨단로 기업 선구매</b> — 2035년까지 최대 500MW(6~7기).</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2023-12</span><span class="mou-party">美 NRC — Hermes 1 건설허가</span></div>
+      <div class="mou-body"><b>수십 년 만의 비경수로 NRC 건설허가</b>(Part 50) — Hermes 1(35MWth 시험로). 비경수 첨단로 인허가의 이정표.</div>
+    </div>
+  </section>
+
+  <!-- ===================== 뉴스 ===================== -->
+  <section id="news">
+    <h2 class="sec-head"><span class="no">⑤</span>관련 뉴스 (계속 누적)</h2>
+    <p class="sec-sub">최신순. 검색·태그로 거르기. 새 소식은 맨 위에 항목을 추가하면 됨.</p>
+
+    <div class="news-tip">
+      <b>새 뉴스 추가법:</b> 아래 <code>&lt;!-- NEWS-TEMPLATE --&gt;</code> 주석의 양식을 복사해 피드 맨 위에 붙이고 날짜·제목·내용·태그(<code>기술/공급망/고객/규제/투자/MOU</code>)·출처만 채우면 됩니다.
+    </div>
+
+    <div class="news-controls">
+      <input id="newsSearch" class="search" type="text" placeholder="뉴스 검색 (예: Hermes, Google, TRISO, FLiBe)" autocomplete="off">
+      <div class="tagchips" id="tagchips">
+        <span class="chip active" data-tag="all">전체</span>
+        <span class="chip" data-tag="기술">기술</span>
+        <span class="chip" data-tag="공급망">공급망</span>
+        <span class="chip" data-tag="고객">고객</span>
+        <span class="chip" data-tag="규제">규제</span>
+        <span class="chip" data-tag="투자">투자</span>
+        <span class="chip" data-tag="MOU">MOU</span>
+      </div>
+    </div>
+
+    <div class="feed" id="feed">
+
+      <!-- NEWS-TEMPLATE (복사용)
+      <div class="item" data-tags="기술" data-date="YYYY-MM-DD">
+        <div class="item-date">YYYY-MM-DD</div>
+        <div class="item-title">제목</div>
+        <div class="item-body">내용 요약.</div>
+        <div class="item-tags"><span class="tg">기술</span></div>
+        <div class="item-src"><a href="URL" target="_blank">출처</a></div>
+      </div>
+      -->
+
+      <div class="item" data-tags="고객 규제" data-date="2026-04">
+        <div class="item-date">2026-04</div>
+        <div class="item-title">Kairos, Hermes 2 발전형 실증플랜트 착공</div>
+        <div class="item-body">Oak Ridge에서 <b>Hermes 2(2×35MWth) 착공</b> — TVA 그리드에 약 50MW 공급해 Google 데이터센터 전원으로.</div>
+        <div class="item-tags"><span class="tg">고객</span><span class="tg">규제</span></div>
+        <div class="item-src"><a href="https://www.kairospower.com/updates/kairos-power-breaks-ground-on-hermes-2-demonstration-plant" target="_blank">Kairos Power</a></div>
+      </div>
+
+      <div class="item" data-tags="공급망" data-date="2025-09">
+        <div class="item-date">2025-09</div>
+        <div class="item-title">Kairos·BWXT, 상업용 TRISO 제조 협력</div>
+        <div class="item-body">Kairos와 BWXT가 <b>상업용 TRISO 연료 제조</b>에 협력 — 페블 연료 공급망 확대.</div>
+        <div class="item-tags"><span class="tg">공급망</span></div>
+        <div class="item-src"><a href="https://www.ans.org/news/2025-09-03/article-7341/kairos-power-and-bwxt-team-up-on-triso/" target="_blank">ANS Nuclear Newswire</a></div>
+      </div>
+
+      <div class="item" data-tags="고객" data-date="2025-08">
+        <div class="item-date">2025-08</div>
+        <div class="item-title">Google·TVA·Kairos, 50MW 전력구매계약(PPA)</div>
+        <div class="item-body">Hermes 2가 <b>TVA 그리드에 약 50MW</b> 공급, Google 데이터센터(앨라배마·테네시) 전원으로 활용하는 3자 PPA 체결.</div>
+        <div class="item-tags"><span class="tg">고객</span></div>
+        <div class="item-src"><a href="https://neutronbytes.com/2025/08/24/google-kairos-partner-to-help-power-tva/" target="_blank">Neutron Bytes</a></div>
+      </div>
+
+      <div class="item" data-tags="규제 기술" data-date="2025-05">
+        <div class="item-date">2025-05</div>
+        <div class="item-title">Hermes 1, 원자로(핵) 건설 착수</div>
+        <div class="item-body">2024.7 부지 착공에 이어 Oak Ridge <b>Hermes 1 핵 구조물 건설 시작</b> — 가동 목표 2027.</div>
+        <div class="item-tags"><span class="tg">규제</span><span class="tg">기술</span></div>
+        <div class="item-src"><a href="https://kairospower.com/external_updates/kairos-power-begins-construction-on-hermes-low-power-demonstration-reactor" target="_blank">Kairos Power</a></div>
+      </div>
+
+      <div class="item" data-tags="규제" data-date="2024-11">
+        <div class="item-date">2024-11</div>
+        <div class="item-title">NRC, Hermes 2 건설허가 발급</div>
+        <div class="item-body">발전형 <b>Hermes 2(2×35MWth)</b> 건설허가 취득 — 전력 생산형 FHR 실증 단계로.</div>
+        <div class="item-tags"><span class="tg">규제</span></div>
+        <div class="item-src"><a href="https://www.kairospower.com/locations/tennessee" target="_blank">Kairos Power</a></div>
+      </div>
+
+      <div class="item" data-tags="고객 MOU" data-date="2024-10">
+        <div class="item-date">2024-10</div>
+        <div class="item-title">Google, Kairos와 500MW 배치 협약</div>
+        <div class="item-body"><b>세계 첫 다수기 첨단로 기업 선구매</b> — 2035년까지 최대 500MW(6~7기) 청정전력. 데이터센터 전원 확보.</div>
+        <div class="item-tags"><span class="tg">고객</span><span class="tg">MOU</span></div>
+        <div class="item-src"><a href="https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation" target="_blank">Kairos Power</a></div>
+      </div>
+
+      <div class="item" data-tags="규제 기술" data-date="2023-12">
+        <div class="item-date">2023-12</div>
+        <div class="item-title">NRC, Hermes 1 건설허가 — 수십 년 만의 비경수로</div>
+        <div class="item-body">Hermes 1(35MWth 시험로)이 <b>비경수 첨단로로는 수십 년 만의 NRC 건설허가</b>(Part 50)를 취득.</div>
+        <div class="item-tags"><span class="tg">규제</span><span class="tg">기술</span></div>
+        <div class="item-src"><a href="https://www.energy.gov/ne/articles/kairos-power-starts-construction-hermes-reactor" target="_blank">DOE</a></div>
+      </div>
+
+    </div>
+    <div class="news-hidden" id="newsNone" style="display:none;color:var(--text-faint);padding:20px;text-align:center;">검색 결과가 없습니다.</div>
+  </section>
+
+</main>
+
+<footer>
+  <span class="note warn" style="display:block;margin-bottom:8px;"><span class="lead">주의</span> 인허가·사업 현황은 빠르게 변합니다 — 회의·보고 직전 Kairos Power·NRC·각 파트너 공시로 재확인 권장. (2026-06-17 기준)</span>
+  <a href="SMR-developers.html#kairos">개발사 카드로</a> · <a href="SMR-reactor-types.html#fhr">FHR 노형</a> · <a href="SMR-licensing-tracks.html#part50">Part 50 트랙</a> · <a href="SMR-dev-xenergy.html">X-energy(TRISO)</a> · <a href="SMR-reference.html">CFR 레퍼런스</a>
+</footer>
+
+<script>
+  const newsSearch=document.getElementById('newsSearch');
+  const items=Array.from(document.querySelectorAll('.item'));
+  const tagchips=Array.from(document.querySelectorAll('#tagchips .chip'));
+  const newsNone=document.getElementById('newsNone');
+  let activeTag='all';
+
+  function clearMarks(el){el.querySelectorAll('mark').forEach(m=>m.replaceWith(document.createTextNode(m.textContent)));el.normalize();}
+  function highlight(el,term){
+    const walker=document.createTreeWalker(el,NodeFilter.SHOW_TEXT,null);const nodes=[];
+    while(walker.nextNode())nodes.push(walker.currentNode);
+    const re=new RegExp('('+term.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi');
+    nodes.forEach(node=>{if(!re.test(node.textContent))return;const span=document.createElement('span');span.innerHTML=node.textContent.replace(re,'<mark>$1</mark>');node.replaceWith(span);});
+  }
+  function applyNews(){
+    const term=newsSearch.value.trim().toLowerCase();
+    let vis=0;
+    items.forEach(it=>{
+      clearMarks(it);
+      const text=it.textContent.toLowerCase();
+      const tags=(it.dataset.tags||'').split(' ');
+      const matchText=!term||text.includes(term);
+      const matchTag=activeTag==='all'||tags.includes(activeTag);
+      const show=matchText&&matchTag;
+      it.classList.toggle('news-hidden',!show);
+      it.style.display=show?'':'none';
+      if(show){vis++;if(term)highlight(it,term);}
+    });
+    newsNone.style.display=vis?'none':'block';
+  }
+  newsSearch.addEventListener('input',applyNews);
+  tagchips.forEach(c=>c.addEventListener('click',()=>{
+    tagchips.forEach(x=>x.classList.remove('active'));c.classList.add('active');activeTag=c.dataset.tag;applyNews();
+  }));
+
+  // ---- supplier company directory ----
+  const COMPANIES={
+    kairos:{nm:'Kairos Power',role:'KP-FHR 설계·제작(수직통합) · 미국',
+      desc:'불소염냉각 고온로(KP-FHR) 개발사. <b>TRISO 페블·FLiBe 염·원자로 기기를 직접 제작</b>하는 수직통합 전략. 시험로 Hermes를 반복 건설하며 빠르게 학습(rapid iterative development). 자체 염 생산시설·시험설비 보유.',
+      url:'https://www.kairospower.com/'},
+    bwxt:{nm:'BWXT (BWX Technologies)',role:'상업용 TRISO 제조 · 미국',
+      desc:'북미 원자력 부품·TRISO 제조 기업. Kairos와 <b>상업용 TRISO 연료 제조</b>에 협력해 KP-FHR 페블 연료 공급망을 확장.',
+      url:'https://www.bwxt.com/'}
+  };
+  const coDetail=document.getElementById('coDetail');
+  const cochips=Array.from(document.querySelectorAll('.cochip'));
+  cochips.forEach(chip=>chip.addEventListener('click',()=>{
+    const c=COMPANIES[chip.dataset.co];if(!c)return;
+    cochips.forEach(x=>x.classList.toggle('active',x.dataset.co===chip.dataset.co));
+    coDetail.classList.remove('empty');
+    coDetail.innerHTML='<div class="nm">'+c.nm+'</div><div class="role">'+c.role+'</div><div>'+c.desc+'</div><div class="lnk"><a href="'+c.url+'" target="_blank" rel="noopener">공식 웹사이트 →</a></div>';
+  }));
+</script>
+<script src="feedback.js" defer></script>
+</body>
+</html>
