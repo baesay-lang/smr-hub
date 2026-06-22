@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMR 카탈로그 — IAEA 2024 전 노형 주요 스펙</title>
+<meta name="description" content="IAEA 2024 SMR 카탈로그에 수록된 약 71개 설계의 주요 스펙(출력·노형·개발사·국가·설계상태)을 노형별 필터·정렬·검색으로 한눈에. 상세 페이지가 있는 개발사는 바로 링크.">
+<link rel="canonical" href="https://baesay-lang.github.io/smr-hub/SMR-catalogue.html">
+<meta name="theme-color" content="#2563eb">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SMR HUB">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="SMR 카탈로그 — IAEA 2024 전 노형 주요 스펙 · SMR HUB">
+<meta property="og:description" content="IAEA 2024 SMR 카탈로그 약 71개 설계의 출력·노형·개발사·국가·설계상태를 노형별 필터·정렬·검색으로.">
+<meta property="og:url" content="https://baesay-lang.github.io/smr-hub/SMR-catalogue.html">
+<meta property="og:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SMR 카탈로그 — IAEA 2024 전 노형 주요 스펙 · SMR HUB">
+<meta name="twitter:description" content="IAEA 2024 SMR 카탈로그 약 71개 설계의 주요 스펙을 필터·정렬·검색으로.">
+<meta name="twitter:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
+<link rel="stylesheet" href="styles.css?v=4">
+<script>(function(){try{var t=localStorage.getItem('smrhub-theme');if(t==='dark'||(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();</script>
+<script src="ui.js" defer></script>
+<style>
+  .kicker{font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--accent);}
+  h1{font-size:24px;margin:6px 0 4px;}
+  .subtitle{color:var(--text-dim);font-size:14px;margin:0;line-height:1.55;}
+  .subtitle b{color:var(--text);}
+  .updated{font-size:12px;color:var(--text-faint);margin-top:8px;font-variant-numeric:tabular-nums;}
+
+  .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:18px 0 6px;}
+  #catSearch{flex:1;min-width:200px;}
+  .chips{display:flex;gap:6px;flex-wrap:wrap;}
+  .chip .cnt{font-size:10px;color:var(--text-faint);font-weight:700;margin-left:4px;}
+  .chip.active .cnt{color:var(--accent-strong);}
+
+  .tbl-wrap{overflow-x:auto;border:1px solid var(--border);border-radius:var(--radius);background:var(--surface);box-shadow:var(--shadow);margin-top:8px;}
+  table.cat{width:100%;border-collapse:collapse;font-size:13px;min-width:720px;}
+  table.cat th,table.cat td{text-align:left;padding:9px 12px;border-bottom:1px solid var(--border);vertical-align:middle;}
+  table.cat thead th{background:var(--surface-2);font-weight:700;font-size:11.5px;color:var(--text-dim);white-space:nowrap;cursor:pointer;user-select:none;position:sticky;top:0;z-index:2;}
+  table.cat thead th:hover{color:var(--accent-strong);}
+  table.cat thead th .ar{font-size:9px;color:var(--text-faint);margin-left:3px;}
+  table.cat tbody tr:hover{background:var(--surface-2);}
+  table.cat tr:last-child td{border-bottom:none;}
+  .nm{font-weight:700;color:var(--text);}
+  .nm a{color:var(--text);}
+  .nm a:hover{color:var(--accent-strong);}
+  .nm .star{color:var(--accent);font-size:10px;margin-left:3px;font-weight:700;}
+  .mwe{font-variant-numeric:tabular-nums;font-weight:700;color:var(--text);white-space:nowrap;}
+  .mwe small{color:var(--text-faint);font-weight:500;}
+  .ty{color:var(--text-dim);white-space:nowrap;}
+  .cc2{font-size:10px;font-weight:700;letter-spacing:.03em;color:var(--text-faint);background:var(--surface-2);border:1px solid var(--border);border-radius:4px;padding:1px 5px;white-space:nowrap;}
+  .catbadge{font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:4px;white-space:nowrap;background:var(--surface-2);color:var(--text-dim);border:1px solid var(--border);}
+  /* status stage tint */
+  .stg{font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:20px;white-space:nowrap;}
+  .stg.s5{background:#dcfce7;color:#15803d;}   /* 가동중 */
+  .stg.s4{background:var(--accent-weak-2);color:var(--accent-strong);} /* 건설중 */
+  .stg.s3{background:var(--accent-weak);color:var(--accent-strong);}   /* 상세설계 */
+  .stg.s2{background:var(--surface-3);color:var(--text-dim);}          /* 기본설계 */
+  .stg.s1{background:var(--surface-2);color:var(--text-faint);}        /* 개념설계 */
+  [data-theme="dark"] .stg.s5{background:#13361f;color:#6ee7a3;}
+  .det{font-size:11.5px;font-weight:700;color:var(--accent);white-space:nowrap;}
+  .det:hover{color:var(--accent-strong);}
+  .kr-row td:first-child{box-shadow:inset 3px 0 0 var(--accent);}
+
+  .none{display:none;color:var(--text-faint);padding:24px;text-align:center;}
+  .legend{font-size:11.5px;color:var(--text-faint);margin-top:10px;line-height:1.8;}
+  .legend b{color:var(--text-dim);}
+  .note{margin-top:14px;}
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a class="brand" href="index.html">SMR HUB</a>
+  <a href="SMR-news.html">뉴스</a>
+  <a href="SMR-developers.html">개발사</a>
+  <a href="SMR-timeline.html">연표</a>
+  <a href="SMR-licensing-tracks.html">인허가 트랙</a>
+  <a href="SMR-reactor-types.html">노형 분류</a>
+  <a href="SMR-catalogue.html" class="active">카탈로그</a>
+  <a href="SMR-fuel-supply.html">연료 공급망</a>
+  <a href="SMR-reference.html">CFR 레퍼런스</a>
+  <a href="SMR-asia-structure.html">사업 구조</a>
+  <a href="SMR-korea-players.html">한국 기업</a>
+  <a href="SMR-map.html">프로젝트 맵</a>
+</nav>
+
+<header class="page">
+  <div class="kicker">IAEA 2024 Catalogue</div>
+  <h1>SMR 카탈로그 — 전 노형 주요 스펙</h1>
+  <p class="subtitle">IAEA <b>Advances in SMR Technology Developments 2024</b>에 수록된 <b>약 71개 설계</b>를 노형별로 모았습니다. 출력·노형·개발사·국가·설계상태를 <b>필터·정렬·검색</b>으로 한눈에. <b class="nm" style="color:var(--accent)">★</b> 표시·왼쪽 파란선은 <b>상세 페이지가 있는 개발사</b>(행에서 바로 이동).</p>
+  <div class="updated">데이터 기준: IAEA 2024 카탈로그 · 정리 2026-06-17</div>
+</header>
+
+<main>
+  <div class="controls">
+    <input id="catSearch" class="search" type="text" placeholder="검색 (설계명·개발사·국가, 예: HTGR, KAERI, 두산, Russia)" autocomplete="off">
+    <div class="chips" id="catChips">
+      <span class="chip active" data-cat="all">전체 <span class="cnt" id="c-all"></span></span>
+      <span class="chip" data-cat="pwrL">경수로·육상 <span class="cnt" id="c-pwrL"></span></span>
+      <span class="chip" data-cat="pwrM">경수로·해상 <span class="cnt" id="c-pwrM"></span></span>
+      <span class="chip" data-cat="htgr">HTGR <span class="cnt" id="c-htgr"></span></span>
+      <span class="chip" data-cat="fast">고속로 <span class="cnt" id="c-fast"></span></span>
+      <span class="chip" data-cat="msr">MSR <span class="cnt" id="c-msr"></span></span>
+      <span class="chip" data-cat="micro">마이크로 <span class="cnt" id="c-micro"></span></span>
+      <span class="chip" data-cat="kr">한국 참여 <span class="cnt" id="c-kr"></span></span>
+    </div>
+  </div>
+
+  <div class="tbl-wrap">
+    <table class="cat">
+      <thead>
+        <tr>
+          <th data-k="n">설계명 <span class="ar" id="ar-n"></span></th>
+          <th data-k="pv">출력 MWe <span class="ar" id="ar-pv"></span></th>
+          <th data-k="t">노형 <span class="ar" id="ar-t"></span></th>
+          <th data-k="d">개발사 <span class="ar" id="ar-d"></span></th>
+          <th data-k="c">국가 <span class="ar" id="ar-c"></span></th>
+          <th data-k="ss">설계상태 <span class="ar" id="ar-ss"></span></th>
+          <th>상세</th>
+        </tr>
+      </thead>
+      <tbody id="catBody"></tbody>
+    </table>
+  </div>
+  <div class="none" id="catNone">검색 결과가 없습니다.</div>
+
+  <p class="legend">
+    <b>설계상태</b> — <span class="stg s5">가동중</span> <span class="stg s4">건설중</span> <span class="stg s3">상세설계</span> <span class="stg s2">기본설계</span> <span class="stg s1">개념설계</span> (IAEA 표기 기준)<br>
+    <b>출력</b>은 카탈로그 표기 <b>전기출력(MWe)</b>. <b>“열·시험”</b>은 전기출력이 없는 열공급·시험로(MWth). <b>~</b>는 근사·개념단계 값. 일부는 <b>현행 벤더값과 다를 수 있음</b>(예: Aurora 카탈로그 1.5 → 현행 ~75MWe, SMART 107 → SMART100 110MWe, Xe-100 82.5 → 현행 80MWe 표기).
+  </p>
+
+  <div class="note note warn" style="border-left:3px solid var(--alert);background:var(--alert-weak);border-radius:var(--radius-sm);padding:12px 15px;font-size:12.5px;color:var(--text-dim);">
+    <b style="color:var(--alert);">주의</b> &nbsp;본 표는 <b>IAEA 2024 카탈로그의 요약값</b>을 정리한 것으로, 인허가·출력·상태는 빠르게 변합니다. 회의·보고 전 각 개발사·규제기관 최신 공시로 재확인하세요. 상세 페이지가 있는 13개 개발사는 별도 검증·갱신본입니다. — <a href="SMR-developers.html">개발사 카드</a> · <a href="SMR-reactor-types.html">노형 분류</a>
+  </div>
+</main>
+
+<footer>
+  <a href="SMR-developers.html">개발사</a> · <a href="SMR-reactor-types.html">노형 분류</a> · <a href="SMR-licensing-tracks.html">인허가 트랙</a> · <a href="SMR-korea-players.html">한국 기업</a> · <a href="SMR-map.html">프로젝트 맵</a>
+</footer>
+
+<script>
+  // IAEA 2024 카탈로그 71개 설계 — n:설계명, p:출력표시, pv:정렬용 MWe, t:노형, d:개발사, c:국가, ss:상태, cat:분류, kr:한국관련, u:상세파일
+  const DATA=[
+  // ── PART 1: 경수로(육상) ──
+  {n:"ACP100 (Linglong One)",p:"125",pv:125,t:"PWR",d:"CNNC",c:"CN",ss:"건설중",cat:"pwrL"},
+  {n:"AP300",p:"330",pv:330,t:"PWR",d:"Westinghouse",c:"US",ss:"기본설계",cat:"pwrL",u:"SMR-dev-westinghouse.html"},
+  {n:"BWRX-300",p:"300",pv:300,t:"BWR",d:"GE Hitachi",c:"US·JP",ss:"상세설계",cat:"pwrL",kr:1,u:"SMR-dev-gehitachi.html"},
+  {n:"CALOGENA",p:"열·시험",pv:0,t:"PWR(풀형)",d:"Calogena",c:"FR",ss:"개념설계",cat:"pwrL"},
+  {n:"CAREM",p:"30",pv:30,t:"PWR",d:"CNEA",c:"AR",ss:"건설중",cat:"pwrL"},
+  {n:"HAPPY200",p:"열·시험",pv:0,t:"PWR",d:"SPIC",c:"CN",ss:"상세설계",cat:"pwrL"},
+  {n:"i-SMR",p:"170",pv:170,t:"일체형 PWR",d:"KHNP·KAERI",c:"KR",ss:"개념설계",cat:"pwrL",kr:1,u:"SMR-dev-ismr.html"},
+  {n:"NuScale Power Module",p:"77",pv:77,t:"일체형 PWR",d:"NuScale",c:"US",ss:"상세설계",cat:"pwrL",kr:1,u:"SMR-dev-nuscale.html"},
+  {n:"NUWARD",p:"170",pv:170,t:"PWR",d:"EDF 컨소시엄",c:"FR",ss:"기본설계",cat:"pwrL"},
+  {n:"PWR-20",p:"20",pv:20,t:"PWR",d:"Last Energy",c:"US",ss:"상세설계",cat:"pwrL"},
+  {n:"RITM-200N",p:"55",pv:55,t:"PWR",d:"Afrikantov OKBM",c:"RU",ss:"상세설계",cat:"pwrL"},
+  {n:"SMART / SMART100",p:"110",pv:110,t:"일체형 PWR",d:"KAERI·K.A.CARE",c:"KR·SA",ss:"상세설계",cat:"pwrL",kr:1,u:"SMR-dev-smart.html"},
+  {n:"STAR",p:"10",pv:10,t:"PWR",d:"STAR Energy",c:"CH",ss:"기본설계",cat:"pwrL"},
+  {n:"Rolls-Royce SMR",p:"470",pv:470,t:"3-loop PWR",d:"Rolls-Royce",c:"UK",ss:"상세설계",cat:"pwrL",u:"SMR-dev-rollsroyce.html"},
+  {n:"SMR-300",p:"320",pv:320,t:"PWR",d:"Holtec",c:"US",ss:"개념설계",cat:"pwrL",kr:1,u:"SMR-dev-holtec.html"},
+  // ── PART 2: 경수로(해상·부유식) ──
+  {n:"ABV-6E",p:"9",pv:9,t:"부유식 PWR",d:"Afrikantov OKBM",c:"RU",ss:"상세설계",cat:"pwrM"},
+  {n:"ACP100S",p:"125",pv:125,t:"부유식 PWR",d:"CNNC",c:"CN",ss:"기본설계",cat:"pwrM"},
+  {n:"BANDI-60",p:"60",pv:60,t:"부유식 PWR",d:"KEPCO E&C",c:"KR",ss:"개념설계",cat:"pwrM",kr:1},
+  {n:"KLT-40S",p:"70",pv:70,t:"부유식 PWR",d:"Afrikantov OKBM",c:"RU",ss:"가동중",cat:"pwrM"},
+  {n:"RITM-200M",p:"50",pv:50,t:"부유식 PWR",d:"Afrikantov OKBM",c:"RU",ss:"상세설계",cat:"pwrM"},
+  {n:"VBER-300",p:"325",pv:325,t:"부유식 PWR",d:"Afrikantov OKBM",c:"RU",ss:"상세설계",cat:"pwrM"},
+  // ── PART 3: HTGR ──
+  {n:"EM2 (Energy Multiplier)",p:"265",pv:265,t:"HTGR(고속)",d:"General Atomics",c:"US",ss:"개념설계",cat:"htgr"},
+  {n:"FMR (Fast Modular)",p:"50",pv:50,t:"HTGR(고속)",d:"General Atomics",c:"US",ss:"개념설계",cat:"htgr"},
+  {n:"GTHTR300",p:"300",pv:300,t:"HTGR",d:"JAEA",c:"JP",ss:"기본설계",cat:"htgr"},
+  {n:"GT-MHR",p:"288",pv:288,t:"HTGR",d:"Afrikantov OKBM",c:"RU",ss:"기본설계",cat:"htgr"},
+  {n:"HTGR-POLA",p:"11.5",pv:11.5,t:"HTGR",d:"NCBJ",c:"PL",ss:"기본설계",cat:"htgr"},
+  {n:"HTMR-100",p:"35",pv:35,t:"HTGR",d:"STL Nuclear",c:"ZA",ss:"기본설계",cat:"htgr"},
+  {n:"HTR-10",p:"2.5",pv:2.5,t:"HTGR",d:"Tsinghua INET",c:"CN",ss:"가동중",cat:"htgr"},
+  {n:"HTR50S",p:"17.2",pv:17.2,t:"HTGR",d:"JAEA",c:"JP",ss:"개념설계",cat:"htgr"},
+  {n:"HTR-PM",p:"210",pv:210,t:"HTGR(페블)",d:"Tsinghua INET",c:"CN",ss:"가동중",cat:"htgr"},
+  {n:"HTTR",p:"열·시험",pv:0,t:"HTGR(시험)",d:"JAEA",c:"JP",ss:"가동중",cat:"htgr"},
+  {n:"MHR-100",p:"87",pv:87,t:"HTGR",d:"Afrikantov OKBM",c:"RU",ss:"개념설계",cat:"htgr"},
+  {n:"MHR-T",p:"205.5",pv:205.5,t:"HTGR",d:"Afrikantov OKBM",c:"RU",ss:"개념설계",cat:"htgr"},
+  {n:"PeLUIt-40",p:"10",pv:10,t:"HTGR",d:"BRIN",c:"ID",ss:"개념설계",cat:"htgr"},
+  {n:"Xe-100",p:"82.5",pv:82.5,t:"HTGR(페블)",d:"X-energy",c:"US",ss:"기본설계",cat:"htgr",kr:1,u:"SMR-dev-xenergy.html"},
+  // ── PART 4: 고속로 ──
+  {n:"4S",p:"10",pv:10,t:"소듐냉각(SFR)",d:"Toshiba",c:"JP",ss:"상세설계",cat:"fast"},
+  {n:"ARC-100",p:"100",pv:100,t:"소듐냉각(SFR)",d:"ARC Clean Tech",c:"CA",ss:"개념설계",cat:"fast",u:"SMR-dev-arc.html"},
+  {n:"Blue Capsule",p:"50",pv:50,t:"소듐냉각(SFR)",d:"Blue Capsule",c:"FR",ss:"개념설계",cat:"fast"},
+  {n:"BREST-OD-300",p:"300",pv:300,t:"납냉각(LFR)",d:"NIKIET",c:"RU",ss:"건설중",cat:"fast"},
+  {n:"HEXANA",p:"150",pv:150,t:"소듐냉각(SFR)",d:"Hexana",c:"FR",ss:"개념설계",cat:"fast"},
+  {n:"LFR-AS-200",p:"200",pv:200,t:"납냉각(LFR)",d:"newcleo",c:"IT·FR",ss:"개념설계",cat:"fast"},
+  {n:"OTRERA 300",p:"110",pv:110,t:"소듐냉각(SFR)",d:"Otrera",c:"FR",ss:"개념설계",cat:"fast"},
+  {n:"SEALER-55",p:"55",pv:55,t:"납냉각(LFR)",d:"Blykalla",c:"SE",ss:"개념설계",cat:"fast"},
+  {n:"SVBR-100",p:"100",pv:100,t:"납비스무트(LBE)",d:"AKME",c:"RU",ss:"상세설계",cat:"fast"},
+  {n:"Natrium",p:"345",pv:345,t:"소듐+용융염저장",d:"TerraPower",c:"US",ss:"개념설계",cat:"fast",kr:1,u:"SMR-dev-terrapower.html"},
+  // ── PART 5: MSR ──
+  {n:"Copenhagen Atomics WB",p:"열·시험",pv:0,t:"MSR(폐기물소각)",d:"Copenhagen Atomics",c:"DK",ss:"상세설계",cat:"msr"},
+  {n:"CMSR",p:"110",pv:110,t:"MSR",d:"Seaborg(Saltfoss)",c:"DK",ss:"개념설계",cat:"msr",kr:1,u:"SMR-dev-seaborg.html"},
+  {n:"FLEX Reactor",p:"24",pv:24,t:"MSR",d:"MoltexFLEX",c:"UK",ss:"개념설계",cat:"msr"},
+  {n:"FUJI",p:"200",pv:200,t:"MSR(토륨)",d:"Int'l Thorium MSF",c:"JP",ss:"기본설계",cat:"msr"},
+  {n:"IMSR400",p:"195",pv:195,t:"MSR",d:"Terrestrial Energy",c:"CA·US",ss:"개념설계",cat:"msr"},
+  {n:"KP-FHR (Hermes)",p:"140",pv:140,t:"FHR(염·페블)",d:"Kairos Power",c:"US",ss:"개념설계",cat:"msr",u:"SMR-dev-kairos.html"},
+  {n:"LFTR",p:"열·시험",pv:0,t:"MSR(토륨)",d:"Flibe Energy",c:"US",ss:"개념설계",cat:"msr"},
+  {n:"Stable Salt Reactor-WB",p:"300",pv:300,t:"MSR(폐기물)",d:"Moltex Energy",c:"UK·CA",ss:"개념설계",cat:"msr"},
+  {n:"Stellarium",p:"110",pv:110,t:"MSR(고속)",d:"Stellaria",c:"FR",ss:"개념설계",cat:"msr"},
+  {n:"ThorCon",p:"250",pv:250,t:"MSR(토륨)",d:"ThorCon",c:"US·ID",ss:"기본설계",cat:"msr"},
+  {n:"THORIZON One",p:"100",pv:100,t:"MSR",d:"Thorizon",c:"NL·FR",ss:"개념설계",cat:"msr"},
+  {n:"XAMR",p:"40",pv:40,t:"MSR(마이크로)",d:"NAAREA",c:"FR",ss:"개념설계",cat:"msr"},
+  // ── PART 6: 마이크로 ──
+  {n:"AMR (Advanced Micro)",p:"3",pv:3,t:"HTGR(마이크로)",d:"STL Nuclear",c:"ZA",ss:"개념설계",cat:"micro"},
+  {n:"Aurora Powerhouse",p:"1.5",pv:1.5,t:"소듐냉각(SFR)",d:"Oklo",c:"US",ss:"개념설계",cat:"micro",u:"SMR-dev-oklo.html"},
+  {n:"ELENA",p:"0.068",pv:0.068,t:"PWR(마이크로)",d:"Kurchatov Inst.",c:"RU",ss:"개념설계",cat:"micro"},
+  {n:"Energy Well",p:"열·시험",pv:0,t:"불소염(FHR)",d:"Centrum Řež",c:"CZ",ss:"개념설계",cat:"micro"},
+  {n:"eVinci",p:"5",pv:5,t:"히트파이프",d:"Westinghouse",c:"US",ss:"개념설계",cat:"micro",u:"SMR-dev-westinghouse.html"},
+  {n:"HOLOS-QUAD",p:"10",pv:10,t:"HTGR(마이크로)",d:"HolosGen",c:"US",ss:"개념설계",cat:"micro"},
+  {n:"HOLOS-MONO",p:"~3",pv:3,t:"HTGR(마이크로)",d:"HolosGen",c:"US",ss:"개발중",cat:"micro"},
+  {n:"JIMMY",p:"열·시험",pv:0,t:"열공급(마이크로)",d:"Jimmy Energy",c:"FR",ss:"상세설계",cat:"micro"},
+  {n:"MARVEL",p:"0.1",pv:0.1,t:"마이크로(시험)",d:"INL",c:"US",ss:"상세설계",cat:"micro"},
+  {n:"MMR",p:"5",pv:5,t:"HTGR(마이크로)",d:"USNC",c:"US",ss:"상세설계",cat:"micro"},
+  {n:"MoveluX",p:"~3",pv:3,t:"히트파이프",d:"Toshiba",c:"JP",ss:"상세설계",cat:"micro"},
+  {n:"Pylon D1",p:"~1",pv:1,t:"마이크로",d:"USNC",c:"US",ss:"건설중",cat:"micro"},
+  {n:"SHELF-M",p:"6",pv:6,t:"납비스무트(LBE)",d:"NIKIET",c:"RU",ss:"기본설계",cat:"micro"},
+  {n:"UNITHERM",p:"2.5",pv:2.5,t:"PWR(마이크로)",d:"NIKIET",c:"RU",ss:"개념설계",cat:"micro"}
+  ];
+
+  const STG={"가동중":5,"건설중":4,"상세설계":3,"기본설계":2,"개념설계":1,"개발중":1};
+  const body=document.getElementById('catBody');
+  const none=document.getElementById('catNone');
+  const search=document.getElementById('catSearch');
+  const chips=Array.from(document.querySelectorAll('#catChips .chip'));
+  let activeCat='all', sortK='cat', sortDir=1;
+
+  // counts
+  function setCounts(){
+    document.getElementById('c-all').textContent=DATA.length;
+    ['pwrL','pwrM','htgr','fast','msr','micro'].forEach(k=>{document.getElementById('c-'+k).textContent=DATA.filter(d=>d.cat===k).length;});
+    document.getElementById('c-kr').textContent=DATA.filter(d=>d.kr).length;
+  }
+  setCounts();
+
+  const CATORDER={pwrL:1,pwrM:2,htgr:3,fast:4,msr:5,micro:6};
+  function rowsSorted(){
+    let arr=DATA.slice();
+    arr.sort((a,b)=>{
+      let va,vb;
+      if(sortK==='cat'){va=CATORDER[a.cat]*1000+a.n.toLowerCase().charCodeAt(0);vb=CATORDER[b.cat]*1000+b.n.toLowerCase().charCodeAt(0);}
+      else if(sortK==='pv'){va=a.pv;vb=b.pv;}
+      else if(sortK==='ss'){va=STG[a.ss]||0;vb=STG[b.ss]||0;}
+      else{va=(a[sortK]||'').toString().toLowerCase();vb=(b[sortK]||'').toString().toLowerCase();}
+      if(va<vb)return -1*sortDir; if(va>vb)return 1*sortDir; return 0;
+    });
+    return arr;
+  }
+  function render(){
+    const term=search.value.trim().toLowerCase();
+    const arr=rowsSorted();
+    let html='',vis=0;
+    arr.forEach(d=>{
+      const matchCat = activeCat==='all' || (activeCat==='kr'?d.kr:d.cat===activeCat);
+      const matchText = !term || (d.n+' '+d.d+' '+d.c+' '+d.t).toLowerCase().includes(term);
+      if(!(matchCat&&matchText))return;
+      vis++;
+      const nm = d.u ? '<a href="'+d.u+'">'+d.n+'</a><span class="star">★</span>' : d.n;
+      const det = d.u ? '<a class="det" href="'+d.u+'">상세 →</a>' : '<span style="color:var(--text-faint);font-size:11px;">—</span>';
+      const stg = STG[d.ss]||1;
+      html+='<tr class="'+(d.kr?'kr-row':'')+'">'
+        +'<td class="nm">'+nm+'</td>'
+        +'<td class="mwe">'+(d.pv>0?d.p+' <small>MWe</small>':'<small>'+d.p+'</small>')+'</td>'
+        +'<td class="ty">'+d.t+'</td>'
+        +'<td>'+d.d+'</td>'
+        +'<td><span class="cc2">'+d.c+'</span></td>'
+        +'<td><span class="stg s'+stg+'">'+d.ss+'</span></td>'
+        +'<td>'+det+'</td></tr>';
+    });
+    body.innerHTML=html;
+    none.style.display=vis?'none':'block';
+    // arrows
+    document.querySelectorAll('.ar').forEach(a=>a.textContent='');
+    const ar=document.getElementById('ar-'+sortK); if(ar)ar.textContent=sortDir>0?'▲':'▼';
+  }
+  chips.forEach(c=>c.addEventListener('click',()=>{chips.forEach(x=>x.classList.remove('active'));c.classList.add('active');activeCat=c.dataset.cat;render();}));
+  search.addEventListener('input',render);
+  document.querySelectorAll('table.cat thead th[data-k]').forEach(th=>{
+    th.addEventListener('click',()=>{const k=th.dataset.k; if(sortK===k){sortDir*=-1;}else{sortK=k;sortDir=(k==='pv'||k==='ss')?-1:1;} render();});
+  });
+  render();
+</script>
+<script src="feedback.js" defer></script>
+</body>
+</html>
