@@ -217,6 +217,34 @@ window.SMR_NEWS = [
     "id": "5bc776fe"
   },
   {
+    "date": "2026-06-22",
+    "title": "경남, 11월 SMR 국제 콘퍼런스 개최",
+    "summary": "원전 중심지 경남에서 소형모듈원자로(SMR) 분야의 국제 콘퍼런스를 11월에 개최할 예정이다.",
+    "summaryLong": "경남은 원자력 산업의 국내 중심지로서 소형모듈원자로(SMR) 분야의 국제 콘퍼런스를 11월에 개최한다. 이 행사는 SMR 글로벌 공급망 선점을 목표로 추진되는 경남의 전략적 정책 사업이다. 경남도, 한국원자력산업협회, 경남테크노파크가 협력해 국제 수준의 콘퍼런스 성공 개최를 위해 협약을 체결했다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260622110702910",
+    "k": "원전 중심지 경남에서 smr 국제 콘퍼런스 11월 개최",
+    "id": "0e2d1f35"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "한국해양대, 해양 SMR 추진단 출범",
+    "summary": "한국해양대학교가 해양 소형모듈원자로(SMR) 추진단을 출범하고 인재양성에 나선다.",
+    "summaryLong": "한국해양대학교가 해양 소형모듈원자로(SMR) 추진단을 출범했다. 해양 SMR 기술 개발과 인재양성을 본격적으로 추진하기 위한 조직 구성이며, 해양 환경에 특화된 SMR 기술 개발 및 전문 인력 양성 프로그램을 시작하는 의미 있는 단계다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한국해양대",
+    "region": "KR",
+    "source": "biz.heraldcorp.com",
+    "url": "https://biz.heraldcorp.com/article/10783543",
+    "k": "한국해양대 해양 smr 추진단 출범 인재양성 등 본격 착수",
+    "id": "75f8b02b"
+  },
+  {
     "date": "2026-06-21",
     "title": "센트러스 에너지(Centrus Energy), 오클로(Oklo)의 HALEU 계약 체결로 주가 저평가 가능성",
     "summary": "센트러스 에너지(Centrus Energy)가 오클로(Oklo)와 HALEU(고농축우라늄) 공급 계약을 체결하면서 주가 저평가 논의가 제기되고 있다.",
@@ -383,6 +411,20 @@ window.SMR_NEWS = [
     "url": "https://www.kbsm.net/news/view.php?idx=523815",
     "k": "이채수의 데스크칼럼 smr 고배 마신 경주 원전 중심도시의 미래는 어디에 있는가",
     "id": "7814de8e"
+  },
+  {
+    "date": "2026-06-21",
+    "title": "경주 SMR 유치 무산, 반전 기회 모색",
+    "summary": "경주의 소형모듈원자로(SMR) 유치 계획이 무산되면서 지역의 대응 방안을 논의 중이다.",
+    "summaryLong": "경주시의 소형모듈원자로(SMR) 유치 계획이 무산됨에 따라 지역 경제 및 산업 정책에 변화가 예상된다. 경주는 원전 밀집지로서 SMR 유치를 통한 지역경제 활성화를 기대했으나 유치전에서 탈락하면서 새로운 발전 전략 모색이 필요한 상황이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "kbmaeil.com",
+    "url": "https://www.kbmaeil.com/article/20260621500436",
+    "k": "경주 smr 유치 무산 반전 기회 잡아야",
+    "id": "dbe6758e"
   },
   {
     "date": "2026-06-20",
@@ -2553,6 +2595,20 @@ window.SMR_NEWS = [
     "url": "https://www.kaif.or.kr/ko/?c=250&s=&gp=1&gbn=view&ix=29924",
     "k": "대형원전 후보 부지에 경북 영덕군 smr 후보 부지는 기장군 확정",
     "id": "bdea8614"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "정부, 대형원전·소형모듈원자로 부지 선정 발표",
+    "summary": "한국 정부가 대형원전과 소형모듈원자로(SMR) 부지 선정을 발표하면서 경상북도 영덕군과 경주시가 희비를 함께했다.",
+    "summaryLong": "한국 정부의 원전 부지 선정 발표와 관련해 경상북도 영덕군과 경주시의 반응이 엇갈렸다. 이는 대형원전과 소형모듈원자로(SMR) 부지 배치 결정이 지역에 미치는 영향을 반영한 것으로 보인다. 선정된 부지는 향후 원전 건설 및 운영의 중요한 기반이 될 것이며, 관련 지역의 경제 발전과 에너지 정책 추진에 직접적인 영향을 미칠 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260618102433688",
+    "k": "정부 대형원전 소형원자로 부지 선정 발표 놓고 경북 영덕군 경주시 희비 교차",
+    "id": "72f8aa32"
   },
   {
     "date": "2026-06-17",
@@ -5742,6 +5798,20 @@ window.SMR_NEWS = [
     "url": "https://www.kaif.or.kr/ko/?c=250&s=&gp=1&gbn=view&ix=29895",
     "k": "초소형원자로 mmr 한미 우주협력 새 카드 되나",
     "id": "2b70885b"
+  },
+  {
+    "date": "2026-06-04",
+    "title": "테라파워(TerraPower) CEO, SK투자가 선견지명이었다고 평가",
+    "summary": "테라파워(TerraPower)의 CEO가 소형모듈원자로(SMR) 분야에 대한 SK의 투자가 선견지명이었다고 언급했다.",
+    "summaryLong": "테라파워(TerraPower)의 최고경영자(CEO)가 소형모듈원자로(SMR) 개발에 대한 SK의 투자가 선견지명이었다고 평가했다. 이는 테라파워가 진행 중인 SMR 개발 사업과 관련해 SK가 얼마나 전략적으로 투자했는지를 보여주는 긍정적 평가다. 테라파워는 빌 게이츠가 창립한 차세대 원자로 기업으로, 첨단 핵연료와 혁신적 냉각 기술을 바탕으로 SMR 개발을 추진하고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "upi.com",
+    "url": "https://www.upi.com/Top_News/World-News/2026/06/04/terrapower-smr-ai-chips-data-centers/5891780613663/",
+    "k": "terrapower ceo says sk investment in smrs was prescient",
+    "id": "0c877443"
   },
   {
     "date": "2026-06-03",
@@ -8968,4 +9038,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-22 18:54 KST";
+window.SMR_UPDATED = "2026-06-22 19:30 KST";
