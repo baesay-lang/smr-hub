@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Westinghouse / AP300 · eVinci 상세 — 사양·공급망·고객·뉴스</title>
+<meta name="description" content="Westinghouse AP300(AP1000 기반 1-loop PWR, 300MWe)·eVinci(히트파이프 마이크로로) 기술 사양·부품 공급망·고객·파트너십·뉴스 상세. UK GDA·Community Nuclear Power 4기 정리.">
+<link rel="canonical" href="https://baesay-lang.github.io/smr-hub/SMR-dev-westinghouse.html">
+<meta name="theme-color" content="#2563eb">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SMR HUB">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="Westinghouse / AP300 · eVinci 상세 · SMR HUB">
+<meta property="og:description" content="Westinghouse AP300(AP1000 기반 PWR)·eVinci(마이크로로) 기술 사양·공급망·고객·파트너십·뉴스.">
+<meta property="og:url" content="https://baesay-lang.github.io/smr-hub/SMR-dev-westinghouse.html">
+<meta property="og:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Westinghouse / AP300 · eVinci 상세 · SMR HUB">
+<meta name="twitter:description" content="Westinghouse AP300·eVinci 기술 사양·공급망·고객·파트너십·뉴스 상세.">
+<meta name="twitter:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
+<link rel="stylesheet" href="styles.css?v=3">
+<script>(function(){try{var t=localStorage.getItem('smrhub-theme');if(t==='dark'||(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();</script>
+<script src="ui.js" defer></script>
+<style>
+  .breadcrumb .sep{color:var(--text-faint);}
+  .h-top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;}
+  h1{font-size:23px;margin:6px 0 2px;}
+  .type-tag{font-size:12px;font-weight:700;padding:3px 10px;border-radius:4px;background:var(--surface-3);color:var(--text-dim);}
+  .pub-tag{font-size:12px;font-weight:700;padding:3px 10px;border-radius:4px;background:var(--accent-weak);color:var(--accent-strong);}
+  .updated{font-size:12px;color:var(--text-faint);margin-top:6px;font-variant-numeric:tabular-nums;}
+
+  /* reactor hero figure (재사용: 노형별 SVG 모형) */
+  .reactor-hero{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap;}
+  .rh-text{flex:1 1 320px;min-width:270px;}
+  .reactor-figure{flex:0 0 auto;margin:0;width:158px;max-width:100%;}
+  .reactor-figure svg{display:block;width:100%;height:auto;}
+  .reactor-figure figcaption{font-size:11px;color:var(--text-faint);text-align:center;margin-top:2px;letter-spacing:.02em;}
+  @media(max-width:600px){.reactor-figure{margin:6px auto 0;}}
+
+  section{margin-top:30px;scroll-margin-top:56px;}
+  .sec-head{font-size:17px;font-weight:700;color:var(--text);margin:0 0 4px;}
+  .sec-head .no{color:var(--accent);margin-right:6px;}
+  .sec-sub{color:var(--text-dim);font-size:13px;margin:0 0 14px;}
+
+  .jump{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 6px;}
+  .jump a{font-size:13px;font-weight:600;background:var(--surface);border:1px solid var(--border);padding:6px 13px;border-radius:20px;color:var(--text-dim);}
+  .jump a:hover{border-color:var(--accent);color:var(--accent-strong);text-decoration:none;}
+
+  .specs{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1px;background:var(--border);
+    border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;}
+  .spec{background:var(--surface-2);padding:11px 14px;}
+  .spec .lab{font-size:11px;color:var(--accent);font-weight:700;display:block;margin-bottom:2px;}
+  .spec .val{font-size:14px;color:var(--text);}
+  .spec .val small{color:var(--text-dim);font-size:12px;}
+  .tech-note{background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--accent);
+    border-radius:var(--radius-sm);padding:12px 16px;margin-top:12px;font-size:13.5px;color:var(--text-dim);}
+  .tech-note b{color:var(--text);}
+  .evinci{background:var(--surface);border:1px solid var(--border-strong);border-radius:var(--radius);padding:14px 16px;margin-top:14px;}
+  .evinci h3{font-size:14px;margin:0 0 4px;color:var(--text);}
+  .evinci .mini{display:flex;gap:18px;flex-wrap:wrap;margin-top:8px;font-size:13px;color:var(--text-dim);}
+  .evinci .mini b{color:var(--text);}
+
+  table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:640px;}
+  th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--border);vertical-align:top;}
+  th{background:var(--surface-2);font-weight:700;font-size:12px;color:var(--text-dim);white-space:nowrap;}
+  tr:last-child td{border-bottom:none;}
+  tbody tr:hover{background:var(--surface-2);}
+  td b{color:var(--text);}
+  .badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:4px;white-space:nowrap;background:var(--surface-3);color:var(--text-dim);}
+  .st-ok,.st-prog{color:var(--accent-strong);font-weight:700;}
+  .st-plan{color:var(--text-faint);font-weight:700;}
+  .st-stop{color:var(--alert);font-weight:700;}
+
+  .mou{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:13px 16px;margin-bottom:10px;box-shadow:var(--shadow);}
+  .mou-top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:3px;}
+  .mou-date{font-size:12px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;}
+  .mou-party{font-weight:700;font-size:15px;color:var(--text);}
+  .mou-body{font-size:13.5px;color:var(--text-dim);}
+  .mou-body b{color:var(--text);}
+
+  .diagram-wrap{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:12px;overflow-x:auto;margin-bottom:10px;}
+  .diagram-wrap svg{display:block;min-width:720px;height:auto;}
+  .sub-h{font-size:14px;font-weight:700;color:var(--text);margin:20px 0 8px;}
+  .sub-h .pin{font-size:12px;font-weight:800;color:var(--accent);margin-right:6px;}
+  .cochip{display:inline-block;font-size:12px;font-weight:700;padding:3px 9px;border-radius:5px;cursor:pointer;
+    border:1px solid var(--border-strong);background:var(--surface);color:var(--text);margin:2px 4px 2px 0;}
+  .cochip:hover{border-color:var(--accent);color:var(--accent-strong);}
+  .cochip.active{background:var(--accent-weak);border-color:var(--accent);color:var(--accent-strong);}
+  .cochip .ccx{font-size:10px;color:var(--text-faint);font-weight:700;margin-left:3px;}
+  .co-detail{background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:13px 15px;margin-top:8px;font-size:13.5px;color:var(--text-dim);}
+  .co-detail .nm{font-weight:700;color:var(--text);font-size:15px;}
+  .co-detail .role{color:var(--accent-strong);font-size:12px;font-weight:700;margin:1px 0 6px;}
+  .co-detail .lnk{margin-top:8px;font-size:13px;}
+  .co-detail.empty{font-style:italic;color:var(--text-faint);}
+  .co-detail b{color:var(--text);}
+  .num{font-weight:700;color:var(--text);font-variant-numeric:tabular-nums;}
+
+  .news-controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px;}
+  #newsSearch{flex:1;min-width:200px;}
+  .tagchips{display:flex;gap:6px;flex-wrap:wrap;}
+
+  .feed{position:relative;padding-left:22px;}
+  .feed::before{content:"";position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:var(--border);}
+  .item{position:relative;margin-bottom:16px;}
+  .item::before{content:"";position:absolute;left:-22px;top:5px;width:11px;height:11px;border-radius:50%;background:var(--accent);border:2px solid var(--bg);}
+  .item-date{font-size:12px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;}
+  .item-title{font-weight:700;font-size:15px;margin:1px 0 3px;color:var(--text);}
+  .item-body{font-size:13.5px;color:var(--text-dim);}
+  .item-body b{color:var(--text);}
+  .item-tags{margin-top:5px;display:flex;gap:5px;flex-wrap:wrap;}
+  .tg{font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:4px;background:var(--surface-2);color:var(--text-dim);border:1px solid var(--border);}
+  .item-src{font-size:11.5px;margin-top:3px;}
+  .news-hidden{display:none;}
+  .news-tip{background:var(--surface-2);border:1px dashed var(--border-strong);border-radius:var(--radius-sm);padding:10px 14px;font-size:12.5px;color:var(--text-dim);margin-bottom:16px;}
+  .news-tip code{background:var(--surface-3);padding:1px 5px;border-radius:4px;color:var(--accent-strong);font-size:11.5px;}
+
+  .src{font-size:11.5px;color:var(--text-faint);}
+  .src a{color:var(--text-dim);}
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a class="brand" href="index.html">SMR HUB</a>
+  <a href="SMR-news.html">뉴스</a>
+  <a href="SMR-developers.html">개발사</a>
+  <a href="SMR-licensing-tracks.html">인허가 트랙</a>
+  <a href="SMR-reactor-types.html">노형 분류</a>
+  <a href="SMR-reference.html">CFR 레퍼런스</a>
+  <a href="SMR-asia-structure.html">사업 구조</a>
+  <a href="SMR-korea-players.html">한국 기업</a>
+  <a href="SMR-map.html">프로젝트 맵</a>
+</nav>
+
+<div class="breadcrumb"><a href="SMR-developers.html">개발사</a> <span class="sep">›</span> <a href="SMR-developers.html#westinghouse">Westinghouse</a> <span class="sep">›</span> 상세</div>
+
+<header class="page reactor-hero">
+  <div class="rh-text">
+    <div class="h-top">
+      <h1>Westinghouse / AP300 · eVinci</h1>
+      <span class="type-tag">경수로 · PWR(AP300) + 마이크로로(eVinci)</span>
+      <span class="pub-tag">비상장 · Brookfield·Cameco</span>
+    </div>
+    <p class="subtitle"><b>AP300</b> = 검증된 <b>AP1000 기반 1-loop PWR</b>(300MWe급, 피동안전). <b>eVinci</b> = 히트파이프 마이크로로(5MWe). 英 GDA 진입·<b>Community Nuclear Power 4기</b> 선정, 유럽 데이터센터 협의.</p>
+    <div class="updated">최종 업데이트 2026-06-17 · AP300 UK GDA(2024-08)·NRC 설계인증 목표 2027 · eVinci INL DOME 시험 준비(2026)</div>
+  </div>
+
+  <!-- ===== 노형 모형(재사용 패턴): 회색 음영 3D 모델. AP300 = AP1000 계열 피동 격납건물(원통+돔, 상부 냉각수탱크). ===== -->
+  <figure class="reactor-figure">
+    <svg viewBox="0 0 156 168" xmlns="http://www.w3.org/2000/svg"
+         role="img" aria-label="Westinghouse AP300 모형: 원통형 피동 격납건물과 돔 지붕, 상부에 피동격납냉각용 냉각수 탱크">
+      <title>Westinghouse AP300 피동 격납건물 모형</title>
+      <defs>
+        <linearGradient id="wsCylV" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#99a2ac"/><stop offset="0.12" stop-color="#c2c9d1"/><stop offset="0.30" stop-color="#e9ecef"/>
+          <stop offset="0.48" stop-color="#ffffff"/><stop offset="0.64" stop-color="#eceef1"/><stop offset="0.80" stop-color="#c6ccd3"/><stop offset="1" stop-color="#959fa9"/>
+        </linearGradient>
+        <linearGradient id="wsDome" x1="0" y1="0" x2="0.5" y2="1">
+          <stop offset="0" stop-color="#f6f7f9"/><stop offset="0.6" stop-color="#dfe4ea"/><stop offset="1" stop-color="#b8c0c9"/>
+        </linearGradient>
+        <linearGradient id="wsTank" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#aeb8c4"/><stop offset="0.5" stop-color="#dfe6ee"/><stop offset="1" stop-color="#9aa3ad"/>
+        </linearGradient>
+        <style>
+          .ws-body{stroke:var(--border-strong);stroke-width:.8}
+          .ws-capb{fill:#aab2bc;stroke:var(--border-strong);stroke-width:.7}
+          .ws-rib{stroke:#aab2bc;stroke-width:.7;fill:none}
+          .ws-shadow{fill:var(--border-strong);opacity:.5}
+        </style>
+      </defs>
+
+      <!-- 바닥 그림자 -->
+      <ellipse class="ws-shadow" cx="78" cy="160" rx="64" ry="5"/>
+
+      <!-- 상부 피동격납 냉각수 탱크 -->
+      <ellipse class="ws-body" cx="78" cy="20" rx="13" ry="4" fill="url(#wsTank)"/>
+      <rect class="ws-body" x="65" y="20" width="26" height="12" fill="url(#wsTank)"/>
+      <ellipse class="ws-body" cx="78" cy="32" rx="13" ry="3.5" fill="#c6ccd3"/>
+
+      <!-- 돔 지붕 -->
+      <path class="ws-body" d="M30 70 A48 52 0 0 1 126 70 Z" fill="url(#wsDome)"/>
+      <!-- 원통 격납건물 -->
+      <rect class="ws-body" x="30" y="70" width="96" height="78" fill="url(#wsCylV)"/>
+      <ellipse class="ws-capb" cx="78" cy="148" rx="48" ry="8"/>
+      <!-- 외벽 띠 -->
+      <g class="ws-rib"><line x1="34" y1="96" x2="122" y2="96"/><line x1="34" y1="122" x2="122" y2="122"/></g>
+    </svg>
+    <figcaption>Westinghouse AP300 (피동 격납건물 · 상부 냉각수탱크)</figcaption>
+  </figure>
+</header>
+
+<main>
+  <div class="jump">
+    <a href="#tech">① 기술 사양</a>
+    <a href="#supply">② 부품 공급망</a>
+    <a href="#offtaker">③ Off-taker</a>
+    <a href="#mou">④ 파트너십·이정표</a>
+    <a href="#news">⑤ 관련 뉴스</a>
+  </div>
+
+  <!-- ===================== 기술 사양 ===================== -->
+  <section id="tech">
+    <h2 class="sec-head"><span class="no">①</span>기술 사양 — AP300</h2>
+    <p class="sec-sub">AP1000 기반 1-loop 가압경수로(PWR) · 990MWth / 330MWe · 피동안전(AP1000) · 검증된 운전·인허가 기술</p>
+    <div class="specs">
+      <div class="spec"><span class="lab">노형</span><span class="val">가압경수로(PWR)<small> 1-loop · AP1000 기반 Gen III+</small></span></div>
+      <div class="spec"><span class="lab">출력</span><span class="val">330 MWe<small> / 990 MWth (300MWe급)</small></span></div>
+      <div class="spec"><span class="lab">증기발생기</span><span class="val">1기<small> + 가압기 · 캔드 RCP 2대</small></span></div>
+      <div class="spec"><span class="lab">1차 순환</span><span class="val">강제(RCP 2대)<small> 안전계통은 피동(중력·자연순환)</small></span></div>
+      <div class="spec"><span class="lab">운전 압력</span><span class="val">15.4 / 7.35 MPa<small> 1차 / 2차</small></span></div>
+      <div class="spec"><span class="lab">냉각재 온도</span><span class="val">302 / 325 °C<small> 입구 / 출구</small></span></div>
+      <div class="spec"><span class="lab">연료</span><span class="val">UO₂ 펠릿<small> 17×17, 농축도 &lt;5wt%</small></span></div>
+      <div class="spec"><span class="lab">노심</span><span class="val">연료집합체 121<small> 제어봉 + 붕소</small></span></div>
+      <div class="spec"><span class="lab">연소도</span><span class="val">36 GWd/tU<small> (최대 48)</small></span></div>
+      <div class="spec"><span class="lab">설계수명 · 내진</span><span class="val">80년<small> · SSE 0.3 g (PGA)</small></span></div>
+      <div class="spec"><span class="lab">원자로용기(RPV)</span><span class="val">높이 11m · ⌀4m<small> 무게 275톤</small></span></div>
+      <div class="spec"><span class="lab">부지면적</span><span class="val">약 8,300 m²<small> 파워블록</small></span></div>
+      <div class="spec"><span class="lab">안전</span><span class="val">피동(AP1000)<small> AC전원·펌프 없이 작동</small></span></div>
+      <div class="spec"><span class="lab">용도</span><span class="val">전력 · 데이터센터 · 열·수소</span></div>
+    </div>
+    <div class="tech-note">
+      <b>핵심 차별점:</b> ① <b>검증된 AP1000 기술 축소</b> — 미국·영국·중국 규제승인 + 다수 운전 중인 <b>AP1000</b>의 부품·기술·인허가 기반을 1-loop 300MWe로 축소(<b>유일하게 실가동 첨단 PWR 기반</b> SMR) → FOAK 위험·인허가 불확실성↓ · ② <b>피동안전</b> — 중력·자연순환·압력만으로 안전기능 수행, <b>AC전원·펌프·디젤 없이</b> 작동(AP1000 PXS) · ③ <b>설계수명 80년</b> · ④ <b>2-제품 전략</b> — 대형 SMR(AP300)과 마이크로로(eVinci)로 시장 양분.
+      자세한 노형 비교는 <a href="SMR-reactor-types.html#pwr">노형 분류 › PWR</a> 참고.
+    </div>
+
+    <div class="evinci">
+      <h3>＋ eVinci 마이크로로 (별도 제품)</h3>
+      <p style="margin:2px 0 0;font-size:13px;color:var(--text-dim);"><b>히트파이프 냉각 마이크로 원자로</b> — 펌프 없이 수백 개 히트파이프(FeCrAl 합금)로 노심 열을 피동 전달. 공장제작·운반형, 오프그리드(원격지·광산·군·데이터센터)용.</p>
+      <div class="mini">
+        <span><b>출력</b> 최대 5 MWe / ~15 MWth</span>
+        <span><b>연료</b> TRISO, HALEU 19.75%</span>
+        <span><b>노심수명</b> 8년+ 무재장전</span>
+        <span><b>냉각</b> 히트파이프(피동)</span>
+        <span><b>실증</b> INL DOME 시험로(3MWth), 2026 시험 · 상업 2029</span>
+      </div>
+    </div>
+    <p class="src" style="margin:10px 0 0;">＊ 사양 교차검증: <b>IAEA <i>Advances in SMR Technology Developments 2024</i></b> 카탈로그(AP-300, eVinci). AP300 990MWth/330MWe·15.4/7.35MPa·302/325°C·121집합체·RPV 11m×⌀4m·275톤·80년 / eVinci 히트파이프·5MWe·TRISO 19.75% 등 일치.</p>
+  </section>
+
+  <!-- ===================== 부품 공급망 ===================== -->
+  <section id="supply">
+    <h2 class="sec-head"><span class="no">②</span>주요 부품·연료 공급망</h2>
+    <p class="sec-sub">AP1000 검증 공급망을 계승 — Westinghouse가 NSSS·연료를 자체 제작, AP1000 부품 실적(두산 등 글로벌 제작 경험)을 활용</p>
+
+    <div class="sub-h"><span class="pin">②-A</span>AP300 1-loop 구성 — 도해</div>
+    <!-- DIAGRAM CONVENTION (reuse): viewBox 0 0 900 440. 1-loop PWR + 피동격납.
+         Vessels = rounded rect fill accent-weak stroke accent. Components ①..⑥ map to supply table. -->
+    <div class="diagram-wrap">
+      <svg viewBox="0 0 900 440" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, sans-serif" aria-label="AP300 1-loop PWR schematic">
+        <defs>
+          <marker id="m-acc" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker>
+          <marker id="m-gray" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#9aa7b4"/></marker>
+        </defs>
+
+        <!-- islands -->
+        <rect x="24" y="56" width="470" height="352" rx="12" fill="none" stroke="#d2d7e0" stroke-dasharray="6 5"/>
+        <text x="40" y="46" fill="#8b93a2" font-size="11" font-weight="700" letter-spacing="1.4">NUCLEAR ISLAND (NI) · 피동격납</text>
+        <rect x="526" y="56" width="350" height="352" rx="12" fill="none" stroke="#d2d7e0" stroke-dasharray="6 5"/>
+        <text x="542" y="46" fill="#8b93a2" font-size="11" font-weight="700" letter-spacing="1.4">CONVENTIONAL ISLAND (CI)</text>
+
+        <!-- RPV ① + core ② -->
+        <rect x="96" y="150" width="92" height="196" rx="20" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="142" y="368" fill="#1d4ed8" font-size="11.5" font-weight="700" text-anchor="middle">원자로용기(RPV) ①</text>
+        <rect x="118" y="300" width="48" height="34" rx="3" fill="#e3ecff" stroke="#2563eb"/>
+        <g stroke="#9aa7b4" stroke-width="1.4"><line x1="126" y1="304" x2="126" y2="330"/><line x1="134" y1="304" x2="134" y2="330"/><line x1="142" y1="304" x2="142" y2="330"/><line x1="150" y1="304" x2="150" y2="330"/><line x1="158" y1="304" x2="158" y2="330"/></g>
+        <text x="84" y="320" fill="#1d4ed8" font-size="10.5" font-weight="700" text-anchor="end">Core ②</text>
+        <line x1="88" y1="316" x2="116" y2="316" stroke="#c0c7d1"/>
+        <!-- pressurizer ④ -->
+        <rect x="118" y="116" width="22" height="34" rx="5" fill="#e3ecff" stroke="#2563eb"/>
+        <text x="142" y="110" fill="#1d4ed8" font-size="10" font-weight="700" text-anchor="middle">가압기 ④</text>
+
+        <!-- SG ③ (1기) -->
+        <rect x="300" y="158" width="64" height="184" rx="26" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <g fill="none" stroke="#9aa7b4" stroke-width="1.6"><ellipse cx="332" cy="190" rx="22" ry="6"/><ellipse cx="332" cy="210" rx="22" ry="6"/><ellipse cx="332" cy="230" rx="22" ry="6"/><ellipse cx="332" cy="250" rx="22" ry="6"/><ellipse cx="332" cy="270" rx="22" ry="6"/></g>
+        <text x="332" y="356" fill="#1d4ed8" font-size="10.5" font-weight="700" text-anchor="middle">증기발생기(1기) ③</text>
+
+        <!-- hot leg RPV→SG, RCP ⑤, cold leg back -->
+        <line x1="188" y1="196" x2="300" y2="196" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
+        <text x="244" y="188" fill="#8b93a2" font-size="9" text-anchor="middle">고온수 →</text>
+        <circle cx="244" cy="276" r="15" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="244" y="280" fill="#1d4ed8" font-size="8.5" font-weight="700" text-anchor="middle">RCP⑤</text>
+        <polyline points="300,276 259,276" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
+        <polyline points="229,276 188,276" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
+        <text x="244" y="300" fill="#8b93a2" font-size="9" text-anchor="middle">← 저온수 (캔드 ×2)</text>
+
+        <!-- steam → turbine ⑥ -->
+        <line x1="364" y1="180" x2="648" y2="180" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
+        <text x="510" y="172" fill="#8b93a2" font-size="9.5" text-anchor="middle">Steam →</text>
+        <polyline points="730,250 730,310 364,310 364,260" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
+        <text x="510" y="324" fill="#8b93a2" font-size="9.5" text-anchor="middle">← Feedwater</text>
+        <polygon points="688,158 752,146 752,218 688,206" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="720" y="140" fill="#1d4ed8" font-size="11.5" font-weight="700" text-anchor="middle">Turbine ⑥</text>
+        <line x1="752" y1="182" x2="780" y2="182" stroke="#9aa7b4" stroke-width="3"/>
+        <circle cx="804" cy="182" r="20" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="804" y="187" fill="#1d4ed8" font-size="14" font-weight="700" text-anchor="middle">G</text>
+        <text x="804" y="216" fill="#54606f" font-size="9.5" text-anchor="middle">Generator</text>
+      </svg>
+    </div>
+    <p class="src" style="margin:0 0 14px;">＊ 모식도(개략). 번호 ①–⑥은 아래 표와 연결. <b>단일 루프</b>(증기발생기 1기·캔드 RCP 2대)로 AP1000을 축소. 사고 시 중력·자연순환의 <b>피동안전계통(PXS)</b>과 상부 냉각수탱크로 격납을 피동 냉각(AC전원 불필요).</p>
+
+    <div class="sub-h"><span class="pin">②-B</span>주기기·연료별 공급/책임 <span style="font-weight:400;color:var(--text-dim);font-size:12.5px;">(칩 클릭 → 설명·링크)</span></div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>#</th><th>부품·연료</th><th>공급/책임 (클릭)</th><th>구분 (NI/CI)</th></tr></thead>
+        <tbody>
+          <tr><td class="num">①</td><td><b>원자로압력용기 (<abbr title="Reactor Pressure Vessel">RPV</abbr>)</b></td><td><span class="cochip" data-co="wec">Westinghouse<span class="ccx">US</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Nuclear Steam Supply System">NSSS</abbr></td></tr>
+          <tr><td class="num">②</td><td><b>핵연료 (UO₂ 17×17, &lt;5%)</b></td><td><span class="cochip" data-co="wec">Westinghouse 연료<span class="ccx">US</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Reactor Core">Core</abbr></td></tr>
+          <tr><td class="num">③</td><td><b>증기발생기 (1기)</b></td><td><span class="cochip" data-co="wec">Westinghouse<span class="ccx">US</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Nuclear Steam Supply System">NSSS</abbr></td></tr>
+          <tr><td class="num">④⑤</td><td><b>가압기 · 캔드 RCP(×2)</b></td><td><span class="cochip" data-co="wec">Westinghouse<span class="ccx">US</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Nuclear Steam Supply System">NSSS</abbr></td></tr>
+          <tr><td class="num">⑥</td><td><b>증기터빈·발전기</b></td><td><span class="badge">표준 T/G</span> <span style="color:var(--text-faint);font-size:12px;">재래식 발전부(프로젝트별)</span></td><td><abbr title="Conventional Island">CI</abbr> · <abbr title="Turbine–Generator">T/G</abbr></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="src" style="margin:8px 0 0;line-height:1.85;">
+      <span style="color:var(--text-faint);">＊ AP300은 <b style="color:var(--text-dim);">AP1000의 공급망·제작 실적</b>을 그대로 활용 — Westinghouse가 NSSS·연료를 책임짐. AP1000 대형기기는 과거 <b style="color:var(--text-dim);">두산</b> 등이 제작한 실적이 있으나, AP300 SMR의 한국 기업 참여는 <b style="color:var(--text-dim);">아직 확정 단계가 아님</b>(Westinghouse–한국은 APR1400 IP 분쟁을 2025년 합의로 종료). 최종 스코프는 프로젝트 문서 기준 확인.</span>
+    </p>
+    <div class="co-detail empty" id="coDetail">위 칩을 클릭하면 회사 설명과 공식 링크가 여기에 표시됩니다.</div>
+
+    <div class="sub-h"><span class="pin">②-C</span>고객·전개 파트너</div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>파트너</th><th>국적</th><th>역할</th><th>현황</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>Community Nuclear Power</b><br><span class="src">CNP · 英 북동부</span></td>
+            <td><span class="badge">UK</span></td>
+            <td>英 북동부에 <b>AP300 4기</b> 건설 선정.</td>
+            <td><span class="st-plan">개발</span> · 민간 주도 4기, 2030년대 초 목표.</td>
+          </tr>
+          <tr>
+            <td><b>Great British Nuclear</b></td>
+            <td><span class="badge">UK</span></td>
+            <td>英 SMR 경쟁 단계 진입 + <b>GDA</b> 진행.</td>
+            <td><span class="st-prog">규제</span> · DESNZ GDA 진입(2024-08).</td>
+          </tr>
+          <tr>
+            <td><b>Data4</b><br><span class="src">유럽 데이터센터</span></td>
+            <td><span class="badge">EU</span></td>
+            <td>유럽 데이터센터 전원으로 <b>AP300 검토</b> MOU.</td>
+            <td><span class="st-plan">검토</span> · 2025 MOU.</td>
+          </tr>
+          <tr>
+            <td><b>Brookfield · Cameco</b><br><span class="src">모회사</span></td>
+            <td><span class="badge">CA</span></td>
+            <td>Westinghouse <b>소유주</b>(2023 인수).</td>
+            <td><span class="st-prog">진행</span> · 자금·우라늄 공급망.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="src" style="margin-top:8px;">＊ Westinghouse는 <b>AP1000 실가동 실적</b>이 최대 강점 — AP300은 영국(GDA·CNP 4기)·유럽(데이터센터)·미국에서 검토 중. 한국 기업의 AP300 직접 참여는 아직 확정 단계가 아님(정직 표기). → <a href="SMR-korea-players.html">한국 기업</a> · <a href="SMR-licensing-tracks.html#gda">UK GDA</a></p>
+  </section>
+
+  <!-- ===================== Off-taker ===================== -->
+  <section id="offtaker">
+    <h2 class="sec-head"><span class="no">③</span>Off-taker (고객·프로젝트)</h2>
+    <p class="sec-sub">AP300은 영국(CNP 4기)·유럽 데이터센터 중심, eVinci는 INL DOME 시험 후 오프그리드</p>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>고객·프로젝트</th><th>지역</th><th>규모</th><th>현황</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>Community Nuclear Power (AP300)</b><br><span class="src">英 북동부(Teesside 등)</span></td>
+            <td><span class="badge">UK</span></td>
+            <td>AP300 <b>4기</b></td>
+            <td><span class="st-plan">개발</span> · 민간 주도 4기 선정, 英 GDA 진행. 2030년대 초 목표.</td>
+          </tr>
+          <tr>
+            <td><b>Data4 (AP300)</b><br><span class="src">유럽 데이터센터</span></td>
+            <td><span class="badge">EU</span></td>
+            <td>검토 단계</td>
+            <td><span class="st-plan">MOU</span> · 데이터센터 전원으로 AP300 검토.</td>
+          </tr>
+          <tr>
+            <td><b>eVinci — INL DOME</b><br><span class="src">시험로(3MWth)</span></td>
+            <td><span class="badge">US · 아이다호</span></td>
+            <td>시험 → 상업 5MWe</td>
+            <td><span class="st-prog">시험 준비</span> · DOE PSDR 승인(첫 마이크로로), 2026 시험, 상업 2029.</td>
+          </tr>
+          <tr>
+            <td><b>AP300 — 美·캐나다</b></td>
+            <td><span class="badge">US·CA</span></td>
+            <td>검토</td>
+            <td><span class="st-plan">검토</span> · NRC 설계인증 목표 2027, 다수 검토.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="src" style="margin-top:8px;">＊ AP300의 1차 트랙은 <b>영국 GDA·미국 NRC 설계인증(목표 2027)</b>. eVinci는 <b>INL DOME 마이크로로 시험</b>으로 실증 — 상업 2029 목표.</p>
+  </section>
+
+  <!-- ===================== MOU ===================== -->
+  <section id="mou">
+    <h2 class="sec-head"><span class="no">④</span>파트너십 · 이정표</h2>
+    <p class="sec-sub">시간순(최신 위). AP300(英 GDA·CNP·NRC) + eVinci(INL DOME) + 모회사(Brookfield·Cameco)</p>
+
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2025</span><span class="mou-party">eVinci — DOE PSDR 승인 / Data4 MOU</span></div>
+      <div class="mou-body">eVinci가 <b>마이크로로 최초로 DOE 예비안전설계보고서(PSDR) 승인</b> — INL DOME 시험로 준비. 같은 해 Data4와 유럽 데이터센터용 AP300 검토 MOU.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2024-08</span><span class="mou-party">英 DESNZ — AP300 GDA 진입</span></div>
+      <div class="mou-body">英 정부(DESNZ)가 AP300의 <b>일반설계평가(GDA) 진입</b>을 승인 — 영국 인허가 본격화.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2024</span><span class="mou-party">Community Nuclear Power — 4기 선정</span></div>
+      <div class="mou-body">英 민간 사업자 CNP가 북동부에 <b>AP300 4기</b> 건설 추진을 발표.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2023-05</span><span class="mou-party">美 NRC — 규제참여계획 제출</span></div>
+      <div class="mou-body">AP300 <b>사전인허가 규제참여계획</b>을 NRC에 제출, <b>설계인증 목표 2027</b> 제시.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2023</span><span class="mou-party">Brookfield · Cameco — Westinghouse 인수</span></div>
+      <div class="mou-body">Brookfield와 Cameco가 <b>Westinghouse를 인수</b> — 자금력·우라늄 공급망 결합.</div>
+    </div>
+  </section>
+
+  <!-- ===================== 뉴스 ===================== -->
+  <section id="news">
+    <h2 class="sec-head"><span class="no">⑤</span>관련 뉴스 (계속 누적)</h2>
+    <p class="sec-sub">최신순. 검색·태그로 거르기. 새 소식은 맨 위에 항목을 추가하면 됨.</p>
+
+    <div class="news-tip">
+      <b>새 뉴스 추가법:</b> 아래 <code>&lt;!-- NEWS-TEMPLATE --&gt;</code> 주석의 양식을 복사해 피드 맨 위에 붙이고 날짜·제목·내용·태그(<code>기술/공급망/고객/규제/투자/MOU</code>)·출처만 채우면 됩니다.
+    </div>
+
+    <div class="news-controls">
+      <input id="newsSearch" class="search" type="text" placeholder="뉴스 검색 (예: AP300, eVinci, GDA, Data4)" autocomplete="off">
+      <div class="tagchips" id="tagchips">
+        <span class="chip active" data-tag="all">전체</span>
+        <span class="chip" data-tag="기술">기술</span>
+        <span class="chip" data-tag="공급망">공급망</span>
+        <span class="chip" data-tag="고객">고객</span>
+        <span class="chip" data-tag="규제">규제</span>
+        <span class="chip" data-tag="투자">투자</span>
+        <span class="chip" data-tag="MOU">MOU</span>
+      </div>
+    </div>
+
+    <div class="feed" id="feed">
+
+      <!-- NEWS-TEMPLATE (복사용)
+      <div class="item" data-tags="기술" data-date="YYYY-MM-DD">
+        <div class="item-date">YYYY-MM-DD</div>
+        <div class="item-title">제목</div>
+        <div class="item-body">내용 요약.</div>
+        <div class="item-tags"><span class="tg">기술</span></div>
+        <div class="item-src"><a href="URL" target="_blank">출처</a></div>
+      </div>
+      -->
+
+      <div class="item" data-tags="규제 기술" data-date="2026">
+        <div class="item-date">2026</div>
+        <div class="item-title">eVinci 시험로, INL DOME 시험 준비</div>
+        <div class="item-body">DOE PSDR 승인(마이크로로 최초) 후 <b>INL DOME 시험로(3MWth)</b>가 2026년 시험 준비 — 상업형 eVinci(5MWe) 실증 단계.</div>
+        <div class="item-tags"><span class="tg">규제</span><span class="tg">기술</span></div>
+        <div class="item-src"><a href="https://www.world-nuclear-news.org/articles/approval-of-westinghouse-test-microreactor-progresses" target="_blank">World Nuclear News</a></div>
+      </div>
+
+      <div class="item" data-tags="고객 MOU" data-date="2025-03">
+        <div class="item-date">2025-03</div>
+        <div class="item-title">Westinghouse·Data4, 유럽 데이터센터용 AP300 MOU</div>
+        <div class="item-body">유럽 데이터센터 사업자 <b>Data4</b>와 AP300 데이터센터 전원 활용을 검토하는 MOU 체결.</div>
+        <div class="item-tags"><span class="tg">고객</span><span class="tg">MOU</span></div>
+        <div class="item-src"><a href="https://www.nucnet.org/news/westinghouse-and-data4-sign-mou-to-explore-ap300-reactor-deployment-for-european-data-centres-3-3-2025" target="_blank">NucNet</a></div>
+      </div>
+
+      <div class="item" data-tags="고객 규제" data-date="2024-09">
+        <div class="item-date">2024-09</div>
+        <div class="item-title">英 GBN, AP300 최종 라운드 다운셀렉트</div>
+        <div class="item-body">Great British Nuclear의 英 신규원전 프로그램 <b>최종 라운드에 AP300 선정</b> — 영국 시장 본격 진입.</div>
+        <div class="item-tags"><span class="tg">고객</span><span class="tg">규제</span></div>
+        <div class="item-src"><a href="https://info.westinghousenuclear.com/news/westinghouse-ap300-smr-downselected-by-great-british-nuclear-for-final-round-of-uk-newbuild-programme" target="_blank">Westinghouse</a></div>
+      </div>
+
+      <div class="item" data-tags="규제" data-date="2024-08">
+        <div class="item-date">2024-08</div>
+        <div class="item-title">英 DESNZ, AP300 GDA 진입 승인</div>
+        <div class="item-body">영국 규제평가(GDA)에 AP300이 진입 승인 — 英 첫 운전 호기 2030년대 초 목표.</div>
+        <div class="item-tags"><span class="tg">규제</span></div>
+        <div class="item-src"><a href="https://www.world-nuclear-news.org/articles/westinghouse-smr-design-accepted-for-uk-review" target="_blank">World Nuclear News</a></div>
+      </div>
+
+      <div class="item" data-tags="규제 기술" data-date="2023-05">
+        <div class="item-date">2023-05</div>
+        <div class="item-title">AP300, NRC 규제참여계획 제출 — 설계인증 목표 2027</div>
+        <div class="item-body">AP1000 기반 <b>AP300 SMR</b>의 사전인허가 규제참여계획을 NRC에 제출. 설계인증 목표 2027.</div>
+        <div class="item-tags"><span class="tg">규제</span><span class="tg">기술</span></div>
+        <div class="item-src"><a href="https://www.ans.org/news/article-4993/westinghouse-submits-ap300-regulatory-engagement-plan-to-nrc/" target="_blank">ANS Nuclear Newswire</a></div>
+      </div>
+
+    </div>
+    <div class="news-hidden" id="newsNone" style="display:none;color:var(--text-faint);padding:20px;text-align:center;">검색 결과가 없습니다.</div>
+  </section>
+
+</main>
+
+<footer>
+  <span class="note warn" style="display:block;margin-bottom:8px;"><span class="lead">주의</span> 인허가·사업 현황은 빠르게 변합니다 — 회의·보고 직전 Westinghouse·NRC·英 ONR·각 파트너 공시로 재확인 권장. (2026-06-17 기준)</span>
+  <a href="SMR-developers.html#westinghouse">개발사 카드로</a> · <a href="SMR-reactor-types.html#pwr">PWR 노형</a> · <a href="SMR-licensing-tracks.html#gda">UK GDA 트랙</a> · <a href="SMR-korea-players.html">한국 기업</a> · <a href="SMR-reference.html">CFR 레퍼런스</a>
+</footer>
+
+<script>
+  const newsSearch=document.getElementById('newsSearch');
+  const items=Array.from(document.querySelectorAll('.item'));
+  const tagchips=Array.from(document.querySelectorAll('#tagchips .chip'));
+  const newsNone=document.getElementById('newsNone');
+  let activeTag='all';
+
+  function clearMarks(el){el.querySelectorAll('mark').forEach(m=>m.replaceWith(document.createTextNode(m.textContent)));el.normalize();}
+  function highlight(el,term){
+    const walker=document.createTreeWalker(el,NodeFilter.SHOW_TEXT,null);const nodes=[];
+    while(walker.nextNode())nodes.push(walker.currentNode);
+    const re=new RegExp('('+term.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi');
+    nodes.forEach(node=>{if(!re.test(node.textContent))return;const span=document.createElement('span');span.innerHTML=node.textContent.replace(re,'<mark>$1</mark>');node.replaceWith(span);});
+  }
+  function applyNews(){
+    const term=newsSearch.value.trim().toLowerCase();
+    let vis=0;
+    items.forEach(it=>{
+      clearMarks(it);
+      const text=it.textContent.toLowerCase();
+      const tags=(it.dataset.tags||'').split(' ');
+      const matchText=!term||text.includes(term);
+      const matchTag=activeTag==='all'||tags.includes(activeTag);
+      const show=matchText&&matchTag;
+      it.classList.toggle('news-hidden',!show);
+      it.style.display=show?'':'none';
+      if(show){vis++;if(term)highlight(it,term);}
+    });
+    newsNone.style.display=vis?'none':'block';
+  }
+  newsSearch.addEventListener('input',applyNews);
+  tagchips.forEach(c=>c.addEventListener('click',()=>{
+    tagchips.forEach(x=>x.classList.remove('active'));c.classList.add('active');activeTag=c.dataset.tag;applyNews();
+  }));
+
+  // ---- supplier company directory ----
+  const COMPANIES={
+    wec:{nm:'Westinghouse Electric Company',role:'AP300·eVinci 설계·제작 · 미국',
+      desc:'세계 최다 PWR 공급 실적의 원자력 기업. <b>AP300</b>(AP1000 기반 1-loop PWR)과 <b>eVinci</b>(히트파이프 마이크로로)를 개발. RPV·증기발생기·가압기·캔드 RCP 등 NSSS 주기기와 연료를 자체 제작. 2023년 Brookfield·Cameco가 인수.',
+      url:'https://www.westinghousenuclear.com/'}
+  };
+  const coDetail=document.getElementById('coDetail');
+  const cochips=Array.from(document.querySelectorAll('.cochip'));
+  cochips.forEach(chip=>chip.addEventListener('click',()=>{
+    const c=COMPANIES[chip.dataset.co];if(!c)return;
+    cochips.forEach(x=>x.classList.toggle('active',x.dataset.co===chip.dataset.co));
+    coDetail.classList.remove('empty');
+    coDetail.innerHTML='<div class="nm">'+c.nm+'</div><div class="role">'+c.role+'</div><div>'+c.desc+'</div><div class="lnk"><a href="'+c.url+'" target="_blank" rel="noopener">공식 웹사이트 →</a></div>';
+  }));
+</script>
+<script src="feedback.js" defer></script>
+</body>
+</html>
