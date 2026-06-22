@@ -133,6 +133,20 @@ window.SMR_NEWS = [
     "id": "8bf14c4e"
   },
   {
+    "date": "2026-06-21",
+    "title": "뉴스케일 파워(NuScale Power) 주가 저점 근처, SMR 호황 앞두고",
+    "summary": "뉴스케일 파워(NuScale Power)의 주가가 저점 근처에서 거래 중이며, SMR 산업 호황이 예상되고 있다.",
+    "summaryLong": "뉴스케일 파워(NuScale Power)는 미국 증시(NYSE: SMR)에 상장된 소형모듈원자로(SMR) 개발사로, 현재 주가가 저점 근처에서 거래되고 있다. SMR 산업의 전반적인 호황이 예상되는 가운데 투자 타이밍에 대한 관심이 높아지고 있다. 이는 SMR 시장의 성장 잠재력과 뉴스케일의 상업화 추진에 대한 시장의 기대를 반영하고 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "foreignpolicyjournal.com",
+    "url": "https://www.foreignpolicyjournal.com/2026/06/21/nuscale-power-nyse-smr-stock-price-sits-near-lows-as-smr-boom-looms-is-now-the-time-to-buy/\",1]",
+    "k": "nuscale power nyse smr stock price sits near lows as smr boom looms is now the time to buy",
+    "id": "527488ef"
+  },
+  {
     "date": "2026-06-20",
     "title": "국립한국해양대, 세계 첫 해양 SMR 추진단 출범",
     "summary": "국립한국해양대학교가 세계 최초로 해양 소형모듈원자로(SMR) 추진단을 출범하고 국제인증 허브 구축을 추진하고 있다.",
@@ -2289,6 +2303,20 @@ window.SMR_NEWS = [
     "id": "9f701a6d"
   },
   {
+    "date": "2026-06-18",
+    "title": "경북 기장군, SMR 후보 부지 확정",
+    "summary": "한국이 소형모듈원자로(SMR) 건설 후보 부지로 경북(Gyeongbuk) 기장군(Gijang-gun)을 확정했다.",
+    "summaryLong": "한국이 소형모듈원자로(SMR) 추진 정책의 일환으로 경상북도(Gyeongbuk) 기장군(Gijang-gun)을 SMR 건설 후보 부지로 공식 확정했다. 동시에 대형원전 후보 부지는 영덕군(Yeongdeok-gun)으로 결정되어, 한국의 차별화된 원전 전략이 지역별로 구체화되고 있다. 이는 정부의 국책 원전 프로그램 추진의 구체적 진전을 의미하며, SMR 부지 확보는 향후 설계·인허가 및 건설 단계의 중요한 기초가 될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "KAIF 투데이뉴스",
+    "url": "https://www.kaif.or.kr/ko/?c=250&s=&gp=1&gbn=view&ix=29924",
+    "k": "대형원전 후보 부지에 경북 영덕군 smr 후보 부지는 기장군 확정",
+    "id": "bdea8614"
+  },
+  {
     "date": "2026-06-17",
     "title": "태웅, 테라파워(TerraPower) 나트륨(Natrium) SMR 주기기 부품 수주",
     "summary": "국내 원전 부품 전문기업 태웅이 빌 게이츠 설립 미국 테라파워사의 4세대 소형모듈원자로(SMR) 나트륨 프로젝트에 주기기 핵심부품을 공급하는 계약을 체결했다.",
@@ -3129,6 +3157,20 @@ window.SMR_NEWS = [
     "id": "a128de87"
   },
   {
+    "date": "2026-06-17",
+    "title": "신규 원전 입지 확정: 대형원전 영덕, SMR 부산 기장 선정",
+    "summary": "한국 정부가 신규 원전 입지를 확정, 대형원전은 경북 영덕에, 소형모듈원자로(SMR)는 부산 기장에 선정했다.",
+    "summaryLong": "한국 정부가 신규 원자력발전소 입지를 공식 발표했다. 대형원전은 경주 인근 경북 영덕에 건설되며, 소형모듈원자로(SMR)는 부산 기장에 입지하기로 확정되었다. 이는 한국의 원전 정책 방향을 보여주는 중요한 결정으로, SMR이 국내 에너지 정책의 주요 부분으로 자리 잡고 있음을 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "dnews.co.kr",
+    "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno\\u003d202606171936229470789\",1]",
+    "k": "신규 원전 입지 베일 벗었다 대형원전 경북 영덕 smr 부산 기장 선정",
+    "id": "f88f4a33"
+  },
+  {
     "date": "2026-06-16",
     "title": "일본의 뉴스케일 파워(NuScale Power) 250억 달러 투자 계획, 주가 급등",
     "summary": "일본이 미국의 뉴스케일 파워(NuScale Power)에 250억 달러를 투자하기로 하며 주가가 급등했다.",
@@ -3911,6 +3953,20 @@ window.SMR_NEWS = [
     "url": "https://www.barchart.com/story/news/2477128/oklo-stock-has-fallen-15-ytd-this-doe-breakthrough-could-start-to-change-everything\",1]",
     "k": "oklo stock has fallen 15 ytd this doe breakthrough could start to change everything",
     "id": "64e286f0"
+  },
+  {
+    "date": "2026-06-15",
+    "title": "SMR 주식 야간 거래에서 5% 이상 상승",
+    "summary": "뉴스케일 파워(NuScale Power) SMR 주식이 야간 거래에서 5% 이상 상승했다.",
+    "summaryLong": "소형모듈원자로(SMR) 관련 주식이 야간 거래 시간에 5% 이상의 상승률을 기록했다. 이는 SMR 산업에 대한 긍정적인 시장 심리와 투자자의 관심 증가를 시사한다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "tradingview.com",
+    "url": "https://www.tradingview.com/news/stocktwits:39953ce33094b:0-why-is-smr-stock-gaining-over-5-in-overnight-trading/\",1]",
+    "k": "why is smr stock gaining over 5 in overnight trading",
+    "id": "b3d4607b"
   },
   {
     "date": "2026-06-14",
@@ -8660,4 +8716,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-22 08:26 KST";
+window.SMR_UPDATED = "2026-06-22 08:59 KST";
