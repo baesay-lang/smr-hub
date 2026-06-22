@@ -20,3 +20,6 @@ triso_excel/
 폴더생성기.*
 __pycache__/
 *.pyc
+
+# 별도 프로토타입 프로젝트 — 이 저장소(공개)에 포함하지 않음
+smr-translator/
