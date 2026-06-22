@@ -7,6 +7,118 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-06-22",
+    "title": "오클로, 우라늄 공급 계약으로 핵분열 사업 강화",
+    "summary": "오클로(Oklo)가 우라늄 공급 계약을 체결하며 핵분열 연료 확보에 나섰다.",
+    "summaryLong": "오클로는 차세대 SMR 또는 첨단로 운영을 위한 핵연료 공급 계약을 확보함으로써 상용화 단계로의 진전을 도모하고 있다. 우라늄 공급 협약은 실제 원자로 운영 시 필수 요소로, 오클로의 사업화 준비도를 반영한다. 이는 개발 단계를 넘어 실제 운영 단계를 대비하는 계약으로, SMR 산업의 공급망 구축 진행 상황을 보여준다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "thedailyupside.com",
+    "url": "https://www.thedailyupside.com/technology/artificial-intelligence/oklo-may-have-solved-its-uranium-sourcing-problem/",
+    "k": "uranium deal powers up nuclear fission firm oklo",
+    "id": "1164ecf0"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "발라르 어토믹스, 미국 DOE 원자로 파일럿 프로그램 중 2번째 임계달성",
+    "summary": "발라르 어토믹스의 Ward 250 첨단로가 미국 에너지부(DOE) 원자로 파일럿 프로그램에서 영점 임계 시연을 완료했다.",
+    "summaryLong": "발라르 어토믹스(Valar Atomics)의 Ward 250 첨단 원자로가 미국 에너지부(DOE) 주도 Reactor Pilot Program 일정에 맞춰 영점 임계(zero-power fuelled criticality) 시연을 성공시켰으며, 이는 같은 프로그램의 두 번째 완료 사례다. 7월 4일 마감일을 기준으로 요구 마일스톤을 달성함으로써 설계 및 기술 검증 단계를 통과했다. 이는 차세대 첨단로 개발 프로젝트의 실질적 진전을 보여주는 기술 성과로, DOE의 국책 프로그램 추진 경과를 입증한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Valar Atomics",
+    "region": "US",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/valar-atomics-achieves-criticality-in-doe-reactor-pilot-program",
+    "k": "valar atomics achieves criticality in doe reactor pilot program",
+    "id": "bd30f35d"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "스페이스X, SMR 선두주자 뉴스케일 파워 인수 추진 검토",
+    "summary": "스페이스X가 SMR 업계 선두주자인 뉴스케일 파워 인수를 검토 중인 것으로 보도되었다.",
+    "summaryLong": "스페이스X가 미국 주요 소형모듈원자로(SMR) 개발사인 뉴스케일 파워(NuScale Power) 인수를 추진할 가능성이 제기되고 있다. 뉴스케일은 가압경수로(PWR) 기반 SMR로 미국 내 상용화 선두 주자이며, 스페이스X의 에너지 자급 또는 우주 프로젝트 전력 수급 전략의 일환으로 해석될 수 있다. 구체적 인수 진행 상황이 명확하지 않으나, 만약 실현될 경우 기술력 강화 및 시장 집중도 변화를 초래할 수 있는 주요 사건으로 평가된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/Securities/2026/06/202606221454521462e250e8e188_1",
+    "k": "스페이스x smr 선두 뉴스케일 파워 인수하나",
+    "id": "174a3090"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "한국해양대, 해양 SMR 추진단 출범·국제인증기구 유치 추진",
+    "summary": "한국해양대(KMU)가 세계 최초로 해양 SMR 추진단을 출범하고, UN 산하 국제인증기구 유치를 추진한다.",
+    "summaryLong": "한국해양대가 해양 소형모듈원자로(SMR) 추진단을 세계 최초로 출범하고 UN 산하 국제인증기구 유치를 본격 추진하고 있다. 이는 해양 원전 분야에서 국제 표준 경쟁이 본격화되는 가운데, 한국이 규제·인증 분야에서 주도권을 확보하려는 전략의 일환이다. 해양 SMR은 선박·해양플랫폼용 동력원으로 각국이 주목하는 시장이며, 국제인증기구 유치는 관련 표준 제정과 인증 권한을 확보하는 의미가 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "KMU",
+    "region": "KR",
+    "source": "yna.co.kr",
+    "url": "https://www.yna.co.kr/view/AKR20260622043600051",
+    "k": "한국해양대 해양 smr 추진단 출범 국제인증기구 추진",
+    "id": "d78ae0d4"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "한국해양대 세계 첫 '해양 SMR 추진단' 출범…해양원전 국제표준 경쟁 본격화",
+    "summary": "한국해양대가 세계 최초로 해양 SMR 추진단을 출범하며 해양원전 국제표준 경쟁에 나선다.",
+    "summaryLong": "한국해양대가 세계 최초로 해양 소형모듈원자로(SMR) 추진단을 공식 출범시키고 해양원전 분야의 국제표준 경쟁을 본격화한다고 밝혔다. 이는 선박·해양플랫폼용 원전의 기술 개발과 규제·인증 체계 구축에서 한국이 글로벌 주도권을 확보하려는 전략적 움직임이다. UN 산하 국제인증기구 유치와 함께 추진되는 이 사업은 해양 원전 산업의 국제 표준 설정에서 한국의 위상을 높이는 의미를 갖는다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "KMU",
+    "region": "KR",
+    "source": "shinailbo.co.kr",
+    "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5032951",
+    "k": "한국해양대 세계 첫 해양 smr 추진단 출범 해양원전 국제표준 경쟁 본격화",
+    "id": "f428c7a3"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "국립한국해양대, 세계 최초 UN 산하 해양 SMR 국제인증기구 유치 추진",
+    "summary": "국립한국해양대가 UN(국제연합) 산하 해양 SMR 국제인증기구 유치를 추진 중이다.",
+    "summaryLong": "국립한국해양대가 세계 최초의 UN(국제연합) 산하 해양 SMR(소형모듈원자로) 국제인증기구 설립을 한국에 유치하기 위한 활동을 전개하고 있다. 이는 해양 기반 SMR 기술의 국제 표준화 및 규제 체계 구축과 관련된 전략적 시도로, 한국의 해양 SMR 분야 리더십 강화를 목표로 한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "국립한국해양대",
+    "region": "KR",
+    "source": "busan.com",
+    "url": "https://www.busan.com/view/busan/view.php?code=2026062210315039219",
+    "k": "국립한국해양대 세계 최초 un 산하 해양 smr 국제인증기구 유치 추진",
+    "id": "1c8053e6"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "'차세대 원전' SMR 시장 열린다…건설업계 관심 집중",
+    "summary": "SMR(소형모듈원자로) 시장 성장으로 건설업계의 관심이 집중되고 있다.",
+    "summaryLong": "차세대 원전 기술로 주목받는 소형모듈원자로(SMR) 시장 확대 전망에 따라 국내 건설업계의 관심이 급증하고 있다. SMR 사업 기회 확대로 인한 산업 생태계 조성과 건설사들의 선제적 역할 강화가 이루어지는 중이며, 이는 원전 산업의 새로운 성장 동력으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/Real-Estate/2026/06/202606221033241607514e0091f6_1",
+    "k": "차세대 원전 smr 시장 열린다 건설업계 관심 집중",
+    "id": "6d419dd4"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "국내 첫 SMR 부산 기장에…기대 속 과제도",
+    "summary": "부산 기장에 건설될 국내 첫 SMR 사업의 기대와 과제를 다룬다.",
+    "summaryLong": "부산 기장 지역에 건설 예정인 한국 최초의 소형모듈원자로(SMR) 프로젝트에 대해 산업 발전의 기대감이 높은 반면, 기술 확보, 규제 정비, 공급망 구축 등 다양한 현실적 과제들도 존재하는 것으로 분석되고 있다. 이 프로젝트의 성공 여부가 국내 SMR 산업의 미래 경쟁력을 결정할 중요한 분기점이 될 것으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260622091820797",
+    "k": "국내 첫 smr 부산 기장에 기대 속 과제도",
+    "id": "43a229c9"
+  },
+  {
     "date": "2026-06-21",
     "title": "센트러스 에너지(Centrus Energy), 오클로(Oklo)의 HALEU 계약 체결로 주가 저평가 가능성",
     "summary": "센트러스 에너지(Centrus Energy)가 오클로(Oklo)와 HALEU(고농축우라늄) 공급 계약을 체결하면서 주가 저평가 논의가 제기되고 있다.",
@@ -145,6 +257,20 @@ window.SMR_NEWS = [
     "url": "https://www.foreignpolicyjournal.com/2026/06/21/nuscale-power-nyse-smr-stock-price-sits-near-lows-as-smr-boom-looms-is-now-the-time-to-buy/",
     "k": "nuscale power nyse smr stock price sits near lows as smr boom looms is now the time to buy",
     "id": "527488ef"
+  },
+  {
+    "date": "2026-06-21",
+    "title": "두산에너빌리티, 'SMR 핵심 공급망' 선점… 英 제조 병목이 부른 락인 기회",
+    "summary": "두산에너빌리티가 SMR 핵심 공급망 확보를 통해 영국(UK) 제조 병목으로 인한 시장 선점 기회를 활용하고 있다.",
+    "summaryLong": "두산에너빌리티가 소형모듈원자로(SMR)의 핵심 부품·공급망 선점을 통해 글로벌 시장 경쟁력을 강화하고 있다. 영국(UK)에서의 SMR 제조 병목 현상이 다른 공급처의 수요 증가로 이어지면서, 두산에너빌리티는 이러한 '락인(Lock-in)' 기회를 활용한 전략적 포지셔닝을 추진 중이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "두산에너빌리티",
+    "region": "KR",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/Global-Biz/2026/06/20260622063323547fbbec65dfb_1",
+    "k": "두산에너빌리티 smr 핵심 공급망 선점 제조 병목이 부른 락인 기회",
+    "id": "ad7814f2"
   },
   {
     "date": "2026-06-20",
@@ -7891,6 +8017,20 @@ window.SMR_NEWS = [
     "id": "8282230d"
   },
   {
+    "date": "2025-12-11",
+    "title": "GE 베르노바의 BWRX-300, 영국 규제 마일스톤 달성",
+    "summary": "GE 베르노바(GE Vernova)의 BWRX-300 소형모듈원자로(SMR)가 영국에서 규제 진전을 이루었다.",
+    "summaryLong": "GE 베르노바의 BWRX-300 비등경수로(BWR) 기반 소형모듈원자로가 영국 규제 당국과의 심사 과정에서 중요한 이정표를 달성했다. 이는 영국 내 SMR 개발 및 상용화 추진 과정에서 설계 검증 또는 규제 승인 진전을 의미하며, 향후 영국 내 건설 및 운영 허가 취득으로 나아가는 단계를 보여준다. BWRX-300은 기존 원전 기술을 기반으로 하면서 소형화·모듈화된 차세대 원전으로 주목받고 있다.",
+    "cat": "기술",
+    "type": "BWR",
+    "dev": "GE Vernova",
+    "region": "UK",
+    "source": "gevernova.com",
+    "url": "https://www.gevernova.com/news/press-releases/bwrx-300-nuclear-small-modular-reactor-reaches-regulatory-milestone-uk",
+    "k": "bwrx 300 small modular reactor reaches regulatory milestone in the uk",
+    "id": "a8b039c6"
+  },
+  {
     "date": "2025-12-10",
     "title": "인도 마하라슈트라·안드라프라데시주 소형모듈원자로 구성 제안",
     "summary": "인도가 마하라슈트라(Maharashtra)와 안드라프라데시(Andhra Pradesh) 두 주에 소형모듈원자로(SMR)를 구성하기로 제안했다.",
@@ -8716,4 +8856,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-22 08:59 KST";
+window.SMR_UPDATED = "2026-06-22 18:29 KST";
