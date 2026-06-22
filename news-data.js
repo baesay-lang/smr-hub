@@ -343,6 +343,20 @@ window.SMR_NEWS = [
     "id": "ca49adf9"
   },
   {
+    "date": "2026-06-22",
+    "title": "오하이오, 1.5GW SMR 허브로 부상…엘레멘탈·오클로 연료망 구축",
+    "summary": "미국 오하이오주가 소형모듈원자로(SMR) 허브로 떠오르면서 엘레멘탈(Elementl)과 오클로(Oklo)가 연료 공급망 구축을 가속화하고 있다.",
+    "summaryLong": "미국 오하이오주가 1.5GW 규모의 소형모듈원자로(SMR) 허브로 부상하고 있다. SMR 개발사인 엘레멘탈과 오클로가 해당 지역에서 연료 공급망 구축을 속도내고 있으며, 이는 미국 내 SMR 산업 확대의 신호로 해석된다. 오하이오주는 기존 원전 산업 기반과 정부 지원을 바탕으로 SMR 생산·배치의 거점으로 자리잡을 것으로 전망된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Elementl, Oklo",
+    "region": "US",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4618",
+    "k": "오하이오 1 5gw smr 허브로 부상 elementl oklo 연료망 구축 속도",
+    "id": "5adc9671"
+  },
+  {
     "date": "2026-06-21",
     "title": "센트러스 에너지(Centrus Energy), 오클로(Oklo)의 HALEU 계약 체결로 주가 저평가 가능성",
     "summary": "센트러스 에너지(Centrus Energy)가 오클로(Oklo)와 HALEU(고농축우라늄) 공급 계약을 체결하면서 주가 저평가 논의가 제기되고 있다.",
@@ -3575,6 +3589,20 @@ window.SMR_NEWS = [
     "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202606171936229470789",
     "k": "신규 원전 입지 베일 벗었다 대형원전 경북 영덕 smr 부산 기장 선정",
     "id": "f88f4a33"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "SMR 유치전 탈락한 경주시, 지역경제 활성화 기대 무산",
+    "summary": "경주시가 소형모듈원자로(SMR) 유치 경쟁에서 탈락하면서 지역경제 활성화 기대가 수포로 돌아갔다.",
+    "summaryLong": "경주시가 진행 중인 SMR 유치 경쟁에서 탈락하게 되면서 지역 주민들의 경제 활성화 기대감이 무너졌다. SMR 입지 선정은 정부의 전략적 정책 결정 사항으로, 한국 내 SMR 배치 지역 결정 과정의 일환이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260617210105623",
+    "k": "smr 유치전 탈락한 경주시 지역경제 활성화 기대했는데",
+    "id": "f7ad907a"
   },
   {
     "date": "2026-06-16",
@@ -9150,4 +9178,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-23 08:05 KST";
+window.SMR_UPDATED = "2026-06-23 08:40 KST";
