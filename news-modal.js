@@ -28,6 +28,8 @@
     +'.nm-tags .tg{font-size:11px;font-weight:700;padding:3px 9px;border-radius:5px;background:var(--surface-2,#f1f3f7);'
     +'color:var(--text-dim,#5a6473);border:1px solid var(--border,#e5e8ee);}'
     +'.nm-tags .tg.key{background:var(--accent-weak,#eef3ff);color:var(--accent-strong,#1d4ed8);border-color:var(--accent-weak-2,#d7e3fe);}'
+    +'.nm-tags .tg.op{background:#fef2f2;color:#b91c1c;border-color:#fbcaca;}'
+    +'#nm-op[hidden]{display:none;}'
     +'.nm-sumlabel,.nm-sec{font-size:10.5px;font-weight:700;letter-spacing:.05em;text-transform:uppercase;color:var(--text-faint,#8b93a2);margin:0 0 5px;}'
     +'.nm-sum{font-size:14.5px;line-height:1.75;color:var(--text,#1a2230);white-space:pre-line;}'
     +'.nm-more{margin-top:16px;width:100%;background:var(--surface-2,#f1f3f7);border:1px solid var(--border-strong,#d2d7e0);'
@@ -70,6 +72,7 @@
     + '<div class="nm-date" id="nm-date"></div>'
     + '<div class="nm-title" id="nm-title"></div>'
     + '<div class="nm-tags" id="nm-tags"></div>'
+    + '<div class="nm-note" id="nm-op" hidden>ⓘ <b>미확인·추측성 보도</b>입니다 — 공식 확인된 사실이 아닐 수 있으니 원문과 후속 보도를 함께 확인하세요.</div>'
     + '<div class="nm-sumlabel">요약</div>'
     + '<div class="nm-sum" id="nm-sum"></div>'
     + '<button class="nm-more" id="nm-more" hidden>자세히 보기 ▾</button>'
@@ -96,6 +99,7 @@
     if (n.type && n.type !== 'General') h += '<span class="tg">'+esc(n.type)+'</span>';
     if (n.dev) h += '<span class="tg">'+esc(n.dev)+'</span>';
     if (n.region) h += '<span class="tg">'+esc(n.region)+'</span>';
+    if (n.op) h += '<span class="tg op">추측·미확인</span>';
     return h;
   }
 
@@ -104,6 +108,7 @@
   }
   function isKoreanItem(n){
     if (!n) return false;
+    if (n.ko) return true;                                    // source-language flag (Korean outlet) — set by tracker
     if (n.region === 'KR') return true;                       // Korean-topic articles are Korean-language sources
     if (/[가-힣]/.test(n.source||'')) return true;
     var h=''; try { h = new URL(n.url).hostname; } catch(e) { h = String(n.url||''); }
@@ -156,6 +161,7 @@
     elDate.textContent = n.date || '';
     elTitle.textContent = n.title || '';
     elTags.innerHTML = tagHTML(n);
+    var opEl = document.getElementById('nm-op'); if (opEl) opEl.hidden = !n.op;
     elSum.textContent = (n.summaryLong || n.summary || '').trim() || '요약이 아직 없습니다.';
     elSrc.textContent = n.source ? ('출처 · ' + n.source) : '';
     if (n.url){ elLink.href = n.url; elLink.style.display = ''; } else { elLink.removeAttribute('href'); elLink.style.display = 'none'; }

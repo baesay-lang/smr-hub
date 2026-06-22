@@ -46,7 +46,9 @@ window.SMR_NEWS = [
     "source": "g-enews.com",
     "url": "https://www.g-enews.com/article/Securities/2026/06/202606221454521462e250e8e188_1",
     "k": "스페이스x smr 선두 뉴스케일 파워 인수하나",
-    "id": "174a3090"
+    "id": "174a3090",
+    "op": 1,
+    "ko": 1
   },
   {
     "date": "2026-06-22",
@@ -60,7 +62,8 @@ window.SMR_NEWS = [
     "source": "yna.co.kr",
     "url": "https://www.yna.co.kr/view/AKR20260622043600051",
     "k": "한국해양대 해양 smr 추진단 출범 국제인증기구 추진",
-    "id": "d78ae0d4"
+    "id": "d78ae0d4",
+    "ko": 1
   },
   {
     "date": "2026-06-22",
@@ -74,7 +77,8 @@ window.SMR_NEWS = [
     "source": "shinailbo.co.kr",
     "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5032951",
     "k": "한국해양대 세계 첫 해양 smr 추진단 출범 해양원전 국제표준 경쟁 본격화",
-    "id": "f428c7a3"
+    "id": "f428c7a3",
+    "ko": 1
   },
   {
     "date": "2026-06-22",
@@ -102,7 +106,8 @@ window.SMR_NEWS = [
     "source": "g-enews.com",
     "url": "https://www.g-enews.com/article/Real-Estate/2026/06/202606221033241607514e0091f6_1",
     "k": "차세대 원전 smr 시장 열린다 건설업계 관심 집중",
-    "id": "6d419dd4"
+    "id": "6d419dd4",
+    "ko": 1
   },
   {
     "date": "2026-06-22",
@@ -186,7 +191,8 @@ window.SMR_NEWS = [
     "source": "asiatoday.co.kr",
     "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260622010007493",
     "k": "1호가 곧 미래 기장 smr 놓고 현대 삼성 dl 대우 선점 경쟁",
-    "id": "466effe6"
+    "id": "466effe6",
+    "ko": 1
   },
   {
     "date": "2026-06-22",
@@ -270,7 +276,8 @@ window.SMR_NEWS = [
     "source": "esnews.kr",
     "url": "https://www.esnews.kr/news/articleView.html?idxno=4622",
     "k": "폴란드 smr 속도전 osge bwrx 300 연료 소프트웨어 사전심사 요청",
-    "id": "56decebc"
+    "id": "56decebc",
+    "ko": 1
   },
   {
     "date": "2026-06-22",
@@ -312,7 +319,8 @@ window.SMR_NEWS = [
     "source": "sedaily.com",
     "url": "https://www.sedaily.com/article/20058566",
     "k": "smr 전문가 400명 창원에 모인다 경남도 글로벌 공급망 선점 노린다",
-    "id": "1c0d297b"
+    "id": "1c0d297b",
+    "ko": 1
   },
   {
     "date": "2026-06-22",
@@ -382,7 +390,8 @@ window.SMR_NEWS = [
     "source": "m-i.kr",
     "url": "https://www.m-i.kr/news/articleView.html?idxno=1383332",
     "k": "유력 대미 1호 에 국내 사업 시동까지 k smr 초읽기",
-    "id": "dc2af34a"
+    "id": "dc2af34a",
+    "ko": 1
   },
   {
     "date": "2026-06-21",
@@ -424,7 +433,8 @@ window.SMR_NEWS = [
     "source": "g-enews.com",
     "url": "https://www.g-enews.com/article/Global-Biz/2026/06/20260622063323547fbbec65dfb_1",
     "k": "두산 smr 핵심 공급망 선점 제조 병목이 부른 락인 기회",
-    "id": "e4fc1e86"
+    "id": "e4fc1e86",
+    "ko": 1
   },
   {
     "date": "2026-06-21",
@@ -438,7 +448,8 @@ window.SMR_NEWS = [
     "source": "it.chosun.com",
     "url": "https://it.chosun.com/news/articleView.html?idxno=2023092164288",
     "k": "삼성 현대 대우건설 국내 원전 훈풍 해외 smr까지 분다",
-    "id": "8cf54a89"
+    "id": "8cf54a89",
+    "ko": 1
   },
   {
     "date": "2026-06-21",
@@ -480,7 +491,8 @@ window.SMR_NEWS = [
     "source": "imaeil.com",
     "url": "https://www.imaeil.com/page/view/2026062111011024780",
     "k": "자타공인 경주는 smr 건설 적지 도전은 계속된다",
-    "id": "8bf14c4e"
+    "id": "8bf14c4e",
+    "ko": 1
   },
   {
     "date": "2026-06-21",
@@ -508,7 +520,8 @@ window.SMR_NEWS = [
     "source": "g-enews.com",
     "url": "https://www.g-enews.com/article/Global-Biz/2026/06/20260622063323547fbbec65dfb_1",
     "k": "두산에너빌리티 smr 핵심 공급망 선점 제조 병목이 부른 락인 기회",
-    "id": "ad7814f2"
+    "id": "ad7814f2",
+    "ko": 1
   },
   {
     "date": "2026-06-21",
@@ -564,7 +577,8 @@ window.SMR_NEWS = [
     "source": "mnlnews.net",
     "url": "https://mnlnews.net/news/view.php?bIdx=48638",
     "k": "국립한국해양대 세계 첫 해양 smr 추진단 출범 국제인증 허브 도전",
-    "id": "bdfce9ac"
+    "id": "bdfce9ac",
+    "ko": 1
   },
   {
     "date": "2026-06-20",
@@ -578,7 +592,8 @@ window.SMR_NEWS = [
     "source": "energytimes.kr",
     "url": "https://www.energytimes.kr/news/articleView.html?idxno=70237",
     "k": "좌초자산 석탄발전 남동발전 smr 전환으로 해법 모색",
-    "id": "522cbbe7"
+    "id": "522cbbe7",
+    "ko": 1
   },
   {
     "date": "2026-06-20",
@@ -662,7 +677,8 @@ window.SMR_NEWS = [
     "source": "news1.kr",
     "url": "https://www.news1.kr/economy/trend/6203283",
     "k": "한국형 smr 본궤도 ai 전력 400조 시장 승부처는 안전 경제성",
-    "id": "7191da3c"
+    "id": "7191da3c",
+    "ko": 1
   },
   {
     "date": "2026-06-20",
@@ -690,7 +706,8 @@ window.SMR_NEWS = [
     "source": "kookje.co.kr",
     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=00&key=20260620.99099005987",
     "k": "소형모듈원자로 건설 기장군의 뜨거운 과학축제",
-    "id": "617b8d15"
+    "id": "617b8d15",
+    "ko": 1
   },
   {
     "date": "2026-06-19",
@@ -732,7 +749,8 @@ window.SMR_NEWS = [
     "source": "에너지데일리 - 전체기사",
     "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=200613",
     "k": "남동발전 폐지 예정 석탄발전 smr 전환 사업화 추진한다",
-    "id": "0163492a"
+    "id": "0163492a",
+    "ko": 1
   },
   {
     "date": "2026-06-19",
@@ -746,7 +764,8 @@ window.SMR_NEWS = [
     "source": "chosun.com",
     "url": "https://www.chosun.com/national/regional/2026/06/19/VA3UL5LLGRAHFHX72IKVJGHSHA/",
     "k": "국립한국해양대 총장 직속 해양 smr 추진단 출범",
-    "id": "def9b128"
+    "id": "def9b128",
+    "ko": 1
   },
   {
     "date": "2026-06-19",
@@ -830,7 +849,8 @@ window.SMR_NEWS = [
     "source": "에너지신문 - 전체기사",
     "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=226237",
     "k": "노후 석탄발전 smr 경제성 속도 지역상생 다 잡는다",
-    "id": "9e04911b"
+    "id": "9e04911b",
+    "ko": 1
   },
   {
     "date": "2026-06-19",
@@ -900,7 +920,8 @@ window.SMR_NEWS = [
     "source": "에너지신문 - 전체기사",
     "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=226238",
     "k": "smr 지산지소형 분산에너지로 국가 전력망 혈 뚫어야",
-    "id": "9b048c62"
+    "id": "9b048c62",
+    "ko": 1
   },
   {
     "date": "2026-06-19",
@@ -914,7 +935,8 @@ window.SMR_NEWS = [
     "source": "투데이에너지 - 전체기사",
     "url": "https://www.todayenergy.kr/news/articleView.html?idxno=299309",
     "k": "남동발전 현대건설 석탄발전 인프라 smr 전환 추진",
-    "id": "5c7bd45c"
+    "id": "5c7bd45c",
+    "ko": 1
   },
   {
     "date": "2026-06-19",
@@ -928,7 +950,8 @@ window.SMR_NEWS = [
     "source": "연합뉴스 경제 최신기사",
     "url": "https://www.yna.co.kr/view/AKR20260619070300052",
     "k": "원전 중심지 경남도 신규 원전 부지 결정 5조 이상 경제효과",
-    "id": "26e5be80"
+    "id": "26e5be80",
+    "ko": 1
   },
   {
     "date": "2026-06-19",
@@ -956,7 +979,8 @@ window.SMR_NEWS = [
     "source": "metroseoul.co.kr",
     "url": "https://www.metroseoul.co.kr/article/20260618500562",
     "k": "경주시 smr 유치 불발에도 원자력산업 육성 지속",
-    "id": "61982a0a"
+    "id": "61982a0a",
+    "ko": 1
   },
   {
     "date": "2026-06-19",
@@ -1012,7 +1036,8 @@ window.SMR_NEWS = [
     "source": "연합뉴스 경제 최신기사",
     "url": "https://www.yna.co.kr/view/AKR20260619093900003",
     "k": "현대건설 남동발전 석탄화력발전소 smr 전환기술 공동개발",
-    "id": "0741a65f"
+    "id": "0741a65f",
+    "ko": 1
   },
   {
     "date": "2026-06-19",
@@ -1040,7 +1065,8 @@ window.SMR_NEWS = [
     "source": "2news.co.kr",
     "url": "https://www.2news.co.kr/news/articleView.html?idxno=11723",
     "k": "현대건설 석탄발전소 smr로 전환 추진",
-    "id": "49d650e9"
+    "id": "49d650e9",
+    "ko": 1
   },
   {
     "date": "2026-06-19",
@@ -1054,7 +1080,8 @@ window.SMR_NEWS = [
     "source": "stnsports.co.kr",
     "url": "https://www.stnsports.co.kr/news/articleView.html?idxno=317997",
     "k": "경주시 smr 유치 불발에도 원자력산업 육성 의지 재확인",
-    "id": "dd07400a"
+    "id": "dd07400a",
+    "ko": 1
   },
   {
     "date": "2026-06-19",
@@ -1096,7 +1123,8 @@ window.SMR_NEWS = [
     "source": "m.ekn.kr",
     "url": "https://m.ekn.kr/view.php?key=20260619020534782",
     "k": "영덕 원전 기장 smr 후보지 선정 건설업계 최대 18조원 잭팟 기대",
-    "id": "dd1382bd"
+    "id": "dd1382bd",
+    "ko": 1
   },
   {
     "date": "2026-06-19",
@@ -1180,7 +1208,8 @@ window.SMR_NEWS = [
     "source": "g-enews.com",
     "url": "https://www.g-enews.com/article/Global-Biz/2026/06/202606200654533634fbbec65dfb_1",
     "k": "맨땅서 9개월 원자로 임계 성공 smr 인프라 아닌 테슬라식 하드웨어 로 진화",
-    "id": "e0eca70a"
+    "id": "e0eca70a",
+    "ko": 1
   },
   {
     "date": "2026-06-19",
@@ -1222,7 +1251,8 @@ window.SMR_NEWS = [
     "source": "esnews.kr",
     "url": "https://www.esnews.kr/news/articleView.html?idxno=4581",
     "k": "태국 smr 시장 열린다 미국 원전 기술 수출 속도전",
-    "id": "21e83ff3"
+    "id": "21e83ff3",
+    "ko": 1
   },
   {
     "date": "2026-06-19",
@@ -1236,7 +1266,8 @@ window.SMR_NEWS = [
     "source": "opinionnews.co.kr",
     "url": "https://www.opinionnews.co.kr/news/articleView.html?idxno=140325",
     "k": "소형모듈원자로 smr 부지 부산 기장 낙점 세계시장에 한국형 원전 모델 제시",
-    "id": "d1ba9676"
+    "id": "d1ba9676",
+    "ko": 1
   },
   {
     "date": "2026-06-19",
@@ -1250,7 +1281,8 @@ window.SMR_NEWS = [
     "source": "edaily.co.kr",
     "url": "https://www.edaily.co.kr/News/Read?newsId=01174246645483688&mediaCodeNo=257",
     "k": "유일 원자로 설계승인 smr 누스케일 관건은 착공",
-    "id": "564edefa"
+    "id": "564edefa",
+    "ko": 1
   },
   {
     "date": "2026-06-19",
@@ -1292,7 +1324,8 @@ window.SMR_NEWS = [
     "source": "mediatoday.co.kr",
     "url": "https://www.mediatoday.co.kr/news/articleView.html?idxno=335271",
     "k": "신규 원전 smr 부지 선정에 환영한 신문사들은",
-    "id": "78d3bbd8"
+    "id": "78d3bbd8",
+    "ko": 1
   },
   {
     "date": "2026-06-19",
@@ -1306,7 +1339,8 @@ window.SMR_NEWS = [
     "source": "esnews.kr",
     "url": "https://www.esnews.kr/news/articleView.html?idxno=4581",
     "k": "태국 smr 시장 열린다 미국 원전수출 속도전 한국 원전산업 전략적 신호",
-    "id": "21e83ff3"
+    "id": "21e83ff3",
+    "ko": 1
   },
   {
     "date": "2026-06-19",
@@ -1334,7 +1368,8 @@ window.SMR_NEWS = [
     "source": "hgnews.co.kr",
     "url": "http://www.hgnews.co.kr/default/index_view_page.php?part_idx=307&idx=58678",
     "k": "책임 있는 진단은 없고 smr 유치 실패에도 원자력 중심도시 만 강조",
-    "id": "2a167350"
+    "id": "2a167350",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -1348,7 +1383,8 @@ window.SMR_NEWS = [
     "source": "sedaily.com",
     "url": "https://www.sedaily.com/article/20057248",
     "k": "부산 기장 국내 첫 혁신형 smr 품었다",
-    "id": "11df7b25"
+    "id": "11df7b25",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -2062,7 +2098,8 @@ window.SMR_NEWS = [
     "source": "yna.co.kr",
     "url": "https://www.yna.co.kr/view/AKR20260618085300053",
     "k": "경주시장 smr 부지 선정 탈락 기대 부응 못해 송구",
-    "id": "74363d0e"
+    "id": "74363d0e",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -2132,7 +2169,8 @@ window.SMR_NEWS = [
     "source": "m.joongdo.co.kr",
     "url": "https://m.joongdo.co.kr/view.php?key=20260618010005328",
     "k": "기장군 혁신형 smr 유치 성공 원자력 신산업 거점 도약",
-    "id": "6c9bf198"
+    "id": "6c9bf198",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -2160,7 +2198,8 @@ window.SMR_NEWS = [
     "source": "joongang.co.kr",
     "url": "https://www.joongang.co.kr/article/25438108",
     "k": "쇳덩이를 돈덩이로 k원전 마법 1400조 smr 시장 휩쓴다 원전심장 다시 뛴다",
-    "id": "382f6cdc"
+    "id": "382f6cdc",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -2202,7 +2241,8 @@ window.SMR_NEWS = [
     "source": "kookje.co.kr",
     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=00&key=20260619.99099005743",
     "k": "뭐라노 기장에 첫 smr 부산 에너지 대전환 중심지로",
-    "id": "c709c34f"
+    "id": "c709c34f",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -2230,7 +2270,8 @@ window.SMR_NEWS = [
     "source": "theguru.co.kr",
     "url": "https://theguru.co.kr/news/article.html?no=103284",
     "k": "에스토니아 smr 추진 관련법 통과 삼성물산 수혜 기대",
-    "id": "ed5f729d"
+    "id": "ed5f729d",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -2328,7 +2369,8 @@ window.SMR_NEWS = [
     "source": "kookje.co.kr",
     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20260619.22003005454",
     "k": "기장 smr 2030년께 착공 전망",
-    "id": "33b3ad61"
+    "id": "33b3ad61",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -2342,7 +2384,8 @@ window.SMR_NEWS = [
     "source": "kookje.co.kr",
     "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20260619.22001005404",
     "k": "기장에 첫 smr 부산 에너지 전환 중심지로",
-    "id": "8502e97e"
+    "id": "8502e97e",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -2370,7 +2413,8 @@ window.SMR_NEWS = [
     "source": "2news.co.kr",
     "url": "https://www.2news.co.kr/news/articleView.html?idxno=11468",
     "k": "경주 smr 유치 실패 원자력 중심 도시 도약은 계속된다",
-    "id": "d38336e1"
+    "id": "d38336e1",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -2384,7 +2428,8 @@ window.SMR_NEWS = [
     "source": "yna.co.kr",
     "url": "https://www.yna.co.kr/view/AKR20260618048551008",
     "k": "특징주 원전주 원전 smr 부지 선정에 올랐다가 상승폭 반납 종합",
-    "id": "cd5db4f2"
+    "id": "cd5db4f2",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -2398,7 +2443,8 @@ window.SMR_NEWS = [
     "source": "straightnews.co.kr",
     "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=305086",
     "k": "경주시 smr 초도호기 탈락 결과 수용 국가산단 문무대왕연구소 차질 없다 정공법",
-    "id": "6629f0cb"
+    "id": "6629f0cb",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -2412,7 +2458,8 @@ window.SMR_NEWS = [
     "source": "shinailbo.co.kr",
     "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5031877",
     "k": "smr 초도호기 유치 불발한 경주 원자력산업 중심도시 전략은 계속",
-    "id": "fc65b5dc"
+    "id": "fc65b5dc",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -2426,7 +2473,8 @@ window.SMR_NEWS = [
     "source": "marketin.edaily.co.kr",
     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=01689206645483360",
     "k": "부산 기장에 smr 소형 원전 블루오션 선점 기회다",
-    "id": "7689f0e4"
+    "id": "7689f0e4",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -2440,7 +2488,8 @@ window.SMR_NEWS = [
     "source": "2news.co.kr",
     "url": "https://www.2news.co.kr/news/articleView.html?idxno=11517",
     "k": "뉴스케일 smr 핵심 안전 시스템 최종 설계 착수",
-    "id": "732b8ba4"
+    "id": "732b8ba4",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -2454,7 +2503,8 @@ window.SMR_NEWS = [
     "source": "chosun.com",
     "url": "https://www.chosun.com/opinion/editorial/2026/06/19/LF36QT5PJRAWNISGACBANYSONA/",
     "k": "사설 국내 첫 smr 확정 반도체 이을 k 원전 미래로 키워야",
-    "id": "0f07ebb3"
+    "id": "0f07ebb3",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -2482,7 +2532,8 @@ window.SMR_NEWS = [
     "source": "esnews.kr",
     "url": "https://www.esnews.kr/news/articleView.html?idxno=4536",
     "k": "33조 투입하는 뉴욕 왜 대형 원전보다 smr 원할까",
-    "id": "6bcb0601"
+    "id": "6bcb0601",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -2510,7 +2561,8 @@ window.SMR_NEWS = [
     "source": "khan.co.kr",
     "url": "https://www.khan.co.kr/article/202606181617001",
     "k": "신규 원전 품은 영덕 smr 놓친 경주 경북 동해안 지자체 간 희비",
-    "id": "9c38e924"
+    "id": "9c38e924",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -2538,7 +2590,8 @@ window.SMR_NEWS = [
     "source": "kyongbuk.co.kr",
     "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4075929",
     "k": "경주 smr 초도호기 고배에도 원전산업 전진 선언",
-    "id": "177ba096"
+    "id": "177ba096",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -2552,7 +2605,8 @@ window.SMR_NEWS = [
     "source": "womentimes.co.kr",
     "url": "https://www.womentimes.co.kr/news/articleView.html?idxno=103728",
     "k": "ai 데이터센터 등 폭증한 전력수요 smr 등 에너지 전환 급부상",
-    "id": "dfdd4d2d"
+    "id": "dfdd4d2d",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -2580,7 +2634,8 @@ window.SMR_NEWS = [
     "source": "safetimes.co.kr",
     "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243582",
     "k": "환경단체 영덕 원전 기장 smr 철회해야",
-    "id": "63af9345"
+    "id": "63af9345",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -2636,7 +2691,8 @@ window.SMR_NEWS = [
     "source": "m-i.kr",
     "url": "https://www.m-i.kr/news/articleView.html?idxno=1382865",
     "k": "경주시 smr 초도호기 결과 수용 원자력산업 육성은 멈추지 않을 것",
-    "id": "9b447a56"
+    "id": "9b447a56",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -2692,7 +2748,8 @@ window.SMR_NEWS = [
     "source": "marketin.edaily.co.kr",
     "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=01262806645483360",
     "k": "오클로 센트러스 에너시와 smr 핵심 연료 공급 계약 체결 주가 강세",
-    "id": "f40eaa61"
+    "id": "f40eaa61",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -2706,7 +2763,8 @@ window.SMR_NEWS = [
     "source": "egn.kr",
     "url": "https://www.egn.kr/news/articleView.html?idxno=209839",
     "k": "경주시 smr 초도호기 부지 선정 결과 수용 원자력산업 육성 지속 추진",
-    "id": "9f701a6d"
+    "id": "9f701a6d",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -2720,7 +2778,8 @@ window.SMR_NEWS = [
     "source": "KAIF 투데이뉴스",
     "url": "https://www.kaif.or.kr/ko/?c=250&s=&gp=1&gbn=view&ix=29924",
     "k": "대형원전 후보 부지에 경북 영덕군 smr 후보 부지는 기장군 확정",
-    "id": "bdea8614"
+    "id": "bdea8614",
+    "ko": 1
   },
   {
     "date": "2026-06-18",
@@ -2776,7 +2835,8 @@ window.SMR_NEWS = [
     "source": "seoul.co.kr",
     "url": "https://www.seoul.co.kr/news/society/2026/06/17/20260617500287",
     "k": "부산 기장군 i smr 건설 부지 선정 부지 적합성 주민 수용성 앞서",
-    "id": "84636e51"
+    "id": "84636e51",
+    "ko": 1
   },
   {
     "date": "2026-06-17",
@@ -2958,7 +3018,8 @@ window.SMR_NEWS = [
     "source": "khan.co.kr",
     "url": "https://www.khan.co.kr/article/202606171929001",
     "k": "속보 신규 대형 원전은 경북 영덕 smr은 부산 기장에",
-    "id": "64de6852"
+    "id": "64de6852",
+    "ko": 1
   },
   {
     "date": "2026-06-17",
@@ -3014,7 +3075,8 @@ window.SMR_NEWS = [
     "source": "yna.co.kr",
     "url": "https://www.yna.co.kr/view/AKR20260617164353003",
     "k": "신규 대형원전 경북 영덕 국내 첫 소형모듈원자로 부산 기장 종합2보",
-    "id": "3ed1debe"
+    "id": "3ed1debe",
+    "ko": 1
   },
   {
     "date": "2026-06-17",
@@ -3084,7 +3146,8 @@ window.SMR_NEWS = [
     "source": "mk.co.kr",
     "url": "https://www.mk.co.kr/en/business/12076788",
     "k": "south korea s first small modular reactor moves ahead expanding k nuclear power export reach",
-    "id": "715bee79"
+    "id": "715bee79",
+    "ko": 1
   },
   {
     "date": "2026-06-17",
@@ -3112,7 +3175,8 @@ window.SMR_NEWS = [
     "source": "에너지신문 - 전체기사",
     "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=226173",
     "k": "신규원전 후보지 확정 주민수용성 부지적정성 이 승부 갈랐다",
-    "id": "4b1076c2"
+    "id": "4b1076c2",
+    "ko": 1
   },
   {
     "date": "2026-06-17",
@@ -3196,7 +3260,8 @@ window.SMR_NEWS = [
     "source": "joongang.co.kr",
     "url": "https://www.joongang.co.kr/article/25437644",
     "k": "신규 대형원전은 경북 영덕 국내 첫 smr은 부산 기장에 짓는다",
-    "id": "d8bc4666"
+    "id": "d8bc4666",
+    "ko": 1
   },
   {
     "date": "2026-06-17",
@@ -3210,7 +3275,8 @@ window.SMR_NEWS = [
     "source": "yna.co.kr",
     "url": "https://www.yna.co.kr/amp/view/AKR20260617164500530",
     "k": "신규 대형원전 smr 후보지 선정 전력수요 급증 전망에 속도",
-    "id": "152b89a3"
+    "id": "152b89a3",
+    "ko": 1
   },
   {
     "date": "2026-06-17",
@@ -3224,7 +3290,8 @@ window.SMR_NEWS = [
     "source": "esnews.kr",
     "url": "https://www.esnews.kr/news/articleView.html?idxno=4532",
     "k": "코어파워 해상 원전 smr 타당성 조사 착수",
-    "id": "7971ad35"
+    "id": "7971ad35",
+    "ko": 1
   },
   {
     "date": "2026-06-17",
@@ -3252,7 +3319,8 @@ window.SMR_NEWS = [
     "source": "yna.co.kr",
     "url": "https://www.yna.co.kr/amp/view/MYH20260617018100038",
     "k": "신규 대형원전 부지 경북 영덕 smr은 부산 기장",
-    "id": "5cacd3bf"
+    "id": "5cacd3bf",
+    "ko": 1
   },
   {
     "date": "2026-06-17",
@@ -3294,7 +3362,8 @@ window.SMR_NEWS = [
     "source": "imaeil.com",
     "url": "https://www.imaeil.com/page/view/2026061718454937192",
     "k": "smr 놓친 경주 정치적 고려에 희생 당해 실망감과 강력 반발",
-    "id": "20b4bc67"
+    "id": "20b4bc67",
+    "ko": 1
   },
   {
     "date": "2026-06-17",
@@ -3322,7 +3391,8 @@ window.SMR_NEWS = [
     "source": "yna.co.kr",
     "url": "https://www.yna.co.kr/amp/view/AKR20260617164352003",
     "k": "신규 대형원전 경북 영덕 소형모듈원자로 1호기 부산 기장 종합",
-    "id": "bdda6cdb"
+    "id": "bdda6cdb",
+    "ko": 1
   },
   {
     "date": "2026-06-17",
@@ -3350,7 +3420,8 @@ window.SMR_NEWS = [
     "source": "biz.chosun.com",
     "url": "https://biz.chosun.com/industry/company/2026/06/17/2SGB24DXWVDMLICH3K33NJ6PFU/",
     "k": "신규 대형 원전은 영덕 smr 1호는 기장 진통 끝 부지 선정 완료 조선비즈",
-    "id": "40c0e49f"
+    "id": "40c0e49f",
+    "ko": 1
   },
   {
     "date": "2026-06-17",
@@ -3364,7 +3435,8 @@ window.SMR_NEWS = [
     "source": "seoul.co.kr",
     "url": "https://www.seoul.co.kr/news/economy/2026/06/17/20260617500282",
     "k": "신규 대형 원전 경북 영덕 부산 기장 국내 첫 smr 건설",
-    "id": "87c350e8"
+    "id": "87c350e8",
+    "ko": 1
   },
   {
     "date": "2026-06-17",
@@ -3392,7 +3464,8 @@ window.SMR_NEWS = [
     "source": "news.kbs.co.kr",
     "url": "https://news.kbs.co.kr/news/view.do?ncd=8588916",
     "k": "한국 1호 smr ai 전력난 게임체인저 될까",
-    "id": "678bf9b2"
+    "id": "678bf9b2",
+    "ko": 1
   },
   {
     "date": "2026-06-17",
@@ -3406,7 +3479,8 @@ window.SMR_NEWS = [
     "source": "yna.co.kr",
     "url": "https://www.yna.co.kr/view/AKR20260617168100051",
     "k": "부산시 기장군 국내 첫 원전 들어선 기장에서 smr 시작 큰 의미",
-    "id": "b8a884c6"
+    "id": "b8a884c6",
+    "ko": 1
   },
   {
     "date": "2026-06-17",
@@ -3420,7 +3494,8 @@ window.SMR_NEWS = [
     "source": "news.kbs.co.kr",
     "url": "https://news.kbs.co.kr/news/view.do?ncd=8588748",
     "k": "한수원 대형 원전 2기 경북 영덕 smr 1기 부산 기장 후보 부지 로 선정",
-    "id": "5169f5d7"
+    "id": "5169f5d7",
+    "ko": 1
   },
   {
     "date": "2026-06-17",
@@ -3448,7 +3523,8 @@ window.SMR_NEWS = [
     "source": "energydaily.co.kr",
     "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=200532",
     "k": "신규원전 후보부지 대형원전 영덕군 smr 기장군 선정",
-    "id": "8275d113"
+    "id": "8275d113",
+    "ko": 1
   },
   {
     "date": "2026-06-17",
@@ -3462,7 +3538,8 @@ window.SMR_NEWS = [
     "source": "khan.co.kr",
     "url": "https://www.khan.co.kr/article/202606172101001",
     "k": "신규 원전 smr 부지 영덕 기장 선정에 환경단체 에너지 식민 정책 비판",
-    "id": "3d095138"
+    "id": "3d095138",
+    "ko": 1
   },
   {
     "date": "2026-06-17",
@@ -3476,7 +3553,8 @@ window.SMR_NEWS = [
     "source": "todayenergy.kr",
     "url": "https://www.todayenergy.kr/news/articleView.html?idxno=299217",
     "k": "신규원전 부지 대형원전 영덕군 smr 기장군 선정",
-    "id": "869181d1"
+    "id": "869181d1",
+    "ko": 1
   },
   {
     "date": "2026-06-17",
@@ -3588,7 +3666,8 @@ window.SMR_NEWS = [
     "source": "dnews.co.kr",
     "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202606171936229470789",
     "k": "신규 원전 입지 베일 벗었다 대형원전 경북 영덕 smr 부산 기장 선정",
-    "id": "f88f4a33"
+    "id": "f88f4a33",
+    "ko": 1
   },
   {
     "date": "2026-06-17",
@@ -3686,7 +3765,8 @@ window.SMR_NEWS = [
     "source": "에너지데일리 - 전체기사",
     "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=200452",
     "k": "분산에너지 특화지역 smr 등 직접거래 허용 검토해야",
-    "id": "993e61bf"
+    "id": "993e61bf",
+    "ko": 1
   },
   {
     "date": "2026-06-16",
@@ -4456,7 +4536,8 @@ window.SMR_NEWS = [
     "source": "chosun.com",
     "url": "https://www.chosun.com/english/world-en/2026/06/13/GBJVUNI2VZDM7ITMYKLG22ZSMU/",
     "k": "japan u s partner on 65 billion smr project",
-    "id": "579007c2"
+    "id": "579007c2",
+    "ko": 1
   },
   {
     "date": "2026-06-14",
@@ -4470,7 +4551,8 @@ window.SMR_NEWS = [
     "source": "g-enews.com",
     "url": "https://www.g-enews.com/article/Global-Biz/2026/06/202606150558242652fbbec65dfb_1",
     "k": "smr 선두 뉴스케일 10억 불 실탄에도 첫 수익 2030년 지금 들어가도 되나",
-    "id": "deb79fd0"
+    "id": "deb79fd0",
+    "ko": 1
   },
   {
     "date": "2026-06-14",
@@ -4512,7 +4594,8 @@ window.SMR_NEWS = [
     "source": "imaeil.com",
     "url": "https://www.imaeil.com/page/view/2026061109010642168",
     "k": "기고 김석기 smr 원전의 경주 유치가 국익",
-    "id": "08214ed1"
+    "id": "08214ed1",
+    "ko": 1
   },
   {
     "date": "2026-06-13",
@@ -4666,7 +4749,8 @@ window.SMR_NEWS = [
     "source": "chosun.com",
     "url": "https://www.chosun.com/english/world-en/2026/06/12/4BEG7YE3HZFYHAU4QQBS56OI7Y/",
     "k": "japan invests 65 billion in u s smr projects",
-    "id": "c2567f31"
+    "id": "c2567f31",
+    "ko": 1
   },
   {
     "date": "2026-06-12",
@@ -4750,7 +4834,8 @@ window.SMR_NEWS = [
     "source": "biz.newdaily.co.kr",
     "url": "https://biz.newdaily.co.kr/site/data/html/2026/06/12/2026061200071.html",
     "k": "smr 건설주 하반기 대미투자 수혜주로 뜨나",
-    "id": "54bafaf5"
+    "id": "54bafaf5",
+    "ko": 1
   },
   {
     "date": "2026-06-12",
@@ -4764,7 +4849,8 @@ window.SMR_NEWS = [
     "source": "chosun.com",
     "url": "https://www.chosun.com/international/international_general/2026/06/12/2FUH6MF5LRAUDBHCTSRSEIAORY/",
     "k": "smr에 100조원 투자 러트닉 상무 미일 세계 smr 선도할 것",
-    "id": "250e0ada"
+    "id": "250e0ada",
+    "ko": 1
   },
   {
     "date": "2026-06-12",
@@ -4890,7 +4976,8 @@ window.SMR_NEWS = [
     "source": "joongang.co.kr",
     "url": "https://www.joongang.co.kr/article/25436226",
     "k": "투자금 105조원으로 원전 짓는다 트럼프 smr 세계 주도",
-    "id": "a711110f"
+    "id": "a711110f",
+    "ko": 1
   },
   {
     "date": "2026-06-12",
@@ -5030,7 +5117,8 @@ window.SMR_NEWS = [
     "source": "inpnews.kr",
     "url": "http://www.inpnews.kr/news/articleView.html?idxno=7133",
     "k": "원자력 조선 해양학회 smr 선박 개발 지지 공동선언",
-    "id": "c1c99c1a"
+    "id": "c1c99c1a",
+    "ko": 1
   },
   {
     "date": "2026-06-11",
@@ -5240,7 +5328,8 @@ window.SMR_NEWS = [
     "source": "khan.co.kr",
     "url": "https://www.khan.co.kr/article/202606101132021",
     "k": "경남도 원전 투자펀드 첫 주인공 선정 글로벌 smr 시장 선점 시동",
-    "id": "deae61e7"
+    "id": "deae61e7",
+    "ko": 1
   },
   {
     "date": "2026-06-10",
@@ -5254,7 +5343,8 @@ window.SMR_NEWS = [
     "source": "news1.kr",
     "url": "https://www.news1.kr/politics/president/6193793",
     "k": "한 eu 경제안보 에너지 고위급 대화 출범 smr 등 저탄소 협력 추진",
-    "id": "7028c3e4"
+    "id": "7028c3e4",
+    "ko": 1
   },
   {
     "date": "2026-06-10",
@@ -5310,7 +5400,8 @@ window.SMR_NEWS = [
     "source": "g-enews.com",
     "url": "https://www.g-enews.com/article/Global-Biz/2026/06/202606110633303976fbbec65dfb_1",
     "k": "smr 4기 부지 재활용 승부수 홀텍 퇴역 원전으로 ai 전력 병목 뚫는다",
-    "id": "0ba5b571"
+    "id": "0ba5b571",
+    "ko": 1
   },
   {
     "date": "2026-06-10",
@@ -5380,7 +5471,8 @@ window.SMR_NEWS = [
     "source": "KAIF 투데이뉴스",
     "url": "https://www.kaif.or.kr/ko/?c=250&s=&gp=1&gbn=view&ix=29906",
     "k": "원자력연 소형 원자로 기반 자동차운반선 기본승인 획득",
-    "id": "3fefcfe8"
+    "id": "3fefcfe8",
+    "ko": 1
   },
   {
     "date": "2026-06-09",
@@ -5506,7 +5598,8 @@ window.SMR_NEWS = [
     "source": "KAIF 투데이뉴스",
     "url": "https://www.kaif.or.kr/ko/?c=250&s=&gp=1&gbn=view&ix=29901",
     "k": "빌게이츠 손잡고 한미 원전 협력 ai 에너지 주도권 선점",
-    "id": "46efdaed"
+    "id": "46efdaed",
+    "ko": 1
   },
   {
     "date": "2026-06-07",
@@ -5672,7 +5765,8 @@ window.SMR_NEWS = [
     "source": "KAIF 투데이뉴스",
     "url": "https://www.kaif.or.kr/ko/?c=250&s=&gp=1&gbn=view&ix=29898",
     "k": "빌 게이츠 sk가 점찍은 미래 원전 현장을 가다",
-    "id": "2670807c"
+    "id": "2670807c",
+    "ko": 1
   },
   {
     "date": "2026-06-04",
@@ -5713,7 +5807,8 @@ window.SMR_NEWS = [
     "source": "chosun.com",
     "url": "https://www.chosun.com/english/world-en/2026/06/05/CQVDQ4PBUZEYLLTVEISRVVJFMI/",
     "k": "terrapower starts first u s commercial smr construction in wyoming",
-    "id": "24dc0d8b"
+    "id": "24dc0d8b",
+    "ko": 1
   },
   {
     "date": "2026-06-04",
@@ -5755,7 +5850,8 @@ window.SMR_NEWS = [
     "source": "chosun.com",
     "url": "https://www.chosun.com/international/us/2026/06/05/FLWG4MFLSRAW3G6EPL5MZP2YXU/",
     "k": "smr은 안전 인구 밀집 지역에 건설해도 문제 없어",
-    "id": "288db57d"
+    "id": "288db57d",
+    "ko": 1
   },
   {
     "date": "2026-06-04",
@@ -5797,7 +5893,8 @@ window.SMR_NEWS = [
     "source": "chosun.com",
     "url": "https://www.chosun.com/english/world-en/2026/06/04/2ZDECEJD2BC2LLPIVEU3TU7DOQ/",
     "k": "us approves first commercial smr in 40 years powers ai era",
-    "id": "fe7109c3"
+    "id": "fe7109c3",
+    "ko": 1
   },
   {
     "date": "2026-06-04",
@@ -5937,7 +6034,8 @@ window.SMR_NEWS = [
     "source": "KAIF 투데이뉴스",
     "url": "https://www.kaif.or.kr/ko/?c=250&s=&gp=1&gbn=view&ix=29895",
     "k": "초소형원자로 mmr 한미 우주협력 새 카드 되나",
-    "id": "2b70885b"
+    "id": "2b70885b",
+    "ko": 1
   },
   {
     "date": "2026-06-04",
@@ -6018,7 +6116,8 @@ window.SMR_NEWS = [
     "source": "joongang.co.kr",
     "url": "https://www.joongang.co.kr/article/25433919",
     "k": "미래 원전 smr 짓는 빌 게이츠 sk 등 기업이 날개 달았다 르포",
-    "id": "55ffa0c9"
+    "id": "55ffa0c9",
+    "ko": 1
   },
   {
     "date": "2026-06-03",
@@ -7931,7 +8030,8 @@ window.SMR_NEWS = [
     "source": "hani.co.kr",
     "url": "https://www.hani.co.kr/arti/society/environment/1246870.html",
     "k": "혁신형 smr 원안위에 표준설계인가 신청 본격적 인허가 단계 진입",
-    "id": "89325b84"
+    "id": "89325b84",
+    "ko": 1
   },
   {
     "date": "2026-02-27",
@@ -9162,7 +9262,8 @@ window.SMR_NEWS = [
     "source": "KAERI",
     "url": "https://kaeri.re.kr/board/view?linkId=12112&menuId=MENU00326",
     "summaryLong": "한국원자력연구원(KAERI)이 개발한 소형모듈로(SMR) SMART100이 국내 표준설계인가를 취득했다. SMART100은 166 MWth급 통합형 원전으로, 한국 기술의 우수성을 국제적으로 입증하는 의미를 가진다. 이를 통해 사우디아라비아 수출 및 현대엔지니어링과의 협력이 구체화될 것으로 예상되며, 향후 한국의 SMR 해외 수출 전략 추진에 중추적 역할을 할 것으로 전망된다.",
-    "id": "5661c65a"
+    "id": "5661c65a",
+    "ko": 1
   },
   {
     "date": "2023-01",

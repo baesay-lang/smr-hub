@@ -76,7 +76,8 @@ const HEADER = `/* ============================================================
    Auto-updated by scripts/track-news.mjs (GitHub Actions); changes land via PR.
    Schema: date, title, summary, cat(인허가|계약|투자|기술|정책),
            type(General|PWR|BWR|SFR|HTGR|FHR|MSR|Micro), dev, region, source, url, k(internal dedup key)
-   Optional: summaryLong (2~3문장 — 홈 피처드 카드에서 summary 대신 표시)
+   Optional: summaryLong (2~3문장 — 홈 피처드 카드에서 summary 대신 표시),
+            ko(1=한국어 출처 → 영문 전문 생략), op(1=미확인·추측성 보도 → UI 배지)
    ============================================================ */
 window.SMR_NEWS = `;
 
@@ -259,9 +260,11 @@ function classifyPrompt(input){
  "cat":${JSON.stringify(VALIDCAT)} 중 하나(건설허가·운영허가·설계인증·규제 신청/접수/도케팅·GDA·VDR·표준설계인가=인허가; 계약·MOU·부품 공급/수주·PPA·합작·파트너십=계약; 투자·펀딩·지분·IPO=투자; 정부 정책·규제 발효·국책 프로그램=정책; 그 외 기술·시운전·마일스톤=기술),
  "type":${JSON.stringify(VALIDTYPE)} 중 하나(마이크로/초소형로=Micro, 소듐냉각고속로=SFR, 고온가스로=HTGR, 용융염=MSR, 가압/비등경수로=PWR/BWR; 특정 노형 불명확하면 "General"),
  "dev":개발사/기관 짧은 이름 또는 "",
- "region":"US"|"KR"|"UK"|"CA"|"DK"|"EU"|"JP"|"" }
+ "region":"US"|"KR"|"UK"|"CA"|"DK"|"EU"|"JP"|"",
+ "op":추측·전망·루머·인수설·사설/칼럼 등 '미확인 보도'면 1, 공식 발표·확인된 사실 보도면 0 }
 [중요] cat 분류 규칙을 엄격히 적용하라: 제목·요약에 MOU·양해각서·협약·공급계약·수주·PPA·합작·파트너십 체결이 있으면 반드시 "계약"; 인가·인증·허가·건설허가·운영허가·설계인증·GDA·VDR·표준설계·안전분석 승인이면 "인허가"; IPO·상장·투자·펀딩·지분 인수·자금 조달이면 "투자"; 정부 정책·행정명령·보조금·국책 프로그램이면 "정책". 이 신호가 분명하면 절대 "기술"로 분류하지 마라. "기술"은 위 어디에도 해당 안 되는 순수 기술·시운전·마일스톤에만 쓴다.
 [표기] titleKo·summary·summaryLong 모두에서, 외국 지명·기관명·인명·전문용어·약어는 '한글(English)' 형태로 영문을 괄호 병기하라(예: 오버레이설주(Overijssel), 예비안전분석(PDSA), 미국 에너지부(DOE), 가압경수로(PWR)). 영문 명칭은 정확히 쓰고, 한국 고유명사나 이미 병기된 경우는 중복하지 마라. 고유명사 음역은 통용 표기를 쓴다(예: Oklo=오클로, NuScale=뉴스케일, X-energy=엑스에너지, TerraPower=테라파워, Kairos=카이로스).
+[추측 판정] op=1 조건: 제목·내용이 "~할까/~하나/인수설/추진 검토/가능성 제기/전망/관측/~로 보인다/~할 듯" 등 확정되지 않은 추측·루머·전망이거나, 사실 보도가 아닌 칼럼·사설·오피니언일 때. 공식 발표·계약 체결·인허가 승인·실적 등 확인된 사실 보도는 op=0.
 반드시 입력과 같은 순서로, 오직 JSON 배열만 출력하라. 설명 금지.
 입력:
 ${JSON.stringify(input)}`;
@@ -434,7 +437,7 @@ async function resolveGoogleNews(url){
    digest covering all key points — NOT a verbatim copy (copyright). */
 async function generateDetail(item, body){
   // Korean article → no English (source may now be a domain, so use region/.kr too)
-  const isKo = item.region === 'KR' || /[가-힣]/.test(item.source || '') || /\.kr(\/|$)/.test(item.url || '') || /\.co\.kr/.test(item.url || '');
+  const isKo = item.ko === 1 || item.region === 'KR' || /[가-힣]/.test(item.source || '') || /\.kr(\/|$)/.test(item.url || '') || /\.co\.kr/.test(item.url || '');
   const hasBody = !!(body && body.length > 200);
   const src = hasBody ? ('원문 본문:\n' + body) : ('제목: ' + item.title + '\n요약: ' + (item.summaryLong || item.summary || ''));
   const koLine = hasBody
@@ -608,6 +611,10 @@ async function main(){
       source: src.source,
       url: src.link,
       k: src.key,
+      // ko: source-LANGUAGE flag (original RSS title has Hangul) — separate from region(topic geo),
+      // so a Korean-outlet article about a US topic (e.g. g-enews on .com) still drops the English 전문
+      ko: /[가-힣]/.test(src.title || '') ? 1 : undefined,
+      op: c.op ? 1 : undefined,   // 미확인·추측성 보도 플래그 → UI 배지
     });
   });
 
