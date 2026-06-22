@@ -245,6 +245,104 @@ window.SMR_NEWS = [
     "id": "75f8b02b"
   },
   {
+    "date": "2026-06-22",
+    "title": "Elementl, 오하이오에 1.5GW SMR 플랜트 건설 계획…GE Vernova(GE 베르노바) Hitachi와 BWRX-300 도입 합의",
+    "summary": "원자력 개발사 Elementl Power(엘레멘틀 파워)가 오하이오 남동부에 최대 1.5GW 규모의 원자력발전소 건설 계획을 발표했으며, GE Vernova Hitachi의 BWRX-300 소형모듈원자로(SMR) 도입을 위한 초기 협력 양해각서를 체결했다.",
+    "summaryLong": "원자력 프로젝트 개발사 Elementl Power(엘레멘틀 파워)가 6월 18일 오하이오 남동부에 최대 1.5GW 규모의 원자력발전소 건설 계획을 공식 발표했다. 동사는 이미 GE Vernova(GE 베르노바) Hitachi와의 초기 협력 양해각서를 체결하여 동사의 BWRX-300 소형모듈원자로(SMR) 도입을 추진 중이다. 계획에 따르면 첫 번째 발전소의 건설은 2030년부터 시작될 예정이다. 이는 오하이오 지역을 SMR 허브로 육성하려는 움직임의 일환으로, 차세대 원자력 에너지 개발의 진전을 보여주는 사례다.",
+    "cat": "계약",
+    "type": "BWR",
+    "dev": "Elementl",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-06-22/article-8135/elementl-plans-ohio-nuclear-plant-oklo-centrus-sign-ohiocentered-loi/",
+    "k": "elementl plans ohio nuclear plant oklo centrus sign ohio centered loi",
+    "id": "abd60729"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "폴란드 SMR 경쟁 가속화…OSGE, BWRX-300 연료·소프트웨어 사전심사 신청",
+    "summary": "폴란드의 OSGE(오로쉬 스페시알리스트 그룹 엔터프라이즈)가 BWRX-300 소형모듈원자로의 연료와 소프트웨어에 대해 규제 사전심사를 신청했다.",
+    "summaryLong": "폴란드의 핵심 기업인 OSGE(오로쉬 스페셜리스트 그룹 엔터프라이즈)가 GE Vernova Hitachi의 BWRX-300 소형모듈원자로(SMR) 도입을 위해 연료 및 소프트웨어에 대한 규제 사전심사(Pre-assessment) 신청을 추진하고 있다. 이는 폴란드의 SMR 도입 속도전이 가속화되고 있음을 보여주며, 설계인증 및 인허가 준비 단계로의 진입을 의미한다.",
+    "cat": "기술",
+    "type": "BWR",
+    "dev": "GE Vernova",
+    "region": "EU",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4622",
+    "k": "폴란드 smr 속도전 osge bwrx 300 연료 소프트웨어 사전심사 요청",
+    "id": "56decebc"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "Oklo(오클로), 미국 에너지부(DOE) 안전승인 획득…Aurora Powerhouse 첫 구축 단계 진입",
+    "summary": "Oklo(오클로)의 Aurora Powerhouse 소형모듈원자로가 미국 에너지부(DOE)로부터 안전 승인을 획득했다.",
+    "summaryLong": "선진로 개발기업 Oklo(오클로)가 자사의 Aurora Powerhouse 소형모듈원자로에 대해 미국 에너지부(DOE)로부터 안전 승인을 획득했다. 이는 프로젝트의 주요 규제 마일스톤으로, 첫 번째 발전소 건설 단계로의 진입을 의미한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-oklo-wins-doe-safety-210710847.html",
+    "k": "oklo oklo wins doe safety approval for first aurora powerhouse build",
+    "id": "b08389fb"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "Centrus와의 협력 강화로 Oklo(오클로) 핵-AI 파워 가설 보강",
+    "summary": "Oklo(오클로)가 Centrus와의 협력 협약을 체결하여 핵연료-AI 통합 사업 전망을 강화하고 있다.",
+    "summaryLong": "선진로 개발기업 Oklo(오클로)가 핵연료 전문기업 Centrus(센트러스)와의 협력 협약을 체결했으며, 이를 통해 소형모듈원자로(SMR) 운영에 인공지능(AI) 기술을 통합하는 핵-AI 파워 전략의 실현 가능성을 높이고 있다. 이 협력은 Oklo의 사업 확장과 시장 경쟁력 강화를 의미한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo,Centrus",
+    "region": "US",
+    "source": "barchart.com",
+    "url": "https://www.barchart.com/story/news/2586650/centrus-agreement-strengthens-oklo-stocks-nuclear-ai-power-thesis",
+    "k": "centrus agreement strengthens oklo stock s nuclear ai power thesis",
+    "id": "017a9dc9"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "SMR 전문가 400명 창원에 모인다…경남도 글로벌 공급망 선점 노린다",
+    "summary": "경남도가 2026년 11월 창원에서 글로벌 SMR 국제콘퍼런스를 개최하여 국내외 SMR 전문가 400명을 집결시킬 계획이다. 이는 지역의 SMR 공급망 육성 및 글로벌 거점화를 목표로 한다.",
+    "summaryLong": "경남도가 2026년 11월 창원(Changwon)에서 경남 SMR(소형모듈원자로) 국제콘퍼런스를 개최하여 국내외 SMR 분야 전문가 400여 명을 집결시킬 예정이다. 이 행사는 경남도가 글로벌 SMR 공급망 선점을 노리며 지역을 SMR 산업의 국제 거점으로 육성하려는 전략의 일환이다. SMR 시장의 성장에 대응하여 경남 지역의 산업 생태계 강화와 국제적 위상 제고를 기대하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "sedaily.com",
+    "url": "https://www.sedaily.com/article/20058566",
+    "k": "smr 전문가 400명 창원에 모인다 경남도 글로벌 공급망 선점 노린다",
+    "id": "1c0d297b"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "국내 첫 SMR 후보부지에 '기장' 선정, 부산 에너지산업 거점 기대",
+    "summary": "국내 첫 소형모듈원자로(SMR) 건설 후보부지로 부산 기장(Gijang)이 선정되었다. 이는 부산 지역을 에너지산업 거점으로 육성하려는 정책의 일환이다.",
+    "summaryLong": "국내 첫 소형모듈원자로(SMR) 건설 후보부지로 부산 기장(Gijang)이 선정되었다. 이는 경주(Gyeongju) 등 여러 지역이 SMR 건설 적지임을 제시했던 가운데 이루어진 결정이다. 기장 부지 선정으로 부산이 차세대 원전 에너지산업의 거점으로 자리잡을 것으로 기대되며, 건설업계의 관심이 집중되고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "pressian.com",
+    "url": "https://www.pressian.com/pages/articles/2026062211335334065",
+    "k": "국내 첫 smr 후보부지에 기장 부산 에너지산업 거점 기대",
+    "id": "6c636cc1"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "경남도, 11월 17일 창원서 '2026 SMR 국제콘퍼런스' 개최",
+    "summary": "경남도가 11월 17일 창원에서 2026 SMR 국제콘퍼런스를 개최하여 국내외 전문가 400여 명을 집결시킨다.",
+    "summaryLong": "경남도가 11월 17일 창원(Changwon)에서 2026 소형모듈원자로(SMR) 국제콘퍼런스를 개최할 예정이다. 이 행사에는 국내외 SMR 분야 전문가 400여 명이 참석하여 산업 동향, 기술, 정책 등을 논의할 것으로 기대된다. 경남도는 이를 통해 지역의 SMR 산업 육성 및 국제적 위상 강화를 도모하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "newfilenews.com",
+    "url": "https://www.newfilenews.com/news/articleView.html?idxno=45035",
+    "k": "경남도 11월 17일 창원서 2026 smr 국제콘퍼런스 개최 국내외 전문가 400여 명 집결",
+    "id": "ca49adf9"
+  },
+  {
     "date": "2026-06-21",
     "title": "센트러스 에너지(Centrus Energy), 오클로(Oklo)의 HALEU 계약 체결로 주가 저평가 가능성",
     "summary": "센트러스 에너지(Centrus Energy)가 오클로(Oklo)와 HALEU(고농축우라늄) 공급 계약을 체결하면서 주가 저평가 논의가 제기되고 있다.",
@@ -425,6 +523,20 @@ window.SMR_NEWS = [
     "url": "https://www.kbmaeil.com/article/20260621500436",
     "k": "경주 smr 유치 무산 반전 기회 잡아야",
     "id": "dbe6758e"
+  },
+  {
+    "date": "2026-06-21",
+    "title": "남동발전·현대건설, 폐석탄발전소 SMR 전환 기술개발 MOU 체결",
+    "summary": "남동발전과 현대건설이 폐석탄발전소를 SMR로 전환하는 기술개발을 위한 MOU를 체결했다.",
+    "summaryLong": "남동발전(Korea South-East Power Co., Ltd.)과 현대건설(Hyundai Engineering and Construction)이 폐석탄발전소를 소형모듈원자로(SMR)로 전환하는 기술개발을 위한 양해각서(MOU)를 체결했다. 이는 기존 석탄발전 인프라를 활용하여 SMR 도입을 추진하는 전략적 협력으로, 탄소중립 에너지 전환과 SMR 국산화를 동시에 추진하려는 의도를 보여준다. 구체적인 개발 일정과 기술 사양에 대한 상세 정보는 제공되지 않았다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "남동발전·현대건설",
+    "region": "KR",
+    "source": "gndomin.com",
+    "url": "http://www.gndomin.com/news/articleView.html?idxno=479409",
+    "k": "남동발전 현대건설 폐석탄발전소 smr 전환 기술개발 mou 체결",
+    "id": "bc74862b"
   },
   {
     "date": "2026-06-20",
@@ -9038,4 +9150,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-22 19:30 KST";
+window.SMR_UPDATED = "2026-06-23 08:05 KST";
