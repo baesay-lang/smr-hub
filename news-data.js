@@ -16,7 +16,7 @@ window.SMR_NEWS = [
     "dev": "Oklo",
     "region": "US",
     "source": "simplywall.st",
-    "url": "https://simplywall.st/stocks/us/energy/nyse-leu/centrus-energy/news/centrus-energy-leu-stock-could-be-42-below-fair-value-after\",1,\"https://simplywall.st/stocks/us/energy/nyse-leu/centrus-energy/news/centrus-energy-leu-stock-could-be-42-below-fair-value-after/amp\"]",
+    "url": "https://simplywall.st/stocks/us/energy/nyse-leu/centrus-energy/news/centrus-energy-leu-stock-could-be-42-below-fair-value-after",
     "k": "centrus energy leu stock could be 42 below fair value after oklo haleu deal",
     "id": "91b47526"
   },
@@ -30,7 +30,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "m-i.kr",
-    "url": "https://www.m-i.kr/news/articleView.html?idxno\\u003d1383332\",1]",
+    "url": "https://www.m-i.kr/news/articleView.html?idxno=1383332",
     "k": "유력 대미 1호 에 국내 사업 시동까지 k smr 초읽기",
     "id": "dc2af34a"
   },
@@ -44,7 +44,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "",
     "source": "oilprice.com",
-    "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Whatever-Happened-to-the-Small-Modular-Reactor-Revolution.html\",1,\"https://oilprice.com/Alternative-Energy/Nuclear-Power/Whatever-Happened-to-the-Small-Modular-Reactor-Revolution.amp.html\"]",
+    "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Whatever-Happened-to-the-Small-Modular-Reactor-Revolution.html",
     "k": "whatever happened to the small modular reactor revolution crude oil prices today",
     "id": "5fb5330f"
   },
@@ -58,7 +58,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "US",
     "source": "interestingengineering.com",
-    "url": "https://interestingengineering.com/energy/us-nuclear-plant-project-modular-reactors\",1]",
+    "url": "https://interestingengineering.com/energy/us-nuclear-plant-project-modular-reactors",
     "k": "us firm unveils 1 5 gw nuclear plant project with 300 mw small modular reactors",
     "id": "ddb2ea12"
   },
@@ -72,7 +72,7 @@ window.SMR_NEWS = [
     "dev": "두산(Doosan)",
     "region": "KR",
     "source": "g-enews.com",
-    "url": "https://www.g-enews.com/article/Global-Biz/2026/06/20260622063323547fbbec65dfb_1\",1]",
+    "url": "https://www.g-enews.com/article/Global-Biz/2026/06/20260622063323547fbbec65dfb_1",
     "k": "두산 smr 핵심 공급망 선점 제조 병목이 부른 락인 기회",
     "id": "e4fc1e86"
   },
@@ -86,7 +86,7 @@ window.SMR_NEWS = [
     "dev": "삼성·현대·대우건설",
     "region": "KR",
     "source": "it.chosun.com",
-    "url": "https://it.chosun.com/news/articleView.html?idxno\\u003d2023092164288\",1,\"https://it.chosun.com/news/articleViewAmp.html?idxno\\u003d2023092164288\"]",
+    "url": "https://it.chosun.com/news/articleView.html?idxno=2023092164288",
     "k": "삼성 현대 대우건설 국내 원전 훈풍 해외 smr까지 분다",
     "id": "8cf54a89"
   },
@@ -100,7 +100,7 @@ window.SMR_NEWS = [
     "dev": "NuScale",
     "region": "US",
     "source": "finance.yahoo.com",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/10-years-wish-youd-bought-142500302.html\",1]",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/10-years-wish-youd-bought-142500302.html",
     "k": "in 10 years will you wish you d bought nuscale power stock right now",
     "id": "4be02309"
   },
@@ -114,7 +114,7 @@ window.SMR_NEWS = [
     "dev": "NuScale",
     "region": "US",
     "source": "ts2.tech",
-    "url": "https://ts2.tech/en/nuscale-power-eyes-week-after-14-gain-and-paragon-smr-deal/\",1]",
+    "url": "https://ts2.tech/en/nuscale-power-eyes-week-after-14-gain-and-paragon-smr-deal/",
     "k": "nuscale power eyes week after 14 gain and paragon smr deal",
     "id": "b1e2d6ce"
   },
@@ -128,7 +128,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "imaeil.com",
-    "url": "https://www.imaeil.com/page/view/2026062111011024780\",1]",
+    "url": "https://www.imaeil.com/page/view/2026062111011024780",
     "k": "자타공인 경주는 smr 건설 적지 도전은 계속된다",
     "id": "8bf14c4e"
   },
@@ -142,7 +142,7 @@ window.SMR_NEWS = [
     "dev": "NuScale",
     "region": "US",
     "source": "foreignpolicyjournal.com",
-    "url": "https://www.foreignpolicyjournal.com/2026/06/21/nuscale-power-nyse-smr-stock-price-sits-near-lows-as-smr-boom-looms-is-now-the-time-to-buy/\",1]",
+    "url": "https://www.foreignpolicyjournal.com/2026/06/21/nuscale-power-nyse-smr-stock-price-sits-near-lows-as-smr-boom-looms-is-now-the-time-to-buy/",
     "k": "nuscale power nyse smr stock price sits near lows as smr boom looms is now the time to buy",
     "id": "527488ef"
   },
@@ -156,7 +156,7 @@ window.SMR_NEWS = [
     "dev": "국립한국해양대",
     "region": "KR",
     "source": "mnlnews.net",
-    "url": "https://mnlnews.net/news/view.php?bIdx\\u003d48638\",1]",
+    "url": "https://mnlnews.net/news/view.php?bIdx=48638",
     "k": "국립한국해양대 세계 첫 해양 smr 추진단 출범 국제인증 허브 도전",
     "id": "bdfce9ac"
   },
@@ -170,7 +170,7 @@ window.SMR_NEWS = [
     "dev": "남동발전",
     "region": "KR",
     "source": "energytimes.kr",
-    "url": "https://www.energytimes.kr/news/articleView.html?idxno\\u003d70237\",1]",
+    "url": "https://www.energytimes.kr/news/articleView.html?idxno=70237",
     "k": "좌초자산 석탄발전 남동발전 smr 전환으로 해법 모색",
     "id": "522cbbe7"
   },
@@ -184,7 +184,7 @@ window.SMR_NEWS = [
     "dev": "NuScale",
     "region": "US",
     "source": "foreignpolicyjournal.com",
-    "url": "https://www.foreignpolicyjournal.com/2026/06/20/nuscale-power-nyse-smr-opens-12th-e2-center-at-uva-wise-targeting-commercial-momentum/\",1]",
+    "url": "https://www.foreignpolicyjournal.com/2026/06/20/nuscale-power-nyse-smr-opens-12th-e2-center-at-uva-wise-targeting-commercial-momentum/",
     "k": "nuscale power nyse smr opens 12th e2 center at uva wise targeting commercial momentum",
     "id": "469ea030"
   },
@@ -198,7 +198,7 @@ window.SMR_NEWS = [
     "dev": "Oklo",
     "region": "US",
     "source": "foreignpolicyjournal.com",
-    "url": "https://www.foreignpolicyjournal.com/2026/06/20/oklo-nyse-oklo-secures-domestic-haleu-fuel-deal-with-centrus-nyse-leu-to-power-ohio-nuclear-campus/\",1]",
+    "url": "https://www.foreignpolicyjournal.com/2026/06/20/oklo-nyse-oklo-secures-domestic-haleu-fuel-deal-with-centrus-nyse-leu-to-power-ohio-nuclear-campus/",
     "k": "oklo nyse oklo secures domestic haleu fuel deal with centrus nyse leu to power ohio nuclear campus",
     "id": "d1aa0809"
   },
@@ -212,7 +212,7 @@ window.SMR_NEWS = [
     "dev": "Nano Nuclear",
     "region": "US",
     "source": "fool.com",
-    "url": "https://www.fool.com/investing/2026/06/20/nuclear-regulatory-commission-nano-nuclear-permit/\",1]",
+    "url": "https://www.fool.com/investing/2026/06/20/nuclear-regulatory-commission-nano-nuclear-permit/",
     "k": "the nuclear regulatory commission formally accepted nano nuclear s construction permit application here s what that means for investors",
     "id": "3c7fea96"
   },
@@ -226,7 +226,7 @@ window.SMR_NEWS = [
     "dev": "Oklo",
     "region": "US",
     "source": "ts2.tech",
-    "url": "https://ts2.tech/en/oklo-rises-for-the-week-after-centrus-fuel-agreement-draws-attention-to-nuclear-supply-concerns/\",1]",
+    "url": "https://ts2.tech/en/oklo-rises-for-the-week-after-centrus-fuel-agreement-draws-attention-to-nuclear-supply-concerns/",
     "k": "oklo rises for the week after centrus fuel agreement draws attention to nuclear supply concerns",
     "id": "cfdd9ddc"
   },
@@ -240,7 +240,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "US",
     "source": "oilprice.com",
-    "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Why-Small-Modular-Reactors-Are-Becoming-a-National-Security-Priority.html\",1,\"https://oilprice.com/Alternative-Energy/Nuclear-Power/Why-Small-Modular-Reactors-Are-Becoming-a-National-Security-Priority.amp.html\"]",
+    "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Why-Small-Modular-Reactors-Are-Becoming-a-National-Security-Priority.html",
     "k": "why small modular reactors are becoming a national security priority crude oil prices today",
     "id": "1b2246d3"
   },
@@ -254,7 +254,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "news1.kr",
-    "url": "https://www.news1.kr/economy/trend/6203283\",1]",
+    "url": "https://www.news1.kr/economy/trend/6203283",
     "k": "한국형 smr 본궤도 ai 전력 400조 시장 승부처는 안전 경제성",
     "id": "7191da3c"
   },
@@ -268,7 +268,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "koreadaily.com",
-    "url": "https://www.koreadaily.com/article/20260620140059878\",1]",
+    "url": "https://www.koreadaily.com/article/20260620140059878",
     "k": "국내 첫 smr 부지 유치 놓친 경주 환경성 평가 더 높았다",
     "id": "5737b09f"
   },
@@ -282,7 +282,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "kookje.co.kr",
-    "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code\\u003d00\\u0026key\\u003d20260620.99099005987\",1]",
+    "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=00&key=20260620.99099005987",
     "k": "소형모듈원자로 건설 기장군의 뜨거운 과학축제",
     "id": "617b8d15"
   },
@@ -380,7 +380,7 @@ window.SMR_NEWS = [
     "dev": "뉴스케일(NuScale)",
     "region": "US",
     "source": "finance.yahoo.com",
-    "url": "https://finance.yahoo.com/energy/articles/nuscale-power-smr-uva-wise-043255461.html\",1]",
+    "url": "https://finance.yahoo.com/energy/articles/nuscale-power-smr-uva-wise-043255461.html",
     "k": "is nuscale power s smr new uva wise e2 center quietly shaping its commercialization path",
     "id": "c60486df"
   },
@@ -394,7 +394,7 @@ window.SMR_NEWS = [
     "dev": "HD현대",
     "region": "US",
     "source": "marketscreener.com",
-    "url": "https://www.marketscreener.com/news/hd-hyundai-heavy-industries-confirms-supply-rights-agreement-with-terrapower-ce7f5cd2db81f62d\",1]",
+    "url": "https://www.marketscreener.com/news/hd-hyundai-heavy-industries-confirms-supply-rights-agreement-with-terrapower-ce7f5cd2db81f62d",
     "k": "hd hyundai heavy industries confirms supply rights agreement with terrapower",
     "id": "1a8464cd"
   },
@@ -436,7 +436,7 @@ window.SMR_NEWS = [
     "dev": "에너토크",
     "region": "KR",
     "source": "news.nate.com",
-    "url": "https://news.nate.com/view/20260619n22425\",1]",
+    "url": "https://news.nate.com/view/20260619n22425",
     "k": "에너토크 smr 핵심 구동계 국산화 기여",
     "id": "f157249c"
   },
@@ -450,7 +450,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "mediapen.com",
-    "url": "https://www.mediapen.com/news/view/1105377\",1,\"https://www.mediapen.com/newsamp/view/1105377\"]",
+    "url": "https://www.mediapen.com/news/view/1105377",
     "k": "ai가 쏘아 올린 원전 르네상스 14년 만의 대형 smr 시공권에 건설업계 후끈",
     "id": "cf83129f"
   },
@@ -464,7 +464,7 @@ window.SMR_NEWS = [
     "dev": "NuScale",
     "region": "US",
     "source": "tikr.com",
-    "url": "https://www.tikr.com/blog/nuscale-power-nyse-stock-captures-first-mover-advantage-in-global-tech-expansion-as-nuclear-regulatory-commission-backs-small-modular-reactor-design\",1]",
+    "url": "https://www.tikr.com/blog/nuscale-power-nyse-stock-captures-first-mover-advantage-in-global-tech-expansion-as-nuclear-regulatory-commission-backs-small-modular-reactor-design",
     "k": "nuscale power gets first mover advantage as nuclear regulatory commission backs small modular reactor design",
     "id": "d7d26c51"
   },
@@ -478,7 +478,7 @@ window.SMR_NEWS = [
     "dev": "NuScale",
     "region": "US",
     "source": "nai500.com",
-    "url": "https://nai500.com/blog/2026/06/nuscale-powers-stock-drops-below-15-long-term-investors-face-a-choice-between-opportunity-and-risk/\",1]",
+    "url": "https://nai500.com/blog/2026/06/nuscale-powers-stock-drops-below-15-long-term-investors-face-a-choice-between-opportunity-and-risk/",
     "k": "nuscale power s stock drops below 15 long term investors face a choice between opportunity and risk",
     "id": "9586cc7b"
   },
@@ -534,7 +534,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "v.daum.net",
-    "url": "https://v.daum.net/v/20260619155304612\",1]",
+    "url": "https://v.daum.net/v/20260619155304612",
     "k": "신규 smr에 엇갈린 부산 원전 밀집도는 어떻게 하나",
     "id": "9da876a1"
   },
@@ -548,7 +548,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "metroseoul.co.kr",
-    "url": "https://www.metroseoul.co.kr/article/20260618500562\",1]",
+    "url": "https://www.metroseoul.co.kr/article/20260618500562",
     "k": "경주시 smr 유치 불발에도 원자력산업 육성 지속",
     "id": "61982a0a"
   },
@@ -562,7 +562,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "jgtimes.com",
-    "url": "https://www.jgtimes.com/news/articleView.html?idxno\\u003d32195\",1]",
+    "url": "https://www.jgtimes.com/news/articleView.html?idxno=32195",
     "k": "조용우 칼럼 smr 소형모듈원자로 기장 건설의 기대와 우려 그리고 올바른 시선과 전망",
     "id": "224bd505"
   },
@@ -618,7 +618,7 @@ window.SMR_NEWS = [
     "dev": "Centrus Energy, Oklo",
     "region": "US",
     "source": "simplywall.st",
-    "url": "https://simplywall.st/stocks/us/energy/nyse-leu/centrus-energy/news/why-centrus-energy-leu-is-up-206-after-deepening-ties-with-o\",1,\"https://simplywall.st/stocks/us/energy/nyse-leu/centrus-energy/news/why-centrus-energy-leu-is-up-206-after-deepening-ties-with-o/amp\"]",
+    "url": "https://simplywall.st/stocks/us/energy/nyse-leu/centrus-energy/news/why-centrus-energy-leu-is-up-206-after-deepening-ties-with-o",
     "k": "why centrus energy leu is up 20 6 after deepening ties with oklo and tightening governance",
     "id": "9ccbfd4a"
   },
@@ -632,7 +632,7 @@ window.SMR_NEWS = [
     "dev": "현대건설",
     "region": "KR",
     "source": "2news.co.kr",
-    "url": "https://www.2news.co.kr/news/articleView.html?idxno\\u003d11723\",1]",
+    "url": "https://www.2news.co.kr/news/articleView.html?idxno=11723",
     "k": "현대건설 석탄발전소 smr로 전환 추진",
     "id": "49d650e9"
   },
@@ -646,7 +646,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "stnsports.co.kr",
-    "url": "https://www.stnsports.co.kr/news/articleView.html?idxno\\u003d317997\",1]",
+    "url": "https://www.stnsports.co.kr/news/articleView.html?idxno=317997",
     "k": "경주시 smr 유치 불발에도 원자력산업 육성 의지 재확인",
     "id": "dd07400a"
   },
@@ -660,7 +660,7 @@ window.SMR_NEWS = [
     "dev": "뉴스케일",
     "region": "US",
     "source": "quiverquant.com",
-    "url": "https://www.quiverquant.com/news/NuScale+Power+Stock+%28SMR%29+Opinions+on+Nuclear+Sector+Developments\",1]",
+    "url": "https://www.quiverquant.com/news/NuScale+Power+Stock+%28SMR%29+Opinions+on+Nuclear+Sector+Developments",
     "k": "nuscale power stock smr opinions on nuclear sector developments",
     "id": "b2d8703f"
   },
@@ -674,7 +674,7 @@ window.SMR_NEWS = [
     "dev": "오클로",
     "region": "US",
     "source": "portsmouth-dailytimes.com",
-    "url": "https://www.portsmouth-dailytimes.com/news/oklo-centrus-sign-fuel-agreement-in-piketon-positioning-southern-ohio-as-an-advanced-nuclear-energy/article_d5603d8c-368e-4579-97c1-c733e756d383.html\",1]",
+    "url": "https://www.portsmouth-dailytimes.com/news/oklo-centrus-sign-fuel-agreement-in-piketon-positioning-southern-ohio-as-an-advanced-nuclear-energy/article_d5603d8c-368e-4579-97c1-c733e756d383.html",
     "k": "oklo centrus sign fuel agreement in piketon positioning southern ohio as an advanced nuclear energy hub",
     "id": "1da1d100"
   },
@@ -688,7 +688,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "m.ekn.kr",
-    "url": "https://m.ekn.kr/view.php?key\\u003d20260619020534782\",1]",
+    "url": "https://m.ekn.kr/view.php?key=20260619020534782",
     "k": "영덕 원전 기장 smr 후보지 선정 건설업계 최대 18조원 잭팟 기대",
     "id": "dd1382bd"
   },
@@ -716,7 +716,7 @@ window.SMR_NEWS = [
     "dev": "Oklo, Centrus",
     "region": "US",
     "source": "zacks.com",
-    "url": "https://www.zacks.com/stock/news/2940275/oklo-and-centrus-forge-nuclear-fuel-deal-for-ohio-campus\",1]",
+    "url": "https://www.zacks.com/stock/news/2940275/oklo-and-centrus-forge-nuclear-fuel-deal-for-ohio-campus",
     "k": "oklo and centrus forge nuclear fuel deal for ohio campus",
     "id": "2398c74b"
   },
@@ -730,7 +730,7 @@ window.SMR_NEWS = [
     "dev": "Elementl Power",
     "region": "US",
     "source": "energynews.pro",
-    "url": "https://energynews.pro/en/elementl-power-plans-five-bwrx-300-smr-reactors-in-ohio-for-15-gw\",1]",
+    "url": "https://energynews.pro/en/elementl-power-plans-five-bwrx-300-smr-reactors-in-ohio-for-15-gw",
     "k": "elementl power plans five bwrx 300 smr reactors in ohio for 1 5 gw",
     "id": "6d056722"
   },
@@ -744,7 +744,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "UK",
     "source": "tomorrowsworldtoday.com",
-    "url": "https://www.tomorrowsworldtoday.com/energy/uk-energy-firm-explores-floating-small-modular-nuclear-reactors/\",1]",
+    "url": "https://www.tomorrowsworldtoday.com/energy/uk-energy-firm-explores-floating-small-modular-nuclear-reactors/",
     "k": "uk energy firm explores floating small modular nuclear reactors",
     "id": "f1a9ad5e"
   },
@@ -758,7 +758,7 @@ window.SMR_NEWS = [
     "dev": "BWX",
     "region": "US",
     "source": "akm.ru",
-    "url": "https://www.akm.ru/eng/news/bwx-technologies-has-signed-an-agreement-to-develop-a-small-modular-reactor-/\",1]",
+    "url": "https://www.akm.ru/eng/news/bwx-technologies-has-signed-an-agreement-to-develop-a-small-modular-reactor-/",
     "k": "bwx technologies has signed an agreement to develop a small modular reactor",
     "id": "dd2a5a7a"
   },
@@ -772,7 +772,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "US",
     "source": "g-enews.com",
-    "url": "https://www.g-enews.com/article/Global-Biz/2026/06/202606200654533634fbbec65dfb_1\",1]",
+    "url": "https://www.g-enews.com/article/Global-Biz/2026/06/202606200654533634fbbec65dfb_1",
     "k": "맨땅서 9개월 원자로 임계 성공 smr 인프라 아닌 테슬라식 하드웨어 로 진화",
     "id": "e0eca70a"
   },
@@ -786,7 +786,7 @@ window.SMR_NEWS = [
     "dev": "Oklo",
     "region": "US",
     "source": "tradingview.com",
-    "url": "https://www.tradingview.com/news/gurufocus:77654ee19094b:0-oklo-locks-in-domestic-nuclear-fuel-supply-for-its-ohio-gigawatt-campus/\",1]",
+    "url": "https://www.tradingview.com/news/gurufocus:77654ee19094b:0-oklo-locks-in-domestic-nuclear-fuel-supply-for-its-ohio-gigawatt-campus/",
     "k": "oklo locks in domestic nuclear fuel supply for its ohio gigawatt campus",
     "id": "c813673f"
   },
@@ -800,7 +800,7 @@ window.SMR_NEWS = [
     "dev": "NuScale",
     "region": "US",
     "source": "ts2.tech",
-    "url": "https://ts2.tech/en/nuscale-power-halts-after-gains-on-paragon-smr-deal-juneteenth-pause/\",1]",
+    "url": "https://ts2.tech/en/nuscale-power-halts-after-gains-on-paragon-smr-deal-juneteenth-pause/",
     "k": "nuscale power halts after gains on paragon smr deal juneteenth pause",
     "id": "ba36d440"
   },
@@ -814,7 +814,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "US",
     "source": "esnews.kr",
-    "url": "https://www.esnews.kr/news/articleView.html?idxno\\u003d4581\",1]",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4581",
     "k": "태국 smr 시장 열린다 미국 원전 기술 수출 속도전",
     "id": "21e83ff3"
   },
@@ -828,7 +828,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "opinionnews.co.kr",
-    "url": "https://www.opinionnews.co.kr/news/articleView.html?idxno\\u003d140325\",1]",
+    "url": "https://www.opinionnews.co.kr/news/articleView.html?idxno=140325",
     "k": "소형모듈원자로 smr 부지 부산 기장 낙점 세계시장에 한국형 원전 모델 제시",
     "id": "d1ba9676"
   },
@@ -842,7 +842,7 @@ window.SMR_NEWS = [
     "dev": "NuScale",
     "region": "US",
     "source": "edaily.co.kr",
-    "url": "https://www.edaily.co.kr/News/Read?newsId\\u003d01174246645483688\\u0026mediaCodeNo\\u003d257\",1]",
+    "url": "https://www.edaily.co.kr/News/Read?newsId=01174246645483688&mediaCodeNo=257",
     "k": "유일 원자로 설계승인 smr 누스케일 관건은 착공",
     "id": "564edefa"
   },
@@ -856,7 +856,7 @@ window.SMR_NEWS = [
     "dev": "Centrus, Oklo",
     "region": "US",
     "source": "foreignpolicyjournal.com",
-    "url": "https://www.foreignpolicyjournal.com/2026/06/19/centrus-energy-nyse-leu-stock-price-surges-12-4-on-oklo-haleu-supply-deal-can-the-rally-continue/\",1]",
+    "url": "https://www.foreignpolicyjournal.com/2026/06/19/centrus-energy-nyse-leu-stock-price-surges-12-4-on-oklo-haleu-supply-deal-can-the-rally-continue/",
     "k": "centrus energy nyse leu stock price surges 12 4 on oklo haleu supply deal can the rally continue",
     "id": "0ccf1497"
   },
@@ -870,7 +870,7 @@ window.SMR_NEWS = [
     "dev": "Oklo, Centrus",
     "region": "US",
     "source": "energynews.pro",
-    "url": "https://energynews.pro/en/oklo-and-centrus-sign-haleu-fuel-agreement-for-five-aurora-reactors-in-ohio\",1]",
+    "url": "https://energynews.pro/en/oklo-and-centrus-sign-haleu-fuel-agreement-for-five-aurora-reactors-in-ohio",
     "k": "oklo and centrus sign haleu fuel agreement for five aurora reactors in ohio",
     "id": "d2e2229d"
   },
@@ -884,7 +884,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "mediatoday.co.kr",
-    "url": "https://www.mediatoday.co.kr/news/articleView.html?idxno\\u003d335271\",1]",
+    "url": "https://www.mediatoday.co.kr/news/articleView.html?idxno=335271",
     "k": "신규 원전 smr 부지 선정에 환영한 신문사들은",
     "id": "78d3bbd8"
   },
@@ -898,7 +898,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "esnews.kr",
-    "url": "https://www.esnews.kr/news/articleView.html?idxno\\u003d4581\",1]",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4581",
     "k": "태국 smr 시장 열린다 미국 원전수출 속도전 한국 원전산업 전략적 신호",
     "id": "21e83ff3"
   },
@@ -912,7 +912,7 @@ window.SMR_NEWS = [
     "dev": "Oklo",
     "region": "US",
     "source": "news.stocktradersdaily.com",
-    "url": "https://news.stocktradersdaily.com/news_release/24/OKLO_as_a_Liquidity_Pulse_for_Institutional_Tactics_061926090001_1781917201.html\",1]",
+    "url": "https://news.stocktradersdaily.com/news_release/24/OKLO_as_a_Liquidity_Pulse_for_Institutional_Tactics_061926090001_1781917201.html",
     "k": "oklo as a liquidity pulse for institutional tactics",
     "id": "71371371"
   },
@@ -926,7 +926,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "hgnews.co.kr",
-    "url": "http://www.hgnews.co.kr/default/index_view_page.php?part_idx\\u003d307\\u0026idx\\u003d58678\",1]",
+    "url": "http://www.hgnews.co.kr/default/index_view_page.php?part_idx=307&idx=58678",
     "k": "책임 있는 진단은 없고 smr 유치 실패에도 원자력 중심도시 만 강조",
     "id": "2a167350"
   },
@@ -1696,7 +1696,7 @@ window.SMR_NEWS = [
     "dev": "Rolls-Royce",
     "region": "UK",
     "source": "gulfnews.com",
-    "url": "https://gulfnews.com/business/energy/sweden-picks-rolls-royce-modular-reactor-first-new-nuclear-power-plants-in-40-years-1.500579442\",1,\"https://gulfnews.com/amp/story/business%2Fenergy%2Fsweden-picks-rolls-royce-modular-reactor-first-new-nuclear-power-plants-in-40-years-1.500579442\"]",
+    "url": "https://gulfnews.com/business/energy/sweden-picks-rolls-royce-modular-reactor-first-new-nuclear-power-plants-in-40-years-1.500579442",
     "k": "sweden picks rolls royce modular reactors first new nuclear power plants in 40 years",
     "id": "4ce0f85c"
   },
@@ -1710,7 +1710,7 @@ window.SMR_NEWS = [
     "dev": "오클로(Oklo)",
     "region": "US",
     "source": "indexbox.io",
-    "url": "https://www.indexbox.io/blog/centrus-energy-to-supply-haleu-to-oklo-for-ohio-smr-campus/\",1]",
+    "url": "https://www.indexbox.io/blog/centrus-energy-to-supply-haleu-to-oklo-for-ohio-smr-campus/",
     "k": "centrus energy and oklo sign haleu supply agreement for small modular reactors news and statistics",
     "id": "964bfa9d"
   },
@@ -1724,7 +1724,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "m.joongdo.co.kr",
-    "url": "https://m.joongdo.co.kr/view.php?key\\u003d20260618010005328\",1]",
+    "url": "https://m.joongdo.co.kr/view.php?key=20260618010005328",
     "k": "기장군 혁신형 smr 유치 성공 원자력 신산업 거점 도약",
     "id": "6c9bf198"
   },
@@ -1738,7 +1738,7 @@ window.SMR_NEWS = [
     "dev": "Oklo",
     "region": "US",
     "source": "investing.com",
-    "url": "https://www.investing.com/news/stock-market-news/oklo-stock-rises-on-nuclear-fuel-supply-deal-with-centrus-93CH-4749490\",1]",
+    "url": "https://www.investing.com/news/stock-market-news/oklo-stock-rises-on-nuclear-fuel-supply-deal-with-centrus-93CH-4749490",
     "k": "oklo stock rises on nuclear fuel supply deal with centrus",
     "id": "51a4c6be"
   },
@@ -1752,7 +1752,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "joongang.co.kr",
-    "url": "https://www.joongang.co.kr/article/25438108\",1]",
+    "url": "https://www.joongang.co.kr/article/25438108",
     "k": "쇳덩이를 돈덩이로 k원전 마법 1400조 smr 시장 휩쓴다 원전심장 다시 뛴다",
     "id": "382f6cdc"
   },
@@ -1766,7 +1766,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "yeongnam.com",
-    "url": "https://www.yeongnam.com/web/view.php?key\\u003d20260618027220915\",1]",
+    "url": "https://www.yeongnam.com/web/view.php?key=20260618027220915",
     "k": "사설 smr 유치 실패 아쉽지만 차세대 원전 산업 포기는 안돼",
     "id": "016e60f8"
   },
@@ -1780,7 +1780,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "v.daum.net",
-    "url": "https://v.daum.net/v/20260619051206784\",1]",
+    "url": "https://v.daum.net/v/20260619051206784",
     "k": "사설 국내 첫 smr 기장에 전기요금 차등제 도입도 서둘러야",
     "id": "d8b21db9"
   },
@@ -1794,7 +1794,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "kookje.co.kr",
-    "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code\\u003d00\\u0026key\\u003d20260619.99099005743\",1]",
+    "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=00&key=20260619.99099005743",
     "k": "뭐라노 기장에 첫 smr 부산 에너지 대전환 중심지로",
     "id": "c709c34f"
   },
@@ -1808,7 +1808,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "sisajournal.com",
-    "url": "https://www.sisajournal.com/news/articleView.html?idxno\\u003d377005\",1,\"https://www.sisajournal.com/news/articleViewAmp.html?idxno\\u003d377005\"]",
+    "url": "https://www.sisajournal.com/news/articleView.html?idxno=377005",
     "k": "부산 기장군 경주 제치고 혁신형 smr 최종 부지로 선정",
     "id": "dff6ba95"
   },
@@ -1822,7 +1822,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "EU",
     "source": "theguru.co.kr",
-    "url": "https://theguru.co.kr/news/article.html?no\\u003d103284\",1]",
+    "url": "https://theguru.co.kr/news/article.html?no=103284",
     "k": "에스토니아 smr 추진 관련법 통과 삼성물산 수혜 기대",
     "id": "ed5f729d"
   },
@@ -1836,7 +1836,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "bseconomy.com",
-    "url": "http://www.bseconomy.com/news/view.php?idx\\u003d55030\\u0026page\\u003d97\",1]",
+    "url": "http://www.bseconomy.com/news/view.php?idx=55030&page=97",
     "k": "기장군 대한민국 첫 혁신형 smr 부지 선정 원자력 신산업 거점 도약",
     "id": "a606f1ff"
   },
@@ -1850,7 +1850,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "biz.heraldcorp.com",
-    "url": "https://biz.heraldcorp.com/article/10780741\",1]",
+    "url": "https://biz.heraldcorp.com/article/10780741",
     "k": "경주시 smr 초도호기 선정 결과 수용 원자력산업 육성 흔들림 없이 추진",
     "id": "6c629ca4"
   },
@@ -1864,7 +1864,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "betanews.net",
-    "url": "https://www.betanews.net/article/view/beta202606180098\",1]",
+    "url": "https://www.betanews.net/article/view/beta202606180098",
     "k": "부산 기장에 국내 첫 smr 2040년 400조 시장 선점 나선다",
     "id": "248106d7"
   },
@@ -1878,7 +1878,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "v.daum.net",
-    "url": "https://v.daum.net/v/20260618183034721\",1]",
+    "url": "https://v.daum.net/v/20260618183034721",
     "k": "환경단체 즉각 철회 vs 부산시 기장군 성장 동력 기장군 오는 smr",
     "id": "3ce1a924"
   },
@@ -1892,7 +1892,7 @@ window.SMR_NEWS = [
     "dev": "태웅",
     "region": "KR",
     "source": "snmnews.com",
-    "url": "https://www.snmnews.com/news/articleView.html?idxno\\u003d570950\",1]",
+    "url": "https://www.snmnews.com/news/articleView.html?idxno=570950",
     "k": "태웅 4세대 smr 주기기 핵심부품 수주 모든 smr 레퍼런스 확보",
     "id": "a33367c3"
   },
@@ -1906,7 +1906,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "pressian.com",
-    "url": "https://www.pressian.com/pages/articles/2026061811220084105\",1]",
+    "url": "https://www.pressian.com/pages/articles/2026061811220084105",
     "k": "기장군 혁신형 smr 최종 부지 확정",
     "id": "845930a4"
   },
@@ -1920,7 +1920,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "kookje.co.kr",
-    "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code\\u003d0200\\u0026key\\u003d20260619.22003005454\",1]",
+    "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20260619.22003005454",
     "k": "기장 smr 2030년께 착공 전망",
     "id": "33b3ad61"
   },
@@ -1934,7 +1934,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "kookje.co.kr",
-    "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code\\u003d0200\\u0026key\\u003d20260619.22001005404\",1]",
+    "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20260619.22001005404",
     "k": "기장에 첫 smr 부산 에너지 전환 중심지로",
     "id": "8502e97e"
   },
@@ -1948,7 +1948,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "korean-culture.org",
-    "url": "https://www.korean-culture.org/koreanet/view.do?seq\\u003d1054781\\u0026page\\u003d1\\u0026pageSize\\u003d10\\u0026photoPageSize\\u003d6\\u0026totalCount\\u003d0\\u0026searchType\\u003dnull\\u0026searchText\\u003d\\u0026searchCondition\\u003d1\\u0026cateCode\\u003d\",1]",
+    "url": "https://www.korean-culture.org/koreanet/view.do?seq=1054781&page=1&pageSize=10&photoPageSize=6&totalCount=0&searchType=null&searchText=&searchCondition=1&cateCode=",
     "k": "코리아넷뉴스 신규 대형원전 영덕 국내 첫 smr 기장에 짓는다",
     "id": "b1fe055f"
   },
@@ -1962,7 +1962,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "2news.co.kr",
-    "url": "https://www.2news.co.kr/news/articleView.html?idxno\\u003d11468\",1]",
+    "url": "https://www.2news.co.kr/news/articleView.html?idxno=11468",
     "k": "경주 smr 유치 실패 원자력 중심 도시 도약은 계속된다",
     "id": "d38336e1"
   },
@@ -1976,7 +1976,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "yna.co.kr",
-    "url": "https://www.yna.co.kr/view/AKR20260618048551008\",1,\"https://www.yna.co.kr/amp/view/AKR20260618048551008\"]",
+    "url": "https://www.yna.co.kr/view/AKR20260618048551008",
     "k": "특징주 원전주 원전 smr 부지 선정에 올랐다가 상승폭 반납 종합",
     "id": "cd5db4f2"
   },
@@ -1990,7 +1990,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "straightnews.co.kr",
-    "url": "https://www.straightnews.co.kr/news/articleView.html?idxno\\u003d305086\",1,\"https://www.straightnews.co.kr/news/articleViewAmp.html?idxno\\u003d305086\"]",
+    "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=305086",
     "k": "경주시 smr 초도호기 탈락 결과 수용 국가산단 문무대왕연구소 차질 없다 정공법",
     "id": "6629f0cb"
   },
@@ -2004,7 +2004,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "shinailbo.co.kr",
-    "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno\\u003d5031877\",1]",
+    "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5031877",
     "k": "smr 초도호기 유치 불발한 경주 원자력산업 중심도시 전략은 계속",
     "id": "fc65b5dc"
   },
@@ -2018,7 +2018,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "marketin.edaily.co.kr",
-    "url": "https://marketin.edaily.co.kr/News/ReadE?newsId\\u003d01689206645483360\",1]",
+    "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=01689206645483360",
     "k": "부산 기장에 smr 소형 원전 블루오션 선점 기회다",
     "id": "7689f0e4"
   },
@@ -2032,7 +2032,7 @@ window.SMR_NEWS = [
     "dev": "NuScale",
     "region": "US",
     "source": "2news.co.kr",
-    "url": "https://www.2news.co.kr/news/articleView.html?idxno\\u003d11517\",1]",
+    "url": "https://www.2news.co.kr/news/articleView.html?idxno=11517",
     "k": "뉴스케일 smr 핵심 안전 시스템 최종 설계 착수",
     "id": "732b8ba4"
   },
@@ -2046,7 +2046,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "chosun.com",
-    "url": "https://www.chosun.com/opinion/editorial/2026/06/19/LF36QT5PJRAWNISGACBANYSONA/\",1]",
+    "url": "https://www.chosun.com/opinion/editorial/2026/06/19/LF36QT5PJRAWNISGACBANYSONA/",
     "k": "사설 국내 첫 smr 확정 반도체 이을 k 원전 미래로 키워야",
     "id": "0f07ebb3"
   },
@@ -2060,7 +2060,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "idaegu.com",
-    "url": "https://www.idaegu.com/news/articleView.html?idxno\\u003d663729\",1]",
+    "url": "https://www.idaegu.com/news/articleView.html?idxno=663729",
     "k": "smr 놓친 경주 경주는 자타 공인 smr 최적지 계속 도전하겠다",
     "id": "e8a0573c"
   },
@@ -2074,7 +2074,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "US",
     "source": "esnews.kr",
-    "url": "https://www.esnews.kr/news/articleView.html?idxno\\u003d4536\",1]",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4536",
     "k": "33조 투입하는 뉴욕 왜 대형 원전보다 smr 원할까",
     "id": "6bcb0601"
   },
@@ -2088,7 +2088,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "newsdream.net",
-    "url": "http://www.newsdream.net/156267\",1]",
+    "url": "http://www.newsdream.net/156267",
     "k": "경주시 smr 초도호기 결과 수용 원자력산업 육성 지속",
     "id": "ad8a185d"
   },
@@ -2102,7 +2102,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "khan.co.kr",
-    "url": "https://www.khan.co.kr/article/202606181617001\",1,\"https://www.khan.co.kr/article/202606181617001/amp\"]",
+    "url": "https://www.khan.co.kr/article/202606181617001",
     "k": "신규 원전 품은 영덕 smr 놓친 경주 경북 동해안 지자체 간 희비",
     "id": "9c38e924"
   },
@@ -2116,7 +2116,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "ohmynews.com",
-    "url": "https://www.ohmynews.com/NWS_Web/OhmyPhoto/annual/2026_at_pg.aspx?CNTN_CD\\u003dA0003244352\",1]",
+    "url": "https://www.ohmynews.com/NWS_Web/OhmyPhoto/annual/2026_at_pg.aspx?CNTN_CD=A0003244352",
     "k": "오마이포토 신규 핵발전소 smr 어디에도 안 돼",
     "id": "4657ce0b"
   },
@@ -2130,7 +2130,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "kyongbuk.co.kr",
-    "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno\\u003d4075929\",1]",
+    "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4075929",
     "k": "경주 smr 초도호기 고배에도 원전산업 전진 선언",
     "id": "177ba096"
   },
@@ -2144,7 +2144,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "womentimes.co.kr",
-    "url": "https://www.womentimes.co.kr/news/articleView.html?idxno\\u003d103728\",1,\"https://www.womentimes.co.kr/news/articleViewAmp.html?idxno\\u003d103728\"]",
+    "url": "https://www.womentimes.co.kr/news/articleView.html?idxno=103728",
     "k": "ai 데이터센터 등 폭증한 전력수요 smr 등 에너지 전환 급부상",
     "id": "dfdd4d2d"
   },
@@ -2158,7 +2158,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "v.daum.net",
-    "url": "https://v.daum.net/v/20260619011303285\",1]",
+    "url": "https://v.daum.net/v/20260619011303285",
     "k": "사설 첫발 뗀 신규 원전과 smr 또 정치에 휘둘려선 안 된다",
     "id": "da6e481d"
   },
@@ -2172,7 +2172,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "safetimes.co.kr",
-    "url": "https://www.safetimes.co.kr/news/articleView.html?idxno\\u003d243582\",1,\"https://www.safetimes.co.kr/news/articleViewAmp.html?idxno\\u003d243582\"]",
+    "url": "https://www.safetimes.co.kr/news/articleView.html?idxno=243582",
     "k": "환경단체 영덕 원전 기장 smr 철회해야",
     "id": "63af9345"
   },
@@ -2186,7 +2186,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "ajunews.com",
-    "url": "https://www.ajunews.com/view/20260619000858199\",1,\"https://www.ajunews.com/amp/20260619000858199\"]",
+    "url": "https://www.ajunews.com/view/20260619000858199",
     "k": "경주시 smr 초도호기 선정 결과 수용 원자력산업 육성 지속 추진",
     "id": "3e498e18"
   },
@@ -2200,7 +2200,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "busan.com",
-    "url": "https://www.busan.com/view/busan/view.php?code\\u003d2026061818284328693\",1]",
+    "url": "https://www.busan.com/view/busan/view.php?code=2026061818284328693",
     "k": "이미 원전 5개 있는 부산 기장군에 국내 첫 smr 건설",
     "id": "b9152498"
   },
@@ -2214,7 +2214,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "v.daum.net",
-    "url": "https://v.daum.net/v/20260618103216140\",1]",
+    "url": "https://v.daum.net/v/20260618103216140",
     "k": "경주 24시 무색해진 원전 중심도시 자부심 smr 탈락에 허탈한 경주 민심",
     "id": "92408e05"
   },
@@ -2228,7 +2228,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "m-i.kr",
-    "url": "https://www.m-i.kr/news/articleView.html?idxno\\u003d1382865\",1]",
+    "url": "https://www.m-i.kr/news/articleView.html?idxno=1382865",
     "k": "경주시 smr 초도호기 결과 수용 원자력산업 육성은 멈추지 않을 것",
     "id": "9b447a56"
   },
@@ -2242,7 +2242,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "seouleconews.com",
-    "url": "http://www.seouleconews.com/news/articleView.html?idxno\\u003d91885\",1]",
+    "url": "http://www.seouleconews.com/news/articleView.html?idxno=91885",
     "k": "신규 대형원전 경북 영덕에 국내 첫 소형모듈원자로는 부산 기장",
     "id": "9a7d8d60"
   },
@@ -2256,7 +2256,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "hidomin.com",
-    "url": "https://www.hidomin.com/news/articleView.html?idxno\\u003d709854\",1]",
+    "url": "https://www.hidomin.com/news/articleView.html?idxno=709854",
     "k": "경주 smr 유치 무산 혹시나 했지만 역시나 지역사회 정치적 고려론 확산",
     "id": "84bc3393"
   },
@@ -2270,7 +2270,7 @@ window.SMR_NEWS = [
     "dev": "TerraPower",
     "region": "US",
     "source": "dced.pa.gov",
-    "url": "https://dced.pa.gov/newsroom/creating-jobs-in-philadelphia-governor-shapiro-secures-450-million-investment-from-terrapower-isotopes-to-build-cancer-fighting-radioisotope-manufacturing-facility-in-the-bellwether-district/\",1]",
+    "url": "https://dced.pa.gov/newsroom/creating-jobs-in-philadelphia-governor-shapiro-secures-450-million-investment-from-terrapower-isotopes-to-build-cancer-fighting-radioisotope-manufacturing-facility-in-the-bellwether-district/",
     "k": "creating jobs in philadelphia governor shapiro secures 450 million investment from terrapower isotopes to build cancer fighting radioisotope manufacturing facility in the bellwether district",
     "id": "8d05ca33"
   },
@@ -2284,7 +2284,7 @@ window.SMR_NEWS = [
     "dev": "Oklo",
     "region": "US",
     "source": "marketin.edaily.co.kr",
-    "url": "https://marketin.edaily.co.kr/News/ReadE?newsId\\u003d01262806645483360\",1]",
+    "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=01262806645483360",
     "k": "오클로 센트러스 에너시와 smr 핵심 연료 공급 계약 체결 주가 강세",
     "id": "f40eaa61"
   },
@@ -2298,7 +2298,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "egn.kr",
-    "url": "https://www.egn.kr/news/articleView.html?idxno\\u003d209839\",1]",
+    "url": "https://www.egn.kr/news/articleView.html?idxno=209839",
     "k": "경주시 smr 초도호기 부지 선정 결과 수용 원자력산업 육성 지속 추진",
     "id": "9f701a6d"
   },
@@ -2774,7 +2774,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "joongang.co.kr",
-    "url": "https://www.joongang.co.kr/article/25437644\",1]",
+    "url": "https://www.joongang.co.kr/article/25437644",
     "k": "신규 대형원전은 경북 영덕 국내 첫 smr은 부산 기장에 짓는다",
     "id": "d8bc4666"
   },
@@ -2788,7 +2788,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "yna.co.kr",
-    "url": "https://www.yna.co.kr/amp/view/AKR20260617164500530\",1,\"https://www.yna.co.kr/amp/view/AKR20260617164500530\"]",
+    "url": "https://www.yna.co.kr/amp/view/AKR20260617164500530",
     "k": "신규 대형원전 smr 후보지 선정 전력수요 급증 전망에 속도",
     "id": "152b89a3"
   },
@@ -2802,7 +2802,7 @@ window.SMR_NEWS = [
     "dev": "코어파워",
     "region": "KR",
     "source": "esnews.kr",
-    "url": "https://www.esnews.kr/news/articleView.html?idxno\\u003d4532\",1]",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4532",
     "k": "코어파워 해상 원전 smr 타당성 조사 착수",
     "id": "7971ad35"
   },
@@ -2816,7 +2816,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "v.daum.net",
-    "url": "https://v.daum.net/v/20260618052705239\",1]",
+    "url": "https://v.daum.net/v/20260618052705239",
     "k": "국내 첫 소형모듈원자로 본궤도 k 원전 수출 영토 넓히나",
     "id": "dd9a7f38"
   },
@@ -2830,7 +2830,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "yna.co.kr",
-    "url": "https://www.yna.co.kr/amp/view/MYH20260617018100038\",1,\"https://www.yna.co.kr/amp/view/MYH20260617018100038\"]",
+    "url": "https://www.yna.co.kr/amp/view/MYH20260617018100038",
     "k": "신규 대형원전 부지 경북 영덕 smr은 부산 기장",
     "id": "5cacd3bf"
   },
@@ -2844,7 +2844,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "hellodd.com",
-    "url": "https://www.hellodd.com/news/articleView.html?idxno\\u003d112158\",1]",
+    "url": "https://www.hellodd.com/news/articleView.html?idxno=112158",
     "k": "영덕 대형원전 기장 smr 후보지로 확정 신규 원전 건설 절차 본격",
     "id": "2fa5c8d8"
   },
@@ -2858,7 +2858,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "magazine.hankyung.com",
-    "url": "https://magazine.hankyung.com/business/amp/202606172828b\",1]",
+    "url": "https://magazine.hankyung.com/business/amp/202606172828b",
     "k": "속보 신규 대형 원전 부지에 영덕 smr은 기장 최종 선정",
     "id": "2584173f"
   },
@@ -2872,7 +2872,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "imaeil.com",
-    "url": "https://www.imaeil.com/page/view/2026061718454937192\",1]",
+    "url": "https://www.imaeil.com/page/view/2026061718454937192",
     "k": "smr 놓친 경주 정치적 고려에 희생 당해 실망감과 강력 반발",
     "id": "20b4bc67"
   },
@@ -2886,7 +2886,7 @@ window.SMR_NEWS = [
     "dev": "한수원",
     "region": "KR",
     "source": "yeongnam.com",
-    "url": "https://www.yeongnam.com/web/view.php?key\\u003d20260617025200733\",1]",
+    "url": "https://www.yeongnam.com/web/view.php?key=20260617025200733",
     "k": "영덕 대형원전 축배 경주 smr 고배 경북 원전 벨트 절반의 성과",
     "id": "06d23769"
   },
@@ -2900,7 +2900,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "yna.co.kr",
-    "url": "https://www.yna.co.kr/amp/view/AKR20260617164352003\",1,\"https://www.yna.co.kr/amp/view/AKR20260617164352003\"]",
+    "url": "https://www.yna.co.kr/amp/view/AKR20260617164352003",
     "k": "신규 대형원전 경북 영덕 소형모듈원자로 1호기 부산 기장 종합",
     "id": "bdda6cdb"
   },
@@ -2914,7 +2914,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "v.daum.net",
-    "url": "https://v.daum.net/v/20260617195518119\",1]",
+    "url": "https://v.daum.net/v/20260617195518119",
     "k": "신규 대형원전 smr 실증로 건설부지 후보에 경북 영덕군 부산 기장군 선정",
     "id": "998bf58e"
   },
@@ -2928,7 +2928,7 @@ window.SMR_NEWS = [
     "dev": "KHNP",
     "region": "KR",
     "source": "biz.chosun.com",
-    "url": "https://biz.chosun.com/industry/company/2026/06/17/2SGB24DXWVDMLICH3K33NJ6PFU/\",1,\"https://biz.chosun.com/industry/company/2026/06/17/2SGB24DXWVDMLICH3K33NJ6PFU/?outputType\\u003damp\"]",
+    "url": "https://biz.chosun.com/industry/company/2026/06/17/2SGB24DXWVDMLICH3K33NJ6PFU/",
     "k": "신규 대형 원전은 영덕 smr 1호는 기장 진통 끝 부지 선정 완료 조선비즈",
     "id": "40c0e49f"
   },
@@ -2942,7 +2942,7 @@ window.SMR_NEWS = [
     "dev": "KHNP",
     "region": "KR",
     "source": "seoul.co.kr",
-    "url": "https://www.seoul.co.kr/news/economy/2026/06/17/20260617500282\",1]",
+    "url": "https://www.seoul.co.kr/news/economy/2026/06/17/20260617500282",
     "k": "신규 대형 원전 경북 영덕 부산 기장 국내 첫 smr 건설",
     "id": "87c350e8"
   },
@@ -2956,7 +2956,7 @@ window.SMR_NEWS = [
     "dev": "KHNP",
     "region": "KR",
     "source": "kbsm.net",
-    "url": "https://www.kbsm.net/news/view.php?idx\\u003d523468\",1]",
+    "url": "https://www.kbsm.net/news/view.php?idx=523468",
     "k": "경북 집중 부담스러웠나 한수원 신규 원전은 영덕 smr은 기장",
     "id": "82476d87"
   },
@@ -2970,7 +2970,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "news.kbs.co.kr",
-    "url": "https://news.kbs.co.kr/news/view.do?ncd\\u003d8588916\",1]",
+    "url": "https://news.kbs.co.kr/news/view.do?ncd=8588916",
     "k": "한국 1호 smr ai 전력난 게임체인저 될까",
     "id": "678bf9b2"
   },
@@ -2984,7 +2984,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "yna.co.kr",
-    "url": "https://www.yna.co.kr/view/AKR20260617168100051\",1,\"https://www.yna.co.kr/amp/view/AKR20260617168100051\"]",
+    "url": "https://www.yna.co.kr/view/AKR20260617168100051",
     "k": "부산시 기장군 국내 첫 원전 들어선 기장에서 smr 시작 큰 의미",
     "id": "b8a884c6"
   },
@@ -2998,7 +2998,7 @@ window.SMR_NEWS = [
     "dev": "한수원",
     "region": "KR",
     "source": "news.kbs.co.kr",
-    "url": "https://news.kbs.co.kr/news/view.do?ncd\\u003d8588748\",1]",
+    "url": "https://news.kbs.co.kr/news/view.do?ncd=8588748",
     "k": "한수원 대형 원전 2기 경북 영덕 smr 1기 부산 기장 후보 부지 로 선정",
     "id": "5169f5d7"
   },
@@ -3012,7 +3012,7 @@ window.SMR_NEWS = [
     "dev": "X-energy",
     "region": "US",
     "source": "energy.gov",
-    "url": "https://www.energy.gov/ne/articles/x-energy-developing-pebble-bed-reactor-they-say-cant-melt-down\",1]",
+    "url": "https://www.energy.gov/ne/articles/x-energy-developing-pebble-bed-reactor-they-say-cant-melt-down",
     "k": "x energy is developing a pebble bed reactor that they say can t melt down",
     "id": "d7435a37"
   },
@@ -3026,7 +3026,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "energydaily.co.kr",
-    "url": "https://www.energydaily.co.kr/news/articleView.html?idxno\\u003d200532\",1]",
+    "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=200532",
     "k": "신규원전 후보부지 대형원전 영덕군 smr 기장군 선정",
     "id": "8275d113"
   },
@@ -3040,7 +3040,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "khan.co.kr",
-    "url": "https://www.khan.co.kr/article/202606172101001\",1,\"https://www.khan.co.kr/article/202606172101001/amp\"]",
+    "url": "https://www.khan.co.kr/article/202606172101001",
     "k": "신규 원전 smr 부지 영덕 기장 선정에 환경단체 에너지 식민 정책 비판",
     "id": "3d095138"
   },
@@ -3054,7 +3054,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "todayenergy.kr",
-    "url": "https://www.todayenergy.kr/news/articleView.html?idxno\\u003d299217\",1]",
+    "url": "https://www.todayenergy.kr/news/articleView.html?idxno=299217",
     "k": "신규원전 부지 대형원전 영덕군 smr 기장군 선정",
     "id": "869181d1"
   },
@@ -3068,7 +3068,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "v.daum.net",
-    "url": "https://v.daum.net/v/20260617213945294\",1]",
+    "url": "https://v.daum.net/v/20260617213945294",
     "k": "경주 smr 실증로 유치 고배 국가산단 전략 수정 불가피",
     "id": "02c7a7e5"
   },
@@ -3082,7 +3082,7 @@ window.SMR_NEWS = [
     "dev": "한수원",
     "region": "KR",
     "source": "kbthink.com",
-    "url": "https://kbthink.com/news-list/view.html?newsId\\u003d20260617200606424\",1]",
+    "url": "https://kbthink.com/news-list/view.html?newsId=20260617200606424",
     "k": "14년만 신규 원전 부지 열렸다 대형 영덕 최초 smr 기장 낙점 종합",
     "id": "09e8acb9"
   },
@@ -3096,7 +3096,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "imnews.imbc.com",
-    "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6830965_37004.html\",1]",
+    "url": "https://imnews.imbc.com/replay/2026/nwdesk/article/6830965_37004.html",
     "k": "대형 원전 2기 경북 영덕 smr 부산 기장 후보 부지로 선정",
     "id": "9efcd3e4"
   },
@@ -3110,7 +3110,7 @@ window.SMR_NEWS = [
     "dev": "한수원",
     "region": "KR",
     "source": "kbsm.net",
-    "url": "https://www.kbsm.net/news/view.php?idx\\u003d523468\",1]",
+    "url": "https://www.kbsm.net/news/view.php?idx=523468",
     "k": "한수원 신규 원전은 영덕 smr은 기장",
     "id": "82476d87"
   },
@@ -3124,7 +3124,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "hankyung.com",
-    "url": "https://www.hankyung.com/article/2026061727857\",1,\"https://www.hankyung.com/amp/2026061727857\"]",
+    "url": "https://www.hankyung.com/article/2026061727857",
     "k": "신규 대형 원전 부지 영덕 첫 smr은 부산 기장 선정",
     "id": "b798fa53"
   },
@@ -3138,7 +3138,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "CA",
     "source": "news.ontario.ca",
-    "url": "https://news.ontario.ca/en/release/1007617/ontario-expanding-small-modular-reactor-supply-chain-into-european-markets\",1]",
+    "url": "https://news.ontario.ca/en/release/1007617/ontario-expanding-small-modular-reactor-supply-chain-into-european-markets",
     "k": "ontario expanding small modular reactor supply chain into european markets",
     "id": "a0fccb59"
   },
@@ -3152,7 +3152,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "v.daum.net",
-    "url": "https://v.daum.net/v/20260618002118413\",1]",
+    "url": "https://v.daum.net/v/20260618002118413",
     "k": "신규 원전 영덕 smr은 기장",
     "id": "a128de87"
   },
@@ -3166,7 +3166,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "KR",
     "source": "dnews.co.kr",
-    "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno\\u003d202606171936229470789\",1]",
+    "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202606171936229470789",
     "k": "신규 원전 입지 베일 벗었다 대형원전 경북 영덕 smr 부산 기장 선정",
     "id": "f88f4a33"
   },
@@ -3614,7 +3614,7 @@ window.SMR_NEWS = [
     "dev": "NuScale, X-energy, Oklo, TerraPower, Kairos, Rolls-Royce",
     "region": "US",
     "source": "fool.com",
-    "url": "https://www.fool.com/investing/2026/06/16/nuscale-smr-under-10-bargain-or-trap-answer/\",1]",
+    "url": "https://www.fool.com/investing/2026/06/16/nuscale-smr-under-10-bargain-or-trap-answer/",
     "k": "is smr under 10 a bargain or a trap here s the honest answer",
     "id": "ebfb082d"
   },
@@ -3628,7 +3628,7 @@ window.SMR_NEWS = [
     "dev": "Rolls-Royce",
     "region": "UK",
     "source": "straitstimes.com",
-    "url": "https://www.straitstimes.com/world/europe/rolls-royce-picked-by-sweden-for-new-small-nuclear-reactors\",1]",
+    "url": "https://www.straitstimes.com/world/europe/rolls-royce-picked-by-sweden-for-new-small-nuclear-reactors",
     "k": "rolls royce picked by sweden for new small nuclear reactors",
     "id": "caa4f0ac"
   },
@@ -3950,7 +3950,7 @@ window.SMR_NEWS = [
     "dev": "Oklo",
     "region": "US",
     "source": "barchart.com",
-    "url": "https://www.barchart.com/story/news/2477128/oklo-stock-has-fallen-15-ytd-this-doe-breakthrough-could-start-to-change-everything\",1]",
+    "url": "https://www.barchart.com/story/news/2477128/oklo-stock-has-fallen-15-ytd-this-doe-breakthrough-could-start-to-change-everything",
     "k": "oklo stock has fallen 15 ytd this doe breakthrough could start to change everything",
     "id": "64e286f0"
   },
@@ -3964,7 +3964,7 @@ window.SMR_NEWS = [
     "dev": "NuScale",
     "region": "US",
     "source": "tradingview.com",
-    "url": "https://www.tradingview.com/news/stocktwits:39953ce33094b:0-why-is-smr-stock-gaining-over-5-in-overnight-trading/\",1]",
+    "url": "https://www.tradingview.com/news/stocktwits:39953ce33094b:0-why-is-smr-stock-gaining-over-5-in-overnight-trading/",
     "k": "why is smr stock gaining over 5 in overnight trading",
     "id": "b3d4607b"
   },
@@ -5473,7 +5473,7 @@ window.SMR_NEWS = [
     "dev": "Oklo",
     "region": "US",
     "source": "fool.com",
-    "url": "https://www.fool.com/investing/2026/06/04/millionaire-maker-or-market-hype-the-honest-truth/\",1]",
+    "url": "https://www.fool.com/investing/2026/06/04/millionaire-maker-or-market-hype-the-honest-truth/",
     "k": "millionaire maker or market hype the honest truth about oklo",
     "id": "62e1b727"
   },
@@ -5487,7 +5487,7 @@ window.SMR_NEWS = [
     "dev": "TerraPower",
     "region": "US",
     "source": "energy.gov",
-    "url": "https://www.energy.gov/ne/articles/nrc-dockets-construction-permit-application-terrapowers-natrium-reactor\",1]",
+    "url": "https://www.energy.gov/ne/articles/nrc-dockets-construction-permit-application-terrapowers-natrium-reactor",
     "k": "nrc dockets construction permit application for terrapower s natrium reactor",
     "id": "4008c0c7"
   },
@@ -5736,7 +5736,7 @@ window.SMR_NEWS = [
     "dev": "NuScale",
     "region": "US",
     "source": "nuscalepower.com",
-    "url": "https://www.nuscalepower.com/press-releases/2026/nuscale-power-announces-two-new-board-members-to-support-continued-growth-and-leadership\",1,\"https://www.nuscalepower.com/press-releases/2026/nuscale-power-announces-two-new-board-members-to-support-continued-growth-and-leadership?hs_amp\\u003dtrue\"]",
+    "url": "https://www.nuscalepower.com/press-releases/2026/nuscale-power-announces-two-new-board-members-to-support-continued-growth-and-leadership",
     "k": "nuscale power announces two new board members to support continued growth and leadership",
     "id": "9aa5b2a2"
   },
@@ -5806,7 +5806,7 @@ window.SMR_NEWS = [
     "dev": "Oklo, BWX Technologies",
     "region": "US",
     "source": "fool.com",
-    "url": "https://www.fool.com/coverage/charts/2026/06/01/oklo-vs-bwx-technologies-the-big-nuclear-revenue-face-off-and-one-clear-winner/\",1]",
+    "url": "https://www.fool.com/coverage/charts/2026/06/01/oklo-vs-bwx-technologies-the-big-nuclear-revenue-face-off-and-one-clear-winner/",
     "k": "oklo vs bwx technologies the big nuclear revenue face off and one clear winner",
     "id": "ac6567f3"
   },
@@ -5848,7 +5848,7 @@ window.SMR_NEWS = [
     "dev": "NuScale",
     "region": "US",
     "source": "finance.yahoo.com",
-    "url": "https://finance.yahoo.com/sectors/energy/articles/nuscale-power-still-under-13-152000477.html\",1]",
+    "url": "https://finance.yahoo.com/sectors/energy/articles/nuscale-power-still-under-13-152000477.html",
     "k": "nuscale power is still under 13 here s whether long term investors should pounce",
     "id": "2377e229"
   },
@@ -6028,7 +6028,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "US",
     "source": "fool.com",
-    "url": "https://www.fool.com/coverage/better-buy/2026/05/27/nuscale-power-vs-oklo-which-nuclear-stock-is-a-better-buy-in-2026/\",1]",
+    "url": "https://www.fool.com/coverage/better-buy/2026/05/27/nuscale-power-vs-oklo-which-nuclear-stock-is-a-better-buy-in-2026/",
     "k": "nuscale power vs oklo which nuclear stock is a better buy in 2026",
     "id": "cf4b2f0d"
   },
@@ -6308,7 +6308,7 @@ window.SMR_NEWS = [
     "dev": "FANCO",
     "region": "CA",
     "source": "world-nuclear-news.org",
-    "url": "https://www.world-nuclear-news.org/articles/fanco-and-atkinsrealis-form-strategic-alliance-for-smr-deployment\",1]",
+    "url": "https://www.world-nuclear-news.org/articles/fanco-and-atkinsrealis-form-strategic-alliance-for-smr-deployment",
     "k": "fanco and atkinsr alis form strategic alliance for smr deployment",
     "id": "deb1984a"
   },
@@ -6322,7 +6322,7 @@ window.SMR_NEWS = [
     "dev": "NuScale",
     "region": "KR",
     "source": "ans.org",
-    "url": "https://www.ans.org/news/article-8028/south-korea-looks-to-southern-and-nuscale/\",1]",
+    "url": "https://www.ans.org/news/article-8028/south-korea-looks-to-southern-and-nuscale/",
     "k": "south korea looks to southern and nuscale american nuclear society ans",
     "id": "7d4291ff"
   },
@@ -6448,7 +6448,7 @@ window.SMR_NEWS = [
     "dev": "OPG",
     "region": "CA",
     "source": "nucnet.org",
-    "url": "https://www.nucnet.org/news/canada-s-opg-completes-installation-of-reactor-basemat-for-first-darlington-smr-5-5-2026\",1]",
+    "url": "https://www.nucnet.org/news/canada-s-opg-completes-installation-of-reactor-basemat-for-first-darlington-smr-5-5-2026",
     "k": "canada s opg completes installation of reactor basemat for first darlington smr",
     "id": "60ecb491"
   },
@@ -6783,7 +6783,7 @@ window.SMR_NEWS = [
     "dev": "X-energy",
     "region": "US",
     "source": "cnbc.com",
-    "url": "https://www.cnbc.com/2026/04/24/nuclear-reactor-company-x-energy-begins-trading-as-ai-drives-interest-in-the-industry.html\",1,\"https://www.cnbc.com/amp/2026/04/24/nuclear-reactor-company-x-energy-begins-trading-as-ai-drives-interest-in-the-industry.html\"]",
+    "url": "https://www.cnbc.com/2026/04/24/nuclear-reactor-company-x-energy-begins-trading-as-ai-drives-interest-in-the-industry.html",
     "k": "nuclear reactor company x energy shares surge 27 as ai drives interest in its ipo",
     "id": "f201591c"
   },
@@ -6853,7 +6853,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "CA",
     "source": "news.ontario.ca",
-    "url": "https://news.ontario.ca/en/release/1007340/ontario-and-yukon-working-together-to-advance-small-modular-reactor-development\",1]",
+    "url": "https://news.ontario.ca/en/release/1007340/ontario-and-yukon-working-together-to-advance-small-modular-reactor-development",
     "k": "ontario and yukon working together to advance small modular reactor development",
     "id": "53d01461"
   },
@@ -6895,7 +6895,7 @@ window.SMR_NEWS = [
     "dev": "GE Hitachi",
     "region": "CA",
     "source": "foronuclear.org",
-    "url": "https://www.foronuclear.org/en/updates/news/ontario-power-generation-applies-for-operating-licence-for-a-bwrx-300-small-modular-reactor-at-darlington/\",1]",
+    "url": "https://www.foronuclear.org/en/updates/news/ontario-power-generation-applies-for-operating-licence-for-a-bwrx-300-small-modular-reactor-at-darlington/",
     "k": "ontario power generation applies for operating licence for a bwrx 300 small modular reactor at darlington",
     "id": "b8d6534f"
   },
@@ -7216,7 +7216,7 @@ window.SMR_NEWS = [
     "dev": "NuScale",
     "region": "US",
     "source": "nuscalepower.com",
-    "url": "https://www.nuscalepower.com/press-releases/2026/nuscale-power-and-ebara-elliott-energy-announce-a-strategic-partnership-to-showcase-use-of-advanced-nuclear-technology-to-power-petrochemical-plants\",1,\"https://www.nuscalepower.com/press-releases/2026/nuscale-power-and-ebara-elliott-energy-announce-a-strategic-partnership-to-showcase-use-of-advanced-nuclear-technology-to-power-petrochemical-plants?hs_amp\\u003dtrue\"]",
+    "url": "https://www.nuscalepower.com/press-releases/2026/nuscale-power-and-ebara-elliott-energy-announce-a-strategic-partnership-to-showcase-use-of-advanced-nuclear-technology-to-power-petrochemical-plants",
     "k": "nuscale power and ebara elliott energy announce a strategic partnership to showcase use of advanced nuclear technology to power petrochemical plants",
     "id": "e0e1074a"
   },
@@ -7370,7 +7370,7 @@ window.SMR_NEWS = [
     "dev": "Studsvik",
     "region": "EU",
     "source": "nucnet.org",
-    "url": "https://www.nucnet.org/news/sweden-s-studsvik-acquires-small-modular-reactor-startup-kaernfull-next-3-1-2026\",1]",
+    "url": "https://www.nucnet.org/news/sweden-s-studsvik-acquires-small-modular-reactor-startup-kaernfull-next-3-1-2026",
     "k": "sweden s studsvik acquires small modular reactor startup k rnfull next",
     "id": "39aa15cd"
   },
@@ -7495,7 +7495,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "",
     "source": "statista.com",
-    "url": "https://www.statista.com/statistics/1551301/smr-facilities-by-country/\",1]",
+    "url": "https://www.statista.com/statistics/1551301/smr-facilities-by-country/",
     "k": "smr nuclear facilities by country 2026",
     "id": "257b7911"
   },
@@ -7523,7 +7523,7 @@ window.SMR_NEWS = [
     "dev": "GE 버노바",
     "region": "US",
     "source": "gevernova.com",
-    "url": "https://www.gevernova.com/news/press-releases/deployment-bwrx-300-small-modular-reactor-poland-major-step-forward-design-development\",1]",
+    "url": "https://www.gevernova.com/news/press-releases/deployment-bwrx-300-small-modular-reactor-poland-major-step-forward-design-development",
     "k": "deployment of bwrx 300 small modular reactor in poland takes major step forward with design development",
     "id": "cb4c6ccf"
   },
@@ -7621,7 +7621,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "EU",
     "source": "world-nuclear-news.org",
-    "url": "https://world-nuclear-news.org/articles/final-investment-decision-taken-for-romanias-smrs\",1]",
+    "url": "https://world-nuclear-news.org/articles/final-investment-decision-taken-for-romanias-smrs",
     "k": "final investment decision taken for romanian smr project",
     "id": "2a8ec5ea"
   },
@@ -7775,7 +7775,7 @@ window.SMR_NEWS = [
     "dev": "Oklo",
     "region": "US",
     "source": "oklo.com",
-    "url": "https://oklo.com/newsroom/news-details/2026/Oklo-Meta-Announce-Agreement-in-Support-of-1-2-GW-Nuclear-Energy-Development-in-Southern-Ohio/default.aspx\",1]",
+    "url": "https://oklo.com/newsroom/news-details/2026/Oklo-Meta-Announce-Agreement-in-Support-of-1-2-GW-Nuclear-Energy-Development-in-Southern-Ohio/default.aspx",
     "k": "oklo meta announce agreement in support of 1 2 gw nuclear energy development in southern ohio",
     "id": "30792dab"
   },
@@ -7998,7 +7998,7 @@ window.SMR_NEWS = [
     "dev": "",
     "region": "US",
     "source": "world-nuclear-news.org",
-    "url": "https://www.world-nuclear-news.org/articles/two-smr-projects-selected-for-us-federal-funding\",1]",
+    "url": "https://www.world-nuclear-news.org/articles/two-smr-projects-selected-for-us-federal-funding",
     "k": "two smr projects selected for us federal funding",
     "id": "edffa836"
   },

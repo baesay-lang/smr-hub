@@ -413,14 +413,19 @@ async function resolveGoogleNews(url){
     clearTimeout(t2);
     if (!res.ok) return url;
     const txt = await res.text();
-    const part = txt.indexOf('garturlres') >= 0 ? txt.slice(txt.indexOf('garturlres')) : txt;
-    // capture URL incl. JSON escapes (= is sent as =, & as &, / as \/), then decode —
-    // a naive [^\\] match would stop at the first escape and truncate the query (e.g. ?idxno=123)
-    const m = part.match(/https?:\/\/(?:[^"\\\s]|\\u[0-9a-fA-F]{4}|\\.)+/);
+    // The batchexecute response is DOUBLY JSON-encoded: the Fbv4je payload is a JSON string
+    // whose decoded value is itself a JSON array ["garturlres","<real url>",1]. So '=' arrives
+    // as \\u003d and quotes as \". Capture the payload string, then JSON.parse TWICE — a single
+    // decode (or a plain URL regex) leaves = literal and swallows the trailing ",1].
+    const m = txt.match(/"Fbv4je","((?:\\.|[^"\\])*)"/);
     if (!m) return url;
-    let u = m[0];
-    try { u = JSON.parse('"' + u + '"'); } catch(e){}
-    return u || url;
+    let real;
+    try {
+      const inner = JSON.parse('"' + m[1] + '"');   // 1st level: payload string -> inner JSON text
+      const data = JSON.parse(inner);               // 2nd level: ["garturlres", url, 1]
+      real = Array.isArray(data) ? data.find(x => typeof x === 'string' && /^https?:\/\//.test(x)) : null;
+    } catch(e){ return url; }
+    return real || url;
   } catch(e){ return url; }
 }
 
