@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GE Hitachi / BWRX-300 상세 — 사양·공급망·고객·뉴스</title>
+<meta name="description" content="GE Vernova Hitachi(GVH) BWRX-300(비등경수로 BWR) 기술 사양·부품 공급망·고객(Off-taker)·파트너십·뉴스 상세. 캐나다 Darlington(G7 최초 그리드급 SMR)·한국(삼성물산) 참여 정리.">
+<link rel="canonical" href="https://baesay-lang.github.io/smr-hub/SMR-dev-gehitachi.html">
+<meta name="theme-color" content="#2563eb">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SMR HUB">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="GE Hitachi / BWRX-300 상세 · SMR HUB">
+<meta property="og:description" content="GE Vernova Hitachi BWRX-300(BWR) 기술 사양·부품 공급망·고객·파트너십·뉴스 상세.">
+<meta property="og:url" content="https://baesay-lang.github.io/smr-hub/SMR-dev-gehitachi.html">
+<meta property="og:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="GE Hitachi / BWRX-300 상세 · SMR HUB">
+<meta name="twitter:description" content="BWRX-300(BWR) 사양·공급망·고객·파트너십·뉴스 상세.">
+<meta name="twitter:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
+<link rel="stylesheet" href="styles.css?v=3">
+<script>(function(){try{var t=localStorage.getItem('smrhub-theme');if(t==='dark'||(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();</script>
+<script src="ui.js" defer></script>
+<style>
+  .breadcrumb .sep{color:var(--text-faint);}
+  .h-top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;}
+  h1{font-size:23px;margin:6px 0 2px;}
+  .type-tag{font-size:12px;font-weight:700;padding:3px 10px;border-radius:4px;background:var(--surface-3);color:var(--text-dim);}
+  .pub-tag{font-size:12px;font-weight:700;padding:3px 10px;border-radius:4px;background:var(--accent-weak);color:var(--accent-strong);}
+  .updated{font-size:12px;color:var(--text-faint);margin-top:6px;font-variant-numeric:tabular-nums;}
+
+  /* reactor hero figure (재사용: 노형별 SVG 모형) */
+  .reactor-hero{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap;}
+  .rh-text{flex:1 1 320px;min-width:270px;}
+  .reactor-figure{flex:0 0 auto;margin:0;width:150px;max-width:100%;}
+  .reactor-figure svg{display:block;width:100%;height:auto;}
+  .reactor-figure figcaption{font-size:11px;color:var(--text-faint);text-align:center;margin-top:2px;letter-spacing:.02em;}
+  @media(max-width:600px){.reactor-figure{margin:6px auto 0;}}
+
+  section{margin-top:30px;scroll-margin-top:56px;}
+  .sec-head{font-size:17px;font-weight:700;color:var(--text);margin:0 0 4px;}
+  .sec-head .no{color:var(--accent);margin-right:6px;}
+  .sec-sub{color:var(--text-dim);font-size:13px;margin:0 0 14px;}
+
+  .jump{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 6px;}
+  .jump a{font-size:13px;font-weight:600;background:var(--surface);border:1px solid var(--border);padding:6px 13px;border-radius:20px;color:var(--text-dim);}
+  .jump a:hover{border-color:var(--accent);color:var(--accent-strong);text-decoration:none;}
+
+  .specs{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1px;background:var(--border);
+    border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;}
+  .spec{background:var(--surface-2);padding:11px 14px;}
+  .spec .lab{font-size:11px;color:var(--accent);font-weight:700;display:block;margin-bottom:2px;}
+  .spec .val{font-size:14px;color:var(--text);}
+  .spec .val small{color:var(--text-dim);font-size:12px;}
+  .tech-note{background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--accent);
+    border-radius:var(--radius-sm);padding:12px 16px;margin-top:12px;font-size:13.5px;color:var(--text-dim);}
+  .tech-note b{color:var(--text);}
+
+  table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:640px;}
+  th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--border);vertical-align:top;}
+  th{background:var(--surface-2);font-weight:700;font-size:12px;color:var(--text-dim);white-space:nowrap;}
+  tr:last-child td{border-bottom:none;}
+  tbody tr:hover{background:var(--surface-2);}
+  td b{color:var(--text);}
+  .badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:4px;white-space:nowrap;background:var(--surface-3);color:var(--text-dim);}
+  .st-ok,.st-prog{color:var(--accent-strong);font-weight:700;}
+  .st-plan{color:var(--text-faint);font-weight:700;}
+  .st-stop{color:var(--alert);font-weight:700;}
+
+  .mou{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:13px 16px;margin-bottom:10px;box-shadow:var(--shadow);}
+  .mou-top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:3px;}
+  .mou-date{font-size:12px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;}
+  .mou-party{font-weight:700;font-size:15px;color:var(--text);}
+  .mou-body{font-size:13.5px;color:var(--text-dim);}
+  .mou-body b{color:var(--text);}
+
+  .diagram-wrap{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:12px;overflow-x:auto;margin-bottom:10px;}
+  .diagram-wrap svg{display:block;min-width:720px;height:auto;}
+  .sub-h{font-size:14px;font-weight:700;color:var(--text);margin:20px 0 8px;}
+  .sub-h .pin{font-size:12px;font-weight:800;color:var(--accent);margin-right:6px;}
+  .cochip{display:inline-block;font-size:12px;font-weight:700;padding:3px 9px;border-radius:5px;cursor:pointer;
+    border:1px solid var(--border-strong);background:var(--surface);color:var(--text);margin:2px 4px 2px 0;}
+  .cochip:hover{border-color:var(--accent);color:var(--accent-strong);}
+  .cochip.active{background:var(--accent-weak);border-color:var(--accent);color:var(--accent-strong);}
+  .cochip .ccx{font-size:10px;color:var(--text-faint);font-weight:700;margin-left:3px;}
+  .co-detail{background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:13px 15px;margin-top:8px;font-size:13.5px;color:var(--text-dim);}
+  .co-detail .nm{font-weight:700;color:var(--text);font-size:15px;}
+  .co-detail .role{color:var(--accent-strong);font-size:12px;font-weight:700;margin:1px 0 6px;}
+  .co-detail .lnk{margin-top:8px;font-size:13px;}
+  .co-detail.empty{font-style:italic;color:var(--text-faint);}
+  .co-detail b{color:var(--text);}
+  .num{font-weight:700;color:var(--text);font-variant-numeric:tabular-nums;}
+
+  .news-controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px;}
+  #newsSearch{flex:1;min-width:200px;}
+  .tagchips{display:flex;gap:6px;flex-wrap:wrap;}
+
+  .feed{position:relative;padding-left:22px;}
+  .feed::before{content:"";position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:var(--border);}
+  .item{position:relative;margin-bottom:16px;}
+  .item::before{content:"";position:absolute;left:-22px;top:5px;width:11px;height:11px;border-radius:50%;background:var(--accent);border:2px solid var(--bg);}
+  .item-date{font-size:12px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;}
+  .item-title{font-weight:700;font-size:15px;margin:1px 0 3px;color:var(--text);}
+  .item-body{font-size:13.5px;color:var(--text-dim);}
+  .item-body b{color:var(--text);}
+  .item-tags{margin-top:5px;display:flex;gap:5px;flex-wrap:wrap;}
+  .tg{font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:4px;background:var(--surface-2);color:var(--text-dim);border:1px solid var(--border);}
+  .item-src{font-size:11.5px;margin-top:3px;}
+  .news-hidden{display:none;}
+  .news-tip{background:var(--surface-2);border:1px dashed var(--border-strong);border-radius:var(--radius-sm);padding:10px 14px;font-size:12.5px;color:var(--text-dim);margin-bottom:16px;}
+  .news-tip code{background:var(--surface-3);padding:1px 5px;border-radius:4px;color:var(--accent-strong);font-size:11.5px;}
+
+  .src{font-size:11.5px;color:var(--text-faint);}
+  .src a{color:var(--text-dim);}
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a class="brand" href="index.html">SMR HUB</a>
+  <a href="SMR-news.html">뉴스</a>
+  <a href="SMR-developers.html">개발사</a>
+  <a href="SMR-licensing-tracks.html">인허가 트랙</a>
+  <a href="SMR-reactor-types.html">노형 분류</a>
+  <a href="SMR-reference.html">CFR 레퍼런스</a>
+  <a href="SMR-asia-structure.html">사업 구조</a>
+  <a href="SMR-korea-players.html">한국 기업</a>
+  <a href="SMR-map.html">프로젝트 맵</a>
+</nav>
+
+<div class="breadcrumb"><a href="SMR-developers.html">개발사</a> <span class="sep">›</span> <a href="SMR-developers.html#gehitachi">GE Hitachi</a> <span class="sep">›</span> 상세</div>
+
+<header class="page reactor-hero">
+  <div class="rh-text">
+    <div class="h-top">
+      <h1>GE Hitachi / BWRX-300</h1>
+      <span class="type-tag">경수로 · 비등경수로(BWR)</span>
+      <span class="pub-tag">GE Vernova: NYSE GEV</span>
+    </div>
+    <p class="subtitle">자연순환 <b>비등경수로(BWR)</b> — 증기발생기 없는 <b>직접사이클</b>, NRC 인증 ESBWR 계보의 10세대 단순화 설계. 캐나다 <b>Darlington</b>(OPG)이 <b>G7 최초 그리드급 SMR</b>로 건설 중.</p>
+    <div class="updated">최종 업데이트 2026-06-17 · CNSC 건설허가(2025-04) · Darlington 착공(2025-05)·기초모듈(2026-05) · NRC Clinch River 심사중</div>
+  </div>
+
+  <!-- ===== 노형 모형(재사용 패턴): 회색 음영 3D 모델. BWRX-300 = 키 큰 단일 BWR 용기 + 하부진입 제어봉. ===== -->
+  <figure class="reactor-figure">
+    <svg viewBox="0 0 150 205" xmlns="http://www.w3.org/2000/svg"
+         role="img" aria-label="BWRX-300 원자로압력용기 모형: 키 큰 단일 비등경수로 용기, 상단 돔형 헤드와 증기 노즐, 하단에 하부진입 제어봉 구동부 다발">
+      <title>BWRX-300 원자로압력용기(RPV) 모형</title>
+      <defs>
+        <linearGradient id="geCylV" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#99a2ac"/><stop offset="0.12" stop-color="#c2c9d1"/><stop offset="0.30" stop-color="#e9ecef"/>
+          <stop offset="0.48" stop-color="#ffffff"/><stop offset="0.64" stop-color="#eceef1"/><stop offset="0.80" stop-color="#c6ccd3"/><stop offset="1" stop-color="#959fa9"/>
+        </linearGradient>
+        <linearGradient id="geCap" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#d7dce1"/><stop offset="0.5" stop-color="#f6f7f9"/><stop offset="1" stop-color="#cfd4da"/>
+        </linearGradient>
+        <style>
+          .ge-body{stroke:var(--border-strong);stroke-width:.8}
+          .ge-cap{fill:url(#geCap);stroke:var(--border-strong);stroke-width:.7}
+          .ge-capb{fill:#aab2bc;stroke:var(--border-strong);stroke-width:.7}
+          .ge-flange{fill:#cdd3da;stroke:var(--border-strong);stroke-width:.6}
+          .ge-shadow{fill:var(--border-strong);opacity:.5}
+        </style>
+      </defs>
+
+      <!-- 바닥 그림자 -->
+      <ellipse class="ge-shadow" cx="73" cy="197" rx="38" ry="5"/>
+
+      <!-- 증기/급수 노즐 (우측 상부) -->
+      <rect class="ge-body" x="98" y="64" width="13" height="7" fill="url(#geCap)"/>
+      <rect class="ge-body" x="98" y="104" width="11" height="6" fill="url(#geCap)"/>
+
+      <!-- 돔형 제거 헤드 -->
+      <ellipse class="ge-cap" cx="73" cy="40" rx="27" ry="12"/>
+      <!-- 헤드 플랜지 -->
+      <rect class="ge-flange" x="44" y="50" width="58" height="4" rx="2"/>
+
+      <!-- RPV 동체 (키 큰 BWR 용기) -->
+      <rect class="ge-body" x="46" y="54" width="54" height="120" fill="url(#geCylV)"/>
+      <!-- 하부 반구 -->
+      <ellipse class="ge-capb" cx="73" cy="174" rx="27" ry="10"/>
+
+      <!-- 하부진입 제어봉 구동부(CRD/FMCRD) 다발 -->
+      <g class="ge-body" fill="url(#geCap)">
+        <rect x="55" y="180" width="4" height="14"/><rect x="63" y="182" width="4" height="14"/><rect x="71" y="183" width="4" height="14"/><rect x="79" y="182" width="4" height="14"/><rect x="87" y="180" width="4" height="14"/>
+      </g>
+    </svg>
+    <figcaption>BWRX-300 원자로압력용기(RPV)</figcaption>
+  </figure>
+</header>
+
+<main>
+  <div class="jump">
+    <a href="#tech">① 기술 사양</a>
+    <a href="#supply">② 부품 공급망</a>
+    <a href="#offtaker">③ Off-taker</a>
+    <a href="#mou">④ 파트너십·이정표</a>
+    <a href="#news">⑤ 관련 뉴스</a>
+  </div>
+
+  <!-- ===================== 기술 사양 ===================== -->
+  <section id="tech">
+    <h2 class="sec-head"><span class="no">①</span>기술 사양</h2>
+    <p class="sec-sub">비등경수로(BWR) · 직접사이클 · 870MWth / 300MWe · 자연순환(재순환펌프 없음) · ESBWR(1,520MWe) 계보의 10세대</p>
+    <div class="specs">
+      <div class="spec"><span class="lab">노형</span><span class="val">비등경수로(BWR)<small> 직접사이클 · 경수/경수</small></span></div>
+      <div class="spec"><span class="lab">출력</span><span class="val">300 MWe<small> / 870 MWth (net)</small></span></div>
+      <div class="spec"><span class="lab">계보</span><span class="val">ESBWR 기반<small> 10세대 BWR 단순화</small></span></div>
+      <div class="spec"><span class="lab">1차 순환</span><span class="val">자연순환<small> 재순환펌프 없음 · 키 큰 챔니</small></span></div>
+      <div class="spec"><span class="lab">운전 압력</span><span class="val">7.17 MPa<small> 1차(직접사이클)</small></span></div>
+      <div class="spec"><span class="lab">냉각재 온도</span><span class="val">270 / 288 °C<small> 입구 / 출구</small></span></div>
+      <div class="spec"><span class="lab">연료</span><span class="val">GNF2 UO₂<small> 정방격자 · 농축도 평균 3.8% / 최대 4.95%</small></span></div>
+      <div class="spec"><span class="lab">노심</span><span class="val">연료집합체 240</span></div>
+      <div class="spec"><span class="lab">제어봉</span><span class="val">FMCRD<small> 미세조정 · 노심 하부 진입</small></span></div>
+      <div class="spec"><span class="lab">증기 생성</span><span class="val">RPV 내 직접 비등<small> 분리기·건조기 → 터빈 (별도 SG·가압기 없음)</small></span></div>
+      <div class="spec"><span class="lab">붕괴열 제거</span><span class="val">격리응축기(ICS)<small> 무전원 7일 피동</small></span></div>
+      <div class="spec"><span class="lab">재장전</span><span class="val">12–24개월 주기</span></div>
+      <div class="spec"><span class="lab">연소도</span><span class="val">~55 GWd/tU</span></div>
+      <div class="spec"><span class="lab">설계수명 · 내진</span><span class="val">60년<small> · SSE 0.3 g</small></span></div>
+      <div class="spec"><span class="lab">원자로용기(RPV)</span><span class="val">높이 27m · ⌀4m<small> 무게 650톤</small></span></div>
+      <div class="spec"><span class="lab">부지면적</span><span class="val">약 11,550 m²</span></div>
+      <div class="spec"><span class="lab">용도</span><span class="val">전력 · 부하추종 · 수소 · 열</span></div>
+    </div>
+    <div class="tech-note">
+      <b>핵심 차별점:</b> ① <b>직접사이클 BWR</b> — RPV 안에서 물을 직접 끓여 그 증기로 곧장 터빈을 돌림 → <b>증기발생기·가압기·재순환펌프가 모두 없음</b>(부품 단순화·저원가) · ② <b>자연순환</b> — 키 큰 챔니(chimney)의 부력으로 노심 냉각, 펌프 불필요 · ③ <b>피동안전</b> — <b>격리응축기계통(ICS)</b>으로 무전원·무조작 7일 붕괴열 제거, RPV 직결 격리밸브로 누출 차단 · ④ <b>검증 계보</b> — NRC 인증 <b>ESBWR(1,520MWe)</b>의 설계·인허가 자산을 물려받아 비용·일정 위험을 낮춤 · ⑤ 제어봉은 노심 <b>하부에서 진입</b>(BWR 특징).
+      자세한 노형 비교는 <a href="SMR-reactor-types.html#bwr">노형 분류 › BWR</a> 참고.
+    </div>
+    <p class="src" style="margin:10px 0 0;">＊ 사양 교차검증: <b>IAEA <i>Advances in SMR Technology Developments 2024</i></b> 카탈로그(BWRX-300). 870MWth/300MWe(net)·RPV 27m×⌀4m·650톤·GNF2 240집합체·자연순환·ICS 등 일치.</p>
+  </section>
+
+  <!-- ===================== 부품 공급망 ===================== -->
+  <section id="supply">
+    <h2 class="sec-head"><span class="no">②</span>주요 부품·연료 공급망</h2>
+    <p class="sec-sub"><b>원자로압력용기(<abbr title="Reactor Pressure Vessel">RPV</abbr>)는 BWXT(캐나다)</b>, 연료는 GNF(GNF2), 원자로는 GE Vernova·Hitachi-GE 공동, 터빈은 GE Vernova, 한국은 삼성물산이 전략적 제휴</p>
+
+    <div class="sub-h"><span class="pin">②-A</span>BWRX-300 직접사이클 구성 — 도해</div>
+    <!-- DIAGRAM CONVENTION (reuse): viewBox 0 0 900 440 · Nuclear Island(left, dashed) + Conventional Island(right).
+         Vessels = rounded rect, fill accent-weak, stroke accent 2px. Components ①..⑦ map to the supply table.
+         Flows: steam = solid accent arrow; feedwater = dashed gray. BWR = 직접사이클(증기발생기 없음). -->
+    <div class="diagram-wrap">
+      <svg viewBox="0 0 900 440" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, sans-serif" aria-label="BWRX-300 direct cycle schematic">
+        <defs>
+          <marker id="m-acc" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker>
+          <marker id="m-gray" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#9aa7b4"/></marker>
+        </defs>
+
+        <!-- islands -->
+        <rect x="24" y="56" width="548" height="352" rx="12" fill="none" stroke="#d2d7e0" stroke-dasharray="6 5"/>
+        <text x="40" y="46" fill="#8b93a2" font-size="11" font-weight="700" letter-spacing="1.4">NUCLEAR ISLAND (NI)</text>
+        <rect x="604" y="56" width="272" height="352" rx="12" fill="none" stroke="#d2d7e0" stroke-dasharray="6 5"/>
+        <text x="620" y="46" fill="#8b93a2" font-size="11" font-weight="700" letter-spacing="1.4">CONVENTIONAL ISLAND (CI)</text>
+
+        <!-- Isolation Condenser System (ICS ⑤) pool, upper-left -->
+        <rect x="70" y="92" width="118" height="74" rx="6" fill="#eef3ff" stroke="#c3d4f5"/>
+        <path d="M70 100 q10 -6 20 0 t20 0 t20 0 t20 0 t20 0 t18 0" fill="none" stroke="#9bb6f0" stroke-width="1.3"/>
+        <g fill="none" stroke="#9aa7b4" stroke-width="2"><ellipse cx="129" cy="124" rx="34" ry="6"/><ellipse cx="129" cy="138" rx="34" ry="6"/><ellipse cx="129" cy="152" rx="34" ry="6"/></g>
+        <text x="129" y="86" fill="#1d4ed8" font-size="10.5" font-weight="700" text-anchor="middle">ICS ⑤ (격리응축기)</text>
+        <polyline points="188 120 226 120 226 150" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3"/>
+
+        <!-- RPV ① tall vessel -->
+        <ellipse cx="248" cy="120" rx="40" ry="13" fill="#e3ecff" stroke="#2563eb" stroke-width="2"/>
+        <rect x="208" y="120" width="80" height="232" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <ellipse cx="248" cy="352" rx="40" ry="12" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="248" y="392" fill="#1d4ed8" font-size="11.5" font-weight="700" text-anchor="middle">RPV ① (BWR 단일 용기)</text>
+
+        <!-- Steam dryer + separators ③ (top internals) -->
+        <g stroke="#9aa7b4" stroke-width="2" fill="none">
+          <polyline points="222,150 230,142 238,150 246,142 254,150 262,142 270,150"/>
+        </g>
+        <g fill="#9aa7b4"><circle cx="230" cy="170" r="4"/><circle cx="248" cy="170" r="4"/><circle cx="266" cy="170" r="4"/></g>
+        <text x="300" y="158" fill="#1d4ed8" font-size="10" font-weight="700">건조기·기수분리기 ③</text>
+        <line x1="288" y1="160" x2="296" y2="156" stroke="#c0c7d1"/>
+
+        <!-- Chimney (riser ③) -->
+        <line x1="248" y1="316" x2="248" y2="188" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
+        <text x="248" y="182" fill="#1d4ed8" font-size="8" font-weight="700" text-anchor="middle">챔니 ③ · 자연순환 ↑</text>
+
+        <!-- Core ② -->
+        <rect x="226" y="316" width="44" height="30" rx="3" fill="#e3ecff" stroke="#2563eb"/>
+        <g stroke="#9aa7b4" stroke-width="1.4"><line x1="234" y1="320" x2="234" y2="342"/><line x1="242" y1="320" x2="242" y2="342"/><line x1="250" y1="320" x2="250" y2="342"/><line x1="258" y1="320" x2="258" y2="342"/><line x1="266" y1="320" x2="266" y2="342"/></g>
+        <text x="190" y="334" fill="#1d4ed8" font-size="10.5" font-weight="700" text-anchor="end">Core ②</text>
+        <line x1="196" y1="330" x2="224" y2="330" stroke="#c0c7d1"/>
+
+        <!-- FMCRD ④ bottom-entry -->
+        <g stroke="#2563eb" stroke-width="2"><line x1="236" y1="364" x2="236" y2="384"/><line x1="248" y1="366" x2="248" y2="386"/><line x1="260" y1="364" x2="260" y2="384"/></g>
+        <text x="300" y="378" fill="#1d4ed8" font-size="10" font-weight="700">FMCRD ④ (하부진입)</text>
+        <line x1="266" y1="374" x2="296" y2="376" stroke="#c0c7d1"/>
+
+        <!-- main steam line (direct → turbine) with isolation valve ⑥ -->
+        <line x1="288" y1="200" x2="648" y2="200" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
+        <rect x="320" y="193" width="14" height="14" rx="2" fill="#ffffff" stroke="#2563eb"/>
+        <path d="M323 196 L331 204 M331 196 L323 204" stroke="#2563eb" stroke-width="1.4"/>
+        <text x="327" y="186" fill="#1d4ed8" font-size="9.5" font-weight="700" text-anchor="middle">격리밸브 ⑥</text>
+        <text x="500" y="192" fill="#8b93a2" font-size="9.5" text-anchor="middle">Main Steam (직접) →</text>
+
+        <!-- feedwater return (turbine → RPV): 화살표는 모듈 쪽(좌측) -->
+        <polyline points="690,238 690,300 288,300" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
+        <text x="500" y="314" fill="#8b93a2" font-size="9.5" text-anchor="middle">← Feedwater (급수 복귀)</text>
+
+        <!-- Turbine ⑦ + Generator -->
+        <polygon points="648,178 712,166 712,238 648,226" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="680" y="150" fill="#1d4ed8" font-size="11.5" font-weight="700" text-anchor="middle">Turbine ⑦</text>
+        <text x="680" y="162" fill="#54606f" font-size="9.5" text-anchor="middle">GE Vernova T/G</text>
+        <line x1="712" y1="202" x2="740" y2="202" stroke="#9aa7b4" stroke-width="3"/>
+        <circle cx="764" cy="202" r="22" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="764" y="208" fill="#1d4ed8" font-size="15" font-weight="700" text-anchor="middle">G</text>
+        <text x="764" y="240" fill="#54606f" font-size="9.5" text-anchor="middle">Generator</text>
+      </svg>
+    </div>
+    <p class="src" style="margin:0 0 14px;">＊ 모식도(개략). 번호 ①–⑦은 아래 공급사 표와 연결. 노심에서 직접 끓은 물이 챔니로 상승(자연순환) → 상부 기수분리기·건조기에서 물기를 제거한 <b>증기를 그대로 터빈으로</b> 보냄(직접사이클). <b>증기발생기·가압기·재순환펌프가 없음</b>이 핵심. 붕괴열은 ICS가 피동 제거.</p>
+
+    <div class="sub-h"><span class="pin">②-B</span>주기기·부품별 공급사 <span style="font-weight:400;color:var(--text-dim);font-size:12.5px;">(공급사 칩 클릭 → 설명·링크)</span></div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>#</th><th>부품·기기</th><th>공급사 (클릭)</th><th>구분 (NI/CI)</th></tr></thead>
+        <tbody>
+          <tr><td class="num">①</td><td><b>원자로압력용기 (<abbr title="Reactor Pressure Vessel">RPV</abbr>)</b></td><td><span class="cochip" data-co="bwxt">BWXT<span class="ccx">CA</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Nuclear Steam Supply System">NSSS</abbr></td></tr>
+          <tr><td class="num">②</td><td><b>핵연료 (GNF2 UO₂, ≤4.95%)</b></td><td><span class="cochip" data-co="gnf">Global Nuclear Fuel<span class="ccx">US·JP</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Reactor Core">Core</abbr></td></tr>
+          <tr><td class="num">③</td><td><b>내부구조물 (챔니·기수분리기·증기건조기)</b></td><td><span class="cochip" data-co="hitachi">Hitachi-GE<span class="ccx">JP</span></span><span class="cochip" data-co="gevernova">GE Vernova<span class="ccx">US</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Nuclear Steam Supply System">NSSS</abbr></td></tr>
+          <tr><td class="num">④</td><td><b>제어봉구동장치 (<abbr title="Fine Motion Control Rod Drive">FMCRD</abbr>, 하부진입)</b></td><td><span class="cochip" data-co="hitachi">Hitachi-GE<span class="ccx">JP</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Nuclear Steam Supply System">NSSS</abbr></td></tr>
+          <tr><td class="num">⑤</td><td><b>격리응축기계통 (<abbr title="Isolation Condenser System">ICS</abbr>)</b></td><td><span class="cochip" data-co="gevernova">GE Vernova<span class="ccx">US</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · 안전계통</td></tr>
+          <tr><td class="num">⑥</td><td><b>격리밸브 (Integral Isolation Valves)</b></td><td><span class="cochip" data-co="gevernova">GE Vernova<span class="ccx">US</span></span></td><td><abbr title="Nuclear Island">NI</abbr> · <abbr title="Nuclear Steam Supply System">NSSS</abbr></td></tr>
+          <tr><td class="num">⑦</td><td><b>증기터빈·발전기</b> <span style="color:var(--text-faint);font-size:12px;">(직접사이클 T/G)</span></td><td><span class="cochip" data-co="gevernova">GE Vernova<span class="ccx">US</span></span></td><td><abbr title="Conventional Island">CI</abbr> · <abbr title="Turbine–Generator">T/G</abbr></td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="src" style="margin:8px 0 0;line-height:1.85;">
+      <b style="color:var(--text-dim);">구분 약어</b> (커서 올리면 풀네임) —
+      <abbr title="Nuclear Island">NI</abbr> Nuclear Island ·
+      <abbr title="Conventional Island">CI</abbr> Conventional Island ·
+      <abbr title="Nuclear Steam Supply System">NSSS</abbr> Nuclear Steam Supply System ·
+      <abbr title="Turbine–Generator">T/G</abbr> Turbine–Generator ·
+      <abbr title="Fine Motion Control Rod Drive">FMCRD</abbr> Fine Motion Control Rod Drive ·
+      <abbr title="Isolation Condenser System">ICS</abbr> Isolation Condenser System<br>
+      <span style="color:var(--text-faint);">＊ BWR는 RPV 안에서 직접 증기를 만드는 <b style="color:var(--text-dim);">직접사이클</b>이라 PWR식 증기발생기·가압기가 없음 → <b style="color:var(--text-dim);">NSSS 공급 범위(스코프, scope)</b>의 핵심이 RPV·내부구조물로 단순화됨. RPV는 BWXT(캐나다), 한국은 삼성물산이 EPC 전략적 제휴. 최종 스코프는 프로젝트 문서 기준 확인.</span>
+    </p>
+    <div class="co-detail empty" id="coDetail">위 공급사 칩을 클릭하면 회사 설명과 공식 링크가 여기에 표시됩니다.</div>
+
+    <div class="sub-h"><span class="pin">②-C</span>개발·건설·전략 파트너</div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>파트너</th><th>국적</th><th>역할</th><th>현황</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>GE Vernova Hitachi</b><br><span class="src">GVH (GE Vernova + Hitachi 합작)</span></td>
+            <td><span class="badge">US·JP</span></td>
+            <td>BWRX-300 <b>설계·기술 보유사</b>(원자로·터빈). GE Vernova(미국) + Hitachi(일본) 합작.</td>
+            <td><span class="st-prog">진행</span> · 캐나다·미국·유럽 동시 추진.</td>
+          </tr>
+          <tr>
+            <td><b>BWXT</b></td>
+            <td><span class="badge">CA</span></td>
+            <td>BWRX-300 <b>RPV 등 대형 기기 제작</b>(공급자그룹 1호). 캐나다 Cambridge 공장 증설.</td>
+            <td><span class="st-ok">계약</span> · Darlington RPV 제작 계약(2025.1).</td>
+          </tr>
+          <tr>
+            <td><b>삼성물산</b><br><span class="src">Samsung C&amp;T</span></td>
+            <td><span class="badge">KR</span></td>
+            <td>GVH와 BWRX-300 <b>전략적 제휴</b> — 글로벌 EPC·공급망 협력.</td>
+            <td><span class="st-prog">진행</span> · 한국 EPC 참여 통로.</td>
+          </tr>
+          <tr>
+            <td><b>Aecon · AtkinsRéalis · Hatch</b><br><span class="src">Darlington EPC 컨소시엄</span></td>
+            <td><span class="badge">CA</span></td>
+            <td>OPG Darlington <b>건설(EPC)</b> 컨소시엄.</td>
+            <td><span class="st-prog">건설</span> · 1호기 시공 진행.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="src" style="margin-top:8px;">＊ Xe-100·NuScale과 달리 <b>주기기 제작이 캐나다(BWXT) 중심</b>이고, 한국은 <b>삼성물산의 EPC 전략적 제휴</b>가 주된 연결고리(두산·GS의 NSSS 제작 비중은 아직 낮음). → <a href="SMR-korea-players.html">한국 기업</a> · <a href="SMR-reference.html">CFR 레퍼런스</a></p>
+  </section>
+
+  <!-- ===================== Off-taker ===================== -->
+  <section id="offtaker">
+    <h2 class="sec-head"><span class="no">③</span>Off-taker (고객·프로젝트)</h2>
+    <p class="sec-sub">캐나다 Darlington(건설 중·세계 최초)을 선두로 미국·폴란드·북유럽으로 선단 확장</p>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>고객·프로젝트</th><th>지역</th><th>규모</th><th>현황</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>OPG</b><br><span class="src">Darlington New Nuclear</span></td>
+            <td><span class="badge">CA · 온타리오</span></td>
+            <td><b>4기</b> 계획 (1호기 건설 중)</td>
+            <td><span class="st-prog">건설</span> · CNSC 건설허가(2025-04), 착공(2025-05), <b>기초모듈 설치(2026-05)</b>. 1호기 ~2029 완공·2030 상업운전. <b>G7 최초 그리드급 SMR</b>.</td>
+          </tr>
+          <tr>
+            <td><b>TVA</b><br><span class="src">Clinch River · 테네시</span></td>
+            <td><span class="badge">US · 테네시</span></td>
+            <td>1호기 (추가 옵션)</td>
+            <td><span class="st-prog">규제 심사</span> · NRC <b>Part 50 건설허가(CP) 신청</b> 도케팅(2025), ~17개월 심사. 美 첫 BWRX-300.</td>
+          </tr>
+          <tr>
+            <td><b>Orlen Synthos (OSGE)</b><br><span class="src">Włocławek 등</span></td>
+            <td><span class="badge">PL · 폴란드</span></td>
+            <td>대규모 <b>선단</b> (다수 부지)</td>
+            <td><span class="st-plan">개발</span> · 첫 부지 Włocławek 선정, <b>폴란드 일반설계협약(PGDA) 서명(2026-02)</b>.</td>
+          </tr>
+          <tr>
+            <td><b>Fermi · Vattenfall · SaskPower 등</b><br><span class="src">에스토니아·스웨덴·캐나다</span></td>
+            <td><span class="badge">EE·SE·CA</span></td>
+            <td>각 부지별 1기+</td>
+            <td><span class="st-plan">선정·검토</span> · Fermi(에스토니아)·Vattenfall(스웨덴 Ringhals)·SaskPower(서스캐처원)·Fortum(핀란드) 등 BWRX-300 채택·평가.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="src" style="margin-top:8px;">＊ BWRX-300은 <b>실제 착공·기기 제작이 가장 앞선</b> SMR 중 하나(Darlington). 영국 GDA는 Step 2 통과했으나 잉글랜드·웨일스 배치 부지는 아직 미정.</p>
+  </section>
+
+  <!-- ===================== MOU ===================== -->
+  <section id="mou">
+    <h2 class="sec-head"><span class="no">④</span>파트너십 · 이정표</h2>
+    <p class="sec-sub">시간순(최신 위). 캐나다(OPG·CNSC) 건설 선두 + 미국(TVA·NRC)·폴란드·북유럽 + 한국(삼성물산)</p>
+
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2026-05-01</span><span class="mou-party">OPG Darlington — 기초모듈 설치</span></div>
+      <div class="mou-body"><b>원자로건물 기초(Basemat) 모듈 설치</b> — 지하 35m 굴착부에 강·콘크리트 기초 모듈을 안착. G7 최초 그리드급 SMR의 본격 구조 공사 진입.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2026-02-24</span><span class="mou-party">폴란드 — Orlen Synthos (PGDA)</span></div>
+      <div class="mou-body">GVH–OSGE <b>폴란드 일반설계협약(PGDA)</b> 서명(워싱턴). 폴란드 표준설계 개발 본격화, 첫 부지 Włocławek.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2025</span><span class="mou-party">英 — UK GDA Step 2 완료</span></div>
+      <div class="mou-body">영국 규제기관 GDA <b>2단계(Step 2) 완료</b>로 진행. 단, 잉글랜드·웨일스 배치 계획·부지는 아직 미정.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2025-07</span><span class="mou-party">美 NRC — Clinch River CP 접수</span></div>
+      <div class="mou-body">TVA의 <b>Part 50 건설허가(CP) 신청</b>을 NRC가 도케팅(접수) — 美 첫 BWRX-300 건설허가 심사 개시(~17개월).</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2025-05</span><span class="mou-party">OPG Darlington — 착공</span></div>
+      <div class="mou-body">Darlington에서 <b>원자로건물 건설 착수</b>. 북미·G7 최초 그리드급 SMR 건설 시작.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2025-04-04</span><span class="mou-party">캐나다 CNSC — 건설허가</span></div>
+      <div class="mou-body"><b>CNSC가 OPG에 건설허가(Licence to Construct) 발급</b> — 캐나다 최초 그리드급 SMR 건설 승인.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2025-01</span><span class="mou-party">BWXT — RPV 제작 계약</span></div>
+      <div class="mou-body">Darlington 1호기 <b>원자로압력용기(RPV) 제작 계약</b>을 BWXT(캐나다)에 부여. 공급자그룹 1호 멤버.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2023~</span><span class="mou-party">삼성물산 — 전략적 제휴</span></div>
+      <div class="mou-body">GVH와 BWRX-300 <b>글로벌 EPC·공급망 전략적 제휴</b>. 한국 기업의 BWRX-300 참여 통로.</div>
+    </div>
+  </section>
+
+  <!-- ===================== 뉴스 ===================== -->
+  <section id="news">
+    <h2 class="sec-head"><span class="no">⑤</span>관련 뉴스 (계속 누적)</h2>
+    <p class="sec-sub">최신순. 검색·태그로 거르기. 새 소식은 맨 위에 항목을 추가하면 됨.</p>
+
+    <div class="news-tip">
+      <b>새 뉴스 추가법:</b> 아래 <code>&lt;!-- NEWS-TEMPLATE --&gt;</code> 주석의 양식을 복사해 피드 맨 위에 붙이고 날짜·제목·내용·태그(<code>기술/공급망/고객/규제/투자/MOU</code>)·출처만 채우면 됩니다.
+    </div>
+
+    <div class="news-controls">
+      <input id="newsSearch" class="search" type="text" placeholder="뉴스 검색 (예: Darlington, BWXT, 폴란드, Clinch River)" autocomplete="off">
+      <div class="tagchips" id="tagchips">
+        <span class="chip active" data-tag="all">전체</span>
+        <span class="chip" data-tag="기술">기술</span>
+        <span class="chip" data-tag="공급망">공급망</span>
+        <span class="chip" data-tag="고객">고객</span>
+        <span class="chip" data-tag="규제">규제</span>
+        <span class="chip" data-tag="투자">투자</span>
+        <span class="chip" data-tag="MOU">MOU</span>
+      </div>
+    </div>
+
+    <div class="feed" id="feed">
+
+      <!-- NEWS-TEMPLATE (복사용)
+      <div class="item" data-tags="기술" data-date="YYYY-MM-DD">
+        <div class="item-date">YYYY-MM-DD</div>
+        <div class="item-title">제목</div>
+        <div class="item-body">내용 요약.</div>
+        <div class="item-tags"><span class="tg">기술</span></div>
+        <div class="item-src"><a href="URL" target="_blank">출처</a></div>
+      </div>
+      -->
+
+      <div class="item" data-tags="고객 규제" data-date="2026-05-01">
+        <div class="item-date">2026-05-01</div>
+        <div class="item-title">Darlington, 원자로건물 기초(Basemat) 모듈 설치</div>
+        <div class="item-body">지하 35m 굴착부에 <b>강·콘크리트 기초 모듈</b>을 안착 — <b>G7 최초 그리드급 SMR</b> 본격 구조공사 진입.</div>
+        <div class="item-tags"><span class="tg">고객</span><span class="tg">규제</span></div>
+        <div class="item-src"><a href="https://www.world-nuclear-news.org/articles/darlington-smr-nuclear-project-foundation-module-milestone" target="_blank">World Nuclear News</a></div>
+      </div>
+
+      <div class="item" data-tags="고객 MOU" data-date="2026-02-24">
+        <div class="item-date">2026-02-24</div>
+        <div class="item-title">폴란드 Orlen Synthos, BWRX-300 일반설계협약(PGDA) 서명</div>
+        <div class="item-body">GVH–OSGE가 워싱턴에서 <b>폴란드 일반설계협약(PGDA)</b> 체결. 폴란드 표준설계 개발 본격화, 첫 부지 <b>Włocławek</b>.</div>
+        <div class="item-tags"><span class="tg">고객</span><span class="tg">MOU</span></div>
+        <div class="item-src"><a href="https://www.gevernova.com/news/press-releases/deployment-bwrx-300-small-modular-reactor-poland-major-step-forward-design-development" target="_blank">GE Vernova</a></div>
+      </div>
+
+      <div class="item" data-tags="규제" data-date="2025-07">
+        <div class="item-date">2025-07</div>
+        <div class="item-title">NRC, TVA Clinch River 건설허가 신청 접수(도케팅)</div>
+        <div class="item-body">TVA의 <b>Part 50 건설허가(CP) 신청</b>을 NRC가 접수 — 美 첫 BWRX-300, 약 17개월 심사 예상.</div>
+        <div class="item-tags"><span class="tg">규제</span></div>
+        <div class="item-src"><a href="https://world-nuclear-news.org/articles/clinch-river-application-accepted-for-review" target="_blank">World Nuclear News</a></div>
+      </div>
+
+      <div class="item" data-tags="고객 규제" data-date="2025-05">
+        <div class="item-date">2025-05</div>
+        <div class="item-title">OPG, Darlington에서 BWRX-300 건설 착수</div>
+        <div class="item-body">CNSC 건설허가(2025-04)에 이어 <b>원자로건물 건설 시작</b> — 북미·G7 최초 그리드급 SMR 착공.</div>
+        <div class="item-tags"><span class="tg">고객</span><span class="tg">규제</span></div>
+        <div class="item-src"><a href="https://www.powermag.com/canada-approves-first-grid-scale-smr-construction-at-darlington/" target="_blank">POWER</a></div>
+      </div>
+
+      <div class="item" data-tags="규제" data-date="2025-04-04">
+        <div class="item-date">2025-04-04</div>
+        <div class="item-title">캐나다 CNSC, OPG에 BWRX-300 건설허가 발급</div>
+        <div class="item-body">CNSC가 Darlington 1기에 대한 <b>건설허가(Licence to Construct)</b> 발급 — 캐나다 최초 그리드급 SMR 건설 승인.</div>
+        <div class="item-tags"><span class="tg">규제</span></div>
+        <div class="item-src"><a href="https://www.cnsc-ccsn.gc.ca/eng/reactors/new-reactor-power-plant-projects/new-reactor-power-plant-facilities/darlington-new-nuclear-project/" target="_blank">CNSC</a></div>
+      </div>
+
+      <div class="item" data-tags="공급망" data-date="2025-01">
+        <div class="item-date">2025-01</div>
+        <div class="item-title">BWXT, Darlington BWRX-300 원자로압력용기(RPV) 제작 계약</div>
+        <div class="item-body">GEH가 <b>RPV 제작을 BWXT(캐나다)</b>에 부여 — BWRX-300 최대 단일 부품. Cambridge(온타리오) 공장 증설.</div>
+        <div class="item-tags"><span class="tg">공급망</span></div>
+        <div class="item-src"><a href="https://www.gevernova.com/news/press-releases/ge-hitachi-awards-contract-bwrx-300-reactor-pressure-vessel-bwxt" target="_blank">GE Vernova</a></div>
+      </div>
+
+      <div class="item" data-tags="고객" data-date="2025">
+        <div class="item-date">2025</div>
+        <div class="item-title">스웨덴 Vattenfall, BWRX-300 다운셀렉트</div>
+        <div class="item-body">Vattenfall이 Ringhals 인근 신규 원자로로 <b>BWRX-300을 선정(다운셀렉트)</b>. 에스토니아 Fermi, 캐나다 SaskPower 등도 채택·검토.</div>
+        <div class="item-tags"><span class="tg">고객</span></div>
+        <div class="item-src"><a href="https://www.gevernova.com/nuclear/carbon-free-power/bwrx-300-small-modular-reactor" target="_blank">GE Vernova</a></div>
+      </div>
+
+      <div class="item" data-tags="MOU 공급망" data-date="2023">
+        <div class="item-date">2023~</div>
+        <div class="item-title">삼성물산, GVH와 BWRX-300 전략적 제휴</div>
+        <div class="item-body">삼성물산이 GE Vernova Hitachi와 <b>글로벌 EPC·공급망 전략적 제휴</b> — 한국 기업의 BWRX-300 참여 통로.</div>
+        <div class="item-tags"><span class="tg">MOU</span><span class="tg">공급망</span></div>
+        <div class="item-src"><a href="https://www.world-nuclear-news.org/articles/gvh-samsung-ct-form-bwrx-300-strategic-alliance" target="_blank">World Nuclear News</a></div>
+      </div>
+
+    </div>
+    <div class="news-hidden" id="newsNone" style="display:none;color:var(--text-faint);padding:20px;text-align:center;">검색 결과가 없습니다.</div>
+  </section>
+
+</main>
+
+<footer>
+  <span class="note warn" style="display:block;margin-bottom:8px;"><span class="lead">주의</span> 인허가·사업 현황은 빠르게 변합니다 — 회의·보고 직전 GE Vernova IR·CNSC·NRC·각 파트너 공시로 재확인 권장. (2026-06-17 기준)</span>
+  <a href="SMR-developers.html#gehitachi">개발사 카드로</a> · <a href="SMR-reactor-types.html#bwr">BWR 노형</a> · <a href="SMR-licensing-tracks.html#cnsc">CNSC 트랙</a> · <a href="SMR-korea-players.html">한국 기업</a> · <a href="SMR-reference.html">CFR 레퍼런스</a>
+</footer>
+
+<script>
+  const newsSearch=document.getElementById('newsSearch');
+  const items=Array.from(document.querySelectorAll('.item'));
+  const tagchips=Array.from(document.querySelectorAll('#tagchips .chip'));
+  const newsNone=document.getElementById('newsNone');
+  let activeTag='all';
+
+  function clearMarks(el){el.querySelectorAll('mark').forEach(m=>m.replaceWith(document.createTextNode(m.textContent)));el.normalize();}
+  function highlight(el,term){
+    const walker=document.createTreeWalker(el,NodeFilter.SHOW_TEXT,null);const nodes=[];
+    while(walker.nextNode())nodes.push(walker.currentNode);
+    const re=new RegExp('('+term.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi');
+    nodes.forEach(node=>{if(!re.test(node.textContent))return;const span=document.createElement('span');span.innerHTML=node.textContent.replace(re,'<mark>$1</mark>');node.replaceWith(span);});
+  }
+  function applyNews(){
+    const term=newsSearch.value.trim().toLowerCase();
+    let vis=0;
+    items.forEach(it=>{
+      clearMarks(it);
+      const text=it.textContent.toLowerCase();
+      const tags=(it.dataset.tags||'').split(' ');
+      const matchText=!term||text.includes(term);
+      const matchTag=activeTag==='all'||tags.includes(activeTag);
+      const show=matchText&&matchTag;
+      it.classList.toggle('news-hidden',!show);
+      it.style.display=show?'':'none';
+      if(show){vis++;if(term)highlight(it,term);}
+    });
+    newsNone.style.display=vis?'none':'block';
+  }
+  newsSearch.addEventListener('input',applyNews);
+  tagchips.forEach(c=>c.addEventListener('click',()=>{
+    tagchips.forEach(x=>x.classList.remove('active'));c.classList.add('active');activeTag=c.dataset.tag;applyNews();
+  }));
+
+  // ---- supplier company directory ----
+  const COMPANIES={
+    bwxt:{nm:'BWXT (BWX Technologies)',role:'원자로압력용기·대형기기 · 캐나다',
+      desc:'북미 원자력 대형기기 제작 선두. BWRX-300 <b>공급자그룹 1호 멤버</b>로, Darlington 1호기 <b>원자로압력용기(RPV)</b> 제작 계약 수주(2025.1). 온타리오 Cambridge 공장 증설로 대응.',
+      url:'https://www.bwxt.com/'},
+    gnf:{nm:'Global Nuclear Fuel (GNF)',role:'BWR 핵연료 · 미국·일본',
+      desc:'GE·Hitachi 합작 BWR 연료 전문. BWRX-300의 <b>GNF2 UO₂ 연료집합체</b>(상용 검증, BWR 선단에 2.6만+ 번들 공급) 공급사.',
+      url:'https://nuclear.gepower.com/fuel-a-fuel-cycle'},
+    hitachi:{nm:'Hitachi-GE Nuclear Energy',role:'원자로 공동개발·제작 · 일본',
+      desc:'일본 측 합작사. BWRX-300 <b>원자로 내부구조물(챔니·기수분리기·증기건조기)·제어봉구동장치(FMCRD)</b> 등 BWR 핵심기술을 GE Vernova와 공동 개발·제작.',
+      url:'https://www.hitachi-hgne.co.jp/en/'},
+    gevernova:{nm:'GE Vernova (GE Vernova Hitachi Nuclear, GVH)',role:'원자로·터빈 기술 보유 · 미국',
+      desc:'BWRX-300 <b>설계·기술 보유사</b>(미국 GE Vernova + 일본 Hitachi 합작 GVH). <b>격리응축기계통(ICS)·격리밸브·증기터빈/발전기</b> 등 핵심 계통과 직접사이클 T/G를 공급.',
+      url:'https://www.gevernova.com/nuclear/carbon-free-power/bwrx-300-small-modular-reactor'}
+  };
+  const coDetail=document.getElementById('coDetail');
+  const cochips=Array.from(document.querySelectorAll('.cochip'));
+  cochips.forEach(chip=>chip.addEventListener('click',()=>{
+    const c=COMPANIES[chip.dataset.co];if(!c)return;
+    cochips.forEach(x=>x.classList.toggle('active',x.dataset.co===chip.dataset.co));
+    coDetail.classList.remove('empty');
+    coDetail.innerHTML='<div class="nm">'+c.nm+'</div><div class="role">'+c.role+'</div><div>'+c.desc+'</div><div class="lnk"><a href="'+c.url+'" target="_blank" rel="noopener">공식 웹사이트 →</a></div>';
+  }));
+</script>
+<script src="feedback.js" defer></script>
+</body>
+</html>
