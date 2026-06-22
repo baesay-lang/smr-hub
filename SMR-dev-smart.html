@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMART / SMART100 상세 — 사양·공급망·고객·뉴스</title>
+<meta name="description" content="SMART100(한국 KAERI 일체형 가압경수로 iPWR, 110MWe) 기술 사양·부품 공급망·고객(사우디 K.A.CARE)·파트너십·뉴스 상세. NSSC 표준설계인가·한국 생태계 정리.">
+<link rel="canonical" href="https://baesay-lang.github.io/smr-hub/SMR-dev-smart.html">
+<meta name="theme-color" content="#2563eb">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SMR HUB">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="SMART / SMART100 상세 · SMR HUB">
+<meta property="og:description" content="SMART100(한국 KAERI 일체형 PWR, 110MWe) 기술 사양·공급망·고객·파트너십·뉴스 상세.">
+<meta property="og:url" content="https://baesay-lang.github.io/smr-hub/SMR-dev-smart.html">
+<meta property="og:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SMART / SMART100 상세 · SMR HUB">
+<meta name="twitter:description" content="SMART100(한국 KAERI 일체형 PWR, 110MWe) 사양·공급망·고객·파트너십·뉴스.">
+<meta name="twitter:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
+<link rel="stylesheet" href="styles.css?v=3">
+<script>(function(){try{var t=localStorage.getItem('smrhub-theme');if(t==='dark'||(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();</script>
+<script src="ui.js" defer></script>
+<style>
+  .breadcrumb .sep{color:var(--text-faint);}
+  .h-top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;}
+  h1{font-size:23px;margin:6px 0 2px;}
+  .type-tag{font-size:12px;font-weight:700;padding:3px 10px;border-radius:4px;background:var(--surface-3);color:var(--text-dim);}
+  .pub-tag{font-size:12px;font-weight:700;padding:3px 10px;border-radius:4px;background:var(--accent-weak);color:var(--accent-strong);}
+  .updated{font-size:12px;color:var(--text-faint);margin-top:6px;font-variant-numeric:tabular-nums;}
+
+  /* reactor hero figure (재사용: 노형별 SVG 모형) */
+  .reactor-hero{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap;}
+  .rh-text{flex:1 1 320px;min-width:270px;}
+  .reactor-figure{flex:0 0 auto;margin:0;width:158px;max-width:100%;}
+  .reactor-figure svg{display:block;width:100%;height:auto;}
+  .reactor-figure figcaption{font-size:11px;color:var(--text-faint);text-align:center;margin-top:2px;letter-spacing:.02em;}
+  @media(max-width:600px){.reactor-figure{margin:6px auto 0;}}
+
+  section{margin-top:30px;scroll-margin-top:56px;}
+  .sec-head{font-size:17px;font-weight:700;color:var(--text);margin:0 0 4px;}
+  .sec-head .no{color:var(--accent);margin-right:6px;}
+  .sec-sub{color:var(--text-dim);font-size:13px;margin:0 0 14px;}
+
+  .jump{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 6px;}
+  .jump a{font-size:13px;font-weight:600;background:var(--surface);border:1px solid var(--border);padding:6px 13px;border-radius:20px;color:var(--text-dim);}
+  .jump a:hover{border-color:var(--accent);color:var(--accent-strong);text-decoration:none;}
+
+  .specs{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:1px;background:var(--border);
+    border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;}
+  .spec{background:var(--surface-2);padding:11px 14px;}
+  .spec .lab{font-size:11px;color:var(--accent);font-weight:700;display:block;margin-bottom:2px;}
+  .spec .val{font-size:14px;color:var(--text);}
+  .spec .val small{color:var(--text-dim);font-size:12px;}
+  .tech-note{background:var(--surface);border:1px solid var(--border);border-left:3px solid var(--accent);
+    border-radius:var(--radius-sm);padding:12px 16px;margin-top:12px;font-size:13.5px;color:var(--text-dim);}
+  .tech-note b{color:var(--text);}
+
+  table{width:100%;border-collapse:collapse;font-size:13.5px;min-width:640px;}
+  th,td{text-align:left;padding:11px 14px;border-bottom:1px solid var(--border);vertical-align:top;}
+  th{background:var(--surface-2);font-weight:700;font-size:12px;color:var(--text-dim);white-space:nowrap;}
+  tr:last-child td{border-bottom:none;}
+  tbody tr:hover{background:var(--surface-2);}
+  td b{color:var(--text);}
+  .badge{font-size:11px;font-weight:700;padding:2px 8px;border-radius:4px;white-space:nowrap;background:var(--surface-3);color:var(--text-dim);}
+  .st-ok,.st-prog{color:var(--accent-strong);font-weight:700;}
+  .st-plan{color:var(--text-faint);font-weight:700;}
+  .st-stop{color:var(--alert);font-weight:700;}
+
+  .mou{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:13px 16px;margin-bottom:10px;box-shadow:var(--shadow);}
+  .mou-top{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:3px;}
+  .mou-date{font-size:12px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;}
+  .mou-party{font-weight:700;font-size:15px;color:var(--text);}
+  .mou-body{font-size:13.5px;color:var(--text-dim);}
+  .mou-body b{color:var(--text);}
+
+  .diagram-wrap{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:12px;overflow-x:auto;margin-bottom:10px;}
+  .diagram-wrap svg{display:block;min-width:720px;height:auto;}
+  .sub-h{font-size:14px;font-weight:700;color:var(--text);margin:20px 0 8px;}
+  .sub-h .pin{font-size:12px;font-weight:800;color:var(--accent);margin-right:6px;}
+  .cochip{display:inline-block;font-size:12px;font-weight:700;padding:3px 9px;border-radius:5px;cursor:pointer;
+    border:1px solid var(--border-strong);background:var(--surface);color:var(--text);margin:2px 4px 2px 0;}
+  .cochip:hover{border-color:var(--accent);color:var(--accent-strong);}
+  .cochip.active{background:var(--accent-weak);border-color:var(--accent);color:var(--accent-strong);}
+  .cochip .ccx{font-size:10px;color:var(--text-faint);font-weight:700;margin-left:3px;}
+  .co-detail{background:var(--surface-2);border:1px solid var(--border);border-radius:var(--radius-sm);padding:13px 15px;margin-top:8px;font-size:13.5px;color:var(--text-dim);}
+  .co-detail .nm{font-weight:700;color:var(--text);font-size:15px;}
+  .co-detail .role{color:var(--accent-strong);font-size:12px;font-weight:700;margin:1px 0 6px;}
+  .co-detail .lnk{margin-top:8px;font-size:13px;}
+  .co-detail.empty{font-style:italic;color:var(--text-faint);}
+  .co-detail b{color:var(--text);}
+  .num{font-weight:700;color:var(--text);font-variant-numeric:tabular-nums;}
+
+  .news-controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:14px;}
+  #newsSearch{flex:1;min-width:200px;}
+  .tagchips{display:flex;gap:6px;flex-wrap:wrap;}
+
+  .feed{position:relative;padding-left:22px;}
+  .feed::before{content:"";position:absolute;left:5px;top:6px;bottom:6px;width:2px;background:var(--border);}
+  .item{position:relative;margin-bottom:16px;}
+  .item::before{content:"";position:absolute;left:-22px;top:5px;width:11px;height:11px;border-radius:50%;background:var(--accent);border:2px solid var(--bg);}
+  .item-date{font-size:12px;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;}
+  .item-title{font-weight:700;font-size:15px;margin:1px 0 3px;color:var(--text);}
+  .item-body{font-size:13.5px;color:var(--text-dim);}
+  .item-body b{color:var(--text);}
+  .item-tags{margin-top:5px;display:flex;gap:5px;flex-wrap:wrap;}
+  .tg{font-size:10.5px;font-weight:700;padding:2px 7px;border-radius:4px;background:var(--surface-2);color:var(--text-dim);border:1px solid var(--border);}
+  .item-src{font-size:11.5px;margin-top:3px;}
+  .news-hidden{display:none;}
+  .news-tip{background:var(--surface-2);border:1px dashed var(--border-strong);border-radius:var(--radius-sm);padding:10px 14px;font-size:12.5px;color:var(--text-dim);margin-bottom:16px;}
+  .news-tip code{background:var(--surface-3);padding:1px 5px;border-radius:4px;color:var(--accent-strong);font-size:11.5px;}
+
+  .src{font-size:11.5px;color:var(--text-faint);}
+  .src a{color:var(--text-dim);}
+</style>
+</head>
+<body>
+<nav class="topnav">
+  <a class="brand" href="index.html">SMR HUB</a>
+  <a href="SMR-news.html">뉴스</a>
+  <a href="SMR-developers.html">개발사</a>
+  <a href="SMR-licensing-tracks.html">인허가 트랙</a>
+  <a href="SMR-reactor-types.html">노형 분류</a>
+  <a href="SMR-reference.html">CFR 레퍼런스</a>
+  <a href="SMR-asia-structure.html">사업 구조</a>
+  <a href="SMR-korea-players.html">한국 기업</a>
+  <a href="SMR-map.html">프로젝트 맵</a>
+</nav>
+
+<div class="breadcrumb"><a href="SMR-developers.html">개발사</a> <span class="sep">›</span> <a href="SMR-developers.html#smart">SMART</a> <span class="sep">›</span> 상세</div>
+
+<header class="page reactor-hero">
+  <div class="rh-text">
+    <div class="h-top">
+      <h1>SMART / SMART100</h1>
+      <span class="type-tag">경수로 · 일체형 PWR(iPWR)</span>
+      <span class="pub-tag">한국 KAERI · 국책</span>
+    </div>
+    <p class="subtitle">한국 <b>KAERI</b>가 1997년부터 개발한 <b>일체형 가압경수로(iPWR)</b> — 노심·증기발생기·가압기·펌프를 한 용기에 내장. <b>SMART100</b>이 한국 <b>표준설계인가(SDA)</b> 취득(2024). 사우디 <b>K.A.CARE</b> 수출 추진.</p>
+    <div class="updated">최종 업데이트 2026-06-17 · SMART(2012 세계 첫 SMR SDA) · SMART100 NSSC SDA(2024-09) · 삼성중공업 부유식 ABS AIP(2025-12)</div>
+  </div>
+
+  <!-- ===== 노형 모형(재사용 패턴): 회색 음영 3D 모델. SMART100 = 일체형 PWR 용기 + 측면 4개 캔드 RCP 모터. ===== -->
+  <figure class="reactor-figure">
+    <svg viewBox="0 0 158 174" xmlns="http://www.w3.org/2000/svg"
+         role="img" aria-label="SMART100 모형: 노심·증기발생기·가압기·펌프를 내장한 일체형 가압경수로 용기와, 측면에 돌출한 4개 캔드 냉각재펌프 모터">
+      <title>SMART100 일체형 PWR 모형</title>
+      <defs>
+        <linearGradient id="smCylV" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#99a2ac"/><stop offset="0.12" stop-color="#c2c9d1"/><stop offset="0.30" stop-color="#e9ecef"/>
+          <stop offset="0.48" stop-color="#ffffff"/><stop offset="0.64" stop-color="#eceef1"/><stop offset="0.80" stop-color="#c6ccd3"/><stop offset="1" stop-color="#959fa9"/>
+        </linearGradient>
+        <linearGradient id="smCap" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#d7dce1"/><stop offset="0.5" stop-color="#f6f7f9"/><stop offset="1" stop-color="#cfd4da"/>
+        </linearGradient>
+        <style>
+          .sm-body{stroke:var(--border-strong);stroke-width:.8}
+          .sm-cap{fill:url(#smCap);stroke:var(--border-strong);stroke-width:.7}
+          .sm-capb{fill:#aab2bc;stroke:var(--border-strong);stroke-width:.7}
+          .sm-pump{fill:url(#smCap);stroke:var(--border-strong);stroke-width:.7}
+          .sm-rib{stroke:#aab2bc;stroke-width:.7;fill:none}
+          .sm-shadow{fill:var(--border-strong);opacity:.5}
+        </style>
+      </defs>
+
+      <!-- 바닥 그림자 -->
+      <ellipse class="sm-shadow" cx="79" cy="166" rx="58" ry="5"/>
+
+      <!-- 상부 CRDM 스택 -->
+      <rect class="sm-body" x="72" y="22" width="14" height="14" fill="url(#smCap)"/>
+      <g class="sm-rib"><line x1="76" y1="24" x2="76" y2="35"/><line x1="82" y1="24" x2="82" y2="35"/></g>
+
+      <!-- 측면 4개 캔드 RCP 모터 (좌2·우2) -->
+      <g class="sm-pump">
+        <rect x="30" y="70" width="14" height="9" rx="2"/><rect x="30" y="92" width="14" height="9" rx="2"/>
+        <rect x="114" y="70" width="14" height="9" rx="2"/><rect x="114" y="92" width="14" height="9" rx="2"/>
+      </g>
+
+      <!-- 일체형 원자로용기 -->
+      <ellipse class="sm-cap" cx="79" cy="44" rx="30" ry="8"/>
+      <rect class="sm-body" x="49" y="44" width="60" height="98" fill="url(#smCylV)"/>
+      <ellipse class="sm-capb" cx="79" cy="142" rx="30" ry="8"/>
+    </svg>
+    <figcaption>SMART100 일체형 PWR (4 캔드펌프 내장)</figcaption>
+  </figure>
+</header>
+
+<main>
+  <div class="jump">
+    <a href="#tech">① 기술 사양</a>
+    <a href="#supply">② 부품 공급망</a>
+    <a href="#offtaker">③ Off-taker</a>
+    <a href="#mou">④ 파트너십·이정표</a>
+    <a href="#news">⑤ 관련 뉴스</a>
+  </div>
+
+  <!-- ===================== 기술 사양 ===================== -->
+  <section id="tech">
+    <h2 class="sec-head"><span class="no">①</span>기술 사양</h2>
+    <p class="sec-sub">일체형 가압경수로(iPWR) · 365MWth / 110MWe(SMART100) · 노심·SG·가압기·펌프 한 용기 내장 · 완전 피동안전</p>
+    <div class="specs">
+      <div class="spec"><span class="lab">노형</span><span class="val">일체형 PWR(iPWR)<small> 경수/경수</small></span></div>
+      <div class="spec"><span class="lab">출력</span><span class="val">110 MWe<small> / 365 MWth (SMART100)</small></span></div>
+      <div class="spec"><span class="lab">일체화</span><span class="val">노심·SG·가압기·펌프<small> 단일 RPV 내장(대형 배관파단 배제)</small></span></div>
+      <div class="spec"><span class="lab">증기발생기</span><span class="val">헬리컬 관류형 8기<small> 내장 (2그룹)</small></span></div>
+      <div class="spec"><span class="lab">냉각재펌프</span><span class="val">캔드 모터 4대<small> 내장(강제순환)</small></span></div>
+      <div class="spec"><span class="lab">운전 압력</span><span class="val">15 / 5.8 MPa<small> 1차 / 2차</small></span></div>
+      <div class="spec"><span class="lab">냉각재 온도</span><span class="val">296 / 322 °C<small> 입구 / 출구</small></span></div>
+      <div class="spec"><span class="lab">연료</span><span class="val">UO₂ 펠릿<small> 17×17, 농축도 &lt;5%</small></span></div>
+      <div class="spec"><span class="lab">노심</span><span class="val">연료집합체 57<small> 제어봉(CRDM) + 붕소</small></span></div>
+      <div class="spec"><span class="lab">재장전 · 연소도</span><span class="val">30개월<small> · &lt;54 GWd/tU</small></span></div>
+      <div class="spec"><span class="lab">안전</span><span class="val">완전 피동<small> PRHRS·PSIS·ADS·CPRSS</small></span></div>
+      <div class="spec"><span class="lab">설계수명 · 내진</span><span class="val">60년<small> · SSE &gt;0.3g (0.18g 자동정지)</small></span></div>
+      <div class="spec"><span class="lab">원자로용기(RPV)</span><span class="val">높이 16.8m · ⌀6.0m<small> 무게 1,070톤(냉각재 포함)</small></span></div>
+      <div class="spec"><span class="lab">용도</span><span class="val">전력 · 해수담수화 · 지역난방 · 공정열</span></div>
+    </div>
+    <div class="tech-note">
+      <b>핵심 차별점:</b> ① <b>일체형(integral) 원자로</b> — 노심·증기발생기·가압기·냉각재펌프를 <b>하나의 압력용기 안에 내장</b>해 대형 배관(LOCA의 주원인)을 제거 → 사고 위험↓ · ② <b>완전 피동안전(SMART100)</b> — 잔열제거(PRHRS)·안전주입(PSIS)·자동감압(ADS)·격납압력억제(CPRSS)를 피동화해 <b>비상전원·운전원 조치 없이</b> 안전 유지 · ③ <b>세계 첫 SMR 표준설계인가</b> — 원형 SMART가 2012년 세계 최초로 SDA 취득, 우상향 <b>SMART100</b>이 2024년 SDA 취득 · ④ <b>다목적</b> — 전력 외 <b>해수담수화·지역난방·공정열</b>(소규모·고립 그리드 적합).
+      자세한 노형 비교는 <a href="SMR-reactor-types.html#pwr">노형 분류 › PWR</a> · 같은 일체형인 <a href="SMR-dev-nuscale.html">NuScale</a> 참고.
+    </div>
+    <p class="src" style="margin:10px 0 0;">＊ 사양 교차검증: <b>IAEA <i>Advances in SMR Technology Developments 2024</i></b> 카탈로그(SMART). 365MWth/107MWe·15/5.8MPa·296/322°C·57집합체·RPV 16.8m×⌀6.0m·1,070톤·30개월·SSE&gt;0.3g 등 일치(전기출력은 SMART100 기준 110MWe로 표기, IAEA는 107MWe).</p>
+  </section>
+
+  <!-- ===================== 부품 공급망 ===================== -->
+  <section id="supply">
+    <h2 class="sec-head"><span class="no">②</span>주요 부품·연료 공급망</h2>
+    <p class="sec-sub"><b>한국 원자력 생태계가 통째로 참여</b> — 원천설계 KAERI, 종합설계 KEPCO E&amp;C(한국전력기술), 주기기 두산, 연료 KNF, 운영 KHNP, 부유식 삼성중공업</p>
+
+    <div class="sub-h"><span class="pin">②-A</span>SMART100 일체형 구성 — 도해</div>
+    <!-- DIAGRAM CONVENTION (reuse): viewBox 0 0 900 440. 일체형 PWR(모든 1차계통 RPV 내장).
+         Vessels = rounded rect fill accent-weak stroke accent. Components ①..⑥ map to supply table. -->
+    <div class="diagram-wrap">
+      <svg viewBox="0 0 900 440" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, sans-serif" aria-label="SMART100 integral schematic">
+        <defs>
+          <marker id="m-acc" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker>
+          <marker id="m-gray" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#9aa7b4"/></marker>
+        </defs>
+
+        <!-- islands -->
+        <rect x="24" y="56" width="430" height="352" rx="12" fill="none" stroke="#d2d7e0" stroke-dasharray="6 5"/>
+        <text x="40" y="46" fill="#8b93a2" font-size="11" font-weight="700" letter-spacing="1.4">NUCLEAR ISLAND (일체형 RPV)</text>
+        <rect x="486" y="56" width="390" height="352" rx="12" fill="none" stroke="#d2d7e0" stroke-dasharray="6 5"/>
+        <text x="502" y="46" fill="#8b93a2" font-size="11" font-weight="700" letter-spacing="1.4">CONVENTIONAL ISLAND (CI)</text>
+
+        <!-- 일체형 RPV ① -->
+        <text x="180" y="86" fill="#1d4ed8" font-size="10" font-weight="700" text-anchor="middle">CRDM</text>
+        <rect x="160" y="92" width="40" height="14" rx="3" fill="#ffffff" stroke="#2563eb"/>
+        <rect x="120" y="112" width="120" height="236" rx="22" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="180" y="368" fill="#1d4ed8" font-size="11.5" font-weight="700" text-anchor="middle">일체형 원자로용기(RPV) ①</text>
+        <!-- 가압기 ④ (상부) -->
+        <rect x="146" y="120" width="68" height="26" rx="6" fill="#e3ecff" stroke="#c3d4f5"/>
+        <text x="180" y="138" fill="#1d4ed8" font-size="9.5" font-weight="700" text-anchor="middle">가압기 ④</text>
+        <!-- SG ③ 헬리컬 (환형) -->
+        <g fill="none" stroke="#9aa7b4" stroke-width="2"><ellipse cx="150" cy="200" rx="9" ry="5"/><ellipse cx="150" cy="218" rx="9" ry="5"/><ellipse cx="150" cy="236" rx="9" ry="5"/><ellipse cx="210" cy="200" rx="9" ry="5"/><ellipse cx="210" cy="218" rx="9" ry="5"/><ellipse cx="210" cy="236" rx="9" ry="5"/></g>
+        <text x="262" y="206" fill="#1d4ed8" font-size="10" font-weight="700">SG ③ (헬리컬 8기)</text>
+        <line x1="219" y1="218" x2="258" y2="210" stroke="#c0c7d1"/>
+        <!-- core ② -->
+        <rect x="156" y="296" width="48" height="34" rx="3" fill="#e3ecff" stroke="#2563eb"/>
+        <g stroke="#9aa7b4" stroke-width="1.4"><line x1="164" y1="300" x2="164" y2="326"/><line x1="172" y1="300" x2="172" y2="326"/><line x1="180" y1="300" x2="180" y2="326"/><line x1="188" y1="300" x2="188" y2="326"/><line x1="196" y1="300" x2="196" y2="326"/></g>
+        <text x="180" y="288" fill="#1d4ed8" font-size="10" font-weight="700" text-anchor="middle">노심 ② (UO₂ 17×17)</text>
+        <!-- RCP ⑤ 캔드 (측면) -->
+        <circle cx="120" cy="170" r="12" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <circle cx="240" cy="170" r="12" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="180" y="262" fill="#7e8a99" font-size="8.5" text-anchor="middle">캔드 RCP ⑤ ×4 (내장)</text>
+
+        <!-- steam → turbine ⑥ -->
+        <line x1="240" y1="200" x2="648" y2="200" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
+        <text x="450" y="192" fill="#8b93a2" font-size="9.5" text-anchor="middle">Steam →</text>
+        <polyline points="690,260 690,320 240,320 240,250" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
+        <text x="450" y="334" fill="#8b93a2" font-size="9.5" text-anchor="middle">← Feedwater</text>
+        <polygon points="648,178 712,166 712,238 648,226" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="680" y="160" fill="#1d4ed8" font-size="11.5" font-weight="700" text-anchor="middle">Turbine ⑥</text>
+        <line x1="712" y1="202" x2="740" y2="202" stroke="#9aa7b4" stroke-width="3"/>
+        <circle cx="764" cy="202" r="20" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
+        <text x="764" y="207" fill="#1d4ed8" font-size="14" font-weight="700" text-anchor="middle">G</text>
+        <text x="764" y="236" fill="#54606f" font-size="9" text-anchor="middle">Generator</text>
+      </svg>
+    </div>
+    <p class="src" style="margin:0 0 14px;">＊ 모식도(개략). 번호 ①–⑥은 아래 표와 연결. <b>노심·증기발생기(헬리컬 8기)·가압기·냉각재펌프(캔드 4대)를 모두 RPV 안에 내장</b>한 일체형 구조 — 대형 배관이 없어 LOCA 위험이 낮음. 내장 SG의 증기로 터빈 발전, 사고 시 PRHRS가 피동 잔열제거.</p>
+
+    <div class="sub-h"><span class="pin">②-B</span>주기기·연료별 공급/책임 <span style="font-weight:400;color:var(--text-dim);font-size:12.5px;">(칩 클릭 → 설명·링크)</span></div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>#</th><th>부품·연료</th><th>공급/책임 (클릭)</th><th>구분</th></tr></thead>
+        <tbody>
+          <tr><td class="num">①</td><td><b>일체형 원자로용기 등 주기기</b></td><td><span class="cochip" data-co="doosan">두산에너빌리티<span class="ccx">KR</span></span></td><td>NI · NSSS</td></tr>
+          <tr><td class="num">②</td><td><b>핵연료 (UO₂ 17×17)</b></td><td><span class="cochip" data-co="knf">한전원자력연료(KNF)<span class="ccx">KR</span></span></td><td>NI · Core</td></tr>
+          <tr><td class="num">③④⑤</td><td><b>증기발생기·가압기·캔드 RCP (내장)</b></td><td><span class="cochip" data-co="kaeri">KAERI<span class="ccx">KR · 설계</span></span><span class="cochip" data-co="doosan">두산<span class="ccx">KR · 제작</span></span></td><td>NI · NSSS</td></tr>
+          <tr><td class="num">⑥</td><td><b>증기터빈·발전기</b></td><td><span class="badge">표준 T/G</span> <span style="color:var(--text-faint);font-size:12px;">두산 등 한국 산업</span></td><td>CI · T/G</td></tr>
+          <tr><td><b>설계</b></td><td><b>원천설계 / 종합설계(A/E)</b></td><td><span class="cochip" data-co="kaeri">KAERI<span class="ccx">KR</span></span><span class="cochip" data-co="kepco">KEPCO E&amp;C<span class="ccx">KR</span></span></td><td>설계</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="src" style="margin:8px 0 0;line-height:1.85;">
+      <span style="color:var(--text-faint);">＊ SMART는 <b style="color:var(--text-dim);">순수 국산 설계(KAERI 원천기술)</b> — 종합설계는 <b style="color:var(--text-dim);">KEPCO E&amp;C(한국전력기술)</b>, 주기기 제작은 <b style="color:var(--text-dim);">두산에너빌리티</b>, 연료는 <b style="color:var(--text-dim);">한전원자력연료(KNF)</b>, 운영은 <b style="color:var(--text-dim);">KHNP</b>로 <b style="color:var(--text-dim);">한국 원자력 생태계가 수직 통합</b>. 부유식은 삼성중공업이 추진. 한국 입장에선 X-energy·NuScale(외국 설계 + 한국 제작)과 달리 <b style="color:var(--text-dim);">설계부터 운영까지 자국 주도</b>.</span>
+    </p>
+    <div class="co-detail empty" id="coDetail">위 칩을 클릭하면 회사 설명과 공식 링크가 여기에 표시됩니다.</div>
+
+    <div class="sub-h"><span class="pin">②-C</span>고객·전개 파트너</div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>파트너</th><th>국적</th><th>역할</th><th>현황</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>K.A.CARE</b><br><span class="src">사우디 원자력·재생에너지원</span></td>
+            <td><span class="badge">SA</span></td>
+            <td>SMART <b>공동개발·수출 대상</b> — 사우디 건설 추진.</td>
+            <td><span class="st-prog">진행</span> · PPE(2015~18) 후 SDA로 건설 기반.</td>
+          </tr>
+          <tr>
+            <td><b>KHNP</b><br><span class="src">한국수력원자력</span></td>
+            <td><span class="badge">KR</span></td>
+            <td>SDA 공동취득·<b>운영</b> 주체.</td>
+            <td><span class="st-prog">진행</span> · SMART100 SDA 공동.</td>
+          </tr>
+          <tr>
+            <td><b>삼성중공업</b><br><span class="src">Samsung Heavy</span></td>
+            <td><span class="badge">KR</span></td>
+            <td><b>부유식 원전 플랫폼</b>(SMART100 2기) 설계.</td>
+            <td><span class="st-ok">AIP</span> · 美 ABS 기본인증(2025-12).</td>
+          </tr>
+          <tr>
+            <td><b>한국 정부</b></td>
+            <td><span class="badge">KR</span></td>
+            <td>수출·실증 정책·자금 지원.</td>
+            <td><span class="st-prog">지원</span> · SMR 수출 전략.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="src" style="margin-top:8px;">＊ SMART는 <b>한국이 설계·제작·운영을 모두 주도</b>하는 대표 국산 SMR — 1차 시장은 <b>사우디 등 수출</b>이며, 부유식(삼성중공업)·담수화 등 응용으로 확장 중. 국내 상용은 별도 노형 <b><a href="SMR-dev-ismr.html">i-SMR</a></b>가 담당. → <a href="SMR-korea-players.html">한국 기업</a></p>
+  </section>
+
+  <!-- ===================== Off-taker ===================== -->
+  <section id="offtaker">
+    <h2 class="sec-head"><span class="no">③</span>Off-taker (고객·프로젝트)</h2>
+    <p class="sec-sub">1차 시장은 사우디 등 수출 — 전력 + 해수담수화 결합이 강점. 부유식 응용도 추진</p>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr><th>고객·프로젝트</th><th>지역</th><th>규모</th><th>현황</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><b>사우디 (K.A.CARE)</b><br><span class="src">전력 + 해수담수화</span></td>
+            <td><span class="badge">SA · 사우디</span></td>
+            <td>SMART100 (건설 추진)</td>
+            <td><span class="st-prog">개발</span> · PPE 완료, SMART100 SDA로 건설 기반 마련. 사우디 첫 호기 협의.</td>
+          </tr>
+          <tr>
+            <td><b>부유식 원전 (삼성중공업)</b><br><span class="src">해상 플랫폼</span></td>
+            <td><span class="badge">KR · 해상</span></td>
+            <td>SMART100 <b>2기</b> 탑재</td>
+            <td><span class="st-ok">기본인증</span> · 美 ABS Approval in Principle(2025-12).</td>
+          </tr>
+          <tr>
+            <td><b>기타 수출 후보</b></td>
+            <td><span class="badge">중동·아시아</span></td>
+            <td>검토</td>
+            <td><span class="st-plan">검토</span> · 담수·고립그리드 수요국 협의.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p class="src" style="margin-top:8px;">＊ SMART의 핵심 세일즈는 <b>전력+담수 동시 공급</b>과 <b>세계 첫 SMR SDA</b>라는 인허가 실적. 국내 상용 배치는 SMART가 아니라 후속 <b><a href="SMR-dev-ismr.html">i-SMR</a></b>(혁신형)이 맡는 구도.</p>
+  </section>
+
+  <!-- ===================== MOU ===================== -->
+  <section id="mou">
+    <h2 class="sec-head"><span class="no">④</span>파트너십 · 이정표</h2>
+    <p class="sec-sub">시간순(최신 위). NSSC 표준설계인가 + 사우디(K.A.CARE) + 부유식(삼성중공업)</p>
+
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2025-12</span><span class="mou-party">삼성중공업 — 부유식 ABS 기본인증</span></div>
+      <div class="mou-body">삼성중공업이 <b>SMART100 2기 탑재 부유식 원전 플랫폼</b>으로 美 선급(ABS) <b>기본인증(Approval in Principle)</b> 취득 — 해상 SMR 응용.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2024-09-26</span><span class="mou-party">한국 NSSC — SMART100 SDA</span></div>
+      <div class="mou-body">KAERI·KHNP·K.A.CARE가 <b>SMART100 표준설계인가(SDA)</b>를 한국 원자력안전위원회로부터 취득 — 완전 피동안전 적용 모델.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2015~18</span><span class="mou-party">사우디 K.A.CARE — PPE</span></div>
+      <div class="mou-body">한·사우디 <b>사전건설설계(PPE)</b> 수행 — 사우디 SMART 건설을 위한 설계·인허가 준비.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">2012</span><span class="mou-party">SMART — 세계 첫 SMR SDA</span></div>
+      <div class="mou-body">원형 SMART(100MWe)가 <b>세계 최초로 SMR 표준설계인가</b> 취득 — SMR 인허가의 선구.</div>
+    </div>
+    <div class="mou">
+      <div class="mou-top"><span class="mou-date">1997~</span><span class="mou-party">KAERI — 개발 착수</span></div>
+      <div class="mou-body">KAERI가 소규모 발전·해수담수화용 <b>일체형 원자로(SMART) 개발</b> 시작 — 한국 SMR의 출발점.</div>
+    </div>
+  </section>
+
+  <!-- ===================== 뉴스 ===================== -->
+  <section id="news">
+    <h2 class="sec-head"><span class="no">⑤</span>관련 뉴스 (계속 누적)</h2>
+    <p class="sec-sub">최신순. 검색·태그로 거르기. 새 소식은 맨 위에 항목을 추가하면 됨.</p>
+
+    <div class="news-tip">
+      <b>새 뉴스 추가법:</b> 아래 <code>&lt;!-- NEWS-TEMPLATE --&gt;</code> 주석의 양식을 복사해 피드 맨 위에 붙이고 날짜·제목·내용·태그(<code>기술/공급망/고객/규제/투자/MOU</code>)·출처만 채우면 됩니다.
+    </div>
+
+    <div class="news-controls">
+      <input id="newsSearch" class="search" type="text" placeholder="뉴스 검색 (예: SMART100, SDA, 사우디, 부유식)" autocomplete="off">
+      <div class="tagchips" id="tagchips">
+        <span class="chip active" data-tag="all">전체</span>
+        <span class="chip" data-tag="기술">기술</span>
+        <span class="chip" data-tag="공급망">공급망</span>
+        <span class="chip" data-tag="고객">고객</span>
+        <span class="chip" data-tag="규제">규제</span>
+        <span class="chip" data-tag="투자">투자</span>
+        <span class="chip" data-tag="MOU">MOU</span>
+      </div>
+    </div>
+
+    <div class="feed" id="feed">
+
+      <!-- NEWS-TEMPLATE (복사용)
+      <div class="item" data-tags="기술" data-date="YYYY-MM-DD">
+        <div class="item-date">YYYY-MM-DD</div>
+        <div class="item-title">제목</div>
+        <div class="item-body">내용 요약.</div>
+        <div class="item-tags"><span class="tg">기술</span></div>
+        <div class="item-src"><a href="URL" target="_blank">출처</a></div>
+      </div>
+      -->
+
+      <div class="item" data-tags="고객 기술" data-date="2025-12">
+        <div class="item-date">2025-12</div>
+        <div class="item-title">삼성중공업, SMART100 부유식 원전 ABS 기본인증</div>
+        <div class="item-body"><b>SMART100 2기를 탑재한 부유식 원전 플랫폼</b>이 美 선급(ABS) 기본인증(AIP) 취득 — 해상·도서 SMR 응용 길.</div>
+        <div class="item-tags"><span class="tg">고객</span><span class="tg">기술</span></div>
+        <div class="item-src"><a href="https://world-nuclear.org/information-library/country-profiles/countries-o-s/south-korea" target="_blank">WNA Korea</a></div>
+      </div>
+
+      <div class="item" data-tags="규제 기술" data-date="2024-09-26">
+        <div class="item-date">2024-09-26</div>
+        <div class="item-title">SMART100, 한국 NSSC 표준설계인가(SDA) 취득</div>
+        <div class="item-body">KAERI·KHNP·K.A.CARE가 <b>SMART100 SDA</b>를 취득 — 출력 365MWth/110MWe로 상향하고 완전 피동안전 적용. 사우디 등 수출 기반.</div>
+        <div class="item-tags"><span class="tg">규제</span><span class="tg">기술</span></div>
+        <div class="item-src"><a href="https://www.world-nuclear-news.org/articles/south-korean-smr-design-approved-by-regulator" target="_blank">World Nuclear News</a></div>
+      </div>
+
+      <div class="item" data-tags="기술" data-date="2024">
+        <div class="item-date">2024</div>
+        <div class="item-title">SMART100, 완전 피동안전계통(PRHRS·PSIS·ADS·CPRSS) 적용</div>
+        <div class="item-body">원형 SMART에서 출력을 키우고 <b>잔열제거·안전주입·자동감압·격납압력억제</b>를 피동화 — 비상전원·운전원 조치 없이 안전 유지.</div>
+        <div class="item-tags"><span class="tg">기술</span></div>
+        <div class="item-src"><a href="https://www.neimagazine.com/news/south-koreas-smart100-smr-approved/" target="_blank">Nuclear Engineering Int'l</a></div>
+      </div>
+
+      <div class="item" data-tags="고객 MOU" data-date="2015">
+        <div class="item-date">2015~18</div>
+        <div class="item-title">한·사우디, SMART 사전건설설계(PPE)</div>
+        <div class="item-body">사우디 K.A.CARE와 <b>SMART 사전건설설계(PPE)</b> 수행 — 사우디 SMART 건설을 위한 설계·인허가 준비.</div>
+        <div class="item-tags"><span class="tg">고객</span><span class="tg">MOU</span></div>
+        <div class="item-src"><a href="https://world-nuclear.org/information-library/country-profiles/countries-o-s/south-korea" target="_blank">WNA Korea</a></div>
+      </div>
+
+      <div class="item" data-tags="규제" data-date="2012">
+        <div class="item-date">2012</div>
+        <div class="item-title">SMART, 세계 첫 SMR 표준설계인가</div>
+        <div class="item-body">원형 SMART(100MWe)가 <b>세계 최초로 SMR 표준설계인가</b>를 취득 — 한국 SMR 인허가의 이정표.</div>
+        <div class="item-tags"><span class="tg">규제</span></div>
+        <div class="item-src"><a href="https://world-nuclear.org/information-library/country-profiles/countries-o-s/south-korea" target="_blank">WNA Korea</a></div>
+      </div>
+
+    </div>
+    <div class="news-hidden" id="newsNone" style="display:none;color:var(--text-faint);padding:20px;text-align:center;">검색 결과가 없습니다.</div>
+  </section>
+
+</main>
+
+<footer>
+  <span class="note warn" style="display:block;margin-bottom:8px;"><span class="lead">주의</span> 인허가·사업 현황은 빠르게 변합니다 — 회의·보고 직전 KAERI·NSSC·각 파트너 공시로 재확인 권장. (2026-06-17 기준)</span>
+  <a href="SMR-developers.html#smart">개발사 카드로</a> · <a href="SMR-reactor-types.html#pwr">PWR 노형</a> · <a href="SMR-licensing-tracks.html#korea">한국 SDA 트랙</a> · <a href="SMR-dev-ismr.html">i-SMR</a> · <a href="SMR-korea-players.html">한국 기업</a>
+</footer>
+
+<script>
+  const newsSearch=document.getElementById('newsSearch');
+  const items=Array.from(document.querySelectorAll('.item'));
+  const tagchips=Array.from(document.querySelectorAll('#tagchips .chip'));
+  const newsNone=document.getElementById('newsNone');
+  let activeTag='all';
+
+  function clearMarks(el){el.querySelectorAll('mark').forEach(m=>m.replaceWith(document.createTextNode(m.textContent)));el.normalize();}
+  function highlight(el,term){
+    const walker=document.createTreeWalker(el,NodeFilter.SHOW_TEXT,null);const nodes=[];
+    while(walker.nextNode())nodes.push(walker.currentNode);
+    const re=new RegExp('('+term.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi');
+    nodes.forEach(node=>{if(!re.test(node.textContent))return;const span=document.createElement('span');span.innerHTML=node.textContent.replace(re,'<mark>$1</mark>');node.replaceWith(span);});
+  }
+  function applyNews(){
+    const term=newsSearch.value.trim().toLowerCase();
+    let vis=0;
+    items.forEach(it=>{
+      clearMarks(it);
+      const text=it.textContent.toLowerCase();
+      const tags=(it.dataset.tags||'').split(' ');
+      const matchText=!term||text.includes(term);
+      const matchTag=activeTag==='all'||tags.includes(activeTag);
+      const show=matchText&&matchTag;
+      it.classList.toggle('news-hidden',!show);
+      it.style.display=show?'':'none';
+      if(show){vis++;if(term)highlight(it,term);}
+    });
+    newsNone.style.display=vis?'none':'block';
+  }
+  newsSearch.addEventListener('input',applyNews);
+  tagchips.forEach(c=>c.addEventListener('click',()=>{
+    tagchips.forEach(x=>x.classList.remove('active'));c.classList.add('active');activeTag=c.dataset.tag;applyNews();
+  }));
+
+  // ---- supplier company directory ----
+  const COMPANIES={
+    kaeri:{nm:'KAERI (한국원자력연구원)',role:'SMART 원천설계·기술 · 한국',
+      desc:'1997년부터 일체형 원자로 <b>SMART/SMART100</b>을 개발한 국책연구기관. 노심·증기발생기·가압기·펌프를 한 용기에 담는 <b>일체형 설계와 피동안전계통</b>의 원천기술을 보유. 세계 첫 SMR 표준설계인가(2012)·SMART100 SDA(2024) 주도.',
+      url:'https://www.kaeri.re.kr/'},
+    kepco:{nm:'KEPCO E&C (한국전력기술)',role:'종합설계(A/E) · 한국',
+      desc:'한국 원전 종합설계 전문기업. SMART의 <b>종합설계(Architect-Engineering)</b>를 담당해 계통·배치·인허가 문서를 통합. 한국형 원전(APR1400) 설계 경험을 SMR에 적용.',
+      url:'https://www.kepco-enc.com/'},
+    doosan:{nm:'두산에너빌리티 (Doosan Enerbility)',role:'주기기 제작 · 한국',
+      desc:'창원 기반 원자력 주기기 제작 글로벌 선두. SMART의 <b>일체형 원자로용기·증기발생기·내장기기</b> 등 주기기 제작을 담당(국내 SMR 생태계 핵심). X-energy·NuScale 주기기도 제작.',
+      url:'https://www.doosanenerbility.com/en/'},
+    knf:{nm:'한전원자력연료 (KNF)',role:'핵연료 · 한국',
+      desc:'한국 PWR 핵연료 제조 전담. SMART의 <b>UO₂ 17×17 연료집합체</b>를 공급. 한국 원전 연료 국산화의 주체.',
+      url:'https://www.knfc.co.kr/eng/'}
+  };
+  const coDetail=document.getElementById('coDetail');
+  const cochips=Array.from(document.querySelectorAll('.cochip'));
+  cochips.forEach(chip=>chip.addEventListener('click',()=>{
+    const c=COMPANIES[chip.dataset.co];if(!c)return;
+    cochips.forEach(x=>x.classList.toggle('active',x.dataset.co===chip.dataset.co));
+    coDetail.classList.remove('empty');
+    coDetail.innerHTML='<div class="nm">'+c.nm+'</div><div class="role">'+c.role+'</div><div>'+c.desc+'</div><div class="lnk"><a href="'+c.url+'" target="_blank" rel="noopener">공식 웹사이트 →</a></div>';
+  }));
+</script>
+<script src="feedback.js" defer></script>
+</body>
+</html>
