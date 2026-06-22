@@ -119,6 +119,104 @@ window.SMR_NEWS = [
     "id": "43a229c9"
   },
   {
+    "date": "2026-06-22",
+    "title": "뉴스케일 파워(NuScale) 주가 13.5% 상승 분석",
+    "summary": "뉴스케일 파워(NuScale)의 주가가 13.5% 상승한 가운데 추가 상승 가능성을 분석한 기사.",
+    "summaryLong": "야후 파이낸스(Yahoo Finance)에서 SMR 개발 선도 기업인 뉴스케일 파워(NuScale)의 주가 상승을 다루었다. 최근 13.5% 상승한 뉴스케일 주가의 기술적 강세가 지속될 수 있는지 분석하는 내용으로, 투자 관점에서 소형모듈원자로(SMR) 개발사의 시장 평가 변화를 보여주는 사례이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/strength-seen-nuscale-power-smr-055600030.html",
+    "k": "strength seen in nuscale power smr can its 13 5 jump turn into more strength",
+    "id": "60b4f78d"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "오클로(Oklo): 높은 위험성과 독특한 사업 모델의 원자력 투자처",
+    "summary": "나스닥 상장 SMR 개발사 오클로(Oklo)의 투자 관점 분석 기사.",
+    "summaryLong": "Seeking Alpha에서 나스닥(NYSE) 상장사 오클로(Oklo)의 투자 매력도를 분석하였다. 고위험 원자력 사업이면서도 다른 곳에서 찾기 어려운 사업 옵션을 갖춘 회사로 평가하고 있으며, 소형모듈원자로(SMR) 및 고급 원자로 분야에서 오클로의 차별화된 위치를 강조하고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "seekingalpha.com",
+    "url": "https://seekingalpha.com/article/4916631-oklo-stock-high-risk-nuclear-play-with-optionality-hard-to-find-elsewhere?source=feed_all_articles",
+    "k": "oklo a high risk nuclear play with optionality hard to find elsewhere nyse oklo",
+    "id": "c0ff1fbb"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "해양 SMR 시장 성장, 해양대 국제인증 기관 유치 추진",
+    "summary": "부산해양대학교가 해양용 소형모듈원자로(SMR) 시장 확대에 대응하여 국제인증 기관 유치를 추진 중이다.",
+    "summaryLong": "해양 응용 소형모듈원자로(SMR) 시장이 성장함에 따라 부산해양대학교가 해당 분야의 국제인증 기관 유치를 추진하고 있다. 이는 해양 플랫폼용 SMR의 안전기준 및 인증 체계 구축을 통해 국내 산업 육성과 국제 경쟁력 강화를 목표하는 정책 차원의 노력으로, 해양 에너지와 원자력의 융합 산업화를 지원하는 국책 프로그램이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260622144612173",
+    "k": "뜨는 해양 smr 시장 해양대 국제인증 기관 유치 추진에 나서",
+    "id": "3b798db5"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "국립한국해양대, 해양 SMR 추진단 출범...UN 산하 국제인증기구 유치 추진",
+    "summary": "국립한국해양대가 해양 SMR 추진단을 공식 출범시켰으며, UN(유엔) 산하 국제인증기구 유치를 추진 중이다.",
+    "summaryLong": "국립한국해양대가 해양 분야 소형모듈원자로(SMR) 관련 연구 및 인력 양성을 주도할 '해양 SMR 추진단'을 공식 출범시켰다. 동 대학은 나아가 국제연합(UN) 산하의 국제 인증 및 표준화 기구를 한국(Korea)에 유치하기 위한 노력을 병행하고 있다. 이는 해양 SMR 기술의 국제 표준 수립과 신뢰성 확보를 통해 한국의 관련 산업 경쟁력을 강화하려는 전략적 정책 추진을 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한국해양대",
+    "region": "KR",
+    "source": "fnnews.com",
+    "url": "https://www.fnnews.com/news/202606220950171908",
+    "k": "국립한국해양대 해양 smr 추진단 출범 un 산하 국제인증기구 유치 추진",
+    "id": "3dbf6856"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "기장 SMR 사업 선점 경쟁...현대·삼성·DL·대우 본격화",
+    "summary": "현대중공업, 삼성중공업, DL(대림), 대우조선해양이 부산 기장의 소형모듈원자로(SMR) 사업 1호기 건설을 위한 선점 경쟁을 벌이고 있다.",
+    "summaryLong": "부산 기장 지역의 소형모듈원자로(SMR) 1호기 사업을 놓고 국내 주요 조선·중공업 회사인 현대중공업, 삼성중공업, 대림(DL), 대우조선해양이 선점 경쟁을 본격화하고 있다. SMR 1호기 수주가 향후 산업 선도 지위와 관련 사업 확대의 계기가 될 것으로 예상되면서 각사의 수주 관심이 높아지고 있다. 이는 한국의 SMR 산업화 진행 과정에서 주요 건설·운영 주체를 결정하는 중요한 시점을 나타내며, 국내 원자력 산업의 경쟁 및 성장 국면을 보여주는 신호이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대중공업, 삼성중공업, 대림, 대우조선해양",
+    "region": "KR",
+    "source": "asiatoday.co.kr",
+    "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260622010007493",
+    "k": "1호가 곧 미래 기장 smr 놓고 현대 삼성 dl 대우 선점 경쟁",
+    "id": "466effe6"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "경남, SMR 거점 확보 위해 제조 역량 세계에 알린다",
+    "summary": "경남이 소형모듈원자로(SMR) 거점 유치를 목표로 제조 역량을 국제적으로 홍보하고 있다.",
+    "summaryLong": "경남은 차세대 원전인 소형모듈원자로(SMR)의 거점 확보를 목표로 제조 산업 역량을 세계에 알리는 전략을 추진 중이다. 이는 SMR 산업 선점을 위한 지자체 차원의 정책적 노력으로, 경남의 기존 제조업 기반을 활용한 SMR 산업 생태계 구축을 의도하고 있다. SMR 시장의 성장 가능성이 높아지면서 주요 지자체들이 유치 경쟁을 벌이고 있는 상황이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "news.nate.com",
+    "url": "https://news.nate.com/view/20260622n19723",
+    "k": "차세대 원전 smr 거점 노리는 경남 제조 역량 세계에 알린다",
+    "id": "fb9ca067"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "2050년 SMR 시장 1395조 원 전망···현대·대우건설 등 K원전 경쟁",
+    "summary": "인공지능(AI) 분석으로 2050년 SMR 시장이 1395조 원 규모로 전망되면서 한국 건설사들의 경쟁이 심화되고 있다.",
+    "summaryLong": "인공지능 기반 시장 분석에 따르면 2050년 소형모듈원자로(SMR) 시장 규모가 1395조 원에 달할 것으로 전망되고 있다. 이에 따라 현대건설, 대우건설 등 한국의 주요 건설·에너지 기업들이 SMR 사업 수주 및 기술 개발을 위한 경쟁을 가속화하고 있다. 이는 차세대 원전 시장의 성장성이 높아지면서 국내 산업계의 참여와 투자 관심이 급증하고 있음을 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대건설, 대우건설",
+    "region": "KR",
+    "source": "news.nate.com",
+    "url": "https://news.nate.com/view/20260622n16004",
+    "k": "ai가 쏘아올린 smr 2050년 1395조 현대 대우건설 등 k원전 경쟁",
+    "id": "5bc776fe"
+  },
+  {
     "date": "2026-06-21",
     "title": "센트러스 에너지(Centrus Energy), 오클로(Oklo)의 HALEU 계약 체결로 주가 저평가 가능성",
     "summary": "센트러스 에너지(Centrus Energy)가 오클로(Oklo)와 HALEU(고농축우라늄) 공급 계약을 체결하면서 주가 저평가 논의가 제기되고 있다.",
@@ -271,6 +369,20 @@ window.SMR_NEWS = [
     "url": "https://www.g-enews.com/article/Global-Biz/2026/06/20260622063323547fbbec65dfb_1",
     "k": "두산에너빌리티 smr 핵심 공급망 선점 제조 병목이 부른 락인 기회",
     "id": "ad7814f2"
+  },
+  {
+    "date": "2026-06-21",
+    "title": "경주, SMR 고배 마신 후 원전 중심도시의 미래 모색",
+    "summary": "SMR 유치 실패 후 경주가 원전 중심도시로서의 새로운 발전 방향을 모색하고 있다.",
+    "summaryLong": "경주가 소형모듈원자로(SMR) 거점 유치 계획이 무산된 이후 원전 중심도시로서의 위상 재정의와 새로운 성장 전략을 검토하고 있다. 경주는 기존 대규모 원전(월성) 보유 지역으로서 차세대 원전 산업 참여를 기대했으나, SMR 프로젝트 변화로 인한 지역경제 영향을 받고 있다. 이는 지역 차원에서 원전 산업 정책 변화에 대응하는 과정을 보여주는 사례다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "kbsm.net",
+    "url": "https://www.kbsm.net/news/view.php?idx=523815",
+    "k": "이채수의 데스크칼럼 smr 고배 마신 경주 원전 중심도시의 미래는 어디에 있는가",
+    "id": "7814de8e"
   },
   {
     "date": "2026-06-20",
@@ -8856,4 +8968,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-22 18:29 KST";
+window.SMR_UPDATED = "2026-06-22 18:54 KST";
