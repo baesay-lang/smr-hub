@@ -80,6 +80,7 @@
     + '<div class="nm-src" id="nm-src"></div>'
     + '<div class="nm-actions">'
     +   '<a id="nm-link" class="nm-btn" target="_blank" rel="noopener">원문 보기 ↗</a>'
+    +   '<button id="nm-copy" class="nm-btn ghost">링크 복사</button>'
     +   '<button id="nm-share" class="nm-btn">메일 공유</button>'
     +   '<button id="nm-close" class="nm-btn ghost">닫기</button>'
     + '</div>'
@@ -165,6 +166,7 @@
     elSum.textContent = (n.summaryLong || n.summary || '').trim() || '요약이 아직 없습니다.';
     elSrc.textContent = n.source ? ('출처 · ' + n.source) : '';
     if (n.url){ elLink.href = n.url; elLink.style.display = ''; } else { elLink.removeAttribute('href'); elLink.style.display = 'none'; }
+    var copyBtn = document.getElementById('nm-copy'); if (copyBtn) copyBtn.style.display = n.url ? '' : 'none';
     // 전문/요약 영역 — 열 때 상세 JSON을 받아 grounded면 "전문 보기" 버튼, 아니면 안내+용어 인라인 표시
     curItem = n;
     curId = n.id || null;
@@ -190,10 +192,16 @@
       + '• 원본: ' + (n.url || '') + '\r\n\r\n감사합니다.\r\n';
     return { subject: subject, body: body };
   }
-  function copyText(t){
-    try { if (navigator.clipboard && navigator.clipboard.writeText) return navigator.clipboard.writeText(t); } catch(e){}
+  function fallbackCopy(t){
     try { var ta=document.createElement('textarea'); ta.value=t; ta.style.position='fixed'; ta.style.opacity='0'; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove(); } catch(e){}
-    return Promise.resolve();
+  }
+  function copyText(t){
+    // async writeText can REJECT (e.g. document not focused) — catch it and fall back so the
+    // returned promise always resolves (toast must still fire)
+    if (navigator.clipboard && navigator.clipboard.writeText){
+      return navigator.clipboard.writeText(t).catch(function(){ fallbackCopy(t); });
+    }
+    fallbackCopy(t); return Promise.resolve();
   }
   var toastEl=null, toastTimer=null;
   function toast(msg){
@@ -211,6 +219,18 @@
     toast('내용을 클립보드에 복사했습니다 — 메일이 안 열리면 본문에 붙여넣기(Ctrl+V) 하세요.');
   }
   $('nm-share').addEventListener('click', function(){ share(curItem); });
+
+  /* ---- 링크 복사 / 공유 ---- */
+  function copyLink(n){
+    if (!n || !n.url) return;
+    // mobile: native share sheet (메신저·복사 등) if available; else clipboard copy
+    if (navigator.share){
+      navigator.share({ title: n.title || '기사', url: n.url }).catch(function(){ copyText(n.url).then(function(){ toast('기사 링크를 복사했습니다.'); }); });
+      return;
+    }
+    copyText(n.url).then(function(){ toast('기사 링크를 복사했습니다.'); });
+  }
+  $('nm-copy').addEventListener('click', function(){ copyLink(curItem); });
 
   $('nm-x').addEventListener('click', close);
   $('nm-close').addEventListener('click', close);
