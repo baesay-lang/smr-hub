@@ -456,6 +456,21 @@ window.SMR_NEWS = [
     "id": "f7e2dc43"
   },
   {
+    "date": "2026-06-22",
+    "title": "경남 SMR 국제콘퍼런스 11월 창원 개최",
+    "summary": "경남 SMR 국제콘퍼런스가 11월 창원에서 개최된다.",
+    "summaryLong": "경남 지역에서 소형모듈원자로(SMR) 분야 국제 콘퍼런스가 11월 창원에서 개최될 것으로 예정되어 있다. 스니펫 정보만으로는 구체적인 프로그램·참가자·주최기관 등 추가 세부사항을 알 수 없으나, SMR 산업 활성화 및 국제 협력 확대를 위한 정책적 추진으로 해석된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "gnmaeil.com",
+    "url": "https://www.gnmaeil.com/news/articleView.html?idxno=589155",
+    "k": "경남 smr 국제 콘퍼런스 11월 창원 개최",
+    "ko": 1,
+    "id": "5c79b58d"
+  },
+  {
     "date": "2026-06-21",
     "title": "센트러스 에너지(Centrus Energy), 오클로(Oklo)의 HALEU 계약 체결로 주가 저평가 가능성",
     "summary": "센트러스 에너지(Centrus Energy)가 오클로(Oklo)와 HALEU(고농축우라늄) 공급 계약을 체결하면서 주가 저평가 논의가 제기되고 있다.",
@@ -1461,6 +1476,21 @@ window.SMR_NEWS = [
     "k": "책임 있는 진단은 없고 smr 유치 실패에도 원자력 중심도시 만 강조",
     "id": "2a167350",
     "ko": 1
+  },
+  {
+    "date": "2026-06-19",
+    "title": "대형원전 후보부지 영덕군, SMR 후보부지 부산기장군 선정",
+    "summary": "한국이 대형원전 후보부지로 경북 영덕군을, SMR 후보부지로 부산 기장군을 선정했다.",
+    "summaryLong": "한국 정부가 대형원자력발전소의 신규 건설 후보부지로 경상북도 영덕군을, 소형모듈원자로(SMR)의 건설 후보부지로 부산광역시 기장군을 각각 선정했다. 이는 원자력 발전 다원화 정책의 일환으로, 대형 및 소형 원전을 지역별로 구분하여 추진하기 위한 국책 프로그램 결정이다. SMR 상용화를 위한 정책적 기반 마련의 중요한 마일스톤이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "epnews.co.kr",
+    "url": "https://www.epnews.co.kr/news/articleView.html?idxno=65751",
+    "k": "대형원전 후보부지 경북 영덕군 smr 후보부지 부산기장군 선정",
+    "ko": 1,
+    "id": "204cab7f"
   },
   {
     "date": "2026-06-18",
@@ -9612,4 +9642,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-23 16:04 KST";
+window.SMR_UPDATED = "2026-06-23 16:56 KST";
