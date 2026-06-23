@@ -220,14 +220,11 @@
   }
   $('nm-share').addEventListener('click', function(){ share(curItem); });
 
-  /* ---- 링크 복사 / 공유 ---- */
+  /* ---- 링크 복사 ---- */
   function copyLink(n){
     if (!n || !n.url) return;
-    // mobile: native share sheet (메신저·복사 등) if available; else clipboard copy
-    if (navigator.share){
-      navigator.share({ title: n.title || '기사', url: n.url }).catch(function(){ copyText(n.url).then(function(){ toast('기사 링크를 복사했습니다.'); }); });
-      return;
-    }
+    // pure clipboard copy — predictable for a button labelled 복사. (Native share sheet은 의도적으로
+    // 쓰지 않음: 데스크톱 navigator.share가 깨진 공유창을 띄우는 문제가 있었음. 공유는 '메일 공유' 담당.)
     copyText(n.url).then(function(){ toast('기사 링크를 복사했습니다.'); });
   }
   $('nm-copy').addEventListener('click', function(){ copyLink(curItem); });
