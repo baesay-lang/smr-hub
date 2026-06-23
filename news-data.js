@@ -302,6 +302,35 @@ window.SMR_NEWS = [
     "id": "d6fddb0c"
   },
   {
+    "date": "2026-06-23",
+    "title": "오클로(Oklo), 연료 계약·미국 에너지부(DOE) 안전승인으로 주가 상승 전망",
+    "summary": "오클로(Oklo)가 연료 공급 계약을 체결하고 미국 에너지부(DOE) 안전승인을 받아 주가가 현재가 대비 27.5% 저평가되어 있다는 분석이 제시되었다.",
+    "summaryLong": "오클로(Oklo)는 연료 공급 계약 체결과 미국 에너지부(DOE)의 안전승인이라는 주요 마일스톤을 달성했다. 이러한 진전이 회사의 소형모듈원자로(SMR) 개발 추진에 긍정적 신호를 보내고 있으며, 분석가들은 현재 주가가 이러한 성과를 충분히 반영하지 못해 27.5% 저평가되어 있다고 평가하고 있다. 오클로의 SMR 사업 진전과 규제 승인은 첨단로 시장의 신뢰도 제고를 의미한다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "simplywall.st",
+    "url": "https://simplywall.st/stocks/us/utilities/nyse-oklo/oklo/news/oklo-oklo-stock-could-be-275-undervalued-after-fuel-deal-and",
+    "k": "oklo oklo stock could be 27 5 undervalued after fuel deal and doe safety approval",
+    "id": "aef8f78a"
+  },
+  {
+    "date": "2026-06-23",
+    "title": "한전기술, SMR·원전안전 연구부 폐지···연구소 체계로 통합",
+    "summary": "한전기술이 소형모듈원자로(SMR)·원전안전 전담 연구부를 폐지하고 연구소 통합 체계로 전환한다.",
+    "summaryLong": "한전기술이 조직 개편을 통해 소형모듈원자로(SMR)·원전안전 연구부를 폐지하고 연구소 중심의 통합 체계로 전환하기로 했다. 이 조직 개편은 SMR 및 원전안전 연구를 기존 부서 체계에서 독립적 연구소 체계로 재편성하는 것으로, 한전기술의 SMR 개발 전략 및 조직 구조 변화를 반영한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한전기술",
+    "region": "KR",
+    "source": "smartbizn.com",
+    "url": "https://www.smartbizn.com/news/articleView.html?idxno=146865",
+    "k": "한전기술 smr 원전안전 연구부 폐지 연구소 체계로 통합 전환",
+    "ko": 1,
+    "id": "5359ef2b"
+  },
+  {
     "date": "2026-06-22",
     "title": "오클로, 우라늄 공급 계약으로 핵분열 사업 강화",
     "summary": "오클로(Oklo)가 우라늄 공급 계약을 체결하며 핵분열 연료 확보에 나섰다.",
@@ -1012,6 +1041,21 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "af47ec7d"
+  },
+  {
+    "date": "2026-06-21",
+    "title": "소형모듈원자로(SMR) 혁명, 어디로 갔나",
+    "summary": "소형모듈원자로(SMR) 산업의 현황과 과제를 다룬 분석 기사다.",
+    "summaryLong": "소형모듈원자로(SMR)는 차세대 원자력 기술로 기대를 모았으나, 개발 진전·상용화·산업 전망에 대한 의문이 제기되고 있다. 기사는 초기의 높은 기대와 현실 사이의 격차, 기술·규제·경제성 측면의 과제들을 검토하면서 SMR 산업의 현 주소를 분석하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/whatever-happened-small-modular-reactor-190000456.html",
+    "k": "whatever happened to the small modular reactor revolution",
+    "op": 1,
+    "id": "acc0dba0"
   },
   {
     "date": "2026-06-20",
@@ -6009,6 +6053,21 @@ window.SMR_NEWS = [
     "id": "fdd6a661"
   },
   {
+    "date": "2026-06-09",
+    "title": "오클로(Oklo), 원자력 엔지니어링 전문기업 아르멕(Armaec) 인수",
+    "summary": "샘 올트먼(Sam Altman)이 주도하는 소형모듈원자로(SMR) 개발사 오클로(Oklo)가 원자력 엔지니어링 전문기업 아르멕(Armaec)을 인수했다.",
+    "summaryLong": "오클로(Oklo)가 원자력 엔지니어링 전문기업 아르멕(Armaec)을 인수함으로써 기술 역량과 엔지니어링 인력을 확보했다. 샘 올트먼(Sam Altman)이 주도하는 오클로는 이 인수를 통해 소형모듈원자로(SMR) 개발에 필요한 엔지니어링 능력을 강화하고 사업 추진 속도를 높이려는 전략으로 보인다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "theguru.co.kr",
+    "url": "https://www.theguru.co.kr/news/article.html?no=102797",
+    "k": "샘 올트먼 smr 오클로 원자력 엔지니어링 전문기업 아르멕 인수",
+    "ko": 1,
+    "id": "8d55df23"
+  },
+  {
     "date": "2026-06-08",
     "title": "글로벌 소형모듈원자로(SMR) 시장, 첨단 원자력 기술 주도로 성장",
     "summary": "글로벌 소형모듈원자로(SMR) 시장이 첨단 원자력 기술 개발에 힘입어 확대되고 있다.",
@@ -6571,6 +6630,21 @@ window.SMR_NEWS = [
     "url": "https://finance.yahoo.com/sectors/energy/articles/makes-nuscale-power-module-key-124600011.html",
     "k": "what makes the nuscale power module a key asset for smr",
     "id": "acbc6d50"
+  },
+  {
+    "date": "2026-06-04",
+    "title": "뉴스케일 파워(NuScale Power), 현명한 투자 선택인가",
+    "summary": "뉴스케일 파워(NuScale Power)의 투자 매력도에 대한 분석 기사다.",
+    "summaryLong": "뉴스케일 파워(NuScale Power)는 소형모듈원자로(SMR) 개발을 주도하는 선도 기업이다. 기사는 현재 시점에서 뉴스케일에 투자하는 것이 현명한 선택인지를 검토하고 있으며, 회사의 기술 진전, 시장 전망, 재무 상황 등을 투자 판단의 주요 요소로 다루고 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/nuscale-power-smartest-investment-today-140500248.html",
+    "k": "is nuscale power the smartest investment you can make today",
+    "op": 1,
+    "id": "6824b571"
   },
   {
     "date": "2026-06-03",
@@ -10013,4 +10087,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-24 08:17 KST";
+window.SMR_UPDATED = "2026-06-24 08:43 KST";
