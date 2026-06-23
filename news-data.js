@@ -8,6 +8,36 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-06-23",
+    "title": "오클로(Oklo): 매도 제언 이후 거의 모든 것이 변했다 - 거의",
+    "summary": "오클로(Oklo) 주식에 대한 투자 분석 칼럼으로, 이전 매도 제언 이후의 변화를 평가하는 의견 글.",
+    "summaryLong": "이 기사는 오클로(Oklo)에 대해 이전에 제시한 매도 제언 이후 회사 상황의 변화를 분석하는 투자 칼럼이다. 저자는 거의 모든 것이 변했지만 여전히 일부 우려사항이 남아있다는 주장을 펼치고 있다. 구체적인 기술 진전, 계약, 인허가 등의 확인된 사실 보도보다는 투자자 관점의 평가와 전망을 담고 있는 오피니언 성 콘텐츠이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "seekingalpha.com",
+    "url": "https://seekingalpha.com/article/4916827-oklo-almost-everything-has-changed-since-my-sell-call-almost",
+    "k": "oklo almost everything has changed since my sell call almost",
+    "op": 1,
+    "id": "5710fe6a"
+  },
+  {
+    "date": "2026-06-23",
+    "title": "\"국내 1호 SMR 타이틀 잡아라\"...원전 '3강' 건설사는 어디?",
+    "summary": "국내 원전 3대 건설사들이 첫 번째 국산 SMR 개발권을 놓고 경쟁하고 있다.",
+    "summaryLong": "한국의 대형 건설사들이 국내 첫 번째 소형모듈원자로(SMR) 건설·개발 프로젝트를 선점하기 위해 경쟁하고 있다는 분석 기사이다. 원전 산업의 '3강'으로 불리는 건설사들이 정부의 SMR 추진 정책에 따라 프로젝트 참여 및 역할 확대를 노리고 있으며, 이는 한국의 SMR 산업 발전 과정에서 주요 플레이어들의 전략을 다루는 보도이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "news.nate.com",
+    "url": "https://news.nate.com/view/20260623n25438?mid=n1101",
+    "k": "smr 국내 1호 타이틀 잡아라 원전 3강 건설사는 어디",
+    "ko": 1,
+    "id": "337ce41f"
+  },
+  {
     "date": "2026-06-22",
     "title": "오클로, 우라늄 공급 계약으로 핵분열 사업 강화",
     "summary": "오클로(Oklo)가 우라늄 공급 계약을 체결하며 핵분열 연료 확보에 나섰다.",
@@ -394,6 +424,36 @@ window.SMR_NEWS = [
     "k": "2026 경남 smr 국제콘퍼런스 11월 창원서 열린다",
     "ko": 1,
     "id": "00b1fe7c"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "분석가들, 뉴스케일(NuScale)을 스페이스X 인수 대상으로 제시",
+    "summary": "업계 분석가들이 뉴스케일(NuScale)이 스페이스X(SpaceX)의 인수 대상이 될 가능성을 제기하고 있다.",
+    "summaryLong": "미국 분석가들이 소형모듈원자로(SMR) 개발사 뉴스케일(NuScale)을 스페이스X(SpaceX)의 잠재적 인수 대상으로 언급하고 있다. 이는 스페이스X의 에너지 분야 진출 및 우주·방위 산업 확장 전략과 관련된 추측성 보도이다. 아직 공식 발표나 협상 소식이 아니며, 분석가들의 관측 수준의 보도이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "msn.com",
+    "url": "https://www.msn.com/en-us/money/topstocks/analysts-see-nuscale-as-possible-spacex-acquisition-target/ss-AA26fvqK?ocid=finance-verthp-feeds",
+    "k": "analysts see nuscale as possible spacex acquisition target",
+    "op": 1,
+    "id": "c19f0140"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "2026 경남 SMR 국제콘퍼런스 개최...글로벌 원전 공급망 허브 도약 시험대",
+    "summary": "경상남도가 2026년 소형모듈원자로(SMR) 국제콘퍼런스를 개최하여 글로벌 공급망 허브로서의 위상을 확보하려 하고 있다.",
+    "summaryLong": "경상남도가 2026년 소형모듈원자로(SMR) 국제콘퍼런스 개최를 준비하고 있으며, 이를 통해 글로벌 원자력 공급망의 허브로 도약하려는 전략을 추진 중이다. 경남은 한국의 원전산업 중심지로서 SMR 개발·제조 산업 유치 및 국제 협력 체계 구축의 중요성을 강조하고 있으며, 국제콘퍼런스는 이러한 지역 전략의 핵심 이벤트로 위치지어 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "jinju.news",
+    "url": "http://www.jinju.news/front/news/view.do?articleId=ARTICLE_00044861",
+    "k": "2026 경남 smr 국제콘퍼런스 개최 글로벌 원전 공급망 허브 도약 시험대 오른 경남",
+    "ko": 1,
+    "id": "f7e2dc43"
   },
   {
     "date": "2026-06-21",
@@ -2825,6 +2885,21 @@ window.SMR_NEWS = [
     "url": "https://v.daum.net/v/20260618102433688",
     "k": "정부 대형원전 소형원자로 부지 선정 발표 놓고 경북 영덕군 경주시 희비 교차",
     "id": "72f8aa32"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "국내 첫 SMR 시대 개막, 원전 수출 자격증 획득한 한국",
+    "summary": "한국이 첫 소형모듈원자로(SMR) 부지 최종 확정으로 국내 SMR 시대를 본격 시작하며 원전 수출 역량을 갖추게 되었다.",
+    "summaryLong": "한국이 국내 첫 소형모듈원자로(SMR) 부지를 최종 확정하면서 SMR 시대를 공식 개막했다. 이는 한국이 원전 설계 및 건설 역량을 국제적으로 입증하고 원전 수출의 '자격증'을 획득하는 의미를 갖는다. SMR 부지 확정은 한국의 원전 기술 경쟁력을 강화하고 향후 해외 SMR 프로젝트 수주의 토대가 될 것으로 예상된다. 이를 통해 한국은 글로벌 에너지 시장에서 차세대 원전 기술의 주도국으로 포지셔닝할 수 있을 것으로 전망된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260618114409946",
+    "k": "국내 첫 smr 시대 연다 원전 수출 자격증 따는 한국 신규 원전 부지 최종 확정",
+    "ko": 1,
+    "id": "914a47bd"
   },
   {
     "date": "2026-06-17",
@@ -6095,6 +6170,21 @@ window.SMR_NEWS = [
     "url": "https://www.upi.com/Top_News/World-News/2026/06/04/terrapower-smr-ai-chips-data-centers/5891780613663/",
     "k": "terrapower ceo says sk investment in smrs was prescient",
     "id": "0c877443"
+  },
+  {
+    "date": "2026-06-04",
+    "title": "미국(US)이 40년 만에 허가한 SMR, AI 시대 전력수급 해결책으로 주목",
+    "summary": "미국이 40년 만에 신규 원전 허가를 승인했으며, 소형모듈원자로(SMR)가 AI 시대의 전력난 해결 방안으로 평가받고 있다.",
+    "summaryLong": "미국이 40년 만에 신규 원전 허가를 승인하며 소형모듈원자로(SMR)의 미래성을 재확인했다. AI 데이터 센터 등 신산업의 전력 수요 급증 속에서 SMR이 기존 대형원전의 대안으로 주목받고 있다. 이번 허가는 미국의 원전 정책 전환과 SMR 개발의 가속화를 신호하는 사건으로 평가된다. SMR은 소규모 건설, 유연한 입지 선정, 낮은 자본비 등의 장점으로 향후 전력 시장에서 중요한 역할을 할 것으로 전망된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "chosun.com",
+    "url": "https://www.chosun.com/international/us/2026/06/04/OA6HTVPGQFBNHLNNQOO5QF43VY/",
+    "k": "가 40년 만에 허가한 미래 원전 ai 시대 전력난 답은 smr에 있다",
+    "ko": 1,
+    "id": "4d9240e2"
   },
   {
     "date": "2026-06-03",
@@ -9522,4 +9612,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-23 08:58 KST";
+window.SMR_UPDATED = "2026-06-23 16:04 KST";
