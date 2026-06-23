@@ -196,6 +196,112 @@ window.SMR_NEWS = [
     "id": "21a3c08d"
   },
   {
+    "date": "2026-06-23",
+    "title": "오클로(Oklo) 주가 상승",
+    "summary": "오클로 주가가 시장 약세 속에서 상승세를 보이고 있다.",
+    "summaryLong": "오클로(Oklo)의 주가가 전반적인 시장 약세에도 불구하고 상승 추세를 기록하고 있다. 보도에서는 이러한 주가 상승의 배경과 의미를 분석하고 있으나, 제공된 정보만으로는 구체적인 원인을 특정하기 어렵다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "benzinga.com",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60050031/oklo-stock-is-rising-despite-tuesdays-market-selloff-whats-going-on",
+    "k": "oklo stock is rising despite tuesday s market selloff what s going on",
+    "op": 1,
+    "id": "c6854ac9"
+  },
+  {
+    "date": "2026-06-23",
+    "title": "티디 코웬(TD Cowen), 엑스에너지(X-Energy) 주가 하락 시 매수 기회 평가",
+    "summary": "티디 코웬(TD Cowen)이 엑스에너지(X-Energy) 주가 하락 국면에서 지속적인 긍정 평가를 유지하고 있다.",
+    "summaryLong": "투자 자문사 티디 코웬(TD Cowen)이 엑스에너지(X-Energy)의 주가 하락을 매수 기회로 평가하고 있다. 이는 아직 고온가스로(HTGR) 기술 개발 및 상용화 과정에 있는 엑스에너지에 대한 강기(strong hold) 입장을 재확인하는 것이다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "investing.com",
+    "url": "https://www.investing.com/news/analyst-ratings/td-cowen-reiterates-xenergy-stock-rating-on-pullback-opportunity-93CH-4755854",
+    "k": "td cowen reiterates x energy stock rating on pullback opportunity",
+    "op": 1,
+    "id": "d465cc22"
+  },
+  {
+    "date": "2026-06-23",
+    "title": "캐나다 원주민기금, 캐나다 첫 그리드급 소형모듈원자로 투자 지원",
+    "summary": "캐나다 원주민대출보증공사(Canada Indigenous Loan Guarantee Corporation)가 캐나다 최초의 그리드급 소형모듈원자로 프로젝트에 투자를 보증했다.",
+    "summaryLong": "캐나다 원주민대출보증공사(Canada Indigenous Loan Guarantee Corporation)가 캐나다 최초의 그리드급 소형모듈원자로(SMR) 프로젝트에 대한 투자를 지원하기로 결정했다. 이는 제1민족(First Nations) 커뮤니티의 에너지 자립과 경제 발전을 목표로 하는 역사적 투자로 평가된다. 해당 프로젝트는 캐나다(Canada)의 청정 에너지 전환 정책의 일환으로 추진되고 있으며, 소형모듈원자로 기술의 상용화와 지역사회 에너지 공급 다층화를 동시에 추진하는 의미를 갖는다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "CA",
+    "source": "newswire.ca",
+    "url": "https://www.newswire.ca/news-releases/canada-indigenous-loan-guarantee-corporation-supports-landmark-first-nations-investment-in-canada-s-first-grid-scale-small-modular-reactor-863396511.html",
+    "k": "canada indigenous loan guarantee corporation supports landmark first nations investment in canada s first grid scale small modular reactor",
+    "id": "b450e7d0"
+  },
+  {
+    "date": "2026-06-23",
+    "title": "AI 데이터센터 수요에 성장하는 소형모듈원자로(SMR) 시장, 과제는?",
+    "summary": "전 세계 AI 인프라 확대에 따른 소형모듈원자로 시장의 성장 기회와 해결 과제를 분석한 기사.",
+    "summaryLong": "인공지능(AI) 데이터센터의 급증에 따른 전력 수요 증가가 소형모듈원자로(SMR) 시장 성장의 주요 동력으로 떠오르고 있다. 기술 기업과 에너지 업체들이 소형모듈원자로를 데이터센터의 탄소중립 전력 공급원으로 주목하면서 투자와 개발이 가속화되고 있다. 다만 기사는 상용화 기간 단축, 규제 승인 가속화, 경제성 확보 등 여러 기술적·정책적 과제를 풀어야 시장이 본궤도에 오를 수 있음을 지적한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260624070216206",
+    "k": "전 세계 ai 데이터센터 바람에 성장하는 smr 시장 풀어야 할 숙제는 경제밥도둑",
+    "ko": 1,
+    "op": 1,
+    "id": "1f08d2b2"
+  },
+  {
+    "date": "2026-06-23",
+    "title": "한전기술, 소형모듈원자로(SMR)·원전안전 연구개발 조직 개편",
+    "summary": "한전기술이 소형모듈원자로와 원전안전 분야의 연구개발 조직을 고정조직 중심으로 재정비한다.",
+    "summaryLong": "한전기술(Korea Hydro & Nuclear Power Tech)이 소형모듈원자로(SMR) 및 원전안전 분야의 연구개발 체계를 고정조직 중심으로 개편하는 조직 개선을 추진하고 있다. 이는 소형모듈원자로 기술 개발의 지속성과 효율성을 높이기 위한 조치로, 연구부 폐지 및 연구소 통합 등 구조적 재정립을 포함한다. 개편을 통해 한전기술은 소형모듈원자로 상용화와 국내 원전 안전성 강화에 더욱 집중할 수 있는 체계를 구축하려는 전략을 보이고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한전기술",
+    "region": "KR",
+    "source": "asiatoday.co.kr",
+    "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260623010008161",
+    "k": "한전기술 smr 원전안전 연구개발 체계 정비 고정조직 중심 전환",
+    "ko": 1,
+    "id": "8a1f6e0a"
+  },
+  {
+    "date": "2026-06-23",
+    "title": "경상남도·한국원자력산업협회, 소형모듈원자로(SMR) 컨퍼런스 협약",
+    "summary": "경상남도와 한국원자력산업협회가 소형모듈원자로 컨퍼런스 개최를 위한 협약을 체결했다.",
+    "summaryLong": "경상남도(Gyeongsan Nam-do)와 한국원자력산업협회(Korea Nuclear Industry Association)가 소형모듈원자로(SMR) 기술 및 산업 발전을 논의하는 국제 컨퍼런스 개최에 관한 협약을 체결했다. 협약을 통해 양 기관은 소형모듈원자로 개발·상용화·국제 협력 등 다양한 주제로 업계 전문가와 정책입안자들을 모으는 플랫폼을 마련할 예정이다. 이는 소형모듈원자로 산업의 성장 지원과 경상남도의 원전 산업 중심지로서의 위상 강화를 목표로 한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "news.kbs.co.kr",
+    "url": "https://news.kbs.co.kr/news/view.do?ncd=8592656",
+    "k": "경상남도 한국원자력산업협회 smr 콘퍼런스 협약",
+    "ko": 1,
+    "id": "57926919"
+  },
+  {
+    "date": "2026-06-23",
+    "title": "홀텍, 영국(UK) 소형모듈원자로(SMR) 프로젝트 제안서 제출…현대건설 탄력",
+    "summary": "홀텍이 영국의 소형모듈원자로 프로젝트에 제안서를 제출하며 현대건설의 참여 가능성을 제시했다.",
+    "summaryLong": "홀텍(Holtec International)이 영국(UK)의 소형모듈원자로(SMR) 프로젝트에 대한 공식 제안서를 제출했다. 이는 현대건설(Hyundai Engineering and Construction)의 해당 프로젝트 참여 가능성을 높이는 신호로 해석되고 있다. 홀텍은 자사의 소형모듈원자로 기술 및 건설 역량을 강조하면서 영국의 에너지 안보 및 탄소 감축 목표 달성에 기여할 수 있음을 제안했다. 양사의 협력은 한국 기업의 글로벌 소형모듈원자로 시장 진출 확대를 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "홀텍",
+    "region": "UK",
+    "source": "theguru.co.kr",
+    "url": "https://www.theguru.co.kr/news/article.html?no=103481",
+    "k": "홀텍 smr 프로젝트 제안서 제출 현대건설 청신호",
+    "ko": 1,
+    "op": 1,
+    "id": "d6fddb0c"
+  },
+  {
     "date": "2026-06-22",
     "title": "오클로, 우라늄 공급 계약으로 핵분열 사업 강화",
     "summary": "오클로(Oklo)가 우라늄 공급 계약을 체결하며 핵분열 연료 확보에 나섰다.",
@@ -673,6 +779,22 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "9ccbe830"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "한국해양대, 유엔(UN) 산하 해양 소형모듈원자로 국제인증기구 유치 추진",
+    "summary": "한국해양대가 해양용 소형모듈원자로(SMR) 기술의 국제 인증 기구를 유치하기 위해 추진 중이다.",
+    "summaryLong": "한국해양대학교(Korea Maritime and Ocean University)가 유엔(UN) 산하 국제기구인 해양 소형모듈원자로(SMR) 국제인증기구를 한국으로 유치하기 위한 활동을 시작했다. 해양 소형모듈원자로는 도서 지역, 해상 플랫폼, 극지 지역 등에서의 전력 공급을 목표로 개발 중인 차세대 기술로, 국제적 표준 및 안전 기준 수립의 중요성이 높다. 한국해양대의 유치 추진은 해양 에너지 분야에서 한국의 국제적 위상 제고 및 소형모듈원자로 산업 생태계 구축을 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한국해양대",
+    "region": "KR",
+    "source": "news1.kr",
+    "url": "https://www.news1.kr/local/busan-gyeongnam/6204119",
+    "k": "한국해양대 un산하 해양 smr국제인증기구 유치 추진",
+    "ko": 1,
+    "op": 1,
+    "id": "23f7e6a0"
   },
   {
     "date": "2026-06-21",
@@ -6437,6 +6559,20 @@ window.SMR_NEWS = [
     "id": "4d9240e2"
   },
   {
+    "date": "2026-06-04",
+    "title": "뉴스케일 파워 모듈(NuScale Power Module)의 소형모듈원자로(SMR) 경쟁력",
+    "summary": "야후 파이낸스(Yahoo Finance)가 뉴스케일 파워 모듈(NuScale Power Module)의 소형모듈원자로(SMR) 시장에서의 핵심 자산 가치를 분석했다.",
+    "summaryLong": "야후 파이낸스(Yahoo Finance)는 뉴스케일 파워(NuScale Power)의 가압경수로(PWR) 기술 기반 소형모듈원자로(SMR) 설계를 SMR 산업의 중요한 자산으로 평가하는 보도를 게재했다. 뉴스케일의 표준설계(standardized design)와 모듈화 접근법이 산업 경쟁력의 핵심이라는 분석이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/sectors/energy/articles/makes-nuscale-power-module-key-124600011.html",
+    "k": "what makes the nuscale power module a key asset for smr",
+    "id": "acbc6d50"
+  },
+  {
     "date": "2026-06-03",
     "title": "X-energy, 영국 규제기관에 Xe-100 고온가스냉각로 인허가 신청",
     "summary": "미국의 첨단원전 개발사 X-energy가 고온가스냉각로(HTGR) Xe-100을 영국 제네릭 설계 평가 절차에 신청했다.",
@@ -6685,6 +6821,21 @@ window.SMR_NEWS = [
     "url": "https://xyz.pl/poland-unpacked/tough-negotiations-cloud-polands-small-modular-reactor-push-4049/",
     "k": "tough negotiations cloud poland s small modular reactor push",
     "id": "e85efb11"
+  },
+  {
+    "date": "2026-06-02",
+    "title": "모틀리풀(Motley Fool): 뉴스케일 파워(NuScale Power) 11월 전 매수 추천",
+    "summary": "모틀리풀(Motley Fool)이 뉴스케일 파워(NuScale Power)의 주식을 11월 전 매수 기회로 평가하고 있다.",
+    "summaryLong": "재정 분석 플랫폼 모틀리풀(Motley Fool)은 뉴스케일 파워(NuScale Power)의 소형모듈원자로(SMR) 기술과 시장 전망을 긍정적으로 평가하여 11월 전 매수를 권장하고 있다. 이는 분석가의 개인 투자 의견으로, 추측 기반의 논평이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/06/02/im-calling-it-stock-is-a-buy-before-date/",
+    "k": "i m calling it nuscale power is a buy before november",
+    "op": 1,
+    "id": "4b0f4178"
   },
   {
     "date": "2026-06-01",
@@ -9862,4 +10013,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-24 07:50 KST";
+window.SMR_UPDATED = "2026-06-24 08:17 KST";
