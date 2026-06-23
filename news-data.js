@@ -471,6 +471,21 @@ window.SMR_NEWS = [
     "id": "5c79b58d"
   },
   {
+    "date": "2026-06-22",
+    "title": "2026 경남 SMR 국제콘퍼런스 11월 창원에서 개최",
+    "summary": "2026년 11월 경남 창원에서 경남 SMR 국제콘퍼런스가 개최될 예정이다.",
+    "summaryLong": "경남 지역에서 소형모듈원자로(SMR) 산업 발전을 위한 국제콘퍼런스를 2026년 11월 창원에서 개최한다. 이는 SMR 기술 및 정책을 다루는 국제 행사로, SMR 산업의 국내 거점화와 국제적 협력 강화를 목표로 한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "daily.hankooki.com",
+    "url": "https://daily.hankooki.com/news/articleView.html?idxno=1378561",
+    "k": "2026 경남 smr 국제콘퍼런스 11월 창원서 개최",
+    "ko": 1,
+    "id": "3f220d22"
+  },
+  {
     "date": "2026-06-21",
     "title": "센트러스 에너지(Centrus Energy), 오클로(Oklo)의 HALEU 계약 체결로 주가 저평가 가능성",
     "summary": "센트러스 에너지(Centrus Energy)가 오클로(Oklo)와 HALEU(고농축우라늄) 공급 계약을 체결하면서 주가 저평가 논의가 제기되고 있다.",
@@ -670,6 +685,22 @@ window.SMR_NEWS = [
     "url": "http://www.gndomin.com/news/articleView.html?idxno=479409",
     "k": "남동발전 현대건설 폐석탄발전소 smr 전환 기술개발 mou 체결",
     "id": "bc74862b"
+  },
+  {
+    "date": "2026-06-21",
+    "title": "[칼럼] SMR 강국으로 가자",
+    "summary": "소설가 이상우의 칼럼으로 한국의 SMR 산업 발전 방향을 제시한다.",
+    "summaryLong": "소설가 이상우의 '긴생각, 짧은글' 칼럼 제211회에서 한국의 소형모듈원자로(SMR) 강국 도약의 필요성과 전망을 다룬 오피니언 기사이다. 구체적인 사실 보도보다는 칼럼·사설 성격의 기고이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "fairn.co.kr",
+    "url": "https://www.fairn.co.kr/news/articleView.html?idxno=72928",
+    "k": "소설가 이상우 긴생각 짧은글 211 smr 강국으로 가자",
+    "ko": 1,
+    "op": 1,
+    "id": "af47ec7d"
   },
   {
     "date": "2026-06-20",
@@ -9642,4 +9673,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-23 16:56 KST";
+window.SMR_UPDATED = "2026-06-23 17:21 KST";
