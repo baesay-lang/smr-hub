@@ -3,7 +3,8 @@
    Auto-updated by scripts/track-news.mjs (GitHub Actions); changes land via PR.
    Schema: date, title, summary, cat(인허가|계약|투자|기술|정책),
            type(General|PWR|BWR|SFR|HTGR|FHR|MSR|Micro), dev, region, source, url, k(internal dedup key)
-   Optional: summaryLong (2~3문장 — 홈 피처드 카드에서 summary 대신 표시)
+   Optional: summaryLong (2~3문장 — 홈 피처드 카드에서 summary 대신 표시),
+            ko(1=한국어 출처 → 영문 전문 생략), op(1=미확인·추측성 보도 → UI 배지)
    ============================================================ */
 window.SMR_NEWS = [
   {
@@ -363,6 +364,36 @@ window.SMR_NEWS = [
     "url": "https://www.esnews.kr/news/articleView.html?idxno=4618",
     "k": "오하이오 1 5gw smr 허브로 부상 elementl oklo 연료망 구축 속도",
     "id": "5adc9671"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "SpaceX IPO 모멘텀이 오클로(Oklo)·뉴스케일(NuScale)에 영향을 미칠까",
+    "summary": "SpaceX의 IPO 추진이 소형모듈원자로(SMR) 개발사들의 상장 가능성에 영향을 줄 수 있다는 분석이다.",
+    "summaryLong": "SpaceX의 기업공개(IPO) 추진 동향이 소형모듈원자로(SMR) 분야의 주요 개발사인 오클로(Oklo)와 뉴스케일(NuScale) 등의 자본시장 진출에 긍정적 영향을 미칠 수 있다는 시장 분석이 제시되고 있다. SpaceX의 성공적 IPO 모멘텀이 우주항공·에너지 기술 분야 신생 에너지 기업들에 대한 투자자 관심을 촉발할 가능성이 있다는 관측이다.",
+    "cat": "투자",
+    "type": "SFR",
+    "dev": "Oklo, NuScale",
+    "region": "US",
+    "source": "tradingview.com",
+    "url": "https://www.tradingview.com/news/zacks:f3e976745094b:0-could-spacex-s-ipo-momentum-spill-over-to-oklo-and-nuscale/",
+    "k": "could spacex s ipo momentum spill over to oklo and nuscale",
+    "op": 1,
+    "id": "4865ff16"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "2026 경남 SMR 국제콘퍼런스 11월 창원 개최",
+    "summary": "경남 지역에서 2026년 11월 소형모듈원자로 국제콘퍼런스를 창원에서 개최할 예정이다.",
+    "summaryLong": "경남 도정이 소형모듈원자로(SMR) 산업 활성화를 위해 2026년 11월 창원(Changwon)에서 SMR 국제콘퍼런스를 개최하기로 결정했다. 이는 경남을 동아시아 SMR 허브로 육성하기 위한 경남도의 전략적 계획으로, 국내외 SMR 개발사·연구기관·정책담당자가 참여하는 국제 플랫폼 구축을 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "gnnews.co.kr",
+    "url": "https://www.gnnews.co.kr/news/articleView.html?idxno=639535",
+    "k": "2026 경남 smr 국제콘퍼런스 11월 창원서 열린다",
+    "ko": 1,
+    "id": "00b1fe7c"
   },
   {
     "date": "2026-06-21",
@@ -3684,6 +3715,20 @@ window.SMR_NEWS = [
     "id": "f7ad907a"
   },
   {
+    "date": "2026-06-17",
+    "title": "온타리오, 더럼 지역에 소형모듈원자로 제조 시설 건설 계획",
+    "summary": "캐나다 온타리오주가 더럼(Durham) 지역에 SMR 제조 기반시설 건설을 추진한다.",
+    "summaryLong": "캐나다 온타리오(Ontario)주 정부가 더럼(Durham) 지역에 소형모듈원자로(SMR) 제조 시설 건설을 계획하고 있다. 이는 캐나다의 SMR 산업 생태계 구축 및 국내 제조 역량 강화를 목표로 한 정부 정책의 일부로, 지역 경제 활성화와 기술 자립화를 동시에 추진하는 전략이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "CA",
+    "source": "durhamradionews.com",
+    "url": "https://www.durhamradionews.com/archives/213817",
+    "k": "ontario plans to build smr manufacturing facility in durham region",
+    "id": "276c7274"
+  },
+  {
     "date": "2026-06-16",
     "title": "일본의 뉴스케일 파워(NuScale Power) 250억 달러 투자 계획, 주가 급등",
     "summary": "일본이 미국의 뉴스케일 파워(NuScale Power)에 250억 달러를 투자하기로 하며 주가가 급등했다.",
@@ -6288,6 +6333,20 @@ window.SMR_NEWS = [
     "id": "9aa5b2a2"
   },
   {
+    "date": "2026-06-02",
+    "title": "폴란드의 소형모듈원자로(SMR) 추진, 협상 난항으로 난제",
+    "summary": "폴란드의 소형모듈원자로(SMR) 도입 프로젝트가 어려운 협상 과정으로 인해 진전이 지연되고 있다.",
+    "summaryLong": "폴란드의 소형모듈원자로(SMR) 도입 프로젝트가 관련 당사자들 간의 힘들고 복잡한 협상으로 인해 진행이 지체되고 있는 상황이다. 이는 폴란드 정부의 차세대 에너지 정책 기조 내 소형모듈원자로(SMR) 확대 추진 계획이 실제 프로젝트 계약·협력 단계에서 다양한 정치·경제적 이해관계 조정의 어려움을 직면하고 있음을 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "EU",
+    "source": "xyz.pl",
+    "url": "https://xyz.pl/poland-unpacked/tough-negotiations-cloud-polands-small-modular-reactor-push-4049/",
+    "k": "tough negotiations cloud poland s small modular reactor push",
+    "id": "e85efb11"
+  },
+  {
     "date": "2026-06-01",
     "title": "미국 유타주 블루 캐슬(Blue Castle) 프로젝트, 소형모듈원자로(SMR) 시설로 재추진",
     "summary": "휴지 상태였던 유타주의 블루 캐슬(Blue Castle) 원전 프로젝트가 소형모듈원자로(SMR) 시설로 부활했으며, 블루 캐슬 홀딩스(Blue Castle Holdings)와 풀크럼 포인트 홀딩스(Fulcrum Point Holdings)가 그린 리버(Green River) 지역에서 해당 프로젝트를 추진하기 위한 합작사를 설립했다.",
@@ -7112,6 +7171,20 @@ window.SMR_NEWS = [
     "id": "19a588a8"
   },
   {
+    "date": "2026-04-30",
+    "title": "온타리오, G7 최초 소형모듈원자로 주요 마일스톤 달성",
+    "summary": "캐나다 온타리오주가 G7 국가 중 최초로 소형모듈원자로 프로젝트의 주요 마일스톤을 완료했다.",
+    "summaryLong": "캐나다 온타리오(Ontario)주가 G7 회원국 중 최초로 소형모듈원자로(SMR) 프로젝트의 중요한 마일스톤을 성공적으로 달성했다. 이는 온타리오주의 SMR 도입 계획이 구체적으로 진행되고 있음을 의미하며, 북미 지역 SMR 개발 경쟁에서 캐나다의 선도적 위치를 강화하는 것으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "CA",
+    "source": "news.ontario.ca",
+    "url": "https://news.ontario.ca/en/release/1007383/ontario-completes-major-milestone-on-g7s-first-small-modular-reactor",
+    "k": "ontario completes major milestone on g7 s first small modular reactor",
+    "id": "f5756e30"
+  },
+  {
     "date": "2026-04-29",
     "title": "미국 핵규제위원회(NRC) Part 53 발효, 첨단로 전용 인허가 트랙 개설",
     "summary": "위험정보·성능기반·기술포괄 신규 인허가 트랙 발효. 현재 신청자 0건이나 향후 비경수로 소형모듈원자로의 주요 인허가 경로 역할 전망.",
@@ -7391,6 +7464,20 @@ window.SMR_NEWS = [
     "id": "66401abf"
   },
   {
+    "date": "2026-04-23",
+    "title": "유콘·온타리오, SMR 포함 에너지 솔루션 파트너십 체결",
+    "summary": "캐나다 유콘(Yukon)주와 온타리오주가 소형모듈원자로를 포함한 에너지 솔루션 협력 협약을 체결했다.",
+    "summaryLong": "캐나다 유콘(Yukon)주와 온타리오(Ontario)주가 소형모듈원자로(SMR)를 포함한 에너지 솔루션 개발을 위한 파트너십 협약을 체결했다. 이 협력은 캐나다의 주(state) 간 에너지 협력을 강화하고, 지역의 전력 수급과 에너지 안보를 위한 SMR 도입을 공동으로 추진하기 위한 것이다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "",
+    "region": "CA",
+    "source": "yukon.ca",
+    "url": "https://yukon.ca/en/news/yukon-and-ontario-sign-partnership-agreement-explore-energy-solutions-including-small-modular-reactors",
+    "k": "yukon and ontario sign partnership agreement to explore energy solutions including small modular reactors",
+    "id": "be0fe1e5"
+  },
+  {
     "date": "2026-04-22",
     "title": "온타리오와 유콘, 소형모듈원자로 개발 협력 추진",
     "summary": "캐나다 온타리오주와 유콘(Yukon) 지역이 소형모듈원자로 개발을 함께 추진하기로 합의했다.",
@@ -7403,6 +7490,21 @@ window.SMR_NEWS = [
     "url": "https://news.ontario.ca/en/release/1007340/ontario-and-yukon-working-together-to-advance-small-modular-reactor-development",
     "k": "ontario and yukon working together to advance small modular reactor development",
     "id": "53d01461"
+  },
+  {
+    "date": "2026-04-22",
+    "title": "소형모듈원자로, 태국의 미래 청정에너지 옵션이 될까",
+    "summary": "태국이 청정에너지 대안으로 소형모듈원자로 도입 가능성을 검토하고 있다.",
+    "summaryLong": "태국 금융기관 크룽스리(Krungsri)가 소형모듈원자로(SMR)를 태국의 에너지 자립 및 탄소중립 달성을 위한 청정에너지 옵션으로 평가하고 도입 가능성을 분석하는 보도이다. SMR의 소규모 투자, 유연한 배치, 산업열 공급 등 장점을 제시하면서 태국의 에너지 정책 전환 맥락에서 SMR 역할을 제시하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "krungsri.com",
+    "url": "https://www.krungsri.com/en/research/research-intelligence/smr-2026",
+    "k": "small modular reactor smr an option or the solution for thailand s clean energy future",
+    "op": 1,
+    "id": "1d971405"
   },
   {
     "date": "2026-04-21",
@@ -7557,6 +7659,20 @@ window.SMR_NEWS = [
     "url": "https://www.google.com/search?q=SMR%20%EA%B2%BD%EC%9F%81%20%EB%8C%80%EC%9D%91%20%27%EC%9B%90%EC%9E%90%EB%A0%A5%20%EC%A7%84%ED%9D%A5%EB%B2%95%27%20%EA%B0%9C%EC%A0%95%20%EC%B6%94%EC%A7%84%2C%20%EA%B8%B0%EC%88%A0%C2%B7%EC%9D%B8%EB%A0%A5%C2%B7%EC%9E%AC%EC%A0%95%203%EC%B6%95%20%EA%B0%95%ED%99%94",
     "k": "smr 경쟁 대응 원자력 진흥법 개정 추진 기술 인력 재정 3축 강화",
     "id": "f3a8bebf"
+  },
+  {
+    "date": "2026-04-08",
+    "title": "뉴스케일(NuScale), 2026년 1분기 실적 발표 예정",
+    "summary": "뉴스케일(NuScale) 파워가 2026년 1분기 실적 관련 컨퍼런스 콜을 개최할 예정이다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발사 뉴스케일(NuScale) 파워가 2026년 1분기 실적 발표를 위한 애널리스트 컨퍼런스 콜(Earnings Conference Call)을 개최할 계획을 공식 발표했다. 이는 상장사로서의 정기적 실적 공시 일정을 알리는 통상적 공지이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "nuscalepower.com",
+    "url": "https://www.nuscalepower.com/press-releases/2026/nuscale-power-to-hold-first-quarter-2026-earnings-conference-call",
+    "k": "nuscale power to hold first quarter 2026 earnings conference call",
+    "id": "257aaccb"
   },
   {
     "date": "2026-04-07",
@@ -7880,6 +7996,20 @@ window.SMR_NEWS = [
     "id": "a366aa9f"
   },
   {
+    "date": "2026-03-10",
+    "title": "프라마톰(Framatome)과 뉴스케일(NuScale), 연료 공급 계약 체결",
+    "summary": "프라마톰(Framatome)과 뉴스케일(NuScale)이 글로벌 공급망 지원 및 연료 납기 가속화를 위한 계약을 체결했다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발사 뉴스케일(NuScale)은 국제 핵연료 및 원자력 부품 공급업체 프라마톰(Framatome)과 글로벌 공급망 지원 및 연료 납기 가속화를 목표로 하는 공급 계약을 체결했다고 발표했다. 이 계약을 통해 뉴스케일의 소형모듈원자로 프로젝트에 필요한 핵연료 및 관련 부품의 안정적 공급 체계가 구축될 것으로 예상된다.",
+    "cat": "계약",
+    "type": "PWR",
+    "dev": "NuScale, Framatome",
+    "region": "US",
+    "source": "nuscalepower.com",
+    "url": "https://www.nuscalepower.com/press-releases/2026/framatome-and-nuscale-power-contract-to-support-global-supply-chain-and-accelerate-fuel-delivery",
+    "k": "framatome and nuscale power contract to support global supply chain and accelerate fuel delivery",
+    "id": "575f82ce"
+  },
+  {
     "date": "2026-03-09",
     "title": "Rolls-Royce, 항공용 지속가능연료 생산에 소형원자로 활용 검토",
     "summary": "Rolls-Royce가 항공용 지속가능연료(e-SAF) 생산을 위해 소형모듈원자로 활용 가능성을 파트너들과 검토 중이다.",
@@ -7992,6 +8122,34 @@ window.SMR_NEWS = [
     "id": "34dc2e0e"
   },
   {
+    "date": "2026-03-03",
+    "title": "한국·싱가포르, 소형모듈원자로(SMR) 공동연구 양해각서 체결",
+    "summary": "한국과 싱가포르가 소형모듈원자로 연구 및 개발을 위한 양해각서를 체결했다.",
+    "summaryLong": "한국과 싱가포르는 소형모듈원자로(SMR) 기술 연구 및 개발을 위한 양해각서(MOU)를 체결했다. 이 협약은 양국이 SMR 기술 분야에서 협력을 강화하고 공동 연구를 추진하기 위한 전략적 파트너십으로, 에너지 안보 및 탄소 중립 달성을 위한 핵심 기술 협력이다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "eco-business.com",
+    "url": "https://www.eco-business.com/news/south-korea-singapore-sign-pact-to-study-small-modular-reactors/",
+    "k": "south korea singapore sign pact to study small modular reactors eco business",
+    "id": "6c3899f9"
+  },
+  {
+    "date": "2026-03-03",
+    "title": "미국·일본, 인도네시아의 소형모듈원자로 추진 지지",
+    "summary": "미국과 일본이 인도네시아의 소형모듈원자로 도입 계획을 지지하고 협력하기로 했다.",
+    "summaryLong": "미국과 일본이 인도네시아의 소형모듈원자로(SMR) 도입 추진을 공식 지지하며 기술 협력 및 정책 지원을 제시했다. 이는 동남아시아 지역의 청정에너지 전환과 SMR 시장 확대를 위한 삼국 간 협력 의사 표현으로, 향후 인도네시아의 SMR 개발·도입 타당성 검토 및 국제 파트너십 확대의 계기가 될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "jakartaglobe.id",
+    "url": "https://jakartaglobe.id/business/us-japan-back-indonesias-push-for-small-modular-nuclear-reactors",
+    "k": "us japan back indonesia s push for small modular nuclear reactors",
+    "id": "6af29ec4"
+  },
+  {
     "date": "2026-02",
     "title": "홀텍(Holtec), 팰리세이즈 에스엠알-300(Pioneer) 건설허가 신청 미국 원자력규제위원회(NRC) 접수",
     "summary": "미시간 팰리세이즈(Palisades) 부지에 쌍둥이 에스엠알-300(SMR-300) 건설허가 신청을 미국 원자력규제위원회(NRC)에 접수하였으며, 제한작업승인(LWA) 포함 안전·환경평가를 2027년 상반기 완료 목표로 추진 중이다.",
@@ -8048,6 +8206,20 @@ window.SMR_NEWS = [
     "id": "257b7911"
   },
   {
+    "date": "2026-02-27",
+    "title": "2026년 전 세계 소형모듈원자로(SMR) 시설 현황(국가별)",
+    "summary": "스태티스타(Statista)가 2026년 전 세계 소형모듈원자로(SMR) 시설의 국가별 현황 통계를 발표했다.",
+    "summaryLong": "통계 분석 플랫폼 스태티스타(Statista)가 2026년 시점의 전 세계 소형모듈원자로(SMR) 원자력 시설의 국가별 분포를 정리한 통계 자료를 제공하고 있다. 이는 글로벌 소형모듈원자로(SMR) 산업의 지역별 개발 현황과 배치 현황을 보여주는 시장 데이터이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "statista.com",
+    "url": "https://www.statista.com/statistics/1551301/smr-facilities-by-country/",
+    "k": "number of small modular reactor smr nuclear facilities worldwide 2026 by country",
+    "id": "433fe6ed"
+  },
+  {
     "date": "2026-02-25",
     "title": "기장군, 혁신형 SMR 유치 본격화…TF 출범·주민 설명회",
     "summary": "기장군이 혁신형 SMR 유치를 위해 전담반(TF)을 출범시키고 주민 설명회를 병행하며 본격적인 유치 활동을 추진 중이다.",
@@ -8090,6 +8262,20 @@ window.SMR_NEWS = [
     "id": "7996e533"
   },
   {
+    "date": "2026-02-22",
+    "title": "노르웨이, 소형모듈원자로 프로젝트 평가 승인",
+    "summary": "노르웨이가 핵심 SMR 프로젝트에 대한 평가를 승인했다.",
+    "summaryLong": "노르웨이 당국이 소형모듈원자로(SMR) 프로젝트에 대한 공식 평가를 승인했다. 이는 노르웨이의 핵심 에너지 인프라 현대화 및 탄소 중립 목표 달성을 위한 SMR 도입 추진의 일환으로, 규제 당국의 긍정적 신호를 나타낸다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "EU",
+    "source": "enlit.world",
+    "url": "https://www.enlit.world/library/norway-greenlights-assessment-for-nuclear-smr-project",
+    "k": "norway greenlights assessment for nuclear smr project",
+    "id": "304e8f3e"
+  },
+  {
     "date": "2026-02-19",
     "title": "홀텍 아시아, 2025년 인도 재생에너지 박람회에서 청정에너지 미래 전시",
     "summary": "홀텍 아시아(Holtec Asia)가 2025년 인도 재생에너지 박람회(REI Expo 2025)에 참가하여 청정에너지 미래에 대한 회사의 혁신적 비전을 선보였다.",
@@ -8104,6 +8290,20 @@ window.SMR_NEWS = [
     "id": "be354d98"
   },
   {
+    "date": "2026-02-19",
+    "title": "온타리오의 소형모듈원자로 계획 설명 및 분석",
+    "summary": "온타리오주의 소형모듈원자로 도입 계획에 대한 상세 분석 및 검토 기사이다.",
+    "summaryLong": "캐나다 온타리오(Ontario)주의 소형모듈원자로(SMR) 도입 계획에 대한 정책 배경, 기술 전략, 경제성 검토 등을 종합적으로 분석하는 기사이다. 온타리오의 SMR 추진 전략이 에너지 전환, 산업 경쟁력, 지역 개발 등 다각적 목표와 어떻게 연계되는지 상세히 설명하며, 정책의 현실성과 과제를 함께 짚어본다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "CA",
+    "source": "thenarwhal.ca",
+    "url": "https://thenarwhal.ca/ontario-darlington-nuclear-smr-explainer/",
+    "k": "the smr pitch ontario s small modular reactor plan explained",
+    "id": "b5274b6e"
+  },
+  {
     "date": "2026-02-17",
     "title": "SMR과 BWXT의 소형모듈원자로 관련 주식 비교 분석",
     "summary": "투자 관점에서 SMR과 BWXT의 소형모듈원자로 관련 주식을 비교 분석한 기사다.",
@@ -8116,6 +8316,20 @@ window.SMR_NEWS = [
     "url": "https://finance.yahoo.com/news/smr-vs-bwxt-small-modular-154400245.html",
     "k": "smr vs bwxt which small modular reactor stock is a buy right now",
     "id": "df9001ee"
+  },
+  {
+    "date": "2026-02-17",
+    "title": "소형모듈원자로 지중 설치의 기술적 고려사항",
+    "summary": "소형모듈원자로의 지중 설치 방식에 대한 기술적 검토 및 분석이 발표되었다.",
+    "summaryLong": "소형모듈원자로(SMR)를 지중에 설치하는 방식에 대한 기술적 고려사항과 과제들이 상세히 분석되었다. 이 보고서는 SMR의 지중 배치가 안전성, 건설 시공, 환경 영향 등 여러 측면에서 갖는 기술적 장단점을 종합적으로 평가하며, 향후 SMR 입지 선택 및 설계 최적화를 위한 기술적 기초 자료로 의미를 갖는다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "tunnelingonline.com",
+    "url": "https://tunnelingonline.com/technical-considerations-for-small-modular-reactors-smrs/",
+    "k": "technical considerations of subsurface placement of small modular reactors smrs",
+    "id": "8042c8f6"
   },
   {
     "date": "2026-02-16",
@@ -8172,6 +8386,35 @@ window.SMR_NEWS = [
     "url": "https://world-nuclear-news.org/articles/final-investment-decision-taken-for-romanias-smrs",
     "k": "final investment decision taken for romanian smr project",
     "id": "2a8ec5ea"
+  },
+  {
+    "date": "2026-02-12",
+    "title": "핀란드, 헬싱키 소형모듈원자로 시범사업으로 핵에너지 리더십 강화",
+    "summary": "핀란드가 헬싱키에서 소형모듈원자로 시범 프로젝트를 추진하며 핵에너지 분야 선도 역할을 강조했다.",
+    "summaryLong": "핀란드 정부 장관이 헬싱키(Helsinki)에서 소형모듈원자로(SMR) 시범사업을 추진한다고 발표하며, 핵에너지 솔루션 분야에서 핀란드의 선도적 역할과 기술 리더십을 강조했다. 이 시범 프로젝트는 유럽의 에너지 안보 및 탄소 중립 목표 달성을 위한 혁신 기술 실증의 상징적 의미를 갖는다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "EU",
+    "source": "valtioneuvosto.fi",
+    "url": "https://valtioneuvosto.fi/en/-/1410877/minister-multala-piloting-small-modular-reactor-in-helsinki-signals-finland-s-leading-role-in-nuclear-energy-solutions",
+    "k": "minister multala piloting small modular reactor in helsinki signals finland s leading role in nuclear energy solutions",
+    "id": "aac16978"
+  },
+  {
+    "date": "2026-02-12",
+    "title": "한국, 소형모듈원자로(SMR) 개발 가속화 특별법 통과",
+    "summary": "한국이 소형모듈원자로 개발을 촉진하기 위한 특별법을 통과시켰다.",
+    "summaryLong": "한국 정부가 소형모듈원자로(SMR) 개발을 가속화하기 위한 특별입법을 추진·통과시켰다. 이는 SMR 산업화를 지원하고 규제 절차를 간소화하기 위한 정책적 조치로, 한국의 SMR 기술 개발 및 상용화 로드맵을 뒷받침하는 국책 프로그램의 일환이다. 이 법안은 SMR 설계인증, 부지 확보, 자금 지원 등 전주기적 지원 체계를 구축할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "m.dongascience.com",
+    "url": "https://m.dongascience.com/en/news/76371",
+    "k": "south korea passes special act to accelerate small modular reactor development",
+    "ko": 1,
+    "id": "748732b2"
   },
   {
     "date": "2026-02-06",
@@ -9279,4 +9522,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-23 08:40 KST";
+window.SMR_UPDATED = "2026-06-23 08:58 KST";
