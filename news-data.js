@@ -8,6 +8,97 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-06-24",
+    "title": "K-원전 경쟁력 선보인 EPEK 2026…SMR·사용후핵연료 관리 기술 공개",
+    "summary": "한수원·한전기술·두산에너빌리티가 2026 대한민국 전기산업엑스포(EPEK 2026)에서 APR1000, 혁신형 소형모듈원전(i-SMR), 사용후핵연료 관리 기술 등 원전 전주기 역량을 선보였다.",
+    "summaryLong": "한국수력원자력(한수원), 한국전력기술(한전기술), 두산에너빌리티는 24일부터 사흘간 경상북도에서 개최된 '2026 대한민국 전기산업엑스포(EPEK 2026)'에 참여해 한국 원전 산업의 경쟁력을 공개했다. 한수원은 APR1400의 검증된 기술을 1000MW급으로 최적화한 수출 노형 APR1000과 혁신형 소형모듈원전(i-SMR) 중심으로 차세대 원전 기술 비전을 소개했으며, 세 기업은 대형원전과 소형모듈원자로(SMR), 사용후핵연료 관리 기술 등을 통해 K-원전 생태계의 경쟁력을 알렸다. 이는 유럽 사업자 요구사항과 최신 안전기준을 반영한 한국 원전 기술의 국제 경쟁력을 제시하는 의미를 갖는다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "한수원, 한전기술, 두산에너빌리티",
+    "region": "KR",
+    "source": "전기신문 - 전체기사",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=369491",
+    "k": "2026 전기산업엑스포 설계 제작 운영 아우른 k원전 경쟁력 epek 2026서 공개",
+    "ko": 1,
+    "id": "31a9dcc4"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "한미글로벌, 미국 SMR 시장 정조준…현지 법인 설립 추진",
+    "summary": "한미글로벌이 미국 소형모듈원자로(SMR) 시장 진출을 위해 현지 법인 설립을 추진하고 있다.",
+    "summaryLong": "한국의 한미글로벌이 미국 소형모듈원자로(SMR) 사업 진출을 위해 미국 내 법인 설립을 추진 중이다. 이는 한국 기업이 글로벌 SMR 시장의 주요 시장인 미국 시장에 직접 진출하려는 전략적 움직임을 나타낸다. 한미글로벌의 미국 법인 설립을 통해 한국 SMR 기술·장비의 미국 시장 진출이 가속화될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한미글로벌",
+    "region": "US",
+    "source": "biz.chosun.com",
+    "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/06/24/O63UEZLU3ZDLZH3ZF4HVR6XGVQ/",
+    "k": "한미글로벌 smr 시장 정조준 현지 법인 설립 추진 조선비즈",
+    "ko": 1,
+    "op": 1,
+    "id": "81e49285"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "뉴스케일(NuScale), 파라곤(Paragon)과 HIPS 최종 설계 개발…두산에너빌 SMR 제작·공급",
+    "summary": "뉴스케일이 파라곤과 함께 HIPS(Heat Inte­gration and Power System) 최종 설계를 개발 중이며, 두산에너빌이 SMR 제작·공급에 집중하고 있다.",
+    "summaryLong": "뉴스케일(NuScale)과 파라곤(Paragon)이 협력하여 HIPS(열통합 및 전력 시스템) 최종 설계 개발을 진행하고 있으며, 이는 소형모듈원자로(SMR)의 효율성 향상을 목표로 한다. 두산에너빌은 이러한 설계 개발에 기반하여 SMR의 제작 및 공급에 집중하고 있으며, 이를 통해 국내 SMR 산업의 경쟁력 강화를 꾀하고 있다. 이번 협력은 뉴스케일의 기술력과 두산에너빌의 제조 능력을 결합한 전략으로, 향후 SMR 상용화 추진에 중요한 역할을 할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "theguru.co.kr",
+    "url": "https://theguru.co.kr/news/article.html?no=103475",
+    "k": "뉴스케일 파라곤과 hips 최종 설계 개발 두산에너빌 smr 제작 공급 집중",
+    "ko": 1,
+    "id": "c19bc77a"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "한미글로벌, 미국(US) SMR 시장 진출 본격화…AI 데이터센터 전력 수요 공략",
+    "summary": "한미글로벌이 미국 SMR 시장 진출을 본격화하며 AI 데이터센터의 전력 수요를 타깃으로 하고 있다.",
+    "summaryLong": "한미글로벌이 미국 SMR 시장 진출을 본격화하고 있으며, 인공지능(AI) 데이터센터의 증가하는 전력 수요를 주요 공략 대상으로 설정했다. 회사는 현지 시장 진출을 위해 법인 설립을 추진하고 잠재 고객 대상 세미나를 개최하는 등 적극적인 마케팅 활동을 전개하고 있다. 이는 AI 산업의 급성장에 따른 대규모 안정적 전력 공급 수요에 SMR이 대응할 수 있다는 판단에 기반한 것으로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한미글로벌",
+    "region": "US",
+    "source": "nanumy.co.kr",
+    "url": "https://www.nanumy.co.kr/news/articleView.html?idxno=4007682",
+    "k": "한미글로벌 미국 smr 시장 진출 본격화 ai 데이터센터 전력 수요 공략",
+    "ko": 1,
+    "id": "5fa1935c"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "현대엔지니어링, SMR부터 수소까지 에너지 밸류체인 확대",
+    "summary": "현대엔지니어링이 SMR과 수소 등을 포함한 에너지 사업의 밸류체인을 확대하고 있다.",
+    "summaryLong": "현대엔지니어링이 건설 사업을 넘어 소형모듈원자로(SMR)부터 수소까지 포함하는 에너지 밸류체인으로 사업 영역을 확대하고 있다. 이는 '스마트건설2030' 전략의 일환으로서 SMR 관련 산업의 진입과 다양한 차세대 에너지 기술에 대한 기업의 중장기 전략적 투자를 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대엔지니어링",
+    "region": "KR",
+    "source": "enewstoday.co.kr",
+    "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2441891",
+    "k": "스마트건설2030 smr부터 수소까지 현대엔지니어링 건설 넘어 에너지 밸류체인 확대",
+    "ko": 1,
+    "id": "a7a35e5c"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "중소벤처기업부, 딥테크 과제당 최대 200억원 지원…SMR 포함",
+    "summary": "중소벤처기업부(중기부)가 반도체·SMR·우주의학 등 딥테크 분야에 과제당 최대 200억원을 지원하는 정책을 발표했다.",
+    "summaryLong": "중소벤처기업부가 반도체, 소형모듈원자로(SMR), 우주의학 등 딥테크(Deep Tech) 분야의 연구·개발 과제에 대해 과제당 최대 200억원의 자금을 지원하는 정책을 수립했다. 이는 정부가 SMR을 포함한 차세대 에너지 기술을 전략적 육성 대상으로 설정하고 국책 차원의 투자 지원을 강화하는 것을 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "edaily.co.kr",
+    "url": "https://www.edaily.co.kr/News/Read?newsId=04188566645485000&mediaCodeNo=257",
+    "k": "반도체 smr 우주의학까지 중기부 딥테크 과제당 최대 200억 지원",
+    "ko": 1,
+    "id": "8d93b000"
+  },
+  {
     "date": "2026-06-23",
     "title": "오클로(Oklo): 매도 제언 이후 거의 모든 것이 변했다 - 거의",
     "summary": "오클로(Oklo) 주식에 대한 투자 분석 칼럼으로, 이전 매도 제언 이후의 변화를 평가하는 의견 글.",
@@ -329,6 +420,51 @@ window.SMR_NEWS = [
     "k": "한전기술 smr 원전안전 연구부 폐지 연구소 체계로 통합 전환",
     "ko": 1,
     "id": "5359ef2b"
+  },
+  {
+    "date": "2026-06-23",
+    "title": "1호 SMR 확보 위한 건설 빅3의 기장(경주) 전쟁",
+    "summary": "국내 건설사 빅3이 경주 SMR 유치를 놓고 경합하고 있으며, 첫 SMR 건설 프로젝트 수주를 위한 경쟁이 심화되고 있다.",
+    "summaryLong": "국내 주요 건설사들이 경주 지역의 소형모듈원자로(SMR) 건설 프로젝트 수주를 놓고 경쟁을 벌이고 있다. 건설 빅3이 한국의 첫 번째 SMR 프로젝트인 만큼 수주 가능성과 향후 경쟁력 확보를 위해 본격적으로 움직이고 있는 상황이다. 이는 정부의 SMR 정책 추진에 따른 시장 창출로, 한국의 원전 산업 생태계 확장을 의미한다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "mt.co.kr",
+    "url": "https://www.mt.co.kr/estate/2026/06/24/2026062319163290031",
+    "k": "1호 smr 잡아라 건설 빅3 기장 전쟁 머니투데이",
+    "ko": 1,
+    "id": "ca551b98"
+  },
+  {
+    "date": "2026-06-23",
+    "title": "OECD 원자력에너지기구(NEA), 2050년 원전 설비 확대 전망 공개…SMR·장기운전이 핵심",
+    "summary": "경제협력개발기구(OECD) 원자력에너지기구(NEA)가 2050년 전 지구적 원전 설비 확대 전망을 발표하며, SMR과 장기운전을 핵심 요소로 제시했다.",
+    "summaryLong": "경제협력개발기구(OECD)의 원자력에너지기구(NEA)가 2050년까지의 전 지구적 원전 설비 확대 시나리오를 공개했다. 이 전망에서 소형모듈원자로(SMR)와 기존 원전의 장기운전이 탄소중립 달성과 에너지 안보 강화의 핵심 전략으로 제시되었다. NEA의 이번 보고서는 각국 정부와 에너지 산업에 SMR 개발·배치의 중요성을 강조하는 국제적 합의를 반영한 것으로, SMR 산업의 정책적 정당성을 뒷받침한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "EU",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4652",
+    "k": "oecd nea 2050년 원전 설비 확대 전망 공개 smr 장기운전이 핵심",
+    "ko": 1,
+    "id": "e8e67057"
+  },
+  {
+    "date": "2026-06-23",
+    "title": "SMR 고배를 마신 경주(경북)…유치 재도전",
+    "summary": "경주가 이전 소형모듈원자로(SMR) 유치 실패 후 재도전을 추진 중이다.",
+    "summaryLong": "경주 지역이 한국의 첫 소형모듈원자로(SMR) 건설 후보지 선정에서 낙선한 후, 재차 유치를 위한 노력을 기울이고 있다. 경주는 기존 원전 밀집 지역이라는 인프라 및 인허가 측면의 이점을 바탕으로 SMR 프로젝트 유치 재도전을 추진하는 상황이다. 이는 지방 정부의 에너지 산업 유치 경쟁이 심화되고 있음을 보여주며, 정부의 SMR 정책이 지역 경제 활성화의 중요 수단으로 작용하고 있음을 반영한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "news.kbs.co.kr",
+    "url": "https://news.kbs.co.kr/news/view.do?ncd=8593491",
+    "k": "smr 고배 마신 경주 유치 재도전",
+    "ko": 1,
+    "id": "1b81377f"
   },
   {
     "date": "2026-06-22",
@@ -824,6 +960,21 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "23f7e6a0"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "오클로(Oklo) 주가 최고점 대비 70% 하락…핵심 과제는 규제 승인",
+    "summary": "소형모듈원자로·첨단로 개발사 오클로(Oklo)의 주가가 최고점에서 70% 하락했으며, 회사의 성공을 위해서는 규제 진전이 필수적이라는 분석이 제시되고 있다.",
+    "summaryLong": "소형모듈원자로(SMR)·용융염로 개발사 오클로(Oklo)의 주가가 최고점 대비 70% 급락했다. 업계 분석에 따르면 오클로를 포함한 뉴스케일(NuScale), 엑스에너지(X-energy), 테라파워(TerraPower), 카이로스(Kairos Power), 롤스로이스 SMR(Rolls-Royce SMR) 등 첨단로 개발사들의 성공을 위해서는 규제 당국의 설계 승인 및 상용화 허가 등 규제 진전이 절대적 조건이다. 현재 낮은 주가에도 불구하고 규제 진전 여부가 이들 회사의 향후 전망을 결정할 핵심 변수로 작용하고 있다.",
+    "cat": "인허가",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "tikr.com",
+    "url": "https://www.tikr.com/blog/oklo-stock-has-fallen-70-from-its-peak-here-is-what-it-would-take-for-the-nuclear-bet-to-pay-off",
+    "k": "oklo stock has fallen 70 from its peak here is what it would take for the nuclear bet to pay off",
+    "op": 1,
+    "id": "07b2ef53"
   },
   {
     "date": "2026-06-21",
@@ -7400,6 +7551,20 @@ window.SMR_NEWS = [
     "id": "59b6f57d"
   },
   {
+    "date": "2026-05-20",
+    "title": "뉴스케일(NuScale Power), 휴스턴 시장 진출",
+    "summary": "소형모듈원자로(SMR) 개발사 뉴스케일(NuScale Power)이 미국 휴스턴 시장에 진출했다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발사인 뉴스케일(NuScale Power)이 미국 텍사스 휴스턴 시장 진출을 추진하고 있다. 구체적인 프로젝트 세부사항이나 일정은 제공되지 않았으나, 이는 미국 내 SMR 시장 확대를 위한 뉴스케일의 지속적인 사업 전개를 보여준다. 휴스턴은 에너지 산업의 중심지로, 뉴스케일의 시장 진출은 소형모듈원자로의 미국 내 상용화 확대 추세를 반영한다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "houston.innovationmap.com",
+    "url": "https://houston.innovationmap.com/nuscale-power-houston-2676912903.html",
+    "k": "modular nuclear reactor co nuscale power moves into houston market",
+    "id": "0328bdac"
+  },
+  {
     "date": "2026-05-19",
     "title": "과기부, 차세대 SMR 조기확보 위한 미래 원자력 정책 추진",
     "summary": "과학기술정보통신부(과기부)가 차세대 소형모듈원자로(SMR) 조기 확보를 목표로 미래 원자력 정책 수립에 돌입했다.",
@@ -9261,6 +9426,20 @@ window.SMR_NEWS = [
     "id": "a8b039c6"
   },
   {
+    "date": "2025-12-11",
+    "title": "중국, 첫 소형모듈원자로 상업운영 2026년 시작 예정",
+    "summary": "중국이 자국 최초의 소형모듈원자로(SMR)를 2026년에 상업운영에 들어갈 계획이라고 발표했다.",
+    "summaryLong": "중국은 국내 최초의 소형모듈원자로(SMR) 상업운영을 2026년에 시작할 계획을 공개했다. 이는 글로벌 SMR 시장에서 중국의 위상을 강화하고, 미국·캐나다·영국·프랑스 등 선진국과의 SMR 상용화 경쟁이 본격화됨을 의미한다. 중국의 SMR 상용화는 동아시아 지역 에너지 정책에도 영향을 미칠 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "JP",
+    "source": "reuters.com",
+    "url": "https://www.reuters.com/business/energy/china-start-commercial-operation-first-small-modular-nuclear-reactor-2026-2025-12-11/",
+    "k": "china to start commercial operation of first small modular nuclear reactor in 2026",
+    "id": "9201eb9b"
+  },
+  {
     "date": "2025-12-10",
     "title": "인도 마하라슈트라·안드라프라데시주 소형모듈원자로 구성 제안",
     "summary": "인도가 마하라슈트라(Maharashtra)와 안드라프라데시(Andhra Pradesh) 두 주에 소형모듈원자로(SMR)를 구성하기로 제안했다.",
@@ -10087,4 +10266,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-24 08:43 KST";
+window.SMR_UPDATED = "2026-06-24 16:02 KST";
