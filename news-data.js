@@ -99,6 +99,53 @@ window.SMR_NEWS = [
     "id": "8d93b000"
   },
   {
+    "date": "2026-06-24",
+    "title": "한미글로벌, 미국 소형모듈원자로(SMR) 사업개발 법인 설립 추진",
+    "summary": "한미글로벌이 미국 시장 진출을 위한 소형모듈원자로(SMR) 관련 사업개발 법인 설립을 추진 중이다.",
+    "summaryLong": "한국의 한미글로벌이 미국 소형모듈원자로(SMR) 시장 진출을 목표로 사업개발 법인 설립을 추진하고 있다. 이는 한국 원자력 기업이 글로벌 SMR 시장의 성장 기회를 활용하기 위한 전략적 움직임으로, 북미 지역에서의 파트너십 모색 및 사업 개발을 본격화하려는 의도로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한미글로벌",
+    "region": "US",
+    "source": "yna.co.kr",
+    "url": "https://www.yna.co.kr/view/AKR20260624037600003",
+    "k": "한미글로벌 미국 소형모듈원자로 사업개발 법인 설립 추진",
+    "ko": 1,
+    "id": "75051e9a"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "경주 소형모듈원자로(SMR), 두 번은 양보 없다",
+    "summary": "경주 소형모듈원자로(SMR) 프로젝트의 추진 의지를 강조하는 기사이다.",
+    "summaryLong": "경주 소형모듈원자로(SMR) 프로젝트 관련 보도로, 사업 추진의 강한 의지와 결연함을 표현하는 제목이다. 제목의 '두 번은 양보 없다'는 표현은 경주 지역에서의 SMR 프로젝트 추진이 이번에는 반드시 성공하겠다는 의지를 나타내는 것으로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "news.nate.com",
+    "url": "https://news.nate.com/view/20260624n27732",
+    "k": "경주 smr 두 번은 양보 없다",
+    "ko": 1,
+    "op": 1,
+    "id": "4697931c"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "한미글로벌, 미국 SMR 시장 진출…잠재 고객 대상 현지 세미나",
+    "summary": "한미글로벌이 미국에서 잠재 고객을 대상으로 SMR 세미나를 개최하며 시장 진출을 추진 중이다.",
+    "summaryLong": "한미글로벌이 미국 소형모듈원자로(SMR) 시장 진출 전략의 일환으로 현지에서 잠재 고객을 대상으로 세미나를 개최하고 있다. 이를 통해 미국 시장의 잠재 수요자들과의 관계 구축 및 기술 정보 제공을 진행하고 있으며, 향후 사업 기반 마련을 목표로 하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한미글로벌",
+    "region": "US",
+    "source": "fnnews.com",
+    "url": "https://www.fnnews.com/news/202606240913493357",
+    "k": "한미글로벌 smr 시장 진출 잠재 고객 대상 현지 세미나",
+    "ko": 1,
+    "op": 1,
+    "id": "d80e3dfe"
+  },
+  {
     "date": "2026-06-23",
     "title": "오클로(Oklo): 매도 제언 이후 거의 모든 것이 변했다 - 거의",
     "summary": "오클로(Oklo) 주식에 대한 투자 분석 칼럼으로, 이전 매도 제언 이후의 변화를 평가하는 의견 글.",
@@ -465,6 +512,22 @@ window.SMR_NEWS = [
     "k": "smr 고배 마신 경주 유치 재도전",
     "ko": 1,
     "id": "1b81377f"
+  },
+  {
+    "date": "2026-06-23",
+    "title": "SMR '국내 1호 타이틀' 놓고 경합…원전 건설사들의 경쟁",
+    "summary": "국내 SMR 1호 프로젝트 수주를 놓고 주요 건설사들이 경쟁 중이다.",
+    "summaryLong": "국내 소형모듈원자로(SMR) 1호 프로젝트의 건설사 수주를 놓고 주요 건설 3사가 경쟁을 벌이고 있다. 정부의 SMR 국산화 정책과 맞물려 국내 건설사들이 SMR 시장 선점을 위해 기술 확보 및 수주 경쟁을 진행 중이다. 이는 국내 SMR 산업의 본격적인 상용화 단계로의 진입을 시사하는 신호로 평가된다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "mt.co.kr",
+    "url": "https://www.mt.co.kr/estate/2026/06/23/2026062213145839165",
+    "k": "smr 국내 1호 타이틀 잡아라 원전 3강 건설사는 어디 머니투데이",
+    "ko": 1,
+    "op": 1,
+    "id": "9299d951"
   },
   {
     "date": "2026-06-22",
@@ -4371,6 +4434,21 @@ window.SMR_NEWS = [
     "id": "276c7274"
   },
   {
+    "date": "2026-06-17",
+    "title": "신규원전 부지로 경북 영덕…국내 첫 SMR은 부산 기장",
+    "summary": "정부가 신규 대형원전 부지로 경북 영덕을 선정하고, 국내 첫 SMR 사업지로 부산 기장을 추진하고 있다.",
+    "summaryLong": "정부가 원자력 정책을 조정하여 신규 대형원전 건설 부지로 경북(Gyeongbuk) 영덕(Yeongdeok)을 선정하고, 국내 첫 소형모듈원자로(SMR) 실증 프로젝트 부지로 부산(Busan) 기장(Gijang)을 지정했다. 이는 정부의 탄소중립 에너지 정책 추진과 SMR의 소규모·분산형 특성을 활용한 지역 밀착형 에너지 공급 전략을 반영한 것이다. 기장 부지에서의 국내 첫 SMR 사업은 한국형 SMR의 상용화 및 국산화를 위한 핵심 마일스톤이 될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "hani.co.kr",
+    "url": "https://www.hani.co.kr/arti/society/environment/1264048.html",
+    "k": "신규원전 부지로 경북 영덕 국내 첫 smr은 부산 기장",
+    "ko": 1,
+    "id": "c9d95481"
+  },
+  {
     "date": "2026-06-16",
     "title": "일본의 뉴스케일 파워(NuScale Power) 250억 달러 투자 계획, 주가 급등",
     "summary": "일본이 미국의 뉴스케일 파워(NuScale Power)에 250억 달러를 투자하기로 하며 주가가 급등했다.",
@@ -5876,6 +5954,21 @@ window.SMR_NEWS = [
     "url": "https://oklo.com/newsroom/news-details/2026/U-S--Department-of-Energy-Approves-Preliminary-Documented-Safety-Analysis-for-Aurora-Powerhouse-at-Idaho-National-Laboratory/default.aspx",
     "k": "u s department of energy approves preliminary documented safety analysis for aurora powerhouse at idaho national laboratory",
     "id": "2c09e7b5"
+  },
+  {
+    "date": "2026-06-11",
+    "title": "오클로(Oklo) 주가 상승, 규제 진전이 부진을 상쇄할까",
+    "summary": "소형모듈원자로(SMR) 스타트업 오클로(Oklo)의 주가가 상승했으나, 규제 진전이 회사의 저조한 실적을 충분히 상쇄할 수 있을지 의문을 제기하는 분석 기사이다.",
+    "summaryLong": "미국 소형모듈원자로(SMR) 개발사인 오클로(Oklo)의 주가가 상승하면서 투자자들의 관심이 높아지고 있다. 바론스(Barron's)의 분석 기사는 규제 측면의 진전이 회사의 장기 부진을 얼마나 효과적으로 상쇄할 수 있을지에 대한 의문을 제시하고 있다. 이는 오클로 같은 첨단 원자로 개발 스타트업들이 기술 개발만큼 규제 인허가와 시장 실적 개선이 얼마나 중요한지를 보여주는 사례이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "barrons.com",
+    "url": "https://www.barrons.com/articles/oklo-stock-nuclear-reactor-40d173d3",
+    "k": "oklo stock rises can regulatory progress offset the nuclear start up s slump",
+    "op": 1,
+    "id": "c5bad8f1"
   },
   {
     "date": "2026-06-10",
@@ -10266,4 +10359,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-24 16:02 KST";
+window.SMR_UPDATED = "2026-06-24 16:52 KST";
