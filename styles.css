@@ -212,14 +212,39 @@ body{transition:background-color .2s ease, color .2s ease;}
 .theme-toggle{margin-left:auto;}
 .nav-toggle{display:none;}
 
+/* ---------- grouped nav (built by ui.js: 대표군 dropdowns) ---------- */
+.nav-groups{display:flex;align-items:center;gap:1px;}
+.nav-group{position:relative;}
+.nav-gbtn{appearance:none;background:none;border:none;cursor:pointer;font:inherit;
+  color:var(--text-dim);padding:14px 11px;font-size:13.5px;font-weight:600;letter-spacing:-0.01em;
+  display:inline-flex;align-items:center;gap:4px;border-bottom:2px solid transparent;margin-bottom:-1px;transition:color .12s;}
+.nav-gbtn:hover{color:var(--text);}
+.nav-group.active .nav-gbtn{color:var(--accent);border-bottom-color:var(--accent);}
+.nav-chev{display:inline-flex;}
+.nav-chev svg{width:11px;height:11px;display:block;opacity:.6;transition:transform .15s;}
+.nav-group:hover .nav-chev svg,.nav-group.open .nav-chev svg{transform:rotate(180deg);}
+.nav-menu{position:absolute;top:100%;left:0;min-width:170px;z-index:250;
+  background:var(--surface);border:1px solid var(--border);border-radius:0 0 var(--radius-sm) var(--radius-sm);
+  box-shadow:var(--shadow-hover);padding:6px;display:none;flex-direction:column;gap:1px;}
+.nav-group:hover .nav-menu,.nav-group:focus-within .nav-menu,.nav-group.open .nav-menu{display:flex;}
+.nav-menu a{display:block;padding:8px 12px;border-radius:var(--radius-sm);font-size:13.5px;font-weight:500;
+  color:var(--text-dim);white-space:nowrap;border:none;margin:0;}
+.nav-menu a:hover{background:var(--surface-2);color:var(--text);text-decoration:none;}
+.nav-menu a.cur{color:var(--accent-strong);background:var(--accent-weak);font-weight:600;}
+
 @media(max-width:900px){
   .topnav{padding:0 12px;}
   .topnav .brand{order:1;}
   .theme-toggle{order:2;margin-left:auto;}
   .nav-toggle{display:inline-flex;order:3;}
-  .topnav > a:not(.brand){
-    order:4;display:none;flex-basis:100%;margin:0;padding:13px 8px;
-    border-bottom:none;border-top:1px solid var(--border);
-  }
-  .topnav.nav-open > a:not(.brand){display:block;}
+  /* grouped nav → full-width accordion sections when hamburger open */
+  .nav-groups{order:4;display:none;flex-basis:100%;flex-direction:column;gap:0;align-items:stretch;}
+  .topnav.nav-open .nav-groups{display:flex;}
+  .nav-group{position:static;}
+  .nav-gbtn{width:100%;justify-content:flex-start;padding:11px 8px 5px;margin:0;border-bottom:none;border-top:1px solid var(--border);
+    font-size:10.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--text-faint);cursor:default;}
+  .nav-group.active .nav-gbtn{color:var(--accent-strong);border-bottom:none;}
+  .nav-gbtn .nav-chev{display:none;}
+  .nav-menu{position:static;display:flex!important;flex-direction:column;border:none;box-shadow:none;background:none;padding:0 0 6px;border-radius:0;min-width:0;}
+  .nav-menu a{padding:9px 14px;font-size:14px;}
 }
