@@ -372,8 +372,11 @@ function writeData(list){
 
 /* best-effort fetch of the real article body (direct outlets). Google News links are JS redirect
    shells with no body → returns '' and we fall back to the snippet. */
+// aggregators / CMS that serve no usable article body (only comments, rankings, ad/sidebar
+// boilerplate) → skip the fetch and fall back to the snippet (grounded=false, summary-only)
+const NO_BODY_HOSTS = ['news.google.', 'nate.com', 'kookje.co.kr'];
 async function fetchBody(url){
-  if (!url || url.indexOf('news.google.') !== -1) return '';
+  if (!url || NO_BODY_HOSTS.some(h => url.indexOf(h) !== -1)) return '';
   const ctrl = new AbortController(); const to = setTimeout(()=>ctrl.abort(), 15000);
   try {
     const res = await fetch(url, { signal: ctrl.signal, redirect:'follow',
@@ -456,7 +459,8 @@ async function generateDetail(item, body){
   const enLine = isKo ? '"detailEn":"",'
     : (hasBody ? '"detailEn":"위 한국어 정리와 같은 내용을 자연스러운 영어로 8~12문장.",' : '"detailEn":"같은 내용을 자연스러운 영어로 5~9문장.",');
   const prompt =
-`다음 SMR·원자력 뉴스를 한국어로 상세히 정리하라. 원문을 그대로 복제하지 말고 핵심을 모두 담아 재구성하라. 제공된 내용에 없는 구체적 수치·날짜·고유명사를 새로 지어내지 마라. 외국 고유명사 음역은 통용 표기로(예: Oklo=오클로, NuScale=뉴스케일, X-energy=엑스에너지), 첫 등장 시 '한글(English)' 병기.
+`다음 SMR·원자력 뉴스를 한국어로 상세히 정리하라. 원문을 그대로 복제하지 말고 핵심을 모두 담아 재구성하라. 제공된 내용에 없는 구체적 수치·날짜·고유명사를 새로 지어내지 마라.
+[중요] 제공된 '원문 본문'이 기사 본문이 아니라 광고·메뉴·댓글·랭킹·다른 기사 목록 등 잡음이거나 글자가 깨져 있으면, 그 부분은 무시하고 제목·요약·분류 정보만으로 정리하라. 어떤 경우에도 '인코딩 오류', '본문을 읽을 수 없다', '재제공 요청' 같은 메타 설명을 출력하지 마라. 항상 독자에게 바로 보여줄 수 있는 자연스러운 한국어 정리만 내라. 외국 고유명사 음역은 통용 표기로(예: Oklo=오클로, NuScale=뉴스케일, X-energy=엑스에너지), 첫 등장 시 '한글(English)' 병기.
 ${src}
 분류: ${item.cat} / 노형: ${item.type} / 개발사: ${item.dev || ''} / 출처: ${item.source || ''}
 [용어 선정] "terms"에는 일반 독자가 모를 만한 것만 0~5개: (1) 전문 기술 용어·약어(예: TRISO, HALEU, GDA, PDSA, 소듐냉각고속로, 피동안전) 또는 (2) 잘 알려지지 않은 해외 기업·기관·인명·고유명칭. SMR·원자력·법제화·규제·정책·투자·계약 같은 일반/상식 용어, 누구나 아는 기관(NRC·DOE·IAEA·UN·EU), 한국 주요 기업·기관(한전·한수원·KAERI·한전기술 등)은 넣지 마라. 해당 없으면 빈 배열.
