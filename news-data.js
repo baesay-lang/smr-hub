@@ -394,6 +394,94 @@ window.SMR_NEWS = [
     "id": "50388b97"
   },
   {
+    "date": "2026-06-24",
+    "title": "오클로(Oklo) 주가 하락 원인 분석",
+    "summary": "오클로(Oklo) 개발사의 주가가 계속 하락세를 보이고 있다.",
+    "summaryLong": "미국 소형모듈원자로 개발사 오클로(Oklo)의 주가가 지속적 하락세를 기록하고 있다. 제목만으로는 구체적 원인을 특정하기 어렵지만, 시장 분석 기사로 추정된다. 오클로는 용융염냉각 고속로(MSR) 기술을 개발하고 있으며, 미국 에너지부(DOE)의 선진원자로 프로젝트 지원을 받고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "오클로",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/why-oklo-stock-keeps-going-155025712.html",
+    "k": "why oklo stock keeps going down",
+    "op": 1,
+    "id": "9f4115bb"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "오클로, 표준뉴클리어와 연료재활용 계약 체결···주가 8.1% 하락",
+    "summary": "오클로(Oklo)가 표준뉴클리어(Standard Nuclear)와의 연료재활용 계약 및 미국 에너지부(DOE) 진전에도 불구하고 주가는 8.1% 하락했다.",
+    "summaryLong": "오클로(Oklo)는 표준뉴클리어(Standard Nuclear)와 연료재활용(Fuel Recycling) 협약을 체결했으며, 미국 에너지부(DOE)와의 협력도 진전하고 있다. 그러나 시장은 이러한 긍정적 발표에도 주가를 8.1% 하락시켰다. 오클로의 용융염냉각 고속로(MSR) 사업 진전이 투자자들의 충분한 신뢰를 아직 확보하지 못한 것으로 해석된다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "오클로",
+    "region": "US",
+    "source": "simplywall.st",
+    "url": "https://simplywall.st/stocks/us/utilities/nyse-oklo/oklo/news/oklo-oklo-is-down-81-after-fuel-recycling-pact-with-standard",
+    "k": "oklo oklo is down 8 1 after fuel recycling pact with standard nuclear and doe progress",
+    "id": "c840ce6c"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "오클로, 인허가 전략으로 원자로 배치 지원 목표",
+    "summary": "오클로(Oklo)가 인허가 전략을 통해 소형모듈원자로의 상용 배치를 지원할 계획이다.",
+    "summaryLong": "오클로(Oklo)는 명확한 인허가 전략(Licensing Strategy)을 수립하여 자사 소형모듈원자로(MSR)의 상용 배치(Reactor Rollout)를 효과적으로 지원하려고 한다. 이는 미국 원자력규제위원회(NRC) 설계 인증(Design Certification) 및 건설·운영 허가 획득을 위한 로드맵을 의미하며, SMR 사업화의 핵심 단계다. 오클로의 인허가 진전 전략이 주목되고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "오클로",
+    "region": "US",
+    "source": "zacks.com",
+    "url": "https://www.zacks.com/stock/news/2942031/oklos-licensing-strategy-aims-to-support-reactor-rollout",
+    "k": "oklo s licensing strategy aims to support reactor rollout",
+    "id": "66d900dd"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "엑스에너지(X-Energy) 주가 하락···제프리스, 목표가를 $22로 인하",
+    "summary": "고온가스로(HTGR) 개발사 엑스에너지(X-Energy)의 주가가 하락하며, 투자은행 제프리스(Jefferies)가 목표가를 $22로 인하했다.",
+    "summaryLong": "미국 고온가스로(HTGR) 개발사 엑스에너지(X-Energy)의 주가가 하락하고 있으며, 투자은행 제프리스(Jefferies)가 목표가를 $22로 인하했다. 이는 SMR 및 첨단로 업계의 시장 재평가 움직임을 반영한다. 엑스에너지는 미국 에너지부(DOE) 고온가스로 실증 프로젝트 지원을 받고 있으나, 시장 환경이 어려운 상황이다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "엑스에너지",
+    "region": "US",
+    "source": "investing.com",
+    "url": "https://www.investing.com/news/stock-market-news/xenergy-stock-falls-as-jefferies-cuts-price-target-to-22-93CH-4758403",
+    "k": "x energy stock falls as jefferies cuts price target to 22",
+    "id": "4f4e128e"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "캐나다 원주민, 달링턴(Darlington) SMR 지분 참여",
+    "summary": "캐나다 원주민이 달링턴 소형모듈원자로(SMR) 프로젝트에 지분으로 참여하면서 원전 소유권의 새로운 모델을 제시했다.",
+    "summaryLong": "캐나다의 원주민 커뮤니티가 달링턴(Darlington)에서 추진 중인 소형모듈원자로(SMR) 프로젝트에 지분 참여를 통해 투자하기로 결정했다. 이는 전통적인 원자력 발전소 소유 구조를 벗어나 지역 주민과 원주민이 프로젝트의 이익을 공유하는 새로운 비즈니스 모델을 창출한 것으로 평가된다. 이러한 지분 참여 모델은 SMR의 지역 수용성을 높이고, 에너지 전환 과정에서 지역공동체의 경제적 이해관계를 반영하는 사례로 주목된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "CA",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4665",
+    "k": "캐나다 원주민 달링턴 smr 지분 참여 원전 소유권 새 모델 열었다",
+    "ko": 1,
+    "id": "d5e89105"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "한미글로벌, 미국 SMR 자회사 설립 추진",
+    "summary": "한미글로벌이 미국 소형모듈원자로(SMR) 시장 진출을 위해 자회사 설립을 추진 중이다.",
+    "summaryLong": "한국의 한미글로벌이 미국의 소형모듈원자로(SMR) 시장 진출을 위해 현지 자회사 설립을 추진하고 있다. 이는 한국 원전 업체가 글로벌 SMR 시장 확대에 대응하기 위해 전략적으로 진출하는 움직임을 보여준다. 미국은 뉴스케일(NuScale), 테라파워(TerraPower), 엑스에너지(X-energy) 등 주요 SMR 개발사들이 활동하는 세계 최대 시장으로, 한미글로벌의 현지 진출은 한국 기업의 국제 경쟁력 강화를 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한미글로벌",
+    "region": "US",
+    "source": "topdaily.kr",
+    "url": "http://www.topdaily.kr/articles/110670",
+    "k": "한미글로벌 미국 smr 자회사 설립 추진",
+    "ko": 1,
+    "op": 1,
+    "id": "ec2fe767"
+  },
+  {
     "date": "2026-06-23",
     "title": "오클로(Oklo): 매도 제언 이후 거의 모든 것이 변했다 - 거의",
     "summary": "오클로(Oklo) 주식에 대한 투자 분석 칼럼으로, 이전 매도 제언 이후의 변화를 평가하는 의견 글.",
@@ -8933,6 +9021,20 @@ window.SMR_NEWS = [
     "id": "ae24049a"
   },
   {
+    "date": "2026-03-30",
+    "title": "오클로, 블리칼라와 전략적 파트너십 확대···미국 투자 및 협력",
+    "summary": "오클로(Oklo)가 블리칼라(Blykalla)와 전략적 파트너십을 확대하며 미국 투자와 협력을 추진한다.",
+    "summaryLong": "오클로(Oklo)는 스웨덴 핵연료 회사 블리칼라(Blykalla)와의 전략적 파트너십(Strategic Partnership)을 확대하기로 합의했다. 양사는 미국 내 투자(U.S. Investment) 및 협력(Collaboration)을 통해 오클로의 용융염냉각 고속로(MSR) 사업 지원에 나설 예정이다. 이는 오클로의 연료 공급망 확보 및 국제 협력 강화 전략의 일환이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "오클로",
+    "region": "US",
+    "source": "oklo.com",
+    "url": "https://oklo.com/newsroom/news-details/2026/Oklo-Blykalla-to-Expand-Strategic-Partnership-Through-U-S--Investment-and-Collaboration/default.aspx",
+    "k": "oklo blykalla to expand strategic partnership through u s investment and collaboration",
+    "id": "54f86228"
+  },
+  {
     "date": "2026-03",
     "title": "TerraPower Natrium, 건설허가(CP) 발급 — 첫 상업용 비경수로 CP",
     "summary": "미국 원자력규제위원회(NRC)가 와이오밍(Wyoming) Kemmerer Natrium에 건설허가를 발급했으며, 약 40년 만의 상업용 제4세대(Gen-IV) 비경수로 허가이다.",
@@ -9617,6 +9719,21 @@ window.SMR_NEWS = [
     "url": "https://www.powermag.com/rolls-royce-smr-taps-yokogawa-to-supply-control-systems-for-small-modular-reactor-fleet/",
     "k": "rolls royce smr taps yokogawa to supply control systems for small modular reactor fleet",
     "id": "a36f4418"
+  },
+  {
+    "date": "2026-02-06",
+    "title": "테라파워(TerraPower), 빠른 사업 추진에 우려 제기",
+    "summary": "핵심 SMR 개발사 테라파워(TerraPower)가 빠른 속도로 사업을 추진하고 있으나 일부에서 과속 우려를 제기하고 있다.",
+    "summaryLong": "미국의 소형모듈원자로(SMR) 개발 스타트업 테라파워(TerraPower)가 적극적으로 사업을 추진 중인 가운데, 업계 일각에서 너무 빠른 속도로 진행되고 있다는 우려를 제기하고 있다. 테라파워는 차세대 원전 개발의 주요 플레이어로서 상용화를 위해 공격적인 일정을 추진하고 있으나, 안전성과 규제 대응의 충분성에 대한 검증이 필요하다는 지적이다. 이는 미국의 SMR 산업이 기술 개발과 규제 승인 사이의 균형을 어떻게 맞출 것인가 하는 핵심 과제를 보여주는 사례로 해석된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "eenews.net",
+    "url": "https://www.eenews.net/articles/nuclear-startup-terrapower-is-moving-fast-some-say-too-fast/",
+    "k": "nuclear startup terrapower is moving fast some say too fast",
+    "op": 1,
+    "id": "a6a8dfbb"
   },
   {
     "date": "2026-02-05",
@@ -10724,4 +10841,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-25 07:51 KST";
+window.SMR_UPDATED = "2026-06-25 08:17 KST";
