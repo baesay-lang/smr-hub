@@ -380,7 +380,17 @@ async function fetchBody(url){
       headers: { 'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36', 'Accept-Language':'en,ko' } });
     clearTimeout(to);
     if (!res.ok) return '';
-    let html = await res.text();
+    // charset-aware decode: Node fetch's res.text() ALWAYS assumes UTF-8, so EUC-KR/CP949 Korean
+    // sites (nate, kookje, …) come out as mojibake → the AI then writes a "인코딩 오류" non-summary.
+    // Detect charset from the Content-Type header, else sniff <meta charset>, then TextDecoder.
+    const buf = Buffer.from(await res.arrayBuffer());
+    let charset = ((res.headers.get('content-type') || '').match(/charset=["']?([\w-]+)/i) || [])[1];
+    if (!charset){ charset = (buf.subarray(0, 2048).toString('latin1').match(/charset=["']?([\w-]+)/i) || [])[1]; }
+    charset = (charset || 'utf-8').toLowerCase();
+    if (['ms949','cp949','ksc5601','ksc_5601','korean'].includes(charset)) charset = 'euc-kr';
+    let html;
+    try { html = new TextDecoder(charset).decode(buf); }
+    catch(e){ html = new TextDecoder('utf-8').decode(buf); }
     html = html.replace(/<script[\s\S]*?<\/script>/gi,' ').replace(/<style[\s\S]*?<\/style>/gi,' ');
     const ps = html.match(/<p[\s>][\s\S]*?<\/p>/gi) || [];
     let text = ps.map(p=>p.replace(/<[^>]+>/g,' ')).join('\n')
@@ -554,6 +564,36 @@ async function refreshTermsAll(){
   return done;
 }
 
+/* one-time (env REGEN_BAD=true): regenerate detail JSONs whose detailKo is a mojibake-complaint
+   ("인코딩 오류로 읽을 수 없다" 등) — re-fetch the body with the charset-aware fetchBody and rebuild. */
+const BAD_DETAIL = /인코딩 오류|제대로 읽을 수 없|본문( 내용)?이 손상|재제공을 요청|정상적으로 인코딩/;
+async function regenBadDetails(items){
+  fs.mkdirSync(ARTICLES_DIR, { recursive: true });
+  const byId = new Map(items.map(n => [n.id, n]));
+  const targets = [];
+  for (const f of fs.readdirSync(ARTICLES_DIR).filter(f=>f.endsWith('.json'))){
+    try { const j = JSON.parse(fs.readFileSync(`${ARTICLES_DIR}/${f}`,'utf8'));
+      if (j.detailKo && BAD_DETAIL.test(j.detailKo)){
+        const id = j.id || f.replace(/\.json$/,'');
+        targets.push({ id, item: byId.get(id) || { id, title:j.title||'', url:j.url||'', source:j.source||'', cat:'기술', type:'General' } });
+      }
+    } catch {}
+  }
+  console.log(`regen-bad: ${targets.length} broken detail(s) to rebuild`);
+  let made = 0, idx = 0;
+  async function worker(){
+    while (idx < targets.length){
+      const t = targets[idx++];
+      const body = await fetchBody(t.item.url);
+      const d = await generateDetail(t.item, body);
+      if (d){ writeDetail(t.id, t.item, d); made++; console.log(`  rebuilt ${t.id} (${t.item.source||''}, body ${body?body.length:0})`); }
+    }
+  }
+  await Promise.all(Array.from({ length: 5 }, worker));
+  console.log(`regen-bad done — rebuilt ${made}/${targets.length}`);
+  return made;
+}
+
 async function main(){
   const useClaude = !!API_KEY;
   console.log('classify mode:', useClaude ? 'Claude API' : 'rule-based (free)');
@@ -565,6 +605,12 @@ async function main(){
     const nt = betterType(hay, n.type); if (nt !== n.type){ n.type = nt; repaired++; }
   });
   if (repaired) console.log(`repaired ${repaired} cat/type field(s) on existing items`);
+
+  if (process.env.REGEN_BAD === 'true'){   // one-time: rebuild mojibake-broken detail JSONs, then exit
+    const made = await regenBadDetails(existing);
+    console.log(`regen-bad mode done — rebuilt ${made} detail file(s)`);
+    return;
+  }
 
   if (process.env.REFRESH_TERMS === 'true'){   // one-time: re-extract glossaries only, then write & exit
     const u = await refreshTermsAll();

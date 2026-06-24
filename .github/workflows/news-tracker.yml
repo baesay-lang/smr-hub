@@ -20,6 +20,10 @@ on:
         description: '기존 기사 용어(glossary)만 재정리'
         type: boolean
         default: false
+      regenbad:
+        description: '인코딩 깨진 전문(상세) 재생성'
+        type: boolean
+        default: false
 
 # serialize runs so two never race on the git push (which silently loses one run's commit)
 concurrency:
@@ -47,6 +51,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           BACKFILL: ${{ github.event.inputs.backfill }}
           REFRESH_TERMS: ${{ github.event.inputs.refreshterms }}
+          REGEN_BAD: ${{ github.event.inputs.regenbad }}
         run: node scripts/track-news.mjs
 
       - name: Commit & push directly if news-data.js changed
