@@ -140,6 +140,94 @@ window.SMR_NEWS = [
     "id": "aafba96d"
   },
   {
+    "date": "2026-06-25",
+    "title": "나노 뉴클리어 에너지(Nano Nuclear Energy) vs. 뉴스케일 파워(NuScale Power): 2026년 더 나은 핵에너지 주식은?",
+    "summary": "나노 뉴클리어 에너지와 뉴스케일 파워의 SMR 개발 기업 두 곳을 비교 분석한 투자 평가 기사.",
+    "summaryLong": "모틀리 풀(The Motley Fool)이 SMR 개발 선도 기업인 나노 뉴클리어 에너지와 뉴스케일 파워를 투자 관점에서 비교 분석한 기사다. 두 회사 모두 소형모듈원자로(SMR) 기술 개발을 추진하고 있으며, 각사의 기술 전략·상용화 일정·재무 상황 등을 검토하여 2026년 투자 대상으로서의 매력도를 평가했다. 다만 구체적인 투자 평가 결론은 스니펫에 드러나지 않아 원문 확인이 필요하다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/coverage/better-buy/2026/06/25/nano-nuclear-energy-vs-nuscale-power-which-nuclear-energy-stock-is-a-better-buy-in-2026/",
+    "k": "nano nuclear energy vs nuscale power which nuclear energy stock is a better buy in 2026",
+    "id": "4ab0bd3a"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "guggenheim, 오클로(Oklo) 주식 커버리지 개시, 중립 평가",
+    "summary": "guggenheim이 오클로(Oklo)의 주식 커버리지를 중립 평가 등급으로 개시했다.",
+    "summaryLong": "guggenheim investment research가 고속로(SFR) 기반 SMR 개발사 오클로(Oklo)에 대한 주식 커버리지를 공식 개시하면서 중립(neutral) 등급을 부여했다는 보도다. 이는 오클로가 시장에서 주목받는 SMR 기업이며, 주요 투자은행의 분석 대상으로 격상되었음을 의미한다. 구체적인 평가 근거와 목표주가는 스니펫에 없어 원문 확인이 필요하다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "오클로",
+    "region": "US",
+    "source": "investing.com",
+    "url": "https://www.investing.com/news/analyst-ratings/guggenheim-initiates-oklo-stock-coverage-with-neutral-rating-93CH-4760243",
+    "k": "guggenheim initiates oklo stock coverage with neutral rating",
+    "id": "99e23c8d"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "Zacks 투자 아이디어: 나노 뉴클리어 에너지, 엑스에너지(X-Energy), 아마존",
+    "summary": "Zacks가 나노 뉴클리어 에너지와 엑스에너지를 투자 아이디어로 추천하는 기사.",
+    "summaryLong": "야후 파이낸스에 게재된 Zacks investment research의 기사로, 나노 뉴클리어 에너지와 마이크로 고온가스로(HTGR) 개발사 엑스에너지(X-Energy)를 투자 추천 리스트에 포함했다. 두 회사 모두 SMR 또는 고급 원자로 기술 분야의 성장성을 인정받는 기업들이며, 이는 글로벌 청정에너지 및 에너지 안보 수요 증가에 따른 투자 관심 증대를 반영한다. 구체적인 추천 근거와 투자 전략은 원문 확인이 필요하다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/zacks-investment-ideas-feature-highlights-075900863.html",
+    "k": "zacks investment ideas feature highlights nano nuclear energy x energy and amazon",
+    "id": "cbd785d9"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "한국, SMR에 반도체 수준 세제지원 추진… AI 무탄소 전력 경쟁력 강화",
+    "summary": "국민의힘 김소희 의원이 소형모듈원자로(SMR)에 반도체 산업과 동등한 수준의 세제 혜택을 부여하는 조세특례제한법 개정안을 발의했다.",
+    "summaryLong": "국민의힘 김소희 의원은 소형모듈원자로(SMR)에 반도체 산업과 동일 수준의 세제 혜택을 부여하는 '조세특례제한법 일부개정법률안'을 국회에 제출했다. 인공지능(AI) 시대 급증하는 전력수요에 대응하기 위해 SMR의 연구개발과 시설투자를 촉진하고 글로벌 경쟁력 확보를 목표로 하는 정책 제안이다. 연구·인력개발비 세액공제와 통합투자세액공제를 통해 산업 활성화를 도모하며, 세계 주요국의 SMR 지원 경쟁에 대응하는 국내 정책 강화 움직임을 반영한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "에너지데일리 - 전체기사",
+    "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=200816",
+    "k": "smr도 반도체 수준 세제지원 추진 ai 시대 무탄소 전력 경쟁력 키운다",
+    "ko": 1,
+    "id": "e1e92423"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "한국 원자력안전위원회, 민간 SMR 대상 신규 원자로 사전검토 제도화",
+    "summary": "원자력안전위원회(원안위)가 민간 소형모듈원자로(SMR) 개발을 지원하기 위해 신규 원자로 사전검토 제도를 공식화했다.",
+    "summaryLong": "한국의 원자력안전위원회(원안위)는 민간 소형모듈원자로(SMR) 개발 활성화를 위해 신규 원자로 사전검토(GDA, Generic Design Assessment) 제도를 제도화했다고 발표했다. 이는 설계 단계에서부터 안전성을 미리 검토함으로써 규제 리스크를 낮추고 개발 기간을 단축하기 위한 정책 수단이며, 민간 SMR 프로젝트의 순차적 진행 가속화를 목표로 한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "news1.kr",
+    "url": "https://www.news1.kr/it-science/general-science/6208743",
+    "k": "원안위 민간 smr 겨냥 신규 원자로 사전검토 제도화",
+    "ko": 1,
+    "id": "76b3dc8c"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "국립한국해양대, SMR 선박 시험·인증 위한 UN 산하기구 신설 제안",
+    "summary": "국립한국해양대가 소형모듈원자로(SMR) 추진 선박의 시험과 인증을 담당할 유엔(UN) 산하 기구 신설을 제안했다.",
+    "summaryLong": "국립한국해양대는 소형모듈원자로(SMR) 추진 선박의 안전성 검증과 국제 인증을 담당할 국제 기구를 유엔(UN) 산하에 신설할 것을 제안하고 있다. 이는 SMR 선박의 글로벌 보급이 확대될 것을 전제로, 국제 표준화와 안전 규제 체계를 사전에 구축하려는 선제적 움직임이다. 한국해양대의 제안은 SMR 선박 기술 발전에서 한국의 주도적 역할을 강화하고, 향후 해운 산업의 탈탄소화 추세에 대응하기 위한 전략적 의도를 반영한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "news.bbsi.co.kr",
+    "url": "https://news.bbsi.co.kr/news/articleView.html?idxno=4091377",
+    "k": "국립한국해양대 smr 선박 시험 인증 un산하기구 신설 등 제안",
+    "ko": 1,
+    "op": 1,
+    "id": "6cc54aa0"
+  },
+  {
     "date": "2026-06-24",
     "title": "K-원전 경쟁력 선보인 EPEK 2026…SMR·사용후핵연료 관리 기술 공개",
     "summary": "한수원·한전기술·두산에너빌리티가 2026 대한민국 전기산업엑스포(EPEK 2026)에서 APR1000, 혁신형 소형모듈원전(i-SMR), 사용후핵연료 관리 기술 등 원전 전주기 역량을 선보였다.",
@@ -655,6 +743,21 @@ window.SMR_NEWS = [
     "url": "https://www.brightontoday.ca/2026/06/24/alderville-among-first-nations-investing-in-darlington-small-modular-reactor-project/",
     "k": "alderville among first nations investing in darlington small modular reactor project",
     "id": "0c2ec34c"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "한미글로벌, 미국 SMR 시장 진출 본격화… 현지 세미나 개최, 법인 설립 추진",
+    "summary": "한미글로벌이 미국(US) 소형모듈원자로(SMR) 시장 진출을 본격화하고 있으며, 현지 세미나 개최와 법인 설립을 추진 중이다.",
+    "summaryLong": "한미글로벌은 미국(US) 소형모듈원자로(SMR) 시장으로의 진출을 가속화하기 위해 현지 세미나 개최와 법인 설립 등 구체적인 활동을 전개하고 있다. 이러한 움직임은 미국의 성장하는 SMR 시장에 한국 기업의 기술과 역량을 알리고, 향후 프로젝트 수주 및 협력 기회를 확보하려는 전략적 발걸음이다. 한미글로벌의 진출은 국내 중소·중견 원전 관련 기업들의 글로벌 확장을 선도하는 사례로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한미글로벌",
+    "region": "US",
+    "source": "ikld.kr",
+    "url": "http://www.ikld.kr/news/articleView.html?idxno=336447",
+    "k": "한미글로벌 smr 시장 진출 본격화 현지 세미나 열고 법인 설립 추진",
+    "ko": 1,
+    "id": "1f2225fd"
   },
   {
     "date": "2026-06-23",
@@ -1596,6 +1699,21 @@ window.SMR_NEWS = [
     "id": "c81a9608"
   },
   {
+    "date": "2026-06-22",
+    "title": "현대중공업, SMR 추진 자동차운반선 개발 본격화",
+    "summary": "현대중공업(Hyundai Heavy Industries)이 소형모듈원자로(SMR) 추진 자동차운반선 개발을 본격적으로 진행 중이다.",
+    "summaryLong": "현대중공업은 소형모듈원자로(SMR)를 추진 동력으로 하는 자동차운반선(Vehicle Carrier) 개발 프로젝트를 본격화하고 있다. 이는 해운 산업의 탈탄소화 요구와 차세대 추진 기술 개발을 결합한 전략으로, SMR의 선박 응용 분야 확대를 보여준다. 현대중공업의 이러한 기술 개발은 국내 조선·해양산업의 경쟁력 강화와 함께 SMR 시장의 다변화된 수요 창출로 이어질 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대중공업",
+    "region": "KR",
+    "source": "icnweb.kr",
+    "url": "https://icnweb.kr/2026/80900/hd%ED%98%84%EB%8C%80-smr-%EC%B6%94%EC%A7%84-%EC%9E%90%EB%8F%99%EC%B0%A8%EC%9A%B4%EB%B0%98%EC%84%A0-%EA%B0%9C%EB%B0%9C-%EB%B3%B8%EA%B2%A9%ED%99%94/",
+    "k": "hd현대 smr 추진 자동차운반선 개발 본격화",
+    "ko": 1,
+    "id": "20df4b26"
+  },
+  {
     "date": "2026-06-21",
     "title": "센트러스 에너지(Centrus Energy), 오클로(Oklo)의 HALEU 계약 체결로 주가 저평가 가능성",
     "summary": "센트러스 에너지(Centrus Energy)가 오클로(Oklo)와 HALEU(고농축우라늄) 공급 계약을 체결하면서 주가 저평가 논의가 제기되고 있다.",
@@ -1826,6 +1944,21 @@ window.SMR_NEWS = [
     "k": "whatever happened to the small modular reactor revolution",
     "op": 1,
     "id": "acc0dba0"
+  },
+  {
+    "date": "2026-06-21",
+    "title": "두산에너빌리티, 영국 SMR 핵심 공급망 선점… 제조 병목이 부른 기회",
+    "summary": "두산에너빌리티(Doosan Enerbility)가 영국(UK)의 소형모듈원자로(SMR) 핵심 공급망 시장을 선점하고 있다.",
+    "summaryLong": "두산에너빌리티는 영국(UK)의 소형모듈원자로(SMR) 개발 프로젝트에서 핵심 부품 제조 및 공급 파트너로서의 입지를 강화하고 있다. 글로벌 SMR 시장에서 부품 제조 능력의 병목 현상이 발생하고 있는 가운데, 두산에너빌리티의 선진 제조 기술과 생산 역량이 영국의 SMR 프로젝트 추진에 중요한 기회를 제공하고 있다. 이를 통해 두산에너빌리티는 해외 SMR 시장에서의 지분을 확대하고 글로벌 공급망 내 중추적 역할을 확보하려는 전략을 펼치고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "두산에너빌리티",
+    "region": "UK",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/Global-Biz/2026/06/20260622063323547fbbec65dfb_1",
+    "k": "두산에너빌리티 smr 핵심 공급망 선점 제조 병목이 부른 기회",
+    "ko": 1,
+    "id": "ad7814f2"
   },
   {
     "date": "2026-06-20",
@@ -7178,6 +7311,21 @@ window.SMR_NEWS = [
     "ko": 1
   },
   {
+    "date": "2026-06-05",
+    "title": "미국 정부 \"안타레스(Antares) SMR 임계 성공…상용화 핵심 관문\"",
+    "summary": "미국 정부가 안타레스(Antares) 소형모듈원자로(SMR)의 임계 달성 성공을 발표했으며, 이를 상용화를 위한 중요한 기술적 이정표로 평가했다.",
+    "summaryLong": "미국 정부가 안타레스(Antares) 소형모듈원자로(SMR) 프로젝트의 임계(criticality) 달성 성공을 공식 발표했다. 임계는 원자로가 처음으로 자립적인 핵분열 연쇄반응을 유지하게 되는 단계로, 원자로 개발의 핵심적인 기술적 마일스톤을 의미한다. 미국 정부는 이 성과를 안타레스 SMR의 상용화 진출을 위한 주요 관문 통과로 평가하고 있다. 이는 차세대 소형모듈원자로 기술의 실증 단계가 진행 중임을 보여주는 신호로, SMR 산업화의 진전을 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "yna.co.kr",
+    "url": "https://www.yna.co.kr/view/AKR20260605064900009",
+    "k": "정부 안타레스 smr 임계 성공 상용화 핵심 관문",
+    "ko": 1,
+    "id": "79d1b8a4"
+  },
+  {
     "date": "2026-06-04",
     "title": "엑스에너지(X-energy), 나스닥(Nasdaq) 상장 후 2026년 1분기 분기별 파이프라인 144기·11.5GWe 공시",
     "summary": "나스닥 상장 후 분기 공시에서 미국·영국 합산 144기, 약 11.5 GWe의 파이프라인(고객 권리 전량 행사 가정)을 공개했다.",
@@ -7503,6 +7651,20 @@ window.SMR_NEWS = [
     "k": "is nuscale power the smartest investment you can make today",
     "op": 1,
     "id": "6824b571"
+  },
+  {
+    "date": "2026-06-04",
+    "title": "루마니아 도이체슈티(Doicești) 소형모듈원자로 프로젝트, 중요 단계 진입",
+    "summary": "루마니아의 도이체슈티(Doicești) 소형모듈원자로(SMR) 프로젝트가 중요한 전환점에 있다고 관계자가 밝혔다.",
+    "summaryLong": "누크넷(NucNet)에 따르면, 루마니아의 도이체슈티(Doicești) 소형모듈원자로(SMR) 프로젝트가 중요한 단계에 진입했다고 현지 관계자가 발표했다. 구체적 진전 내용이나 일정은 제목과 스니펫에 명시되어 있지 않으나, 프로젝트가 규제·개발 단계에서 실질적 전진을 이루고 있음을 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "EU",
+    "source": "nucnet.org",
+    "url": "https://www.nucnet.org/news/romania-s-doicesti-small-modular-reactor-project-at-critical-phase-says-minister-6-2-2026",
+    "k": "romania s doice ti small modular reactor project at critical phase says official",
+    "id": "9df6c6f7"
   },
   {
     "date": "2026-06-03",
@@ -8373,6 +8535,20 @@ window.SMR_NEWS = [
     "id": "1505f797"
   },
   {
+    "date": "2026-05-18",
+    "title": "미국 원자력규제위원회, 다우(Dow)·엑스에너지(X-energy) 텍사스 첨단원자로 프로젝트 환경평가 승인",
+    "summary": "미국 원자력규제위원회(NRC)가 다우와 엑스에너지의 텍사스 첨단원자로 프로젝트에 대해 환경영향평가를 완료하고 '중대한 영향 없음' 판정을 내렸다.",
+    "summaryLong": "미국 원자력규제위원회(NRC)는 화학업체 다우(Dow)와 고온가스로(HTGR) 개발사 엑스에너지(X-energy)가 텍사스에서 추진 중인 첨단원자로 프로젝트에 대해 환경영향평가(Environmental Assessment)를 완료하고 '중대한 영향 없음(Finding of No Significant Impact, FONSI)' 판정을 내렸다. 이는 규제 진전 단계로, 프로젝트가 환경 심사를 통과했음을 의미하며, 향후 건설허가 단계로 진행될 수 있는 기반이 마련되었다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "x-energy.com",
+    "url": "https://x-energy.com/news/nrc-issues-environmental-assessment-with-finding-of-no-significant-impact-for-dow-and-x-energys-propsed-advanced-nuclear-project-in-texas/",
+    "k": "nrc issues environmental assessment with finding of no significant impact for dow and x energy s proposed advanced nuclear project in texas x energy",
+    "id": "ebe87ebe"
+  },
+  {
     "date": "2026-05-15",
     "title": "미국 에너지부(DOE), 소형모듈원자로 배치 가속화를 위해 8개사에 9,400만 달러 지원",
     "summary": "미국 에너지부(DOE)가 소형모듈원자로 배치 가속화를 위해 8개 기업에 총 9,400만 달러를 지원한다.",
@@ -8529,6 +8705,20 @@ window.SMR_NEWS = [
     "id": "0e2b577f"
   },
   {
+    "date": "2026-05-11",
+    "title": "테라파워(TerraPower), 플래그십 악티늄-225(Ac-225) 시설 건설 착수",
+    "summary": "테라파워가 방사성 동위원소 생산을 위한 악티늄-225 시설의 건설을 시작했다.",
+    "summaryLong": "테라파워(TerraPower)는 방사성 의약 및 동위원소 생산용 악티늄-225(Ac-225) 시설의 건설을 시작했다고 발표했다. 이는 테라파워의 핵연료 사이클 및 의료용 동위원소 생산 전략의 핵심 시설로, 플래그십 프로젝트에 해당한다. 시설 완공 시 고급 원자로 기술과 연계하여 방사성의약품 생산 생태계를 구축할 수 있으며, 차세대 핵 응용 분야 확대를 의미한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/terrapower-starts-work-on-flagship-ac-225-facility",
+    "k": "terrapower starts work on flagship ac 225 facility",
+    "id": "55e05d5c"
+  },
+  {
     "date": "2026-05-09",
     "title": "글로벌 SMR 시장, 실전 경쟁 단계 돌입",
     "summary": "세계 소형모듈원자로 시장이 본격적인 상용화 경쟁 단계에 진입했다.",
@@ -8682,6 +8872,20 @@ window.SMR_NEWS = [
     "url": "https://www.world-nuclear-news.org/articles/darlington-smr-nuclear-project-foundation-module-milestone",
     "k": "darlington smr project s foundation module milestone",
     "id": "68bbd271"
+  },
+  {
+    "date": "2026-05-01",
+    "title": "오클로, LANL·엔비디아와 플루토늄 연료 개발 파트너십 지속",
+    "summary": "오클로가 로스알라모스국립연구소(LANL)와 엔비디아(Nvidia)와의 협력으로 플루토늄 연료 개발을 계속 진행 중이다.",
+    "summaryLong": "미국 핵학회(ANS)가 보도한 바에 따르면, 오클로(Oklo)는 로스알라모스국립연구소(LANL, Los Alamos National Laboratory)와 기술 기업 엔비디아(Nvidia)와 협력하여 고속로(SFR)용 플루토늄 기반 연료 개발을 계속 진행하고 있다. 이는 오클로의 폐기물 최소화·연료 활용도 극대화 기술 개발 전략을 보여주는 것으로, 미국 에너지부(DOE) 지원 프로그램과 연계된 첨단 원자로 기술 개발의 일환이다. LANL의 핵공학 역량과 엔비디아의 인공지능·시뮬레이션 기술이 결합된 협력으로 평가된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "오클로",
+    "region": "US",
+    "source": "ans.org",
+    "url": "https://www.ans.org/news/2026-05-01/article-7996/oklo-continues-plutonium-fuel-development-with-lanl-and-nvidia-partnership/",
+    "k": "oklo continues plutonium fuel development with lanl and nvidia partnership american nuclear society ans",
+    "id": "83182a4c"
   },
   {
     "date": "2026-04-30",
@@ -9540,6 +9744,20 @@ window.SMR_NEWS = [
     "id": "7768255d"
   },
   {
+    "date": "2026-03-17",
+    "title": "오클로(Oklo)의 그로브스 동위원소 테스트 원자로, 미국 에너지부(DOE) 원자력안전설계협약(NSDA) 승인",
+    "summary": "오클로의 자회사 애토믹 앨커미(Atomic Alchemy)가 그로브스 동위원소 테스트 원자로에 대해 미국 에너지부(DOE)로부터 원자력안전설계협약(NSDA) 승인을 획득했다.",
+    "summaryLong": "오클로(Oklo)의 자회사 애토믹 앨커미(Atomic Alchemy)는 그로브스 동위원소 테스트 원자로(Groves Isotopes Test Reactor)에 대해 미국 에너지부(DOE)로부터 원자력안전설계협약(Nuclear Safety Design Agreement, NSDA) 승인을 받았다고 발표했다. NSDA는 신규 원자로 설계의 안전성과 기술성을 사전 검토하고 승인하는 규제 프로세스로, 후속 건설·운영 허가 취득의 기반이 되며 개발 리스크를 감소시키는 중요한 마일스톤이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "oklo.com",
+    "url": "https://oklo.com/newsroom/news-details/2026/Oklos-Atomic-Alchemy-Announces-U-S--Department-of-Energy-Approval-for-Nuclear-Safety-Design-Agreement-of-its-Groves-Isotopes-Test-Reactor/default.aspx",
+    "k": "oklo s atomic alchemy announces u s department of energy approval for nuclear safety design agreement of its groves isotopes test reactor",
+    "id": "0c322733"
+  },
+  {
     "date": "2026-03-16",
     "title": "X-에너지·아이에이치아이, 미국-일본 SMR 공급망 발전 협력",
     "summary": "X-에너지(X-Energy)와 일본 아이에이치아이(IHI Corporation)가 미국-일본 소형모듈원자로(SMR) 공급망 발전을 위한 양해각서(MOU)를 체결했다.",
@@ -9846,6 +10064,20 @@ window.SMR_NEWS = [
     "url": "https://www.statista.com/statistics/1551301/smr-facilities-by-country/",
     "k": "number of small modular reactor smr nuclear facilities worldwide 2026 by country",
     "id": "433fe6ed"
+  },
+  {
+    "date": "2026-02-26",
+    "title": "뉴스케일, 2025년 4분기·연간 실적 발표",
+    "summary": "뉴스케일 파워가 2025년 4분기 및 연간 실적을 공식 발표했다.",
+    "summaryLong": "뉴스케일 파워(NuScale Power)가 2025년 4분기 및 연간 실적을 공식 발표한 공시 자료다. 구체적인 매출·손실·기술 진전 내용은 스니펫에 미상이나, 이는 상장 SMR 기업으로서의 정기 재무 공시이며 프로젝트 진행 상황·자금 조달 현황·향후 사업 전망 등을 담고 있을 것으로 예상된다. 원문 확인으로 뉴스케일의 사업화 진전도와 재정 건전성을 파악할 수 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "뉴스케일",
+    "region": "US",
+    "source": "nuscalepower.com",
+    "url": "https://www.nuscalepower.com/press-releases/2026/nuscale-power-reports-fourth-quarter-and-full-year-2025-results",
+    "k": "nuscale power reports fourth quarter and full year 2025 results",
+    "id": "349faf5d"
   },
   {
     "date": "2026-02-25",
@@ -11179,4 +11411,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-26 07:58 KST";
+window.SMR_UPDATED = "2026-06-26 08:27 KST";
