@@ -881,6 +881,21 @@ window.SMR_NEWS = [
     "id": "e64c1265"
   },
   {
+    "date": "2026-06-23",
+    "title": "한미글로벌, 미국 SMR 시장 진출 위한 사업 개발사 설립 추진",
+    "summary": "한미글로벌이 미국의 소형모듈원자로(SMR) 시장 진출을 위해 현지 사업 개발사 설립을 추진 중이다.",
+    "summaryLong": "한국 기업 한미글로벌이 미국의 소형모듈원자로(SMR) 시장 진출을 본격화하기 위해 현지 법인 설립을 추진하고 있다. 이는 한국 원전 산업의 글로벌 SMR 시장 확대 전략의 일환으로, 향후 미국 내 SMR 관련 프로젝트 참여 및 파트너십 추진으로 이어질 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한미글로벌",
+    "region": "US",
+    "source": "2news.co.kr",
+    "url": "https://www.2news.co.kr/news/articleView.html?idxno=12335",
+    "k": "한미글로벌 미국 smr 시장 진출 위한 사업 개발사 설립 추진",
+    "ko": 1,
+    "id": "7511322a"
+  },
+  {
     "date": "2026-06-22",
     "title": "오클로, 우라늄 공급 계약으로 핵분열 사업 강화",
     "summary": "오클로(Oklo)가 우라늄 공급 계약을 체결하며 핵분열 연료 확보에 나섰다.",
@@ -5263,6 +5278,34 @@ window.SMR_NEWS = [
     "id": "caa4f0ac"
   },
   {
+    "date": "2026-06-16",
+    "title": "오클로, 미국 에너지부(DOE) 안전 마일스톤 통과",
+    "summary": "미국 에너지부(DOE)가 오클로의 오로라-INL(Aurora-INL) 원자로에 대한 예비안전분석(PDSA) 승인을 완료해 건설·운영 단계로 진입하게 됐다.",
+    "summaryLong": "미국 에너지부(DOE)가 소형모듈원자로 개발사 오클로(Oklo)의 오로라-INL(Aurora-INL) 고속로에 대한 예비안전분석(PDSA) 승인을 완료했다. 이는 설계 검증 단계의 중요한 마일스톤으로, 오클로의 프로토타입 원자로가 건설·운영 허가로 한 단계 더 나아갈 수 있는 길을 열었다. 이 승인은 오클로의 기술이 미국 규제 기준을 만족함을 의미한다.",
+    "cat": "인허가",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "Nuclear Engineering International",
+    "url": "https://www.neimagazine.com/news/oklo-clears-doe-safety-milestone/",
+    "k": "oklo clears doe safety milestone",
+    "id": "3bb54239"
+  },
+  {
+    "date": "2026-06-16",
+    "title": "스투드스빅, 스웨덴 정부 지원으로 SMR 1,400 MWe 개발 신청",
+    "summary": "스투드스빅(Studsvik)이 스웨덴의 정부 재정 지원 프로그램을 통해 최대 1,400 MWe 규모의 SMR 용량 개발을 위한 지원금 신청을 했다.",
+    "summaryLong": "스웨덴의 원자력 회사 스투드스빅(Studsvik)이 스웨덴 정부의 재정 지원 프레임워크 하에서 최대 1,400 MWe(메가와트 전기)의 신규 소형모듈원자로(SMR) 용량 개발을 위한 정부 지원금을 신청했다. 이는 스웨덴이 SMR 개발을 국책 프로젝트로 추진하고 있으며 정부 자금 지원을 통해 산업 육성을 도모하고 있음을 나타낸다.",
+    "cat": "정책",
+    "type": "General",
+    "dev": "Studsvik",
+    "region": "EU",
+    "source": "Nuclear Engineering International",
+    "url": "https://www.neimagazine.com/news/studsvik-seeks-state-aid-for-smrs/",
+    "k": "studsvik seeks state aid for smrs",
+    "id": "a957cf06"
+  },
+  {
     "date": "2026-06-15",
     "title": "한전기술, 베트남 SMR 협력 구체화",
     "summary": "한전기술이 베트남의 소형모듈원자로(SMR) 법제화 움직임에 협력하며 전략적 교두보를 마련하고 있다.",
@@ -8082,6 +8125,21 @@ window.SMR_NEWS = [
     "id": "55785bad"
   },
   {
+    "date": "2026-05-19",
+    "title": "소형모듈원전·AI로 2031년까지 글로벌 원자력 최강국 목표",
+    "summary": "정부가 소형모듈원자로와 인공지능을 활용해 2031년까지 글로벌 원자력 최강국 실현을 추진한다.",
+    "summaryLong": "정부가 소형모듈원자로(SMR) 및 인공지능(AI) 기술을 핵심 전략으로 하는 원자력 강국 달성 청사진을 제시했다. 2031년을 목표연도로 설정하여 SMR 상용화, 디지털 원전 기술 고도화, 글로벌 시장 진출 등을 종합적으로 추진할 계획이다. 이는 차세대 원자력 기술 분야에서 한국의 경쟁력을 강화하고 국제 주도권 확보를 겨냥한 장기 국책 프로그램으로 해석된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "dongascience.com",
+    "url": "https://www.dongascience.com/ko/news/77970",
+    "k": "소형모듈원전 ai 내세워 2031년까지 글로벌 원자력 최강국 청사진 마련",
+    "ko": 1,
+    "id": "80407f7d"
+  },
+  {
     "date": "2026-05-18",
     "title": "미국 원자력규제위원회(NRC), X-에너지·다우의 텍사스 고급원자로 사업 환경영향평가 완료",
     "summary": "미국 원자력규제위원회(NRC)가 X-에너지(X-Energy)와 다우(Dow)의 텍사스 소형모듈원자로 건설허가 신청에 대한 환경영향평가(EA)를 완료하고 중대한 영향이 없다는 결론을 내렸다.",
@@ -8223,6 +8281,21 @@ window.SMR_NEWS = [
     "id": "d703907c"
   },
   {
+    "date": "2026-05-12",
+    "title": "원자력안전법 개정…SMR 사전검토 제도 법제화",
+    "summary": "원자력안전법이 개정되어 소형모듈원자로의 사전검토 제도가 법제화되었다.",
+    "summaryLong": "원자력안전위원회(원안위)가 추진 중인 원자력안전법 개정안이 의결되어 SMR 사전검토 제도가 법제화되었다. 이 제도는 SMR 개발사가 정식 인허가 신청 전 설계·안전성 등을 미리 검토받을 수 있는 체계로, 국내 SMR 개발의 제도적 기반을 강화하고 인허가 절차를 효율화하는 데 목표를 두고 있다. 법안 발효 후 국내 SMR 개발 프로젝트들이 사전검토 신청을 통해 상용화 일정을 단축할 수 있을 것으로 기대된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=3884",
+    "k": "원자력안전법 개정안 의결 smr 사전검토 제도 법제화",
+    "ko": 1,
+    "id": "48cab729"
+  },
+  {
     "date": "2026-05-11",
     "title": "소형모듈원자로(SMR), 기술이 아닌 경제성에서 경쟁력 부족",
     "summary": "분석에서 소형모듈원자로의 경제성 문제가 기술 문제보다 더 심각한 것으로 지적되었다.",
@@ -8249,6 +8322,21 @@ window.SMR_NEWS = [
     "url": "https://holtecinternational.com/hh-41-06/",
     "k": "the 13th annual holtec int smr technical advisory council hi stac meeting hails the impending construction of pioneer 1 2 smr 300s",
     "id": "0e2b577f"
+  },
+  {
+    "date": "2026-05-09",
+    "title": "글로벌 SMR 시장, 실전 경쟁 단계 돌입",
+    "summary": "세계 소형모듈원자로 시장이 본격적인 상용화 경쟁 단계에 진입했다.",
+    "summaryLong": "글로벌 SMR 시장이 초기 개발 단계를 거쳐 실제 상용화를 놓고 벌이는 경쟁 국면으로 전환되고 있다. 미국, 영국(UK), 캐나다(CA) 등 주요국에서 다양한 노형의 SMR 개발사들이 인허가 및 건설 일정을 앞당기며 시장 선점을 노리고 있다. 이는 SMR이 차세대 에너지 솔루션으로서 글로벌 정책·산업의 중심으로 이동하고 있음을 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "electimes.com",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=367738",
+    "k": "실전 경쟁 돌입한 글로벌 smr 시장",
+    "ko": 1,
+    "id": "39f2a8c2"
   },
   {
     "date": "2026-05-08",
@@ -8923,6 +9011,21 @@ window.SMR_NEWS = [
     "id": "04a5ee19"
   },
   {
+    "date": "2026-04-13",
+    "title": "SMR 해상선박(SMR 상선), 민간 해상 원자력 기술의 재등장",
+    "summary": "소형모듈원자로를 탑재한 해상선박(SMR 상선) 개발이 민간 원자력 해상 기술의 재부상을 의미한다.",
+    "summaryLong": "소형모듈원자로(SMR)를 선박에 탑재하는 'SMR 상선' 개발이 주목받으면서, 민간 부문의 해상 원자력 기술이 새로운 활기를 띠고 있다. 이는 탈탄소화 시대 해상 운송의 탈에너지 솔루션으로 인식되고 있으며, 러시아의 쇄빙선(아토믹급)에 이은 새로운 형태의 상용 해상 원전 개발을 시사한다. 향후 해양 자원 개발, 원격지 전력 공급, 해수담수화 등 다양한 용도로의 응용 가능성이 검토되고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=3326",
+    "k": "smr 상선 바다 위 원전 민간 해상 원자력 기술의 재등장",
+    "ko": 1,
+    "id": "65dc619c"
+  },
+  {
     "date": "2026-04-08",
     "title": "SMR 경쟁 대응 '원자력 진흥법' 개정 추진, 기술·인력·재정 3축 강화",
     "summary": "한국이 국제 SMR 경쟁에 대응하기 위해 원자력 진흥법 개정을 통해 기술·인력·재정 지원을 강화할 계획이다.",
@@ -9046,6 +9149,22 @@ window.SMR_NEWS = [
     "url": "https://www.energy.gov/ne/articles/nrc-issues-construction-permit-terrapowers-natrium-advanced-reactor",
     "summaryLong": "TerraPower의 Natrium 프로젝트가 와이오밍주 Kemmerer에서 미국 원자력규제위원회(NRC)로부터 건설허가(CP)를 획득했다. 이는 약 40년 만에 미국에서 발급되는 상업용 제4세대(Gen-IV) 및 비경수로(액체금속로) 건설허가로, 역사적 의의가 크다. Natrium은 액체 나트륨을 냉각재로 하는 고속로 기술로, 높은 에너지 밀도와 안전성을 장점으로 한다. 이 사업의 성공은 미국의 첨단 원자력 기술 발전 및 탄소중립 에너지 전환의 중요한 이정표가 될 것으로 전망된다.",
     "id": "9aef3916"
+  },
+  {
+    "date": "2026-03-26",
+    "title": "SMR, 에너지 위기의 대안…2033년 조기 상용화 가능 전망",
+    "summary": "세미나에서 소형모듈원자로가 에너지 위기 대응책으로 제시되며 2033년 조기 상용화 가능성이 논의되었다.",
+    "summaryLong": "에너지 정책 세미나에서 소형모듈원자로(SMR)가 에너지 위기 극복의 핵심 대안으로 거론되었다. 발표자들은 현재의 기술 진전, 인허가 절차 개선, 정부 지원 등을 감안할 때 2033년 전후 국내 SMR의 조기 상용화가 가능할 것으로 전망했다. 다만 이는 세미나 참석자의 관측 및 견해에 해당하므로, 실제 상용화 일정은 각 프로젝트의 설계인증·건설허가 진행 상황에 따라 결정될 것으로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "edata.ekn.kr",
+    "url": "https://edata.ekn.kr/article/view/ekn202603260005",
+    "k": "원자력 세미나 에너지 위기 대안 smr 2033년 조기 상용화 가능",
+    "ko": 1,
+    "op": 1,
+    "id": "e70c8ed2"
   },
   {
     "date": "2026-03-25",
@@ -10841,4 +10960,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-25 08:17 KST";
+window.SMR_UPDATED = "2026-06-25 08:53 KST";
