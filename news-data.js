@@ -98,6 +98,48 @@ window.SMR_NEWS = [
     "id": "d3d102f4"
   },
   {
+    "date": "2026-06-25",
+    "title": "스웨덴, 롤스로이스 SMR 개발사에 60% 지분 인수",
+    "summary": "스웨덴 정부가 롤스로이스(Rolls-Royce) 소형모듈원자로 3기 건설을 추진하는 비데베리 크래프트(Videberg Kraft AB)에 60% 지분을 취득하기로 결정했다.",
+    "summaryLong": "스웨덴 정부는 링할스(Ringhals) 인근 바뢰반도(Värö Peninsula)에 롤스로이스(Rolls-Royce) 소형모듈원자로 3기 건설을 계획 중인 비데베리 크래프트(Videberg Kraft AB)에 60% 지분을 취득하기로 결정했다. 이는 스웨덴이 SMR 기술 개발 및 구현에 국가 차원의 투자와 지원을 강화하려는 의지를 보여준다. 롤스로이스의 소형모듈원자로는 유럽에서 설계인증을 추진 중인 프로젝트로, 이번 스웨덴 정부의 지분 인수는 프로젝트 실현 가능성을 높이는 중요한 진전이다.",
+    "cat": "투자",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "UK",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/swedish-state-to-take-majority-stake-in-videberg-kraft",
+    "k": "swedish state taking majority stake in videberg kraft",
+    "id": "ed7a9805"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "폴란드, BWRX-300 SMR 최대 6기 건설 양해각서 체결",
+    "summary": "폴란드 블로츠와벡(Włocławek) 시와 오를렌 신토스 그린 에너지(Orlen Synthos Green Energy)가 GE 히치 에스더(GE Hitachi) BWRX-300 소형모듈원자로 최대 6기 건설 협력 양해각서를 체결했다.",
+    "summaryLong": "폴란드 중부 도시 블로츠와벡(Włocławek) 시와 오를렌 신토스 그린 에너지(Orlen Synthos Green Energy)가 GE 히치 에스더(GE Hitachi)의 BWRX-300 소형모듈원자로 최대 6기 건설을 위한 협력 원칙을 규정하는 양해각서를 체결했다. 이는 폴란드가 장기 탄소 중립 에너지 정책의 일환으로 SMR 도입을 구체화하는 중요한 진전을 나타낸다. BWRX-300은 캐나다에서 설계인증을 획득한 진보형 비등경수로(BWR) 기반 소형모듈원자로로, 이번 협약을 통해 폴란드의 산업용 및 지역 전력 공급 대안으로 추진되고 있다.",
+    "cat": "계약",
+    "type": "BWR",
+    "dev": "GE Hitachi",
+    "region": "CA",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/osge-signs-agreement-with-wloclawek-for-smr-plant",
+    "k": "osge signs agreement with w oc awek for smr plant",
+    "id": "874aa809"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "미국 NRC, 홀텍 SMR-300 환경영향평가 착수",
+    "summary": "미국 핵규제위원회(NRC)가 홀텍 인터내셔널(Holtec International)의 SMR-300 2기 팰리세이드(Palisades) 부지 건설에 대한 환경영향평가를 착수했다.",
+    "summaryLong": "미국 핵규제위원회(NRC)는 홀텍 인터내셔널(Holtec International)이 미시간 팰리세이드(Palisades) 폐지된 원전 부지에 건설하려는 SMR-300 소형모듈원자로 2기에 대한 환경영향평가(Environmental Review)를 시작했다. 동시에 NRC는 핵연료 순환(Fuel Cycle) 및 재료 허가 규정의 개정안을 제안하고 있으며, 이는 SMR 등 신규 노형의 인허가 경로 합리화를 목표로 하고 있다. 이들 조치는 미국의 SMR 상용화 추진 및 규제 체계 현대화의 일환을 보여준다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Holtec",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-06-25/article-8148/nrc-news-fy-2026-fees-finalized-facility-licensing-reviews-launched/",
+    "k": "nrc news fy 2026 fees finalized facility licensing reviews launched",
+    "id": "aafba96d"
+  },
+  {
     "date": "2026-06-24",
     "title": "K-원전 경쟁력 선보인 EPEK 2026…SMR·사용후핵연료 관리 기술 공개",
     "summary": "한수원·한전기술·두산에너빌리티가 2026 대한민국 전기산업엑스포(EPEK 2026)에서 APR1000, 혁신형 소형모듈원전(i-SMR), 사용후핵연료 관리 기술 등 원전 전주기 역량을 선보였다.",
@@ -11137,4 +11179,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-25 17:06 KST";
+window.SMR_UPDATED = "2026-06-26 07:58 KST";
