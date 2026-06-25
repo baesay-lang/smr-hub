@@ -6797,6 +6797,21 @@ window.SMR_NEWS = [
     "ko": 1
   },
   {
+    "date": "2026-06-10",
+    "title": "오클로(Oklo) 주가 6개월 42% 하락…새 연료 프로그램이 반등 이끌까?",
+    "summary": "오클로(Oklo) 주가 최근 6개월간 42% 하락했으며, 회사의 새 연료 프로그램이 주가 회복을 견인할 수 있을지 전망하는 기사다.",
+    "summaryLong": "미국 고속로(SFR) 개발사 오클로(Oklo)의 주가가 최근 6개월간 42% 하락했다. 모틀리풀(Motley Fool)은 오클로가 추진 중인 신규 연료 프로그램이 주가 반등을 이끌 수 있을 것으로 전망하고 있다. 이는 오클로가 보유한 고급 핵연료 기술이 시장 투자자들의 관심을 받을 수 있음을 시사한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/06/10/oklo-stock-is-down-22-over-the-last-6-months-will/",
+    "k": "oklo stock is down 42 over the last 6 months will this new fuel program reverse the losses",
+    "op": 1,
+    "id": "bb1539ed"
+  },
+  {
     "date": "2026-06-09",
     "title": "서울대, 반도체·SMR 융합 연구단체 첫 출범 중국 추격 경고",
     "summary": "서울대학교가 반도체와 소형모듈원자로 분야를 통합하는 연구단체를 새로 구성하며 국가 경쟁력 강화에 나섰다.",
@@ -11122,4 +11137,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-25 16:53 KST";
+window.SMR_UPDATED = "2026-06-25 17:06 KST";
