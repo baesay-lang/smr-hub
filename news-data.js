@@ -24,20 +24,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-25",
-    "title": "오클로(Oklo), 고속핵분열로 배치 가속화 위해 유연한 인허가 경로 추진",
-    "summary": "오클로(Oklo)가 고속핵분열로(Fast Fission Reactor) 배치를 가속화하기 위해 유연한 인허가 경로 추진을 발표했다.",
-    "summaryLong": "오클로(Oklo)가 자사 고속핵분열로(Fast Fission Reactor) 배치를 가속화하기 위해 미국 에너지규제위원회(NRC) 등과 협력하여 유연한 인허가 경로를 추진하고 있다. 이는 첨단 소형모듈원자로의 인허가 절차 개선과 규제 협력을 통해 상용화 일정을 단축하려는 노력을 반영한다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "오클로",
-    "region": "US",
-    "source": "foreignpolicyjournal.com",
-    "url": "https://www.foreignpolicyjournal.com/2026/06/24/oklo-inc-nyse-oklo-pursues-flexible-licensing-path-to-accelerate-fast-fission-reactor-deployment/",
-    "k": "oklo inc nyse oklo pursues flexible licensing path to accelerate fast fission reactor deployment",
-    "id": "221832bd"
-  },
-  {
-    "date": "2026-06-25",
     "title": "생기원, 2026 전기산업엑스포서 SMR·원전해체 기술 성과 공개",
     "summary": "한국생산기술연구원(생기원)이 2026 대한민국 전기산업엑스포에서 소형모듈원전(SMR)과 원전해체 분야 R&D 성과 및 기업 지원 사례를 선보였다.",
     "summaryLong": "한국생산기술연구원(생기원) 동남기술실용화본부가 2026 대한민국 전기산업엑스포에서 소형모듈원전(SMR)과 원전해체, 수소, 이차전지 등 미래 에너지산업 분야의 연구개발 성과와 기업 지원 사례를 공개했다. 생기원은 극한에너지 분야를 중심으로 추진 중인 R&D 성과를 소개하고, SMR과 원전해체를 미래 원전산업의 핵심 먹거리로 집중 소개하였으며, 시제품 제작 지원사업 등을 통해 아이디어에서 상용화까지의 과정을 전시했다.",
@@ -830,20 +816,6 @@ window.SMR_NEWS = [
     "url": "https://holtecinternational.com/hh-41-09/",
     "k": "holtec and edf energy submit plans for new nuclear projects in britain",
     "id": "2e0b3634"
-  },
-  {
-    "date": "2026-06-23",
-    "title": "뉴스케일 주가 13.5% 급등 — 파라곤(Paragon) 신규 계약 체결",
-    "summary": "뉴스케일 파워(NuScale Power, NYSE: SMR)의 주가가 파라곤(Paragon)과의 신규 계약 체결에 따라 13.5% 급등했다.",
-    "summaryLong": "뉴스케일 파워(NuScale Power, NYSE: SMR)의 주가가 파라곤(Paragon)과의 신규 계약 체결을 계기로 13.5% 급등했다. 구체적 계약 내용과 모멘텀 지속 가능성에 대한 분석이 포함된 보도이다.",
-    "cat": "계약",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "foreignpolicyjournal.com",
-    "url": "https://www.foreignpolicyjournal.com/2026/06/23/nuscale-power-nyse-smr-stock-price-surges-13-5-on-new-paragon-contract-but-can-the-momentum-last/",
-    "k": "nuscale power nyse smr stock price surges 13 5 on new paragon contract but can the momentum last",
-    "id": "e8cc3fe3"
   },
   {
     "date": "2026-06-23",
@@ -1845,20 +1817,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-21",
-    "title": "뉴스케일 파워(NuScale Power) 주가 저점 근처, SMR 호황 앞두고",
-    "summary": "뉴스케일 파워(NuScale Power)의 주가가 저점 근처에서 거래 중이며, SMR 산업 호황이 예상되고 있다.",
-    "summaryLong": "뉴스케일 파워(NuScale Power)는 미국 증시(NYSE: SMR)에 상장된 소형모듈원자로(SMR) 개발사로, 현재 주가가 저점 근처에서 거래되고 있다. SMR 산업의 전반적인 호황이 예상되는 가운데 투자 타이밍에 대한 관심이 높아지고 있다. 이는 SMR 시장의 성장 잠재력과 뉴스케일의 상업화 추진에 대한 시장의 기대를 반영하고 있다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "foreignpolicyjournal.com",
-    "url": "https://www.foreignpolicyjournal.com/2026/06/21/nuscale-power-nyse-smr-stock-price-sits-near-lows-as-smr-boom-looms-is-now-the-time-to-buy/",
-    "k": "nuscale power nyse smr stock price sits near lows as smr boom looms is now the time to buy",
-    "id": "527488ef"
-  },
-  {
-    "date": "2026-06-21",
     "title": "두산에너빌리티, 'SMR 핵심 공급망' 선점… 英 제조 병목이 부른 락인 기회",
     "summary": "두산에너빌리티가 SMR 핵심 공급망 확보를 통해 영국(UK) 제조 병목으로 인한 시장 선점 기회를 활용하고 있다.",
     "summaryLong": "두산에너빌리티가 소형모듈원자로(SMR)의 핵심 부품·공급망 선점을 통해 글로벌 시장 경쟁력을 강화하고 있다. 영국(UK)에서의 SMR 제조 병목 현상이 다른 공급처의 수요 증가로 이어지면서, 두산에너빌리티는 이러한 '락인(Lock-in)' 기회를 활용한 전략적 포지셔닝을 추진 중이다.",
@@ -1989,34 +1947,6 @@ window.SMR_NEWS = [
     "k": "좌초자산 석탄발전 남동발전 smr 전환으로 해법 모색",
     "id": "522cbbe7",
     "ko": 1
-  },
-  {
-    "date": "2026-06-20",
-    "title": "뉴스케일(NuScale), 버지니아주립대 와이즈 캠퍼스에 12번째 E2 센터 개설",
-    "summary": "뉴스케일 파워(NuScale Power)가 미국 버지니아주립대 와이즈(UVA Wise) 캠퍼스에 12번째 E2(교육·훈련) 센터를 개설하며 상용화 추진을 가속화하고 있다.",
-    "summaryLong": "뉴스케일 파워(NuScale Power)가 미국 버지니아주립대 와이즈(UVA Wise) 캠퍼스에 12번째 E2 센터를 개설했다. E2 센터는 뉴스케일의 소형모듈원자로(SMR) 기술과 상용 추진 전략을 홍보하고 인력 양성을 지원하는 교육·훈련 거점이다. 이번 개설은 뉴스케일이 미국 내 SMR 산업 생태계 구축과 공공 신뢰도 제고에 나서고 있음을 보여주며, 향후 상용화 계약 체결로 이어질 가능성이 있다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "foreignpolicyjournal.com",
-    "url": "https://www.foreignpolicyjournal.com/2026/06/20/nuscale-power-nyse-smr-opens-12th-e2-center-at-uva-wise-targeting-commercial-momentum/",
-    "k": "nuscale power nyse smr opens 12th e2 center at uva wise targeting commercial momentum",
-    "id": "469ea030"
-  },
-  {
-    "date": "2026-06-20",
-    "title": "오클로(Oklo), 센트러스(Centrus)와 고강화우라늄(HALEU) 연료 공급 계약 체결",
-    "summary": "오클로(Oklo)가 센트러스(Centrus)와 국내산 고강화우라늄(HALEU) 연료 공급 계약을 체결하고 오하이오주 핵연료 캠퍼스 사업을 추진한다.",
-    "summaryLong": "고속노형 소형모듈원자로(SFR) 개발사 오클로(Oklo)가 우라늄 농축 기업 센트러스(Centrus)와 고강화우라늄(HALEU, High-Assay Low-Enriched Uranium) 연료 공급 계약을 체결했다. 이는 오클로의 오하이오주 핵연료 캠퍼스 사업을 지원하기 위한 국내산 HALEU 공급을 확보한 것으로, 미국의 핵연료 자급화 정책 추진과 첨단로의 상용화 기반 구축을 의미한다. 센트러스의 HALEU 생산 능력 확보로 미국 내 고급 핵연료 공급망이 강화될 전망이다.",
-    "cat": "계약",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "foreignpolicyjournal.com",
-    "url": "https://www.foreignpolicyjournal.com/2026/06/20/oklo-nyse-oklo-secures-domestic-haleu-fuel-deal-with-centrus-nyse-leu-to-power-ohio-nuclear-campus/",
-    "k": "oklo nyse oklo secures domestic haleu fuel deal with centrus nyse leu to power ohio nuclear campus",
-    "id": "d1aa0809"
   },
   {
     "date": "2026-06-20",
@@ -2681,20 +2611,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-19",
-    "title": "센트루스 에너지(Centrus Energy), 오클로(Oklo) HALEU 공급 계약으로 주가 12.4% 상승",
-    "summary": "센트루스 에너지(Centrus Energy)가 오클로(Oklo)와 고농축우라늄(HALEU) 공급 계약을 체결하면서 주가가 12.4% 급등했다.",
-    "summaryLong": "센트루스 에너지(Centrus Energy)가 오클로(Oklo)와 고농축우라늄(HALEU, High-Assay Low-Enriched Uranium) 공급 계약을 체결하며 시장의 주목을 받았다. 이 계약으로 센트루스의 뉴욕증권거래소(NYSE) 상장 주식(LEU)이 12.4% 상승하며 강세를 보였다. 오클로의 오로라(Aurora) 소형모듈원자로(SMR) 다섯 기가 오하이오(Ohio)에 건설될 예정이며, 이번 연료 공급 계약은 미국의 첨단 원자로 개발 생태계 확대를 의미한다.",
-    "cat": "계약",
-    "type": "SFR",
-    "dev": "Centrus, Oklo",
-    "region": "US",
-    "source": "foreignpolicyjournal.com",
-    "url": "https://www.foreignpolicyjournal.com/2026/06/19/centrus-energy-nyse-leu-stock-price-surges-12-4-on-oklo-haleu-supply-deal-can-the-rally-continue/",
-    "k": "centrus energy nyse leu stock price surges 12 4 on oklo haleu supply deal can the rally continue",
-    "id": "0ccf1497"
-  },
-  {
-    "date": "2026-06-19",
     "title": "오클로(Oklo)·센트루스, 오하이오 오로라(Aurora) 5기용 HALEU 연료 공급 계약 체결",
     "summary": "오클로(Oklo)와 센트루스 에너지(Centrus Energy)가 오하이오의 오로라(Aurora) 소형모듈원자로 5기에 공급할 고농축우라늄(HALEU) 연료 공급 계약을 체결했다.",
     "summaryLong": "오클로(Oklo)와 센트루스 에너지(Centrus Energy)가 고농축우라늄(HALEU, High-Assay Low-Enriched Uranium) 연료 공급 계약을 공식 체결했다. 이 계약은 오클로의 오로라(Aurora) 소형모듈원자로(SMR) 5기가 오하이오(Ohio)에 건설될 때 필요한 연료를 센트루스가 공급하는 내용을 담고 있다. 센트루스는 미국의 주요 우라늄 농축 시설을 운영하는 기업으로, 이번 계약은 미국의 선진 원자로 개발 전략과 국내 우라늄 공급망 확보를 동시에 추진하는 정책의 일환이다.",
@@ -3316,20 +3232,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-18",
-    "title": "뉴스케일 파워(NuScale Power), 강세론과 약세론의 갈등 속 기로에 선 상황",
-    "summary": "뉴스케일 파워(NuScale Power)가 뉴욕증권거래소(NYSE)에 SMR(소형모듈원자로)로 상장된 후 투자자들의 상반된 평가 속에 있다.",
-    "summaryLong": "포린 폴리시 저널(Foreign Policy Journal)의 분석에 따르면 뉴스케일 파워(NuScale Power)가 현재 강세론자와 약세론자 간의 대립 속에서 중요한 기로에 처해 있다. NYSE에 SMR이라는 티커로 상장된 뉴스케일은 소형모듈원자로(PWR 기반) 기술의 선도 기업이지만, 상용화 일정 지연, 미국 아이다호 NuScale 프로젝트 조정, 그리고 경쟁 가열로 인해 투자자 신뢰가 흔들리고 있다. 회사의 향후 전략과 시장 성과가 주목되는 상황이다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "foreignpolicyjournal.com",
-    "url": "https://www.foreignpolicyjournal.com/2026/06/18/nuscale-power-nyse-smr-sits-at-a-crossroads-as-bulls-and-bears-battle-over-its-future/",
-    "k": "nuscale power nyse smr sits at a crossroads as bulls and bears battle over its future",
-    "id": "0c8a50ae"
-  },
-  {
-    "date": "2026-06-18",
     "title": "뉴스케일 파워(NuScale), 주요 안전 계약 체결로 SMR 주가 변동",
     "summary": "뉴스케일 파워(NuScale)가 핵심 안전 관련 계약을 체결하면서 SMR(소형모듈원자로) 주가가 변동했다.",
     "summaryLong": "스톡스투트레이드(StocksToTrade) 보도에 따르면 뉴스케일 파워(NuScale)가 주요 안전 계약(Key Safety Deal)을 체결했고, 이 소식이 NYSE SMR 티커의 주가에 변동을 가져왔다. 뉴스케일의 가압경수로(PWR) 기반 소형모듈원자로 기술 상용화 과정에서 안전 관련 계약 체결은 규제 협력과 기술 신뢰도를 높이는 중요한 진전으로 평가된다. 이는 회사의 상용화 일정과 비용 관리의 성공 가능성에 대한 시장의 신호를 반영하고 있다.",
@@ -3355,20 +3257,6 @@ window.SMR_NEWS = [
     "url": "https://www.stocktitan.net/sec-filings/LEU/8-k-centrus-energy-corp-reports-material-event-fde5f2510639.html",
     "k": "centrus energy nyse leu inks haleu fuel loi with oklo for 1 2 gw ohio campus",
     "id": "60461287"
-  },
-  {
-    "date": "2026-06-18",
-    "title": "오클로, 10조 달러 규모 핵에너지 기회의 중심",
-    "summary": "오클로가 10조 달러 규모로 평가되는 핵에너지 산업의 중심 기업으로 평가받고 있다.",
-    "summaryLong": "오클로(Oklo)가 10조 달러 규모로 추정되는 글로벌 핵에너지 시장 기회의 중심에 있다고 평가되고 있다. 소형모듈원자로(SMR)와 첨단 핵기술에 대한 수요 증가 속에서 오클로의 전략적 위치와 기술 포트폴리오가 주목받고 있다. 이는 SMR 산업의 성장 잠재력과 향후 시장 확대를 반영하는 평가이다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "foreignpolicyjournal.com",
-    "url": "https://www.foreignpolicyjournal.com/2026/06/18/oklo-nyse-oklo-sits-at-the-center-of-a-10-trillion-nuclear-energy-opportunity/",
-    "k": "oklo nyse oklo sits at the center of a 10 trillion nuclear energy opportunity",
-    "id": "e7f0b382"
   },
   {
     "date": "2026-06-18",
@@ -5139,20 +5027,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-16",
-    "title": "일본의 뉴스케일 파워(NuScale Power) 250억 달러 투자 계획, 주가 급등",
-    "summary": "일본이 미국의 뉴스케일 파워(NuScale Power)에 250억 달러를 투자하기로 하며 주가가 급등했다.",
-    "summaryLong": "일본이 미국의 소형모듈원자로(SMR) 개발사 뉴스케일 파워(NuScale Power)에 250억 달러 규모의 투자를 추진하면서 뉴스케일 파워의 나스닥(NYSE) 상장 주식(SMR)이 장외 거래에서 급등했다. 이는 일본의 SMR 기술 도입 및 상용화 의지를 보여주는 대규모 투자 발표다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale Power",
-    "region": "US",
-    "source": "foreignpolicyjournal.com",
-    "url": "https://www.foreignpolicyjournal.com/2026/06/16/japans-25-billion-nuscale-power-nyse-smr-investment-plan-sends-shares-surging-in-overnight-trading/",
-    "k": "japan s 25 billion nuscale power nyse smr investment plan sends shares surging in overnight trading",
-    "id": "3c729139"
-  },
-  {
-    "date": "2026-06-16",
     "title": "테라파워(TerraPower), 영국 진출…첫 해외 원전 추진",
     "summary": "테라파워(TerraPower)가 영국에 자회사 사무소를 열고 첫 해외 원전 사업에 진출했다. 영국 일반설계평가(GDA) 1단계도 개시했다.",
     "summaryLong": "미국 테라파워(TerraPower)가 영국에 자회사 사무소를 열며 첫 해외 원전 사업에 본격 진출했다. 2025년 10월 영국 규제당국에 일반설계평가(Generic Design Assessment, GDA)를 신청해 2026년 2월 에너지안보·넷제로부(DESNZ)의 공식 수용을 받았고, 최근 GDA 1단계(Step 1)를 시작했다. 크리스 르베스크(Chris Levesque) CEO는 영국의 청정에너지 미래를 지원하는 신뢰할 수 있는 장기 배치 파트너로 자리매김하겠다고 밝혔다. 와이오밍주 케머러(Kemmerer)에서 나트륨(Natrium) 실증 플랜트를 건설 중인 데 이어 해외로 사업을 넓히는 행보다.",
@@ -5756,20 +5630,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-15",
-    "title": "일본의 250억 달러 소형모듈원자로(SMR) 투자, 뉴스케일파워(NuScale Power) 주목",
-    "summary": "일본이 250억 달러(USD 25B) 규모의 소형모듈원자로(SMR) 투자를 발표하면서 뉴스케일파워(NuScale Power) 주가가 상승세를 보이고 있다.",
-    "summaryLong": "일본이 소형모듈원자로(SMR) 분야에 250억 달러 규모의 대규모 투자를 계획하고 있으며, 이러한 소식이 뉴스케일파워(NuScale Power) 주가에 긍정적 영향을 미치고 있다. 일본의 대규모 국가 투자는 글로벌 소형모듈원자로(SMR) 산업의 성장성을 시장에 증명하는 신호로 작용하고 있다. 뉴스케일파워(NuScale Power)는 미국 주요 소형모듈원자로(SMR) 개발사로서 이러한 국제적 수요 증대의 수혜자로 평가되고 있다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "JP",
-    "source": "foreignpolicyjournal.com",
-    "url": "https://www.foreignpolicyjournal.com/2026/06/15/japans-25b-smr-investment-puts-nuscale-power-nyse-smr-stock-in-the-spotlight/",
-    "k": "japan s 25b smr investment puts nuscale power nyse smr stock in the spotlight",
-    "id": "e6e9d2f6"
-  },
-  {
-    "date": "2026-06-15",
     "title": "기장군, 혁신형 소형모듈원자로(i-SMR) 유치 총력전",
     "summary": "부산 기장군이 18만 군민의 염원을 담아 혁신형 소형모듈원자로(i-SMR) 유치에 나섰다.",
     "summaryLong": "부산의 기장군이 18만 군민의 지지를 바탕으로 혁신형 소형모듈원자로(i-SMR) 유치를 위한 범군 차원의 총력 추진에 나섰다. 이는 지역 경제 활성화와 에너지 자립을 목표로 하는 정책 추진으로, 소형모듈원자로 개발이 지자체 유치 경쟁으로 확대되고 있음을 보여준다. 기장군의 적극적인 유치 활동은 향후 부지 선정 및 인허가 절차로 이어질 것으로 예상된다.",
@@ -6035,34 +5895,6 @@ window.SMR_NEWS = [
     "k": "smr 선두 뉴스케일 10억 불 실탄에도 첫 수익 2030년 지금 들어가도 되나",
     "id": "deb79fd0",
     "ko": 1
-  },
-  {
-    "date": "2026-06-14",
-    "title": "오클로(Oklo) 미국 에너지부(DOE) 안전분석 승인 이후 주가 전망",
-    "summary": "소듐냉각고속로 개발사 오클로가 미국 에너지부로부터 안전분석 승인을 획득했으며, 이에 따른 주가 영향을 분석한다.",
-    "summaryLong": "고속로(SFR) 전문 개발사 오클로(Oklo Inc.)가 미국 에너지부(DOE)로부터 안전분석 승인을 받음으로써 규제 마일스톤을 달성했다. 이는 오클로의 오로라(Aurora) 원자로 프로젝트 개발에 중요한 진전이며, 투자자들의 주가 전망에 긍정적 영향을 미칠 것으로 예상된다. 뉴욕증권거래소(NYSE) 상장사인 오클로는 첨단로 상용화 경쟁에서 경쟁력을 강화했다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "foreignpolicyjournal.com",
-    "url": "https://www.foreignpolicyjournal.com/2026/06/14/whats-next-for-oklo-nyseoklo-stock-price-following-doe-safety-approval/",
-    "k": "what s next for oklo nyse oklo stock price following doe safety approval",
-    "id": "852dc74c"
-  },
-  {
-    "date": "2026-06-14",
-    "title": "뉴스케일 파워(NuScale Power), 주가가 사상 고점 대비 75% 하락",
-    "summary": "뉴스케일의 주가가 사상 최고가 대비 75% 하락했으며, 투자자들이 3년 전망을 재검토 중이다.",
-    "summaryLong": "뉴욕증권거래소(NYSE)에 상장된 뉴스케일 파워(NuScale Power, 티커: SMR)의 주가가 사상 최고가 대비 75% 하락했다. 투자자들이 회사의 3년 사업 전망을 신중하게 평가하고 있으며, 이는 소형모듈원자로(SMR) 시장의 불확실성과 상용화 일정 지연에 따른 우려를 반영한다. 뉴스케일은 미국의 주요 SMR 개발사로, 이러한 주가 변동은 첨단로 업계 전반의 자본 시장 심리를 대표한다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "foreignpolicyjournal.com",
-    "url": "https://www.foreignpolicyjournal.com/2026/06/14/nuscale-power-nyse-smr-stock-price-sits-75-below-all-time-highs-as-investors-weigh-a-3-year-outlook/",
-    "k": "nuscale power nyse smr stock price sits 75 below all time highs as investors weigh a 3 year outlook",
-    "id": "c730c261"
   },
   {
     "date": "2026-06-14",
@@ -7280,20 +7112,6 @@ window.SMR_NEWS = [
     "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-reactor-progress-deals-reframe-042436816.html",
     "k": "oklo s reactor progress and deals reframe risks and opportunity for investors",
     "id": "1baf6fc5"
-  },
-  {
-    "date": "2026-06-05",
-    "title": "뉴스케일 파워(NuScale Power), 소형모듈원자로 규제 우위 점유",
-    "summary": "뉴스케일 파워가 소형모듈원자로 시장 경쟁에서 규제 승인 측면의 경쟁 우위를 보유하고 있다.",
-    "summaryLong": "미국의 뉴스케일 파워(NuScale Power, 나스닥 상장 기호: SMR)가 소형모듈원자로(SMR) 산업의 빠른 성장 속에서 규제 승인 분야에서 경쟁 우위를 보유하고 있다고 평가되고 있다. 설계인증(design certification) 등 규제 진전이 상용화 시기를 좌우하는 SMR 시장에서 규제 선점의 중요성이 강조되고 있다.",
-    "cat": "인허가",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "foreignpolicyjournal.com",
-    "url": "https://www.foreignpolicyjournal.com/2026/06/05/nuscale-power-nyse-smr-holds-regulatory-edge-in-growing-small-modular-reactor-race/",
-    "k": "nuscale power nyse smr holds regulatory edge in growing small modular reactor race",
-    "id": "0cb52c03"
   },
   {
     "date": "2026-06-05",

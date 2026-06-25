@@ -66,6 +66,12 @@ const PRIORITY_DEVS = [
   'kairos','oklo','holtec','smr-300','rolls-royce','smart100','i-smr','seaborg','saltfoss','arc-100','arc clean',
   'westinghouse','ap300','evinci','혁신형',
 ];
+// hosts excluded entirely — dead, blocked-in-Korea (SNI reset → ERR_CONNECTION_CLOSED), or
+// low-quality SEO/stock republishers whose links don't open for users. Checked against the
+// RESOLVED final URL (after the Google News redirect is unwound), in ensureDetail.
+const BLOCK_HOSTS = ['foreignpolicyjournal.com'];
+const isBlockedHost = (url) => BLOCK_HOSTS.some(h => (url||'').includes(h));
+
 // cross-source dedup key: normalized headline (also strips Google News " - Publisher" suffix)
 const dedupKey = (title) => String(title).toLowerCase()
   .replace(/\s+[-–—|]\s+[^-–—|]+$/, '')
@@ -500,6 +506,7 @@ function writeDetail(id, item, d){
 }
 async function ensureDetail(item){          // generate + persist detail; sets item.id (new-item path: skip if exists)
   item.url = await resolveGoogleNews(item.url);   // Google News redirect → real publisher URL
+  if (isBlockedHost(item.url)) { item.blocked = true; return false; }   // dead/blocked/junk host → drop
   item.source = cleanSource(item.source, item.url);
   const id = articleId(item.url);
   item.id = id;
@@ -686,6 +693,9 @@ async function main(){
     let di = 0;
     const dworker = async () => { while (di < adds.length){ await ensureDetail(adds[di++]); } };
     await Promise.all(Array.from({ length: 6 }, dworker));
+    const before = adds.length;
+    adds = adds.filter(n => !n.blocked);                       // drop blocked/dead hosts
+    if (adds.length !== before) console.log(`dropped ${before-adds.length} blocked-host item(s)`);
   }
   // always rewrite so SMR_UPDATED reflects THIS run (last-checked time), even with 0 new items
   writeData(existing.concat(adds));
