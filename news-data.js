@@ -572,6 +572,49 @@ window.SMR_NEWS = [
     "id": "ec2fe767"
   },
   {
+    "date": "2026-06-24",
+    "title": "오클로 주식, 수요일 변동성 보임",
+    "summary": "오클로(Oklo) 주식의 단기 변동성에 대한 시장 분석 기사다.",
+    "summaryLong": "오클로(Oklo) 주식의 수요일 거래 움직임과 변동성을 다루는 시장 분석 기사다. SMR 및 첨단로 개발사인 오클로의 주가 변동은 투자자들의 관심을 받고 있으며, 이는 소형모듈원자로 산업의 상업화 진전에 따른 시장 반응을 반영한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "오클로",
+    "region": "US",
+    "source": "benzinga.com",
+    "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60067690/whats-going-on-with-oklo-stock-wednesday-3",
+    "k": "what s going on with oklo stock wednesday",
+    "op": 1,
+    "id": "04c44339"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "한미글로벌, 미국 SMR 사업 추진 위해 현지 법인 설립 계획",
+    "summary": "한국의 한미글로벌이 미국의 SMR 프로젝트 진출을 위해 미국 법인 설립을 추진하고 있다.",
+    "summaryLong": "한국의 한미글로벌이 미국의 소형모듈원자로(SMR) 사업 진출을 위해 현지 법인 설립을 계획하고 있다. 이를 통해 미국 SMR 시장 공략을 본격화하려는 전략으로, 한국 원전기업의 글로벌 확장 움직임을 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한미글로벌",
+    "region": "US",
+    "source": "upi.com",
+    "url": "https://www.upi.com/Top_News/World-News/2026/06/24/hanmiglobal-smr-us-data-center-electricity-demand/6061782344833/",
+    "k": "south korea s hanmiglobal plans u s unit for smr projects",
+    "id": "f5f22173"
+  },
+  {
+    "date": "2026-06-24",
+    "title": "캐나다 앨더빌, 덜링톤 소형모듈원자로 프로젝트에 투자",
+    "summary": "캐나다 앨더빌 퍼스트네이션(First Nations)이 덜링톤 소형모듈원자로 프로젝트에 투자에 참여한다.",
+    "summaryLong": "캐나다의 앨더빌(Alderville)을 포함한 퍼스트네이션(First Nations) 공동체들이 덜링톤(Darlington) 소형모듈원자로(SMR) 프로젝트에 투자하고 있다. 캐나다의 SMR 개발 사업이 지역사회 투자자들의 참여를 확대하고 있음을 보여주는 사례다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "CA",
+    "source": "brightontoday.ca",
+    "url": "https://www.brightontoday.ca/2026/06/24/alderville-among-first-nations-investing-in-darlington-small-modular-reactor-project/",
+    "k": "alderville among first nations investing in darlington small modular reactor project",
+    "id": "0c2ec34c"
+  },
+  {
     "date": "2026-06-23",
     "title": "오클로(Oklo): 매도 제언 이후 거의 모든 것이 변했다 - 거의",
     "summary": "오클로(Oklo) 주식에 대한 투자 분석 칼럼으로, 이전 매도 제언 이후의 변화를 평가하는 의견 글.",
@@ -1494,6 +1537,21 @@ window.SMR_NEWS = [
     "k": "oklo stock has fallen 70 from its peak here is what it would take for the nuclear bet to pay off",
     "op": 1,
     "id": "07b2ef53"
+  },
+  {
+    "date": "2026-06-22",
+    "title": "해양대, 세계 첫 해양 SMR 추진단 출범…국제인증 허브 추진",
+    "summary": "해양대학교가 해상 소형모듈원자로(SMR) 추진단을 세계 최초로 출범하고 국제인증 허브 구축을 추진한다.",
+    "summaryLong": "해양대학교가 해상 소형모듈원자로(SMR) 개발 및 인증 전문 추진단을 세계 최초로 출범했다. 이는 해상 환경에서의 SMR 운영과 안전성 검증을 위한 국제 인증 허브 구축을 목표로 하는 구상이다. 해양 SMR은 도서 지역, 해수담수화, 해양 에너지 수요 충족 등 다양한 활용 가능성을 제시한다. 해양대학교의 해양 관련 전문성과 국제 네트워크가 국제 인증 허브 운영에 활용될 예정이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "해양대학교",
+    "region": "KR",
+    "source": "daily.hankooki.com",
+    "url": "https://daily.hankooki.com/news/articleView.html?idxno=1378516",
+    "k": "해양대 세계 첫 해양 smr 추진단 출범 국제인증 허브로 항해 시작",
+    "ko": 1,
+    "id": "c81a9608"
   },
   {
     "date": "2026-06-21",
@@ -11064,4 +11122,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-25 16:01 KST";
+window.SMR_UPDATED = "2026-06-25 16:53 KST";
