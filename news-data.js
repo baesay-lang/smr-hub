@@ -8,6 +8,96 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-06-25",
+    "title": "한국 첫 SMR, 부산 기장 최종 선정",
+    "summary": "정부와 한국수력원자력(한수원)이 추진하는 혁신형 소형모듈원자로(i-SMR) 초도호기 부지로 부산 기장군이 최종 선정됐다. SMR은 AI·데이터센터 수요 증가에 대응하는 차세대 전원으로 주목받고 있다.",
+    "summaryLong": "정부와 한국수력원자력(한수원)이 추진하는 혁신형 소형모듈원자로(i-SMR) 초도호기 부지로 부산 기장군이 최종 선정됐다. 부산 기장은 1978년 고리1호기 상업운전 이후 한국 원전의 중심지로 자리잡아 있으며, 이번 선정으로 SMR 시대의 새로운 출발점이 될 것으로 기대된다. 미국·중국 등 주요국이 SMR 상용화 경쟁에 진입한 가운데, 한국도 SMR을 미래 수출산업의 핵심 축으로 육성하고 있으며, 기장이 그 첫 출발지가 되는 의미를 갖는다. AI와 데이터센터 확산으로 전력 수요가 급증하는 상황에서 SMR은 차세대 전원으로 주목받고 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "한수원",
+    "region": "KR",
+    "source": "전기신문 - 전체기사",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=369452",
+    "k": "데스크시선 대한민국 첫 smr 기장이 해냈다 이제 부산시가 응답할 차례다",
+    "ko": 1,
+    "id": "2c8bbfd1"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "오클로(Oklo), 고속핵분열로 배치 가속화 위해 유연한 인허가 경로 추진",
+    "summary": "오클로(Oklo)가 고속핵분열로(Fast Fission Reactor) 배치를 가속화하기 위해 유연한 인허가 경로 추진을 발표했다.",
+    "summaryLong": "오클로(Oklo)가 자사 고속핵분열로(Fast Fission Reactor) 배치를 가속화하기 위해 미국 에너지규제위원회(NRC) 등과 협력하여 유연한 인허가 경로를 추진하고 있다. 이는 첨단 소형모듈원자로의 인허가 절차 개선과 규제 협력을 통해 상용화 일정을 단축하려는 노력을 반영한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "오클로",
+    "region": "US",
+    "source": "foreignpolicyjournal.com",
+    "url": "https://www.foreignpolicyjournal.com/2026/06/24/oklo-inc-nyse-oklo-pursues-flexible-licensing-path-to-accelerate-fast-fission-reactor-deployment/",
+    "k": "oklo inc nyse oklo pursues flexible licensing path to accelerate fast fission reactor deployment",
+    "id": "221832bd"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "생기원, 2026 전기산업엑스포서 SMR·원전해체 기술 성과 공개",
+    "summary": "한국생산기술연구원(생기원)이 2026 대한민국 전기산업엑스포에서 소형모듈원전(SMR)과 원전해체 분야 R&D 성과 및 기업 지원 사례를 선보였다.",
+    "summaryLong": "한국생산기술연구원(생기원) 동남기술실용화본부가 2026 대한민국 전기산업엑스포에서 소형모듈원전(SMR)과 원전해체, 수소, 이차전지 등 미래 에너지산업 분야의 연구개발 성과와 기업 지원 사례를 공개했다. 생기원은 극한에너지 분야를 중심으로 추진 중인 R&D 성과를 소개하고, SMR과 원전해체를 미래 원전산업의 핵심 먹거리로 집중 소개하였으며, 시제품 제작 지원사업 등을 통해 아이디어에서 상용화까지의 과정을 전시했다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "생기원",
+    "region": "KR",
+    "source": "전기신문 - 전체기사",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=369455",
+    "k": "2026 대한민국전기산업엑스포 생기원 smr 원전해체 기술사업화 성과 공개",
+    "ko": 1,
+    "id": "2d8bc164"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "코소파콜, 전기산업엑스포서 발전·원전 플랜트용 제어밸브 기술 소개",
+    "summary": "이탈리아 제어밸브 전문기업 코소파콜(KOSO PARCOL)이 2026 전기산업엑스포에서 소형모듈원전(SMR) 등 차세대 에너지용 제어밸브 기술을 소개했다.",
+    "summaryLong": "1954년 설립된 이탈리아 제어밸브 전문기업 코소파콜(KOSO PARCOL)이 2026 대한민국 전기산업엑스포에 두 번째 참가하여 발전·원자력·석유화학 플랜트용 제어밸브 기술을 선보였다. 매출의 약 75%가 에너지 분야에서 발생하는 기업으로, 최근 소형모듈원전(SMR) 등 차세대 에너지 분야로 사업 영역을 확대하고 있으며, 이번 전시회를 통해 국내 시장 공략을 추진하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "코소파콜",
+    "region": "EU",
+    "source": "전기신문 - 전체기사",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=369453",
+    "k": "2026 대한민국전기산업엑스포 코소파콜 발전 원전 플랜트용 제어밸브 기술력 알려",
+    "ko": 1,
+    "id": "2b8bbe3e"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "서울대, SMR 시대 안전규제 미래 논의…26일 원자력안전규제 워크숍 개최",
+    "summary": "서울대학교가 소형모듈원자로(SMR) 시대의 안전규제 과제를 다루는 워크숍을 개최한다.",
+    "summaryLong": "서울대학교가 소형모듈원자로(SMR) 시대 도래에 대응한 원자력안전규제의 미래 방향을 논의하는 워크숍을 26일 개최한다. 이는 SMR 도입에 따른 규제 프레임워크 개선과 안전 정책 발전을 위한 학계와 산업계의 협력 논의로, SMR 시장 확대에 앞서 규제 인프라 정비의 중요성을 반영한 이니셔티브다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4683",
+    "k": "서울대 smr 시대 안전규제 미래 논의 26일 원자력안전규제 워크숍",
+    "ko": 1,
+    "id": "5fede771"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "경주시 SMR 탈락, 거듭돼선 안 된다",
+    "summary": "경주시가 소형모듈원자로(SMR) 선정에서 탈락한 것을 비판하는 사설/칼럼이다.",
+    "summaryLong": "경주시가 정부의 소형모듈원자로(SMR) 입지 선정 과정에서 탈락한 것을 다룬 칼럼으로, 지역의 원자력 산업 육성 기회 상실에 대한 우려와 비판을 제기하는 내용이다. 이는 사실 보도가 아닌 오피니언 성 칼럼으로 분류된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "m.srbsm.co.kr",
+    "url": "http://m.srbsm.co.kr/view.php?idx=56275&referer=",
+    "k": "경주시 smr 탈락 거듭돼선 안된다",
+    "ko": 1,
+    "op": 1,
+    "id": "d3d102f4"
+  },
+  {
     "date": "2026-06-24",
     "title": "K-원전 경쟁력 선보인 EPEK 2026…SMR·사용후핵연료 관리 기술 공개",
     "summary": "한수원·한전기술·두산에너빌리티가 2026 대한민국 전기산업엑스포(EPEK 2026)에서 APR1000, 혁신형 소형모듈원전(i-SMR), 사용후핵연료 관리 기술 등 원전 전주기 역량을 선보였다.",
@@ -8535,6 +8625,20 @@ window.SMR_NEWS = [
     "id": "f5756e30"
   },
   {
+    "date": "2026-04-30",
+    "title": "LG&E·KU, 엑스에너지(X-energy)와 협력하여 핵에너지 탐색",
+    "summary": "미국 전력회사 LG&E·KU(Louisville Gas and Electric & Kentucky Utilities)가 엑스에너지(X-energy)와 협력하여 핵에너지 활용 방안을 탐색하기로 했다.",
+    "summaryLong": "미국 전력회사 LG&E·KU(Louisville Gas and Electric & Kentucky Utilities)가 고온가스로(HTGR) 전문기업 엑스에너지(X-energy)와 협력하여 핵에너지 도입 및 활용 방안을 공동으로 탐색하기로 합의했다. 이는 지역 전력회사의 소형모듈원자로·첨단로 도입 검토를 보여주는 사례이며, 향후 계약·투자로 이어질 가능성을 시사한다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "엑스에너지",
+    "region": "US",
+    "source": "x-energy.com",
+    "url": "https://x-energy.com/news/lg-and-e-and-ku-collaborate-with-x-enrgy-to-explore-nuclear-energy/",
+    "k": "lg e ku collaborate with x energy to explore nuclear energy news x energy",
+    "id": "af2886c7"
+  },
+  {
     "date": "2026-04-29",
     "title": "미국 핵규제위원회(NRC) Part 53 발효, 첨단로 전용 인허가 트랙 개설",
     "summary": "위험정보·성능기반·기술포괄 신규 인허가 트랙 발효. 현재 신청자 0건이나 향후 비경수로 소형모듈원자로의 주요 인허가 경로 역할 전망.",
@@ -10960,4 +11064,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-25 08:53 KST";
+window.SMR_UPDATED = "2026-06-25 16:01 KST";
