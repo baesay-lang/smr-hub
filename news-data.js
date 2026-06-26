@@ -156,6 +156,138 @@ window.SMR_NEWS = [
     "id": "eca4c96d"
   },
   {
+    "date": "2026-06-26",
+    "title": "롤스로이스(Rolls-Royce) SMR, 더비(Derby)에 파이어니어 공장 개설",
+    "summary": "롤스로이스(Rolls-Royce)가 영국(UK) 더비(Derby)에 소형모듈원자로(SMR) 생산 시설인 파이어니어 공장을 개설한다.",
+    "summaryLong": "영국(UK) 원전 제조사 롤스로이스(Rolls-Royce)가 더비(Derby)에 파이어니어 공장(Pioneer Works)을 개설할 예정이다. 이 시설은 소형모듈원자로(SMR) 제조 및 조립을 위한 생산 기지가 될 것이다. 이는 영국(UK)의 선진 원자력 기술 산업화 전략의 일환이며, 롤스로이스(Rolls-Royce)의 SMR 상용화 추진에 있어 중요한 마일스톤이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "UK",
+    "source": "niauk.org",
+    "url": "https://www.niauk.org/rolls-royce-smr-to-open-pioneer-works-in-derby/",
+    "k": "rolls royce smr to open pioneer works in derby",
+    "id": "80d8a4e5"
+  },
+  {
+    "date": "2026-06-26",
+    "title": "뉴스케일(NuScale Power) 주가 100년 후 전망",
+    "summary": "뉴스케일(NuScale)의 장기 주가 전망에 대한 분석 기사이다.",
+    "summaryLong": "모틀리풀(The Motley Fool)이 소형모듈원자로(SMR) 개발사 뉴스케일(NuScale Power)의 100년 후 주가 전망을 다룬 분석 기사이다. 이는 뉴스케일(NuScale)을 포함한 첨단 원자력 기술 개발사들의 장기적 성장 가능성을 평가하는 내용으로 보인다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/06/26/where-will-nuscale-power-stock-be-in-100-years/",
+    "k": "where will nuscale power stock be in 100 years",
+    "op": 1,
+    "id": "25c37519"
+  },
+  {
+    "date": "2026-06-26",
+    "title": "뉴스케일(NuScale Power) 주가 하락, 핵에너지 기대감 vs 밸류에이션 의문",
+    "summary": "뉴스케일(NuScale Power)의 주가가 하락하며 핵에너지 산업 전망과 기업 밸류에이션 간 괴리가 드러났다.",
+    "summaryLong": "뉴스케일(NuScale Power)의 주가가 하락하고 있으며, 이는 원자력 산업의 긍정적 전망에도 불구하고 기업의 적절한 밸류에이션에 대한 의문이 제기되고 있음을 보여준다. 소형모듈원자로(SMR) 개발 업체로서의 기술적 잠재력과 시장 현실 사이의 격차가 투자자들의 신중한 태도로 이어지고 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "simplywall.st",
+    "url": "https://simplywall.st/stocks/us/capital-goods/nyse-smr/nuscale-power/news/nuscale-power-smr-sinks-as-nuclear-hopes-meet-a-big-valuatio",
+    "k": "nuscale power smr sinks as nuclear hopes meet a big valuation question",
+    "op": 1,
+    "id": "392f1c6c"
+  },
+  {
+    "date": "2026-06-26",
+    "title": "엑스에너지(X-Energy) 임원, 보유 주식 및 옵션 정정",
+    "summary": "엑스에너지(X-Energy)의 임원이 보유 중인 보통주 및 옵션 수량을 정정 보고했다.",
+    "summaryLong": "첨단 고온가스로(HTGR) 개발사인 엑스에너지(X-Energy)의 임원이 보유한 보통주 및 옵션의 보유량을 정정 공시했다. 이는 기업 지배구조 투명성 관련 정기 공시로 보인다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "stocktitan.net",
+    "url": "https://www.stocktitan.net/sec-filings/XE/form-3-a-x-energy-inc-amended-initial-statement-of-beneficial-ownersh-3e75766ed80e.html",
+    "k": "x energy xe director corrects prior common share and option totals",
+    "id": "01b191a2"
+  },
+  {
+    "date": "2026-06-26",
+    "title": "엑스에너지(X-Energy), 가장 유망한 신기술 주식 중 하나로 선정",
+    "summary": "엑스에너지(X-Energy)가 투자 분석 기관에서 유망한 신기술 주식으로 평가받았다.",
+    "summaryLong": "인사이더 몽키(Insider Monkey)가 엑스에너지(X-Energy)를 가장 유망한 신기술 주식 중 하나로 평가했다. 고온가스로(HTGR) 기술 기반의 첨단 원자로 개발사로서 장기 성장 잠재력을 인정받은 것으로 보인다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "insidermonkey.com",
+    "url": "https://www.insidermonkey.com/blog/x-energy-xe-among-our-most-promising-new-technology-stocks-1789773/",
+    "k": "x energy xe among our most promising new technology stocks",
+    "op": 1,
+    "id": "52080311"
+  },
+  {
+    "date": "2026-06-26",
+    "title": "오클로(Oklo) 주가 조정, 주요 지지선 주시",
+    "summary": "오클로(Oklo)의 주가가 조정되며 트레이더들이 핵심 지지선을 관찰 중이다.",
+    "summaryLong": "오클로(Oklo)의 주가가 기술적 조정 국면에 진입했으며, 시장 참여자들이 주요 지지 수준을 주시하고 있다. 오클로(Oklo)는 첨단 고속로(SFR) 기술 기반의 소형모듈원자로(SMR) 개발사이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "timothysykes.com",
+    "url": "https://www.timothysykes.com/news/oklo-inc-oklo-news-2026_06_26/",
+    "k": "oklo stock pulls back as traders watch key support",
+    "op": 1,
+    "id": "c3d78802"
+  },
+  {
+    "date": "2026-06-26",
+    "title": "원자력주와 소형모듈원자로, 큰 승리 거두나…미국 에너지부(DOE) 마감일 다가와",
+    "summary": "소형모듈원자로와 원자력 관련 주식이 정부 지원 및 정책 추진 가운데 주요 진전을 이루고 있으나, 미국 에너지부 마감일이 임박했다.",
+    "summaryLong": "소형모듈원자로(SMR) 업계와 원자력 관련 기업들이 정부 정책 지원과 투자 흐름 속에서 상당한 진전을 보이고 있다. 미국 에너지부(DOE)의 각종 지원 프로그램, 인허가 승인, 자금 지원 등이 이루어지는 가운데, 특정 마감일이 다가오고 있어 업계의 시간 관리가 중요해지고 있다. 이는 미국 정부의 SMR 정책 추진이 활발하게 진행 중이며, 여러 후보 기업들의 경쟁이 본격화되고 있음을 시사한다.",
+    "cat": "정책",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "investors.com",
+    "url": "https://www.investors.com/news/nuclear-stocks-small-modular-reactors-smr-doe-deadline/",
+    "k": "nuclear stocks and small modular reactors ace big wins a doe deadline looms",
+    "id": "ea4e3a5d"
+  },
+  {
+    "date": "2026-06-26",
+    "title": "글로벌 SMR 경쟁 본격화, 한국은 '기술'은 있으나 '속도' 문제",
+    "summary": "글로벌 소형모듈원자로 시장 경쟁이 격화되는 가운데 한미글로벌이 미국 SMR 사업 법인 설립을 추진 중이다.",
+    "summaryLong": "세계적으로 소형모듈원자로(SMR) 시장 경쟁이 본격화되고 있다. 한국의 한미글로벌이 미국 SMR 시장 진출을 목표로 현지 법인 설립을 추진 중이며, AI 데이터센터 전력 수요 증가에 따른 SMR 시장 성장이 예상되고 있다. 다만 한국은 SMR 기술 역량은 보유하고 있으나, 글로벌 상용화 시장에서의 속도 경쟁에서 뒤처질 수 있다는 지적이 제기되고 있으며, 이는 규제 인가, 투자 확보, 사업화 추진 속도의 중요성을 강조한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한미글로벌",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260627060148078",
+    "k": "글로벌 smr 경쟁 본격화 한국 기술 은 있는데 속도 가 문제 이유범의 에코 에너지",
+    "ko": 1,
+    "id": "bbe35b39"
+  },
+  {
+    "date": "2026-06-26",
+    "title": "SMR vs BWXT: 어느 원자력 주식이 더 매력적인가",
+    "summary": "SMR 기술과 원자력 산업 관련 주식 투자 매력도를 비교 분석하는 칼럼성 보도다.",
+    "summaryLong": "뉴스케일(NuScale), 엑스에너지(X-energy), 오클로(Oklo), 테라파워(TerraPower), 카이로스파워(Kairos Power), 롤스로이스 SMR(Rolls-Royce SMR), BWRX-300, eVinci 등 주요 SMR 및 첨단로 개발사와 원자력 산업 관련 기업들의 주식 투자 가치를 분석하고 비교하는 내용이다. 투자 관점에서 다양한 SMR 기술 및 업체의 경쟁력을 평가하는 칼럼성 보도로, SMR 산업의 동향을 반영한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "tradingview.com",
+    "url": "https://www.tradingview.com/news/zacks:ca348063e094b:0-smr-or-bwxt-why-one-nuclear-stock-looks-more-attractive/",
+    "k": "smr or bwxt why one nuclear stock looks more attractive",
+    "op": 1,
+    "id": "1a8ecd26"
+  },
+  {
     "date": "2026-06-25",
     "title": "한국 첫 SMR, 부산 기장 최종 선정",
     "summary": "정부와 한국수력원자력(한수원)이 추진하는 혁신형 소형모듈원자로(i-SMR) 초도호기 부지로 부산 기장군이 최종 선정됐다. SMR은 AI·데이터센터 수요 증가에 대응하는 차세대 전원으로 주목받고 있다.",
@@ -6121,6 +6253,21 @@ window.SMR_NEWS = [
     "id": "73ea2924"
   },
   {
+    "date": "2026-06-15",
+    "title": "스웨덴 신규 원전, 롤스로이스(Rolls-Royce) SMR 최종 선정",
+    "summary": "스웨덴이 신규 원전 사업에 롤스로이스(Rolls-Royce)의 소형모듈원자로(SMR)를 최종 선정했다.",
+    "summaryLong": "스웨덴이 신규 원전 프로젝트의 기술 파트너로 영국의 롤스로이스(Rolls-Royce) SMR을 최종 선정했다. 이는 스웨덴의 에너지 정책과 탄소중립 목표 달성을 위한 신규 원전 계획의 일환으로, 롤스로이스 SMR 기술이 국제 경쟁에서 선정된 것으로 의미가 있다. 이 결정은 롤스로이스 SMR의 상업화 및 국제 진출 가능성을 보여주는 중요한 사례이며, 유럽 내 SMR 도입 확대 추세를 반영한다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "UK",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4498",
+    "k": "스웨덴 신규 원전 롤스로이스 smr 최종 선정",
+    "ko": 1,
+    "id": "395bec9f"
+  },
+  {
     "date": "2026-06-14",
     "title": "우즈베키스탄 소형모듈원자로 수출 프로젝트 기공",
     "summary": "소형모듈원자로의 첫 수출 프로젝트가 우즈베키스탄에서 기공식을 개최했다.",
@@ -7286,6 +7433,21 @@ window.SMR_NEWS = [
     "id": "8b783c61"
   },
   {
+    "date": "2026-06-08",
+    "title": "원자력연구원, 용융염로(MSR) SMR 적용 자동차운반선 개념설계 완료·로이드선급 기본승인 획득",
+    "summary": "한국원자력연구원이 용융염로(MSR) SMR을 적용한 자동차운반선의 개념설계를 완료하고 로이드선급(Lloyd's Register)으로부터 기본승인을 획득했다.",
+    "summaryLong": "한국원자력연구원이 소형모듈원자로(SMR) 기술, 특히 용융염로(MSR) 기반 설계를 선박 추진 동력으로 활용하는 자동차운반선의 개념설계를 완료했다. 이 설계는 국제 선급 기관인 로이드선급(Lloyd's Register)으로부터 기본승인(AiP, Approval in Principle)을 취득하여 기술적 타당성을 인정받았다. 이는 SMR의 해양 응용 분야 확대를 의미하며, 탄소중립 선박 추진 기술 개발의 중요한 마일스톤이다.",
+    "cat": "기술",
+    "type": "MSR",
+    "dev": "원자력연구원",
+    "region": "KR",
+    "source": "epj.co.kr",
+    "url": "https://www.epj.co.kr/news/articleView.html?idxno=38718",
+    "k": "원자력연구원 msr smr 적용 자동차운반선 개념설계 로이드선급 기본승인 획득",
+    "ko": 1,
+    "id": "050ca417"
+  },
+  {
     "date": "2026-06-07",
     "title": "미국(USA), 마이크로 원자로로 핵 르네상스 추진, 글로벌 시장 진출",
     "summary": "미국이 소형모듈원자로(SMR) 및 마이크로 원자로 기술로 핵 르네상스를 견인하며 국제 시장 진출을 추진 중이다.",
@@ -7467,6 +7629,21 @@ window.SMR_NEWS = [
     "k": "미국 에너지부 smr 개발 위한 기술조건 달성 민간 지원 정책에 성과 나와",
     "ko": 1,
     "id": "d932af93"
+  },
+  {
+    "date": "2026-06-05",
+    "title": "뉴스케일(NuScale) 투자 내러티브 변화, 애널리스트 목표 미갱신",
+    "summary": "뉴스케일 파워의 투자 관점이 진화하고 있으나, 애널리스트들의 목표주가 갱신이 따라가지 못하고 있다.",
+    "summaryLong": "뉴스케일 파워를 둘러싼 투자자 내러티브가 점진적으로 변화하고 있으나, 주요 애널리스트들의 목표주가(analyst targets)는 이를 충분히 반영하지 못한 상태다. SMR의 정책적 지원, 기술 진전, 시장 기회 확대 등에 대한 투자자들의 인식이 높아지고 있는 반면, 공식 애널리스트 리포트의 업데이트 속도는 뒤처지고 있다는 평가로, SMR 업계의 발전 속도와 시장 평가 간 괴리를 드러낸다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/nuscale-power-smr-investment-narrative-120658778.html",
+    "k": "how the nuscale power smr investment narrative is evolving without new analyst targets",
+    "op": 1,
+    "id": "7b4883d7"
   },
   {
     "date": "2026-06-04",
@@ -11600,4 +11777,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-26 17:22 KST";
+window.SMR_UPDATED = "2026-06-27 07:48 KST";
