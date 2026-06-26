@@ -466,6 +466,21 @@ window.SMR_NEWS = [
     "id": "cbaedae8"
   },
   {
+    "date": "2026-06-25",
+    "title": "서울대 원자력미래기술정책연구소, SMR·차세대 원자로 규제체계 방향 모색",
+    "summary": "서울대 원자력미래기술정책연구소가 소형모듈원자로(SMR) 및 차세대 원자로의 규제 체계 정책을 연구하고 있다.",
+    "summaryLong": "서울대학교 원자력미래기술정책연구소는 소형모듈원자로(SMR)와 차세대 원자로 기술의 상용화를 지원하기 위해 향후 규제 체계의 방향성을 모색하는 정책 연구를 추진하고 있다. 이는 한국의 SMR 및 첨단 원자로 개발이 국제 경쟁력을 갖추도록 규제 환경을 정비하려는 국책 차원의 노력으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Seoul National University",
+    "region": "KR",
+    "source": "e-platform.net",
+    "url": "http://www.e-platform.net/news/articleView.html?idxno=103297",
+    "k": "서울대 원자력미래기술정책연구소 smr 차세대 원자로 규제체계 방향 모색한다",
+    "ko": 1,
+    "id": "c37da90d"
+  },
+  {
     "date": "2026-06-24",
     "title": "K-원전 경쟁력 선보인 EPEK 2026…SMR·사용후핵연료 관리 기술 공개",
     "summary": "한수원·한전기술·두산에너빌리티가 2026 대한민국 전기산업엑스포(EPEK 2026)에서 APR1000, 혁신형 소형모듈원전(i-SMR), 사용후핵연료 관리 기술 등 원전 전주기 역량을 선보였다.",
@@ -11585,4 +11600,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-26 17:01 KST";
+window.SMR_UPDATED = "2026-06-26 17:22 KST";
