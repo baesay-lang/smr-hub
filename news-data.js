@@ -302,6 +302,49 @@ window.SMR_NEWS = [
     "id": "bc3ad0b9"
   },
   {
+    "date": "2026-06-26",
+    "title": "엑스에너지(X-Energy) 주가 19.2% 급락",
+    "summary": "엑스에너지 주가가 한 주 동안 19.2% 하락했다.",
+    "summaryLong": "엑스에너지의 주가가 한 주 동안 19.2% 급락했다. 구체적인 원인이나 배경은 제목과 스니펫으로는 확인되지 않으나, 소형모듈원자로(SMR) 및 첨단로 기업의 주가 변동성을 나타내는 사건이다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "엑스에너지(X-Energy)",
+    "region": "US",
+    "source": "theglobeandmail.com",
+    "url": "https://www.theglobeandmail.com/investing/markets/stocks/NFLX-Q/pressreleases/3008464/why-x-energy-stock-collapsed-19-2-this-week/",
+    "k": "why x energy stock collapsed 19 2 this week",
+    "id": "cd02a100"
+  },
+  {
+    "date": "2026-06-26",
+    "title": "프린세스 다이어리 2001과 오클로 주식",
+    "summary": "영화 제목과 주식 기호가 혼합된 스팸 또는 무관 콘텐츠다.",
+    "summaryLong": "영화 '프린세스 다이어리(2001)'와 오클로 주식이 함께 언급되는 기사로, 검색 키워드 노이즈로 보이며 원자력·SMR·첨단로와 무관한 스팸성 콘텐츠다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "",
+    "region": "",
+    "source": "fathomjournal.org",
+    "url": "https://fathomjournal.org/750215a3/da42fd52H45hzVzYs68",
+    "k": "the princess diaries 2001 anne hathaway movie oklo stock 8cbpurmvam",
+    "id": "a434710f"
+  },
+  {
+    "date": "2026-06-26",
+    "title": "롤스로이스 SMR, 영국 더비에 파이오니어 웍스 설립",
+    "summary": "롤스로이스(Rolls-Royce)가 소형모듈원자로(SMR) 제조를 위해 영국 더비에 파이오니어 팩토리를 설립했다.",
+    "summaryLong": "롤스로이스(Rolls-Royce)가 소형모듈원자로(SMR) 제조 시설인 파이오니어 웍스(Pioneer Works)를 영국 더비(Derby)에 설립했다. 이는 롤스로이스의 중형 모듈식 원자로(Rolls-Royce SMR) 기술 상용화 및 제조 역량 확보를 위한 중요한 기반 시설 구축 사건이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "롤스로이스(Rolls-Royce)",
+    "region": "UK",
+    "source": "2news.co.kr",
+    "url": "https://www.2news.co.kr/news/articleView.html?idxno=12831",
+    "k": "롤스로이스 smr 영국 더비에 파이오니어 웍스 설립",
+    "ko": 1,
+    "id": "10a06d0f"
+  },
+  {
     "date": "2026-06-25",
     "title": "한국 첫 SMR, 부산 기장 최종 선정",
     "summary": "정부와 한국수력원자력(한수원)이 추진하는 혁신형 소형모듈원자로(i-SMR) 초도호기 부지로 부산 기장군이 최종 선정됐다. SMR은 AI·데이터센터 수요 증가에 대응하는 차세대 전원으로 주목받고 있다.",
@@ -11805,4 +11848,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-27 08:17 KST";
+window.SMR_UPDATED = "2026-06-27 08:48 KST";
