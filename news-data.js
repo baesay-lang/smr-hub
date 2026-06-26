@@ -214,6 +214,80 @@ window.SMR_NEWS = [
     "id": "6cc54aa0"
   },
   {
+    "date": "2026-06-25",
+    "title": "뉴스케일 파워 주가 급락 원인 분석",
+    "summary": "뉴스케일 파워(NuScale Power)의 주가가 급격히 하락하고 있는 상황을 다룬 재정 분석 기사이다.",
+    "summaryLong": "미국 소형모듈원자로(SMR) 개발 선도 기업인 뉴스케일 파워의 주가가 급락하고 있다. 다만 제공된 스니펫에서 구체적인 하락 원인과 수치가 명시되지 않아 상세 내용은 원문 확인이 필요하다. 시장 심리, 기술 진전, 규제 이슈 등 다양한 요인이 작용할 수 있다. 이 보도는 주식 성과에 대한 재정 분석성 기사이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/nuscale-power-stock-plunging-whats-162500331.html",
+    "k": "nuscale power stock is plunging what s causing the decline",
+    "id": "2fdf2fd4"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "SMR 붐에 탄 건설사들, 매출 전환까지는 '장기전'",
+    "summary": "소형모듈원자로(SMR) 시장 성장으로 건설사들이 주목받고 있으나, 실제 매출 창출까지는 상당한 시간이 필요할 것으로 전망되고 있다.",
+    "summaryLong": "소형모듈원자로(SMR) 시장의 성장 기대감이 높아지면서 건설사들의 관심이 증가하고 있다. 다만 SMR 프로젝트의 초기 단계 특성상 설계·인허가·건설 등의 과정이 장기간 소요되기 때문에, 건설사들이 본격적인 매출을 실현하기까지는 중장기적 기다림이 필요한 상황이다. 이는 SMR 산업이 성장 잠재력은 크지만 현실화까지의 불확실성이 여전히 존재함을 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "sisajournal-e.com",
+    "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=421977",
+    "k": "smr 올라탄 건설사들 매출까진 장기전",
+    "ko": 1,
+    "id": "f48b1670"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "SMR 첫 건설에 두산·현대 승리... 22조 규모 공급망 선점 경쟁",
+    "summary": "두산과 현대중공업이 소형모듈원자로(SMR) 첫 건설 사업에 진출하면서 22조 원규모의 원전 공급망 선점을 놓고 경쟁이 본격화되고 있다.",
+    "summaryLong": "소형모듈원자로(SMR)의 첫 본격적 건설 사업 추진으로 두산과 현대중공업 등 국내 주요 건설사들이 경쟁을 벌이고 있다. 시장에서 추정하는 SMR 관련 공급망 규모가 약 22조 원에 달하는 만큼, 초기 사업 진출을 통해 장기적 시장 선점을 노리는 경쟁이 촉발된 상황이다. 이는 SMR이 단순 기술 개발 단계를 넘어 본격적인 상용화 단계로 진입하고 있음을 보여주는 신호이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "두산,현대중공업",
+    "region": "KR",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/Global-Biz/2026/06/20260626070353711fbbec65dfb_1",
+    "k": "smr 첫 삽 에 두산 현대 웃는다 22조 원전 공급망 선점 경쟁 촉발",
+    "ko": 1,
+    "id": "911a8cda"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "원안위, SMR 개발 가속화 위해 설계 사전검토 제도 도입",
+    "summary": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 개발을 촉진하기 위해 설계 사전검토 제도를 새로 도입했다.",
+    "summaryLong": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 개발 속도를 높이기 위한 규제 제도를 신설했다. 설계 사전검토(Pre-Design Review) 제도 도입을 통해 본인허가 이전 단계에서 기술·안전 검토를 선제적으로 수행함으로써, 개발사들의 인허가 소요 기간을 단축하고 개발 리스크를 조기에 파악할 수 있게 된다. 이는 정부가 SMR을 전략적으로 지원하는 규제 정책의 일환으로, 국내 SMR 상용화 추진 의지를 반영한 조치이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "2news.co.kr",
+    "url": "https://www.2news.co.kr/news/articleView.html?idxno=12745",
+    "k": "원안위 smr 개발 가속화 위한 설계 사전검토 제도 도입",
+    "ko": 1,
+    "id": "c1be3971"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "경주시 SMR 탈락 후속 대책... 원전 산업 육성",
+    "summary": "경주시가 소형모듈원자로(SMR) 사업 유치 탈락 후 원전 산업 육성 차원의 후속 대책을 추진 중이다.",
+    "summaryLong": "경주시가 소형모듈원자로(SMR) 사업 유치 신청에서 탈락한 후속 조치로 원전 산업 생태계 육성에 나서고 있다. 지역이 SMR 유치라는 기대가 좌절되었으나, 원전 관련 산업을 육성하는 것으로 지역 경제 활성화 및 원자력 산업 중심지 위상 유지를 도모하려는 전략이다. 이는 경주 지역이 대규모 원전 클러스터를 보유한 특성을 살리려는 노력을 반영한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "andongmbc.co.kr",
+    "url": "https://andongmbc.co.kr/main/news/news_view.php?num=83294",
+    "k": "r 경주시 smr 탈락 후속 대책 원전 산업 육성",
+    "ko": 1,
+    "id": "00cca06a"
+  },
+  {
     "date": "2026-06-24",
     "title": "K-원전 경쟁력 선보인 EPEK 2026…SMR·사용후핵연료 관리 기술 공개",
     "summary": "한수원·한전기술·두산에너빌리티가 2026 대한민국 전기산업엑스포(EPEK 2026)에서 APR1000, 혁신형 소형모듈원전(i-SMR), 사용후핵연료 관리 기술 등 원전 전주기 역량을 선보였다.",
@@ -4109,6 +4183,20 @@ window.SMR_NEWS = [
     "id": "914a47bd"
   },
   {
+    "date": "2026-06-18",
+    "title": "미국 소형모듈원자로 시장, 12.24억 달러 규모로 확대 전망",
+    "summary": "미국 소형모듈원자로(SMR) 시장이 12.24억 달러(US$) 규모에 도달할 것으로 예측되는 시장 분석 보고서이다.",
+    "summaryLong": "시장조사 기관이 미국 소형모듈원자로(SMR) 시장의 규모가 12.24억 미국 달러(US$)에 도달할 것으로 전망하는 분석 보고서를 발표했다. 이는 SMR 기술의 상용화 진전, 정부 정책 지원, 산업 수요 증가 등을 반영한 시장 성장 예측이다. 다만 구체적인 예측 시점(연도), 연평균 성장률(CAGR), 주요 드라이버 등의 세부 내용은 제공된 스니펫에서 제시되지 않았다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "openpr.com",
+    "url": "https://www.openpr.com/news/4554213/united-states-small-modular-reactor-market-to-reach-us-12-24",
+    "k": "united states small modular reactor market to reach us 12 24",
+    "id": "51f4287d"
+  },
+  {
     "date": "2026-06-17",
     "title": "태웅, 테라파워(TerraPower) 나트륨(Natrium) SMR 주기기 부품 수주",
     "summary": "국내 원전 부품 전문기업 태웅이 빌 게이츠 설립 미국 테라파워사의 4세대 소형모듈원자로(SMR) 나트륨 프로젝트에 주기기 핵심부품을 공급하는 계약을 체결했다.",
@@ -6518,6 +6606,20 @@ window.SMR_NEWS = [
     "k": "oklo stock rises can regulatory progress offset the nuclear start up s slump",
     "op": 1,
     "id": "c5bad8f1"
+  },
+  {
+    "date": "2026-06-11",
+    "title": "오클로 주가 상승 요인 분석",
+    "summary": "오클로(Oklo) 주가가 상승한 배경을 분석한 재정 기사이다.",
+    "summaryLong": "미국 고속중성자로(Fast Fission Reactor) 개발 기업 오클로(Oklo Inc.)의 주가가 상승했다는 뉴스이다. 제공된 스니펫에서 구체적인 상승 원인이 명시되지 않았으나, 규제 진전, 계약 체결, 기술 마일스톤, 또는 시장 심리 개선 등이 배경일 수 있다. 재정 분석 매체인 모틀리 풀(The Motley Fool)의 보도로, 투자자 관심도를 반영한 기사이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/06/11/why-oklo-stock-powered-higher-today/",
+    "k": "why oklo stock powered higher today",
+    "id": "16bbe801"
   },
   {
     "date": "2026-06-10",
@@ -11229,4 +11331,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-26 08:27 KST";
+window.SMR_UPDATED = "2026-06-26 09:01 KST";
