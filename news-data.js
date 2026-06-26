@@ -288,6 +288,20 @@ window.SMR_NEWS = [
     "id": "1a8ecd26"
   },
   {
+    "date": "2026-06-26",
+    "title": "롤스로이스 SMR, 영국 더비에 £1,200만 규모 시설 공개",
+    "summary": "롤스로이스 SMR이 영국 더비(Derby)에 1,200만 파운드(약 £12m) 규모의 신규 제조 시설을 열었다.",
+    "summaryLong": "영국 항공우주방위 기업 롤스로이스(Rolls-Royce)의 소형모듈원자로 자회사 롤스로이스 SMR(Rolls-Royce SMR)이 영국 더비 지역에 1,200만 파운드(£12m) 규모의 파이오니어 웍스(Pioneer Works) 제조 시설을 공식 개소했다. 이 시설은 소형모듈원자로의 제조 및 조립 역량을 강화하기 위해 구축되었으며, 롤스로이스의 원전 사업 야심을 보여주는 이정표가 되고 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Rolls-Royce SMR",
+    "region": "UK",
+    "source": "thebusinessdesk.com",
+    "url": "https://www.thebusinessdesk.com/eastmidlands/news/2112006-rolls-royce-smr-unveils-12m-derby-facility-to-power-nuclear-ambitions",
+    "k": "rolls royce smr unveils 12m derby facility to power nuclear ambitions",
+    "id": "bc3ad0b9"
+  },
+  {
     "date": "2026-06-25",
     "title": "한국 첫 SMR, 부산 기장 최종 선정",
     "summary": "정부와 한국수력원자력(한수원)이 추진하는 혁신형 소형모듈원자로(i-SMR) 초도호기 부지로 부산 기장군이 최종 선정됐다. SMR은 AI·데이터센터 수요 증가에 대응하는 차세대 전원으로 주목받고 있다.",
@@ -10152,6 +10166,20 @@ window.SMR_NEWS = [
     "id": "a91f5425"
   },
   {
+    "date": "2026-03-14",
+    "title": "지이 버르노바(GE Vernova)·히타치, 동남아시아 BWRX-300 배치 검토",
+    "summary": "지이 버르노바와 히타치가 소형모듈원자로 BWRX-300의 동남아시아 지역 배치를 함께 검토하기로 합의했다.",
+    "summaryLong": "지이 버르노바(GE Vernova)와 일본 히타치(Hitachi)가 비등경수로(BWR) 기반 소형모듈원자로인 BWRX-300의 동남아시아 지역 배치 가능성을 공동으로 탐색하기로 발표했다. 이는 양사가 아시아태평양 지역 원전 시장 진출을 위해 전략적 협력을 강화하는 움직임으로 평가된다. BWRX-300은 지이 허리테이지(GE Hitachi)가 개발한 소형모듈원자로로, 안전성과 경제성을 강점으로 내세우고 있다.",
+    "cat": "기술",
+    "type": "BWR",
+    "dev": "GE Vernova, Hitachi",
+    "region": "",
+    "source": "gevernova.com",
+    "url": "https://www.gevernova.com/news/press-releases/ge-vernova-hitachi-explore-deployment-bwrx-300-small",
+    "k": "ge vernova and hitachi to explore deployment of bwrx 300 small modular reactor in southeast asia",
+    "id": "d2ac9b5e"
+  },
+  {
     "date": "2026-03-13",
     "title": "Rolls-Royce SMR, 규제 정당성 검토 진행",
     "summary": "영국의 Rolls-Royce가 자사 소형모듈원자로에 대한 규제 정당성(Regulatory justification)을 제시하고 있다.",
@@ -11777,4 +11805,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-27 07:48 KST";
+window.SMR_UPDATED = "2026-06-27 08:17 KST";
