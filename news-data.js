@@ -96,6 +96,66 @@ window.SMR_NEWS = [
     "id": "2c50d9c4"
   },
   {
+    "date": "2026-06-26",
+    "title": "롤스로이스(Rolls-Royce) SMR, 더비(Derby) 시설 개설로 일자리 창출",
+    "summary": "롤스로이스(Rolls-Royce) SMR이 영국 더비(Derby)에 소형모듈원자로 제조 시설을 개설하며 일자리 창출을 주도한다.",
+    "summaryLong": "롤스로이스(Rolls-Royce) SMR은 영국 더비(Derby)에 새로운 시설을 개설하며, 이를 '핵심 프로젝트 배치 방식 혁신'의 중심에 놓겠다는 의지를 표명했다. 이 시설은 소형모듈원자로(SMR) 제조·조립의 허브 역할을 하면서 현지 고용 창출에 기여할 것으로 예상된다. 이는 영국 정부의 SMR 국산화 및 상용화 정책의 일환으로 평가된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "UK",
+    "source": "insidermedia.com",
+    "url": "https://www.insidermedia.com/news/midlands/rolls-royce-smr-to-open-job-creating-derby-facility-will-be-at-the-centre-of-our-ambition-to-transform-the-way-nuclear-projects-are-delivered",
+    "k": "rolls royce smr to open job creating derby facility will be at the centre of our ambition to transform the way nuclear projects are delivered",
+    "id": "546b0385"
+  },
+  {
+    "date": "2026-06-26",
+    "title": "한국해양대, SMR 추진 선박 인증 국제안전기구 설립 추진",
+    "summary": "한국해양대학교가 소형모듈원자로(SMR) 추진 선박의 국제 인증 체계를 구축하기 위해 국제안전기구 설립을 추진 중이다.",
+    "summaryLong": "한국해양대학교가 소형모듈원자로(SMR) 추진 선박의 안전성 인증 및 국제 표준화를 위해 국제안전기구 설립을 주도적으로 추진하고 있다. 이는 SMR이 해양 추진 분야로 확대되는 가운데 관련 규제 및 안전 기준의 국제적 통일의 필요성에 대응하는 움직임이다. 한국의 해양 기술과 원자력 기술의 융합 전략을 반영하는 정책이라 할 수 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "yna.co.kr",
+    "url": "https://www.yna.co.kr/view/AKR20260626137800051",
+    "k": "한국해양대 smr 추진 선박 인증 국제안전기구 설립 추진",
+    "ko": 1,
+    "id": "4718247e"
+  },
+  {
+    "date": "2026-06-26",
+    "title": "경주시 의정포럼회, SMR 재도전 및 한수원 도심 이전 촉구",
+    "summary": "경주시 의정포럼회가 소형모듈원자로(SMR) 재도전과 한국수력원자력(한수원) 본사의 도심 이전을 촉구했다.",
+    "summaryLong": "경주시 의정포럼회가 국내 소형모듈원자로(SMR) 정책의 재추진과 한국수력원자력(한수원) 본사의 서울 도심 이전을 지방자치 차원에서 촉구하고 있다. 이는 경주를 중심으로 한 원자력 산업 클러스터 조성과 SMR 국산화 사업의 활성화를 바라는 지역 요구를 반영한 것으로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "kbsm.net",
+    "url": "https://www.kbsm.net/news/view.php?idx=524579",
+    "k": "경주시 의정포럼회 smr 재도전 한수원 도심 이전 촉구",
+    "ko": 1,
+    "id": "a9e926f8"
+  },
+  {
+    "date": "2026-06-26",
+    "title": "DL그룹, 에너지 인프라 투자 확대 기대 속 원전·SMR 밸류체인 경쟁력 부각",
+    "summary": "DL그룹이 에너지 인프라 투자 확대 추세에서 원자력·소형모듈원자로(SMR) 밸류체인 경쟁력을 강조했다.",
+    "summaryLong": "DL그룹이 국내 에너지 인프라 투자 확대 전망을 배경으로 자사의 원자력 및 소형모듈원자로(SMR) 산업 밸류체인에서의 경쟁력을 시장에 적극 부각하고 있다. 이는 정부의 원전·SMR 정책 강화에 따른 민간 기업들의 사업 기회 확대를 노리는 전략적 움직임으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "gokorea.kr",
+    "url": "https://www.gokorea.kr/news/articleView.html?idxno=870441",
+    "k": "에너지 인프라 투자 확대 기대 dl그룹 원전 smr 밸류체인 경쟁력 부각",
+    "ko": 1,
+    "op": 1,
+    "id": "eca4c96d"
+  },
+  {
     "date": "2026-06-25",
     "title": "한국 첫 SMR, 부산 기장 최종 선정",
     "summary": "정부와 한국수력원자력(한수원)이 추진하는 혁신형 소형모듈원자로(i-SMR) 초도호기 부지로 부산 기장군이 최종 선정됐다. SMR은 AI·데이터센터 수요 증가에 대응하는 차세대 전원으로 주목받고 있다.",
@@ -6031,6 +6091,21 @@ window.SMR_NEWS = [
     "id": "b3d4607b"
   },
   {
+    "date": "2026-06-15",
+    "title": "스웨덴, SMR 공급업체로 영국 롤스로이스(Rolls-Royce) 선정",
+    "summary": "스웨덴이 소형모듈원자로(SMR) 도입을 위해 영국의 롤스로이스를 공급업체로 선정했다.",
+    "summaryLong": "스웨덴 정부가 원전 부활 정책의 일환으로 영국 롤스로이스(Rolls-Royce)를 소형모듈원자로(SMR) 공급업체로 선정했다. 이는 스웨덴의 에너지 안보 강화 및 탄소 중립 목표 달성을 위한 주요 결정으로, 롤스로이스가 개발 중인 소형모듈원자로 기술을 스웨덴에 도입하기 위한 협력 기반을 마련하게 된다. 이 결정은 유럽에서 원전 에너지 재평가가 확대되는 추세 속에서 이루어졌으며, 향후 구체적인 계약 및 건설 일정이 진행될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "롤스로이스",
+    "region": "UK",
+    "source": "yna.co.kr",
+    "url": "https://www.yna.co.kr/view/AKR20260615171100098",
+    "k": "원전 부활 스웨덴 smr 공급업체로 롤스로이스 선정",
+    "ko": 1,
+    "id": "73ea2924"
+  },
+  {
     "date": "2026-06-14",
     "title": "우즈베키스탄 소형모듈원자로 수출 프로젝트 기공",
     "summary": "소형모듈원자로의 첫 수출 프로젝트가 우즈베키스탄에서 기공식을 개최했다.",
@@ -11510,4 +11585,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-26 16:09 KST";
+window.SMR_UPDATED = "2026-06-26 17:01 KST";
