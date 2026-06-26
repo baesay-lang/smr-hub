@@ -8,6 +8,94 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-06-26",
+    "title": "뉴스케일(NuScale) 대신 오클로(Oklo) 주식을 사야 할까?",
+    "summary": "모틀리 풀(The Motley Fool)이 SMR 개발사 뉴스케일과 오클로의 투자 가치를 비교 분석하는 의견 기사.",
+    "summaryLong": "미국 금융 매체 모틀리 풀(The Motley Fool)이 소형모듈원자로(SMR) 개발사인 뉴스케일(NuScale)과 고속로 개발사인 오클로(Oklo)의 주가 투자 가치를 비교하는 기사를 게재했다. 본 기사는 두 회사의 기술 방향과 상용화 전망, 주식 성과 등을 검토하며 투자자들의 선택을 촉구하고 있다. SMR과 첨단 원자로 개발 동향을 추적하는 투자자 커뮤니티의 관심이 높아지고 있음을 시사한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "뉴스케일, 오클로",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/06/25/should-you-forget-stock-a-and-buy-stock-b-instead/",
+    "k": "should you forget nuscale power and buy oklo stock instead",
+    "op": 1,
+    "id": "ba991fd2"
+  },
+  {
+    "date": "2026-06-26",
+    "title": "오클로(Oklo)가 AI로 원자로 설계를 빠르게 진행 중",
+    "summary": "오클로(Oklo)가 인공지능을 활용한 원자로 설계 기술을 공개하며 투자 가치 재평가를 받고 있다는 의견 기사.",
+    "summaryLong": "모틀리 풀(The Motley Fool)이 오클로(Oklo)의 인공지능(AI) 기반 원자로 설계 기술 개발 사례를 소개하는 투자 분석 기사를 게재했다. 오클로는 AI를 활용하여 고속로(Fast Fission Reactor) 설계 개발 속도를 가속화하고 있으며, 이러한 기술 혁신이 회사의 시장 경쟁력과 투자 매력도를 높이고 있다는 평가를 담고 있다. 첨단 원자로 개발 분야에서 AI·디지털 기술의 활용이 확대되는 추세를 반영한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "오클로",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/06/25/oklo-is-using-ai-to-design-nuclear-reactors-faster/",
+    "k": "oklo is using ai to design nuclear reactors faster here s why oklo stock deserves a second look",
+    "op": 1,
+    "id": "53c39834"
+  },
+  {
+    "date": "2026-06-26",
+    "title": "13년 걸릴 신규원전 3기, SMR로 1~2년 내 대체 가능",
+    "summary": "한국이 영덕 대형원전 2기와 기장 SMR 1기를 건설하되, 기존 원전 재가동으로 신규원전 3기 규모의 발전량을 1~2년 내 확보할 수 있다는 분석.",
+    "summaryLong": "한국 전력 정책 분석에 따르면 경북(Gyeongbuk) 영덕에 가압경수로(APR1400) 대형원전 2기와 부산(Busan) 기장에 소형모듈원자로(SMR) 1기를 건설할 계획이다. 신규 3기 완공까지 최대 13년이 소요되나, 가동 중단된 기존 원전 26기 중 일부를 재가동하면 신규원전 3기 규모(설비용량 3.5GW)의 발전량을 1~2년 내 확보할 수 있다는 분석이 제시되었다. 신규원전 건설비는 15조원을 초과할 것으로 예상되며(영덕 2기·기장 SMR 1기 합산), 첫 SMR 모듈 준공은 2035년, 영덕 원전은 2037~2038년 예정이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한국 정부",
+    "region": "KR",
+    "source": "전기신문 - 전체기사",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=369488",
+    "k": "13년 걸릴 신규원전 3기 건설 1년짜리 해법 있다는데",
+    "ko": 1,
+    "id": "24a789b6"
+  },
+  {
+    "date": "2026-06-26",
+    "title": "롤스-로이스(Rolls-Royce), 더비의 '비핵(Non-Nuclear)' SMR 부지 계획 공개",
+    "summary": "롤스-로이스(Rolls-Royce)가 영국 더비(Derby)에 소형모듈원자로(SMR) 제조 및 운영 기지의 비핵(제조 관련 시설) 구성 계획을 발표했다.",
+    "summaryLong": "영국의 롤스-로이스(Rolls-Royce)가 소형모듈원자로(SMR) 개발 및 제조 전략의 일환으로 더비(Derby) 지역에 '비핵 부지(Non-Nuclear Site)' 구축 계획을 공개했다. 본 부지는 SMR 설계, 제조, 조립, 품질보증 등 핵심 생산 인프라를 집중시키되, 실제 원자로 가동은 별도 입지에서 수행하는 구조로 설계되었다. 이는 영국이 SMR의 대규모 제조 기지화를 통해 국내 고용·수출 확대와 에너지 자립 달성을 목표로 하는 정책 의지를 나타낸다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "롤스-로이스",
+    "region": "UK",
+    "source": "energyvoice.com",
+    "url": "https://www.energyvoice.com/renewables-energy-transition/nuclear/599817/rolls%E2%80%91royce-small-modular-reactor-smr-derby/",
+    "k": "rolls royce unveils plans for non nuclear small modular reactor site in derby",
+    "id": "34718683"
+  },
+  {
+    "date": "2026-06-26",
+    "title": "온타리오(Ontario) 퍼스트네이션즈, 달링턴(Darlington) SMR 지분 인수",
+    "summary": "캐나다 온타리오주의 원주민 커뮤니티가 달링턴 소형모듈원자로(SMR) 프로젝트의 소유권 지분을 확보하게 된다.",
+    "summaryLong": "캐나다 온타리오주의 퍼스트네이션즈(First Nations)가 달링턴(Darlington) 지역의 소형모듈원자로(SMR) 개발 프로젝트에서 지분을 취득하기로 결정했다. 이는 원주민 커뮤니티의 에너지 인프라 소유권 참여와 지역사회 수익 공유를 의미하는 중요한 협력 모델이다. 달링턴은 캐나다의 주요 SMR 개발 거점으로 추진되고 있으며, 이번 지분 인수는 프로젝트의 사회적 수용성 강화와 지역 협력 강화를 반영한다.",
+    "cat": "투자",
+    "type": "General",
+    "dev": "",
+    "region": "CA",
+    "source": "ontarioconstructionnews.com",
+    "url": "https://ontarioconstructionnews.com/ontario-first-nations-to-take-ownership-stake-in-darlington-small-modular-reactor",
+    "k": "ontario first nations to take ownership stake in darlington small modular reactor",
+    "id": "fd137562"
+  },
+  {
+    "date": "2026-06-26",
+    "title": "DL그룹, \"753조 원 규모 SMR 시장 선점\"",
+    "summary": "DL그룹이 753조 원 규모의 글로벌 소형모듈원자로(SMR) 시장 선점을 위한 사업 전략을 발표했다.",
+    "summaryLong": "한국의 DL그룹이 753조 원 규모로 추정되는 글로벌 소형모듈원자로(SMR) 시장에서의 경쟁력 확보와 시장 선점을 목표로 하는 전략을 공식 발표했다. 이는 그룹 차원의 에너지 인프라 사업 확대와 원전·SMR 밸류체인(value chain) 강화 계획을 포함한다. 향후 대규모 시장 성장이 예상되는 SMR 산업에서 한국 기업의 선제적 포지셔닝 의지를 드러내는 중요한 발표이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "DL그룹",
+    "region": "KR",
+    "source": "finomy.com",
+    "url": "http://www.finomy.com/news/articleView.html?idxno=256359",
+    "k": "dl그룹 753조 smr 시장 선점 나선다",
+    "ko": 1,
+    "id": "2c50d9c4"
+  },
+  {
     "date": "2026-06-25",
     "title": "한국 첫 SMR, 부산 기장 최종 선정",
     "summary": "정부와 한국수력원자력(한수원)이 추진하는 혁신형 소형모듈원자로(i-SMR) 초도호기 부지로 부산 기장군이 최종 선정됐다. SMR은 AI·데이터센터 수요 증가에 대응하는 차세대 전원으로 주목받고 있다.",
@@ -286,6 +374,36 @@ window.SMR_NEWS = [
     "k": "r 경주시 smr 탈락 후속 대책 원전 산업 육성",
     "ko": 1,
     "id": "00cca06a"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "스웨덴, 40년 만의 새 원전 건설…국가가 대주주로 참여",
+    "summary": "스웨덴이 40년 만에 신규 원전을 건설하며, 정부가 주요 주주로 나서 SMR 시장의 판도 변화를 주도한다.",
+    "summaryLong": "스웨덴이 1980년대 이후 40년 만에 새로운 원자력발전소 건설을 추진하면서, 정부가 주요 투자자로 참여하기로 결정했다. 이는 북유럽의 탈탄소 에너지 정책과 재정적 지원을 통한 SMR 개발 강화 전략을 반영한다. 정부의 직접 투자와 지분 참여는 민간 중심의 글로벌 SMR 시장에서 공공 부문의 역할 확대를 시사하며, 유럽(EU) 내 소형모듈원자로 확산의 신호탄이 될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "EU",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4703",
+    "k": "40년 만의 새 원전 국가가 대주주로 나선 스웨덴 smr 판도 바뀌나",
+    "ko": 1,
+    "id": "cdaede0e"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "폴란드 브워츠와베크, OSGE와 SMR 6기 건설 협력 협약 체결",
+    "summary": "폴란드 브워츠와베크(Brwinów)가 OSGE와 소형모듈원자로(SMR) 6기 건설을 위한 협력 협약을 체결했다.",
+    "summaryLong": "폴란드의 브워츠와베크(Brwinów) 지역이 OSGE와 소형모듈원자로(SMR) 6기 건설에 관한 협력 협약을 공식 체결했다. 이 협약은 폴란드의 에너지 독립성 강화와 탄소중립 목표 달성을 위한 전략적 파트너십을 의미한다. SMR 6기 규모의 건설 계획은 동유럽의 소형모듈원자로 개발 프로젝트 중 주요 규모로, 폴란드의 에너지 정책 전환을 나타낸다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "OSGE",
+    "region": "EU",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4701",
+    "k": "폴란드 브워츠와베크 osge와 smr 6기 건설 협력 협약 체결",
+    "ko": 1,
+    "id": "cbaedae8"
   },
   {
     "date": "2026-06-24",
@@ -7246,6 +7364,21 @@ window.SMR_NEWS = [
     "id": "79d1b8a4"
   },
   {
+    "date": "2026-06-05",
+    "title": "미국 에너지부, \"SMR 개발 기술 조건 달성\"…민간 지원 정책 성과",
+    "summary": "미국 에너지부(DOE)가 소형모듈원자로(SMR) 개발을 위한 기술적 성과 달성을 발표하며 민간 지원 정책의 효과를 강조했다.",
+    "summaryLong": "미국 에너지부(DOE)가 소형모듈원자로(SMR) 개발에 필요한 주요 기술적 조건을 달성했다고 공식 발표했다. 이는 정부의 민간 기업 지원 정책과 연방 펀딩이 SMR 산업화의 기술적 기초를 마련했음을 의미한다. 미국의 전략적 정부 지원이 글로벌 SMR 시장 주도권 확보로 이어지고 있으며, 향후 상용화 가속화의 신호를 나타낸다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "DOE",
+    "region": "US",
+    "source": "businesspost.co.kr",
+    "url": "https://www.businesspost.co.kr/BP?command=article_view&num=439370",
+    "k": "미국 에너지부 smr 개발 위한 기술조건 달성 민간 지원 정책에 성과 나와",
+    "ko": 1,
+    "id": "d932af93"
+  },
+  {
     "date": "2026-06-04",
     "title": "엑스에너지(X-energy), 나스닥(Nasdaq) 상장 후 2026년 1분기 분기별 파이프라인 144기·11.5GWe 공시",
     "summary": "나스닥 상장 후 분기 공시에서 미국·영국 합산 144기, 약 11.5 GWe의 파이프라인(고객 권리 전량 행사 가정)을 공개했다.",
@@ -7937,6 +8070,21 @@ window.SMR_NEWS = [
     "id": "d94d0ec3"
   },
   {
+    "date": "2026-06-01",
+    "title": "SMR 선박 개발 지지 및 추진을 위한 공동 선언",
+    "summary": "소형모듈원자로(SMR)를 활용한 선박 개발을 지지하고 성공적 추진을 위한 공동 선언이 발표되었다.",
+    "summaryLong": "소형모듈원자로(SMR) 기술을 선박 추진에 적용하기 위한 공동 선언이 이루어졌다. 이 선언은 SMR 선박 개발의 필요성을 인식하고 이를 지지하며 성공적인 추진을 도모하기 위한 관계자들의 입장을 담고 있다. 구체적인 참여 기관·일정·세부 내용은 제시되지 않았으나, SMR의 해양 응용 분야 확대와 국제 협력 의지를 시사한다. 선박용 SMR은 탄소중립 해운 실현의 핵심 기술로 주목받고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4248",
+    "k": "소형모듈원자로 smr 선박 개발 지지 및 성공적 추진을 위한 공동 선언",
+    "ko": 1,
+    "id": "886ae660"
+  },
+  {
     "date": "2026-05-31",
     "title": "미국, 해운 상용화용 소형모듈원자로 추진 본격화",
     "summary": "미국이 상용 해운 부문에 소형모듈원자로(SMR)를 도입하기 위한 주요 정책을 추진하고 있다.",
@@ -8243,6 +8391,22 @@ window.SMR_NEWS = [
     "id": "b7a1e24e"
   },
   {
+    "date": "2026-05-25",
+    "title": "\"SMR 주도하는 미국, 한국의 원전 노하우와 전문 인력 필요\"",
+    "summary": "미국이 소형모듈원자로(SMR) 주도 지위에서 한국의 원자력 기술 노하우와 전문 인력을 필요로 한다는 분석이 제시되었다.",
+    "summaryLong": "미국이 글로벌 소형모듈원자로(SMR) 시장 주도권을 추구하는 가운데, 한국의 풍부한 원자력발전 운영 경험과 전문 인력 풀이 전략적으로 중요하다는 전문가 분석이 제시되었다. 이는 미국의 SMR 개발 단계에서 한국과의 기술 협력·인력 교류 필요성을 나타내며, 향후 한미 간 원자력 분야 협력 확대의 기반이 될 수 있다. 한국의 원전 기술과 인력이 글로벌 SMR 산업화에서 차별화 요소로 인정받고 있음을 반영한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260525070303657",
+    "k": "영상 smr 주도하는 미국 원전 노하우와 전문 인력 많은 한국 필요로 해",
+    "ko": 1,
+    "op": 1,
+    "id": "c29fc249"
+  },
+  {
     "date": "2026-05-24",
     "title": "실증 원전 넘어 상업용 SMR로…HD현대重, 최종 목표는 '원자력 추진선'",
     "summary": "현대중공업(HD현대重)이 SMR 실증을 거쳐 상업용 모듈 개발을 추진하며, 궁극적으로 원자력 추진 선박 시장을 목표하고 있다.",
@@ -8467,6 +8631,21 @@ window.SMR_NEWS = [
     "url": "https://x-energy.com/news/nrc-issues-environmental-assessment-with-finding-of-no-significant-impact-for-dow-and-x-energys-propsed-advanced-nuclear-project-in-texas/",
     "k": "nrc issues environmental assessment with finding of no significant impact for dow and x energy s proposed advanced nuclear project in texas x energy",
     "id": "ebe87ebe"
+  },
+  {
+    "date": "2026-05-17",
+    "title": "미국 첫 SMR 건설 테라파워, 한국 원전 기술 도입",
+    "summary": "미국 최초의 소형모듈원자로(SMR) 건설을 추진하는 테라파워(TerraPower)가 한국의 원자력 기술을 도입하기로 했다.",
+    "summaryLong": "미국의 테라파워(TerraPower)가 미국 내 첫 번째 소형모듈원자로(SMR) 건설 프로젝트에 한국의 원자력발전 기술을 도입하기로 결정했다. 이는 한국의 원전 운영 노하우와 안전 기술이 글로벌 SMR 개발의 중요한 자산으로 평가받고 있음을 보여준다. 미국이 주도하는 SMR 산업화에서 한국 기술의 국제적 위상과 기여도를 증명하는 사례로, 향후 기술 수출 및 국제 협력 확대의 기반이 될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "yna.co.kr",
+    "url": "https://www.yna.co.kr/view/AKR20260516033300017",
+    "k": "미국 첫 smr 건설 테라파워 한국 원전 기술 사들였다",
+    "ko": 1,
+    "id": "db26685a"
   },
   {
     "date": "2026-05-15",
@@ -11331,4 +11510,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-26 09:01 KST";
+window.SMR_UPDATED = "2026-06-26 16:09 KST";
