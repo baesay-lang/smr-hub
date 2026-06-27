@@ -22,6 +22,21 @@ window.SMR_NEWS = [
     "id": "47b3548f"
   },
   {
+    "date": "2026-06-27",
+    "title": "스웨덴 링할스, SMR 도입 자금 승인",
+    "summary": "스웨덴의 링할스(Ringhals) 원전에 소형모듈원자로 도입을 위한 자금 승인이 이루어졌으며, 이것이 한국 에너지 정책에 미치는 의미를 분석한 보도.",
+    "summaryLong": "스웨덴의 링할스 원전에 소형모듈원자로(SMR) 도입을 위한 자금 승인이 확정되었다. 이는 유럽에서의 SMR 도입 가속화를 의미하며, 전통적인 대형 원전에서 소형 모듈 방식으로의 에너지 기반시설 전환을 보여주는 사례다. 스웨덴의 이러한 결정은 원전 산업 재편과 함께 한국의 SMR 정책 추진에도 중요한 시사점을 제공한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "EU",
+    "source": "knpp.co.kr",
+    "url": "http://knpp.co.kr/news/515704",
+    "k": "스웨덴 링할스 원전 smr 도입 자금 승인 한국 에너지 정책에 던지는 시사점",
+    "ko": 1,
+    "id": "ff81ff74"
+  },
+  {
     "date": "2026-06-26",
     "title": "뉴스케일(NuScale) 대신 오클로(Oklo) 주식을 사야 할까?",
     "summary": "모틀리 풀(The Motley Fool)이 SMR 개발사 뉴스케일과 오클로의 투자 가치를 비교 분석하는 의견 기사.",
@@ -373,6 +388,22 @@ window.SMR_NEWS = [
     "id": "c464d5b5"
   },
   {
+    "date": "2026-06-26",
+    "title": "동탄 SMR 설치, 주민 수용성 논란",
+    "summary": "동탄 지역 소형모듈원자로(SMR) 설치 계획과 관련해 지역 주민들의 수용성 문제를 다룬 칼럼.",
+    "summaryLong": "한국의 동탄 지역에 소형모듈원자로(SMR)를 설치하려는 계획이 제시되면서 지역 주민들의 수용성이 주요 이슈로 대두되고 있다. 강양구 칼럼니스트가 이 주제를 다루며 SMR 도입의 기술적 장점과 주민 수용의 사회적 과제 간 괴리를 지적하고 있다. 이는 한국의 SMR 정책 추진 과정에서 공론화 및 주민 소통의 중요성을 반영한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "mk.co.kr",
+    "url": "https://www.mk.co.kr/news/columnists/12084101",
+    "k": "동탄 smr 설치 주민들이 수용할까 강양구의 사이언스 인사이트",
+    "ko": 1,
+    "op": 1,
+    "id": "6d084efc"
+  },
+  {
     "date": "2026-06-25",
     "title": "한국 첫 SMR, 부산 기장 최종 선정",
     "summary": "정부와 한국수력원자력(한수원)이 추진하는 혁신형 소형모듈원자로(i-SMR) 초도호기 부지로 부산 기장군이 최종 선정됐다. SMR은 AI·데이터센터 수요 증가에 대응하는 차세대 전원으로 주목받고 있다.",
@@ -696,6 +727,22 @@ window.SMR_NEWS = [
     "k": "서울대 원자력미래기술정책연구소 smr 차세대 원자로 규제체계 방향 모색한다",
     "ko": 1,
     "id": "c37da90d"
+  },
+  {
+    "date": "2026-06-25",
+    "title": "한미글로벌, 미국 SMR 시장 진출을 위한 현지 법인 설립 추진",
+    "summary": "한미글로벌이 미국의 소형모듈원자로(SMR) 시장 진출을 위해 현지 법인 설립을 추진하고 있다.",
+    "summaryLong": "한미글로벌이 미국 시장에서의 소형모듈원자로(SMR) 사업 진출을 본격화하기 위해 현지 법인 설립을 추진 중이다. 이는 한국의 SMR 기업들이 세계 최대 규모의 미국 원자력 시장으로의 진출 전략을 강화하는 움직임으로, 기술 개발과 함께 사업화 인프라 구축이 동시에 진행되고 있음을 보여준다. 현지 법인 설립을 통해 한미글로벌은 미국 규제 대응, 파트너십 구축, 수주 활동 등을 보다 효율적으로 수행할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한미글로벌",
+    "region": "US",
+    "source": "aseanexpress.co.kr",
+    "url": "https://www.aseanexpress.co.kr/news/article.html?no=12858",
+    "k": "한미글로벌 미국 smr 시장 진출 위해 현지 법인 설립 추진",
+    "ko": 1,
+    "op": 1,
+    "id": "f6c1f2c3"
   },
   {
     "date": "2026-06-24",
@@ -9041,6 +9088,20 @@ window.SMR_NEWS = [
     "id": "ebe87ebe"
   },
   {
+    "date": "2026-05-18",
+    "title": "오클로, AI를 활용한 첨단로 워크플로우 통합",
+    "summary": "오클로(Oklo)와 비에이(BEA)가 아이다호국립연구소(INL)와 협력하여 AI 기술을 첨단로 및 연료 시스템 설계 워크플로우에 통합하는 전략적 파트너십을 출범했다.",
+    "summaryLong": "오클로(Oklo), 비에이(BEA), 아이다호국립연구소(INL)는 인공지능(AI)을 고속로 및 연료 시스템 설계 프로세스에 통합하기 위한 전략적 파트너십 프로젝트를 개시했다. 이 협력은 첨단원자로 개발의 설계 효율성을 높이고 개발 주기를 단축하는 것을 목표로 한다. 이 프로젝트는 AI 기술의 핵심적 활용을 통해 SMR 및 첨단로 부문의 기술 혁신을 가속화할 것으로 기대된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "Nuclear Engineering International",
+    "url": "https://www.neimagazine.com/news/oklo-to-integrate-ai-reactor-workflows/",
+    "k": "oklo to integrate ai reactor workflows",
+    "id": "d1b30af4"
+  },
+  {
     "date": "2026-05-17",
     "title": "미국 첫 SMR 건설 테라파워, 한국 원전 기술 도입",
     "summary": "미국 최초의 소형모듈원자로(SMR) 건설을 추진하는 테라파워(TerraPower)가 한국의 원자력 기술을 도입하기로 했다.",
@@ -9096,6 +9157,34 @@ window.SMR_NEWS = [
     "url": "https://www.world-nuclear-news.org/articles/us-federal-funds-awarded-to-spur-smr-deployment",
     "k": "us federal funds awarded to spur smr deployment",
     "id": "cd341223"
+  },
+  {
+    "date": "2026-05-15",
+    "title": "인도네시아, 원자력 개발 협력 추진",
+    "summary": "인도네시아가 원자력 발전 프로젝트, 기반시설, 인력양성 및 SMR·부유식원전을 포함한 비(非)에너지 응용 분야의 협력을 추진하고 있다.",
+    "summaryLong": "인도네시아는 국제 파트너들과의 협상을 통해 전기 생산용 원자력 발전소 개발, 관련 기반시설 구축, 기술 인력 양성, 그리고 소형모듈원자로(SMR) 및 부유식원전 등 차세대 원자력 기술의 도입을 포함한 포괄적 원자력 협력 프로그램을 추진 중이다. 이는 인도네시아의 에너지 다원화 전략과 장기 전력 공급 안정화를 목표로 한다. SMR 등 첨단로 기술의 도입은 인도네시아의 지리적·지정학적 특성에 적합한 원전 배치 방안이 될 것으로 기대된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "Nuclear Engineering International",
+    "url": "https://www.neimagazine.com/news/indonesia-nuclear-talks-advance/",
+    "k": "indonesia nuclear talks advance",
+    "id": "e0f43fb0"
+  },
+  {
+    "date": "2026-05-15",
+    "title": "PSI, SMR 수동냉각 시스템 검증",
+    "summary": "폴 셔러 연구소(PSI)가 판다(PANDA) 시험 시설을 이용해 SMR용 수동냉각 시스템의 고해상도 데이터를 생성하고 검증했다.",
+    "summaryLong": "스위스의 폴 셔러 연구소(Paul Scherrer Institute, PSI)는 소형모듈원자로(SMR) 수동냉각 시스템의 성능과 안전성을 검증하기 위해 판다(PANDA) 대규모 적분 시험 시설에서 고해상도의 실험 데이터를 획득했다. 이 연구는 SMR의 수동안전계통이 다양한 운전 조건과 사고 시나리오에서 충분한 냉각 능력을 갖추고 있음을 실증하는 중요한 마일스톤이다. 검증된 데이터는 향후 SMR 설계 기술의 고도화와 규제 승인에 기여할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "PSI",
+    "region": "EU",
+    "source": "Nuclear Engineering International",
+    "url": "https://www.neimagazine.com/news/psi-validates-smr-passive-cooling/",
+    "k": "psi validates smr passive cooling",
+    "id": "65283d69"
   },
   {
     "date": "2026-05-14",
@@ -12115,4 +12204,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-27 16:40 KST";
+window.SMR_UPDATED = "2026-06-28 07:39 KST";
