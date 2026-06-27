@@ -1230,6 +1230,20 @@ window.SMR_NEWS = [
     "id": "1f2225fd"
   },
   {
+    "date": "2026-06-24",
+    "title": "오클로(Oklo), 6월 25일 가상 주주총회 개최",
+    "summary": "오클로(Oklo)가 6월 25일 가상 주주총회를 개최한다.",
+    "summaryLong": "마이크로 반응기 개발사 오클로(Oklo)가 6월 25일 가상 주주총회를 개최할 예정이다. 이는 상장 기업으로서의 정기적인 주주 소통 일정으로, 회사의 사업 진행 상황과 경영 현황에 대해 투자자들과 소통하는 자리가 될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "gurufocus.com",
+    "url": "https://www.gurufocus.com/news/8928357/oklo-to-host-virtual-meeting-on-june-25?mobile=true",
+    "k": "oklo to host virtual meeting on june 25",
+    "id": "8e573548"
+  },
+  {
     "date": "2026-06-23",
     "title": "오클로(Oklo): 매도 제언 이후 거의 모든 것이 변했다 - 거의",
     "summary": "오클로(Oklo) 주식에 대한 투자 분석 칼럼으로, 이전 매도 제언 이후의 변화를 평가하는 의견 글.",
@@ -7361,6 +7375,20 @@ window.SMR_NEWS = [
     "id": "bb1539ed"
   },
   {
+    "date": "2026-06-10",
+    "title": "뉴스케일, 버지니아 와이즈 대학에 12번째 핵기술훈련센터 개설",
+    "summary": "뉴스케일이 버지니아(Virginia) 와이즈 대학(College at Wise)에 12번째 핵기술훈련센터를 개설했다.",
+    "summaryLong": "가압경수로(PWR) 기반 소형모듈원자로 개발사 뉴스케일(NuScale)이 미국 버지니아(Virginia) 주 와이즈 대학(University of Virginia's College at Wise)에 12번째 핵기술훈련센터를 개설했다. 이는 인력 양성과 기술 교육 인프라 확대를 통한 산업 기반 조성의 일환으로, SMR 산업 발전과 관련 인력 수급 전략을 보여주는 마일스톤 성격의 발표다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "moomoo.com",
+    "url": "https://www.moomoo.com/news/post/71329470/nuscale-power-opens-12th-nuclear-training-center-at-university-of",
+    "k": "nuscale power opens 12th nuclear training center at university of virginia s college at wise",
+    "id": "04b4a1a8"
+  },
+  {
     "date": "2026-06-09",
     "title": "서울대, 반도체·SMR 융합 연구단체 첫 출범 중국 추격 경고",
     "summary": "서울대학교가 반도체와 소형모듈원자로 분야를 통합하는 연구단체를 새로 구성하며 국가 경쟁력 강화에 나섰다.",
@@ -8802,6 +8830,20 @@ window.SMR_NEWS = [
     "id": "2a2c4044"
   },
   {
+    "date": "2026-05-22",
+    "title": "뱅크오브아메리카, 오클로(Oklo)는 매수·뉴스케일(NuScale)은 중립 평가",
+    "summary": "뱅크오브아메리카(BofA)가 원자력 섹터 리서치를 재개하면서 오클로에 매수, 뉴스케일에 중립 평가를 부여했다.",
+    "summaryLong": "뱅크오브아메리카(BofA)가 원자력 섹터에 대한 커버리지를 재개하면서 소형모듈원자로(SMR) 개발사들에 대한 투자 평가를 내놨다. 오클로(Oklo)에는 매수(Buy) 등급을, 뉴스케일(NuScale)에는 중립(Neutral) 등급을 부여했다. 이는 투자은행이 두 회사의 사업 전망과 기술 경쟁력을 각각 다르게 평가하고 있음을 시사한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo, NuScale",
+    "region": "US",
+    "source": "za.investing.com",
+    "url": "https://za.investing.com/news/stock-market-news/bofa-reinstates-nuclear-coverage-with-buy-on-oklo-and-neutral-on-nuscale-4296969",
+    "k": "bofa reinstates nuclear coverage with buy on oklo and neutral on nuscale by investing com",
+    "id": "2122c17d"
+  },
+  {
     "date": "2026-05-21",
     "title": "미국 네브래스카 공공전력지구(NPPD), 서덜랜드 지역 소형모듈원자로 부지 선정 진행",
     "summary": "미국 네브래스카 공공전력지구(NPPD)가 소형모듈원자로 입지 선정을 추진 중이며, 서덜랜드(Sutherland)가 주요 후보지로 검토되고 있다.",
@@ -8898,6 +8940,20 @@ window.SMR_NEWS = [
     "url": "https://houston.innovationmap.com/nuscale-power-houston-2676912903.html",
     "k": "modular nuclear reactor co nuscale power moves into houston market",
     "id": "0328bdac"
+  },
+  {
+    "date": "2026-05-20",
+    "title": "테라파워, 한국 기업과 나트륨로 상용화 협약 체결",
+    "summary": "테라파워(TerraPower)가 나트륨냉각(Natrium®) 원자로 플랜트 상용화를 위해 한국 업체들과 주요 협약을 발표했다.",
+    "summaryLong": "테라파워가 고속중성자로 기술인 나트륨냉각(Natrium®) 원자로 플랜트의 상용화를 위해 한국 에너지 및 산업 기업들과 핵심 파트너십 협약을 체결했다고 공식 발표했다. 이는 테라파워의 첨단로 기술이 한국 시장으로 확대되고 있음을 시사하며, 양국 간 원전 산업 협력 심화의 신호로 평가된다. 해당 협약을 통해 한국 기업들이 나트륨냉각로의 부품 공급, 건설, 운영 등 가치사슬에 참여할 수 있는 경로가 열리게 된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "morningstar.com",
+    "url": "https://www.morningstar.com/news/pr-newswire/20260520sf63708/terrapower-announces-key-commercialization-agreements-for-natrium-plants-with-korean-counterparts",
+    "k": "terrapower announces key commercialization agreements for natrium plants with korean counterparts",
+    "id": "71c4b210"
   },
   {
     "date": "2026-05-19",
@@ -9128,6 +9184,34 @@ window.SMR_NEWS = [
     "id": "48cab729"
   },
   {
+    "date": "2026-05-12",
+    "title": "오클로(Oklo)와 아이다호국립연구소(INL), AI 기반 원자로 설계 협력",
+    "summary": "오클로(Oklo)와 미국 아이다호국립연구소(INL)가 첨단 핵에너지 시스템을 위해 AI 기반 원자로 설계 기술을 함께 개발한다.",
+    "summaryLong": "오클로(Oklo)가 미국 아이다호국립연구소(INL, Idaho National Laboratory)와 협력하여 인공지능(AI) 기술을 활용한 첨단 핵에너지 시스템용 원자로 설계를 개발하기로 했다. 이는 고속 소듐냉각로 설계 기술의 고도화와 최적화를 목표로 하며, 정부 연구기관과의 협력을 통해 규제 인증과 기술 신뢰성 확보를 추진하는 전략이다. 해당 협력은 첨단 원자로의 설계 단계부터 디지털 기술을 접목하는 업계 추세를 반영한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "morningstar.com",
+    "url": "https://www.morningstar.com/news/business-wire/20260512894897/oklo-and-idaho-national-laboratory-to-employ-ai-enabled-reactor-design-for-advanced-nuclear-systems",
+    "k": "oklo and idaho national laboratory to employ ai enabled reactor design for advanced nuclear systems",
+    "id": "c95dcad9"
+  },
+  {
+    "date": "2026-05-12",
+    "title": "오클로(Oklo) 1분기 실적 예상 부합, 그로브스(Groves) 건설 진행 중",
+    "summary": "오클로(Oklo)의 1분기 손실이 시장 예상을 충족했으며, 그로브스 프로젝트 건설이 계획대로 진행 중이다.",
+    "summaryLong": "오클로(Oklo)가 발표한 1분기 실적에서 손실 규모가 시장 추정치와 일치하면서 주가가 상승했다. 특히 회사의 주력 프로젝트인 그로브스(Groves) 건설이 예정 일정에 맞춰 진행되고 있는 것으로 보도되었다. 이는 투자자들의 프로젝트 진전에 대한 신뢰를 반영한 긍정적 반응이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "investing.com",
+    "url": "https://www.investing.com/news/earnings/oklo-posts-wider-q1-loss-as-commercial-progress-remains-elusive-4682522",
+    "k": "oklo shares rise as q1 loss meets estimates groves construction on track",
+    "id": "104f014a"
+  },
+  {
     "date": "2026-05-11",
     "title": "소형모듈원자로(SMR), 기술이 아닌 경제성에서 경쟁력 부족",
     "summary": "분석에서 소형모듈원자로의 경제성 문제가 기술 문제보다 더 심각한 것으로 지적되었다.",
@@ -9211,6 +9295,20 @@ window.SMR_NEWS = [
     "url": "https://www.nuscalepower.com/press-releases/2026/nuscale-power-reports-first-quarter-2026-results",
     "k": "nuscale power reports first quarter 2026 results",
     "id": "0125bc80"
+  },
+  {
+    "date": "2026-05-07",
+    "title": "테라파워 동위원소, 필라델피아에 액티늄-225 제조시설 준공",
+    "summary": "테라파워의 동위원소 사업부가 세계 최대 규모의 액티늄-225 의약용 동위원소 제조시설을 미국 필라델피아에 준공했다.",
+    "summaryLong": "테라파워 동위원소(TerraPower Isotopes)가 필라델피아에서 세계 최대 규모의 액티늄-225(Actinium-225) 제조 시설 기공식을 개최했다. 이 시설은 의약용 방사성 동위원소 생산을 목표로 하며, 암 치료 등 핵의학 분야 활용을 위한 것이다. 이는 테라파워의 핵분열로 사업과 별개의 동위원소 비즈니스 확장으로, SMR·첨단로 사업과 직접적 관련성은 제한적이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "biospace.com",
+    "url": "https://www.biospace.com/press-releases/terrapower-isotopes-breaks-ground-on-worlds-largest-actinium-225-manufacturing-facility-in-philadelphia",
+    "k": "terrapower isotopes breaks ground on world s largest actinium 225 manufacturing facility in philadelphia",
+    "id": "27a5b96a"
   },
   {
     "date": "2026-05-06",
@@ -9773,6 +9871,20 @@ window.SMR_NEWS = [
     "id": "69ebfc32"
   },
   {
+    "date": "2026-04-20",
+    "title": "오클로(Oklo), 미국 에너지부(DOE)와 아이다호 국립연구소(INL) 원자로 건설 계약 체결",
+    "summary": "오클로가 미국 에너지부(DOE)와 아이다호 국립연구소(Idaho National Lab)에 원자로를 건설하기로 계약했다.",
+    "summaryLong": "오클로(Oklo)가 미국 에너지부(DOE)와 계약을 체결하여 아이다호 국립연구소(INL)에 원자로를 건설하기로 합의했다. 이는 소형모듈원자로(SMR) 개발사인 오클로가 연방 정부 시설에서 실제 원자로 건설 프로젝트를 추진하는 중요한 계약이다. 미국 에너지부와의 파트너십은 오클로의 기술 신뢰도와 상용화 전략에 긍정적 신호를 제공하는 마일스톤이다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "dailyenergyinsider.com",
+    "url": "https://dailyenergyinsider.com/policy/51534-oklo-signs-deal-with-doe-to-build-reactor-at-idaho-national-lab/",
+    "k": "oklo signs deal with doe to build reactor at idaho national lab",
+    "id": "abccca76"
+  },
+  {
     "date": "2026-04-17",
     "title": "온타리오전력공사(OPG), 다링턴의 BWRX-300 운영 허가 신청",
     "summary": "캐나다 온타리오전력공사(OPG)가 다링턴 핵발전소에 BWRX-300 소형모듈원자로의 운영 허가를 신청했다.",
@@ -9970,6 +10082,21 @@ window.SMR_NEWS = [
     "id": "5ccce54f"
   },
   {
+    "date": "2026-04-01",
+    "title": "테라파워(TerraPower), 이버지(Evergy) 지도부와 캔자스 원전 프로젝트 논의",
+    "summary": "테라파워(TerraPower)와 이버지(Evergy) 지도부가 캔자스에서의 잠재적 원전 건설 프로젝트에 대해 협의했다.",
+    "summaryLong": "첨단로 개발사 테라파워(TerraPower)가 전력회사 이버지(Evergy)의 경영진과 캔자스(Kansas) 지역에서의 원전 프로젝트 추진 가능성을 논의했다. 이는 테라파워의 소형모듈원자로 및 첨단 원자로 기술이 실제 전력 인프라 사업화로 나아가는 단계를 보여주는 전략적 협력 논의이다. 양사 간의 협의는 향후 구체적 계약이나 프로젝트 추진으로 발전할 가능성을 시사한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "ksnt.com",
+    "url": "https://www.ksnt.com/news/local-news/terrapower-evergy-leaders-discuss-potential-ks-nuclear-power-plant/?nxsparam=8",
+    "k": "terrapower evergy leaders discuss potential ks nuclear power plant",
+    "op": 1,
+    "id": "a5d6b697"
+  },
+  {
     "date": "2026-03-31",
     "title": "홀텍 SMR-300, 영국 GDA 2단계 통과",
     "summary": "홀텍 인터내셔널(Holtec International)의 SMR-300이 영국(UK)의 일반설계평가(GDA) 2단계를 완료해 영국 및 유럽·아시아 배치의 길을 열었다.",
@@ -10069,6 +10196,20 @@ window.SMR_NEWS = [
     "id": "746edec2"
   },
   {
+    "date": "2026-03-25",
+    "title": "오클로 CEO 제이콥 드위트, 백악관 과학위원회 임명",
+    "summary": "오클로의 최고경영자가 미국(US) 백악관 과학위원회에 임명되었다.",
+    "summaryLong": "오클로(Oklo)의 최고경영자(CEO) 제이콥 드위트(Jacob DeWitte)가 백악관(White House) 과학위원회에 임명되었다. 이는 오클로의 첨단로 기술이 미국 정부의 에너지·과학 정책 수립에 영향력을 갖게 되었음을 의미하며, SMR·첨단로 개발의 정책적 중요성을 강조하는 신호로 평가된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "investing.com",
+    "url": "https://www.investing.com/news/company-news/oklo-ceo-jacob-dewitte-appointed-to-white-house-science-council-93CH-4581139",
+    "k": "oklo ceo jacob dewitte appointed to white house science council",
+    "id": "ad958ab9"
+  },
+  {
     "date": "2026-03-24",
     "title": "핀란드, 미국 주도 소형모듈원자로 국제협력 프로그램 참여",
     "summary": "핀란드가 미국 주도의 소형모듈원자로 기술 책임 있는 이용 프로그램에 협력국으로 참여했다.",
@@ -10165,6 +10306,20 @@ window.SMR_NEWS = [
     "url": "https://www.nuscalepower.com/press-releases/2026/nuscale-power-and-ebara-elliott-energy-announce-a-strategic-partnership-to-showcase-use-of-advanced-nuclear-technology-to-power-petrochemical-plants",
     "k": "nuscale power and ebara elliott energy announce a strategic partnership to showcase use of advanced nuclear technology to power petrochemical plants",
     "id": "e0e1074a"
+  },
+  {
+    "date": "2026-03-18",
+    "title": "오클로(Oklo), 주요 규제 승인으로 원전 야심 가속화",
+    "summary": "오클로(Oklo)가 핵심 규제 승인을 획득하여 원전 사업 추진을 가속화했다.",
+    "summaryLong": "소형모듈원자로(SMR) 및 첨단로 개발사 오클로(Oklo)가 미국 규제 당국으로부터 주요 규제 승인(Key Regulatory Approvals)을 취득했다. 이는 오클로의 원자로 설계 및 운영 계획이 규제 체계 검토를 통과했음을 의미하며, 상용화 추진에 중요한 진전이다. 규제 승인은 오클로가 실제 원자로 건설 및 운영으로 나아가는 법적·기술적 기초를 마련했음을 보여준다.",
+    "cat": "인허가",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "zacks.com",
+    "url": "https://www.zacks.com/stock/news/2885974/oklo-accelerates-nuclear-ambitions-with-key-regulatory-approvals",
+    "k": "oklo accelerates nuclear ambitions with key regulatory approvals",
+    "id": "02a36855"
   },
   {
     "date": "2026-03-17",
@@ -10363,6 +10518,20 @@ window.SMR_NEWS = [
     "id": "39aa15cd"
   },
   {
+    "date": "2026-03-09",
+    "title": "오클로-센트러스, 오하이오 핵연료 서비스 합작사 계획",
+    "summary": "오클로(Oklo)와 센트러스(Centrus)가 오하이오(Ohio)에서 핵연료 서비스 분야 합작사 설립을 발표했다.",
+    "summaryLong": "오클로(Oklo)와 센트러스(Centrus)가 오하이오(Ohio)주에서 핵연료 서비스 사업을 함께 추진하기 위한 합작사 설립을 계획 중이라고 발표했다. 이는 고속로(Fast Reactor) 및 첨단로 연료 공급망 강화를 목표로 하는 전략적 파트너십이다. 합작사를 통해 미국 내 핵연료 서비스 역량을 확대하려는 의도로 보인다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "오클로",
+    "region": "US",
+    "source": "bicmagazine.com",
+    "url": "https://www.bicmagazine.com/industry/powergen/oklo-centrus-announce-planned-joint-venture/",
+    "k": "oklo centrus announce planned joint venture to advance nuclear fuel services in ohio",
+    "id": "b4cae261"
+  },
+  {
     "date": "2026-03-06",
     "title": "퍼듀대학교(Purdue University)·듀크에너지(Duke Energy), 소형모듈원자로(SMR) 핵학 연구 프로그램 협력",
     "summary": "퍼듀대학교(Purdue University)가 듀크에너지(Duke Energy)와 협력하여 소형모듈원자로(SMR) 관련 핵학 연구 프로그램을 운영한다.",
@@ -10375,6 +10544,20 @@ window.SMR_NEWS = [
     "url": "https://www.purdue.edu/operations/nuclear/home/duke/",
     "k": "study with duke energy small modular reactor smr nuclear studies",
     "id": "a4545c57"
+  },
+  {
+    "date": "2026-03-06",
+    "title": "SK 지원 테라파워 SMR, 미국 규제 승인 획득",
+    "summary": "테라파워(TerraPower)의 소형모듈원자로(SMR)가 미국 규제 당국으로부터 승인을 받았다.",
+    "summaryLong": "SK그룹의 지원을 받는 테라파워(TerraPower)가 미국 규제 기관(NRC)으로부터 소형모듈원자로(SMR) 프로젝트의 규제 승인을 획득했다. 이는 테라파워의 SMR 상용화 추진에 중요한 이정표로 평가된다. 미국과 한국의 협력을 통한 첨단 원자로 개발이 진전되고 있음을 보여준다.",
+    "cat": "인허가",
+    "type": "SFR",
+    "dev": "테라파워",
+    "region": "US",
+    "source": "koreaherald.com",
+    "url": "https://www.koreaherald.com/article/10687871",
+    "k": "sk backed terrapower smr wins us regulatory approval",
+    "id": "1ed28522"
   },
   {
     "date": "2026-03-05",
@@ -10431,6 +10614,20 @@ window.SMR_NEWS = [
     "url": "https://id.usembassy.gov/indonesia-united-states-and-japan-host-conference-on-nuclear-small-modular-reactor-deployment/",
     "k": "indonesia united states and japan host conference on nuclear small modular reactor deployment",
     "id": "34dc2e0e"
+  },
+  {
+    "date": "2026-03-04",
+    "title": "미국 원자력규제위원회(NRC), 테라파워(TerraPower) 나트륨 반응기 건설 허가 승인",
+    "summary": "미국 원자력규제위원회(NRC)가 테라파워(TerraPower)의 나트륨냉각고속로(Natrium) 반응기 건설 허가를 승인했다.",
+    "summaryLong": "미국 원자력규제위원회(NRC)는 테라파워(TerraPower)가 와이오밍(Wyoming)에서 추진 중인 나트륨냉각고속로(Natrium) 반응기 프로젝트에 대해 건설 허가를 승인했다. 이는 첨단로 기술의 상업화를 향한 중요한 규제 이정표로, 미국 에너지부(DOE) 지원 사업의 진전을 보여주는 성과이다.",
+    "cat": "인허가",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "power-eng.com",
+    "url": "https://www.power-eng.com/nuclear/smrs/nrc-authorizes-construction-permit-for-terrapower-natrium-reactor-in-wyoming/",
+    "k": "nrc authorizes construction permit for terrapower natrium reactor in wyoming",
+    "id": "ae5d2086"
   },
   {
     "date": "2026-03-03",
@@ -10657,6 +10854,20 @@ window.SMR_NEWS = [
     "id": "8042c8f6"
   },
   {
+    "date": "2026-02-17",
+    "title": "오클로(Oklo), 오하이오 남부 1.2GW 첨단 원자력 개발 협약 체결",
+    "summary": "오클로(Oklo)가 미국 오하이오주 남부에서 1.2기가와트(GW) 규모의 첨단 원자력 에너지 개발에 관한 협약을 체결했다.",
+    "summaryLong": "오클로(Oklo)가 미국 오하이오주 남부 지역에서 총 1.2기가와트(GW) 규모의 첨단 원자력 발전 프로젝트 개발을 위한 협약을 확보했다고 발표했다. 이 협약은 고속 소듐냉각로 기술 상용화의 구체적 사업화 사례이며, 지역 산업 고객이나 전력 구매자와의 장기 전력 공급 계약으로 평가된다. 해당 프로젝트는 오클로의 미국 내 주요 배치 계획의 일부이며, 규제 승인 및 건설 단계로 진행될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "energiesmedia.com",
+    "url": "https://energiesmedia.com/oklo-1-2-gw-advanced-nuclear-southern-ohio/",
+    "k": "oklo secures agreement for 1 2 gw advanced nuclear energy development in southern ohio",
+    "id": "3ecf92c5"
+  },
+  {
     "date": "2026-02-16",
     "title": "인도 NPCIL, 홀텍이 공동 설계·제조한 사용후핵연료 관리 장비 납품받다",
     "summary": "홀텍 아시아(Holtec Asia)와 홀텍 인터내셔널(Holtec International)이 공동 설계·제조한 사용후핵연료 관리 장비가 인도 NPCIL의 쿠단쿨람(Kudankulam) 원전에 납품되었다.",
@@ -10669,6 +10880,20 @@ window.SMR_NEWS = [
     "url": "https://holtecinternational.com/hh-41-02/",
     "k": "india s npcil receives state of the art used fuel management components co engineered and manufactured by holtec asia and holtec international",
     "id": "2e20fc83"
+  },
+  {
+    "date": "2026-02-15",
+    "title": "오클로·메타(Meta) 원자력 계약, 장기 성장 잠재력과 리스크 조명",
+    "summary": "오클로와 메타의 원자력 거래가 성사되었으며, 이는 장기 성장 기회와 위험을 동시에 내포한다.",
+    "summaryLong": "오클로(Oklo)가 메타(Meta)와 체결한 원자력 공급 계약이 SMR 산업의 주요 마일스톤으로 평가받고 있다. AI 데이터센터의 전력 수요를 충당하기 위한 이 계약은 첨단로의 실질적 상용화 사례를 제시하면서도, 기술 성숙도·규제 리스크·연료 공급 등 다양한 위험 요소도 함께 내포하고 있다. 업계는 이 거래를 통해 차세대 원자력의 시장성을 검증하는 시작점으로 보고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/news/oklo-meta-nuclear-deal-highlights-150910902.html",
+    "k": "oklo meta nuclear deal highlights long term growth potential and risks",
+    "id": "ca61371e"
   },
   {
     "date": "2026-02-13",
@@ -10825,6 +11050,20 @@ window.SMR_NEWS = [
     "url": "https://finance.yahoo.com/news/smr-vs-gev-small-modular-141900765.html",
     "k": "smr vs gev which small modular reactor stock is a better pick",
     "id": "768fa721"
+  },
+  {
+    "date": "2026-01-20",
+    "title": "한국수력원자력(KHNP), 테라파워(TerraPower) 투자자 참여",
+    "summary": "한국수력원자력(KHNP)이 테라파워(TerraPower)의 투자자로 참여했다.",
+    "summaryLong": "한국의 국영 전력기업 한국수력원자력(KHNP)이 테라파워(TerraPower)의 투자자 그룹에 참여했다. 이는 나트륨냉각고속로(Natrium) 등 첨단로 기술 개발에 한국이 직접 투자하여 기술 협력과 글로벌 네트워크 확대를 추진하는 전략적 결정으로, 한국의 원전 산업 고도화 노력을 보여준다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "KR",
+    "source": "prnewswire.com",
+    "url": "https://www.prnewswire.com/news-releases/korea-hydro--nuclear-power-joins-terrapower-investor-base-302665431.html",
+    "k": "korea hydro nuclear power joins terrapower investor base",
+    "id": "9afc92f6"
   },
   {
     "date": "2026-01-19",
@@ -11876,4 +12115,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-27 15:42 KST";
+window.SMR_UPDATED = "2026-06-27 16:27 KST";
