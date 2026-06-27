@@ -8,6 +8,20 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-06-27",
+    "title": "뉴스케일, 파라곤(Paragon) 계약 확보",
+    "summary": "뉴스케일(NuScale Power)이 SMR 배치 확대 과정에서 파라곤 계약을 확보했다.",
+    "summaryLong": "뉴스케일이 파라곤과의 계약을 확보하면서 소형모듈원자로(SMR) 상용화가 현실화되고 있다. 이 계약은 뉴스케일의 가압경수로(PWR) 기반 SMR 사업 확대를 의미하며, 미국 내 에너지 기반시설 고객 확보 움직임으로 평가된다. 파라곤과의 파트너십은 뉴스케일의 시장 수요 검증과 사업화 경로 확립에 중요한 마일스톤이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "뉴스케일",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/nuscale-power-smr-secures-paragon-020552129.html",
+    "k": "nuscale power smr secures paragon contract as smr rollout gets more real",
+    "id": "47b3548f"
+  },
+  {
     "date": "2026-06-26",
     "title": "뉴스케일(NuScale) 대신 오클로(Oklo) 주식을 사야 할까?",
     "summary": "모틀리 풀(The Motley Fool)이 SMR 개발사 뉴스케일과 오클로의 투자 가치를 비교 분석하는 의견 기사.",
@@ -343,6 +357,20 @@ window.SMR_NEWS = [
     "k": "롤스로이스 smr 영국 더비에 파이오니어 웍스 설립",
     "ko": 1,
     "id": "10a06d0f"
+  },
+  {
+    "date": "2026-06-26",
+    "title": "머스크, 소형모듈원자로(SMR) 도입 검토?",
+    "summary": "엘론 머스크가 소형모듈원자로 기술 도입을 검토할 가능성을 다룬 전망 기사다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "brownstoneresearch.com",
+    "url": "https://www.brownstoneresearch.com/bleeding-edge/will-musk-turn-to-small-modular-reactors/",
+    "k": "will musk turn to small modular reactors",
+    "op": 1,
+    "id": "c464d5b5"
   },
   {
     "date": "2026-06-25",
@@ -11848,4 +11876,4 @@ window.SMR_NEWS = [
     "id": "17aaa070"
   }
 ];
-window.SMR_UPDATED = "2026-06-27 08:48 KST";
+window.SMR_UPDATED = "2026-06-27 15:42 KST";
