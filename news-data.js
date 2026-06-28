@@ -7973,6 +7973,21 @@ window.SMR_NEWS = [
     "id": "7b4883d7"
   },
   {
+    "date": "2026-06-05",
+    "title": "미국 민간 SMR 최초 임계달성, 내년 이후 전력생산 개시",
+    "summary": "미국 민간 소형모듈원자로가 처음으로 임계(kritical)에 도달했으며, 내년 이후 전력생산 단계로 진입할 것으로 예상된다.",
+    "summaryLong": "미국의 민간 소형모듈원자로(SMR) 개발사가 최초로 임계 달성이라는 획기적 마일스톤을 기록했다. 이는 SMR 기술이 이론 단계에서 실제 운영 단계로 전환되는 핵심 증거이며, 내년 이후 상용 전력생산 기반 구축이 가능해짐을 의미한다. 이번 성과는 미국 SMR 산업의 상용화 가능성을 입증하는 중요한 신호로, 기타 개발사들의 일정에도 영향을 미칠 것으로 예상된다.",
+    "cat": "기술",
+    "type": "Micro",
+    "dev": "",
+    "region": "US",
+    "source": "newsis.com",
+    "url": "https://www.newsis.com/view/NISX20260605_0003657768",
+    "k": "민간 smr 임계 최초 달성 내년이후 전력생산 기반 마련",
+    "ko": 1,
+    "id": "a625924a"
+  },
+  {
     "date": "2026-06-04",
     "title": "엑스에너지(X-energy), 나스닥(Nasdaq) 상장 후 2026년 1분기 분기별 파이프라인 144기·11.5GWe 공시",
     "summary": "나스닥 상장 후 분기 공시에서 미국·영국 합산 144기, 약 11.5 GWe의 파이프라인(고객 권리 전량 행사 가정)을 공개했다.",
@@ -9906,6 +9921,21 @@ window.SMR_NEWS = [
     "url": "https://www.nuscalepower.com/press-releases/2026/nuscale-power-announces-opening-of-an-operations-center-in-houston-texas",
     "k": "nuscale power announces opening of an operations center in houston texas",
     "id": "5c5e1e6c"
+  },
+  {
+    "date": "2026-04-29",
+    "title": "소형원자로 글로벌 개발 경쟁, 한국 스타트업이 선도",
+    "summary": "세계 각국이 소형모듈원자로(SMR) 개발에 총력을 기울이는 가운데, 한국 스타트업이 경쟁에서 앞서가고 있다는 기사다.",
+    "summaryLong": "전 세계가 소형모듈원자로(SMR) 개발에 사활을 걸고 있는 가운데, 한국의 스타트업이 기술 개발과 상용화에서 주목할 만한 진전을 보이고 있다. 미국의 뉴스케일, 오클로 등과 함께 한국 기업도 SMR 시장에 적극 진입하여 기술 경쟁력을 입증하고 있다. 이는 한국이 차세대 원자력 기술 분야에서 글로벌 경쟁력을 갖추고 있음을 보여주는 사례로, 국내 에너지 산업의 성장 동력으로 평가되고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "chosun.com",
+    "url": "https://www.chosun.com/economy/startup_story/2026/04/29/2ALIE3F6E5GCPGOCEXXXLCOA2Y/",
+    "k": "전세계가 사활 건 소형 원자로 개발 경쟁 치고 나간 한국 스타트업",
+    "ko": 1,
+    "id": "9e531707"
   },
   {
     "date": "2026-04-28",
@@ -12743,4 +12773,4 @@ window.SMR_NEWS = [
     "id": "0ea30227"
   }
 ];
-window.SMR_UPDATED = "2026-06-29 08:14 KST";
+window.SMR_UPDATED = "2026-06-29 08:50 KST";
