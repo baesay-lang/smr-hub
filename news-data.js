@@ -8178,6 +8178,21 @@ window.SMR_NEWS = [
     "id": "9df6c6f7"
   },
   {
+    "date": "2026-06-04",
+    "title": "엑스에너지, 영국 원전당국에 SMR 설계 평가 신청",
+    "summary": "엑스에너지(X-energy)가 영국 원자력규제당국에 차세대 SMR 설계 평가를 신청했다.",
+    "summaryLong": "엑스에너지(X-energy)는 영국의 원자력 규제 당국에 고온가스로(HTGR) 기반 소형모듈원자로(SMR) 설계에 대한 공식 평가(Generic Design Assessment, GDA)를 신청했다. 이는 엑스에너지의 XE-100 설계가 영국 시장 진출을 위한 첫 단계이며, 국제 규제 승인 확보의 중요한 이정표이다. 영국 원자력규제청(ONR)의 평가를 통과하면 향후 주요 시장에서의 인허가 추진에 긍정적 영향을 미칠 것으로 예상된다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "UK",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4299",
+    "k": "엑스에너지 원전 당국에 차세대 smr 설계 평가 신청",
+    "ko": 1,
+    "id": "15637592"
+  },
+  {
     "date": "2026-06-03",
     "title": "X-energy, 영국 규제기관에 Xe-100 고온가스냉각로 인허가 신청",
     "summary": "미국의 첨단원전 개발사 X-energy가 고온가스냉각로(HTGR) Xe-100을 영국 제네릭 설계 평가 절차에 신청했다.",
@@ -12390,4 +12405,4 @@ window.SMR_NEWS = [
     "id": "0ea30227"
   }
 ];
-window.SMR_UPDATED = "2026-06-28 16:37 KST";
+window.SMR_UPDATED = "2026-06-28 16:56 KST";
