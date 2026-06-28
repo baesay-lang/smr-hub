@@ -1722,6 +1722,21 @@ window.SMR_NEWS = [
     "id": "7511322a"
   },
   {
+    "date": "2026-06-23",
+    "title": "한국해양대(KMU), 세계 최초 UN 산하 해양 SMR 국제인증기구 유치 추진",
+    "summary": "한국해양대학교가 유엔(UN) 산하 해양 SMR 국제인증 기관을 유치하려는 노력을 추진 중이다.",
+    "summaryLong": "한국해양대학교(Korea Maritime and Ocean University, KMU)가 유엔(UN) 산하에 설립될 해양 SMR(소형모듈원자로) 국제인증기구를 한국으로 유치하기 위해 추진 중이다. 이는 해상 플랫폼이나 도서 지역 전원용 SMR의 안전 규격 및 인증을 국제적으로 관리하는 기구로, 세계 최초 설립을 목표하고 있다. 한국이 국제 해양 에너지 규제 표준화를 주도하려는 의도를 반영하며, SMR 산업 생태계 구축 차원에서 의미가 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "KMU",
+    "region": "KR",
+    "source": "monthlymaritimekorea.com",
+    "url": "https://www.monthlymaritimekorea.com/news/articleView.html?idxno=57105",
+    "k": "한국해대 세계 최초 un 산하 해양 smr 국제인증기구 유치 추진",
+    "ko": 1,
+    "id": "f4a971ca"
+  },
+  {
     "date": "2026-06-22",
     "title": "오클로, 우라늄 공급 계약으로 핵분열 사업 강화",
     "summary": "오클로(Oklo)가 우라늄 공급 계약을 체결하며 핵분열 연료 확보에 나섰다.",
@@ -9725,6 +9740,20 @@ window.SMR_NEWS = [
     "id": "a366aa9f"
   },
   {
+    "date": "2026-04-28",
+    "title": "오클로(Oklo), 2026년 1분기 실적 및 사업 설명회 일정 공시",
+    "summary": "오클로(Oklo)가 2026년 1분기 재무결과 및 사업 업데이트 발표 일정을 공지했다.",
+    "summaryLong": "오클로(Oklo) 주식회사(NYSE: OKLO)가 2026년 1분기 재무결과와 사업 현황을 설명하는 컨퍼런스 콜 개최 일정을 공식 공시했다. 상장 기업으로서 분기 정기 공시이며, 투자자들은 이 기간 오클로의 고속로(SFR) 개발 진전, 펀딩 상황, 규제 협력 진행 상황 등을 파악할 수 있을 것으로 예상된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "oklo.com",
+    "url": "https://oklo.com/newsroom/news-details/2026/Oklo-Announces-Date-for-First-Quarter-2026-Financial-Results-and-Business-Update-Call/default.aspx",
+    "k": "oklo announces date for first quarter 2026 financial results and business update call",
+    "id": "906c0b5f"
+  },
+  {
     "date": "2026-04-27",
     "title": "X-Energy IPO 후 1.5배 급등, AI 전력 수요 견인",
     "summary": "소형모듈원자로 개발사 X-Energy가 기업공개(IPO) 직후 1.5배 상승하며 AI 전력 수요 증가에 주목받고 있다.",
@@ -12405,4 +12434,4 @@ window.SMR_NEWS = [
     "id": "0ea30227"
   }
 ];
-window.SMR_UPDATED = "2026-06-28 16:56 KST";
+window.SMR_UPDATED = "2026-06-28 17:13 KST";
