@@ -108,6 +108,138 @@ window.SMR_NEWS = [
     "id": "b8406034"
   },
   {
+    "date": "2026-06-29",
+    "title": "롤스로이스(Rolls-Royce) SMR, 더비에 제조 개발센터 설립",
+    "summary": "롤스로이스(Rolls-Royce) SMR이 영국 동부 미들랜즈(East Midlands) 지역의 더비(Derby)에 파이오니어 웍스(Pioneer Works) 제조 개발센터를 개설한다. 영국, 체코, 스웨덴에서 소형모듈원자로 함대 공급을 위한 건설 공정 및 정밀 조립 기술을 확보하는 시설이다.",
+    "summaryLong": "롤스로이스(Rolls-Royce) SMR이 영국 동부 미들랜즈 지역의 더비(Derby)에 파이오니어 웍스(Pioneer Works)라는 첫 제조 개발센터 설립을 발표했다. 이 시설은 소형모듈원자로의 건설 공정, 정밀 조립, 첨단 시험을 통해 영국, 체코, 스웨덴에서의 소형모듈원자로 함대 공급을 위한 위험요소를 제거하는 것을 목표로 한다. 이는 롤스로이스 SMR의 상용화 전략의 중요한 단계로, 제조 기반 확보를 통해 실제 원자로 공급 체계를 구축하려는 의도를 보여준다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "롤스로이스(Rolls-Royce)",
+    "region": "UK",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/rolls-royce-smr-plans-manufacturing-development-centre-in-derby",
+    "k": "rolls royce smr plans manufacturing development centre in derby",
+    "id": "4485a660"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "홀텍(Holtec)과 EDF, 영국에 SMR-300 배치 제안서 제출",
+    "summary": "홀텍 인터내셔널(Holtec International)과 영국 EDF 에너지(EDF Energy)가 영국 정부에 홀텍의 SMR-300 소형모듈원자로를 노팅엄셔(Nottinghamshire) 코탐(Cottam) 지역에 배치하는 공동 제안서를 제출했다.",
+    "summaryLong": "미국 플로리다주 주피터(Jupiter) 소재 홀텍 인터내셔널(Holtec International)과 런던 기반 EDF 에너지(EDF Energy)가 영국 정부에 홀텍의 SMR-300 소형모듈원자로를 노팅엄셔(Nottinghamshire)의 코탐(Cottam) 지역에 배치하는 공동 제안서를 제출했다. 홀텍 사장 릭 스프링먼(Rick Springman)과 EDF CFO 롭 귀일러(Rob Guyler)가 공동 제안서에 서명했다. 이는 홀텍 SMR-300의 영국 시장 진출과 상용화를 위한 중요한 계약 체결 사례이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "홀텍(Holtec)",
+    "region": "UK",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-06-29/article-8155/holtec-and-edf-submit-proposal-to-deploy-smr300-at-cottam-nottinghamshire/",
+    "k": "holtec and edf submit proposal to deploy smr 300 at cottam nottinghamshire",
+    "id": "b9d2e69b"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "엑스에너지(X-Energy), Russell Midcap Value 지수에 편입",
+    "summary": "엑스에너지(X-Energy)가 Russell Midcap Value 벤치마크 지수에 편입되었다.",
+    "summaryLong": "고온가스로(HTGR) 개발사 엑스에너지(X-Energy)가 Russell Midcap Value 벤치마크 지수에 편입되었다. 이는 엑스에너지가 미국 자본시장에서 중견 규모 기업으로 인정받게 되었음을 의미하며, 투자자 관심도 상승을 반영한다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "엑스에너지(X-Energy)",
+    "region": "US",
+    "source": "marketscreener.com",
+    "url": "https://www.marketscreener.com/news/x-energy-inc-nasdaqgs-xe-added-to-russell-midcap-value-benchmark-ce7f5fdfdd8bfe2c",
+    "k": "x energy inc nasdaqgs xe added to russell midcap value benchmark",
+    "id": "11f67a27"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "블라이칼라(Blykalla)·히타치에너지(Hitachi Energy), SMR 협력 MOU 체결",
+    "summary": "스웨덴의 블라이칼라와 일본 히타치그룹의 에너지 부문 히타치에너지가 차세대 납냉각 첨단 모듈형 원자로 배치를 위한 장기 협력 추진에 관한 양해각서를 체결했다.",
+    "summaryLong": "스웨덴의 블라이칼라(Blykalla)와 일본 히타치그룹의 에너지 부문 히타치에너지(Hitachi Energy)가 차세대 납냉각(lead-cooled) 첨단 모듈형 원자로(SMR) 배치 실현을 위한 장기 협력 추진에 관한 양해각서(MOU)를 체결했다. 이는 납냉각 소형 모듈 원자로의 상용화 및 확대 배치 경로를 탐색하기 위한 양사의 전략적 파트너십으로, SMR 시장에서 일본의 주요 에너지 기업과 유럽 개발사의 협력이 강화되는 신호다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "Blykalla, Hitachi Energy",
+    "region": "UK",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/blykalla-teams-up-with-hitachi-for-smr-deployment",
+    "k": "blykalla teams up with hitachi for smr deployment",
+    "id": "f9349ef9"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "독일 원전 재가동 논의, 전기요금·SMR 경쟁력 중심",
+    "summary": "독일이 원전 폐지 정책을 재검토하면서 전기요금 인상과 SMR의 경제성을 배경으로 원전 복귀 논쟁이 부상하고 있다.",
+    "summaryLong": "독일에서 2022년 말 완료된 원자력 폐지 정책이 재검토되는 상황 속에서, 에너지 위기로 인한 전기요금 급등과 소형모듈원자로(SMR)의 경제성 향상을 배경으로 '원전 복귀론'이 정치·사회적으로 대두되고 있다. 이는 에너지 정책의 현실적 재평가와 함께 차세대 원전 기술인 SMR에 대한 관심이 재정책 입안 과정에 영향을 미치고 있음을 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "EU",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4757",
+    "k": "독일 원전 다시 켤 수 있나 전기요금 smr 경쟁력 놓고 원전 복귀론 부상",
+    "ko": 1,
+    "op": 1,
+    "id": "41b6506f"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "정부, 전기·물 부족 대응으로 원전·SMR 포함 총동원 방침",
+    "summary": "한국 정부가 전력 및 용수 부족에 대응하기 위해 원자력과 SMR을 포함한 전방위 에너지 정책을 추진한다고 밝혔다.",
+    "summaryLong": "한국 정부가 예상되는 전기와 물(산업용수) 부족 위기에 대응하기 위해 기존 원자력발전소와 소형모듈원자로(SMR) 등을 포함한 모든 에너지원을 총동원하는 종합 정책을 추진할 방침임을 공식화했다. 이는 장기적 에너지 안보와 산업 기반 유지를 위해 원자력 및 SMR 기술의 역할을 에너지 정책의 핵심으로 위치시키는 정부의 입장 변화를 나타낸다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "news.jtbc.co.kr",
+    "url": "https://news.jtbc.co.kr/article/NB12305662",
+    "k": "전기 물 부족 우려에 정부 원전 smr 포함 총동원",
+    "ko": 1,
+    "id": "04f07cf0"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "부산시, '2026 해양SMR 육성 세미나' 개최로 시장 선점 추진",
+    "summary": "부산시가 해양(offshore) SMR 시장 선점을 위해 2026년 SMR 육성 세미나를 개최한다.",
+    "summaryLong": "부산시가 해양(offshore) 소형모듈원자로(SMR)의 미래 시장 선점을 목표로 '2026 해양SMR 육성 세미나'를 개최하기로 하였다. 이는 한국의 해양 플랜트 기술 기반과 조선 산업의 강점을 활용하여 차세대 해양 SMR 산업의 선도적 위치를 확보하려는 지방정부의 전략으로, SMR 상용화 시대에 대비한 지역 산업 육성 정책을 반영한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "surprisenews.kr",
+    "url": "http://www.surprisenews.kr/news/articleView.html?idxno=670604",
+    "k": "부산시 해양smr 미래 시장 선점을 위한 2026 해양smr 육성 세미나 개최",
+    "ko": 1,
+    "id": "371dea55"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "가스터빈·SMR 앞세워 'AI 인프라 심장' 점하기",
+    "summary": "한국이 가스터빈과 SMR을 활용하여 AI 데이터센터 등 미래 에너지 인프라의 핵심 공급 기술을 확보하려 한다.",
+    "summaryLong": "한국이 가스터빈 및 소형모듈원자로(SMR)를 전략 기술로 삼아 인공지능(AI) 데이터센터 및 고부가가치 산업의 전력 수요 증가에 대응하는 에너지 솔루션을 주도하려는 계획을 추진하고 있다. 이는 SMR이 단순한 저탄소 발전 기술을 넘어 차세대 ICT·AI 산업의 필수 에너지 기반 시설로 위치지어지고 있음을 나타내며, 한국의 에너지·산업 정책의 미래 방향을 제시한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "donga.com",
+    "url": "https://www.donga.com/news/Economy/article/all/20260629/134190759/2",
+    "k": "가스터빈 smr 앞세워 ai 인프라 심장 노린다",
+    "ko": 1,
+    "id": "e93d7cba"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "AI 시대 원전 르네상스···SMR 패권 경쟁 뛰어든 건설사들",
+    "summary": "AI 수요 증가로 원전 재조명 속에 소형모듈원자로(SMR) 시장 확대가 주목받고 있으며, 건설사들이 SMR 사업에 본격 진출하고 있다.",
+    "summaryLong": "인공지능(AI) 데이터센터의 전력 수요 급증으로 원자력발전이 재조명되는 가운데, 소형모듈원자로(SMR) 개발·공급을 놓고 건설사들의 경쟁이 심화되고 있다. SMR은 대형원전보다 건설 기간이 짧고 안전성이 높아 AI 시대의 에너지 솔루션으로 주목받고 있다. 국내 주요 건설사들도 SMR 사업 진출을 적극 추진하며 글로벌 패권 경쟁에 참여하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "newsway.co.kr",
+    "url": "https://www.newsway.co.kr/news/view?ud=2026062911054107908",
+    "k": "ai 원전 르네상스 smr 패권 경쟁 뛰어든 건설사들",
+    "ko": 1,
+    "id": "91bd1a34"
+  },
+  {
     "date": "2026-06-28",
     "title": "경주(Gyeongju), 한수원 도심 이전과 SMR 유치 재도전 해법 모색",
     "summary": "경주시가 한국수력원자력(한수원)의 도심 이전과 소형모듈원자로(SMR) 유치를 위한 추진 방안을 재검토하고 있다.",
@@ -2498,6 +2630,20 @@ window.SMR_NEWS = [
     "id": "20df4b26"
   },
   {
+    "date": "2026-06-22",
+    "title": "영국 SMR 산업화 추진 방안 - Turner & Townsend 분석",
+    "summary": "턴어앤타운센드(Turner & Townsend)가 영국의 소형모듈원자로(SMR) 양산 및 산업화 전략을 다룬 분석 자료를 발표했다.",
+    "summaryLong": "경영 컨설팅 회사 턴어앤타운센드(Turner & Townsend)가 영국의 소형모듈원자로(SMR) 산업화 및 양산 체계 구축에 대한 분석 자료를 제시했다. 영국이 SMR 기술 개발과 함께 제조 기반 확대 및 공급망 최적화를 통해 경제성 있는 대량 생산 체계를 갖추기 위한 과제와 전략을 다루고 있으며, 이는 영국의 SMR 상용화 추진 정책의 이행 방안을 모색하는 과정이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "UK",
+    "source": "turnerandtownsend.com",
+    "url": "https://www.turnerandtownsend.com/insights/how-can-the-uk-industrialise-small-modular-reactor-delivery/",
+    "k": "how can the uk industrialise small modular reactor delivery",
+    "id": "c61fab39"
+  },
+  {
     "date": "2026-06-21",
     "title": "센트러스 에너지(Centrus Energy), 오클로(Oklo)의 HALEU 계약 체결로 주가 저평가 가능성",
     "summary": "센트러스 에너지(Centrus Energy)가 오클로(Oklo)와 HALEU(고농축우라늄) 공급 계약을 체결하면서 주가 저평가 논의가 제기되고 있다.",
@@ -3508,6 +3654,21 @@ window.SMR_NEWS = [
     "k": "대형원전 후보부지 경북 영덕군 smr 후보부지 부산기장군 선정",
     "ko": 1,
     "id": "204cab7f"
+  },
+  {
+    "date": "2026-06-19",
+    "title": "경주시, SMR 부지 선정 결과 수용…원전 육성 사업 지속",
+    "summary": "경주시가 소형모듈원자로(SMR) 부지 선정 결과를 수용하고 원전 육성 사업을 계속 추진하기로 결정했다.",
+    "summaryLong": "경주시는 소형모듈원자로(SMR) 건설 부지 선정 결과를 공식 수용하고, 향후 원자력 관련 사업을 지속적으로 육성하기로 발표했다. 이는 지역의 원자력산업 거점화 전략의 일환으로, SMR 프로젝트가 지역 경제 활성화의 핵심 과제임을 반영한다. 경주시는 부지 확정 이후 설계·인허가·건설 등 후속 절차를 지원할 방침이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "kbsm.net",
+    "url": "https://www.kbsm.net/news/view.php?idx=523625",
+    "k": "경주시 smr 부지 선정 결과 수용 원전 육성 사업은 지속",
+    "ko": 1,
+    "id": "3309da6b"
   },
   {
     "date": "2026-06-18",
@@ -6711,6 +6872,21 @@ window.SMR_NEWS = [
     "id": "395bec9f"
   },
   {
+    "date": "2026-06-15",
+    "title": "스웨덴, 원전 확대 정책으로 영국 롤스로이스를 SMR 공급사로 선정",
+    "summary": "스웨덴이 원자력발전 확대 정책의 일환으로 영국의 롤스로이스(Rolls-Royce)를 소형모듈원자로(SMR) 공급사로 선정했다.",
+    "summaryLong": "스웨덴 정부는 원자력발전 확대 전략의 일부로 영국의 롤스로이스(Rolls-Royce) 홀딩스가 개발하는 소형모듈원자로(SMR) 도입을 추진하기로 결정했다. 롤스로이스는 세계적으로 인정받는 SMR 개발사로, 스웨덴의 탈탄소 에너지 정책 달성을 위해 선정되었다. 이는 유럽(EU) 지역에서 SMR 도입이 구체화되는 중요한 신호로 평가된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "UK",
+    "source": "biz.chosun.com",
+    "url": "https://biz.chosun.com/international/international_general/2026/06/15/V2KRKEMWORH63H3EJ5ZPFKCC5A/",
+    "k": "원전 확대 스웨덴 smr 공급사로 영국 롤스로이스 선정 조선비즈",
+    "ko": 1,
+    "id": "641d2aef"
+  },
+  {
     "date": "2026-06-14",
     "title": "우즈베키스탄 소형모듈원자로 수출 프로젝트 기공",
     "summary": "소형모듈원자로의 첫 수출 프로젝트가 우즈베키스탄에서 기공식을 개최했다.",
@@ -8131,6 +8307,21 @@ window.SMR_NEWS = [
     "k": "민간 smr 임계 최초 달성 내년이후 전력생산 기반 마련",
     "ko": 1,
     "id": "a625924a"
+  },
+  {
+    "date": "2026-06-05",
+    "title": "HD현대, SMR 추진 자동차운반선 개발 본격화…원자력 선박 확대",
+    "summary": "현대중공업(HD현대)이 소형모듈원자로(SMR) 추진 자동차운반선 개발을 본격적으로 추진하며 원자력 선박 사업을 확대하고 있다.",
+    "summaryLong": "현대중공업(HD현대)은 소형모듈원자로(SMR)를 동력원으로 하는 대형 자동차운반선 개발을 본격화하고 있다. SMR 추진 선박은 친환경 에너지로 운항 비용을 절감할 수 있어, 국제해사기구(IMO)의 탄소중립 규제 강화에 대응하는 전략으로 주목받고 있다. HD현대는 원자력 선박 시장 진출을 통해 미래 해양산업의 신 먹거리를 확보하려는 의도를 보이고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "HD현대",
+    "region": "KR",
+    "source": "shinailbo.co.kr",
+    "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5027646",
+    "k": "hd현대 smr 추진 자동차운반선 개발 본격화 원자력 선박 확대",
+    "ko": 1,
+    "id": "bf3e7850"
   },
   {
     "date": "2026-06-04",
@@ -12946,4 +13137,4 @@ window.SMR_NEWS = [
     "id": "0ea30227"
   }
 ];
-window.SMR_UPDATED = "2026-06-29 18:19 KST";
+window.SMR_UPDATED = "2026-06-30 07:40 KST";
