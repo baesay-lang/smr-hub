@@ -240,6 +240,64 @@ window.SMR_NEWS = [
     "id": "91bd1a34"
   },
   {
+    "date": "2026-06-29",
+    "title": "홀텍(Holtec)·EDF, 콧탐(Cottam)에 SMR-300 배치 제안 제출",
+    "summary": "홀텍(Holtec)과 EDF가 영국 노팅엄셔의 콧탐(Cottam) 부지에 홀텍 소형모듈원자로 SMR-300 배치를 위한 제안을 공식 제출했다.",
+    "summaryLong": "미국 원자로 제조사 홀텍(Holtec)과 프랑스 전력공사 EDF가 영국 노팅엄셔(Nottinghamshire)의 폐지된 콧탐(Cottam) 발전소 부지에 홀텍의 소형모듈원자로(SMR) SMR-300 배치 프로젝트를 추진하기 위해 정식 제안서를 제출했다. 이는 영국의 탈탄소 전략과 산업용 열 수급 대응을 위한 첨단로 도입 정책의 일환이며, 기존 인프라를 활용한 신형 원자로 배치 모델을 제시하는 의미를 갖는다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Holtec",
+    "region": "UK",
+    "source": "ans.org",
+    "url": "https://www.ans.org/news/2026-06-29/article-8155/holtec-and-edf-submit-proposal-to-deploy-smr300-at-cottam-nottinghamshire/",
+    "k": "holtec and edf submit proposal to deploy smr 300 at cottam nottinghamshire american nuclear society ans",
+    "id": "b9d2e69b"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "롤스로이스 SMR, 더비(Derby)에 1600만 달러 제조 개발센터 투자",
+    "summary": "롤스로이스 SMR(Rolls-Royce SMR)이 영국 더비(Derby)에 소형모듈원자로 제조 기술 개발을 위한 센터 구축에 1600만 달러를 투자한다.",
+    "summaryLong": "영국 방위·항공 산업 대기업 롤스로이스(Rolls-Royce)의 자회사 롤스로이스 SMR이 영국 더비(Derby)에 소형모듈원자로(SMR) 제조 개발센터 구축을 위해 1600만 달러(약 2백억 원대)를 투자하기로 결정했다. 이는 영국의 BWRX-300 기반 SMR 설계 개발과 국산화된 제조 역량 확보를 위한 핵심 투자이며, 영국의 첨단로 산업 기반 조성과 일자리 창출에 기여할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "UK",
+    "source": "energynews.pro",
+    "url": "https://energynews.pro/en/rolls-royce-smr-invests-16-million-in-a-manufacturing-development-centre-in-derby",
+    "k": "rolls royce smr invests 16 million in a manufacturing development centre in derby",
+    "id": "a6cd59c7"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "부산시, 2026년 해양 소형모듈원자로(SMR) 육성 세미나 개최",
+    "summary": "부산시가 2026년 해양 소형모듈원자로(SMR) 육성을 위한 세미나를 개최했다.",
+    "summaryLong": "부산시가 2026년 해양 소형모듈원자로(SMR) 육성 세미나를 개최했다. 이 세미나는 전력 수요 대응과 탄소 규제 대응 전략의 일환으로, 차세대 원자력 및 조선 산업의 융합을 촉진하기 위한 행사이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "연합뉴스 최신기사",
+    "url": "https://www.yna.co.kr/view/AKR20260630018900051",
+    "k": "부산시 전력수요 탄소규제 대응 해양 smr 세미나",
+    "ko": 1,
+    "id": "cbaa5142"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "히타치에너지, 블라이칼라(Blykalla)와 소형모듈원자로(SMR) 기술 협력 추진",
+    "summary": "히타치에너지(Hitachi Energy)가 블라이칼라(Blykalla)와 소형모듈원자로(SMR) 기술 협력을 추진한다.",
+    "summaryLong": "일본의 히타치에너지(Hitachi Energy)가 스웨덴의 블라이칼라(Blykalla)와 차세대 소형모듈원자로(SMR) 기술 협력을 추진하기로 했다. 양사는 SMR 기술 개발 및 상용화에 협력하여 차세대 원자력 에너지 솔루션 개발을 가속화할 계획이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Hitachi Energy",
+    "region": "JP",
+    "source": "2news.co.kr",
+    "url": "https://www.2news.co.kr/news/articleView.html?idxno=13256",
+    "k": "히타치에너지 블라이칼라 blykalla 와 차세대 소형 모듈 원자로 smr 기술 협력 추진",
+    "ko": 1,
+    "id": "0015e083"
+  },
+  {
     "date": "2026-06-28",
     "title": "경주(Gyeongju), 한수원 도심 이전과 SMR 유치 재도전 해법 모색",
     "summary": "경주시가 한국수력원자력(한수원)의 도심 이전과 소형모듈원자로(SMR) 유치를 위한 추진 방안을 재검토하고 있다.",
@@ -13137,4 +13195,4 @@ window.SMR_NEWS = [
     "id": "0ea30227"
   }
 ];
-window.SMR_UPDATED = "2026-06-30 07:40 KST";
+window.SMR_UPDATED = "2026-06-30 08:10 KST";
