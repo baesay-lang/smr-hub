@@ -215,6 +215,21 @@ window.SMR_NEWS = [
     "id": "40b88d73"
   },
   {
+    "date": "2026-06-28",
+    "title": "청와대 앞에서 신규원전·SMR 백지화 촉구, 재생에너지 전환 주장",
+    "summary": "시민단체가 청와대 앞에서 신규원전 및 소형모듈원자로(SMR) 백지화를 촉구하고 재생에너지 전환을 주장했다.",
+    "summaryLong": "환경·에너지 관련 시민단체가 청와대(대통령실) 앞에서 신규 원자력발전소 및 소형모듈원자로(SMR) 사업의 백지화를 촉구하는 시위를 개최했다. 참가자들은 \"원자력 확대 정책이 아닌 재생에너지로의 전환이 미래의 올바른 방향\"이라고 주장하였다. 이는 한국의 SMR 정책에 대한 사회적 논쟁이 진행 중임을 보여주는 사례로, 정부의 원전 정책 방향을 놓고 찬반 의견이 대립하고 있는 상황을 반영한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "wbcb.co.kr",
+    "url": "https://www.wbcb.co.kr/news/articleView.html?idxno=103778",
+    "k": "원전 확대 아닌 재생에너지 전환이 미래 청와대 앞에서 신규원전 smr 백지화촉구",
+    "ko": 1,
+    "id": "1d5eb68b"
+  },
+  {
     "date": "2026-06-27",
     "title": "뉴스케일, 파라곤(Paragon) 계약 확보",
     "summary": "뉴스케일(NuScale Power)이 SMR 배치 확대 과정에서 파라곤 계약을 확보했다.",
@@ -4918,6 +4933,21 @@ window.SMR_NEWS = [
     "url": "https://www.openpr.com/news/4554213/united-states-small-modular-reactor-market-to-reach-us-12-24",
     "k": "united states small modular reactor market to reach us 12 24",
     "id": "51f4287d"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "신규 핵발전소·SMR 어디에도 안 된다는 주장",
+    "summary": "시민단체가 \"신규 핵발전소와 소형모듈원자로(SMR)는 어디에도 들어서면 안 된다\"는 입장을 표현했다.",
+    "summaryLong": "환경 관련 시민단체가 신규 원자력발전소 및 소형모듈원자로(SMR) 건설에 대한 강한 반대 의견을 제시하고 있다. \"신규 핵발전소·SMR 어디에도 안 돼\"라는 구호를 통해 전국 어느 지역에서도 이러한 시설의 건설을 허용할 수 없다는 입장을 명확히 하고 있다. 이는 한국의 에너지 정책을 둘러싼 사회적 갈등과 SMR 도입에 대한 지역 거부감을 드러내는 사례다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "ohmynews.com",
+    "url": "https://www.ohmynews.com/NWS_Web/OhmyPhoto/annual/2026_at_pg.aspx?CNTN_CD=A0003244352",
+    "k": "오마이포토2026 신규 핵발전소 smr 어디에도 안 돼",
+    "ko": 1,
+    "id": "6e90b2ec"
   },
   {
     "date": "2026-06-17",
@@ -12916,4 +12946,4 @@ window.SMR_NEWS = [
     "id": "0ea30227"
   }
 ];
-window.SMR_UPDATED = "2026-06-29 18:05 KST";
+window.SMR_UPDATED = "2026-06-29 18:19 KST";
