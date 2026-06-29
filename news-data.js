@@ -298,6 +298,79 @@ window.SMR_NEWS = [
     "id": "0015e083"
   },
   {
+    "date": "2026-06-29",
+    "title": "오클로, 러셀 미드캡 밸류 벤치마크(Russell Midcap Value Benchmark)에 편입",
+    "summary": "오클로(Oklo Inc.)가 미국 주식 지수인 러셀 미드캡 밸류 벤치마크에 편입되었다.",
+    "summaryLong": "오클로 주식회사가 주요 미국 주가지수 운영기관인 FTSE 러셀(FTSE Russell)의 러셀 미드캡 밸류 벤치마크에 편입되었다. 이는 오클로가 중형주 가치주로 인정받으며 시장 내 지위가 강화되었음을 의미한다. 오클로는 고속로 기술을 개발하는 미국 기반 스타트업으로, 지수 편입은 기업의 신뢰도와 유동성 증대로 이어질 것으로 예상된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "오클로(Oklo)",
+    "region": "US",
+    "source": "marketscreener.com",
+    "url": "https://www.marketscreener.com/news/oklo-inc-nyse-oklo-added-to-russell-midcap-value-benchmark-ce7f5fdfdd8bff24",
+    "k": "oklo inc nyse oklo added to russell midcap value benchmark",
+    "id": "e836bc5c"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "엑스에너지(X-Energy)는 스페이스엑스를 제외한 최고의 신규 매수 종목인가?",
+    "summary": "엑스에너지(X-Energy)가 주식 투자 대상으로 스페이스엑스와 함께 주목받고 있다는 분석 기사다.",
+    "summaryLong": "엑스에너지가 스페이스엑스를 제외한 최고의 신규 상장 기업 중 하나로 평가받는 투자 분석 칼럼이다. 엑스에너지는 고온가스로(HTGR) 기술을 개발하는 미국 기반 선도 첨단로 개발사이다. 투자자 관점에서 신규 상장 기업들의 성장 잠재력을 비교 평가하는 내용으로, 확정된 사실 보도보다는 투자 의견 성격이다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "엑스에너지(X-Energy)",
+    "region": "US",
+    "source": "insidermonkey.com",
+    "url": "https://www.insidermonkey.com/blog/is-x-energy-xe-the-best-new-stock-to-buy-other-than-spacex-1791535/",
+    "k": "is x energy xe the best new stock to buy other than spacex",
+    "op": 1,
+    "id": "562a4086"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "롤스로이스, 영국에 1,580만 달러 규모 SMR 부품 제조 시설 구축",
+    "summary": "롤스로이스(Rolls-Royce)가 영국(UK)에 소형모듈원자로 부품 제조 시설에 1,580만 달러(약 1,700만 파운드)를 투자한다.",
+    "summaryLong": "롤스로이스가 영국 내 소형모듈원자로 부품 제조 전용 시설 구축을 위해 1,580만 미국 달러를 투자하기로 결정했다. 이는 롤스로이스 SMR(Rolls-Royce SMR) 프로젝트의 상용화 인프라 구축 단계로, 영국 정부의 SMR 국가 전략과 부합한다. 해당 투자는 롤스로이스의 SMR 공급망 확대 및 제조 능력 강화를 의미하며, 영국의 핵에너지 산업 기반 구축에 기여할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "롤스로이스(Rolls-Royce)",
+    "region": "UK",
+    "source": "manufacturingdigital.com",
+    "url": "https://manufacturingdigital.com/articles/rolls-royces-us-15-8m-smr-manufacturing-site-in-the-uk",
+    "k": "rolls royce s us 15 8m smr part manufacturing site in the uk",
+    "id": "a94731e9"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "부산시, '2026년 해양소형모듈원자로(SMR) 육성 세미나' 개최",
+    "summary": "부산시가 2026년 해양 소형모듈원자로(SMR) 육성 세미나를 개최하여 차세대 원자력·조선 융합산업 육성을 본격화하고 있다.",
+    "summaryLong": "부산시가 해양 소형모듈원자로(SMR) 육성을 위한 세미나를 개최함으로써 차세대 원자력 기술과 조선산업의 융합을 통한 새로운 산업 육성에 나서고 있다. 이는 한국(KR) 정부의 원자력 정책 방향과 지역 전략산업 육성의 일환으로, 소형모듈원자로 기술의 국내 산업화 및 수출 기반 마련을 목표로 하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "wbcb.co.kr",
+    "url": "https://www.wbcb.co.kr/news/articleView.html?idxno=103812",
+    "k": "부산시 2026 해양smr 육성 세미나 개최 차세대 원자력 조선 융합산업 육성 본격화",
+    "ko": 1,
+    "id": "109b7b86"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "소형모듈원자로(SMR)·수소 등 친환경 에너지로 대전환 앞장",
+    "summary": "소형모듈원자로(SMR)와 수소 등을 활용한 친환경 에너지 대전환이 추진되고 있다.",
+    "summaryLong": "소형모듈원자로(SMR)와 수소 생산 등 차세대 친환경 에너지 기술이 주요 에너지 정책의 중심으로 자리 잡으면서, 이들 기술의 조기 상용화와 산업 육성이 추진되고 있다. 이는 탄소중립 달성 및 에너지 다원화를 목표로 한 정부 정책의 일환으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "donga.com",
+    "url": "https://www.donga.com/news/Economy/article/all/20260629/134190775/2",
+    "k": "smr 수소 등 친환경 에너지 대전환 앞장",
+    "ko": 1,
+    "id": "f08409b0"
+  },
+  {
     "date": "2026-06-28",
     "title": "경주(Gyeongju), 한수원 도심 이전과 SMR 유치 재도전 해법 모색",
     "summary": "경주시가 한국수력원자력(한수원)의 도심 이전과 소형모듈원자로(SMR) 유치를 위한 추진 방안을 재검토하고 있다.",
@@ -13195,4 +13268,4 @@ window.SMR_NEWS = [
     "id": "0ea30227"
   }
 ];
-window.SMR_UPDATED = "2026-06-30 08:10 KST";
+window.SMR_UPDATED = "2026-06-30 08:45 KST";
