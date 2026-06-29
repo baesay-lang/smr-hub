@@ -8,6 +8,77 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-06-29",
+    "title": "롤스로이스(Rolls-Royce) SMR, 더비 제조시설 £12백만 투자로 생산 가속화",
+    "summary": "롤스로이스 SMR이 영국 더비에 £12백만 규모의 제조센터를 개설하여 소형모듈원자로 생산 능력을 확대한다.",
+    "summaryLong": "롤스로이스 SMR(Rolls-Royce SMR)이 영국(UK) 더비(Derby)에 £12백만 규모의 제조 센터를 개설하여 소형모듈원자로의 생산 속도를 높이고 있다. 이는 롤스로이스의 BWRX-300 계열 설계에 기반한 생산 시설로, 부품 제조 및 조립 역량 강화를 목표로 한다. 이번 투자는 영국의 SMR 국책 프로그램 일환으로, 2030년대 상용 운영을 목표로 진행 중이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Rolls-Royce SMR",
+    "region": "UK",
+    "source": "themanufacturer.com",
+    "url": "https://www.themanufacturer.com/articles/rolls-royce-smr-to-open-12m-derby-manufacturing-centre-to-accelerate-production/",
+    "k": "rolls royce smr to open 12m derby manufacturing centre to accelerate production",
+    "id": "34f8427e"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "오클로(Oklo) 러셀 3000 성장지수에서 제외",
+    "summary": "오클로 주식이 러셀 3000 성장지수에서 제외되었다.",
+    "summaryLong": "오클로(Oklo)의 주식이 러셀 3000 성장지수(Russell 3000 Growth Benchmark)에서 제외되었다. 이는 주식 지수 편성 기준 변화로 인한 재분류 조정으로, 회사의 펀더멘털이나 기술·사업 진행 상황과는 별개의 지수 운영 결정이다. 오클로는 현재 고속노(SFR) 개발을 추진 중인 선도 첨단로 개발사이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "marketscreener.com",
+    "url": "https://www.marketscreener.com/news/oklo-inc-nyse-oklo-dropped-from-russell-3000-growth-benchmark-ce7f5fdedb88f620",
+    "k": "oklo inc nyse oklo dropped from russell 3000 growth benchmark",
+    "id": "9054cd8d"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "오클로(Oklo) 러셀 1000 가치지수에 신규 편입",
+    "summary": "오클로 주식이 러셀 1000 가치지수에 새롭게 편입되었다.",
+    "summaryLong": "오클로(Oklo)의 주식이 러셀 1000 가치지수(Russell 1000 Value Benchmark)에 신규 편입되었다. 이는 지수 재분류 과정 중 일환으로, 성장지수에서 가치지수 카테고리로 이동한 것이다. 오클로의 고속냉각고속로(SFR) 기술 개발 진전과 상용화 경로 수립은 투자자 관심을 지속적으로 유지하고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "marketscreener.com",
+    "url": "https://www.marketscreener.com/news/oklo-inc-nyse-oklo-added-to-russell-1000-value-benchmark-ce7f5fdedc8cf527",
+    "k": "oklo inc nyse oklo added to russell 1000 value benchmark",
+    "id": "5871cf1e"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "엑스에너지(X-Energy) 러셀 1000 가치지수에 편입",
+    "summary": "엑스에너지 주식이 러셀 1000 가치지수에 편입되었다.",
+    "summaryLong": "엑스에너지(X-Energy)의 주식이 러셀 1000 가치지수(Russell 1000 Value Benchmark)에 편입되었다. 이는 회사의 시장 규모 및 지수 분류 기준 충족을 의미한다. 엑스에너지는 고온가스로(HTGR) 및 트릭스(TRISO) 연료 기술 개발을 진행 중인 첨단로 개발사이다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "marketscreener.com",
+    "url": "https://www.marketscreener.com/news/x-energy-inc-nasdaqgs-xe-added-to-russell-1000-value-benchmark-ce7f5fdedc8cf425",
+    "k": "x energy inc nasdaqgs xe added to russell 1000 value benchmark",
+    "id": "f5b0b270"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "창원대 SMR² 플랫폼, 국가연구소 선정",
+    "summary": "창원대학교의 SMR² 플랫폼이 국가연구소로 선정되었으며, 야당 의원 최형두가 세계 수준의 SMR 연구개발 생태계 구축을 지원하겠다고 밝혔다.",
+    "summaryLong": "창원대학교의 소형모듈원자로(SMR) 플랫폼인 'SMR²'가 정부의 국가연구소로 선정되었다. 야당 의원 최형두는 이 선정을 바탕으로 세계 최고 수준의 SMR 연구개발 생태계 구축을 지원하겠다고 밝혔다. 이는 한국의 SMR 기술 개발 및 인재 양성 체계 강화를 위한 정책적 조치로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Changwon Univ.",
+    "region": "KR",
+    "source": "biz.heraldcorp.com",
+    "url": "https://biz.heraldcorp.com/article/10791901",
+    "k": "창원대 smr 플랫폼 국가연구소 선정 최형두 세계 최고 수준의 smr 연구개발 생태계 구축 지원",
+    "ko": 1,
+    "id": "bb9ff68c"
+  },
+  {
     "date": "2026-06-28",
     "title": "경주(Gyeongju), 한수원 도심 이전과 SMR 유치 재도전 해법 모색",
     "summary": "경주시가 한국수력원자력(한수원)의 도심 이전과 소형모듈원자로(SMR) 유치를 위한 추진 방안을 재검토하고 있다.",
@@ -5735,6 +5806,21 @@ window.SMR_NEWS = [
     "k": "신규원전 부지로 경북 영덕 국내 첫 smr은 부산 기장",
     "ko": 1,
     "id": "c9d95481"
+  },
+  {
+    "date": "2026-06-17",
+    "title": "경주시, SMR 유치 실패 후 원자력 산업 육성 지속",
+    "summary": "경주시가 소형모듈원자로(SMR) 유치에 실패했으나 원자력 산업 육성 계획을 계속 추진하기로 했다.",
+    "summaryLong": "경상북도 경주시가 소형모듈원자로(SMR) 유치 사업의 실패에도 불구하고 지역의 원자력 산업 육성 계획을 당초 목표대로 추진하겠다고 밝혔다. 이는 경주시가 SMR 프로젝트 이외의 다른 원자력 산업 육성 방안을 모색하고 있음을 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "kukinews.com",
+    "url": "https://www.kukinews.com/article/view/kuk202606180041",
+    "k": "smr 유치 실패 경주시 원자력 산업 육성 계획대로",
+    "ko": 1,
+    "id": "98e4c66c"
   },
   {
     "date": "2026-06-16",
@@ -12773,4 +12859,4 @@ window.SMR_NEWS = [
     "id": "0ea30227"
   }
 ];
-window.SMR_UPDATED = "2026-06-29 08:50 KST";
+window.SMR_UPDATED = "2026-06-29 17:33 KST";
