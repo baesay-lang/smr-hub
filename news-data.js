@@ -79,6 +79,35 @@ window.SMR_NEWS = [
     "id": "bb9ff68c"
   },
   {
+    "date": "2026-06-29",
+    "title": "우즈베키스탄, 2029년 10~11월 첫 SMR 운영 예정",
+    "summary": "우즈베키스탄이 첫 소형모듈원자로(SMR) 운영을 2029년 10~11월로 예정하고 있다.",
+    "summaryLong": "우즈베키스탄이 자국 최초의 소형모듈원자로(SMR) 운영 개시를 2029년 10월에서 11월 사이로 예정하고 있다. 이는 중앙아시아 지역에서 SMR 도입을 선도하려는 움직임으로, 정부 차원의 공식 일정이다. 구체적 개발사·기술 노형·부지 등 세부 정보는 제시되지 않았으나, 예정된 운영 시작 시점이 명확히 공표되었다는 점에서 SMR 도입 프로젝트의 진행 의지를 나타낸다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "kun.uz",
+    "url": "https://kun.uz/en/news/2026/06/29/uzbekistan-schedules-first-small-modular-reactor-launch-for-october-november-2029-b1445b",
+    "k": "uzbekistan schedules first small modular reactor launch for october november 2029",
+    "id": "465587f3"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "롤스로이스, 영국에 유럽 SMR 제조 허브 설립",
+    "summary": "롤스로이스(Rolls-Royce)가 영국에 소형모듈원자로(SMR) 제조 허브를 설립한다.",
+    "summaryLong": "영국 방위산업 기업 롤스로이스(Rolls-Royce)가 영국 내에 유럽 지역을 대상으로 하는 소형모듈원자로(SMR) 제조 및 생산 허브를 설립하기로 결정했다. 이는 롤스로이스의 SMR 사업 확장 및 산업화 전략의 일환으로, 영국을 거점으로 유럽 시장 공략을 본격화하려는 움직임이다. 제조 허브 설립은 SMR의 대량생산 체계 구축과 지역 공급망 강화를 의미하며, 장기적으로 영국·유럽의 에너지 안보 강화에 기여할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "롤스로이스",
+    "region": "UK",
+    "source": "theguru.co.kr",
+    "url": "https://www.theguru.co.kr/news/article.html?no=103698",
+    "k": "롤스로이스 영국에 유럽 smr 제조 허브 설립",
+    "ko": 1,
+    "id": "b8406034"
+  },
+  {
     "date": "2026-06-28",
     "title": "경주(Gyeongju), 한수원 도심 이전과 SMR 유치 재도전 해법 모색",
     "summary": "경주시가 한국수력원자력(한수원)의 도심 이전과 소형모듈원자로(SMR) 유치를 위한 추진 방안을 재검토하고 있다.",
@@ -11683,6 +11712,20 @@ window.SMR_NEWS = [
     "id": "635e832a"
   },
   {
+    "date": "2026-01-13",
+    "title": "메타의 오클로, 테라파워와의 신규 원자력 계약 상세 분석",
+    "summary": "메타(Meta)가 오클로(Oklo)와 테라파워(TerraPower)와 체결한 신규 원자력 전력 공급 계약의 세부 내용을 다룬다.",
+    "summaryLong": "메타가 고속로 및 첨단원자로 개발사인 오클로와 테라파워와 장기 전력 공급 계약(PPA)을 체결했다. 이는 대규모 AI 데이터센터의 탄소중립 전력 수급을 위한 전략으로, 소형모듈원자로와 첨단로가 기업 수요처에서 실제 수주로 이어지는 사례이다. 메타의 이러한 계약 체결은 소형모듈원자로 및 첨단로 산업의 상업화 가능성을 입증하는 중요한 신호로 평가되고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo, TerraPower",
+    "region": "US",
+    "source": "ans.org",
+    "url": "https://www.ans.org/news/2026-01-13/article-7672/metas-new-nuclear-deals-with-oklo-and-terrapower-the-details/",
+    "k": "meta s new nuclear deals with oklo and terrapower the details ans nuclear newswire american nuclear society ans",
+    "id": "93abc027"
+  },
+  {
     "date": "2026-01-12",
     "title": "뉴스케일, 화학 플랜트를 위한 수익성 있는 전력 공급 가능성 입증 연구 발표",
     "summary": "뉴스케일 파워가 소형모듈원자로(SMR) 기술이 화학 산업체에 수익성 있고 안정적인 전력을 공급할 수 있음을 보여주는 연구결과를 발표했다.",
@@ -11737,6 +11780,20 @@ window.SMR_NEWS = [
     "url": "https://www.prnewswire.com/news-releases/terrapower-and-meta-enter-agreement-for-8-natrium-advanced-nuclear-plants-302657043.html",
     "k": "terrapower and meta enter agreement for 8 natrium advanced nuclear plants",
     "id": "e2b6994a"
+  },
+  {
+    "date": "2026-01-09",
+    "title": "메타, 오클로·비스트라·테라파워로부터 최대 6.6GW 원자력 계약",
+    "summary": "메타가 오클로, 비스트라(Vistra), 테라파워와 최대 6.6기가와트(GW) 규모의 원자력 전력 공급 계약을 체결했다.",
+    "summaryLong": "메타가 소형모듈원자로 개발사 오클로, 기존 원전 운영사 비스트라, 첨단로 개발사 테라파워와 총 6.6기가와트(GW)에 달하는 장기 전력 공급 계약을 체결했다. 이는 대규모 AI 기반 데이터센터의 전력 수급 전략의 일환으로, 소형모듈원자로와 첨단원자로가 기업의 탄소중립 목표 달성을 위한 실질적인 솔루션으로 채택되고 있음을 보여준다. 이 계약은 소형모듈원자로 산업의 상용화 단계 진입을 시사하는 중대한 신호로 평가되고 있다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Oklo, TerraPower",
+    "region": "US",
+    "source": "utilitydive.com",
+    "url": "https://www.utilitydive.com/news/meta-nuclear-deal-oklo-vistra-terrapower-ai-data-centers/809215/",
+    "k": "meta inks nuclear deals for up to 6 6 gw from oklo vistra terrapower",
+    "id": "78ae13ca"
   },
   {
     "date": "2026-01-08",
@@ -12859,4 +12916,4 @@ window.SMR_NEWS = [
     "id": "0ea30227"
   }
 ];
-window.SMR_UPDATED = "2026-06-29 17:33 KST";
+window.SMR_UPDATED = "2026-06-29 18:05 KST";
