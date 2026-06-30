@@ -549,6 +549,94 @@ window.SMR_NEWS = [
     "id": "e1ab3cbb"
   },
   {
+    "date": "2026-06-30",
+    "title": "오클로(Oklo), 크리에이티브 엔지니어스 인수로 소듐냉각로 엔지니어링 강화",
+    "summary": "오클로가 크리에이티브 엔지니어스를 인수하여 오로라(Aurora) 원자로 프로그램의 소듐 엔지니어링 역량을 확대한다.",
+    "summaryLong": "오클로(Oklo)가 크리에이티브 엔지니어스(Creative Engineers)를 인수하여 자사의 고속소듐냉각로(SFR) 오로라(Aurora) 개발 프로그램을 강화한다. 이번 인수는 고급 냉각제 시스템 설계 및 엔지니어링 능력을 내재화하기 위한 전략적 움직임으로, 오로라 원자로의 핵심 기술 병목을 해결하는 데 목표를 두고 있다. 오클로는 최근 몇 주 내 두 번째 인수를 단행함으로써 상용화 일정 앞당기기에 집중하고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "citybiz.co",
+    "url": "https://www.citybiz.co/article/867610/oklo-acquires-creative-engineers-to-expand-sodium-engineering-for-aurora-reactor-program/",
+    "k": "oklo acquires creative engineers to expand sodium engineering for aurora reactor program",
+    "id": "8a479421"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "뉴스케일 파워, SEC 양식 144 신고",
+    "summary": "뉴스케일 파워가 SEC에 양식 144(Form 144, 주식 공매도/거래) 서류를 제출했다.",
+    "summaryLong": "뉴스케일 파워(NuScale Power)가 미국 증권거래위원회(SEC)에 양식 144(Form 144)를 신고했다. 양식 144는 특정 주주가 제한된 주식이나 통제 주식을 공개 시장에 판매할 의향을 공시하는 서류이다. 구체적 거래 규모나 거래자 신원은 스니펫에서 명시되지 않았으며, 이는 기관 지분 변동이나 임직원 주식 거래 관련 일상적 행정 공시로 추정된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "stocktitan.net",
+    "url": "https://www.stocktitan.net/sec-filings/SMR/144-nuscale-power-corp-sec-filing-b3b7d7e69804.html",
+    "k": "144 nuscale power corp sec filing",
+    "id": "b0feee20"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "오클로(Oklo)가 크리에이티브 엔지니어스(Creative Engineers) 인수 완료",
+    "summary": "오클로(Oklo)가 크리에이티브 엔지니어스(Creative Engineers)를 인수했다.",
+    "summaryLong": "오클로(Oklo)는 크리에이티브 엔지니어스(Creative Engineers)의 인수를 완료했다. 이번 인수는 소형모듈원자로(SMR) 개발사의 기술 역량 강화 전략으로, 소듐냉각고속로(SFR) 관련 엔지니어링 전문성 확보를 목표로 한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "marketscreener.com",
+    "url": "https://www.marketscreener.com/news/oklo-inc-acquired-creative-engineers-inc-ce7f5fdcde8ef422",
+    "k": "oklo inc acquired creative engineers inc",
+    "id": "7cb8fec9"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "원자력안전위원회, SMR 안전규제 라운드테이블 개최",
+    "summary": "원자력안전위원회(NSC)가 소형모듈원자로의 안전규제 체계 논의를 위한 라운드테이블을 개최했다.",
+    "summaryLong": "한국의 원자력안전위원회(원안위)가 소형모듈원자로(SMR)의 안전규제 라운드테이블을 개최하여 다양한 이해관계자들의 의견을 수렴했다. 이는 SMR 규제 체계 정립을 위한 정부의 정책 추진으로, 설계인증 및 규제 표준화를 위한 기초 작업이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "원안위",
+    "region": "KR",
+    "source": "sisamirae.com",
+    "url": "https://www.sisamirae.com/news/article.html?no=524931",
+    "k": "원자력안전위원회 smr 안전규제 라운드테이블 개최",
+    "ko": 1,
+    "id": "10f60c01"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "부산시, 해양 SMR 육성 세미나 개최…산업 주도권 확보",
+    "summary": "부산시가 해양 소형모듈원자로(해양 SMR) 육성을 위한 세미나를 개최하여 산업 주도권 확보 전략을 추진했다.",
+    "summaryLong": "부산시가 해양 소형모듈원자로(해양 SMR) 산업 육성을 위한 세미나를 개최했다. 세미나는 글로벌 SMR 시장에서의 한국의 경쟁력 강화와 산업 주도권 확보를 목표로 하는 정책 추진의 일환으로, 지자체와 중앙정부의 협력 기반을 마련하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "metroseoul.co.kr",
+    "url": "https://www.metroseoul.co.kr/article/20260630500399",
+    "k": "부산시 해양 smr 육성 세미나 개최 산업 주도권 확보",
+    "ko": 1,
+    "id": "739c9498"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "탈원전 정책으로 SMR 기술 뒤처져, R&D·시설투자 세제 혜택 필요",
+    "summary": "전문가가 탈원전 정책이 소형모듈원자로(SMR) 기술 발전을 지연시켰으며, 경쟁력 회복을 위해 R&D 및 시설투자에 대한 세제 혜택이 필요하다고 지적했다.",
+    "summaryLong": "국내 원자력 전문가가 최근 탈원전 정책으로 인해 소형모듈원자로(SMR) 관련 기술 개발과 산업이 국제 경쟁에서 뒤처지고 있다고 우려를 제기했다. 전문가는 이러한 격차를 극복하기 위해서는 SMR 분야의 연구개발(R&D)과 생산시설 투자에 대한 정부 차원의 세제 혜택과 지원이 시급하다고 강조했다. 이는 국내 원자력 산업의 국제 경쟁력 강화와 에너지 정책 전환의 필요성을 반영하는 논의로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "news.nate.com",
+    "url": "https://news.nate.com/view/20260630n33005",
+    "k": "탈원전 5년으로 smr 뒤처져 r d 시설투자에 세제 혜택 줘야",
+    "ko": 1,
+    "op": 1,
+    "id": "81c6280d"
+  },
+  {
     "date": "2026-06-29",
     "title": "롤스로이스(Rolls-Royce) SMR, 더비 제조시설 £12백만 투자로 생산 가속화",
     "summary": "롤스로이스 SMR이 영국 더비에 £12백만 규모의 제조센터를 개설하여 소형모듈원자로 생산 능력을 확대한다.",
@@ -14095,4 +14183,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-01 07:54 KST";
+window.SMR_UPDATED = "2026-07-01 08:23 KST";
