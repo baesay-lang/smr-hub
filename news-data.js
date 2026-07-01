@@ -637,6 +637,80 @@ window.SMR_NEWS = [
     "id": "81c6280d"
   },
   {
+    "date": "2026-06-30",
+    "title": "오클로(Oklo), 크리에이티브 엔지니어스(Creative Engineers) 인수로 오로라 원자로 전문성 강화",
+    "summary": "오클로가 크리에이티브 엔지니어스를 인수하여 소듐냉각로 분야 기술력을 내재화하기로 했다.",
+    "summaryLong": "오클로(Oklo)가 소듐 시스템 엔지니어링 전문회사인 크리에이티브 엔지니어스(Creative Engineers)를 인수했다. 이번 인수는 오클로의 오로라(Aurora) 고속로(SFR) 개발 전략의 핵심 부분으로, 소듐냉각 시스템에 대한 기술 역량을 조직 내부로 통합하려는 움직임이다. 크리에이티브 엔지니어스는 고속로 분야에서의 오랜 경험을 보유한 업체로, 이 인수를 통해 오클로는 오로라 원자로의 개발 및 상용화 과정에서의 기술적 독립성을 확보할 수 있게 된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "uk.finance.yahoo.com",
+    "url": "https://uk.finance.yahoo.com/news/oklo-oklo-buys-creative-engineers-110806764.html",
+    "k": "oklo oklo buys creative engineers to bring aurora reactor expertise in house",
+    "id": "88521933"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "뉴스케일(NuScale) 소형모듈원자로(SMR): 핵전력-인공지능(AI) 트렌드가 아직 초기 단계인가?",
+    "summary": "뉴스케일(NuScale)의 소형모듈원자로(SMR)와 핵전력-인공지능(AI) 결합 트렌드의 시장 성숙도에 대한 분석 리포트이다.",
+    "summaryLong": "뉴스케일(NuScale)의 소형모듈원자로(SMR) 기술이 인공지능(AI) 전력 수요 충족의 유망한 솔루션으로 주목받고 있는 가운데, 현재 시장 성숙도와 투자 기회에 대한 평가가 이루어지고 있다. 핵전력과 인공지능 산업의 결합 추세가 초기 단계인지에 대해 시장 전문가들이 분석하고 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "mexc.co",
+    "url": "https://www.mexc.co/en-IN/learn/article/nuscale-power-smr-is-the-nuclear-ai-power-trade-still-early-/1",
+    "k": "nuscale power smr is the nuclear ai power trade still early",
+    "op": 1,
+    "id": "bb68ea73"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "한전원자력연료, SMR 연료 공급 확대…2035년 해외사업 비중 40% 목표",
+    "summary": "한전원자력연료가 소형모듈원자로(SMR) 연료 공급을 확대하여 2035년까지 해외사업 비중을 40%로 확대하는 목표를 제시했다.",
+    "summaryLong": "한전원자력연료의 정창진 사장이 소형모듈원자로(SMR) 연료 공급 확대 계획을 발표했다. 회사는 글로벌 소형모듈원자로(SMR) 시장의 성장에 대응하여 연료 공급 역량을 강화하고, 2035년까지 해외사업 비중을 전체 사업의 40%로 확대하는 전략적 목표를 수립했다. 이는 한국 원자력 연료산업의 국제 경쟁력 강화와 글로벌 시장 진출을 의도한 경영 전략이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한전원자력연료",
+    "region": "KR",
+    "source": "m.ekn.kr",
+    "url": "https://m.ekn.kr/view.php?key=20260630020367821",
+    "k": "정창진 한전원자력연료 사장 smr 연료 공급 확대 2035년 해외사업 비중 40 목표",
+    "ko": 1,
+    "id": "970a1137"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "부산시, 해양 소형모듈원자로(SMR) 산업 육성 본격화",
+    "summary": "부산시가 해양 소형모듈원자로 산업 육성을 위해 전력수요 및 탄소규제 대응 전략을 논의하며 본격적인 추진에 나섰다.",
+    "summaryLong": "부산시가 해양 소형모듈원자로(SMR) 산업 육성을 본격화하고 있으며, 이를 통해 증가하는 전력수요 대응과 탄소규제 적응 전략을 동시에 모색하고 있다. 지역 경제 활성화와 미래 에너지 산업 선점을 목표로 관련 정책과 기술 발전 방안을 논의 중이다. 이는 한국의 소형모듈원자로 개발 역량을 강화하고 국제 경쟁력을 확보하려는 지방정부 차원의 정책적 추진이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "newstown.co.kr",
+    "url": "https://www.newstown.co.kr/news/articleView.html?idxno=707723",
+    "k": "부산시 해양 smr 산업 육성 본격화 전력수요 탄소규제 대응 전략 논의",
+    "ko": 1,
+    "id": "84fc55d4"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "소형모듈원자로(SMR) 속도전…한국의 5년 격차 좁히려면 전력구매계약(PPA)·선발주 개방 필요",
+    "summary": "한국이 소형모듈원자로 시장에서 선진국과의 5년 격차를 좁히기 위해 전력구매계약(PPA) 및 선발주 제도 개방이 필요하다는 주장이 제기되었다.",
+    "summaryLong": "소형모듈원자로(SMR) 산업에서 한국이 선진국과의 기술·시장 격차를 단축하기 위해 전력구매계약(PPA) 제도의 조기 도입과 선발주(first-mover) 지위를 확보하는 정책 개선이 필수적이라는 분석이 제시되었다. 국제 경쟁에서 뒤처지고 있는 한국 소형모듈원자로 산업의 경쟁력 강화 방안을 제시한 것으로, 규제 환경의 개선과 투자 유인 정책이 급선무임을 시사한다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260630183151696",
+    "k": "smr 속도전 5년 격차 좁히려면 ppa 선발주 열어야",
+    "ko": 1,
+    "id": "64bb1cf1"
+  },
+  {
     "date": "2026-06-29",
     "title": "롤스로이스(Rolls-Royce) SMR, 더비 제조시설 £12백만 투자로 생산 가속화",
     "summary": "롤스로이스 SMR이 영국 더비에 £12백만 규모의 제조센터를 개설하여 소형모듈원자로 생산 능력을 확대한다.",
@@ -1236,6 +1310,21 @@ window.SMR_NEWS = [
     "k": "원전 확대 아닌 재생에너지 전환이 미래 청와대 앞에서 신규원전 smr 백지화촉구",
     "ko": 1,
     "id": "1d5eb68b"
+  },
+  {
+    "date": "2026-06-28",
+    "title": "오클로(Oklo)의 수주 확대, 오로라(Aurora) 프로젝트의 주요 병목 해소 목표",
+    "summary": "소형모듈원자로(SMR) 개발사 오클로(Oklo)가 수주를 통해 오로라(Aurora) 프로젝트의 핵심 개발 병목을 해소하려는 전략을 추진 중이다.",
+    "summaryLong": "오클로(Oklo)가 최근 수주 확대 활동을 통해 오로라(Aurora) 프로젝트의 주요 기술적 병목 현상을 해소하려고 노력하고 있다. 투자자들은 이러한 전략적 움직임에 주목하고 있으며, 오클로의 사업 추진 방향과 실현 가능성에 대해 평가하고 있다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "stocktwits.com",
+    "url": "https://stocktwits.com/news-articles/markets/equity/oklo-cei-acquisition-aurora-commercialization/cZ1QWl9R7in",
+    "k": "oklo s second acquisition in weeks targets a key aurora bottleneck what investors need to know",
+    "op": 1,
+    "id": "193125aa"
   },
   {
     "date": "2026-06-27",
@@ -6947,6 +7036,21 @@ window.SMR_NEWS = [
     "id": "98e4c66c"
   },
   {
+    "date": "2026-06-17",
+    "title": "[일지] 신규 원전·소형모듈원자로(SMR) 부지선정",
+    "summary": "신규 원전과 소형모듈원자로(SMR)의 부지선정 관련 주요 일지를 정리한 보도.",
+    "summaryLong": "연합뉴스가 신규 원전과 소형모듈원자로(SMR) 개발과 관련된 부지선정 사항을 연대기 형태로 정리한 보도이다. 제목만으로는 구체적 내용·당사자·일정·수치를 확인할 수 없으나, SMR 부지선정이라는 핵심 이슈를 다루고 있다. 추가 상세 정보는 원문 기사 열람을 통해 확인 필요.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "yna.co.kr",
+    "url": "https://www.yna.co.kr/view/AKR20260617121100003",
+    "k": "일지 신규 원전 소형모듈원자로 부지선정",
+    "ko": 1,
+    "id": "f6935463"
+  },
+  {
     "date": "2026-06-16",
     "title": "테라파워(TerraPower), 영국 진출…첫 해외 원전 추진",
     "summary": "테라파워(TerraPower)가 영국에 자회사 사무소를 열고 첫 해외 원전 사업에 진출했다. 영국 일반설계평가(GDA) 1단계도 개시했다.",
@@ -7876,6 +7980,20 @@ window.SMR_NEWS = [
     "k": "기고 김석기 smr 원전의 경주 유치가 국익",
     "id": "08214ed1",
     "ko": 1
+  },
+  {
+    "date": "2026-06-14",
+    "title": "오클로(Oklo) 주식 반등, 미국 에너지부(DOE) 마일스톤 달성 후 강세장 재개",
+    "summary": "오클로(Oklo)가 미국 에너지부(DOE)의 마일스톤을 달성한 후 주가가 반등하며 강세장이 재개되고 있다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발사 오클로(Oklo)가 미국 에너지부(DOE)의 중요한 마일스톤을 달성함에 따라 주가가 반등하고 있다. 시장에서는 이 긍정적인 진전이 오클로의 기술 개발 진전 및 상용화 가능성을 확인하는 신호로 해석하고 있으며, 투자자들이 주가 상승을 전망하고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-stock-bouncing-back-bulls-045357692.html",
+    "k": "oklo stock is bouncing back bulls are talking about 100 again after this doe milestone",
+    "id": "33df533e"
   },
   {
     "date": "2026-06-13",
@@ -14183,4 +14301,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-01 08:23 KST";
+window.SMR_UPDATED = "2026-07-01 08:54 KST";
