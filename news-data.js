@@ -144,6 +144,78 @@ window.SMR_NEWS = [
     "id": "3daba86f"
   },
   {
+    "date": "2026-07-01",
+    "title": "키르기스스탄 전력 공급 수력발전소 현대화",
+    "summary": "GE 버르노바(GE Vernova)가 키르기스스탄 전력의 40%를 공급하는 수력발전소의 4개 발전 유닛을 현대화했다.",
+    "summaryLong": "GE 버르노바(GE Vernova)는 키르기스스탄의 전력 수급의 약 40%를 담당하는 수력발전소의 4개 발전 유닛을 현대화하는 프로젝트를 완료했다. 이 프로젝트는 발전소를 완전히 정지하지 않으면서 현대화를 진행한 것이 특징이며, POWER(파워) 매거진의 올해 탑 플랜트 어워드 최종 후보에 선정되었다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "POWER Magazine",
+    "url": "https://www.powermag.com/modernizing-the-plant-that-powers-40-of-kyrgyzstan/",
+    "k": "modernizing the plant that powers 40 of kyrgyzstan",
+    "id": "e4996a5b"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "음용수 공급 겸 발전하는 모커신 수력발전소 현대화",
+    "summary": "GE 버르노바가 270만 명에게 음용수를 공급하는 57년 된 수력발전소의 2개 발전기를 교체했다.",
+    "summaryLong": "GE 버르노바(GE Vernova)는 270만 명의 음용수를 공급하는 주요 기능을 가진 57년 된 모커신(Moccasin) 수력발전소에서 2개의 원래 발전기를 4개월의 정지 기간 동안 교체했다. 이 프로젝트는 발전량보다는 신뢰성을 우선시하는 시설 운영 전략을 보여주는 사례로 강조되고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "POWER Magazine",
+    "url": "https://www.powermag.com/a-water-plant-that-happens-to-make-power-inside-the-moccasin-rewind/",
+    "k": "a water plant that happens to make power inside the moccasin rewind",
+    "id": "78c5a72d"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "블루 에너지·GE 버르노바, '가스 브릿지' 모델로 원전 금융 확대",
+    "summary": "블루 에너지(Blue Energy)와 GE 버르노바가 초대형 데이터센터 수요에 대응하기 위해 '가스 브릿지' 모델을 제시하고 있다.",
+    "summaryLong": "에너지 컨퍼런스에서 전력 부문 이해관계자들은 대규모 데이터센터 증가로 인한 청정 에너지 수요 증가를 인식하고 있다. 블루 에너지(Blue Energy)와 GE 버르노바(GE Vernova)는 이러한 수요를 충족하기 위해 '가스 브릿지(Gas Bridge)' 모델을 제안하고 있으며, 이는 원전 금융 접근성을 높이는 방안으로 평가되고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "POWER Magazine",
+    "url": "https://www.powermag.com/blue-energy-ge-vernova-advance-gas-bridge-model-to-unlock-nuclear-finance/",
+    "k": "blue energy ge vernova advance gas bridge model to unlock nuclear finance",
+    "id": "d52af570"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "엑스에너지, 영국 센트리카와 6GW 원전 파트너십 GDA 신청",
+    "summary": "첨단원자로 개발사 엑스에너지(X-energy)가 영국(UK) 센트리카(Centrica)와의 6GW 파트너십을 위해 영국 범용설계심사(GDA) 신청을 진행했다.",
+    "summaryLong": "첨단원자로 개발사 엑스에너지(X-energy)는 2026년 6월 2일 영국(UK)의 범용설계심사(Generic Design Assessment, GDA) 신청서를 제출했다고 발표했다. 이는 영국 에너지 기업 센트리카(Centrica)와 진행 중인 6GW 규모의 원전 파트너십 사업과 관련된 것으로, 규제 승인 절차의 중요한 단계를 나타낸다.",
+    "cat": "인허가",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "UK",
+    "source": "POWER Magazine",
+    "url": "https://www.powermag.com/power-digest-july-2026/",
+    "k": "power digest july 2026",
+    "id": "21f7b82e"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "홍준표 \"호남 반도체 인프라, SMR·지리산댐으로 해결 가능\"",
+    "summary": "정치인이 호남 지역 반도체 산업의 전력·용수 공급 문제 해결책으로 소형모듈원자로(SMR) 도입을 제안했다.",
+    "summaryLong": "국내 정치인 홍준표가 호남 지역의 반도체 산업 육성을 위한 전략으로 소형모듈원자로(SMR) 건설과 지리산(Jirisan) 댐 건설을 언급했다. 반도체 제조 시설의 대량 전력 수요와 용수 확보라는 실질적 과제에 대해 SMR을 해결책으로 제시한 발언이다. 이는 산업 현장의 에너지 수요에 맞춘 국내 SMR 활용 전망 논의를 나타낸다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "news1.kr",
+    "url": "https://www.news1.kr/politics/general-politics/6214546",
+    "k": "홍준표 호남 반도체 물 전기 smr과 지리산 댐 건설로 해결 가능",
+    "ko": 1,
+    "op": 1,
+    "id": "49a06cd2"
+  },
+  {
     "date": "2026-06-30",
     "title": "스페이스X, 리비안, 뉴스케일(NuScale)의 성장 전망 분석",
     "summary": "뉴스케일(NuScale)을 포함한 여러 성장 기업의 주식 투자 전망을 비교 분석한 보도이다.",
@@ -13575,4 +13647,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-01 17:20 KST";
+window.SMR_UPDATED = "2026-07-01 17:41 KST";
