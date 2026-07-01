@@ -511,6 +511,91 @@ window.SMR_NEWS = [
     "id": "79c716e5"
   },
   {
+    "date": "2026-07-01",
+    "title": "오클로(Oklo), 그로브스 동위원소 시험로 미국 에너지부(DOE) 안전승인 획득",
+    "summary": "오클로(Oklo)가 텍사스주 그로브스(Groves)에 건설할 동위원소 생산용 시험로가 미국 에너지부(DOE) 안전분석 승인을 획득했다.",
+    "summaryLong": "오클로(Oklo)는 텍사스주 그로브스(Groves)에 건설하는 고속로 기반 동위원소 생산 시험로(Groves Isotope Test Reactor)에 대해 미국 에너지부(DOE)로부터 최종 안전분석 승인을 획득했다. 이는 소듐냉각고속로(SFR) 기술을 활용한 의료용·산업용 동위원소 생산 실증의 중요한 인허가 마일스톤이다. 오클로의 고속로 기술은 SMR 분야에서 첨단로(Advanced Reactor) 범주에 속하며, 이번 승인은 소형 첨단로의 규제 경로 확립에 의미가 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "simplywall.st",
+    "url": "https://simplywall.st/stocks/us/utilities/nyse-oklo/oklo/news/oklo-oklo-wins-doe-safety-approval-for-groves-isotope-test-r",
+    "k": "oklo oklo wins doe safety approval for groves isotope test reactor",
+    "id": "5c7ff72e"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "오클로(Oklo), 텍사스 동위원소로 미국 에너지부(DOE) 안전승인 획득",
+    "summary": "오클로(Oklo)가 텍사스주에 건설하는 동위원소 생산용 원자로에 대해 미국 에너지부(DOE) 안전승인을 받았다.",
+    "summaryLong": "오클로(Oklo)는 텍사스주에서 추진하는 동위원소 생산용 시험로 프로젝트에 대해 미국 에너지부(DOE)의 안전분석 승인을 획득했다. 이는 고속로 기반 첨단 소형로의 규제 인허가 과정에서 중요한 단계로, 향후 건설 및 운영 허가 진행의 기반이 된다. 오클로의 소듐냉각고속로(SFR) 기술은 안전성 평가를 통과함으로써 첨단로 상용화 경로의 신뢰성을 강화했다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "seekingalpha.com",
+    "url": "https://seekingalpha.com/news/4608864-oklo-receives-doe-safety-approval-for-texas-isotope-reactor",
+    "k": "oklo receives doe safety approval for texas isotope reactor oklo nyse",
+    "id": "99d77b6e"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "오클로(Oklo) 등 SMR 기업, 유틸리티 섹터 최고 공매도 관심",
+    "summary": "뉴스케일(NuScale), 오클로(Oklo), 테라파워(TerraPower), 카이로스(Kairos Power), 롤스로이스 SMR(Rolls-Royce SMR) 등 소형모듈원자로 개발사들이 유틸리티 섹터에서 가장 높은 공매도 관심을 받고 있다.",
+    "summaryLong": "뉴스케일, 오클로, 엑스에너지(X-energy), 테라파워, 카이로스파워, 롤스로이스 SMR 등 주요 소형모듈원자로 개발사들이 미국 유틸리티 섹터에서 가장 높은 공매도 관심을 집중하고 있는 것으로 나타났다. 이는 시장 참여자들이 이들 기업의 주가에 대해 약세 전망을 갖고 있음을 시사한다. 한편 BIP와 RNW 등 다른 에너지 기업들은 상대적으로 낮은 공매도 관심을 받고 있다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "NuScale, Oklo, X-energy, TerraPower, Kairos, RR",
+    "region": "US",
+    "source": "msn.com",
+    "url": "https://www.msn.com/en-us/money/topstocks/ottr-oklo-draw-highest-short-interest-in-utilities-sector-bip-and-rnw-see-lowest-short-interest/ar-AA26ZF25?ocid=finance-verthp-feeds",
+    "k": "ottr oklo draw highest short interest in utilities sector bip and rnw see lowest short interest",
+    "id": "cd78e07f"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "SGE, 4.2GW 규모 영국 소형모듈원자로 함대 계획 공개",
+    "summary": "SGE가 영국(UK)에 4.2GW 규모의 소형모듈원자로 함대 구축 계획을 발표했다.",
+    "summaryLong": "SGE가 영국(UK)에서 총 4.2GW 용량의 소형모듈원자로 함대를 구축하는 계획을 공개했다. 이 프로젝트는 영국의 장기 전력 수급 전략의 일환으로 추진되고 있으며, 소형모듈원자로 기술의 상용화를 통해 청정 에너지 목표 달성에 기여할 것으로 기대된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "SGE",
+    "region": "UK",
+    "source": "sg.finance.yahoo.com",
+    "url": "https://sg.finance.yahoo.com/news/sge-unveils-plans-4-2gw-230100934.html",
+    "k": "sge unveils plans for 4 2gw uk small modular reactor fleet",
+    "id": "0e5c2205"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "뉴브런즈윅 소형모듈원자로 포럼: 에너지 논의의 한계",
+    "summary": "뉴브런즈윅(New Brunswick)에서 소형모듈원자로 포럼이 개최되었으며, 에너지 정책 논의의 협소한 범위를 다루고 있다.",
+    "summaryLong": "캐나다(CA) 뉴브런즈윅 지역에서 소형모듈원자로 포럼이 개최되었다. 이 포럼은 소형모듈원자로 기술과 정책에 대한 논의 공간을 마련했으나, 에너지 정책 대화가 제한적 범위에 머물고 있다는 평가가 제기되었다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "CA",
+    "source": "nbmediacoop.org",
+    "url": "https://nbmediacoop.org/2026/07/01/inside-the-small-modular-reactor-forum-a-narrow-energy-conversation-in-new-brunswick/",
+    "k": "inside the small modular reactor forum a narrow energy conversation in new brunswick nb media co op",
+    "id": "635f9b35"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "아프리카 SMR 선점전 본격화…한국 원전산업의 아프리카 전략",
+    "summary": "아프리카 지역 소형모듈원자로 시장을 놓고 국제 경쟁이 가열되는 가운데, 한국 원전산업의 아프리카 진출 전략을 모색하는 기사다.",
+    "summaryLong": "아프리카(Africa) 지역의 소형모듈원자로 시장을 둘러싼 국제 경쟁이 본격화하고 있다. 한국 원전산업은 기술력과 경험을 바탕으로 아프리카 시장 선점을 추진하고 있으며, 중장기 수출 전략 수립이 필요하다는 점이 강조되고 있다. 이는 한국의 원전 기업들이 글로벌 소형모듈원자로 시장에서 경쟁력을 확보하기 위한 핵심 과제로 대두되고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4808",
+    "k": "아프리카 smr 선점전 본격화 한국 원전산업의 아프리카 전략은",
+    "ko": 1,
+    "id": "55776c32"
+  },
+  {
     "date": "2026-06-30",
     "title": "스페이스X, 리비안, 뉴스케일(NuScale)의 성장 전망 분석",
     "summary": "뉴스케일(NuScale)을 포함한 여러 성장 기업의 주식 투자 전망을 비교 분석한 보도이다.",
@@ -1327,6 +1412,35 @@ window.SMR_NEWS = [
     "url": "https://www.visualcapitalist.com/sp/npuc26-ranked-countries-building-the-most-small-modular-nuclear-reactors/",
     "k": "ranked countries building the most small modular nuclear reactors",
     "id": "02906366"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "소형모듈원자로 기술 파트너십",
+    "summary": "소형모듈원자로 기술 파트너십 관련 뉴스 항목이다.",
+    "summaryLong": "소형모듈원자로 기술과 관련된 파트너십 동향을 다루고 있는 기사이나, 제목과 스니펫만으로는 구체적인 당사자, 협약 내용, 일정 등의 상세 정보를 파악하기 어렵다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "newcivilengineer.com",
+    "url": "https://www.newcivilengineer.com/tag/small-modular-reactor-technology-partner/",
+    "k": "small modular reactor technology partner",
+    "id": "07b4532a"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "부산시, 해양 소형모듈원자로 전략 논의 세미나…AI·탄소규제 대응",
+    "summary": "부산시가 해양 소형모듈원자로 전략과 AI·탄소규제 대응 방안을 논의하는 세미나를 개최했다.",
+    "summaryLong": "부산시(Busan)가 해양 소형모듈원자로(Marine SMR) 관련 전략 논의 세미나를 개최했다. 이 행사는 인공지능(AI) 기술 수요 증가와 국제 탄소규제 대응이라는 맥락에서 소형모듈원자로의 역할과 부산 지역의 발전 전략을 모색하는 기회가 되었다. 해양 소형모듈원자로는 도시 에너지 수급과 탄소중립 목표 달성을 위한 차세대 전원으로 주목받고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "newspim.com",
+    "url": "https://www.newspim.com/news/view/20260630000331",
+    "k": "부산시 해양 소형모듈원자로 전략 논의 세미나 ai 탄소규제 대응",
+    "ko": 1,
+    "id": "8d273828"
   },
   {
     "date": "2026-06-29",
@@ -13971,4 +14085,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-02 07:51 KST";
+window.SMR_UPDATED = "2026-07-02 08:25 KST";
