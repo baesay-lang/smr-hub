@@ -99,6 +99,14 @@
       </div>
     </div>
     <div class="crow">
+      <span class="lbl">권역</span>
+      <div class="filters" id="regFilters">
+        <span class="chip active" data-reg="all">전체</span>
+        <span class="chip" data-reg="해외">해외</span>
+        <span class="chip" data-reg="국내">국내</span>
+      </div>
+    </div>
+    <div class="crow">
       <span class="lbl">노형</span>
       <div class="filters" id="typeFilters">
         <span class="chip active" data-type="all">전체</span>
@@ -126,7 +134,7 @@
 </footer>
 
 <script src="news-data.js"></script>
-<script src="news-modal.js?v=5"></script>
+<script src="news-modal.js?v=6"></script>
 <script>
   var DATA = (window.SMR_NEWS || []).slice();
   function dkey(d){ var p=String(d).split('-'); return (p[0]||'0000')+(p[1]||'12')+(p[2]||'28'); }
@@ -137,7 +145,7 @@
   var noResults=document.getElementById('noResults');
   var countEl=document.getElementById('count');
   var search=document.getElementById('search');
-  var catF='all', typeF='all';
+  var catF='all', typeF='all', regF='all';
   function esc(s){ return String(s==null?'':s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];}); }
 
   // build DOM once
@@ -147,6 +155,7 @@
     el.className='item'+key;
     el.setAttribute('role','button'); el.setAttribute('tabindex','0');
     el.dataset.cat=n.cat; el.dataset.type=n.type;
+    el.dataset.dom=(window.smrIsKorean && window.smrIsKorean(n))?'1':'0';   // 1=국내, 0=해외
     el.dataset.text=((n.title||'')+' '+(n.summary||'')+' '+(n.dev||'')+' '+(n.region||'')+' '+(n.source||'')).toLowerCase();
     var src = n.url ? '<a href="'+esc(n.url)+'" target="_blank" rel="noopener">'+esc(n.source||'출처')+'</a>' : esc(n.source||'');
     el.innerHTML =
@@ -182,8 +191,9 @@
       clearMarks(it);
       var mc = catF==='all' || (catF==='핵심' ? it.dataset.cat!=='기술' : it.dataset.cat===catF);
       var mt = typeF==='all' || it.dataset.type===typeF;
+      var mr = regF==='all' || (regF==='해외' ? it.dataset.dom==='0' : it.dataset.dom==='1');
       var ms = !term || it.dataset.text.indexOf(term)>=0;
-      var show = mc&&mt&&ms;
+      var show = mc&&mt&&mr&&ms;
       it.classList.toggle('hidden',!show);
       if(show){vis++; if(term) highlight(it,term);}
     });
@@ -199,6 +209,7 @@
     });});
   }
   wire('catFilters','cat',function(v){catF=v;});
+  wire('regFilters','reg',function(v){regF=v;});
   wire('typeFilters','type',function(v){typeF=v;});
   search.addEventListener('input',apply);
 

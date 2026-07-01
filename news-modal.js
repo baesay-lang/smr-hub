@@ -246,4 +246,6 @@
   });
 
   window.openNewsModal = open;
+  // 국내(한국어 출처·한국 주제) 여부 — index/뉴스페이지가 같은 기준으로 국내/해외를 나누게 공용 노출
+  window.smrIsKorean = isKoreanItem;
 })();

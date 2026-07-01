@@ -96,9 +96,9 @@
 
   <div class="news-panel">
     <div class="np-head">
-      <h2>최신 뉴스</h2>
+      <h2>최신 해외 뉴스</h2>
       <span class="np-live">자동 트래킹</span>
-      <a class="np-all" href="SMR-news.html">전체 보기 →</a>
+      <a class="np-all" href="SMR-news.html">국내 포함 전체 →</a>
     </div>
     <div class="nh-feat" id="feat"></div>
     <div id="newsList"></div>
@@ -127,10 +127,12 @@
 </div>
 
 <script src="news-data.js"></script>
-<script src="news-modal.js?v=5"></script>
+<script src="news-modal.js?v=6"></script>
 <script>
-  var NEWS = (window.SMR_NEWS || []).slice();
+  var ALL = (window.SMR_NEWS || []).slice();
   function dkey(d){ var p=String(d).split('-'); return (p[0]||'0000')+(p[1]||'12')+(p[2]||'28'); }
+  // 메인 홈에는 해외 기사만 노출(국내는 뉴스 페이지의 국내/해외 필터에서). smrIsKorean 미로딩 시 전체 표시(fail-open)
+  var NEWS = ALL.filter(function(n){ return !(window.smrIsKorean && window.smrIsKorean(n)); });
   NEWS.sort(function(a,b){ return dkey(b.date).localeCompare(dkey(a.date)); });
 
   var KEY = {'인허가':1,'계약':1};
@@ -167,7 +169,7 @@
   newsPanel.addEventListener('keydown', function(e){ if(e.key!=='Enter'&&e.key!==' ') return; var row=e.target.closest('[data-idx]'); if(row){ e.preventDefault(); openNews(row); } });
 
   var upd = window.SMR_UPDATED || ((NEWS[0]?NEWS[0].date:'')+' 기준');
-  document.getElementById('stamp').textContent = '뉴스 '+NEWS.length+'건 · 마지막 업데이트 '+upd;
+  document.getElementById('stamp').textContent = '해외 뉴스 '+NEWS.length+'건 (전체 '+ALL.length+'건) · 마지막 업데이트 '+upd;
 </script>
 <script src="feedback.js" defer></script>
 </body>
