@@ -114,6 +114,36 @@ window.SMR_NEWS = [
     "id": "43993610"
   },
   {
+    "date": "2026-07-01",
+    "title": "홍준표 \"호남 반도체용 물·전기, SMR과 지리산댐으로 해결\"",
+    "summary": "홍준표 국민의힘 대선 예비후보가 호남 반도체 산업 육성을 위해 소형모듈원자로(SMR) 도입을 주장.",
+    "summaryLong": "홍준표 국민의힘 대선 예비후보는 호남 지역 반도체 산업 발전을 위해 소형모듈원자로(SMR)와 지리산댐 건설을 통해 물과 전기 공급 문제를 해결할 수 있다고 주장했다. 이는 4대강 사업의 재평가와 함께 지역 인프라 정책의 일환으로 제시된 것으로, SMR을 미래 에너지 인프라의 핵심 수단으로 위치시키는 정치적 공약이다. 구체적인 도입 일정·규모·투자 계획은 제시되지 않았으며, 정책 방향 제시 단계의 발언이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "kyeonggi.com",
+    "url": "https://www.kyeonggi.com/article/20260701580054",
+    "k": "홍준표 호남 반도체엔 지리산댐 smr 4대강 사업 재평가 다행",
+    "ko": 1,
+    "id": "27ebc4f5"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "고리원전, 주민 소통 강화 및 SMR 기술 소개",
+    "summary": "고리원전이 지역 주민과의 소통을 확대하고 소형모듈원자로 기술을 소개.",
+    "summaryLong": "고리원전(경주 소재)이 지역 주민과의 현장 소통을 강화하는 프로그램의 일환으로 원전 안전성과 함께 소형모듈원자로(SMR) 기술을 소개하고 있다. 이는 대형 원전 운영사가 미래 원전 기술인 SMR에 대한 주민 인식 제고 및 에너지 정책 홍보를 진행하고 있음을 보여준다. 구체적인 교육 일정·참여 규모·소개 내용은 기사 내용 만으로는 파악되지 않는다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한국수력원자력(KHNP)",
+    "region": "KR",
+    "source": "news.nate.com",
+    "url": "https://news.nate.com/view/20260701n09436",
+    "k": "고리원전 주민과 현장 소통 강화 원전 안전 smr 소개",
+    "ko": 1,
+    "id": "3daba86f"
+  },
+  {
     "date": "2026-06-30",
     "title": "스페이스X, 리비안, 뉴스케일(NuScale)의 성장 전망 분석",
     "summary": "뉴스케일(NuScale)을 포함한 여러 성장 기업의 주식 투자 전망을 비교 분석한 보도이다.",
@@ -860,6 +890,64 @@ window.SMR_NEWS = [
     "id": "0f46b082"
   },
   {
+    "date": "2026-06-30",
+    "title": "오클로, 크리에이티브 엔지니어스 인수로 소듐·알칼리금속 기술 강화",
+    "summary": "오클로가 크리에이티브 엔지니어스(Creative Engineers)를 인수하여 소듐냉각고속로(SFR) 관련 핵심 기술 역량을 확보했다.",
+    "summaryLong": "오클로가 크리에이티브 엔지니어스를 인수했다. 크리에이티브 엔지니어스는 소듐(sodium) 및 알칼리금속(alkali-metal) 관련 기술을 보유한 회사로, 이번 인수를 통해 오클로는 소듐냉각고속로 개발에 필수적인 냉각 기술과 엔지니어링 역량을 강화하게 된다. 이는 오클로의 SFR 상용화 일정 단축 및 기술 경쟁력 강화 전략으로 평가된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "오클로",
+    "region": "US",
+    "source": "eagletribune.com",
+    "url": "https://www.eagletribune.com/region/oklo-acquires-creative-engineers-to-strengthen-sodium-alkali-metal-capabilities/article_5e473c15-96f1-54ed-bcb7-c0971bada807.html",
+    "k": "oklo acquires creative engineers to strengthen sodium alkali metal capabilities eagle tribune",
+    "id": "eae7ad53"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "뉴스케일 파워(NuScale Power) Form 144 공시",
+    "summary": "뉴스케일 파워의 Form 144(내부자 주식 거래 공시) 문서 공개.",
+    "summaryLong": "뉴스케일 파워(NuScale Power)의 2024년 6월 30일자 Form 144 공시 문서가 공개되었다. Form 144는 미국 증권거래위원회(SEC)에 제출되는 내부자 주식 거래 공시 양식이다. 구체적인 거래 내용·수량·목적에 대한 정보는 제공되지 않았으나, 일반적으로 경영진·주요 주주의 주식 거래 동향을 나타낸다. 이 공시는 회사의 공시 의무 이행을 보여주는 행정적 기록이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "ca.investing.com",
+    "url": "https://ca.investing.com/news/stock-market-news/form-144-nuscale-power-corp-for-30-june-93CH-4714202",
+    "k": "form 144 nuscale power corp for 30 june by investing com",
+    "id": "ebf1f3e8"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "부산시, 해양 소형모듈원자로 육성 방안 모색",
+    "summary": "부산시가 해양 소형모듈원자로 산업 육성을 위한 방안을 모색.",
+    "summaryLong": "부산시가 해양 소형모듈원자로(SMR) 산업 육성을 위한 전략 수립에 나서고 있다. 연안 지역의 특성을 활용한 해양 기반 SMR 도입을 통해 지역 에너지 자립도 제고 및 신산업 창출을 추진하려는 의도로 보인다. 구체적인 육성 방안·투자 규모·일정·협력 기관 등은 추가 보도 또는 공식 발표를 통해 공개될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "pressian.com",
+    "url": "https://www.pressian.com/pages/articles/2026063010004598873",
+    "k": "부산시 해양 smr 육성 방안 모색 나서",
+    "ko": 1,
+    "id": "dcde408f"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "부산시, 해양 소형모듈원자로(SMR) 미래시장 선점 추진",
+    "summary": "부산시가 해양 소형모듈원자로(SMR) 관련 정책을 추진하며 미래 시장 선점을 나선다.",
+    "summaryLong": "부산시가 해양 소형모듈원자로(SMR)의 미래시장 선점을 목표로 정책을 추진 중이다. 세미나 개최 등을 통해 해양 SMR 육성 전략을 구체화하고 있으며, 부산을 중심으로 한 지역 기반 산업 육성을 목표로 하고 있다. 이는 한국의 소형모듈원자로 국책 프로그램의 일환으로, 지역 경제 발전과 기술 리더십 확보를 동시에 추진하려는 전략으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "mnlnews.net",
+    "url": "https://www.mnlnews.net/news/view.php?bIdx=48843",
+    "k": "부산시 해양smr 미래시장 선점 나선다",
+    "ko": 1,
+    "id": "ec1ac410"
+  },
+  {
     "date": "2026-06-29",
     "title": "롤스로이스(Rolls-Royce) SMR, 더비 제조시설 £12백만 투자로 생산 가속화",
     "summary": "롤스로이스 SMR이 영국 더비에 £12백만 규모의 제조센터를 개설하여 소형모듈원자로 생산 능력을 확대한다.",
@@ -1238,6 +1326,21 @@ window.SMR_NEWS = [
     "k": "롤스로이스 더비에 smr 제조 센터 설립 글로벌 공략",
     "ko": 1,
     "id": "d3b364ae"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "부산시, '북극항로와 AI(인공지능)시대' 테마로 해양 소형모듈원자로(SMR) 육성 세미나 개최",
+    "summary": "부산시가 북극항로·AI(인공지능) 시대를 배경으로 해양 소형모듈원자로(SMR) 육성 세미나를 개최했다.",
+    "summaryLong": "부산시는 북극항로 개척과 인공지능(AI) 시대의 도래라는 국제적·기술적 트렌드를 배경으로 해양 소형모듈원자로(SMR) 육성 세미나를 개최했다. 이 세미나는 글로벌 해양 산업의 변화와 에너지 수요 증가 속에서 해양 SMR의 전략적 중요성을 강조하고, 부산을 중심으로 한 국내 SMR 산업 육성 방향을 모색하는 자리로 마련되었다. 북극항로의 수송 증가와 함께 이 지역의 에너지 공급 수요가 높아질 것으로 예상되며, 해양 SMR은 이러한 미래 수요에 대응할 핵심 기술로 평가되고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "newsis.com",
+    "url": "https://www.newsis.com/view/NISX20260630_0003688777",
+    "k": "북극항로와 ai시대 부산시 해양 smr 육성 세미나",
+    "ko": 1,
+    "id": "95a278fe"
   },
   {
     "date": "2026-06-28",
@@ -1698,6 +1801,20 @@ window.SMR_NEWS = [
     "url": "https://www.energy.gov/ne/articles/4-key-benefits-advanced-small-modular-reactors",
     "k": "4 key benefits of advanced small modular reactors",
     "id": "3bd3b2cf"
+  },
+  {
+    "date": "2026-06-26",
+    "title": "뉴스케일 파워 급락, 핵심 의문은 밸류에이션",
+    "summary": "심플월(simplywall.st)이 뉴스케일 파워의 주가 하락과 밸류에이션 문제를 분석했다.",
+    "summaryLong": "심플월(simplywall.st)은 뉴스케일 파워의 주가 하락을 다루며 핵심 문제를 밸류에이션 문제로 지적했다. SMR 개발의 높은 기대감에도 불구하고 실제 사업화 타이밍과 수익성 달성에 대한 시장의 의문이 주가 하락으로 이어진 것으로 분석된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "뉴스케일",
+    "region": "US",
+    "source": "simplywall.st",
+    "url": "https://simplywall.st/stocks/us/capital-goods/nyse-smr/nuscale-power/news/nuscale-power-smr-sinks-as-nuclear-hopes-meet-a-big-valuatio",
+    "k": "nuscale power smr sinks as nuclear hopes meet a big valuation question",
+    "id": "392f1c6c"
   },
   {
     "date": "2026-06-25",
@@ -7078,6 +7195,21 @@ window.SMR_NEWS = [
     "id": "a957cf06"
   },
   {
+    "date": "2026-06-16",
+    "title": "뉴스케일 파워, 2033년까지 보유할 이유 1가지 - 모틀리 풀 추천",
+    "summary": "모틀리 풀(The Motley Fool)이 뉴스케일 파워를 2033년까지 장기 보유할 근거를 제시했다.",
+    "summaryLong": "모틀리 풀은 뉴스케일 파워에 대한 장기 투자 추천 기사를 게재했다. 2033년이라는 구체적 시점은 뉴스케일의 주력 프로젝트인 미국 아이다호(Idaho)의 보이지(Boyce) 원자력공원 내 NuScale 설비의 운영 시작 예정 시기와 관련이 있을 것으로 추정된다. 이 기사는 뉴스케일의 기술 경쟁력과 상용화 전망을 바탕으로 한 투자 의견이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "뉴스케일",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/06/16/1-reason-to-buy-nuscale-and-hold-until-2033/",
+    "k": "1 reason to buy nuscale power and hold until 2033",
+    "op": 1,
+    "id": "0a479b9b"
+  },
+  {
     "date": "2026-06-15",
     "title": "한전기술, 베트남 SMR 협력 구체화",
     "summary": "한전기술이 베트남의 소형모듈원자로(SMR) 법제화 움직임에 협력하며 전략적 교두보를 마련하고 있다.",
@@ -7970,6 +8102,21 @@ window.SMR_NEWS = [
     "k": "oklo stock rises can regulatory progress offset the nuclear start up s slump",
     "op": 1,
     "id": "c5bad8f1"
+  },
+  {
+    "date": "2026-06-11",
+    "title": "뉴스케일 파워 연초 대비 35% 하락, 매수 기회인가?",
+    "summary": "뉴스케일 파워의 주가가 연초 대비 35% 하락하자 야후 파이낸스가 투자 기회 여부를 분석했다.",
+    "summaryLong": "야후 파이낸스는 뉴스케일 파워의 주가 하락을 다루며 현재 가격대가 매수 기회인지를 평가하는 기사를 게재했다. 주가 변동성은 SMR 개발사의 규제 진행, 사업화 일정, 시장 신뢰도 변화를 반영한다. 이 기사는 투자 의견이므로 확인된 사실 보도보다는 분석 및 전망의 성격이 강하다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "뉴스케일",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/nuscale-power-down-35-ytd-123200409.html",
+    "k": "nuscale power down 35 ytd is it a buy the dip opportunity",
+    "op": 1,
+    "id": "41cc176c"
   },
   {
     "date": "2026-06-10",
@@ -13428,4 +13575,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-01 16:56 KST";
+window.SMR_UPDATED = "2026-07-01 17:20 KST";
