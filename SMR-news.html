@@ -53,6 +53,7 @@
   .tg.op{background:#fef2f2;color:#b91c1c;border-color:#fbcaca;}
   .item-src{font-size:11.5px;margin-top:4px;color:var(--text-faint);}
   .item-src a{color:var(--text-dim);}
+  .chip.key{color:var(--accent-strong);border-color:var(--accent-weak-2);font-weight:700;}
   .no-results{text-align:center;color:var(--text-faint);padding:40px;}
 </style>
 </head>
@@ -89,6 +90,7 @@
       <span class="lbl">분류</span>
       <div class="filters" id="catFilters">
         <span class="chip active" data-cat="all">전체</span>
+        <span class="chip key" data-cat="핵심">핵심만</span>
         <span class="chip" data-cat="인허가">인허가</span>
         <span class="chip" data-cat="계약">계약</span>
         <span class="chip" data-cat="투자">투자</span>
@@ -178,7 +180,7 @@
     var vis=0;
     items.forEach(function(it){
       clearMarks(it);
-      var mc = catF==='all' || it.dataset.cat===catF;
+      var mc = catF==='all' || (catF==='핵심' ? it.dataset.cat!=='기술' : it.dataset.cat===catF);
       var mt = typeF==='all' || it.dataset.type===typeF;
       var ms = !term || it.dataset.text.indexOf(term)>=0;
       var show = mc&&mt&&ms;

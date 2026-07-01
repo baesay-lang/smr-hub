@@ -72,6 +72,12 @@ const PRIORITY_DEVS = [
 const BLOCK_HOSTS = ['foreignpolicyjournal.com'];
 const isBlockedHost = (url) => BLOCK_HOSTS.some(h => (url||'').includes(h));
 
+// 시황·주가 노이즈 필터 — SMR 레퍼런스에는 "주가 급등/급락·애널리스트 매수의견·지수 편출입" 류가
+// 신호를 묻어버림. 제목이 주가성인데 실제 사건(계약·인허가·투자유치·정책)이 아니면 버린다(주요 개발사도 예외 없음).
+const MKT_NOISE = /주가|급등|급락|강세|약세|매수|매도|목표주가|저점|고점|반등|폭등|폭락|하락세|상승세|증시|시총|배당|사야 할|팔아야|\bstock|\bshares?\b|rally|surge|plunge|soar|tumble|\bjumps?\b|buy rating|sell rating|price target|analyst|upgrade|downgrade|\bbull|\bbear|russell|지수에서 제외|커버리지 개시/i;
+const MKT_KEEP  = /인허가|허가|인증|표준설계|승인|착공|가동|계약|수주|MOU|양해각서|협약|공급|파트너|합작|투자 유치|지분 인수|펀딩|자금 조달|상장|IPO|규제|정책|선정|부지|GDA|VDR|안전분석|licen|construct|permit|contract|agreement|deploy|regulat|파트너십|데이터센터|반도체/i;
+const isMarketNoise = (title, snip='') => MKT_NOISE.test(title) && !MKT_KEEP.test(title + ' ' + snip);
+
 // cross-source dedup key: normalized headline (also strips Google News " - Publisher" suffix)
 const dedupKey = (title) => String(title).toLowerCase()
   .replace(/\s+[-–—|]\s+[^-–—|]+$/, '')
@@ -127,6 +133,7 @@ async function fetchCandidates(seen, seenKeys){
         const hay = (title + ' ' + snip).toLowerCase();
         const priority = PRIORITY_DEVS.some(d => hay.includes(d));      // one of our 13 devs → always keep
         if (!priority && !KEYWORDS.some(k => hay.includes(k))) continue;
+        if (isMarketNoise(title, snip)) continue;                      // drop 주가·시황 노이즈 (주요 개발사도 예외 없음)
         let date = '';
         if (it.isoDate) date = it.isoDate.slice(0,10);
         else if (it.pubDate) { const d = new Date(it.pubDate); if (!isNaN(d)) date = d.toISOString().slice(0,10); }

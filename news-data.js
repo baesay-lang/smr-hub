@@ -488,22 +488,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-30",
-    "title": "AI 시대 전력 해법될까…두산 \"SMR 경쟁력은 선발주가 관건\"",
-    "summary": "두산이 AI 시대 전력 수요 증가 대응 방안으로 소형모듈원자로(SMR)를 제시하며, 초기 진출자 우위의 중요성을 강조했다.",
-    "summaryLong": "두산이 AI 시대의 급증하는 전력 수요를 해결할 수 있는 방안으로 소형모듈원자로(SMR)의 역할을 제시했다. 두산은 SMR 산업에서의 경쟁력 확보가 선발주(초기 진출자)의 우위에 달려 있다고 주장하며, 시장 선점의 중요성을 강조하고 있다. 이는 글로벌 SMR 경쟁에서 한국 업계의 전략적 포지셔닝에 대한 업체 차원의 전망을 보여주는 기사다.",
-    "cat": "기술",
-    "type": "General",
-    "dev": "두산(Doosan)",
-    "region": "KR",
-    "source": "paxetv.com",
-    "url": "http://www.paxetv.com/news/articleView.html?idxno=276009",
-    "k": "이슈 ai 시대 전력 해법 될까 두산 smr 경쟁력은 선발주가 관건",
-    "ko": 1,
-    "op": 1,
-    "id": "4219d2ec"
-  },
-  {
-    "date": "2026-06-30",
     "title": "경남 SMR산업 '실증 위주 특구' 조성 필요성 제기",
     "summary": "경남 지역이 SMR 산업 활성화를 위해 실증 중심의 특구 조성과 중견·중소 제조업체 간 연계 강화를 추진하고 있다.",
     "summaryLong": "경남(경상남도)이 소형모듈원자로(SMR) 산업 육성을 위해 실증 위주의 특구 조성 필요성을 제기했다. 지역 중견·중소 제조업체들 간의 긴밀한 연계를 통해 산업 생태계를 구축하겠다는 전략으로, 지역 차원의 SMR 산업 클러스터 활성화 방안을 모색하고 있다. 이는 한국의 SMR 산업 기반 구축 정책의 지역 차원 추진 사례를 보여준다.",
@@ -726,20 +710,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-29",
-    "title": "오클로(Oklo) 러셀 3000 성장지수에서 제외",
-    "summary": "오클로 주식이 러셀 3000 성장지수에서 제외되었다.",
-    "summaryLong": "오클로(Oklo)의 주식이 러셀 3000 성장지수(Russell 3000 Growth Benchmark)에서 제외되었다. 이는 주식 지수 편성 기준 변화로 인한 재분류 조정으로, 회사의 펀더멘털이나 기술·사업 진행 상황과는 별개의 지수 운영 결정이다. 오클로는 현재 고속노(SFR) 개발을 추진 중인 선도 첨단로 개발사이다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "marketscreener.com",
-    "url": "https://www.marketscreener.com/news/oklo-inc-nyse-oklo-dropped-from-russell-3000-growth-benchmark-ce7f5fdedb88f620",
-    "k": "oklo inc nyse oklo dropped from russell 3000 growth benchmark",
-    "id": "9054cd8d"
-  },
-  {
-    "date": "2026-06-29",
     "title": "오클로(Oklo) 러셀 1000 가치지수에 신규 편입",
     "summary": "오클로 주식이 러셀 1000 가치지수에 새롭게 편입되었다.",
     "summaryLong": "오클로(Oklo)의 주식이 러셀 1000 가치지수(Russell 1000 Value Benchmark)에 신규 편입되었다. 이는 지수 재분류 과정 중 일환으로, 성장지수에서 가치지수 카테고리로 이동한 것이다. 오클로의 고속냉각고속로(SFR) 기술 개발 진전과 상용화 경로 수립은 투자자 관심을 지속적으로 유지하고 있다.",
@@ -837,20 +807,6 @@ window.SMR_NEWS = [
     "url": "https://www.ans.org/news/2026-06-29/article-8155/holtec-and-edf-submit-proposal-to-deploy-smr300-at-cottam-nottinghamshire/",
     "k": "holtec and edf submit proposal to deploy smr 300 at cottam nottinghamshire",
     "id": "b9d2e69b"
-  },
-  {
-    "date": "2026-06-29",
-    "title": "엑스에너지(X-Energy), Russell Midcap Value 지수에 편입",
-    "summary": "엑스에너지(X-Energy)가 Russell Midcap Value 벤치마크 지수에 편입되었다.",
-    "summaryLong": "고온가스로(HTGR) 개발사 엑스에너지(X-Energy)가 Russell Midcap Value 벤치마크 지수에 편입되었다. 이는 엑스에너지가 미국 자본시장에서 중견 규모 기업으로 인정받게 되었음을 의미하며, 투자자 관심도 상승을 반영한다.",
-    "cat": "기술",
-    "type": "HTGR",
-    "dev": "엑스에너지(X-Energy)",
-    "region": "US",
-    "source": "marketscreener.com",
-    "url": "https://www.marketscreener.com/news/x-energy-inc-nasdaqgs-xe-added-to-russell-midcap-value-benchmark-ce7f5fdfdd8bfe2c",
-    "k": "x energy inc nasdaqgs xe added to russell midcap value benchmark",
-    "id": "11f67a27"
   },
   {
     "date": "2026-06-29",
@@ -1002,35 +958,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-29",
-    "title": "오클로, 러셀 미드캡 밸류 벤치마크(Russell Midcap Value Benchmark)에 편입",
-    "summary": "오클로(Oklo Inc.)가 미국 주식 지수인 러셀 미드캡 밸류 벤치마크에 편입되었다.",
-    "summaryLong": "오클로 주식회사가 주요 미국 주가지수 운영기관인 FTSE 러셀(FTSE Russell)의 러셀 미드캡 밸류 벤치마크에 편입되었다. 이는 오클로가 중형주 가치주로 인정받으며 시장 내 지위가 강화되었음을 의미한다. 오클로는 고속로 기술을 개발하는 미국 기반 스타트업으로, 지수 편입은 기업의 신뢰도와 유동성 증대로 이어질 것으로 예상된다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "오클로(Oklo)",
-    "region": "US",
-    "source": "marketscreener.com",
-    "url": "https://www.marketscreener.com/news/oklo-inc-nyse-oklo-added-to-russell-midcap-value-benchmark-ce7f5fdfdd8bff24",
-    "k": "oklo inc nyse oklo added to russell midcap value benchmark",
-    "id": "e836bc5c"
-  },
-  {
-    "date": "2026-06-29",
-    "title": "엑스에너지(X-Energy)는 스페이스엑스를 제외한 최고의 신규 매수 종목인가?",
-    "summary": "엑스에너지(X-Energy)가 주식 투자 대상으로 스페이스엑스와 함께 주목받고 있다는 분석 기사다.",
-    "summaryLong": "엑스에너지가 스페이스엑스를 제외한 최고의 신규 상장 기업 중 하나로 평가받는 투자 분석 칼럼이다. 엑스에너지는 고온가스로(HTGR) 기술을 개발하는 미국 기반 선도 첨단로 개발사이다. 투자자 관점에서 신규 상장 기업들의 성장 잠재력을 비교 평가하는 내용으로, 확정된 사실 보도보다는 투자 의견 성격이다.",
-    "cat": "기술",
-    "type": "HTGR",
-    "dev": "엑스에너지(X-Energy)",
-    "region": "US",
-    "source": "insidermonkey.com",
-    "url": "https://www.insidermonkey.com/blog/is-x-energy-xe-the-best-new-stock-to-buy-other-than-spacex-1791535/",
-    "k": "is x energy xe the best new stock to buy other than spacex",
-    "op": 1,
-    "id": "562a4086"
-  },
-  {
-    "date": "2026-06-29",
     "title": "롤스로이스, 영국에 1,580만 달러 규모 SMR 부품 제조 시설 구축",
     "summary": "롤스로이스(Rolls-Royce)가 영국(UK)에 소형모듈원자로 부품 제조 시설에 1,580만 달러(약 1,700만 파운드)를 투자한다.",
     "summaryLong": "롤스로이스가 영국 내 소형모듈원자로 부품 제조 전용 시설 구축을 위해 1,580만 미국 달러를 투자하기로 결정했다. 이는 롤스로이스 SMR(Rolls-Royce SMR) 프로젝트의 상용화 인프라 구축 단계로, 영국 정부의 SMR 국가 전략과 부합한다. 해당 투자는 롤스로이스의 SMR 공급망 확대 및 제조 능력 강화를 의미하며, 영국의 핵에너지 산업 기반 구축에 기여할 것으로 예상된다.",
@@ -1087,48 +1014,6 @@ window.SMR_NEWS = [
     "k": "nuscale stock and 2 nuclear energy picks tied to ai power demand",
     "op": 1,
     "id": "d215852c"
-  },
-  {
-    "date": "2026-06-29",
-    "title": "오클로 주식, 러셀 2000 다이나믹 지수에서 제외",
-    "summary": "오클로(Oklo Inc.)가 러셀(Russell) 2000 다이나믹 지수(Dynamic Index)에서 제외되었다.",
-    "summaryLong": "오클로(Oklo Inc.)가 미국 주요 지수 운영사 러셀(Russell)의 러셀 2000 다이나믹 지수(Russell 2000 Dynamic Index)에서 제외되었다. 이는 지수 구성 종목의 정기적 재편에 따른 변동으로 보인다. 오클로는 폐핵연료 재활용 고속로(advanced fast reactor) 개발 기업으로, 지수 제외는 시장 가치 또는 기타 선정 기준의 변화를 반영한다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "marketscreener.com",
-    "url": "https://www.marketscreener.com/news/oklo-inc-nyse-oklo-dropped-from-russell-2000-dynamic-index-ce7f5fdfdc8dfe24",
-    "k": "oklo inc nyse oklo dropped from russell 2000 dynamic index",
-    "id": "42ec5086"
-  },
-  {
-    "date": "2026-06-29",
-    "title": "오클로 주식, 러셀 2000 지수에서 제외",
-    "summary": "오클로(Oklo Inc.)가 러셀(Russell) 2000 지수에서 제외되었다.",
-    "summaryLong": "오클로(Oklo Inc.)가 러셀(Russell) 2000 지수에서 제외되었다. 이는 지수 운영사의 정기적 구성 종목 재검토 과정에서 발생한 변동이다. 오클로는 폐핵연료를 재활용하는 고급 고속로(advanced fast reactor) 기술을 개발하는 에너지 기업으로, 지수 제외는 시가총액이나 기타 선정 기준 변화를 나타낼 수 있다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "marketscreener.com",
-    "url": "https://www.marketscreener.com/news/oklo-inc-nyse-oklo-dropped-from-russell-2000-index-ce7f5fdfd98df627",
-    "k": "oklo inc nyse oklo dropped from russell 2000 index",
-    "id": "23913338"
-  },
-  {
-    "date": "2026-06-29",
-    "title": "오클로 주식, 러셀 소형주 성장 벤치마크에서 제외",
-    "summary": "오클로(Oklo Inc.)가 러셀(Russell) 소형주 성장 벤치마크(Small Cap Comp Growth Benchmark)에서 제외되었다.",
-    "summaryLong": "오클로(Oklo Inc.)가 러셀(Russell) 소형주 성장 벤치마크(Russell Small Cap Comp Growth Benchmark)에서 제외되었다. 이는 러셀의 정기적 지수 재구성 과정에서 일어나는 일반적인 변동이다. 오클로는 폐핵연료 재활용 기술을 기반으로 하는 고급 고속로(advanced fast reactor) 개발 기업이며, 벤치마크 제외는 성장성이나 시가총액 등의 기준 변화를 반영한다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "marketscreener.com",
-    "url": "https://www.marketscreener.com/news/oklo-inc-nyse-oklo-dropped-from-russell-small-cap-comp-growth-benchmark-ce7f5fdede88f02c",
-    "k": "oklo inc nyse oklo dropped from russell small cap comp growth benchmark",
-    "id": "a23a7696"
   },
   {
     "date": "2026-06-29",
@@ -1372,21 +1257,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-26",
-    "title": "뉴스케일(NuScale) 대신 오클로(Oklo) 주식을 사야 할까?",
-    "summary": "모틀리 풀(The Motley Fool)이 SMR 개발사 뉴스케일과 오클로의 투자 가치를 비교 분석하는 의견 기사.",
-    "summaryLong": "미국 금융 매체 모틀리 풀(The Motley Fool)이 소형모듈원자로(SMR) 개발사인 뉴스케일(NuScale)과 고속로 개발사인 오클로(Oklo)의 주가 투자 가치를 비교하는 기사를 게재했다. 본 기사는 두 회사의 기술 방향과 상용화 전망, 주식 성과 등을 검토하며 투자자들의 선택을 촉구하고 있다. SMR과 첨단 원자로 개발 동향을 추적하는 투자자 커뮤니티의 관심이 높아지고 있음을 시사한다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "뉴스케일, 오클로",
-    "region": "US",
-    "source": "fool.com",
-    "url": "https://www.fool.com/investing/2026/06/25/should-you-forget-stock-a-and-buy-stock-b-instead/",
-    "k": "should you forget nuscale power and buy oklo stock instead",
-    "op": 1,
-    "id": "ba991fd2"
-  },
-  {
-    "date": "2026-06-26",
     "title": "오클로(Oklo)가 AI로 원자로 설계를 빠르게 진행 중",
     "summary": "오클로(Oklo)가 인공지능을 활용한 원자로 설계 기술을 공개하며 투자 가치 재평가를 받고 있다는 의견 기사.",
     "summaryLong": "모틀리 풀(The Motley Fool)이 오클로(Oklo)의 인공지능(AI) 기반 원자로 설계 기술 개발 사례를 소개하는 투자 분석 기사를 게재했다. 오클로는 AI를 활용하여 고속로(Fast Fission Reactor) 설계 개발 속도를 가속화하고 있으며, 이러한 기술 혁신이 회사의 시장 경쟁력과 투자 매력도를 높이고 있다는 평가를 담고 있다. 첨단 원자로 개발 분야에서 AI·디지털 기술의 활용이 확대되는 추세를 반영한다.",
@@ -1534,50 +1404,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-26",
-    "title": "뉴스케일(NuScale Power) 주가 100년 후 전망",
-    "summary": "뉴스케일(NuScale)의 장기 주가 전망에 대한 분석 기사이다.",
-    "summaryLong": "모틀리풀(The Motley Fool)이 소형모듈원자로(SMR) 개발사 뉴스케일(NuScale Power)의 100년 후 주가 전망을 다룬 분석 기사이다. 이는 뉴스케일(NuScale)을 포함한 첨단 원자력 기술 개발사들의 장기적 성장 가능성을 평가하는 내용으로 보인다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "fool.com",
-    "url": "https://www.fool.com/investing/2026/06/26/where-will-nuscale-power-stock-be-in-100-years/",
-    "k": "where will nuscale power stock be in 100 years",
-    "op": 1,
-    "id": "25c37519"
-  },
-  {
-    "date": "2026-06-26",
-    "title": "뉴스케일(NuScale Power) 주가 하락, 핵에너지 기대감 vs 밸류에이션 의문",
-    "summary": "뉴스케일(NuScale Power)의 주가가 하락하며 핵에너지 산업 전망과 기업 밸류에이션 간 괴리가 드러났다.",
-    "summaryLong": "뉴스케일(NuScale Power)의 주가가 하락하고 있으며, 이는 원자력 산업의 긍정적 전망에도 불구하고 기업의 적절한 밸류에이션에 대한 의문이 제기되고 있음을 보여준다. 소형모듈원자로(SMR) 개발 업체로서의 기술적 잠재력과 시장 현실 사이의 격차가 투자자들의 신중한 태도로 이어지고 있다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "simplywall.st",
-    "url": "https://simplywall.st/stocks/us/capital-goods/nyse-smr/nuscale-power/news/nuscale-power-smr-sinks-as-nuclear-hopes-meet-a-big-valuatio",
-    "k": "nuscale power smr sinks as nuclear hopes meet a big valuation question",
-    "op": 1,
-    "id": "392f1c6c"
-  },
-  {
-    "date": "2026-06-26",
-    "title": "엑스에너지(X-Energy) 임원, 보유 주식 및 옵션 정정",
-    "summary": "엑스에너지(X-Energy)의 임원이 보유 중인 보통주 및 옵션 수량을 정정 보고했다.",
-    "summaryLong": "첨단 고온가스로(HTGR) 개발사인 엑스에너지(X-Energy)의 임원이 보유한 보통주 및 옵션의 보유량을 정정 공시했다. 이는 기업 지배구조 투명성 관련 정기 공시로 보인다.",
-    "cat": "기술",
-    "type": "HTGR",
-    "dev": "X-Energy",
-    "region": "US",
-    "source": "stocktitan.net",
-    "url": "https://www.stocktitan.net/sec-filings/XE/form-3-a-x-energy-inc-amended-initial-statement-of-beneficial-ownersh-3e75766ed80e.html",
-    "k": "x energy xe director corrects prior common share and option totals",
-    "id": "01b191a2"
-  },
-  {
-    "date": "2026-06-26",
     "title": "엑스에너지(X-Energy), 가장 유망한 신기술 주식 중 하나로 선정",
     "summary": "엑스에너지(X-Energy)가 투자 분석 기관에서 유망한 신기술 주식으로 평가받았다.",
     "summaryLong": "인사이더 몽키(Insider Monkey)가 엑스에너지(X-Energy)를 가장 유망한 신기술 주식 중 하나로 평가했다. 고온가스로(HTGR) 기술 기반의 첨단 원자로 개발사로서 장기 성장 잠재력을 인정받은 것으로 보인다.",
@@ -1590,21 +1416,6 @@ window.SMR_NEWS = [
     "k": "x energy xe among our most promising new technology stocks",
     "op": 1,
     "id": "52080311"
-  },
-  {
-    "date": "2026-06-26",
-    "title": "오클로(Oklo) 주가 조정, 주요 지지선 주시",
-    "summary": "오클로(Oklo)의 주가가 조정되며 트레이더들이 핵심 지지선을 관찰 중이다.",
-    "summaryLong": "오클로(Oklo)의 주가가 기술적 조정 국면에 진입했으며, 시장 참여자들이 주요 지지 수준을 주시하고 있다. 오클로(Oklo)는 첨단 고속로(SFR) 기술 기반의 소형모듈원자로(SMR) 개발사이다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "timothysykes.com",
-    "url": "https://www.timothysykes.com/news/oklo-inc-oklo-news-2026_06_26/",
-    "k": "oklo stock pulls back as traders watch key support",
-    "op": 1,
-    "id": "c3d78802"
   },
   {
     "date": "2026-06-26",
@@ -1637,21 +1448,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-26",
-    "title": "SMR vs BWXT: 어느 원자력 주식이 더 매력적인가",
-    "summary": "SMR 기술과 원자력 산업 관련 주식 투자 매력도를 비교 분석하는 칼럼성 보도다.",
-    "summaryLong": "뉴스케일(NuScale), 엑스에너지(X-energy), 오클로(Oklo), 테라파워(TerraPower), 카이로스파워(Kairos Power), 롤스로이스 SMR(Rolls-Royce SMR), BWRX-300, eVinci 등 주요 SMR 및 첨단로 개발사와 원자력 산업 관련 기업들의 주식 투자 가치를 분석하고 비교하는 내용이다. 투자 관점에서 다양한 SMR 기술 및 업체의 경쟁력을 평가하는 칼럼성 보도로, SMR 산업의 동향을 반영한다.",
-    "cat": "기술",
-    "type": "General",
-    "dev": "",
-    "region": "US",
-    "source": "tradingview.com",
-    "url": "https://www.tradingview.com/news/zacks:ca348063e094b:0-smr-or-bwxt-why-one-nuclear-stock-looks-more-attractive/",
-    "k": "smr or bwxt why one nuclear stock looks more attractive",
-    "op": 1,
-    "id": "1a8ecd26"
-  },
-  {
-    "date": "2026-06-26",
     "title": "롤스로이스 SMR, 영국 더비에 £1,200만 규모 시설 공개",
     "summary": "롤스로이스 SMR이 영국 더비(Derby)에 1,200만 파운드(약 £12m) 규모의 신규 제조 시설을 열었다.",
     "summaryLong": "영국 항공우주방위 기업 롤스로이스(Rolls-Royce)의 소형모듈원자로 자회사 롤스로이스 SMR(Rolls-Royce SMR)이 영국 더비 지역에 1,200만 파운드(£12m) 규모의 파이오니어 웍스(Pioneer Works) 제조 시설을 공식 개소했다. 이 시설은 소형모듈원자로의 제조 및 조립 역량을 강화하기 위해 구축되었으며, 롤스로이스의 원전 사업 야심을 보여주는 이정표가 되고 있다.",
@@ -1663,34 +1459,6 @@ window.SMR_NEWS = [
     "url": "https://www.thebusinessdesk.com/eastmidlands/news/2112006-rolls-royce-smr-unveils-12m-derby-facility-to-power-nuclear-ambitions",
     "k": "rolls royce smr unveils 12m derby facility to power nuclear ambitions",
     "id": "bc3ad0b9"
-  },
-  {
-    "date": "2026-06-26",
-    "title": "엑스에너지(X-Energy) 주가 19.2% 급락",
-    "summary": "엑스에너지 주가가 한 주 동안 19.2% 하락했다.",
-    "summaryLong": "엑스에너지의 주가가 한 주 동안 19.2% 급락했다. 구체적인 원인이나 배경은 제목과 스니펫으로는 확인되지 않으나, 소형모듈원자로(SMR) 및 첨단로 기업의 주가 변동성을 나타내는 사건이다.",
-    "cat": "기술",
-    "type": "HTGR",
-    "dev": "엑스에너지(X-Energy)",
-    "region": "US",
-    "source": "theglobeandmail.com",
-    "url": "https://www.theglobeandmail.com/investing/markets/stocks/NFLX-Q/pressreleases/3008464/why-x-energy-stock-collapsed-19-2-this-week/",
-    "k": "why x energy stock collapsed 19 2 this week",
-    "id": "cd02a100"
-  },
-  {
-    "date": "2026-06-26",
-    "title": "프린세스 다이어리 2001과 오클로 주식",
-    "summary": "영화 제목과 주식 기호가 혼합된 스팸 또는 무관 콘텐츠다.",
-    "summaryLong": "영화 '프린세스 다이어리(2001)'와 오클로 주식이 함께 언급되는 기사로, 검색 키워드 노이즈로 보이며 원자력·SMR·첨단로와 무관한 스팸성 콘텐츠다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "",
-    "region": "",
-    "source": "fathomjournal.org",
-    "url": "https://fathomjournal.org/750215a3/da42fd52H45hzVzYs68",
-    "k": "the princess diaries 2001 anne hathaway movie oklo stock 8cbpurmvam",
-    "id": "a434710f"
   },
   {
     "date": "2026-06-26",
@@ -1886,34 +1654,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-25",
-    "title": "나노 뉴클리어 에너지(Nano Nuclear Energy) vs. 뉴스케일 파워(NuScale Power): 2026년 더 나은 핵에너지 주식은?",
-    "summary": "나노 뉴클리어 에너지와 뉴스케일 파워의 SMR 개발 기업 두 곳을 비교 분석한 투자 평가 기사.",
-    "summaryLong": "모틀리 풀(The Motley Fool)이 SMR 개발 선도 기업인 나노 뉴클리어 에너지와 뉴스케일 파워를 투자 관점에서 비교 분석한 기사다. 두 회사 모두 소형모듈원자로(SMR) 기술 개발을 추진하고 있으며, 각사의 기술 전략·상용화 일정·재무 상황 등을 검토하여 2026년 투자 대상으로서의 매력도를 평가했다. 다만 구체적인 투자 평가 결론은 스니펫에 드러나지 않아 원문 확인이 필요하다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "",
-    "region": "US",
-    "source": "fool.com",
-    "url": "https://www.fool.com/coverage/better-buy/2026/06/25/nano-nuclear-energy-vs-nuscale-power-which-nuclear-energy-stock-is-a-better-buy-in-2026/",
-    "k": "nano nuclear energy vs nuscale power which nuclear energy stock is a better buy in 2026",
-    "id": "4ab0bd3a"
-  },
-  {
-    "date": "2026-06-25",
-    "title": "guggenheim, 오클로(Oklo) 주식 커버리지 개시, 중립 평가",
-    "summary": "guggenheim이 오클로(Oklo)의 주식 커버리지를 중립 평가 등급으로 개시했다.",
-    "summaryLong": "guggenheim investment research가 고속로(SFR) 기반 SMR 개발사 오클로(Oklo)에 대한 주식 커버리지를 공식 개시하면서 중립(neutral) 등급을 부여했다는 보도다. 이는 오클로가 시장에서 주목받는 SMR 기업이며, 주요 투자은행의 분석 대상으로 격상되었음을 의미한다. 구체적인 평가 근거와 목표주가는 스니펫에 없어 원문 확인이 필요하다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "오클로",
-    "region": "US",
-    "source": "investing.com",
-    "url": "https://www.investing.com/news/analyst-ratings/guggenheim-initiates-oklo-stock-coverage-with-neutral-rating-93CH-4760243",
-    "k": "guggenheim initiates oklo stock coverage with neutral rating",
-    "id": "99e23c8d"
-  },
-  {
-    "date": "2026-06-25",
     "title": "Zacks 투자 아이디어: 나노 뉴클리어 에너지, 엑스에너지(X-Energy), 아마존",
     "summary": "Zacks가 나노 뉴클리어 에너지와 엑스에너지를 투자 아이디어로 추천하는 기사.",
     "summaryLong": "야후 파이낸스에 게재된 Zacks investment research의 기사로, 나노 뉴클리어 에너지와 마이크로 고온가스로(HTGR) 개발사 엑스에너지(X-Energy)를 투자 추천 리스트에 포함했다. 두 회사 모두 SMR 또는 고급 원자로 기술 분야의 성장성을 인정받는 기업들이며, 이는 글로벌 청정에너지 및 에너지 안보 수요 증가에 따른 투자 관심 증대를 반영한다. 구체적인 추천 근거와 투자 전략은 원문 확인이 필요하다.",
@@ -1971,20 +1711,6 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "6cc54aa0"
-  },
-  {
-    "date": "2026-06-25",
-    "title": "뉴스케일 파워 주가 급락 원인 분석",
-    "summary": "뉴스케일 파워(NuScale Power)의 주가가 급격히 하락하고 있는 상황을 다룬 재정 분석 기사이다.",
-    "summaryLong": "미국 소형모듈원자로(SMR) 개발 선도 기업인 뉴스케일 파워의 주가가 급락하고 있다. 다만 제공된 스니펫에서 구체적인 하락 원인과 수치가 명시되지 않아 상세 내용은 원문 확인이 필요하다. 시장 심리, 기술 진전, 규제 이슈 등 다양한 요인이 작용할 수 있다. 이 보도는 주식 성과에 대한 재정 분석성 기사이다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "finance.yahoo.com",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/nuscale-power-stock-plunging-whats-162500331.html",
-    "k": "nuscale power stock is plunging what s causing the decline",
-    "id": "2fdf2fd4"
   },
   {
     "date": "2026-06-25",
@@ -2378,20 +2104,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-24",
-    "title": "제프리스(Jefferies) 엑스에너지(X-Energy) 주가 목표 인하",
-    "summary": "제프리스(Jefferies)가 엑스에너지(X-Energy) 주가 목표를 밸류에이션 우려로 인하했다.",
-    "summaryLong": "투자은행 제프리스(Jefferies)가 HTGR(고온가스로) 전문 개발사 엑스에너지(X-Energy)의 주가 목표를 낮추었다. 회사의 고가 밸류에이션과 실적 달성 불확실성을 주요 사유로 지적하였으며, 이는 고성과 첨단로 개발사들에 대한 시장 신뢰도 재평가를 반영하는 신호로 해석된다.",
-    "cat": "기술",
-    "type": "HTGR",
-    "dev": "X-Energy",
-    "region": "US",
-    "source": "investing.com",
-    "url": "https://www.investing.com/news/analyst-ratings/jefferies-cuts-xenergy-stock-price-target-on-valuation-concerns-93CH-4758523",
-    "k": "jefferies cuts x energy stock price target on valuation concerns",
-    "id": "cc712900"
-  },
-  {
-    "date": "2026-06-24",
     "title": "부산, 국내 첫 상용 SMR 후보지 선정…SETIC 2026 개막",
     "summary": "부산이 국내 첫 상용 소형모듈원자로(SMR) 후보지로 선정되었으며, 전기산업 종합 컨퍼런스인 SETIC 2026이 개최되었다.",
     "summaryLong": "대한전기산업연합회는 24일 부산에서 개최된 'SETIC 2026(전기설비기술기준워크숍, Sustainable Electric Technology International Conference) 2026' 개막행사에서 부산이 국내 첫 상용 소형모듈원자로(SMR) 후보지로 17일 선정되었음을 발표했다. 노용호 부회장은 에너지 산업의 새로운 변화와 혁신이 이루어지고 있는 부산에서 행사를 개최하는 것의 의미를 강조했으며, KEC 기술세미나와 미래 전력망·계통 안정화 기술 등 전기산업 전반의 주요 이슈 논의를 제안했다.",
@@ -2495,21 +2207,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-24",
-    "title": "오클로(Oklo) 주가 하락 원인 분석",
-    "summary": "오클로(Oklo) 개발사의 주가가 계속 하락세를 보이고 있다.",
-    "summaryLong": "미국 소형모듈원자로 개발사 오클로(Oklo)의 주가가 지속적 하락세를 기록하고 있다. 제목만으로는 구체적 원인을 특정하기 어렵지만, 시장 분석 기사로 추정된다. 오클로는 용융염냉각 고속로(MSR) 기술을 개발하고 있으며, 미국 에너지부(DOE)의 선진원자로 프로젝트 지원을 받고 있다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "오클로",
-    "region": "US",
-    "source": "finance.yahoo.com",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/why-oklo-stock-keeps-going-155025712.html",
-    "k": "why oklo stock keeps going down",
-    "op": 1,
-    "id": "9f4115bb"
-  },
-  {
-    "date": "2026-06-24",
     "title": "오클로, 표준뉴클리어와 연료재활용 계약 체결···주가 8.1% 하락",
     "summary": "오클로(Oklo)가 표준뉴클리어(Standard Nuclear)와의 연료재활용 계약 및 미국 에너지부(DOE) 진전에도 불구하고 주가는 8.1% 하락했다.",
     "summaryLong": "오클로(Oklo)는 표준뉴클리어(Standard Nuclear)와 연료재활용(Fuel Recycling) 협약을 체결했으며, 미국 에너지부(DOE)와의 협력도 진전하고 있다. 그러나 시장은 이러한 긍정적 발표에도 주가를 8.1% 하락시켰다. 오클로의 용융염냉각 고속로(MSR) 사업 진전이 투자자들의 충분한 신뢰를 아직 확보하지 못한 것으로 해석된다.",
@@ -2535,20 +2232,6 @@ window.SMR_NEWS = [
     "url": "https://www.zacks.com/stock/news/2942031/oklos-licensing-strategy-aims-to-support-reactor-rollout",
     "k": "oklo s licensing strategy aims to support reactor rollout",
     "id": "66d900dd"
-  },
-  {
-    "date": "2026-06-24",
-    "title": "엑스에너지(X-Energy) 주가 하락···제프리스, 목표가를 $22로 인하",
-    "summary": "고온가스로(HTGR) 개발사 엑스에너지(X-Energy)의 주가가 하락하며, 투자은행 제프리스(Jefferies)가 목표가를 $22로 인하했다.",
-    "summaryLong": "미국 고온가스로(HTGR) 개발사 엑스에너지(X-Energy)의 주가가 하락하고 있으며, 투자은행 제프리스(Jefferies)가 목표가를 $22로 인하했다. 이는 SMR 및 첨단로 업계의 시장 재평가 움직임을 반영한다. 엑스에너지는 미국 에너지부(DOE) 고온가스로 실증 프로젝트 지원을 받고 있으나, 시장 환경이 어려운 상황이다.",
-    "cat": "기술",
-    "type": "HTGR",
-    "dev": "엑스에너지",
-    "region": "US",
-    "source": "investing.com",
-    "url": "https://www.investing.com/news/stock-market-news/xenergy-stock-falls-as-jefferies-cuts-price-target-to-22-93CH-4758403",
-    "k": "x energy stock falls as jefferies cuts price target to 22",
-    "id": "4f4e128e"
   },
   {
     "date": "2026-06-24",
@@ -2580,21 +2263,6 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "ec2fe767"
-  },
-  {
-    "date": "2026-06-24",
-    "title": "오클로 주식, 수요일 변동성 보임",
-    "summary": "오클로(Oklo) 주식의 단기 변동성에 대한 시장 분석 기사다.",
-    "summaryLong": "오클로(Oklo) 주식의 수요일 거래 움직임과 변동성을 다루는 시장 분석 기사다. SMR 및 첨단로 개발사인 오클로의 주가 변동은 투자자들의 관심을 받고 있으며, 이는 소형모듈원자로 산업의 상업화 진전에 따른 시장 반응을 반영한다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "오클로",
-    "region": "US",
-    "source": "benzinga.com",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60067690/whats-going-on-with-oklo-stock-wednesday-3",
-    "k": "what s going on with oklo stock wednesday",
-    "op": 1,
-    "id": "04c44339"
   },
   {
     "date": "2026-06-24",
@@ -2666,21 +2334,6 @@ window.SMR_NEWS = [
     "url": "https://www.wireservice.ca/ontario-secures-historic-first-nations-equity-partnership-for-darlington-small-modular-reactor-project/",
     "k": "ontario secures historic first nations equity partnership for darlington small modular reactor project",
     "id": "cb463876"
-  },
-  {
-    "date": "2026-06-23",
-    "title": "오클로(Oklo): 매도 제언 이후 거의 모든 것이 변했다 - 거의",
-    "summary": "오클로(Oklo) 주식에 대한 투자 분석 칼럼으로, 이전 매도 제언 이후의 변화를 평가하는 의견 글.",
-    "summaryLong": "이 기사는 오클로(Oklo)에 대해 이전에 제시한 매도 제언 이후 회사 상황의 변화를 분석하는 투자 칼럼이다. 저자는 거의 모든 것이 변했지만 여전히 일부 우려사항이 남아있다는 주장을 펼치고 있다. 구체적인 기술 진전, 계약, 인허가 등의 확인된 사실 보도보다는 투자자 관점의 평가와 전망을 담고 있는 오피니언 성 콘텐츠이다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "seekingalpha.com",
-    "url": "https://seekingalpha.com/article/4916827-oklo-almost-everything-has-changed-since-my-sell-call-almost",
-    "k": "oklo almost everything has changed since my sell call almost",
-    "op": 1,
-    "id": "5710fe6a"
   },
   {
     "date": "2026-06-23",
@@ -2840,36 +2493,6 @@ window.SMR_NEWS = [
     "k": "1호 smr 잡아라 건설 빅3 기장 전쟁",
     "ko": 1,
     "id": "21a3c08d"
-  },
-  {
-    "date": "2026-06-23",
-    "title": "오클로(Oklo) 주가 상승",
-    "summary": "오클로 주가가 시장 약세 속에서 상승세를 보이고 있다.",
-    "summaryLong": "오클로(Oklo)의 주가가 전반적인 시장 약세에도 불구하고 상승 추세를 기록하고 있다. 보도에서는 이러한 주가 상승의 배경과 의미를 분석하고 있으나, 제공된 정보만으로는 구체적인 원인을 특정하기 어렵다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "benzinga.com",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/06/60050031/oklo-stock-is-rising-despite-tuesdays-market-selloff-whats-going-on",
-    "k": "oklo stock is rising despite tuesday s market selloff what s going on",
-    "op": 1,
-    "id": "c6854ac9"
-  },
-  {
-    "date": "2026-06-23",
-    "title": "티디 코웬(TD Cowen), 엑스에너지(X-Energy) 주가 하락 시 매수 기회 평가",
-    "summary": "티디 코웬(TD Cowen)이 엑스에너지(X-Energy) 주가 하락 국면에서 지속적인 긍정 평가를 유지하고 있다.",
-    "summaryLong": "투자 자문사 티디 코웬(TD Cowen)이 엑스에너지(X-Energy)의 주가 하락을 매수 기회로 평가하고 있다. 이는 아직 고온가스로(HTGR) 기술 개발 및 상용화 과정에 있는 엑스에너지에 대한 강기(strong hold) 입장을 재확인하는 것이다.",
-    "cat": "기술",
-    "type": "HTGR",
-    "dev": "X-Energy",
-    "region": "US",
-    "source": "investing.com",
-    "url": "https://www.investing.com/news/analyst-ratings/td-cowen-reiterates-xenergy-stock-rating-on-pullback-opportunity-93CH-4755854",
-    "k": "td cowen reiterates x energy stock rating on pullback opportunity",
-    "op": 1,
-    "id": "d465cc22"
   },
   {
     "date": "2026-06-23",
@@ -3198,20 +2821,6 @@ window.SMR_NEWS = [
     "url": "https://v.daum.net/v/20260622091820797",
     "k": "국내 첫 smr 부산 기장에 기대 속 과제도",
     "id": "43a229c9"
-  },
-  {
-    "date": "2026-06-22",
-    "title": "뉴스케일 파워(NuScale) 주가 13.5% 상승 분석",
-    "summary": "뉴스케일 파워(NuScale)의 주가가 13.5% 상승한 가운데 추가 상승 가능성을 분석한 기사.",
-    "summaryLong": "야후 파이낸스(Yahoo Finance)에서 SMR 개발 선도 기업인 뉴스케일 파워(NuScale)의 주가 상승을 다루었다. 최근 13.5% 상승한 뉴스케일 주가의 기술적 강세가 지속될 수 있는지 분석하는 내용으로, 투자 관점에서 소형모듈원자로(SMR) 개발사의 시장 평가 변화를 보여주는 사례이다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "finance.yahoo.com",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/strength-seen-nuscale-power-smr-055600030.html",
-    "k": "strength seen in nuscale power smr can its 13 5 jump turn into more strength",
-    "id": "60b4f78d"
   },
   {
     "date": "2026-06-22",
@@ -3725,20 +3334,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-21",
-    "title": "뉴스케일(NuScale) 주식, 지금 사야 할까?",
-    "summary": "뉴스케일 파워의 주식 투자 가치를 분석하는 기사로, SMR(소형모듈원자로) 붐 속에서 현재 주가 수준의 투자 매력도를 평가한다.",
-    "summaryLong": "야후 파이낸스에서 게재한 분석 기사로, 뉴스케일 파워(NuScale Power)의 주식 투자 가치를 검토하고 있다. SMR 시장이 성장 단계에 진입하는 가운데 현재의 주가 수준이 장기 투자 기회인지를 판단하는 내용으로, SMR 산업의 전망과 함께 개별 기업의 투자 포지셔닝을 다루고 있다. 이 기사는 향후 10년 시장 전망 속에서 뉴스케일의 경쟁력과 성장 잠재력을 평가하는 것을 목표로 한다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "finance.yahoo.com",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/10-years-wish-youd-bought-142500302.html",
-    "k": "in 10 years will you wish you d bought nuscale power stock right now",
-    "id": "4be02309"
-  },
-  {
-    "date": "2026-06-21",
     "title": "뉴스케일 파워 14% 상승 후 파라곤(Paragon) SMR 계약 추진",
     "summary": "뉴스케일이 주가 14% 상승 후 파라곤과의 SMR 거래를 진행 중인 것으로 보도되었다.",
     "summaryLong": "뉴스케일 파워의 주가가 14% 상승한 후 파라곤(Paragon)과의 SMR 거래 또는 계약 관련 뉴스가 보도되었다. 이는 뉴스케일의 사업 확장 및 계약 체결이 주가 상승으로 이어지는 긍정적 시장 반응을 반영하는 것으로 보인다. 구체적인 거래 규모, 내용, 일정 등은 스니펫 정보로는 확인 불가하나, 뉴스케일의 비즈니스 모멘텀이 강화되고 있음을 시사한다.",
@@ -3987,20 +3582,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-19",
-    "title": "오클로(Oklo) 주가 급등",
-    "summary": "선진 소형모듈원자로(SMR) 및 첨단 원자로 개발사인 오클로(Oklo)의 주가가 목요일 큰 폭으로 상승했다.",
-    "summaryLong": "미국의 첨단 소형모듈원자로 개발사 오클로(Oklo)의 주가가 지난 목요일 큰 폭으로 상승했다. 오클로는 고속로(SFR) 기술 기반의 소형 첨단 원자로를 개발 중인 기업으로, 주가 급등은 시장의 첨단 원자력 기술에 대한 긍정적 평가와 투자자 관심 증대를 반영하고 있다. 뉴스케일(NuScale), 엑스에너지(X-energy), 테라파워(TerraPower), 카이로스파워(Kairos Power) 등 다른 SMR 개발사들도 함께 시장의 관심을 받고 있다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "finance.yahoo.com",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/why-oklo-stock-crushed-thursday-001156132.html",
-    "k": "why oklo stock crushed it on thursday",
-    "id": "1a9e9a02"
-  },
-  {
-    "date": "2026-06-19",
     "title": "신규 원전 부지 선정, 원전산업 재도약의 기회",
     "summary": "전력 안보 수요 증가로 대형원전과 소형모듈원자로(SMR)가 주요국 에너지 정책의 중심으로 올라오고 있다.",
     "summaryLong": "인공지능(AI) 데이터센터, 반도체, 전기차, 냉방 수요의 동시 증가로 각국이 24시간 무탄소 전원을 확보하기 위해 원전에 주목하고 있다. 국제에너지기구(IEA)는 2026~2030년 세계 전력수요가 연평균 3.6% 증가할 것으로 전망했으며, 특히 미국에서는 2030년까지 전력수요 증가분의 절반 가량이 데이터센터에서 나올 것으로 예상된다. 이러한 상황 속에서 대형원전 계속운전, 신규 원전 건설, 소형모듈원자로(SMR)가 다시 주요국 에너지 정책의 중심으로 올라오고 있다.",
@@ -4169,20 +3750,6 @@ window.SMR_NEWS = [
     "url": "https://www.tikr.com/blog/nuscale-power-nyse-stock-captures-first-mover-advantage-in-global-tech-expansion-as-nuclear-regulatory-commission-backs-small-modular-reactor-design",
     "k": "nuscale power gets first mover advantage as nuclear regulatory commission backs small modular reactor design",
     "id": "d7d26c51"
-  },
-  {
-    "date": "2026-06-19",
-    "title": "뉴스케일(NuScale) 주가 15달러 아래로 하락, 장기 투자자의 기회-위험 선택지 대두",
-    "summary": "뉴스케일 파워(NuScale Power)의 주가가 15달러 아래로 하락하면서 장기 투자자들 사이에 기회와 위험에 대한 평가가 엇갈리고 있다.",
-    "summaryLong": "뉴스케일 파워(NuScale Power)의 주가가 15달러 아래로 하락했다. 이는 최근 설계 인증 획득 등 긍정적 소식에도 불구하고 시장이 회의적 평가를 유지하고 있음을 반영한다. 장기 투자자들은 SMR 상용화로 인한 성장 잠재성과 단기 수익성 불확실성 사이에서 투자 선택을 고민하는 상황이며, 주가 변동성이 SMR 산업의 기술·규제·시장 전망에 대한 불확실성을 보여주고 있다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "nai500.com",
-    "url": "https://nai500.com/blog/2026/06/nuscale-powers-stock-drops-below-15-long-term-investors-face-a-choice-between-opportunity-and-risk/",
-    "k": "nuscale power s stock drops below 15 long term investors face a choice between opportunity and risk",
-    "id": "9586cc7b"
   },
   {
     "date": "2026-06-19",
@@ -4358,20 +3925,6 @@ window.SMR_NEWS = [
     "k": "경주시 smr 유치 불발에도 원자력산업 육성 의지 재확인",
     "id": "dd07400a",
     "ko": 1
-  },
-  {
-    "date": "2026-06-19",
-    "title": "뉴스케일파워 주가와 원자력 섹터 발전",
-    "summary": "뉴스케일파워(NuScale)와 SMR·첨단로 개발사들의 주가 및 시장 전망에 관한 분석 기사.",
-    "summaryLong": "뉴스케일파워(NuScale) 등 주요 SMR·첨단로 개발사들의 주가 움직임과 원자력 섹터 발전에 대한 시장 의견을 다룬 기사다. 엑스에너지(X-energy), 오클로(Oklo), 테라파워(TerraPower), 카이로스(Kairos Power), 롤스로이스(Rolls-Royce) SMR, BWRX-300, eVinci 등 주요 개발사들의 동향을 포괄적으로 다루고 있다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "뉴스케일",
-    "region": "US",
-    "source": "quiverquant.com",
-    "url": "https://www.quiverquant.com/news/NuScale+Power+Stock+%28SMR%29+Opinions+on+Nuclear+Sector+Developments",
-    "k": "nuscale power stock smr opinions on nuclear sector developments",
-    "id": "b2d8703f"
   },
   {
     "date": "2026-06-19",
@@ -4603,20 +4156,6 @@ window.SMR_NEWS = [
     "k": "태국 smr 시장 열린다 미국 원전수출 속도전 한국 원전산업 전략적 신호",
     "id": "21e83ff3",
     "ko": 1
-  },
-  {
-    "date": "2026-06-19",
-    "title": "오클로(Oklo) 주가 기관투자자 유동성 지표로 주목",
-    "summary": "오클로(Oklo)를 포함한 SMR·첨단로 개발사 주가가 기관투자자의 매매 지표로 관심받고 있다.",
-    "summaryLong": "뉴스레터는 오클로(Oklo), 뉴스케일(NuScale), 엑스에너지(X-energy), 테라파워(TerraPower), 카이로스(Kairos Power), 롤스로이스 SMR(Rolls-Royce SMR) 등 주요 SMR·첨단로 개발사의 주가 움직임을 기관투자자 트레이딩 지표로 분석하고 있다. 이는 이들 회사의 시장 위상과 투자 관심도를 반영하는 지표로 평가된다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "news.stocktradersdaily.com",
-    "url": "https://news.stocktradersdaily.com/news_release/24/OKLO_as_a_Liquidity_Pulse_for_Institutional_Tactics_061926090001_1781917201.html",
-    "k": "oklo as a liquidity pulse for institutional tactics",
-    "id": "71371371"
   },
   {
     "date": "2026-06-19",
@@ -5142,34 +4681,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-18",
-    "title": "뉴스케일(NuScale), 15달러 이하에서 매수할 가치가 있을까?",
-    "summary": "뉴스케일파워(NuScale Power)의 주가가 15달러 이하로 하락하면서 투자 가치에 대한 재평가가 이루어지고 있다.",
-    "summaryLong": "미국 소형모듈원자로(SMR) 개발사 뉴스케일파워(NuScale Power)의 주가가 15달러 이하 수준으로 하락하면서 투자자들의 관심이 높아지고 있다. 뉴스케일은 2023년 아이다호(Idaho) 국립연구소(INL) 프로젝트 취소 등의 악재를 겪었으나, 미국 정부의 SMR 지원 정책과 기술 개발 진전으로 중장기 전망을 둘러싼 투자자 의견이 엇갈리고 있다. 현재의 저평가 주가 수준에서의 투자 기회에 대한 시장의 평가가 활발히 이루어지고 있다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "finance.yahoo.com",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/buy-nuscale-while-below-15-231100532.html",
-    "k": "should you buy nuscale while it s below 15",
-    "id": "24d9b2c4"
-  },
-  {
-    "date": "2026-06-18",
-    "title": "연초 대비 18% 하락 후 오클로(Oklo) 주식의 매수 가치 평가",
-    "summary": "오클로(Oklo) 주식이 연초 대비 18% 하락한 후 투자 가치에 대한 재평가 기사다.",
-    "summaryLong": "야후 파이낸스(Yahoo Finance)에서 오클로(Oklo)의 주가 조정 이후 투자 가치를 분석한 기사로, 연초 대비 18% 감소한 주가가 현재 시점에서 투자 기회가 될 수 있는지를 검토하고 있다. 오클로는 고급 핵연료 기술과 소형모듈원자로(SMR) 개발을 추진하는 회사로, 주가 변동성을 배경으로 한 투자 관점의 분석이다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "finance.yahoo.com",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/18-correction-ytd-oklo-stock-115600590.html",
-    "k": "after an 18 correction ytd is oklo stock a better bet",
-    "id": "a4ccfd18"
-  },
-  {
-    "date": "2026-06-18",
     "title": "오클로(Oklo), 센트러스 에너지(Centrus Energy)와 핵연료 공급 계약 체결",
     "summary": "오클로(Oklo)가 센트러스 에너지(Centrus Energy)와 핵연료 공급 계약을 체결하면서 주가가 상승했다.",
     "summaryLong": "야후 파이낸스(Yahoo Finance) 보도에 따르면 오클로(Oklo)가 핵연료 공급업체인 센트러스 에너지(Centrus Energy)와 공급 계약을 체결했다. 이 거래는 오클로의 고급 핵연료 기술 개발과 상용화 전략의 중요한 진전을 의미하며, 이 소식으로 오클로 주가가 상승했다. 양사의 협력은 소형모듈원자로(SMR) 및 첨단로 기술의 연료 공급망 구축을 강화하는 계약이다.",
@@ -5223,20 +4734,6 @@ window.SMR_NEWS = [
     "url": "https://www.stocktitan.net/sec-filings/LEU/8-k-centrus-energy-corp-reports-material-event-fde5f2510639.html",
     "k": "centrus energy nyse leu inks haleu fuel loi with oklo for 1 2 gw ohio campus",
     "id": "60461287"
-  },
-  {
-    "date": "2026-06-18",
-    "title": "뉴스케일, 주요 안전 마일스톤 달성으로 주가 상승",
-    "summary": "뉴스케일 파워가 소형모듈원자로의 주요 안전 기준 달성으로 주가가 상승했다.",
-    "summaryLong": "뉴스케일 파워(NuScale Power)가 소형모듈원자로(SMR) 개발의 중요한 안전 마일스톤을 달성하면서 주가가 상승했다. 본 안전 기준 충족은 제품 인증과 상용화 진행에 있어 중요한 진전을 의미한다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "timothysykes.com",
-    "url": "https://www.timothysykes.com/news/nuscale-power-corporation-smr-news-2026_06_18/",
-    "k": "smr stock jumps as nuscale hits key safety milestone",
-    "id": "bc97211c"
   },
   {
     "date": "2026-06-18",
@@ -6488,34 +5985,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-17",
-    "title": "오클로(Oklo) 주식 투자로 자산 10배 증대 가능성",
-    "summary": "오클로(Oklo)의 주식 투자 가치에 대한 분석 기사로, 투자 관점에서 주목할 만한 기회를 제시하고 있다.",
-    "summaryLong": "금융 매체 모틀리 풀(The Motley Fool)이 오클로(Oklo)의 주식 투자 가능성을 다룬 기사다. 오클로는 미국의 소형모듈원자로(SMR) 및 고급 핵연료 기술 개발사로, 현재 주가가 투자자들에게 어떤 수익 기회를 제공할 수 있는지를 분석했다. 다만 구체적인 투자 근거나 재무 수치는 제목만으로는 명확하지 않다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "fool.com",
-    "url": "https://www.fool.com/investing/2026/06/17/how-buying-oklo-stock-today-could-10x-your-net-wo/",
-    "k": "how buying oklo stock today could 10x your net worth",
-    "id": "2787a2c8"
-  },
-  {
-    "date": "2026-06-17",
-    "title": "뉴스케일 파워, SMR 진전으로 주가 과소평가 가능성",
-    "summary": "뉴스케일 파워(NuScale Power)의 SMR 기술 진전이 최근 주가에 충분히 반영되지 않았을 수 있다는 분석이다.",
-    "summaryLong": "뉴스케일 파워(NuScale Power)의 최근 소형모듈원자로(SMR) 개발 진전이 시장에서 과소평가되고 있다는 투자 분석이 제시되었다. 뉴스케일의 기술 마일스톤과 사업 진행 상황이 주가에 충분히 반영되지 않았을 가능성을 지적하고 있다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "simplywall.st",
-    "url": "https://simplywall.st/stocks/us/capital-goods/nyse-smr/nuscale-power/news/nuscale-power-smr-stock-could-be-90-below-fair-value-after-f",
-    "k": "nuscale power smr stock could be 90 below fair value after fresh smr progress",
-    "id": "119275aa"
-  },
-  {
-    "date": "2026-06-17",
     "title": "뉴스케일 파워, 무시할 수 없는 성과와 투자 판단",
     "summary": "뉴스케일 파워의 최근 성과가 투자자의 주목을 받으며 투자 판단 자료가 제시되었다.",
     "summaryLong": "뉴스케일 파워(NuScale Power)의 최근 사업 진전과 성과가 시장에서 주목받고 있으며, 투자 전문 매체에서 투자 판단과 대응 방안을 제시했다. 소형모듈원자로(SMR) 분야의 주요 기업으로서 뉴스케일의 기술 및 사업 진행이 투자 결정의 중심 요소가 되고 있다.",
@@ -6527,20 +5996,6 @@ window.SMR_NEWS = [
     "url": "https://www.fool.com/investing/2026/06/17/stock-is-impossible-to-ignore-right-now-heres-what/",
     "k": "nuscale is impossible to ignore right now here s what to do with it",
     "id": "be4608de"
-  },
-  {
-    "date": "2026-06-17",
-    "title": "뉴스케일 파워 주식: 매수 1가지 이유 vs 매도 2가지 이유",
-    "summary": "뉴스케일 파워에 대한 매수와 매도 이유를 대비한 투자 분석이다.",
-    "summaryLong": "투자 분석 매체에서 뉴스케일 파워(NuScale Power) 주식에 대한 매수 근거 1가지와 매도 근거 2가지를 제시했다. 이는 뉴스케일의 사업 전망과 위험 요소를 균형있게 평가한 투자 가이드이다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "fool.com",
-    "url": "https://www.fool.com/investing/2026/06/17/1-reason-to-buy-nuscale-power-stock-and-2-reasons/",
-    "k": "1 reason to buy nuscale power stock and 2 reasons to sell",
-    "id": "76a49f4c"
   },
   {
     "date": "2026-06-17",
@@ -7263,20 +6718,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-16",
-    "title": "엑스에너지, 370만 달러 차용금 담보로 주식 지분 담보 제공",
-    "summary": "엑스에너지(X-Energy)가 279,438주를 담보로 370만 달러의 약속어음(Promissory Note) 자금을 조달했다.",
-    "summaryLong": "엑스에너지(X-Energy)가 자금 조달을 위해 279,438주의 주식을 담보로 하여 370만 달러(약 370만 달러) 규모의 약속어음을 발행했다. 이는 회사의 자금 조달 수단으로, 고온가스로(HTGR) 개발 사업 추진을 위한 자본 조달이다. 주식 담보 방식의 자금 조달은 시장 상황 및 회사 재무 현황을 반영하는 의사결정이다.",
-    "cat": "기술",
-    "type": "HTGR",
-    "dev": "X-Energy",
-    "region": "US",
-    "source": "stocktitan.net",
-    "url": "https://www.stocktitan.net/sec-filings/XE/form-4-x-energy-inc-insider-trading-activity-79c9d6f5eaa8.html",
-    "k": "279 438 x energy xe shares pledged to secure 3 7m promissory note",
-    "id": "33ffab97"
-  },
-  {
-    "date": "2026-06-16",
     "title": "롤스로이스(Rolls-Royce) SMR, 스웨덴 40년 만의 신규 원전 프로젝트 선정",
     "summary": "롤스로이스의 소형모듈원자로(SMR)가 스웨덴의 40년 만의 신규 원전 프로젝트에 선정되었다.",
     "summaryLong": "롤스로이스의 소형모듈원자로(SMR)가 스웨덴에서 40년 만에 추진되는 신규 원전 프로젝트에 선정되었다. 이는 영국의 SMR 기술이 처음으로 북유럽 국가에 수출되는 사례로, 스웨덴의 에너지 공급 안정화와 탄소중립 목표 달성을 위한 핵심 프로젝트이다. 롤스로이스 SMR의 국제 시장 확대와 상용화 가능성을 보여주는 중요한 이정표이다.",
@@ -7288,20 +6729,6 @@ window.SMR_NEWS = [
     "url": "https://www.tomorrowsworldtoday.com/energy/rolls-royces-smrs-to-power-swedens-first-nuclear-project-in-40-years/",
     "k": "rolls royce s smrs to power sweden s first nuclear project in 40 years",
     "id": "957a6d3e"
-  },
-  {
-    "date": "2026-06-16",
-    "title": "Citi, 롤스로이스 SMR 사업 기대감으로 주가 상승 전망",
-    "summary": "Citi가 롤스로이스의 소형모듈원자로 사업 확대로 인한 주가 상승 가능성을 분석했다.",
-    "summaryLong": "금융 분석사 Citi가 롤스로이스의 소형모듈원자로(SMR) 사업 전망을 긍정적으로 평가하면서 최대 160펜스(pence) 범위의 주가 상승 여력이 있다고 제시했다. 이는 스웨덴 프로젝트 선정을 비롯한 SMR 국제 사업 확대가 롤스로이스의 중장기 실적 성장 엔진으로 작용할 수 있음을 시사한다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "Rolls-Royce",
-    "region": "UK",
-    "source": "uk.finance.yahoo.com",
-    "url": "https://uk.finance.yahoo.com/news/citi-sees-160p-share-upside-143000859.html",
-    "k": "citi sees up to 160p a share upside for rolls royce from small reactor ambitions",
-    "id": "41737deb"
   },
   {
     "date": "2026-06-16",
@@ -7389,20 +6816,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-16",
-    "title": "뉴스케일 파워 매수 추천: 2033년까지 보유 근거",
-    "summary": "투자 분석가가 뉴스케일 파워를 2033년까지 장기 보유할 이유를 제시했다.",
-    "summaryLong": "투자 전문 매체에서 뉴스케일 파워(NuScale Power)를 2033년까지 매수해 보유할 투자 근거를 분석했다. 이는 뉴스케일의 중장기 사업 전망과 SMR 시장 성장성에 기반한 투자 판단이다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "fool.com",
-    "url": "https://www.fool.com/investing/2026/06/16/1-reason-to-buy-nuscale-and-hold-until-2033/",
-    "k": "1 reason to buy nuscale power and hold until 2033",
-    "id": "0a479b9b"
-  },
-  {
-    "date": "2026-06-16",
     "title": "뉴스케일 파워, SMR 시장의 중간 포지셔닝",
     "summary": "뉴스케일 파워가 소형모듈원자로(SMR) 시장에서 차지하는 포지셔닝과 경쟁력을 분석했다.",
     "summaryLong": "뉴스케일 파워(NYSE: SMR)의 SMR 시장 내 위치와 경쟁 우위를 평가하는 분석이 발표되었다. 회사가 SMR 산업 전체 생태계에서 어떤 역할을 하고 있으며, 다른 SMR 개발사들과의 상대적 입지를 검토하는 내용으로, 투자자들의 회사 가치 평가에 참고가 되고 있다.",
@@ -7445,20 +6858,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-16",
-    "title": "오클로 주가 하락, 스탠다드 뉴클리어 연료 거래에 투자자 반응",
-    "summary": "오클로의 주가가 스탠다드 뉴클리어와의 핵연료 거래 발표 후 하락했다.",
-    "summaryLong": "오클로(Oklo)의 주가가 스탠다드 뉴클리어(Standard Nuclear)와의 핵연료 거래 발표에 따른 시장 변동성으로 하락했다. 이는 신생 첨단원자로 개발사의 사업 확대와 시장 평가 사이에 존재하는 투자자 심리의 변화를 반영하는 사건이다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "benzinga.com",
-    "url": "https://www.benzinga.com/trading-ideas/movers/26/06/53231123/oklo-shares-drop-as-investors-weigh-standard-nuclear-fuel-deal",
-    "k": "oklo shares drop as investors weigh standard nuclear fuel deal",
-    "id": "90c26ea1"
-  },
-  {
-    "date": "2026-06-16",
     "title": "전문가: 12차 전기본에 대형원전·SMR 반영 필수",
     "summary": "에너지 업계 전문가가 제12차 전력수급기본계획(12차 전기본)에 대형원전 3기와 SMR 2기 포함이 필수라고 주장했다.",
     "summaryLong": "에너지 정책 전문가가 한국의 제12차 전력수급기본계획(12차 전기본)에 대형원전 3기와 소형모듈원자로(SMR) 2기의 포함이 탄소중립 목표 달성의 필수 조건이라고 강조했다. 이는 정부의 에너지 정책 수립 과정에서 SMR의 중요성이 증대되고 있음을 반영하는 정책 제안이다.",
@@ -7470,20 +6869,6 @@ window.SMR_NEWS = [
     "url": "https://www.google.com/search?q=%EC%A0%84%EB%AC%B8%EA%B0%80%3A%2012%EC%B0%A8%20%EC%A0%84%EA%B8%B0%EB%B3%B8%EC%97%90%20%EB%8C%80%ED%98%95%EC%9B%90%EC%A0%84%C2%B7SMR%20%EB%B0%98%EC%98%81%20%ED%95%84%EC%88%98",
     "k": "12차 전기본에 대형원전 3기 smr 2기 반영 안하면 탄소중립 의지 없는 것",
     "id": "19686de6"
-  },
-  {
-    "date": "2026-06-16",
-    "title": "소형모듈원자로(SMR) 주가 10달러 이하, 기회인가 함정인가",
-    "summary": "뉴스케일(NuScale), 엑스에너지(X-energy), 오클로(Oklo), 테라파워(TerraPower), 카이로스(Kairos Power), 롤스로이스(Rolls-Royce) 소형모듈원자로(SMR), BWRX-300, 이빈치(eVinci) 등 소형모듈원자로 개발사들의 주가가 10달러 이하일 때 투자 기회와 위험을 분석한다.",
-    "summaryLong": "뉴스케일(NuScale), 엑스에너지(X-energy), 오클로(Oklo), 테라파워(TerraPower), 카이로스 파워(Kairos Power), 롤스로이스 소형모듈원자로(Rolls-Royce SMR), BWRX-300, 이빈치(eVinci) 등 주요 소형모듈원자로 개발사들의 주가가 10달러 이하 수준으로 형성되어 있다. 이는 소형모듈원자로 산업의 성장성과 현재의 저평가 상태에 대한 투자자들의 판단이 엇갈리고 있음을 시사한다. 모틀리 풀(The Motley Fool)은 이러한 저가주가 진정한 기회인지, 아니면 함정인지에 대한 현실적 분석을 제시하고 있다.",
-    "cat": "기술",
-    "type": "Micro",
-    "dev": "NuScale, X-energy, Oklo, TerraPower, Kairos, Rolls-Royce",
-    "region": "US",
-    "source": "fool.com",
-    "url": "https://www.fool.com/investing/2026/06/16/nuscale-smr-under-10-bargain-or-trap-answer/",
-    "k": "is smr under 10 a bargain or a trap here s the honest answer",
-    "id": "ebfb082d"
   },
   {
     "date": "2026-06-16",
@@ -7596,62 +6981,6 @@ window.SMR_NEWS = [
     "url": "https://www.niauk.org/nia-responds-to-sweden-selecting-rolls-royce-smr-for-nuclear-export-contract/",
     "k": "nia responds to sweden selecting rolls royce smr for nuclear export contract",
     "id": "5b58d820"
-  },
-  {
-    "date": "2026-06-15",
-    "title": "오클로(Oklo) 주가, 원전 사업 실행 리스크 완화로 66% 상승 전망",
-    "summary": "투자 분석가가 오클로(Oklo)의 주가에 대해 66% 상승 여력이 있다고 평가하며, 사전 수익 단계의 원전 기업의 실행 리스크가 완화되고 있다고 지적했다.",
-    "summaryLong": "투자 분석 기관이 초소형 모듈식 원자로 개발사 오클로(Oklo)의 주가에 대해 66% 상승 여력이 있다고 평가했다. 이는 오클로가 수익 창출 이전 단계의 기업이지만, 기술 개발과 사업화 진행에 따라 실행 리스크가 점진적으로 완화되고 있다는 판단을 반영한다. 분석가는 오클로의 마이크로(초소형) 원자로 기술과 상용화 진전이 핵심 상승 요인으로 보고 있으며, 이는 SMR/첨단로 산업의 성장 추세와 맞물려 있다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "247wallst.com",
-    "url": "https://247wallst.com/investing/2026/06/15/we-see-66-upside-in-oklo-as-pre-revenue-nuclear-execution-risk-eases/",
-    "k": "we see 66 upside in oklo as pre revenue nuclear execution risk eases",
-    "id": "dd2f0fda"
-  },
-  {
-    "date": "2026-06-15",
-    "title": "뉴스케일(NuScale) 파워 주가, 오늘 급등",
-    "summary": "뉴스케일(NuScale) 파워의 주가가 급등하고 있다.",
-    "summaryLong": "소형모듈원자로(SMR) 개발사 뉴스케일(NuScale) 파워의 주가가 당일 급등했다. 구체적인 상승 이유는 뉴스 스니펫에서 명확하지 않으나, SMR 산업의 성장 추세와 기업의 사업 진전이 주요 배경으로 작용한 것으로 보인다. 뉴스케일은 미국의 주요 SMR 개발사로서 여러 프로젝트 진행 중이며, 주가 변동성은 산업 뉴스와 기술 개발 진전에 민감하게 반응하고 있다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "fool.com",
-    "url": "https://www.fool.com/investing/2026/06/15/why-nuscale-power-stock-is-rocketing-higher-today/",
-    "k": "why nuscale power stock is rocketing higher today",
-    "id": "a61e6618"
-  },
-  {
-    "date": "2026-06-15",
-    "title": "뉴스케일(NuScale) 주가 하락, SMR 산업 성장과는 별개",
-    "summary": "소형모듈원자로(SMR) 개발사 뉴스케일(NuScale)의 주가가 하락했으나, 이는 SMR 산업 자체의 성장과는 다른 궤적을 보이고 있다.",
-    "summaryLong": "소형모듈원자로(SMR) 개발사 뉴스케일(NuScale)의 주가가 하락하고 있다. 제목의 의미는 개별 기업 주가의 약세가 SMR 산업 전반의 성장 스토리와는 별개로 전개되고 있다는 것을 시사한다. 뉴스케일은 미국의 주요 SMR 개발사이지만, 기업의 재무 상황, 프로젝트 진전, 시장 평가 등의 요인으로 인해 주가 변동성을 겪고 있는 것으로 보인다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "stockstotrade.com",
-    "url": "https://stockstotrade.com/news/nuscale-power-corporation-smr-news-2026_06_15/",
-    "k": "nuscale power stock slides as smr story builds out",
-    "id": "fbc71b31"
-  },
-  {
-    "date": "2026-06-15",
-    "title": "오클로(Oklo) 주가, 고점에서 70% 하락 후 매수 시점 검토",
-    "summary": "마이크로 원자로 개발사 오클로(Oklo)의 주가가 고점 대비 70% 하락했으며, 투자 분석가가 현 시점의 매수 가치를 검토하고 있다.",
-    "summaryLong": "초소형 모듈식 원자로(마이크로 원자로) 개발사 오클로(Oklo)의 주가가 최고점 대비 약 70% 하락한 수준에서 거래되고 있다. 투자 분석가는 현재 주가 수준에서 매수 기회가 있는지를 평가하고 있으며, 이는 오클로의 기술 개발 진전, 사업화 일정, 산업 전망 등을 종합적으로 고려한 판단을 반영한다. SMR/초소형 원자로 산업의 성장성에도 불구하고 개별 기업의 주가 변동성은 상당하며, 투자자들은 기업의 실행 능력과 시장 성숙도를 면밀히 평가하고 있다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "fool.com",
-    "url": "https://www.fool.com/investing/2026/06/15/down-around-70-from-its-high-is-now-the-time-to-bu/",
-    "k": "down around 70 from its high is now the time to buy oklo stock",
-    "id": "997a7fdc"
   },
   {
     "date": "2026-06-15",
@@ -7823,34 +7152,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-15",
-    "title": "오클로(Oklo) 주가 연초 대비 15% 하락, 미국 에너지부(DOE) 획기적 진전으로 전환 기대",
-    "summary": "소형모듈원자로 개발사 오클로의 부진한 주가가 미국 에너지부의 획기적 기술 진전으로 반전될 수 있을 것으로 예상되고 있다.",
-    "summaryLong": "소형모듈원자로(SMR) 개발사 오클로(Oklo)의 주식이 올해 들어 15% 하락했으나, 미국 에너지부(DOE)의 획기적인 기술 또는 정책 진전이 주가 반전의 계기가 될 수 있다는 분석이다. 오클로의 기술 개발 진행 상황과 규제 환경 개선이 향후 회사 가치 평가에 긍정적 영향을 미칠 것으로 평가된다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "barchart.com",
-    "url": "https://www.barchart.com/story/news/2477128/oklo-stock-has-fallen-15-ytd-this-doe-breakthrough-could-start-to-change-everything",
-    "k": "oklo stock has fallen 15 ytd this doe breakthrough could start to change everything",
-    "id": "64e286f0"
-  },
-  {
-    "date": "2026-06-15",
-    "title": "SMR 주식 야간 거래에서 5% 이상 상승",
-    "summary": "뉴스케일 파워(NuScale Power) SMR 주식이 야간 거래에서 5% 이상 상승했다.",
-    "summaryLong": "소형모듈원자로(SMR) 관련 주식이 야간 거래 시간에 5% 이상의 상승률을 기록했다. 이는 SMR 산업에 대한 긍정적인 시장 심리와 투자자의 관심 증가를 시사한다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "tradingview.com",
-    "url": "https://www.tradingview.com/news/stocktwits:39953ce33094b:0-why-is-smr-stock-gaining-over-5-in-overnight-trading/",
-    "k": "why is smr stock gaining over 5 in overnight trading",
-    "id": "b3d4607b"
-  },
-  {
-    "date": "2026-06-15",
     "title": "스웨덴, SMR 공급업체로 영국 롤스로이스(Rolls-Royce) 선정",
     "summary": "스웨덴이 소형모듈원자로(SMR) 도입을 위해 영국의 롤스로이스를 공급업체로 선정했다.",
     "summaryLong": "스웨덴 정부가 원전 부활 정책의 일환으로 영국 롤스로이스(Rolls-Royce)를 소형모듈원자로(SMR) 공급업체로 선정했다. 이는 스웨덴의 에너지 안보 강화 및 탄소 중립 목표 달성을 위한 주요 결정으로, 롤스로이스가 개발 중인 소형모듈원자로 기술을 스웨덴에 도입하기 위한 협력 기반을 마련하게 된다. 이 결정은 유럽에서 원전 에너지 재평가가 확대되는 추세 속에서 이루어졌으며, 향후 구체적인 계약 및 건설 일정이 진행될 것으로 예상된다.",
@@ -7982,20 +7283,6 @@ window.SMR_NEWS = [
     "ko": 1
   },
   {
-    "date": "2026-06-14",
-    "title": "오클로(Oklo) 주식 반등, 미국 에너지부(DOE) 마일스톤 달성 후 강세장 재개",
-    "summary": "오클로(Oklo)가 미국 에너지부(DOE)의 마일스톤을 달성한 후 주가가 반등하며 강세장이 재개되고 있다.",
-    "summaryLong": "소형모듈원자로(SMR) 개발사 오클로(Oklo)가 미국 에너지부(DOE)의 중요한 마일스톤을 달성함에 따라 주가가 반등하고 있다. 시장에서는 이 긍정적인 진전이 오클로의 기술 개발 진전 및 상용화 가능성을 확인하는 신호로 해석하고 있으며, 투자자들이 주가 상승을 전망하고 있다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "finance.yahoo.com",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-stock-bouncing-back-bulls-045357692.html",
-    "k": "oklo stock is bouncing back bulls are talking about 100 again after this doe milestone",
-    "id": "33df533e"
-  },
-  {
     "date": "2026-06-13",
     "title": "스웨덴의 선도적 SMR 전략, 글로벌 시장 영향력 확대",
     "summary": "스웨덴의 소형모듈원자로(SMR) 개발 추진이 글로벌 시장에 미칠 영향을 분석한 보도이다.",
@@ -8064,20 +7351,6 @@ window.SMR_NEWS = [
     "url": "https://finance.yahoo.com/sectors/energy/articles/oklo-oklo-acquires-armec-strengthen-183807696.html",
     "k": "oklo oklo acquires armec to strengthen vertically integrated nuclear manufacturing",
     "id": "ccadc7f0"
-  },
-  {
-    "date": "2026-06-13",
-    "title": "엑스에너지(X-Energy)는 최고 상승 잠재력을 가진 유망 신생 주식인가",
-    "summary": "고온가스로(HTGR) 개발사 엑스에너지(X-Energy)의 투자 매력도와 상승 잠재력을 분석하는 기사다.",
-    "summaryLong": "고온가스로(HTGR) 기술을 개발하는 벤처사 엑스에너지(X-Energy)의 투자 매력도를 평가하는 분석 기사다. 엑스에너지는 고온가스로 기술의 선도 개발사로, 상용화 추진 중이며 투자자들이 높은 상승 잠재력을 기대하고 있다.",
-    "cat": "기술",
-    "type": "HTGR",
-    "dev": "X-Energy",
-    "region": "US",
-    "source": "finance.yahoo.com",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/x-energy-xe-one-best-183955837.html",
-    "k": "is x energy xe one of the best young stocks with the highest upside potential",
-    "id": "8e23f286"
   },
   {
     "date": "2026-06-13",
@@ -8280,20 +7553,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-12",
-    "title": "오클로 주가 52주 고점 대비 72% 하락했으나 프로젝트 진행 지속",
-    "summary": "오클로(Oklo)의 주가가 대폭 하락했음에도 불구하고 소형모듈원자로(SMR) 프로젝트 건설이 계속 진행되고 있다.",
-    "summaryLong": "오클로(Oklo)의 주가가 52주 고점 대비 72% 하락한 상황이지만, 회사의 소형모듈원자로(SMR) 프로젝트 건설은 예정대로 계속 진행 중이다. 이는 주가 변동성에도 불구하고 기업의 기술 개발과 프로젝트 진행이 독립적으로 추진되고 있음을 시사한다. 주식시장의 불안정성에도 기업의 운영 계획과 기술 마일스톤은 계획대로 진행되고 있는 것으로 보인다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "tikr.com",
-    "url": "https://www.tikr.com/blog/oklo-stock-is-down-72-from-its-52-week-high-but-the-build-out-keeps-moving-anyway",
-    "k": "oklo stock is down 72 from its 52 week high but the build out keeps moving anyway",
-    "id": "69f7cb72"
-  },
-  {
-    "date": "2026-06-12",
     "title": "뉴스케일 파워(NuScale Power), E2 센터 네트워크 확대로 핵심 투자 전략 재편",
     "summary": "뉴스케일 파워(NuScale Power)가 소형모듈원자로(SMR) 관련 교육·훈련 센터인 E2 센터 네트워크를 확장하며 핵심 투자 내러티브를 재정의하고 있다.",
     "summaryLong": "뉴스케일 파워(NuScale Power)는 E2(Education & Engagement) 센터 네트워크를 확대함으로써 소형모듈원자로(SMR) 산업의 인력 양성 및 이해도 제고 전략을 강화하고 있다. 이는 단순한 기술 개발을 넘어 규제 환경 조성, 산업 생태계 구축, 그리고 투자자 신뢰 확보라는 광범위한 목표를 반영한다. E2 센터들은 운영진, 기술자, 정책 입안자 등 다양한 이해관계자를 대상으로 소형모듈원자로의 안전성, 경제성, 응용 가능성을 교육함으로써 시장 진입의 구조적 장벽을 낮추는 역할을 한다. 이러한 전략은 뉴스케일의 장기적 상용화 및 글로벌 확장 계획의 핵심 구성 요소로 평가된다.",
@@ -8322,20 +7581,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-12",
-    "title": "뉴스케일 파워(NuScale Power), 버지니아주에 최신 핵 교육 센터 개장, 주가 상승",
-    "summary": "뉴스케일 파워(NuScale Power)가 버지니아주(Virginia)에 최신 핵 교육·훈련 센터를 새로 개장하여 인력 양성 역량을 확대했다.",
-    "summaryLong": "뉴스케일 파워(NuScale Power)는 버지니아주(Virginia)에 E2(Education & Engagement) 센터의 최신 시설을 개장함으로써 소형모듈원자로(SMR) 관련 전문 인력 양성 및 산업 이해도 제고 활동을 강화했다. 이 센터는 원자로 운영진, 엔지니어, 규제 담당자, 정책 입안자, 금융 전문가 등 다양한 이해관계자를 대상으로 소형모듈원자로의 기술·경제·안전·규제 측면에 대한 교육과 시뮬레이션을 제공한다. 센터 개장은 뉴스케일의 미국 내 시장 진출 전략의 일환이자, 연방 및 주(State) 정부와의 협력 강화, 지역사회 신뢰 구축, 나아가 장기적 수주 및 투자 환경 조성을 위한 선제적 투자로 평가된다. 이 뉴스에 따른 주가 상승은 투자자들이 뉴스케일의 산업 생태계 구축 전략과 상업화 가능성을 긍정적으로 평가하고 있음을 반영한다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "benzinga.com",
-    "url": "https://www.benzinga.com/markets/equities/26/06/53167766/nuscale-stock-gains-as-it-opens-latest-nuclear-training-center-in-virginia",
-    "k": "nuscale stock gains as it opens latest nuclear training center in virginia",
-    "id": "a2e7ab77"
-  },
-  {
-    "date": "2026-06-12",
     "title": "뉴스케일, 미터기 뒷단(Behind-the-Meter) 사업으로 그리드 병목 타겟",
     "summary": "뉴스케일 파워가 미터기 뒷단 소형모듈원자로 사업을 추진하여 전력망 병목 문제 해결을 목표로 함.",
     "summaryLong": "뉴스케일 파워(NuScale Power)가 미터기 뒷단(Behind-the-Meter) 배치형 소형모듈원자로(SMR) 사업을 확대하고 있다. 이 전략은 전력망 인프라의 병목 현상을 완화하고 산업체 및 대형 데이터센터의 자가발전 수요를 충족하기 위한 것이다. 분산형 소규모 원자력 발전의 시장 확대 가능성을 시사하는 사업 방향 전환이다.",
@@ -8347,20 +7592,6 @@ window.SMR_NEWS = [
     "url": "https://www.zacks.com/stock/news/2936350/nuscales-behind-the-meter-push-targets-the-grid-bottleneck",
     "k": "nuscale s behind the meter push targets the grid bottleneck",
     "id": "c6d01151"
-  },
-  {
-    "date": "2026-06-12",
-    "title": "소형모듈원자로(SMR) 주식 하락, 뉴스케일 핵발전 파이프라인 확대 추진",
-    "summary": "SMR 관련 주가가 하락하는 가운데 뉴스케일이 핵발전 프로젝트 파이프라인을 구축하고 있음.",
-    "summaryLong": "스톡스투트레이드(StocksToTrade)가 보도한 바에 따르면, 소형모듈원자로(SMR) 관련 주가가 하락세를 보이는 중에도 뉴스케일 파워(NuScale Power)가 핵발전 파이프라인을 적극 확대하고 있다. SMR 산업의 단기 주가 변동성에도 불구하고 뉴스케일이 사업 수주와 프로젝트 개발을 지속하고 있음을 시사하며, 산업 장기 전망과 기업별 실적의 괴리를 반영한다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "stockstotrade.com",
-    "url": "https://stockstotrade.com/news/nuscale-power-corporation-smr-news-2026_06_12/",
-    "k": "smr stock slides as nuscale builds nuclear power pipeline",
-    "id": "9bc4457a"
   },
   {
     "date": "2026-06-12",
@@ -8534,34 +7765,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-11",
-    "title": "NuScale 주가 연초 이후 35% 하락, 저가 매수 기회인가?",
-    "summary": "NuScale의 주가가 연초 이후 35% 하락한 가운데 투자자들 사이에서 저가 매수 기회에 대한 논의가 진행 중이다.",
-    "summaryLong": "NuScale은 연초(YTD) 이후 주가가 35% 하락하며 시장 조정을 겪고 있으나, 기술 진전과 규제 승인 등 펀더멘탈 측면에서는 긍정적 신호를 지속하고 있다. 투자 분석가들 사이에서는 현재 주가 수준을 소형모듈원자로 산업의 장기 성장성을 고려했을 때 매수 기회로 평가하는 관점이 제시되고 있다. 다만 상용화 일정 지연, 프로젝트 경제성 불확실성, 시장 수요 입증 필요성 등 리스크 요인도 함께 검토되고 있다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "zacks.com",
-    "url": "https://www.zacks.com/stock/news/2935764/nuscale-power-down-35-ytd-is-it-a-buy-the-dip-opportunity",
-    "k": "nuscale power down 35 ytd is it a buy the dip opportunity",
-    "id": "cbb21e62"
-  },
-  {
-    "date": "2026-06-11",
-    "title": "UBS, 자본 우려로 오클로(Oklo) 목표주가를 55달러로 인하",
-    "summary": "투자은행 UBS가 오클로의 주가 목표를 자본 조달 우려를 이유로 인하했다.",
-    "summaryLong": "UBS가 마이크로리액터 개발사 오클로(Oklo)의 주가 목표를 55달러로 인하하며 회사의 자본 조달 능력에 대한 우려를 표시했다. 오클로는 소형모듈원자로(SMR) 및 마이크로리액터 기술을 개발하는 스타트업으로, 상장 이후 투자자들의 기대와 현실 간의 괴리에 직면해 있다. 이는 첨단로 업체들이 직면한 자금 조달 및 상용화 경로의 과제를 반영한다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "investing.com",
-    "url": "https://www.investing.com/news/analyst-ratings/ubs-lowers-oklo-stock-price-target-to-55-on-capital-concerns-93CH-4737233",
-    "k": "ubs lowers oklo stock price target to 55 on capital concerns",
-    "id": "b9ee0b68"
-  },
-  {
-    "date": "2026-06-11",
     "title": "오클로(Oklo), 미국 에너지부(DOE)로부터 예비안전분석(PDSA) 승인",
     "summary": "오클로의 오로라 발전소(Aurora Powerhouse)가 예비안전분석 승인을 받아 아이다호 국립연구소(Idaho National Laboratory)에서의 건설 허가 절차가 진전되었다.",
     "summaryLong": "오클로는 미국 에너지부(DOE) 아이다호 운영 사무소로부터 아이다호 국립연구소에서 건설 중인 오로라 발전소의 예비안전분석(PDSA) 승인을 획득했다. 이는 오클로의 인허가 추진 경로상 주요 이정표로, 원자로 파일럿 프로그램에 참여하는 10개사 중 최근 발표된 성과 중 하나다. 예비안전분석 승인은 설계 안전성을 검증하는 조기 단계로, 본격적인 건설 허가 및 운영 허가로의 진행을 앞두고 있다.",
@@ -8602,20 +7805,6 @@ window.SMR_NEWS = [
     "k": "oklo stock rises can regulatory progress offset the nuclear start up s slump",
     "op": 1,
     "id": "c5bad8f1"
-  },
-  {
-    "date": "2026-06-11",
-    "title": "오클로 주가 상승 요인 분석",
-    "summary": "오클로(Oklo) 주가가 상승한 배경을 분석한 재정 기사이다.",
-    "summaryLong": "미국 고속중성자로(Fast Fission Reactor) 개발 기업 오클로(Oklo Inc.)의 주가가 상승했다는 뉴스이다. 제공된 스니펫에서 구체적인 상승 원인이 명시되지 않았으나, 규제 진전, 계약 체결, 기술 마일스톤, 또는 시장 심리 개선 등이 배경일 수 있다. 재정 분석 매체인 모틀리 풀(The Motley Fool)의 보도로, 투자자 관심도를 반영한 기사이다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "fool.com",
-    "url": "https://www.fool.com/investing/2026/06/11/why-oklo-stock-powered-higher-today/",
-    "k": "why oklo stock powered higher today",
-    "id": "16bbe801"
   },
   {
     "date": "2026-06-10",
@@ -8874,20 +8063,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-10",
-    "title": "뉴스케일 파워, 주가 약세 후 밸류에이션 평가",
-    "summary": "뉴스케일 파워(NuScale Power)의 최근 주가 약세에 따른 밸류에이션 평가가 진행 중이다.",
-    "summaryLong": "소형모듈원자로(SMR) 개발사 뉴스케일 파워의 주가가 최근 하락했으며, 투자자들이 이를 바탕으로 회사의 기업 가치를 재평가하고 있다. 주가 약세에도 불구하고 회사의 기본 펀더멘탈과 SMR 시장 전망에 기초한 투자 매력도를 검토하는 단계이다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "finance.yahoo.com",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/assessing-nuscale-power-smr-valuation-161422924.html",
-    "k": "assessing nuscale power smr valuation after sharp recent share price weakness",
-    "id": "16c4f674"
-  },
-  {
-    "date": "2026-06-10",
     "title": "원자력연, 소형원자로 기반 자동차운반선 기본설계 승인 획득",
     "summary": "한국원자력연구원이 소형원자로(SMR) 기반의 자동차운반선에 대한 기본설계 승인을 획득했다.",
     "summaryLong": "한국원자력연구원이 소형모듈원자로(SMR) 기술을 활용한 자동차운반선의 기본설계에 대해 관련 기관의 승인을 획득했다. 이는 SMR 기술의 해양 수송 분야로의 확대 적용을 의미하며, 원자력 기술의 활용 범위를 넓히려는 노력의 결과이다. 해양 수송 부문의 탈탄소화와 혁신적 에너지 솔루션 개발에 기여할 것으로 기대된다.",
@@ -8900,21 +8075,6 @@ window.SMR_NEWS = [
     "k": "원자력연 소형 원자로 기반 자동차운반선 기본승인 획득",
     "id": "3fefcfe8",
     "ko": 1
-  },
-  {
-    "date": "2026-06-10",
-    "title": "오클로(Oklo) 주가 6개월 42% 하락…새 연료 프로그램이 반등 이끌까?",
-    "summary": "오클로(Oklo) 주가 최근 6개월간 42% 하락했으며, 회사의 새 연료 프로그램이 주가 회복을 견인할 수 있을지 전망하는 기사다.",
-    "summaryLong": "미국 고속로(SFR) 개발사 오클로(Oklo)의 주가가 최근 6개월간 42% 하락했다. 모틀리풀(Motley Fool)은 오클로가 추진 중인 신규 연료 프로그램이 주가 반등을 이끌 수 있을 것으로 전망하고 있다. 이는 오클로가 보유한 고급 핵연료 기술이 시장 투자자들의 관심을 받을 수 있음을 시사한다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "fool.com",
-    "url": "https://www.fool.com/investing/2026/06/10/oklo-stock-is-down-22-over-the-last-6-months-will/",
-    "k": "oklo stock is down 42 over the last 6 months will this new fuel program reverse the losses",
-    "op": 1,
-    "id": "bb1539ed"
   },
   {
     "date": "2026-06-10",
@@ -9144,21 +8304,6 @@ window.SMR_NEWS = [
     "k": "smr pctc 기본인증 hd현대 해상 원자력 선점",
     "ko": 1,
     "id": "5ff01ce1"
-  },
-  {
-    "date": "2026-06-06",
-    "title": "오클로(Oklo) 대신 배당 수익률 높은 전력회사 매입 추천",
-    "summary": "오클로(Oklo) 주식과 전통 전력 회사 주식을 비교하는 투자 조언 칼럼이다.",
-    "summaryLong": "이 기사는 오클로(Oklo)라는 SMR 개발사를 언급하면서도 실제 내용은 전통적인 배당 수익률이 높은 전력 회사 주식 매입을 추천하는 투자 칼럼이다. SMR 기술 진전, 규제, 계약 등 산업 뉴스와 무관하게 재무 투자 관점의 의견 조성 글로, SMR·첨단로 레퍼런스 사이트용 콘텐츠로는 부적합하다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "",
-    "region": "",
-    "source": "247wallst.com",
-    "url": "https://247wallst.com/investing/2026/06/06/forget-oklo-buy-this-entrenched-high-yield-utility-giant-on-the-dip-instead/",
-    "k": "forget oklo buy this entrenched high yield utility giant on the dip instead",
-    "op": 1,
-    "id": "cadb7a89"
   },
   {
     "date": "2026-06-05",
@@ -9574,34 +8719,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-04",
-    "title": "뉴스케일 파워 주가 20% 하락, 매수 시점인가",
-    "summary": "뉴스케일 파워의 주가가 20% 하락한 상황에서 투자자들의 매수 판단이 논의되고 있다.",
-    "summaryLong": "뉴스케일 파워(NYSE: SMR)의 주가가 20% 하락하면서 투자 커뮤니티에서 이것이 매수 기회인지 여부를 검토하고 있다. 주가 약세가 시장 과잉 반응인지 아니면 펀더멘탈 악화를 반영한 것인지에 대한 분석이 진행 중이며, SMR 산업의 장기 성장성과 회사 특정 리스크를 함께 고려한 투자 판단이 이루어지고 있다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "fool.com",
-    "url": "https://www.fool.com/investing/2026/06/04/nuscale-is-down-20-is-it-finally-time-to-buy/",
-    "k": "nuscale power stock is down 20 is it finally time to buy",
-    "id": "f20623f7"
-  },
-  {
-    "date": "2026-06-04",
-    "title": "오클로(Oklo) 주식: 투자 가치 분석",
-    "summary": "소형모듈원자로 개발사 오클로의 장기 투자 가치에 대한 시장 평가와 분석이 제시되고 있다.",
-    "summaryLong": "소형모듈원자로(SMR) 개발 기업 오클로(Oklo)의 주식 투자 가치에 대한 분석 기사다. 오클로가 미래의 큰 수익을 창출할 수 있는 '백만장자 메이커'인지, 아니면 시장 과장인지에 대한 진솔한 평가를 제시하고 있다. 현재의 주가 수준과 회사의 기술 발전, 사업 전망을 종합적으로 검토하고 있다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "fool.com",
-    "url": "https://www.fool.com/investing/2026/06/04/millionaire-maker-or-market-hype-the-honest-truth/",
-    "k": "millionaire maker or market hype the honest truth about oklo",
-    "id": "62e1b727"
-  },
-  {
-    "date": "2026-06-04",
     "title": "미국원자력위원회(NRC), 테라파워 나트륨 원자로 건설허가 신청서 접수",
     "summary": "미국원자력위원회(NRC)가 테라파워(TerraPower)의 나트륨(Natrium) 고속로에 대한 건설허가 신청서를 접수했다.",
     "summaryLong": "미국원자력위원회(NRC)가 테라파워(TerraPower)의 나트륨(Natrium) 소듐냉각고속로에 대한 건설허가(Construction Permit) 신청서를 공식 접수(Docket)했다. 이는 나트륨 원자로의 설계·안전성 검토가 본격적으로 진행되는 단계로, 미국의 첨단원자로 인허가 절차가 구체적으로 진행되고 있음을 나타낸다. 나트륨 원자로는 발전과 열 공급을 동시에 할 수 있는 기술로 주목받고 있다.",
@@ -9786,20 +8903,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-03",
-    "title": "시티(Citi), SMR 개발 가속화 속 주요 원자력 주식 순위 발표",
-    "summary": "금융사 시티(Citi)가 소형모듈원자로 개발 가속화 추세 속에서 유망 원자력 관련 주식들의 순위를 공개했다.",
-    "summaryLong": "글로벌 금융사 시티(Citi)가 소형모듈원자로(SMR) 개발이 가속화되는 시장 환경 속에서 투자 가치가 있는 원자력 관련 기업들의 주식 순위를 발표했다. 이는 SMR 산업의 성장 전망이 높아지고 있으며, 글로벌 금융시장에서도 관련 기업들에 대한 관심과 투자 수요가 증가하고 있음을 시사한다.",
-    "cat": "기술",
-    "type": "General",
-    "dev": "",
-    "region": "",
-    "source": "kr.investing.com",
-    "url": "https://kr.investing.com/news/stock-market-news/article-93CH-1971200",
-    "k": "citi smr 개발 가속화 속 주요 원자력 주식 순위 공개",
-    "id": "61e7f5f9"
-  },
-  {
-    "date": "2026-06-03",
     "title": "롤스로이스, 웨일즈 부지에 SMR 3기 건설 추진",
     "summary": "롤스로이스(Rolls-Royce)가 웨일즈의 조용한 지역에 소형모듈원자로(SMR) 3기를 건설하는 대담한 투자를 진행 중이다.",
     "summaryLong": "영국의 롤스로이스(Rolls-Royce)가 웨일즈 지역의 특정 부지를 선정하여 소형모듈원자로(SMR) 3기 건설 프로젝트를 추진하고 있다. 이 3기의 SMR이 상당한 수의 가정에 전력을 공급할 수 있는 규모라고 보도되고 있다. 이는 영국 내 첫 SMR 발전소 건설 관련 프로젝트로서, SMR 상용화의 구체적 진전을 보여주는 사례다.",
@@ -9926,20 +9029,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-02",
-    "title": "오클로, 7월 이후 완전히 다른 주식이 될 것",
-    "summary": "오클로가 향후 7월을 기점으로 사업 전개에 중요한 변화가 예상되고 있다.",
-    "summaryLong": "투자 분석 매체가 오클로의 향후 사업 전망에 대해 언급하고 있으며, 특정 시점(7월) 이후 회사의 상황이 근본적으로 변화할 것으로 예상하고 있다. 이는 규제 승인, 계약 체결 등 주요 이정표와 관련된 것으로 추정되며, SMR 상용화 진전에 따른 시장 평가 변화를 반영한 것으로 보인다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "finance.yahoo.com",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/im-calling-oklo-very-different-133500870.html",
-    "k": "i m calling it oklo will be a very different stock after july for 1 reason",
-    "id": "a544282d"
-  },
-  {
-    "date": "2026-06-02",
     "title": "뉴스케일 파워, 신규 이사회 멤버 2인 영입 발표",
     "summary": "뉴스케일 파워(NuScale Power)가 지속적인 성장과 리더십을 지원할 신규 이사회 멤버 2인을 영입했다.",
     "summaryLong": "뉴스케일 파워(NuScale Power)가 회사의 지속적 성장과 경영 리더십 강화를 위해 이사회에 신규 멤버 2명을 추가 영입했다고 발표했다. 이는 뉴스케일이 소형모듈원자로 실증과 상용화 단계로의 진입 과정에서 경영진 확충을 통해 조직 역량을 강화하려는 전략으로 평가된다.",
@@ -9967,21 +9056,6 @@ window.SMR_NEWS = [
     "id": "e85efb11"
   },
   {
-    "date": "2026-06-02",
-    "title": "모틀리풀(Motley Fool): 뉴스케일 파워(NuScale Power) 11월 전 매수 추천",
-    "summary": "모틀리풀(Motley Fool)이 뉴스케일 파워(NuScale Power)의 주식을 11월 전 매수 기회로 평가하고 있다.",
-    "summaryLong": "재정 분석 플랫폼 모틀리풀(Motley Fool)은 뉴스케일 파워(NuScale Power)의 소형모듈원자로(SMR) 기술과 시장 전망을 긍정적으로 평가하여 11월 전 매수를 권장하고 있다. 이는 분석가의 개인 투자 의견으로, 추측 기반의 논평이다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "fool.com",
-    "url": "https://www.fool.com/investing/2026/06/02/im-calling-it-stock-is-a-buy-before-date/",
-    "k": "i m calling it nuscale power is a buy before november",
-    "op": 1,
-    "id": "4b0f4178"
-  },
-  {
     "date": "2026-06-01",
     "title": "미국 유타주 블루 캐슬(Blue Castle) 프로젝트, 소형모듈원자로(SMR) 시설로 재추진",
     "summary": "휴지 상태였던 유타주의 블루 캐슬(Blue Castle) 원전 프로젝트가 소형모듈원자로(SMR) 시설로 부활했으며, 블루 캐슬 홀딩스(Blue Castle Holdings)와 풀크럼 포인트 홀딩스(Fulcrum Point Holdings)가 그린 리버(Green River) 지역에서 해당 프로젝트를 추진하기 위한 합작사를 설립했다.",
@@ -9994,34 +9068,6 @@ window.SMR_NEWS = [
     "url": "https://www.ans.org/news/2026-06-01/article-8082/blue-castle-project-to-be-revived-as-smr-facility/",
     "k": "blue castle project to be revived as smr facility",
     "id": "703b3952"
-  },
-  {
-    "date": "2026-06-01",
-    "title": "오클로 주식, 수익 창출 수단이 될 수 있을까?",
-    "summary": "오클로(Oklo) 주식의 장기 수익성과 투자 가치에 대한 분석 기사이다.",
-    "summaryLong": "오클로(Oklo) 주식의 투자 가치와 장기 성장성에 대한 투자자 관점의 분석이다. 소형모듈원자로(SMR) 기업으로서 오클로의 기술 개발 진전과 상용화 가능성이 투자자들의 수익성 기대와 어떻게 연결되는지를 다루고 있다. 구체적 재무 분석이나 향후 계획에 대한 상세 내용은 제목과 요약만으로는 불명확하다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "finance.yahoo.com",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-stock-ticket-becoming-millionaire-093600771.html",
-    "k": "is oklo stock your ticket to becoming a millionaire",
-    "id": "9783c15b"
-  },
-  {
-    "date": "2026-06-01",
-    "title": "NuScale Power 할인 매수 기회: 인생을 바꾸는 투자가 될 수 있을까",
-    "summary": "SMR 개발사 NuScale Power(누스케일 파워)의 현저히 낮아진 주가에 대한 투자 분석 기사.",
-    "summaryLong": "야후 파이낸스(Yahoo Finance)가 현재 저평가되어 있는 소형모듈원자로(SMR) 개발사 NuScale Power(누스케일 파워)의 주식을 투자 기회로 평가하는 분석 기사. SMR 시장의 장기 성장성과 NuScale(누스케일)의 기술 리더십, 사업 파이프라인을 배경으로 현재 주가 수준에서의 투자 가치를 검토. 에너지 전환과 소형 원전의 역할 확대 트렌드 속에서의 투자 판단 자료 제시.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "finance.yahoo.com",
-    "url": "https://finance.yahoo.com/sectors/energy/articles/nuscale-power-sale-could-buy-172000732.html",
-    "k": "nuscale power is on sale could this be the buy that sets you up for life",
-    "id": "48cd2f0b"
   },
   {
     "date": "2026-06-01",
@@ -10110,20 +9156,6 @@ window.SMR_NEWS = [
     "id": "f267493c"
   },
   {
-    "date": "2026-05-30",
-    "title": "뉴스케일 파워(NuScale Power) 주식: $13 이하 수준의 투자 기회 검토",
-    "summary": "소형모듈원자로 개발사 뉴스케일 파워의 현재 저가 주식에 대한 장기 투자 관점의 검토를 다루고 있다.",
-    "summaryLong": "소형모듈원자로(SMR) 선도 개발사 뉴스케일 파워(NuScale Power)의 주가가 $13 이하 수준에서 형성되고 있다. 장기 투자자들이 현재의 저가 주가 수준에서 진입할 가치가 있는지를 평가하는 분석 기사다. 회사의 기술 진전, 시장 수요, 규제 환경 등 종합적 요인들을 고려한 투자 판단 자료를 제공하고 있다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "finance.yahoo.com",
-    "url": "https://finance.yahoo.com/sectors/energy/articles/nuscale-power-still-under-13-152000477.html",
-    "k": "nuscale power is still under 13 here s whether long term investors should pounce",
-    "id": "2377e229"
-  },
-  {
     "date": "2026-05-29",
     "title": "유타 그린리버 소형모듈원자로(SMR) 프로젝트 합작사 출범",
     "summary": "Fulcrum Point Holdings과 Blue Castle Holdings이 홀텍(Holtec)의 소형모듈원자로(SMR)-300 기술을 이용한 유타(Utah)주 소형모듈원자로(SMR) 건설 프로젝트 추진을 위해 합작사를 설립했다.",
@@ -10177,20 +9209,6 @@ window.SMR_NEWS = [
     "url": "https://www.google.com/search?q=SMR%20%EA%B0%9C%EB%B0%9C%20%EC%B4%89%EC%A7%84%EC%9D%84%20%EC%9C%84%ED%95%9C%20%27%EA%B0%80%EC%83%81%EC%9B%90%EC%9E%90%EB%A1%9C%27%20%EA%B3%B5%EA%B0%9C",
     "k": "smr 적기 개발 촉진할 가상원자로 베일 벗다",
     "id": "19224922"
-  },
-  {
-    "date": "2026-05-29",
-    "title": "핵에너지 주식 비교: 오클로 vs 뉴스케일 파워, 현재 더 나은 매수 대상은?",
-    "summary": "모틀리 풀이 소형모듈원자로 개발사 오클로와 뉴스케일 파워의 투자 가치를 비교 분석함.",
-    "summaryLong": "투자 분석 매체 모틀리 풀(The Motley Fool)이 소형모듈원자로 개발 회사들 중 오클로(Oklo)와 뉴스케일 파워(NuScale Power)의 현재 투자 가치를 직접 비교하고 있다. 두 회사의 기술 노형, 규제 진행 상황, 시장 경쟁력, 펀딩 상황 등을 종합적으로 평가하여 투자자들에게 선택 기준을 제시하는 분석 기사다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "",
-    "region": "US",
-    "source": "fool.com",
-    "url": "https://www.fool.com/investing/2026/05/29/nuclear-stock-face-off-is-oklo-or-nuscale-power/",
-    "k": "nuclear stock face off is oklo or nuscale power the better buy right now",
-    "id": "9f5f22ef"
   },
   {
     "date": "2026-05",
@@ -10347,20 +9365,6 @@ window.SMR_NEWS = [
     "id": "adb60fc4"
   },
   {
-    "date": "2026-05-26",
-    "title": "Oklo, 무기용 플루토늄을 핵연료로 전환 — 주가 상승",
-    "summary": "Oklo가 핵폐기물인 무기용 플루토늄을 상용 핵연료로 전환하는 기술을 개발했으며, 투자자들의 관심으로 주가가 올랐다.",
-    "summaryLong": "마이크로 모듈식 원자로(Micro) 개발사 Oklo Inc.가 냉전 시대 핵무기 비축 물질인 고농축 플루토늄을 자사의 고속로에 연료로 활용할 수 있는 기술을 보유하고 있다는 소식이 알려지면서 시장에서 긍정적 반응을 얻었다. 이는 기존 핵폐기물의 자원화, 비확산 정책 준수, 그리고 에너지 효율성을 동시에 달성하는 의미 있는 사례로 평가된다. Oklo의 기술이 상용화되면 글로벌 핵연료 수급 및 폐기물 관리 분야에 혁신을 가져올 수 있다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "barrons.com",
-    "url": "https://www.barrons.com/articles/oklo-stock-plutonium-nuclear-f2c6cd60",
-    "k": "oklo is turning weapons grade plutonium into nuclear fuel the stock is climbing",
-    "id": "965e556c"
-  },
-  {
     "date": "2026-05-25",
     "title": "미국 에너지부, 소형모듈원자로 프로젝트 자금 지원",
     "summary": "미국 에너지부(DOE)가 소형모듈원자로 프로젝트 추진을 위해 자금을 지원.",
@@ -10387,20 +9391,6 @@ window.SMR_NEWS = [
     "url": "https://finance.yahoo.com/sectors/energy/articles/nuscale-pursues-6-gigawatt-smr-042855370.html",
     "k": "nuscale pursues 6 gigawatt smr buildout and moves toward first projects",
     "id": "90bc75f5"
-  },
-  {
-    "date": "2026-05-25",
-    "title": "Oklo vs. NuScale Power 2026년 비교: 어느 것이 실제 매수 가치가 있는가",
-    "summary": "투자 분석 기사가 두 SMR 개발사 Oklo(오클로)와 NuScale Power(누스케일 파워)의 상대적 투자 가치를 비교.",
-    "summaryLong": "야후 파이낸스(Yahoo Finance)가 소형모듈원자로(SMR) 분야의 유력 개발사인 Oklo(오클로)와 NuScale Power(누스케일 파워)의 기술, 사업 진행, 시장 전망을 2026년 중기 관점에서 비교분석한 기사. 두 회사의 설계 차이(용융염로 vs 가압경수로), 규제 승인 진전 상황, 파이프라인 프로젝트, 자금 조달 상황 등을 통해 투자자의 의사결정을 돕는 내용.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "",
-    "region": "US",
-    "source": "finance.yahoo.com",
-    "url": "https://finance.yahoo.com/sectors/energy/articles/oklo-vs-nuscale-power-2026-112000234.html",
-    "k": "oklo vs nuscale power in 2026 which one is actually worth buying",
-    "id": "b7a1e24e"
   },
   {
     "date": "2026-05-25",
@@ -10460,20 +9450,6 @@ window.SMR_NEWS = [
     "url": "https://www.dongascience.com/ko/news/78037",
     "k": "특별기고 smr 시대 원자력 안전규제 사전검토제도의 의미",
     "id": "2a2c4044"
-  },
-  {
-    "date": "2026-05-22",
-    "title": "뱅크오브아메리카, 오클로(Oklo)는 매수·뉴스케일(NuScale)은 중립 평가",
-    "summary": "뱅크오브아메리카(BofA)가 원자력 섹터 리서치를 재개하면서 오클로에 매수, 뉴스케일에 중립 평가를 부여했다.",
-    "summaryLong": "뱅크오브아메리카(BofA)가 원자력 섹터에 대한 커버리지를 재개하면서 소형모듈원자로(SMR) 개발사들에 대한 투자 평가를 내놨다. 오클로(Oklo)에는 매수(Buy) 등급을, 뉴스케일(NuScale)에는 중립(Neutral) 등급을 부여했다. 이는 투자은행이 두 회사의 사업 전망과 기술 경쟁력을 각각 다르게 평가하고 있음을 시사한다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo, NuScale",
-    "region": "US",
-    "source": "za.investing.com",
-    "url": "https://za.investing.com/news/stock-market-news/bofa-reinstates-nuclear-coverage-with-buy-on-oklo-and-neutral-on-nuscale-4296969",
-    "k": "bofa reinstates nuclear coverage with buy on oklo and neutral on nuscale by investing com",
-    "id": "2122c17d"
   },
   {
     "date": "2026-05-21",
@@ -12658,20 +11634,6 @@ window.SMR_NEWS = [
     "url": "https://thenarwhal.ca/ontario-darlington-nuclear-smr-explainer/",
     "k": "the smr pitch ontario s small modular reactor plan explained",
     "id": "b5274b6e"
-  },
-  {
-    "date": "2026-02-17",
-    "title": "SMR과 BWXT의 소형모듈원자로 관련 주식 비교 분석",
-    "summary": "투자 관점에서 SMR과 BWXT의 소형모듈원자로 관련 주식을 비교 분석한 기사다.",
-    "summaryLong": "금융 매체가 소형모듈원자로 산업의 핵심 기업인 SMR과 BWXT(캐나다 원자력기술회사, BWXT)의 주식 투자 가치를 비교 분석했다. 두 회사의 기술 경쟁력, 프로젝트 포트폴리오, 시장 전망 등을 종합적으로 평가했다. 소형모듈원자로 시장의 성장 잠재력이 투자 결정에 미치는 영향을 분석했다. 투자자들에게 소형모듈원자로 산업 진출 기업의 선택 기준을 제시하고 있다.",
-    "cat": "기술",
-    "type": "General",
-    "dev": "SMR, BWXT",
-    "region": "US",
-    "source": "finance.yahoo.com",
-    "url": "https://finance.yahoo.com/news/smr-vs-bwxt-small-modular-154400245.html",
-    "k": "smr vs bwxt which small modular reactor stock is a buy right now",
-    "id": "df9001ee"
   },
   {
     "date": "2026-02-17",
