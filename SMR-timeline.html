@@ -25,6 +25,7 @@
 <link rel="stylesheet" href="styles.css?v=5">
 <script>(function(){try{var t=localStorage.getItem('smrhub-theme');if(t==='dark'||(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();</script>
 <script src="ui.js?v=2" defer></script>
+<script src="smr-data.js?v=1"></script>
 <style>
   /* compact filter bar (collapsed by default so the timeline stays the focus) */
   .tl-bar{max-width:1080px;margin:14px auto 0;padding:0 24px;display:flex;align-items:center;gap:12px;}
@@ -164,66 +165,8 @@
   var TODAY=2026.45;
   function X(t){ return PX0 + (t-T0)/(T1-T0)*PW; }
 
-  // PROJECT-level data (mirrors SMR-developers.html / SMR-map.html, 2026.6, public-source verified).
-  // Multi-project developers are split into separate lanes (max 2 主프로젝트), grouped by 'dev'.
-  // type: PWR|BWR|SFR|HTGR|FHR|MSR|Micro ; s: done|target|neg ; link defaults to SMR-developers.html#id
-  var PROJECTS=[
-    {dev:'GE Hitachi', id:'gehitachi', proj:'Darlington (OPG)', cc:'CA', type:'BWR', stage:5, track:'intl', ms:[
-      {t:2025.27, code:'건설허가', full:'캐나다 CNSC 건설허가(LTC) 발급 (2025.4) — 핵 콘크리트 타설·건설 착수', s:'done'},
-      {t:2030.92, code:'가동', full:'Darlington 1호기 완공 목표 (2030년말)', s:'target'} ]},
-    {dev:'GE Hitachi', id:'gehitachi', proj:'Clinch River (TVA)', cc:'US', type:'BWR', stage:3, track:'nrc50', ms:[
-      {t:2025.6, code:'CP신청', full:'미국 TVA Clinch River, Part 50 건설허가(CP) 신청·도케팅 (2025)', s:'done'},
-      {t:2026.95, code:'심사', full:'CP 심사 완료 목표 (~2026.12)', s:'target'} ]},
-    {dev:'Kairos Power', id:'kairos', proj:'Hermes (Oak Ridge)', cc:'US', type:'FHR', stage:5, track:'nrc50', ms:[
-      {t:2023.7, code:'CP발급', full:'Hermes 실증로 Part 50 건설허가 발급 (2023) — 첫 비경수로 CP', s:'done'},
-      {t:2025.4, code:'건설', full:'Oak Ridge에서 Hermes 실증로 건설 진행', s:'done'},
-      {t:2026.30, code:'H2 착공', full:'Hermes 2 기공식·착공 (2026.4) — Google·TVA 공급, 첫 상업급 Gen IV 발전로 건설', s:'done'} ]},
-    {dev:'TerraPower', id:'terrapower', proj:'Natrium (Kemmerer)', cc:'US', type:'SFR', stage:5, track:'nrc50', ms:[
-      {t:2024.17, code:'CP신청', full:'Natrium Part 50 건설허가(CP) 신청 (2024.3)', s:'done'},
-      {t:2026.2, code:'CP발급', full:'건설허가(CP) 발급 (2026.3) — 첫 상업용 비경수로 CP', s:'done'},
-      {t:2026.31, code:'착공', full:'Kemmerer 1호기 본격 착공 (2026.4) — 미국 첫 상업용(유틸리티급) 비경수로 건설 개시', s:'done'},
-      {t:2028.0, code:'OL·FID', full:'운영허가(OL) 신청·최종투자결정(FID) 예정 (2028 전후)', s:'target'} ]},
-    {dev:'X-energy', id:'xenergy', link:'SMR-dev-xenergy.html', proj:'Dow · Long Mott', cc:'US', type:'HTGR', stage:3, track:'nrc50', ms:[
-      {t:2025.4, code:'CP신청', full:'Dow Long Mott(Seadrift, TX) Part 50 건설허가 신청·도케팅 (2025)', s:'done'},
-      {t:2026.38, code:'환경평가', full:'NRC 환경평가(EA)·FONSI 발표 (2026.5) — 일정 단축으로 조기 완료', s:'done'},
-      {t:2026.95, code:'CP발급', full:'건설허가(CP) 발급 목표 (~2026말, NRC 단축 심사)', s:'target'},
-      {t:2030.0, code:'가동', full:'Dow Seadrift 가동 목표 (2030 전후)', s:'target'} ]},
-    {dev:'X-energy', id:'xenergy', link:'SMR-dev-xenergy.html', proj:'Energy Northwest', cc:'US', type:'HTGR', stage:1, track:'pre', ms:[
-      {t:2024.8, code:'사전협의', full:'Energy Northwest(WA) 부지 — Amazon 투자 기반 사전협의·부지작업 (2024)', s:'done'},
-      {t:2031.0, code:'가동', full:'Xe-100 최대 12기 가동 목표 (2030년대 초)', s:'target'} ]},
-    {dev:'Holtec', id:'holtec', proj:'Palisades · Pioneer', cc:'US', type:'PWR', stage:3, track:'nrc50', ms:[
-      {t:2026.12, code:'CP접수', full:'Palisades Pioneer 1&2 건설허가(CP) 접수 (2026.2)', s:'done'},
-      {t:2027.4, code:'심사', full:'안전·환경평가 완료 목표 (2027 상반기)', s:'target'},
-      {t:2030.0, code:'가동', full:'SMR-300 가동 목표 (2030)', s:'target'} ]},
-    {dev:'NuScale', id:'nuscale', proj:'VOYGR · US600/460', cc:'US', type:'PWR', stage:2, track:'nrc52', ms:[
-      {t:2023.05, code:'DC', full:'US600 설계인증(DC) 취득 (2023) — 첫 SMR 설계인증', s:'done'},
-      {t:2026.0, code:'SDA', full:'출력증강 US460 표준설계승인(SDA) 심사 중', s:'target'} ]},
-    {dev:'Rolls-Royce', id:'rollsroyce', proj:'UK SMR · Wylfa', cc:'UK', type:'PWR', stage:2, track:'intl', ms:[
-      {t:2025.5, code:'GBE-N', full:'Great British Energy-Nuclear 우선 기술 선정, 부지 Wylfa', s:'done'},
-      {t:2026.28, code:'건설계약', full:'영국 정부–Rolls-Royce SMR, Wylfa 3기 건설 계약 체결 (2026.4) — 즉시 착수', s:'done'},
-      {t:2026.6, code:'GDA완료', full:'영국 GDA Step 3 완료 예정 (2026.8)', s:'target'} ]},
-    {dev:'Oklo', id:'oklo', proj:'Aurora (INL)', cc:'US', type:'SFR', stage:2, track:'nrc52', ms:[
-      {t:2022.05, code:'기각', full:'첫 COLA 기각 (2022.1, without prejudice)', s:'neg'},
-      {t:2025.5, code:'재도전', full:'단계형 COLA 재도전 — NRC readiness 평가 완료, INL', s:'done'} ]},
-    {dev:'ARC-100', id:'arc', proj:'Point Lepreau', cc:'CA', type:'SFR', stage:2, track:'intl', ms:[
-      {t:2025.5, code:'VDR완료', full:'CNSC 벤더설계심사(VDR) Phase 2 완료 (2025.7)', s:'done'},
-      {t:2027.0, code:'건설허가', full:'건설허가(LTC) 신청 목표 (2027)', s:'target'},
-      {t:2030.6, code:'가동', full:'1호기 가동 목표 (2030년대 초)', s:'target'} ]},
-    {dev:'SMART100', id:'smart', proj:'SMART100 (원조 2012)', cc:'KR', type:'PWR', stage:2, track:'kr', ms:[
-      {t:2024.7, code:'SDA', full:'SMART100 표준설계인가 취득 (2024.9) · SMART 원조 SDA는 2012(세계 최초)', s:'done'} ]},
-    {dev:'Westinghouse', id:'westinghouse', proj:'AP300', cc:'US', type:'PWR', stage:1, track:'nrc52', ms:[
-      {t:2023.4, code:'규제plan', full:'AP300 규제 engagement plan 제출 (2023.5)', s:'done'},
-      {t:2027.0, code:'DC', full:'AP300 설계인증(DC) 목표 (2027)', s:'target'} ]},
-    {dev:'Westinghouse', id:'westinghouse', proj:'eVinci (마이크로)', cc:'US', type:'Micro', stage:1, track:'pre', ms:[
-      {t:2024.92, code:'I&C', full:'eVinci 계측제어(I&C) 플랫폼 승인 (2024.12)', s:'done'},
-      {t:2025.3, code:'설계기준', full:'eVinci 주요설계기준 토픽보고서 승인 (2025.4)', s:'done'} ]},
-    {dev:'i-SMR', id:'ismr', proj:'혁신형 i-SMR', cc:'KR', type:'PWR', stage:1, track:'kr', ms:[
-      {t:2023.5, code:'출범', full:'국책 혁신형 i-SMR 개발사업 출범 (2023)', s:'done'},
-      {t:2028.0, code:'SDA', full:'표준설계인가(SDA) 목표 (2028)', s:'target'} ]},
-    {dev:'Seaborg', id:'seaborg', proj:'CMSR · 부유식', cc:'DK', type:'MSR', stage:1, track:'intl', ms:[
-      {t:2026.0, code:'시제', full:'상용 프로토타입 목표 (2026, 변동 큼)', s:'target'},
-      {t:2028.0, code:'운전', full:'해상 Power Barge 상업운전 목표 (2028, 변동 큼)', s:'target'} ]}
-  ];
+  // 데이터 단일 소스: smr-data.js (window.SMR_PROJECTS) — 마일스톤·단계 수정은 그 파일에서
+  var PROJECTS = window.SMR_PROJECTS || [];
 
   function el(tag, attrs, txt){
     var e=document.createElementNS(SVGNS, tag);

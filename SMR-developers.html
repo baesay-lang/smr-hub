@@ -25,6 +25,7 @@
 <link rel="stylesheet" href="styles.css?v=5">
 <script>(function(){try{var t=localStorage.getItem('smrhub-theme');if(t==='dark'||(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();</script>
 <script src="ui.js?v=2" defer></script>
+<script src="smr-data.js?v=1"></script>
 <style>
   :root{ /* stage progression — single hue (blue) gradient */
     --s1:#c3d4f5; --s2:#9bbcf2; --s3:#6f9eee; --s4:#4a82ea; --s5:#2f6be0; --s6:#1d4ed8;
@@ -581,6 +582,21 @@
       // move listed cards to the front, preserving their relative order
       Array.from(grid.querySelectorAll('.dev[data-listed]')).reverse().forEach(function(d){ grid.insertBefore(d, grid.firstChild); });
     }
+  })();
+</script>
+<script>
+  /* 단계 칩 단일 소스 동기화 — 단계가 바뀌면 smr-data.js(SMR_DEVS)만 수정.
+     (카드 안 서술형 '인허가 상황' 본문은 수동 관리) */
+  (function(){
+    if(!window.SMR_DEVS) return;
+    document.querySelectorAll('.dev').forEach(function(card){
+      var d = window.SMR_DEVS[card.id]; if(!d) return;
+      var pipe = card.querySelector('.mini-pipe'); if(!pipe) return;
+      pipe.setAttribute('data-stage', d.stage);
+      var dots='';
+      for(var i=1;i<=6;i++) dots += '<span class="dot dc'+i+(i<d.stage?' done':(i===d.stage?' cur':''))+'"></span>';
+      pipe.innerHTML = dots + '<span class="stage-label">'+d.label+'</span>';
+    });
   })();
 </script>
 <script src="feedback.js" defer></script>
