@@ -225,63 +225,122 @@
     <p class="sec-sub">원자로 설계는 <b>Seaborg(Saltfoss, 덴마크)</b>, 부유식 바지선 건조는 <b>삼성중공업</b>, 운영은 <b>KHNP</b> — 3자 컨소시엄</p>
 
     <div class="sub-h"><span class="pin">②-A</span>CMSR Power Barge 구성 — 도해</div>
-    <!-- DIAGRAM CONVENTION (reuse): viewBox 0 0 900 440. 용융염로(연료염 루프) → 2차 염 → 증기 → 터빈. 부유식.
-         Vessels = rounded rect fill accent-weak stroke accent. Components ①..⑥ map to supply table. -->
+        <!-- DIAGRAM CONVENTION v3 — STANDARD (열 흐름 경로만 · 부가계통 생략 · 색=유체(주황=1차 냉각재, 파랑=물·증기)
+         · 실선=고온/공급 · 점선=저온/복귀 · CSS 키프레임 흐름점(reduced-motion 무시) · 클래스+var() 다크모드
+         · 소형 화살촉 · 하단 범례 — 원본 규격은 SMR-dev-xenergy.html ②-A 참조) -->
     <div class="diagram-wrap">
-      <svg viewBox="0 0 900 440" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, sans-serif" aria-label="Seaborg CMSR schematic">
+      <svg viewBox="0 0 900 484" xmlns="http://www.w3.org/2000/svg"
+           font-family="Pretendard, sans-serif" aria-label="CMSR Power Barge 표준 도해: 연료염 노심 → 1차 열교환기 → 2차 염 → 증기발생기·터빈 (부유식)">
+        <style>
+          .d-isl{fill:none;stroke:var(--border-strong);stroke-dasharray:6 5;}
+          .d-islt{fill:var(--text-faint);font-size:11px;font-weight:700;letter-spacing:1.4px;}
+          .d-vessel{fill:var(--accent-weak);stroke:var(--accent);stroke-width:2.4;}
+          .d-vhl{fill:none;stroke:var(--surface);stroke-width:1.2;opacity:.85;}
+          .d-inner{fill:var(--surface-2);stroke:var(--border-strong);stroke-width:1;}
+          .d-pool{fill:var(--accent-weak);stroke:var(--accent-weak-2);stroke-width:1.5;}
+          .d-cnv{fill:none;stroke:var(--accent);stroke-width:2;}
+          .d-ghost{fill:var(--accent-weak);stroke:var(--text-faint);stroke-width:1.2;stroke-dasharray:3 3;opacity:.7;}
+          .d-core{fill:var(--surface);}
+          .d-corebox{fill:var(--surface-2);stroke:var(--accent);stroke-width:1.6;}
+          .d-bar{stroke:var(--text-faint);stroke-width:1.4;}
+          .d-salt{fill:#ea580c;opacity:.13;}
+          .d-peb{fill:var(--text-faint);stroke:var(--surface);stroke-width:.5;}
+          .d-fuel{fill:var(--accent);stroke:var(--surface);stroke-width:.5;}
+          .d-mech{fill:var(--surface);stroke:var(--accent);stroke-width:1.6;}
+          .d-hot{stroke:#ea580c;fill:none;}
+          .d-hec{stroke:#ea580c;opacity:.62;fill:none;stroke-dasharray:4 3;}
+          .d-steam{stroke:var(--accent);fill:none;}
+          .d-fw{stroke:var(--accent);opacity:.5;fill:none;stroke-dasharray:4 3;}
+          .d-coil{stroke:var(--text-faint);fill:none;stroke-width:2;}
+          .d-shaft{stroke:var(--text-faint);stroke-width:3;}
+          .d-mk-a{fill:var(--accent);}
+          .d-mk-o{fill:#ea580c;}
+          .d-mk-oc{fill:#ea580c;opacity:.62;}
+          .d-mk-f{fill:var(--accent);opacity:.5;}
+          .d-name{fill:var(--accent-strong);font-size:11.5px;font-weight:700;}
+          .d-sub{fill:var(--text-dim);font-size:9.5px;}
+          .d-fnt{fill:var(--text-faint);font-size:9.5px;}
+          .d-lead{stroke:var(--border-strong);stroke-width:1;}
+          .d-pill-h{fill:var(--accent-weak-2);stroke:var(--accent);stroke-width:1;}
+          .d-pill-ht{fill:var(--accent-strong);font-size:9.5px;font-weight:700;}
+          .d-pill-o{fill:#ffedd5;stroke:#ea580c;stroke-width:1;}
+          .d-pill-ot{fill:#c2410c;font-size:9.5px;font-weight:700;}
+          .d-pill-c{fill:var(--surface-3);stroke:var(--border-strong);stroke-width:1;}
+          .d-pill-ct{fill:var(--text-dim);font-size:9.5px;font-weight:700;}
+          .d-flow-a{fill:var(--accent);}
+          .d-flow-o{fill:#ea580c;}
+          .d-flow-f{fill:var(--accent);}
+          [data-theme="dark"] .d-hot,[data-theme="dark"] .d-hec{stroke:#fb923c;}
+          [data-theme="dark"] .d-mk-o,[data-theme="dark"] .d-flow-o{fill:#fb923c;}
+          [data-theme="dark"] .d-mk-oc{fill:#fb923c;}
+          [data-theme="dark"] .d-pill-o{fill:#3c2410;stroke:#fb923c;}
+          [data-theme="dark"] .d-pill-ot{fill:#fdba74;}
+          [data-theme="dark"] .d-salt{opacity:.22;}
+          @keyframes pr{0%{transform:translate(0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateX(42px);opacity:0}}
+          .da-pr{animation:pr 2.0s linear infinite;}
+          @keyframes sl{0%{transform:translate(0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateX(192px);opacity:0}}
+          .da-sl{animation:sl 3.0s linear infinite;}
+          @keyframes st{0%{transform:translate(0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateX(86px);opacity:0}}
+          .da-st{animation:st 2.4s linear infinite;}
+        </style>
         <defs>
-          <marker id="m-acc" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker>
-          <marker id="m-gray" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#9aa7b4"/></marker>
+          <marker id="dm-as" markerWidth="6" markerHeight="6" refX="4.2" refY="2.1" orient="auto"><path class="d-mk-a" d="M0,0 L4.2,2.1 L0,4.2 Z"/></marker>
+          <marker id="dm-os" markerWidth="6" markerHeight="6" refX="4.2" refY="2.1" orient="auto"><path class="d-mk-o" d="M0,0 L4.2,2.1 L0,4.2 Z"/></marker>
+          <marker id="dm-ocs" markerWidth="6" markerHeight="6" refX="4.2" refY="2.1" orient="auto"><path class="d-mk-oc" d="M0,0 L4.2,2.1 L0,4.2 Z"/></marker>
+          <marker id="dm-fs" markerWidth="6" markerHeight="6" refX="4.2" refY="2.1" orient="auto"><path class="d-mk-f" d="M0,0 L4.2,2.1 L0,4.2 Z"/></marker>
         </defs>
-
-        <!-- 바지선 윤곽 -->
-        <rect x="20" y="60" width="860" height="346" rx="14" fill="none" stroke="#c3d4f5" stroke-dasharray="2 4"/>
-        <text x="40" y="50" fill="#7f9bd6" font-size="11" font-weight="700" letter-spacing="1.2">FLOATING POWER BARGE</text>
-
-        <!-- islands -->
-        <rect x="36" y="74" width="420" height="320" rx="10" fill="none" stroke="#d2d7e0" stroke-dasharray="6 5"/>
-        <text x="52" y="92" fill="#8b93a2" font-size="10.5" font-weight="700" letter-spacing="1.2">NUCLEAR (용융염 노심)</text>
-        <rect x="488" y="74" width="380" height="320" rx="10" fill="none" stroke="#d2d7e0" stroke-dasharray="6 5"/>
-        <text x="504" y="92" fill="#8b93a2" font-size="10.5" font-weight="700" letter-spacing="1.2">POWER (증기 · 발전)</text>
-
-        <!-- CMSR 원자로 ① + 노심·연료염 ② -->
-        <rect x="110" y="130" width="120" height="150" rx="16" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
-        <text x="170" y="300" fill="#1d4ed8" font-size="11.5" font-weight="700" text-anchor="middle">CMSR 원자로 ①</text>
-        <g fill="#9aa7b4"><rect x="140" y="170" width="60" height="70" rx="6" opacity="0.4"/></g>
-        <g stroke="#7e8a99" stroke-width="2" fill="none"><line x1="152" y1="178" x2="152" y2="232"/><line x1="164" y1="178" x2="164" y2="232"/><line x1="176" y1="178" x2="176" y2="232"/><line x1="188" y1="178" x2="188" y2="232"/></g>
-        <text x="170" y="160" fill="#1d4ed8" font-size="10" font-weight="700" text-anchor="middle">노심·연료염 ② (흑연감속)</text>
-
-        <!-- 연료염 → 1차 열교환기 ③ -->
-        <polyline points="230,165 300,165 300,182" fill="none" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
-        <text x="266" y="158" fill="#8b93a2" font-size="9" text-anchor="middle">연료염(고온) →</text>
-        <polyline points="318,280 318,230 230,230" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
-        <rect x="282" y="182" width="56" height="98" rx="5" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
-        <text x="310" y="298" fill="#1d4ed8" font-size="10" font-weight="700" text-anchor="middle">1차 열교환기 ③</text>
-
-        <!-- 연료염 드레인탱크 ⑥ (피동안전) -->
-        <polyline points="170,280 170,330" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
-        <rect x="138" y="330" width="64" height="34" rx="6" fill="#f1f3f7" stroke="#9aa7b4" stroke-width="2"/>
-        <text x="170" y="352" fill="#54606f" font-size="9.5" font-weight="700" text-anchor="middle">드레인탱크 ⑥</text>
-
-        <!-- 2차 염 → 증기발생기 ④ -->
-        <line x1="338" y1="220" x2="540" y2="220" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
-        <text x="440" y="212" fill="#8b93a2" font-size="9" text-anchor="middle">2차 염 →</text>
-        <rect x="540" y="178" width="56" height="100" rx="5" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
-        <text x="568" y="296" fill="#1d4ed8" font-size="10.5" font-weight="700" text-anchor="middle">증기발생기 ④</text>
-
-        <!-- 증기 → 터빈 ⑤ -->
-        <line x1="596" y1="206" x2="690" y2="206" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
-        <text x="644" y="198" fill="#8b93a2" font-size="9" text-anchor="middle">증기 →</text>
-        <polygon points="690,184 754,172 754,244 690,232" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
-        <text x="722" y="166" fill="#1d4ed8" font-size="11.5" font-weight="700" text-anchor="middle">Turbine ⑤</text>
-        <line x1="754" y1="208" x2="782" y2="208" stroke="#9aa7b4" stroke-width="3"/>
-        <circle cx="806" cy="208" r="20" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
-        <text x="806" y="213" fill="#1d4ed8" font-size="14" font-weight="700" text-anchor="middle">G</text>
-        <polyline points="782,250 596,250 596,278" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
-        <text x="690" y="266" fill="#8b93a2" font-size="9" text-anchor="middle">← Feedwater</text>
+        <rect class="d-isl" x="20" y="60" width="860" height="352" rx="14"/>
+        <text class="d-islt" x="36" y="50">FLOATING POWER BARGE</text>
+        <rect class="d-isl" x="36" y="76" width="420" height="320" rx="10"/>
+        <text class="d-islt" x="52" y="94" font-size="10">NUCLEAR (용융염 노심)</text>
+        <rect class="d-isl" x="486" y="76" width="380" height="320" rx="10"/>
+        <text class="d-islt" x="502" y="94" font-size="10">POWER (증기 · 발전)</text>
+        <rect class="d-vessel" x="110" y="130" width="120" height="160" rx="16"/>
+        <rect class="d-salt" x="122" y="142" width="96" height="136" rx="12"/>
+        <rect class="d-corebox" x="146" y="196" width="48" height="44" rx="3"/>
+        <g class="d-bar"><line x1="154" y1="200" x2="154" y2="236"/><line x1="162" y1="200" x2="162" y2="236"/><line x1="170" y1="200" x2="170" y2="236"/><line x1="178" y1="200" x2="178" y2="236"/><line x1="186" y1="200" x2="186" y2="236"/></g>
+        <text class="d-name" x="170" y="122" font-size="10" text-anchor="middle">노심·연료염 ② (흑연감속)</text>
+        <text class="d-name" x="170" y="312" text-anchor="middle">CMSR 원자로 ①</text>
+        <line class="d-hot" x1="230" y1="200" x2="276" y2="200" stroke-width="2.2" marker-end="url(#dm-os)"/>
+        <rect class="d-pill-o" x="232" y="168" width="52" height="17" rx="8.5"/>
+        <text class="d-pill-ot" x="258" y="180" text-anchor="middle">650 °C</text>
+        <line class="d-hec" x1="280" y1="252" x2="234" y2="252" stroke-width="1.8" marker-end="url(#dm-ocs)"/>
+        <rect class="d-pill-c" x="232" y="262" width="52" height="17" rx="8.5"/>
+        <text class="d-pill-ct" x="258" y="274" text-anchor="middle">600 °C</text>
+        <rect class="d-vessel" x="280" y="168" width="56" height="116" rx="6" stroke-width="2"/>
+        <text class="d-name" x="308" y="304" font-size="10.5" text-anchor="middle">1차 열교환기 ③</text>
+        <line class="d-hot" x1="336" y1="206" x2="534" y2="206" stroke-width="2.2" marker-end="url(#dm-os)"/>
+        <text class="d-fnt" x="436" y="198" text-anchor="middle">2차 염 →</text>
+        <rect class="d-vessel" x="538" y="168" width="52" height="116" rx="6" stroke-width="2"/>
+        <text class="d-name" x="564" y="304" font-size="10.5" text-anchor="middle">증기발생기 ④</text>
+        <line class="d-steam" x1="590" y1="196" x2="682" y2="196" stroke-width="2.2" marker-end="url(#dm-as)"/>
+        <text class="d-fnt" x="636" y="188" text-anchor="middle">증기 →</text>
+        <polygon class="d-vessel" points="686,174 750,162 750,234 686,222" stroke-width="2"/>
+        <text class="d-name" x="718" y="148" text-anchor="middle">Turbine ⑤</text>
+        <line class="d-shaft" x1="750" y1="198" x2="778" y2="198"/>
+        <circle class="d-vessel" cx="800" cy="198" r="20" stroke-width="2"/>
+        <text class="d-name" x="800" y="204" font-size="14" text-anchor="middle">G</text>
+        <text class="d-sub" x="800" y="236" text-anchor="middle">Generator</text>
+        <polyline class="d-fw" points="778,240 612,240 612,268 596,268" stroke-width="1.8" marker-end="url(#dm-fs)"/>
+        <text class="d-fnt" x="695" y="254" text-anchor="middle">Feedwater(급수)</text>
+        <circle class="d-flow-o da-pr" cx="234" cy="200" r="2.5"/>
+        <circle class="d-flow-o da-sl" cx="340" cy="206" r="2.5"/>
+        <circle class="d-flow-o da-sl" cx="340" cy="206" r="2.5" style="animation-delay:-1.5s"/>
+        <circle class="d-flow-a da-st" cx="592" cy="196" r="2.5"/>
+        <g>
+          <line class="d-hot" x1="40" y1="470" x2="66" y2="470" stroke-width="2.4"/>
+          <text class="d-sub" x="72" y="473">연료염·2차염 고온</text>
+          <line class="d-hec" x1="196" y1="470" x2="222" y2="470" stroke-width="2"/>
+          <text class="d-sub" x="228" y="473">염 저온 복귀</text>
+          <line class="d-steam" x1="392" y1="470" x2="418" y2="470" stroke-width="2.4"/>
+          <text class="d-sub" x="424" y="473">과열증기</text>
+          <line class="d-fw" x1="504" y1="470" x2="530" y2="470" stroke-width="2"/>
+          <text class="d-sub" x="536" y="473">급수(물)</text>
+          <text class="d-fnt" x="626" y="473">※ 실선 = 고온·공급 / 점선 = 저온·복귀 흐름</text>
+        </g>
       </svg>
     </div>
-    <p class="src" style="margin:0 0 14px;">＊ 모식도(개략). 번호 ①–⑥은 아래 표와 연결. <b>연료를 녹인 용융염(연료염)</b>이 노심에서 가열되어 1차 열교환기 → 2차 염 → 증기발생기로 열을 전달, 터빈 발전. 이상 시 연료염을 <b>드레인탱크(⑥)</b>로 흘려보내 피동 냉각·정지. 전체가 <b>부유식 바지선</b> 위에 탑재.</p>
+    <p class="src" style="margin:0 0 14px;">＊ 모식도(개략·표준형) — 열 흐름 경로의 주기기만 표시, 부가계통(⑥ 드레인탱크 — 피동안전 — 등)은 생략(번호는 공급사 표와 공유). <b>연료를 녹인 용융염(주황)이 곧 냉각재</b> — 노심에서 가열된 연료염이 1차 열교환기(③)→2차 염→증기발생기(④)로 열을 전달, 증기(파랑)로 터빈(⑤) 발전. 전체가 부유식 바지선 탑재. 점선=복귀(하단 범례).</p>
 
     <div class="sub-h"><span class="pin">②-B</span>역할별 공급/책임 <span style="font-weight:400;color:var(--text-dim);font-size:12.5px;">(칩 클릭 → 설명·링크)</span></div>
     <div class="tbl-wrap">

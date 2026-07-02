@@ -230,64 +230,122 @@
     <p class="sec-sub">Kairos가 <b>TRISO 페블·FLiBe 염·기기를 직접 제작(수직통합)</b>, 상업 TRISO는 BWXT와 협력, 터빈 등 발전부는 표준 기기</p>
 
     <div class="sub-h"><span class="pin">②-A</span>KP-FHR 구성 — 도해</div>
-    <!-- DIAGRAM CONVENTION (reuse): viewBox 0 0 900 440. Nuclear Island(원자로+1차 염) ↔ Power(증기+터빈).
-         Vessels = rounded rect fill accent-weak stroke accent. Components ①..⑥ map to supply table.
-         페블은 염(accent-weak)에 부유. Flows: 1차 염/증기 = solid accent; 복귀 = dashed gray. -->
+        <!-- DIAGRAM CONVENTION v3 — STANDARD (열 흐름 경로만 · 부가계통 생략 · 색=유체(주황=1차 냉각재, 파랑=물·증기)
+         · 실선=고온/공급 · 점선=저온/복귀 · CSS 키프레임 흐름점(reduced-motion 무시) · 클래스+var() 다크모드
+         · 소형 화살촉 · 하단 범례 — 원본 규격은 SMR-dev-xenergy.html ②-A 참조) -->
     <div class="diagram-wrap">
-      <svg viewBox="0 0 900 440" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, sans-serif" aria-label="KP-FHR schematic">
+      <svg viewBox="0 0 900 484" xmlns="http://www.w3.org/2000/svg"
+           font-family="Pretendard, sans-serif" aria-label="KP-FHR 표준 도해: FLiBe 염에 부유하는 페블 노심, 증기발생기, 터빈">
+        <style>
+          .d-isl{fill:none;stroke:var(--border-strong);stroke-dasharray:6 5;}
+          .d-islt{fill:var(--text-faint);font-size:11px;font-weight:700;letter-spacing:1.4px;}
+          .d-vessel{fill:var(--accent-weak);stroke:var(--accent);stroke-width:2.4;}
+          .d-vhl{fill:none;stroke:var(--surface);stroke-width:1.2;opacity:.85;}
+          .d-inner{fill:var(--surface-2);stroke:var(--border-strong);stroke-width:1;}
+          .d-pool{fill:var(--accent-weak);stroke:var(--accent-weak-2);stroke-width:1.5;}
+          .d-cnv{fill:none;stroke:var(--accent);stroke-width:2;}
+          .d-ghost{fill:var(--accent-weak);stroke:var(--text-faint);stroke-width:1.2;stroke-dasharray:3 3;opacity:.7;}
+          .d-core{fill:var(--surface);}
+          .d-corebox{fill:var(--surface-2);stroke:var(--accent);stroke-width:1.6;}
+          .d-bar{stroke:var(--text-faint);stroke-width:1.4;}
+          .d-salt{fill:#ea580c;opacity:.13;}
+          .d-peb{fill:var(--text-faint);stroke:var(--surface);stroke-width:.5;}
+          .d-fuel{fill:var(--accent);stroke:var(--surface);stroke-width:.5;}
+          .d-mech{fill:var(--surface);stroke:var(--accent);stroke-width:1.6;}
+          .d-hot{stroke:#ea580c;fill:none;}
+          .d-hec{stroke:#ea580c;opacity:.62;fill:none;stroke-dasharray:4 3;}
+          .d-steam{stroke:var(--accent);fill:none;}
+          .d-fw{stroke:var(--accent);opacity:.5;fill:none;stroke-dasharray:4 3;}
+          .d-coil{stroke:var(--text-faint);fill:none;stroke-width:2;}
+          .d-shaft{stroke:var(--text-faint);stroke-width:3;}
+          .d-mk-a{fill:var(--accent);}
+          .d-mk-o{fill:#ea580c;}
+          .d-mk-oc{fill:#ea580c;opacity:.62;}
+          .d-mk-f{fill:var(--accent);opacity:.5;}
+          .d-name{fill:var(--accent-strong);font-size:11.5px;font-weight:700;}
+          .d-sub{fill:var(--text-dim);font-size:9.5px;}
+          .d-fnt{fill:var(--text-faint);font-size:9.5px;}
+          .d-lead{stroke:var(--border-strong);stroke-width:1;}
+          .d-pill-h{fill:var(--accent-weak-2);stroke:var(--accent);stroke-width:1;}
+          .d-pill-ht{fill:var(--accent-strong);font-size:9.5px;font-weight:700;}
+          .d-pill-o{fill:#ffedd5;stroke:#ea580c;stroke-width:1;}
+          .d-pill-ot{fill:#c2410c;font-size:9.5px;font-weight:700;}
+          .d-pill-c{fill:var(--surface-3);stroke:var(--border-strong);stroke-width:1;}
+          .d-pill-ct{fill:var(--text-dim);font-size:9.5px;font-weight:700;}
+          .d-flow-a{fill:var(--accent);}
+          .d-flow-o{fill:#ea580c;}
+          .d-flow-f{fill:var(--accent);}
+          [data-theme="dark"] .d-hot,[data-theme="dark"] .d-hec{stroke:#fb923c;}
+          [data-theme="dark"] .d-mk-o,[data-theme="dark"] .d-flow-o{fill:#fb923c;}
+          [data-theme="dark"] .d-mk-oc{fill:#fb923c;}
+          [data-theme="dark"] .d-pill-o{fill:#3c2410;stroke:#fb923c;}
+          [data-theme="dark"] .d-pill-ot{fill:#fdba74;}
+          [data-theme="dark"] .d-salt{opacity:.22;}
+          @keyframes pr{0%{transform:translate(0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateX(78px);opacity:0}}
+          .da-pr{animation:pr 2.2s linear infinite;}
+          @keyframes st{0%{transform:translate(0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateX(238px);opacity:0}}
+          .da-st{animation:st 3.4s linear infinite;}
+          @keyframes fd{0%{transform:translate(0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateX(-296px);opacity:0}}
+          .da-fd{animation:fd 4.5s linear infinite;}
+        </style>
         <defs>
-          <marker id="m-acc" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker>
-          <marker id="m-gray" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#9aa7b4"/></marker>
+          <marker id="dm-as" markerWidth="6" markerHeight="6" refX="4.2" refY="2.1" orient="auto"><path class="d-mk-a" d="M0,0 L4.2,2.1 L0,4.2 Z"/></marker>
+          <marker id="dm-os" markerWidth="6" markerHeight="6" refX="4.2" refY="2.1" orient="auto"><path class="d-mk-o" d="M0,0 L4.2,2.1 L0,4.2 Z"/></marker>
+          <marker id="dm-ocs" markerWidth="6" markerHeight="6" refX="4.2" refY="2.1" orient="auto"><path class="d-mk-oc" d="M0,0 L4.2,2.1 L0,4.2 Z"/></marker>
+          <marker id="dm-fs" markerWidth="6" markerHeight="6" refX="4.2" refY="2.1" orient="auto"><path class="d-mk-f" d="M0,0 L4.2,2.1 L0,4.2 Z"/></marker>
         </defs>
-
-        <!-- islands -->
-        <rect x="24" y="56" width="430" height="352" rx="12" fill="none" stroke="#d2d7e0" stroke-dasharray="6 5"/>
-        <text x="40" y="46" fill="#8b93a2" font-size="11" font-weight="700" letter-spacing="1.4">NUCLEAR ISLAND (원자로 · 1차 염)</text>
-        <rect x="486" y="56" width="390" height="352" rx="12" fill="none" stroke="#d2d7e0" stroke-dasharray="6 5"/>
-        <text x="502" y="46" fill="#8b93a2" font-size="11" font-weight="700" letter-spacing="1.4">POWER (증기 · 발전)</text>
-
-        <!-- 페블 장입관 ③ + 원자로용기 ① -->
-        <rect x="150" y="92" width="20" height="22" rx="3" fill="#ffffff" stroke="#2563eb"/>
-        <text x="160" y="86" fill="#1d4ed8" font-size="10" font-weight="700" text-anchor="middle">페블 장입 ③</text>
-        <rect x="118" y="118" width="120" height="226" rx="22" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
-        <text x="178" y="368" fill="#1d4ed8" font-size="11.5" font-weight="700" text-anchor="middle">원자로용기(RPV·FLiBe) ①</text>
-        <!-- 페블 베드 ② (염에 부유) -->
-        <g fill="#9aa7b4">
-          <circle cx="150" cy="150" r="5"/><circle cx="166" cy="146" r="5"/><circle cx="184" cy="150" r="5"/><circle cx="200" cy="148" r="5"/>
-          <circle cx="158" cy="166" r="5"/><circle cx="176" cy="164" r="5"/><circle cx="194" cy="168" r="5"/>
-          <circle cx="150" cy="184" r="5"/><circle cx="168" cy="182" r="5"/><circle cx="186" cy="186" r="5"/><circle cx="204" cy="182" r="5"/>
-          <circle cx="158" cy="202" r="5"/><circle cx="176" cy="200" r="5"/><circle cx="194" cy="204" r="5"/>
-          <circle cx="150" cy="220" r="5"/><circle cx="168" cy="220" r="5"/><circle cx="186" cy="222" r="5"/><circle cx="204" cy="218" r="5"/>
-          <circle cx="160" cy="238" r="5"/><circle cx="180" cy="238" r="5"/><circle cx="198" cy="240" r="5"/>
+        <rect class="d-isl" x="24" y="64" width="548" height="376" rx="12"/>
+        <text class="d-islt" x="40" y="54">NUCLEAR ISLAND (용융염·페블)</text>
+        <rect class="d-isl" x="604" y="64" width="272" height="376" rx="12"/>
+        <text class="d-islt" x="620" y="54">CONVENTIONAL ISLAND (CI)</text>
+        <rect class="d-vessel" x="110" y="140" width="130" height="210" rx="22"/>
+        <rect class="d-salt" x="122" y="152" width="106" height="186" rx="16"/>
+        <g class="d-peb"><circle cx="144" cy="168" r="4.4"/><circle cx="162" cy="164" r="4.4"/><circle cx="180" cy="170" r="4.4"/><circle cx="198" cy="166" r="4.4"/><circle cx="152" cy="184" r="4.4"/><circle cx="172" cy="182" r="4.4"/><circle cx="192" cy="186" r="4.4"/><circle cx="144" cy="200" r="4.4"/><circle cx="164" cy="198" r="4.4"/></g>
+        <g class="d-fuel"><circle cx="202" cy="182" r="4.4"/><circle cx="154" cy="200" r="4.4"/></g>
+        <rect class="d-corebox" x="160" y="296" width="48" height="32" rx="3"/>
+        <g class="d-bar"><line x1="168" y1="300" x2="168" y2="324"/><line x1="176" y1="300" x2="176" y2="324"/><line x1="184" y1="300" x2="184" y2="324"/><line x1="192" y1="300" x2="192" y2="324"/><line x1="200" y1="300" x2="200" y2="324"/></g>
+        <text class="d-name" x="184" y="290" font-size="10" text-anchor="middle">페블·연료 ②</text>
+        <text class="d-name" x="175" y="372" text-anchor="middle">원자로용기(FLiBe) ①</text>
+        <line class="d-hot" x1="242" y1="196" x2="326" y2="196" stroke-width="2.2" marker-end="url(#dm-os)"/>
+        <line class="d-hec" x1="330" y1="256" x2="246" y2="256" stroke-width="1.8" marker-end="url(#dm-ocs)"/>
+        <rect class="d-pill-o" x="259" y="164" width="52" height="17" rx="8.5"/>
+        <text class="d-pill-ot" x="285" y="176" text-anchor="middle">650 °C</text>
+        <rect class="d-pill-c" x="259" y="266" width="52" height="17" rx="8.5"/>
+        <text class="d-pill-ct" x="285" y="278" text-anchor="middle">550 °C</text>
+        <rect class="d-vessel" x="330" y="166" width="54" height="140" rx="8" stroke-width="2"/>
+        <text class="d-name" x="357" y="326" font-size="10.5" text-anchor="middle">증기발생기 ⑤</text>
+        <rect class="d-mech" x="384" y="144" width="14" height="12" rx="2"/>
+        <line class="d-steam" x1="398" y1="150" x2="646" y2="150" stroke-width="2.2" marker-end="url(#dm-as)"/>
+        <rect class="d-pill-h" x="514" y="122" width="64" height="17" rx="8.5"/>
+        <text class="d-pill-ht" x="546" y="134" text-anchor="middle">과열증기</text>
+        <polygon class="d-vessel" points="648,126 714,112 714,190 648,176" stroke-width="2"/>
+        <text class="d-name" x="681" y="94" text-anchor="middle">Turbine ⑥</text>
+        <text class="d-sub" x="681" y="107" text-anchor="middle">표준 T/G</text>
+        <line class="d-shaft" x1="714" y1="151" x2="744" y2="151"/>
+        <circle class="d-vessel" cx="766" cy="151" r="20" stroke-width="2"/>
+        <text class="d-name" x="766" y="157" font-size="14" text-anchor="middle">G</text>
+        <text class="d-sub" x="766" y="188" text-anchor="middle">Generator</text>
+        <polyline class="d-fw" points="692,190 692,300 388,300" stroke-width="1.8" marker-end="url(#dm-fs)"/>
+        <text class="d-fnt" x="565" y="316" text-anchor="middle">Feedwater(급수)</text>
+        <circle class="d-flow-a da-st" cx="402" cy="150" r="2.5"/>
+        <circle class="d-flow-a da-st" cx="402" cy="150" r="2.5" style="animation-delay:-1.7s"/>
+        <circle class="d-flow-f da-fd" cx="688" cy="300" r="2.3"/>
+        <circle class="d-flow-o da-pr" cx="244" cy="196" r="2.5"/>
+        <circle class="d-flow-o da-pr" cx="244" cy="196" r="2.5" style="animation-delay:-1.1s"/>
+        <g>
+          <line class="d-hot" x1="40" y1="470" x2="66" y2="470" stroke-width="2.4"/>
+          <text class="d-sub" x="72" y="473">염(1차) · 고온</text>
+          <line class="d-hec" x1="196" y1="470" x2="222" y2="470" stroke-width="2"/>
+          <text class="d-sub" x="228" y="473">염 · 저온 복귀</text>
+          <line class="d-steam" x1="392" y1="470" x2="418" y2="470" stroke-width="2.4"/>
+          <text class="d-sub" x="424" y="473">과열증기</text>
+          <line class="d-fw" x1="504" y1="470" x2="530" y2="470" stroke-width="2"/>
+          <text class="d-sub" x="536" y="473">급수(물)</text>
+          <text class="d-fnt" x="626" y="473">※ 실선 = 고온·공급 / 점선 = 저온·복귀 흐름</text>
         </g>
-        <text x="246" y="200" fill="#1d4ed8" font-size="10.5" font-weight="700">TRISO 페블베드 ②</text>
-        <line x1="210" y1="200" x2="242" y2="198" stroke="#c0c7d1"/>
-        <!-- 염 펌프 ④ -->
-        <circle cx="150" cy="316" r="14" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
-        <text x="150" y="320" fill="#1d4ed8" font-size="8.5" font-weight="700" text-anchor="middle">염펌프④</text>
-
-        <!-- 1차 염 (고온) → 증기발생기 ⑤ -->
-        <polyline points="238,164 360,164 360,180" fill="none" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
-        <text x="300" y="156" fill="#8b93a2" font-size="9" text-anchor="middle">1차 염(고온 650°C) →</text>
-        <polyline points="378,300 378,250 238,250 238,250" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
-        <text x="300" y="264" fill="#8b93a2" font-size="9" text-anchor="middle">염 복귀(저온) ←</text>
-        <rect x="342" y="180" width="56" height="120" rx="5" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
-        <text x="370" y="318" fill="#1d4ed8" font-size="10.5" font-weight="700" text-anchor="middle">증기발생기 ⑤</text>
-
-        <!-- 증기 → 터빈 ⑥ -->
-        <line x1="398" y1="210" x2="648" y2="210" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
-        <text x="520" y="202" fill="#8b93a2" font-size="9" text-anchor="middle">증기 →</text>
-        <polyline points="690,250 690,310 398,310" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
-        <text x="520" y="324" fill="#8b93a2" font-size="9" text-anchor="middle">← Feedwater</text>
-        <polygon points="648,188 712,176 712,248 648,236" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
-        <text x="680" y="170" fill="#1d4ed8" font-size="11.5" font-weight="700" text-anchor="middle">Turbine ⑥</text>
-        <line x1="712" y1="212" x2="740" y2="212" stroke="#9aa7b4" stroke-width="3"/>
-        <circle cx="764" cy="212" r="20" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
-        <text x="764" y="217" fill="#1d4ed8" font-size="14" font-weight="700" text-anchor="middle">G</text>
-        <text x="764" y="246" fill="#54606f" font-size="9.5" text-anchor="middle">Generator</text>
       </svg>
     </div>
-    <p class="src" style="margin:0 0 14px;">＊ 모식도(개략). 번호 ①–⑥은 아래 표와 연결. TRISO 페블이 <b>FLiBe 염에 떠서</b> 노심을 순환(상부 장입·하부 배출), 가열된 1차 염이 <b>증기발생기</b>에서 증기를 만들어 터빈 발전. 헬륨 대신 <b>저압 염</b>으로 냉각하는 점이 Xe-100(HTGR)과의 차이.</p>
+    <p class="src" style="margin:0 0 14px;">＊ 모식도(개략·표준형) — 열 흐름 경로의 주기기만 표시, 부가계통(③ 페블취급, ④ 염펌프 등)은 생략(번호는 공급사 표와 공유). TRISO 페블이 <b>저압 FLiBe 염(주황)에 떠서</b> 가열되고, 1차 염이 증기발생기(⑤)로 열을 전달 — 증기(파랑)로 터빈(⑥) 발전. 점선=복귀(하단 범례).</p>
 
     <div class="sub-h"><span class="pin">②-B</span>주기기·연료별 공급/책임 <span style="font-weight:400;color:var(--text-dim);font-size:12.5px;">(칩 클릭 → 설명·링크)</span></div>
     <div class="tbl-wrap">

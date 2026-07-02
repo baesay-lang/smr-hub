@@ -229,66 +229,124 @@
     <p class="sec-sub">원자로·주기기는 <b>Holtec</b> 자체 제작(원자력 대형기기 전문), 건설(EPC)은 <b>현대건설</b>, 연료는 상용 PWR LEU</p>
 
     <div class="sub-h"><span class="pin">②-A</span>SMR-300 중력순환 구성 — 도해</div>
-    <!-- DIAGRAM CONVENTION (reuse): viewBox 0 0 900 440. Nuclear Island(원자로 지하 + SG 지상) ↔ Conventional(터빈).
-         Vessels = rounded rect fill accent-weak stroke accent. Components ①..⑥ map to supply table.
-         핵심: 원자로 지하 + SG 지상 → 중력순환. Flows: hot/steam = solid accent; cold/feed = dashed gray. -->
+        <!-- DIAGRAM CONVENTION v3 — STANDARD (열 흐름 경로만 · 부가계통 생략 · 색=유체(주황=1차 냉각재, 파랑=물·증기)
+         · 실선=고온/공급 · 점선=저온/복귀 · CSS 키프레임 흐름점(reduced-motion 무시) · 클래스+var() 다크모드
+         · 소형 화살촉 · 하단 범례 — 원본 규격은 SMR-dev-xenergy.html ②-A 참조) -->
     <div class="diagram-wrap">
-      <svg viewBox="0 0 900 440" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, sans-serif" aria-label="SMR-300 schematic">
+      <svg viewBox="0 0 900 484" xmlns="http://www.w3.org/2000/svg"
+           font-family="Pretendard, sans-serif" aria-label="SMR-300 표준 도해: 지상 증기발생기·지하 원자로의 중력순환, 터빈">
+        <style>
+          .d-isl{fill:none;stroke:var(--border-strong);stroke-dasharray:6 5;}
+          .d-islt{fill:var(--text-faint);font-size:11px;font-weight:700;letter-spacing:1.4px;}
+          .d-vessel{fill:var(--accent-weak);stroke:var(--accent);stroke-width:2.4;}
+          .d-vhl{fill:none;stroke:var(--surface);stroke-width:1.2;opacity:.85;}
+          .d-inner{fill:var(--surface-2);stroke:var(--border-strong);stroke-width:1;}
+          .d-pool{fill:var(--accent-weak);stroke:var(--accent-weak-2);stroke-width:1.5;}
+          .d-cnv{fill:none;stroke:var(--accent);stroke-width:2;}
+          .d-ghost{fill:var(--accent-weak);stroke:var(--text-faint);stroke-width:1.2;stroke-dasharray:3 3;opacity:.7;}
+          .d-core{fill:var(--surface);}
+          .d-corebox{fill:var(--surface-2);stroke:var(--accent);stroke-width:1.6;}
+          .d-bar{stroke:var(--text-faint);stroke-width:1.4;}
+          .d-salt{fill:#ea580c;opacity:.13;}
+          .d-peb{fill:var(--text-faint);stroke:var(--surface);stroke-width:.5;}
+          .d-fuel{fill:var(--accent);stroke:var(--surface);stroke-width:.5;}
+          .d-mech{fill:var(--surface);stroke:var(--accent);stroke-width:1.6;}
+          .d-hot{stroke:#ea580c;fill:none;}
+          .d-hec{stroke:#ea580c;opacity:.62;fill:none;stroke-dasharray:4 3;}
+          .d-steam{stroke:var(--accent);fill:none;}
+          .d-fw{stroke:var(--accent);opacity:.5;fill:none;stroke-dasharray:4 3;}
+          .d-coil{stroke:var(--text-faint);fill:none;stroke-width:2;}
+          .d-shaft{stroke:var(--text-faint);stroke-width:3;}
+          .d-mk-a{fill:var(--accent);}
+          .d-mk-o{fill:#ea580c;}
+          .d-mk-oc{fill:#ea580c;opacity:.62;}
+          .d-mk-f{fill:var(--accent);opacity:.5;}
+          .d-name{fill:var(--accent-strong);font-size:11.5px;font-weight:700;}
+          .d-sub{fill:var(--text-dim);font-size:9.5px;}
+          .d-fnt{fill:var(--text-faint);font-size:9.5px;}
+          .d-lead{stroke:var(--border-strong);stroke-width:1;}
+          .d-pill-h{fill:var(--accent-weak-2);stroke:var(--accent);stroke-width:1;}
+          .d-pill-ht{fill:var(--accent-strong);font-size:9.5px;font-weight:700;}
+          .d-pill-o{fill:#ffedd5;stroke:#ea580c;stroke-width:1;}
+          .d-pill-ot{fill:#c2410c;font-size:9.5px;font-weight:700;}
+          .d-pill-c{fill:var(--surface-3);stroke:var(--border-strong);stroke-width:1;}
+          .d-pill-ct{fill:var(--text-dim);font-size:9.5px;font-weight:700;}
+          .d-flow-a{fill:var(--accent);}
+          .d-flow-o{fill:#ea580c;}
+          .d-flow-f{fill:var(--accent);}
+          [data-theme="dark"] .d-hot,[data-theme="dark"] .d-hec{stroke:#fb923c;}
+          [data-theme="dark"] .d-mk-o,[data-theme="dark"] .d-flow-o{fill:#fb923c;}
+          [data-theme="dark"] .d-mk-oc{fill:#fb923c;}
+          [data-theme="dark"] .d-pill-o{fill:#3c2410;stroke:#fb923c;}
+          [data-theme="dark"] .d-pill-ot{fill:#fdba74;}
+          [data-theme="dark"] .d-salt{opacity:.22;}
+          @keyframes fd2{0%{transform:translate(0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateX(-420px);opacity:0}}
+          .da-fd2{animation:fd2 4.5s linear infinite;}
+          @keyframes st{0%{transform:translate(0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateX(420px);opacity:0}}
+          .da-st{animation:st 3.4s linear infinite;}
+          @keyframes fd{0%{transform:translate(0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateX(-384px);opacity:0}}
+          .da-fd{animation:fd 4.5s linear infinite;}
+        </style>
         <defs>
-          <marker id="m-acc" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker>
-          <marker id="m-gray" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#9aa7b4"/></marker>
+          <marker id="dm-as" markerWidth="6" markerHeight="6" refX="4.2" refY="2.1" orient="auto"><path class="d-mk-a" d="M0,0 L4.2,2.1 L0,4.2 Z"/></marker>
+          <marker id="dm-os" markerWidth="6" markerHeight="6" refX="4.2" refY="2.1" orient="auto"><path class="d-mk-o" d="M0,0 L4.2,2.1 L0,4.2 Z"/></marker>
+          <marker id="dm-ocs" markerWidth="6" markerHeight="6" refX="4.2" refY="2.1" orient="auto"><path class="d-mk-oc" d="M0,0 L4.2,2.1 L0,4.2 Z"/></marker>
+          <marker id="dm-fs" markerWidth="6" markerHeight="6" refX="4.2" refY="2.1" orient="auto"><path class="d-mk-f" d="M0,0 L4.2,2.1 L0,4.2 Z"/></marker>
         </defs>
+        <rect class="d-isl" x="24" y="64" width="548" height="376" rx="12"/>
+        <text class="d-islt" x="40" y="54">NUCLEAR ISLAND (이중 격납)</text>
+        <rect class="d-isl" x="604" y="64" width="272" height="376" rx="12"/>
+        <text class="d-islt" x="620" y="54">CONVENTIONAL ISLAND (CI)</text>
+        <line class="d-isl" x1="40" y1="192" x2="560" y2="192"/>
+        <text class="d-fnt" x="556" y="186" text-anchor="end">지표(grade)</text>
+        <rect class="d-vessel" x="118" y="96" width="84" height="88" rx="12"/>
+        <g class="d-coil"><ellipse cx="160" cy="120" rx="24" ry="6"/><ellipse cx="160" cy="142" rx="24" ry="6"/><ellipse cx="160" cy="164" rx="24" ry="6"/></g>
+        <text class="d-name" x="160" y="86" font-size="10.5" text-anchor="middle">증기발생기(관류형) ③</text>
+        <rect class="d-inner" x="210" y="104" width="20" height="30" rx="6"/>
+        <text class="d-name" x="236" y="122" font-size="10">가압기 ④</text>
+        <rect class="d-mech" x="202" y="144" width="14" height="12" rx="2"/>
+        <rect class="d-vessel" x="116" y="204" width="88" height="150" rx="18"/>
+        <rect class="d-corebox" x="138" y="300" width="48" height="32" rx="3"/>
+        <g class="d-bar"><line x1="146" y1="304" x2="146" y2="328"/><line x1="154" y1="304" x2="154" y2="328"/><line x1="162" y1="304" x2="162" y2="328"/><line x1="170" y1="304" x2="170" y2="328"/><line x1="178" y1="304" x2="178" y2="328"/></g>
+        <text class="d-name" x="108" y="320" font-size="10.5" text-anchor="end">Core ②</text>
+        <line class="d-lead" x1="112" y1="316" x2="136" y2="316"/>
+        <text class="d-name" x="160" y="378" text-anchor="middle">RPV ① (지하)</text>
+        <line class="d-hot" x1="146" y1="202" x2="146" y2="190" stroke-width="2.2" marker-end="url(#dm-os)"/>
+        <line class="d-hec" x1="176" y1="186" x2="176" y2="200" stroke-width="1.8" marker-end="url(#dm-ocs)"/>
+        <rect class="d-pill-o" x="48" y="160" width="52" height="17" rx="8.5"/>
+        <text class="d-pill-ot" x="74" y="172" text-anchor="middle">321 °C</text>
+        <rect class="d-pill-c" x="48" y="214" width="52" height="17" rx="8.5"/>
+        <text class="d-pill-ct" x="74" y="226" text-anchor="middle">292 °C</text>
+        <polyline class="d-fw" points="692,190 692,260 262,260 262,164 222,164" stroke-width="1.8" marker-end="url(#dm-fs)"/>
+        <text class="d-fnt" x="470" y="274" text-anchor="middle">Feedwater(급수)</text>
+        <line class="d-steam" x1="216" y1="150" x2="646" y2="150" stroke-width="2.2" marker-end="url(#dm-as)"/>
+        <rect class="d-pill-h" x="514" y="122" width="64" height="17" rx="8.5"/>
+        <text class="d-pill-ht" x="546" y="134" text-anchor="middle">과열증기</text>
+        <polygon class="d-vessel" points="648,126 714,112 714,190 648,176" stroke-width="2"/>
+        <text class="d-name" x="681" y="94" text-anchor="middle">Turbine ⑥</text>
+        <text class="d-sub" x="681" y="107" text-anchor="middle">표준 T/G</text>
+        <line class="d-shaft" x1="714" y1="151" x2="744" y2="151"/>
+        <circle class="d-vessel" cx="766" cy="151" r="20" stroke-width="2"/>
+        <text class="d-name" x="766" y="157" font-size="14" text-anchor="middle">G</text>
+        <text class="d-sub" x="766" y="188" text-anchor="middle">Generator</text>
 
-        <!-- islands -->
-        <rect x="24" y="56" width="470" height="352" rx="12" fill="none" stroke="#d2d7e0" stroke-dasharray="6 5"/>
-        <text x="40" y="46" fill="#8b93a2" font-size="11" font-weight="700" letter-spacing="1.4">NUCLEAR ISLAND (이중 격납)</text>
-        <rect x="526" y="56" width="350" height="352" rx="12" fill="none" stroke="#d2d7e0" stroke-dasharray="6 5"/>
-        <text x="542" y="46" fill="#8b93a2" font-size="11" font-weight="700" letter-spacing="1.4">CONVENTIONAL ISLAND (CI)</text>
-
-        <!-- grade line -->
-        <line x1="40" y1="186" x2="478" y2="186" stroke="#9aa7b4" stroke-width="1.4" stroke-dasharray="6 4"/>
-        <text x="466" y="180" fill="#8b93a2" font-size="9.5" font-weight="700" text-anchor="end">지표(grade)</text>
-
-        <!-- 증기발생기 ③ (지상, 상부) + 가압기 ④ -->
-        <rect x="120" y="96" width="80" height="84" rx="10" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
-        <g fill="none" stroke="#9aa7b4" stroke-width="2"><ellipse cx="160" cy="120" rx="26" ry="6"/><ellipse cx="160" cy="136" rx="26" ry="6"/><ellipse cx="160" cy="152" rx="26" ry="6"/></g>
-        <text x="160" y="90" fill="#1d4ed8" font-size="10.5" font-weight="700" text-anchor="middle">증기발생기(관류형) ③</text>
-        <rect x="214" y="100" width="20" height="34" rx="5" fill="#e3ecff" stroke="#2563eb"/>
-        <text x="246" y="116" fill="#1d4ed8" font-size="10" font-weight="700">가압기 ④</text>
-        <line x1="234" y1="118" x2="244" y2="116" stroke="#c0c7d1"/>
-
-        <!-- 원자로압력용기 ① (지하, 하부) -->
-        <rect x="118" y="200" width="84" height="158" rx="18" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
-        <text x="160" y="378" fill="#1d4ed8" font-size="11.5" font-weight="700" text-anchor="middle">원자로용기(RPV, 지하) ①</text>
-        <!-- core ② -->
-        <rect x="138" y="300" width="44" height="34" rx="3" fill="#e3ecff" stroke="#2563eb"/>
-        <g stroke="#9aa7b4" stroke-width="1.4"><line x1="146" y1="304" x2="146" y2="330"/><line x1="154" y1="304" x2="154" y2="330"/><line x1="162" y1="304" x2="162" y2="330"/><line x1="170" y1="304" x2="170" y2="330"/><line x1="178" y1="304" x2="178" y2="330"/></g>
-        <text x="100" y="320" fill="#1d4ed8" font-size="10.5" font-weight="700" text-anchor="end">Core ②</text>
-        <line x1="104" y1="316" x2="136" y2="316" stroke="#c0c7d1"/>
-        <!-- RCP ⑤ -->
-        <circle cx="206" cy="236" r="13" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
-        <text x="206" y="240" fill="#1d4ed8" font-size="8.5" font-weight="700" text-anchor="middle">RCP⑤</text>
-
-        <!-- hot leg (RPV up → SG) -->
-        <line x1="150" y1="200" x2="150" y2="182" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
-        <text x="118" y="196" fill="#8b93a2" font-size="8.5" text-anchor="middle">고온수↑</text>
-        <!-- cold leg (SG → RPV down) dashed -->
-        <polyline points="182,180 182,206" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
-
-        <!-- steam → turbine ⑥ -->
-        <line x1="200" y1="120" x2="688" y2="120" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
-        <text x="440" y="112" fill="#8b93a2" font-size="9.5" text-anchor="middle">Steam →</text>
-        <polyline points="730,250 730,300 200,300 200,180" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
-        <text x="440" y="314" fill="#8b93a2" font-size="9.5" text-anchor="middle">← Feedwater</text>
-        <polygon points="688,98 752,86 752,158 688,146" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
-        <text x="720" y="80" fill="#1d4ed8" font-size="11.5" font-weight="700" text-anchor="middle">Turbine ⑥</text>
-        <line x1="752" y1="122" x2="780" y2="122" stroke="#9aa7b4" stroke-width="3"/>
-        <circle cx="804" cy="122" r="20" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
-        <text x="804" y="127" fill="#1d4ed8" font-size="14" font-weight="700" text-anchor="middle">G</text>
-        <text x="804" y="156" fill="#54606f" font-size="9.5" text-anchor="middle">Generator</text>
+        <circle class="d-flow-a da-st" cx="220" cy="150" r="2.5"/>
+        <circle class="d-flow-a da-st" cx="220" cy="150" r="2.5" style="animation-delay:-1.7s"/>
+        <circle class="d-flow-f da-fd2" cx="686" cy="260" r="2.3"/>
+        <g>
+          <line class="d-hot" x1="40" y1="470" x2="66" y2="470" stroke-width="2.4"/>
+          <text class="d-sub" x="72" y="473">1차 냉각수 · 고온</text>
+          <line class="d-hec" x1="196" y1="470" x2="222" y2="470" stroke-width="2"/>
+          <text class="d-sub" x="228" y="473">1차 냉각수 · 복귀</text>
+          <line class="d-steam" x1="392" y1="470" x2="418" y2="470" stroke-width="2.4"/>
+          <text class="d-sub" x="424" y="473">과열증기</text>
+          <line class="d-fw" x1="504" y1="470" x2="530" y2="470" stroke-width="2"/>
+          <text class="d-sub" x="536" y="473">급수(물)</text>
+          <text class="d-fnt" x="626" y="473">※ 실선 = 고온·공급 / 점선 = 저온·복귀 흐름</text>
+        </g>
       </svg>
     </div>
-    <p class="src" style="margin:0 0 14px;">＊ 모식도(개략). 번호 ①–⑥은 아래 표와 연결. <b>원자로(지하)에서 가열된 물이 위로 올라가 지상의 증기발생기</b>로 열을 전달하고, 식은 물은 중력으로 내려와 순환 → 펌프가 멈춰도 중력으로 냉각(피동안전). 관류형 SG의 증기로 터빈 발전. RCP는 정상운전용.</p>
+    <p class="src" style="margin:0 0 14px;">＊ 모식도(개략·표준형) — 열 흐름 경로의 주기기만 표시, 부가계통(⑤ RCP 등)은 생략(번호는 공급사 표와 공유). <b>원자로(지하)에서 데워진 1차수(주황)가 위 지상 SG(③)로 올라가고 식은 물이 중력으로 내려오는</b> 배치(중력순환·walk-away). SG 증기(파랑)로 터빈(⑥) 발전. 점선=복귀(하단 범례).</p>
 
     <div class="sub-h"><span class="pin">②-B</span>주기기·연료별 공급/책임 <span style="font-weight:400;color:var(--text-dim);font-size:12.5px;">(칩 클릭 → 설명·링크)</span></div>
     <div class="tbl-wrap">

@@ -243,60 +243,124 @@
     <p class="sec-sub">AP1000 검증 공급망을 계승 — Westinghouse가 NSSS·연료를 자체 제작, AP1000 부품 실적(두산 등 글로벌 제작 경험)을 활용</p>
 
     <div class="sub-h"><span class="pin">②-A</span>AP300 1-loop 구성 — 도해</div>
-    <!-- DIAGRAM CONVENTION (reuse): viewBox 0 0 900 440. 1-loop PWR + 피동격납.
-         Vessels = rounded rect fill accent-weak stroke accent. Components ①..⑥ map to supply table. -->
+        <!-- DIAGRAM CONVENTION v3 — STANDARD (열 흐름 경로만 · 부가계통 생략 · 색=유체(주황=1차 냉각재, 파랑=물·증기)
+         · 실선=고온/공급 · 점선=저온/복귀 · CSS 키프레임 흐름점(reduced-motion 무시) · 클래스+var() 다크모드
+         · 소형 화살촉 · 하단 범례 — 원본 규격은 SMR-dev-xenergy.html ②-A 참조) -->
     <div class="diagram-wrap">
-      <svg viewBox="0 0 900 440" xmlns="http://www.w3.org/2000/svg" font-family="Pretendard, sans-serif" aria-label="AP300 1-loop PWR schematic">
+      <svg viewBox="0 0 900 484" xmlns="http://www.w3.org/2000/svg"
+           font-family="Pretendard, sans-serif" aria-label="AP300 표준 도해: 1-loop PWR — RPV, 증기발생기 1기, 터빈">
+        <style>
+          .d-isl{fill:none;stroke:var(--border-strong);stroke-dasharray:6 5;}
+          .d-islt{fill:var(--text-faint);font-size:11px;font-weight:700;letter-spacing:1.4px;}
+          .d-vessel{fill:var(--accent-weak);stroke:var(--accent);stroke-width:2.4;}
+          .d-vhl{fill:none;stroke:var(--surface);stroke-width:1.2;opacity:.85;}
+          .d-inner{fill:var(--surface-2);stroke:var(--border-strong);stroke-width:1;}
+          .d-pool{fill:var(--accent-weak);stroke:var(--accent-weak-2);stroke-width:1.5;}
+          .d-cnv{fill:none;stroke:var(--accent);stroke-width:2;}
+          .d-ghost{fill:var(--accent-weak);stroke:var(--text-faint);stroke-width:1.2;stroke-dasharray:3 3;opacity:.7;}
+          .d-core{fill:var(--surface);}
+          .d-corebox{fill:var(--surface-2);stroke:var(--accent);stroke-width:1.6;}
+          .d-bar{stroke:var(--text-faint);stroke-width:1.4;}
+          .d-salt{fill:#ea580c;opacity:.13;}
+          .d-peb{fill:var(--text-faint);stroke:var(--surface);stroke-width:.5;}
+          .d-fuel{fill:var(--accent);stroke:var(--surface);stroke-width:.5;}
+          .d-mech{fill:var(--surface);stroke:var(--accent);stroke-width:1.6;}
+          .d-hot{stroke:#ea580c;fill:none;}
+          .d-hec{stroke:#ea580c;opacity:.62;fill:none;stroke-dasharray:4 3;}
+          .d-steam{stroke:var(--accent);fill:none;}
+          .d-fw{stroke:var(--accent);opacity:.5;fill:none;stroke-dasharray:4 3;}
+          .d-coil{stroke:var(--text-faint);fill:none;stroke-width:2;}
+          .d-shaft{stroke:var(--text-faint);stroke-width:3;}
+          .d-mk-a{fill:var(--accent);}
+          .d-mk-o{fill:#ea580c;}
+          .d-mk-oc{fill:#ea580c;opacity:.62;}
+          .d-mk-f{fill:var(--accent);opacity:.5;}
+          .d-name{fill:var(--accent-strong);font-size:11.5px;font-weight:700;}
+          .d-sub{fill:var(--text-dim);font-size:9.5px;}
+          .d-fnt{fill:var(--text-faint);font-size:9.5px;}
+          .d-lead{stroke:var(--border-strong);stroke-width:1;}
+          .d-pill-h{fill:var(--accent-weak-2);stroke:var(--accent);stroke-width:1;}
+          .d-pill-ht{fill:var(--accent-strong);font-size:9.5px;font-weight:700;}
+          .d-pill-o{fill:#ffedd5;stroke:#ea580c;stroke-width:1;}
+          .d-pill-ot{fill:#c2410c;font-size:9.5px;font-weight:700;}
+          .d-pill-c{fill:var(--surface-3);stroke:var(--border-strong);stroke-width:1;}
+          .d-pill-ct{fill:var(--text-dim);font-size:9.5px;font-weight:700;}
+          .d-flow-a{fill:var(--accent);}
+          .d-flow-o{fill:#ea580c;}
+          .d-flow-f{fill:var(--accent);}
+          [data-theme="dark"] .d-hot,[data-theme="dark"] .d-hec{stroke:#fb923c;}
+          [data-theme="dark"] .d-mk-o,[data-theme="dark"] .d-flow-o{fill:#fb923c;}
+          [data-theme="dark"] .d-mk-oc{fill:#fb923c;}
+          [data-theme="dark"] .d-pill-o{fill:#3c2410;stroke:#fb923c;}
+          [data-theme="dark"] .d-pill-ot{fill:#fdba74;}
+          [data-theme="dark"] .d-salt{opacity:.22;}
+          @keyframes pr{0%{transform:translate(0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateX(100px);opacity:0}}
+          .da-pr{animation:pr 2.4s linear infinite;}
+          @keyframes st{0%{transform:translate(0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateX(258px);opacity:0}}
+          .da-st{animation:st 3.4s linear infinite;}
+          @keyframes fd{0%{transform:translate(0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateX(-316px);opacity:0}}
+          .da-fd{animation:fd 4.5s linear infinite;}
+        </style>
         <defs>
-          <marker id="m-acc" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#2563eb"/></marker>
-          <marker id="m-gray" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#9aa7b4"/></marker>
+          <marker id="dm-as" markerWidth="6" markerHeight="6" refX="4.2" refY="2.1" orient="auto"><path class="d-mk-a" d="M0,0 L4.2,2.1 L0,4.2 Z"/></marker>
+          <marker id="dm-os" markerWidth="6" markerHeight="6" refX="4.2" refY="2.1" orient="auto"><path class="d-mk-o" d="M0,0 L4.2,2.1 L0,4.2 Z"/></marker>
+          <marker id="dm-ocs" markerWidth="6" markerHeight="6" refX="4.2" refY="2.1" orient="auto"><path class="d-mk-oc" d="M0,0 L4.2,2.1 L0,4.2 Z"/></marker>
+          <marker id="dm-fs" markerWidth="6" markerHeight="6" refX="4.2" refY="2.1" orient="auto"><path class="d-mk-f" d="M0,0 L4.2,2.1 L0,4.2 Z"/></marker>
         </defs>
-
-        <!-- islands -->
-        <rect x="24" y="56" width="470" height="352" rx="12" fill="none" stroke="#d2d7e0" stroke-dasharray="6 5"/>
-        <text x="40" y="46" fill="#8b93a2" font-size="11" font-weight="700" letter-spacing="1.4">NUCLEAR ISLAND (NI) · 피동격납</text>
-        <rect x="526" y="56" width="350" height="352" rx="12" fill="none" stroke="#d2d7e0" stroke-dasharray="6 5"/>
-        <text x="542" y="46" fill="#8b93a2" font-size="11" font-weight="700" letter-spacing="1.4">CONVENTIONAL ISLAND (CI)</text>
-
-        <!-- RPV ① + core ② -->
-        <rect x="96" y="150" width="92" height="196" rx="20" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
-        <text x="142" y="368" fill="#1d4ed8" font-size="11.5" font-weight="700" text-anchor="middle">원자로용기(RPV) ①</text>
-        <rect x="118" y="300" width="48" height="34" rx="3" fill="#e3ecff" stroke="#2563eb"/>
-        <g stroke="#9aa7b4" stroke-width="1.4"><line x1="126" y1="304" x2="126" y2="330"/><line x1="134" y1="304" x2="134" y2="330"/><line x1="142" y1="304" x2="142" y2="330"/><line x1="150" y1="304" x2="150" y2="330"/><line x1="158" y1="304" x2="158" y2="330"/></g>
-        <text x="84" y="320" fill="#1d4ed8" font-size="10.5" font-weight="700" text-anchor="end">Core ②</text>
-        <line x1="88" y1="316" x2="116" y2="316" stroke="#c0c7d1"/>
-        <!-- pressurizer ④ -->
-        <rect x="118" y="116" width="22" height="34" rx="5" fill="#e3ecff" stroke="#2563eb"/>
-        <text x="142" y="110" fill="#1d4ed8" font-size="10" font-weight="700" text-anchor="middle">가압기 ④</text>
-
-        <!-- SG ③ (1기) -->
-        <rect x="300" y="158" width="64" height="184" rx="26" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
-        <g fill="none" stroke="#9aa7b4" stroke-width="1.6"><ellipse cx="332" cy="190" rx="22" ry="6"/><ellipse cx="332" cy="210" rx="22" ry="6"/><ellipse cx="332" cy="230" rx="22" ry="6"/><ellipse cx="332" cy="250" rx="22" ry="6"/><ellipse cx="332" cy="270" rx="22" ry="6"/></g>
-        <text x="332" y="356" fill="#1d4ed8" font-size="10.5" font-weight="700" text-anchor="middle">증기발생기(1기) ③</text>
-
-        <!-- hot leg RPV→SG, RCP ⑤, cold leg back -->
-        <line x1="188" y1="196" x2="300" y2="196" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
-        <text x="244" y="188" fill="#8b93a2" font-size="9" text-anchor="middle">고온수 →</text>
-        <circle cx="244" cy="276" r="15" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
-        <text x="244" y="280" fill="#1d4ed8" font-size="8.5" font-weight="700" text-anchor="middle">RCP⑤</text>
-        <polyline points="300,276 259,276" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
-        <polyline points="229,276 188,276" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
-        <text x="244" y="300" fill="#8b93a2" font-size="9" text-anchor="middle">← 저온수 (캔드 ×2)</text>
-
-        <!-- steam → turbine ⑥ -->
-        <line x1="364" y1="180" x2="648" y2="180" stroke="#2563eb" stroke-width="3" marker-end="url(#m-acc)"/>
-        <text x="510" y="172" fill="#8b93a2" font-size="9.5" text-anchor="middle">Steam →</text>
-        <polyline points="730,250 730,310 364,310 364,260" fill="none" stroke="#9aa7b4" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#m-gray)"/>
-        <text x="510" y="324" fill="#8b93a2" font-size="9.5" text-anchor="middle">← Feedwater</text>
-        <polygon points="688,158 752,146 752,218 688,206" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
-        <text x="720" y="140" fill="#1d4ed8" font-size="11.5" font-weight="700" text-anchor="middle">Turbine ⑥</text>
-        <line x1="752" y1="182" x2="780" y2="182" stroke="#9aa7b4" stroke-width="3"/>
-        <circle cx="804" cy="182" r="20" fill="#eef3ff" stroke="#2563eb" stroke-width="2"/>
-        <text x="804" y="187" fill="#1d4ed8" font-size="14" font-weight="700" text-anchor="middle">G</text>
-        <text x="804" y="216" fill="#54606f" font-size="9.5" text-anchor="middle">Generator</text>
+        <rect class="d-isl" x="24" y="64" width="548" height="376" rx="12"/>
+        <text class="d-islt" x="40" y="54">NUCLEAR ISLAND (NI) · 피동격납</text>
+        <rect class="d-isl" x="604" y="64" width="272" height="376" rx="12"/>
+        <text class="d-islt" x="620" y="54">CONVENTIONAL ISLAND (CI)</text>
+        <rect class="d-vessel" x="96" y="150" width="92" height="196" rx="20"/>
+        <rect class="d-inner" x="118" y="116" width="22" height="36" rx="8"/>
+        <text class="d-name" x="148" y="128" font-size="10">가압기 ④</text>
+        <rect class="d-corebox" x="118" y="300" width="48" height="32" rx="3"/>
+        <g class="d-bar"><line x1="126" y1="304" x2="126" y2="328"/><line x1="134" y1="304" x2="134" y2="328"/><line x1="142" y1="304" x2="142" y2="328"/><line x1="150" y1="304" x2="150" y2="328"/><line x1="158" y1="304" x2="158" y2="328"/></g>
+        <text class="d-name" x="88" y="320" font-size="10.5" text-anchor="end">Core ②</text>
+        <line class="d-lead" x1="92" y1="316" x2="116" y2="316"/>
+        <text class="d-name" x="142" y="372" text-anchor="middle">RPV ①</text>
+        <line class="d-hot" x1="188" y1="196" x2="296" y2="196" stroke-width="2.2" marker-end="url(#dm-os)"/>
+        <line class="d-hec" x1="300" y1="276" x2="192" y2="276" stroke-width="1.8" marker-end="url(#dm-ocs)"/>
+        <rect class="d-pill-o" x="216" y="164" width="52" height="17" rx="8.5"/>
+        <text class="d-pill-ot" x="242" y="176" text-anchor="middle">325 °C</text>
+        <rect class="d-pill-c" x="216" y="288" width="52" height="17" rx="8.5"/>
+        <text class="d-pill-ct" x="242" y="300" text-anchor="middle">302 °C</text>
+        <rect class="d-vessel" x="300" y="158" width="64" height="184" rx="26" stroke-width="2"/>
+        <g class="d-coil"><ellipse cx="332" cy="190" rx="20" ry="6"/><ellipse cx="332" cy="214" rx="20" ry="6"/><ellipse cx="332" cy="238" rx="20" ry="6"/><ellipse cx="332" cy="262" rx="20" ry="6"/><ellipse cx="332" cy="286" rx="20" ry="6"/><ellipse cx="332" cy="310" rx="20" ry="6"/></g>
+        <text class="d-name" x="336" y="360" font-size="10.5" text-anchor="middle">증기발생기 ③ (1기)</text>
+        <text class="d-fnt" x="336" y="373" font-size="8.5" text-anchor="middle">1-loop · AP1000 계열</text>
+        <rect class="d-mech" x="364" y="144" width="14" height="12" rx="2"/>
+        <line class="d-steam" x1="378" y1="150" x2="646" y2="150" stroke-width="2.2" marker-end="url(#dm-as)"/>
+        <rect class="d-pill-h" x="514" y="122" width="64" height="17" rx="8.5"/>
+        <text class="d-pill-ht" x="546" y="134" text-anchor="middle">과열증기</text>
+        <polygon class="d-vessel" points="648,126 714,112 714,190 648,176" stroke-width="2"/>
+        <text class="d-name" x="681" y="94" text-anchor="middle">Turbine ⑥</text>
+        <text class="d-sub" x="681" y="107" text-anchor="middle">표준 T/G</text>
+        <line class="d-shaft" x1="714" y1="151" x2="744" y2="151"/>
+        <circle class="d-vessel" cx="766" cy="151" r="20" stroke-width="2"/>
+        <text class="d-name" x="766" y="157" font-size="14" text-anchor="middle">G</text>
+        <text class="d-sub" x="766" y="188" text-anchor="middle">Generator</text>
+        <polyline class="d-fw" points="692,190 692,300 368,300" stroke-width="1.8" marker-end="url(#dm-fs)"/>
+        <text class="d-fnt" x="565" y="316" text-anchor="middle">Feedwater(급수)</text>
+        <circle class="d-flow-a da-st" cx="382" cy="150" r="2.5"/>
+        <circle class="d-flow-a da-st" cx="382" cy="150" r="2.5" style="animation-delay:-1.7s"/>
+        <circle class="d-flow-f da-fd" cx="688" cy="300" r="2.3"/>
+        <circle class="d-flow-o da-pr" cx="192" cy="196" r="2.5"/>
+        <circle class="d-flow-o da-pr" cx="192" cy="196" r="2.5" style="animation-delay:-1.2s"/>
+        <g>
+          <line class="d-hot" x1="40" y1="470" x2="66" y2="470" stroke-width="2.4"/>
+          <text class="d-sub" x="72" y="473">1차 냉각수 · 고온</text>
+          <line class="d-hec" x1="196" y1="470" x2="222" y2="470" stroke-width="2"/>
+          <text class="d-sub" x="228" y="473">1차 냉각수 · 복귀</text>
+          <line class="d-steam" x1="392" y1="470" x2="418" y2="470" stroke-width="2.4"/>
+          <text class="d-sub" x="424" y="473">과열증기</text>
+          <line class="d-fw" x1="504" y1="470" x2="530" y2="470" stroke-width="2"/>
+          <text class="d-sub" x="536" y="473">급수(물)</text>
+          <text class="d-fnt" x="626" y="473">※ 실선 = 고온·공급 / 점선 = 저온·복귀 흐름</text>
+        </g>
       </svg>
     </div>
-    <p class="src" style="margin:0 0 14px;">＊ 모식도(개략). 번호 ①–⑥은 아래 표와 연결. <b>단일 루프</b>(증기발생기 1기·캔드 RCP 2대)로 AP1000을 축소. 사고 시 중력·자연순환의 <b>피동안전계통(PXS)</b>과 상부 냉각수탱크로 격납을 피동 냉각(AC전원 불필요).</p>
+    <p class="src" style="margin:0 0 14px;">＊ 모식도(개략·표준형) — 열 흐름 경로의 주기기만 표시, 부가계통(⑤ 캔드 RCP 등)은 생략(번호는 공급사 표와 공유). AP1000을 축소한 <b>1-loop</b> 구성 — 1차 냉각수(주황)가 SG(③) 1기에서 증기(파랑)를 만들어 터빈(⑥) 발전. 안전은 피동(PXS) — 도해에는 생략. 점선=복귀(하단 범례).</p>
 
     <div class="sub-h"><span class="pin">②-B</span>주기기·연료별 공급/책임 <span style="font-weight:400;color:var(--text-dim);font-size:12.5px;">(칩 클릭 → 설명·링크)</span></div>
     <div class="tbl-wrap">
