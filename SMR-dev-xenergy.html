@@ -253,7 +253,8 @@
          Flows: hot = solid accent + temp pill · cold/return = dashed faint + gray pill
          · steam = solid + 조건 pill · feedwater = dashed. ALL colors via in-SVG <style>
          classes + var() (다크모드 자동; presentation attribute에 hex 금지).
-         Subtle flow dots via animateMotion (prefers-reduced-motion 시 숨김). id는 페이지별 prefix. -->
+         Flow dots = CSS @keyframes(직선 translateX; SMIL 사용 금지) — OS '애니메이션 끄기'
+         (reduced-motion, 회사 PC에서 흔함)와 무관하게 항상 동작. id는 페이지별 prefix. -->
     <div class="diagram-wrap">
       <svg viewBox="0 0 900 484" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
            font-family="Pretendard, sans-serif" aria-label="Xe-100 primary system schematic (RPV, coaxial cross vessel, steam generator, turbine cycle) — 범례: 주황=헬륨, 파랑=증기·급수, 점선=복귀">
@@ -292,25 +293,28 @@
           .d-pill-ot{fill:#c2410c;font-size:9.5px;font-weight:700;}
           .d-pill-c{fill:var(--surface-3);stroke:var(--border-strong);stroke-width:1;}
           .d-pill-ct{fill:var(--text-dim);font-size:9.5px;font-weight:700;}
+          /* 흐름점: CSS 키프레임(직선 경로) — OS '애니메이션 끄기'(reduced-motion)와 무관하게 항상 동작 */
           .d-flow-a{fill:var(--accent);}
           .d-flow-o{fill:#ea580c;}
-          .d-flow-f{fill:var(--accent);opacity:.55;}
+          .d-flow-f{fill:var(--accent);}
           .d-flow-g{fill:var(--text-faint);}
+          @keyframes d-run-hot{0%{transform:translateX(0);opacity:0}12%{opacity:1}88%{opacity:1}100%{transform:translateX(82px);opacity:0}}
+          @keyframes d-run-steam{0%{transform:translateX(0);opacity:0}10%{opacity:1}90%{opacity:1}100%{transform:translateX(200px);opacity:0}}
+          @keyframes d-run-feed{0%{transform:translateX(0);opacity:0}10%{opacity:.55}90%{opacity:.55}100%{transform:translateX(-232px);opacity:0}}
+          .d-anim-hot{animation:d-run-hot 2.4s linear infinite;}
+          .d-anim-steam{animation:d-run-steam 3.4s linear infinite;}
+          .d-anim-feed{animation:d-run-feed 4.5s linear infinite;}
           [data-theme="dark"] .d-hot,[data-theme="dark"] .d-hec{stroke:#fb923c;}
           [data-theme="dark"] .d-mk-o,[data-theme="dark"] .d-flow-o{fill:#fb923c;}
           [data-theme="dark"] .d-mk-oc{fill:#fb923c;}
           [data-theme="dark"] .d-pill-o{fill:#3c2410;stroke:#fb923c;}
           [data-theme="dark"] .d-pill-ot{fill:#fdba74;}
-          @media(prefers-reduced-motion:reduce){.d-flow-a,.d-flow-o,.d-flow-f,.d-flow-g{display:none;}}
         </style>
         <defs>
           <marker id="x2-ma-s" markerWidth="6" markerHeight="6" refX="4.2" refY="2.1" orient="auto"><path class="d-mk-a" d="M0,0 L4.2,2.1 L0,4.2 Z"/></marker>
           <marker id="x2-mo-s" markerWidth="6" markerHeight="6" refX="4.2" refY="2.1" orient="auto"><path class="d-mk-o" d="M0,0 L4.2,2.1 L0,4.2 Z"/></marker>
           <marker id="x2-moc-s" markerWidth="6" markerHeight="6" refX="4.2" refY="2.1" orient="auto"><path class="d-mk-oc" d="M0,0 L4.2,2.1 L0,4.2 Z"/></marker>
           <marker id="x2-mf-s" markerWidth="6" markerHeight="6" refX="4.2" refY="2.1" orient="auto"><path class="d-mk-f" d="M0,0 L4.2,2.1 L0,4.2 Z"/></marker>
-          <path id="x2-p-hot" d="M232 242 H314" fill="none"/>
-          <path id="x2-p-steam" d="M446 150 H646" fill="none"/>
-          <path id="x2-p-feed" d="M688 300 H456" fill="none"/>
         </defs>
 
         <!-- islands -->
@@ -387,11 +391,11 @@
         <text class="d-fnt" x="565" y="316" text-anchor="middle">Feedwater(급수)</text>
 
         <!-- flow dots (subtle animation) -->
-        <circle class="d-flow-o" r="2.3"><animateMotion dur="2.4s" repeatCount="indefinite"><mpath xlink:href="#x2-p-hot"/></animateMotion></circle>
-        <circle class="d-flow-o" r="2.3"><animateMotion dur="2.4s" begin="-1.2s" repeatCount="indefinite"><mpath xlink:href="#x2-p-hot"/></animateMotion></circle>
-        <circle class="d-flow-a" r="2.6"><animateMotion dur="3.4s" repeatCount="indefinite"><mpath xlink:href="#x2-p-steam"/></animateMotion></circle>
-        <circle class="d-flow-a" r="2.6"><animateMotion dur="3.4s" begin="-1.7s" repeatCount="indefinite"><mpath xlink:href="#x2-p-steam"/></animateMotion></circle>
-        <circle class="d-flow-f" r="2.4"><animateMotion dur="4.5s" repeatCount="indefinite"><mpath xlink:href="#x2-p-feed"/></animateMotion></circle>
+        <circle class="d-flow-o d-anim-hot" cx="232" cy="242" r="2.3"/>
+        <circle class="d-flow-o d-anim-hot" cx="232" cy="242" r="2.3" style="animation-delay:-1.2s"/>
+        <circle class="d-flow-a d-anim-steam" cx="446" cy="150" r="2.6"/>
+        <circle class="d-flow-a d-anim-steam" cx="446" cy="150" r="2.6" style="animation-delay:-1.7s"/>
+        <circle class="d-flow-f d-anim-feed" cx="688" cy="300" r="2.4"/>
 
         <!-- 범례 (하단) : 색=유체 · 점선=복귀/저온 -->
         <g>
