@@ -111,6 +111,20 @@ window.SMR_NEWS = [
     "id": "d938ed52"
   },
   {
+    "date": "2026-07-02",
+    "title": "오클로(Oklo), 미국 에너지부(DOE) 원자로 안전 승인 후 주목 집중",
+    "summary": "오클로(Oklo)가 미국 에너지부(DOE)의 원자로 안전 승인을 획득하며 시장의 관심이 증대되고 있다.",
+    "summaryLong": "오클로(Oklo)가 미국 에너지부(DOE)로부터 원자로 안전 승인(reactor safety approval)을 획득했으며, 이를 계기로 투자자와 업계의 주목이 집중되고 있다. 뉴욕증권거래소(NYSE) 상장 회사인 오클로의 이번 규제 승인은 첨단 소형모듈원자로 기술의 안전성이 정부 차원에서 공식 인정받은 것으로, 상용화 시간표 단축과 자금 조달 용이성 측면에서 긍정적 신호다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "kalkinemedia.com",
+    "url": "https://kalkinemedia.com/us/stocks/energy/oklo-nyseoklo-gains-focus-after-doe-reactor-safety-approval",
+    "k": "oklo nyse oklo gains focus after doe reactor safety approval",
+    "id": "eefe5f39"
+  },
+  {
     "date": "2026-07-01",
     "title": "i-SMR 기술개발사업단, 싱가포르 에너지시장청과 협력",
     "summary": "한국의 i-SMR(혁신형 소형모듈원자로) 기술개발사업단이 싱가포르 에너지시장청(EMA)과 협력 양해각서를 체결했다.",
@@ -14304,4 +14318,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-02 16:39 KST";
+window.SMR_UPDATED = "2026-07-02 16:57 KST";
