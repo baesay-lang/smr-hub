@@ -102,6 +102,7 @@
     <table class="cat">
       <thead>
         <tr>
+          <th class="cmpth" title="비교할 설계 선택 (최대 4개)">비교</th>
           <th data-k="n">설계명 <span class="ar" id="ar-n"></span></th>
           <th data-k="pv">출력 MWe <span class="ar" id="ar-pv"></span></th>
           <th data-k="t">노형 <span class="ar" id="ar-t"></span></th>
@@ -218,6 +219,7 @@
   const search=document.getElementById('catSearch');
   const chips=Array.from(document.querySelectorAll('#catChips .chip'));
   let activeCat='all', sortK='cat', sortDir=1;
+  const SEL=new Set();   // 비교 선택(설계명 키) — 필터·정렬 재렌더에도 유지, 최대 4
 
   // counts
   function setCounts(){
@@ -253,6 +255,7 @@
       const det = d.u ? '<a class="det" href="'+d.u+'">상세 →</a>' : '<span style="color:var(--text-faint);font-size:11px;">—</span>';
       const stg = STG[d.ss]||1;
       html+='<tr class="'+(d.kr?'kr-row':'')+'">'
+        +'<td class="cmptd"><input type="checkbox" class="cmpbox" aria-label="'+d.n.replace(/"/g,'&quot;')+' 비교 선택" data-n="'+encodeURIComponent(d.n)+'"'+(SEL.has(d.n)?' checked':'')+'></td>'
         +'<td class="nm">'+nm+'</td>'
         +'<td class="mwe">'+(d.pv>0?d.p+' <small>MWe</small>':'<small>'+d.p+'</small>')+'</td>'
         +'<td class="ty">'+d.t+'</td>'
@@ -273,6 +276,126 @@
     th.addEventListener('click',()=>{const k=th.dataset.k; if(sortK===k){sortDir*=-1;}else{sortK=k;sortDir=(k==='pv'||k==='ss')?-1:1;} render();});
   });
   render();
+
+  /* ============================================================
+     비교 도구 (ARIS 패턴) — 체크박스로 2~4개 선택 → 나란히 비교
+     선택은 SEL(설계명 Set)에 보관되어 필터·정렬 재렌더에도 유지.
+     ============================================================ */
+  (function(){
+    var MAX=4;
+    var CATLABEL={pwrL:'경수로(육상)',pwrM:'경수로(해상·부유식)',htgr:'HTGR',fast:'고속로',msr:'MSR·FHR',micro:'마이크로'};
+
+    // ---- styles (CSS 변수 기반 → 다크모드 자동) ----
+    var css=''
+      +'.cmpth,.cmptd{text-align:center!important;width:38px;}'
+      +'.cmpbox{accent-color:var(--accent);width:15px;height:15px;cursor:pointer;vertical-align:middle;}'
+      +'#cmpbar{position:fixed;left:50%;transform:translateX(-50%);bottom:16px;z-index:900;display:none;'
+      +'align-items:center;gap:9px;flex-wrap:wrap;max-width:min(92vw,860px);'
+      +'background:var(--surface);border:1px solid var(--border-strong);border-radius:12px;'
+      +'box-shadow:var(--shadow-hover);padding:9px 12px;}'
+      +'#cmpbar.on{display:flex;}'
+      +'#cmpbar .cb-lab{font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--text-faint);}'
+      +'#cmpbar .cb-chip{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:600;color:var(--text);'
+      +'background:var(--surface-2);border:1px solid var(--border);border-radius:20px;padding:3px 6px 3px 11px;}'
+      +'#cmpbar .cb-chip button{appearance:none;background:none;border:none;cursor:pointer;color:var(--text-faint);'
+      +'font-size:13px;line-height:1;padding:1px 4px;border-radius:50%;}'
+      +'#cmpbar .cb-chip button:hover{color:var(--alert);}'
+      +'#cmpbar .cb-go{appearance:none;background:var(--accent);color:#fff;border:none;border-radius:8px;'
+      +'font:600 13px/1 inherit;padding:9px 15px;cursor:pointer;}'
+      +'#cmpbar .cb-go:disabled{opacity:.45;cursor:default;}'
+      +'#cmpbar .cb-go:not(:disabled):hover{background:var(--accent-strong);}'
+      +'#cmpbar .cb-clear{appearance:none;background:none;border:none;color:var(--text-faint);font:600 12px/1 inherit;'
+      +'cursor:pointer;padding:8px 6px;}'
+      +'#cmpbar .cb-clear:hover{color:var(--text);}'
+      +'#cmpov{position:fixed;inset:0;z-index:950;background:rgba(15,23,42,.55);backdrop-filter:blur(3px);'
+      +'display:flex;align-items:center;justify-content:center;padding:18px;}'
+      +'#cmpov[hidden]{display:none;}'
+      +'#cmpcard{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);'
+      +'box-shadow:0 18px 50px rgba(15,23,42,.28);width:100%;max-width:880px;max-height:88vh;overflow:auto;padding:20px 22px;}'
+      +'#cmpcard h2{font-size:17px;margin:0 0 3px;}'
+      +'#cmpcard .cm-sub{font-size:12px;color:var(--text-faint);margin-bottom:14px;}'
+      +'#cmpx{position:sticky;top:0;float:right;appearance:none;background:var(--surface-2);border:1px solid var(--border);'
+      +'border-radius:8px;font-size:16px;line-height:1;color:var(--text-dim);cursor:pointer;padding:6px 10px;}'
+      +'#cmpx:hover{color:var(--text);border-color:var(--border-strong);}'
+      +'table.cmptbl{width:100%;border-collapse:collapse;font-size:13px;min-width:520px;}'
+      +'table.cmptbl th,table.cmptbl td{text-align:left;padding:9px 11px;border-bottom:1px solid var(--border);vertical-align:top;}'
+      +'table.cmptbl thead th{background:var(--surface-2);font-weight:700;font-size:13px;color:var(--text);position:sticky;top:0;}'
+      +'table.cmptbl td:first-child,table.cmptbl th:first-child{color:var(--text-faint);font-size:11.5px;font-weight:700;'
+      +'letter-spacing:.03em;text-transform:uppercase;white-space:nowrap;width:86px;}'
+      +'table.cmptbl .best{color:var(--accent-strong);font-weight:700;}'
+      +'table.cmptbl tr:last-child td{border-bottom:none;}';
+    var st=document.createElement('style');st.textContent=css;document.head.appendChild(st);
+
+    // ---- compare bar ----
+    var bar=document.createElement('div');bar.id='cmpbar';
+    document.body.appendChild(bar);
+    function updateBar(){
+      if(!SEL.size){bar.classList.remove('on');bar.innerHTML='';return;}
+      var chips='';
+      SEL.forEach(function(n){
+        chips+='<span class="cb-chip">'+n+'<button type="button" data-rm="'+encodeURIComponent(n)+'" aria-label="'+n.replace(/"/g,'&quot;')+' 선택 해제">&times;</button></span>';
+      });
+      bar.innerHTML='<span class="cb-lab">비교 '+SEL.size+'/'+MAX+'</span>'+chips
+        +'<button type="button" class="cb-go" id="cmpGo"'+(SEL.size<2?' disabled':'')+'>비교하기</button>'
+        +'<button type="button" class="cb-clear" id="cmpClear">지우기</button>';
+      bar.classList.add('on');
+      document.getElementById('cmpGo').addEventListener('click',openCompare);
+      document.getElementById('cmpClear').addEventListener('click',function(){SEL.clear();render();updateBar();});
+      Array.prototype.forEach.call(bar.querySelectorAll('[data-rm]'),function(b){
+        b.addEventListener('click',function(){SEL.delete(decodeURIComponent(b.getAttribute('data-rm')));render();updateBar();});
+      });
+    }
+
+    // checkbox delegation (rows are re-rendered — listen on tbody)
+    body.addEventListener('change',function(e){
+      var cb=e.target.closest('.cmpbox');if(!cb)return;
+      var n=decodeURIComponent(cb.getAttribute('data-n'));
+      if(cb.checked){
+        if(SEL.size>=MAX){cb.checked=false;alert('비교는 최대 '+MAX+'개까지 선택할 수 있습니다.');return;}
+        SEL.add(n);
+      } else SEL.delete(n);
+      updateBar();
+    });
+
+    // ---- compare modal ----
+    var ov=document.createElement('div');ov.id='cmpov';ov.hidden=true;
+    ov.innerHTML='<div id="cmpcard" role="dialog" aria-modal="true" aria-label="설계 비교">'
+      +'<button id="cmpx" aria-label="닫기">&times;</button>'
+      +'<h2>설계 비교</h2><div class="cm-sub">IAEA 2024 카탈로그 요약값 기준 — 최신 벤더값과 다를 수 있음</div>'
+      +'<div style="overflow-x:auto;"><table class="cmptbl" id="cmptbl"></table></div></div>';
+    document.body.appendChild(ov);
+    var lastFocus=null;
+    function openCompare(){
+      var list=DATA.filter(function(d){return SEL.has(d.n);});
+      if(list.length<2)return;
+      var maxPv=Math.max.apply(null,list.map(function(d){return d.pv||0;}));
+      function row(label,fn){
+        var tds='';list.forEach(function(d){tds+='<td>'+fn(d)+'</td>';});
+        return '<tr><td>'+label+'</td>'+tds+'</tr>';
+      }
+      var head='<tr><th>항목</th>';list.forEach(function(d){head+='<th>'+d.n+'</th>';});head+='</tr>';
+      document.getElementById('cmptbl').innerHTML='<thead>'+head+'</thead><tbody>'
+        +row('출력',function(d){var v=d.pv>0?d.p+' MWe':d.p;return (d.pv===maxPv&&d.pv>0)?'<span class="best">'+v+'</span>':v;})
+        +row('노형',function(d){return d.t;})
+        +row('분류',function(d){return CATLABEL[d.cat]||d.cat;})
+        +row('개발사',function(d){return d.d;})
+        +row('국가',function(d){return '<span class="cc2">'+d.c+'</span>';})
+        +row('설계상태',function(d){return '<span class="stg s'+(STG[d.ss]||1)+'">'+d.ss+'</span>';})
+        +row('한국 참여',function(d){return d.kr?'<span class="best">참여·연관</span>':'<span style="color:var(--text-faint)">—</span>';})
+        +row('상세',function(d){return d.u?'<a href="'+d.u+'">상세 페이지 →</a>':'<span style="color:var(--text-faint)">—</span>';})
+        +'</tbody>';
+      lastFocus=document.activeElement;
+      ov.hidden=false;document.body.style.overflow='hidden';
+      document.getElementById('cmpx').focus();
+    }
+    function closeCompare(){
+      ov.hidden=true;document.body.style.overflow='';
+      if(lastFocus&&lastFocus.focus)try{lastFocus.focus();}catch(e){}
+    }
+    document.getElementById('cmpx').addEventListener('click',closeCompare);
+    ov.addEventListener('click',function(e){if(e.target===ov)closeCompare();});
+    document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!ov.hidden)closeCompare();});
+  })();
 </script>
 <script src="feedback.js" defer></script>
 </body>
