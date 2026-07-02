@@ -130,10 +130,10 @@
 <div class="ctrlbar">
   <div class="tabs" role="tablist">
     <button class="tab active" data-country="id" data-ko="인도네시아" data-en="Indonesia">인도네시아</button>
-    <button class="tab" disabled title="준비 중 · Coming soon" data-country="ph" data-ko="필리핀" data-en="Philippines">필리핀</button>
-    <button class="tab" disabled title="준비 중 · Coming soon" data-country="vn" data-ko="베트남" data-en="Vietnam">베트남</button>
-    <button class="tab" disabled title="준비 중 · Coming soon" data-country="my" data-ko="말레이시아" data-en="Malaysia">말레이시아</button>
-    <button class="tab" disabled title="준비 중 · Coming soon" data-country="sg" data-ko="싱가포르" data-en="Singapore">싱가포르</button>
+    <button class="tab" data-country="ph" data-ko="필리핀" data-en="Philippines">필리핀</button>
+    <button class="tab" data-country="vn" data-ko="베트남" data-en="Vietnam">베트남</button>
+    <button class="tab" data-country="my" data-ko="말레이시아" data-en="Malaysia">말레이시아</button>
+    <button class="tab" data-country="sg" data-ko="싱가포르" data-en="Singapore">싱가포르</button>
   </div>
   <div class="langtoggle" role="group" aria-label="language">
     <button class="langbtn active" data-lang="ko">한국어</button>
@@ -239,7 +239,7 @@
   <g class="node" data-box="owner">
     <path class="lnA" d="M500,180 V270" marker-end="url(#arA)"/>
     <rect x="390" y="186" width="220" height="15" fill="#f7f8fa"/>
-    <text class="ann" x="500" y="196" font-size="10.5" text-anchor="middle" data-ko="지분 100% · PT PLN(Persero) 발전 자회사" data-en="100% equity · subsidiary of PT PLN (Persero)">지분 100% · PT PLN(Persero) 발전 자회사</text>
+    <text class="ann" id="s-owner" x="500" y="196" font-size="10.5" text-anchor="middle" data-ko="지분 100% · PT PLN(Persero) 발전 자회사" data-en="100% equity · subsidiary of PT PLN (Persero)">지분 100% · PT PLN(Persero) 발전 자회사</text>
     <rect class="bx" x="385" y="120" width="230" height="60" rx="9"/>
     <text class="wm2" id="n-owner" x="500" y="146" font-size="15.5" text-anchor="middle">PLN Indonesia Power</text>
     <text class="role" x="500" y="166" font-size="11" text-anchor="middle" data-ko="사업주 · Owner" data-en="Owner">사업주 · Owner</text>
@@ -254,9 +254,9 @@
   <g class="node" data-box="nepio">
     <path class="lnGd" d="M500,420 V330" marker-end="url(#arG)"/>
     <rect class="bx" x="385" y="420" width="230" height="60" rx="9"/>
-    <text class="wm" x="500" y="446" font-size="16" text-anchor="middle">NEPIO</text>
+    <text class="wm" id="n-nepio" x="500" y="446" font-size="16" text-anchor="middle">NEPIO</text>
     <text class="role" x="500" y="465" font-size="11" text-anchor="middle" data-ko="국가 도입기구 · National Body" data-en="National body">국가 도입기구 · National Body</text>
-    <text class="ann" x="500" y="495" font-size="10" text-anchor="middle" data-ko="국가 사업기반(인허가·정책) · 규제 BAPETEN·R&amp;D BRIN" data-en="National basis (licensing/policy) · BAPETEN/BRIN">국가 사업기반(인허가·정책) · 규제 BAPETEN·R&amp;D BRIN</text>
+    <text class="ann" id="s-nepio" x="500" y="495" font-size="10" text-anchor="middle" data-ko="국가 사업기반(인허가·정책) · 규제 BAPETEN·R&amp;D BRIN" data-en="National basis (licensing/policy) · BAPETEN/BRIN">국가 사업기반(인허가·정책) · 규제 BAPETEN·R&amp;D BRIN</text>
   </g>
 
   <!-- ===== RIGHT — operating (uniform boxes; detail in annotation below) ===== -->
@@ -300,20 +300,21 @@
   <span class="li"><span class="ln" style="border-top-color:#9aa7b4;border-top-style:dashed;"></span><span data-ko="국가 사업기반 (인허가·정책)" data-en="National basis (licensing·policy)">국가 사업기반 (인허가·정책)</span></span>
 </div>
 
-<!-- ===================== NOTES (KO) ===================== -->
+<!-- ===================== NOTES — INDONESIA ===================== -->
+<div data-country-notes="id">
 <div class="notes only-ko">
   <h2>구성 당사자 · 역할</h2>
   <table>
     <thead><tr><th style="width:170px">당사자</th><th style="width:110px">역할</th><th>설명 · 근거</th><th style="width:84px">구분</th></tr></thead>
     <tbody>
       <tr><td><b>PLN (Persero)</b></td><td>전력 주 구매자 (Off-taker)</td><td>국가 전력공사. 장기 전력판매계약(PPA)으로 SPV의 매출 기반을 보장.</td><td><span class="tag ok">확정 구조</span></td></tr>
-      <tr><td><b>PLN Indonesia Power</b></td><td>사업주 (Owner)</td><td>PT PLN 발전 자회사. 프로젝트 SPV를 <b>100% 보유</b>. USTDA SMR 타당성 사업의 실수요 기관.</td><td><span class="tag ok">확정</span></td></tr>
+      <tr><td><b>PLN Indonesia Power</b></td><td>사업주 (Owner)</td><td>PT PLN 발전 자회사. 프로젝트 SPV를 <b>100% 보유</b> 구조. USTDA SMR 타당성조사(NuScale 서칼리만탄 건)의 수원기관.</td><td><span class="tag ok">확정</span></td></tr>
       <tr><td><b>SMR Project SPV</b></td><td>프로젝트 회사</td><td>자산 보유·계약 체결·자금조달의 단일 창구가 되는 특수목적법인.</td><td><span class="tag ok">확정 구조</span></td></tr>
-      <tr><td><b>NEPIO</b></td><td>국가 도입 기구</td><td>원자력 도입을 총괄하는 국가 조직(설립 추진 중). 규제는 <abbr title="Badan Pengawas Tenaga Nuklir — 인도네시아 원자력규제청">BAPETEN</abbr>, R&amp;D는 <abbr title="Badan Riset dan Inovasi Nasional — 국가연구혁신청">BRIN</abbr>이 담당.</td><td><span class="tag ok">확정</span></td></tr>
-      <tr><td><b>X-energy</b></td><td>기술 공급</td><td>Xe-100 (HTGR, 80MWe/200MWth) 원자로 기술 공급사.</td><td><span class="tag ok">확정</span></td></tr>
-      <tr><td><b>TRISO-X</b></td><td>핵연료 공급</td><td>X-energy 자회사. TRISO·HALEU 연료 공급.</td><td><span class="tag ok">확정</span></td></tr>
-      <tr><td><b>DL E&amp;C · Doosan Enerbility</b></td><td>EPC</td><td>X-energy의 한국 파트너 — <b>DL E&amp;C=설계·구매·CM</b>(Construction Management, 2023~ 협력), <b>Doosan=주기기</b>(RPV 등 주요기기·모듈, 16기 예약·창원 SMR 공장), <b>현지 파트너=시공</b>(토건·설치).</td><td><span class="tag ok">확정 파트너</span></td></tr>
-      <tr><td><b>USTDA · US State FIRST</b></td><td>보조금 (Grant)</td><td><abbr title="U.S. Trade and Development Agency">USTDA</abbr>=타당성조사 무상지원(인니 SMR에 실제 공여), <abbr title="Foundational Infrastructure for the Responsible Use of SMR Technology">FIRST</abbr>=美 국무부 역량강화 지원. (+ IAEA 기술협력)</td><td><span class="tag ok">확정 메커니즘</span></td></tr>
+      <tr><td><b>NEPIO</b></td><td>국가 도입 기구</td><td>원자력 도입을 총괄하는 대통령 직속 국가 조직 — 설립 대통령규정(Perpres) 서명 대기(2026-03 기준). 규제는 <abbr title="Badan Pengawas Tenaga Nuklir — 인도네시아 원자력규제청">BAPETEN</abbr>, R&amp;D는 <abbr title="Badan Riset dan Inovasi Nasional — 국가연구혁신청">BRIN</abbr>이 담당.</td><td><span class="tag tmpl">설립 대기</span></td></tr>
+      <tr><td><b>X-energy</b></td><td>기술 공급</td><td>Xe-100 (HTGR, 80MWe/200MWth) 기술 공급사. <b>인니 확정 사업은 아님</b> — 본 구조도의 도입 시나리오 주체. 인니 확정 진행 건은 NuScale·ThorCon.</td><td><span class="tag tmpl">시나리오</span></td></tr>
+      <tr><td><b>TRISO-X</b></td><td>핵연료 공급</td><td>X-energy 자회사. TRISO·HALEU 연료 공급 (Xe-100 시나리오에 딸림).</td><td><span class="tag tmpl">시나리오</span></td></tr>
+      <tr><td><b>DL E&amp;C · Doosan Enerbility</b></td><td>EPC</td><td>X-energy의 한국 파트너(2023-01 전략투자 $25M) — <b>DL E&amp;C=설계·구매·CM</b>(Construction Management), <b>Doosan=주기기</b>(Xe-100 16기분 예약계약·창원 SMR 공장 신설, 2025-12), <b>현지 파트너=시공</b>(토건·설치). 파트너십 자체는 확정이나 인니 계약은 아님.</td><td><span class="tag ok">확정 파트너</span></td></tr>
+      <tr><td><b>USTDA · US State FIRST</b></td><td>보조금 (Grant)</td><td><abbr title="Foundational Infrastructure for the Responsible Use of SMR Technology">FIRST</abbr>=美 국무부 역량강화(인니 실제 진행 — 2026-03 자카르타 SMR 컨퍼런스, BRIN 미국 벤치마킹). <abbr title="U.S. Trade and Development Agency">USTDA</abbr> 타당성조사 그랜트는 <b>NuScale 서칼리만탄 건</b>에 공여된 것. (+ IAEA 기술협력)</td><td><span class="tag ok">확정 메커니즘</span></td></tr>
       <tr><td><b>US DFC · US EXIM · KEXIM · K-SURE</b></td><td>지분/부채 (Equity·Debt·ECA)</td><td><abbr title="U.S. International Development Finance Corp.">DFC</abbr>=해외 원자력에 지분투자·정치위험보험 가능(美 유일), <abbr title="Export-Import Bank of the US">EXIM</abbr>=차관·보증(법상 지분 불가). 한국 EPC분에 대해선 <abbr title="한국수출입은행">KEXIM</abbr>·<abbr title="한국무역보험공사">K-SURE</abbr> ECA 금융.</td><td><span class="tag tmpl">표준 후보</span></td></tr>
       <tr><td><b>Operator (O&amp;M)</b></td><td>운영</td><td>통상 사업주(PLN IP)가 운영을 맡고 X-energy가 운영·기술지원. 별도 전용 운영회사(OpCo)를 둘 수도 있음.</td><td><span class="tag tmpl">표준 후보</span></td></tr>
     </tbody>
@@ -321,9 +322,10 @@
 
   <h2>주석 · 확실성</h2>
   <ul>
-    <li><span class="tag ok">확정</span> = 공개 출처로 확인된 실제 당사자/구조, <span class="tag tmpl">표준 후보</span> = 美·韓 원자력 수출금융 구조상 통상적인 당사자(특정 인니 계약으로 확정된 것은 아님).</li>
-    <li><b>금융 구조 주의:</b> EXIM·KEXIM·K-SURE는 부채/보증만 가능하며 지분투자는 불가. 해외 원자력에서 美 정부 측 지분투자가 가능한 기구는 <b>DFC</b>이다. 다자개발은행(World Bank·ADB)은 원자력 금융을 통상 취급하지 않음.</li>
-    <li><b>별개 사업과 혼동 주의:</b> 인니에는 西칼리만탄 NuScale(462MWe, USTDA+Fluor+JGC) 건과 본 X-energy/HTGR 계열 구조가 병존. 본 구조도는 X-energy(Xe-100) 기준.</li>
+    <li><span class="tag ok">확정</span> = 공개 출처로 확인된 실제 당사자/구조, <span class="tag tmpl">시나리오·후보</span> = 통상 구조상의 후보 또는 본 페이지가 상정한 도입 시나리오(특정 인니 계약으로 확정된 것 아님).</li>
+    <li><b>본 구조도는 X-energy(Xe-100) 도입 시나리오 기준</b> — 인니에서 확정 진행 중인 건은 <b>NuScale 서칼리만탄</b>(USTDA 타당성조사, 77MWe×6=462MWe, Fluor·JGC 참여)과 <b>ThorCon</b>(TMSR-500, 방카 Kelasa섬 부지평가 BAPETEN 승인)임. X-energy–인니 직접 연결은 공개 출처로 확인되지 않음.</li>
+    <li><b>정책 기반(2025~):</b> 신 국가에너지정책 PP 40/2025(원자력 2032년 0.4%→2060년 12.1%), RUPTL 2025–2034에 원자력 최초 반영 — 2032년 방카 250MW + 2033년 칼리만탄 250MW, 합계 500MW. DEN 후보부지 29곳 제안(2025-01). 국부펀드 <b>Danantara</b>가 전략 에너지 자금 채널로 부상.</li>
+    <li><b>금융 구조 주의:</b> EXIM·KEXIM·K-SURE는 부채/보증만 가능하며 지분투자는 불가. 해외 원자력에서 美 정부 측 지분투자가 가능한 기구는 <b>DFC</b>(2020-07 정책 변경, 단 예산회계상 제약으로 실적용은 제한적). 다자개발은행(World Bank·ADB)은 원자력 금융을 통상 취급하지 않음.</li>
     <li>최종 지분·차주·운영 주체는 프로젝트 합의서로 확정되어야 하며, 위 금융 당사자는 후보 조합임.</li>
   </ul>
 </div>
@@ -335,13 +337,13 @@
     <thead><tr><th style="width:170px">Party</th><th style="width:120px">Role</th><th>Description · Basis</th><th style="width:96px">Status</th></tr></thead>
     <tbody>
       <tr><td><b>PLN (Persero)</b></td><td>Primary off-taker</td><td>National electricity utility. A long-term PPA secures the SPV's revenue base.</td><td><span class="tag ok">Structural</span></td></tr>
-      <tr><td><b>PLN Indonesia Power</b></td><td>Owner</td><td>Generation subsidiary of PT PLN. <b>Owns 100%</b> of the project SPV; counterpart of the USTDA SMR feasibility program.</td><td><span class="tag ok">Confirmed</span></td></tr>
+      <tr><td><b>PLN Indonesia Power</b></td><td>Owner</td><td>Generation subsidiary of PT PLN. <b>Owns 100%</b> of the project SPV; grantee of the USTDA SMR feasibility study (the NuScale West Kalimantan case).</td><td><span class="tag ok">Confirmed</span></td></tr>
       <tr><td><b>SMR Project SPV</b></td><td>Project company</td><td>A special-purpose vehicle acting as the single entity that holds assets, signs contracts and raises finance.</td><td><span class="tag ok">Structural</span></td></tr>
-      <tr><td><b>NEPIO</b></td><td>National body</td><td>National organization leading nuclear adoption (being established). Regulator = <abbr title="Badan Pengawas Tenaga Nuklir — Nuclear Energy Regulatory Agency">BAPETEN</abbr>, R&amp;D = <abbr title="Badan Riset dan Inovasi Nasional — National Research & Innovation Agency">BRIN</abbr>.</td><td><span class="tag ok">Confirmed</span></td></tr>
-      <tr><td><b>X-energy</b></td><td>Technology</td><td>Supplier of the Xe-100 (HTGR, 80MWe/200MWth) reactor technology.</td><td><span class="tag ok">Confirmed</span></td></tr>
-      <tr><td><b>TRISO-X</b></td><td>Fuel</td><td>X-energy subsidiary; supplies TRISO·HALEU fuel.</td><td><span class="tag ok">Confirmed</span></td></tr>
-      <tr><td><b>DL E&amp;C · Doosan Enerbility</b></td><td>EPC</td><td>X-energy's Korean partners — <b>DL E&amp;C = engineering, procurement &amp; construction management (CM)</b> (cooperating since 2023); <b>Doosan = main components</b> (RPV etc. and modules; 16-unit reservation, Changwon SMR plant); <b>local partners = construction</b> (civil works &amp; installation).</td><td><span class="tag ok">Confirmed</span></td></tr>
-      <tr><td><b>USTDA · US State FIRST</b></td><td>Grant</td><td><abbr title="U.S. Trade and Development Agency">USTDA</abbr> = feasibility-study grants (actually awarded for Indonesia SMR); <abbr title="Foundational Infrastructure for the Responsible Use of SMR Technology">FIRST</abbr> = US State Dept capacity building. (+ IAEA technical cooperation)</td><td><span class="tag ok">Confirmed</span></td></tr>
+      <tr><td><b>NEPIO</b></td><td>National body</td><td>Presidential-level national organization to lead nuclear adoption — establishment decree (Perpres) awaiting signature (as of Mar 2026). Regulator = <abbr title="Badan Pengawas Tenaga Nuklir — Nuclear Energy Regulatory Agency">BAPETEN</abbr>, R&amp;D = <abbr title="Badan Riset dan Inovasi Nasional — National Research & Innovation Agency">BRIN</abbr>.</td><td><span class="tag tmpl">Pending</span></td></tr>
+      <tr><td><b>X-energy</b></td><td>Technology</td><td>Supplier of the Xe-100 (HTGR, 80MWe/200MWth). <b>Not a confirmed Indonesian project</b> — the deployment scenario this chart depicts. Indonesia's active threads are NuScale and ThorCon.</td><td><span class="tag tmpl">Scenario</span></td></tr>
+      <tr><td><b>TRISO-X</b></td><td>Fuel</td><td>X-energy subsidiary; supplies TRISO·HALEU fuel (follows the Xe-100 scenario).</td><td><span class="tag tmpl">Scenario</span></td></tr>
+      <tr><td><b>DL E&amp;C · Doosan Enerbility</b></td><td>EPC</td><td>X-energy's Korean partners ($25M strategic investment, Jan 2023) — <b>DL E&amp;C = engineering, procurement &amp; construction management (CM)</b>; <b>Doosan = main components</b> (binding 16-unit reservation; new Changwon SMR plant, Dec 2025); <b>local partners = construction</b>. The partnership is confirmed; an Indonesian contract is not.</td><td><span class="tag ok">Confirmed</span></td></tr>
+      <tr><td><b>USTDA · US State FIRST</b></td><td>Grant</td><td><abbr title="Foundational Infrastructure for the Responsible Use of SMR Technology">FIRST</abbr> = US State Dept capacity building (active in Indonesia — Jakarta SMR conference Mar 2026, BRIN US benchmarking). The <abbr title="U.S. Trade and Development Agency">USTDA</abbr> feasibility grant was awarded for the <b>NuScale West Kalimantan case</b>. (+ IAEA technical cooperation)</td><td><span class="tag ok">Confirmed</span></td></tr>
       <tr><td><b>US DFC · US EXIM · KEXIM · K-SURE</b></td><td>Equity·Debt·ECA</td><td><abbr title="U.S. International Development Finance Corp.">DFC</abbr> = equity + political-risk insurance for overseas nuclear (the only US tool that can take equity); <abbr title="Export-Import Bank of the US">EXIM</abbr> = loans/guarantees (no equity by statute). Korean EPC scope backed by <abbr title="Export-Import Bank of Korea">KEXIM</abbr>/<abbr title="Korea Trade Insurance Corp.">K-SURE</abbr> ECA finance.</td><td><span class="tag tmpl">Candidate</span></td></tr>
       <tr><td><b>Operator (O&amp;M)</b></td><td>Operation</td><td>Typically the owner (PLN IP) operates with X-energy O&amp;M / technical support; a dedicated OpCo is also possible.</td><td><span class="tag tmpl">Candidate</span></td></tr>
     </tbody>
@@ -349,26 +351,280 @@
 
   <h2>Notes · Confidence</h2>
   <ul>
-    <li><span class="tag ok">Confirmed</span> = a real party/structure verified from public sources; <span class="tag tmpl">Candidate</span> = a party typical of the US/Korea nuclear-export financing structure (not confirmed for a specific Indonesia contract).</li>
-    <li><b>Financing caveat:</b> EXIM/KEXIM/K-SURE provide debt and guarantees only, not equity. The US-government vehicle that can take equity in overseas nuclear is <b>DFC</b>. Multilateral banks (World Bank, ADB) generally do not finance nuclear.</li>
-    <li><b>Don't confuse with a separate project:</b> Indonesia also has the West Kalimantan NuScale case (462MWe; USTDA+Fluor+JGC) alongside this X-energy/HTGR structure. This chart is the X-energy (Xe-100) case.</li>
+    <li><span class="tag ok">Confirmed</span> = a real party/structure verified from public sources; <span class="tag tmpl">Scenario/Candidate</span> = a typical structural candidate or the deployment scenario this page assumes (not confirmed for a specific Indonesia contract).</li>
+    <li><b>This chart depicts an X-energy (Xe-100) deployment scenario.</b> Indonesia's confirmed active threads are <b>NuScale West Kalimantan</b> (USTDA feasibility; 6×77MWe = 462MWe; Fluor·JGC) and <b>ThorCon</b> (TMSR-500; BAPETEN approved the Kelasa Island siting evaluation). No public source links X-energy directly to Indonesia.</li>
+    <li><b>Policy basis (2025–):</b> New national energy policy PP 40/2025 (nuclear 0.4% in 2032 → 12.1% in 2060); RUPTL 2025–2034 includes nuclear for the first time — 250MW Bangka (2032) + 250MW Kalimantan (2033) = 500MW. DEN proposed 29 candidate sites (Jan 2025). SWF <b>Danantara</b> emerging as a strategic-energy funding channel.</li>
+    <li><b>Financing caveat:</b> EXIM/KEXIM/K-SURE provide debt and guarantees only, not equity. The US-government vehicle that can take equity in overseas nuclear is <b>DFC</b> (policy changed Jul 2020; budget-scoring constraints limit use in practice). Multilateral banks (World Bank, ADB) generally do not finance nuclear.</li>
     <li>Final equity, borrower and operator must be fixed by the project agreements; the financing parties above are a candidate set.</li>
   </ul>
 </div>
 
-<!-- sources + footer (shared) -->
+<!-- sources — Indonesia -->
 <div class="notes">
   <h2><span class="only-ko">출처</span><span class="only-en">Sources</span></h2>
   <ul>
-    <li><a href="https://www.ustda.gov/ustda-indonesia-partner-on-nuclear-power/">USTDA — USTDA, Indonesia Partner on Nuclear Power</a></li>
-    <li><a href="https://www.world-nuclear-news.org/Articles/USA,-Indonesia-announce-partnership-on-SMRs">World Nuclear News — USA, Indonesia announce partnership on SMRs</a></li>
+    <li><a href="https://www.ustda.gov/ustda-indonesia-partner-on-nuclear-power/">USTDA — USTDA, Indonesia Partner on Nuclear Power (NuScale 건, 2023-03)</a></li>
+    <li><a href="https://world-nuclear.org/information-library/country-profiles/countries-g-n/nuclear-power-in-indonesia">World Nuclear Association — Nuclear Power in Indonesia</a></li>
+    <li><a href="https://www.ashurstperkinscoie.com/en/insights/indonesias-new-power-development-plan/">Ashurst — Indonesia's new power development plan (RUPTL 2025–2034)</a></li>
+    <li><a href="https://www.nucnet.org/news/indonesia-council-proposes-29-sites-for-potential-nuclear-power-plants-1-5-2025">NucNet — 29 candidate sites proposed (2025-01)</a></li>
     <li><a href="https://www.dfc.gov/sites/default/files/media/documents/DFC%20Report%20-%20Civilian%20Nuclear%20Energy%202024.pdf">DFC — Financing Nuclear Energy-Related Projects Overseas (2024)</a></li>
     <li><a href="https://x-energy.com/news/x-energy-doosan-enerbility-announce-16-unit-reservation-agreement-and-capacity-expansion-to-support-11-gw-pipeline/">X-energy — Doosan 16-Unit Reservation / Changwon plant</a></li>
-    <li><a href="https://world-nuclear.org/information-library/country-profiles/countries-g-n/nuclear-power-in-indonesia">World Nuclear Association — Nuclear Power in Indonesia</a></li>
+    <li><a href="https://www.nucnet.org/news/x-energy-deal-sees-doosan-commit-to-construction-of-xe-100-smr-fabrication-facility-in-south-korea-12-4-2025">NucNet — Doosan Xe-100 fabrication facility (2025-12)</a></li>
   </ul>
+</div>
+</div><!-- /notes id -->
+
+<!-- ===================== NOTES — PHILIPPINES ===================== -->
+<div data-country-notes="ph" style="display:none">
+<div class="notes only-ko">
+  <h2>구성 당사자 · 역할</h2>
+  <table>
+    <thead><tr><th style="width:170px">당사자</th><th style="width:110px">역할</th><th>설명 · 근거</th><th style="width:84px">구분</th></tr></thead>
+    <tbody>
+      <tr><td><b>Meralco / MGEN</b></td><td>사업주·구매자</td><td>루손 최대 배전사(EPIRA 민영화 시장). NEST 프로그램으로 민간 최선두 — USTDA $2.8M 타당성조사(2026-02 서명)로 미국산 SMR 설계 비교·기술선정 수행, 2026년 내 shortlist 예정.</td><td><span class="tag ok">확정</span></td></tr>
+      <tr><td><b>NEP-IAC</b></td><td>국가 도입 기구</td><td>EO 116(2020)으로 설립된 범정부 NEPIO, EO 164(2022)로 원자력 국가정책 채택. DOE 주도, IAEA 19개 인프라 이슈 관리.</td><td><span class="tag ok">확정</span></td></tr>
+      <tr><td><b>PhilATOM</b></td><td>규제기관 (신설)</td><td>RA 12305(2025-09-18 서명)로 신설되는 최초의 독립 원자력 규제기관. PNRI 규제기능 흡수, IRR 2026년 초 예정. 현재 실무 규제는 PNRI(DOST 산하).</td><td><span class="tag ok">확정</span></td></tr>
+      <tr><td><b>KHNP (+ KEPCO KPS·Doosan)</b></td><td>BNPP 재생</td><td>바탄원전(BNPP, 620MWe) 재생 타당성조사 2025-01 착수(KHNP 전액 부담, 지연 중). 2026-03-04 KHNP·KEXIM·Meralco 3자 MOU.</td><td><span class="tag ok">확정 조사</span></td></tr>
+      <tr><td><b>미국 SMR 벤더</b></td><td>기술 후보</td><td>USTDA 조사가 미국산 SMR 설계 비교·선정 목적. 국무부 FIRST가 NuScale VOYGR 기반 제어실 시뮬레이터($1.5M) 제공.</td><td><span class="tag tmpl">선정 중</span></td></tr>
+      <tr><td><b>EDF · Doosan Enerbility</b></td><td>협력 파트너</td><td>EDF—Meralco 협력각서(2025-04: 부지·계통통합·교육), Doosan—Meralco 저탄소 MOU(2024-10).</td><td><span class="tag ok">확정 MOU</span></td></tr>
+      <tr><td><b>USNC (Ultra Safe Nuclear)</b></td><td>(종료)</td><td>2023-11 Meralco와 MMR 협력했으나 2024-10 Chapter 11 파산 — MMR IP는 NANO Nuclear, TRISO 연료자산은 Standard Nuclear로 분할 매각. 해당 스터디 중단.</td><td><span class="tag tmpl">소멸</span></td></tr>
+      <tr><td><b>미·필 123협정</b></td><td>프레임워크</td><td>2024-07-02 발효(2054년까지) — 미국산 기술·연료 수출의 법적 기반.</td><td><span class="tag ok">확정</span></td></tr>
+    </tbody>
+  </table>
+  <h2>주석</h2>
+  <ul>
+    <li>목표(PEP 2032–2050): <b>2032년 상업원전 1,200MW</b> → 2035년 2,400MW → 2050년 4,800MW.</li>
+    <li>민영화 시장이라 구조가 인니와 다름 — 국영 단일구매자 대신 <b>배전사 PSA(전력구매계약)+ERC 인가</b> 또는 WESM 현물시장. 사업주는 민간(Meralco·Aboitiz 등)이 주도하고 NPC는 BNPP 자산 보유자로만 관여.</li>
+    <li>기술선은 미정 — SMR 신설(Meralco 경로)과 BNPP 재생(KHNP 경로)이 병행 진행 중인 별개 트랙.</li>
+  </ul>
+  <h2>출처</h2>
+  <ul>
+    <li><a href="https://world-nuclear.org/information-library/country-profiles/countries-o-s/philippines">World Nuclear Association — Nuclear Power in the Philippines</a></li>
+    <li><a href="https://www.meralcopowergen.com.ph/one-meralco-advances-nuclear-energy-push-with-2-8m-ustda-grant/">MGEN — $2.8M USTDA grant (2026)</a></li>
+    <li><a href="https://newsinfo.inquirer.net/2115362/marcos-signs-law-creating-philatom-new-nuclear-regulatory-agency">Inquirer — Marcos signs PhilATOM law (2025-09)</a></li>
+    <li><a href="https://www.world-nuclear-news.org/articles/korea-to-assess-rehabilitation-of-philippine-plant">WNN — Korea to assess BNPP rehabilitation</a></li>
+    <li><a href="https://ph.usembassy.gov/fact-sheet-u-s-philippines-civilian-nuclear-cooperation/">US Embassy — US–Philippines civil nuclear cooperation</a></li>
+  </ul>
+</div>
+<div class="notes only-en">
+  <h2>Parties · Roles</h2>
+  <table>
+    <thead><tr><th style="width:170px">Party</th><th style="width:120px">Role</th><th>Description · Basis</th><th style="width:96px">Status</th></tr></thead>
+    <tbody>
+      <tr><td><b>Meralco / MGEN</b></td><td>Owner · Off-taker</td><td>Largest Luzon distribution utility (privatized EPIRA market). Leads via the NEST program — USTDA $2.8M feasibility study (signed Feb 2026) comparing US SMR designs; shortlist expected in 2026.</td><td><span class="tag ok">Confirmed</span></td></tr>
+      <tr><td><b>NEP-IAC</b></td><td>National body</td><td>Whole-of-government NEPIO created by EO 116 (2020); national nuclear policy adopted by EO 164 (2022). DOE-led; manages the IAEA 19 infrastructure issues.</td><td><span class="tag ok">Confirmed</span></td></tr>
+      <tr><td><b>PhilATOM</b></td><td>Regulator (new)</td><td>First independent nuclear regulator, created by RA 12305 (signed 2025-09-18); absorbs PNRI's regulatory functions; IRR expected early 2026.</td><td><span class="tag ok">Confirmed</span></td></tr>
+      <tr><td><b>KHNP (+ KEPCO KPS·Doosan)</b></td><td>BNPP rehab</td><td>Bataan NPP (620MWe) rehabilitation feasibility study since Jan 2025 (KHNP-funded, delayed). KHNP·KEXIM·Meralco trilateral MOU (2026-03-04).</td><td><span class="tag ok">Confirmed study</span></td></tr>
+      <tr><td><b>US SMR vendors</b></td><td>Technology</td><td>USTDA study compares US SMR designs for selection. State Dept FIRST provided a $1.5M NuScale VOYGR-based control-room simulator.</td><td><span class="tag tmpl">Selecting</span></td></tr>
+      <tr><td><b>EDF · Doosan Enerbility</b></td><td>Partners</td><td>EDF–Meralco MOC (Apr 2025: siting, grid integration, training); Doosan–Meralco low-carbon MOU (Oct 2024).</td><td><span class="tag ok">MOU</span></td></tr>
+      <tr><td><b>USNC (Ultra Safe Nuclear)</b></td><td>(ended)</td><td>2023 MMR cooperation with Meralco; Chapter 11 in Oct 2024 — MMR IP to NANO Nuclear, TRISO assets to Standard Nuclear. Study halted.</td><td><span class="tag tmpl">Defunct</span></td></tr>
+      <tr><td><b>US–PH 123 Agreement</b></td><td>Framework</td><td>In force 2024-07-02 (through 2054) — legal basis for US-origin technology and fuel exports.</td><td><span class="tag ok">Confirmed</span></td></tr>
+    </tbody>
+  </table>
+  <h2>Notes</h2>
+  <ul>
+    <li>Targets (PEP 2032–2050): <b>1,200MW commercial nuclear by 2032</b> → 2,400MW by 2035 → 4,800MW by 2050.</li>
+    <li>Privatized market — instead of a state single buyer, off-take runs via <b>distribution-utility PSAs + ERC approval</b> or the WESM spot market. Private players (Meralco, Aboitiz) lead; NPC's role is as owner of the BNPP asset.</li>
+    <li>Technology undecided — new-build SMR (Meralco track) and BNPP rehabilitation (KHNP track) proceed as separate threads.</li>
+  </ul>
+  <h2>Sources</h2>
+  <ul>
+    <li><a href="https://world-nuclear.org/information-library/country-profiles/countries-o-s/philippines">World Nuclear Association — Nuclear Power in the Philippines</a></li>
+    <li><a href="https://www.meralcopowergen.com.ph/one-meralco-advances-nuclear-energy-push-with-2-8m-ustda-grant/">MGEN — $2.8M USTDA grant (2026)</a></li>
+    <li><a href="https://newsinfo.inquirer.net/2115362/marcos-signs-law-creating-philatom-new-nuclear-regulatory-agency">Inquirer — PhilATOM law (Sep 2025)</a></li>
+    <li><a href="https://www.world-nuclear-news.org/articles/korea-to-assess-rehabilitation-of-philippine-plant">WNN — BNPP rehabilitation study</a></li>
+    <li><a href="https://ph.usembassy.gov/fact-sheet-u-s-philippines-civilian-nuclear-cooperation/">US Embassy — civil nuclear cooperation fact sheet</a></li>
+  </ul>
+</div>
+</div>
+
+<!-- ===================== NOTES — VIETNAM ===================== -->
+<div data-country-notes="vn" style="display:none">
+<div class="notes only-ko">
+  <h2>구성 당사자 · 역할</h2>
+  <table>
+    <thead><tr><th style="width:170px">당사자</th><th style="width:110px">역할</th><th>설명 · 근거</th><th style="width:84px">구분</th></tr></thead>
+    <tbody>
+      <tr><td><b>EVN</b></td><td>구매자·NT1 사업주</td><td>국영 전력공사·단일 구매자(EVN EPTC). 2025-02 총리 지시로 Ninh Thuận 1 투자자 지정.</td><td><span class="tag ok">확정</span></td></tr>
+      <tr><td><b>PVN (Petrovietnam)</b></td><td>NT2 사업주</td><td>2025-02 Ninh Thuận 2 투자자 지정 — 소유-운영(owner-operator) 예정.</td><td><span class="tag ok">확정</span></td></tr>
+      <tr><td><b>국가 원자력 조정위</b></td><td>국가 도입 기구</td><td>총리 주재 국가지도위원회(2025-01 설치), 주관 부처는 MOIT(PDP8·SMR 결의안).</td><td><span class="tag ok">확정</span></td></tr>
+      <tr><td><b>VARANS · VINATOM</b></td><td>규제 · R&amp;D</td><td>개정 원자력법(2025-06-27 통과, 2026-01-01 시행)으로 VARANS 규제 독립성 강화. VINATOM은 R&amp;D·인력, 신규 연구로(CNEST 15MWt) 2027 착공 목표.</td><td><span class="tag ok">확정</span></td></tr>
+      <tr><td><b>Rosatom</b></td><td>NT1 기술·EPC·연료</td><td>VVER-1200 ×2 정부간협정(IGA, 2026 — 보도상 1~3월 상이, 확인 필요). EPC는 Atomstroyexport + 현지 PECC2(타당성 갱신 계약 2025-09). 연료 TVEL, 사용후연료 반송 포함. 舊 조건($8bn·85% 러 금융) 재협상 중.</td><td><span class="tag ok">확정</span></td></tr>
+      <tr><td><b>KEPCO / KHNP</b></td><td>NT2 기술 (유력)</td><td>일본(JINED) 철수(2026-01) 후 협상 선두 — APR1400 후보. 인력양성 MOU(2025-08), PVN·KEPCO·KEXIM·K-SURE 금융조사 합의(2026-04, 이재명 대통령 하노이 방문 계기). 최종 선정 미정.</td><td><span class="tag tmpl">유력 후보</span></td></tr>
+      <tr><td><b>Westinghouse</b></td><td>기술 후보</td><td>PVN과 정보교환 합의(2025-05).</td><td><span class="tag tmpl">후보</span></td></tr>
+      <tr><td><b>SMR (민간 개방)</b></td><td>제도화 추진</td><td>개정법·MOIT 결의안 초안으로 민간기업 SMR(철강·석화·반도체·데이터센터) 2026–2030 투자 개방 추진. 벤더 미선정.</td><td><span class="tag tmpl">정책 단계</span></td></tr>
+    </tbody>
+  </table>
+  <h2>주석</h2>
+  <ul>
+    <li>2024-11-30 국회 결의 174/2024/QH15로 프로그램 재개(2016년 중단분). 완공 목표 2030–2031년(야심적).</li>
+    <li>PDP8 개정(Decision 768/QD-TTg, 2025-04-15): 원자력 <b>4,000–6,400MW를 2030–2035년</b>, 2050년까지 +8,000MW.</li>
+    <li>NT2 기술선은 게시 시점 기준 미확정(한국 유력, 2026-05 협상 목표 보도) — 최신 상황 재확인 필요.</li>
+  </ul>
+  <h2>출처</h2>
+  <ul>
+    <li><a href="https://world-nuclear.org/information-library/country-profiles/countries-t-z/vietnam">World Nuclear Association — Nuclear Power in Vietnam</a></li>
+    <li><a href="https://www.trade.gov/market-intelligence/vietnam-nuclear-power">US ITA — Vietnam Nuclear Power market intelligence</a></li>
+    <li><a href="https://insightplus.bakermckenzie.com/bm/energy-mining-infrastructure_1/vietnam-new-2025-atomic-energy-law-safe-secure-and-sustainable-nuclear-development">Baker McKenzie — Vietnam's new 2025 Atomic Energy Law</a></li>
+    <li><a href="https://www.world-nuclear-news.org/articles/vietnam-russia-intergovernmental-agreement-on-new-nuclear">WNN — Vietnam–Russia IGA</a></li>
+    <li><a href="https://thevietnamese.org/2026/04/viet-nam-explores-nuclear-power-revival-with-south-korean-partnerships/">The Vietnamese — Korea partnerships for NT2 (2026-04)</a></li>
+  </ul>
+</div>
+<div class="notes only-en">
+  <h2>Parties · Roles</h2>
+  <table>
+    <thead><tr><th style="width:170px">Party</th><th style="width:120px">Role</th><th>Description · Basis</th><th style="width:96px">Status</th></tr></thead>
+    <tbody>
+      <tr><td><b>EVN</b></td><td>Off-taker · NT1 owner</td><td>State utility and single buyer (EVN EPTC). Assigned Ninh Thuan 1 investor by PM directive, Feb 2025.</td><td><span class="tag ok">Confirmed</span></td></tr>
+      <tr><td><b>PVN (Petrovietnam)</b></td><td>NT2 owner</td><td>Assigned Ninh Thuan 2 investor (Feb 2025) — intended owner-operator.</td><td><span class="tag ok">Confirmed</span></td></tr>
+      <tr><td><b>State Steering Committee</b></td><td>National body</td><td>PM-chaired committee (Jan 2025); MOIT is the lead ministry (PDP8, SMR resolution).</td><td><span class="tag ok">Confirmed</span></td></tr>
+      <tr><td><b>VARANS · VINATOM</b></td><td>Regulator · R&amp;D</td><td>Amended Atomic Energy Law (passed 2025-06-27, effective 2026-01-01) strengthens VARANS' independence. VINATOM: R&amp;D and training; CNEST 15MWt research reactor targeted for 2027.</td><td><span class="tag ok">Confirmed</span></td></tr>
+      <tr><td><b>Rosatom</b></td><td>NT1 tech·EPC·fuel</td><td>IGA for 2× VVER-1200 (2026 — reported Jan–Mar, to be confirmed). EPC via Atomstroyexport + local PECC2 (FS update, Sep 2025). TVEL fuel with take-back. Old terms ($8bn, 85% Russian financing) under renegotiation.</td><td><span class="tag ok">Confirmed</span></td></tr>
+      <tr><td><b>KEPCO / KHNP</b></td><td>NT2 tech (leading)</td><td>Leading after Japan's (JINED) withdrawal (Jan 2026) — APR1400 candidate. Workforce MOU (Aug 2025); PVN·KEPCO·KEXIM·K-SURE financing study (Apr 2026). Not final.</td><td><span class="tag tmpl">Leading candidate</span></td></tr>
+      <tr><td><b>Westinghouse</b></td><td>Tech candidate</td><td>Information-exchange agreement with PVN (May 2025).</td><td><span class="tag tmpl">Candidate</span></td></tr>
+      <tr><td><b>SMR (private opening)</b></td><td>Policy stage</td><td>Amended law + draft MOIT resolution would open private SMR investment (steel, petrochem, semiconductors, data centers) in 2026–2030. No vendor selected.</td><td><span class="tag tmpl">Policy</span></td></tr>
+    </tbody>
+  </table>
+  <h2>Notes</h2>
+  <ul>
+    <li>Program restarted by National Assembly Resolution 174/2024/QH15 (2024-11-30) after the 2016 suspension; completion targeted 2030–2031 (ambitious).</li>
+    <li>Revised PDP8 (Decision 768/QD-TTg, 2025-04-15): <b>4,000–6,400MW nuclear in 2030–2035</b>, +8,000MW by 2050.</li>
+    <li>NT2 technology not final as of writing (Korea leading; negotiations reportedly targeted May 2026) — re-verify before relying on this.</li>
+  </ul>
+  <h2>Sources</h2>
+  <ul>
+    <li><a href="https://world-nuclear.org/information-library/country-profiles/countries-t-z/vietnam">World Nuclear Association — Nuclear Power in Vietnam</a></li>
+    <li><a href="https://www.trade.gov/market-intelligence/vietnam-nuclear-power">US ITA — Vietnam Nuclear Power</a></li>
+    <li><a href="https://insightplus.bakermckenzie.com/bm/energy-mining-infrastructure_1/vietnam-new-2025-atomic-energy-law-safe-secure-and-sustainable-nuclear-development">Baker McKenzie — 2025 Atomic Energy Law</a></li>
+    <li><a href="https://www.world-nuclear-news.org/articles/vietnam-russia-intergovernmental-agreement-on-new-nuclear">WNN — Vietnam–Russia IGA</a></li>
+    <li><a href="https://thevietnamese.org/2026/04/viet-nam-explores-nuclear-power-revival-with-south-korean-partnerships/">The Vietnamese — Korea partnerships (Apr 2026)</a></li>
+  </ul>
+</div>
+</div>
+
+<!-- ===================== NOTES — MALAYSIA ===================== -->
+<div data-country-notes="my" style="display:none">
+<div class="notes only-ko">
+  <h2>구성 당사자 · 역할</h2>
+  <table>
+    <thead><tr><th style="width:170px">당사자</th><th style="width:110px">역할</th><th>설명 · 근거</th><th style="width:84px">구분</th></tr></thead>
+    <tbody>
+      <tr><td><b>MyPOWER</b></td><td>국가 도입 기구</td><td>13차 말레이시아 계획(2025-07-31)이 NEPIO로 지정 — PETRA(에너지전환수자원부) 산하. 사전타당성(2024) → 본 타당성조사(2025-08~), INIR Phase 1 ~2027 목표. (舊 NEPIO MNPC는 2018년 해산, 부활 안 됨)</td><td><span class="tag ok">확정</span></td></tr>
+      <tr><td><b>Atom Malaysia · Nuklear Malaysia</b></td><td>규제 · R&amp;D</td><td>규제=Atom Malaysia(구 AELB, MOSTI 산하, 2022 개칭 · 허가법 2025 개정), R&amp;D=말레이시아 원자력청(TRIGA 연구로 운영).</td><td><span class="tag ok">확정</span></td></tr>
+      <tr><td><b>TNB</b></td><td>사업주·운영 후보</td><td>내부 Nuclear Taskforce(~2023) 운영, Developer-Owner-Operator(DOO) 지향 공표. 정부 지정은 아직 없음. 반도 시장은 TNB 경유 단일구매 체계.</td><td><span class="tag tmpl">유력 후보</span></td></tr>
+      <tr><td><b>미국</b></td><td>협력 프레임워크</td><td>전략 민간원자력 협력 MOU(2025-07-10, 국무장관급) — 123협정 협상 개시. 체결 시 미국산 기술·연료 경로 개방.</td><td><span class="tag ok">확정 MOU</span></td></tr>
+      <tr><td><b>Rosatom</b></td><td>기술 후보</td><td>MyPOWER와 NDA(2025-06), MOSTI 러시아 부유식원전(FNPP) 시찰 등 접촉.</td><td><span class="tag tmpl">후보</span></td></tr>
+      <tr><td><b>벤더·연료·EPC·금융</b></td><td>전부 미정</td><td>벤더 선택에 연동 — US EXIM/DFC·KEXIM/K-SURE·JBIC/NEXI·러 국가금융이 통상 후보. SMR ~300MW급·부유식 포함 검토.</td><td><span class="tag tmpl">후보</span></td></tr>
+    </tbody>
+  </table>
+  <h2>주석</h2>
+  <ul>
+    <li>계획 문서(JPPPET)상 ~2031년 300MW급 COD, 2034년까지 대형 ~3GW 시나리오가 있으나 공식 발언은 "10–15년 내" — 야심적 일정으로 봄. 부지 미선정.</li>
+    <li><b>Sarawak은 제외</b>: 주총리가 재생에너지 허브 노선으로 원자력 "무관" 발언(2025-07). Sarawak Energy SMR MOU는 확인 안 됨.</li>
+    <li>IAEA Milestones 접근 준수 — Grossi 사무총장 "탄탄한 기반" 평가(2026-06).</li>
+  </ul>
+  <h2>출처</h2>
+  <ul>
+    <li><a href="https://www.world-nuclear-news.org/articles/malaysia-launches-nuclear-energy-feasibility-study">WNN — Malaysia launches nuclear energy feasibility study</a></li>
+    <li><a href="https://www.state.gov/releases/office-of-the-spokesperson/2025/07/united-states-and-malaysia-sign-memorandum-of-understanding-concerning-strategic-civil-nuclear-cooperation-and-launch-negotiations-for-a-civil-nuclear-cooperation-agreement">US State Dept — US–Malaysia civil nuclear MOU (2025-07)</a></li>
+    <li><a href="https://www.nst.com.my/amp/news/nation/2026/06/1462966/iaea-chief-malaysia-solid-footing-pursue-nuclear-power">NST — IAEA chief: Malaysia on solid footing (2026-06)</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Department_of_Atomic_Energy_(Malaysia)">Atom Malaysia (Department of Atomic Energy)</a></li>
+  </ul>
+</div>
+<div class="notes only-en">
+  <h2>Parties · Roles</h2>
+  <table>
+    <thead><tr><th style="width:170px">Party</th><th style="width:120px">Role</th><th>Description · Basis</th><th style="width:96px">Status</th></tr></thead>
+    <tbody>
+      <tr><td><b>MyPOWER</b></td><td>National body</td><td>Designated NEPIO in the 13th Malaysia Plan (2025-07-31), under PETRA. Pre-feasibility (2024) → full feasibility (from Aug 2025); INIR Phase 1 targeted ~2027. (The former NEPIO, MNPC, was disbanded in 2018 and not revived.)</td><td><span class="tag ok">Confirmed</span></td></tr>
+      <tr><td><b>Atom Malaysia · Nuklear Malaysia</b></td><td>Regulator · R&amp;D</td><td>Regulator = Atom Malaysia (ex-AELB, under MOSTI; renamed 2022; Licensing Act amended 2025). R&amp;D = Malaysian Nuclear Agency (TRIGA research reactor).</td><td><span class="tag ok">Confirmed</span></td></tr>
+      <tr><td><b>TNB</b></td><td>Owner · operator candidate</td><td>Internal Nuclear Taskforce since ~2023; publicly positions as Developer-Owner-Operator. Not yet designated. Peninsular market runs on the TNB single-buyer mechanism.</td><td><span class="tag tmpl">Strong candidate</span></td></tr>
+      <tr><td><b>United States</b></td><td>Framework</td><td>Strategic Civil Nuclear Cooperation MOU (2025-07-10); 123 Agreement negotiations launched — would open the US technology/fuel route.</td><td><span class="tag ok">MOU</span></td></tr>
+      <tr><td><b>Rosatom</b></td><td>Tech candidate</td><td>NDA with MyPOWER (Jun 2025); MOSTI visits on floating NPPs.</td><td><span class="tag tmpl">Candidate</span></td></tr>
+      <tr><td><b>Vendor·fuel·EPC·finance</b></td><td>All undecided</td><td>Follow the vendor choice — US EXIM/DFC, KEXIM/K-SURE, JBIC/NEXI, or Russian state finance are the usual candidates. Considering ~300MW SMRs incl. floating.</td><td><span class="tag tmpl">Candidate</span></td></tr>
+    </tbody>
+  </table>
+  <h2>Notes</h2>
+  <ul>
+    <li>Planning documents (JPPPET) show a ~300MW unit around 2031 and up to ~3GW by 2034, but official language says "10–15 years" — treat the timeline as ambitious. No site selected.</li>
+    <li><b>Sarawak is out</b>: the Premier called nuclear "irrelevant" for renewables-hub Sarawak (Jul 2025); no Sarawak Energy SMR MOU found.</li>
+    <li>Following the IAEA Milestones approach — DG Grossi: Malaysia on "solid footing" (Jun 2026).</li>
+  </ul>
+  <h2>Sources</h2>
+  <ul>
+    <li><a href="https://www.world-nuclear-news.org/articles/malaysia-launches-nuclear-energy-feasibility-study">WNN — Malaysia launches feasibility study</a></li>
+    <li><a href="https://www.state.gov/releases/office-of-the-spokesperson/2025/07/united-states-and-malaysia-sign-memorandum-of-understanding-concerning-strategic-civil-nuclear-cooperation-and-launch-negotiations-for-a-civil-nuclear-cooperation-agreement">US State Dept — US–Malaysia MOU (Jul 2025)</a></li>
+    <li><a href="https://www.nst.com.my/amp/news/nation/2026/06/1462966/iaea-chief-malaysia-solid-footing-pursue-nuclear-power">NST — IAEA chief on Malaysia (Jun 2026)</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Department_of_Atomic_Energy_(Malaysia)">Atom Malaysia</a></li>
+  </ul>
+</div>
+</div>
+
+<!-- ===================== NOTES — SINGAPORE ===================== -->
+<div data-country-notes="sg" style="display:none">
+<div class="notes only-ko">
+  <h2>구성 당사자 · 역할</h2>
+  <table>
+    <thead><tr><th style="width:170px">당사자</th><th style="width:110px">역할</th><th>설명 · 근거</th><th style="width:84px">구분</th></tr></thead>
+    <tbody>
+      <tr><td><b>EMA 원자력팀</b></td><td>사실상 NEPIO</td><td>에너지시장청(EMA) 내 원자력 전담조직이 도입 검토 주도. Mott MacDonald 타당성 스터디 발주(2025-09, 약 2년). 공식 NEPIO 선언은 없음.</td><td><span class="tag ok">확정</span></td></tr>
+      <tr><td><b>SNRSI</b></td><td>연구·안전</td><td>싱가포르 원자력연구안전연구소 — 2025-07-11 NUS에 출범, S$66M, 2030년까지 전문가 100명 목표.</td><td><span class="tag ok">확정</span></td></tr>
+      <tr><td><b>NEA</b></td><td>방사선안전 규제</td><td>국가환경청 원자력안전부서가 규제 기능 담당(정식 원자력 규제기관은 미정).</td><td><span class="tag ok">확정</span></td></tr>
+      <tr><td><b>미·싱 123협정 · FIRST</b></td><td>프레임워크</td><td>2024-07-31 서명, <b>2024-12-12 발효</b> — 싱가포르 최초. FIRST 참여, MTI–DOE MOU(2026-01), INL·Battelle 협력(2025 SIEW).</td><td><span class="tag ok">확정</span></td></tr>
+      <tr><td><b>KHNP</b></td><td>기술·운영 후보</td><td>EMA와 SMR 역량구축 MOU(2026-03-01, 한·싱 정상회담 계기) — 싱가포르 기관과 첫 운영사급 협정. i-SMR 공동연구·훈련·정보공유.</td><td><span class="tag ok">확정 MOU</span></td></tr>
+      <tr><td><b>발전사 (Sembcorp·Keppel·YTL)</b></td><td>사업주 후보</td><td>자유화 시장(NEMS)의 발전사들 — 원자력 MOU·타당성조사는 아직 없음(2026-07 기준).</td><td><span class="tag tmpl">후보</span></td></tr>
+      <tr><td><b>역내 수입 (대안)</b></td><td>대체 경로</td><td>2035년까지 저탄소 전력 ~6GW 수입 목표(ASEAN 파워그리드) — 자국 건설 대신 이웃국(인니·말聯) 원전 전력 수입 옵션이 병행 검토됨.</td><td><span class="tag tmpl">정책 옵션</span></td></tr>
+    </tbody>
+  </table>
+  <h2>주석</h2>
+  <ul>
+    <li>도입 결정 전 스터디 단계 — PM 로렌스 웡이 2025 예산연설(2025-02-18)에서 "원자력 배치 가능성 연구" 공식화, Future Energy Fund에 S$5B 증액. 결정은 2020년대 말~2030년대 예상.</li>
+    <li>단일구매자 없는 자유화 시장(NEMS) — off-take는 EMA 주관의 CfD형 계약 구조가 필요할 것. 국토·완충구역 제약으로 부유식/해상 SMR 개념도 거론.</li>
+    <li>재원은 자체 조달(정부 기금) — 타국과 달리 외부 그랜트 수원국이 아님.</li>
+  </ul>
+  <h2>출처</h2>
+  <ul>
+    <li><a href="https://www.ema.gov.sg/news-events/news/media-releases/2026/Korea-Hydro-and-Nuclear-Power-and-Energy-Market-Authority-of-Singapore-to-Cooperate-on-Civil-Nuclear-Energy-Cooperation">EMA — KHNP·EMA civil nuclear cooperation (2026-03)</a></li>
+    <li><a href="https://www.mti.gov.sg/Newsroom/Press-Releases/2024/12/US-Singapore-Civil-Nuclear-Cooperation-Agreement-Enters-into-Force">MTI — US–Singapore 123 Agreement enters into force (2024-12)</a></li>
+    <li><a href="https://www.ema.gov.sg/news-events/news/media-releases/2025/ema-to-conduct-study-on-safety-technical-feasibility-of-advanced-nuclear-energy-technologies">EMA — advanced nuclear feasibility study (2025-09)</a></li>
+    <li><a href="https://www.ema.gov.sg/news-events/news/feature-stories/2025/singapore-and-nuclear-energy-a-conversation-in-progress">EMA — Singapore and nuclear energy</a></li>
+  </ul>
+</div>
+<div class="notes only-en">
+  <h2>Parties · Roles</h2>
+  <table>
+    <thead><tr><th style="width:170px">Party</th><th style="width:120px">Role</th><th>Description · Basis</th><th style="width:96px">Status</th></tr></thead>
+    <tbody>
+      <tr><td><b>EMA nuclear team</b></td><td>De facto NEPIO</td><td>Dedicated nuclear unit inside the Energy Market Authority leads the assessment; commissioned the Mott MacDonald feasibility study (Sep 2025, ~2 years). No formal NEPIO declared.</td><td><span class="tag ok">Confirmed</span></td></tr>
+      <tr><td><b>SNRSI</b></td><td>Research · safety</td><td>Singapore Nuclear Research and Safety Institute — launched 2025-07-11 at NUS; S$66M; 100 experts by 2030.</td><td><span class="tag ok">Confirmed</span></td></tr>
+      <tr><td><b>NEA</b></td><td>Radiation safety</td><td>The National Environment Agency's nuclear safety division holds the regulatory function (no formal nuclear regulator yet).</td><td><span class="tag ok">Confirmed</span></td></tr>
+      <tr><td><b>US–SG 123 · FIRST</b></td><td>Framework</td><td>Signed 2024-07-31, <b>in force 2024-12-12</b> — Singapore's first. FIRST participant; MTI–DOE MOU (Jan 2026); INL/Battelle agreements (SIEW 2025).</td><td><span class="tag ok">Confirmed</span></td></tr>
+      <tr><td><b>KHNP</b></td><td>Tech · operator candidate</td><td>SMR capability-building MOU with EMA (2026-03-01, Korea–Singapore summit) — first operator-level instrument with a Singapore agency. i-SMR joint studies, training, info-sharing.</td><td><span class="tag ok">MOU</span></td></tr>
+      <tr><td><b>Gencos (Sembcorp·Keppel·YTL)</b></td><td>Owner candidates</td><td>Gencos in the liberalized NEMS market — no nuclear MOU or feasibility study yet (as of Jul 2026).</td><td><span class="tag tmpl">Candidate</span></td></tr>
+      <tr><td><b>Regional imports (alternative)</b></td><td>Alternative route</td><td>~6GW of low-carbon imports targeted by 2035 (ASEAN Power Grid) — importing from neighbours' future nuclear is weighed against domestic build.</td><td><span class="tag tmpl">Policy option</span></td></tr>
+    </tbody>
+  </table>
+  <h2>Notes</h2>
+  <ul>
+    <li>Pre-decision study stage — PM Lawrence Wong formalized the study of potential nuclear deployment in Budget 2025 (2025-02-18); S$5B Future Energy Fund top-up. A decision is expected late 2020s–2030s.</li>
+    <li>Liberalized market with no single buyer (NEMS) — off-take would likely need an EMA-structured CfD-type contract. Land/buffer-zone constraints keep floating/offshore SMR concepts on the table.</li>
+    <li>Self-funded (government funds) — unlike its neighbours, Singapore is not a grant recipient.</li>
+  </ul>
+  <h2>Sources</h2>
+  <ul>
+    <li><a href="https://www.ema.gov.sg/news-events/news/media-releases/2026/Korea-Hydro-and-Nuclear-Power-and-Energy-Market-Authority-of-Singapore-to-Cooperate-on-Civil-Nuclear-Energy-Cooperation">EMA — KHNP·EMA cooperation (Mar 2026)</a></li>
+    <li><a href="https://www.mti.gov.sg/Newsroom/Press-Releases/2024/12/US-Singapore-Civil-Nuclear-Cooperation-Agreement-Enters-into-Force">MTI — 123 Agreement in force (Dec 2024)</a></li>
+    <li><a href="https://www.ema.gov.sg/news-events/news/media-releases/2025/ema-to-conduct-study-on-safety-technical-feasibility-of-advanced-nuclear-energy-technologies">EMA — feasibility study (Sep 2025)</a></li>
+    <li><a href="https://www.ema.gov.sg/news-events/news/feature-stories/2025/singapore-and-nuclear-energy-a-conversation-in-progress">EMA — Singapore and nuclear energy</a></li>
+  </ul>
+</div>
+</div>
+
+<!-- footer (shared) -->
+<div class="notes">
   <p style="margin-top:14px;color:var(--text-faint);font-size:12px;">
-    <span class="only-ko">최종 정리 2026-06-11 · 공개 출처 기준. 규제·금융 사실은 프로젝트 합의서로 재확인 필요.</span>
-    <span class="only-en">Compiled 2026-06-11 · based on public sources. Regulatory and financial facts to be re-confirmed against project agreements.</span>
+    <span class="only-ko">최종 정리 2026-07-02 · 공개 출처 기준(국가별 웹 검증). 규제·금융 사실은 프로젝트 합의서로 재확인 필요.</span>
+    <span class="only-en">Compiled 2026-07-02 · based on public sources (web-verified per country). Regulatory and financial facts to be re-confirmed against project agreements.</span>
   </p>
 </div>
 
@@ -379,10 +635,25 @@
   // per-country context line (shown when that country's tab is selected)
   var COUNTRY = {
     id: {
-      ko:'<span class="cn-flag">인도네시아</span> — PLN Indonesia Power가 100% 소유하는 프로젝트 SPV를 중심으로 <b>자금조달</b>·<b>운영</b> 파트너와 <b>국가 원자력 도입 기구(NEPIO)</b>를 연결. 기술·연료는 X-energy/TRISO-X, EPC는 DL E&amp;C·Doosan + 현지 파트너.',
-      en:'<span class="cn-flag">Indonesia</span> — A structure centered on the SPV wholly owned by PLN Indonesia Power, linking the <b>financing</b> and <b>operating</b> partners with the <b>national nuclear program body (NEPIO)</b>. Technology/fuel via X-energy/TRISO-X; EPC by DL E&amp;C · Doosan + local partners.'
+      ko:'<span class="cn-flag">인도네시아</span> — PLN Indonesia Power 100% 소유 SPV를 중심으로 한 <b>X-energy(Xe-100) 도입 시나리오</b>(한국 파트너 관점 · 인니 확정 사업 아님). 확정 진행 건은 <b>NuScale 서칼리만탄 타당성조사(USTDA)</b>·ThorCon 방카 부지평가. RUPTL 2025–2034에 원자력 500MW(2032·2033) 최초 반영, NEPIO는 대통령령 서명 대기.',
+      en:'<span class="cn-flag">Indonesia</span> — An <b>X-energy (Xe-100) deployment scenario</b> centered on an SPV wholly owned by PLN Indonesia Power (Korean-partner view; not a confirmed Indonesian project). Confirmed threads: <b>NuScale West Kalimantan feasibility (USTDA)</b> and ThorCon Bangka siting. RUPTL 2025–2034 includes 500MW of nuclear (2032·2033); the NEPIO decree awaits signature.'
+    },
+    ph: {
+      ko:'<span class="cn-flag">필리핀</span> — 민영화 전력시장. <b>Meralco/MGEN</b>이 USTDA 그랜트($2.8M, 2026)로 SMR 타당성조사·기술선정 진행, <b>KHNP</b>는 바탄원전(BNPP 620MW) 재생 타당성조사 수행. 규제는 신설 <b>PhilATOM</b>(RA 12305, 2025-09), NEPIO는 NEP-IAC. 목표: 2032년 상업원전 1,200MW.',
+      en:'<span class="cn-flag">Philippines</span> — Privatized market. <b>Meralco/MGEN</b> leads a USTDA-funded ($2.8M, 2026) SMR feasibility & technology selection; <b>KHNP</b> runs the Bataan NPP (620MW) rehabilitation study. Regulator: new <b>PhilATOM</b> (RA 12305, Sep 2025); NEPIO = NEP-IAC. Target: 1,200MW commercial nuclear by 2032.'
+    },
+    vn: {
+      ko:'<span class="cn-flag">베트남</span> — 2024-11 원전 재개. <b>Ninh Thuận 1 = EVN·Rosatom</b>(VVER-1200×2 · IGA 2026), <b>Ninh Thuận 2 = PVN</b>(한국 유력 — KEPCO·KEXIM·K-SURE 금융조사 2026-04, 일본은 철수). PDP8 개정: 2030–2035년 원자력 4,000–6,400MW. SMR은 민간 개방 제도화 추진 중.',
+      en:'<span class="cn-flag">Vietnam</span> — Program restarted Nov 2024. <b>Ninh Thuan 1 = EVN·Rosatom</b> (2× VVER-1200 · IGA 2026); <b>Ninh Thuan 2 = PVN</b> (Korea leading — KEPCO·KEXIM·K-SURE financing study Apr 2026; Japan withdrew). Revised PDP8: 4,000–6,400MW nuclear in 2030–2035. Private SMR investment being enabled.'
+    },
+    my: {
+      ko:'<span class="cn-flag">말레이시아</span> — 도입 검토 단계. 13차 계획(2025-07)이 <b>MyPOWER</b>(PETRA 산하)를 NEPIO로 지정, 본 타당성조사 진행(INIR Phase 1 ~2027 목표). <b>TNB</b>가 Developer-Owner-Operator 지향. 벤더 미선정 — 美 민간원자력 MOU(2025-07)·123 협상, Rosatom NDA 병행. 계획상 ~2031년 300MW급.',
+      en:'<span class="cn-flag">Malaysia</span> — Consideration stage. The 13th Malaysia Plan (Jul 2025) designated <b>MyPOWER</b> (under PETRA) as NEPIO; full feasibility study under way (INIR Phase 1 targeted ~2027). <b>TNB</b> positions as Developer-Owner-Operator. No vendor selected — US civil-nuclear MOU (Jul 2025) & 123 talks, plus a Rosatom NDA. Planning shows a ~300MW unit around 2031.'
+    },
+    sg: {
+      ko:'<span class="cn-flag">싱가포르</span> — 검토(스터디) 단계. <b>EMA</b> 원자력팀 주도, SNRSI 출범(2025-07, S$66M), Mott MacDonald 타당성 스터디(2025-09~, 약 2년). 美 123협정 발효(2024-12), <b>KHNP·EMA SMR MOU</b>(2026-03). 자국 건설 vs 역내 수입(ASEAN 그리드 6GW) 병행 검토 — 대부분 당사자는 아직 후보 단계.',
+      en:'<span class="cn-flag">Singapore</span> — Study stage. <b>EMA</b> nuclear team leads; SNRSI launched (Jul 2025, S$66M); Mott MacDonald feasibility study (from Sep 2025, ~2yrs). US 123 Agreement in force (Dec 2024); <b>KHNP–EMA SMR MOU</b> (Mar 2026). Weighing domestic build vs regional imports (6GW via ASEAN grid) — most parties still candidates.'
     }
-    // ph/vn/my/sg: add when each country's diagram is built
   };
   var curCountry = 'id';
 
@@ -422,6 +693,8 @@
       t.classList.add('active');
       curCountry = t.getAttribute('data-country');
       renderCountryNote(document.body.getAttribute('data-lang') || 'ko');
+      buildEditor();
+      renderCountryNotes();
     });
   });
 
@@ -440,26 +713,33 @@
   // Each party box can be set from a preset list or via free text ("type your own").
   // The Indonesia values are the first option of each list = the default first screen.
   var curLang = 'ko';
-  var PARTIES = [
+  // per-country party presets: first option of each list = that country's default diagram
+  var COUNTRY_PARTIES = {};
+  COUNTRY_PARTIES.id = [
     {key:'offtaker', ko:'구매자 (Off-taker)', en:'Off-taker', opts:[
       {name:'PLN', sub_ko:'국가 전력공사 · 장기 전력판매계약(PPA)', sub_en:'National utility · long-term PPA'}
     ]},
     {key:'grant', ko:'보조금 (Grant)', en:'Grant', opts:[
-      {name:'USTDA · US State FIRST', sub_ko:'타당성조사·역량강화 (+ IAEA TC)', sub_en:'Feasibility & capacity-building (+ IAEA TC)'},
+      {name:'US State FIRST · USTDA', sub_ko:'FIRST=역량강화(확정) · USTDA 조사=NuScale 건', sub_en:'FIRST=capacity-building · USTDA study=NuScale case'},
       {name:'IAEA TC', sub_ko:'기술협력·역량강화', sub_en:'Technical cooperation & capacity-building'}
     ]},
     {key:'equity', ko:'투자·차관 (Equity/Debt)', en:'Equity / Debt', opts:[
       {name:'DFC · EXIM · KEXIM · K-SURE', sub_ko:'US DFC=지분가능 · EXIM·KEXIM·K-SURE=부채/보증', sub_en:'DFC=equity-capable · EXIM/KEXIM/K-SURE=debt'},
       {name:'US DFC · US EXIM', sub_ko:'DFC=지분·정치위험보험 · EXIM=차관/보증', sub_en:'DFC=equity & PRI · EXIM=loans/guarantees'},
-      {name:'KEXIM · K-SURE', sub_ko:'한국 ECA 금융 (부채/보증)', sub_en:'Korean ECA finance (debt/guarantee)'}
+      {name:'KEXIM · K-SURE', sub_ko:'한국 ECA 금융 (부채/보증)', sub_en:'Korean ECA finance (debt/guarantee)'},
+      {name:'Danantara', sub_ko:'인니 국부펀드(2025) · 전략 에너지 지분 후보', sub_en:'Indonesian SWF (2025) · strategic-energy equity candidate'}
     ]},
     {key:'owner', ko:'사업주 (Owner)', en:'Owner', opts:[
-      {name:'PLN Indonesia Power', sub_ko:null, sub_en:null},
-      {name:'PLN Nusantara Power', sub_ko:null, sub_en:null}
+      {name:'PLN Indonesia Power', sub_ko:'지분 100% · PT PLN(Persero) 발전 자회사', sub_en:'100% equity · subsidiary of PT PLN (Persero)'},
+      {name:'PLN Nusantara Power', sub_ko:'지분 100% · PT PLN(Persero) 발전 자회사', sub_en:'100% equity · subsidiary of PT PLN (Persero)'}
+    ]},
+    {key:'nepio', ko:'국가 도입기구 (National Body)', en:'National body', opts:[
+      {name:'NEPIO', sub_ko:'설립 Perpres 서명 대기 · 규제 BAPETEN·R&D BRIN', sub_en:'Decree pending signature · BAPETEN / BRIN'}
     ]},
     {key:'tech', ko:'기술 공급 (Technology)', en:'Technology', opts:[
-      {name:'X·ENERGY', sub_ko:'Xe-100 · HTGR · 80MWe', sub_en:'Xe-100 · HTGR · 80MWe'},
-      {name:'NuScale', sub_ko:'VOYGR · 경수로(PWR) · 77MWe', sub_en:'VOYGR · PWR · 77MWe'},
+      {name:'X·ENERGY', sub_ko:'Xe-100 · HTGR · 80MWe — 도입 시나리오', sub_en:'Xe-100 · HTGR · 80MWe — scenario'},
+      {name:'NuScale', sub_ko:'VOYGR · 77MWe — 서칼리만탄 USTDA 건(확정 진행)', sub_en:'VOYGR · 77MWe — W. Kalimantan USTDA case (active)'},
+      {name:'ThorCon', sub_ko:'TMSR-500 · 용융염로 — 방카 부지평가 승인', sub_en:'TMSR-500 · MSR — Bangka siting approved'},
       {name:'GE Hitachi', sub_ko:'BWRX-300 · 비등경수로 · 300MWe', sub_en:'BWRX-300 · BWR · 300MWe'},
       {name:'Rolls-Royce SMR', sub_ko:'PWR · 470MWe', sub_en:'PWR · 470MWe'},
       {name:'Holtec', sub_ko:'SMR-300 · PWR · 300MWe', sub_en:'SMR-300 · PWR · 300MWe'},
@@ -487,7 +767,155 @@
     ]}
   ];
 
-  var cfg = {}, DEFAULTS = {}, touched = {};
+  COUNTRY_PARTIES.ph = [
+    {key:'offtaker', ko:'구매자 (Off-taker)', en:'Off-taker', opts:[
+      {name:'Meralco', sub_ko:'루손 최대 배전사 · PSA(전력구매계약)+ERC 인가', sub_en:'Largest distribution utility · PSA + ERC approval'},
+      {name:'WESM 도매시장', sub_ko:'현물시장 판매 (민영화 시장)', sub_en:'Wholesale spot market (privatized)'}
+    ]},
+    {key:'grant', ko:'보조금 (Grant)', en:'Grant', opts:[
+      {name:'USTDA · US State FIRST', sub_ko:'USTDA $2.8M 타당성조사(2026) · FIRST 시뮬레이터', sub_en:'USTDA $2.8M feasibility (2026) · FIRST simulator'},
+      {name:'IAEA TC', sub_ko:'기술협력·역량강화', sub_en:'Technical cooperation & capacity-building'}
+    ]},
+    {key:'equity', ko:'투자·차관 (Equity/Debt)', en:'Equity / Debt', opts:[
+      {name:'KEXIM · K-SURE', sub_ko:'KHNP·Meralco 3자 MOU(2026-03) · 금융지원 검토', sub_en:'KHNP·Meralco trilateral MOU (Mar 2026)'},
+      {name:'US EXIM · DFC', sub_ko:'123협정(2024-07 발효) 기반 후보', sub_en:'Candidates under the 123 Agreement (2024)'}
+    ]},
+    {key:'owner', ko:'사업주 (Owner)', en:'Owner', opts:[
+      {name:'Meralco / MGEN', sub_ko:'NEST 프로그램 · USTDA 조사 수행 주체', sub_en:'NEST program · USTDA study grantee'},
+      {name:'AboitizPower', sub_ko:'원자력 탐색 · 인력양성 PPP 참여', sub_en:'Exploring nuclear · workforce PPP'},
+      {name:'NPC', sub_ko:'국영전력공사 · BNPP(바탄원전) 자산 보유', sub_en:'State utility · owns Bataan NPP asset'}
+    ]},
+    {key:'nepio', ko:'국가 도입기구 (National Body)', en:'National body', opts:[
+      {name:'NEP-IAC', sub_ko:'EO 116 · DOE 주도 / 규제 PhilATOM(신설)·PNRI', sub_en:'EO 116 · DOE-led / regulator PhilATOM (new) · PNRI'}
+    ]},
+    {key:'tech', ko:'기술 공급 (Technology)', en:'Technology', opts:[
+      {name:'미국 SMR 벤더 (선정 중)', sub_ko:'USTDA 조사로 후보 비교 · 2026 shortlist 예정', sub_en:'USTDA study comparing designs · 2026 shortlist'},
+      {name:'KHNP', sub_ko:'BNPP 620MWe 재생 타당성조사 (지연 중)', sub_en:'Bataan NPP 620MWe rehab study (delayed)'},
+      {name:'NuScale', sub_ko:'FIRST 제어실 시뮬레이터 기반', sub_en:'FIRST control-room simulator basis'},
+      {name:'EDF', sub_ko:'Meralco 협력각서(2025-04) · 부지·계통·교육', sub_en:'MOC with Meralco (Apr 2025)'},
+      {name:'Doosan Enerbility', sub_ko:'Meralco 저탄소 MOU(2024-10)', sub_en:'Low-carbon MOU with Meralco (Oct 2024)'}
+    ]},
+    {key:'fuel', ko:'핵연료 (Fuel)', en:'Fuel', opts:[
+      {name:'미정 (123협정 기반)', sub_ko:'美 123협정 2024-07 발효 → 미국산 연료 가능', sub_en:'US 123 Agreement in force → US-origin fuel possible'},
+      {name:'KNF', sub_ko:'BNPP·한국형 경로 시 후보', sub_en:'Candidate if Korean route'}
+    ]},
+    {key:'operator', ko:'운영사 (Operator · O&M)', en:'Operator (O&M)', opts:[
+      {name:'미정 (Meralco + 벤더 지원)', sub_ko:'KHNP·EDF 인력양성 협력 · FIRST 시뮬레이터 훈련', sub_en:'KHNP·EDF training cooperation · FIRST simulator'}
+    ]},
+    {key:'epc', ko:'설계·시공 (EPC)', en:'EPC', opts:[
+      {name:'미정 (벤더 컨소시엄)', sub_ko:'SMR 경로: 벤더 주도 EPC + 현지 시공', sub_en:'SMR route: vendor-led EPC + local construction'},
+      {name:'한국 EPC 컨소시엄', sub_ko:'BNPP 재생 시: Doosan·현대건설 등 후보', sub_en:'If BNPP rehab: Doosan, Hyundai E&C etc.'}
+    ]}
+  ];
+
+  COUNTRY_PARTIES.vn = [
+    {key:'offtaker', ko:'구매자 (Off-taker)', en:'Off-taker', opts:[
+      {name:'EVN', sub_ko:'단일 구매자(EVN EPTC) · 국영 전력공사', sub_en:'Single buyer (EVN EPTC) · state utility'}
+    ]},
+    {key:'grant', ko:'보조금 (Grant)', en:'Grant', opts:[
+      {name:'IAEA TC', sub_ko:'INIR 지원 · 신원자력법(2025) IAEA 기준 정합', sub_en:'INIR support · 2025 law aligned to IAEA standards'},
+      {name:'US FIRST', sub_ko:'참여 제안 단계 (미확정)', sub_en:'Offered · not confirmed'}
+    ]},
+    {key:'equity', ko:'투자·차관 (Equity/Debt)', en:'Equity / Debt', opts:[
+      {name:'러시아 국가차관', sub_ko:'NT1 · 舊 $8bn·85% 러 금융 — IGA로 재협상 중', sub_en:'NT1 · old $8bn/85% terms being renegotiated'},
+      {name:'KEXIM · K-SURE', sub_ko:'NT2 · PVN·KEPCO와 금융조사 합의(2026-04)', sub_en:'NT2 · financing study with PVN·KEPCO (Apr 2026)'}
+    ]},
+    {key:'owner', ko:'사업주 (Owner)', en:'Owner', opts:[
+      {name:'EVN — Ninh Thuận 1', sub_ko:'2025-02 총리 지시로 투자자 지정', sub_en:'Assigned investor by PM directive (Feb 2025)'},
+      {name:'PVN — Ninh Thuận 2', sub_ko:'2025-02 투자자 지정 · 소유-운영 예정', sub_en:'Assigned investor (Feb 2025) · owner-operator'}
+    ]},
+    {key:'nepio', ko:'국가 도입기구 (National Body)', en:'National body', opts:[
+      {name:'국가 원자력 조정위', sub_ko:'총리 주재(2025-01) · MOIT 주관 / 규제 VARANS · R&D VINATOM', sub_en:'PM-chaired (Jan 2025) · MOIT lead / VARANS · VINATOM'}
+    ]},
+    {key:'tech', ko:'기술 공급 (Technology)', en:'Technology', opts:[
+      {name:'Rosatom — NT1', sub_ko:'VVER-1200 ×2 · 정부간협정(IGA) 2026', sub_en:'2× VVER-1200 · IGA signed 2026'},
+      {name:'KEPCO/KHNP — NT2 (유력)', sub_ko:'APR1400 후보 · 일본 철수(2026-01) 후 협상 선두', sub_en:'APR1400 candidate · leading after Japan exit'},
+      {name:'Westinghouse', sub_ko:'PVN 정보교환 합의(2025-05)', sub_en:'Info-exchange with PVN (May 2025)'},
+      {name:'SMR (민간 개방 추진)', sub_ko:'철강·석화·데이터센터용 · 벤더 미선정', sub_en:'For industry/data centers · no vendor yet'}
+    ]},
+    {key:'fuel', ko:'핵연료 (Fuel)', en:'Fuel', opts:[
+      {name:'TVEL (Rosatom)', sub_ko:'NT1 · 사용후연료 반송 포함 표준 패키지', sub_en:'NT1 · standard package incl. take-back'},
+      {name:'KEPCO NF', sub_ko:'NT2 한국 수주 시', sub_en:'If Korea wins NT2'}
+    ]},
+    {key:'operator', ko:'운영사 (Operator · O&M)', en:'Operator (O&M)', opts:[
+      {name:'EVN / PVN (소유자 운영)', sub_ko:'러시아 연수 344명 · KEPCO 인력양성 MOU', sub_en:'344 trained in Russia · KEPCO workforce MOU'}
+    ]},
+    {key:'epc', ko:'설계·시공 (EPC)', en:'EPC', opts:[
+      {name:'Atomstroyexport (ASE)', sub_ko:'NT1 · Rosatom EPC + 현지 PECC2 참여', sub_en:'NT1 · Rosatom EPC arm + local PECC2'},
+      {name:'한국 컨소시엄 (NT2 시)', sub_ko:'KHNP·Doosan·한국 건설사 후보', sub_en:'KHNP·Doosan·Korean builders if selected'}
+    ]}
+  ];
+
+  COUNTRY_PARTIES.my = [
+    {key:'offtaker', ko:'구매자 (Off-taker)', en:'Off-taker', opts:[
+      {name:'TNB (Single Buyer)', sub_ko:'반도 단일구매 체계 · 규제 PPA 경유', sub_en:'Peninsular single-buyer mechanism'}
+    ]},
+    {key:'grant', ko:'보조금 (Grant)', en:'Grant', opts:[
+      {name:'IAEA', sub_ko:'Milestones 접근 · INIR Phase 1 ~2027 목표', sub_en:'Milestones approach · INIR Phase 1 ~2027'},
+      {name:'미국 (민간원자력 MOU)', sub_ko:'2025-07 MOU · 123협정 협상 중', sub_en:'Jul 2025 MOU · 123 Agreement in negotiation'}
+    ]},
+    {key:'equity', ko:'투자·차관 (Equity/Debt)', en:'Equity / Debt', opts:[
+      {name:'미정 (벤더 연동)', sub_ko:'US EXIM/DFC · KEXIM/K-SURE · JBIC/NEXI · 러 국가금융', sub_en:'US EXIM/DFC · Korean/Japanese ECAs · Russian state finance'}
+    ]},
+    {key:'owner', ko:'사업주 (Owner)', en:'Owner', opts:[
+      {name:'TNB (후보)', sub_ko:'Developer-Owner-Operator 지향 · 정부 미지정', sub_en:'Positions as DOO · not yet designated'}
+    ]},
+    {key:'nepio', ko:'국가 도입기구 (National Body)', en:'National body', opts:[
+      {name:'MyPOWER', sub_ko:'PETRA 산하 NEPIO(13차 계획 지정) / 규제 Atom Malaysia · R&D Nuklear Malaysia', sub_en:'NEPIO under PETRA (13MP) / Atom Malaysia · Nuklear Malaysia'}
+    ]},
+    {key:'tech', ko:'기술 공급 (Technology)', en:'Technology', opts:[
+      {name:'미선정', sub_ko:'SMR ~300MW급·부유식 포함 검토', sub_en:'Considering ~300MW SMRs incl. floating'},
+      {name:'미국 벤더군', sub_ko:'123협정 협상 개시(2025-07)로 문호 개방', sub_en:'Opened by 123 negotiations (Jul 2025)'},
+      {name:'Rosatom', sub_ko:'MyPOWER와 NDA(2025-06) · FNPP 시찰', sub_en:'NDA with MyPOWER (Jun 2025) · FNPP visits'},
+      {name:'KHNP / CNNC', sub_ko:'역내 후보군', sub_en:'Regional candidates'}
+    ]},
+    {key:'fuel', ko:'핵연료 (Fuel)', en:'Fuel', opts:[
+      {name:'미정 (벤더 연동)', sub_ko:'Westinghouse·KNF·TVEL·CNNC — 123협정 전제(美)', sub_en:'Follows vendor · US route needs 123'}
+    ]},
+    {key:'operator', ko:'운영사 (Operator · O&M)', en:'Operator (O&M)', opts:[
+      {name:'TNB (후보)', sub_ko:'DOO 모델 · 초도기 벤더 O&M 지원 가능', sub_en:'DOO model · vendor O&M support likely for FOAK'}
+    ]},
+    {key:'epc', ko:'설계·시공 (EPC)', en:'EPC', opts:[
+      {name:'미정 (벤더 주도)', sub_ko:'벤더 EPC 컨소시엄 + 현지 BOP·토건', sub_en:'Vendor-led EPC + local BOP/civil'}
+    ]}
+  ];
+
+  COUNTRY_PARTIES.sg = [
+    {key:'offtaker', ko:'구매자 (Off-taker)', en:'Off-taker', opts:[
+      {name:'NEMS 도매시장', sub_ko:'단일구매자 없음 · EMA 주관 CfD형 계약 가능', sub_en:'No single buyer · EMA-structured CfD possible'},
+      {name:'데이터센터 수요기업', sub_ko:'기업 PPA 후보 (실계약 없음)', sub_en:'Corporate PPA candidates (none signed)'}
+    ]},
+    {key:'grant', ko:'재원 (Funding)', en:'Funding', opts:[
+      {name:'Future Energy Fund', sub_ko:'+S$5B 증액(2025 예산) · Mott MacDonald 스터디', sub_en:'+S$5B top-up (Budget 2025) · Mott MacDonald study'},
+      {name:'US FIRST', sub_ko:'역량강화 참여 확인', sub_en:'Capacity-building participation confirmed'}
+    ]},
+    {key:'equity', ko:'투자·차관 (Equity/Debt)', en:'Equity / Debt', opts:[
+      {name:'미정', sub_ko:'Temasek/GIC 지분 · 기술선 따라 ECA 후보', sub_en:'Temasek/GIC equity · ECAs follow vendor'}
+    ]},
+    {key:'owner', ko:'사업주 (Owner)', en:'Owner', opts:[
+      {name:'미정 (발전사 후보)', sub_ko:'Sembcorp·Keppel·YTL 등 · 원자력 MOU는 아직 없음', sub_en:'Sembcorp·Keppel·YTL etc. · no nuclear MOU yet'}
+    ]},
+    {key:'nepio', ko:'국가 도입기구 (National Body)', en:'National body', opts:[
+      {name:'EMA 원자력팀', sub_ko:'사실상 NEPIO · NEA=방사선안전 · SNRSI=연구(2025-07)', sub_en:'De facto NEPIO · NEA=safety · SNRSI=research'}
+    ]},
+    {key:'tech', ko:'기술 공급 (Technology)', en:'Technology', opts:[
+      {name:'미선정 (스터디 중)', sub_ko:'Mott MacDonald 타당성 스터디 2025-09~', sub_en:'Mott MacDonald feasibility from Sep 2025'},
+      {name:'KHNP (i-SMR)', sub_ko:'EMA와 역량구축 MOU(2026-03)', sub_en:'Capability MOU with EMA (Mar 2026)'},
+      {name:'미국 벤더군', sub_ko:'123협정 발효(2024-12) · FIRST 참여', sub_en:'123 in force (Dec 2024) · FIRST member'},
+      {name:'역내 수입 (대안)', sub_ko:'ASEAN 그리드 저탄소 수입 ~6GW(2035)', sub_en:'~6GW low-carbon imports via ASEAN grid (2035)'}
+    ]},
+    {key:'fuel', ko:'핵연료 (Fuel)', en:'Fuel', opts:[
+      {name:'미정', sub_ko:'설계 미선정 · 123협정으로 미국산 접근 가능', sub_en:'No design chosen · US-origin accessible via 123'}
+    ]},
+    {key:'operator', ko:'운영사 (Operator · O&M)', en:'Operator (O&M)', opts:[
+      {name:'미정 (해외 운영사 JV)', sub_ko:'UAE式 경험 운영사 합작 모델 후보', sub_en:'Experienced-operator JV (UAE-style) candidate'}
+    ]},
+    {key:'epc', ko:'설계·시공 (EPC)', en:'EPC', opts:[
+      {name:'미정', sub_ko:'도입 결정 전 단계', sub_en:'Pre-decision stage'}
+    ]}
+  ];
+
+  var cfg = {}, DEFAULTS = {}, touched = {}, curParties = [];
 
   // shrink SVG text to fit inside its box (handles long custom names)
   function fitText(el, max){
@@ -524,7 +952,21 @@
   }
 
   var grid = document.getElementById('epGrid');
-  PARTIES.forEach(function(p){
+  // (re)build the editor for the current country and apply its defaults to the diagram
+  function buildEditor(){
+    grid.innerHTML = '';
+    cfg = {}; DEFAULTS = {}; touched = {};
+    curParties = COUNTRY_PARTIES[curCountry] || COUNTRY_PARTIES.id;
+    curParties.forEach(buildRow);
+    setEditorLang(curLang);
+    // translate freshly built labels
+    grid.querySelectorAll('[data-ko]').forEach(function(el){
+      var v = el.getAttribute('data-'+curLang);
+      if(v!=null) el.textContent = v;
+    });
+    curParties.forEach(function(p){ applyBox(p.key); });
+  }
+  function buildRow(p){
     var d = p.opts[0];
     cfg[p.key] = {name:d.name, sub_ko:d.sub_ko, sub_en:d.sub_en};
     DEFAULTS[p.key] = {name:d.name, sub_ko:d.sub_ko, sub_en:d.sub_en};
@@ -574,10 +1016,10 @@
         applyBox(p.key);
       }
     });
-  });
+  }
 
   document.getElementById('cfgReset').addEventListener('click', function(){
-    PARTIES.forEach(function(p){
+    curParties.forEach(function(p){
       cfg[p.key] = {name:DEFAULTS[p.key].name, sub_ko:DEFAULTS[p.key].sub_ko, sub_en:DEFAULTS[p.key].sub_en};
       p._sel.value = '0'; p._custom.hidden = true;
       applyBox(p.key);
@@ -591,6 +1033,15 @@
     this.classList.toggle('on', open);
   });
 
+  // show only the active country's notes blocks (tables/sources marked data-country)
+  function renderCountryNotes(){
+    document.querySelectorAll('[data-country-notes]').forEach(function(el){
+      el.style.display = (el.getAttribute('data-country-notes') === curCountry) ? '' : 'none';
+    });
+  }
+
+  buildEditor();
+  renderCountryNotes();
   setLang('ko');
 })();
 </script>
