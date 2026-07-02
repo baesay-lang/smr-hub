@@ -8,6 +8,109 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-07-02",
+    "title": "전 세계 70개 이상 소형모듈원자로 프로젝트 추진 중… 한국은 '혁신형 SMR' 개발로 승부",
+    "summary": "전 세계적으로 70개 이상의 소형모듈원자로(SMR) 프로젝트가 진행 중이며, 한국은 혁신형 SMR 개발로 경쟁력을 강화하고 있다.",
+    "summaryLong": "한국원자력산업회의(KAIF) 보도에 따르면 전 세계적으로 70개 이상의 소형모듈원자로(SMR) 프로젝트가 추진 중이다. 한국은 이러한 글로벌 트렌드 속에서 혁신형 SMR 개발에 역량을 집중하고 있으며, 이를 통해 국제 경쟁에서 차별화된 기술력을 확보하려는 전략을 펼치고 있다. 이는 한국의 SMR 산업이 정책 차원에서 적극 지원되고 있음을 보여주는 사례이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "",
+    "region": "KR",
+    "source": "KAIF 투데이뉴스",
+    "url": "https://www.kaif.or.kr/ko/?c=250&s=&gp=1&gbn=view&ix=29952",
+    "k": "전세계 70개 이상 프로젝트 진행 중 한국은 혁신형 smr 개발로 승부수",
+    "ko": 1,
+    "id": "c5fbdbcd"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "한전기술-SK(AX), SMR·해상풍력 AI 협력 MOU 체결",
+    "summary": "한국전력기술이 SK(AX)와 발전·에너지 분야에 인공지능을 적용하는 업무협약을 체결했으며, SMR 등 원전 설계부터 운영까지 AI 증강 체계를 구축할 예정이다.",
+    "summaryLong": "한국전력기술은 SK(AX)와 발전·에너지 산업에 특화된 인공지능(AI) 전환 협력을 위한 업무협약(MOU)을 최근 체결했다고 밝혔다. 양사는 SMR을 포함한 원전과 해상풍력 등 발전 분야에 AI 기술을 적용하여 설계부터 운영·유지보수까지 연결하는 'AI 증강(AI Augmentation)' 체계를 공동으로 기획·실증·사업화할 계획이다. 이는 원자력 발전 분야에서 AI 기술 도입을 확대하려는 국내 산업의 움직임을 보여주는 사례로, SMR 개발 과정에서 설계 최적화와 운영 효율성 향상을 기대할 수 있다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "한전기술(KEPCO E&C)",
+    "region": "KR",
+    "source": "에너지신문 - 전체기사",
+    "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=226528",
+    "k": "해상풍력 smr까지 ai 확대 한전기술 sk ax 생태계 구축",
+    "ko": 1,
+    "id": "7f9ed1b6"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "센트러스 에너지, 미국 에너지부와 HALEU 공급계약 9억 달러 규모 최종 확정",
+    "summary": "메릴랜드주의 센트러스 에너지(Centrus Energy)가 미국 에너지부(DOE)와 약 9억 달러 규모의 고농축 저농축 우라늄(HALEU) 공급 계약을 최종 체결했다.",
+    "summaryLong": "센트러스 에너지는 미국 에너지부(DOE)와 고농축 저농축 우라늄(HALEU, UF6) 공급의 작업 주문 조건을 최종 확정하는 약 9억 달러 규모 계약을 체결했다고 발표했다. 이번 계약은 2019년 파이크턴(Piketon)에서 시작한 원심분리기 기반 HALEU 시범 생산 프로젝트가 기술 시연 단계에서 상업적 규모 생산으로 전환하는 중대한 전환점으로 평가된다. 시범 계약 기간 중 누적 생산량은 1900kg을 초과했으며, 계약 요구 마지막 900kg의 HALEU UF6는 예정보다 약 2주 앞당겨 6월 중순에 완성했다. HALEU는 SMR과 첨단로의 핵심 연료로, 이 계약은 미국의 고급 원자로 개발 정책과 연료 공급 체계 확보의 핵심 사업이다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "센트러스 에너지(Centrus Energy)",
+    "region": "US",
+    "source": "투데이에너지 - 전체기사",
+    "url": "https://www.todayenergy.kr/news/articleView.html?idxno=299837",
+    "k": "센트러스 에너지 미 에너지부와 haleu 공급계약 확정",
+    "ko": 1,
+    "id": "36e50474"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "억만장자, 영국 SMR 확대 배치에 350억 파운드 투자 계획",
+    "summary": "억만장자가 영국 내 소형모듈원자로(SMR) 광범위한 배치를 위해 약 350억 파운드 규모의 대규모 투자를 추진할 계획이다.",
+    "summaryLong": "영국(UK)에서 억만장자 투자자가 소형모듈원자로(SMR) 확대 배치를 위해 약 350억 파운드(GBP) 규모의 투자를 계획하고 있는 것으로 보도되었다. 이는 SMR을 영국 전역에 대규모로 도입하려는 민간 투자 움직임으로, 영국 정부의 SMR 정책과 부합하는 사례이다. 해당 투자는 SMR의 상용화와 산업 육성을 가속화하려는 전략으로 해석되며, 글로벌 SMR 시장 확대의 신호로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "UK",
+    "source": "theguardian.com",
+    "url": "https://www.theguardian.com/business/2026/jul/02/billionaire-michal-solowow-small-modular-nuclear-reactors-uk",
+    "k": "billionaire to invest 35bn in small modular nuclear reactors roll out across uk",
+    "id": "34188c79"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "동나이성, SMR 활용 시범 원전 선도 추진",
+    "summary": "베트남의 동나이(Dong Nai)성이 소형모듈원자로(SMR)를 활용한 시범 원전 구축을 선도적으로 추진할 계획이다.",
+    "summaryLong": "베트남의 동나이(Dong Nai)성이 소형모듈원자로(SMR)를 활용한 시범 원자력발전소 구축을 선도하려는 계획을 추진 중인 것으로 보도되었다. 베트남은 에너지 수요 증가와 탄소중립 목표 달성을 위해 SMR과 같은 첨단 원자력 기술 도입을 검토하고 있으며, 동나이성의 이 계획은 동남아시아 지역 내 SMR 도입의 선도 사례로 평가된다. 이는 글로벌 SMR 시장 확대와 개도국의 원자력 에너지 활용 추세를 반영하는 사례이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "en.vneconomy.vn",
+    "url": "https://en.vneconomy.vn/dong-nai-seeks-to-pioneer-pilot-nuclear-power-plant-using-small-modular-reactors.htm",
+    "k": "dong nai seeks to pioneer pilot nuclear power plant using small modular reactors",
+    "id": "887f97c1"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "삼성물산, 영국 72조 규모 SMR 14기 건설 프로젝트 참여",
+    "summary": "삼성물산이 영국(UK)의 72조 원대 규모 SMR 14기 건설 프로젝트에 참여한다.",
+    "summaryLong": "삼성물산이 영국(UK)에서 추진 중인 약 72조 원 규모의 소형모듈원자로(SMR) 14기 건설 프로젝트에 참여하는 것으로 보도되었다. 이 프로젝트는 영국의 에너지 안보 강화와 탄소 중립 달성을 위한 대규모 SMR 사업으로, 삼성물산의 참여는 한국 건설 기업의 글로벌 SMR 시장 진출을 의미한다. 해당 사업을 통해 삼성물산은 설계·건설·운영 분야에서 국제 경쟁력을 입증할 수 있는 기회를 갖게 되며, 한국의 SMR 기술과 건설 역량을 국제 시장에 알릴 수 있을 것으로 기대된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "삼성물산",
+    "region": "UK",
+    "source": "theguru.co.kr",
+    "url": "https://theguru.co.kr/news/article.html?no=103879",
+    "k": "단독 삼성물산 72조 규모 smr 14기 건설 프로젝트 참여",
+    "ko": 1,
+    "id": "0a14ed12"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "현대건설, SMR에 베팅···AI 시대 원전의 역할 강조",
+    "summary": "현대건설이 SMR 개발·사업에 전략적으로 투자하며, AI 시대 원자력의 중요성을 강조하고 있다.",
+    "summaryLong": "현대건설이 소형모듈원자로(SMR) 사업에 경영 전략적으로 베팅하고 있는 것으로 보도되었다. 현대건설은 AI 시대 에너지 수요 급증 상황에서 원자력, 특히 SMR이 핵심 전원으로 부상할 것으로 전망하며, SMR 개발 및 상용화에 역량을 집중하고 있다. 이는 한국의 대형 건설사가 글로벌 SMR 시장의 성장 가능성을 인식하고 선제적으로 대응하려는 움직임으로, SMR이 미래 에너지원으로서 산업계의 주목을 받고 있음을 보여주는 사례이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대건설",
+    "region": "KR",
+    "source": "cnbnews.com",
+    "url": "https://www.cnbnews.com/news/articleView.html?idxno=1006305",
+    "k": "내예기 ai 시대 원전이 답이다 smr에 베팅한 현대건설",
+    "ko": 1,
+    "id": "d938ed52"
+  },
+  {
     "date": "2026-07-01",
     "title": "i-SMR 기술개발사업단, 싱가포르 에너지시장청과 협력",
     "summary": "한국의 i-SMR(혁신형 소형모듈원자로) 기술개발사업단이 싱가포르 에너지시장청(EMA)과 협력 양해각서를 체결했다.",
@@ -639,6 +742,34 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "56776dc5"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "오클로, 그로브 동위원소 테스트 원자로 최종 안전분석 미국 에너지부(DOE) 승인 획득",
+    "summary": "오클로(Oklo)가 그로브 동위원소 테스트 원자로의 최종 안전분석(FSA) 승인을 미국 에너지부(DOE)로부터 획득했다.",
+    "summaryLong": "오클로(Oklo)는 미국 에너지부(U.S. Department of Energy, DOE)로부터 그로브 동위원소 테스트 원자로(Groves Isotope Test Reactor)의 최종 안전분석(Final Safety Analysis)에 대한 승인을 받았다. 이는 오클로의 고속로 기반 첨단 원자로 프로젝트가 규제 단계에서 중요한 진전을 이루었음을 의미한다. 최종 안전분석 승인은 실제 건설 및 운영 허가로 나아가는 핵심 단계이며, 오클로의 상용화 일정 가시성을 높였다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "오클로",
+    "region": "US",
+    "source": "tradingview.com",
+    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4330CZ:0-oklo-gets-us-doe-approval-for-final-safety-analysis-of-groves-isotope-test-reactor/",
+    "k": "oklo gets us doe approval for final safety analysis of groves isotope test reactor",
+    "id": "10231d3a"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "폴란드 SGE, 영국 14기 SMR 함대 건설 계획 발표",
+    "summary": "폴란드의 SGE가 영국(UK) 내 14기의 소형모듈원자로(SMR) 건설 계획을 공개했다.",
+    "summaryLong": "폴란드의 에너지 기업 SGE가 영국(UK)에서 14기의 소형모듈원자로(SMR) 함대 구축 계획을 공식 발표했다. 이 프로젝트는 대규모 SMR 배치 사업으로, 영국의 에너지 안보와 탄소 감축 목표 달성을 위한 핵심 사업으로 평가된다. SGE의 이러한 움직임은 유럽 기업들의 SMR 시장 참여 확대를 보여주는 사례이며, 글로벌 SMR 개발 경쟁의 심화를 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "SGE",
+    "region": "UK",
+    "source": "energyvoice.com",
+    "url": "https://www.energyvoice.com/renewables-energy-transition/nuclear/600094/polish-billionaire-solowow-sge-ge-vernova-hitachi-bwrx-smr-nuclear/",
+    "k": "poland s sge unveils plans for uk fleet of 14 nuclear smrs",
+    "id": "db17df3c"
   },
   {
     "date": "2026-06-30",
@@ -14145,4 +14276,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-02 08:58 KST";
+window.SMR_UPDATED = "2026-07-02 15:55 KST";
