@@ -22,7 +22,11 @@
       { t: '개발사', href: 'SMR-developers.html' },
       { t: '노형 분류', href: 'SMR-reactor-types.html' },
       { t: '카탈로그', href: 'SMR-catalogue.html' },
-      { t: '연료 공급망', href: 'SMR-fuel-supply.html' } ] },
+      { t: '연료 공급망', href: 'SMR-fuel-supply.html' } ],
+      /* deep: 홈 바로가기 카드에만 노출되는 심화 페이지 (nav 드롭다운에는 안 나옴) */
+      deep: [
+      { t: 'X-energy / Xe-100 상세', href: 'SMR-dev-xenergy.html' },
+      { t: 'HTGR 역사 · 발표 덱', href: 'SMR-htgr-history.html' } ] },
     { label: '규제', items: [
       { t: '인허가 트랙', href: 'SMR-licensing-tracks.html' },
       { t: 'CFR 레퍼런스', href: 'SMR-reference.html' } ] },
@@ -151,6 +155,21 @@
     } catch (e) {}
   }
 
+  // 홈 '바로가기' — nav와 같은 GROUPS에서 5개 대표군 카드를 생성 (#homeGroups가 있는 페이지만)
+  function buildHomeTiles() {
+    var host = document.getElementById('homeGroups');
+    if (!host || host.getAttribute('data-built')) return;
+    host.setAttribute('data-built', '1');
+    var html = '';
+    GROUPS.forEach(function (g) {
+      html += '<div class="gtile"><div class="gt-h">' + g.label + '</div>';
+      g.items.forEach(function (it) { html += '<a href="' + it.href + '">' + it.t + '</a>'; });
+      (g.deep || []).forEach(function (it) { html += '<a class="gt-deep" href="' + it.href + '">' + it.t + ' <span aria-hidden="true">↳</span></a>'; });
+      html += '</div>';
+    });
+    host.innerHTML = html;
+  }
+
   // footer 하단에 표준 스탬프 한 줄 삽입 (모든 페이지 공통 — '살아있는 사이트' 신호)
   function stampFooter() {
     var f = document.querySelector('footer');
@@ -169,6 +188,7 @@
     if (!nav || nav.getAttribute('data-built')) return;
     nav.setAttribute('data-built', '1');
     build(nav);
+    buildHomeTiles();
     stampFooter();
   }
 
