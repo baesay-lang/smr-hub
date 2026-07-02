@@ -289,8 +289,10 @@
         </style>
         <defs>
           <marker id="x2-ma" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path class="d-mk-a" d="M0,0 L6,3 L0,6 Z"/></marker>
+          <marker id="x2-ma-s" markerWidth="6" markerHeight="6" refX="4.2" refY="2.1" orient="auto"><path class="d-mk-a" d="M0,0 L4.2,2.1 L0,4.2 Z"/></marker>
           <marker id="x2-mg" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path class="d-mk-g" d="M0,0 L6,3 L0,6 Z"/></marker>
-          <path id="x2-p-hot" d="M226 242 H330" fill="none"/>
+          <marker id="x2-mg-s" markerWidth="6" markerHeight="6" refX="4.2" refY="2.1" orient="auto"><path class="d-mk-g" d="M0,0 L4.2,2.1 L0,4.2 Z"/></marker>
+          <path id="x2-p-hot" d="M232 242 H314" fill="none"/>
           <path id="x2-p-steam" d="M446 150 H646" fill="none"/>
           <path id="x2-p-feed" d="M688 300 H456" fill="none"/>
         </defs>
@@ -330,12 +332,12 @@
 
         <!-- ===== Cross Vessel ③ : coaxial duct — inner hot (750°C →) / outer annulus return (← 250°C) ===== -->
         <rect class="d-inner" x="214" y="214" width="126" height="56" rx="9"/>
-        <line class="d-cold" x1="330" y1="224" x2="230" y2="224" stroke-width="2" marker-end="url(#x2-mg)"/>
+        <line class="d-cold" x1="330" y1="224" x2="230" y2="224" stroke-width="1.8" marker-end="url(#x2-mg-s)"/>
         <rect class="d-pill-h" x="252" y="184" width="46" height="17" rx="8.5"/>
         <text class="d-pill-ht" x="275" y="196" text-anchor="middle">750 °C</text>
         <rect class="d-vessel" x="222" y="232" width="112" height="20" rx="8" stroke-width="1.6"/>
-        <line class="d-hot" x1="230" y1="242" x2="322" y2="242" stroke-width="3" marker-end="url(#x2-ma)"/>
-        <line class="d-cold" x1="330" y1="260" x2="230" y2="260" stroke-width="2" marker-end="url(#x2-mg)"/>
+        <line class="d-hot" x1="232" y1="242" x2="314" y2="242" stroke-width="2" marker-end="url(#x2-ma-s)"/>
+        <line class="d-cold" x1="330" y1="260" x2="230" y2="260" stroke-width="1.8" marker-end="url(#x2-mg-s)"/>
         <rect class="d-pill-c" x="252" y="282" width="46" height="17" rx="8.5"/>
         <text class="d-pill-ct" x="275" y="294" text-anchor="middle">250 °C</text>
         <text class="d-name" x="277" y="318" font-size="10.5" text-anchor="middle">Cross Vessel ③</text>
@@ -379,8 +381,8 @@
         <text class="d-fnt" x="565" y="316" text-anchor="middle">Feedwater</text>
 
         <!-- flow dots (subtle animation) -->
-        <circle class="d-flow-a" r="3"><animateMotion dur="2.4s" repeatCount="indefinite"><mpath xlink:href="#x2-p-hot"/></animateMotion></circle>
-        <circle class="d-flow-a" r="3"><animateMotion dur="2.4s" begin="-1.2s" repeatCount="indefinite"><mpath xlink:href="#x2-p-hot"/></animateMotion></circle>
+        <circle class="d-flow-a" r="2.3"><animateMotion dur="2.4s" repeatCount="indefinite"><mpath xlink:href="#x2-p-hot"/></animateMotion></circle>
+        <circle class="d-flow-a" r="2.3"><animateMotion dur="2.4s" begin="-1.2s" repeatCount="indefinite"><mpath xlink:href="#x2-p-hot"/></animateMotion></circle>
         <circle class="d-flow-a" r="3"><animateMotion dur="3.4s" repeatCount="indefinite"><mpath xlink:href="#x2-p-steam"/></animateMotion></circle>
         <circle class="d-flow-a" r="3"><animateMotion dur="3.4s" begin="-1.7s" repeatCount="indefinite"><mpath xlink:href="#x2-p-steam"/></animateMotion></circle>
         <circle class="d-flow-g" r="2.6"><animateMotion dur="4.5s" repeatCount="indefinite"><mpath xlink:href="#x2-p-feed"/></animateMotion></circle>
