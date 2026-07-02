@@ -113,7 +113,7 @@
   </div>
 </div>
 
-<script src="news-data.js"></script>
+<script src="news-recent.js"></script>
 <script src="news-modal.js?v=6"></script>
 <script>
   var ALL = (window.SMR_NEWS || []).slice();
@@ -156,7 +156,8 @@
   newsPanel.addEventListener('keydown', function(e){ if(e.key!=='Enter'&&e.key!==' ') return; var row=e.target.closest('[data-idx]'); if(row){ e.preventDefault(); openNews(row); } });
 
   var upd = window.SMR_UPDATED || ((NEWS[0]?NEWS[0].date:'')+' 기준');
-  document.getElementById('stamp').textContent = '해외 뉴스 '+NEWS.length+'건 (전체 '+ALL.length+'건) · 마지막 업데이트 '+upd;
+  var total = window.SMR_TOTAL || ALL.length;   // news-recent.js는 서브셋 — 전체 건수는 SMR_TOTAL
+  document.getElementById('stamp').textContent = '뉴스 '+total+'건 수집 · 마지막 업데이트 '+upd;
 </script>
 <script src="feedback.js" defer></script>
 </body>

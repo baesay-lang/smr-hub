@@ -381,6 +381,46 @@ function writeData(list){
   list.sort((a,b)=> dkey(b.date).localeCompare(dkey(a.date)));
   const updated = new Date(Date.now() + 9*3600*1000).toISOString().slice(0,16).replace('T',' ') + ' KST';
   fs.writeFileSync(FILE, HEADER + JSON.stringify(list, null, 2) + ';\nwindow.SMR_UPDATED = ' + JSON.stringify(updated) + ';\n');
+  writeRecent(list, updated);
+}
+
+/* news-recent.js — lightweight subset for every page EXCEPT SMR-news.html (which keeps the full file).
+   Guarantees the attach-news widgets never go empty: global latest 60 + per-developer latest 3
+   (인허가/계약/투자, alias-matched like the pages do) + per-reactor-type latest 3. ~15% of full size. */
+const RECENT_ALIAS = {
+  oklo:['oklo','aurora'], xenergy:['x-energy','xenergy','xe-100'],
+  nuscale:['nuscale','voygr'], terrapower:['terrapower','natrium'],
+  gehitachi:['ge-hitachi','ge hitachi','geh','bwrx'], kairos:['kairos','hermes'],
+  holtec:['holtec','smr-300'], rollsroyce:['rolls-royce','rolls royce'],
+  westinghouse:['westinghouse','ap300','evinci'], arc:['arc-100','arc clean'],
+  smart:['smart100','smart','kaeri'], ismr:['i-smr','ismr','혁신형'],
+  seaborg:['seaborg','saltfoss','cmsr']
+};
+function writeRecent(list, updated){
+  const keep = new Set();
+  list.slice(0, 60).forEach(n => keep.add(n.id));                       // global latest
+  const CATS = { '인허가':1, '계약':1, '투자':1 };
+  for (const key of Object.keys(RECENT_ALIAS)){
+    const al = RECENT_ALIAS[key];
+    let hit = 0;
+    for (const n of list){
+      if (!CATS[n.cat]) continue;
+      const hay = ((n.dev||'')+' '+(n.title||'')).toLowerCase();
+      if (al.some(k => hay.indexOf(k) >= 0)){ keep.add(n.id); if (++hit >= 3) break; }
+    }
+  }
+  const perType = {};
+  for (const n of list){
+    const t = String(n.type||'').toUpperCase();
+    if (!t || t === 'GENERAL') continue;
+    perType[t] = (perType[t]||0);
+    if (perType[t] < 3){ keep.add(n.id); perType[t]++; }
+  }
+  const recent = list.filter(n => keep.has(n.id));
+  const hdr = '/* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */\n';
+  fs.writeFileSync('news-recent.js',
+    hdr + 'window.SMR_NEWS = ' + JSON.stringify(recent, null, 1) + ';\nwindow.SMR_UPDATED = ' + JSON.stringify(updated) + ';\nwindow.SMR_TOTAL = ' + list.length + ';\n');
+  console.log(`news-recent.js: ${recent.length}/${list.length} items`);
 }
 
 /* best-effort fetch of the real article body (direct outlets). Google News links are JS redirect
