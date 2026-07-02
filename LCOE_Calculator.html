@@ -141,6 +141,18 @@
 
   footer .ver{color:var(--text-faint);}
 
+  /* ---------- term tooltips (비전문가용 용어 설명) ---------- */
+  .term{border-bottom:1px dotted var(--accent);cursor:help;}
+  .tipbox{position:fixed;z-index:400;max-width:330px;background:var(--surface);border:1px solid var(--border-strong);
+    border-radius:var(--radius);box-shadow:var(--shadow-hover);padding:12px 14px;font-size:12.5px;line-height:1.62;
+    color:var(--text-dim);opacity:0;visibility:hidden;transform:translateY(4px);
+    transition:opacity .15s ease,transform .15s ease,visibility .15s;}
+  .tipbox.on{opacity:1;visibility:visible;transform:none;}
+  .tipbox b{display:block;color:var(--text);font-size:13px;margin-bottom:4px;}
+  .tipbox p{margin:0 0 7px;}
+  .tipbox a{font-weight:600;font-size:12px;}
+  @media(max-width:640px){.tipbox{max-width:calc(100vw - 24px);}}
+
   /* ---------- narrow screens: shrink label columns so bars keep room ---------- */
   @media(max-width:640px){
     .barrow{grid-template-columns:84px minmax(0,1fr) 74px;gap:8px;}
@@ -276,7 +288,7 @@
   <a href="https://www.lazard.com/research-insights/levelized-cost-of-energyplus-lcoeplus/" target="_blank" rel="noopener">Lazard LCOE+ 2025.6</a> (벤치마크 밴드: 원전 $141–220 · 가스복합 $48–107 · 석탄 $71–173/MWh) ·
   <a href="https://liftoff.energy.gov/advanced-nuclear/" target="_blank" rel="noopener">DOE Liftoff 2024.9</a> (NOAK ~$3,600/kW) ·
   APR1400 $3,800/kW = Barakah 턴키 실적(WNA).
-  <br><span class="ver">LCOE Calculator v2.0 · 2026-07-02 · <span data-i="note">학습용 도구 — 실제 사업 검토 시 OCC·O&amp;M을 EPC FEED 견적값으로 교체 필요</span></span>
+  <br><span class="ver">LCOE Calculator v2.1 · 2026-07-02 · <span data-i="note">학습용 도구 — 실제 사업 검토 시 OCC·O&amp;M을 EPC FEED 견적값으로 교체 필요</span></span>
 </footer>
 
 <script>
@@ -297,15 +309,15 @@ const BENCH = {Coal:{lo:71,hi:173}, Gas:{lo:48,hi:107}, AP1000:{lo:141,hi:220}, 
 
 const FIELDS = [
   {k:"cap", ko:"용량",     en:"Capacity",       u:"MWe",   step:10,  src:"NREL ATB / WNA"},
-  {k:"cf",  ko:"이용률",   en:"Capacity factor",u:"%",     step:0.5, pct:true, src:"NREL ATB 2024 (원전 93%)"},
+  {k:"cf",  ko:"이용률",   en:"Capacity factor",u:"%",     step:0.5, pct:true, src:"NREL ATB 2024 (원전 93%)", term:"cf"},
   {k:"life",ko:"운전수명", en:"Life",           u:"yr",    step:1,   src:"NREL ATB / NRC"},
-  {k:"tc",  ko:"건설기간", en:"Constr. period", u:"yr",    step:1,   src:"ATB; APR1400 Barakah ~4y"},
-  {k:"occ", ko:"건설단가", en:"Overnight cost", u:"$/kW",  step:50,  src:"INL 2024 / DOE Liftoff / Barakah"},
-  {k:"cont",ko:"예비비",   en:"Contingency",    u:"%",     step:1,   pct:true, src:"NREL ATB"},
-  {k:"fom", ko:"고정 O&M", en:"Fixed O&M",      u:"$M/yr", step:1,   src:"NREL ATB"},
-  {k:"vom", ko:"변동 O&M", en:"Variable O&M",   u:"$/MWh", step:0.5, src:"NREL ATB"},
-  {k:"fuel",ko:"연료비",   en:"Fuel",           u:"$/MWh", step:1,   src:"NREL ATB / EIA AEO"},
-  {k:"co2", ko:"탄소배출", en:"CO₂ intensity",  u:"t/MWh", step:0.05,src:"IPCC / EIA"},
+  {k:"tc",  ko:"건설기간", en:"Constr. period", u:"yr",    step:1,   src:"ATB; APR1400 Barakah ~4y", term:"tc"},
+  {k:"occ", ko:"건설단가", en:"Overnight cost", u:"$/kW",  step:50,  src:"INL 2024 / DOE Liftoff / Barakah", term:"occ"},
+  {k:"cont",ko:"예비비",   en:"Contingency",    u:"%",     step:1,   pct:true, src:"NREL ATB", term:"cont"},
+  {k:"fom", ko:"고정 O&M", en:"Fixed O&M",      u:"$M/yr", step:1,   src:"NREL ATB", term:"fom"},
+  {k:"vom", ko:"변동 O&M", en:"Variable O&M",   u:"$/MWh", step:0.5, src:"NREL ATB", term:"vom"},
+  {k:"fuel",ko:"연료비",   en:"Fuel",           u:"$/MWh", step:1,   src:"NREL ATB / EIA AEO", term:"fuelc"},
+  {k:"co2", ko:"탄소배출", en:"CO₂ intensity",  u:"t/MWh", step:0.05,src:"IPCC / EIA", term:"co2i"},
 ];
 
 let D = structuredClone(BASE);
@@ -344,14 +356,14 @@ const I18N = {
   sub:{ko:"IEA-NEA 할인현금흐름 방식 · 모든 가정값을 직접 바꿔가며 SMR·석탄·가스·대형원전의 발전단가를 비교",
        en:"IEA-NEA discounted-cashflow method · edit every assumption and compare SMR / coal / gas / large nuclear side by side"},
   glanceLead:{ko:"한눈에",en:"At a glance"},
-  glance:{ko:"왼쪽에서 할인율·탄소가격·기술별 가정값을 바꾸면 오른쪽 결과가 즉시 갱신됨. 원자력 LCOE의 최대 결정변수는 할인율(WACC)과 건설단가(OCC) — 아래 민감도 차트와 토네이도에서 직접 확인 가능. 회색 밴드는 Lazard LCOE+ 2025(미국·무보조금) 실측 범위로, 모델 결과의 타당성 검증용.",
-          en:"Change discount rate, carbon price and per-tech assumptions on the left; results update instantly. WACC and overnight cost dominate nuclear LCOE — see the sensitivity charts and tornado below. Grey bands show Lazard LCOE+ 2025 unsubsidized US ranges for sanity-checking the model."},
+  glance:{ko:"왼쪽에서 할인율·탄소가격·기술별 가정값을 바꾸면 오른쪽 결과가 즉시 갱신됨. 원자력 LCOE의 최대 결정변수는 <span class=\"term\" data-term=\"wacc\">할인율(WACC)</span>과 <span class=\"term\" data-term=\"occ\">건설단가(OCC)</span> — 아래 민감도 차트와 토네이도에서 직접 확인 가능. 회색 밴드는 Lazard LCOE+ 2025(미국·무보조금) 실측 범위로, 모델 결과의 타당성 검증용. <b>점선 밑줄 용어</b>에 마우스를 올리면(모바일은 탭) 쉬운 설명이 뜸.",
+          en:"Change discount rate, carbon price and per-tech assumptions on the left; results update instantly. <span class=\"term\" data-term=\"wacc\">WACC</span> and <span class=\"term\" data-term=\"occ\">overnight cost</span> dominate nuclear LCOE — see the sensitivity charts and tornado below. Grey bands show Lazard LCOE+ 2025 unsubsidized US ranges for sanity-checking the model. Hover (or tap) any <b>dotted term</b> for a plain-language explainer."},
   scenario:{ko:"시나리오 설정",en:"Scenario"},
-  discount:{ko:"할인율 (실질 WACC)",en:"Discount rate (real WACC)"},
-  carbon:{ko:"탄소가격 (CO₂)",en:"Carbon price (CO₂)"},
+  discount:{ko:"<span class=\"term\" data-term=\"wacc\">할인율 (실질 WACC)</span>",en:"<span class=\"term\" data-term=\"wacc\">Discount rate (real WACC)</span>"},
+  carbon:{ko:"<span class=\"term\" data-term=\"carbonp\">탄소가격 (CO₂)</span>",en:"<span class=\"term\" data-term=\"carbonp\">Carbon price (CO₂)</span>"},
   fx:{ko:"참고환율 (KRW/USD)",en:"FX (KRW/USD)"},
   w3:{ko:"3% 공적금융",en:"3% public"}, w7:{ko:"7% IEA 표준",en:"7% IEA std"}, w10:{ko:"10% 민자",en:"10% merchant"},
-  smrOcc:{ko:"SMR 건설단가 시나리오",en:"SMR overnight-cost scenario"},
+  smrOcc:{ko:"SMR 건설단가 — <span class=\"term\" data-term=\"foak\">FOAK / NOAK</span>",en:"SMR overnight cost — <span class=\"term\" data-term=\"foak\">FOAK / NOAK</span>"},
   foakS:{ko:"INL 메타분석 2024",en:"INL meta-analysis 2024"},
   noakS:{ko:"DOE Liftoff 목표",en:"DOE Liftoff target"},
   reset:{ko:"전체 Base값 복원",en:"Reset all to base"},
@@ -368,10 +380,10 @@ const I18N = {
               "Decommissioning & spent-fuel disposal excluded — discounting keeps the LCOE impact typically below a few $/MWh (IEA-NEA 2020)",
               "Construction outlays assumed uniform — minor deviation vs real S-curve spend",
               "Carbon price applied linearly to emissions — no CCS retrofit option modeled"]},
-  compare:{ko:"발전단가 비교 (LCOE, $/MWh)",en:"LCOE comparison ($/MWh)"},
+  compare:{ko:"발전단가 비교 (<span class=\"term\" data-term=\"lcoe\">LCOE</span>, $/MWh)",en:"<span class=\"term\" data-term=\"lcoe\">LCOE</span> comparison ($/MWh)"},
   benchNote:{ko:"─ 회색 밴드: Lazard LCOE+ 2025 무보조금 실측 범위(미국 기준, SMR은 미수록). 모델 결과가 밴드 안이면 가정값이 시장 범위와 정합.",
              en:"─ Grey band: Lazard LCOE+ 2025 unsubsidized range (US basis; no SMR entry). Results inside the band mean assumptions are market-consistent."},
-  lCap:{ko:"자본비",en:"Capital"},lFom:{ko:"고정 O&M",en:"Fixed O&M"},lVom:{ko:"변동 O&M",en:"Var. O&M"},
+  lCap:{ko:"<span class=\"term\" data-term=\"capex\">자본비</span>",en:"<span class=\"term\" data-term=\"capex\">Capital</span>"},lFom:{ko:"고정 O&M",en:"Fixed O&M"},lVom:{ko:"변동 O&M",en:"Var. O&M"},
   lFuel:{ko:"연료",en:"Fuel"},lCarbon:{ko:"탄소비용",en:"Carbon"},
   qa:{ko:"시나리오 해석",en:"Reading this scenario"},
   carbonSens:{ko:"탄소가격 민감도",en:"Carbon-price sensitivity"},
@@ -426,7 +438,9 @@ function buildEditor(){
   FIELDS.forEach(f=>{
     const wrap=document.createElement('div'); wrap.className='fld';
     const lab=document.createElement('label');
-    const name=document.createElement('span'); name.textContent=(lang==='ko'?f.ko:f.en);
+    const name=document.createElement('span');
+    const nm=(lang==='ko'?f.ko:f.en);
+    name.innerHTML = f.term ? '<span class="term" data-term="'+f.term+'">'+nm+'</span>' : nm;
     const right=document.createElement('span');
     right.innerHTML='<span class="u">'+f.u+'</span> <span class="src" title="'+f.src+'">ⓘ</span>';
     lab.appendChild(name); lab.appendChild(right);
@@ -557,8 +571,8 @@ function renderTables(res,r,fx){
 
   const t2=document.getElementById('tbl2');
   const H2=lang==='ko'
-    ? ['기술','용량 MWe','연간발전 GWh','Overnight 총액 $B','IDC 포함 $/kW','자본비중 %']
-    : ['Tech','MWe','GWh/yr','Overnight $B','incl. IDC $/kW','Capital share %'];
+    ? ['기술','용량 MWe','연간발전 GWh','Overnight 총액 $B','<span class="term" data-term="idc">IDC 포함 $/kW</span>','자본비중 %']
+    : ['Tech','MWe','GWh/yr','Overnight $B','<span class="term" data-term="idc">incl. IDC $/kW</span>','Capital share %'];
   let h2='<thead><tr><th>'+H2[0]+'</th>'+H2.slice(1).map(x=>'<th class="tnum">'+x+'</th>').join('')+'</tr></thead><tbody>';
   ORDER.forEach(k=>{const d=res[k],x=D[k];
     const gwh=x.cap*8.76*x.cf;                       // GWh/yr
@@ -687,6 +701,90 @@ function renderTornado(r,cp){
     ? '대상: <b>'+D[sel].label.ko+'</b> · Base LCOE <b>$'+base.toFixed(0)+'/MWh</b> — 좌(녹색)=하락, 우(적색)=상승'
     : 'Tech: <b>'+D[sel].label.en+'</b> · base LCOE <b>$'+base.toFixed(0)+'/MWh</b> — green=down, red=up');
 }
+
+/* ============================================================
+   term tooltips — 비전문가용 쉬운 설명 + 용어집 딥링크
+   g: SMR-glossary.html 검색어(해시로 전달 → 용어집이 자동 필터)
+   ============================================================ */
+const TERMDEF = {
+  lcoe:{g:"LCOE",
+    ko:{t:"LCOE — 균등화발전원가",d:"발전소를 짓고 수명이 다할 때까지 운영하는 데 드는 모든 비용을, 그동안 만든 전기 총량으로 나눈 \"평생 평균 발전단가\". 석탄·가스·원자력처럼 성격이 다른 발전원을 하나의 잣대로 비교하는 국제 표준 지표임."},
+    en:{t:"LCOE — Levelized Cost of Electricity",d:"All the money it takes to build and run a plant over its whole life, divided by all the electricity it ever makes — a \"lifetime average price per MWh\". The standard yardstick for comparing very different technologies."}},
+  wacc:{g:"WACC",
+    ko:{t:"할인율 (실질 WACC)",d:"사업에 들어가는 돈의 평균 조달비용 — 은행 대출이자와 투자자 기대수익률을 섞은 값(WACC). 미래의 비용·수익을 현재가치로 깎을 때 쓰는 이자율이기도 함. \"실질\"은 물가상승분을 뺀 기준이라는 뜻. 원자력처럼 초기 건설비가 큰 기술은 이 숫자 하나에 경제성이 좌우됨."},
+    en:{t:"Discount rate (real WACC)",d:"The average cost of the money financing the project — a blend of loan interest and the return investors expect (WACC). Also the rate used to convert future cost into today's value. \"Real\" means inflation is stripped out. Capital-heavy technologies like nuclear live or die by this number."}},
+  carbonp:{g:"탄소가격",
+    ko:{t:"탄소가격",d:"CO₂ 1톤을 배출할 때 내야 하는 돈(배출권거래제·탄소세). 탄소를 내뿜는 석탄·가스에만 얹히는 비용이라, 탄소가격이 오를수록 원자력·재생에너지의 상대 경쟁력이 좋아짐."},
+    en:{t:"Carbon price",d:"What emitting one tonne of CO₂ costs (emissions trading or a carbon tax). It only loads onto coal and gas, so a higher carbon price improves the relative economics of nuclear and renewables."}},
+  foak:{g:"FOAK",
+    ko:{t:"FOAK / NOAK — 최초호기 / 양산호기",d:"FOAK(First-Of-A-Kind)는 세계에서 처음 짓는 호기라 시행착오 비용이 전부 얹힘. NOAK(Nth-Of-A-Kind)는 같은 설계를 여러 번 지어본 뒤의 양산 호기. 반복 건설의 학습효과로 원가가 내려간다는 것이 SMR 사업모델의 핵심 가정임."},
+    en:{t:"FOAK / NOAK",d:"FOAK (First-Of-A-Kind) is the very first unit ever built, carrying all the trial-and-error cost. NOAK (Nth-Of-A-Kind) is the Nth unit after repeated builds. Cost falling with repetition — \"learning\" — is the core assumption of the SMR business model."}},
+  occ:{g:"OCC",
+    ko:{t:"건설단가 (OCC, Overnight Cost)",d:"\"하룻밤 만에 다 지었다면\" 얼마인가로 정의하는 순수 건설비($/kW). 공사 기간에 붙는 이자(IDC)를 뺀 값이라, 금융조건과 분리해서 기술 자체의 건설비를 비교할 수 있음."},
+    en:{t:"Overnight capital cost (OCC)",d:"The pure construction cost per kW, defined as if the plant were built \"overnight\" — i.e. excluding interest during construction (IDC). Lets you compare technologies separately from financing terms."}},
+  cont:{
+    ko:{t:"예비비 (Contingency)",d:"설계가 덜 확정된 단계의 불확실성에 대비해 건설비 위에 얹는 여유분. 건설 경험이 적은 첨단로일수록 높게 잡음."},
+    en:{t:"Contingency",d:"A buffer added on top of construction cost for design uncertainty. The less construction experience, the bigger the buffer."}},
+  cf:{g:"CF",
+    ko:{t:"이용률 (Capacity Factor)",d:"1년 8,760시간 내내 최대출력으로 돌렸을 때를 100%로 놓고 실제 발전량이 몇 %인지. 원전은 연중 가동하는 기저부하라 90%대, 석탄·가스는 계통 상황·경제성에 따라 50~60%대가 흔함. 이용률이 높을수록 고정비가 더 많은 전기에 분산돼 단가가 내려감."},
+    en:{t:"Capacity factor",d:"Actual output as a share of running at full power all 8,760 hours a year. Nuclear runs baseload in the 90s; coal and gas often sit at 50–60%. Higher CF spreads fixed costs over more MWh."}},
+  tc:{g:"IDC",
+    ko:{t:"건설기간",d:"착공부터 준공까지 걸리는 햇수. 길어질수록 건설중이자(IDC)가 눈덩이처럼 불어나 자본비가 급증함 — 원전 경제성의 숨은 변수이자, 공기가 짧은 SMR가 내세우는 이점."},
+    en:{t:"Construction period",d:"Years from first concrete to commissioning. Longer builds snowball interest during construction (IDC) — the hidden variable of nuclear economics, and the advantage short-build SMRs claim."}},
+  fom:{g:"O&M",
+    ko:{t:"고정 O&M",d:"발전을 하든 안 하든 매년 나가는 운영·정비비 — 인건비, 계획정비, 보험 등. 운전 인력이 많은 원전은 이 항목이 큼."},
+    en:{t:"Fixed O&M",d:"Costs that recur every year whether or not the plant generates — staff, planned maintenance, insurance. Large for nuclear because of staffing."}},
+  vom:{g:"O&M",
+    ko:{t:"변동 O&M",d:"전기를 만든 만큼 비례해서 드는 소모품·정비 비용(연료는 별도)."},
+    en:{t:"Variable O&M",d:"Consumables and wear-and-tear costs that scale with generation (fuel counted separately)."}},
+  fuelc:{
+    ko:{t:"연료비",d:"전기 1MWh를 만드는 데 드는 연료 비용. 가스발전은 총단가의 절반 가까이가 연료라 가스값에 휘둘리지만, 원자력은 10% 미만이라 연료가격이 출렁여도 발전단가가 안정적임."},
+    en:{t:"Fuel cost",d:"Fuel spend per MWh generated. Gas plants are roughly half fuel — hostage to gas prices — while nuclear is under 10%, so its cost barely moves with fuel markets."}},
+  co2i:{g:"탄소가격",
+    ko:{t:"탄소배출 계수",d:"전기 1MWh를 만들 때 나오는 CO₂ 톤 수. 석탄 약 0.9, 가스복합 약 0.4, 원자력은 발전 중 배출 0 — 여기에 탄소가격을 곱한 금액이 발전단가에 얹힘."},
+    en:{t:"CO₂ intensity",d:"Tonnes of CO₂ per MWh generated — roughly 0.9 for coal, 0.4 for gas CCGT, zero for nuclear in operation. Multiplied by the carbon price, it lands on the LCOE."}},
+  idc:{g:"IDC",
+    ko:{t:"IDC — 건설중이자",d:"공사하는 몇 년 동안 이미 투입된 돈에 붙는 이자. 건설기간이 길고 할인율이 높을수록 크게 불어남 — 대형원전 사업비 초과의 주범. 이 열의 값은 준공 시점 기준으로 실제 묶이는 총자본($/kW)임."},
+    en:{t:"IDC — Interest During Construction",d:"Interest accruing on money already spent during the construction years. It snowballs with longer builds and higher rates — the main driver of large-reactor overruns. This column shows the true capital committed by commissioning day ($/kW)."}},
+  capex:{g:"OCC",
+    ko:{t:"자본비",d:"건설비(+건설중이자)를 수명 전체 발전량에 나눠 얹은 몫. 원자력 LCOE의 60~80%를 차지 — 그래서 할인율과 건설단가가 결정적임."},
+    en:{t:"Capital cost",d:"The construction bill (plus IDC) spread over lifetime generation. It makes up 60–80% of nuclear LCOE — which is why WACC and overnight cost dominate."}},
+};
+
+const tip=document.createElement('div'); tip.className='tipbox'; tip.setAttribute('role','tooltip');
+document.addEventListener('DOMContentLoaded',()=>document.body.appendChild(tip));
+let tipFor=null, tipHideT=null;
+function showTip(el){
+  const d=TERMDEF[el.dataset.term]; if(!d) return;
+  const L=d[lang]||d.ko;
+  tip.innerHTML='<b>'+L.t+'</b><p>'+L.d+'</p>'+
+    (d.g?'<a href="SMR-glossary.html#'+encodeURIComponent(d.g)+'">'+(lang==='ko'?'용어집에서 자세히 →':'See glossary →')+'</a>':'');
+  tip.classList.add('on'); tipFor=el;
+  const r=el.getBoundingClientRect();
+  tip.style.left='0px'; tip.style.top='0px';
+  const tw=tip.offsetWidth, th=tip.offsetHeight;
+  let x=Math.max(8,Math.min(r.left, window.innerWidth-tw-12));
+  let y=r.bottom+6;
+  if(y+th>window.innerHeight-8) y=Math.max(8, r.top-th-6);
+  tip.style.left=x+'px'; tip.style.top=y+'px';
+}
+function hideTip(){tip.classList.remove('on');tipFor=null;}
+document.addEventListener('mouseover',e=>{
+  const t=e.target.closest('.term');
+  if(t){clearTimeout(tipHideT);showTip(t);}
+  else if(tip.contains(e.target)){clearTimeout(tipHideT);}
+});
+document.addEventListener('mouseout',e=>{
+  if(e.target.closest('.term')||tip.contains(e.target)){
+    clearTimeout(tipHideT); tipHideT=setTimeout(hideTip,180);
+  }
+});
+document.addEventListener('click',e=>{
+  const t=e.target.closest('.term');
+  if(t){e.preventDefault(); (tipFor===t&&tip.classList.contains('on'))?hideTip():showTip(t);}
+  else if(!tip.contains(e.target)) hideTip();
+});
+window.addEventListener('scroll',hideTip,{passive:true});
 
 /* ============================================================ init */
 buildChips(); buildEditor(); setLang('ko');

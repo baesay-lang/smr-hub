@@ -141,7 +141,13 @@
     {a:'PPA',en:'Power Purchase Agreement',cat:'biz',d:'<b>장기 전력구매계약</b> — SPV 매출을 보장해 금융을 가능하게 하는 핵심 계약.'},
     {a:'Off-taker',en:'Off-taker',cat:'biz',d:'<b>구매자</b> — 전력(또는 열)을 장기로 사주는 주체. Dow(공정열)·Google·Amazon(전력) 등 빅테크가 새 오프테이커로 부상.'},
     {a:'ECA',en:'Export Credit Agency',cat:'biz',d:'<b>수출신용기관</b> — 수출금융·보증 제공(한국 KEXIM·K-SURE, 미국 EXIM). 원자력 수출 파이낸싱의 표준 축.'},
-    {a:'LCOE',en:'Levelized Cost of Electricity',cat:'biz',d:'<b>균등화발전원가</b> — 수명 전체 비용을 발전량으로 나눈 단가. <a href="LCOE_Calculator.html">계산기 →</a>'},
+    {a:'LCOE',en:'Levelized Cost of Electricity',cat:'biz',d:'<b>균등화발전원가</b> — 발전소를 짓고 수명이 다할 때까지 드는 모든 비용을 그동안 만든 전기 총량으로 나눈 "평생 평균 발전단가". 성격이 다른 발전원을 한 잣대로 비교하는 국제 표준 지표. <a href="LCOE_Calculator.html">계산기 →</a>'},
+    {a:'WACC / 할인율',en:'Weighted Average Cost of Capital',cat:'biz',d:'<b>가중평균자본비용</b> — 대출이자와 투자자 기대수익률을 섞은 자금 조달비용이자, 미래 비용·수익을 현재가치로 깎는 할인율. 초기 건설비가 큰 원자력 LCOE의 <b>최대 결정변수</b>. <a href="LCOE_Calculator.html">계산기에서 체험 →</a>'},
+    {a:'OCC',en:'Overnight Capital Cost',cat:'biz',d:'<b>순수 건설단가($/kW)</b> — "하룻밤에 다 지었다면" 가정으로 건설중이자(IDC)를 제외한 자본비. 금융조건과 분리해 기술 간 건설비를 비교하는 표준 지표. SMR FOAK $8,017/kWe(INL 2024)·NOAK ~$3,600/kW(DOE Liftoff)이 대표 참조값.'},
+    {a:'IDC',en:'Interest During Construction',cat:'biz',d:'<b>건설중이자</b> — 공사 기간에 이미 투입된 자금에 붙는 금융비용. 건설기간이 길고 금리가 높을수록 눈덩이처럼 불어남 — 대형원전 사업비 초과의 주범이자, 공기가 짧은 SMR가 내세우는 이점.'},
+    {a:'CF / 이용률',en:'Capacity Factor',cat:'biz',d:'<b>이용률</b> — 연간 8,760시간 내내 최대출력 가동을 100%로 놓았을 때 실제 발전량 비율. 원전은 기저부하라 90%대, 석탄·가스는 50~60%대가 흔함. 높을수록 고정비가 분산돼 발전단가가 내려감.'},
+    {a:'O&M',en:'Operations & Maintenance',cat:'biz',d:'<b>운영·정비비</b> — 발전량과 무관하게 매년 나가는 <b>고정 O&M</b>(인건비·계획정비·보험)과 발전량에 비례하는 <b>변동 O&M</b>으로 구분. 인력이 많은 원전은 고정 O&M 비중이 큼.'},
+    {a:'탄소가격',en:'Carbon Price (ETS / Carbon Tax)',cat:'biz',d:'<b>CO₂ 1톤 배출에 매기는 가격</b> — 배출권거래제(ETS)나 탄소세. 석탄·가스 LCOE에 직접 가산되므로 무탄소 전원의 상대 경쟁력을 결정하는 정책 변수. <a href="LCOE_Calculator.html">계산기에서 민감도 →</a>'},
     {a:'NEPIO',en:'Nuclear Energy Programme Implementing Organization',cat:'biz',d:'IAEA가 권고하는 <b>국가 원자력 도입 총괄기구</b> — 신규 도입국(인도네시아 등) 사업 구조의 필수 축.'},
     {a:'MWe / MWth',en:'Megawatt electric / thermal',cat:'biz',d:'<b>전기출력 / 열출력</b>. Xe-100은 80MWe/200MWth처럼 병기 — 공정열 사업에선 MWth가 본질.'},
     // ── 기관 ──
@@ -183,6 +189,8 @@
   chips.forEach(c=>c.addEventListener('click',()=>{chips.forEach(x=>x.classList.remove('active'));c.classList.add('active');cat=c.dataset.cat;render();}));
   search.addEventListener('input',render);
   document.addEventListener('keydown',e=>{if(e.key==='/'&&document.activeElement!==search){e.preventDefault();search.focus();}});
+  // deep link: SMR-glossary.html#WACC → 해당 용어로 검색 필터 (계산기 툴팁 등에서 연결)
+  try{const h=decodeURIComponent((location.hash||'').replace(/^#/,''));if(h)search.value=h;}catch(e){}
   render();
 </script>
 <script src="feedback.js" defer></script>
