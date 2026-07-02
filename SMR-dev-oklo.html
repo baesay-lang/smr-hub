@@ -136,46 +136,51 @@
 
   <!-- ===== 노형 모형(재사용 패턴): 회색 음영 3D 모델. Oklo = 상징적 A-프레임 파워하우스 건물(원자로는 지하). ===== -->
   <figure class="reactor-figure">
-    <svg viewBox="0 0 172 150" xmlns="http://www.w3.org/2000/svg"
-         role="img" aria-label="Oklo Aurora Powerhouse 모형: 가파른 A-프레임(삼각) 지붕의 파워하우스 건물, 원자로는 건물 아래에 배치">
-      <title>Oklo Aurora Powerhouse 모형</title>
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"
+         role="img" aria-label="Oklo Aurora 아이콘: A-프레임 파워하우스 건물, 둥근 창으로 소듐(주황)이 보임">
+      <title>Oklo Aurora Powerhouse 아이콘</title>
       <defs>
-        <linearGradient id="okRoof" x1="0" y1="0" x2="0.4" y2="1">
-          <stop offset="0" stop-color="#eceef1"/><stop offset="0.5" stop-color="#ffffff"/><stop offset="1" stop-color="#c6ccd3"/>
+        <linearGradient id="icBg" x1="0" y1="0" x2="0" y2="1">
+          <stop class="icb1" offset="0"/><stop class="icb2" offset="1"/>
         </linearGradient>
-        <linearGradient id="okSide" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0" stop-color="#c6ccd3"/><stop offset="1" stop-color="#9aa3ad"/>
+        <linearGradient id="icMetal" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#aab3bd"/><stop offset="0.35" stop-color="#e9ecef"/>
+          <stop offset="0.52" stop-color="#ffffff"/><stop offset="0.68" stop-color="#dfe3e8"/><stop offset="1" stop-color="#a2abb6"/>
         </linearGradient>
-        <linearGradient id="okGlass" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stop-color="#dfe6ee"/><stop offset="1" stop-color="#aeb8c4"/>
+        <linearGradient id="icCap" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#c3cad2"/><stop offset="0.5" stop-color="#f4f6f8"/><stop offset="1" stop-color="#bfc7cf"/>
         </linearGradient>
         <style>
-          .ok-edge{stroke:var(--border-strong);stroke-width:.9;stroke-linejoin:round}
-          .ok-seam{stroke:#aab2bc;stroke-width:.7}
-          .ok-shadow{fill:var(--border-strong);opacity:.5}
-          .ok-ground{stroke:var(--text-faint);stroke-width:1}
+          .ic-badge{fill:url(#icBg);stroke:var(--accent-weak-2);stroke-width:1.5;}
+          .icb1{stop-color:var(--accent-weak);}
+          .icb2{stop-color:var(--surface);}
+          .ic-metal{fill:url(#icMetal);stroke:#6b7686;stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round;}
+          .ic-cap{fill:url(#icCap);stroke:#6b7686;stroke-width:2.2;stroke-linejoin:round;}
+          .ic-rib{stroke:#8f99a5;stroke-width:1.6;stroke-linecap:round;}
+          .ic-gloss{fill:#ffffff;opacity:.5;}
+          .ic-shadow{fill:var(--border-strong);opacity:.45;}
+          .ic-port{fill:var(--surface);stroke:#6b7686;stroke-width:2.2;}
+          .ic-peb{fill:#8b93a2;}
+          .ic-fuel{fill:var(--accent);}
+          .ic-water{fill:var(--accent);opacity:.7;}
+          .ic-na{fill:#ea580c;opacity:.85;}
+          [data-theme="dark"] .ic-na{fill:#fb923c;}
+          .ic-bub{fill:var(--accent);}
+          .ic-glint{fill:#ffffff;opacity:.85;}
+          .ic-grade{stroke:var(--text-faint);stroke-width:1.6;stroke-dasharray:5 4;}
+          .ic-sea{stroke:var(--accent);opacity:.45;stroke-width:2.2;fill:none;stroke-linecap:round;}
         </style>
       </defs>
-
-      <!-- 바닥 그림자 -->
-      <ellipse class="ok-shadow" cx="86" cy="138" rx="78" ry="5"/>
-
-      <!-- 측면(깊이) 지붕면 -->
-      <polygon class="ok-edge" points="92,18 150,124 168,116 110,12" fill="url(#okSide)"/>
-      <!-- 정면 A-프레임 지붕 -->
-      <polygon class="ok-edge" points="92,18 34,124 150,124" fill="url(#okRoof)"/>
-      <!-- 지붕 패널 seam -->
-      <g class="ok-seam" fill="none">
-        <line x1="78" y1="46" x2="100" y2="46"/><line x1="64" y1="74" x2="116" y2="74"/><line x1="50" y1="100" x2="132" y2="100"/>
-      </g>
-      <!-- 정면 유리 출입부 -->
-      <polygon class="ok-edge" points="74,86 110,86 110,124 74,124" fill="url(#okGlass)"/>
-      <g class="ok-seam"><line x1="92" y1="86" x2="92" y2="124"/><line x1="74" y1="104" x2="110" y2="104"/></g>
-
-      <!-- 지표선 -->
-      <line class="ok-ground" x1="14" y1="124" x2="160" y2="124"/>
+      <rect class="ic-badge" x="12" y="12" width="176" height="176" rx="44"/>
+      <ellipse class="ic-shadow" cx="100" cy="158" rx="58" ry="7"/>
+      <polygon class="ic-cap" points="100,36 114,32 164,138 156,150"/>
+      <polygon class="ic-metal" points="100,36 44,150 156,150"/>
+      <rect class="ic-cap" x="86" y="122" width="28" height="28" rx="4"/>
+      <circle class="ic-port" cx="100" cy="94" r="13"/>
+      <path class="ic-na" d="M89 91 Q94.5 86.5 100 91 Q105.5 95.5 111 91 A11.4 11.4 0 1 1 89 91 Z"/>
+      <circle class="ic-glint" cx="95" cy="86" r="1.8"/>
     </svg>
-    <figcaption>Oklo Aurora Powerhouse (개략)</figcaption>
+    <figcaption>Oklo Aurora Powerhouse</figcaption>
   </figure>
 </header>
 

@@ -36,7 +36,7 @@
   /* reactor hero figure (재사용: 노형별 SVG 모형) */
   .reactor-hero{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap;}
   .rh-text{flex:1 1 320px;min-width:270px;}
-  .reactor-figure{flex:0 0 auto;margin:0;width:192px;max-width:100%;}
+  .reactor-figure{flex:0 0 auto;margin:0;width:172px;max-width:100%;}
   .reactor-figure svg{display:block;width:100%;height:auto;}
   .reactor-figure figcaption{font-size:11px;color:var(--text-faint);text-align:center;margin-top:2px;letter-spacing:.02em;}
   @media(max-width:600px){.reactor-figure{margin:6px auto 0;}}
@@ -136,43 +136,49 @@
 
   <!-- ===== 노형 모형(재사용 패턴): 회색 음영 3D 모델. Seaborg = 부유식 Power Barge(바지선 + 원자로 모듈). ===== -->
   <figure class="reactor-figure">
-    <svg viewBox="0 0 196 132" xmlns="http://www.w3.org/2000/svg"
-         role="img" aria-label="Seaborg Power Barge 모형: 물 위에 떠 있는 바지선 위에 CMSR 원자로 모듈들이 실려 있는 부유식 발전선">
-      <title>Seaborg/Saltfoss Power Barge 모형</title>
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"
+         role="img" aria-label="Seaborg Power Barge 아이콘: 물결 위 바지선과 원자로 모듈, 선체 창으로 용융염(주황)이 보임">
+      <title>Seaborg/Saltfoss Power Barge 아이콘</title>
       <defs>
-        <linearGradient id="sbHull" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stop-color="#eceef1"/><stop offset="0.5" stop-color="#ffffff"/><stop offset="1" stop-color="#aab2bc"/>
+        <linearGradient id="icBg" x1="0" y1="0" x2="0" y2="1">
+          <stop class="icb1" offset="0"/><stop class="icb2" offset="1"/>
         </linearGradient>
-        <linearGradient id="sbMod" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0" stop-color="#aeb8c4"/><stop offset="0.5" stop-color="#f4f6f8"/><stop offset="1" stop-color="#9aa3ad"/>
+        <linearGradient id="icMetal" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#aab3bd"/><stop offset="0.35" stop-color="#e9ecef"/>
+          <stop offset="0.52" stop-color="#ffffff"/><stop offset="0.68" stop-color="#dfe3e8"/><stop offset="1" stop-color="#a2abb6"/>
+        </linearGradient>
+        <linearGradient id="icCap" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#c3cad2"/><stop offset="0.5" stop-color="#f4f6f8"/><stop offset="1" stop-color="#bfc7cf"/>
         </linearGradient>
         <style>
-          .sb-body{stroke:var(--border-strong);stroke-width:.8;stroke-linejoin:round}
-          .sb-cap{fill:url(#sbMod);stroke:var(--border-strong);stroke-width:.7}
-          .sb-water{fill:var(--accent-weak)}
-          .sb-wave{stroke:#9bb6f0;stroke-width:1.2;fill:none}
-          .sb-deck{fill:#cdd3da;stroke:var(--border-strong);stroke-width:.6}
+          .ic-badge{fill:url(#icBg);stroke:var(--accent-weak-2);stroke-width:1.5;}
+          .icb1{stop-color:var(--accent-weak);}
+          .icb2{stop-color:var(--surface);}
+          .ic-metal{fill:url(#icMetal);stroke:#6b7686;stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round;}
+          .ic-cap{fill:url(#icCap);stroke:#6b7686;stroke-width:2.2;stroke-linejoin:round;}
+          .ic-rib{stroke:#8f99a5;stroke-width:1.6;stroke-linecap:round;}
+          .ic-gloss{fill:#ffffff;opacity:.5;}
+          .ic-shadow{fill:var(--border-strong);opacity:.45;}
+          .ic-port{fill:var(--surface);stroke:#6b7686;stroke-width:2.2;}
+          .ic-peb{fill:#8b93a2;}
+          .ic-fuel{fill:var(--accent);}
+          .ic-water{fill:var(--accent);opacity:.7;}
+          .ic-na{fill:#ea580c;opacity:.85;}
+          [data-theme="dark"] .ic-na{fill:#fb923c;}
+          .ic-bub{fill:var(--accent);}
+          .ic-glint{fill:#ffffff;opacity:.85;}
+          .ic-grade{stroke:var(--text-faint);stroke-width:1.6;stroke-dasharray:5 4;}
+          .ic-sea{stroke:var(--accent);opacity:.45;stroke-width:2.2;fill:none;stroke-linecap:round;}
         </style>
       </defs>
-
-      <!-- 물 -->
-      <rect class="sb-water" x="0" y="96" width="196" height="36"/>
-      <path class="sb-wave" d="M0 100 q14 -6 28 0 t28 0 t28 0 t28 0 t28 0 t28 0 t28 0"/>
-
-      <!-- 바지 선체 (사다리꼴) -->
-      <polygon class="sb-body" points="26,78 170,78 158,108 38,108" fill="url(#sbHull)"/>
-      <!-- 갑판 -->
-      <rect class="sb-deck" x="28" y="72" width="140" height="8" rx="2"/>
-
-      <!-- CMSR 원자로 모듈 3기 (갑판 위) -->
-      <g class="sb-cap">
-        <rect x="44" y="44" width="22" height="28" rx="4"/><rect x="86" y="38" width="22" height="34" rx="4"/><rect x="128" y="44" width="22" height="28" rx="4"/>
-      </g>
-      <g class="sb-body" fill="url(#sbMod)">
-        <ellipse cx="55" cy="44" rx="11" ry="3.5"/><ellipse cx="97" cy="38" rx="11" ry="3.5"/><ellipse cx="139" cy="44" rx="11" ry="3.5"/>
-      </g>
-      <!-- 브리지/배기 -->
-      <rect class="sb-deck" x="156" y="58" width="10" height="14" rx="1.5"/>
+      <rect class="ic-badge" x="12" y="12" width="176" height="176" rx="44"/>
+      <path class="ic-sea" d="M24 154 q10 -7 20 0 t20 0 t20 0 t20 0 t20 0 t20 0 t20 0"/>
+      <path class="ic-sea" d="M36 168 q10 -7 20 0 t20 0 t20 0 t20 0 t20 0 t20 0"/>
+      <polygon class="ic-metal" points="38,116 162,116 148,146 52,146"/>
+      <rect class="ic-cap" x="44" y="106" width="112" height="11" rx="4.5"/>
+      <g class="ic-cap"><rect x="58" y="80" width="20" height="28" rx="6"/><rect x="90" y="74" width="20" height="34" rx="6"/><rect x="122" y="80" width="20" height="28" rx="6"/></g>
+      <circle class="ic-port" cx="100" cy="131" r="11"/>
+      <path class="ic-na" d="M90.8 129 Q95.4 125.5 100 129 Q104.6 132.5 109.2 129 A9.4 9.4 0 1 1 90.8 129 Z"/>
     </svg>
     <figcaption>Seaborg/Saltfoss Power Barge (부유식 CMSR)</figcaption>
   </figure>

@@ -136,43 +136,52 @@
 
   <!-- ===== 노형 모형(재사용 패턴): 회색 음영 3D 모델. Natrium = 풀형(넓은) SFR 용기 + 용융염 저장탱크. ===== -->
   <figure class="reactor-figure">
-    <svg viewBox="0 0 172 175" xmlns="http://www.w3.org/2000/svg"
-         role="img" aria-label="Natrium 모형: 넓고 낮은 풀형 소듐냉각 원자로 용기와, 옆에 키 큰 용융염 저장탱크">
-      <title>Natrium 풀형 SFR + 용융염 저장탱크 모형</title>
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"
+         role="img" aria-label="Natrium 아이콘: 넓은 풀형 소듐 원자로와 키 큰 용융염 저장탱크, 창으로 소듐(주황)이 보임">
+      <title>Natrium 아이콘</title>
       <defs>
-        <linearGradient id="tpCylV" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0" stop-color="#99a2ac"/><stop offset="0.12" stop-color="#c2c9d1"/><stop offset="0.30" stop-color="#e9ecef"/>
-          <stop offset="0.48" stop-color="#ffffff"/><stop offset="0.64" stop-color="#eceef1"/><stop offset="0.80" stop-color="#c6ccd3"/><stop offset="1" stop-color="#959fa9"/>
+        <linearGradient id="icBg" x1="0" y1="0" x2="0" y2="1">
+          <stop class="icb1" offset="0"/><stop class="icb2" offset="1"/>
         </linearGradient>
-        <linearGradient id="tpCap" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0" stop-color="#d7dce1"/><stop offset="0.5" stop-color="#f6f7f9"/><stop offset="1" stop-color="#cfd4da"/>
+        <linearGradient id="icMetal" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#aab3bd"/><stop offset="0.35" stop-color="#e9ecef"/>
+          <stop offset="0.52" stop-color="#ffffff"/><stop offset="0.68" stop-color="#dfe3e8"/><stop offset="1" stop-color="#a2abb6"/>
+        </linearGradient>
+        <linearGradient id="icCap" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#c3cad2"/><stop offset="0.5" stop-color="#f4f6f8"/><stop offset="1" stop-color="#bfc7cf"/>
         </linearGradient>
         <style>
-          .tp-body{stroke:var(--border-strong);stroke-width:.8}
-          .tp-cap{fill:url(#tpCap);stroke:var(--border-strong);stroke-width:.7}
-          .tp-capb{fill:#aab2bc;stroke:var(--border-strong);stroke-width:.7}
-          .tp-flange{fill:#cdd3da;stroke:var(--border-strong);stroke-width:.6}
-          .tp-shadow{fill:var(--border-strong);opacity:.5}
+          .ic-badge{fill:url(#icBg);stroke:var(--accent-weak-2);stroke-width:1.5;}
+          .icb1{stop-color:var(--accent-weak);}
+          .icb2{stop-color:var(--surface);}
+          .ic-metal{fill:url(#icMetal);stroke:#6b7686;stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round;}
+          .ic-cap{fill:url(#icCap);stroke:#6b7686;stroke-width:2.2;stroke-linejoin:round;}
+          .ic-rib{stroke:#8f99a5;stroke-width:1.6;stroke-linecap:round;}
+          .ic-gloss{fill:#ffffff;opacity:.5;}
+          .ic-shadow{fill:var(--border-strong);opacity:.45;}
+          .ic-port{fill:var(--surface);stroke:#6b7686;stroke-width:2.2;}
+          .ic-peb{fill:#8b93a2;}
+          .ic-fuel{fill:var(--accent);}
+          .ic-water{fill:var(--accent);opacity:.7;}
+          .ic-na{fill:#ea580c;opacity:.85;}
+          [data-theme="dark"] .ic-na{fill:#fb923c;}
+          .ic-bub{fill:var(--accent);}
+          .ic-glint{fill:#ffffff;opacity:.85;}
+          .ic-grade{stroke:var(--text-faint);stroke-width:1.6;stroke-dasharray:5 4;}
+          .ic-sea{stroke:var(--accent);opacity:.45;stroke-width:2.2;fill:none;stroke-linecap:round;}
         </style>
       </defs>
-
-      <!-- 바닥 그림자 -->
-      <ellipse class="tp-shadow" cx="86" cy="168" rx="78" ry="5"/>
-
-      <!-- 풀형 원자로 용기 (넓고 낮음) -->
-      <!-- 상부 회전플러그 + 제어봉구동 -->
-      <rect class="tp-body" x="40" y="58" width="22" height="14" fill="url(#tpCap)"/>
-      <g stroke="#aab2bc" stroke-width=".8"><line x1="46" y1="60" x2="46" y2="71"/><line x1="51" y1="60" x2="51" y2="71"/><line x1="56" y1="60" x2="56" y2="71"/></g>
-      <ellipse class="tp-cap" cx="51" cy="74" rx="38" ry="9"/>
-      <rect class="tp-flange" x="12" y="82" width="78" height="4" rx="2"/>
-      <rect class="tp-body" x="13" y="86" width="76" height="62" fill="url(#tpCylV)"/>
-      <ellipse class="tp-capb" cx="51" cy="148" rx="38" ry="10"/>
-
-      <!-- 용융염 저장탱크 (키 큰 원통) -->
-      <ellipse class="tp-cap" cx="138" cy="56" rx="20" ry="6"/>
-      <rect class="tp-body" x="118" y="56" width="40" height="98" fill="url(#tpCylV)"/>
-      <g class="tp-flange"><rect x="117" y="86" width="42" height="3"/><rect x="117" y="116" width="42" height="3"/></g>
-      <ellipse class="tp-capb" cx="138" cy="154" rx="20" ry="6"/>
+      <rect class="ic-badge" x="12" y="12" width="176" height="176" rx="44"/>
+      <ellipse class="ic-shadow" cx="100" cy="160" rx="62" ry="7"/>
+      <rect class="ic-cap" x="60" y="58" width="26" height="12" rx="5"/>
+      <rect class="ic-metal" x="36" y="68" width="76" height="84" rx="18"/>
+      <rect class="ic-gloss" x="44" y="76" width="6" height="66" rx="3"/>
+      <rect class="ic-metal" x="124" y="48" width="38" height="106" rx="13"/>
+      <rect class="ic-cap" x="122" y="82" width="42" height="5" rx="2.5"/>
+      <rect class="ic-cap" x="122" y="112" width="42" height="5" rx="2.5"/>
+      <circle class="ic-port" cx="73" cy="112" r="14"/>
+      <path class="ic-na" d="M61 109 Q67 104 73 109 Q79 114 85 109 A12.4 12.4 0 1 1 61 109 Z"/>
+      <circle class="ic-glint" cx="68" cy="103" r="2"/>
     </svg>
     <figcaption>Natrium 풀형 SFR + 용융염 저장탱크</figcaption>
   </figure>

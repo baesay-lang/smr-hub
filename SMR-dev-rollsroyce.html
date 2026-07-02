@@ -36,7 +36,7 @@
   /* reactor hero figure (재사용: 노형별 SVG 모형) */
   .reactor-hero{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap;}
   .rh-text{flex:1 1 320px;min-width:270px;}
-  .reactor-figure{flex:0 0 auto;margin:0;width:166px;max-width:100%;}
+  .reactor-figure{flex:0 0 auto;margin:0;width:172px;max-width:100%;}
   .reactor-figure svg{display:block;width:100%;height:auto;}
   .reactor-figure figcaption{font-size:11px;color:var(--text-faint);text-align:center;margin-top:2px;letter-spacing:.02em;}
   @media(max-width:600px){.reactor-figure{margin:6px auto 0;}}
@@ -136,49 +136,53 @@
 
   <!-- ===== 노형 모형(재사용 패턴): 회색 음영 3D 모델. Rolls-Royce SMR = 중앙 RPV + 양옆 U-tube 증기발생기(3-loop). ===== -->
   <figure class="reactor-figure">
-    <svg viewBox="0 0 166 172" xmlns="http://www.w3.org/2000/svg"
-         role="img" aria-label="Rolls-Royce SMR 모형: 중앙 원자로압력용기와 양옆에 키 큰 U-튜브 증기발생기 두 기(3-loop PWR)">
-      <title>Rolls-Royce SMR (3-loop PWR) 모형</title>
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"
+         role="img" aria-label="Rolls-Royce SMR 아이콘: 중앙 원자로용기와 양옆 U-튜브 증기발생기, 창으로 1차 냉각수(물)가 보임">
+      <title>Rolls-Royce SMR 아이콘</title>
       <defs>
-        <linearGradient id="rrCylV" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0" stop-color="#99a2ac"/><stop offset="0.12" stop-color="#c2c9d1"/><stop offset="0.30" stop-color="#e9ecef"/>
-          <stop offset="0.48" stop-color="#ffffff"/><stop offset="0.64" stop-color="#eceef1"/><stop offset="0.80" stop-color="#c6ccd3"/><stop offset="1" stop-color="#959fa9"/>
+        <linearGradient id="icBg" x1="0" y1="0" x2="0" y2="1">
+          <stop class="icb1" offset="0"/><stop class="icb2" offset="1"/>
         </linearGradient>
-        <linearGradient id="rrCap" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0" stop-color="#d7dce1"/><stop offset="0.5" stop-color="#f6f7f9"/><stop offset="1" stop-color="#cfd4da"/>
+        <linearGradient id="icMetal" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#aab3bd"/><stop offset="0.35" stop-color="#e9ecef"/>
+          <stop offset="0.52" stop-color="#ffffff"/><stop offset="0.68" stop-color="#dfe3e8"/><stop offset="1" stop-color="#a2abb6"/>
+        </linearGradient>
+        <linearGradient id="icCap" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#c3cad2"/><stop offset="0.5" stop-color="#f4f6f8"/><stop offset="1" stop-color="#bfc7cf"/>
         </linearGradient>
         <style>
-          .rr-body{stroke:var(--border-strong);stroke-width:.8}
-          .rr-cap{fill:url(#rrCap);stroke:var(--border-strong);stroke-width:.7}
-          .rr-capb{fill:#aab2bc;stroke:var(--border-strong);stroke-width:.7}
-          .rr-flange{fill:#cdd3da;stroke:var(--border-strong);stroke-width:.6}
-          .rr-pipe{fill:none;stroke:#aab2bc;stroke-width:2}
-          .rr-shadow{fill:var(--border-strong);opacity:.5}
+          .ic-badge{fill:url(#icBg);stroke:var(--accent-weak-2);stroke-width:1.5;}
+          .icb1{stop-color:var(--accent-weak);}
+          .icb2{stop-color:var(--surface);}
+          .ic-metal{fill:url(#icMetal);stroke:#6b7686;stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round;}
+          .ic-cap{fill:url(#icCap);stroke:#6b7686;stroke-width:2.2;stroke-linejoin:round;}
+          .ic-rib{stroke:#8f99a5;stroke-width:1.6;stroke-linecap:round;}
+          .ic-gloss{fill:#ffffff;opacity:.5;}
+          .ic-shadow{fill:var(--border-strong);opacity:.45;}
+          .ic-port{fill:var(--surface);stroke:#6b7686;stroke-width:2.2;}
+          .ic-peb{fill:#8b93a2;}
+          .ic-fuel{fill:var(--accent);}
+          .ic-water{fill:var(--accent);opacity:.7;}
+          .ic-na{fill:#ea580c;opacity:.85;}
+          [data-theme="dark"] .ic-na{fill:#fb923c;}
+          .ic-bub{fill:var(--accent);}
+          .ic-glint{fill:#ffffff;opacity:.85;}
+          .ic-grade{stroke:var(--text-faint);stroke-width:1.6;stroke-dasharray:5 4;}
+          .ic-sea{stroke:var(--accent);opacity:.45;stroke-width:2.2;fill:none;stroke-linecap:round;}
         </style>
       </defs>
-
-      <!-- 바닥 그림자 -->
-      <ellipse class="rr-shadow" cx="83" cy="164" rx="76" ry="5"/>
-
-      <!-- 루프 연결 배관 -->
-      <path class="rr-pipe" d="M44 96 h22"/>
-      <path class="rr-pipe" d="M100 96 h22"/>
-
-      <!-- 좌측 U-tube 증기발생기 -->
-      <ellipse class="rr-cap" cx="30" cy="50" rx="15" ry="5"/>
-      <rect class="rr-body" x="15" y="50" width="30" height="92" fill="url(#rrCylV)"/>
-      <ellipse class="rr-capb" cx="30" cy="142" rx="15" ry="5"/>
-
-      <!-- 우측 U-tube 증기발생기 -->
-      <ellipse class="rr-cap" cx="136" cy="50" rx="15" ry="5"/>
-      <rect class="rr-body" x="121" y="50" width="30" height="92" fill="url(#rrCylV)"/>
-      <ellipse class="rr-capb" cx="136" cy="142" rx="15" ry="5"/>
-
-      <!-- 중앙 원자로압력용기 (앞쪽, 약간 넓고 낮음) -->
-      <ellipse class="rr-cap" cx="83" cy="70" rx="22" ry="7"/>
-      <rect class="rr-flange" x="59" y="78" width="48" height="4" rx="2"/>
-      <rect class="rr-body" x="60" y="82" width="46" height="66" fill="url(#rrCylV)"/>
-      <ellipse class="rr-capb" cx="83" cy="148" rx="23" ry="7"/>
+      <rect class="ic-badge" x="12" y="12" width="176" height="176" rx="44"/>
+      <ellipse class="ic-shadow" cx="100" cy="160" rx="62" ry="7"/>
+      <rect class="ic-metal" x="36" y="52" width="30" height="100" rx="13"/>
+      <rect class="ic-metal" x="134" y="52" width="30" height="100" rx="13"/>
+      <rect class="ic-cap" x="62" y="94" width="16" height="10" rx="4"/>
+      <rect class="ic-cap" x="122" y="94" width="16" height="10" rx="4"/>
+      <rect class="ic-cap" x="88" y="46" width="24" height="14" rx="6"/>
+      <rect class="ic-metal" x="72" y="58" width="56" height="96" rx="18"/>
+      <rect class="ic-gloss" x="80" y="67" width="6" height="76" rx="3"/>
+      <circle class="ic-port" cx="100" cy="106" r="14"/>
+      <path class="ic-water" d="M88 103 Q94 98 100 103 Q106 108 112 103 A12.4 12.4 0 1 1 88 103 Z"/>
+      <circle class="ic-glint" cx="95" cy="97" r="2"/>
     </svg>
     <figcaption>Rolls-Royce SMR · 3-loop PWR (중앙 RPV + U-tube SG)</figcaption>
   </figure>

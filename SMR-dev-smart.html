@@ -36,7 +36,7 @@
   /* reactor hero figure (재사용: 노형별 SVG 모형) */
   .reactor-hero{display:flex;align-items:center;justify-content:space-between;gap:22px;flex-wrap:wrap;}
   .rh-text{flex:1 1 320px;min-width:270px;}
-  .reactor-figure{flex:0 0 auto;margin:0;width:158px;max-width:100%;}
+  .reactor-figure{flex:0 0 auto;margin:0;width:172px;max-width:100%;}
   .reactor-figure svg{display:block;width:100%;height:auto;}
   .reactor-figure figcaption{font-size:11px;color:var(--text-faint);text-align:center;margin-top:2px;letter-spacing:.02em;}
   @media(max-width:600px){.reactor-figure{margin:6px auto 0;}}
@@ -136,44 +136,51 @@
 
   <!-- ===== 노형 모형(재사용 패턴): 회색 음영 3D 모델. SMART100 = 일체형 PWR 용기 + 측면 4개 캔드 RCP 모터. ===== -->
   <figure class="reactor-figure">
-    <svg viewBox="0 0 158 174" xmlns="http://www.w3.org/2000/svg"
-         role="img" aria-label="SMART100 모형: 노심·증기발생기·가압기·펌프를 내장한 일체형 가압경수로 용기와, 측면에 돌출한 4개 캔드 냉각재펌프 모터">
-      <title>SMART100 일체형 PWR 모형</title>
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"
+         role="img" aria-label="SMART100 아이콘: 일체형 원자로용기와 측면 4개 캔드펌프, 창으로 1차 냉각수(물)가 보임">
+      <title>SMART100 아이콘</title>
       <defs>
-        <linearGradient id="smCylV" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0" stop-color="#99a2ac"/><stop offset="0.12" stop-color="#c2c9d1"/><stop offset="0.30" stop-color="#e9ecef"/>
-          <stop offset="0.48" stop-color="#ffffff"/><stop offset="0.64" stop-color="#eceef1"/><stop offset="0.80" stop-color="#c6ccd3"/><stop offset="1" stop-color="#959fa9"/>
+        <linearGradient id="icBg" x1="0" y1="0" x2="0" y2="1">
+          <stop class="icb1" offset="0"/><stop class="icb2" offset="1"/>
         </linearGradient>
-        <linearGradient id="smCap" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0" stop-color="#d7dce1"/><stop offset="0.5" stop-color="#f6f7f9"/><stop offset="1" stop-color="#cfd4da"/>
+        <linearGradient id="icMetal" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#aab3bd"/><stop offset="0.35" stop-color="#e9ecef"/>
+          <stop offset="0.52" stop-color="#ffffff"/><stop offset="0.68" stop-color="#dfe3e8"/><stop offset="1" stop-color="#a2abb6"/>
+        </linearGradient>
+        <linearGradient id="icCap" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#c3cad2"/><stop offset="0.5" stop-color="#f4f6f8"/><stop offset="1" stop-color="#bfc7cf"/>
         </linearGradient>
         <style>
-          .sm-body{stroke:var(--border-strong);stroke-width:.8}
-          .sm-cap{fill:url(#smCap);stroke:var(--border-strong);stroke-width:.7}
-          .sm-capb{fill:#aab2bc;stroke:var(--border-strong);stroke-width:.7}
-          .sm-pump{fill:url(#smCap);stroke:var(--border-strong);stroke-width:.7}
-          .sm-rib{stroke:#aab2bc;stroke-width:.7;fill:none}
-          .sm-shadow{fill:var(--border-strong);opacity:.5}
+          .ic-badge{fill:url(#icBg);stroke:var(--accent-weak-2);stroke-width:1.5;}
+          .icb1{stop-color:var(--accent-weak);}
+          .icb2{stop-color:var(--surface);}
+          .ic-metal{fill:url(#icMetal);stroke:#6b7686;stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round;}
+          .ic-cap{fill:url(#icCap);stroke:#6b7686;stroke-width:2.2;stroke-linejoin:round;}
+          .ic-rib{stroke:#8f99a5;stroke-width:1.6;stroke-linecap:round;}
+          .ic-gloss{fill:#ffffff;opacity:.5;}
+          .ic-shadow{fill:var(--border-strong);opacity:.45;}
+          .ic-port{fill:var(--surface);stroke:#6b7686;stroke-width:2.2;}
+          .ic-peb{fill:#8b93a2;}
+          .ic-fuel{fill:var(--accent);}
+          .ic-water{fill:var(--accent);opacity:.7;}
+          .ic-na{fill:#ea580c;opacity:.85;}
+          [data-theme="dark"] .ic-na{fill:#fb923c;}
+          .ic-bub{fill:var(--accent);}
+          .ic-glint{fill:#ffffff;opacity:.85;}
+          .ic-grade{stroke:var(--text-faint);stroke-width:1.6;stroke-dasharray:5 4;}
+          .ic-sea{stroke:var(--accent);opacity:.45;stroke-width:2.2;fill:none;stroke-linecap:round;}
         </style>
       </defs>
-
-      <!-- 바닥 그림자 -->
-      <ellipse class="sm-shadow" cx="79" cy="166" rx="58" ry="5"/>
-
-      <!-- 상부 CRDM 스택 -->
-      <rect class="sm-body" x="72" y="22" width="14" height="14" fill="url(#smCap)"/>
-      <g class="sm-rib"><line x1="76" y1="24" x2="76" y2="35"/><line x1="82" y1="24" x2="82" y2="35"/></g>
-
-      <!-- 측면 4개 캔드 RCP 모터 (좌2·우2) -->
-      <g class="sm-pump">
-        <rect x="30" y="70" width="14" height="9" rx="2"/><rect x="30" y="92" width="14" height="9" rx="2"/>
-        <rect x="114" y="70" width="14" height="9" rx="2"/><rect x="114" y="92" width="14" height="9" rx="2"/>
-      </g>
-
-      <!-- 일체형 원자로용기 -->
-      <ellipse class="sm-cap" cx="79" cy="44" rx="30" ry="8"/>
-      <rect class="sm-body" x="49" y="44" width="60" height="98" fill="url(#smCylV)"/>
-      <ellipse class="sm-capb" cx="79" cy="142" rx="30" ry="8"/>
+      <rect class="ic-badge" x="12" y="12" width="176" height="176" rx="44"/>
+      <ellipse class="ic-shadow" cx="100" cy="162" rx="48" ry="7"/>
+      <rect class="ic-cap" x="88" y="30" width="24" height="12" rx="5"/>
+      <g class="ic-rib"><line x1="94" y1="33" x2="94" y2="39"/><line x1="100" y1="33" x2="100" y2="39"/><line x1="106" y1="33" x2="106" y2="39"/></g>
+      <g class="ic-cap"><rect x="54" y="68" width="16" height="11" rx="4.5"/><rect x="54" y="94" width="16" height="11" rx="4.5"/><rect x="130" y="68" width="16" height="11" rx="4.5"/><rect x="130" y="94" width="16" height="11" rx="4.5"/></g>
+      <rect class="ic-metal" x="70" y="40" width="60" height="118" rx="22"/>
+      <rect class="ic-gloss" x="78" y="50" width="6" height="94" rx="3"/>
+      <circle class="ic-port" cx="100" cy="112" r="14"/>
+      <path class="ic-water" d="M88 109 Q94 104 100 109 Q106 114 112 109 A12.4 12.4 0 1 1 88 109 Z"/>
+      <circle class="ic-glint" cx="95" cy="103" r="2"/>
     </svg>
     <figcaption>SMART100 일체형 PWR (4 캔드펌프 내장)</figcaption>
   </figure>
