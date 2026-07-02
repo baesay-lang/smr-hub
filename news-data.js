@@ -401,6 +401,50 @@ window.SMR_NEWS = [
     "id": "bb759150"
   },
   {
+    "date": "2026-07-02",
+    "title": "Craig-Hallum, 오클로 주식 보유 평가 유지",
+    "summary": "증권사 Craig-Hallum이 오클로(Oklo Inc) 주식에 대한 보유(Hold) 평가를 유지했다.",
+    "summaryLong": "투자은행 Craig-Hallum이 SMR 및 차세대 원자로 개발사인 오클로(Oklo Inc)에 대한 투자 평가를 보유(Hold) 등급으로 유지했다. 이는 오클로의 사업 전망과 주가에 대한 중립적 시각을 반영하는 것으로, SMR 산업의 변동성과 기술 리스크를 감안한 보수적 판단으로 보인다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "theglobeandmail.com",
+    "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/3090579/craig-hallum-keeps-their-hold-rating-on-oklo-inc-oklo/",
+    "k": "craig hallum keeps their hold rating on oklo inc oklo",
+    "id": "6330d588"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "삼성물산, 72조 규모 영국 SMR 14기 건설 프로젝트 참여 신청",
+    "summary": "삼성물산이 영국의 소형모듈원자로(SMR) 14기 건설 프로젝트(72조 규모)에 참여 신청했다.",
+    "summaryLong": "삼성물산이 영국에서 추진 중인 규모 72조 원의 소형모듈원자로(SMR) 14기 건설 프로젝트에 참여할 것을 신청했다고 보도되었다. 이는 한국 대형 엔지니어링·건설사의 글로벌 SMR 시장 진출 의지를 보여주는 사례로, 영국의 에너지 정책 추진과 민간 자금 활용 전략 속에서 국제 파트너십이 확대되고 있음을 의미한다. 향후 협상 진행 및 계약 체결 여부가 주목되고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Samsung E&C",
+    "region": "UK",
+    "source": "theguru.co.kr",
+    "url": "https://theguru.co.kr/news/article.html?no=103879",
+    "k": "단독 삼성물산 72조 규모 smr 14기 건설 프로젝트 참여 신청",
+    "ko": 1,
+    "id": "0a14ed12"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "한국원자력안전기술원, SMR·차세대 안전기술 심포지엄 개최",
+    "summary": "한국원자력안전기술원(KINS)이 원자력 안전해석 심포지엄을 개최하여 SMR 및 차세대 원자로 안전기술을 논의했다.",
+    "summaryLong": "한국원자력안전기술원(KINS)이 원자력안전해석 심포지엄을 개최하여 소형모듈원자로(SMR)와 차세대 첨단원자로 기술의 안전성 평가 및 기술 표준화를 논의했다. 이는 국내 규제 기관이 SMR·첨단로 시대에 대비한 안전 평가 역량 강화와 국제 규제 조화를 추진하는 정책 신호로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "KINS",
+    "region": "KR",
+    "source": "webeconomy.co.kr",
+    "url": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2220313",
+    "k": "kins 원자력안전해석 심포지엄 smr 차세대 안전기술 논의",
+    "ko": 1,
+    "id": "e8aef428"
+  },
+  {
     "date": "2026-07-01",
     "title": "i-SMR 기술개발사업단, 싱가포르 에너지시장청과 협력",
     "summary": "한국의 i-SMR(혁신형 소형모듈원자로) 기술개발사업단이 싱가포르 에너지시장청(EMA)과 협력 양해각서를 체결했다.",
@@ -14610,4 +14654,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-03 08:18 KST";
+window.SMR_UPDATED = "2026-07-03 08:48 KST";
