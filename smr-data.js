@@ -32,7 +32,7 @@ window.SMR_DEVS = {
   arc:          { name:'ARC-100',         stage:2, label:'2 · 설계심사(VDR) 완료' },
   smart:        { name:'SMART100',        stage:2, label:'2 · 표준설계인가 완료' },
   westinghouse: { name:'Westinghouse',    stage:1, label:'1 · 사전협의' },
-  ismr:         { name:'i-SMR',           stage:1, label:'1 · 설계개발(인가 전)' },
+  ismr:         { name:'i-SMR',           stage:2, label:'2 · 표준설계인가 심사' },
   seaborg:      { name:'Seaborg',         stage:1, label:'1 · 개념·초기 R&D' }
 };
 
@@ -45,6 +45,7 @@ window.SMR_PROJECTS = [
       sum:'<b>북미 최초 상용 SMR 건설.</b> OPG Darlington 신규원전 부지에 BWRX-300 1호기 핵 콘크리트 타설·건설 중. CNSC 건설허가 보유.' },
     ms:[
       { t:2025.27, code:'건설허가', full:'캐나다 CNSC 건설허가(LTC) 발급 (2025.4) — 핵 콘크리트 타설·건설 착수', s:'done' },
+      { t:2026.15, code:'굴착완료', full:'1호기 수직갱(shaft) 굴착 완료 (2026 초) — 원자로 건물 기초 공사 진행', s:'done' },
       { t:2030.92, code:'가동', full:'Darlington 1호기 완공 목표 (2030년말)', s:'target' } ] },
 
   { dev:'GE Hitachi', id:'gehitachi', proj:'Clinch River (TVA)', cc:'US', type:'BWR', stage:3, track:'nrc50',
@@ -98,7 +99,7 @@ window.SMR_PROJECTS = [
   { dev:'NuScale', id:'nuscale', proj:'VOYGR · US600/460', cc:'US', type:'PWR', stage:2, track:'nrc52',
     ms:[
       { t:2023.05, code:'DC', full:'US600 설계인증(DC) 취득 (2023) — 첫 SMR 설계인증', s:'done' },
-      { t:2026.0, code:'SDA', full:'출력증강 US460 표준설계승인(SDA) 심사 중', s:'target' } ] },
+      { t:2025.4, code:'SDA', full:'출력증강 US460(77MWe×6) 표준설계승인(SDA) 발급 (2025.5)', s:'done' } ] },
 
   { dev:'Rolls-Royce', id:'rollsroyce', proj:'UK SMR · Wylfa', cc:'UK', type:'PWR', stage:2, track:'intl',
     ms:[
@@ -111,7 +112,8 @@ window.SMR_PROJECTS = [
       sum:'소듐냉각 고속로(75MWe, EBR-II 계열). 2022년 COLA 기각 후 <b>단계형 재신청</b> 진행 — Part 52 경로.' },
     ms:[
       { t:2022.05, code:'기각', full:'첫 COLA 기각 (2022.1, without prejudice)', s:'neg' },
-      { t:2025.5, code:'재도전', full:'단계형 COLA 재도전 — NRC readiness 평가 완료, INL', s:'done' } ] },
+      { t:2025.5, code:'재도전', full:'단계형 COLA 재도전 — NRC readiness 평가 완료, INL', s:'done' },
+      { t:2026.38, code:'PDC승인', full:'NRC 주요설계기준(PDC) 토픽보고서 승인 (2026.5) — Aurora 인허가 경로 확정', s:'done' } ] },
 
   { dev:'ARC-100', id:'arc', proj:'Point Lepreau', cc:'CA', type:'SFR', stage:2, track:'intl',
     ms:[
@@ -133,13 +135,14 @@ window.SMR_PROJECTS = [
       { t:2024.92, code:'I&C', full:'eVinci 계측제어(I&C) 플랫폼 승인 (2024.12)', s:'done' },
       { t:2025.3, code:'설계기준', full:'eVinci 주요설계기준 토픽보고서 승인 (2025.4)', s:'done' } ] },
 
-  { dev:'i-SMR', id:'ismr', proj:'혁신형 i-SMR', cc:'KR', type:'PWR', stage:1, track:'kr',
+  { dev:'i-SMR', id:'ismr', proj:'혁신형 i-SMR', cc:'KR', type:'PWR', stage:2, track:'kr',
     ms:[
       { t:2023.5, code:'출범', full:'국책 혁신형 i-SMR 개발사업 출범 (2023)', s:'done' },
-      { t:2028.0, code:'SDA', full:'표준설계인가(SDA) 목표 (2028)', s:'target' } ] },
+      { t:2026.15, code:'SDA신청', full:'표준설계인가(SDA) 공식 신청 (2026.2.27) — 170MWe×4 = 680MWe, 원안위 심사 착수', s:'done' },
+      { t:2028.0, code:'SDA', full:'표준설계인가(SDA) 취득 목표 (2028)', s:'target' } ] },
 
   { dev:'Seaborg', id:'seaborg', proj:'CMSR · 부유식', cc:'DK', type:'MSR', stage:1, track:'intl',
     ms:[
-      { t:2026.0, code:'시제', full:'상용 프로토타입 목표 (2026, 변동 큼)', s:'target' },
-      { t:2028.0, code:'운전', full:'해상 Power Barge 상업운전 목표 (2028, 변동 큼)', s:'target' } ] }
+      { t:2026.0, code:'(구)시제', full:'(구)상용 프로토타입 목표 2026 — 연기됨. HALEU 수급 리스크로 LEU·흑연 감속 설계로 변경', s:'target' },
+      { t:2031.7, code:'운전', full:'첫 원자로 2030년대 초반 목표로 연기 (CEO 공표) — Power Barge 시리즈 생산은 2030년대 중반', s:'target' } ] }
 ];
