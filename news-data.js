@@ -299,6 +299,108 @@ window.SMR_NEWS = [
     "id": "cb77e917"
   },
   {
+    "date": "2026-07-02",
+    "title": "뉴스케일 파워 소송: 파트너 ENTRA1 경험 과장 혐의로 투자자 손실 우려",
+    "summary": "뉴스케일 파워(NuScale Power)가 파트너 ENTRA1의 경험을 투자자들에게 과장했다는 혐의로 소송에 직면했으며, 프로젝트 지연 위험이 제기되고 있다.",
+    "summaryLong": "투자자들이 뉴스케일 파워(NuScale Power)를 상대로 파트너 기업 ENTRA1의 경험과 능력을 과장하여 투자자들을 기만했다는 혐의로 소송을 제기했다. 소송은 뉴스케일의 주요 프로젝트 지연 위험성을 지적하고 있으며, ENTRA1의 실제 역량에 대한 의문을 제기하고 있다. 이 법적 분쟁은 뉴스케일의 투자자 신뢰와 프로젝트 일정에 영향을 미칠 수 있는 중대한 사안이다. 사건의 진행에 따라 회사의 사업 추진력과 시장 평가에 부정적 영향을 줄 수 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "pluang.com",
+    "url": "https://pluang.com/en/news-feed/kuehn-law-mendorong-investor-nuscale-power-hubungi-firma-hukum",
+    "k": "lawsuit alleges nuscale power misled investors about partner entra1 s experience risking project delays",
+    "id": "1217d4c7"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "오클로, 그로브스 원자로를 미국 에너지부(DOE) 최종 안전검토 단계로 진전",
+    "summary": "오클로(Oklo)의 그로브스(Groves) 고속로가 미국 에너지부(DOE) 최종 안전검토 단계로 진입했다.",
+    "summaryLong": "오클로(Oklo)가 개발 중인 그로브스(Groves) 소형 고속원자로(fast reactor) 프로젝트가 미국 에너지부(DOE)의 최종 안전분석 검토 단계로 진전했다. 이는 오클로의 원자로 개발이 규제 승인 절차에서 중요한 마일스톤에 도달했음을 의미한다. DOE의 최종 안전검토 단계는 프로젝트 상용화 실현까지의 중요한 인허가 과정이며, 이번 진전이 투자자들의 평가에 긍정적 영향을 미칠 것으로 예상된다. 오클로는 폐연료 재활용이 가능한 고속로 기술 개발의 선두주자로 평가받고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-oklo-oklo-001803069.html",
+    "k": "how investors may respond to oklo oklo advancing groves reactor to final doe safety review phase",
+    "id": "6c098bcc"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "쿤 로펌, 뉴스케일 파워 투자자 소송 상담 권유",
+    "summary": "쿤 로펌(Kuehn Law)이 뉴스케일 파워(NuScale Power) 투자자들을 대상으로 집단소송 상담을 권유하고 있다.",
+    "summaryLong": "쿤 로펌(Kuehn Law)이 뉴스케일 파워(NuScale Power)와 관련된 투자자 손실 건에 대해 법적 상담을 제공하겠다고 공고했다. 이는 뉴스케일에 대한 다중 소송이 진행되고 있음을 시사하며, 투자자들이 회사의 공시나 사업 진행 상황에 대한 신뢰성 문제를 제기하고 있음을 보여준다. 집단소송 형태의 투자자 소송은 회사의 투자자 신뢰도와 기업 평판에 실질적 영향을 미칠 수 있다. 이러한 법적 분쟁은 뉴스케일의 사업 진행과 자금 조달에 부정적 요인으로 작용할 수 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "lincolnjournal.com",
+    "url": "https://www.lincolnjournal.com/online_features/press_releases/kuehn-law-encourages-investors-of-nuscale-power-corporation-to-contact-law-firm/article_0c5b5adb-500c-52e1-9c67-74557643840c.html",
+    "k": "kuehn law encourages investors of nuscale power corporation to contact law firm",
+    "id": "bf5afb58"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "센트러스, 미국 에너지부(DOE)와 9억 달러 HALEU 계약 체결, 상용 운영으로 전환",
+    "summary": "센트러스 에너지(Centrus Energy)가 미국 에너지부(DOE)와 9억 달러 규모의 고순도 저농축우라늄(HALEU) 생산 계약을 확정하고 오하이오(Ohio) 파이크톤(Piketon) 시설을 상용 운영으로 전환한다.",
+    "summaryLong": "센트러스 에너지(Centrus Energy)가 미국 에너지부(DOE)와 9억 달러 규모의 업무 주문(task order)을 최종 확정했다. 이를 통해 메릴랜드(Maryland) 베데스다(Bethesda)에 본사를 둔 센트러스의 자회사는 오하이오(Ohio) 파이크톤(Piketon)에 위치한 고순도 저농축우라늄(HALEU, High-Assay Low-Enriched Uranium) 농축 시설을 정부 지원 시범 운영에서 민간 상용 운영으로 전환하게 된다. 이는 미국의 고급 원자로(SMR 포함)용 핵연료 공급 자립화를 위한 국책 사업의 중요한 진전이며, 센트러스는 미국 유일의 HALEU 공급자로서의 지위를 강화하게 된다. 계약은 2024년 7월 1일 공식 발표되었다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "Centrus",
+    "region": "US",
+    "source": "POWER Magazine",
+    "url": "https://www.powermag.com/centrus-signs-900m-doe-contract-pivots-sole-u-s-haleu-cascade-to-commercial-operation/",
+    "k": "centrus signs 900m doe contract pivots sole u s haleu cascade to commercial operation",
+    "id": "cd9d2668"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "폴란드 억만장자, 영국(UK)에 소형모듈원자로(SMR) 14기 건설 추진",
+    "summary": "폴란드의 한 억만장자가 영국에서 소형모듈원자로 14기 건설 프로젝트를 추진하고 있다.",
+    "summaryLong": "폴란드의 억만장자가 영국에서 소형모듈원자로(SMR) 14기 건설 프로젝트를 추진하고 있는 것으로 보도되었다. 구체적인 프로젝트 규모, 일정, 자금 조달 방식 등의 세부 사항은 제시되지 않았으며, 현재 계획 단계인 것으로 파악된다. 이 프로젝트는 영국의 재생에너지 정책 및 탄소중립 목표와 관련된 민간 차원의 핵심 기반시설 투자로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "UK",
+    "source": "notesfrompoland.com",
+    "url": "https://notesfrompoland.com/2026/07/02/polish-billionaire-seeks-to-build-14-small-modular-nuclear-reactors-in-uk/",
+    "k": "polish billionaire seeks to build 14 small modular nuclear reactors in uk",
+    "op": 1,
+    "id": "6652bd42"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "영흥화력발전소 부지에 SMR 전환 가능성, 지역주민 반발",
+    "summary": "폐지된 영흥화력발전소 부지의 소형모듈원자로 전환 가능성이 제기되면서 어민과 지역사회가 강하게 반발하고 있다.",
+    "summaryLong": "한국의 폐지 예정 영흥화력발전소 부지에 소형모듈원자로(SMR)로의 전환 가능성이 논의되고 있으나, 지역 어민과 주민들이 '원전 실험장화'를 우려하며 반발하고 있는 상황이다. 이는 정부의 탄소중립 에너지 정책 일환으로 추진되는 것으로 보이나, 지역 수용성과 환경 우려가 주요 걸림돌로 작용하고 있다. 구체적인 프로젝트 규모, 예상 일정, 투자 계획은 아직 확정되지 않았다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260702164505778",
+    "k": "영흥화력 나간 자리에 원자력 smr 전환 가능성에 어민 지역사회 원전 실험장 안 된다",
+    "ko": 1,
+    "op": 1,
+    "id": "bfcdbee0"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "한국원자력안전기술원(KINS), 원자력안전해석 심포지엄에서 SMR 시대 안전해석 역할 논의",
+    "summary": "한국원자력안전기술원(KINS)이 개최한 심포지엄에서 소형모듈원자로 시대의 안전해석 역할을 논의했다.",
+    "summaryLong": "한국원자력안전기술원(KINS)이 원자력안전해석 심포지엄을 개최하여 소형모듈원자로(SMR) 시대에서의 안전해석 기술 및 규제 역할에 대해 논의했다. 이는 SMR의 설계 특성과 소재·냉각 방식의 다양화에 따른 새로운 안전평가 방법론 개발의 필요성을 인식한 것으로, 국내 원자력 안전규제 체계의 현대화를 위한 학술·정책 교류의 일환이다. 구체적인 심포지엄 일정, 참석자, 도출 결론은 제시되지 않았다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "KINS",
+    "region": "KR",
+    "source": "inpnews.kr",
+    "url": "https://www.inpnews.kr/news/articleView.html?idxno=7248",
+    "k": "kins 원자력안전해석 심포지엄 smr 시대 안전해석 역할 논의",
+    "ko": 1,
+    "id": "bb759150"
+  },
+  {
     "date": "2026-07-01",
     "title": "i-SMR 기술개발사업단, 싱가포르 에너지시장청과 협력",
     "summary": "한국의 i-SMR(혁신형 소형모듈원자로) 기술개발사업단이 싱가포르 에너지시장청(EMA)과 협력 양해각서를 체결했다.",
@@ -14508,4 +14610,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-03 07:41 KST";
+window.SMR_UPDATED = "2026-07-03 08:18 KST";
