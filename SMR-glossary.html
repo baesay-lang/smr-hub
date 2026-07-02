@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMR 용어집 — 약어·핵심 용어</title>
+<meta name="description" content="SMR 업무에서 마주치는 약어·핵심 용어 사전 — 인허가(CP·OL·COL·DC·GDA·PRA), 노형(PWR·SFR·HTGR·MSR), 연료(HALEU·TRISO·LEU), 사업·금융(FOAK·FID·EPC·SPV·PPA)을 한 페이지에서 검색.">
+<link rel="canonical" href="https://baesay-lang.github.io/smr-hub/SMR-glossary.html">
+<meta name="theme-color" content="#2563eb">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SMR HUB">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:title" content="SMR 용어집 · SMR HUB">
+<meta property="og:description" content="인허가·노형·연료·사업 약어와 핵심 용어를 한 페이지에서 검색 — CP·COL·GDA·HALEU·TRISO·FOAK·FID·SPV…">
+<meta property="og:url" content="https://baesay-lang.github.io/smr-hub/SMR-glossary.html">
+<meta property="og:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SMR 용어집 · SMR HUB">
+<meta name="twitter:description" content="SMR 약어·핵심 용어 사전 — 인허가·노형·연료·사업.">
+<meta name="twitter:image" content="https://baesay-lang.github.io/smr-hub/og-image.png">
+<link rel="stylesheet" href="styles.css?v=5">
+<script>(function(){try{var t=localStorage.getItem('smrhub-theme');if(t==='dark'||(!t&&window.matchMedia&&matchMedia('(prefers-color-scheme:dark)').matches))document.documentElement.setAttribute('data-theme','dark');}catch(e){}})();</script>
+<script src="ui.js?v=3" defer></script>
+<style>
+  .controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:18px 0 10px;}
+  #gSearch{flex:1;min-width:220px;}
+  .gtbl{overflow-x:auto;border:1px solid var(--border);border-radius:var(--radius);background:var(--surface);box-shadow:var(--shadow);}
+  table.glo{width:100%;border-collapse:collapse;font-size:13.5px;min-width:640px;}
+  table.glo th,table.glo td{text-align:left;padding:10px 13px;border-bottom:1px solid var(--border);vertical-align:top;}
+  table.glo thead th{background:var(--surface-2);font-weight:700;font-size:11.5px;color:var(--text-dim);white-space:nowrap;position:sticky;top:0;z-index:2;}
+  table.glo tr:last-child td{border-bottom:none;}
+  table.glo tbody tr:hover{background:var(--surface-2);}
+  .g-abbr{font-weight:800;color:var(--text);white-space:nowrap;}
+  .g-en{font-size:11.5px;color:var(--text-faint);display:block;margin-top:1px;font-weight:500;}
+  .g-desc{color:var(--text-dim);line-height:1.55;}
+  .g-desc b{color:var(--text);}
+  .g-desc a{font-weight:600;}
+  .gcat{font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:4px;white-space:nowrap;}
+  .gc-reg{background:var(--accent-weak);color:var(--accent-strong);}
+  .gc-tech{background:var(--surface-3);color:var(--text-dim);}
+  .gc-fuel{background:var(--surface-3);color:var(--text-dim);}
+  .gc-biz{background:var(--surface-3);color:var(--text-dim);}
+  .gc-org{background:var(--surface-3);color:var(--text-dim);}
+  .chip .cnt{font-size:10px;color:var(--text-faint);font-weight:700;margin-left:4px;}
+  .chip.active .cnt{color:var(--accent-strong);}
+</style>
+</head>
+<body>
+<nav class="topnav" aria-label="주요 메뉴"><noscript><a class="brand" href="index.html">SMR HUB</a></noscript></nav>
+
+<header class="page">
+  <div class="kicker">Glossary</div>
+  <h1>용어집 — 약어 · 핵심 용어</h1>
+  <p class="subtitle">SMR 업무에서 마주치는 약어를 한 페이지에서. 각 페이지 본문의 <abbr title="이렇게 점선 밑줄이 있는 약어에 마우스를 올리면 풀네임이 보입니다">점선 약어</abbr>에 마우스를 올려도 풀네임이 보입니다. 검색은 <b>/</b> 키.</p>
+</header>
+
+<main>
+  <div class="controls">
+    <input id="gSearch" class="search" type="text" placeholder="용어 검색 (예: HALEU, 건설허가, FOAK, 부지)" autocomplete="off">
+    <div class="filters" id="gChips">
+      <span class="chip active" data-cat="all">전체 <span class="cnt" id="gc-all"></span></span>
+      <span class="chip" data-cat="reg">인허가·규제 <span class="cnt" id="gc-reg"></span></span>
+      <span class="chip" data-cat="tech">노형·기술 <span class="cnt" id="gc-tech"></span></span>
+      <span class="chip" data-cat="fuel">연료 <span class="cnt" id="gc-fuel"></span></span>
+      <span class="chip" data-cat="biz">사업·금융 <span class="cnt" id="gc-biz"></span></span>
+      <span class="chip" data-cat="org">기관 <span class="cnt" id="gc-org"></span></span>
+    </div>
+    <span class="result-count" id="gCount"></span>
+  </div>
+
+  <div class="gtbl">
+    <table class="glo">
+      <thead><tr><th style="width:150px">약어·용어</th><th style="width:92px">분류</th><th>뜻 · 왜 중요한가</th></tr></thead>
+      <tbody id="gBody"></tbody>
+    </table>
+  </div>
+  <div class="no-results hidden" id="gNone">검색 결과가 없습니다.</div>
+
+  <div class="note" style="margin-top:18px;">
+    <span class="lead">더 보기</span> 규정 원문 맥락은 <a href="SMR-reference.html">CFR 레퍼런스</a>, 트랙별 절차는 <a href="SMR-licensing-tracks.html">인허가 트랙</a>, 연료 배경은 <a href="SMR-fuel-supply.html">연료 공급망</a> 참고. 빠진 용어는 우측 하단 ‘의견’으로 알려주세요.
+  </div>
+</main>
+
+<footer>
+  <a href="SMR-reference.html">CFR 레퍼런스</a> · <a href="SMR-licensing-tracks.html">인허가 트랙</a> · <a href="SMR-fuel-supply.html">연료 공급망</a>
+</footer>
+
+<script>
+  // cat: reg 인허가·규제 / tech 노형·기술 / fuel 연료 / biz 사업·금융 / org 기관
+  const TERMS=[
+    // ── 인허가·규제 ──
+    {a:'CP',en:'Construction Permit',cat:'reg',d:'<b>건설허가</b>. Part 50 2단계 방식의 1단계 — 이걸 받아야 핵 안전 관련 공사를 시작함. TerraPower·Kairos가 발급, X-energy·Holtec이 심사 중.'},
+    {a:'OL',en:'Operating License',cat:'reg',d:'<b>운영허가</b>. Part 50의 2단계 — 건설 후 연료 장전·운전을 허가. CP와 합치면 Part 52의 COL에 해당.'},
+    {a:'COL / COLA',en:'Combined License (Application)',cat:'reg',d:'<b>통합건설운영허가(신청)</b>. Part 52에서 건설+운영을 한 번에 받는 면허. Oklo가 이 트랙(2022 기각 후 재도전).'},
+    {a:'DC',en:'Design Certification',cat:'reg',d:'<b>설계인증</b>. 부지와 무관하게 설계 자체를 NRC가 인증(Part 52). NuScale US600이 SMR 최초 취득(2023).'},
+    {a:'SDA',en:'Standard Design Approval / 표준설계인가',cat:'reg',d:'미국 Part 52의 <b>표준설계승인</b>, 또는 한국의 <b>표준설계인가</b>. 한국은 SMART(2012, 세계 최초)·SMART100(2024) 취득, i-SMR이 2028 목표.'},
+    {a:'ESP',en:'Early Site Permit',cat:'reg',d:'<b>부지사전승인</b>(Part 52). 설계 확정 전에 부지 적합성만 먼저 승인받는 절차.'},
+    {a:'LWA',en:'Limited Work Authorization',cat:'reg',d:'<b>제한작업승인</b>. 본허가 전에 일부 부지 공사를 먼저 허용. Holtec Palisades 신청에 포함.'},
+    {a:'GDA',en:'Generic Design Assessment',cat:'reg',d:'<b>영국 일반설계평가</b>. ONR 등이 부지와 무관하게 설계를 Step 1~3로 심사. Rolls-Royce가 최종 단계.'},
+    {a:'VDR',en:'Vendor Design Review',cat:'reg',d:'<b>캐나다 벤더설계심사</b>(CNSC). 정식 인허가 전 설계 건전성 사전검토. ARC-100이 Phase 2 완료.'},
+    {a:'LTC / LTPS',en:'Licence to Construct / to Prepare Site',cat:'reg',d:'캐나다의 <b>건설허가 / 부지준비허가</b>. OPG Darlington(BWRX-300)이 LTC로 건설 중.'},
+    {a:'EA / EIS',en:'Environmental Assessment / Impact Statement',cat:'reg',d:'미국 환경심사 — <b>EA는 약식, EIS는 전면</b> 환경영향평가서. X-energy Long Mott가 EA로 통과한 첫 사례.'},
+    {a:'FONSI',en:'Finding of No Significant Impact',cat:'reg',d:'EA 결과 <b>“중대한 환경영향 없음”</b> 판정 — 전면 EIS 없이 진행 가능해짐.'},
+    {a:'PRA',en:'Probabilistic Risk Assessment',cat:'reg',d:'<b>확률론적 안전성평가</b>. 사고 시나리오의 확률·결과를 정량 평가 — Part 53(성능기반 규제)의 핵심 도구.'},
+    {a:'RIPB',en:'Risk-Informed, Performance-Based',cat:'reg',d:'<b>위험정보·성능기반</b> 규제 철학. 규정 나열 대신 성능기준+리스크 근거로 심사 — Part 53의 설계 원리.'},
+    {a:'EPZ',en:'Emergency Planning Zone',cat:'reg',d:'<b>비상계획구역</b>. SMR은 피동안전을 근거로 EPZ 축소(부지 경계 수준)를 논증 — 입지 유연성의 핵심 쟁점.'},
+    {a:'Part 50 / 52 / 53',en:'10 CFR Parts',cat:'reg',d:'미국 원자로 인허가 3트랙 — <b>50</b>=2단계(CP→OL, 현 첨단로 주력), <b>52</b>=통합(DC·COL·ESP), <b>53</b>=첨단로 신규(RIPB, 신청 0건). <a href="SMR-reference.html">CFR 레퍼런스 →</a>'},
+    {a:'Part 810 / 110',en:'10 CFR 810 (DOE) / 110 (NRC)',cat:'reg',d:'미국 <b>수출통제</b> — 810=기술·서비스 이전(외국인 교육·컨설팅 포함), 110=핵 장비·물질 수출입. 한국 파트너십이 직접 걸리는 규정.'},
+    {a:'EAR / ITAR',en:'Export Administration / Int’l Traffic in Arms Regulations',cat:'reg',d:'상무부 <b>이중용도</b>(EAR·15 CFR) / 국무부 <b>방산</b>(ITAR·22 CFR) 수출규정. 원자력 프로젝트는 810·110과 함께 관할권 분석 필요.'},
+    // ── 노형·기술 ──
+    {a:'SMR',en:'Small Modular Reactor',cat:'tech',d:'<b>소형모듈원자로</b> — 통상 300MWe 이하, 공장 제작·모듈 운송으로 공기·비용을 줄이는 접근. <a href="SMR-reactor-types.html">노형 분류 →</a>'},
+    {a:'LWR',en:'Light Water Reactor',cat:'tech',d:'<b>경수로</b>(물 냉각·감속). PWR·BWR 포함 — 규제·연료 공급망이 성숙해 인허가 리스크가 낮은 그룹.'},
+    {a:'PWR / iPWR',en:'(integral) Pressurized Water Reactor',cat:'tech',d:'<b>가압경수로</b>. iPWR은 증기발생기·가압기를 압력용기 안에 통합한 일체형 — NuScale·SMART·i-SMR이 이 방식.'},
+    {a:'BWR',en:'Boiling Water Reactor',cat:'tech',d:'<b>비등경수로</b> — 노심에서 직접 끓여 증기 생산(증기발생기 없음). GE-Hitachi BWRX-300.'},
+    {a:'SFR',en:'Sodium-cooled Fast Reactor',cat:'tech',d:'<b>소듐냉각고속로</b>. 상압 운전·고온 — TerraPower Natrium, Oklo Aurora, ARC-100. 연료는 HALEU.'},
+    {a:'HTGR',en:'High-Temperature Gas-cooled Reactor',cat:'tech',d:'<b>고온가스로</b>(헬륨 냉각·흑연 감속·TRISO 연료). 750℃+ 공정열 공급 가능 — X-energy Xe-100.'},
+    {a:'FHR',en:'Fluoride salt-cooled High-temperature Reactor',cat:'tech',d:'<b>불소염냉각 고온로</b> — 고체 TRISO 연료 + 액체 불소염(FLiBe) 냉각. Kairos KP-FHR.'},
+    {a:'MSR',en:'Molten Salt Reactor',cat:'tech',d:'<b>용융염원자로</b> — 연료가 냉각재(용융염)에 녹아 있는 액체연료 방식. Seaborg CMSR. 규제·공급망 최전위.'},
+    {a:'마이크로로',en:'Microreactor',cat:'tech',d:'<b>수 MWe급 초소형로</b> — 트럭 운송·무인 운전 지향. Westinghouse eVinci(히트파이프), Oklo 초기 설계 등.'},
+    {a:'히트파이프',en:'Heat Pipe',cat:'tech',d:'펌프·냉각수 없이 <b>밀봉관 내 작동유체의 증발·응축</b>으로 열을 빼는 방식 — eVinci의 핵심 기술.'},
+    {a:'NSSS',en:'Nuclear Steam Supply System',cat:'tech',d:'<b>핵증기공급계통</b> — 원자로·증기발생기 등 핵심 기기 묶음. 한국에서 말하는 <b>주기기</b>(두산 공급 영역).'},
+    {a:'RPV / SG',en:'Reactor Pressure Vessel / Steam Generator',cat:'tech',d:'<b>원자로압력용기 / 증기발생기</b> — 대형 단조가 필요한 대표 주기기. 두산에너빌리티의 주력 공급품.'},
+    {a:'NI / CI / BOP',en:'Nuclear/Conventional Island · Balance of Plant',cat:'tech',d:'플랜트 구역 구분 — <b>NI</b>=원자력, <b>CI</b>=터빈 등 재래 구역, <b>BOP</b>=나머지 부대설비. EPC 스코프 분할의 기준.'},
+    {a:'T/G',en:'Turbine–Generator',cat:'tech',d:'<b>터빈발전기</b>. 증기를 전기로 바꾸는 CI 핵심 기기.'},
+    // ── 연료 ──
+    {a:'LEU',en:'Low-Enriched Uranium',cat:'fuel',d:'<b>저농축우라늄</b>(U-235 &lt;5%) — 기존 경수로 연료. 공급망 성숙, 한국은 KEPCO NF가 성형.'},
+    {a:'HALEU',en:'High-Assay Low-Enriched Uranium',cat:'fuel',d:'<b>고순도 저농축우라늄</b>(5–20%) — 대부분의 비경수로가 요구. 러시아 의존 탈피가 진행 중인 <b>최대 병목</b>. <a href="SMR-fuel-supply.html">연료 공급망 →</a>'},
+    {a:'TRISO',en:'TRi-structural ISOtropic particle fuel',cat:'fuel',d:'<b>세라믹 3중 코팅 입자연료</b> — 1,800℃에서도 핵분열물질을 가둠(고유안전). HTGR·FHR의 안전논거 핵심.'},
+    {a:'페블',en:'Pebble',cat:'fuel',d:'TRISO 입자 수천 개를 흑연에 굳힌 <b>테니스공 크기 연료구</b>. Xe-100은 페블베드 방식 — TRISO-X가 연 70만 개 생산 예정.'},
+    {a:'UO₂ 펠릿',en:'Uranium Dioxide Pellet',cat:'fuel',d:'경수로 표준 연료 형태 — 손가락 마디 크기 소결체를 연료봉에 적층.'},
+    {a:'SWU',en:'Separative Work Unit',cat:'fuel',d:'<b>분리작업단위</b> — 농축 노력의 단위. 농축설비 용량을 “SWU/년”으로 표시.'},
+    // ── 사업·금융 ──
+    {a:'FOAK / NOAK',en:'First / Nth Of A Kind',cat:'biz',d:'<b>최초호기 / 양산호기</b>. FOAK는 비용·일정 리스크가 크고, NOAK로 갈수록 학습효과로 원가 하락 — SMR 경제성 논쟁의 축.'},
+    {a:'FID',en:'Final Investment Decision',cat:'biz',d:'<b>최종투자결정</b> — 착공·발주를 확정하는 이사회 결정. “FID 전”이면 아직 사업이 확정이 아님.'},
+    {a:'EPC / CM',en:'Engineering, Procurement & Construction / Construction Management',cat:'biz',d:'<b>설계·조달·시공</b> 일괄계약 / <b>건설관리</b>. DL E&C는 X-energy의 설계·구매·CM 파트너.'},
+    {a:'SPV',en:'Special Purpose Vehicle',cat:'biz',d:'<b>특수목적법인</b> — 프로젝트 자산·계약·차입을 담는 별도 회사. <a href="SMR-asia-structure.html">사업 구조 →</a>'},
+    {a:'PPA',en:'Power Purchase Agreement',cat:'biz',d:'<b>장기 전력구매계약</b> — SPV 매출을 보장해 금융을 가능하게 하는 핵심 계약.'},
+    {a:'Off-taker',en:'Off-taker',cat:'biz',d:'<b>구매자</b> — 전력(또는 열)을 장기로 사주는 주체. Dow(공정열)·Google·Amazon(전력) 등 빅테크가 새 오프테이커로 부상.'},
+    {a:'ECA',en:'Export Credit Agency',cat:'biz',d:'<b>수출신용기관</b> — 수출금융·보증 제공(한국 KEXIM·K-SURE, 미국 EXIM). 원자력 수출 파이낸싱의 표준 축.'},
+    {a:'LCOE',en:'Levelized Cost of Electricity',cat:'biz',d:'<b>균등화발전원가</b> — 수명 전체 비용을 발전량으로 나눈 단가. <a href="LCOE_Calculator.html">계산기 →</a>'},
+    {a:'NEPIO',en:'Nuclear Energy Programme Implementing Organization',cat:'biz',d:'IAEA가 권고하는 <b>국가 원자력 도입 총괄기구</b> — 신규 도입국(인도네시아 등) 사업 구조의 필수 축.'},
+    {a:'MWe / MWth',en:'Megawatt electric / thermal',cat:'biz',d:'<b>전기출력 / 열출력</b>. Xe-100은 80MWe/200MWth처럼 병기 — 공정열 사업에선 MWth가 본질.'},
+    // ── 기관 ──
+    {a:'NRC',en:'U.S. Nuclear Regulatory Commission',cat:'org',d:'<b>미국 원자력규제위원회</b> — 인허가(Part 50/52/53)·수출(110) 관할.'},
+    {a:'DOE / NNSA',en:'Dept. of Energy / National Nuclear Security Admin.',cat:'org',d:'<b>미국 에너지부/핵안보청</b> — R&D 지원·HALEU 프로그램, 기술이전 통제(Part 810).'},
+    {a:'ONR',en:'Office for Nuclear Regulation',cat:'org',d:'<b>영국 원자력규제청</b> — GDA 주관.'},
+    {a:'CNSC',en:'Canadian Nuclear Safety Commission',cat:'org',d:'<b>캐나다 원자력안전위원회</b> — VDR·LTC 등 단계별 면허 체계.'},
+    {a:'NSSC / KINS',en:'원자력안전위원회 / 한국원자력안전기술원',cat:'org',d:'<b>한국 규제기관</b> — NSSC가 의결, KINS가 기술심사(표준설계인가 등).'},
+    {a:'IAEA',en:'International Atomic Energy Agency',cat:'org',d:'<b>국제원자력기구</b> — SMR 카탈로그·ARIS DB·신규 도입국 지원(NEPIO 가이드). <a href="SMR-catalogue.html">카탈로그 →</a>'}
+  ];
+
+  const CATL={reg:'인허가·규제',tech:'노형·기술',fuel:'연료',biz:'사업·금융',org:'기관'};
+  const body=document.getElementById('gBody');
+  const none=document.getElementById('gNone');
+  const search=document.getElementById('gSearch');
+  const chips=Array.from(document.querySelectorAll('#gChips .chip'));
+  const countEl=document.getElementById('gCount');
+  let cat='all';
+
+  document.getElementById('gc-all').textContent=TERMS.length;
+  ['reg','tech','fuel','biz','org'].forEach(k=>{document.getElementById('gc-'+k).textContent=TERMS.filter(t=>t.cat===k).length;});
+
+  function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));}
+  function render(){
+    const term=search.value.trim().toLowerCase();
+    let html='',vis=0;
+    TERMS.forEach(t=>{
+      if(cat!=='all'&&t.cat!==cat)return;
+      if(term && !((t.a+' '+t.en+' '+t.d).toLowerCase().includes(term)))return;
+      vis++;
+      html+='<tr><td><span class="g-abbr">'+esc(t.a)+'</span><span class="g-en">'+esc(t.en)+'</span></td>'
+        +'<td><span class="gcat gc-'+t.cat+'">'+CATL[t.cat]+'</span></td>'
+        +'<td class="g-desc">'+t.d+'</td></tr>';
+    });
+    body.innerHTML=html;
+    none.classList.toggle('hidden',vis>0);
+    countEl.textContent=vis+'개';
+  }
+  chips.forEach(c=>c.addEventListener('click',()=>{chips.forEach(x=>x.classList.remove('active'));c.classList.add('active');cat=c.dataset.cat;render();}));
+  search.addEventListener('input',render);
+  document.addEventListener('keydown',e=>{if(e.key==='/'&&document.activeElement!==search){e.preventDefault();search.focus();}});
+  render();
+</script>
+<script src="feedback.js" defer></script>
+</body>
+</html>

@@ -30,8 +30,13 @@
       { t: '사업 구조', href: 'SMR-asia-structure.html' },
       { t: '한국 기업', href: 'SMR-korea-players.html' } ] },
     { label: '도구', items: [
-      { t: 'LCOE 계산기', href: 'LCOE_Calculator.html' } ] }
+      { t: 'LCOE 계산기', href: 'LCOE_Calculator.html' },
+      { t: '용어집', href: 'SMR-glossary.html' } ] }
   ];
+
+  // ---- site-wide "데이터 기준" stamp (footer에 자동 삽입) ----
+  // 대규모 사실 갱신(단계·마일스톤 검증) 후 이 날짜를 올릴 것
+  var ASOF = '2026-07';
 
   function currentFile() { return (location.pathname.split('/').pop() || 'index.html'); }
   // returns {g: groupIndex, item: href} for the active page, or null
@@ -146,11 +151,25 @@
     } catch (e) {}
   }
 
+  // footer 하단에 표준 스탬프 한 줄 삽입 (모든 페이지 공통 — '살아있는 사이트' 신호)
+  function stampFooter() {
+    var f = document.querySelector('footer');
+    if (!f || f.querySelector('.site-stamp')) return;
+    var d = document.createElement('div');
+    d.className = 'site-stamp';
+    d.style.cssText = 'margin-top:10px;padding-top:9px;border-top:1px solid var(--border);font-size:11px;color:var(--text-faint);';
+    var txt = 'SMR HUB · 데이터 기준 ' + ASOF + ' · 공개 출처 검증';
+    if (window.SMR_UPDATED) txt += ' · 뉴스 자동수집 ' + window.SMR_UPDATED;
+    d.textContent = txt;
+    f.appendChild(d);
+  }
+
   function init() {
     var nav = document.querySelector('.topnav');
     if (!nav || nav.getAttribute('data-built')) return;
     nav.setAttribute('data-built', '1');
     build(nav);
+    stampFooter();
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
