@@ -133,69 +133,70 @@
     <div class="updated">최종 업데이트 2026-06-17 · 파이프라인 144기 · 약 11.5 GWe (美·英, 2026-03-31 기준)</div>
   </div>
 
-  <!-- ===== 노형 모형(재사용 패턴): 회색 음영 3D 모델 렌더 스타일. 라벨/애니메이션 없는 제품 모형 느낌.
-       금속 음영은 중립 그레이 고정값(렌더 미감 — 라이트/다크 배경 모두에서 흰 렌더처럼 읽힘);
-       바닥 그림자·외곽선만 CSS 변수로 테마 대응. ===== -->
+  <!-- ===== 리액터 아이콘 v2 (표준 — 전 노형 공통 identity):
+       · 200×200 스쿼클 배지(테마 그라디언트) 안에 노형 실루엣을 이모지처럼 통통하게
+       · 굵은 라운드 외곽선(#6b7686 2.2) + 고정 메탈 그라디언트 + 광택 스윕 + 바닥 그림자
+       · 시그니처 '포트홀(창)' 1개 — 노형 정체성을 창으로: Xe-100=페블(신연료 1개 accent),
+         PWR=물(파랑), BWR=증기 방울, SFR=소듐(주황), MSR/FHR=염 — 도해 유체색 언어와 연결
+       · 애니메이션 불필요(정적) · 배지·창·그림자만 CSS 변수(다크 자동) ===== -->
   <figure class="reactor-figure">
-    <svg viewBox="0 0 195 215" xmlns="http://www.w3.org/2000/svg"
-         role="img" aria-label="Xe-100 원자로 모듈 모형: 좌측 원자로압력용기(RPV)와 상단 제어봉 구동부, 십자배관으로 연결된 우측 증기발생기 어셈블리">
-      <title>Xe-100 원자로 모듈 모형 (RPV + 증기발생기)</title>
+    <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"
+         role="img" aria-label="Xe-100 아이콘: 스쿼클 배지 안에 원자로압력용기와 증기발생기 모듈, 용기 창으로 페블 연료가 보임">
+      <title>Xe-100 원자로 모듈 아이콘</title>
       <defs>
-        <linearGradient id="xeCylV" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0" stop-color="#99a2ac"/><stop offset="0.12" stop-color="#c2c9d1"/><stop offset="0.30" stop-color="#e9ecef"/>
-          <stop offset="0.48" stop-color="#ffffff"/><stop offset="0.64" stop-color="#eceef1"/><stop offset="0.80" stop-color="#c6ccd3"/><stop offset="1" stop-color="#959fa9"/>
+        <linearGradient id="icBg" x1="0" y1="0" x2="0" y2="1">
+          <stop class="icb1" offset="0"/><stop class="icb2" offset="1"/>
         </linearGradient>
-        <linearGradient id="xeCylH" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0" stop-color="#c6ccd3"/><stop offset="0.38" stop-color="#ffffff"/><stop offset="0.60" stop-color="#e7eaee"/><stop offset="1" stop-color="#969fa9"/>
+        <linearGradient id="icMetal" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#aab3bd"/><stop offset="0.35" stop-color="#e9ecef"/>
+          <stop offset="0.52" stop-color="#ffffff"/><stop offset="0.68" stop-color="#dfe3e8"/><stop offset="1" stop-color="#a2abb6"/>
         </linearGradient>
-        <linearGradient id="xeCap" x1="0" y1="0" x2="1" y2="0">
-          <stop offset="0" stop-color="#d7dce1"/><stop offset="0.5" stop-color="#f6f7f9"/><stop offset="1" stop-color="#cfd4da"/>
+        <linearGradient id="icCap" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#c3cad2"/><stop offset="0.5" stop-color="#f4f6f8"/><stop offset="1" stop-color="#bfc7cf"/>
         </linearGradient>
         <style>
-          .xe-body{stroke:var(--border-strong);stroke-width:.8}
-          .xe-cap{fill:url(#xeCap);stroke:var(--border-strong);stroke-width:.7}
-          .xe-capb{fill:#aab2bc;stroke:var(--border-strong);stroke-width:.7}
-          .xe-rib{stroke:#aab2bc;stroke-width:.7;fill:none}
-          .xe-flange{fill:#cdd3da;stroke:var(--border-strong);stroke-width:.6}
-          .xe-shadow{fill:var(--border-strong);opacity:.5}
+          .ic-badge{fill:url(#icBg);stroke:var(--accent-weak-2);stroke-width:1.5;}
+          .icb1{stop-color:var(--accent-weak);}
+          .icb2{stop-color:var(--surface);}
+          .ic-metal{fill:url(#icMetal);stroke:#6b7686;stroke-width:2.2;stroke-linejoin:round;stroke-linecap:round;}
+          .ic-cap{fill:url(#icCap);stroke:#6b7686;stroke-width:2.2;stroke-linejoin:round;}
+          .ic-rib{stroke:#8f99a5;stroke-width:1.6;stroke-linecap:round;}
+          .ic-gloss{fill:#ffffff;opacity:.5;}
+          .ic-shadow{fill:var(--border-strong);opacity:.45;}
+          .ic-port{fill:var(--surface);stroke:#6b7686;stroke-width:2.2;}
+          .ic-peb{fill:#8b93a2;}
+          .ic-fuel{fill:var(--accent);}
         </style>
       </defs>
 
+      <!-- 배지 -->
+      <rect class="ic-badge" x="12" y="12" width="176" height="176" rx="44"/>
       <!-- 바닥 그림자 -->
-      <ellipse class="xe-shadow" cx="92" cy="208" rx="74" ry="6"/>
+      <ellipse class="ic-shadow" cx="100" cy="162" rx="56" ry="7"/>
 
-      <!-- ===== 우측: 증기발생기(SG) 어셈블리 (RPV 뒤로 일부 겹침 → 먼저 그림) ===== -->
-      <!-- 헤더 스탠드파이프 2본 -->
-      <ellipse class="xe-cap" cx="124" cy="80" rx="6.5" ry="3"/>
-      <rect class="xe-body" x="117.5" y="80" width="13" height="30" fill="url(#xeCylV)"/>
-      <ellipse class="xe-cap" cx="141" cy="80" rx="6.5" ry="3"/>
-      <rect class="xe-body" x="134.5" y="80" width="13" height="30" fill="url(#xeCylV)"/>
-      <!-- 정션 블록 -->
-      <rect class="xe-body" x="110" y="104" width="46" height="30" rx="6" fill="url(#xeCylV)"/>
-      <!-- SG 동체 -->
-      <ellipse class="xe-cap" cx="133" cy="134" rx="20" ry="5.5"/>
-      <rect class="xe-body" x="113" y="134" width="40" height="66" fill="url(#xeCylV)"/>
-      <ellipse class="xe-capb" cx="133" cy="200" rx="20" ry="6.5"/>
-      <rect class="xe-flange" x="111" y="132" width="44" height="3.5" rx="1.5"/>
+      <!-- SG 어셈블리 (우측, 뒤) : 스탠드파이프 2 + 헤드 + 동체 -->
+      <rect class="ic-cap" x="123" y="64" width="12" height="18" rx="5"/>
+      <rect class="ic-cap" x="140" y="64" width="12" height="18" rx="5"/>
+      <rect class="ic-metal" x="115" y="79" width="45" height="23" rx="9"/>
+      <rect class="ic-metal" x="120" y="100" width="36" height="58" rx="13"/>
+      <rect class="ic-gloss" x="126" y="108" width="5" height="40" rx="2.5"/>
 
-      <!-- ===== 십자배관 (RPV ↔ SG, 동축 덕트) ===== -->
-      <rect class="xe-body" x="84" y="110" width="30" height="18" fill="url(#xeCylH)"/>
-      <rect class="xe-flange" x="86" y="108" width="3.5" height="22" rx="1.5"/>
-      <rect class="xe-flange" x="108" y="108" width="3.5" height="22" rx="1.5"/>
+      <!-- 십자배관 -->
+      <rect class="ic-metal" x="94" y="110" width="28" height="16" rx="7"/>
 
-      <!-- ===== 좌측: 원자로압력용기(RPV) + 상단 제어봉 구동부 ===== -->
-      <!-- 상단 제어봉 구동부(리브 다발) -->
-      <ellipse class="xe-cap" cx="60" cy="26" rx="17" ry="5"/>
-      <rect class="xe-body" x="43" y="26" width="34" height="26" fill="url(#xeCylV)"/>
-      <g class="xe-rib">
-        <line x1="48" y1="28" x2="48" y2="50"/><line x1="52" y1="28" x2="52" y2="50"/><line x1="56" y1="28" x2="56" y2="50"/>
-        <line x1="60" y1="28" x2="60" y2="50"/><line x1="64" y1="28" x2="64" y2="50"/><line x1="68" y1="28" x2="68" y2="50"/><line x1="72" y1="28" x2="72" y2="50"/>
-      </g>
-      <!-- RPV 동체 -->
-      <ellipse class="xe-cap" cx="60" cy="52" rx="25" ry="6.5"/>
-      <rect class="xe-flange" x="34" y="50" width="52" height="4" rx="2"/>
-      <rect class="xe-body" x="35" y="54" width="50" height="138" fill="url(#xeCylV)"/>
-      <ellipse class="xe-capb" cx="60" cy="192" rx="25" ry="7.5"/>
+      <!-- RPV (좌측) : CRDM 노브 + 넥 + 동체 -->
+      <rect class="ic-cap" x="57" y="32" width="27" height="14" rx="5.5"/>
+      <g class="ic-rib"><line x1="63" y1="35" x2="63" y2="43"/><line x1="70" y1="35" x2="70" y2="43"/><line x1="77" y1="35" x2="77" y2="43"/></g>
+      <rect class="ic-cap" x="50" y="44" width="41" height="11" rx="4.5"/>
+      <rect class="ic-metal" x="42" y="53" width="57" height="105" rx="19"/>
+      <rect class="ic-gloss" x="50" y="62" width="7" height="86" rx="3.5"/>
+
+      <!-- 시그니처 포트홀: 페블베드가 보이는 창 (신연료 1개 = accent) -->
+      <circle class="ic-port" cx="71" cy="112" r="16"/>
+      <circle class="ic-peb" cx="64" cy="106" r="4.6"/>
+      <circle class="ic-peb" cx="78" cy="107" r="4.6"/>
+      <circle class="ic-peb" cx="64" cy="119" r="4.6"/>
+      <circle class="ic-fuel" cx="77" cy="118" r="4.6"/>
     </svg>
     <figcaption>Xe-100 원자로 모듈</figcaption>
   </figure>
