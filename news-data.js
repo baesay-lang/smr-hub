@@ -596,6 +596,51 @@ window.SMR_NEWS = [
     "id": "55776c32"
   },
   {
+    "date": "2026-07-01",
+    "title": "오클로(Oklo) 향후 5년 전망 및 투자 가치 평가",
+    "summary": "투자 매체가 오클로(Oklo)의 5년 미래 전망과 투자 가치를 분석한 의견 기사다.",
+    "summaryLong": "더 모틀리 풀(The Motley Fool)이 오클로(Oklo)의 5년 후 위치와 투자 가치를 예측하는 칼럼을 게재했다. 이는 공식 발표나 확인된 사실이 아닌 분석가의 전망과 투자 의견을 제시한 것으로, SMR 개발사인 오클로에 대한 시장의 관심을 반영한다. 구체적인 기술 진전이나 공식 발표보다는 주식 투자 관점의 평가에 초점이 맞춰져 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/07/01/heres-where-oklo-will-be-in-5-years-and-why-you-sh/",
+    "k": "here s where oklo will be in 5 years and why you should buy right now",
+    "op": 1,
+    "id": "148acf79"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "미국, 1994년 종료된 원자로 핵연료를 사용하는 소듐냉각 고속로 건설 승인",
+    "summary": "미국이 데이터센터로 수송 가능한 소형 소듐냉각 고속로(SFR)의 건설을 승인했으며, 이는 1994년 폐지된 원자로의 오래된 우라늄 연료를 사용한다.",
+    "summaryLong": "미국 규제 당국이 소듐냉각 고속로(SFR) 기술을 채택한 초소형 원자로의 건설을 승인했다. 이 원자로는 1994년 폐지된 원자로에서 나온 우라늄 연료를 재활용하며, 크기가 작아 트럭으로 데이터센터 같은 장소로 운송 가능하다는 특징이 있다. 개발사는 명시되지 않았으나, 이는 미국 내 첨단 소형 원자로 개발의 중요한 진전이며 폐기 연료 재활용이라는 전략적 의미도 담고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "",
+    "region": "US",
+    "source": "autonocion.com",
+    "url": "https://www.autonocion.com/us/america-sodium-cooled-reactor/",
+    "k": "america just cleared a sodium cooled reactor to start building that will run on uranium pulled from a reactor shut down in 1994 fuel older than half the company building it a machine small enough to truck to a data center that can also run on other reactors was",
+    "id": "df67c7bc"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "르완다 SMR 시장 선점 나선 러시아…한국 원전 수출 더 이상 기다릴 수 없다",
+    "summary": "러시아가 르완다의 소형모듈원자로(SMR) 시장 선점을 추진하고 있으며, 한국의 원전 수출 전략의 시급성을 강조하는 칼럼이다.",
+    "summaryLong": "에너지안전신문의 칼럼이 러시아의 르완다 SMR 시장 진출 움직임을 지적하면서 한국의 원전 수출 전략이 더 이상 미룰 수 없는 상황임을 주장하고 있다. 이는 국제 원자력 시장에서의 지정학적 경쟁, 특히 러시아와 한국 간의 SMR 기술·외교 경쟁을 다룬 정책 의견 기사다. 구체적인 프로젝트 진행 상황이나 계약 체결보다는 전략적 관점의 평가와 정책 촉구에 초점이 맞춰져 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4809",
+    "k": "르완다 smr 선점 나선 러시아 한국 원전 수출 더는 기다릴 시간이 없다",
+    "ko": 1,
+    "op": 1,
+    "id": "56776dc5"
+  },
+  {
     "date": "2026-06-30",
     "title": "스페이스X, 리비안, 뉴스케일(NuScale)의 성장 전망 분석",
     "summary": "뉴스케일(NuScale)을 포함한 여러 성장 기업의 주식 투자 전망을 비교 분석한 보도이다.",
@@ -1441,6 +1486,21 @@ window.SMR_NEWS = [
     "k": "부산시 해양 소형모듈원자로 전략 논의 세미나 ai 탄소규제 대응",
     "ko": 1,
     "id": "8d273828"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "해양 SMR 미래 시장 선점 세미나 부산 개최",
+    "summary": "부산에서 해양 소형모듈원자로(SMR) 시장 진출을 위한 세미나가 개최되었다.",
+    "summaryLong": "부산에서 해양 소형모듈원자로(SMR)의 미래 시장 선점을 주제로 하는 세미나가 열렸다. 이 세미나는 국내 SMR 산업계와 정부, 학계가 참여하여 해양 기반 SMR 기술의 상용화 방안과 시장 진출 전략을 논의하는 자리이다. 해양 SMR은 도서 지역 및 해외 소규모 전력 시장 수요에 대응할 수 있는 미래형 기술로 주목받고 있으며, 국내 관련 산업의 경쟁력 강화와 글로벌 시장 진출의 발판 마련을 목표로 한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "seoul.co.kr",
+    "url": "https://www.seoul.co.kr/news/society/2026/06/30/20260630500152",
+    "k": "해양smr 미래 시장 선점 세미나 부산서 열려",
+    "ko": 1,
+    "id": "b4a8783c"
   },
   {
     "date": "2026-06-29",
@@ -14085,4 +14145,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-02 08:25 KST";
+window.SMR_UPDATED = "2026-07-02 08:58 KST";
