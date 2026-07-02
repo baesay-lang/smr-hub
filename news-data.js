@@ -772,6 +772,34 @@ window.SMR_NEWS = [
     "id": "db17df3c"
   },
   {
+    "date": "2026-07-01",
+    "title": "오클로, 텍사스 동위원소 원자로에 대해 미국 에너지부(DOE) 안전 승인 획득",
+    "summary": "오클로가 텍사스주의 동위원소 생산용 소형모듈원자로 프로젝트에 대해 미국 에너지부(DOE)로부터 안전 승인을 받았다.",
+    "summaryLong": "오클로(Oklo)가 텍사스(Texas)에 건설 예정인 동위원소 생산용 소형모듈원자로 프로젝트에 대해 美 에너지부(DOE)의 안전 승인을 획득했다. 本 승인은 설계안전성분석(DSA) 또는 예비안전분석(PDSA) 수준의 규제 인증으로, 오클로의 고속로(SFR) 기술 개발이 규제당국 심사를 통과했음을 의미한다. 이는 오클로의 상용화 일정 단축과 시장 신뢰도 향상에 중요한 마일스톤이 될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "investing.com",
+    "url": "https://www.investing.com/news/company-news/oklo-receives-doe-safety-approval-for-texas-isotope-reactor-93CH-4769832",
+    "k": "oklo receives doe safety approval for texas isotope reactor",
+    "id": "506ed20d"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "SGE, 영국(UK) 4.2GW 소형모듈원자로 함대 계획 제출",
+    "summary": "SGE(Sunak Great Energy 또는 유사 기관)가 영국에서 총 4.2기가와트(GW) 규모의 소형모듈원자로 함대 개발 계획을 당국에 제출했다.",
+    "summaryLong": "영국(UK)의 개발사/기관 SGE가 영국 규제당국에 4.2기가와트(GW) 규모의 소형모듈원자로(SMR) 함대 건설 계획서를 제출했다. 본 제출은 영국 정부의 소형모듈원자로 육성 정책과 2030년대 에너지 수급 목표를 배경으로 한 중요한 프로젝트로 평가되며, 여러 기의 소형모듈원자로를 동시에 개발·배치하는 대규모 상용화 계획을 의미한다. 본 계획 제출은 영국 소형모듈원자로 시장의 본격적인 진입 신호로 해석된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "SGE",
+    "region": "UK",
+    "source": "businessgreen.com",
+    "url": "https://www.businessgreen.com/news/4532120/sge-submits-plans-42gw-uk-small-modular-nuclear-reactor-fleet",
+    "k": "sge submits plans for 4 2gw uk small modular nuclear reactor fleet",
+    "id": "3b16e570"
+  },
+  {
     "date": "2026-06-30",
     "title": "스페이스X, 리비안, 뉴스케일(NuScale)의 성장 전망 분석",
     "summary": "뉴스케일(NuScale)을 포함한 여러 성장 기업의 주식 투자 전망을 비교 분석한 보도이다.",
@@ -14276,4 +14304,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-02 15:55 KST";
+window.SMR_UPDATED = "2026-07-02 16:39 KST";
