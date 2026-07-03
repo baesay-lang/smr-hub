@@ -221,6 +221,34 @@ window.SMR_NEWS = [
   "id": "785558c4"
  },
  {
+  "date": "2026-07-03",
+  "title": "오클로, 그로브스 동위원소 시험로 DOE 안전승인 획득",
+  "summary": "오클로(Oklo)가 그로브스 동위원소 시험로(Groves Isotope Test Reactor) 프로젝트에서 미국 에너지부(DOE)로부터 주요 안전 승인을 획득했다.",
+  "summaryLong": "오클로(Oklo)가 자사의 그로브스 동위원소 시험로(Groves Isotope Test Reactor) 프로젝트 추진 과정에서 미국 에너지부(DOE)로부터 핵심적인 안전 승인을 획득했다. 이는 오클로의 첨단 원자로 기술 개발이 규제 당국으로부터 인정받았음을 의미하며, 프로젝트의 상용화 단계로의 진전을 앞당기는 중요한 이정표이다. DOE의 승인은 오클로의 안전성 및 기술 역량에 대한 공식적 평가 결과이다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "finance.yahoo.com",
+  "url": "https://finance.yahoo.com/energy/articles/oklo-advances-groves-isotope-test-123300704.html",
+  "k": "oklo advances groves isotope test reactor with key doe safety approval",
+  "id": "3faed014"
+ },
+ {
+  "date": "2026-07-03",
+  "title": "SGE, 영국 4.2GW 규모 SMR 함대 계획 공개",
+  "summary": "SGE가 영국에서 4.2기가와트 규모의 소형모듈원자로 함대 구축을 위한 선도적 계획을 발표했다.",
+  "summaryLong": "SGE가 영국 시장을 겨냥하여 4.2기가와트(GW) 규모의 소형모듈원자로(SMR) 함대 구축을 위한 혁신적인 계획을 공개했다. 이는 영국의 에너지 정책과 탄소 중립 목표 달성을 뒷받침하는 대규모 SMR 프로젝트로, 영국 내 원자력 에너지 전략의 중요한 부분이 될 것으로 예상된다. SGE의 계획은 유럽의 SMR 상용화 추진 동향을 반영하는 사례이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "SGE",
+  "region": "UK",
+  "source": "enlit.world",
+  "url": "https://www.enlit.world/library/sge-unveils-pioneering-plan-for-42gw-smr-fleet-in-the-uk",
+  "k": "sge unveils pioneering plan for 4 2gw smr fleet in the uk",
+  "id": "ff934749"
+ },
+ {
   "date": "2026-07-02",
   "title": "전 세계 70개 이상 소형모듈원자로 프로젝트 추진 중… 한국은 '혁신형 SMR' 개발로 승부",
   "summary": "전 세계적으로 70개 이상의 소형모듈원자로(SMR) 프로젝트가 진행 중이며, 한국은 혁신형 SMR 개발로 경쟁력을 강화하고 있다.",
@@ -853,34 +881,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-01",
-  "title": "음용수 공급 겸 발전하는 모커신 수력발전소 현대화",
-  "summary": "GE 버르노바가 270만 명에게 음용수를 공급하는 57년 된 수력발전소의 2개 발전기를 교체했다.",
-  "summaryLong": "GE 버르노바(GE Vernova)는 270만 명의 음용수를 공급하는 주요 기능을 가진 57년 된 모커신(Moccasin) 수력발전소에서 2개의 원래 발전기를 4개월의 정지 기간 동안 교체했다. 이 프로젝트는 발전량보다는 신뢰성을 우선시하는 시설 운영 전략을 보여주는 사례로 강조되고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "",
-  "source": "POWER Magazine",
-  "url": "https://www.powermag.com/a-water-plant-that-happens-to-make-power-inside-the-moccasin-rewind/",
-  "k": "a water plant that happens to make power inside the moccasin rewind",
-  "id": "78c5a72d"
- },
- {
-  "date": "2026-07-01",
-  "title": "블루 에너지·GE 버르노바, '가스 브릿지' 모델로 원전 금융 확대",
-  "summary": "블루 에너지(Blue Energy)와 GE 버르노바가 초대형 데이터센터 수요에 대응하기 위해 '가스 브릿지' 모델을 제시하고 있다.",
-  "summaryLong": "에너지 컨퍼런스에서 전력 부문 이해관계자들은 대규모 데이터센터 증가로 인한 청정 에너지 수요 증가를 인식하고 있다. 블루 에너지(Blue Energy)와 GE 버르노바(GE Vernova)는 이러한 수요를 충족하기 위해 '가스 브릿지(Gas Bridge)' 모델을 제안하고 있으며, 이는 원전 금융 접근성을 높이는 방안으로 평가되고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "",
-  "source": "POWER Magazine",
-  "url": "https://www.powermag.com/blue-energy-ge-vernova-advance-gas-bridge-model-to-unlock-nuclear-finance/",
-  "k": "blue energy ge vernova advance gas bridge model to unlock nuclear finance",
-  "id": "d52af570"
- },
- {
-  "date": "2026-07-01",
   "title": "엑스에너지, 영국 센트리카와 6GW 원전 파트너십 GDA 신청",
   "summary": "첨단원자로 개발사 엑스에너지(X-energy)가 영국(UK) 센트리카(Centrica)와의 6GW 파트너십을 위해 영국 범용설계심사(GDA) 신청을 진행했다.",
   "summaryLong": "첨단원자로 개발사 엑스에너지(X-energy)는 2026년 6월 2일 영국(UK)의 범용설계심사(Generic Design Assessment, GDA) 신청서를 제출했다고 발표했다. 이는 영국 에너지 기업 센트리카(Centrica)와 진행 중인 6GW 규모의 원전 파트너십 사업과 관련된 것으로, 규제 승인 절차의 중요한 단계를 나타낸다.",
@@ -1399,5 +1399,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-04 08:14 KST";
-window.SMR_TOTAL = 1057;
+window.SMR_UPDATED = "2026-07-04 08:47 KST";
+window.SMR_TOTAL = 1059;

@@ -228,6 +228,34 @@ window.SMR_NEWS = [
     "id": "785558c4"
   },
   {
+    "date": "2026-07-03",
+    "title": "오클로, 그로브스 동위원소 시험로 DOE 안전승인 획득",
+    "summary": "오클로(Oklo)가 그로브스 동위원소 시험로(Groves Isotope Test Reactor) 프로젝트에서 미국 에너지부(DOE)로부터 주요 안전 승인을 획득했다.",
+    "summaryLong": "오클로(Oklo)가 자사의 그로브스 동위원소 시험로(Groves Isotope Test Reactor) 프로젝트 추진 과정에서 미국 에너지부(DOE)로부터 핵심적인 안전 승인을 획득했다. 이는 오클로의 첨단 원자로 기술 개발이 규제 당국으로부터 인정받았음을 의미하며, 프로젝트의 상용화 단계로의 진전을 앞당기는 중요한 이정표이다. DOE의 승인은 오클로의 안전성 및 기술 역량에 대한 공식적 평가 결과이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/oklo-advances-groves-isotope-test-123300704.html",
+    "k": "oklo advances groves isotope test reactor with key doe safety approval",
+    "id": "3faed014"
+  },
+  {
+    "date": "2026-07-03",
+    "title": "SGE, 영국 4.2GW 규모 SMR 함대 계획 공개",
+    "summary": "SGE가 영국에서 4.2기가와트 규모의 소형모듈원자로 함대 구축을 위한 선도적 계획을 발표했다.",
+    "summaryLong": "SGE가 영국 시장을 겨냥하여 4.2기가와트(GW) 규모의 소형모듈원자로(SMR) 함대 구축을 위한 혁신적인 계획을 공개했다. 이는 영국의 에너지 정책과 탄소 중립 목표 달성을 뒷받침하는 대규모 SMR 프로젝트로, 영국 내 원자력 에너지 전략의 중요한 부분이 될 것으로 예상된다. SGE의 계획은 유럽의 SMR 상용화 추진 동향을 반영하는 사례이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "SGE",
+    "region": "UK",
+    "source": "enlit.world",
+    "url": "https://www.enlit.world/library/sge-unveils-pioneering-plan-for-42gw-smr-fleet-in-the-uk",
+    "k": "sge unveils pioneering plan for 4 2gw smr fleet in the uk",
+    "id": "ff934749"
+  },
+  {
     "date": "2026-07-02",
     "title": "전 세계 70개 이상 소형모듈원자로 프로젝트 추진 중… 한국은 '혁신형 SMR' 개발로 승부",
     "summary": "전 세계적으로 70개 이상의 소형모듈원자로(SMR) 프로젝트가 진행 중이며, 한국은 혁신형 SMR 개발로 경쟁력을 강화하고 있다.",
@@ -15171,4 +15199,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-04 08:14 KST";
+window.SMR_UPDATED = "2026-07-04 08:47 KST";
