@@ -53,6 +53,37 @@ window.SMR_NEWS = [
     "id": "1349e90f"
   },
   {
+    "date": "2026-07-03",
+    "title": "정부, SMR을 국가전략기술로 지정 검토…영남권 첨단산업 지원",
+    "summary": "한국 정부가 소형모듈원자로(SMR)를 국가전략기술로 지정하는 방안을 검토하고 있으며, 영남권 지역의 대규모 투자 프로젝트 지원을 추진 중이다.",
+    "summaryLong": "한국 정부는 지방 중심의 3대 메가 프로젝트와 기업들의 대규모 영남권 투자를 지원하기 위한 전략의 일환으로 소형모듈원자로(SMR)를 국가전략기술으로 지정하는 방안을 검토하고 있다. 이는 SMR이 에너지 안보, 산업 경쟁력, 지역 균형 발전 측면에서 국가적 중요성을 지니고 있다는 판단에 따른 것이다. SMR 국가전략기술 지정은 관련 규제 개선, 투자 인센티브 확대, 인력 양성 등을 통한 정책적 지원 강화로 이어질 것으로 예상된다. 한국의 원전 산업 고도화 및 지역 경제 활성화의 핵심 정책 수단으로 부각되고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "연합뉴스 최신기사",
+    "url": "https://www.yna.co.kr/view/AKR20260703085900002",
+    "k": "정부 smr 국가전략기술 지정 검토 영남권 첨단산업 지원",
+    "ko": 1,
+    "op": 1,
+    "id": "7ac7df2f"
+  },
+  {
+    "date": "2026-07-03",
+    "title": "KINS, 원전 전력계통 안전성 고도화…SMR·디지털 시대 규제 혁신 촉구",
+    "summary": "한국원자력안전기술원(KINS)이 원전 전력계통 안전성 강화를 시작하며, SMR과 디지털화 시대의 규제 혁신 필요성을 제기했다.",
+    "summaryLong": "한국원자력안전기술원(KINS)이 기존 대형 원전뿐 아니라 소형모듈원자로(SMR)와 디지털 기술 도입으로 변화하는 원전 산업에 대응하기 위해 원전 전력계통의 안전성 고도화 사업에 착수했다. KINS는 SMR 도입 시대의 규제 체계 혁신과 안전 기준 개선의 필요성을 강조하고 있다. 이는 SMR이 기존 대형 원전과 다른 기술적 특성과 운영 방식을 가지므로, 이에 맞춘 규제 프레임워크의 구축이 시급함을 의미한다. 한국의 SMR 상용화 및 원전 산업 고도화를 지원하기 위한 규제 기관의 선제적 대응이라 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "KINS",
+    "region": "KR",
+    "source": "energydaily.co.kr",
+    "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=201105",
+    "k": "kins 원전 전력계통 안전성 고도화 시동 smr 디지털 시대 규제 혁신도 함께 가야",
+    "ko": 1,
+    "id": "7d959131"
+  },
+  {
     "date": "2026-07-02",
     "title": "전 세계 70개 이상 소형모듈원자로 프로젝트 추진 중… 한국은 '혁신형 SMR' 개발로 승부",
     "summary": "전 세계적으로 70개 이상의 소형모듈원자로(SMR) 프로젝트가 진행 중이며, 한국은 혁신형 SMR 개발로 경쟁력을 강화하고 있다.",
@@ -502,6 +533,21 @@ window.SMR_NEWS = [
     "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/The-US-Has-More-SMR-Projects-Than-Its-Four-Closest-Rivals-Combined.html",
     "k": "the u s has more smr projects than its four closest rivals combined crude oil prices today",
     "id": "9f151e6f"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "SGE·삼성물산, 영국에 SMR 14기 민간 자금으로 구축",
+    "summary": "한국의 SGE와 삼성물산이 영국에 소형모듈원자로(SMR) 14기를 민간 투자 자금으로 건설하는 프로젝트를 추진한다.",
+    "summaryLong": "한국의 SGE와 삼성물산이 영국에서 소형모듈원자로(SMR) 14기를 건설하는 대규모 프로젝트에 민간 자금을 투입하여 추진하고 있다. 이는 한국 기업들의 글로벌 SMR 시장 진출 및 영국의 에너지 안보 강화 정책과 맞아떨어지는 전략적 협력이다. 민간 자금 기반의 프로젝트 추진은 정부 보조금에 의존하지 않고 상업적 수익성을 기반으로 한다는 점에서 SMR의 경제성 입증 가능성을 시사한다. 영국의 SMR 정책 지원(예: 핵심광물전략기금 등)과 결합되어 글로벌 에너지 시장에서의 한국 기업의 위상 강화로 이어질 것으로 기대된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "SGE, 삼성물산",
+    "region": "UK",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4829",
+    "k": "sge 삼성물산 영국에 smr 14기 민간 자금으로 구축",
+    "ko": 1,
+    "id": "4a72ddb3"
   },
   {
     "date": "2026-07-01",
@@ -14742,4 +14788,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-03 15:48 KST";
+window.SMR_UPDATED = "2026-07-03 16:32 KST";
