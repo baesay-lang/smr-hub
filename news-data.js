@@ -214,6 +214,20 @@ window.SMR_NEWS = [
     "id": "c0cedf29"
   },
   {
+    "date": "2026-07-03",
+    "title": "영국, 14개 소형모듈원자로 건설에 350억 파운드 투자 계획 — 힝클리 포인트C 능가 전망",
+    "summary": "영국(UK)이 14개의 소형모듈원자로(SMR) 건설에 350억 파운드(£35bn) 규모의 투자 계획을 추진하며, 힝클리 포인트C(Hinkley Point C) 대형 원전을 초과하는 발전 용량을 목표로 한다.",
+    "summaryLong": "영국 정부가 소형모듈원자로(SMR) 14기 건설을 위한 총 350억 파운드(£35bn) 규모의 국책 투자 계획을 수립했다. 이는 현재 건설 중인 힝클리 포인트C(Hinkley Point C) 대형 원전의 발전 용량을 초과할 것으로 예상되며, SMR 기술을 통한 분산형 원자력 발전 구조 구축을 전략적으로 추진하려는 정부 정책이다. 영국의 탄소중립 목표와 에너지 안보 강화를 위한 중점 정책으로, SMR 산업 육성의 신호탄이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "UK",
+    "source": "eandt.theiet.org",
+    "url": "https://eandt.theiet.org/2026/07/03/ps35bn-plan-14-uk-small-modular-reactors-could-outpower-hinkley-point-c",
+    "k": "35bn plan for 14 uk small modular reactors could outpower hinkley point c",
+    "id": "785558c4"
+  },
+  {
     "date": "2026-07-02",
     "title": "전 세계 70개 이상 소형모듈원자로 프로젝트 추진 중… 한국은 '혁신형 SMR' 개발로 승부",
     "summary": "전 세계적으로 70개 이상의 소형모듈원자로(SMR) 프로젝트가 진행 중이며, 한국은 혁신형 SMR 개발로 경쟁력을 강화하고 있다.",
@@ -13516,6 +13530,20 @@ window.SMR_NEWS = [
     "id": "b5274b6e"
   },
   {
+    "date": "2026-02-19",
+    "title": "테라파워, 나트륨 원자로(Natrium) 영국(UK) 규제 절차 진입 발표",
+    "summary": "테라파워(TerraPower)가 나트륨 원자로(Natrium) 프로젝트가 영국(UK) 규제 심사 절차에 정식 인수되었음을 공식 발표했다.",
+    "summaryLong": "테라파워(TerraPower)의 최고경영자(CEO)가 나트륨 원자로(Natrium) 프로젝트가 영국(UK) 규제 당국의 공식 심사 절차에 진입했음을 공식 성명으로 발표했다. 나트륨 냉각 고속로(SFR) 기술인 나트륨 원자로는 테라파워의 차세대 에너지 솔루션으로 추진되고 있으며, 영국 규제 진입은 국제 시장 진출의 중요한 이정표이다. 이는 설계인증(GDA, Generic Design Assessment) 또는 이에 상응하는 영국 규제 프레임워크로의 정식 진입을 의미한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "UK",
+    "source": "terrapower.com",
+    "url": "https://www.terrapower.com/Natrium-Reactor-Accepted-into-UK-Regulatory-Process",
+    "k": "ceo statement natrium reactor accepted into uk regulatory process",
+    "id": "bb5271ea"
+  },
+  {
     "date": "2026-02-17",
     "title": "소형모듈원자로 지중 설치의 기술적 고려사항",
     "summary": "소형모듈원자로의 지중 설치 방식에 대한 기술적 검토 및 분석이 발표되었다.",
@@ -15143,4 +15171,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-04 07:37 KST";
+window.SMR_UPDATED = "2026-07-04 08:14 KST";

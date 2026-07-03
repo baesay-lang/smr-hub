@@ -207,6 +207,20 @@ window.SMR_NEWS = [
   "id": "c0cedf29"
  },
  {
+  "date": "2026-07-03",
+  "title": "영국, 14개 소형모듈원자로 건설에 350억 파운드 투자 계획 — 힝클리 포인트C 능가 전망",
+  "summary": "영국(UK)이 14개의 소형모듈원자로(SMR) 건설에 350억 파운드(£35bn) 규모의 투자 계획을 추진하며, 힝클리 포인트C(Hinkley Point C) 대형 원전을 초과하는 발전 용량을 목표로 한다.",
+  "summaryLong": "영국 정부가 소형모듈원자로(SMR) 14기 건설을 위한 총 350억 파운드(£35bn) 규모의 국책 투자 계획을 수립했다. 이는 현재 건설 중인 힝클리 포인트C(Hinkley Point C) 대형 원전의 발전 용량을 초과할 것으로 예상되며, SMR 기술을 통한 분산형 원자력 발전 구조 구축을 전략적으로 추진하려는 정부 정책이다. 영국의 탄소중립 목표와 에너지 안보 강화를 위한 중점 정책으로, SMR 산업 육성의 신호탄이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "UK",
+  "source": "eandt.theiet.org",
+  "url": "https://eandt.theiet.org/2026/07/03/ps35bn-plan-14-uk-small-modular-reactors-could-outpower-hinkley-point-c",
+  "k": "35bn plan for 14 uk small modular reactors could outpower hinkley point c",
+  "id": "785558c4"
+ },
+ {
   "date": "2026-07-02",
   "title": "전 세계 70개 이상 소형모듈원자로 프로젝트 추진 중… 한국은 '혁신형 SMR' 개발로 승부",
   "summary": "전 세계적으로 70개 이상의 소형모듈원자로(SMR) 프로젝트가 진행 중이며, 한국은 혁신형 SMR 개발로 경쟁력을 강화하고 있다.",
@@ -1385,5 +1399,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-04 07:37 KST";
-window.SMR_TOTAL = 1055;
+window.SMR_UPDATED = "2026-07-04 08:14 KST";
+window.SMR_TOTAL = 1057;
