@@ -84,6 +84,136 @@ window.SMR_NEWS = [
     "id": "7d959131"
   },
   {
+    "date": "2026-07-03",
+    "title": "팰리세이즈 대형로 재가동 최종 단계 진입",
+    "summary": "홀텍 인터내셔널(Holtec International)이 팰리세이즈(Palisades) 대형원전 재가동 프로젝트가 대규모 공사를 완료하고 시운전 준비 단계로 진입했다고 발표했다.",
+    "summaryLong": "홀텍 인터내셔널이 팰리세이즈 대형원전 재가동 사업의 주요 공사가 성공적으로 완료되어 '분수령의 순간'에 도달했다고 발표했다. 동사는 지난 몇 주간 대규모 프로젝트들을 마무리하고 현재 일상적 유지보수, 시험, 검사 및 시운전 전 운영 준비 작업으로 전환했다고 설명했다. 이는 재가동 허가 전 최종 단계로, 구체적인 재가동 일정은 별도 공시될 것으로 보인다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Holtec",
+    "region": "US",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/palisades-enters-final-stage-of-work-before-restart",
+    "k": "palisades enters final stage of work before restart",
+    "id": "d4bcae01"
+  },
+  {
+    "date": "2026-07-03",
+    "title": "SGE, 영국(UK)에 BWRX-300 소형모듈원자로 14기 구축 계획",
+    "summary": "폴란드의 소형모듈원자로(SMR) 개발사 SGE가 영국의 3곳 부지에 GE 베르노바 히타치 뉴클리어 에너지(GE Vernova Hitachi Nuclear Energy, GVH) BWRX-300 14기를 배치하는 4.2기가와(GW) 규모 프로젝트를 발표했다.",
+    "summaryLong": "폴란드 기반 소형모듈원자로(SMR) 개발사 SGE가 7월 2일 영국(UK)의 3개 부지에 GE 베르노바 히타치 뉴클리어 에너지(GE Vernova Hitachi Nuclear Energy, GVH)의 BWRX-300 기반로(Boiling Water Reactor, BWR) 14기를 배치하는 계획을 공개했다. 총 4.2기가와(GW) 규모의 민간 자금 조달 사업으로, 영국 전력 수요의 약 11%를 충당할 수 있을 것으로 예상된다. SGE는 해당 계획을 영국 규제당국에 신청서로 제출했으며, 이는 영국의 소형모듈원자로 상용화 추진의 주요 사례가 될 것으로 보인다.",
+    "cat": "기술",
+    "type": "BWR",
+    "dev": "SGE",
+    "region": "UK",
+    "source": "POWER Magazine",
+    "url": "https://www.powermag.com/sge-bids-to-build-14-bwrx-300-smrs-across-the-u-k-in-4-2-gw-fleet-play/",
+    "k": "sge bids to build 14 bwrx 300 smrs across the uk in 4 2 gw fleet play",
+    "id": "ae9202c4"
+  },
+  {
+    "date": "2026-07-03",
+    "title": "오클로, 그로브스 동위원소 시험로 미국 에너지부(DOE) 안전 승인 획득",
+    "summary": "오클로(Oklo)의 그로브스 동위원소 시험로(Groves Isotope Test Reactor)가 미국 에너지부(DOE)의 주요 안전 승인을 받았다.",
+    "summaryLong": "오클로(Oklo)가 개발 중인 그로브스 동위원소 시험로(Groves Isotope Test Reactor)가 미국 에너지부(DOE)의 핵심 안전 승인을 획득했다. 이는 오클로의 소형모듈원자로(SMR) 기술 개발 및 규제 인증 프로세스에서 중요한 이정표로, 향후 상용화 및 배치 추진에 기여할 것으로 예상된다. 구체적 승인 내용과 차기 단계 일정은 원문 확인이 필요하다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "simplywall.st",
+    "url": "https://simplywall.st/stocks/us/capital-goods/nyse-smr/nuscale-power/news/is-nuscale-power-smr-undervalued-as-certified-smr-progress-d",
+    "k": "is nuscale power smr undervalued as certified smr progress draws attention",
+    "id": "0ab44a06"
+  },
+  {
+    "date": "2026-07-03",
+    "title": "핀란드 LDR-50 SMR 안전성 국제 검토 완료",
+    "summary": "핀란드 원자력 규제기관이 체코, 폴란드, 스웨덴, 우크라이나 규제기관과 함께 스테디 에너지(Steady Energy)의 LDR-50 소형모듈원자로에 대한 국제 안전 검토(Joint Early Review)를 완료했다.",
+    "summaryLong": "핀란드 원자력 규제기관이 체코(Czech Republic), 폴란드(Poland), 스웨덴(Sweden), 우크라이나(Ukraine) 규제기관들과 협력하여 스테디 에너지(Steady Energy)의 LDR-50 SMR 반응로에 대한 연합 조기검토(Joint Early Review, JER)를 완료하고 요약 보고서를 발표했다. LDR-50은 지역난방용 소형모듈원자로로, 이번 국제 안전 검토는 여러 유럽 국가의 규제 기준에 대한 사전 평가 의견(GDA, Generic Design Assessment 성격)을 제공한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Steady Energy",
+    "region": "EU",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/international-safety-review-of-finnish-smr-design-completed",
+    "k": "international safety review of finnish smr design completed",
+    "id": "082d43f9"
+  },
+  {
+    "date": "2026-07-03",
+    "title": "래디언트 칼레이도스 마이크로로, 아이다호 국립연구소에서 연료 시험 시작",
+    "summary": "래디언트(Radiant)의 칼레이도스(Kaleidos) 마이크로로 기술에 사용될 TRISO 연료가 미국 아이다호 국립연구소(Idaho National Laboratory)의 마이크로로 실증 시설에 인도되어 풀파워 풀온도 시운전이 시작된다.",
+    "summaryLong": "래디언트(Radiant)의 마이크로로 기술인 칼레이도스(Kaleidos)의 개발을 위해 TRISO 연료 첫 배치가 미국 에너지부(DOE) 산하 아이다호 국립연구소(Idaho National Laboratory)의 마이크로로 실증 센터(Demonstration of Microreactor Experiments, DOME)에 인도되었다. 이 시설에서 칼레이도스는 풀파워·풀온도 조건에서의 종합적 성능 검증을 진행하게 되며, 마이크로로 기술의 상용화로 향하는 중요한 마일스톤이다.",
+    "cat": "기술",
+    "type": "Micro",
+    "dev": "Radiant",
+    "region": "US",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/triso-fuel-delivered-for-kaleidos-reactor-experiment",
+    "k": "triso fuel delivered for kaleidos reactor experiment",
+    "id": "c0dba29a"
+  },
+  {
+    "date": "2026-07-03",
+    "title": "AI 전력 수요 경쟁… 미국 SMR 28곳 발표",
+    "summary": "인공지능(AI) 데이터센터의 전력 수요 증가에 따라 미국이 28개의 소형모듈원자로(SMR) 건설 계획을 발표했다.",
+    "summaryLong": "미국이 인공지능(AI) 데이터센터의 급증하는 전력 수요에 대응하기 위해 28곳의 소형모듈원자로(SMR) 건설 계획을 발표했다. 이는 탄소중립 에너지 공급과 AI 산업의 전력 패권 확보를 동시에 추진하려는 미국의 전략적 선택을 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/Global-Biz/2026/07/202607040627069393fbbec65dfb_1",
+    "k": "ai 전력 패권 원전으로 간다 미국 smr 28곳 발표",
+    "ko": 1,
+    "id": "b9b65f80"
+  },
+  {
+    "date": "2026-07-03",
+    "title": "AI 전력 수요·탄소중립 압박, SMR 개발 경쟁 가속… 제도 정비 관건",
+    "summary": "인공지능(AI) 전력 수요와 탄소중립 목표가 소형모듈원자로(SMR) 개발 경쟁을 촉발하고 있으며, 관련 제도 정비가 성공의 핵심으로 지적된다.",
+    "summaryLong": "인공지능(AI)의 급속한 확산으로 인한 에너지 수요 증가와 탄소중립 달성 압박으로 인해 소형모듈원자로(SMR) 개발 경쟁이 전 세계적으로 가속화되고 있다. 다만 업계 전문가들은 SMR의 상용화와 확대 배치를 위해서는 규제 체계 정비, 인허가 프로세스 단순화, 표준설계인증(Standard Design Approval) 등 제도적 개선이 가장 중요한 과제라고 강조하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4843",
+    "k": "ai 전력수요 탄소중립 압박 속 smr 개발 경쟁 가속 제도 정비가 관건",
+    "ko": 1,
+    "id": "5481f7fb"
+  },
+  {
+    "date": "2026-07-03",
+    "title": "박민원 총장, 20조원 규모 SMR 생태계 조성 추진",
+    "summary": "창원시 관계자가 20조원 규모의 소형모듈원자로(SMR) 생태계 구축을 통해 청년 유입을 목표로 하는 계획을 발표했다.",
+    "summaryLong": "박민원 창원시 관계자는 소형모듈원자로(SMR) 산업을 중심으로 20조원 규모의 생태계를 조성하겠다는 계획을 발표했다. 이는 SMR 산업 육성을 통해 지역 경제 활성화와 청년 인구 유입을 동시에 달성하려는 전략으로 보인다. 구체적인 추진 일정이나 세부 사업 내용은 제시되지 않았으며, 지역 성장 엔진으로서 SMR 산업의 중요성을 강조하는 발표이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "gnnews.co.kr",
+    "url": "https://www.gnnews.co.kr/news/articleView.html?idxno=640340",
+    "k": "박민원 총장 20조원 smr 생태계 만들어 청년이 돌아오는 창원 만들겠다",
+    "ko": 1,
+    "id": "cb243dfe"
+  },
+  {
+    "date": "2026-07-03",
+    "title": "정부, SMR을 국가전략기술로 지정하고 세제혜택 검토",
+    "summary": "한국 정부가 소형모듈원자로(SMR)를 국가전략기술로 지정하고 관련 세제혜택 방안을 검토 중이다.",
+    "summaryLong": "한국 정부는 소형모듈원자로(SMR)를 국가전략기술로 지정하여 세제 혜택을 제공하는 방안을 검토하고 있다. 이는 '5극 3특(5개 극점·3개 특화전략)' 성장엔진 정책의 일환으로, SMR을 차세대 원전 기술로 육성하려는 국가 정책 방향을 반영한다. 구체적인 세제혜택 규모나 시행 일정 등 상세 내용은 제시되지 않았으며, 정책 검토 단계로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "livebiz.today",
+    "url": "https://www.livebiz.today/news/articleView.html?idxno=203075",
+    "k": "정부 smr 국가전략기술로 지정해 세제혜택 검토 5극 3특 성장엔진 신속 발표",
+    "ko": 1,
+    "id": "c0cedf29"
+  },
+  {
     "date": "2026-07-02",
     "title": "전 세계 70개 이상 소형모듈원자로 프로젝트 추진 중… 한국은 '혁신형 SMR' 개발로 승부",
     "summary": "전 세계적으로 70개 이상의 소형모듈원자로(SMR) 프로젝트가 진행 중이며, 한국은 혁신형 SMR 개발로 경쟁력을 강화하고 있다.",
@@ -1281,6 +1411,20 @@ window.SMR_NEWS = [
     "k": "톡앤썰 장순흥 총장 기장 smr 부산 신산업 도약의 출발점 될 것",
     "ko": 1,
     "id": "7082902c"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "국제원자력기구(IAEA), 기술공급국에서 첫 SMR 학교 개최",
+    "summary": "국제원자력기구(IAEA)가 소형모듈원자로(SMR) 기술공급국에서 처음으로 SMR 학교를 개최해 인력 양성과 기술 확산을 추진한다.",
+    "summaryLong": "국제원자력기구(IAEA)가 SMR 기술공급국 내에서 최초로 'SMR 학교(SMR School)'를 개최했다. 이는 소형모듈원자로 관련 전문 인력 양성, 규제 역량 강화, 국제 협력 네트워크 구축 등을 목표로 하는 정책 차원의 국제 협력 프로그램이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "IAEA",
+    "region": "EU",
+    "source": "iaea.org",
+    "url": "http://www.iaea.org/newscenter/news/iaea-holds-first-smr-school-in-a-technology-provider-country",
+    "k": "iaea holds first smr school in a technology provider country",
+    "id": "89be0ec2"
   },
   {
     "date": "2026-06-30",
@@ -12629,6 +12773,20 @@ window.SMR_NEWS = [
     "id": "ad958ab9"
   },
   {
+    "date": "2026-03-25",
+    "title": "테라파워, 엔비디아(NVIDIA) 옴니버스 기술 도입해 원전 배치 가속",
+    "summary": "테라파워(TerraPower)가 소프트서브(SoftServe)와 함께 엔비디아(NVIDIA) 옴니버스(Omniverse) 플랫폼을 통합해 첨단 원자력 에너지 배치를 가속화하기로 했다.",
+    "summaryLong": "테라파워(TerraPower)는 소프트웨어 서비스 기업 소프트서브(SoftServe)와 협력하여 엔비디아(NVIDIA)의 옴니버스(Omniverse) 디지털 트윈 플랫폼을 통합하기로 발표했다. 이를 통해 첨단 원자력 에너지 기술의 배치 시간을 단축하고 설계 및 운영 효율성을 높일 계획이다. 이는 테라파워의 핵연료 기술과 차세대 원전 개발 로드맵을 가속화하는 기술적 마일스톤으로 평가된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "terrapower.com",
+    "url": "https://www.terrapower.com/TerraPower-and-SoftServe-Integrate-NVIDIA-Omniverse-to-Speed-Advanced-Nuclear-Energy-Deployment",
+    "k": "terrapower and softserve integrate nvidia omniverse to speed advanced nuclear energy deployment",
+    "id": "9b2183b3"
+  },
+  {
     "date": "2026-03-24",
     "title": "핀란드, 미국 주도 소형모듈원자로 국제협력 프로그램 참여",
     "summary": "핀란드가 미국 주도의 소형모듈원자로 기술 책임 있는 이용 프로그램에 협력국으로 참여했다.",
@@ -14985,4 +15143,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-03 16:53 KST";
+window.SMR_UPDATED = "2026-07-04 07:37 KST";
