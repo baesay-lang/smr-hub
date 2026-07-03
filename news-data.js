@@ -550,6 +550,21 @@ window.SMR_NEWS = [
     "id": "4a72ddb3"
   },
   {
+    "date": "2026-07-02",
+    "title": "삼성물산, 영국(UK) 72조 규모 SMR 14기 건설 프로젝트 참여",
+    "summary": "삼성물산이 영국의 약 72조 원 규모 소형모듈원자로(SMR) 14기 건설 프로젝트에 참여한다.",
+    "summaryLong": "삼성물산이 영국(UK)의 대규모 소형모듈원자로(SMR) 건설 사업에 참여하기로 결정했다고 Investing.com 한국어판이 단독 보도했다. 해당 프로젝트 규모는 약 72조 원대이며 총 14기의 SMR 건설을 포함한다. 이는 삼성물산의 국제 에너지 인프라 사업 확대와 영국의 SMR 상용화 추진 전략의 일환으로 평가된다. 한국 대형 건설사의 해외 첨단 원자력 프로젝트 수주는 국내 원자력 산업의 국제 경쟁력 강화를 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Samsung E&C",
+    "region": "UK",
+    "source": "kr.investing.com",
+    "url": "https://kr.investing.com/news/stock-market-news/article-2003484",
+    "k": "단독 삼성물산 72조 규모 smr 14기 건설 프로젝트 참여 by the guru",
+    "ko": 1,
+    "id": "044f376c"
+  },
+  {
     "date": "2026-07-01",
     "title": "i-SMR 기술개발사업단, 싱가포르 에너지시장청과 협력",
     "summary": "한국의 i-SMR(혁신형 소형모듈원자로) 기술개발사업단이 싱가포르 에너지시장청(EMA)과 협력 양해각서를 체결했다.",
@@ -4183,6 +4198,20 @@ window.SMR_NEWS = [
     "k": "한국해대 세계 최초 un 산하 해양 smr 국제인증기구 유치 추진",
     "ko": 1,
     "id": "f4a971ca"
+  },
+  {
+    "date": "2026-06-23",
+    "title": "오클로-센트러스(Centrus) 연료 공급 계약",
+    "summary": "오클로가 센트러스(Centrus)와 첨단원자로 연료 공급 관련 거래를 체결했다.",
+    "summaryLong": "오클로(Oklo)는 핵연료 농축·공급 전문 회사인 센트러스(Centrus)와의 거래를 통해 첨단원자로(Advanced Reactor) 운영에 필요한 연료 공급망을 확보했다. 이는 오클로가 자사의 소형모듈원자로 및 고속로 상용화 추진 과정에서 안정적인 연료 수급 기반을 마련한 것으로, 미국 내 핵에너지 소재 공급망 재구축 정책과도 부합한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "neimagazine.com",
+    "url": "https://www.neimagazine.com/news/oklo-in-centrus-fuel-deal/",
+    "k": "oklo in centrus fuel deal",
+    "id": "8f828c18"
   },
   {
     "date": "2026-06-22",
@@ -8690,6 +8719,20 @@ window.SMR_NEWS = [
     "id": "641d2aef"
   },
   {
+    "date": "2026-06-15",
+    "title": "롤스로이스 SMR(Rolls-Royce SMR), 스웨덴 원전 계약 수주",
+    "summary": "롤스로이스 SMR(Rolls-Royce SMR)이 스웨덴의 원전 건설 계약을 수주하며 유럽 시장 확대에 나섰다.",
+    "summaryLong": "MSN을 통해 보도된 뉴스에 따르면, 롤스로이스 SMR(Rolls-Royce SMR)이 스웨덴에서의 원전 계약을 체결했다. 이 계약은 유럽의 에너지 정책 변화, 특히 재생에너지 및 저탄소 전원 확대 정책 속에서 소형모듈원자로(SMR)에 대한 정부 수요가 증가하고 있음을 보여준다. 스웨덴은 에너지 독립성과 탄소 중립 목표를 위해 신규 원전 건설을 검토 중이었으며, 롤스로이스 SMR의 계약 수주는 첨단 소형로 기술의 상용화 가능성을 입증하는 중요한 마일스톤이다.",
+    "cat": "계약",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "UK",
+    "source": "msn.com",
+    "url": "https://www.msn.com/en-au/news/insight/rolls-royce-smr-wins-swedish-nuclear-contract-in-energy-shift/gm-GM6B013C1A?gemSnapshotKey=GM6B013C1A-snapshot-7&uxmode=ruby",
+    "k": "rolls royce smr wins swedish nuclear contract in energy shift",
+    "id": "d4ba2b4f"
+  },
+  {
     "date": "2026-06-14",
     "title": "우즈베키스탄 소형모듈원자로 수출 프로젝트 기공",
     "summary": "소형모듈원자로의 첫 수출 프로젝트가 우즈베키스탄에서 기공식을 개최했다.",
@@ -9332,6 +9375,20 @@ window.SMR_NEWS = [
     "id": "41cc176c"
   },
   {
+    "date": "2026-06-11",
+    "title": "오클로, 아이다호(Idaho) 랩의 오로라(Aurora) 원자로에 대해 미국 에너지부(DOE) 안전승인 획득",
+    "summary": "오클로가 오로라 고속로에 대해 미국 에너지부(DOE)로부터 안전 승인을 받았다.",
+    "summaryLong": "오클로(Oklo)는 아이다호(Idaho) 국립연구소에 건설할 오로라(Aurora) 소형 나트륨냉각고속로(SFR)에 대해 미국 에너지부(DOE)로부터 안전 승인을 획득했다. 이는 오클로의 고속로 설계가 규제 기준을 충족함을 확인하는 중요한 진전이다. 이 승인은 향후 건설허가 및 운영허가 획득으로 나아가는 과정의 핵심 단계다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "investing.com",
+    "url": "https://www.investing.com/news/company-news/oklo-receives-doe-safety-approval-for-aurora-reactor-at-idaho-lab-93CH-4737352",
+    "k": "oklo receives doe safety approval for aurora reactor at idaho lab",
+    "id": "4ac23208"
+  },
+  {
     "date": "2026-06-10",
     "title": "홀텍(Holtec), 오이스터 크릭(Oyster Creek) 부지에 4기 소형모듈원자로(SMR) 검토",
     "summary": "홀텍(Holtec) 인터내셔널이 뉴저지주 오이스터 크릭(Oyster Creek) 폐지에 4기의 소형모듈원자로(SMR) 건설을 검토하고 있다.",
@@ -9786,6 +9843,20 @@ window.SMR_NEWS = [
     "k": "원자력연구원 msr smr 적용 자동차운반선 개념설계 로이드선급 기본승인 획득",
     "ko": 1,
     "id": "050ca417"
+  },
+  {
+    "date": "2026-06-08",
+    "title": "오클로, 아르멕(Armec) 인수로 제조 능력 확대",
+    "summary": "오클로가 아르멕(Armec)을 인수하여 첨단원자로 및 연료 제조 역량을 강화한다.",
+    "summaryLong": "오클로(Oklo)가 제조 엔지니어링 회사인 아르멕(Armec)을 인수했다. 이 인수를 통해 오클로는 첨단원자로(Advanced Reactor) 및 연료 제조 프로그램의 제조 능력을 대폭 확대할 수 있을 것으로 예상된다. 아르멕의 제조 전문 역량을 보유함으로써 오클로는 고속로 및 소형모듈원자로 상용화 단계에서 공급망 자립도를 높일 수 있게 될 것으로 판단된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "ien.com",
+    "url": "https://www.ien.com/operations/news/22968419/oklo-acquires-armec-to-expand-manufacturing-capabilities-for-advanced-reactor-fuelmanufacturing-programs",
+    "k": "oklo acquires armec to expand manufacturing capabilities for advanced reactor fuel manufacturing programs",
+    "id": "ea860f16"
   },
   {
     "date": "2026-06-07",
@@ -11560,6 +11631,20 @@ window.SMR_NEWS = [
     "id": "6f1485b9"
   },
   {
+    "date": "2026-05-06",
+    "title": "오클로 주가 상승, 규제당국의 설계기준 승인 가속화",
+    "summary": "규제당국이 오클로(Oklo)의 설계기준(Design Criteria) 승인을 예상보다 빠르게 진행하면서 주가가 상승했다.",
+    "summaryLong": "미국 원자력규제위원회(NRC)로 추정되는 규제당국이 오클로(Oklo)의 소형모듈원자로 설계기준(Design Criteria) 승인 절차를 가속화하자 오클로 주가가 상승했다. 설계기준 승인은 상세설계 및 건설허가 단계로 진행되기 위한 선행 인허가 단계로, 규제 과정이 예상보다 신속하게 진전되고 있음을 시사하는 긍정적 신호다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "investing.com",
+    "url": "https://www.investing.com/news/analyst-ratings/oklo-stock-gains-as-regulator-approves-design-criteria-faster-93CH-4663988",
+    "k": "oklo stock gains as regulator approves design criteria faster",
+    "id": "078a46e3"
+  },
+  {
     "date": "2026-05-05",
     "title": "캐나다 OPG, 댈링턴 SMR 첫 번째 원자로 기초판 설치 완료",
     "summary": "캐나다 온타리오전력(OPG)이 댈링턴(Darlington) 소형모듈원자로 프로젝트의 원자로 기초판 설치를 완료했다.",
@@ -11656,6 +11741,20 @@ window.SMR_NEWS = [
     "url": "https://www.ans.org/news/2026-05-01/article-7996/oklo-continues-plutonium-fuel-development-with-lanl-and-nvidia-partnership/",
     "k": "oklo continues plutonium fuel development with lanl and nvidia partnership american nuclear society ans",
     "id": "83182a4c"
+  },
+  {
+    "date": "2026-05-01",
+    "title": "NRG 팔라스와 카이로스 파워, 첨단로 시험 협력 지속",
+    "summary": "네덜란드 NRG 팔라스와 카이로스 파워가 첨단 원자로 시험에 대한 협력을 계속 진행한다.",
+    "summaryLong": "네덜란드의 원자력연구기관 NRG 팔라스(NRG Pallas)와 카이로스 파워(Kairos Power)는 첨단 원자로(advanced reactor) 시험 및 검증 프로젝트에 대한 협력을 계속 추진하기로 확인했다. 양 기관 간의 지속적인 기술 협력은 카이로스의 용융염냉각로(FHR) 개발 및 규제 검증을 지원하는 의미를 갖는다.",
+    "cat": "기술",
+    "type": "FHR",
+    "dev": "Kairos Power",
+    "region": "US",
+    "source": "nucnet.org",
+    "url": "https://www.nucnet.org/news/nrg-pallas-and-kairos-power-continue-cooperation-on-advanced-reactor-tests-5-1-2026",
+    "k": "nrg pallas and kairos power continue cooperation on advanced reactor tests",
+    "id": "37f00957"
   },
   {
     "date": "2026-04-30",
@@ -11980,6 +12079,20 @@ window.SMR_NEWS = [
     "id": "f201591c"
   },
   {
+    "date": "2026-04-24",
+    "title": "테라파워, 와이오밍주 첫 원자로 착공식 거행",
+    "summary": "테라파워가 와이오밍주 최초 원자력 발전소 건설에 착공했다.",
+    "summaryLong": "테라파워(TerraPower)는 와이오밍(Wyoming)주에서 착공식을 열고 해당 주의 첫 번째 원자력 발전소 건설을 정식 시작했다. 이는 테라파워의 나트륨냉각고속로(SFR) 프로젝트가 설계 단계를 거쳐 실제 건설 단계로 진입한 중요한 마일스톤을 의미한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "jhnewsandguide.com",
+    "url": "https://www.jhnewsandguide.com/jackson_hole_daily/state_and_regional/terrapower-breaks-ground-on-a-rarity-a-nuclear-reactor-wyoming-s-first/article_3c6bca3e-0c15-4f60-8d9f-07ed87786d17.html",
+    "k": "terrapower breaks ground on a rarity a nuclear reactor wyoming s first",
+    "id": "5cf5cdc3"
+  },
+  {
     "date": "2026-04-23",
     "title": "X-에너지, 확대된 신규공개(IPO) 공모가 공시",
     "summary": "X-에너지(X-energy)가 확대된 규모의 신규공개(IPO)의 공모가를 공시.",
@@ -12149,6 +12262,20 @@ window.SMR_NEWS = [
     "id": "b8d6534f"
   },
   {
+    "date": "2026-04-17",
+    "title": "카이로스 파워(Kairos Power), 헤르메스 2(Hermes 2) 시연 플랜트 기공식 개최",
+    "summary": "카이로스 파워(Kairos Power)가 헤르메스 2(Hermes 2) 시연 플랜트의 기공식을 개최하며 고온가스로(HTGR) 개발을 실질적으로 추진 중이다.",
+    "summaryLong": "글로브뉴스와이어(GlobeNewswire)가 전한 뉴스에 따르면, 카이로스 파워(Kairos Power)가 헤르메스 2(Hermes 2) 시연 플랜트의 기공식을 개최했다. 이는 카이로스 파워의 고온가스로(HTGR) 기술 개발이 설계 및 인허가 단계를 거쳐 실제 건설 단계로 진입했음을 의미한다. 기공식은 프로젝트의 타당성이 입증되고 관련 인허가가 승인되었음을 시사하며, 첨단로의 상용화 경로상 주요 마일스톤이다.",
+    "cat": "기술",
+    "type": "FHR",
+    "dev": "Kairos Power",
+    "region": "US",
+    "source": "globenewswire.com",
+    "url": "https://www.globenewswire.com/news-release/2026/04/17/3276457/0/en/kairos-power-breaks-ground-on-hermes-2-demonstration-plant.html",
+    "k": "kairos power breaks ground on hermes 2 demonstration plant",
+    "id": "42ae9c9c"
+  },
+  {
     "date": "2026-04-16",
     "title": "미국 원자력 회사, 240MW 소형모듈원자로 건설 계획 제출",
     "summary": "미국의 한 원자력 회사가 240MW 규모의 소형모듈원자로 건설 계획을 관계 당국에 제출했다.",
@@ -12231,6 +12358,34 @@ window.SMR_NEWS = [
     "url": "https://x-energy.com/news/x-energy-announces-launch-of-its-initial-public-offering/",
     "k": "x energy announces launch of its initial public offering x energy",
     "id": "ac59b8f5"
+  },
+  {
+    "date": "2026-04-15",
+    "title": "오클로와 블리칼라, 고속로 상용화 진전을 위해 파트너십 확대",
+    "summary": "오클로가 블리칼라(Blykalla)와의 파트너십을 확대하여 고속로 상용화를 추진한다.",
+    "summaryLong": "오클로(Oklo)는 블리칼라(Blykalla)와의 협력 관계를 확대하는 파트너십 체결을 발표했다. 이 확대된 파트너십은 오클로의 고속로(fast reactor) 상용화 목표 달성을 지원하기 위한 것으로, 양사 간의 기술 및 사업 협력 강화를 의미한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/news/oklo-oklo-blykalla-expand-partnership-134808069.html",
+    "k": "oklo oklo and blykalla expand partnership to advance fast reactor commercialization",
+    "id": "9365111f"
+  },
+  {
+    "date": "2026-04-15",
+    "title": "오클로, 미트레(MITRE) CEO 마크 피터스를 이사회 멤버로 영입",
+    "summary": "오클로가 미트레 국방혁신부 CEO 마크 피터스를 이사회에 임명했다.",
+    "summaryLong": "오클로(Oklo)는 미트레(MITRE) 회사의 CEO인 마크 피터스(Mark Peters)를 자사 이사회 멤버로 신규 임명했다고 발표했다. 이는 오클로가 기술 경영 및 국방·에너지 부문 전문 경력을 갖춘 경영진을 이사진에 영입하여 기업 지배 구조를 강화하는 조치다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "executivebiz.com",
+    "url": "https://www.executivebiz.com/articles/mark-peters-oklo-mitre-board-hired",
+    "k": "oklo appoints mitre ceo mark peters to board",
+    "id": "0925775f"
   },
   {
     "date": "2026-04-13",
@@ -12416,6 +12571,20 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "e70c8ed2"
+  },
+  {
+    "date": "2026-03-26",
+    "title": "마시(Marsh), 테라파워 원자력 프로젝트의 구조물 보험 담당",
+    "summary": "보험사 마시(Marsh)가 테라파워의 원자력 프로젝트에 대한 구조물 보험을 제공한다.",
+    "summaryLong": "글로벌 보험 중개업체 마시(Marsh)가 테라파워(TerraPower)의 원자력 프로젝트에 대한 구조물 보험 서비스를 담당하게 되었다. 이는 테라파워 프로젝트의 건설 및 운영 단계에서 필요한 보험 커버를 제공하는 계약으로, 프로젝트 추진의 실질적 진전을 반영한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "insurancebusinessmag.com",
+    "url": "https://www.insurancebusinessmag.com/us/news/breaking-news/marsh-structures-insurance-for-terrapower-nuclear-project-569943.aspx",
+    "k": "marsh structures insurance for terrapower nuclear project",
+    "id": "9358b628"
   },
   {
     "date": "2026-03-25",
@@ -12640,6 +12809,20 @@ window.SMR_NEWS = [
     "url": "https://oklo.com/newsroom/news-details/2026/Oklos-Atomic-Alchemy-Announces-U-S--Department-of-Energy-Approval-for-Nuclear-Safety-Design-Agreement-of-its-Groves-Isotopes-Test-Reactor/default.aspx",
     "k": "oklo s atomic alchemy announces u s department of energy approval for nuclear safety design agreement of its groves isotopes test reactor",
     "id": "0c322733"
+  },
+  {
+    "date": "2026-03-17",
+    "title": "오클로(Oklo), 첫 번째 원자로 건설 다음 단계 승인 획득",
+    "summary": "오클로(Oklo)가 첫 번째 원자로 건설의 다음 단계에 대한 승인을 획득하며 프로젝트가 진전되고 있다.",
+    "summaryLong": "셔우드 뉴스(Sherwood News) 보도에 따르면, 오클로(Oklo)가 첫 번째 원자로 건설의 다음 단계에 대한 공식 승인을 받았다. 이는 미국 에너지부(DOE) 또는 원자력규제위원회(NRC) 등 관련 정부 기관으로부터의 건설 허가 또는 단계별 인허가 승인을 의미하며, 고속로 상용화 프로젝트가 설계 및 예비 단계를 거쳐 실제 건설 단계로 진입했음을 나타낸다. 이 승인으로 오클로의 상용화 일정에 구체적 진전이 있었으며, 시장에 긍정적 신호를 주고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "sherwood.news",
+    "url": "https://sherwood.news/markets/oklo-ota-department-of-energy-idaho-reactor/",
+    "k": "oklo surges after receiving approval for next phase in the construction of its first reactor",
+    "id": "61442ca7"
   },
   {
     "date": "2026-03-16",
@@ -12963,6 +13146,20 @@ window.SMR_NEWS = [
     "url": "https://www.prnewswire.com/news-releases/nrc-approves-the-natrium-reactor-construction-permit-302704125.html",
     "k": "nrc approves the natrium reactor construction permit",
     "id": "bcbf6124"
+  },
+  {
+    "date": "2026-03-04",
+    "title": "테라파워(TerraPower) 와이오밍 원자로 건설 연방 승인",
+    "summary": "연방 당국이 테라파워(TerraPower)의 와이오밍 남서부 지역 원자로 건설을 공식 승인했다.",
+    "summaryLong": "미국 연방 당국(Feds)이 테라파워(TerraPower)의 와이오밍(Wyoming) 남서부 지역 고급 소형모듈원자로 건설 프로젝트를 공식 승인했다. 이는 테라파워의 나트륨냉각고속로(SFR) 시범 프로젝트인 나트리움(Natrium) 프로젝트에 대한 건설 허가로 해석되며, 미국의 차세대 원자로 개발 추진 의지를 반영한다. 승인 결정은 테라파워의 상용화 로드맵에서 중요한 이정표가 될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "wyomingpublicmedia.org",
+    "url": "https://www.wyomingpublicmedia.org/natural-resources-energy/2026-03-04/feds-greenlight-terrapower-nuclear-construction-in-southwest-wyoming",
+    "k": "feds greenlight terrapower nuclear construction in southwest wyoming",
+    "id": "f5df6281"
   },
   {
     "date": "2026-03-03",
@@ -14788,4 +14985,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-03 16:32 KST";
+window.SMR_UPDATED = "2026-07-03 16:53 KST";

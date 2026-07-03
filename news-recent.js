@@ -543,6 +543,21 @@ window.SMR_NEWS = [
   "id": "4a72ddb3"
  },
  {
+  "date": "2026-07-02",
+  "title": "삼성물산, 영국(UK) 72조 규모 SMR 14기 건설 프로젝트 참여",
+  "summary": "삼성물산이 영국의 약 72조 원 규모 소형모듈원자로(SMR) 14기 건설 프로젝트에 참여한다.",
+  "summaryLong": "삼성물산이 영국(UK)의 대규모 소형모듈원자로(SMR) 건설 사업에 참여하기로 결정했다고 Investing.com 한국어판이 단독 보도했다. 해당 프로젝트 규모는 약 72조 원대이며 총 14기의 SMR 건설을 포함한다. 이는 삼성물산의 국제 에너지 인프라 사업 확대와 영국의 SMR 상용화 추진 전략의 일환으로 평가된다. 한국 대형 건설사의 해외 첨단 원자력 프로젝트 수주는 국내 원자력 산업의 국제 경쟁력 강화를 의미한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "Samsung E&C",
+  "region": "UK",
+  "source": "kr.investing.com",
+  "url": "https://kr.investing.com/news/stock-market-news/article-2003484",
+  "k": "단독 삼성물산 72조 규모 smr 14기 건설 프로젝트 참여 by the guru",
+  "ko": 1,
+  "id": "044f376c"
+ },
+ {
   "date": "2026-07-01",
   "title": "i-SMR 기술개발사업단, 싱가포르 에너지시장청과 협력",
   "summary": "한국의 i-SMR(혁신형 소형모듈원자로) 기술개발사업단이 싱가포르 에너지시장청(EMA)과 협력 양해각서를 체결했다.",
@@ -863,21 +878,6 @@ window.SMR_NEWS = [
   "url": "https://www.powermag.com/deployable-energys-unity-nuclear-reactor-achieves-criticality-at-inl-third-under-doe-nuclear-push/",
   "k": "deployable energy s unity nuclear reactor achieves criticality at inl third under doe nuclear push",
   "id": "339dc04c"
- },
- {
-  "date": "2026-07-01",
-  "title": "두산에너빌, 가스터빈·SMR 수출경쟁력으로 경제부총리 표창 수상",
-  "summary": "두산에너빌리티가 국내 발전산업 기술 경쟁력 제고와 수출 확대에 기여한 공로로 한국수출입은행 창립 50주년 기념식에서 경제부총리 표창을 수상했다.",
-  "summaryLong": "두산에너빌리티는 7월 1일 여의도 한국수출입은행에서 개최된 한국수출입은행 창립 50주년 기념식에서 경제부총리 표창을 수상했다. 이 표창은 국산 가스터빈의 해외 진출 실현과 함께 원전·소형모듈원자로(SMR)의 공급망 경쟁력 강화에 기여한 성과를 인정받은 것이다. 정부의 연구개발(R&D) 지원과 정책금융이 기업의 기술 상용화와 해외시장 진출로 연결된 대표 사례로 평가되고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "두산에너빌리티",
-  "region": "KR",
-  "source": "에너지신문 - 전체기사",
-  "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=226515",
-  "k": "가스터빈부터 smr까지 두산에너빌 수출경쟁력 인정받다",
-  "ko": 1,
-  "id": "fc9bc4e6"
  },
  {
   "date": "2026-07-01",
@@ -1316,32 +1316,18 @@ window.SMR_NEWS = [
   "id": "d132fd23"
  },
  {
-  "date": "2026-04-21",
-  "title": "카이로스 파워, 오크릿지(Oak Ridge)에서 첫 상용 원자로 착공",
-  "summary": "카이로스 파워(Kairos Power)가 미국 테네시주 오크릿지(Oak Ridge)에서 첫 번째 상용 전력생산 원자로의 착공식을 개최.",
-  "summaryLong": "원자력 학회(ANS)는 카이로스 파워(Kairos Power)가 미국 테네시주 오크릿지(Oak Ridge)에서 첫 상용 전력생산 원자로의 착공을 발표했음을 보도했다. 이 프로젝트는 카이로스 파워의 용융염냉각 첨단로 기술의 상용화 첫 단계를 표시하며, 미국 첨단로 산업의 중요한 마일스톤이다.",
+  "date": "2026-05-01",
+  "title": "NRG 팔라스와 카이로스 파워, 첨단로 시험 협력 지속",
+  "summary": "네덜란드 NRG 팔라스와 카이로스 파워가 첨단 원자로 시험에 대한 협력을 계속 진행한다.",
+  "summaryLong": "네덜란드의 원자력연구기관 NRG 팔라스(NRG Pallas)와 카이로스 파워(Kairos Power)는 첨단 원자로(advanced reactor) 시험 및 검증 프로젝트에 대한 협력을 계속 추진하기로 확인했다. 양 기관 간의 지속적인 기술 협력은 카이로스의 용융염냉각로(FHR) 개발 및 규제 검증을 지원하는 의미를 갖는다.",
   "cat": "기술",
   "type": "FHR",
   "dev": "Kairos Power",
   "region": "US",
-  "source": "ans.org",
-  "url": "https://www.ans.org/news/2026-04-21/article-7964/kairos-power-breaks-ground-on-first-powerproducing-reactor-in-oak-ridge/",
-  "k": "kairos power breaks ground on first power producing reactor in oak ridge american nuclear society ans",
-  "id": "69ebfc32"
- },
- {
-  "date": "2026-04-21",
-  "title": "카이로스 파워(Kairos Power), 오크리지(Oak Ridge)에서 첫 전력 생산 원자로 기공식 개최",
-  "summary": "카이로스 파워가 테네시 주 오크리지(Oak Ridge)에서 첫 전력 생산 원자로의 기공식을 개최했다.",
-  "summaryLong": "카이로스 파워는 미국 테네시 주 오크리지(Oak Ridge)에서 첫 전력 생산 원자로의 건설을 착수했으며, 이는 회사의 용융염 냉각 첨단로(FHR) 기술 상용화의 중요한 이정표다. 이 프로젝트는 카이로스의 혁신적인 원자로 설계를 실제 전력 생산 시설로 구현하는 단계로, 향후 규제 승인 진행과 건설 완료 일정이 주목된다.",
-  "cat": "기술",
-  "type": "FHR",
-  "dev": "Kairos",
-  "region": "US",
-  "source": "ans.org",
-  "url": "https://www.ans.org/news/2026-04-21/article-7964/kairos-power-breaks-ground-on-first-powerproducing-reactor-in-oak-ridge/",
-  "k": "kairos power breaks ground on first power producing reactor in oak ridge",
-  "id": "69ebfc32"
+  "source": "nucnet.org",
+  "url": "https://www.nucnet.org/news/nrg-pallas-and-kairos-power-continue-cooperation-on-advanced-reactor-tests-5-1-2026",
+  "k": "nrg pallas and kairos power continue cooperation on advanced reactor tests",
+  "id": "37f00957"
  },
  {
   "date": "2026-03-31",
@@ -1398,5 +1384,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-03 16:32 KST";
-window.SMR_TOTAL = 1030;
+window.SMR_UPDATED = "2026-07-03 16:53 KST";
+window.SMR_TOTAL = 1044;
