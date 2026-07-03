@@ -8,6 +8,51 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-07-03",
+    "title": "KINGS, 소형모듈원전 시대 대비한 글로벌 교육 강화",
+    "summary": "한국전력국제원자력대학원대학교(KINGS)가 소형모듈원전(SMR) 등 원전산업 변화에 맞춘 '투트랙 글로벌 교육'을 운영하고 있다.",
+    "summaryLong": "한국전력국제원자력대학원대학교(KINGS)가 소형모듈원전(SMR), 사용후핵연료 관리, 원전해체 등 원자력산업의 영역 확장에 대응하는 글로벌 인재양성을 추진하고 있다. 한국(KR) 학생은 유럽(EU) 원자력 핵심기관 실습으로 국제 원전 생태계를 학습하고, 외국인 학생은 국내 연구기관·기업 인턴십으로 연구개발과 산업 현장 실무를 익히는 투트랙 교육 체계를 운영 중이다. 이는 SMR 시대의 국제협력, 정책, 기술 연계 인력양성 정책으로의 전환을 보여주는 사례다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "KINGS",
+    "region": "KR",
+    "source": "전기신문 - 전체기사",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=369819",
+    "k": "kings 세계에서 배우고 현장에서 키운다",
+    "ko": 1,
+    "id": "3d04b318"
+  },
+  {
+    "date": "2026-07-03",
+    "title": "터키-미국 합작, 20기 소형모듈원자로 건설 계획",
+    "summary": "터키(TR)와 미국(US)의 합작 벤처가 소형모듈원자로(SMR) 20기 건설 프로젝트를 추진하고 있다.",
+    "summaryLong": "터키(TR)와 미국(US) 간의 합작 벤처(협력사 미상)가 소형모듈원자로(SMR) 20기 건설 프로젝트 계획을 추진하고 있다는 보도가 있다. 이는 터키의 에너지 안보 강화와 SMR의 국제 상용화 추진의 일환으로, 다자간 핵에너지 협력 사례를 보여준다. 구체적 프로젝트 일정·노형·개발사 등 상세는 보도에서 미상이지만, SMR의 중동·터키 지역 시장 확대 신호로 평가된다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "",
+    "region": "TR",
+    "source": "agbi.com",
+    "url": "https://www.agbi.com/energy/2026/07/turkish-us-venture-to-build-20-small-modular-nuclear-reactors/",
+    "k": "turkish us venture to build 20 small modular nuclear reactors arabian gulf business insight",
+    "id": "7c394c84"
+  },
+  {
+    "date": "2026-07-03",
+    "title": "엔비디아도 원전으로…AI 전력난에 커지는 SMR 기대감",
+    "summary": "AI 데이터센터의 전력 수요 급증에 따라 엔비디아(NVIDIA) 등 기술업체의 원자력·소형모듈원자로(SMR) 관심이 높아지고 있다.",
+    "summaryLong": "인공지능(AI) 데이터센터의 전력 수요 폭발적 증가에 대응하기 위해 엔비디아(NVIDIA) 등 글로벌 기술업체들이 소형모듈원자로(SMR) 등 원자력 전력 조달에 관심을 집중하고 있다. SMR의 소규모·모듈식 특성이 데이터센터 근처 배치에 적합하다는 평가가 제시되고 있으며, 이는 전통적 발전 시장 외 신수요처 창출의 기회로 인식되고 있다. 한국(KR)에서도 SMR의 에너지전환 및 산업 수요 대응 차원의 전략적 가치가 강조되고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "zdnet.co.kr",
+    "url": "https://zdnet.co.kr/view/?no=20260703143221",
+    "k": "엔비디아도 원전으로 ai 전력난에 커지는 smr 기대감",
+    "ko": 1,
+    "op": 1,
+    "id": "1349e90f"
+  },
+  {
     "date": "2026-07-02",
     "title": "전 세계 70개 이상 소형모듈원자로 프로젝트 추진 중… 한국은 '혁신형 SMR' 개발로 승부",
     "summary": "전 세계적으로 70개 이상의 소형모듈원자로(SMR) 프로젝트가 진행 중이며, 한국은 혁신형 SMR 개발로 경쟁력을 강화하고 있다.",
@@ -443,6 +488,20 @@ window.SMR_NEWS = [
     "k": "kins 원자력안전해석 심포지엄 smr 차세대 안전기술 논의",
     "ko": 1,
     "id": "e8aef428"
+  },
+  {
+    "date": "2026-07-02",
+    "title": "미국, 상위 4개국 합친 것보다 많은 SMR 프로젝트 추진",
+    "summary": "미국(US)이 소형모듈원자로(SMR) 개발 프로젝트 수에서 세계 상위 4개 경쟁국의 합계를 초과하고 있다.",
+    "summaryLong": "미국(US)이 소형모듈원자로(SMR) 개발·상용화 프로젝트 규모에서 글로벌 리더십을 확보하고 있다는 현황이 보도되고 있다. 미국의 SMR 프로젝트 수가 영국(UK), 캐나다(CA), 한국(KR), 일본(JP) 등 상위 4개국의 프로젝트 합계를 초과하고 있으며, 이는 미국의 정책 지원·규제 인프라·민간 투자 집중의 결과로 평가된다. SMR 시장의 지역별 개발 격차 심화를 보여주는 지표다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "oilprice.com",
+    "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/The-US-Has-More-SMR-Projects-Than-Its-Four-Closest-Rivals-Combined.html",
+    "k": "the u s has more smr projects than its four closest rivals combined crude oil prices today",
+    "id": "9f151e6f"
   },
   {
     "date": "2026-07-01",
@@ -1132,6 +1191,35 @@ window.SMR_NEWS = [
     "url": "https://www.businessgreen.com/news/4532120/sge-submits-plans-42gw-uk-small-modular-nuclear-reactor-fleet",
     "k": "sge submits plans for 4 2gw uk small modular nuclear reactor fleet",
     "id": "3b16e570"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "커티스-라이트, 엑스에너지 Xe-100 부품 시제 제조 진행",
+    "summary": "커티스-라이트(Curtiss-Wright)가 엑스에너지(X-energy)의 고온가스로(HTGR) Xe-100 원자로 부품의 시제 제조를 진행 중이다.",
+    "summaryLong": "커티스-라이트(Curtiss-Wright)가 엑스에너지(X-energy)의 고온가스로(HTGR) 노형 소형모듈원자로 Xe-100 원자로 부품의 시제(프로토타입) 제조를 미국(US) 텍사스(Texas) 만안 지역 건설 대상지를 위해 추진하고 있다. 이는 Xe-100의 기술 실증 및 생산 준비 단계로, 고온가스로 노형의 우수성 입증과 공급망 구축의 주요 마일스톤이다. 커티스-라이트 같은 대형 부품 제조사의 참여는 엑스에너지의 상용화 추진력을 반영하고 있다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy, Curtiss-Wright",
+    "region": "US",
+    "source": "bicmagazine.com",
+    "url": "https://www.bicmagazine.com/resources/products-services/curtiss-wright-advances-prototype-manufacturing-for-x-energy-xe-100-reactor-components/",
+    "k": "curtiss wright advances prototype manufacturing for x energy xe 100 reactor components destined for texas gulf coast site",
+    "id": "e214d20f"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "장순흥 총장 \"기장 SMR, 부산 신산업 도약의 출발점\"",
+    "summary": "부산대 장순흥 총장이 기장에서 추진 중인 소형모듈원자로(SMR) 프로젝트가 부산의 신산업 발전을 주도할 것이라고 전망했다.",
+    "summaryLong": "부산대학교 장순흥 총장이 부산 기장 지역에서 추진 중인 소형모듈원자로(SMR) 프로젝트에 대해 긍정적 전망을 제시했다. 이 프로젝트는 부산의 신산업 도약을 위한 출발점이 될 것이라고 강조하며, 지역 경제 발전과 일자리 창출을 기대했다. 기장 SMR은 부산이 미래 에너지 산업의 중심지로 성장하기 위한 전략적 사업으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "news.knn.co.kr",
+    "url": "https://news.knn.co.kr/news/article_sns/1463",
+    "k": "톡앤썰 장순흥 총장 기장 smr 부산 신산업 도약의 출발점 될 것",
+    "ko": 1,
+    "id": "7082902c"
   },
   {
     "date": "2026-06-30",
@@ -14654,4 +14742,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-03 08:48 KST";
+window.SMR_UPDATED = "2026-07-03 15:48 KST";

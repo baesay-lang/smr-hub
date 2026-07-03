@@ -1,6 +1,51 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-07-03",
+  "title": "KINGS, 소형모듈원전 시대 대비한 글로벌 교육 강화",
+  "summary": "한국전력국제원자력대학원대학교(KINGS)가 소형모듈원전(SMR) 등 원전산업 변화에 맞춘 '투트랙 글로벌 교육'을 운영하고 있다.",
+  "summaryLong": "한국전력국제원자력대학원대학교(KINGS)가 소형모듈원전(SMR), 사용후핵연료 관리, 원전해체 등 원자력산업의 영역 확장에 대응하는 글로벌 인재양성을 추진하고 있다. 한국(KR) 학생은 유럽(EU) 원자력 핵심기관 실습으로 국제 원전 생태계를 학습하고, 외국인 학생은 국내 연구기관·기업 인턴십으로 연구개발과 산업 현장 실무를 익히는 투트랙 교육 체계를 운영 중이다. 이는 SMR 시대의 국제협력, 정책, 기술 연계 인력양성 정책으로의 전환을 보여주는 사례다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "KINGS",
+  "region": "KR",
+  "source": "전기신문 - 전체기사",
+  "url": "https://www.electimes.com/news/articleView.html?idxno=369819",
+  "k": "kings 세계에서 배우고 현장에서 키운다",
+  "ko": 1,
+  "id": "3d04b318"
+ },
+ {
+  "date": "2026-07-03",
+  "title": "터키-미국 합작, 20기 소형모듈원자로 건설 계획",
+  "summary": "터키(TR)와 미국(US)의 합작 벤처가 소형모듈원자로(SMR) 20기 건설 프로젝트를 추진하고 있다.",
+  "summaryLong": "터키(TR)와 미국(US) 간의 합작 벤처(협력사 미상)가 소형모듈원자로(SMR) 20기 건설 프로젝트 계획을 추진하고 있다는 보도가 있다. 이는 터키의 에너지 안보 강화와 SMR의 국제 상용화 추진의 일환으로, 다자간 핵에너지 협력 사례를 보여준다. 구체적 프로젝트 일정·노형·개발사 등 상세는 보도에서 미상이지만, SMR의 중동·터키 지역 시장 확대 신호로 평가된다.",
+  "cat": "계약",
+  "type": "General",
+  "dev": "",
+  "region": "TR",
+  "source": "agbi.com",
+  "url": "https://www.agbi.com/energy/2026/07/turkish-us-venture-to-build-20-small-modular-nuclear-reactors/",
+  "k": "turkish us venture to build 20 small modular nuclear reactors arabian gulf business insight",
+  "id": "7c394c84"
+ },
+ {
+  "date": "2026-07-03",
+  "title": "엔비디아도 원전으로…AI 전력난에 커지는 SMR 기대감",
+  "summary": "AI 데이터센터의 전력 수요 급증에 따라 엔비디아(NVIDIA) 등 기술업체의 원자력·소형모듈원자로(SMR) 관심이 높아지고 있다.",
+  "summaryLong": "인공지능(AI) 데이터센터의 전력 수요 폭발적 증가에 대응하기 위해 엔비디아(NVIDIA) 등 글로벌 기술업체들이 소형모듈원자로(SMR) 등 원자력 전력 조달에 관심을 집중하고 있다. SMR의 소규모·모듈식 특성이 데이터센터 근처 배치에 적합하다는 평가가 제시되고 있으며, 이는 전통적 발전 시장 외 신수요처 창출의 기회로 인식되고 있다. 한국(KR)에서도 SMR의 에너지전환 및 산업 수요 대응 차원의 전략적 가치가 강조되고 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "US",
+  "source": "zdnet.co.kr",
+  "url": "https://zdnet.co.kr/view/?no=20260703143221",
+  "k": "엔비디아도 원전으로 ai 전력난에 커지는 smr 기대감",
+  "ko": 1,
+  "op": 1,
+  "id": "1349e90f"
+ },
+ {
   "date": "2026-07-02",
   "title": "전 세계 70개 이상 소형모듈원자로 프로젝트 추진 중… 한국은 '혁신형 SMR' 개발로 승부",
   "summary": "전 세계적으로 70개 이상의 소형모듈원자로(SMR) 프로젝트가 진행 중이며, 한국은 혁신형 SMR 개발로 경쟁력을 강화하고 있다.",
@@ -438,6 +483,20 @@ window.SMR_NEWS = [
   "id": "e8aef428"
  },
  {
+  "date": "2026-07-02",
+  "title": "미국, 상위 4개국 합친 것보다 많은 SMR 프로젝트 추진",
+  "summary": "미국(US)이 소형모듈원자로(SMR) 개발 프로젝트 수에서 세계 상위 4개 경쟁국의 합계를 초과하고 있다.",
+  "summaryLong": "미국(US)이 소형모듈원자로(SMR) 개발·상용화 프로젝트 규모에서 글로벌 리더십을 확보하고 있다는 현황이 보도되고 있다. 미국의 SMR 프로젝트 수가 영국(UK), 캐나다(CA), 한국(KR), 일본(JP) 등 상위 4개국의 프로젝트 합계를 초과하고 있으며, 이는 미국의 정책 지원·규제 인프라·민간 투자 집중의 결과로 평가된다. SMR 시장의 지역별 개발 격차 심화를 보여주는 지표다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "US",
+  "source": "oilprice.com",
+  "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/The-US-Has-More-SMR-Projects-Than-Its-Four-Closest-Rivals-Combined.html",
+  "k": "the u s has more smr projects than its four closest rivals combined crude oil prices today",
+  "id": "9f151e6f"
+ },
+ {
   "date": "2026-07-01",
   "title": "i-SMR 기술개발사업단, 싱가포르 에너지시장청과 협력",
   "summary": "한국의 i-SMR(혁신형 소형모듈원자로) 기술개발사업단이 싱가포르 에너지시장청(EMA)과 협력 양해각서를 체결했다.",
@@ -818,67 +877,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-01",
-  "title": "메랄코, 소형모듈원자로(SMR) 다중 기술 검토 중",
-  "summary": "필리핀 전력회사 메랄코(Meralco)가 여러 소형모듈원자로(SMR) 기술을 검토하고 있다.",
-  "summaryLong": "메랄코(Meralco)가 다양한 소형모듈원자로(SMR) 기술을 탐색하고 검토하는 과정을 진행 중이다. 특정 기술, 파트너사, 프로젝트 일정 등 세부 내용은 기사 원문에서 확인할 수 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "Meralco",
-  "region": "",
-  "source": "businessmirror.com.ph",
-  "url": "https://businessmirror.com.ph/2026/07/01/meralco-exploring-multiple-small-modular-reactor-tech/",
-  "k": "meralco exploring multiple small modular reactor tech",
-  "op": 1,
-  "id": "d55a5d33"
- },
- {
-  "date": "2026-07-01",
-  "title": "SMR과 가스터빈 결합으로 초고효율 달성…출력조정 가능",
-  "summary": "소형모듈원자로와 가스터빈을 결합한 하이브리드 시스템이 높은 효율과 유연성을 제공할 수 있음을 보도한다.",
-  "summaryLong": "에너지경제신문이 보도한 기사로, 소형모듈원자로(SMR)와 가스터빈을 결합하는 기술의 장점을 소개한다. 이 하이브리드 방식은 원자로의 안정적 열공급과 가스터빈의 유연한 출력조정 능력을 결합하여 초고효율 달성과 변동하는 부하 조건에 대한 대응력을 제공할 수 있다. 에너지 시스템의 유연성이 중요해지는 배경에서 SMR의 경제성과 운영 효율성 향상의 의미를 갖는다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "ekn.kr",
-  "url": "https://www.ekn.kr/web/view.php?key=20260701022228282",
-  "k": "smr과 가스터빈 결합하면 초고효율 출력조정도 가능",
-  "ko": 1,
-  "id": "3644b2bc"
- },
- {
-  "date": "2026-07-01",
-  "title": "국제원자력기구(IAEA) 원자력 시설 안전 국제회의 개최…SMR 등 논의",
-  "summary": "국제원자력기구가 개최한 원자력 시설 안전 국제회의에서 소형모듈원자로를 포함한 여러 원전 현안을 논의한다.",
-  "summaryLong": "에너지안전신문이 보도한 기사로, 국제원자력기구(IAEA)가 개최한 원자력 시설 안전 국제회의의 내용을 다룬다. 회의에서는 소형모듈원자로(SMR)를 포함하여 원자력 시설의 안전 기준, 규제 동향, 신형로 기술 등 국제적으로 중요한 안전 현안들이 논의되었다. 글로벌 원자력 커뮤니티의 SMR 안전성 평가 및 규제 조화 논의의 일환으로 의미를 갖는다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "IAEA",
-  "region": "",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=4800",
-  "k": "iaea 원자력 시설 안전 국제회의 개최 smr 등 논의",
-  "ko": 1,
-  "id": "5d7778ca"
- },
- {
-  "date": "2026-07-01",
-  "title": "한국, 대형원전 건설역량 강점…경쟁력 지키며 SMR 확대해야 [인터뷰]",
-  "summary": "서울대학교 원자력미래기술정책연구소장이 한국의 대형원전 역량을 유지하면서 동시에 소형모듈원자로 확대의 필요성을 제시한다.",
-  "summaryLong": "에너지플랫폼뉴스가 서울대학교 심형진 원자력미래기술정책연구소장과 진행한 인터뷰 기사이다. 인터뷰에서는 한국이 대형원전 건설과 운영에서 확보한 기술적 경쟁력이 최대 강점이며, 이를 유지하면서 동시에 소형모듈원자로(SMR) 시장 진출을 전략적으로 확대해야 한다는 견해가 제시된다. 한국 원자력 산업의 차별화된 경쟁전략 수립의 필요성을 강조하는 정책 의견이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "e-platform.net",
-  "url": "http://www.e-platform.net/news/articleView.html?idxno=103493",
-  "k": "한국 대형원전 건설역량 최대강점 경쟁력 지키며 smr 확대해야 인터뷰 서울대학교 심형진 원자력미래기술정책연구소장",
-  "ko": 1,
-  "op": 1,
-  "id": "98ac366b"
- },
- {
-  "date": "2026-07-01",
   "title": "경남도, 국회서 SMR 특별법 대응 토론회…AI 시대 원전 제조거점 선점",
   "summary": "경남도가 국회에서 소형모듈원자로 특별법 논의를 위한 토론회를 개최하며 지역 제조업 기반 강화를 추진한다.",
   "summaryLong": "에너지안전신문이 보도한 기사로, 경남도가 국회 차원의 소형모듈원자로(SMR) 특별법 제정 논의에 대응하는 토론회를 개최한 사실을 다룬다. 경남도는 인공지능(AI) 시대의 에너지 수요 증가에 대비하여 지역을 '원전 제조거점'으로 육성하려는 전략을 제시하고 있다. 중장기적으로 경남 지역의 원자력 산업 발전과 일자리 창출, 제조 경쟁력 강화를 목표로 하는 지방정부 차원의 정책 추진 동향이다.",
@@ -907,6 +905,20 @@ window.SMR_NEWS = [
   "id": "cd78e07f"
  },
  {
+  "date": "2026-07-01",
+  "title": "커티스-라이트, 엑스에너지 Xe-100 부품 시제 제조 진행",
+  "summary": "커티스-라이트(Curtiss-Wright)가 엑스에너지(X-energy)의 고온가스로(HTGR) Xe-100 원자로 부품의 시제 제조를 진행 중이다.",
+  "summaryLong": "커티스-라이트(Curtiss-Wright)가 엑스에너지(X-energy)의 고온가스로(HTGR) 노형 소형모듈원자로 Xe-100 원자로 부품의 시제(프로토타입) 제조를 미국(US) 텍사스(Texas) 만안 지역 건설 대상지를 위해 추진하고 있다. 이는 Xe-100의 기술 실증 및 생산 준비 단계로, 고온가스로 노형의 우수성 입증과 공급망 구축의 주요 마일스톤이다. 커티스-라이트 같은 대형 부품 제조사의 참여는 엑스에너지의 상용화 추진력을 반영하고 있다.",
+  "cat": "기술",
+  "type": "HTGR",
+  "dev": "X-energy, Curtiss-Wright",
+  "region": "US",
+  "source": "bicmagazine.com",
+  "url": "https://www.bicmagazine.com/resources/products-services/curtiss-wright-advances-prototype-manufacturing-for-x-energy-xe-100-reactor-components/",
+  "k": "curtiss wright advances prototype manufacturing for x energy xe 100 reactor components destined for texas gulf coast site",
+  "id": "e214d20f"
+ },
+ {
   "date": "2026-06-30",
   "title": "폴란드 개발사, SMR 3곳 국가자금 지원 신청",
   "summary": "오를렌신토스그린에너지(Orlen Synthos Green Energy)가 폴란드 에너지부 장관에게 폴란드 3곳에 BWRX-300 14기 건설을 위한 차액계약(Contract for Difference) 지원을 신청했다.",
@@ -919,20 +931,6 @@ window.SMR_NEWS = [
   "url": "https://www.world-nuclear-news.org/articles/polish-developer-applies-for-state-funding-for-three-smr-plants",
   "k": "polish developer applies for state funding for three smr plants",
   "id": "d2d67bf7"
- },
- {
-  "date": "2026-06-29",
-  "title": "엑스에너지(X-Energy) 러셀 1000 가치지수에 편입",
-  "summary": "엑스에너지 주식이 러셀 1000 가치지수에 편입되었다.",
-  "summaryLong": "엑스에너지(X-Energy)의 주식이 러셀 1000 가치지수(Russell 1000 Value Benchmark)에 편입되었다. 이는 회사의 시장 규모 및 지수 분류 기준 충족을 의미한다. 엑스에너지는 고온가스로(HTGR) 및 트릭스(TRISO) 연료 기술 개발을 진행 중인 첨단로 개발사이다.",
-  "cat": "기술",
-  "type": "HTGR",
-  "dev": "X-Energy",
-  "region": "US",
-  "source": "marketscreener.com",
-  "url": "https://www.marketscreener.com/news/x-energy-inc-nasdaqgs-xe-added-to-russell-1000-value-benchmark-ce7f5fdedc8cf425",
-  "k": "x energy inc nasdaqgs xe added to russell 1000 value benchmark",
-  "id": "f5b0b270"
  },
  {
   "date": "2026-06-28",
@@ -1396,5 +1394,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-03 08:48 KST";
-window.SMR_TOTAL = 1021;
+window.SMR_UPDATED = "2026-07-03 15:48 KST";
+window.SMR_TOTAL = 1027;
