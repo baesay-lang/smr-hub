@@ -8,6 +8,20 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-07-04",
+    "title": "미국 에너지부(DOE), 센트러스와 10억 달러 규모 고함유우라늄(HALEU) 계약 확정",
+    "summary": "미국 에너지부가 센트러스(Centrus)와 10억 달러 규모의 고함유 저농축우라늄(HALEU) 공급 계약을 최종 확정했다.",
+    "summaryLong": "미국 에너지부(DOE)가 우라늄 농축 회사 센트러스와 고함유 저농축우라늄(HALEU, High-Assay Low-Enriched Uranium) 10억 달러 규모의 공급 계약을 확정했다. 이는 미국이 러시아산 핵연료에 대한 의존도를 탈피하고 자급 역량을 강화하려는 국책 사업으로, 소형모듈원자로와 첨단로 등 신형 원자로의 연료 공급 기반 구축에 중요한 역할을 할 것으로 예상된다. DOE의 공식 계약 체결로 미국 SMR/첨단로 생태계의 연료 공급 안정성이 크게 향상될 것으로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Centrus",
+    "region": "US",
+    "source": "techtimes.com",
+    "url": "https://www.techtimes.com/articles/319669/20260703/doe-locks-1b-centrus-haleu-deal-end-us-reliance-russian-enrichment.htm",
+    "k": "doe locks in 1b centrus haleu deal to end us reliance on russian enrichment",
+    "id": "f5cc04ba"
+  },
+  {
     "date": "2026-07-03",
     "title": "KINGS, 소형모듈원전 시대 대비한 글로벌 교육 강화",
     "summary": "한국전력국제원자력대학원대학교(KINGS)가 소형모듈원전(SMR) 등 원전산업 변화에 맞춘 '투트랙 글로벌 교육'을 운영하고 있다.",
@@ -15199,4 +15213,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-04 08:47 KST";
+window.SMR_UPDATED = "2026-07-04 15:35 KST";

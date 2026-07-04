@@ -1,6 +1,20 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-07-04",
+  "title": "미국 에너지부(DOE), 센트러스와 10억 달러 규모 고함유우라늄(HALEU) 계약 확정",
+  "summary": "미국 에너지부가 센트러스(Centrus)와 10억 달러 규모의 고함유 저농축우라늄(HALEU) 공급 계약을 최종 확정했다.",
+  "summaryLong": "미국 에너지부(DOE)가 우라늄 농축 회사 센트러스와 고함유 저농축우라늄(HALEU, High-Assay Low-Enriched Uranium) 10억 달러 규모의 공급 계약을 확정했다. 이는 미국이 러시아산 핵연료에 대한 의존도를 탈피하고 자급 역량을 강화하려는 국책 사업으로, 소형모듈원자로와 첨단로 등 신형 원자로의 연료 공급 기반 구축에 중요한 역할을 할 것으로 예상된다. DOE의 공식 계약 체결로 미국 SMR/첨단로 생태계의 연료 공급 안정성이 크게 향상될 것으로 보인다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "Centrus",
+  "region": "US",
+  "source": "techtimes.com",
+  "url": "https://www.techtimes.com/articles/319669/20260703/doe-locks-1b-centrus-haleu-deal-end-us-reliance-russian-enrichment.htm",
+  "k": "doe locks in 1b centrus haleu deal to end us reliance on russian enrichment",
+  "id": "f5cc04ba"
+ },
+ {
   "date": "2026-07-03",
   "title": "KINGS, 소형모듈원전 시대 대비한 글로벌 교육 강화",
   "summary": "한국전력국제원자력대학원대학교(KINGS)가 소형모듈원전(SMR) 등 원전산업 변화에 맞춘 '투트랙 글로벌 교육'을 운영하고 있다.",
@@ -867,20 +881,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-01",
-  "title": "키르기스스탄 전력 공급 수력발전소 현대화",
-  "summary": "GE 버르노바(GE Vernova)가 키르기스스탄 전력의 40%를 공급하는 수력발전소의 4개 발전 유닛을 현대화했다.",
-  "summaryLong": "GE 버르노바(GE Vernova)는 키르기스스탄의 전력 수급의 약 40%를 담당하는 수력발전소의 4개 발전 유닛을 현대화하는 프로젝트를 완료했다. 이 프로젝트는 발전소를 완전히 정지하지 않으면서 현대화를 진행한 것이 특징이며, POWER(파워) 매거진의 올해 탑 플랜트 어워드 최종 후보에 선정되었다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "",
-  "source": "POWER Magazine",
-  "url": "https://www.powermag.com/modernizing-the-plant-that-powers-40-of-kyrgyzstan/",
-  "k": "modernizing the plant that powers 40 of kyrgyzstan",
-  "id": "e4996a5b"
- },
- {
-  "date": "2026-07-01",
   "title": "엑스에너지, 영국 센트리카와 6GW 원전 파트너십 GDA 신청",
   "summary": "첨단원자로 개발사 엑스에너지(X-energy)가 영국(UK) 센트리카(Centrica)와의 6GW 파트너십을 위해 영국 범용설계심사(GDA) 신청을 진행했다.",
   "summaryLong": "첨단원자로 개발사 엑스에너지(X-energy)는 2026년 6월 2일 영국(UK)의 범용설계심사(Generic Design Assessment, GDA) 신청서를 제출했다고 발표했다. 이는 영국 에너지 기업 센트리카(Centrica)와 진행 중인 6GW 규모의 원전 파트너십 사업과 관련된 것으로, 규제 승인 절차의 중요한 단계를 나타낸다.",
@@ -1399,5 +1399,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-04 08:47 KST";
-window.SMR_TOTAL = 1059;
+window.SMR_UPDATED = "2026-07-04 15:35 KST";
+window.SMR_TOTAL = 1060;
