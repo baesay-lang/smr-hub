@@ -270,6 +270,21 @@ window.SMR_NEWS = [
     "id": "ff934749"
   },
   {
+    "date": "2026-07-03",
+    "title": "뉴스케일 투자 판단: 찬반 의견 분석",
+    "summary": "뉴스케일(NuScale) 주식에 대한 투자 판단을 제시하는 칼럼으로, SMR 기업들의 주가 평가 자료.",
+    "summaryLong": "뉴스케일, 엑스에너지(X-energy), 오클로(Oklo), 테라파워(TerraPower), 카이로스(Kairos Power) 등 주요 SMR 개발사들을 언급하는 투자 분석 기사이다. 이는 SMR 업계의 주요 기업들에 대한 투자자 관점의 평가이며, 각 기업의 주가와 사업 전망에 대한 의견을 담고 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/07/03/case-for-and-against-buying-nuscale-right-now/",
+    "k": "the case for and against buying nuscale right now",
+    "op": 1,
+    "id": "3aca78c8"
+  },
+  {
     "date": "2026-07-02",
     "title": "전 세계 70개 이상 소형모듈원자로 프로젝트 추진 중… 한국은 '혁신형 SMR' 개발로 승부",
     "summary": "전 세계적으로 70개 이상의 소형모듈원자로(SMR) 프로젝트가 진행 중이며, 한국은 혁신형 SMR 개발로 경쟁력을 강화하고 있다.",
@@ -7307,6 +7322,21 @@ window.SMR_NEWS = [
     "k": "오마이포토2026 신규 핵발전소 smr 어디에도 안 돼",
     "ko": 1,
     "id": "6e90b2ec"
+  },
+  {
+    "date": "2026-06-18",
+    "title": "뉴스케일 주가 15달러 이하일 때 매수 추천?",
+    "summary": "뉴스케일(NuScale)의 현재 주가 수준에서의 투자 판단을 다루는 재무 분석 기사.",
+    "summaryLong": "뉴스케일(NuScale)의 주가가 15달러 이하 수준에서 매수 기회가 되는지를 평가하는 투자 분석 기사이다. 이는 SMR 개발사 뉴스케일의 주가 밸류에이션과 투자 매력도에 대한 재정 관점의 평가로, 현재 주가 대비 사업 전망을 판단하는 내용이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/buy-nuscale-while-below-15-231100532.html",
+    "k": "should you buy nuscale while it s below 15",
+    "op": 1,
+    "id": "24d9b2c4"
   },
   {
     "date": "2026-06-17",
@@ -15213,4 +15243,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-04 15:35 KST";
+window.SMR_UPDATED = "2026-07-04 15:55 KST";

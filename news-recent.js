@@ -263,6 +263,21 @@ window.SMR_NEWS = [
   "id": "ff934749"
  },
  {
+  "date": "2026-07-03",
+  "title": "뉴스케일 투자 판단: 찬반 의견 분석",
+  "summary": "뉴스케일(NuScale) 주식에 대한 투자 판단을 제시하는 칼럼으로, SMR 기업들의 주가 평가 자료.",
+  "summaryLong": "뉴스케일, 엑스에너지(X-energy), 오클로(Oklo), 테라파워(TerraPower), 카이로스(Kairos Power) 등 주요 SMR 개발사들을 언급하는 투자 분석 기사이다. 이는 SMR 업계의 주요 기업들에 대한 투자자 관점의 평가이며, 각 기업의 주가와 사업 전망에 대한 의견을 담고 있다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "NuScale",
+  "region": "US",
+  "source": "fool.com",
+  "url": "https://www.fool.com/investing/2026/07/03/case-for-and-against-buying-nuscale-right-now/",
+  "k": "the case for and against buying nuscale right now",
+  "op": 1,
+  "id": "3aca78c8"
+ },
+ {
   "date": "2026-07-02",
   "title": "전 세계 70개 이상 소형모듈원자로 프로젝트 추진 중… 한국은 '혁신형 SMR' 개발로 승부",
   "summary": "전 세계적으로 70개 이상의 소형모듈원자로(SMR) 프로젝트가 진행 중이며, 한국은 혁신형 SMR 개발로 경쟁력을 강화하고 있다.",
@@ -866,21 +881,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-01",
-  "title": "고리원전, 주민 소통 강화 및 SMR 기술 소개",
-  "summary": "고리원전이 지역 주민과의 소통을 확대하고 소형모듈원자로 기술을 소개.",
-  "summaryLong": "고리원전(경주 소재)이 지역 주민과의 현장 소통을 강화하는 프로그램의 일환으로 원전 안전성과 함께 소형모듈원자로(SMR) 기술을 소개하고 있다. 이는 대형 원전 운영사가 미래 원전 기술인 SMR에 대한 주민 인식 제고 및 에너지 정책 홍보를 진행하고 있음을 보여준다. 구체적인 교육 일정·참여 규모·소개 내용은 기사 내용 만으로는 파악되지 않는다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "한국수력원자력(KHNP)",
-  "region": "KR",
-  "source": "news.nate.com",
-  "url": "https://news.nate.com/view/20260701n09436",
-  "k": "고리원전 주민과 현장 소통 강화 원전 안전 smr 소개",
-  "ko": 1,
-  "id": "3daba86f"
- },
- {
-  "date": "2026-07-01",
   "title": "엑스에너지, 영국 센트리카와 6GW 원전 파트너십 GDA 신청",
   "summary": "첨단원자로 개발사 엑스에너지(X-energy)가 영국(UK) 센트리카(Centrica)와의 6GW 파트너십을 위해 영국 범용설계심사(GDA) 신청을 진행했다.",
   "summaryLong": "첨단원자로 개발사 엑스에너지(X-energy)는 2026년 6월 2일 영국(UK)의 범용설계심사(Generic Design Assessment, GDA) 신청서를 제출했다고 발표했다. 이는 영국 에너지 기업 센트리카(Centrica)와 진행 중인 6GW 규모의 원전 파트너십 사업과 관련된 것으로, 규제 승인 절차의 중요한 단계를 나타낸다.",
@@ -1399,5 +1399,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-04 15:35 KST";
-window.SMR_TOTAL = 1060;
+window.SMR_UPDATED = "2026-07-04 15:55 KST";
+window.SMR_TOTAL = 1062;
