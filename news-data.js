@@ -22,6 +22,66 @@ window.SMR_NEWS = [
     "id": "f5cc04ba"
   },
   {
+    "date": "2026-07-04",
+    "title": "오클로, 미국 에너지부 승인 직후...16.5억 달러 공매도 포지션 적시",
+    "summary": "오클로(Oklo)가 미국 에너지부(DOE) 승인을 받은 직후, 주가 급등과 함께 16.5억 달러 규모의 공매도 포지션이 형성됐다.",
+    "summaryLong": "오클로(Oklo)는 미국 에너지부(DOE)로부터 그로브스(Groves) 원자로의 안전 승인을 획득했다. 이후 주가가 상승하는 와중에 시장 분석가들이 약 16.5억 달러 규모의 공매도 포지션이 형성되었음을 지적했다. 이는 SMR 회사의 주가 변동성과 투자자 이견 사이의 긴장을 반영하는 것으로, 투기적 수급 신호로 해석되고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "ts2.tech",
+    "url": "https://ts2.tech/en/oklo-nyseoklo-heads-into-the-week-after-doe-approval-as-1-65-billion-short-position-looms/",
+    "k": "oklo nyse oklo heads into the week after doe approval as 1 65 billion short position looms",
+    "id": "665faf00"
+  },
+  {
+    "date": "2026-07-04",
+    "title": "SGE, 영국(UK) 내 14기 BWRX-300 SMR 설비 계획",
+    "summary": "SGE가 영국(UK)의 에너지 공급 확대를 위해 14기의 BWRX-300 소형모듈원자로 배치를 계획하고 있다.",
+    "summaryLong": "인도타임스(Indiatimes) 보도에 따르면 SGE(Sustainable General Energy 또는 관련 기관)가 영국(UK) 전역의 에너지 공급 능력 증대를 목표로 14기의 BWRX-300 소형모듈원자로(SMR) 배치 계획을 수립했다. BWRX-300은 GE(General Electric)의 선진 비등경수로(BWR) 기반 소형모듈원자로로, 영국의 에너지 안보 및 탄소중립 목표 달성에 기여할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "BWR",
+    "dev": "GE",
+    "region": "UK",
+    "source": "datacenters.economictimes.indiatimes.com",
+    "url": "https://datacenters.economictimes.indiatimes.com/news/energy-cooling-sustainability/sge-plans-14-bwrx-300-smrs-across-uk-to-boost-energy-capacity/132174047",
+    "k": "sge plans 14 bwrx 300 smrs across uk to boost energy capacity",
+    "id": "c2171766"
+  },
+  {
+    "date": "2026-07-04",
+    "title": "3D프린팅 기술 적용 SMR, AI 전력난 해법으로 주목... 경제성·규제는 과제",
+    "summary": "3D프린팅 기술을 활용한 소형모듈원자로(SMR)가 인공지능 전력 수요 해결책으로 부각되고 있으나, 경제성과 규제 측면의 불확실성이 남아 있다.",
+    "summaryLong": "글로벌이코노믹 보도에 따르면 3D프린팅 기술을 도입한 소형모듈원자로(SMR)가 인공지능 산업의 급증하는 전력 수요 문제를 해결할 차세대 솔루션으로 주목받고 있다. 제조 혁신을 통한 건설 시간 단축 및 비용 절감 가능성이 제시되는 한편, 정치경제적 실현 가능성과 규제 승인 과정의 명확성이 아직 확보되지 않아 시장 진입까지 시간이 소요될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/Global-Biz/2026/07/202607050555203974fbbec65dfb_1",
+    "k": "ai 전력난 해법 떠오른 3d프린팅 smr 경제성 규제는 미지수",
+    "ko": 1,
+    "op": 1,
+    "id": "ba309674"
+  },
+  {
+    "date": "2026-07-04",
+    "title": "데이터센터 945TWh 수요, SMR이 게임체인저 될 수 있을까?",
+    "summary": "데이터센터의 945TWh 전력 수요 증가 속에서 소형모듈원자로(SMR)가 핵심 솔루션으로 부상할 가능성에 관한 분석이다.",
+    "summaryLong": "자본시장뉴스의 보도는 데이터센터 산업의 연간 전력 수요가 945TWh 규모로 확대되는 가운데, 소형모듈원자로(SMR)가 이 거대한 에너지 수요를 충족할 수 있는 게임체인저(game changer)가 될 수 있는지에 대한 질문을 제기했다. 분산형 배치 가능성, 건설 속도, 환경성 측면에서 SMR의 장점이 강조되는 한편, 상용화 및 규모 확대의 과제가 남아 있는 상황이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "jabon.co.kr",
+    "url": "https://www.jabon.co.kr/news/articleView.html?idxno=4643",
+    "k": "데이터센터 945twh smr이 게임체인저 되나",
+    "ko": 1,
+    "op": 1,
+    "id": "0e566772"
+  },
+  {
     "date": "2026-07-03",
     "title": "KINGS, 소형모듈원전 시대 대비한 글로벌 교육 강화",
     "summary": "한국전력국제원자력대학원대학교(KINGS)가 소형모듈원전(SMR) 등 원전산업 변화에 맞춘 '투트랙 글로벌 교육'을 운영하고 있다.",
@@ -1496,6 +1556,21 @@ window.SMR_NEWS = [
     "url": "http://www.iaea.org/newscenter/news/iaea-holds-first-smr-school-in-a-technology-provider-country",
     "k": "iaea holds first smr school in a technology provider country",
     "id": "89be0ec2"
+  },
+  {
+    "date": "2026-07-01",
+    "title": "AI 전력 수요 증가, 뉴스케일(NuScale) SMR 투자 논리 재편성할 가능성",
+    "summary": "인공지능 전력 수요의 급증이 뉴스케일(NuScale) 소형모듈원자로(SMR)의 장기 투자 전망을 변화시킬 가능성이 제기되고 있다.",
+    "summaryLong": "투자 분석 플랫폼 심플리월(Simply Wall St)은 인공지능 산업의 급증하는 전력 수요가 뉴스케일(NuScale) 파워의 소형모듈원자로(SMR) 사업에 대한 투자 관점을 조용히 재편할 수 있다고 지적했다. 데이터센터와 AI 인프라의 전력 필요성이 증가함에 따라, 소형모듈원자로의 시장 수요 및 투자 매력도가 재평가될 수 있다는 전망이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "simplywall.st",
+    "url": "https://simplywall.st/stocks/us/capital-goods/nyse-smr/nuscale-power/news/could-rising-ai-power-needs-quietly-rewire-nuscale-powers-sm",
+    "k": "could rising ai power needs quietly rewire nuscale power s smr long term investment narrative",
+    "op": 1,
+    "id": "ad1e0974"
   },
   {
     "date": "2026-06-30",
@@ -15243,4 +15318,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-04 16:30 KST";
+window.SMR_UPDATED = "2026-07-05 07:32 KST";

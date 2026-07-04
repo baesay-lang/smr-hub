@@ -15,6 +15,66 @@ window.SMR_NEWS = [
   "id": "f5cc04ba"
  },
  {
+  "date": "2026-07-04",
+  "title": "오클로, 미국 에너지부 승인 직후...16.5억 달러 공매도 포지션 적시",
+  "summary": "오클로(Oklo)가 미국 에너지부(DOE) 승인을 받은 직후, 주가 급등과 함께 16.5억 달러 규모의 공매도 포지션이 형성됐다.",
+  "summaryLong": "오클로(Oklo)는 미국 에너지부(DOE)로부터 그로브스(Groves) 원자로의 안전 승인을 획득했다. 이후 주가가 상승하는 와중에 시장 분석가들이 약 16.5억 달러 규모의 공매도 포지션이 형성되었음을 지적했다. 이는 SMR 회사의 주가 변동성과 투자자 이견 사이의 긴장을 반영하는 것으로, 투기적 수급 신호로 해석되고 있다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "ts2.tech",
+  "url": "https://ts2.tech/en/oklo-nyseoklo-heads-into-the-week-after-doe-approval-as-1-65-billion-short-position-looms/",
+  "k": "oklo nyse oklo heads into the week after doe approval as 1 65 billion short position looms",
+  "id": "665faf00"
+ },
+ {
+  "date": "2026-07-04",
+  "title": "SGE, 영국(UK) 내 14기 BWRX-300 SMR 설비 계획",
+  "summary": "SGE가 영국(UK)의 에너지 공급 확대를 위해 14기의 BWRX-300 소형모듈원자로 배치를 계획하고 있다.",
+  "summaryLong": "인도타임스(Indiatimes) 보도에 따르면 SGE(Sustainable General Energy 또는 관련 기관)가 영국(UK) 전역의 에너지 공급 능력 증대를 목표로 14기의 BWRX-300 소형모듈원자로(SMR) 배치 계획을 수립했다. BWRX-300은 GE(General Electric)의 선진 비등경수로(BWR) 기반 소형모듈원자로로, 영국의 에너지 안보 및 탄소중립 목표 달성에 기여할 것으로 예상된다.",
+  "cat": "기술",
+  "type": "BWR",
+  "dev": "GE",
+  "region": "UK",
+  "source": "datacenters.economictimes.indiatimes.com",
+  "url": "https://datacenters.economictimes.indiatimes.com/news/energy-cooling-sustainability/sge-plans-14-bwrx-300-smrs-across-uk-to-boost-energy-capacity/132174047",
+  "k": "sge plans 14 bwrx 300 smrs across uk to boost energy capacity",
+  "id": "c2171766"
+ },
+ {
+  "date": "2026-07-04",
+  "title": "3D프린팅 기술 적용 SMR, AI 전력난 해법으로 주목... 경제성·규제는 과제",
+  "summary": "3D프린팅 기술을 활용한 소형모듈원자로(SMR)가 인공지능 전력 수요 해결책으로 부각되고 있으나, 경제성과 규제 측면의 불확실성이 남아 있다.",
+  "summaryLong": "글로벌이코노믹 보도에 따르면 3D프린팅 기술을 도입한 소형모듈원자로(SMR)가 인공지능 산업의 급증하는 전력 수요 문제를 해결할 차세대 솔루션으로 주목받고 있다. 제조 혁신을 통한 건설 시간 단축 및 비용 절감 가능성이 제시되는 한편, 정치경제적 실현 가능성과 규제 승인 과정의 명확성이 아직 확보되지 않아 시장 진입까지 시간이 소요될 것으로 예상된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "g-enews.com",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/07/202607050555203974fbbec65dfb_1",
+  "k": "ai 전력난 해법 떠오른 3d프린팅 smr 경제성 규제는 미지수",
+  "ko": 1,
+  "op": 1,
+  "id": "ba309674"
+ },
+ {
+  "date": "2026-07-04",
+  "title": "데이터센터 945TWh 수요, SMR이 게임체인저 될 수 있을까?",
+  "summary": "데이터센터의 945TWh 전력 수요 증가 속에서 소형모듈원자로(SMR)가 핵심 솔루션으로 부상할 가능성에 관한 분석이다.",
+  "summaryLong": "자본시장뉴스의 보도는 데이터센터 산업의 연간 전력 수요가 945TWh 규모로 확대되는 가운데, 소형모듈원자로(SMR)가 이 거대한 에너지 수요를 충족할 수 있는 게임체인저(game changer)가 될 수 있는지에 대한 질문을 제기했다. 분산형 배치 가능성, 건설 속도, 환경성 측면에서 SMR의 장점이 강조되는 한편, 상용화 및 규모 확대의 과제가 남아 있는 상황이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "jabon.co.kr",
+  "url": "https://www.jabon.co.kr/news/articleView.html?idxno=4643",
+  "k": "데이터센터 945twh smr이 게임체인저 되나",
+  "ko": 1,
+  "op": 1,
+  "id": "0e566772"
+ },
+ {
   "date": "2026-07-03",
   "title": "KINGS, 소형모듈원전 시대 대비한 글로벌 교육 강화",
   "summary": "한국전력국제원자력대학원대학교(KINGS)가 소형모듈원전(SMR) 등 원전산업 변화에 맞춘 '투트랙 글로벌 교육'을 운영하고 있다.",
@@ -819,68 +879,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-01",
-  "title": "2035년 부산 기장에 SMR 1호기 건설…모듈화 현장 조립",
-  "summary": "한국이 2035년 부산(Busan) 기장에 소형모듈원자로(SMR) 1호기 건설을 추진하고 있으며, 모듈화된 부품을 현장에서 조립하는 방식을 계획 중이다.",
-  "summaryLong": "한국의 SMR 개발 전략의 일환으로 2035년을 목표로 부산(Busan) 기장 지역에 소형모듈원자로(SMR) 1호기 건설이 추진되고 있다. 이 프로젝트는 모듈화 기술을 활용하여 원자로 부품들을 사전에 제작한 후 현장에서 조립하는 방식을 도입할 계획이다. 이러한 접근 방식은 건설 기간 단축과 안전성 향상을 목표로 하며, 한국의 SMR 산업 기반 구축과 해외 수출 경쟁력 강화에 중요한 의미를 갖는다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "munhwa.com",
-  "url": "https://www.munhwa.com/article/11599440",
-  "k": "모듈화 통해 현장서 조립 2035년 부산 기장에 smr 1호기 who what why",
-  "ko": 1,
-  "id": "a0344c25"
- },
- {
-  "date": "2026-07-01",
-  "title": "AI 시대 핵심 에너지 SMR, 경남이 주도권 확보할까",
-  "summary": "경상남도(Gyeongnam)가 AI 시대의 핵심 전력원으로 부상하는 소형모듈원자로(SMR) 산업에서 주도권을 쥐기 위해 추진 중이다.",
-  "summaryLong": "인공지능(AI) 기술 발전으로 전력 수요가 급증하는 가운데, 소형모듈원자로(SMR)가 주목받고 있다. 경상남도(Gyeongnam)는 SMR 산업의 경쟁력 강화와 지역 에너지 산업 활성화를 위해 적극적인 정책을 추진하고 있다. 부산(Busan) 기장 지역의 1호기 건설 계획 등을 통해 경남 지역이 한국의 SMR 산업 중심지로 자리잡기를 추진 중이며, 이는 향후 글로벌 SMR 시장 진출의 교두보 역할이 될 것으로 예상된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=4797",
-  "k": "ai 시대 핵심 에너지 smr 경남이 주도권 쥐나",
-  "ko": 1,
-  "op": 1,
-  "id": "d1c02d7b"
- },
- {
-  "date": "2026-07-01",
-  "title": "한국, 미국 SMR 산업의 '파운드리' 역할…원전 르네상스 주도",
-  "summary": "한국이 미국의 소형모듈원자로(SMR) 산업에서 제조 기지(파운드리) 역할을 담당하며 글로벌 원전 르네상스를 주도할 수 있다는 전망이 제기되고 있다.",
-  "summaryLong": "미국의 SMR 산업이 성장하는 가운데, 한국이 미국 업체들의 원자로 부품 제조와 조립을 담당하는 파운드리 역할을 수행할 수 있다는 분석이 나왔다. 한국의 강력한 제조 기술과 경험을 바탕으로 미국 SMR 개발사들과의 협력을 강화하면, 한국은 글로벌 원전 산업의 부활(르네상스)을 주도할 수 있을 것으로 전망되고 있다. 이는 한국 원전 산업의 새로운 성장 기회이자 국제 경쟁력 확보 전략으로 평가되고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "marketin.edaily.co.kr",
-  "url": "https://marketin.edaily.co.kr/News/ReadE?newsId=04378806645510256",
-  "k": "은 smr 산업의 파운드리 원전 르네상스 좌우할 것",
-  "ko": 1,
-  "op": 1,
-  "id": "43993610"
- },
- {
-  "date": "2026-07-01",
-  "title": "홍준표 \"호남 반도체용 물·전기, SMR과 지리산댐으로 해결\"",
-  "summary": "홍준표 국민의힘 대선 예비후보가 호남 반도체 산업 육성을 위해 소형모듈원자로(SMR) 도입을 주장.",
-  "summaryLong": "홍준표 국민의힘 대선 예비후보는 호남 지역 반도체 산업 발전을 위해 소형모듈원자로(SMR)와 지리산댐 건설을 통해 물과 전기 공급 문제를 해결할 수 있다고 주장했다. 이는 4대강 사업의 재평가와 함께 지역 인프라 정책의 일환으로 제시된 것으로, SMR을 미래 에너지 인프라의 핵심 수단으로 위치시키는 정치적 공약이다. 구체적인 도입 일정·규모·투자 계획은 제시되지 않았으며, 정책 방향 제시 단계의 발언이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "kyeonggi.com",
-  "url": "https://www.kyeonggi.com/article/20260701580054",
-  "k": "홍준표 호남 반도체엔 지리산댐 smr 4대강 사업 재평가 다행",
-  "ko": 1,
-  "id": "27ebc4f5"
- },
- {
-  "date": "2026-07-01",
   "title": "엑스에너지, 영국 센트리카와 6GW 원전 파트너십 GDA 신청",
   "summary": "첨단원자로 개발사 엑스에너지(X-energy)가 영국(UK) 센트리카(Centrica)와의 6GW 파트너십을 위해 영국 범용설계심사(GDA) 신청을 진행했다.",
   "summaryLong": "첨단원자로 개발사 엑스에너지(X-energy)는 2026년 6월 2일 영국(UK)의 범용설계심사(Generic Design Assessment, GDA) 신청서를 제출했다고 발표했다. 이는 영국 에너지 기업 센트리카(Centrica)와 진행 중인 6GW 규모의 원전 파트너십 사업과 관련된 것으로, 규제 승인 절차의 중요한 단계를 나타낸다.",
@@ -921,21 +919,6 @@ window.SMR_NEWS = [
   "url": "https://www.ans.org/news/2026-07-01/article-8174/clinch-river-construction-permit-recommendation-follows-safety-evaluation/",
   "k": "clinch river construction permit recommendation follows safety evaluation",
   "id": "b9b49321"
- },
- {
-  "date": "2026-07-01",
-  "title": "경남도, 국회서 SMR 특별법 대응 토론회…AI 시대 원전 제조거점 선점",
-  "summary": "경남도가 국회에서 소형모듈원자로 특별법 논의를 위한 토론회를 개최하며 지역 제조업 기반 강화를 추진한다.",
-  "summaryLong": "에너지안전신문이 보도한 기사로, 경남도가 국회 차원의 소형모듈원자로(SMR) 특별법 제정 논의에 대응하는 토론회를 개최한 사실을 다룬다. 경남도는 인공지능(AI) 시대의 에너지 수요 증가에 대비하여 지역을 '원전 제조거점'으로 육성하려는 전략을 제시하고 있다. 중장기적으로 경남 지역의 원자력 산업 발전과 일자리 창출, 제조 경쟁력 강화를 목표로 하는 지방정부 차원의 정책 추진 동향이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=4797",
-  "k": "경남도 국회서 smr 특별법 대응 토론회 ai 시대 원전 제조거점 선점",
-  "ko": 1,
-  "id": "d1c02d7b"
  },
  {
   "date": "2026-07-01",
@@ -1399,5 +1382,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-04 16:30 KST";
-window.SMR_TOTAL = 1062;
+window.SMR_UPDATED = "2026-07-05 07:32 KST";
+window.SMR_TOTAL = 1067;
