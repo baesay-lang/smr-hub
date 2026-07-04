@@ -75,6 +75,50 @@ window.SMR_NEWS = [
   "id": "0e566772"
  },
  {
+  "date": "2026-07-04",
+  "title": "뉴스케일 파워(NuScale Power) 주식 매수 추천 논거",
+  "summary": "투자 전문가가 뉴스케일 주식 매수의 단순한 논거를 제시했다.",
+  "summaryLong": "Motley Fool 등 투자 매체가 뉴스케일 파워(NuScale Power) 주식의 매수 이유를 설명한 의견 기사이다. SMR 기술이나 사업 진전의 구체적 내용 없이 순수한 투자 판단 조언으로, 뉴스 가치가 낮다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "NuScale",
+  "region": "US",
+  "source": "fool.com",
+  "url": "https://www.fool.com/investing/2026/07/04/1-simple-reason-to-buy-nuscale-smr-right-now/",
+  "k": "1 simple reason to buy nuscale power smr right now",
+  "op": 1,
+  "id": "c08ee193"
+ },
+ {
+  "date": "2026-07-04",
+  "title": "짐 크래머, GEV를 뉴스케일보다 선호, \"투기성 과다\"라 평가",
+  "summary": "유명 투자 평론가가 GE Vernova와 뉴스케일의 투자 가치를 비교 평가했다.",
+  "summaryLong": "CNBC의 짐 크래머(Jim Cramer)가 GE Vernova(GEV)를 뉴스케일보다 유리한 투자로 평가하며 뉴스케일을 \"투기성이 과다하다\"고 지적한 칼럼이다. 개별 기업의 프로젝트 진전이나 기술 소식 없이 순수한 투자 의견이므로, SMR 레퍼런스 관련성이 낮다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "NuScale, GE Vernova",
+  "region": "US",
+  "source": "finance.yahoo.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-prefers-gev-over-143021035.html",
+  "k": "jim cramer prefers gev over nuscale calls the latter too speculative",
+  "op": 1,
+  "id": "9a4674f6"
+ },
+ {
+  "date": "2026-07-04",
+  "title": "미국 마이크로원자로 3기 가동 중, 데이터센터 주목",
+  "summary": "미국에서 마이크로원자로 3기가 운영 중이며 데이터센터 운영사들의 관심이 집중되고 있다.",
+  "summaryLong": "미국 내에서 마이크로원자로(microreactor) 3기가 현재 가동 중인 것으로 확인되었으며, 특히 대규모 전력 수요를 가진 데이터센터 운영사들이 이 기술에 대한 관심을 높이고 있다. 마이크로로 기술의 실증 단계가 진전되고 있으며, 향후 기업용 전력공급원으로서의 실용성이 검증되는 과정을 반영한다.",
+  "cat": "기술",
+  "type": "Micro",
+  "dev": "",
+  "region": "US",
+  "source": "techspot.com",
+  "url": "https://www.techspot.com/news/112994-us-now-has-three-microreactors-running-data-centers.html",
+  "k": "the us now has three microreactors running and data centers are watching closely",
+  "id": "388f89dc"
+ },
+ {
   "date": "2026-07-03",
   "title": "KINGS, 소형모듈원전 시대 대비한 글로벌 교육 강화",
   "summary": "한국전력국제원자력대학원대학교(KINGS)가 소형모듈원전(SMR) 등 원전산업 변화에 맞춘 '투트랙 글로벌 교육'을 운영하고 있다.",
@@ -336,6 +380,20 @@ window.SMR_NEWS = [
   "k": "the case for and against buying nuscale right now",
   "op": 1,
   "id": "3aca78c8"
+ },
+ {
+  "date": "2026-07-03",
+  "title": "GE Vernova(지이 베르노바), 아스펜 아이디어 페스티벌에서 핵심 사업 강조",
+  "summary": "GE Vernova가 원자력, 직접공기포집(DAC), 그리드 AI 등 핵심 사업을 강조했다.",
+  "summaryLong": "GE Vernova는 아스펜 아이디어 페스티벌(Aspen Ideas Festival)에서 원자력 사업뿐 아니라 직접공기포집(DAC)과 그리드 AI 기술 등 다각화 전략을 발표했다. 이는 기업의 장기 성장 전망을 제시한 것으로, SMR 특정 프로젝트나 인허가·계약 진전과는 무관한 일반적인 사업 포지셔닝 성명이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "GE Vernova",
+  "region": "US",
+  "source": "marketscale.com",
+  "url": "https://www.marketscale.com/industries/energy/ge-vernova-doubles-down-on-nuclear-direct-air-capture-and-grid-ai-at-aspen-ideas-festival",
+  "k": "ge vernova doubles down on nuclear direct air capture and grid ai at aspen ideas festival",
+  "id": "1024d312"
  },
  {
   "date": "2026-07-02",
@@ -835,50 +893,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-01",
-  "title": "전 세계 70개 이상 SMR 프로젝트 진행 중, 한국은 혁신형 SMR로 경쟁",
-  "summary": "전 세계 70개 이상의 소형모듈원자로 프로젝트가 진행 중이며, 한국은 혁신형 SMR 개발로 경쟁력을 강화한다.",
-  "summaryLong": "전 세계적으로 70개 이상의 소형모듈원자로(SMR) 상용화 프로젝트가 진행되고 있는 가운데, 한국은 i-SMR(혁신형 소형모듈원자로) 기술 개발을 통해 글로벌 SMR 시장에서의 입지를 강화하고 있다. 미국, 캐나다, 영국, 프랑스 등 선진국들의 적극적인 SMR 개발 투자와 경쟁이 심화되는 상황에서, 한국의 독자적인 기술 개발과 해외 시장 진출이 국책 과제로 추진되고 있다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "",
-  "region": "KR",
-  "source": "munhwa.com",
-  "url": "https://www.munhwa.com/article/11599441",
-  "k": "전세계 70개 이상 프로젝트 진행 중 한국은 혁신형 smr 개발로 승부수 who what why",
-  "ko": 1,
-  "id": "9f344a92"
- },
- {
-  "date": "2026-07-01",
-  "title": "스웨덴, 롤스로이스 SMR 선정",
-  "summary": "스웨덴이 롤스로이스(Rolls-Royce)의 소형모듈원자로를 원자력발전소 건설 프로젝트로 선정했다.",
-  "summaryLong": "스웨덴이 영국 롤스로이스(Rolls-Royce)가 개발한 소형모듈원자로(SMR) 기술을 원자력발전소 건설 프로젝트에 선정했다. 이는 롤스로이스 SMR이 스웨덴의 탈탄소 에너지 정책 추진의 중심 기술로 인정받았음을 의미하며, 유럽 내 SMR 상용화의 중요한 사례가 될 것으로 평가된다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "Rolls-Royce",
-  "region": "UK",
-  "source": "industrialinfo.com",
-  "url": "https://www.industrialinfo.com/news/article/sweden-picks-rolls-royce-smr-for-nuclear-plant--359483",
-  "k": "sweden picks rolls royce smr for nuclear plant",
-  "id": "2a77ef40"
- },
- {
-  "date": "2026-07-01",
-  "title": "해양SMR, 국제 규정 선점으로 글로벌 경쟁력 확보 필요",
-  "summary": "국제해사기구(IMO) 2050 탄소중립 목표 달성을 위해 해양 소형모듈원자로(SMR)의 국제 규정·표준화 논의에 한국의 적극적 참여가 필수라는 의견이 제시되었다.",
-  "summaryLong": "한국선급(KR)의 이상익 파트장은 6월 30일 부산(Busan)에서 열린 '2026 부산광역시 해양SMR 육성세미나'에서 해양 소형모듈원자로(SMR) 개발의 국제 규정 동향과 산업 전략을 발표했다. 국제해사기구(IMO)의 2050년 국제해운 탄소중립(Net Zero) 목표에 부응하기 위해, 해양SMR은 기술 개발뿐 아니라 국제 규정 개정과 표준화 논의에서 한국이 주도권을 확보해야 한다고 강조했다. 해양SMR은 원자력, 조선, 해양산업의 결합 산업으로, 글로벌 시장 선점을 위해서는 규제·표준 영역에서의 리더십이 필수적이라는 주장이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "한국선급",
-  "region": "KR",
-  "source": "전기신문 - 전체기사",
-  "url": "https://www.electimes.com/news/articleView.html?idxno=369750",
-  "k": "해양smr 국제 규정 선점 글로벌 경쟁력 좌우",
-  "ko": 1,
-  "id": "b0036756"
- },
- {
-  "date": "2026-07-01",
   "title": "엑스에너지, 영국 센트리카와 6GW 원전 파트너십 GDA 신청",
   "summary": "첨단원자로 개발사 엑스에너지(X-energy)가 영국(UK) 센트리카(Centrica)와의 6GW 파트너십을 위해 영국 범용설계심사(GDA) 신청을 진행했다.",
   "summaryLong": "첨단원자로 개발사 엑스에너지(X-energy)는 2026년 6월 2일 영국(UK)의 범용설계심사(Generic Design Assessment, GDA) 신청서를 제출했다고 발표했다. 이는 영국 에너지 기업 센트리카(Centrica)와 진행 중인 6GW 규모의 원전 파트너십 사업과 관련된 것으로, 규제 승인 절차의 중요한 단계를 나타낸다.",
@@ -1089,21 +1103,6 @@ window.SMR_NEWS = [
   "k": "could spacex s ipo momentum spill over to oklo and nuscale",
   "op": 1,
   "id": "4865ff16"
- },
- {
-  "date": "2026-06-19",
-  "title": "\"SMR·지산지소형 분산에너지로 국가 전력망 혈뭉혈 뚫어야\"",
-  "summary": "중동 정세 불안과 AI·데이터센터 확산에 따른 전력 위기 속에서 소형모듈원자로(SMR)와 분산에너지 활성화를 국가 에너지 정책의 해결책으로 제시하는 정책 세미나가 개최되었다.",
-  "summaryLong": "에너지안보환경협회와 법무법인 YK가 제17차 에너지안보 콜로키엄을 개최하여 분산에너지 활성화 방안을 논의했다. 호르무즈 해협 위기 등 중동 정세 불안정성과 인공지능(AI) 산업·데이터센터 확산에 따른 전력 수요 급증이 대한민국 전력 공급망을 위협하는 상황에서, 소형모듈원자로(SMR)·지산지소형 분산에너지 활성화를 통한 전력시스템 대전환이 구조적 해결책으로 제시되었다. 이는 전력망 동맥경화 현상을 해소하고 국가 에너지 안보를 강화하기 위한 정책 방향을 모색하는 논의다.",
-  "cat": "기술",
-  "type": "Micro",
-  "dev": "",
-  "region": "KR",
-  "source": "에너지신문 - 전체기사",
-  "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=226238",
-  "k": "smr 지산지소형 분산에너지로 국가 전력망 혈 뚫어야",
-  "id": "9b048c62",
-  "ko": 1
  },
  {
   "date": "2026-06-19",
@@ -1382,5 +1381,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-05 07:32 KST";
-window.SMR_TOTAL = 1067;
+window.SMR_UPDATED = "2026-07-05 08:07 KST";
+window.SMR_TOTAL = 1071;

@@ -82,6 +82,50 @@ window.SMR_NEWS = [
     "id": "0e566772"
   },
   {
+    "date": "2026-07-04",
+    "title": "뉴스케일 파워(NuScale Power) 주식 매수 추천 논거",
+    "summary": "투자 전문가가 뉴스케일 주식 매수의 단순한 논거를 제시했다.",
+    "summaryLong": "Motley Fool 등 투자 매체가 뉴스케일 파워(NuScale Power) 주식의 매수 이유를 설명한 의견 기사이다. SMR 기술이나 사업 진전의 구체적 내용 없이 순수한 투자 판단 조언으로, 뉴스 가치가 낮다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/07/04/1-simple-reason-to-buy-nuscale-smr-right-now/",
+    "k": "1 simple reason to buy nuscale power smr right now",
+    "op": 1,
+    "id": "c08ee193"
+  },
+  {
+    "date": "2026-07-04",
+    "title": "짐 크래머, GEV를 뉴스케일보다 선호, \"투기성 과다\"라 평가",
+    "summary": "유명 투자 평론가가 GE Vernova와 뉴스케일의 투자 가치를 비교 평가했다.",
+    "summaryLong": "CNBC의 짐 크래머(Jim Cramer)가 GE Vernova(GEV)를 뉴스케일보다 유리한 투자로 평가하며 뉴스케일을 \"투기성이 과다하다\"고 지적한 칼럼이다. 개별 기업의 프로젝트 진전이나 기술 소식 없이 순수한 투자 의견이므로, SMR 레퍼런스 관련성이 낮다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale, GE Vernova",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-prefers-gev-over-143021035.html",
+    "k": "jim cramer prefers gev over nuscale calls the latter too speculative",
+    "op": 1,
+    "id": "9a4674f6"
+  },
+  {
+    "date": "2026-07-04",
+    "title": "미국 마이크로원자로 3기 가동 중, 데이터센터 주목",
+    "summary": "미국에서 마이크로원자로 3기가 운영 중이며 데이터센터 운영사들의 관심이 집중되고 있다.",
+    "summaryLong": "미국 내에서 마이크로원자로(microreactor) 3기가 현재 가동 중인 것으로 확인되었으며, 특히 대규모 전력 수요를 가진 데이터센터 운영사들이 이 기술에 대한 관심을 높이고 있다. 마이크로로 기술의 실증 단계가 진전되고 있으며, 향후 기업용 전력공급원으로서의 실용성이 검증되는 과정을 반영한다.",
+    "cat": "기술",
+    "type": "Micro",
+    "dev": "",
+    "region": "US",
+    "source": "techspot.com",
+    "url": "https://www.techspot.com/news/112994-us-now-has-three-microreactors-running-data-centers.html",
+    "k": "the us now has three microreactors running and data centers are watching closely",
+    "id": "388f89dc"
+  },
+  {
     "date": "2026-07-03",
     "title": "KINGS, 소형모듈원전 시대 대비한 글로벌 교육 강화",
     "summary": "한국전력국제원자력대학원대학교(KINGS)가 소형모듈원전(SMR) 등 원전산업 변화에 맞춘 '투트랙 글로벌 교육'을 운영하고 있다.",
@@ -343,6 +387,20 @@ window.SMR_NEWS = [
     "k": "the case for and against buying nuscale right now",
     "op": 1,
     "id": "3aca78c8"
+  },
+  {
+    "date": "2026-07-03",
+    "title": "GE Vernova(지이 베르노바), 아스펜 아이디어 페스티벌에서 핵심 사업 강조",
+    "summary": "GE Vernova가 원자력, 직접공기포집(DAC), 그리드 AI 등 핵심 사업을 강조했다.",
+    "summaryLong": "GE Vernova는 아스펜 아이디어 페스티벌(Aspen Ideas Festival)에서 원자력 사업뿐 아니라 직접공기포집(DAC)과 그리드 AI 기술 등 다각화 전략을 발표했다. 이는 기업의 장기 성장 전망을 제시한 것으로, SMR 특정 프로젝트나 인허가·계약 진전과는 무관한 일반적인 사업 포지셔닝 성명이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "GE Vernova",
+    "region": "US",
+    "source": "marketscale.com",
+    "url": "https://www.marketscale.com/industries/energy/ge-vernova-doubles-down-on-nuclear-direct-air-capture-and-grid-ai-at-aspen-ideas-festival",
+    "k": "ge vernova doubles down on nuclear direct air capture and grid ai at aspen ideas festival",
+    "id": "1024d312"
   },
   {
     "date": "2026-07-02",
@@ -15318,4 +15376,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-05 07:32 KST";
+window.SMR_UPDATED = "2026-07-05 08:07 KST";
