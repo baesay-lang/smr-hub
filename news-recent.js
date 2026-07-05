@@ -893,6 +893,20 @@ window.SMR_NEWS = [
   "id": "0a14ed12"
  },
  {
+  "date": "2026-07-02",
+  "title": "오클로 그로브스 원자력 프로젝트, 콜드웰 카운티에서 현실화",
+  "summary": "오클로의 그로브스 소형모듈원자로 프로젝트가 텍사스 콜드웰 카운티에서 구체적 추진 단계에 접어들고 있다.",
+  "summaryLong": "오클로는 텍사스 콜드웰 카운티 지역에서 추진 중인 그로브스 원자로 프로젝트가 규제 승인, 부지 준비, 지역사회 지원 등을 바탕으로 구체적 건설 단계로 진행 중임을 확인했다. 이 프로젝트는 미국 내 상업용 소형모듈원자로 건설의 선도 사례로, 부지 선정, 자금 조달, 규제 협력, 지역 커뮤니티 수용성 등 전주기적 진전이 이루어지고 있다. 지역 언론 보도는 이 프로젝트의 실현 가능성과 경제·에너지 파급효과에 대한 관심을 반영하고 있다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "post-register.com",
+  "url": "https://post-register.com/oklos-groves-nuclear-project-becomes-reality-in-caldwell-county/",
+  "k": "oklo s groves nuclear project becomes reality in caldwell county lockhart post register",
+  "id": "ab31eb29"
+ },
+ {
   "date": "2026-07-01",
   "title": "i-SMR 기술개발사업단, 싱가포르 에너지시장청과 협력",
   "summary": "한국의 i-SMR(혁신형 소형모듈원자로) 기술개발사업단이 싱가포르 에너지시장청(EMA)과 협력 양해각서를 체결했다.",
@@ -1383,5 +1397,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-06 08:12 KST";
-window.SMR_TOTAL = 1080;
+window.SMR_UPDATED = "2026-07-06 08:48 KST";
+window.SMR_TOTAL = 1082;

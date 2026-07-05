@@ -1019,6 +1019,20 @@ window.SMR_NEWS = [
     "id": "044f376c"
   },
   {
+    "date": "2026-07-02",
+    "title": "오클로 그로브스 원자력 프로젝트, 콜드웰 카운티에서 현실화",
+    "summary": "오클로의 그로브스 소형모듈원자로 프로젝트가 텍사스 콜드웰 카운티에서 구체적 추진 단계에 접어들고 있다.",
+    "summaryLong": "오클로는 텍사스 콜드웰 카운티 지역에서 추진 중인 그로브스 원자로 프로젝트가 규제 승인, 부지 준비, 지역사회 지원 등을 바탕으로 구체적 건설 단계로 진행 중임을 확인했다. 이 프로젝트는 미국 내 상업용 소형모듈원자로 건설의 선도 사례로, 부지 선정, 자금 조달, 규제 협력, 지역 커뮤니티 수용성 등 전주기적 진전이 이루어지고 있다. 지역 언론 보도는 이 프로젝트의 실현 가능성과 경제·에너지 파급효과에 대한 관심을 반영하고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "post-register.com",
+    "url": "https://post-register.com/oklos-groves-nuclear-project-becomes-reality-in-caldwell-county/",
+    "k": "oklo s groves nuclear project becomes reality in caldwell county lockhart post register",
+    "id": "ab31eb29"
+  },
+  {
     "date": "2026-07-01",
     "title": "i-SMR 기술개발사업단, 싱가포르 에너지시장청과 협력",
     "summary": "한국의 i-SMR(혁신형 소형모듈원자로) 기술개발사업단이 싱가포르 에너지시장청(EMA)과 협력 양해각서를 체결했다.",
@@ -13337,6 +13351,20 @@ window.SMR_NEWS = [
     "id": "61442ca7"
   },
   {
+    "date": "2026-03-17",
+    "title": "테라파워 아이소토프, cGMP 제조시설 공표",
+    "summary": "테라파워(TerraPower) 산하 테라파워 아이소토프가 의약품 및 의료 등급 기준(cGMP, current Good Manufacturing Practice) 준수 제조시설을 구축했다.",
+    "summaryLong": "테라파워 아이소토프 부문은 의료용 및 산업용 동위원소 생산을 위한 cGMP 인증 제조시설 운영을 공표했다. 이는 소형모듈원자로 기반 동위원소 생산 체인의 완성도 강화 및 상업화 준비를 의미한다. cGMP 인증은 제약, 의료진단, 산업 응용 분야에서의 제품 신뢰성과 시장 진입 장벽을 결정하는 중요 기준이다. 이 시설 구축은 테라파워의 소형모듈원자로 기술이 단순 전력 생산을 넘어 고부가 의료·산업 응용까지 확대되고 있음을 보여주는 마일스톤이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "terrapower.com",
+    "url": "https://www.terrapower.com/TerraPower-Isotopes-announces-cGMP-manufacturing-facility",
+    "k": "terrapower isotopes announces cgmp manufacturing facility",
+    "id": "c559ce26"
+  },
+  {
     "date": "2026-03-16",
     "title": "X-에너지·아이에이치아이, 미국-일본 SMR 공급망 발전 협력",
     "summary": "X-에너지(X-Energy)와 일본 아이에이치아이(IHI Corporation)가 미국-일본 소형모듈원자로(SMR) 공급망 발전을 위한 양해각서(MOU)를 체결했다.",
@@ -15511,4 +15539,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-06 08:12 KST";
+window.SMR_UPDATED = "2026-07-06 08:48 KST";
