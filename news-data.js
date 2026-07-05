@@ -54,6 +54,79 @@ window.SMR_NEWS = [
     "id": "770aaca3"
   },
   {
+    "date": "2026-07-05",
+    "title": "혁신형 제약기업 인증 기준 공시",
+    "summary": "보건복지부가 혁신형 제약기업 인증을 위한 평가 배점 기준을 100점 만점 중 65점 이상으로 명시했다.",
+    "summaryLong": "보건복지부가 혁신형 제약기업으로 인증받기 위한 평가 배점 기준을 100점 만점 중 65점 이상으로 명시하고 관련 기준을 공시했다. 이는 제약 산업의 혁신 진흥을 위한 정부 정책으로, 기업들이 인증 획득을 위해 충족해야 할 요건을 명확히 한 것이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "",
+    "region": "KR",
+    "source": "연합뉴스 최신기사",
+    "url": "https://www.yna.co.kr/view/AKR20260705028000530",
+    "k": "혁신형 제약기업 인증받으려면 100점 만점에 65점이상 획득해야",
+    "ko": 1,
+    "id": "2c5efb0b"
+  },
+  {
+    "date": "2026-07-05",
+    "title": "비엑스(BWXT)의 mPower BWRX-300 소형모듈원자로 기술 선보임",
+    "summary": "비엑스(BWXT)가 mPower BWRX-300 소형모듈원자로로 발전사업자(유틸리티)를 대상으로 콤팩트 핵전력 솔루션을 제시하고 있다.",
+    "summaryLong": "미국의 원자력 기업 비엑스(BWXT)가 자사의 mPower BWRX-300 소형모듈원자로를 발전사업자(유틸리티) 시장에 제시하고 있다. 콤팩트 설계를 통해 소규모 전력 시장을 겨냥한 전략으로, 소형모듈원자로의 상용화 진전을 보여주는 사례이다.",
+    "cat": "기술",
+    "type": "BWR",
+    "dev": "BWXT",
+    "region": "US",
+    "source": "ad-hoc-news.de",
+    "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/the-mpower-bwrx-300-small-modular-reactor-bwxt-bets-on-compact-nuclear/69692398",
+    "k": "the mpower bwrx 300 small modular reactor bwxt bets on compact nuclear power for utilities",
+    "id": "b59e3880"
+  },
+  {
+    "date": "2026-07-05",
+    "title": "뉴스케일(NuScale) 파라곤과 원자로 보호 계약 체결 후 소송 직면",
+    "summary": "뉴스케일(NuScale)이 파라곤(Paragon)과 원자로 보호 계약을 체결했으나 소송에 직면하고 있다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발사인 뉴스케일(NuScale)이 파라곤(Paragon)과 원자로 보호(Reactor Protection) 관련 계약을 체결했다. 그러나 이 계약을 둘러싼 소송이 제기되었으며, 계약의 구체적 내용과 소송의 쟁점에 대한 상세 정보는 제시되지 않았다.",
+    "cat": "계약",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/nuscale-power-smr-faces-lawsuit-151304822.html",
+    "k": "nuscale power smr faces lawsuit as it awards paragon reactor protection contract",
+    "id": "074f0909"
+  },
+  {
+    "date": "2026-07-05",
+    "title": "핀란드 SMR, 유럽(EU) 5개국 안전성 승인",
+    "summary": "핀란드의 소형모듈원자로(SMR)가 유럽(EU) 5개국의 안전성 평가를 통과했으며, 난방용 열공급 용도로 활용될 것으로 전망된다.",
+    "summaryLong": "핀란드에서 개발 중인 소형모듈원자로(SMR)가 유럽(EU) 5개국의 안전성 심사에서 합격 판정을 받았다. 이 SMR은 전력 생산 대신 난방용 열 공급에 중점을 두고 설계되었으며, 다중 유럽 국가의 규제 당국으로부터 안전성 승인을 획득함으로써 유럽 시장 진출의 발판을 마련했다. 이는 SMR 기술의 다양한 활용 가능성과 유럽의 에너지 안보 강화 전략의 일환으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "EU",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4863",
+    "k": "전기 대신 난방 핀란드 smr 유럽 5개국 안전성 합격점",
+    "ko": 1,
+    "id": "cc7ca4b5"
+  },
+  {
+    "date": "2026-07-05",
+    "title": "기장군, SMR 유치로 첨단 부품소재 산업 허브 전환",
+    "summary": "한국 부산 기장군이 소형모듈원자로(SMR) 유치에 성공하여 기존 원전 건설지에서 첨단 부품소재(소부장) 산업 허브로 재편될 것으로 예상된다.",
+    "summaryLong": "부산 기장군이 소형모듈원자로(SMR) 유치 추진에 성공함에 따라 지역 산업 구조의 대전환이 이루어질 것으로 보인다. 기존 대형 원전 건설지였던 기장군이 SMR 관련 첨단 부품·소재(소부장) 산업의 거점으로 개편되면서, 지역 경제 활성화와 고부가가치 산업 육성의 계기가 될 것으로 기대된다. 이는 원전 중심의 지역 경제 재구조화와 첨단 기술 산업 진흥의 사례로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4866",
+    "k": "smr 유치 성공한 기장군 원전 건설지에서 첨단 소부장 허브 로 대전환",
+    "ko": 1,
+    "id": "c77c9cd6"
+  },
+  {
     "date": "2026-07-04",
     "title": "미국 에너지부(DOE), 센트러스와 10억 달러 규모 고함유우라늄(HALEU) 계약 확정",
     "summary": "미국 에너지부가 센트러스(Centrus)와 10억 달러 규모의 고함유 저농축우라늄(HALEU) 공급 계약을 최종 확정했다.",
@@ -15422,4 +15495,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-05 16:49 KST";
+window.SMR_UPDATED = "2026-07-06 07:33 KST";

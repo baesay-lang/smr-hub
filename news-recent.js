@@ -47,6 +47,79 @@ window.SMR_NEWS = [
   "id": "770aaca3"
  },
  {
+  "date": "2026-07-05",
+  "title": "혁신형 제약기업 인증 기준 공시",
+  "summary": "보건복지부가 혁신형 제약기업 인증을 위한 평가 배점 기준을 100점 만점 중 65점 이상으로 명시했다.",
+  "summaryLong": "보건복지부가 혁신형 제약기업으로 인증받기 위한 평가 배점 기준을 100점 만점 중 65점 이상으로 명시하고 관련 기준을 공시했다. 이는 제약 산업의 혁신 진흥을 위한 정부 정책으로, 기업들이 인증 획득을 위해 충족해야 할 요건을 명확히 한 것이다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "",
+  "region": "KR",
+  "source": "연합뉴스 최신기사",
+  "url": "https://www.yna.co.kr/view/AKR20260705028000530",
+  "k": "혁신형 제약기업 인증받으려면 100점 만점에 65점이상 획득해야",
+  "ko": 1,
+  "id": "2c5efb0b"
+ },
+ {
+  "date": "2026-07-05",
+  "title": "비엑스(BWXT)의 mPower BWRX-300 소형모듈원자로 기술 선보임",
+  "summary": "비엑스(BWXT)가 mPower BWRX-300 소형모듈원자로로 발전사업자(유틸리티)를 대상으로 콤팩트 핵전력 솔루션을 제시하고 있다.",
+  "summaryLong": "미국의 원자력 기업 비엑스(BWXT)가 자사의 mPower BWRX-300 소형모듈원자로를 발전사업자(유틸리티) 시장에 제시하고 있다. 콤팩트 설계를 통해 소규모 전력 시장을 겨냥한 전략으로, 소형모듈원자로의 상용화 진전을 보여주는 사례이다.",
+  "cat": "기술",
+  "type": "BWR",
+  "dev": "BWXT",
+  "region": "US",
+  "source": "ad-hoc-news.de",
+  "url": "https://www.ad-hoc-news.de/boerse/news/ueberblick/the-mpower-bwrx-300-small-modular-reactor-bwxt-bets-on-compact-nuclear/69692398",
+  "k": "the mpower bwrx 300 small modular reactor bwxt bets on compact nuclear power for utilities",
+  "id": "b59e3880"
+ },
+ {
+  "date": "2026-07-05",
+  "title": "뉴스케일(NuScale) 파라곤과 원자로 보호 계약 체결 후 소송 직면",
+  "summary": "뉴스케일(NuScale)이 파라곤(Paragon)과 원자로 보호 계약을 체결했으나 소송에 직면하고 있다.",
+  "summaryLong": "소형모듈원자로(SMR) 개발사인 뉴스케일(NuScale)이 파라곤(Paragon)과 원자로 보호(Reactor Protection) 관련 계약을 체결했다. 그러나 이 계약을 둘러싼 소송이 제기되었으며, 계약의 구체적 내용과 소송의 쟁점에 대한 상세 정보는 제시되지 않았다.",
+  "cat": "계약",
+  "type": "PWR",
+  "dev": "NuScale",
+  "region": "US",
+  "source": "finance.yahoo.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/nuscale-power-smr-faces-lawsuit-151304822.html",
+  "k": "nuscale power smr faces lawsuit as it awards paragon reactor protection contract",
+  "id": "074f0909"
+ },
+ {
+  "date": "2026-07-05",
+  "title": "핀란드 SMR, 유럽(EU) 5개국 안전성 승인",
+  "summary": "핀란드의 소형모듈원자로(SMR)가 유럽(EU) 5개국의 안전성 평가를 통과했으며, 난방용 열공급 용도로 활용될 것으로 전망된다.",
+  "summaryLong": "핀란드에서 개발 중인 소형모듈원자로(SMR)가 유럽(EU) 5개국의 안전성 심사에서 합격 판정을 받았다. 이 SMR은 전력 생산 대신 난방용 열 공급에 중점을 두고 설계되었으며, 다중 유럽 국가의 규제 당국으로부터 안전성 승인을 획득함으로써 유럽 시장 진출의 발판을 마련했다. 이는 SMR 기술의 다양한 활용 가능성과 유럽의 에너지 안보 강화 전략의 일환으로 평가된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "EU",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=4863",
+  "k": "전기 대신 난방 핀란드 smr 유럽 5개국 안전성 합격점",
+  "ko": 1,
+  "id": "cc7ca4b5"
+ },
+ {
+  "date": "2026-07-05",
+  "title": "기장군, SMR 유치로 첨단 부품소재 산업 허브 전환",
+  "summary": "한국 부산 기장군이 소형모듈원자로(SMR) 유치에 성공하여 기존 원전 건설지에서 첨단 부품소재(소부장) 산업 허브로 재편될 것으로 예상된다.",
+  "summaryLong": "부산 기장군이 소형모듈원자로(SMR) 유치 추진에 성공함에 따라 지역 산업 구조의 대전환이 이루어질 것으로 보인다. 기존 대형 원전 건설지였던 기장군이 SMR 관련 첨단 부품·소재(소부장) 산업의 거점으로 개편되면서, 지역 경제 활성화와 고부가가치 산업 육성의 계기가 될 것으로 기대된다. 이는 원전 중심의 지역 경제 재구조화와 첨단 기술 산업 진흥의 사례로 평가된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=4866",
+  "k": "smr 유치 성공한 기장군 원전 건설지에서 첨단 소부장 허브 로 대전환",
+  "ko": 1,
+  "id": "c77c9cd6"
+ },
+ {
   "date": "2026-07-04",
   "title": "미국 에너지부(DOE), 센트러스와 10억 달러 규모 고함유우라늄(HALEU) 계약 확정",
   "summary": "미국 에너지부가 센트러스(Centrus)와 10억 달러 규모의 고함유 저농축우라늄(HALEU) 공급 계약을 최종 확정했다.",
@@ -805,51 +878,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-02",
-  "title": "영흥화력발전소 부지에 SMR 전환 가능성, 지역주민 반발",
-  "summary": "폐지된 영흥화력발전소 부지의 소형모듈원자로 전환 가능성이 제기되면서 어민과 지역사회가 강하게 반발하고 있다.",
-  "summaryLong": "한국의 폐지 예정 영흥화력발전소 부지에 소형모듈원자로(SMR)로의 전환 가능성이 논의되고 있으나, 지역 어민과 주민들이 '원전 실험장화'를 우려하며 반발하고 있는 상황이다. 이는 정부의 탄소중립 에너지 정책 일환으로 추진되는 것으로 보이나, 지역 수용성과 환경 우려가 주요 걸림돌로 작용하고 있다. 구체적인 프로젝트 규모, 예상 일정, 투자 계획은 아직 확정되지 않았다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "v.daum.net",
-  "url": "https://v.daum.net/v/20260702164505778",
-  "k": "영흥화력 나간 자리에 원자력 smr 전환 가능성에 어민 지역사회 원전 실험장 안 된다",
-  "ko": 1,
-  "op": 1,
-  "id": "bfcdbee0"
- },
- {
-  "date": "2026-07-02",
-  "title": "한국원자력안전기술원(KINS), 원자력안전해석 심포지엄에서 SMR 시대 안전해석 역할 논의",
-  "summary": "한국원자력안전기술원(KINS)이 개최한 심포지엄에서 소형모듈원자로 시대의 안전해석 역할을 논의했다.",
-  "summaryLong": "한국원자력안전기술원(KINS)이 원자력안전해석 심포지엄을 개최하여 소형모듈원자로(SMR) 시대에서의 안전해석 기술 및 규제 역할에 대해 논의했다. 이는 SMR의 설계 특성과 소재·냉각 방식의 다양화에 따른 새로운 안전평가 방법론 개발의 필요성을 인식한 것으로, 국내 원자력 안전규제 체계의 현대화를 위한 학술·정책 교류의 일환이다. 구체적인 심포지엄 일정, 참석자, 도출 결론은 제시되지 않았다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "KINS",
-  "region": "KR",
-  "source": "inpnews.kr",
-  "url": "https://www.inpnews.kr/news/articleView.html?idxno=7248",
-  "k": "kins 원자력안전해석 심포지엄 smr 시대 안전해석 역할 논의",
-  "ko": 1,
-  "id": "bb759150"
- },
- {
-  "date": "2026-07-02",
-  "title": "Craig-Hallum, 오클로 주식 보유 평가 유지",
-  "summary": "증권사 Craig-Hallum이 오클로(Oklo Inc) 주식에 대한 보유(Hold) 평가를 유지했다.",
-  "summaryLong": "투자은행 Craig-Hallum이 SMR 및 차세대 원자로 개발사인 오클로(Oklo Inc)에 대한 투자 평가를 보유(Hold) 등급으로 유지했다. 이는 오클로의 사업 전망과 주가에 대한 중립적 시각을 반영하는 것으로, SMR 산업의 변동성과 기술 리스크를 감안한 보수적 판단으로 보인다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "theglobeandmail.com",
-  "url": "https://www.theglobeandmail.com/investing/markets/markets-news/Tipranks/3090579/craig-hallum-keeps-their-hold-rating-on-oklo-inc-oklo/",
-  "k": "craig hallum keeps their hold rating on oklo inc oklo",
-  "id": "6330d588"
- },
- {
-  "date": "2026-07-02",
   "title": "삼성물산, 72조 규모 영국 SMR 14기 건설 프로젝트 참여 신청",
   "summary": "삼성물산이 영국의 소형모듈원자로(SMR) 14기 건설 프로젝트(72조 규모)에 참여 신청했다.",
   "summaryLong": "삼성물산이 영국에서 추진 중인 규모 72조 원의 소형모듈원자로(SMR) 14기 건설 프로젝트에 참여할 것을 신청했다고 보도되었다. 이는 한국 대형 엔지니어링·건설사의 글로벌 SMR 시장 진출 의지를 보여주는 사례로, 영국의 에너지 정책 추진과 민간 자금 활용 전략 속에서 국제 파트너십이 확대되고 있음을 의미한다. 향후 협상 진행 및 계약 체결 여부가 주목되고 있다.",
@@ -862,21 +890,6 @@ window.SMR_NEWS = [
   "k": "단독 삼성물산 72조 규모 smr 14기 건설 프로젝트 참여 신청",
   "ko": 1,
   "id": "0a14ed12"
- },
- {
-  "date": "2026-07-02",
-  "title": "한국원자력안전기술원, SMR·차세대 안전기술 심포지엄 개최",
-  "summary": "한국원자력안전기술원(KINS)이 원자력 안전해석 심포지엄을 개최하여 SMR 및 차세대 원자로 안전기술을 논의했다.",
-  "summaryLong": "한국원자력안전기술원(KINS)이 원자력안전해석 심포지엄을 개최하여 소형모듈원자로(SMR)와 차세대 첨단원자로 기술의 안전성 평가 및 기술 표준화를 논의했다. 이는 국내 규제 기관이 SMR·첨단로 시대에 대비한 안전 평가 역량 강화와 국제 규제 조화를 추진하는 정책 신호로 평가된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "KINS",
-  "region": "KR",
-  "source": "webeconomy.co.kr",
-  "url": "https://www.webeconomy.co.kr/news/articleView.html?idxno=2220313",
-  "k": "kins 원자력안전해석 심포지엄 smr 차세대 안전기술 논의",
-  "ko": 1,
-  "id": "e8aef428"
  },
  {
   "date": "2026-07-01",
@@ -1177,20 +1190,6 @@ window.SMR_NEWS = [
   "id": "b6a13d20"
  },
  {
-  "date": "2026-06-18",
-  "title": "뉴스케일 파워(NuScale), 주요 안전 계약 체결로 SMR 주가 변동",
-  "summary": "뉴스케일 파워(NuScale)가 핵심 안전 관련 계약을 체결하면서 SMR(소형모듈원자로) 주가가 변동했다.",
-  "summaryLong": "스톡스투트레이드(StocksToTrade) 보도에 따르면 뉴스케일 파워(NuScale)가 주요 안전 계약(Key Safety Deal)을 체결했고, 이 소식이 NYSE SMR 티커의 주가에 변동을 가져왔다. 뉴스케일의 가압경수로(PWR) 기반 소형모듈원자로 기술 상용화 과정에서 안전 관련 계약 체결은 규제 협력과 기술 신뢰도를 높이는 중요한 진전으로 평가된다. 이는 회사의 상용화 일정과 비용 관리의 성공 가능성에 대한 시장의 신호를 반영하고 있다.",
-  "cat": "계약",
-  "type": "PWR",
-  "dev": "NuScale",
-  "region": "US",
-  "source": "stockstotrade.com",
-  "url": "https://stockstotrade.com/news/nuscale-power-corporation-smr-news-2026_06_18/",
-  "k": "smr stock whipsaws as nuscale books key safety deal",
-  "id": "1bab7714"
- },
- {
   "date": "2026-06-17",
   "title": "태웅, 테라파워(TerraPower) 나트륨(Natrium) SMR 주기기 부품 수주",
   "summary": "국내 원전 부품 전문기업 태웅이 빌 게이츠 설립 미국 테라파워사의 4세대 소형모듈원자로(SMR) 나트륨 프로젝트에 주기기 핵심부품을 공급하는 계약을 체결했다.",
@@ -1383,5 +1382,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-05 16:49 KST";
-window.SMR_TOTAL = 1074;
+window.SMR_UPDATED = "2026-07-06 07:33 KST";
+window.SMR_TOTAL = 1079;
