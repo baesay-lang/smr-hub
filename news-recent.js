@@ -1,6 +1,22 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-07-06",
+  "title": "[사설] SMR 첫 삽, 기회로의 전환",
+  "summary": "캐나다 온타리오(Ontario)주의 300MW급 소형모듈원자로(SMR) 4기 건설 착공을 계기로 SMR이 현실적 대안으로 자리 잡고 있으며, 국내 제조업체들의 포트폴리오 접근 전략을 평가하는 사설.",
+  "summaryLong": "최근 캐나다 온타리오(Ontario)주에서 300MW급 소형모듈원자로(SMR) 4기 건설 프로젝트가 착공함에 따라 SMR이 전력망의 현실적 대안으로 자리 잡고 있다. 한국 기업들은 주단조·주기기 제작 역량과 글로벌 시공 경험을 바탕으로 공급망 선점에 유리한 위치를 점하고 있다. 특히 국내 제조업체들이 가압경수로(PWR)형, 비경수로, 액체금속 냉각 등 다양한 기술 노선에 동시 참여하는 '포트폴리오 접근'을 추진하고 있으며, 이는 글로벌 표준이 아직 확정되지 않은 상황에서 리스크 분산과 수주 기회 확대로 이어질 수 있다는 평가다. 다만 상용화 낙관론을 위해서는 현실적 제약 관리가 필수적이라고 지적한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "CA",
+  "source": "투데이에너지 - 전체기사",
+  "url": "https://www.todayenergy.kr/news/articleView.html?idxno=299942",
+  "k": "사설 smr 첫 삽 기회로의 전환",
+  "ko": 1,
+  "op": 1,
+  "id": "2074c44b"
+ },
+ {
   "date": "2026-07-05",
   "title": "한국형 SMR 특별법 9월 시행…시장성·개발 속도 과제 직면",
   "summary": "소형모듈원자로(SMR) 특별법이 9월부터 시행되면서 한국형 SMR이 제도 지원을 받지만, 시장성과 개발 속도라는 과제를 마주하고 있다.",
@@ -863,21 +879,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-02",
-  "title": "폴란드 억만장자, 영국(UK)에 소형모듈원자로(SMR) 14기 건설 추진",
-  "summary": "폴란드의 한 억만장자가 영국에서 소형모듈원자로 14기 건설 프로젝트를 추진하고 있다.",
-  "summaryLong": "폴란드의 억만장자가 영국에서 소형모듈원자로(SMR) 14기 건설 프로젝트를 추진하고 있는 것으로 보도되었다. 구체적인 프로젝트 규모, 일정, 자금 조달 방식 등의 세부 사항은 제시되지 않았으며, 현재 계획 단계인 것으로 파악된다. 이 프로젝트는 영국의 재생에너지 정책 및 탄소중립 목표와 관련된 민간 차원의 핵심 기반시설 투자로 평가된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "UK",
-  "source": "notesfrompoland.com",
-  "url": "https://notesfrompoland.com/2026/07/02/polish-billionaire-seeks-to-build-14-small-modular-nuclear-reactors-in-uk/",
-  "k": "polish billionaire seeks to build 14 small modular nuclear reactors in uk",
-  "op": 1,
-  "id": "6652bd42"
- },
- {
-  "date": "2026-07-02",
   "title": "삼성물산, 72조 규모 영국 SMR 14기 건설 프로젝트 참여 신청",
   "summary": "삼성물산이 영국의 소형모듈원자로(SMR) 14기 건설 프로젝트(72조 규모)에 참여 신청했다.",
   "summaryLong": "삼성물산이 영국에서 추진 중인 규모 72조 원의 소형모듈원자로(SMR) 14기 건설 프로젝트에 참여할 것을 신청했다고 보도되었다. 이는 한국 대형 엔지니어링·건설사의 글로벌 SMR 시장 진출 의지를 보여주는 사례로, 영국의 에너지 정책 추진과 민간 자금 활용 전략 속에서 국제 파트너십이 확대되고 있음을 의미한다. 향후 협상 진행 및 계약 체결 여부가 주목되고 있다.",
@@ -1382,5 +1383,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-06 07:33 KST";
-window.SMR_TOTAL = 1079;
+window.SMR_UPDATED = "2026-07-06 08:12 KST";
+window.SMR_TOTAL = 1080;
