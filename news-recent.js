@@ -32,6 +32,21 @@ window.SMR_NEWS = [
   "id": "89a772b2"
  },
  {
+  "date": "2026-07-05",
+  "title": "서남권 반도체 클러스터 '속도전' 핵심 키워드로 떠오른 소형모듈원자로(SMR), 제도·안전이 관건",
+  "summary": "한국의 서남권 반도체 클러스터 조성 전략에서 소형모듈원자로(SMR)가 전력 공급의 핵심 수단으로 대두되고 있으며, 관련 제도 정비와 안전 보장이 과제로 지적되고 있다.",
+  "summaryLong": "한국(KR) 정부가 추진 중인 서남권 반도체 클러스터 구축 전략에서 소형모듈원자로(SMR)가 안정적 전력 공급 수단으로 주목받고 있다는 정책 보도다. 반도체 산업의 빠른 성장에 대응하기 위해 소형모듈원자로 도입 필요성이 강조되는 가운데, 관련 규제 제도의 정비와 안전성 보장이 성공의 핵심 과제임이 지적되었다. 이는 소형모듈원자로의 산업 활용 확대 및 정책 추진 의지를 반영하는 국내 정책 기사다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "m.news.nate.com",
+  "url": "https://m.news.nate.com/view/20260705n11232?issue_sq=11000",
+  "k": "서남권 반도체 클러스터 속도전 키워드 된 smr 제도 뒷받침 안전 보장이 관건",
+  "ko": 1,
+  "id": "770aaca3"
+ },
+ {
   "date": "2026-07-04",
   "title": "미국 에너지부(DOE), 센트러스와 10억 달러 규모 고함유우라늄(HALEU) 계약 확정",
   "summary": "미국 에너지부가 센트러스(Centrus)와 10억 달러 규모의 고함유 저농축우라늄(HALEU) 공급 계약을 최종 확정했다.",
@@ -864,20 +879,6 @@ window.SMR_NEWS = [
   "id": "e8aef428"
  },
  {
-  "date": "2026-07-02",
-  "title": "미국, 상위 4개국 합친 것보다 많은 SMR 프로젝트 추진",
-  "summary": "미국(US)이 소형모듈원자로(SMR) 개발 프로젝트 수에서 세계 상위 4개 경쟁국의 합계를 초과하고 있다.",
-  "summaryLong": "미국(US)이 소형모듈원자로(SMR) 개발·상용화 프로젝트 규모에서 글로벌 리더십을 확보하고 있다는 현황이 보도되고 있다. 미국의 SMR 프로젝트 수가 영국(UK), 캐나다(CA), 한국(KR), 일본(JP) 등 상위 4개국의 프로젝트 합계를 초과하고 있으며, 이는 미국의 정책 지원·규제 인프라·민간 투자 집중의 결과로 평가된다. SMR 시장의 지역별 개발 격차 심화를 보여주는 지표다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "oilprice.com",
-  "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/The-US-Has-More-SMR-Projects-Than-Its-Four-Closest-Rivals-Combined.html",
-  "k": "the u s has more smr projects than its four closest rivals combined crude oil prices today",
-  "id": "9f151e6f"
- },
- {
   "date": "2026-07-01",
   "title": "i-SMR 기술개발사업단, 싱가포르 에너지시장청과 협력",
   "summary": "한국의 i-SMR(혁신형 소형모듈원자로) 기술개발사업단이 싱가포르 에너지시장청(EMA)과 협력 양해각서를 체결했다.",
@@ -1382,5 +1383,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-05 15:55 KST";
-window.SMR_TOTAL = 1073;
+window.SMR_UPDATED = "2026-07-05 16:35 KST";
+window.SMR_TOTAL = 1074;
