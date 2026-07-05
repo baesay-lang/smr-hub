@@ -1,6 +1,37 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-07-05",
+  "title": "한국형 SMR 특별법 9월 시행…시장성·개발 속도 과제 직면",
+  "summary": "소형모듈원자로(SMR) 특별법이 9월부터 시행되면서 한국형 SMR이 제도 지원을 받지만, 시장성과 개발 속도라는 과제를 마주하고 있다.",
+  "summaryLong": "한국은 소형모듈원자로(SMR) 산업 육성을 위한 특별법을 9월부터 시행할 예정이다. 이 법안은 한국형 SMR 개발 기업들에 대한 규제 합리화, 인허가 절차 개선, 정부 지원 등의 내용을 담고 있어 제도적 기반을 강화하고자 한다. 그러나 국내 SMR 업계는 정부 정책 지원에도 불구하고 실제 시장 수요 창출과 개발 일정 단축이 핵심 과제로 남아 있으며, 국제 경쟁력 확보를 위해서는 기술력과 상용화 속도를 동시에 개선해야 한다는 점이 지적되고 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=4852",
+  "k": "smr 특별법 9월 시행 한국형 smr 제도 지원 속 시장성 속도 과제 직면",
+  "ko": 1,
+  "id": "5d8444bd"
+ },
+ {
+  "date": "2026-07-05",
+  "title": "기장군 SMR 유치 성과, 여야 엇갈린 평가",
+  "summary": "경북 기장군의 소형모듈원자로(SMR) 유치 성과에 대해 정부 여당과 야당이 상반된 평가를 내놓고 있다.",
+  "summaryLong": "경주·기장 지역의 소형모듈원자로(SMR) 개발 및 건설 유치 계획을 둘러싸고 정치권에서 평가가 엇갈리고 있다. 정부 여당은 기장군의 SMR 유치가 지역 경제 활성화와 국내 원자력 산업 육성에 기여하는 성과로 평가하고 있는 반면, 야당은 환경·안전·지역수용성 측면의 우려를 제기하면서 정책 추진 방식과 투명성을 문제 삼고 있다. 이는 SMR이 기술 혁신뿐만 아니라 지역사회 정치, 환경 정책과도 연결되어 있음을 보여준다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "news.nate.com",
+  "url": "https://news.nate.com/view/20260705n05611",
+  "k": "기장군 smr 유치 성과 둘러싸고 여야 엇갈린 평가",
+  "ko": 1,
+  "op": 1,
+  "id": "89a772b2"
+ },
+ {
   "date": "2026-07-04",
   "title": "미국 에너지부(DOE), 센트러스와 10억 달러 규모 고함유우라늄(HALEU) 계약 확정",
   "summary": "미국 에너지부가 센트러스(Centrus)와 10억 달러 규모의 고함유 저농축우라늄(HALEU) 공급 계약을 최종 확정했다.",
@@ -847,36 +878,6 @@ window.SMR_NEWS = [
   "id": "9f151e6f"
  },
  {
-  "date": "2026-07-02",
-  "title": "SGE·삼성물산, 영국에 SMR 14기 민간 자금으로 구축",
-  "summary": "한국의 SGE와 삼성물산이 영국에 소형모듈원자로(SMR) 14기를 민간 투자 자금으로 건설하는 프로젝트를 추진한다.",
-  "summaryLong": "한국의 SGE와 삼성물산이 영국에서 소형모듈원자로(SMR) 14기를 건설하는 대규모 프로젝트에 민간 자금을 투입하여 추진하고 있다. 이는 한국 기업들의 글로벌 SMR 시장 진출 및 영국의 에너지 안보 강화 정책과 맞아떨어지는 전략적 협력이다. 민간 자금 기반의 프로젝트 추진은 정부 보조금에 의존하지 않고 상업적 수익성을 기반으로 한다는 점에서 SMR의 경제성 입증 가능성을 시사한다. 영국의 SMR 정책 지원(예: 핵심광물전략기금 등)과 결합되어 글로벌 에너지 시장에서의 한국 기업의 위상 강화로 이어질 것으로 기대된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "SGE, 삼성물산",
-  "region": "UK",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=4829",
-  "k": "sge 삼성물산 영국에 smr 14기 민간 자금으로 구축",
-  "ko": 1,
-  "id": "4a72ddb3"
- },
- {
-  "date": "2026-07-02",
-  "title": "삼성물산, 영국(UK) 72조 규모 SMR 14기 건설 프로젝트 참여",
-  "summary": "삼성물산이 영국의 약 72조 원 규모 소형모듈원자로(SMR) 14기 건설 프로젝트에 참여한다.",
-  "summaryLong": "삼성물산이 영국(UK)의 대규모 소형모듈원자로(SMR) 건설 사업에 참여하기로 결정했다고 Investing.com 한국어판이 단독 보도했다. 해당 프로젝트 규모는 약 72조 원대이며 총 14기의 SMR 건설을 포함한다. 이는 삼성물산의 국제 에너지 인프라 사업 확대와 영국의 SMR 상용화 추진 전략의 일환으로 평가된다. 한국 대형 건설사의 해외 첨단 원자력 프로젝트 수주는 국내 원자력 산업의 국제 경쟁력 강화를 의미한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "Samsung E&C",
-  "region": "UK",
-  "source": "kr.investing.com",
-  "url": "https://kr.investing.com/news/stock-market-news/article-2003484",
-  "k": "단독 삼성물산 72조 규모 smr 14기 건설 프로젝트 참여 by the guru",
-  "ko": 1,
-  "id": "044f376c"
- },
- {
   "date": "2026-07-01",
   "title": "i-SMR 기술개발사업단, 싱가포르 에너지시장청과 협력",
   "summary": "한국의 i-SMR(혁신형 소형모듈원자로) 기술개발사업단이 싱가포르 에너지시장청(EMA)과 협력 양해각서를 체결했다.",
@@ -1381,5 +1382,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-05 08:46 KST";
-window.SMR_TOTAL = 1071;
+window.SMR_UPDATED = "2026-07-05 15:55 KST";
+window.SMR_TOTAL = 1073;
