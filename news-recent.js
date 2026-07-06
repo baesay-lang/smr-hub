@@ -17,6 +17,50 @@ window.SMR_NEWS = [
   "id": "2074c44b"
  },
  {
+  "date": "2026-07-06",
+  "title": "한수원, iSMR 안전기술 선보이다",
+  "summary": "한국수력원자력(한수원)이 2026 국제안전보건전시회에 참가하여 혁신형 소형모듈원자로(iSMR) 모형을 전시하고 안전설계 기술을 홍보했다.",
+  "summaryLong": "한국수력원자력(한수원)은 6일부터 9일까지 고양 킨텍스(KINTEX)에서 개최된 '2026 국제안전보건전시회(KISS 2026)'에 참가하여 차세대 주력 기술인 혁신형 소형모듈원자로(iSMR) 모형을 전시했다. '기술 혁신과 사람 중심의 안전'을 주제로 운영한 홍보 부스에서 한수원은 한층 강화된 iSMR의 안전설계 기술과 다목적 활용성에 대한 청사진을 선보였다. 이는 국내 최대 규모의 산업안전보건 전문 전시회에서 SMR 기술의 안전성과 응용 가능성을 강조하는 공식 활동이다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "한수원",
+  "region": "KR",
+  "source": "에너지데일리 - 전체기사",
+  "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=201144",
+  "k": "한수원 미래 원전 안전 기술을 선보이다",
+  "ko": 1,
+  "id": "fc9f537a"
+ },
+ {
+  "date": "2026-07-06",
+  "title": "홀텍, 인도 NTPC·베단타와 15GW SMR 파이프라인 협력 추진",
+  "summary": "홀텍(Holtec)이 인도의 NTPC(인도국영발전공사)·베단타(Vedanta)와 15GW 규모의 소형모듈원자로(SMR) 사업 파이프라인을 구축하려고 한다.",
+  "summaryLong": "홀텍(Holtec)이 인도의 주요 발전공사인 NTPC(인도국영발전공사)와 광물·금속 대기업 베단타(Vedanta)와 협력하여 15기가와트(GW) 규모의 소형모듈원자로(SMR) 공급 파이프라인을 추진하고 있다. 이 협력은 인도의 전력 수요 증대와 탈탄소 에너지 필요성에 부응하기 위한 전략으로, SMR의 모듈성과 유연성을 활용한 대규모 전개를 목표로 한다. 홀텍의 SMR 기술이 인도 시장에서의 상업화 가능성을 보여주는 사례이다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "홀텍",
+  "region": "US",
+  "source": "icicidirect.com",
+  "url": "https://www.icicidirect.com/research/equity/trending-news/holtec-eyes-ntpc-vedanta-for-15gw-indian-small-modular-reactor-pipeline",
+  "k": "holtec eyes ntpc vedanta for 15gw indian small modular reactor pipeline",
+  "id": "2ae5861d"
+ },
+ {
+  "date": "2026-07-06",
+  "title": "환경운동연합, 신규 원전·SMR 부지 선정 철회 촉구",
+  "summary": "환경운동연합이 한수원 앞에서 신규 원전과 소형모듈원자로(SMR)의 부지 선정 철회를 요구하는 시위를 했다.",
+  "summaryLong": "환경운동연합이 한국수력원자력(한수원) 앞에서 신규 원자력발전소와 소형모듈원자로(SMR)의 부지 선정 계획 철회를 촉구하는 시위를 개최했다. 이는 원자력 정책 추진에 대한 환경 단체의 반대 입장을 공식적으로 표현한 행동이다. 정부의 원전·SMR 확대 정책을 둘러싼 사회적 논쟁과 이견이 지속되고 있음을 보여주는 사례다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "hnews.kr",
+  "url": "https://www.hnews.kr/news/view.php?no=68752",
+  "k": "환경운동연합 한수원 앞서 신규 원전 smr 부지 선정 철회하라",
+  "ko": 1,
+  "id": "358ee16e"
+ },
+ {
   "date": "2026-07-05",
   "title": "한국형 SMR 특별법 9월 시행…시장성·개발 속도 과제 직면",
   "summary": "소형모듈원자로(SMR) 특별법이 9월부터 시행되면서 한국형 SMR이 제도 지원을 받지만, 시장성과 개발 속도라는 과제를 마주하고 있다.",
@@ -134,6 +178,22 @@ window.SMR_NEWS = [
   "k": "smr 유치 성공한 기장군 원전 건설지에서 첨단 소부장 허브 로 대전환",
   "ko": 1,
   "id": "c77c9cd6"
+ },
+ {
+  "date": "2026-07-05",
+  "title": "서남권 반도체 프로젝트 추진 중 안전성 검증 안 된 SMR 추진",
+  "summary": "서남권 반도체산업 발전 속도 경쟁 과정에서 안전성이 충분히 검증되지 않은 소형모듈원자로(SMR) 추진에 우려를 제기하는 보도다.",
+  "summaryLong": "서남권 반도체산업 육성 계획의 추진 과정에서 전력 수요를 충당하기 위해 안전성이 충분히 검증되지 않은 소형모듈원자로(SMR)를 추진하려는 움직임에 대해 비판적 관점에서 다룬 보도다. 이는 정책 추진 속도와 기술·안전성 검증 사이의 불균형을 우려하는 의견을 담고 있다. 칼럼적 성격이 강한 보도로 정책 결정의 문제점을 제기하는 평론 형태다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "khan.co.kr",
+  "url": "https://www.khan.co.kr/article/202607052136015",
+  "k": "서남권 반도체 속도전 에 안전성 검증 안 된 smr 띄우기",
+  "ko": 1,
+  "op": 1,
+  "id": "e257403e"
  },
  {
   "date": "2026-07-04",
@@ -823,62 +883,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-02",
-  "title": "뉴스케일 파워 소송: 파트너 ENTRA1 경험 과장 혐의로 투자자 손실 우려",
-  "summary": "뉴스케일 파워(NuScale Power)가 파트너 ENTRA1의 경험을 투자자들에게 과장했다는 혐의로 소송에 직면했으며, 프로젝트 지연 위험이 제기되고 있다.",
-  "summaryLong": "투자자들이 뉴스케일 파워(NuScale Power)를 상대로 파트너 기업 ENTRA1의 경험과 능력을 과장하여 투자자들을 기만했다는 혐의로 소송을 제기했다. 소송은 뉴스케일의 주요 프로젝트 지연 위험성을 지적하고 있으며, ENTRA1의 실제 역량에 대한 의문을 제기하고 있다. 이 법적 분쟁은 뉴스케일의 투자자 신뢰와 프로젝트 일정에 영향을 미칠 수 있는 중대한 사안이다. 사건의 진행에 따라 회사의 사업 추진력과 시장 평가에 부정적 영향을 줄 수 있다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "NuScale",
-  "region": "US",
-  "source": "pluang.com",
-  "url": "https://pluang.com/en/news-feed/kuehn-law-mendorong-investor-nuscale-power-hubungi-firma-hukum",
-  "k": "lawsuit alleges nuscale power misled investors about partner entra1 s experience risking project delays",
-  "id": "1217d4c7"
- },
- {
-  "date": "2026-07-02",
-  "title": "오클로, 그로브스 원자로를 미국 에너지부(DOE) 최종 안전검토 단계로 진전",
-  "summary": "오클로(Oklo)의 그로브스(Groves) 고속로가 미국 에너지부(DOE) 최종 안전검토 단계로 진입했다.",
-  "summaryLong": "오클로(Oklo)가 개발 중인 그로브스(Groves) 소형 고속원자로(fast reactor) 프로젝트가 미국 에너지부(DOE)의 최종 안전분석 검토 단계로 진전했다. 이는 오클로의 원자로 개발이 규제 승인 절차에서 중요한 마일스톤에 도달했음을 의미한다. DOE의 최종 안전검토 단계는 프로젝트 상용화 실현까지의 중요한 인허가 과정이며, 이번 진전이 투자자들의 평가에 긍정적 영향을 미칠 것으로 예상된다. 오클로는 폐연료 재활용이 가능한 고속로 기술 개발의 선두주자로 평가받고 있다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "finance.yahoo.com",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-oklo-oklo-001803069.html",
-  "k": "how investors may respond to oklo oklo advancing groves reactor to final doe safety review phase",
-  "id": "6c098bcc"
- },
- {
-  "date": "2026-07-02",
-  "title": "쿤 로펌, 뉴스케일 파워 투자자 소송 상담 권유",
-  "summary": "쿤 로펌(Kuehn Law)이 뉴스케일 파워(NuScale Power) 투자자들을 대상으로 집단소송 상담을 권유하고 있다.",
-  "summaryLong": "쿤 로펌(Kuehn Law)이 뉴스케일 파워(NuScale Power)와 관련된 투자자 손실 건에 대해 법적 상담을 제공하겠다고 공고했다. 이는 뉴스케일에 대한 다중 소송이 진행되고 있음을 시사하며, 투자자들이 회사의 공시나 사업 진행 상황에 대한 신뢰성 문제를 제기하고 있음을 보여준다. 집단소송 형태의 투자자 소송은 회사의 투자자 신뢰도와 기업 평판에 실질적 영향을 미칠 수 있다. 이러한 법적 분쟁은 뉴스케일의 사업 진행과 자금 조달에 부정적 요인으로 작용할 수 있다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "NuScale",
-  "region": "US",
-  "source": "lincolnjournal.com",
-  "url": "https://www.lincolnjournal.com/online_features/press_releases/kuehn-law-encourages-investors-of-nuscale-power-corporation-to-contact-law-firm/article_0c5b5adb-500c-52e1-9c67-74557643840c.html",
-  "k": "kuehn law encourages investors of nuscale power corporation to contact law firm",
-  "id": "bf5afb58"
- },
- {
-  "date": "2026-07-02",
-  "title": "센트러스, 미국 에너지부(DOE)와 9억 달러 HALEU 계약 체결, 상용 운영으로 전환",
-  "summary": "센트러스 에너지(Centrus Energy)가 미국 에너지부(DOE)와 9억 달러 규모의 고순도 저농축우라늄(HALEU) 생산 계약을 확정하고 오하이오(Ohio) 파이크톤(Piketon) 시설을 상용 운영으로 전환한다.",
-  "summaryLong": "센트러스 에너지(Centrus Energy)가 미국 에너지부(DOE)와 9억 달러 규모의 업무 주문(task order)을 최종 확정했다. 이를 통해 메릴랜드(Maryland) 베데스다(Bethesda)에 본사를 둔 센트러스의 자회사는 오하이오(Ohio) 파이크톤(Piketon)에 위치한 고순도 저농축우라늄(HALEU, High-Assay Low-Enriched Uranium) 농축 시설을 정부 지원 시범 운영에서 민간 상용 운영으로 전환하게 된다. 이는 미국의 고급 원자로(SMR 포함)용 핵연료 공급 자립화를 위한 국책 사업의 중요한 진전이며, 센트러스는 미국 유일의 HALEU 공급자로서의 지위를 강화하게 된다. 계약은 2024년 7월 1일 공식 발표되었다.",
-  "cat": "계약",
-  "type": "General",
-  "dev": "Centrus",
-  "region": "US",
-  "source": "POWER Magazine",
-  "url": "https://www.powermag.com/centrus-signs-900m-doe-contract-pivots-sole-u-s-haleu-cascade-to-commercial-operation/",
-  "k": "centrus signs 900m doe contract pivots sole u s haleu cascade to commercial operation",
-  "id": "cd9d2668"
- },
- {
-  "date": "2026-07-02",
   "title": "삼성물산, 72조 규모 영국 SMR 14기 건설 프로젝트 참여 신청",
   "summary": "삼성물산이 영국의 소형모듈원자로(SMR) 14기 건설 프로젝트(72조 규모)에 참여 신청했다.",
   "summaryLong": "삼성물산이 영국에서 추진 중인 규모 72조 원의 소형모듈원자로(SMR) 14기 건설 프로젝트에 참여할 것을 신청했다고 보도되었다. 이는 한국 대형 엔지니어링·건설사의 글로벌 SMR 시장 진출 의지를 보여주는 사례로, 영국의 에너지 정책 추진과 민간 자금 활용 전략 속에서 국제 파트너십이 확대되고 있음을 의미한다. 향후 협상 진행 및 계약 체결 여부가 주목되고 있다.",
@@ -1397,5 +1401,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-06 08:48 KST";
-window.SMR_TOTAL = 1082;
+window.SMR_UPDATED = "2026-07-06 17:03 KST";
+window.SMR_TOTAL = 1086;

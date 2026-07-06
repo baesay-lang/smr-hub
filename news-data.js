@@ -24,6 +24,50 @@ window.SMR_NEWS = [
     "id": "2074c44b"
   },
   {
+    "date": "2026-07-06",
+    "title": "한수원, iSMR 안전기술 선보이다",
+    "summary": "한국수력원자력(한수원)이 2026 국제안전보건전시회에 참가하여 혁신형 소형모듈원자로(iSMR) 모형을 전시하고 안전설계 기술을 홍보했다.",
+    "summaryLong": "한국수력원자력(한수원)은 6일부터 9일까지 고양 킨텍스(KINTEX)에서 개최된 '2026 국제안전보건전시회(KISS 2026)'에 참가하여 차세대 주력 기술인 혁신형 소형모듈원자로(iSMR) 모형을 전시했다. '기술 혁신과 사람 중심의 안전'을 주제로 운영한 홍보 부스에서 한수원은 한층 강화된 iSMR의 안전설계 기술과 다목적 활용성에 대한 청사진을 선보였다. 이는 국내 최대 규모의 산업안전보건 전문 전시회에서 SMR 기술의 안전성과 응용 가능성을 강조하는 공식 활동이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "한수원",
+    "region": "KR",
+    "source": "에너지데일리 - 전체기사",
+    "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=201144",
+    "k": "한수원 미래 원전 안전 기술을 선보이다",
+    "ko": 1,
+    "id": "fc9f537a"
+  },
+  {
+    "date": "2026-07-06",
+    "title": "홀텍, 인도 NTPC·베단타와 15GW SMR 파이프라인 협력 추진",
+    "summary": "홀텍(Holtec)이 인도의 NTPC(인도국영발전공사)·베단타(Vedanta)와 15GW 규모의 소형모듈원자로(SMR) 사업 파이프라인을 구축하려고 한다.",
+    "summaryLong": "홀텍(Holtec)이 인도의 주요 발전공사인 NTPC(인도국영발전공사)와 광물·금속 대기업 베단타(Vedanta)와 협력하여 15기가와트(GW) 규모의 소형모듈원자로(SMR) 공급 파이프라인을 추진하고 있다. 이 협력은 인도의 전력 수요 증대와 탈탄소 에너지 필요성에 부응하기 위한 전략으로, SMR의 모듈성과 유연성을 활용한 대규모 전개를 목표로 한다. 홀텍의 SMR 기술이 인도 시장에서의 상업화 가능성을 보여주는 사례이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "홀텍",
+    "region": "US",
+    "source": "icicidirect.com",
+    "url": "https://www.icicidirect.com/research/equity/trending-news/holtec-eyes-ntpc-vedanta-for-15gw-indian-small-modular-reactor-pipeline",
+    "k": "holtec eyes ntpc vedanta for 15gw indian small modular reactor pipeline",
+    "id": "2ae5861d"
+  },
+  {
+    "date": "2026-07-06",
+    "title": "환경운동연합, 신규 원전·SMR 부지 선정 철회 촉구",
+    "summary": "환경운동연합이 한수원 앞에서 신규 원전과 소형모듈원자로(SMR)의 부지 선정 철회를 요구하는 시위를 했다.",
+    "summaryLong": "환경운동연합이 한국수력원자력(한수원) 앞에서 신규 원자력발전소와 소형모듈원자로(SMR)의 부지 선정 계획 철회를 촉구하는 시위를 개최했다. 이는 원자력 정책 추진에 대한 환경 단체의 반대 입장을 공식적으로 표현한 행동이다. 정부의 원전·SMR 확대 정책을 둘러싼 사회적 논쟁과 이견이 지속되고 있음을 보여주는 사례다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "hnews.kr",
+    "url": "https://www.hnews.kr/news/view.php?no=68752",
+    "k": "환경운동연합 한수원 앞서 신규 원전 smr 부지 선정 철회하라",
+    "ko": 1,
+    "id": "358ee16e"
+  },
+  {
     "date": "2026-07-05",
     "title": "한국형 SMR 특별법 9월 시행…시장성·개발 속도 과제 직면",
     "summary": "소형모듈원자로(SMR) 특별법이 9월부터 시행되면서 한국형 SMR이 제도 지원을 받지만, 시장성과 개발 속도라는 과제를 마주하고 있다.",
@@ -141,6 +185,22 @@ window.SMR_NEWS = [
     "k": "smr 유치 성공한 기장군 원전 건설지에서 첨단 소부장 허브 로 대전환",
     "ko": 1,
     "id": "c77c9cd6"
+  },
+  {
+    "date": "2026-07-05",
+    "title": "서남권 반도체 프로젝트 추진 중 안전성 검증 안 된 SMR 추진",
+    "summary": "서남권 반도체산업 발전 속도 경쟁 과정에서 안전성이 충분히 검증되지 않은 소형모듈원자로(SMR) 추진에 우려를 제기하는 보도다.",
+    "summaryLong": "서남권 반도체산업 육성 계획의 추진 과정에서 전력 수요를 충당하기 위해 안전성이 충분히 검증되지 않은 소형모듈원자로(SMR)를 추진하려는 움직임에 대해 비판적 관점에서 다룬 보도다. 이는 정책 추진 속도와 기술·안전성 검증 사이의 불균형을 우려하는 의견을 담고 있다. 칼럼적 성격이 강한 보도로 정책 결정의 문제점을 제기하는 평론 형태다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "khan.co.kr",
+    "url": "https://www.khan.co.kr/article/202607052136015",
+    "k": "서남권 반도체 속도전 에 안전성 검증 안 된 smr 띄우기",
+    "ko": 1,
+    "op": 1,
+    "id": "e257403e"
   },
   {
     "date": "2026-07-04",
@@ -15539,4 +15599,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-06 08:48 KST";
+window.SMR_UPDATED = "2026-07-06 17:03 KST";
