@@ -105,6 +105,91 @@ window.SMR_NEWS = [
   "id": "d04b85ce"
  },
  {
+  "date": "2026-07-06",
+  "title": "에너지부, 오클로 그로브스 동위원소 시험로 최종 안전승인 부여",
+  "summary": "미국 에너지부(DOE)가 오클로(Oklo)의 그로브스(Groves) 동위원소 시험로에 최종 안전승인을 부여했다.",
+  "summaryLong": "미국 에너지부(DOE)가 오클로(Oklo)가 개발 중인 그로브스(Groves) 동위원소 시험로에 대한 최종 안전분석 승인을 부여했다. 이는 고속로 기술 검증을 위한 시험 시설에 대한 규제당국의 공식 승인으로, SMR 및 첨단로 상용화 경로에서 중요한 규제 진전을 의미한다. 해당 승인은 이후 반응로 가동 및 임계 달성을 위한 필수 조건이다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "foxbusiness.com",
+  "url": "https://www.foxbusiness.com/video/6400380383112",
+  "k": "department of energy grants oklo s groves isotope test reactor final safety approval",
+  "id": "9cb6b957"
+ },
+ {
+  "date": "2026-07-06",
+  "title": "오클로 최고경영자, 고속분열과 핵연료 재활용의 중요성 강조",
+  "summary": "오클로(Oklo) 최고경영자가 고속분열 기술과 핵연료 재활용의 가치에 대해 설명했다.",
+  "summaryLong": "오클로(Oklo)의 경영진이 회사의 핵심 기술인 고속분열(fast fission) 및 핵연료 재활용 방식의 경제적·기술적 의의를 공개적으로 설명했다. 이는 고속로(SFR) 기술의 우위성과 폐연료 처리 솔루션으로서의 가치를 강조하기 위한 것으로, SMR 및 첨단로 산업의 기술 경쟁력을 보여주는 메시지이다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "foxbusiness.com",
+  "url": "https://www.foxbusiness.com/video/6400379591112",
+  "k": "oklo ceo here s why fast fission and recycling matters",
+  "id": "3c01f974"
+ },
+ {
+  "date": "2026-07-06",
+  "title": "알로 애토믹스(Aalo Atomics) 시험로, 아이다호 국립연구소(INL)에서 임계 달성",
+  "summary": "알로 애토믹스의 알로-X 임계시험로(CTR)가 아이다호 국립연구소에서 임계에 도달했으며, 이는 미국 에너지부(DOE) 인가 첨단로 중 7월 4일까지 네 번째 사례이다.",
+  "summaryLong": "알로 애토믹스(Aalo Atomics)의 알로-X 임계시험로(CTR)가 아이다호 국립연구소(INL)에서 임계 달성 마일스톤을 기록했다. 미국 에너지부(DOE)는 7월 6일 이 성과를 발표했으며, 이는 연방 정부의 첨단로 시운전 및 시연 가속화 정책 아래 인가된 네 번째 첨단로 시운전 사례이다. 이 프로젝트는 '프로젝트 퍼스트 라이트(Project First Light)'로 명명되었으며, 알로 애토믹스의 기술 개발 진전과 미국의 첨단원자로 추진 의지를 보여준다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "Aalo Atomics",
+  "region": "US",
+  "source": "POWER Magazine",
+  "url": "https://www.powermag.com/aalo-atomics-test-reactor-reaches-criticality-at-inl-fourth-doe-authorized-advanced-reactor-by-july-4/",
+  "k": "aalo atomics test reactor reaches criticality at inl fourth doe authorized advanced reactor by july 4",
+  "id": "f10afb4c"
+ },
+ {
+  "date": "2026-07-06",
+  "title": "센트러스 에너지(Centrus Energy), 고농축저농축우라늄(HALEU) 생산 확대 위해 미국 에너지부와 9억 달러 계약 체결",
+  "summary": "센트러스 에너지가 미국 에너지부와 9억 달러 규모의 계약을 체결하여 오하이오주 피크톤(Piketon)의 미국 원심분리기 공장에서 고농축저농축우라늄(HALEU) 생산 능력을 확대한다.",
+  "summaryLong": "센트러스 에너지(Centrus Energy)가 미국 에너지부(DOE)와의 장기 다단계 계약 제도 일환으로 9억 달러 규모의 태스크 오더 계약을 체결했다. 이 계약을 통해 오하이오주 피크톤(Piketon)의 미국 원심분리기 공장(American Centrifuge Plant)에서 고농축저농축우라늄(HALEU) 생산 용량을 확대할 예정이다. 이는 센트러스의 수십억 달러 규모 용량 확대 계획의 일부이며, 첨단원자로 개발에 필수적인 연료 공급 기반 구축을 의미한다.",
+  "cat": "계약",
+  "type": "General",
+  "dev": "Centrus",
+  "region": "US",
+  "source": "ANS Newswire",
+  "url": "https://www.ans.org/news/2026-07-06/article-8180/doe-contract-boosts-centruss-haleu-goals-as-urenco-continues-leu-expansion/",
+  "k": "doe contract boosts centrus s haleu goals as urenco continues leu expansion",
+  "id": "6a9d99c5"
+ },
+ {
+  "date": "2026-07-06",
+  "title": "SGE, 영국 소형모듈원자로(SMR) 14기 배치 계획 공개",
+  "summary": "SGE가 영국 내 소형모듈원자로 14기 배치 계획을 발표했다.",
+  "summaryLong": "SGE가 영국에 소형모듈원자로(SMR) 14기를 배치하는 계획을 공개했다. 이는 영국의 청정에너지 전환 정책 아래 소형모듈원자로 도입을 추진하는 사업으로, 구체적인 입지선정, 기술 규격, 일정 등은 관련 보도에서 확인 필요하다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "SGE",
+  "region": "UK",
+  "source": "newcivilengineer.com",
+  "url": "https://www.newcivilengineer.com/latest/sge-unveils-plans-for-14-uk-small-modular-reactors-06-07-2026/",
+  "k": "sge unveils plans for 14 uk small modular reactors",
+  "id": "59e7de53"
+ },
+ {
+  "date": "2026-07-06",
+  "title": "국립창원대, 1,438억 투입해 SMR 연구거점 '국가연구소' 구축",
+  "summary": "국립창원대학교가 1,438억 원을 투입하여 소형모듈원자로(SMR) 연구개발 거점으로서 국가연구소를 구축한다.",
+  "summaryLong": "국립창원대학교가 소형모듈원자로(SMR) 분야의 국가 차원 연구거점 구축을 추진하며 1,438억 원의 예산을 투입할 계획이다. 이는 한국의 SMR 기술 자립화와 산업 육성을 목표로 하는 정부 정책의 일환으로, 창원대를 SMR 연구개발의 중추 기관으로 육성하겠다는 의도로 보인다. 해당 국가연구소 구축을 통해 SMR 관련 핵심 기술 개발, 인력 양성, 산학협력 체계 확대 등이 이루어질 것으로 예상된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "창원대",
+  "region": "KR",
+  "source": "kyosu.net",
+  "url": "https://www.kyosu.net/news/articleView.html?idxno=207316",
+  "k": "국립창원대 1 438억 투입해 smr 연구거점 국가연구소 구축한다",
+  "ko": 1,
+  "id": "5f875523"
+ },
+ {
   "date": "2026-07-05",
   "title": "한국형 SMR 특별법 9월 시행…시장성·개발 속도 과제 직면",
   "summary": "소형모듈원자로(SMR) 특별법이 9월부터 시행되면서 한국형 SMR이 제도 지원을 받지만, 시장성과 개발 속도라는 과제를 마주하고 있다.",
@@ -796,34 +881,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-02",
-  "title": "롤스로이스, 더비에 £1,200만 소형모듈원자로 훈련센터 건설",
-  "summary": "롤스로이스(Rolls-Royce)가 영국 더비(Derby)에 1,200만 파운드 규모의 소형모듈원자로 훈련센터 건립을 계획하고 있다.",
-  "summaryLong": "영국의 롤스로이스가 소형모듈원자로 산업의 인력 양성을 위해 영국 더비에 1,200만 파운드(약 1,600만 달러) 규모의 훈련센터 건설을 추진 중이다. 이 시설은 롤스로이스 소형모듈원자로(Rolls-Royce SMR) 프로그램의 상용화를 가속화하기 위한 인프라 투자로, 기술 인력 확보 및 산업 생태계 조성에 기여할 것으로 예상된다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "롤스로이스",
-  "region": "UK",
-  "source": "bbc.com",
-  "url": "https://www.bbc.com/news/articles/cjwgz07n80zo",
-  "k": "rolls royce plans 12m nuclear training centre in derby",
-  "id": "84db7fdd"
- },
- {
-  "date": "2026-07-02",
-  "title": "오클로의 그로브스(Groves) 원자력 프로젝트, 콜드웰 카운티에서 현실화",
-  "summary": "오클로(Oklo)의 그로브스 소형모듈원자로 프로젝트가 텍사스 콜드웰 카운티에서 실질적으로 진전되고 있다.",
-  "summaryLong": "미국의 첨단로 개발사 오클로가 텍사스 콜드웰 카운티 내 그로브스(Groves) 원자력 프로젝트의 구체화를 발표했다. 이 프로젝트는 오클로의 고속로형(SFR) 소형모듈원자로 배치 계획의 주요 사례로, 현지 허가 절차와 건설 준비가 진행 중이다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "오클로",
-  "region": "US",
-  "source": "post-register.com",
-  "url": "https://post-register.com/oklos-groves-nuclear-project-becomes-reality-in-caldwell-county/",
-  "k": "oklo s groves nuclear project becomes reality in caldwell county",
-  "id": "ab31eb29"
- },
- {
-  "date": "2026-07-02",
   "title": "미국 세 번째 마이크로원자로 임계 도달, 7월 4일 목표 달성",
   "summary": "디플로어블 에너지(Deployable Energy)의 유니티(Unity) 시연 원자로가 아이다호 국립원자로혁신센터(NRIC)에서 초기 임계 도달, 2026년 7월 4일 미국 에너지부(DOE) 목표 달성.",
   "summaryLong": "디플로어블 에너지(Deployable Energy)의 유니티(Unity) 시연 원자로가 아이다호 국립원자로혁신센터(National Reactor Innovation Center, NRIC)에서 초기 임계(Initial Criticality)에 도달함으로써, 미국이 지난해 설정한 마이크로원자로 세 기 임계 달성 목표를 완료했다. 이는 미국 에너지부(DOE) 인가하에 달성한 미국 에너지 정책의 핵심 마일스톤으로, 첨단 소형 원자로 기술 개발의 실질적 진전을 나타낸다.",
@@ -835,36 +892,6 @@ window.SMR_NEWS = [
   "url": "https://www.world-nuclear-news.org/articles/criticality-for-third-us-reactor-ahead-of-4-july-deadline",
   "k": "criticality for third us reactor ahead of 4 july deadline",
   "id": "8b69fbcf"
- },
- {
-  "date": "2026-07-02",
-  "title": "산학연 전문가, 원자력 기술 혁신 속 안전해석 역할 주목",
-  "summary": "한국원자력안전기술원(KINS)이 2026 원자력안전해석 심포지엄 개최, 소형모듈원자로(SMR)·차세대 원자로 안전성 확보 방안 논의.",
-  "summaryLong": "한국원자력안전기술원(KINS)이 충남 보령에서 '2026 원자력안전해석 심포지엄'을 개최하여 인공지능 확산에 따른 전력수요 증가와 탄소중립 정책 속에서 소형모듈원자로(SMR), 차세대 원자로 등 신기술의 안전성 확보 방안을 논의했다. 2003년부터 이어져 온 심포지엄은 국내 원자력 안전해석 분야 연구자, 산업계, 규제 당국이 참여하는 주요 포럼으로, 기술 혁신과 규제의 균형을 뒷받침하는 안전해석의 중요성을 강조한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "KINS",
-  "region": "KR",
-  "source": "에너지신문 - 전체기사",
-  "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=226550",
-  "k": "산학연 전문가 원자력 기술 혁신 속 안전해석 역할 주목",
-  "ko": 1,
-  "id": "89921581"
- },
- {
-  "date": "2026-07-02",
-  "title": "트럼프 행정부의 2026년 7월 4일 임계 목표, 실제 의미 있는가?",
-  "summary": "칼럼니스트 조시 프리드가 미국 트럼프 행정부의 2026년 7월 4일 첨단원자로 3기 임계 달성 목표의 실질적 의미를 의문시.",
-  "summaryLong": "써드웨이(Third Way) 관련 칼럼니스트 조시 프리드가 트럼프 행정부의 미국 250주년 기념일인 2026년 7월 4일까지 첨단원자로 개념 3기 임계 달성 목표를 세웠으나, 이것이 실질적인 핵심 성과라기보다는 정치적 상징성 위주라고 비판하고 있다. 제3웨이는 미국 핵심 에너지 정책 싱크탱크로, 이 오피니언은 첨단 원자로 기술의 실질적 상용화 경로에 대한 회의적 관점을 반영한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "ANS Newswire",
-  "url": "https://www.ans.org/news/2026-07-02/article-8156/over-before-its-begun/",
-  "k": "over before it s begun",
-  "op": 1,
-  "id": "1f9efbfe"
  },
  {
   "date": "2026-07-02",
@@ -895,20 +922,6 @@ window.SMR_NEWS = [
   "k": "단독 삼성물산 72조 규모 smr 14기 건설 프로젝트 참여 신청",
   "ko": 1,
   "id": "0a14ed12"
- },
- {
-  "date": "2026-07-02",
-  "title": "오클로 그로브스 원자력 프로젝트, 콜드웰 카운티에서 현실화",
-  "summary": "오클로의 그로브스 소형모듈원자로 프로젝트가 텍사스 콜드웰 카운티에서 구체적 추진 단계에 접어들고 있다.",
-  "summaryLong": "오클로는 텍사스 콜드웰 카운티 지역에서 추진 중인 그로브스 원자로 프로젝트가 규제 승인, 부지 준비, 지역사회 지원 등을 바탕으로 구체적 건설 단계로 진행 중임을 확인했다. 이 프로젝트는 미국 내 상업용 소형모듈원자로 건설의 선도 사례로, 부지 선정, 자금 조달, 규제 협력, 지역 커뮤니티 수용성 등 전주기적 진전이 이루어지고 있다. 지역 언론 보도는 이 프로젝트의 실현 가능성과 경제·에너지 파급효과에 대한 관심을 반영하고 있다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "post-register.com",
-  "url": "https://post-register.com/oklos-groves-nuclear-project-becomes-reality-in-caldwell-county/",
-  "k": "oklo s groves nuclear project becomes reality in caldwell county lockhart post register",
-  "id": "ab31eb29"
  },
  {
   "date": "2026-07-01",
@@ -1401,5 +1414,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-06 17:52 KST";
-window.SMR_TOTAL = 1090;
+window.SMR_UPDATED = "2026-07-07 07:47 KST";
+window.SMR_TOTAL = 1097;

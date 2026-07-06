@@ -112,6 +112,91 @@ window.SMR_NEWS = [
     "id": "d04b85ce"
   },
   {
+    "date": "2026-07-06",
+    "title": "에너지부, 오클로 그로브스 동위원소 시험로 최종 안전승인 부여",
+    "summary": "미국 에너지부(DOE)가 오클로(Oklo)의 그로브스(Groves) 동위원소 시험로에 최종 안전승인을 부여했다.",
+    "summaryLong": "미국 에너지부(DOE)가 오클로(Oklo)가 개발 중인 그로브스(Groves) 동위원소 시험로에 대한 최종 안전분석 승인을 부여했다. 이는 고속로 기술 검증을 위한 시험 시설에 대한 규제당국의 공식 승인으로, SMR 및 첨단로 상용화 경로에서 중요한 규제 진전을 의미한다. 해당 승인은 이후 반응로 가동 및 임계 달성을 위한 필수 조건이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "foxbusiness.com",
+    "url": "https://www.foxbusiness.com/video/6400380383112",
+    "k": "department of energy grants oklo s groves isotope test reactor final safety approval",
+    "id": "9cb6b957"
+  },
+  {
+    "date": "2026-07-06",
+    "title": "오클로 최고경영자, 고속분열과 핵연료 재활용의 중요성 강조",
+    "summary": "오클로(Oklo) 최고경영자가 고속분열 기술과 핵연료 재활용의 가치에 대해 설명했다.",
+    "summaryLong": "오클로(Oklo)의 경영진이 회사의 핵심 기술인 고속분열(fast fission) 및 핵연료 재활용 방식의 경제적·기술적 의의를 공개적으로 설명했다. 이는 고속로(SFR) 기술의 우위성과 폐연료 처리 솔루션으로서의 가치를 강조하기 위한 것으로, SMR 및 첨단로 산업의 기술 경쟁력을 보여주는 메시지이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "foxbusiness.com",
+    "url": "https://www.foxbusiness.com/video/6400379591112",
+    "k": "oklo ceo here s why fast fission and recycling matters",
+    "id": "3c01f974"
+  },
+  {
+    "date": "2026-07-06",
+    "title": "알로 애토믹스(Aalo Atomics) 시험로, 아이다호 국립연구소(INL)에서 임계 달성",
+    "summary": "알로 애토믹스의 알로-X 임계시험로(CTR)가 아이다호 국립연구소에서 임계에 도달했으며, 이는 미국 에너지부(DOE) 인가 첨단로 중 7월 4일까지 네 번째 사례이다.",
+    "summaryLong": "알로 애토믹스(Aalo Atomics)의 알로-X 임계시험로(CTR)가 아이다호 국립연구소(INL)에서 임계 달성 마일스톤을 기록했다. 미국 에너지부(DOE)는 7월 6일 이 성과를 발표했으며, 이는 연방 정부의 첨단로 시운전 및 시연 가속화 정책 아래 인가된 네 번째 첨단로 시운전 사례이다. 이 프로젝트는 '프로젝트 퍼스트 라이트(Project First Light)'로 명명되었으며, 알로 애토믹스의 기술 개발 진전과 미국의 첨단원자로 추진 의지를 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Aalo Atomics",
+    "region": "US",
+    "source": "POWER Magazine",
+    "url": "https://www.powermag.com/aalo-atomics-test-reactor-reaches-criticality-at-inl-fourth-doe-authorized-advanced-reactor-by-july-4/",
+    "k": "aalo atomics test reactor reaches criticality at inl fourth doe authorized advanced reactor by july 4",
+    "id": "f10afb4c"
+  },
+  {
+    "date": "2026-07-06",
+    "title": "센트러스 에너지(Centrus Energy), 고농축저농축우라늄(HALEU) 생산 확대 위해 미국 에너지부와 9억 달러 계약 체결",
+    "summary": "센트러스 에너지가 미국 에너지부와 9억 달러 규모의 계약을 체결하여 오하이오주 피크톤(Piketon)의 미국 원심분리기 공장에서 고농축저농축우라늄(HALEU) 생산 능력을 확대한다.",
+    "summaryLong": "센트러스 에너지(Centrus Energy)가 미국 에너지부(DOE)와의 장기 다단계 계약 제도 일환으로 9억 달러 규모의 태스크 오더 계약을 체결했다. 이 계약을 통해 오하이오주 피크톤(Piketon)의 미국 원심분리기 공장(American Centrifuge Plant)에서 고농축저농축우라늄(HALEU) 생산 용량을 확대할 예정이다. 이는 센트러스의 수십억 달러 규모 용량 확대 계획의 일부이며, 첨단원자로 개발에 필수적인 연료 공급 기반 구축을 의미한다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "Centrus",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-07-06/article-8180/doe-contract-boosts-centruss-haleu-goals-as-urenco-continues-leu-expansion/",
+    "k": "doe contract boosts centrus s haleu goals as urenco continues leu expansion",
+    "id": "6a9d99c5"
+  },
+  {
+    "date": "2026-07-06",
+    "title": "SGE, 영국 소형모듈원자로(SMR) 14기 배치 계획 공개",
+    "summary": "SGE가 영국 내 소형모듈원자로 14기 배치 계획을 발표했다.",
+    "summaryLong": "SGE가 영국에 소형모듈원자로(SMR) 14기를 배치하는 계획을 공개했다. 이는 영국의 청정에너지 전환 정책 아래 소형모듈원자로 도입을 추진하는 사업으로, 구체적인 입지선정, 기술 규격, 일정 등은 관련 보도에서 확인 필요하다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "SGE",
+    "region": "UK",
+    "source": "newcivilengineer.com",
+    "url": "https://www.newcivilengineer.com/latest/sge-unveils-plans-for-14-uk-small-modular-reactors-06-07-2026/",
+    "k": "sge unveils plans for 14 uk small modular reactors",
+    "id": "59e7de53"
+  },
+  {
+    "date": "2026-07-06",
+    "title": "국립창원대, 1,438억 투입해 SMR 연구거점 '국가연구소' 구축",
+    "summary": "국립창원대학교가 1,438억 원을 투입하여 소형모듈원자로(SMR) 연구개발 거점으로서 국가연구소를 구축한다.",
+    "summaryLong": "국립창원대학교가 소형모듈원자로(SMR) 분야의 국가 차원 연구거점 구축을 추진하며 1,438억 원의 예산을 투입할 계획이다. 이는 한국의 SMR 기술 자립화와 산업 육성을 목표로 하는 정부 정책의 일환으로, 창원대를 SMR 연구개발의 중추 기관으로 육성하겠다는 의도로 보인다. 해당 국가연구소 구축을 통해 SMR 관련 핵심 기술 개발, 인력 양성, 산학협력 체계 확대 등이 이루어질 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "창원대",
+    "region": "KR",
+    "source": "kyosu.net",
+    "url": "https://www.kyosu.net/news/articleView.html?idxno=207316",
+    "k": "국립창원대 1 438억 투입해 smr 연구거점 국가연구소 구축한다",
+    "ko": 1,
+    "id": "5f875523"
+  },
+  {
     "date": "2026-07-05",
     "title": "한국형 SMR 특별법 9월 시행…시장성·개발 속도 과제 직면",
     "summary": "소형모듈원자로(SMR) 특별법이 9월부터 시행되면서 한국형 SMR이 제도 지원을 받지만, 시장성과 개발 속도라는 과제를 마주하고 있다.",
@@ -11592,6 +11677,20 @@ window.SMR_NEWS = [
     "id": "adb60fc4"
   },
   {
+    "date": "2026-05-26",
+    "title": "오클로, 미국 에너지부 잉여 플루토늄 프로그램 심화 협상 선정",
+    "summary": "오클로(Oklo)가 미국 에너지부(DOE)의 잉여 플루토늄(Surplus Plutonium) 프로그램 심화 협상 대상으로 선정되었다.",
+    "summaryLong": "오클로(Oklo)가 미국 에너지부(DOE)의 국방 차감 플루토늄 처리 프로그램(Surplus Plutonium Disposition Programme)에서 심화 협상 단계로 진입할 대상 업체로 선정되었다. 이는 정부 차원의 고위험 핵물질 처리 솔루션으로 고속로 기술을 인정한 것으로, 오클로의 핵연료 재활용·폐기물 감소 기술에 대한 공식 신뢰 표현이며, 정부 계약 체결 가능성을 높인다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "nucnet.org",
+    "url": "https://www.nucnet.org/news/oklo-selected-by-us-doe-for-advanced-negotiations-under-surplus-plutonium-programme-5-2-2026",
+    "k": "oklo selected by us doe for advanced negotiations under surplus plutonium programme",
+    "id": "58839af1"
+  },
+  {
     "date": "2026-05-25",
     "title": "미국 에너지부, 소형모듈원자로 프로젝트 자금 지원",
     "summary": "미국 에너지부(DOE)가 소형모듈원자로 프로젝트 추진을 위해 자금을 지원.",
@@ -15658,4 +15757,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-06 17:52 KST";
+window.SMR_UPDATED = "2026-07-07 07:47 KST";
