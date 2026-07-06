@@ -90,6 +90,21 @@ window.SMR_NEWS = [
   "id": "7e1ade52"
  },
  {
+  "date": "2026-07-06",
+  "title": "한수원, 혁신형 소형모듈원자로(i-SMR)로 '안전 스마트화' 선도",
+  "summary": "한국수력원자력(한수원)이 2026 국제안전보건전시회(KISS 2026)에서 차세대 주력 기술인 혁신형 소형모듈원자로(i-SMR) 모형을 전시하며 강화된 안전설계 기술과 다목적 활용성을 홍보한다.",
+  "summaryLong": "한국수력원자력(한수원)이 2026년 6월 6~9일 킨텍스(KINTEX)에서 열리는 국제안전보건전시회(KISS 2026)에 참가하여 혁신형 소형모듈원자로(i-SMR)를 선보인다. 한수원은 '기술 혁신과 사람 중심의 안전'을 주제로 i-SMR 모형을 중심으로 강화된 안전설계 기술과 다목적 활용성에 대한 청사진을 제시할 계획이다. 이는 한수원의 차세대 주력 기술로 자리잡은 i-SMR을 국내 최대 규모의 산업안전보건 전문 전시회에서 대외 홍보하는 기회가 될 것으로 보인다. '안전 스마트화'를 주요 키워드로 삼아 미래 원전 기술과 선진 안전경영 체계를 강조한다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "한수원",
+  "region": "KR",
+  "source": "에너지신문 - 전체기사",
+  "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=226616",
+  "k": "한수원 혁신형 소형모듈원자로로 안전 스마트화 선도",
+  "ko": 1,
+  "id": "d04b85ce"
+ },
+ {
   "date": "2026-07-05",
   "title": "한국형 SMR 특별법 9월 시행…시장성·개발 속도 과제 직면",
   "summary": "소형모듈원자로(SMR) 특별법이 9월부터 시행되면서 한국형 SMR이 제도 지원을 받지만, 시장성과 개발 속도라는 과제를 마주하고 있다.",
@@ -868,20 +883,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-02",
-  "title": "레인 오로크(Laing O'Rourke), 영국 14기 SMR 프로젝트 컨소시엄 참여",
-  "summary": "건설회사 레인 오로크(Laing O'Rourke)가 영국의 14기 소형모듈원자로 건설 프로젝트 컨소시엄에 선정됐다.",
-  "summaryLong": "건설회사 레인 오로크(Laing O'Rourke)가 영국의 14기 소형모듈원자로(SMR) 건설 프로젝트를 추진하는 컨소시엄에 참여하게 됐다. 이는 영국 정부의 소형모듈원자로 도입 정책을 구체화하는 단계로 평가된다. 컨소시엄에 참여한 다른 업체와 구체적인 프로젝트 일정은 추가 공개될 것으로 예상된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "Laing O'Rourke",
-  "region": "UK",
-  "source": "constructionnews.co.uk",
-  "url": "https://www.constructionnews.co.uk/contractors/laing-orourke/laing-orourke-named-in-consortium-for-14-reactor-uk-smr-programme-02-07-2026/",
-  "k": "laing o rourke named in consortium for 14 reactor uk smr programme",
-  "id": "a3de5575"
- },
- {
-  "date": "2026-07-02",
   "title": "삼성물산, 72조 규모 영국 SMR 14기 건설 프로젝트 참여 신청",
   "summary": "삼성물산이 영국의 소형모듈원자로(SMR) 14기 건설 프로젝트(72조 규모)에 참여 신청했다.",
   "summaryLong": "삼성물산이 영국에서 추진 중인 규모 72조 원의 소형모듈원자로(SMR) 14기 건설 프로젝트에 참여할 것을 신청했다고 보도되었다. 이는 한국 대형 엔지니어링·건설사의 글로벌 SMR 시장 진출 의지를 보여주는 사례로, 영국의 에너지 정책 추진과 민간 자금 활용 전략 속에서 국제 파트너십이 확대되고 있음을 의미한다. 향후 협상 진행 및 계약 체결 여부가 주목되고 있다.",
@@ -1400,5 +1401,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-06 17:39 KST";
-window.SMR_TOTAL = 1089;
+window.SMR_UPDATED = "2026-07-06 17:52 KST";
+window.SMR_TOTAL = 1090;
