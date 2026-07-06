@@ -68,6 +68,35 @@ window.SMR_NEWS = [
     "id": "358ee16e"
   },
   {
+    "date": "2026-07-06",
+    "title": "핀란드 규제당국, 스테디에너지 소형모듈원자로 조기검토 결과 공개",
+    "summary": "핀란드 규제당국이 스테디에너지(Steady Energy)의 소형모듈원자로(SMR)에 대한 결합 조기검토(Joint Early Review) 결과를 발표했다.",
+    "summaryLong": "핀란드의 규제당국이 스테디에너지(Steady Energy)의 소형모듈원자로(SMR) 설계에 대한 결합 조기검토(Joint Early Review) 결과를 공개했다. 조기검토는 상용화 전 설계 단계에서 규제 관점의 주요 이슈를 사전에 파악하고 개선하기 위한 절차로, 스테디에너지의 SMR 프로젝트가 규제 수용성 검토 과정을 진행 중임을 나타낸다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Steady Energy",
+    "region": "EU",
+    "source": "nucnet.org",
+    "url": "https://www.nucnet.org/news/finland-s-regulator-publishes-joint-early-review-of-steady-energy-small-modular-reactor-7-1-2026",
+    "k": "finland s regulator publishes joint early review of steady energy small modular reactor",
+    "id": "32ff497e"
+  },
+  {
+    "date": "2026-07-06",
+    "title": "국립창원대, 1438억 규모 SMR 국가연구소 유치…글로벌 원전 R&D 거점 도약",
+    "summary": "국립창원대학교가 1438억 원 규모의 소형모듈원자로(SMR) 국가연구소 유치에 성공했으며, 글로벌 원전 R&D 거점으로 도약할 것으로 예상된다.",
+    "summaryLong": "국립창원대학교가 1438억 원 규모의 소형모듈원자로(SMR) 국가연구소 유치에 성공했다. 이는 한국 정부의 SMR 국책 프로그램 일환으로, 창원대가 글로벌 수준의 원전 R&D 거점으로 도약하게 될 것으로 기대되고 있다. 해당 연구소는 SMR 기술 개발, 인력 양성, 국제 협력 등을 통해 한국의 소형모듈원자로 산업 경쟁력을 강화하는 데 중추적 역할을 할 것으로 전망된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "news.nate.com",
+    "url": "https://news.nate.com/view/20260706n08505",
+    "k": "국립창원대 1438억 규모 smr 국가연구소 유치 글로벌 원전 r d 거점 도약",
+    "ko": 1,
+    "id": "7e1ade52"
+  },
+  {
     "date": "2026-07-05",
     "title": "한국형 SMR 특별법 9월 시행…시장성·개발 속도 과제 직면",
     "summary": "소형모듈원자로(SMR) 특별법이 9월부터 시행되면서 한국형 SMR이 제도 지원을 받지만, 시장성과 개발 속도라는 과제를 마주하고 있다.",
@@ -201,6 +230,21 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "e257403e"
+  },
+  {
+    "date": "2026-07-05",
+    "title": "기장군 SMR 유치 확정, 191명 이장단과의 소통이 주효",
+    "summary": "기장군이 소형모듈원자로(SMR) 유치에 성공했으며, 지역 191명 이장단과의 소통이 성과의 핵심이었다는 평가.",
+    "summaryLong": "부산시 기장군이 소형모듈원자로(SMR) 사업 유치에 성공했다. 이는 지역 주민과 지도자 계층인 191명의 이장단과의 적극적인 소통과 협력이 중요한 역할을 한 것으로 평가되고 있다. 김형칠 공동위원장 등 관계자들은 이번 유치가 지역 합의와 투명한 의사소통의 결과라고 강조하고 있으며, 이는 SMR 국내 입지 추진의 중요한 이정표가 될 것으로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4849",
+    "k": "기장군 smr 유치 쾌거 191명 이장단 소통이 빛났다 김형칠 공동위원장 대담",
+    "ko": 1,
+    "id": "4e81ee89"
   },
   {
     "date": "2026-07-04",
@@ -15599,4 +15643,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-06 17:03 KST";
+window.SMR_UPDATED = "2026-07-06 17:39 KST";

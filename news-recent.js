@@ -61,6 +61,35 @@ window.SMR_NEWS = [
   "id": "358ee16e"
  },
  {
+  "date": "2026-07-06",
+  "title": "핀란드 규제당국, 스테디에너지 소형모듈원자로 조기검토 결과 공개",
+  "summary": "핀란드 규제당국이 스테디에너지(Steady Energy)의 소형모듈원자로(SMR)에 대한 결합 조기검토(Joint Early Review) 결과를 발표했다.",
+  "summaryLong": "핀란드의 규제당국이 스테디에너지(Steady Energy)의 소형모듈원자로(SMR) 설계에 대한 결합 조기검토(Joint Early Review) 결과를 공개했다. 조기검토는 상용화 전 설계 단계에서 규제 관점의 주요 이슈를 사전에 파악하고 개선하기 위한 절차로, 스테디에너지의 SMR 프로젝트가 규제 수용성 검토 과정을 진행 중임을 나타낸다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "Steady Energy",
+  "region": "EU",
+  "source": "nucnet.org",
+  "url": "https://www.nucnet.org/news/finland-s-regulator-publishes-joint-early-review-of-steady-energy-small-modular-reactor-7-1-2026",
+  "k": "finland s regulator publishes joint early review of steady energy small modular reactor",
+  "id": "32ff497e"
+ },
+ {
+  "date": "2026-07-06",
+  "title": "국립창원대, 1438억 규모 SMR 국가연구소 유치…글로벌 원전 R&D 거점 도약",
+  "summary": "국립창원대학교가 1438억 원 규모의 소형모듈원자로(SMR) 국가연구소 유치에 성공했으며, 글로벌 원전 R&D 거점으로 도약할 것으로 예상된다.",
+  "summaryLong": "국립창원대학교가 1438억 원 규모의 소형모듈원자로(SMR) 국가연구소 유치에 성공했다. 이는 한국 정부의 SMR 국책 프로그램 일환으로, 창원대가 글로벌 수준의 원전 R&D 거점으로 도약하게 될 것으로 기대되고 있다. 해당 연구소는 SMR 기술 개발, 인력 양성, 국제 협력 등을 통해 한국의 소형모듈원자로 산업 경쟁력을 강화하는 데 중추적 역할을 할 것으로 전망된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "news.nate.com",
+  "url": "https://news.nate.com/view/20260706n08505",
+  "k": "국립창원대 1438억 규모 smr 국가연구소 유치 글로벌 원전 r d 거점 도약",
+  "ko": 1,
+  "id": "7e1ade52"
+ },
+ {
   "date": "2026-07-05",
   "title": "한국형 SMR 특별법 9월 시행…시장성·개발 속도 과제 직면",
   "summary": "소형모듈원자로(SMR) 특별법이 9월부터 시행되면서 한국형 SMR이 제도 지원을 받지만, 시장성과 개발 속도라는 과제를 마주하고 있다.",
@@ -194,6 +223,21 @@ window.SMR_NEWS = [
   "ko": 1,
   "op": 1,
   "id": "e257403e"
+ },
+ {
+  "date": "2026-07-05",
+  "title": "기장군 SMR 유치 확정, 191명 이장단과의 소통이 주효",
+  "summary": "기장군이 소형모듈원자로(SMR) 유치에 성공했으며, 지역 191명 이장단과의 소통이 성과의 핵심이었다는 평가.",
+  "summaryLong": "부산시 기장군이 소형모듈원자로(SMR) 사업 유치에 성공했다. 이는 지역 주민과 지도자 계층인 191명의 이장단과의 적극적인 소통과 협력이 중요한 역할을 한 것으로 평가되고 있다. 김형칠 공동위원장 등 관계자들은 이번 유치가 지역 합의와 투명한 의사소통의 결과라고 강조하고 있으며, 이는 SMR 국내 입지 추진의 중요한 이정표가 될 것으로 보인다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=4849",
+  "k": "기장군 smr 유치 쾌거 191명 이장단 소통이 빛났다 김형칠 공동위원장 대담",
+  "ko": 1,
+  "id": "4e81ee89"
  },
  {
   "date": "2026-07-04",
@@ -838,51 +882,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-02",
-  "title": "28개국 전문가, 미국에 모여 차세대 원전 SMR 논의",
-  "summary": "28개국의 소형모듈원자로(SMR) 전문가들이 미국에 모여 국제 협력 방안을 논의했다.",
-  "summaryLong": "28개국의 소형모듈원자로(SMR) 관련 전문가들이 미국에 모여 차세대 원자력 기술 발전 방향과 국제 협력 방안을 논의했다. 이 회의는 소형모듈원자로의 글로벌 도입 확대를 위한 국제적 조화와 기술 표준화를 추진하는 자리로 평가된다. 각국의 SMR 개발 전략과 규제 체계 수렴이 주요 논의 주제였을 것으로 보인다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=4828",
-  "k": "차세대 원전 smr 28개국 전문가가 미국에 모인 이유는",
-  "ko": 1,
-  "id": "4972dc20"
- },
- {
-  "date": "2026-07-02",
-  "title": "원자력안전위원회, SMR 안전규제체계 구축 가속화…산학연 협력",
-  "summary": "원자력안전위원회(원안위)가 소형모듈원자로(SMR)의 안전규제 체계 구축을 가속화하며 산·학·연과 협력을 강화하고 있다.",
-  "summaryLong": "원자력안전위원회(원안위)가 소형모듈원자로(SMR)의 안전규제 체계 구축을 속도 있게 추진 중이다. 산업계, 학계, 연구기관이 참여하는 협력 체계를 통해 SMR 특성에 맞는 규제 기준과 검사 방법론을 개발하고 있다. 이는 한국의 SMR 상용화를 위한 필수 기반 마련 단계로, 향후 인허가 체계 정비로 이어질 것으로 예상된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "원안위",
-  "region": "KR",
-  "source": "inpnews.kr",
-  "url": "https://www.inpnews.kr/news/articleView.html?idxno=7251",
-  "k": "원안위 smr 안전규제체계 구축 속도 산학연과 머리 맞대",
-  "ko": 1,
-  "id": "c877e45e"
- },
- {
-  "date": "2026-07-02",
-  "title": "IAEA, 우즈베키스탄의 원전 인프라 구축 진전 평가…SMR 사업 지원 본격화",
-  "summary": "국제원자력기구(IAEA)가 우즈베키스탄의 원자력 인프라 구축이 상당한 진전을 이루었다고 평가하며 소형모듈원자로(SMR) 사업 지원을 본격화하고 있다.",
-  "summaryLong": "국제원자력기구(IAEA)가 우즈베키스탄의 원자력 기술 인프라 및 규제 체계 구축이 의미 있는 진전을 이루었다고 평가했다. 이를 바탕으로 IAEA는 우즈베키스탄의 소형모듈원자로(SMR) 사업 도입을 적극 지원하기로 했다. 이는 중앙아시아 지역의 탈탄소 에너지 확대와 에너지 안보 강화를 위한 국제협력 확대를 의미한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "IAEA",
-  "region": "",
-  "source": "inpnews.kr",
-  "url": "https://www.inpnews.kr/news/articleView.html?idxno=7256",
-  "k": "iaea 우즈베키스탄 원전 인프라 구축 상당한 진전 smr 사업 본격화 지원",
-  "ko": 1,
-  "id": "cb77e917"
- },
- {
-  "date": "2026-07-02",
   "title": "삼성물산, 72조 규모 영국 SMR 14기 건설 프로젝트 참여 신청",
   "summary": "삼성물산이 영국의 소형모듈원자로(SMR) 14기 건설 프로젝트(72조 규모)에 참여 신청했다.",
   "summaryLong": "삼성물산이 영국에서 추진 중인 규모 72조 원의 소형모듈원자로(SMR) 14기 건설 프로젝트에 참여할 것을 신청했다고 보도되었다. 이는 한국 대형 엔지니어링·건설사의 글로벌 SMR 시장 진출 의지를 보여주는 사례로, 영국의 에너지 정책 추진과 민간 자금 활용 전략 속에서 국제 파트너십이 확대되고 있음을 의미한다. 향후 협상 진행 및 계약 체결 여부가 주목되고 있다.",
@@ -1401,5 +1400,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-06 17:03 KST";
-window.SMR_TOTAL = 1086;
+window.SMR_UPDATED = "2026-07-06 17:39 KST";
+window.SMR_TOTAL = 1089;
