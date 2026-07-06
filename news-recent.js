@@ -190,6 +190,20 @@ window.SMR_NEWS = [
   "id": "5f875523"
  },
  {
+  "date": "2026-07-06",
+  "title": "소형원자로 인허가 접근 방식 재검토 필요 — 리하초프",
+  "summary": "로사톰(Rosatom) 총장이 미국의 마이크로원자로 3기 임계 달성을 축하하며, 러시아도 소형로 인허가 규제를 재정비해야 경쟁력을 유지할 수 있다고 언급했다.",
+  "summaryLong": "로사톰(Rosatom)의 알렉세이 리하초프(Alexei Likhachev) 총장은 미국이 마이크로원자로 3기를 임계 상태에 도달시킨 성과를 축하하면서, 미국 규제당국의 기업 친화적 정책의 중요성을 지적했다. 리하초프는 러시아가 소형모듈원자로(SMR) 분야에서 지도적 위치를 유지하려면 인허가 접근 방식을 근본적으로 재검토해야 한다는 입장을 밝혔다. 이는 선진국의 규제 선진화에 대응하는 러시아의 정책 검토 의사를 보여주는 발언이다.",
+  "cat": "기술",
+  "type": "Micro",
+  "dev": "Rosatom",
+  "region": "US",
+  "source": "World Nuclear News",
+  "url": "https://www.world-nuclear-news.org/articles/fresh-look-needed-at-licensing-approach-for-small-reactors---likhachev",
+  "k": "fresh look needed at licensing approach for small reactors",
+  "id": "5e02a1d7"
+ },
+ {
   "date": "2026-07-05",
   "title": "한국형 SMR 특별법 9월 시행…시장성·개발 속도 과제 직면",
   "summary": "소형모듈원자로(SMR) 특별법이 9월부터 시행되면서 한국형 SMR이 제도 지원을 받지만, 시장성과 개발 속도라는 과제를 마주하고 있다.",
@@ -867,34 +881,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-02",
-  "title": "팰리세이즈 재가동 프로젝트, 주요 단계 완료",
-  "summary": "대형 원전인 팰리세이즈(Palisades)의 재가동 프로젝트가 주요 공사 마무리 단계에 진입하고 일상적 유지보수 및 운영 준비 작업으로 전환했다.",
-  "summaryLong": "홀텍 인터내셔널(Holtec International)이 운영하는 팰리세이즈 원전 재가동 프로젝트가 대규모 공사 단계를 완료하고 남은 일상적 유지보수, 시험, 점검, 운영 준비 작업 단계로 전환했다고 발표했다. 이는 재가동까지의 절차에서 중요한 이정표(milestone)를 달성한 것으로 평가된다. 다만 팰리세이즈는 대형 가압경수로(PWR)로서 소형모듈원자로와 무관한 사업이다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "홀텍",
-  "region": "US",
-  "source": "Holtec International",
-  "url": "https://holtecinternational.com/hh-41-10/",
-  "k": "palisades methodical march toward restart reaches a major milestone",
-  "id": "7bf0cb4a"
- },
- {
-  "date": "2026-07-02",
-  "title": "미국 세 번째 마이크로원자로 임계 도달, 7월 4일 목표 달성",
-  "summary": "디플로어블 에너지(Deployable Energy)의 유니티(Unity) 시연 원자로가 아이다호 국립원자로혁신센터(NRIC)에서 초기 임계 도달, 2026년 7월 4일 미국 에너지부(DOE) 목표 달성.",
-  "summaryLong": "디플로어블 에너지(Deployable Energy)의 유니티(Unity) 시연 원자로가 아이다호 국립원자로혁신센터(National Reactor Innovation Center, NRIC)에서 초기 임계(Initial Criticality)에 도달함으로써, 미국이 지난해 설정한 마이크로원자로 세 기 임계 달성 목표를 완료했다. 이는 미국 에너지부(DOE) 인가하에 달성한 미국 에너지 정책의 핵심 마일스톤으로, 첨단 소형 원자로 기술 개발의 실질적 진전을 나타낸다.",
-  "cat": "기술",
-  "type": "Micro",
-  "dev": "Deployable Energy",
-  "region": "US",
-  "source": "World Nuclear News",
-  "url": "https://www.world-nuclear-news.org/articles/criticality-for-third-us-reactor-ahead-of-4-july-deadline",
-  "k": "criticality for third us reactor ahead of 4 july deadline",
-  "id": "8b69fbcf"
- },
- {
-  "date": "2026-07-02",
   "title": "억만장자, 영국 소형모듈원자로 전개에 350억 파운드 투자 계획",
   "summary": "억만장자가 영국 내 소형모듈원자로(SMR) 대규모 보급에 350억 파운드 규모 투자를 발표.",
   "summaryLong": "억만장자 투자자가 영국(UK) 전역의 소형모듈원자로(SMR, Small Modular Reactor) 보급 확대를 위해 350억 파운드(약 44조 원) 규모의 대규모 투자 계획을 발표했다. 가디언(The Guardian)이 보도한 바와 같이 이는 영국의 탄소중립 에너지 전환과 에너지 안보 강화에 부응하는 민간 부문의 대규모 투자 움직임을 보여준다. 구체적 기업명, 일정, 기술 사양은 기사 스니펫에 명시되지 않았으나, SMR 산업의 상용화 자금 조달 관점에서 주목할 만한 투자 신호다.",
@@ -1414,5 +1400,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-07 07:47 KST";
-window.SMR_TOTAL = 1097;
+window.SMR_UPDATED = "2026-07-07 08:17 KST";
+window.SMR_TOTAL = 1098;

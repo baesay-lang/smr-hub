@@ -197,6 +197,20 @@ window.SMR_NEWS = [
     "id": "5f875523"
   },
   {
+    "date": "2026-07-06",
+    "title": "소형원자로 인허가 접근 방식 재검토 필요 — 리하초프",
+    "summary": "로사톰(Rosatom) 총장이 미국의 마이크로원자로 3기 임계 달성을 축하하며, 러시아도 소형로 인허가 규제를 재정비해야 경쟁력을 유지할 수 있다고 언급했다.",
+    "summaryLong": "로사톰(Rosatom)의 알렉세이 리하초프(Alexei Likhachev) 총장은 미국이 마이크로원자로 3기를 임계 상태에 도달시킨 성과를 축하하면서, 미국 규제당국의 기업 친화적 정책의 중요성을 지적했다. 리하초프는 러시아가 소형모듈원자로(SMR) 분야에서 지도적 위치를 유지하려면 인허가 접근 방식을 근본적으로 재검토해야 한다는 입장을 밝혔다. 이는 선진국의 규제 선진화에 대응하는 러시아의 정책 검토 의사를 보여주는 발언이다.",
+    "cat": "기술",
+    "type": "Micro",
+    "dev": "Rosatom",
+    "region": "US",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/fresh-look-needed-at-licensing-approach-for-small-reactors---likhachev",
+    "k": "fresh look needed at licensing approach for small reactors",
+    "id": "5e02a1d7"
+  },
+  {
     "date": "2026-07-05",
     "title": "한국형 SMR 특별법 9월 시행…시장성·개발 속도 과제 직면",
     "summary": "소형모듈원자로(SMR) 특별법이 9월부터 시행되면서 한국형 SMR이 제도 지원을 받지만, 시장성과 개발 속도라는 과제를 마주하고 있다.",
@@ -15757,4 +15771,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-07 07:47 KST";
+window.SMR_UPDATED = "2026-07-07 08:17 KST";
