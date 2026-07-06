@@ -204,6 +204,82 @@ window.SMR_NEWS = [
   "id": "5e02a1d7"
  },
  {
+  "date": "2026-07-06",
+  "title": "한수원, 국제안전보건전시회서 혁신형 소형모듈원자로(iSMR) 선보여",
+  "summary": "한국수력원자력(한수원)이 6~9일 고양 킨텍스(KINTEX)에서 열린 '2026 국제안전보건전시회(KISS 2026)'에 참가해 차세대 기술인 혁신형 소형모듈원자로(iSMR) 모형을 전시하고 안전설계 기술과 다목적 활용성을 홍보했다.",
+  "summaryLong": "한국수력원자력(한수원)이 6~9일 고양 킨텍스(KINTEX)에서 개최된 국내 최대 규모 산업안전보건 전문 전시회인 '2026 국제안전보건전시회(KISS 2026)'에 참가했다. 한수원은 '기술 혁신과 사람 중심의 안전'을 주제로 홍보 부스를 운영하며, 차세대 주력 기술인 혁신형 소형모듈원자로(iSMR)의 모형을 전면에 내세웠다. 이를 통해 한층 강화된 안전설계 기술과 다목적 활용성을 선보임으로써 한수원의 첨단 기술력을 전방위로 과시했다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "한수원",
+  "region": "KR",
+  "source": "투데이에너지 - 전체기사",
+  "url": "https://www.todayenergy.kr/news/articleView.html?idxno=300003",
+  "k": "한수원 2026 국제안전보건전시회 참가",
+  "ko": 1,
+  "id": "9a5de0f0"
+ },
+ {
+  "date": "2026-07-06",
+  "title": "소형모듈원자로에 큰 포부 — 인도",
+  "summary": "인도에서 소형모듈원자로 기술에 대한 큰 기대와 포부를 표현하고 있다.",
+  "summaryLong": "인도에서 소형모듈원자로(SMR) 기술이 국가의 에너지 정책과 기후 목표 달성에 중요한 역할을 할 것으로 기대하고 있다. 소형모듈원자로는 인도의 원격 지역 전력 공급, 산업 열 수요 충족, 에너지 독립 실현 등 다양한 용도에 활용될 가능성이 있어 정부와 산업계의 관심이 증가하고 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "",
+  "source": "hindustantimes.com",
+  "url": "https://www.hindustantimes.com/ht-insight/governance/big-aspirations-for-small-modular-reactor-101783336880641.html",
+  "k": "big aspirations for small modular reactor hindustan times",
+  "op": 1,
+  "id": "b2920f3f"
+ },
+ {
+  "date": "2026-07-06",
+  "title": "영국 칠턴 바이탈-케임브리지 아톰웍스, 소형원자로 '오딘' 연구개발 협력 의향서 체결",
+  "summary": "영국의 칠턴 바이탈(Chilton Vital)과 케임브리지 아톰웍스(Cambridge Atomworks)가 소형원자로 '오딘(Odin)' 개발을 위한 연구개발 협력 의향서를 체결했다.",
+  "summaryLong": "영국의 칠턴 바이탈(Chilton Vital)과 케임브리지 아톰웍스(Cambridge Atomworks)가 소형모듈원자로 '오딘(Odin)' 프로젝트의 연구개발을 추진하기 위해 협력 의향서(MOU)를 공식 체결했다. 이 협약을 통해 양사는 오딘 원자로의 설계, 개발, 기술 검증 등에 공동으로 참여하게 된다. 이는 영국 내 소형모듈원자로 개발 생태계 확대와 산업 파트너십 강화를 의미한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "칠턴 바이탈, 케임브리지 아톰웍스",
+  "region": "UK",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=4885",
+  "k": "칠턴 바이탈 케임브리지 아톰웍스 소형원자로 오딘 연구개발 협력 의향서 체결",
+  "ko": 1,
+  "id": "4a63d329"
+ },
+ {
+  "date": "2026-07-06",
+  "title": "건설사의 SMR 시장 진출, 실적 확보가 관건",
+  "summary": "건설사들이 'SMR을 미래 먹거리'로 보고 진출하고 있으며, 시장에서의 실적 확보가 경쟁력 확보의 핵심 과제로 지적되고 있다.",
+  "summaryLong": "국내 건설사들이 소형모듈원자로(SMR) 사업을 '미래 먹거리'로 인식하고 시장 진출을 추진 중이다. 건설업계는 SMR이 새로운 성장 동력이 될 것으로 기대하고 있으나, 시장 진입 초기 단계에서 실제 수주 실적과 프로젝트 경험 확보가 경쟁 우위 확보의 중요한 변수로 작용할 것으로 보인다. 이는 국내 건설사의 원자력 산업 다각화 전략을 반영한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "kukinews.com",
+  "url": "https://www.kukinews.com/article/view/kuk202607060193",
+  "k": "미래 먹거리 smr 뛰어든 건설사 실적 확보가 관건",
+  "ko": 1,
+  "id": "5ad244f0"
+ },
+ {
+  "date": "2026-07-06",
+  "title": "창원대, SMR 연구개발 거점으로의 도약 기대",
+  "summary": "창원대학교(Changwon University)가 소형모듈원자로(SMR) 연구개발의 거점 기관으로 역할하는 것에 대한 기대감이 제시되고 있다.",
+  "summaryLong": "창원대학교가 소형모듈원자로(SMR) 연구개발의 중추적 거점으로 도약할 것으로 예상되고 있다. 해당 대학이 SMR 분야 연구개발을 추진하면서 국내 SMR 산업 생태계 확대 및 인재 양성 등 긍정적 역할을 할 것으로 기대되고 있다. 이는 대학 기관이 원자력 기술 연구 허브로서의 위상을 강화하려는 움직임을 반영한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "창원대",
+  "region": "KR",
+  "source": "segye.com",
+  "url": "https://www.segye.com/newsView/20260706513968",
+  "k": "창원대 smr 연구개발 거점 도약 기대",
+  "ko": 1,
+  "op": 1,
+  "id": "e6d9066a"
+ },
+ {
   "date": "2026-07-05",
   "title": "한국형 SMR 특별법 9월 시행…시장성·개발 속도 과제 직면",
   "summary": "소형모듈원자로(SMR) 특별법이 9월부터 시행되면서 한국형 SMR이 제도 지원을 받지만, 시장성과 개발 속도라는 과제를 마주하고 있다.",
@@ -809,78 +885,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-02",
-  "title": "동나이성, SMR 활용 시범 원전 선도 추진",
-  "summary": "베트남의 동나이(Dong Nai)성이 소형모듈원자로(SMR)를 활용한 시범 원전 구축을 선도적으로 추진할 계획이다.",
-  "summaryLong": "베트남의 동나이(Dong Nai)성이 소형모듈원자로(SMR)를 활용한 시범 원자력발전소 구축을 선도하려는 계획을 추진 중인 것으로 보도되었다. 베트남은 에너지 수요 증가와 탄소중립 목표 달성을 위해 SMR과 같은 첨단 원자력 기술 도입을 검토하고 있으며, 동나이성의 이 계획은 동남아시아 지역 내 SMR 도입의 선도 사례로 평가된다. 이는 글로벌 SMR 시장 확대와 개도국의 원자력 에너지 활용 추세를 반영하는 사례이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "",
-  "source": "en.vneconomy.vn",
-  "url": "https://en.vneconomy.vn/dong-nai-seeks-to-pioneer-pilot-nuclear-power-plant-using-small-modular-reactors.htm",
-  "k": "dong nai seeks to pioneer pilot nuclear power plant using small modular reactors",
-  "id": "887f97c1"
- },
- {
-  "date": "2026-07-02",
-  "title": "삼성물산, 영국 72조 규모 SMR 14기 건설 프로젝트 참여",
-  "summary": "삼성물산이 영국(UK)의 72조 원대 규모 SMR 14기 건설 프로젝트에 참여한다.",
-  "summaryLong": "삼성물산이 영국(UK)에서 추진 중인 약 72조 원 규모의 소형모듈원자로(SMR) 14기 건설 프로젝트에 참여하는 것으로 보도되었다. 이 프로젝트는 영국의 에너지 안보 강화와 탄소 중립 달성을 위한 대규모 SMR 사업으로, 삼성물산의 참여는 한국 건설 기업의 글로벌 SMR 시장 진출을 의미한다. 해당 사업을 통해 삼성물산은 설계·건설·운영 분야에서 국제 경쟁력을 입증할 수 있는 기회를 갖게 되며, 한국의 SMR 기술과 건설 역량을 국제 시장에 알릴 수 있을 것으로 기대된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "삼성물산",
-  "region": "UK",
-  "source": "theguru.co.kr",
-  "url": "https://theguru.co.kr/news/article.html?no=103879",
-  "k": "단독 삼성물산 72조 규모 smr 14기 건설 프로젝트 참여",
-  "ko": 1,
-  "id": "0a14ed12"
- },
- {
-  "date": "2026-07-02",
-  "title": "현대건설, SMR에 베팅···AI 시대 원전의 역할 강조",
-  "summary": "현대건설이 SMR 개발·사업에 전략적으로 투자하며, AI 시대 원자력의 중요성을 강조하고 있다.",
-  "summaryLong": "현대건설이 소형모듈원자로(SMR) 사업에 경영 전략적으로 베팅하고 있는 것으로 보도되었다. 현대건설은 AI 시대 에너지 수요 급증 상황에서 원자력, 특히 SMR이 핵심 전원으로 부상할 것으로 전망하며, SMR 개발 및 상용화에 역량을 집중하고 있다. 이는 한국의 대형 건설사가 글로벌 SMR 시장의 성장 가능성을 인식하고 선제적으로 대응하려는 움직임으로, SMR이 미래 에너지원으로서 산업계의 주목을 받고 있음을 보여주는 사례이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "현대건설",
-  "region": "KR",
-  "source": "cnbnews.com",
-  "url": "https://www.cnbnews.com/news/articleView.html?idxno=1006305",
-  "k": "내예기 ai 시대 원전이 답이다 smr에 베팅한 현대건설",
-  "ko": 1,
-  "id": "d938ed52"
- },
- {
-  "date": "2026-07-02",
-  "title": "오클로(Oklo), 미국 에너지부(DOE) 원자로 안전 승인 후 주목 집중",
-  "summary": "오클로(Oklo)가 미국 에너지부(DOE)의 원자로 안전 승인을 획득하며 시장의 관심이 증대되고 있다.",
-  "summaryLong": "오클로(Oklo)가 미국 에너지부(DOE)로부터 원자로 안전 승인(reactor safety approval)을 획득했으며, 이를 계기로 투자자와 업계의 주목이 집중되고 있다. 뉴욕증권거래소(NYSE) 상장 회사인 오클로의 이번 규제 승인은 첨단 소형모듈원자로 기술의 안전성이 정부 차원에서 공식 인정받은 것으로, 상용화 시간표 단축과 자금 조달 용이성 측면에서 긍정적 신호다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "kalkinemedia.com",
-  "url": "https://kalkinemedia.com/us/stocks/energy/oklo-nyseoklo-gains-focus-after-doe-reactor-safety-approval",
-  "k": "oklo nyse oklo gains focus after doe reactor safety approval",
-  "id": "eefe5f39"
- },
- {
-  "date": "2026-07-02",
-  "title": "SGE 주도팀, 영국에 BWRX-300 소형모듈원자로 14기 배치 추진",
-  "summary": "폴란드의 SGE와 삼성물산(Samsung C&T), Laing O'Rourke, Aecon Group, 구글 클라우드(Google Cloud)로 구성된 배치팀이 영국 3개 부지에 지이-버노바-히타치(GE Vernova Hitachi) BWRX-300 소형모듈원자로 14기의 민간 자금 배치 계획을 발표했다.",
-  "summaryLong": "폴란드의 에너지 회사 SGE가 삼성물산, 영국 건설사 Laing O'Rourke, 캐나다 건설사 Aecon Group, 구글 클라우드와 함께 영국 전역 3개 부지에 GE 버노바 히타치(GE Vernova Hitachi) 비등경수로형(BWRX-300) 소형모듈원자로 총 14기를 배치하는 계획을 공개했다. 이 프로젝트는 민간 자금으로 추진되며, 영국의 에너지 안보와 탄소중립 목표를 지원하는 주요 계획으로 평가된다. 배치팀의 구성에 삼성물산과 한국 기업이 포함된 점이 주목된다.",
-  "cat": "기술",
-  "type": "BWR",
-  "dev": "GE 버노바",
-  "region": "UK",
-  "source": "World Nuclear News",
-  "url": "https://www.world-nuclear-news.org/articles/sge-team-targets-14-bwrx300-smrs-uk",
-  "k": "sge led team targets 14 bwrx 300 smrs in uk",
-  "id": "726d67ed"
- },
- {
-  "date": "2026-07-02",
   "title": "억만장자, 영국 소형모듈원자로 전개에 350억 파운드 투자 계획",
   "summary": "억만장자가 영국 내 소형모듈원자로(SMR) 대규모 보급에 350억 파운드 규모 투자를 발표.",
   "summaryLong": "억만장자 투자자가 영국(UK) 전역의 소형모듈원자로(SMR, Small Modular Reactor) 보급 확대를 위해 350억 파운드(약 44조 원) 규모의 대규모 투자 계획을 발표했다. 가디언(The Guardian)이 보도한 바와 같이 이는 영국의 탄소중립 에너지 전환과 에너지 안보 강화에 부응하는 민간 부문의 대규모 투자 움직임을 보여준다. 구체적 기업명, 일정, 기술 사양은 기사 스니펫에 명시되지 않았으나, SMR 산업의 상용화 자금 조달 관점에서 주목할 만한 투자 신호다.",
@@ -893,21 +897,6 @@ window.SMR_NEWS = [
   "k": "billionaire to invest 35bn in small modular nuclear reactors rollout across uk",
   "op": 1,
   "id": "34188c79"
- },
- {
-  "date": "2026-07-02",
-  "title": "삼성물산, 72조 규모 영국 SMR 14기 건설 프로젝트 참여 신청",
-  "summary": "삼성물산이 영국의 소형모듈원자로(SMR) 14기 건설 프로젝트(72조 규모)에 참여 신청했다.",
-  "summaryLong": "삼성물산이 영국에서 추진 중인 규모 72조 원의 소형모듈원자로(SMR) 14기 건설 프로젝트에 참여할 것을 신청했다고 보도되었다. 이는 한국 대형 엔지니어링·건설사의 글로벌 SMR 시장 진출 의지를 보여주는 사례로, 영국의 에너지 정책 추진과 민간 자금 활용 전략 속에서 국제 파트너십이 확대되고 있음을 의미한다. 향후 협상 진행 및 계약 체결 여부가 주목되고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "Samsung E&C",
-  "region": "UK",
-  "source": "theguru.co.kr",
-  "url": "https://theguru.co.kr/news/article.html?no=103879",
-  "k": "단독 삼성물산 72조 규모 smr 14기 건설 프로젝트 참여 신청",
-  "ko": 1,
-  "id": "0a14ed12"
  },
  {
   "date": "2026-07-01",
@@ -1400,5 +1389,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-07 08:17 KST";
-window.SMR_TOTAL = 1098;
+window.SMR_UPDATED = "2026-07-07 08:49 KST";
+window.SMR_TOTAL = 1103;
