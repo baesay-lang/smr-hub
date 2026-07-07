@@ -189,6 +189,51 @@ window.SMR_NEWS = [
   "id": "74366ca4"
  },
  {
+  "date": "2026-07-07",
+  "title": "한·미·일, 인도·태평양 지역 SMR 도입 협력 추진",
+  "summary": "한국, 미국, 일본이 인도·태평양 지역 국가에 소형모듈원자로(SMR) 도입을 촉진하기 위한 협력을 추진 중이다.",
+  "summaryLong": "한국, 미국, 일본이 인도·태평양 지역 국가에 소형모듈원자로(SMR) 도입을 가속화하기 위한 협력을 추진 중이다. 미국 국무부는 한국과 일본을 중요한 동맹국으로 평가하며, 지난 3~4년간 양국 관계가 더욱 공고해졌다고 밝혔다. 3국의 협력은 데이터센터 확대 등으로 증가하는 전력 수요를 충족하기 위한 청정에너지 솔루션으로서 SMR 도입을 촉진하는 데 초점을 맞추고 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "US|KR|JP",
+  "source": "연합뉴스 최신기사",
+  "url": "https://www.yna.co.kr/view/AKR20260708001952071",
+  "k": "국무 한일 중요한 동맹 관계 지난 3 4년간 더 공고해져 종합",
+  "ko": 1,
+  "id": "a2ac80e7"
+ },
+ {
+  "date": "2026-07-07",
+  "title": "김형칠 기장군 장안읍이장협의회장 '수십 년 원전과 공존, SMR은 생존이자 미래'",
+  "summary": "기장군 지역 인사가 SMR을 지역 발전의 핵심으로 언급하는 발언을 했다.",
+  "summaryLong": "경상남도 기장군 장안읍 이장협의회장이 SMR을 해당 지역의 생존과 미래 발전의 수단으로 표현하며 긍정적 입장을 드러냈다. 이는 현재 SMR 후보지 선정이 추진되고 있는 가운데 지역 주민 대표가 에너지 정책 변화에 대한 기대감을 나타낸 것으로, 지역 수용성 관련 논의를 반영한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "news.nate.com",
+  "url": "https://news.nate.com/view/20260708n04338",
+  "k": "김형칠 기장군 장안읍이장협의회장 수십년 원전과 공존 smr은 생존이자 미래 원전 후보지 현장",
+  "ko": 1,
+  "id": "537d4346"
+ },
+ {
+  "date": "2026-07-07",
+  "title": "한·미·일, 1천만 달러 규모 SMR 동맹…인태 에너지 지각변동 예고",
+  "summary": "한·미·일이 1천만 달러 규모의 SMR 협력 동맹을 구성하며 인태 지역 에너지 구도 변화를 예고했다.",
+  "summaryLong": "한국, 미국, 일본이 소형모듈원자로(SMR) 분야에서 1천만 달러(USD 10 million) 규모의 협력 동맹을 구성했다. 이는 3국이 인태 지역의 SMR 도입을 통해 에너지 구도 변화를 주도하겠다는 전략적 의도를 보여주며, 지역 내 에너지 안보와 기후변화 대응을 위한 실질적 협력 체계 구축을 의미한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "news.jkn.co.kr",
+  "url": "https://news.jkn.co.kr/post/938111",
+  "k": "한미일 1천만 smr 동맹 인태 에너지 지각변동 예고 기업 산업",
+  "ko": 1,
+  "id": "a262b40a"
+ },
+ {
   "date": "2026-07-06",
   "title": "[사설] SMR 첫 삽, 기회로의 전환",
   "summary": "캐나다 온타리오(Ontario)주의 300MW급 소형모듈원자로(SMR) 4기 건설 착공을 계기로 SMR이 현실적 대안으로 자리 잡고 있으며, 국내 제조업체들의 포트폴리오 접근 전략을 평가하는 사설.",
@@ -482,6 +527,21 @@ window.SMR_NEWS = [
   "k": "한수원 i smr 안전성 활용성 등 앞선 기술력 전방위 과시",
   "ko": 1,
   "id": "6904671f"
+ },
+ {
+  "date": "2026-07-06",
+  "title": "환경운동연합 '신규 원전·SMR 선정 철회하라'",
+  "summary": "환경운동연합이 신규 원전과 SMR 선정 철회를 요구하는 입장을 표명했다.",
+  "summaryLong": "환경운동연합이 정부의 신규 원전 건설 및 소형모듈원자로(SMR) 후보지 선정에 대해 철회를 요구하는 성명을 발표했다. 이는 환경 단체의 원전 정책에 대한 반대 입장을 나타내는 것으로, SMR의 정책적 추진과 관련된 사회적 논쟁을 반영한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "tbc.co.kr",
+  "url": "https://www.tbc.co.kr/news/view?pno=20260706150708AE01971&id=208099&c1=code&c2=",
+  "k": "환경운동연합 신규 원전 smr 선정 철회하라",
+  "ko": 1,
+  "id": "02e0bbb6"
  },
  {
   "date": "2026-07-05",
@@ -826,62 +886,6 @@ window.SMR_NEWS = [
   "k": "kins 원전 전력계통 안전성 고도화 시동 smr 디지털 시대 규제 혁신도 함께 가야",
   "ko": 1,
   "id": "7d959131"
- },
- {
-  "date": "2026-07-03",
-  "title": "팰리세이즈 대형로 재가동 최종 단계 진입",
-  "summary": "홀텍 인터내셔널(Holtec International)이 팰리세이즈(Palisades) 대형원전 재가동 프로젝트가 대규모 공사를 완료하고 시운전 준비 단계로 진입했다고 발표했다.",
-  "summaryLong": "홀텍 인터내셔널이 팰리세이즈 대형원전 재가동 사업의 주요 공사가 성공적으로 완료되어 '분수령의 순간'에 도달했다고 발표했다. 동사는 지난 몇 주간 대규모 프로젝트들을 마무리하고 현재 일상적 유지보수, 시험, 검사 및 시운전 전 운영 준비 작업으로 전환했다고 설명했다. 이는 재가동 허가 전 최종 단계로, 구체적인 재가동 일정은 별도 공시될 것으로 보인다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "Holtec",
-  "region": "US",
-  "source": "World Nuclear News",
-  "url": "https://www.world-nuclear-news.org/articles/palisades-enters-final-stage-of-work-before-restart",
-  "k": "palisades enters final stage of work before restart",
-  "id": "d4bcae01"
- },
- {
-  "date": "2026-07-03",
-  "title": "SGE, 영국(UK)에 BWRX-300 소형모듈원자로 14기 구축 계획",
-  "summary": "폴란드의 소형모듈원자로(SMR) 개발사 SGE가 영국의 3곳 부지에 GE 베르노바 히타치 뉴클리어 에너지(GE Vernova Hitachi Nuclear Energy, GVH) BWRX-300 14기를 배치하는 4.2기가와(GW) 규모 프로젝트를 발표했다.",
-  "summaryLong": "폴란드 기반 소형모듈원자로(SMR) 개발사 SGE가 7월 2일 영국(UK)의 3개 부지에 GE 베르노바 히타치 뉴클리어 에너지(GE Vernova Hitachi Nuclear Energy, GVH)의 BWRX-300 기반로(Boiling Water Reactor, BWR) 14기를 배치하는 계획을 공개했다. 총 4.2기가와(GW) 규모의 민간 자금 조달 사업으로, 영국 전력 수요의 약 11%를 충당할 수 있을 것으로 예상된다. SGE는 해당 계획을 영국 규제당국에 신청서로 제출했으며, 이는 영국의 소형모듈원자로 상용화 추진의 주요 사례가 될 것으로 보인다.",
-  "cat": "기술",
-  "type": "BWR",
-  "dev": "SGE",
-  "region": "UK",
-  "source": "POWER Magazine",
-  "url": "https://www.powermag.com/sge-bids-to-build-14-bwrx-300-smrs-across-the-u-k-in-4-2-gw-fleet-play/",
-  "k": "sge bids to build 14 bwrx 300 smrs across the uk in 4 2 gw fleet play",
-  "id": "ae9202c4"
- },
- {
-  "date": "2026-07-03",
-  "title": "핀란드 LDR-50 SMR 안전성 국제 검토 완료",
-  "summary": "핀란드 원자력 규제기관이 체코, 폴란드, 스웨덴, 우크라이나 규제기관과 함께 스테디 에너지(Steady Energy)의 LDR-50 소형모듈원자로에 대한 국제 안전 검토(Joint Early Review)를 완료했다.",
-  "summaryLong": "핀란드 원자력 규제기관이 체코(Czech Republic), 폴란드(Poland), 스웨덴(Sweden), 우크라이나(Ukraine) 규제기관들과 협력하여 스테디 에너지(Steady Energy)의 LDR-50 SMR 반응로에 대한 연합 조기검토(Joint Early Review, JER)를 완료하고 요약 보고서를 발표했다. LDR-50은 지역난방용 소형모듈원자로로, 이번 국제 안전 검토는 여러 유럽 국가의 규제 기준에 대한 사전 평가 의견(GDA, Generic Design Assessment 성격)을 제공한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "Steady Energy",
-  "region": "EU",
-  "source": "World Nuclear News",
-  "url": "https://www.world-nuclear-news.org/articles/international-safety-review-of-finnish-smr-design-completed",
-  "k": "international safety review of finnish smr design completed",
-  "id": "082d43f9"
- },
- {
-  "date": "2026-07-03",
-  "title": "래디언트 칼레이도스 마이크로로, 아이다호 국립연구소에서 연료 시험 시작",
-  "summary": "래디언트(Radiant)의 칼레이도스(Kaleidos) 마이크로로 기술에 사용될 TRISO 연료가 미국 아이다호 국립연구소(Idaho National Laboratory)의 마이크로로 실증 시설에 인도되어 풀파워 풀온도 시운전이 시작된다.",
-  "summaryLong": "래디언트(Radiant)의 마이크로로 기술인 칼레이도스(Kaleidos)의 개발을 위해 TRISO 연료 첫 배치가 미국 에너지부(DOE) 산하 아이다호 국립연구소(Idaho National Laboratory)의 마이크로로 실증 센터(Demonstration of Microreactor Experiments, DOME)에 인도되었다. 이 시설에서 칼레이도스는 풀파워·풀온도 조건에서의 종합적 성능 검증을 진행하게 되며, 마이크로로 기술의 상용화로 향하는 중요한 마일스톤이다.",
-  "cat": "기술",
-  "type": "Micro",
-  "dev": "Radiant",
-  "region": "US",
-  "source": "World Nuclear News",
-  "url": "https://www.world-nuclear-news.org/articles/triso-fuel-delivered-for-kaleidos-reactor-experiment",
-  "k": "triso fuel delivered for kaleidos reactor experiment",
-  "id": "c0dba29a"
  },
  {
   "date": "2026-07-01",
@@ -1332,5 +1336,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-08 08:11 KST";
-window.SMR_TOTAL = 1097;
+window.SMR_UPDATED = "2026-07-08 08:41 KST";
+window.SMR_TOTAL = 1101;
