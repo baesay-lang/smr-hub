@@ -69,7 +69,12 @@ const PRIORITY_DEVS = [
 // hosts excluded entirely — dead, blocked-in-Korea (SNI reset → ERR_CONNECTION_CLOSED), or
 // low-quality SEO/stock republishers whose links don't open for users. Checked against the
 // RESOLVED final URL (after the Google News redirect is unwound), in ensureDetail.
-const BLOCK_HOSTS = ['foreignpolicyjournal.com'];
+const BLOCK_HOSTS = [
+  'foreignpolicyjournal.com',
+  // stock-analysis content mills — republished promo/analysis, not news; their pages often serve
+  // T&C/ad boilerplate instead of article bodies (→ junk 전문)
+  'icicidirect.com', 'kalkinemedia.com', 'simplywall.st', 'gurufocus.com', 'stocktwits.com', 'tradingview.com',
+];
 const isBlockedHost = (url) => BLOCK_HOSTS.some(h => (url||'').includes(h));
 
 // 시황·주가 노이즈 필터 — SMR 레퍼런스에는 "주가 급등/급락·애널리스트 매수의견·지수 편출입" 류가
@@ -266,7 +271,7 @@ function classifyPrompt(input){
   return `아래는 원자력 뉴스 후보 목록이다. 각 항목을 SMR(소형모듈원자로)·첨단로 레퍼런스 사이트용으로 태깅하라.
 각 항목마다 JSON 객체를 만들어라:
 {"i":번호,
- "relevant":SMR·첨단로·관련 개발사/연료/인허가/계약/정책이면 true, 일반 대형원전·무관 뉴스면 false,
+ "relevant":SMR·첨단로·관련 개발사/연료/인허가/계약/정책이면 true, 일반 대형원전·무관 뉴스면 false. 광고·홍보물·기업 이용약관·로펌의 투자자 소송 상담 권유·단순 주식 매매 권유도 false(개발사 이름이 있어도). 단, 개발사의 실제 사업·기술·계약·인허가 소식은 true,
  "titleKo":한국어 제목(간결, 핵심만),
  "summary":한국어 1~2문장 요약,
  "summaryLong":한국어 4~5문장 상세 요약(무엇이 일어났는지 + 당사자·배경·핵심 수치·일정·의미/전망까지 풍부하게. 제공된 제목·스니펫을 근거로 작성하고, 없는 구체적 수치·날짜는 지어내지 말 것 — 클릭 시 모달 상세 보기용),
@@ -427,7 +432,7 @@ function writeRecent(list, updated){
    shells with no body → returns '' and we fall back to the snippet. */
 // aggregators / CMS that serve no usable article body (only comments, rankings, ad/sidebar
 // boilerplate) → skip the fetch and fall back to the snippet (grounded=false, summary-only)
-const NO_BODY_HOSTS = ['news.google.', 'nate.com', 'kookje.co.kr'];
+const NO_BODY_HOSTS = ['news.google.', 'nate.com', 'kookje.co.kr', 'asiatoday.co.kr', 'ajunews.com'];
 async function fetchBody(url){
   if (!url || NO_BODY_HOSTS.some(h => url.indexOf(h) !== -1)) return '';
   const ctrl = new AbortController(); const to = setTimeout(()=>ctrl.abort(), 15000);
@@ -498,6 +503,10 @@ async function resolveGoogleNews(url){
   } catch(e){ return url; }
 }
 
+/* detailKo가 기사 정리가 아니라 '본문이 잡음/약관/무관하다'는 메타 판정문인 경우를 탐지.
+   이런 텍스트는 독자에게 절대 노출하면 안 됨 — 본문을 버리고 제목·요약으로 재생성한다. */
+const JUNK_DETAIL = /인코딩 오류|제대로 읽을 수 없|본문( 내용)?이 손상|재제공을 요청|정상적으로 인코딩|무관한 내용|이용\s?약관|메타데이터 오류|추출할 수 없|본문이 아니라|원형 정보 없음|연결고리가 없어/;
+
 /* AI 전문(detail) — comprehensive Korean digest (KO [+EN] + term glossary). Grounded in the real
    article body when available (direct outlets); else built from the snippet. A transformative
    digest covering all key points — NOT a verbatim copy (copyright). */
@@ -540,6 +549,11 @@ ${src}
       if (!m) return null;
       const d = JSON.parse(m[0]);
       if (!d.detailKo) return null;
+      if (JUNK_DETAIL.test(String(d.detailKo))){
+        // 모델이 본문을 약관/광고/무관 콘텐츠로 판정 → 그 판정문을 싣지 말고 제목·요약만으로 재생성
+        if (hasBody){ console.log(`junk body detected (${(item.title||'').slice(0,30)}…) — regenerating snippet-only`); return generateDetail(item, ''); }
+        return null;
+      }
       return { detailKo: String(d.detailKo||''), detailEn: isKo ? '' : String(d.detailEn||''), terms: Array.isArray(d.terms) ? d.terms.slice(0,8) : [], grounded: hasBody };
     } catch(e){ clearTimeout(to); if (attempt === 2){ console.error(`detail gen fail: ${e.message}`); return null; } await sleep(1500); }
   }
@@ -624,7 +638,7 @@ async function refreshTermsAll(){
 
 /* one-time (env REGEN_BAD=true): regenerate detail JSONs whose detailKo is a mojibake-complaint
    ("인코딩 오류로 읽을 수 없다" 등) — re-fetch the body with the charset-aware fetchBody and rebuild. */
-const BAD_DETAIL = /인코딩 오류|제대로 읽을 수 없|본문( 내용)?이 손상|재제공을 요청|정상적으로 인코딩/;
+const BAD_DETAIL = JUNK_DETAIL;   // regen mode uses the same junk-detail detection
 async function regenBadDetails(items){
   fs.mkdirSync(ARTICLES_DIR, { recursive: true });
   const byId = new Map(items.map(n => [n.id, n]));
@@ -699,7 +713,8 @@ async function main(){
     const src = candidates[i];
     if (!c && src.priority) c = ruleTag(src);   // classifier missed/failed but it's one of our 13 devs → keep (rule-based tags)
     if (!c) return;
-    if (c.relevant === false && !src.priority) return;   // 13-dev news kept even if classifier says off-topic
+    if (c.relevant === false) return;   // 명시적 무관 판정은 우선 개발사(priority)여도 존중 — 광고·소송 권유·약관류 차단
+                                        // (priority rescue는 분류 자체가 실패한 경우(c==null)에만 적용)
     const title = (c.titleKo || src.title).trim();
     if (!title || seenTitles.has(title)) return;
     seenTitles.add(title);

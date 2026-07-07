@@ -40,20 +40,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-07-06",
-    "title": "홀텍, 인도 NTPC·베단타와 15GW SMR 파이프라인 협력 추진",
-    "summary": "홀텍(Holtec)이 인도의 NTPC(인도국영발전공사)·베단타(Vedanta)와 15GW 규모의 소형모듈원자로(SMR) 사업 파이프라인을 구축하려고 한다.",
-    "summaryLong": "홀텍(Holtec)이 인도의 주요 발전공사인 NTPC(인도국영발전공사)와 광물·금속 대기업 베단타(Vedanta)와 협력하여 15기가와트(GW) 규모의 소형모듈원자로(SMR) 공급 파이프라인을 추진하고 있다. 이 협력은 인도의 전력 수요 증대와 탈탄소 에너지 필요성에 부응하기 위한 전략으로, SMR의 모듈성과 유연성을 활용한 대규모 전개를 목표로 한다. 홀텍의 SMR 기술이 인도 시장에서의 상업화 가능성을 보여주는 사례이다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "홀텍",
-    "region": "US",
-    "source": "icicidirect.com",
-    "url": "https://www.icicidirect.com/research/equity/trending-news/holtec-eyes-ntpc-vedanta-for-15gw-indian-small-modular-reactor-pipeline",
-    "k": "holtec eyes ntpc vedanta for 15gw indian small modular reactor pipeline",
-    "id": "2ae5861d"
-  },
-  {
-    "date": "2026-07-06",
     "title": "환경운동연합, 신규 원전·SMR 부지 선정 철회 촉구",
     "summary": "환경운동연합이 한수원 앞에서 신규 원전과 소형모듈원자로(SMR)의 부지 선정 철회를 요구하는 시위를 했다.",
     "summaryLong": "환경운동연합이 한국수력원자력(한수원) 앞에서 신규 원자력발전소와 소형모듈원자로(SMR)의 부지 선정 계획 철회를 촉구하는 시위를 개최했다. 이는 원자력 정책 추진에 대한 환경 단체의 반대 입장을 공식적으로 표현한 행동이다. 정부의 원전·SMR 확대 정책을 둘러싼 사회적 논쟁과 이견이 지속되고 있음을 보여주는 사례다.",
@@ -660,20 +646,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-07-03",
-    "title": "오클로, 그로브스 동위원소 시험로 미국 에너지부(DOE) 안전 승인 획득",
-    "summary": "오클로(Oklo)의 그로브스 동위원소 시험로(Groves Isotope Test Reactor)가 미국 에너지부(DOE)의 주요 안전 승인을 받았다.",
-    "summaryLong": "오클로(Oklo)가 개발 중인 그로브스 동위원소 시험로(Groves Isotope Test Reactor)가 미국 에너지부(DOE)의 핵심 안전 승인을 획득했다. 이는 오클로의 소형모듈원자로(SMR) 기술 개발 및 규제 인증 프로세스에서 중요한 이정표로, 향후 상용화 및 배치 추진에 기여할 것으로 예상된다. 구체적 승인 내용과 차기 단계 일정은 원문 확인이 필요하다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "simplywall.st",
-    "url": "https://simplywall.st/stocks/us/capital-goods/nyse-smr/nuscale-power/news/is-nuscale-power-smr-undervalued-as-certified-smr-progress-d",
-    "k": "is nuscale power smr undervalued as certified smr progress draws attention",
-    "id": "0ab44a06"
-  },
-  {
-    "date": "2026-07-03",
     "title": "핀란드 LDR-50 SMR 안전성 국제 검토 완료",
     "summary": "핀란드 원자력 규제기관이 체코, 폴란드, 스웨덴, 우크라이나 규제기관과 함께 스테디 에너지(Steady Energy)의 LDR-50 소형모듈원자로에 대한 국제 안전 검토(Joint Early Review)를 완료했다.",
     "summaryLong": "핀란드 원자력 규제기관이 체코(Czech Republic), 폴란드(Poland), 스웨덴(Sweden), 우크라이나(Ukraine) 규제기관들과 협력하여 스테디 에너지(Steady Energy)의 LDR-50 SMR 반응로에 대한 연합 조기검토(Joint Early Review, JER)를 완료하고 요약 보고서를 발표했다. LDR-50은 지역난방용 소형모듈원자로로, 이번 국제 안전 검토는 여러 유럽 국가의 규제 기준에 대한 사전 평가 의견(GDA, Generic Design Assessment 성격)을 제공한다.",
@@ -936,20 +908,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-07-02",
-    "title": "오클로(Oklo), 미국 에너지부(DOE) 원자로 안전 승인 후 주목 집중",
-    "summary": "오클로(Oklo)가 미국 에너지부(DOE)의 원자로 안전 승인을 획득하며 시장의 관심이 증대되고 있다.",
-    "summaryLong": "오클로(Oklo)가 미국 에너지부(DOE)로부터 원자로 안전 승인(reactor safety approval)을 획득했으며, 이를 계기로 투자자와 업계의 주목이 집중되고 있다. 뉴욕증권거래소(NYSE) 상장 회사인 오클로의 이번 규제 승인은 첨단 소형모듈원자로 기술의 안전성이 정부 차원에서 공식 인정받은 것으로, 상용화 시간표 단축과 자금 조달 용이성 측면에서 긍정적 신호다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "kalkinemedia.com",
-    "url": "https://kalkinemedia.com/us/stocks/energy/oklo-nyseoklo-gains-focus-after-doe-reactor-safety-approval",
-    "k": "oklo nyse oklo gains focus after doe reactor safety approval",
-    "id": "eefe5f39"
-  },
-  {
-    "date": "2026-07-02",
     "title": "SGE 주도팀, 영국에 BWRX-300 소형모듈원자로 14기 배치 추진",
     "summary": "폴란드의 SGE와 삼성물산(Samsung C&T), Laing O'Rourke, Aecon Group, 구글 클라우드(Google Cloud)로 구성된 배치팀이 영국 3개 부지에 지이-버노바-히타치(GE Vernova Hitachi) BWRX-300 소형모듈원자로 14기의 민간 자금 배치 계획을 발표했다.",
     "summaryLong": "폴란드의 에너지 회사 SGE가 삼성물산, 영국 건설사 Laing O'Rourke, 캐나다 건설사 Aecon Group, 구글 클라우드와 함께 영국 전역 3개 부지에 GE 버노바 히타치(GE Vernova Hitachi) 비등경수로형(BWRX-300) 소형모듈원자로 총 14기를 배치하는 계획을 공개했다. 이 프로젝트는 민간 자금으로 추진되며, 영국의 에너지 안보와 탄소중립 목표를 지원하는 주요 계획으로 평가된다. 배치팀의 구성에 삼성물산과 한국 기업이 포함된 점이 주목된다.",
@@ -1149,20 +1107,6 @@ window.SMR_NEWS = [
     "url": "https://finance.yahoo.com/markets/stocks/articles/investors-may-respond-oklo-oklo-001803069.html",
     "k": "how investors may respond to oklo oklo advancing groves reactor to final doe safety review phase",
     "id": "6c098bcc"
-  },
-  {
-    "date": "2026-07-02",
-    "title": "쿤 로펌, 뉴스케일 파워 투자자 소송 상담 권유",
-    "summary": "쿤 로펌(Kuehn Law)이 뉴스케일 파워(NuScale Power) 투자자들을 대상으로 집단소송 상담을 권유하고 있다.",
-    "summaryLong": "쿤 로펌(Kuehn Law)이 뉴스케일 파워(NuScale Power)와 관련된 투자자 손실 건에 대해 법적 상담을 제공하겠다고 공고했다. 이는 뉴스케일에 대한 다중 소송이 진행되고 있음을 시사하며, 투자자들이 회사의 공시나 사업 진행 상황에 대한 신뢰성 문제를 제기하고 있음을 보여준다. 집단소송 형태의 투자자 소송은 회사의 투자자 신뢰도와 기업 평판에 실질적 영향을 미칠 수 있다. 이러한 법적 분쟁은 뉴스케일의 사업 진행과 자금 조달에 부정적 요인으로 작용할 수 있다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "lincolnjournal.com",
-    "url": "https://www.lincolnjournal.com/online_features/press_releases/kuehn-law-encourages-investors-of-nuscale-power-corporation-to-contact-law-firm/article_0c5b5adb-500c-52e1-9c67-74557643840c.html",
-    "k": "kuehn law encourages investors of nuscale power corporation to contact law firm",
-    "id": "bf5afb58"
   },
   {
     "date": "2026-07-02",
@@ -1831,20 +1775,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-07-01",
-    "title": "오클로(Oklo), 그로브스 동위원소 시험로 미국 에너지부(DOE) 안전승인 획득",
-    "summary": "오클로(Oklo)가 텍사스주 그로브스(Groves)에 건설할 동위원소 생산용 시험로가 미국 에너지부(DOE) 안전분석 승인을 획득했다.",
-    "summaryLong": "오클로(Oklo)는 텍사스주 그로브스(Groves)에 건설하는 고속로 기반 동위원소 생산 시험로(Groves Isotope Test Reactor)에 대해 미국 에너지부(DOE)로부터 최종 안전분석 승인을 획득했다. 이는 소듐냉각고속로(SFR) 기술을 활용한 의료용·산업용 동위원소 생산 실증의 중요한 인허가 마일스톤이다. 오클로의 고속로 기술은 SMR 분야에서 첨단로(Advanced Reactor) 범주에 속하며, 이번 승인은 소형 첨단로의 규제 경로 확립에 의미가 있다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "simplywall.st",
-    "url": "https://simplywall.st/stocks/us/utilities/nyse-oklo/oklo/news/oklo-oklo-wins-doe-safety-approval-for-groves-isotope-test-r",
-    "k": "oklo oklo wins doe safety approval for groves isotope test reactor",
-    "id": "5c7ff72e"
-  },
-  {
-    "date": "2026-07-01",
     "title": "오클로(Oklo), 텍사스 동위원소로 미국 에너지부(DOE) 안전승인 획득",
     "summary": "오클로(Oklo)가 텍사스주에 건설하는 동위원소 생산용 원자로에 대해 미국 에너지부(DOE) 안전승인을 받았다.",
     "summaryLong": "오클로(Oklo)는 텍사스주에서 추진하는 동위원소 생산용 시험로 프로젝트에 대해 미국 에너지부(DOE)의 안전분석 승인을 획득했다. 이는 고속로 기반 첨단 소형로의 규제 인허가 과정에서 중요한 단계로, 향후 건설 및 운영 허가 진행의 기반이 된다. 오클로의 소듐냉각고속로(SFR) 기술은 안전성 평가를 통과함으로써 첨단로 상용화 경로의 신뢰성을 강화했다.",
@@ -1961,20 +1891,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-07-01",
-    "title": "오클로, 그로브 동위원소 테스트 원자로 최종 안전분석 미국 에너지부(DOE) 승인 획득",
-    "summary": "오클로(Oklo)가 그로브 동위원소 테스트 원자로의 최종 안전분석(FSA) 승인을 미국 에너지부(DOE)로부터 획득했다.",
-    "summaryLong": "오클로(Oklo)는 미국 에너지부(U.S. Department of Energy, DOE)로부터 그로브 동위원소 테스트 원자로(Groves Isotope Test Reactor)의 최종 안전분석(Final Safety Analysis)에 대한 승인을 받았다. 이는 오클로의 고속로 기반 첨단 원자로 프로젝트가 규제 단계에서 중요한 진전을 이루었음을 의미한다. 최종 안전분석 승인은 실제 건설 및 운영 허가로 나아가는 핵심 단계이며, 오클로의 상용화 일정 가시성을 높였다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "오클로",
-    "region": "US",
-    "source": "tradingview.com",
-    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN4330CZ:0-oklo-gets-us-doe-approval-for-final-safety-analysis-of-groves-isotope-test-reactor/",
-    "k": "oklo gets us doe approval for final safety analysis of groves isotope test reactor",
-    "id": "10231d3a"
-  },
-  {
-    "date": "2026-07-01",
     "title": "폴란드 SGE, 영국 14기 SMR 함대 건설 계획 발표",
     "summary": "폴란드의 SGE가 영국(UK) 내 14기의 소형모듈원자로(SMR) 건설 계획을 공개했다.",
     "summaryLong": "폴란드의 에너지 기업 SGE가 영국(UK)에서 14기의 소형모듈원자로(SMR) 함대 구축 계획을 공식 발표했다. 이 프로젝트는 대규모 SMR 배치 사업으로, 영국의 에너지 안보와 탄소 감축 목표 달성을 위한 핵심 사업으로 평가된다. SGE의 이러한 움직임은 유럽 기업들의 SMR 시장 참여 확대를 보여주는 사례이며, 글로벌 SMR 개발 경쟁의 심화를 시사한다.",
@@ -2057,21 +1973,6 @@ window.SMR_NEWS = [
     "url": "http://www.iaea.org/newscenter/news/iaea-holds-first-smr-school-in-a-technology-provider-country",
     "k": "iaea holds first smr school in a technology provider country",
     "id": "89be0ec2"
-  },
-  {
-    "date": "2026-07-01",
-    "title": "AI 전력 수요 증가, 뉴스케일(NuScale) SMR 투자 논리 재편성할 가능성",
-    "summary": "인공지능 전력 수요의 급증이 뉴스케일(NuScale) 소형모듈원자로(SMR)의 장기 투자 전망을 변화시킬 가능성이 제기되고 있다.",
-    "summaryLong": "투자 분석 플랫폼 심플리월(Simply Wall St)은 인공지능 산업의 급증하는 전력 수요가 뉴스케일(NuScale) 파워의 소형모듈원자로(SMR) 사업에 대한 투자 관점을 조용히 재편할 수 있다고 지적했다. 데이터센터와 AI 인프라의 전력 필요성이 증가함에 따라, 소형모듈원자로의 시장 수요 및 투자 매력도가 재평가될 수 있다는 전망이다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "simplywall.st",
-    "url": "https://simplywall.st/stocks/us/capital-goods/nyse-smr/nuscale-power/news/could-rising-ai-power-needs-quietly-rewire-nuscale-powers-sm",
-    "k": "could rising ai power needs quietly rewire nuscale power s smr long term investment narrative",
-    "op": 1,
-    "id": "ad1e0974"
   },
   {
     "date": "2026-06-30",
@@ -3243,21 +3144,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-29",
-    "title": "뉴스케일·엑스에너지 등 AI 전력 수요 관련 핵에너지주 주목",
-    "summary": "뉴스케일, 엑스에너지(X-energy) 등 여러 첨단원자로 개발사가 AI 데이터센터의 전력 수요 증가와 연계되어 주목받고 있다.",
-    "summaryLong": "시몬월(Simply Wall St)이 뉴스케일 파워(NuScale Power)와 엑스에너지(X-energy) 등 소형모듈원자로(SMR) 및 첨단원자로 개발사를 AI 전력 수요 증가와 연계하여 분석했다. 인공지능(AI) 데이터센터의 급증하는 전력 필요성이 원자력 에너지 솔루션에 대한 관심을 높이고 있다는 투자 관점의 분석이다. 보도는 주식 투자 관점의 평가와 분석을 담고 있다.",
-    "cat": "기술",
-    "type": "HTGR",
-    "dev": "",
-    "region": "US",
-    "source": "simplywall.st",
-    "url": "https://simplywall.st/stocks/us/capital-goods/nyse-smr/nuscale-power/news/nuscale-stock-and-2-nuclear-energy-picks-tied-to-ai-power-de",
-    "k": "nuscale stock and 2 nuclear energy picks tied to ai power demand",
-    "op": 1,
-    "id": "d215852c"
-  },
-  {
-    "date": "2026-06-29",
     "title": "오하이오(Ohio) SMR 프로젝트, PJM 신청·GE 원자로 계약으로 진전",
     "summary": "오하이오주 소형모듈원자로 프로젝트가 PJM(펜실베이니아-뉴저지-메릴랜드 전력시장) 신청과 GE(General Electric) 원자로 공급 계약을 체결하며 진전을 이루었다.",
     "summaryLong": "오하이오주 소형모듈원자로(SMR) 프로젝트가 주요 진척을 기록했다. 사업 추진자들이 PJM(펜실베이니아-뉴저지-메릴랜드 전력시장) 운영자에 신청서를 제출했으며, 동시에 GE(General Electric)와 원자로 공급 및 개발에 관한 계약을 체결했다. 이는 미국의 소형모듈원자로 상용화 추진에서 구체적인 산업 파트너십과 시장 진입 절차가 진행 중임을 보여주는 사례다.",
@@ -3466,21 +3352,6 @@ window.SMR_NEWS = [
     "k": "원전 확대 아닌 재생에너지 전환이 미래 청와대 앞에서 신규원전 smr 백지화촉구",
     "ko": 1,
     "id": "1d5eb68b"
-  },
-  {
-    "date": "2026-06-28",
-    "title": "오클로(Oklo)의 수주 확대, 오로라(Aurora) 프로젝트의 주요 병목 해소 목표",
-    "summary": "소형모듈원자로(SMR) 개발사 오클로(Oklo)가 수주를 통해 오로라(Aurora) 프로젝트의 핵심 개발 병목을 해소하려는 전략을 추진 중이다.",
-    "summaryLong": "오클로(Oklo)가 최근 수주 확대 활동을 통해 오로라(Aurora) 프로젝트의 주요 기술적 병목 현상을 해소하려고 노력하고 있다. 투자자들은 이러한 전략적 움직임에 주목하고 있으며, 오클로의 사업 추진 방향과 실현 가능성에 대해 평가하고 있다.",
-    "cat": "계약",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "stocktwits.com",
-    "url": "https://stocktwits.com/news-articles/markets/equity/oklo-cei-acquisition-aurora-commercialization/cZ1QWl9R7in",
-    "k": "oklo s second acquisition in weeks targets a key aurora bottleneck what investors need to know",
-    "op": 1,
-    "id": "193125aa"
   },
   {
     "date": "2026-06-27",
@@ -3804,20 +3675,6 @@ window.SMR_NEWS = [
     "url": "https://www.energy.gov/ne/articles/4-key-benefits-advanced-small-modular-reactors",
     "k": "4 key benefits of advanced small modular reactors",
     "id": "3bd3b2cf"
-  },
-  {
-    "date": "2026-06-26",
-    "title": "뉴스케일 파워 급락, 핵심 의문은 밸류에이션",
-    "summary": "심플월(simplywall.st)이 뉴스케일 파워의 주가 하락과 밸류에이션 문제를 분석했다.",
-    "summaryLong": "심플월(simplywall.st)은 뉴스케일 파워의 주가 하락을 다루며 핵심 문제를 밸류에이션 문제로 지적했다. SMR 개발의 높은 기대감에도 불구하고 실제 사업화 타이밍과 수익성 달성에 대한 시장의 의문이 주가 하락으로 이어진 것으로 분석된다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "뉴스케일",
-    "region": "US",
-    "source": "simplywall.st",
-    "url": "https://simplywall.st/stocks/us/capital-goods/nyse-smr/nuscale-power/news/nuscale-power-smr-sinks-as-nuclear-hopes-meet-a-big-valuatio",
-    "k": "nuscale power smr sinks as nuclear hopes meet a big valuation question",
-    "id": "392f1c6c"
   },
   {
     "date": "2026-06-25",
@@ -4492,20 +4349,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-24",
-    "title": "오클로, 표준뉴클리어와 연료재활용 계약 체결···주가 8.1% 하락",
-    "summary": "오클로(Oklo)가 표준뉴클리어(Standard Nuclear)와의 연료재활용 계약 및 미국 에너지부(DOE) 진전에도 불구하고 주가는 8.1% 하락했다.",
-    "summaryLong": "오클로(Oklo)는 표준뉴클리어(Standard Nuclear)와 연료재활용(Fuel Recycling) 협약을 체결했으며, 미국 에너지부(DOE)와의 협력도 진전하고 있다. 그러나 시장은 이러한 긍정적 발표에도 주가를 8.1% 하락시켰다. 오클로의 용융염냉각 고속로(MSR) 사업 진전이 투자자들의 충분한 신뢰를 아직 확보하지 못한 것으로 해석된다.",
-    "cat": "계약",
-    "type": "SFR",
-    "dev": "오클로",
-    "region": "US",
-    "source": "simplywall.st",
-    "url": "https://simplywall.st/stocks/us/utilities/nyse-oklo/oklo/news/oklo-oklo-is-down-81-after-fuel-recycling-pact-with-standard",
-    "k": "oklo oklo is down 8 1 after fuel recycling pact with standard nuclear and doe progress",
-    "id": "c840ce6c"
-  },
-  {
-    "date": "2026-06-24",
     "title": "오클로, 인허가 전략으로 원자로 배치 지원 목표",
     "summary": "오클로(Oklo)가 인허가 전략을 통해 소형모듈원자로의 상용 배치를 지원할 계획이다.",
     "summaryLong": "오클로(Oklo)는 명확한 인허가 전략(Licensing Strategy)을 수립하여 자사 소형모듈원자로(MSR)의 상용 배치(Reactor Rollout)를 효과적으로 지원하려고 한다. 이는 미국 원자력규제위원회(NRC) 설계 인증(Design Certification) 및 건설·운영 허가 획득을 위한 로드맵을 의미하며, SMR 사업화의 핵심 단계다. 오클로의 인허가 진전 전략이 주목되고 있다.",
@@ -4591,20 +4434,6 @@ window.SMR_NEWS = [
     "k": "한미글로벌 smr 시장 진출 본격화 현지 세미나 열고 법인 설립 추진",
     "ko": 1,
     "id": "1f2225fd"
-  },
-  {
-    "date": "2026-06-24",
-    "title": "오클로(Oklo), 6월 25일 가상 주주총회 개최",
-    "summary": "오클로(Oklo)가 6월 25일 가상 주주총회를 개최한다.",
-    "summaryLong": "마이크로 반응기 개발사 오클로(Oklo)가 6월 25일 가상 주주총회를 개최할 예정이다. 이는 상장 기업으로서의 정기적인 주주 소통 일정으로, 회사의 사업 진행 상황과 경영 현황에 대해 투자자들과 소통하는 자리가 될 것으로 예상된다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "gurufocus.com",
-    "url": "https://www.gurufocus.com/news/8928357/oklo-to-host-virtual-meeting-on-june-25?mobile=true",
-    "k": "oklo to host virtual meeting on june 25",
-    "id": "8e573548"
   },
   {
     "date": "2026-06-24",
@@ -4854,20 +4683,6 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "d6fddb0c"
-  },
-  {
-    "date": "2026-06-23",
-    "title": "오클로(Oklo), 연료 계약·미국 에너지부(DOE) 안전승인으로 주가 상승 전망",
-    "summary": "오클로(Oklo)가 연료 공급 계약을 체결하고 미국 에너지부(DOE) 안전승인을 받아 주가가 현재가 대비 27.5% 저평가되어 있다는 분석이 제시되었다.",
-    "summaryLong": "오클로(Oklo)는 연료 공급 계약 체결과 미국 에너지부(DOE)의 안전승인이라는 주요 마일스톤을 달성했다. 이러한 진전이 회사의 소형모듈원자로(SMR) 개발 추진에 긍정적 신호를 보내고 있으며, 분석가들은 현재 주가가 이러한 성과를 충분히 반영하지 못해 27.5% 저평가되어 있다고 평가하고 있다. 오클로의 SMR 사업 진전과 규제 승인은 첨단로 시장의 신뢰도 제고를 의미한다.",
-    "cat": "계약",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "simplywall.st",
-    "url": "https://simplywall.st/stocks/us/utilities/nyse-oklo/oklo/news/oklo-oklo-stock-could-be-275-undervalued-after-fuel-deal-and",
-    "k": "oklo oklo stock could be 27 5 undervalued after fuel deal and doe safety approval",
-    "id": "aef8f78a"
   },
   {
     "date": "2026-06-23",
@@ -5350,21 +5165,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-22",
-    "title": "SpaceX IPO 모멘텀이 오클로(Oklo)·뉴스케일(NuScale)에 영향을 미칠까",
-    "summary": "SpaceX의 IPO 추진이 소형모듈원자로(SMR) 개발사들의 상장 가능성에 영향을 줄 수 있다는 분석이다.",
-    "summaryLong": "SpaceX의 기업공개(IPO) 추진 동향이 소형모듈원자로(SMR) 분야의 주요 개발사인 오클로(Oklo)와 뉴스케일(NuScale) 등의 자본시장 진출에 긍정적 영향을 미칠 수 있다는 시장 분석이 제시되고 있다. SpaceX의 성공적 IPO 모멘텀이 우주항공·에너지 기술 분야 신생 에너지 기업들에 대한 투자자 관심을 촉발할 가능성이 있다는 관측이다.",
-    "cat": "투자",
-    "type": "SFR",
-    "dev": "Oklo, NuScale",
-    "region": "US",
-    "source": "tradingview.com",
-    "url": "https://www.tradingview.com/news/zacks:f3e976745094b:0-could-spacex-s-ipo-momentum-spill-over-to-oklo-and-nuscale/",
-    "k": "could spacex s ipo momentum spill over to oklo and nuscale",
-    "op": 1,
-    "id": "4865ff16"
-  },
-  {
-    "date": "2026-06-22",
     "title": "2026 경남 SMR 국제콘퍼런스 11월 창원 개최",
     "summary": "경남 지역에서 2026년 11월 소형모듈원자로 국제콘퍼런스를 창원에서 개최할 예정이다.",
     "summaryLong": "경남 도정이 소형모듈원자로(SMR) 산업 활성화를 위해 2026년 11월 창원(Changwon)에서 SMR 국제콘퍼런스를 개최하기로 결정했다. 이는 경남을 동아시아 SMR 허브로 육성하기 위한 경남도의 전략적 계획으로, 국내외 SMR 개발사·연구기관·정책담당자가 참여하는 국제 플랫폼 구축을 의미한다.",
@@ -5543,20 +5343,6 @@ window.SMR_NEWS = [
     "url": "https://www.turnerandtownsend.com/insights/how-can-the-uk-industrialise-small-modular-reactor-delivery/",
     "k": "how can the uk industrialise small modular reactor delivery",
     "id": "c61fab39"
-  },
-  {
-    "date": "2026-06-21",
-    "title": "센트러스 에너지(Centrus Energy), 오클로(Oklo)의 HALEU 계약 체결로 주가 저평가 가능성",
-    "summary": "센트러스 에너지(Centrus Energy)가 오클로(Oklo)와 HALEU(고농축우라늄) 공급 계약을 체결하면서 주가 저평가 논의가 제기되고 있다.",
-    "summaryLong": "오클로(Oklo)가 센트러스 에너지(Centrus Energy)와 HALEU(고농축우라늄) 공급 계약을 체결함에 따라, 금융 분석가들이 센트러스의 주가(LEU)가 현재 공정가치 대비 약 42% 저평가되어 있을 가능성을 제시하고 있다. 이 계약은 오클로의 고급 소형모듈원자로(SMR) 개발과 상용화를 위한 핵 연료 공급망 확보의 중요한 이정표를 나타낸다. HALEU는 차세대 첨단로의 고효율·고성능 운영에 필수적인 특수 핵 연료로, 센트러스가 미국 내 주요 공급자 역할을 수행하고 있다.",
-    "cat": "계약",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "simplywall.st",
-    "url": "https://simplywall.st/stocks/us/energy/nyse-leu/centrus-energy/news/centrus-energy-leu-stock-could-be-42-below-fair-value-after",
-    "k": "centrus energy leu stock could be 42 below fair value after oklo haleu deal",
-    "id": "91b47526"
   },
   {
     "date": "2026-06-21",
@@ -6183,20 +5969,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-19",
-    "title": "센트러스 에너지(Centrus Energy), 오클로(Oklo)와 협력 심화",
-    "summary": "센트러스 에너지가 소형모듈원자로 개발사 오클로와의 관계를 강화하며 주가 20.6% 상승했다.",
-    "summaryLong": "저농축우라늄(LEU) 제조업체 센트러스 에너지(Centrus Energy)와 소형모듈원자로(SMR) 개발사 오클로(Oklo) 간의 협력이 심화되었다. 이 소식에 따라 센트러스 에너지의 주가가 20.6% 상승하며 시장의 긍정적 반응을 보였다. 양사의 협력 강화는 미국의 고급 원자력 기술 개발과 상용화 추진의 일환으로 평가된다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Centrus Energy, Oklo",
-    "region": "US",
-    "source": "simplywall.st",
-    "url": "https://simplywall.st/stocks/us/energy/nyse-leu/centrus-energy/news/why-centrus-energy-leu-is-up-206-after-deepening-ties-with-o",
-    "k": "why centrus energy leu is up 20 6 after deepening ties with oklo and tightening governance",
-    "id": "9ccbfd4a"
-  },
-  {
-    "date": "2026-06-19",
     "title": "현대건설, 석탄발전소 소형모듈원자로(SMR)로 전환 추진",
     "summary": "현대건설이 기존 석탄발전소를 소형모듈원자로(SMR)로 전환하는 사업을 추진하고 있다.",
     "summaryLong": "현대건설이 석탄발전소를 소형모듈원자로(SMR)로 전환하는 프로젝트를 추진 중이다. 이는 기존 화석연료 발전 인프라를 활용하면서 저탄소·친환경 원자력 에너지로 전환하는 전략으로, 탄소중립 목표 달성과 지역 에너지 공급 안정성 확보를 동시에 추구하는 것을 의미한다. 현대건설의 이러한 움직임은 국내 SMR 산업 생태계 조성과 건설 부문의 원자력 기술 확보라는 차원에서 의미 있는 진전으로 평가된다.",
@@ -6338,20 +6110,6 @@ window.SMR_NEWS = [
     "k": "맨땅서 9개월 원자로 임계 성공 smr 인프라 아닌 테슬라식 하드웨어 로 진화",
     "id": "e0eca70a",
     "ko": 1
-  },
-  {
-    "date": "2026-06-19",
-    "title": "오클로, 오하이오 기가와트 캠퍼스용 국내 핵연료 공급 확보",
-    "summary": "오클로(Oklo)가 오하이오주 시설에 공급할 핵연료 공급처를 확보했다.",
-    "summaryLong": "오클로(Oklo)가 오하이오주에 건설 중인 기가와트급 캠퍼스 시설을 위한 국내 핵연료 공급 계약을 체결했다. 이 계약은 오클로의 소형모듈원자로(SMR) 실증사업에 필수적인 핵연료 공급망을 확보하는 중요한 마일스톤이다. 국내 연료 공급 확보는 공급망 자주성과 프로젝트 진행성을 동시에 강화하는 것으로 평가된다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "tradingview.com",
-    "url": "https://www.tradingview.com/news/gurufocus:77654ee19094b:0-oklo-locks-in-domestic-nuclear-fuel-supply-for-its-ohio-gigawatt-campus/",
-    "k": "oklo locks in domestic nuclear fuel supply for its ohio gigawatt campus",
-    "id": "c813673f"
   },
   {
     "date": "2026-06-19",
@@ -6728,20 +6486,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-18",
-    "title": "오클로(Oklo), 센트러스 에너지(Centrus Energy)와 고농축우라늄(HALEU) 공급 파트너십 체결",
-    "summary": "오클로(Oklo)가 센트러스 에너지(Centrus Energy)와 고농축우라늄(HALEU) 공급 계약을 체결했다.",
-    "summaryLong": "마이크로원자로 개발사 오클로(Oklo)가 우라늄 농축 기업 센트러스 에너지(Centrus Energy)와 고농축우라늄(HALEU, High-Assay Low-Enriched Uranium) 공급 계약을 체결했다. 이 파트너십은 오클로의 마이크로원자로 운영에 필요한 핵연료 공급을 보장하는 전략적 협력이다. 센트러스 에너지는 미국 내 주요 HALEU 생산 능력을 보유한 기업으로, 양사의 계약은 SMR·첨단로 개발 생태계 구축의 중요한 사례가 된다.",
-    "cat": "계약",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "gurufocus.com",
-    "url": "https://www.gurufocus.com/news/8922529/oklo-oklo-partners-with-centrus-energy-leu-for-haleu-supply",
-    "k": "oklo oklo partners with centrus energy leu for haleu supply",
-    "id": "2e797ab7"
-  },
-  {
-    "date": "2026-06-18",
     "title": "오클로(Oklo), 센트러스(Centrus)와 핵연료 공급 양해각서 체결",
     "summary": "오클로(Oklo)가 센트러스(Centrus)와 소형모듈원자로(SMR) 용 핵연료 공급 양해각서를 체결했다.",
     "summaryLong": "오클로(Oklo)는 센트러스(Centrus)와 핵연료 공급 계약을 위한 양해각서(Letter of Intent)를 체결했다. 이는 소형모듈원자로(SMR) 개발사인 오클로(Oklo)가 안정적인 핵연료 공급 기반을 확보하기 위한 전략적 파트너십으로, 센트러스(Centrus)의 농축 우라늄 생산 역량과 오클로(Oklo)의 SMR 사업을 연결하는 의미있는 공급망 구축이다.",
@@ -6921,20 +6665,6 @@ window.SMR_NEWS = [
     "url": "https://www.renaissancecapital.com/IPO-Center/News/119952/Small-modular-reactor-fuel-developer-Standard-Nuclear-files-for-a-$100-mill",
     "k": "stdn ipo news small modular reactor fuel developer standard nuclear files for a 100 million ipo",
     "id": "db7b002f"
-  },
-  {
-    "date": "2026-06-18",
-    "title": "딥 피션, 심지공 SMR 기술로 나스닥 IPO 신청",
-    "summary": "심지공(Deep-Borehole) 기반 소형모듈원자로 기술 개발사 딥 피션(Deep Fission)이 나스닥 상장을 위한 IPO를 신청했다.",
-    "summaryLong": "심지공 천공 기술 기반의 혁신형 SMR을 개발 중인 딥 피션(Deep Fission)이 나스닥(Nasdaq) 상장을 목표로 신규공개(IPO) 신청서를 제출했다. 심지공 원자로(Deep-Borehole Reactor)는 깊은 지하 천공 내에 원자로를 설치하는 기술로, 소형화·안전성·폐기물 관리 측면에서 혁신적인 설계로 평가받고 있다. 이는 미국 내 차세대 SMR 및 첨단로 개발사들의 자본시장 진출 확대 추세를 보여주며, SMR 산업의 상용화 단계 진입과 투자 확대를 의미한다.",
-    "cat": "투자",
-    "type": "General",
-    "dev": "Deep Fission",
-    "region": "US",
-    "source": "tradingview.com",
-    "url": "https://www.tradingview.com/news/tradingview:5f6dbd211adaa:0-deep-fission-deep-borehole-smr-nuclear-tech-files-for-nasdaq-ipo/",
-    "k": "deep fission deep borehole smr nuclear tech files for nasdaq ipo",
-    "id": "3ee18970"
   },
   {
     "date": "2026-06-18",
@@ -8085,20 +7815,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-17",
-    "title": "GE(General Electric) 버노바·히타치, 벨란과 협력 확대로 BWRX-300 유럽 배치 지원",
-    "summary": "GE(General Electric) 버노바(Vernova)와 히타치(Hitachi), 그리고 벨란(Velan)이 BWRX-300 소형모듈원자로의 유럽 배치를 위한 협력을 확대했다.",
-    "summaryLong": "GE 버노바와 히타치, 부품 공급업체 벨란이 BWRX-300 소형모듈원자로의 유럽 시장 진출을 위한 협력 관계를 확대했다. 이는 BWRX-300의 유럽 각국 배치 사업 지원을 위한 부품·설계 협력 강화 및 파트너십 체결을 의미한다. 세 기관의 협력 확대는 BWRX-300의 유럽 규제 인허가 및 건설 사업 추진을 뒷받침할 것으로 예상된다.",
-    "cat": "기술",
-    "type": "BWR",
-    "dev": "GE Vernova",
-    "region": "EU",
-    "source": "tradingview.com",
-    "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_FWN42P09C:0-ge-vernova-hitachi-and-velan-expand-collaboration-to-support-bwrx-300-small-modular-reactor-deployment-in-europe/",
-    "k": "ge vernova hitachi and velan expand collaboration to support bwrx 300 small modular reactor deployment in europe",
-    "id": "09330e10"
-  },
-  {
-    "date": "2026-06-17",
     "title": "CNBC 크래머, 엑스에너지(X-Energy) 투자 추천",
     "summary": "미국의 저명 투자 전문가 짐 크래머(Jim Cramer)가 고온가스로(HTGR) 개발사 엑스에너지(X-Energy)의 투자 가치를 긍정적으로 평가했다.",
     "summaryLong": "CNBC의 유명 투자 분석가 짐 크래머(Jim Cramer)가 고온가스로(HTGR) 기술 개발사인 엑스에너지(X-Energy)에 대한 투자 추천 의견을 제시했다. 크래머의 긍정적 평가는 엑스에너지의 기술과 사업 전망에 대한 신뢰를 나타내며, 첨단로 개발사에 대한 시장의 투자 관심도를 반영한다.",
@@ -8153,20 +7869,6 @@ window.SMR_NEWS = [
     "url": "https://fortworthinc.com/innovators/fort-worth-s-paragon-wins-contract-for-nuscale-nuclear-react/",
     "k": "fort worth s paragon wins contract for nuscale nuclear reactor safety systems",
     "id": "2b228b03"
-  },
-  {
-    "date": "2026-06-17",
-    "title": "오클로, 스탠다드 뉴클리어와 고급 연료 재활용 계약",
-    "summary": "오클로(Oklo)가 스탠다드 뉴클리어(Standard Nuclear)와 고급 연료 재활용 계약을 체결했다.",
-    "summaryLong": "오클로(Oklo)가 스탠다드 뉴클리어(Standard Nuclear)와 첨단 핵연료 재활용 관련 계약을 체결했다. 이는 오클로의 오로라(Aurora) 소형모듈원자로가 사용할 핵연료의 공급 및 재활용 체계를 구축하는 것으로, 원형 경제(circular economy) 원칙에 기반한 지속 가능한 연료 공급망 확보를 의미한다. 이 계약은 오클로의 연료 공급 전략을 재편하고 시장 입지를 강화하는 중요한 계약이다.",
-    "cat": "계약",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "simplywall.st",
-    "url": "https://simplywall.st/stocks/us/utilities/nyse-oklo/oklo/news/will-oklos-oklo-standard-nuclear-fuel-recycling-deal-reshape",
-    "k": "will oklo s oklo standard nuclear fuel recycling deal reshape its advanced fuel supply narrative",
-    "id": "a54e2a60"
   },
   {
     "date": "2026-06-17",
@@ -9711,20 +9413,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-13",
-    "title": "오클로(Oklo), 미국 에너지부(DOE) 안전 승인 획득—진전과 투자 구도 분석",
-    "summary": "오클로(Oklo)가 미국 에너지부(DOE)로부터 안전 승인을 획득했으며, 이는 기술 진전과 투자 가치 사이의 트레이드오프를 시사한다.",
-    "summaryLong": "선진 핵연료 및 마이크로원자로 기술을 개발하는 오클로(Oklo)가 미국 에너지부(DOE)로부터 안전성 관련 승인을 획득했다. 이 인허가 진전은 오클로의 기술 신뢰성과 상용화 진전을 입증하는 이정표이지만, 동시에 투자자들은 근접한 자금 소진 일정, 규제 승인 완료 시점, 상용화 경로의 불확실성 등 여러 리스크 요소를 종합적으로 평가하고 있다.",
-    "cat": "기술",
-    "type": "SFR",
-    "dev": "Oklo",
-    "region": "US",
-    "source": "simplywall.st",
-    "url": "https://simplywall.st/stocks/us/utilities/nyse-oklo/oklo/news/oklos-doe-safety-approval-highlights-progress-and-investor-t",
-    "k": "oklo s doe safety approval highlights progress and investor trade offs",
-    "id": "11895fc0"
-  },
-  {
-    "date": "2026-06-13",
     "title": "오클로(Oklo), 미국 에너지부(DOE) 예비안전분석(PDSA) 승인 획득",
     "summary": "오클로(Oklo)가 미국 에너지부(DOE)의 예비안전분석(PDSA) 승인을 획득했다.",
     "summaryLong": "미국 원자력학회(ANS) 보도에 따르면 오클로(Oklo)가 미국 에너지부(DOE)의 예비안전분석(PDSA, Preliminary Design Safety Analysis) 승인을 확보했다. 이는 오클로의 고급 핵연료 기술 및 소형모듈원자로(SMR) 설계가 안전 규제 요건을 충족한다는 연방 차원의 공식 인증으로, 상용화 진행 과정에서 중요한 규제 이정표다. 이 승인은 오클로의 기술 개발 신뢰도를 높이고 향후 운영 허가 단계로의 진전을 촉진하는 의미 있는 진전이다.",
@@ -9896,20 +9584,6 @@ window.SMR_NEWS = [
   },
   {
     "date": "2026-06-12",
-    "title": "뉴스케일 파워(NuScale Power), E2 센터 네트워크 확대로 핵심 투자 전략 재편",
-    "summary": "뉴스케일 파워(NuScale Power)가 소형모듈원자로(SMR) 관련 교육·훈련 센터인 E2 센터 네트워크를 확장하며 핵심 투자 내러티브를 재정의하고 있다.",
-    "summaryLong": "뉴스케일 파워(NuScale Power)는 E2(Education & Engagement) 센터 네트워크를 확대함으로써 소형모듈원자로(SMR) 산업의 인력 양성 및 이해도 제고 전략을 강화하고 있다. 이는 단순한 기술 개발을 넘어 규제 환경 조성, 산업 생태계 구축, 그리고 투자자 신뢰 확보라는 광범위한 목표를 반영한다. E2 센터들은 운영진, 기술자, 정책 입안자 등 다양한 이해관계자를 대상으로 소형모듈원자로의 안전성, 경제성, 응용 가능성을 교육함으로써 시장 진입의 구조적 장벽을 낮추는 역할을 한다. 이러한 전략은 뉴스케일의 장기적 상용화 및 글로벌 확장 계획의 핵심 구성 요소로 평가된다.",
-    "cat": "기술",
-    "type": "PWR",
-    "dev": "NuScale",
-    "region": "US",
-    "source": "simplywall.st",
-    "url": "https://simplywall.st/stocks/us/capital-goods/nyse-smr/nuscale-power/news/is-nuscale-powers-smr-expanding-e2-center-network-quietly-re",
-    "k": "is nuscale power s smr expanding e2 center network quietly rewriting its nuclear investment narrative",
-    "id": "68f85666"
-  },
-  {
-    "date": "2026-06-12",
     "title": "오클로(Oklo), 첨단원자로 '오로라(Aurora)' 미국 설계인증 획득",
     "summary": "오클로(Oklo)의 첨단원자로 '오로라(Aurora)'가 미국 규제 당국으로부터 설계 승인(설계인증)을 획득했다.",
     "summaryLong": "오클로(Oklo)는 자체 개발한 첨단원자로 '오로라(Aurora)'가 미국 규제 당국의 설계 승인을 얻음으로써 상업화 가능성을 공식적으로 입증했다. 이는 설계 검토, 안전 분석, 규제 요구사항 준수에 대한 엄격한 평가를 통과한 것으로, 오클로가 미국 내 첨단로 개발사 중 규제 승인의 중요한 마일스톤을 달성했음을 의미한다. 설계인증(Design Approval)은 건설허가(Construction Permit) 및 운영허가(Operating License) 발급의 선행 단계로, 향후 전력망 건설 및 상업 운영으로의 진로를 열어주는 결정적 인허가 단계이다. 이 성과는 소형모듈원자로(SMR)와 첨단로가 규제 프레임워크 내에서 실질적 시운전 단계로 진입함을 보여준다.",
@@ -9994,20 +9668,6 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "9e1189fb"
-  },
-  {
-    "date": "2026-06-11",
-    "title": "트럼프 행정부 환경청(EPA) 청장, 소형모듈원자로(SMR) 확대 지지 표명",
-    "summary": "미국 환경청(EPA) 청장 리 젤딘(Lee Zeldin)이 소형모듈원자로(SMR) 확대를 지지하면서 관련 기업들의 주가가 상승했다.",
-    "summaryLong": "트럼프 행정부의 환경청(EPA) 청장 리 젤딘(Lee Zeldin)이 소형모듈원자로(SMR) 산업 확대를 지지한다는 입장을 표명했다. 이 발언으로 인해 소형모듈원자로(SMR) 관련 기업들의 주가가 상승하는 반응을 보였다. 이는 트럼프 행정부가 청정에너지 및 핵심 에너지 기술로서 소형모듈원자로(SMR)에 긍정적인 정책 환경을 제공할 것으로 예상되는 신호로 해석된다.",
-    "cat": "기술",
-    "type": "General",
-    "dev": "",
-    "region": "US",
-    "source": "stocktwits.com",
-    "url": "https://stocktwits.com/news-articles/markets/equity/smr-nne-oklo-stocks-gain-trump-epa-lee-zeldin-touts-small-modular-reactor/cZ0F1x0ReCd",
-    "k": "smr nne oklo gain after trump s epa chief lee zeldin touts small modular reactor buildout",
-    "id": "d1fb434e"
   },
   {
     "date": "2026-06-11",

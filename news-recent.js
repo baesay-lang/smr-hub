@@ -33,20 +33,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-06",
-  "title": "홀텍, 인도 NTPC·베단타와 15GW SMR 파이프라인 협력 추진",
-  "summary": "홀텍(Holtec)이 인도의 NTPC(인도국영발전공사)·베단타(Vedanta)와 15GW 규모의 소형모듈원자로(SMR) 사업 파이프라인을 구축하려고 한다.",
-  "summaryLong": "홀텍(Holtec)이 인도의 주요 발전공사인 NTPC(인도국영발전공사)와 광물·금속 대기업 베단타(Vedanta)와 협력하여 15기가와트(GW) 규모의 소형모듈원자로(SMR) 공급 파이프라인을 추진하고 있다. 이 협력은 인도의 전력 수요 증대와 탈탄소 에너지 필요성에 부응하기 위한 전략으로, SMR의 모듈성과 유연성을 활용한 대규모 전개를 목표로 한다. 홀텍의 SMR 기술이 인도 시장에서의 상업화 가능성을 보여주는 사례이다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "홀텍",
-  "region": "US",
-  "source": "icicidirect.com",
-  "url": "https://www.icicidirect.com/research/equity/trending-news/holtec-eyes-ntpc-vedanta-for-15gw-indian-small-modular-reactor-pipeline",
-  "k": "holtec eyes ntpc vedanta for 15gw indian small modular reactor pipeline",
-  "id": "2ae5861d"
- },
- {
-  "date": "2026-07-06",
   "title": "환경운동연합, 신규 원전·SMR 부지 선정 철회 촉구",
   "summary": "환경운동연합이 한수원 앞에서 신규 원전과 소형모듈원자로(SMR)의 부지 선정 철회를 요구하는 시위를 했다.",
   "summaryLong": "환경운동연합이 한국수력원자력(한수원) 앞에서 신규 원자력발전소와 소형모듈원자로(SMR)의 부지 선정 계획 철회를 촉구하는 시위를 개최했다. 이는 원자력 정책 추진에 대한 환경 단체의 반대 입장을 공식적으로 표현한 행동이다. 정부의 원전·SMR 확대 정책을 둘러싼 사회적 논쟁과 이견이 지속되고 있음을 보여주는 사례다.",
@@ -653,20 +639,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-03",
-  "title": "오클로, 그로브스 동위원소 시험로 미국 에너지부(DOE) 안전 승인 획득",
-  "summary": "오클로(Oklo)의 그로브스 동위원소 시험로(Groves Isotope Test Reactor)가 미국 에너지부(DOE)의 주요 안전 승인을 받았다.",
-  "summaryLong": "오클로(Oklo)가 개발 중인 그로브스 동위원소 시험로(Groves Isotope Test Reactor)가 미국 에너지부(DOE)의 핵심 안전 승인을 획득했다. 이는 오클로의 소형모듈원자로(SMR) 기술 개발 및 규제 인증 프로세스에서 중요한 이정표로, 향후 상용화 및 배치 추진에 기여할 것으로 예상된다. 구체적 승인 내용과 차기 단계 일정은 원문 확인이 필요하다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "simplywall.st",
-  "url": "https://simplywall.st/stocks/us/capital-goods/nyse-smr/nuscale-power/news/is-nuscale-power-smr-undervalued-as-certified-smr-progress-d",
-  "k": "is nuscale power smr undervalued as certified smr progress draws attention",
-  "id": "0ab44a06"
- },
- {
-  "date": "2026-07-03",
   "title": "핀란드 LDR-50 SMR 안전성 국제 검토 완료",
   "summary": "핀란드 원자력 규제기관이 체코, 폴란드, 스웨덴, 우크라이나 규제기관과 함께 스테디 에너지(Steady Energy)의 LDR-50 소형모듈원자로에 대한 국제 안전 검토(Joint Early Review)를 완료했다.",
   "summaryLong": "핀란드 원자력 규제기관이 체코(Czech Republic), 폴란드(Poland), 스웨덴(Sweden), 우크라이나(Ukraine) 규제기관들과 협력하여 스테디 에너지(Steady Energy)의 LDR-50 SMR 반응로에 대한 연합 조기검토(Joint Early Review, JER)를 완료하고 요약 보고서를 발표했다. LDR-50은 지역난방용 소형모듈원자로로, 이번 국제 안전 검토는 여러 유럽 국가의 규제 기준에 대한 사전 평가 의견(GDA, Generic Design Assessment 성격)을 제공한다.",
@@ -885,6 +857,35 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-02",
+  "title": "동나이성, SMR 활용 시범 원전 선도 추진",
+  "summary": "베트남의 동나이(Dong Nai)성이 소형모듈원자로(SMR)를 활용한 시범 원전 구축을 선도적으로 추진할 계획이다.",
+  "summaryLong": "베트남의 동나이(Dong Nai)성이 소형모듈원자로(SMR)를 활용한 시범 원자력발전소 구축을 선도하려는 계획을 추진 중인 것으로 보도되었다. 베트남은 에너지 수요 증가와 탄소중립 목표 달성을 위해 SMR과 같은 첨단 원자력 기술 도입을 검토하고 있으며, 동나이성의 이 계획은 동남아시아 지역 내 SMR 도입의 선도 사례로 평가된다. 이는 글로벌 SMR 시장 확대와 개도국의 원자력 에너지 활용 추세를 반영하는 사례이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "",
+  "source": "en.vneconomy.vn",
+  "url": "https://en.vneconomy.vn/dong-nai-seeks-to-pioneer-pilot-nuclear-power-plant-using-small-modular-reactors.htm",
+  "k": "dong nai seeks to pioneer pilot nuclear power plant using small modular reactors",
+  "id": "887f97c1"
+ },
+ {
+  "date": "2026-07-02",
+  "title": "삼성물산, 영국 72조 규모 SMR 14기 건설 프로젝트 참여",
+  "summary": "삼성물산이 영국(UK)의 72조 원대 규모 SMR 14기 건설 프로젝트에 참여한다.",
+  "summaryLong": "삼성물산이 영국(UK)에서 추진 중인 약 72조 원 규모의 소형모듈원자로(SMR) 14기 건설 프로젝트에 참여하는 것으로 보도되었다. 이 프로젝트는 영국의 에너지 안보 강화와 탄소 중립 달성을 위한 대규모 SMR 사업으로, 삼성물산의 참여는 한국 건설 기업의 글로벌 SMR 시장 진출을 의미한다. 해당 사업을 통해 삼성물산은 설계·건설·운영 분야에서 국제 경쟁력을 입증할 수 있는 기회를 갖게 되며, 한국의 SMR 기술과 건설 역량을 국제 시장에 알릴 수 있을 것으로 기대된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "삼성물산",
+  "region": "UK",
+  "source": "theguru.co.kr",
+  "url": "https://theguru.co.kr/news/article.html?no=103879",
+  "k": "단독 삼성물산 72조 규모 smr 14기 건설 프로젝트 참여",
+  "ko": 1,
+  "id": "0a14ed12"
+ },
+ {
+  "date": "2026-07-02",
   "title": "억만장자, 영국 소형모듈원자로 전개에 350억 파운드 투자 계획",
   "summary": "억만장자가 영국 내 소형모듈원자로(SMR) 대규모 보급에 350억 파운드 규모 투자를 발표.",
   "summaryLong": "억만장자 투자자가 영국(UK) 전역의 소형모듈원자로(SMR, Small Modular Reactor) 보급 확대를 위해 350억 파운드(약 44조 원) 규모의 대규모 투자 계획을 발표했다. 가디언(The Guardian)이 보도한 바와 같이 이는 영국의 탄소중립 에너지 전환과 에너지 안보 강화에 부응하는 민간 부문의 대규모 투자 움직임을 보여준다. 구체적 기업명, 일정, 기술 사양은 기사 스니펫에 명시되지 않았으나, SMR 산업의 상용화 자금 조달 관점에서 주목할 만한 투자 신호다.",
@@ -897,6 +898,21 @@ window.SMR_NEWS = [
   "k": "billionaire to invest 35bn in small modular nuclear reactors rollout across uk",
   "op": 1,
   "id": "34188c79"
+ },
+ {
+  "date": "2026-07-02",
+  "title": "삼성물산, 72조 규모 영국 SMR 14기 건설 프로젝트 참여 신청",
+  "summary": "삼성물산이 영국의 소형모듈원자로(SMR) 14기 건설 프로젝트(72조 규모)에 참여 신청했다.",
+  "summaryLong": "삼성물산이 영국에서 추진 중인 규모 72조 원의 소형모듈원자로(SMR) 14기 건설 프로젝트에 참여할 것을 신청했다고 보도되었다. 이는 한국 대형 엔지니어링·건설사의 글로벌 SMR 시장 진출 의지를 보여주는 사례로, 영국의 에너지 정책 추진과 민간 자금 활용 전략 속에서 국제 파트너십이 확대되고 있음을 의미한다. 향후 협상 진행 및 계약 체결 여부가 주목되고 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "Samsung E&C",
+  "region": "UK",
+  "source": "theguru.co.kr",
+  "url": "https://theguru.co.kr/news/article.html?no=103879",
+  "k": "단독 삼성물산 72조 규모 smr 14기 건설 프로젝트 참여 신청",
+  "ko": 1,
+  "id": "0a14ed12"
  },
  {
   "date": "2026-07-01",
@@ -985,21 +1001,6 @@ window.SMR_NEWS = [
   "id": "e214d20f"
  },
  {
-  "date": "2026-06-28",
-  "title": "오클로(Oklo)의 수주 확대, 오로라(Aurora) 프로젝트의 주요 병목 해소 목표",
-  "summary": "소형모듈원자로(SMR) 개발사 오클로(Oklo)가 수주를 통해 오로라(Aurora) 프로젝트의 핵심 개발 병목을 해소하려는 전략을 추진 중이다.",
-  "summaryLong": "오클로(Oklo)가 최근 수주 확대 활동을 통해 오로라(Aurora) 프로젝트의 주요 기술적 병목 현상을 해소하려고 노력하고 있다. 투자자들은 이러한 전략적 움직임에 주목하고 있으며, 오클로의 사업 추진 방향과 실현 가능성에 대해 평가하고 있다.",
-  "cat": "계약",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "stocktwits.com",
-  "url": "https://stocktwits.com/news-articles/markets/equity/oklo-cei-acquisition-aurora-commercialization/cZ1QWl9R7in",
-  "k": "oklo s second acquisition in weeks targets a key aurora bottleneck what investors need to know",
-  "op": 1,
-  "id": "193125aa"
- },
- {
   "date": "2026-06-25",
   "title": "스웨덴, 롤스로이스 SMR 개발사에 60% 지분 인수",
   "summary": "스웨덴 정부가 롤스로이스(Rolls-Royce) 소형모듈원자로 3기 건설을 추진하는 비데베리 크래프트(Videberg Kraft AB)에 60% 지분을 취득하기로 결정했다.",
@@ -1070,20 +1071,6 @@ window.SMR_NEWS = [
   "id": "c80a61d2"
  },
  {
-  "date": "2026-06-23",
-  "title": "오클로(Oklo), 연료 계약·미국 에너지부(DOE) 안전승인으로 주가 상승 전망",
-  "summary": "오클로(Oklo)가 연료 공급 계약을 체결하고 미국 에너지부(DOE) 안전승인을 받아 주가가 현재가 대비 27.5% 저평가되어 있다는 분석이 제시되었다.",
-  "summaryLong": "오클로(Oklo)는 연료 공급 계약 체결과 미국 에너지부(DOE)의 안전승인이라는 주요 마일스톤을 달성했다. 이러한 진전이 회사의 소형모듈원자로(SMR) 개발 추진에 긍정적 신호를 보내고 있으며, 분석가들은 현재 주가가 이러한 성과를 충분히 반영하지 못해 27.5% 저평가되어 있다고 평가하고 있다. 오클로의 SMR 사업 진전과 규제 승인은 첨단로 시장의 신뢰도 제고를 의미한다.",
-  "cat": "계약",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "simplywall.st",
-  "url": "https://simplywall.st/stocks/us/utilities/nyse-oklo/oklo/news/oklo-oklo-stock-could-be-275-undervalued-after-fuel-deal-and",
-  "k": "oklo oklo stock could be 27 5 undervalued after fuel deal and doe safety approval",
-  "id": "aef8f78a"
- },
- {
   "date": "2026-06-22",
   "title": "오클로, 우라늄 공급 계약으로 핵분열 사업 강화",
   "summary": "오클로(Oklo)가 우라늄 공급 계약을 체결하며 핵분열 연료 확보에 나섰다.",
@@ -1113,18 +1100,32 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-06-22",
-  "title": "SpaceX IPO 모멘텀이 오클로(Oklo)·뉴스케일(NuScale)에 영향을 미칠까",
-  "summary": "SpaceX의 IPO 추진이 소형모듈원자로(SMR) 개발사들의 상장 가능성에 영향을 줄 수 있다는 분석이다.",
-  "summaryLong": "SpaceX의 기업공개(IPO) 추진 동향이 소형모듈원자로(SMR) 분야의 주요 개발사인 오클로(Oklo)와 뉴스케일(NuScale) 등의 자본시장 진출에 긍정적 영향을 미칠 수 있다는 시장 분석이 제시되고 있다. SpaceX의 성공적 IPO 모멘텀이 우주항공·에너지 기술 분야 신생 에너지 기업들에 대한 투자자 관심을 촉발할 가능성이 있다는 관측이다.",
-  "cat": "투자",
+  "title": "오클로(Oklo) 주가 최고점 대비 70% 하락…핵심 과제는 규제 승인",
+  "summary": "소형모듈원자로·첨단로 개발사 오클로(Oklo)의 주가가 최고점에서 70% 하락했으며, 회사의 성공을 위해서는 규제 진전이 필수적이라는 분석이 제시되고 있다.",
+  "summaryLong": "소형모듈원자로(SMR)·용융염로 개발사 오클로(Oklo)의 주가가 최고점 대비 70% 급락했다. 업계 분석에 따르면 오클로를 포함한 뉴스케일(NuScale), 엑스에너지(X-energy), 테라파워(TerraPower), 카이로스(Kairos Power), 롤스로이스 SMR(Rolls-Royce SMR) 등 첨단로 개발사들의 성공을 위해서는 규제 당국의 설계 승인 및 상용화 허가 등 규제 진전이 절대적 조건이다. 현재 낮은 주가에도 불구하고 규제 진전 여부가 이들 회사의 향후 전망을 결정할 핵심 변수로 작용하고 있다.",
+  "cat": "인허가",
   "type": "SFR",
-  "dev": "Oklo, NuScale",
+  "dev": "Oklo",
   "region": "US",
-  "source": "tradingview.com",
-  "url": "https://www.tradingview.com/news/zacks:f3e976745094b:0-could-spacex-s-ipo-momentum-spill-over-to-oklo-and-nuscale/",
-  "k": "could spacex s ipo momentum spill over to oklo and nuscale",
+  "source": "tikr.com",
+  "url": "https://www.tikr.com/blog/oklo-stock-has-fallen-70-from-its-peak-here-is-what-it-would-take-for-the-nuclear-bet-to-pay-off",
+  "k": "oklo stock has fallen 70 from its peak here is what it would take for the nuclear bet to pay off",
   "op": 1,
-  "id": "4865ff16"
+  "id": "07b2ef53"
+ },
+ {
+  "date": "2026-06-20",
+  "title": "오클로, 센트러스 연료 계약 체결로 주가 상승",
+  "summary": "오클로(Oklo)가 센트러스(Centrus)와 핵연료 공급 계약을 체결하면서 원전 공급망 우려 해소에 따른 주가 급등이 이루어졌다.",
+  "summaryLong": "오클로(Oklo)와 센트러스(Centrus)의 핵연료 공급 계약 체결이 주목받으면서 오클로의 주가가 주간 상승률을 기록했다. 이 계약은 소형모듈원자로(SMR) 및 첨단로 상용화 과정에서 핵연료 공급의 안정성을 확보하는 데 중요한 의미를 갖는다. 센트러스는 미국의 주요 농축 연료 공급사로, 원전 산업의 공급망 리스크에 대한 시장 우려가 이 계약 체결로 완화된 것으로 해석된다.",
+  "cat": "계약",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "ts2.tech",
+  "url": "https://ts2.tech/en/oklo-rises-for-the-week-after-centrus-fuel-agreement-draws-attention-to-nuclear-supply-concerns/",
+  "k": "oklo rises for the week after centrus fuel agreement draws attention to nuclear supply concerns",
+  "id": "cfdd9ddc"
  },
  {
   "date": "2026-06-19",
@@ -1195,6 +1196,20 @@ window.SMR_NEWS = [
   "url": "https://www.quiverquant.com/news/X-Energy+Slides+as+Investors+Continue+to+Digest+Heavy+Cash+Burn+and+Post-IPO+Valuation",
   "k": "x energy slides as investors continue to digest heavy cash burn and post ipo valuation",
   "id": "b6a13d20"
+ },
+ {
+  "date": "2026-06-18",
+  "title": "뉴스케일 파워(NuScale), 주요 안전 계약 체결로 SMR 주가 변동",
+  "summary": "뉴스케일 파워(NuScale)가 핵심 안전 관련 계약을 체결하면서 SMR(소형모듈원자로) 주가가 변동했다.",
+  "summaryLong": "스톡스투트레이드(StocksToTrade) 보도에 따르면 뉴스케일 파워(NuScale)가 주요 안전 계약(Key Safety Deal)을 체결했고, 이 소식이 NYSE SMR 티커의 주가에 변동을 가져왔다. 뉴스케일의 가압경수로(PWR) 기반 소형모듈원자로 기술 상용화 과정에서 안전 관련 계약 체결은 규제 협력과 기술 신뢰도를 높이는 중요한 진전으로 평가된다. 이는 회사의 상용화 일정과 비용 관리의 성공 가능성에 대한 시장의 신호를 반영하고 있다.",
+  "cat": "계약",
+  "type": "PWR",
+  "dev": "NuScale",
+  "region": "US",
+  "source": "stockstotrade.com",
+  "url": "https://stockstotrade.com/news/nuscale-power-corporation-smr-news-2026_06_18/",
+  "k": "smr stock whipsaws as nuscale books key safety deal",
+  "id": "1bab7714"
  },
  {
   "date": "2026-06-17",
@@ -1390,4 +1405,4 @@ window.SMR_NEWS = [
  }
 ];
 window.SMR_UPDATED = "2026-07-07 08:49 KST";
-window.SMR_TOTAL = 1103;
+window.SMR_TOTAL = 1079;
