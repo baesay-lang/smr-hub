@@ -139,6 +139,63 @@ window.SMR_NEWS = [
     "id": "20adb53f"
   },
   {
+    "date": "2026-07-07",
+    "title": "폴란드 SGE社, 영국(UK)에 BWRX-300 14기 배치 계획",
+    "summary": "폴란드의 SGE社가 영국에 캐나다 오리진(GE Hitachi) 개발 소형모듈원자로 BWRX-300 14기 배치를 추진 중이다.",
+    "summaryLong": "폴란드의 에너지 회사 SGE(SGE)가 영국(UK) 내 BWRX-300 소형모듈원자로(SMR) 14기 배치 계획을 발표했다. BWRX-300은 캐나다의 오리진(GE Hitachi)이 개발한 비등경수로(BWR) 기반 제품으로, 상용화를 앞두고 있는 첨단 SMR이다. 이 계획은 영국의 에너지 안보와 탄소중립 목표 달성에 기여할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "BWR",
+    "dev": "SGE",
+    "region": "UK",
+    "source": "ans.org",
+    "url": "https://www.ans.org/news/article-8183/polish-company-sge-hopes-to-deploy-14-bwrx300-reactors-in-uk/",
+    "k": "polish company sge hopes to deploy 14 bwrx 300 reactors in u k american nuclear society ans",
+    "id": "12bdd9e8"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "ENTRA1 파트너십, 뉴스케일의 상용화 경로 강화",
+    "summary": "뉴스케일(NuScale)이 ENTRA1 파트너십을 통해 소형모듈원자로 상용 사업 추진을 가속화하고 있다.",
+    "summaryLong": "뉴스케일 파워(NuScale Power)가 ENTRA1(에너지 트랜지션 실행 파트너십) 협력을 통해 소형모듈원자로(SMR)의 상용화 경로를 강화하고 있다. 이 파트너십은 뉴스케일의 가압경수로(PWR) 기반 SMR 기술의 시장 진출을 지원하며, 미국 내 소형원자로 전개 계획의 중요한 협력 체계로 평가된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "theglobeandmail.com",
+    "url": "https://www.theglobeandmail.com/investing/markets/stocks/SMR/pressreleases/3164714/entra1-partnership-strengthens-nuscales-commercial-path/",
+    "k": "entra1 partnership strengthens nuscale s commercial path",
+    "id": "92eba822"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "알로 애토믹스 마이크로로, 미국 에너지부(DOE) 인증 획득 4호기로 초임계 도달",
+    "summary": "알로 애토믹스(Aalo Atomics)의 크리티컬 시험로(Critical Test Reactor)가 아이다호 국립연구소(INL)에서 초임계(criticality)에 도달했다.",
+    "summaryLong": "알로 애토믹스(Aalo Atomics)가 아이다호 국립연구소(Idaho National Laboratory, INL)에서 운영 중인 크리티컬 시험로(Critical Test Reactor)가 초임계(criticality)에 도달했다. 이는 미국 에너지부(DOE) 승인 하의 네 번째 마이크로로로서 2026년 7월 4일 기한을 앞두고 달성한 기술 마일스톤이다. 마이크로로 기술 검증의 실질적 진전이 확인되는 사건이다.",
+    "cat": "기술",
+    "type": "Micro",
+    "dev": "알로 애토믹스",
+    "region": "US",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/criticality-for-fourth-us-microreactor-meets-deadline",
+    "k": "criticality for fourth us microreactor to meet 4 july deadline",
+    "id": "4f57118d"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "한미일, 인도·태평양 지역 소형모듈원자로(SMR) 도입 협력 각서 서명",
+    "summary": "한국·미국·일본 3국이 인도·태평양 지역의 소형모듈원자로(SMR) 도입 협력을 위한 양해각서(MOU)를 서명했다.",
+    "summaryLong": "한국·미국·일본 3국이 인도·태평양 지역 국가들의 소형모듈원자로(SMR) 도입 협력을 위한 양해각서(MOU)를 7일 체결했다. 3국 정부 간 공식 합의로서, SMR 국책 정책 차원의 국제 협력 틀이 확립되었으며, 아시아·태평양 지역으로의 SMR 배급 확대 전략을 반영한다. 정부 정책 수준의 다자간 협력체 구축이 공식 발표된 사실이다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "연합뉴스 최신기사",
+    "url": "https://www.yna.co.kr/view/AKR20260708001951071",
+    "k": "한미일 인태지역 소형모듈원자로 도입 협력체 구축 각서 서명 종합",
+    "ko": 1,
+    "id": "74366ca4"
+  },
+  {
     "date": "2026-07-06",
     "title": "[사설] SMR 첫 삽, 기회로의 전환",
     "summary": "캐나다 온타리오(Ontario)주의 300MW급 소형모듈원자로(SMR) 4기 건설 착공을 계기로 SMR이 현실적 대안으로 자리 잡고 있으며, 국내 제조업체들의 포트폴리오 접근 전략을 평가하는 사설.",
@@ -15711,4 +15768,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-08 07:41 KST";
+window.SMR_UPDATED = "2026-07-08 08:11 KST";

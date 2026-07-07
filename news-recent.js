@@ -132,6 +132,63 @@ window.SMR_NEWS = [
   "id": "20adb53f"
  },
  {
+  "date": "2026-07-07",
+  "title": "폴란드 SGE社, 영국(UK)에 BWRX-300 14기 배치 계획",
+  "summary": "폴란드의 SGE社가 영국에 캐나다 오리진(GE Hitachi) 개발 소형모듈원자로 BWRX-300 14기 배치를 추진 중이다.",
+  "summaryLong": "폴란드의 에너지 회사 SGE(SGE)가 영국(UK) 내 BWRX-300 소형모듈원자로(SMR) 14기 배치 계획을 발표했다. BWRX-300은 캐나다의 오리진(GE Hitachi)이 개발한 비등경수로(BWR) 기반 제품으로, 상용화를 앞두고 있는 첨단 SMR이다. 이 계획은 영국의 에너지 안보와 탄소중립 목표 달성에 기여할 것으로 예상된다.",
+  "cat": "기술",
+  "type": "BWR",
+  "dev": "SGE",
+  "region": "UK",
+  "source": "ans.org",
+  "url": "https://www.ans.org/news/article-8183/polish-company-sge-hopes-to-deploy-14-bwrx300-reactors-in-uk/",
+  "k": "polish company sge hopes to deploy 14 bwrx 300 reactors in u k american nuclear society ans",
+  "id": "12bdd9e8"
+ },
+ {
+  "date": "2026-07-07",
+  "title": "ENTRA1 파트너십, 뉴스케일의 상용화 경로 강화",
+  "summary": "뉴스케일(NuScale)이 ENTRA1 파트너십을 통해 소형모듈원자로 상용 사업 추진을 가속화하고 있다.",
+  "summaryLong": "뉴스케일 파워(NuScale Power)가 ENTRA1(에너지 트랜지션 실행 파트너십) 협력을 통해 소형모듈원자로(SMR)의 상용화 경로를 강화하고 있다. 이 파트너십은 뉴스케일의 가압경수로(PWR) 기반 SMR 기술의 시장 진출을 지원하며, 미국 내 소형원자로 전개 계획의 중요한 협력 체계로 평가된다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "NuScale",
+  "region": "US",
+  "source": "theglobeandmail.com",
+  "url": "https://www.theglobeandmail.com/investing/markets/stocks/SMR/pressreleases/3164714/entra1-partnership-strengthens-nuscales-commercial-path/",
+  "k": "entra1 partnership strengthens nuscale s commercial path",
+  "id": "92eba822"
+ },
+ {
+  "date": "2026-07-07",
+  "title": "알로 애토믹스 마이크로로, 미국 에너지부(DOE) 인증 획득 4호기로 초임계 도달",
+  "summary": "알로 애토믹스(Aalo Atomics)의 크리티컬 시험로(Critical Test Reactor)가 아이다호 국립연구소(INL)에서 초임계(criticality)에 도달했다.",
+  "summaryLong": "알로 애토믹스(Aalo Atomics)가 아이다호 국립연구소(Idaho National Laboratory, INL)에서 운영 중인 크리티컬 시험로(Critical Test Reactor)가 초임계(criticality)에 도달했다. 이는 미국 에너지부(DOE) 승인 하의 네 번째 마이크로로로서 2026년 7월 4일 기한을 앞두고 달성한 기술 마일스톤이다. 마이크로로 기술 검증의 실질적 진전이 확인되는 사건이다.",
+  "cat": "기술",
+  "type": "Micro",
+  "dev": "알로 애토믹스",
+  "region": "US",
+  "source": "World Nuclear News",
+  "url": "https://www.world-nuclear-news.org/articles/criticality-for-fourth-us-microreactor-meets-deadline",
+  "k": "criticality for fourth us microreactor to meet 4 july deadline",
+  "id": "4f57118d"
+ },
+ {
+  "date": "2026-07-07",
+  "title": "한미일, 인도·태평양 지역 소형모듈원자로(SMR) 도입 협력 각서 서명",
+  "summary": "한국·미국·일본 3국이 인도·태평양 지역의 소형모듈원자로(SMR) 도입 협력을 위한 양해각서(MOU)를 서명했다.",
+  "summaryLong": "한국·미국·일본 3국이 인도·태평양 지역 국가들의 소형모듈원자로(SMR) 도입 협력을 위한 양해각서(MOU)를 7일 체결했다. 3국 정부 간 공식 합의로서, SMR 국책 정책 차원의 국제 협력 틀이 확립되었으며, 아시아·태평양 지역으로의 SMR 배급 확대 전략을 반영한다. 정부 정책 수준의 다자간 협력체 구축이 공식 발표된 사실이다.",
+  "cat": "계약",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "연합뉴스 최신기사",
+  "url": "https://www.yna.co.kr/view/AKR20260708001951071",
+  "k": "한미일 인태지역 소형모듈원자로 도입 협력체 구축 각서 서명 종합",
+  "ko": 1,
+  "id": "74366ca4"
+ },
+ {
   "date": "2026-07-06",
   "title": "[사설] SMR 첫 삽, 기회로의 전환",
   "summary": "캐나다 온타리오(Ontario)주의 300MW급 소형모듈원자로(SMR) 4기 건설 착공을 계기로 SMR이 현실적 대안으로 자리 잡고 있으며, 국내 제조업체들의 포트폴리오 접근 전략을 평가하는 사설.",
@@ -827,66 +884,6 @@ window.SMR_NEWS = [
   "id": "c0dba29a"
  },
  {
-  "date": "2026-07-03",
-  "title": "AI 전력 수요 경쟁… 미국 SMR 28곳 발표",
-  "summary": "인공지능(AI) 데이터센터의 전력 수요 증가에 따라 미국이 28개의 소형모듈원자로(SMR) 건설 계획을 발표했다.",
-  "summaryLong": "미국이 인공지능(AI) 데이터센터의 급증하는 전력 수요에 대응하기 위해 28곳의 소형모듈원자로(SMR) 건설 계획을 발표했다. 이는 탄소중립 에너지 공급과 AI 산업의 전력 패권 확보를 동시에 추진하려는 미국의 전략적 선택을 보여준다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "g-enews.com",
-  "url": "https://www.g-enews.com/article/Global-Biz/2026/07/202607040627069393fbbec65dfb_1",
-  "k": "ai 전력 패권 원전으로 간다 미국 smr 28곳 발표",
-  "ko": 1,
-  "id": "b9b65f80"
- },
- {
-  "date": "2026-07-03",
-  "title": "AI 전력 수요·탄소중립 압박, SMR 개발 경쟁 가속… 제도 정비 관건",
-  "summary": "인공지능(AI) 전력 수요와 탄소중립 목표가 소형모듈원자로(SMR) 개발 경쟁을 촉발하고 있으며, 관련 제도 정비가 성공의 핵심으로 지적된다.",
-  "summaryLong": "인공지능(AI)의 급속한 확산으로 인한 에너지 수요 증가와 탄소중립 달성 압박으로 인해 소형모듈원자로(SMR) 개발 경쟁이 전 세계적으로 가속화되고 있다. 다만 업계 전문가들은 SMR의 상용화와 확대 배치를 위해서는 규제 체계 정비, 인허가 프로세스 단순화, 표준설계인증(Standard Design Approval) 등 제도적 개선이 가장 중요한 과제라고 강조하고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=4843",
-  "k": "ai 전력수요 탄소중립 압박 속 smr 개발 경쟁 가속 제도 정비가 관건",
-  "ko": 1,
-  "id": "5481f7fb"
- },
- {
-  "date": "2026-07-03",
-  "title": "박민원 총장, 20조원 규모 SMR 생태계 조성 추진",
-  "summary": "창원시 관계자가 20조원 규모의 소형모듈원자로(SMR) 생태계 구축을 통해 청년 유입을 목표로 하는 계획을 발표했다.",
-  "summaryLong": "박민원 창원시 관계자는 소형모듈원자로(SMR) 산업을 중심으로 20조원 규모의 생태계를 조성하겠다는 계획을 발표했다. 이는 SMR 산업 육성을 통해 지역 경제 활성화와 청년 인구 유입을 동시에 달성하려는 전략으로 보인다. 구체적인 추진 일정이나 세부 사업 내용은 제시되지 않았으며, 지역 성장 엔진으로서 SMR 산업의 중요성을 강조하는 발표이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "gnnews.co.kr",
-  "url": "https://www.gnnews.co.kr/news/articleView.html?idxno=640340",
-  "k": "박민원 총장 20조원 smr 생태계 만들어 청년이 돌아오는 창원 만들겠다",
-  "ko": 1,
-  "id": "cb243dfe"
- },
- {
-  "date": "2026-07-03",
-  "title": "정부, SMR을 국가전략기술로 지정하고 세제혜택 검토",
-  "summary": "한국 정부가 소형모듈원자로(SMR)를 국가전략기술로 지정하고 관련 세제혜택 방안을 검토 중이다.",
-  "summaryLong": "한국 정부는 소형모듈원자로(SMR)를 국가전략기술로 지정하여 세제 혜택을 제공하는 방안을 검토하고 있다. 이는 '5극 3특(5개 극점·3개 특화전략)' 성장엔진 정책의 일환으로, SMR을 차세대 원전 기술로 육성하려는 국가 정책 방향을 반영한다. 구체적인 세제혜택 규모나 시행 일정 등 상세 내용은 제시되지 않았으며, 정책 검토 단계로 보인다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "livebiz.today",
-  "url": "https://www.livebiz.today/news/articleView.html?idxno=203075",
-  "k": "정부 smr 국가전략기술로 지정해 세제혜택 검토 5극 3특 성장엔진 신속 발표",
-  "ko": 1,
-  "id": "c0cedf29"
- },
- {
   "date": "2026-07-01",
   "title": "i-SMR 기술개발사업단, 싱가포르 에너지시장청과 협력",
   "summary": "한국의 i-SMR(혁신형 소형모듈원자로) 기술개발사업단이 싱가포르 에너지시장청(EMA)과 협력 양해각서를 체결했다.",
@@ -1335,5 +1332,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-08 07:41 KST";
-window.SMR_TOTAL = 1093;
+window.SMR_UPDATED = "2026-07-08 08:11 KST";
+window.SMR_TOTAL = 1097;
