@@ -53,6 +53,92 @@ window.SMR_NEWS = [
     "id": "484635a3"
   },
   {
+    "date": "2026-07-07",
+    "title": "폴란드 SGE, 영국에 BWRX-300 14기 배치 제안",
+    "summary": "폴란드의 신타스 그린 에너지(Synthos Green Energy)가 영국 3개 부지에 GE 베르노바 히타치 뉴클리어 에너지(GE Vernova Hitachi Nuclear Energy)의 BWRX-300 소형모듈원자로 14기 배치를 제안했다.",
+    "summaryLong": "폴란드 바르샤바 소재의 개발·투자 회사 신타스 그린 에너지(Synthos Green Energy)가 영국에서 BWRX-300(비등경수로/BWR 기반 소형모듈원자로) 14기를 3개 다중 부지에 배치하는 사업을 발표했다. SGE가 이 영국 프로젝트를 위해 SGE SMR UK Limited라는 전담 법인을 설립했으며, 약 350억 파운드(GBP 35bn) 규모의 민간 자본 투자 유치를 검토하고 있는 것으로 전해졌다. 이는 영국의 에너지 안보와 탄소중립 목표 달성에 소형모듈원자로를 활용하려는 국제적 움직임의 일환으로 평가된다.",
+    "cat": "기술",
+    "type": "BWR",
+    "dev": "SGE",
+    "region": "UK",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-07-07/article-8183/polish-company-sge-hopes-to-deploy-14-bwrx300-reactors-in-uk/",
+    "k": "polish company sge hopes to deploy 14 bwrx 300 reactors in u k",
+    "id": "13b8ec6b"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "암페라, 3D 프린팅 마이크로원자로 모듈 완성",
+    "summary": "미국 암페라(Ampera)가 3D 프린팅 기술으로 제조한 전규모 핵원자로 모듈 완성을 주요 마일스톤으로 달성했다.",
+    "summaryLong": "미국 암페라(Ampera Inc)는 첫 번째 전규모 3D 프린팅 핵원자로 모듈 제조 완성을 주요 마일스톤으로 발표했다. 이는 첨단 제조 기술을 활용한 마이크로원자로 모듈 생산의 기술적 진전을 보여주는 사례로, 혁신적 제조 공정의 실현 가능성을 입증한다. 3D 프린팅 기술의 적용은 마이크로원자로의 건설 비용 절감과 제조 효율성 향상을 기대하게 한다.",
+    "cat": "기술",
+    "type": "Micro",
+    "dev": "Ampera",
+    "region": "US",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/ampera-makes-3d-printed-microreactor-module",
+    "k": "ampera makes 3d printed microreactor module",
+    "id": "59846cc8"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "캠브리지 애토믹웍스-칠턴 바이탈, 오딘 마이크로원자로 영국 버클리 건설 협의",
+    "summary": "칠턴 바이탈 그룹(Chiltern Vital Group)이 캠브리지 애토믹웍스(Cambridge Atomworks)와 양해각서를 체결하고, 영국 글로스터셔(Gloucestershire) 버클리(Berkeley)에서 오딘(Odin) 마이크로원자로 프로토타입 건설을 검토 중이다.",
+    "summaryLong": "칠턴 바이탈 그룹(Chiltern Vital Group)은 캠브리지 애토믹웍스(Cambridge Atomworks)와 양해각서(LOI)를 체결하여, 영국 글로스터셔(Gloucestershire) 버클리 그린 과학·기술 공원(Berkeley Green Science and Technology Park)에서 오딘(Odin) 마이크로원자로 프로토타입 건설을 추진하기로 협의했다. 이는 영국 내 마이크로원자로 프로젝트의 실현화 진전을 나타내며, 캠브리지 애토믹웍스의 설계와 칠턴 바이탈의 건설 추진으로 첨단로 상용화 경로를 확충하는 의미를 갖는다.",
+    "cat": "계약",
+    "type": "Micro",
+    "dev": "Cambridge Atomworks",
+    "region": "UK",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/agreement-could-see-prototype-microreactor-built-at-berkeley",
+    "k": "agreement could see prototype microreactor built at berkeley",
+    "id": "6390463c"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "한·미·일, 인도·태평양 지역 소형모듈원자로 도입 가속화 협력각서",
+    "summary": "한국, 미국, 일본이 인도·태평양 지역에 소형모듈원자로(SMR)를 도입하기 위한 협력각서를 체결했다.",
+    "summaryLong": "한국, 미국, 일본 3국이 인도·태평양 지역 국가들에 소형모듈원자로(SMR) 도입을 가속화하기 위한 협력각서를 체결했다. 이 협력은 중국의 영향력 확대에 대응하고 인태 지역의 에너지 수요 증가, 특히 데이터센터 확산에 대응하기 위한 것으로 보인다. 협력각서는 SMR 기술 공유, 도입 국가 발굴, 정책 조율 등을 포함하며, 미국 국무장관 루비오(Rubio)도 한국과 일본을 핵심 동맹으로 강조했다. 이는 글로벌 SMR 시장 확대와 탄소중립 에너지 추구를 위한 삼국 협력의 신호이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "연합뉴스 최신기사",
+    "url": "https://www.yna.co.kr/view/AKR20260708001900071",
+    "k": "한미일 인태지역 소형모듈원자로 도입 가속화 협력각서",
+    "ko": 1,
+    "id": "772154fa"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "스탠다드 뉴클리어, 소형모듈원자로 연료 개발사로서 3억5600만 달러 규모 신규상장 추진",
+    "summary": "소형모듈원자로(SMR) 연료 개발사 스탠다드 뉴클리어(Standard Nuclear)가 3억5600만 달러 규모의 신규상장(IPO)을 추진하고 있다.",
+    "summaryLong": "소형모듈원자로(SMR) 연료 개발을 주력으로 하는 스탠다드 뉴클리어(Standard Nuclear)가 3억5600만 달러 규모의 신규상장(IPO)을 추진 중이다. 이는 미국 주식시장에 상장함으로써 SMR 연료 공급 시장 진출 및 사업 확장을 위한 자금 조달 전략이다. 스탠다드 뉴클리어는 SMR용 핵연료 제조 및 공급 분야의 주요 플레이어로 성장하고 있으며, 이번 상장은 전역의 SMR 시장 성장과 맞물려 있다.",
+    "cat": "투자",
+    "type": "General",
+    "dev": "Standard Nuclear",
+    "region": "US",
+    "source": "renaissancecapital.com",
+    "url": "https://www.renaissancecapital.com/IPO-Center/News/120310/Small-modular-reactor-fuel-developer-Standard-Nuclear-sets-terms-for-$356-m",
+    "k": "stdn ipo news small modular reactor fuel developer standard nuclear sets terms for 356 million ipo",
+    "id": "5f07fc3d"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "미국 국무장관 루비오, 한국·일본을 소형모듈원자로 협력의 핵심 동맹으로 강조",
+    "summary": "미국 국무장관 루비오(Rubio)가 소형모듈원자로(SMR) 협력에서 한국과 일본을 핵심 동맹으로 평가했다.",
+    "summaryLong": "미국 국무장관 루비오(Rubio)가 소형모듈원자로(SMR) 협력에서 한국과 일본의 역할을 강조했다. 이는 한·미·일 삼국이 인도·태평양 지역의 SMR 도입 확대를 추진하는 가운데, 미국 행정부가 이 협력을 전략적으로 중요하게 보고 있음을 시사한다. 인태 지역의 에너지 안보와 경제 성장을 위해 SMR이 핵심 기술로 부각되고 있으며, 미국의 공식적인 입장 표명은 향후 협력의 확대 가능성을 높인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "chosun.com",
+    "url": "https://www.chosun.com/english/world-en/2026/07/08/KCLUCBQC7BEJBIPDVNGGXMSJ24/",
+    "k": "u s secretary rubio hails south korea japan as vital allies amid smr cooperation",
+    "ko": 1,
+    "id": "20adb53f"
+  },
+  {
     "date": "2026-07-06",
     "title": "[사설] SMR 첫 삽, 기회로의 전환",
     "summary": "캐나다 온타리오(Ontario)주의 300MW급 소형모듈원자로(SMR) 4기 건설 착공을 계기로 SMR이 현실적 대안으로 자리 잡고 있으며, 국내 제조업체들의 포트폴리오 접근 전략을 평가하는 사설.",
@@ -331,6 +417,21 @@ window.SMR_NEWS = [
     "k": "지역 희생 강요하는 위험한 폭주 환경운동연합 신규 원전 smr 추진 규탄",
     "ko": 1,
     "id": "a967af9d"
+  },
+  {
+    "date": "2026-07-06",
+    "title": "한수원, i-SMR 안전성·활용성 기술력 과시",
+    "summary": "한국수력원자력(한수원)이 국산 소형모듈원자로 i-SMR의 안전성과 활용성을 중심으로 기술력을 전방위 홍보하고 있다.",
+    "summaryLong": "한국수력원자력(한수원)이 자체 개발한 i-SMR(혁신형 소형모듈원자로)의 안전성, 활용성, 경제성 등 핵심 기술력을 다양한 채널을 통해 적극 홍보하고 있다. 이는 i-SMR의 상용화 추진과 국내·외 시장 수요 창출을 위한 선제적 마케팅 활동으로 평가된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "한수원",
+    "region": "KR",
+    "source": "e-platform.net",
+    "url": "http://www.e-platform.net/news/articleView.html?idxno=103611",
+    "k": "한수원 i smr 안전성 활용성 등 앞선 기술력 전방위 과시",
+    "ko": 1,
+    "id": "6904671f"
   },
   {
     "date": "2026-07-05",
@@ -2909,6 +3010,21 @@ window.SMR_NEWS = [
     "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-second-acquisition-weeks-targets-113637759.html",
     "k": "oklo s second acquisition in weeks targets a key aurora bottleneck what investors need to know",
     "id": "4f4be16d"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "\"선진원자로 SMR, 법·제도 제정과 안전 규제 정립 필요\"",
+    "summary": "전문가가 소형모듈원자로(SMR) 도입을 위해 관련 법제도 정비와 안전 규제 체계 구축이 필수적임을 지적했다.",
+    "summaryLong": "원자력 전문가가 선진원자로로 분류되는 소형모듈원자로(SMR)의 본격 도입을 위해서는 한국의 법·제도 제정과 안전 규제 체계 정립이 반드시 필요하다고 주장했다. 이는 SMR 산업화 과정에서 규제 인프라 구축의 중요성을 강조하는 정책 의견으로, 정부의 규제 준비 방향을 제시하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "knpnews.com",
+    "url": "http://www.knpnews.com/news/articleView.html?idxno=33976",
+    "k": "선진원자로 smr 법 제도 제정과 안전 규제 정립해야",
+    "ko": 1,
+    "id": "5530585c"
   },
   {
     "date": "2026-06-29",
@@ -15595,4 +15711,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-07 17:04 KST";
+window.SMR_UPDATED = "2026-07-08 07:41 KST";
