@@ -1,6 +1,51 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-07-07",
+  "title": "DL이앤씨, 엑스에너지 Xe-100 표준화 설계 수주",
+  "summary": "DL이앤씨가 국내 건설사로는 처음으로 미국 엑스에너지(X-energy)의 Xe-100 소형모듈원자로 표준화 설계를 수주했다.",
+  "summaryLong": "한국의 건설사 DL이앤씨가 미국의 SMR 개발사 엑스에너지의 고온가스로(HTGR) 기술인 Xe-100에 대한 표준화 설계(design certification) 업무를 수주했으며, 이는 국내 건설사가 미국 첨단 소형모듈원자로 설계 인증에 참여한 첫 사례이다. 이는 한국 건설 산업의 국제 원자력 시장 진출과 엑스에너지의 설계 인증 추진을 위한 역량 강화를 의미하며, 양사 간 협력 체계가 강화되고 있음을 보여준다.",
+  "cat": "계약",
+  "type": "HTGR",
+  "dev": "X-energy",
+  "region": "US",
+  "source": "market-ink.co.kr",
+  "url": "https://www.market-ink.co.kr/news/articleView.html?idxno=8818",
+  "k": "dl이앤씨 국내 건설사 최초 smr 표준화 설계 수주 엑스에너지 xe 100 파트너",
+  "ko": 1,
+  "id": "8035d6e9"
+ },
+ {
+  "date": "2026-07-07",
+  "title": "국내 첫 소형모듈원자로(SMR) 표준화 설계 수주… 글로벌 시장 선점 나선다",
+  "summary": "국내 기업이 첫 소형모듈원자로(SMR) 표준화 설계 수주를 획득하며 글로벌 원전 시장 진출을 추진하고 있다.",
+  "summaryLong": "한국 기업이 국내 최초로 소형모듈원자로(SMR) 표준화 설계에 대한 수주 계약을 획득했다. 이는 글로벌 SMR 시장에서의 기술 경쟁력 확보와 국제 수주 확대를 위한 중요한 마일스톤으로, 국내 원전 기술의 글로벌 상용화 전략의 일환이다. Build Up Korea 2026 등 정부 정책 배경 하에서 추진되고 있으며, 한국 기업의 원전 수출 경쟁력 강화를 의미한다.",
+  "cat": "계약",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "munhwa.com",
+  "url": "https://www.munhwa.com/article/11600763",
+  "k": "국내 첫 smr 표준화 설계 수주 글로벌 원전 시장 선점 나선다 build up korea 2026",
+  "ko": 1,
+  "id": "d8432a52"
+ },
+ {
+  "date": "2026-07-07",
+  "title": "한수원, KISS(원자력 안전국제세미나) 2026 참가…SMR 등 미래 원전 안전기술 공개",
+  "summary": "한국수력원자력(한수원)이 KISS(원자력 안전국제세미나) 2026에 참가하여 SMR 등 미래 원전 안전기술을 선보인다.",
+  "summaryLong": "한국수력원자력(한수원)이 국제 원자력 안전 학술행사인 KISS(원자력 안전국제세미나) 2026에 참가하여 SMR을 포함한 미래 원전 관련 안전기술을 공개할 계획이다. 이는 한수원의 SMR 등 첨단로 기술 개발 현황을 국제 무대에서 알리는 사업 활동에 해당한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "한수원",
+  "region": "KR",
+  "source": "nocutnews.co.kr",
+  "url": "https://www.nocutnews.co.kr/news/6544166",
+  "k": "한수원 kiss 2026 참가 smr 등 미래 원전 안전기술 공개",
+  "ko": 1,
+  "id": "484635a3"
+ },
+ {
   "date": "2026-07-06",
   "title": "[사설] SMR 첫 삽, 기회로의 전환",
   "summary": "캐나다 온타리오(Ontario)주의 300MW급 소형모듈원자로(SMR) 4기 건설 착공을 계기로 SMR이 현실적 대안으로 자리 잡고 있으며, 국내 제조업체들의 포트폴리오 접근 전략을 평가하는 사설.",
@@ -842,79 +887,6 @@ window.SMR_NEWS = [
   "id": "36e50474"
  },
  {
-  "date": "2026-07-02",
-  "title": "억만장자, 영국 SMR 확대 배치에 350억 파운드 투자 계획",
-  "summary": "억만장자가 영국 내 소형모듈원자로(SMR) 광범위한 배치를 위해 약 350억 파운드 규모의 대규모 투자를 추진할 계획이다.",
-  "summaryLong": "영국(UK)에서 억만장자 투자자가 소형모듈원자로(SMR) 확대 배치를 위해 약 350억 파운드(GBP) 규모의 투자를 계획하고 있는 것으로 보도되었다. 이는 SMR을 영국 전역에 대규모로 도입하려는 민간 투자 움직임으로, 영국 정부의 SMR 정책과 부합하는 사례이다. 해당 투자는 SMR의 상용화와 산업 육성을 가속화하려는 전략으로 해석되며, 글로벌 SMR 시장 확대의 신호로 평가된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "UK",
-  "source": "theguardian.com",
-  "url": "https://www.theguardian.com/business/2026/jul/02/billionaire-michal-solowow-small-modular-nuclear-reactors-uk",
-  "k": "billionaire to invest 35bn in small modular nuclear reactors roll out across uk",
-  "id": "34188c79"
- },
- {
-  "date": "2026-07-02",
-  "title": "동나이성, SMR 활용 시범 원전 선도 추진",
-  "summary": "베트남의 동나이(Dong Nai)성이 소형모듈원자로(SMR)를 활용한 시범 원전 구축을 선도적으로 추진할 계획이다.",
-  "summaryLong": "베트남의 동나이(Dong Nai)성이 소형모듈원자로(SMR)를 활용한 시범 원자력발전소 구축을 선도하려는 계획을 추진 중인 것으로 보도되었다. 베트남은 에너지 수요 증가와 탄소중립 목표 달성을 위해 SMR과 같은 첨단 원자력 기술 도입을 검토하고 있으며, 동나이성의 이 계획은 동남아시아 지역 내 SMR 도입의 선도 사례로 평가된다. 이는 글로벌 SMR 시장 확대와 개도국의 원자력 에너지 활용 추세를 반영하는 사례이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "",
-  "source": "en.vneconomy.vn",
-  "url": "https://en.vneconomy.vn/dong-nai-seeks-to-pioneer-pilot-nuclear-power-plant-using-small-modular-reactors.htm",
-  "k": "dong nai seeks to pioneer pilot nuclear power plant using small modular reactors",
-  "id": "887f97c1"
- },
- {
-  "date": "2026-07-02",
-  "title": "삼성물산, 영국 72조 규모 SMR 14기 건설 프로젝트 참여",
-  "summary": "삼성물산이 영국(UK)의 72조 원대 규모 SMR 14기 건설 프로젝트에 참여한다.",
-  "summaryLong": "삼성물산이 영국(UK)에서 추진 중인 약 72조 원 규모의 소형모듈원자로(SMR) 14기 건설 프로젝트에 참여하는 것으로 보도되었다. 이 프로젝트는 영국의 에너지 안보 강화와 탄소 중립 달성을 위한 대규모 SMR 사업으로, 삼성물산의 참여는 한국 건설 기업의 글로벌 SMR 시장 진출을 의미한다. 해당 사업을 통해 삼성물산은 설계·건설·운영 분야에서 국제 경쟁력을 입증할 수 있는 기회를 갖게 되며, 한국의 SMR 기술과 건설 역량을 국제 시장에 알릴 수 있을 것으로 기대된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "삼성물산",
-  "region": "UK",
-  "source": "theguru.co.kr",
-  "url": "https://theguru.co.kr/news/article.html?no=103879",
-  "k": "단독 삼성물산 72조 규모 smr 14기 건설 프로젝트 참여",
-  "ko": 1,
-  "id": "0a14ed12"
- },
- {
-  "date": "2026-07-02",
-  "title": "억만장자, 영국 소형모듈원자로 전개에 350억 파운드 투자 계획",
-  "summary": "억만장자가 영국 내 소형모듈원자로(SMR) 대규모 보급에 350억 파운드 규모 투자를 발표.",
-  "summaryLong": "억만장자 투자자가 영국(UK) 전역의 소형모듈원자로(SMR, Small Modular Reactor) 보급 확대를 위해 350억 파운드(약 44조 원) 규모의 대규모 투자 계획을 발표했다. 가디언(The Guardian)이 보도한 바와 같이 이는 영국의 탄소중립 에너지 전환과 에너지 안보 강화에 부응하는 민간 부문의 대규모 투자 움직임을 보여준다. 구체적 기업명, 일정, 기술 사양은 기사 스니펫에 명시되지 않았으나, SMR 산업의 상용화 자금 조달 관점에서 주목할 만한 투자 신호다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "UK",
-  "source": "theguardian.com",
-  "url": "https://www.theguardian.com/business/2026/jul/02/billionaire-michal-solowow-small-modular-nuclear-reactors-uk",
-  "k": "billionaire to invest 35bn in small modular nuclear reactors rollout across uk",
-  "op": 1,
-  "id": "34188c79"
- },
- {
-  "date": "2026-07-02",
-  "title": "삼성물산, 72조 규모 영국 SMR 14기 건설 프로젝트 참여 신청",
-  "summary": "삼성물산이 영국의 소형모듈원자로(SMR) 14기 건설 프로젝트(72조 규모)에 참여 신청했다.",
-  "summaryLong": "삼성물산이 영국에서 추진 중인 규모 72조 원의 소형모듈원자로(SMR) 14기 건설 프로젝트에 참여할 것을 신청했다고 보도되었다. 이는 한국 대형 엔지니어링·건설사의 글로벌 SMR 시장 진출 의지를 보여주는 사례로, 영국의 에너지 정책 추진과 민간 자금 활용 전략 속에서 국제 파트너십이 확대되고 있음을 의미한다. 향후 협상 진행 및 계약 체결 여부가 주목되고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "Samsung E&C",
-  "region": "UK",
-  "source": "theguru.co.kr",
-  "url": "https://theguru.co.kr/news/article.html?no=103879",
-  "k": "단독 삼성물산 72조 규모 smr 14기 건설 프로젝트 참여 신청",
-  "ko": 1,
-  "id": "0a14ed12"
- },
- {
   "date": "2026-07-01",
   "title": "i-SMR 기술개발사업단, 싱가포르 에너지시장청과 협력",
   "summary": "한국의 i-SMR(혁신형 소형모듈원자로) 기술개발사업단이 싱가포르 에너지시장청(EMA)과 협력 양해각서를 체결했다.",
@@ -985,20 +957,6 @@ window.SMR_NEWS = [
   "url": "https://www.msn.com/en-us/money/topstocks/ottr-oklo-draw-highest-short-interest-in-utilities-sector-bip-and-rnw-see-lowest-short-interest/ar-AA26ZF25?ocid=finance-verthp-feeds",
   "k": "ottr oklo draw highest short interest in utilities sector bip and rnw see lowest short interest",
   "id": "cd78e07f"
- },
- {
-  "date": "2026-07-01",
-  "title": "커티스-라이트, 엑스에너지 Xe-100 부품 시제 제조 진행",
-  "summary": "커티스-라이트(Curtiss-Wright)가 엑스에너지(X-energy)의 고온가스로(HTGR) Xe-100 원자로 부품의 시제 제조를 진행 중이다.",
-  "summaryLong": "커티스-라이트(Curtiss-Wright)가 엑스에너지(X-energy)의 고온가스로(HTGR) 노형 소형모듈원자로 Xe-100 원자로 부품의 시제(프로토타입) 제조를 미국(US) 텍사스(Texas) 만안 지역 건설 대상지를 위해 추진하고 있다. 이는 Xe-100의 기술 실증 및 생산 준비 단계로, 고온가스로 노형의 우수성 입증과 공급망 구축의 주요 마일스톤이다. 커티스-라이트 같은 대형 부품 제조사의 참여는 엑스에너지의 상용화 추진력을 반영하고 있다.",
-  "cat": "기술",
-  "type": "HTGR",
-  "dev": "X-energy, Curtiss-Wright",
-  "region": "US",
-  "source": "bicmagazine.com",
-  "url": "https://www.bicmagazine.com/resources/products-services/curtiss-wright-advances-prototype-manufacturing-for-x-energy-xe-100-reactor-components/",
-  "k": "curtiss wright advances prototype manufacturing for x energy xe 100 reactor components destined for texas gulf coast site",
-  "id": "e214d20f"
  },
  {
   "date": "2026-06-25",
@@ -1282,33 +1240,6 @@ window.SMR_NEWS = [
   "id": "f0696c46"
  },
  {
-  "date": "2026-06-04",
-  "title": "엑스에너지(X-energy), 나스닥(Nasdaq) 상장 후 2026년 1분기 분기별 파이프라인 144기·11.5GWe 공시",
-  "summary": "나스닥 상장 후 분기 공시에서 미국·영국 합산 144기, 약 11.5 GWe의 파이프라인(고객 권리 전량 행사 가정)을 공개했다.",
-  "cat": "투자",
-  "type": "HTGR",
-  "dev": "X-energy",
-  "region": "US·UK",
-  "source": "X-energy IR",
-  "url": "https://x-energy.com/news/x-energy-reports-first-quarter-2026-results/",
-  "summaryLong": "엑스에너지가 나스닥(Nasdaq: XE) 상장 후 제출한 분기 공시에서 사업 파이프라인 규모를 공개했다. 미국과 영국 지역의 소형모듈원자로 사업 수주 기준으로 총 144기, 용량 약 11.5 GWe에 이른다. 이는 고객의 권리 전량 행사를 가정한 수치로, 엑스에너지의 사업 확장 가능성을 보여준다. 글로벌 소형모듈원자로 시장의 성장 추세를 반영하고 있다.",
-  "id": "9f464055"
- },
- {
-  "date": "2026-06-04",
-  "title": "엑스에너지(X-energy), 2026년 1분기 실적 발표",
-  "summary": "엑스에너지(X-energy)가 2026년 1분기 경영 실적을 공식 발표했다.",
-  "summaryLong": "엑스에너지(X-energy)가 자신의 공식 채널을 통해 2026년 1분기 실적을 발표했다. 고온가스로(HTGR) 기술 개발사인 엑스에너지의 분기별 실적 공시는 회사의 사업 진행 상황, 재무 현황, 기술 개발 마일스톤 등을 투자자와 이해관계자에게 알리는 주요 소통 채널이다. 구체적인 실적 내용은 추가 확인이 필요하다.",
-  "cat": "기술",
-  "type": "HTGR",
-  "dev": "X-energy",
-  "region": "US",
-  "source": "x-energy.com",
-  "url": "https://x-energy.com/news/x-energy-reports-first-quarter-2026-results/",
-  "k": "x energy reports first quarter 2026 results x energy",
-  "id": "9f464055"
- },
- {
   "date": "2026-06-03",
   "title": "한국 i-SMRDA, 터키 Nuclean과 SMR 협력 협약 체결",
   "summary": "한국의 i-SMRDA(i-Small Modular Reactor Development Alliance)와 터키의 Nuclean이 소형모듈원자로(SMR) 개발·보급을 위한 협력 양해각서를 체결했다.",
@@ -1404,5 +1335,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-07 08:49 KST";
-window.SMR_TOTAL = 1079;
+window.SMR_UPDATED = "2026-07-07 16:02 KST";
+window.SMR_TOTAL = 1084;

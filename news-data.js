@@ -8,6 +8,51 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-07-07",
+    "title": "DL이앤씨, 엑스에너지 Xe-100 표준화 설계 수주",
+    "summary": "DL이앤씨가 국내 건설사로는 처음으로 미국 엑스에너지(X-energy)의 Xe-100 소형모듈원자로 표준화 설계를 수주했다.",
+    "summaryLong": "한국의 건설사 DL이앤씨가 미국의 SMR 개발사 엑스에너지의 고온가스로(HTGR) 기술인 Xe-100에 대한 표준화 설계(design certification) 업무를 수주했으며, 이는 국내 건설사가 미국 첨단 소형모듈원자로 설계 인증에 참여한 첫 사례이다. 이는 한국 건설 산업의 국제 원자력 시장 진출과 엑스에너지의 설계 인증 추진을 위한 역량 강화를 의미하며, 양사 간 협력 체계가 강화되고 있음을 보여준다.",
+    "cat": "계약",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "market-ink.co.kr",
+    "url": "https://www.market-ink.co.kr/news/articleView.html?idxno=8818",
+    "k": "dl이앤씨 국내 건설사 최초 smr 표준화 설계 수주 엑스에너지 xe 100 파트너",
+    "ko": 1,
+    "id": "8035d6e9"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "국내 첫 소형모듈원자로(SMR) 표준화 설계 수주… 글로벌 시장 선점 나선다",
+    "summary": "국내 기업이 첫 소형모듈원자로(SMR) 표준화 설계 수주를 획득하며 글로벌 원전 시장 진출을 추진하고 있다.",
+    "summaryLong": "한국 기업이 국내 최초로 소형모듈원자로(SMR) 표준화 설계에 대한 수주 계약을 획득했다. 이는 글로벌 SMR 시장에서의 기술 경쟁력 확보와 국제 수주 확대를 위한 중요한 마일스톤으로, 국내 원전 기술의 글로벌 상용화 전략의 일환이다. Build Up Korea 2026 등 정부 정책 배경 하에서 추진되고 있으며, 한국 기업의 원전 수출 경쟁력 강화를 의미한다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "munhwa.com",
+    "url": "https://www.munhwa.com/article/11600763",
+    "k": "국내 첫 smr 표준화 설계 수주 글로벌 원전 시장 선점 나선다 build up korea 2026",
+    "ko": 1,
+    "id": "d8432a52"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "한수원, KISS(원자력 안전국제세미나) 2026 참가…SMR 등 미래 원전 안전기술 공개",
+    "summary": "한국수력원자력(한수원)이 KISS(원자력 안전국제세미나) 2026에 참가하여 SMR 등 미래 원전 안전기술을 선보인다.",
+    "summaryLong": "한국수력원자력(한수원)이 국제 원자력 안전 학술행사인 KISS(원자력 안전국제세미나) 2026에 참가하여 SMR을 포함한 미래 원전 관련 안전기술을 공개할 계획이다. 이는 한수원의 SMR 등 첨단로 기술 개발 현황을 국제 무대에서 알리는 사업 활동에 해당한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한수원",
+    "region": "KR",
+    "source": "nocutnews.co.kr",
+    "url": "https://www.nocutnews.co.kr/news/6544166",
+    "k": "한수원 kiss 2026 참가 smr 등 미래 원전 안전기술 공개",
+    "ko": 1,
+    "id": "484635a3"
+  },
+  {
     "date": "2026-07-06",
     "title": "[사설] SMR 첫 삽, 기회로의 전환",
     "summary": "캐나다 온타리오(Ontario)주의 300MW급 소형모듈원자로(SMR) 4기 건설 착공을 계기로 SMR이 현실적 대안으로 자리 잡고 있으며, 국내 제조업체들의 포트폴리오 접근 전략을 평가하는 사설.",
@@ -2835,6 +2880,20 @@ window.SMR_NEWS = [
     "k": "해양smr 미래 시장 선점 세미나 부산서 열려",
     "ko": 1,
     "id": "b4a8783c"
+  },
+  {
+    "date": "2026-06-30",
+    "title": "오클로, 아우로라 사업 병목 해결 목표로 2주 내 2번째 인수",
+    "summary": "오클로(Oklo)가 자사의 아우로라(Aurora) 프로젝트 진행상 핵심 병목 해결을 위해 2주 내 2번째 기업 인수를 단행했다.",
+    "summaryLong": "오클로가 아우로라 소형모듈원자로 프로젝트 추진 과정에서 직면한 핵심 기술적·운영상 병목을 해결하기 위해 최근 수주 내에 연이어 기업 인수를 추진하고 있다. 이는 오클로가 아우로라 프로젝트의 신속한 상용화를 위해 필요한 기술·역량을 시장에서 빠르게 획득하려는 전략을 반영하며, 오클로의 사업 확장과 병렬화(parallelization) 추진을 보여준다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-second-acquisition-weeks-targets-113637759.html",
+    "k": "oklo s second acquisition in weeks targets a key aurora bottleneck what investors need to know",
+    "id": "4f4be16d"
   },
   {
     "date": "2026-06-29",
@@ -10568,6 +10627,20 @@ window.SMR_NEWS = [
     "id": "bf3e7850"
   },
   {
+    "date": "2026-06-05",
+    "title": "트럼프 행정부 EPA 국장, SMR 확대 지지로 관련주 상승",
+    "summary": "트럼프 행정부의 환경청(EPA) 국장 리 젤딘이 소형모듈원자로 확대를 지지하면서 SMR 관련 주가가 상승했다.",
+    "summaryLong": "미국 트럼프 행정부의 환경청(EPA) 국장 리 젤딘이 소형모듈원자로 대규모 건설 추진을 강력히 지지하는 발언을 함으로써 정책 친화적 신호를 전달했다. 이로 인해 뉴스케일(NuScale), 오클로(Oklo) 등 주요 SMR 개발사의 주가가 상승했으며, 미국 연방 차원에서의 SMR 정책 지원이 강화될 수 있다는 시장의 긍정적 평가를 반영하고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/sectors/energy/articles/smr-nne-oklo-gain-trumps-113636873.html",
+    "k": "smr nne oklo gain after trump s epa chief lee zeldin touts small modular reactor buildout",
+    "id": "8fe08171"
+  },
+  {
     "date": "2026-06-04",
     "title": "엑스에너지(X-energy), 나스닥(Nasdaq) 상장 후 2026년 1분기 분기별 파이프라인 144기·11.5GWe 공시",
     "summary": "나스닥 상장 후 분기 공시에서 미국·영국 합산 144기, 약 11.5 GWe의 파이프라인(고객 권리 전량 행사 가정)을 공개했다.",
@@ -15507,4 +15580,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-07 08:49 KST";
+window.SMR_UPDATED = "2026-07-07 16:02 KST";
