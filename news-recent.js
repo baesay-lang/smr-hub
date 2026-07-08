@@ -60,6 +60,49 @@ window.SMR_NEWS = [
   "id": "8f470a0b"
  },
  {
+  "date": "2026-07-08",
+  "title": "딥 피션(Deep Fission), 원형 원자로 용기 시제품 인수",
+  "summary": "캘리포니아 스타트업 딥 피션(Deep Fission)이 시추공 매설형 소형모듈원자로(SMR) 프로젝트용 원형 원자로 용기 시제품을 파슨스(Parsons) 부지에서 인수했다.",
+  "summaryLong": "캘리포니아(California) 기반 스타트업 딥 피션(Deep Fission)은 지하 1마일 깊이의 시추공(borehole) 내에 소형모듈원자로(SMR)를 설치하는 기술 개발을 추진 중이며, 이번에 캔자스(Kansas) 주의 파슨스(Parsons) 부지에서 해당 프로젝트 파일럿용 원형 원자로 용기 시제품을 인수했다. 이는 차세대 SMR 기술의 물리적 구현 단계로, 개념 설계를 벗어나 실제 하드웨어 개발이 진행되고 있음을 의미한다.",
+  "cat": "기술",
+  "type": "Micro",
+  "dev": "Deep Fission",
+  "region": "US",
+  "source": "World Nuclear News",
+  "url": "https://www.world-nuclear-news.org/articles/deep-fission-receives-prototype-reactor-canister",
+  "k": "deep fission receives prototype reactor canister",
+  "id": "9fad13f2"
+ },
+ {
+  "date": "2026-07-08",
+  "title": "미국·일본·한국, 소형모듈원자로(SMR) 배포 삼국 협력 양해각서 체결",
+  "summary": "미국, 일본, 한국 세 국가가 제3국, 특히 인도태평양 지역에서의 소형모듈원자로(SMR) 배포 가속화를 위한 삼국 협력 양해각서를 체결했다.",
+  "summaryLong": "미국, 일본, 한국은 소형모듈원자로(SMR)의 해외 배포를 가속화하기 위한 삼국 협력 협약에 서명했다. 이 양해각서는 초기 단계로 인도태평양(Indo-Pacific) 지역을 중심으로 한 SMR 배치 및 기술 협력을 추진하기 위한 것이다. 이는 SMR 시장 확대 및 글로벌 원자력 정책 강화를 의도한 국책 수준의 정책 협력으로, 향후 국제 SMR 배포 사업 추진의 토대가 될 것으로 예상된다.",
+  "cat": "계약",
+  "type": "General",
+  "dev": "",
+  "region": "US",
+  "source": "World Nuclear News",
+  "url": "https://www.world-nuclear-news.org/articles/trilateral-cooperation-agreement-on-smr-deployment",
+  "k": "trilateral cooperation agreement on smr deployment",
+  "id": "f1dc3823"
+ },
+ {
+  "date": "2026-07-08",
+  "title": "미국 기업 마이트너 에너지(Meitner Energy), 아르헨티나 소형모듈원자로 계획 제시",
+  "summary": "미국 기업 마이트너 에너지(Meitner Energy)가 아르헨티나(Argentina)를 대상으로 소형모듈원자로(SMR) 배치 계획을 제시했다.",
+  "summaryLong": "미국 기업 마이트너 에너지(Meitner Energy)는 아르헨티나(Argentina)를 대상으로 소형모듈원자로(SMR) 배치 방안을 제안했다. 이는 선진국 중심의 SMR 개발에서 벗어나 신흥 에너지 시장 국가로의 SMR 수출·보급을 추진하는 사례로, 글로벌 SMR 시장 확대 및 국제 에너지 협력의 일환이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "Meitner Energy",
+  "region": "US",
+  "source": "nucnet.org",
+  "url": "https://www.nucnet.org/news/us-based-meitner-energy-presents-small-modular-reactor-plan-for-argentina-7-3-2026",
+  "k": "us based meitner energy presents small modular reactor plan for argentina",
+  "op": 1,
+  "id": "888f8807"
+ },
+ {
   "date": "2026-07-07",
   "title": "DL이앤씨, 엑스에너지 Xe-100 표준화 설계 수주",
   "summary": "DL이앤씨가 국내 건설사로는 처음으로 미국 엑스에너지(X-energy)의 Xe-100 소형모듈원자로 표준화 설계를 수주했다.",
@@ -837,53 +880,6 @@ window.SMR_NEWS = [
   "id": "c2171766"
  },
  {
-  "date": "2026-07-04",
-  "title": "3D프린팅 기술 적용 SMR, AI 전력난 해법으로 주목... 경제성·규제는 과제",
-  "summary": "3D프린팅 기술을 활용한 소형모듈원자로(SMR)가 인공지능 전력 수요 해결책으로 부각되고 있으나, 경제성과 규제 측면의 불확실성이 남아 있다.",
-  "summaryLong": "글로벌이코노믹 보도에 따르면 3D프린팅 기술을 도입한 소형모듈원자로(SMR)가 인공지능 산업의 급증하는 전력 수요 문제를 해결할 차세대 솔루션으로 주목받고 있다. 제조 혁신을 통한 건설 시간 단축 및 비용 절감 가능성이 제시되는 한편, 정치경제적 실현 가능성과 규제 승인 과정의 명확성이 아직 확보되지 않아 시장 진입까지 시간이 소요될 것으로 예상된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "g-enews.com",
-  "url": "https://www.g-enews.com/article/Global-Biz/2026/07/202607050555203974fbbec65dfb_1",
-  "k": "ai 전력난 해법 떠오른 3d프린팅 smr 경제성 규제는 미지수",
-  "ko": 1,
-  "op": 1,
-  "id": "ba309674"
- },
- {
-  "date": "2026-07-04",
-  "title": "데이터센터 945TWh 수요, SMR이 게임체인저 될 수 있을까?",
-  "summary": "데이터센터의 945TWh 전력 수요 증가 속에서 소형모듈원자로(SMR)가 핵심 솔루션으로 부상할 가능성에 관한 분석이다.",
-  "summaryLong": "자본시장뉴스의 보도는 데이터센터 산업의 연간 전력 수요가 945TWh 규모로 확대되는 가운데, 소형모듈원자로(SMR)가 이 거대한 에너지 수요를 충족할 수 있는 게임체인저(game changer)가 될 수 있는지에 대한 질문을 제기했다. 분산형 배치 가능성, 건설 속도, 환경성 측면에서 SMR의 장점이 강조되는 한편, 상용화 및 규모 확대의 과제가 남아 있는 상황이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "jabon.co.kr",
-  "url": "https://www.jabon.co.kr/news/articleView.html?idxno=4643",
-  "k": "데이터센터 945twh smr이 게임체인저 되나",
-  "ko": 1,
-  "op": 1,
-  "id": "0e566772"
- },
- {
-  "date": "2026-07-04",
-  "title": "뉴스케일 파워(NuScale Power) 주식 매수 추천 논거",
-  "summary": "투자 전문가가 뉴스케일 주식 매수의 단순한 논거를 제시했다.",
-  "summaryLong": "Motley Fool 등 투자 매체가 뉴스케일 파워(NuScale Power) 주식의 매수 이유를 설명한 의견 기사이다. SMR 기술이나 사업 진전의 구체적 내용 없이 순수한 투자 판단 조언으로, 뉴스 가치가 낮다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "NuScale",
-  "region": "US",
-  "source": "fool.com",
-  "url": "https://www.fool.com/investing/2026/07/04/1-simple-reason-to-buy-nuscale-smr-right-now/",
-  "k": "1 simple reason to buy nuscale power smr right now",
-  "op": 1,
-  "id": "c08ee193"
- },
- {
   "date": "2026-07-01",
   "title": "i-SMR 기술개발사업단, 싱가포르 에너지시장청과 협력",
   "summary": "한국의 i-SMR(혁신형 소형모듈원자로) 기술개발사업단이 싱가포르 에너지시장청(EMA)과 협력 양해각서를 체결했다.",
@@ -1332,5 +1328,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-08 16:17 KST";
-window.SMR_TOTAL = 1108;
+window.SMR_UPDATED = "2026-07-09 07:36 KST";
+window.SMR_TOTAL = 1111;

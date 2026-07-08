@@ -67,6 +67,49 @@ window.SMR_NEWS = [
     "id": "8f470a0b"
   },
   {
+    "date": "2026-07-08",
+    "title": "딥 피션(Deep Fission), 원형 원자로 용기 시제품 인수",
+    "summary": "캘리포니아 스타트업 딥 피션(Deep Fission)이 시추공 매설형 소형모듈원자로(SMR) 프로젝트용 원형 원자로 용기 시제품을 파슨스(Parsons) 부지에서 인수했다.",
+    "summaryLong": "캘리포니아(California) 기반 스타트업 딥 피션(Deep Fission)은 지하 1마일 깊이의 시추공(borehole) 내에 소형모듈원자로(SMR)를 설치하는 기술 개발을 추진 중이며, 이번에 캔자스(Kansas) 주의 파슨스(Parsons) 부지에서 해당 프로젝트 파일럿용 원형 원자로 용기 시제품을 인수했다. 이는 차세대 SMR 기술의 물리적 구현 단계로, 개념 설계를 벗어나 실제 하드웨어 개발이 진행되고 있음을 의미한다.",
+    "cat": "기술",
+    "type": "Micro",
+    "dev": "Deep Fission",
+    "region": "US",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/deep-fission-receives-prototype-reactor-canister",
+    "k": "deep fission receives prototype reactor canister",
+    "id": "9fad13f2"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "미국·일본·한국, 소형모듈원자로(SMR) 배포 삼국 협력 양해각서 체결",
+    "summary": "미국, 일본, 한국 세 국가가 제3국, 특히 인도태평양 지역에서의 소형모듈원자로(SMR) 배포 가속화를 위한 삼국 협력 양해각서를 체결했다.",
+    "summaryLong": "미국, 일본, 한국은 소형모듈원자로(SMR)의 해외 배포를 가속화하기 위한 삼국 협력 협약에 서명했다. 이 양해각서는 초기 단계로 인도태평양(Indo-Pacific) 지역을 중심으로 한 SMR 배치 및 기술 협력을 추진하기 위한 것이다. 이는 SMR 시장 확대 및 글로벌 원자력 정책 강화를 의도한 국책 수준의 정책 협력으로, 향후 국제 SMR 배포 사업 추진의 토대가 될 것으로 예상된다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/trilateral-cooperation-agreement-on-smr-deployment",
+    "k": "trilateral cooperation agreement on smr deployment",
+    "id": "f1dc3823"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "미국 기업 마이트너 에너지(Meitner Energy), 아르헨티나 소형모듈원자로 계획 제시",
+    "summary": "미국 기업 마이트너 에너지(Meitner Energy)가 아르헨티나(Argentina)를 대상으로 소형모듈원자로(SMR) 배치 계획을 제시했다.",
+    "summaryLong": "미국 기업 마이트너 에너지(Meitner Energy)는 아르헨티나(Argentina)를 대상으로 소형모듈원자로(SMR) 배치 방안을 제안했다. 이는 선진국 중심의 SMR 개발에서 벗어나 신흥 에너지 시장 국가로의 SMR 수출·보급을 추진하는 사례로, 글로벌 SMR 시장 확대 및 국제 에너지 협력의 일환이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Meitner Energy",
+    "region": "US",
+    "source": "nucnet.org",
+    "url": "https://www.nucnet.org/news/us-based-meitner-energy-presents-small-modular-reactor-plan-for-argentina-7-3-2026",
+    "k": "us based meitner energy presents small modular reactor plan for argentina",
+    "op": 1,
+    "id": "888f8807"
+  },
+  {
     "date": "2026-07-07",
     "title": "DL이앤씨, 엑스에너지 Xe-100 표준화 설계 수주",
     "summary": "DL이앤씨가 국내 건설사로는 처음으로 미국 엑스에너지(X-energy)의 Xe-100 소형모듈원자로 표준화 설계를 수주했다.",
@@ -15929,4 +15972,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-08 16:17 KST";
+window.SMR_UPDATED = "2026-07-09 07:36 KST";
