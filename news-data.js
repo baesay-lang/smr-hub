@@ -23,6 +23,35 @@ window.SMR_NEWS = [
     "id": "445132c8"
   },
   {
+    "date": "2026-07-08",
+    "title": "미국·일본·한국, 소형모듈원자로(SMR) 배치 협력 양해각서 체결",
+    "summary": "미국·일본·한국 3개국이 소형모듈원자로(SMR)의 배치·개발을 위한 정부 간 협력 협약을 체결했다.",
+    "summaryLong": "미국·일본·대한민국 3개국이 소형모듈원자로(SMR)의 상용화 배치와 기술 협력을 위한 정부 간 양해각서(MOU) 또는 협력 협약을 공식 체결했다. 이는 3개국의 SMR 정책 기조를 반영한 국가 간 협력 체제 구축 움직임으로, 각 국의 SMR 개발 및 배치 계획이 국제 수준으로 조율되고 있음을 보여준다. 이 협력은 SMR 기술의 표준화, 규제 조화, 부품 공급망 협력 등으로 확대될 가능성이 있다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "aa.com.tr",
+    "url": "https://www.aa.com.tr/en/asia-pacific/us-japan-south-korea-sign-cooperation-agreement-for-deployment-of-small-modular-reactors/3989887",
+    "k": "us japan south korea sign cooperation agreement for deployment of small modular reactors",
+    "id": "b4252d89"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "한국원자력학회, 12차 전력수급기본계획에 신규 원전·SMR 반영 촉구",
+    "summary": "한국원자력학회가 정부의 12차 전력수급기본계획(2025~2034)에 신규 원전 및 소형모듈원자로(SMR) 도입을 반영해야 한다고 주장했다.",
+    "summaryLong": "한국원자력학회가 정부의 12차 전력수급기본계획(12차 전기본, 2025~2034년)에 신규 원전 건설과 소형모듈원자로(SMR) 도입을 반영할 것을 촉구했다. 학회는 AI 데이터센터 등 신규 전력 수요 증가에 대비하여 원전의 역할 확대가 필수적이라는 입장을 표명하고 있으며, 이는 정부의 에너지 정책 수립에 영향을 미칠 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "kbsm.net",
+    "url": "https://www.kbsm.net/news/view.php?idx=525990",
+    "k": "한국원자력학회 12차 전기본에 신규 원전 smr 반영해야",
+    "ko": 1,
+    "id": "68194e9c"
+  },
+  {
     "date": "2026-07-07",
     "title": "DL이앤씨, 엑스에너지 Xe-100 표준화 설계 수주",
     "summary": "DL이앤씨가 국내 건설사로는 처음으로 미국 엑스에너지(X-energy)의 Xe-100 소형모듈원자로 표준화 설계를 수주했다.",
@@ -15871,4 +15900,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-08 15:14 KST";
+window.SMR_UPDATED = "2026-07-08 15:37 KST";

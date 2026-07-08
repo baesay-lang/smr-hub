@@ -16,6 +16,35 @@ window.SMR_NEWS = [
   "id": "445132c8"
  },
  {
+  "date": "2026-07-08",
+  "title": "미국·일본·한국, 소형모듈원자로(SMR) 배치 협력 양해각서 체결",
+  "summary": "미국·일본·한국 3개국이 소형모듈원자로(SMR)의 배치·개발을 위한 정부 간 협력 협약을 체결했다.",
+  "summaryLong": "미국·일본·대한민국 3개국이 소형모듈원자로(SMR)의 상용화 배치와 기술 협력을 위한 정부 간 양해각서(MOU) 또는 협력 협약을 공식 체결했다. 이는 3개국의 SMR 정책 기조를 반영한 국가 간 협력 체제 구축 움직임으로, 각 국의 SMR 개발 및 배치 계획이 국제 수준으로 조율되고 있음을 보여준다. 이 협력은 SMR 기술의 표준화, 규제 조화, 부품 공급망 협력 등으로 확대될 가능성이 있다.",
+  "cat": "계약",
+  "type": "General",
+  "dev": "",
+  "region": "US",
+  "source": "aa.com.tr",
+  "url": "https://www.aa.com.tr/en/asia-pacific/us-japan-south-korea-sign-cooperation-agreement-for-deployment-of-small-modular-reactors/3989887",
+  "k": "us japan south korea sign cooperation agreement for deployment of small modular reactors",
+  "id": "b4252d89"
+ },
+ {
+  "date": "2026-07-08",
+  "title": "한국원자력학회, 12차 전력수급기본계획에 신규 원전·SMR 반영 촉구",
+  "summary": "한국원자력학회가 정부의 12차 전력수급기본계획(2025~2034)에 신규 원전 및 소형모듈원자로(SMR) 도입을 반영해야 한다고 주장했다.",
+  "summaryLong": "한국원자력학회가 정부의 12차 전력수급기본계획(12차 전기본, 2025~2034년)에 신규 원전 건설과 소형모듈원자로(SMR) 도입을 반영할 것을 촉구했다. 학회는 AI 데이터센터 등 신규 전력 수요 증가에 대비하여 원전의 역할 확대가 필수적이라는 입장을 표명하고 있으며, 이는 정부의 에너지 정책 수립에 영향을 미칠 것으로 예상된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "kbsm.net",
+  "url": "https://www.kbsm.net/news/view.php?idx=525990",
+  "k": "한국원자력학회 12차 전기본에 신규 원전 smr 반영해야",
+  "ko": 1,
+  "id": "68194e9c"
+ },
+ {
   "date": "2026-07-07",
   "title": "DL이앤씨, 엑스에너지 Xe-100 표준화 설계 수주",
   "summary": "DL이앤씨가 국내 건설사로는 처음으로 미국 엑스에너지(X-energy)의 Xe-100 소형모듈원자로 표준화 설계를 수주했다.",
@@ -855,35 +884,6 @@ window.SMR_NEWS = [
   "id": "388f89dc"
  },
  {
-  "date": "2026-07-03",
-  "title": "KINGS, 소형모듈원전 시대 대비한 글로벌 교육 강화",
-  "summary": "한국전력국제원자력대학원대학교(KINGS)가 소형모듈원전(SMR) 등 원전산업 변화에 맞춘 '투트랙 글로벌 교육'을 운영하고 있다.",
-  "summaryLong": "한국전력국제원자력대학원대학교(KINGS)가 소형모듈원전(SMR), 사용후핵연료 관리, 원전해체 등 원자력산업의 영역 확장에 대응하는 글로벌 인재양성을 추진하고 있다. 한국(KR) 학생은 유럽(EU) 원자력 핵심기관 실습으로 국제 원전 생태계를 학습하고, 외국인 학생은 국내 연구기관·기업 인턴십으로 연구개발과 산업 현장 실무를 익히는 투트랙 교육 체계를 운영 중이다. 이는 SMR 시대의 국제협력, 정책, 기술 연계 인력양성 정책으로의 전환을 보여주는 사례다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "KINGS",
-  "region": "KR",
-  "source": "전기신문 - 전체기사",
-  "url": "https://www.electimes.com/news/articleView.html?idxno=369819",
-  "k": "kings 세계에서 배우고 현장에서 키운다",
-  "ko": 1,
-  "id": "3d04b318"
- },
- {
-  "date": "2026-07-03",
-  "title": "터키-미국 합작, 20기 소형모듈원자로 건설 계획",
-  "summary": "터키(TR)와 미국(US)의 합작 벤처가 소형모듈원자로(SMR) 20기 건설 프로젝트를 추진하고 있다.",
-  "summaryLong": "터키(TR)와 미국(US) 간의 합작 벤처(협력사 미상)가 소형모듈원자로(SMR) 20기 건설 프로젝트 계획을 추진하고 있다는 보도가 있다. 이는 터키의 에너지 안보 강화와 SMR의 국제 상용화 추진의 일환으로, 다자간 핵에너지 협력 사례를 보여준다. 구체적 프로젝트 일정·노형·개발사 등 상세는 보도에서 미상이지만, SMR의 중동·터키 지역 시장 확대 신호로 평가된다.",
-  "cat": "계약",
-  "type": "General",
-  "dev": "",
-  "region": "TR",
-  "source": "agbi.com",
-  "url": "https://www.agbi.com/energy/2026/07/turkish-us-venture-to-build-20-small-modular-nuclear-reactors/",
-  "k": "turkish us venture to build 20 small modular nuclear reactors arabian gulf business insight",
-  "id": "7c394c84"
- },
- {
   "date": "2026-07-01",
   "title": "i-SMR 기술개발사업단, 싱가포르 에너지시장청과 협력",
   "summary": "한국의 i-SMR(혁신형 소형모듈원자로) 기술개발사업단이 싱가포르 에너지시장청(EMA)과 협력 양해각서를 체결했다.",
@@ -1332,5 +1332,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-08 15:14 KST";
-window.SMR_TOTAL = 1104;
+window.SMR_UPDATED = "2026-07-08 15:37 KST";
+window.SMR_TOTAL = 1106;
