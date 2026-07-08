@@ -103,6 +103,36 @@ window.SMR_NEWS = [
   "id": "888f8807"
  },
  {
+  "date": "2026-07-08",
+  "title": "루비오 국무장관, 한·미·일 소형모듈원자로 협력 양해각서 서명식 참석",
+  "summary": "루비오 미국 국무장관이 일본·한국 외교장관과 함께 SMR 협력 양해각서 서명식에 참석했다.",
+  "summaryLong": "마르코 루비오(Marco Rubio) 미국 국무장관이 일본 외교장관 및 한국 외교장관과 함께 소형모듈원자로(SMR) 협력 양해각서(MOU) 서명식에 참석했다. 미국 중국 주재 대사관이 공식 발표한 이번 행사는 한·미·일 삼국의 SMR 기술 협력 및 공동 개발·수출 전략을 강화하는 정부 간 합의를 의미한다. 이는 전략적 핵심 기술로서 SMR의 중요성을 보여주는 외교적 신호이며, 향후 삼국 간 원자력 협력 체계의 기초가 될 것으로 예상된다.",
+  "cat": "계약",
+  "type": "General",
+  "dev": "",
+  "region": "US",
+  "source": "china.usembassy-china.org.cn",
+  "url": "https://china.usembassy-china.org.cn/secretary-rubio-with-japanese-foreign-minister-and-korea-foreign-minister-at-a-small-modular-reactor-memorandum-of-cooperation-signing-ceremony/",
+  "k": "secretary rubio with japanese foreign minister and korea foreign minister at a small modular reactor memorandum of cooperation signing ceremony",
+  "id": "ca389b5d"
+ },
+ {
+  "date": "2026-07-08",
+  "title": "한·미·일 SMR 공동 수출 협업체계 구축, 삼성물산 핵심 협력사로 기대",
+  "summary": "한국, 미국, 일본이 소형모듈원자로의 공동 수출을 위한 협업체계를 구축하며 삼성물산이 핵심 협력사로 참여할 것으로 예상된다.",
+  "summaryLong": "한국, 미국, 일본의 소형모듈원자로(SMR) 협력각서에 따라 세 나라가 SMR의 공동 수출을 위한 협업체계를 구축하기로 했다. 협력 체계에는 기술 표준화, 규제 조화, 수출 지원 등이 포함되며, 한국의 삼성물산이 핵심 협력사로 참여할 것으로 기대된다. 이는 한국 원전 산업의 국제 경쟁력 강화와 SMR 시장 진출 확대에 긍정적 영향을 미칠 전망이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "businesspost.co.kr",
+  "url": "https://www.businesspost.co.kr/BP?command=article_view&num=441861",
+  "k": "한국 미국 일본 smr 공동 수출 협업체계 구축 삼성물산 핵심 협력사로 수혜 기대",
+  "ko": 1,
+  "op": 1,
+  "id": "5ee50c51"
+ },
+ {
   "date": "2026-07-07",
   "title": "DL이앤씨, 엑스에너지 Xe-100 표준화 설계 수주",
   "summary": "DL이앤씨가 국내 건설사로는 처음으로 미국 엑스에너지(X-energy)의 Xe-100 소형모듈원자로 표준화 설계를 수주했다.",
@@ -852,34 +882,6 @@ window.SMR_NEWS = [
   "id": "f5cc04ba"
  },
  {
-  "date": "2026-07-04",
-  "title": "오클로, 미국 에너지부 승인 직후...16.5억 달러 공매도 포지션 적시",
-  "summary": "오클로(Oklo)가 미국 에너지부(DOE) 승인을 받은 직후, 주가 급등과 함께 16.5억 달러 규모의 공매도 포지션이 형성됐다.",
-  "summaryLong": "오클로(Oklo)는 미국 에너지부(DOE)로부터 그로브스(Groves) 원자로의 안전 승인을 획득했다. 이후 주가가 상승하는 와중에 시장 분석가들이 약 16.5억 달러 규모의 공매도 포지션이 형성되었음을 지적했다. 이는 SMR 회사의 주가 변동성과 투자자 이견 사이의 긴장을 반영하는 것으로, 투기적 수급 신호로 해석되고 있다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "ts2.tech",
-  "url": "https://ts2.tech/en/oklo-nyseoklo-heads-into-the-week-after-doe-approval-as-1-65-billion-short-position-looms/",
-  "k": "oklo nyse oklo heads into the week after doe approval as 1 65 billion short position looms",
-  "id": "665faf00"
- },
- {
-  "date": "2026-07-04",
-  "title": "SGE, 영국(UK) 내 14기 BWRX-300 SMR 설비 계획",
-  "summary": "SGE가 영국(UK)의 에너지 공급 확대를 위해 14기의 BWRX-300 소형모듈원자로 배치를 계획하고 있다.",
-  "summaryLong": "인도타임스(Indiatimes) 보도에 따르면 SGE(Sustainable General Energy 또는 관련 기관)가 영국(UK) 전역의 에너지 공급 능력 증대를 목표로 14기의 BWRX-300 소형모듈원자로(SMR) 배치 계획을 수립했다. BWRX-300은 GE(General Electric)의 선진 비등경수로(BWR) 기반 소형모듈원자로로, 영국의 에너지 안보 및 탄소중립 목표 달성에 기여할 것으로 예상된다.",
-  "cat": "기술",
-  "type": "BWR",
-  "dev": "GE",
-  "region": "UK",
-  "source": "datacenters.economictimes.indiatimes.com",
-  "url": "https://datacenters.economictimes.indiatimes.com/news/energy-cooling-sustainability/sge-plans-14-bwrx-300-smrs-across-uk-to-boost-energy-capacity/132174047",
-  "k": "sge plans 14 bwrx 300 smrs across uk to boost energy capacity",
-  "id": "c2171766"
- },
- {
   "date": "2026-07-01",
   "title": "i-SMR 기술개발사업단, 싱가포르 에너지시장청과 협력",
   "summary": "한국의 i-SMR(혁신형 소형모듈원자로) 기술개발사업단이 싱가포르 에너지시장청(EMA)과 협력 양해각서를 체결했다.",
@@ -1328,5 +1330,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-09 07:36 KST";
-window.SMR_TOTAL = 1111;
+window.SMR_UPDATED = "2026-07-09 08:20 KST";
+window.SMR_TOTAL = 1113;
