@@ -45,6 +45,21 @@ window.SMR_NEWS = [
   "id": "68194e9c"
  },
  {
+  "date": "2026-07-08",
+  "title": "한국원자력학회, 제12차 전기본(기본계획)에 신규원전·SMR 적극 반영",
+  "summary": "한국원자력학회가 제12차 전기본에 신규원전과 SMR 도입을 적극 반영할 것을 촉구했다.",
+  "summaryLong": "한국원자력학회가 정부의 제12차 전기본(전력수급기본계획) 수립 과정에서 신규원전과 소형모듈원자로(SMR) 도입을 적극 반영해야 한다고 주장했다. 이는 글로벌 탄소중립 추세와 국내 에너지 안보 강화를 위한 정책 제안으로, 신규원전과 차세대 원자력 기술인 SMR의 정책적 위상을 높이려는 움직임이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "imaeil.com",
+  "url": "https://www.imaeil.com/page/view/2026070814485695831",
+  "k": "한국원자력학회 제12차 전기본에 신규원전 smr 적극 반영",
+  "ko": 1,
+  "id": "8f470a0b"
+ },
+ {
   "date": "2026-07-07",
   "title": "DL이앤씨, 엑스에너지 Xe-100 표준화 설계 수주",
   "summary": "DL이앤씨가 국내 건설사로는 처음으로 미국 엑스에너지(X-energy)의 Xe-100 소형모듈원자로 표준화 설계를 수주했다.",
@@ -304,6 +319,20 @@ window.SMR_NEWS = [
   "url": "https://www.koreatimes.co.kr/foreignaffairs/20260708/korea-us-japan-sign-mou-for-cooperation-on-small-modular-reactor-deployments",
   "k": "korea us japan sign mou for cooperation on small modular reactor deployments",
   "id": "6de82acf"
+ },
+ {
+  "date": "2026-07-07",
+  "title": "미국·일본·한국, 데이터센터 확대 지역 인도태평양 소형모듈원자로 가속화 합의",
+  "summary": "미국, 일본, 한국이 데이터센터 전력 수요 증가가 예상되는 인도태평양 지역에서 소형모듈원자로(SMR) 개발·보급을 가속화하기로 합의했다.",
+  "summaryLong": "미국, 일본, 한국 세 국가가 인도태평양 지역에서 소형모듈원자로(SMR) 도입을 공동으로 가속화하기로 합의했다. 이 협약은 해당 지역의 데이터센터 급증에 따른 전력 수요 증가에 대응하기 위한 것으로, SMR의 소형성과 유연한 배치 특성을 활용한 전략적 파트너십이다. 이는 SMR이 주요 산업국들의 에너지 정책과 지역 협력 수준에서 점차 중요한 역할을 인정받고 있음을 시사한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "US",
+  "source": "sociable.co",
+  "url": "https://sociable.co/government-and-policy/us-japan-korea-accelerate-small-modular-reactor-indo-pacific-data-centers/",
+  "k": "us japan korea agree to accelerate small modular reactors in indo pacific where data centers are expanding",
+  "id": "b27d3294"
  },
  {
   "date": "2026-07-06",
@@ -855,35 +884,6 @@ window.SMR_NEWS = [
   "id": "c08ee193"
  },
  {
-  "date": "2026-07-04",
-  "title": "짐 크래머, GEV를 뉴스케일보다 선호, \"투기성 과다\"라 평가",
-  "summary": "유명 투자 평론가가 GE Vernova와 뉴스케일의 투자 가치를 비교 평가했다.",
-  "summaryLong": "CNBC의 짐 크래머(Jim Cramer)가 GE Vernova(GEV)를 뉴스케일보다 유리한 투자로 평가하며 뉴스케일을 \"투기성이 과다하다\"고 지적한 칼럼이다. 개별 기업의 프로젝트 진전이나 기술 소식 없이 순수한 투자 의견이므로, SMR 레퍼런스 관련성이 낮다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "NuScale, GE Vernova",
-  "region": "US",
-  "source": "finance.yahoo.com",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-prefers-gev-over-143021035.html",
-  "k": "jim cramer prefers gev over nuscale calls the latter too speculative",
-  "op": 1,
-  "id": "9a4674f6"
- },
- {
-  "date": "2026-07-04",
-  "title": "미국 마이크로원자로 3기 가동 중, 데이터센터 주목",
-  "summary": "미국에서 마이크로원자로 3기가 운영 중이며 데이터센터 운영사들의 관심이 집중되고 있다.",
-  "summaryLong": "미국 내에서 마이크로원자로(microreactor) 3기가 현재 가동 중인 것으로 확인되었으며, 특히 대규모 전력 수요를 가진 데이터센터 운영사들이 이 기술에 대한 관심을 높이고 있다. 마이크로로 기술의 실증 단계가 진전되고 있으며, 향후 기업용 전력공급원으로서의 실용성이 검증되는 과정을 반영한다.",
-  "cat": "기술",
-  "type": "Micro",
-  "dev": "",
-  "region": "US",
-  "source": "techspot.com",
-  "url": "https://www.techspot.com/news/112994-us-now-has-three-microreactors-running-data-centers.html",
-  "k": "the us now has three microreactors running and data centers are watching closely",
-  "id": "388f89dc"
- },
- {
   "date": "2026-07-01",
   "title": "i-SMR 기술개발사업단, 싱가포르 에너지시장청과 협력",
   "summary": "한국의 i-SMR(혁신형 소형모듈원자로) 기술개발사업단이 싱가포르 에너지시장청(EMA)과 협력 양해각서를 체결했다.",
@@ -1332,5 +1332,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-08 15:37 KST";
-window.SMR_TOTAL = 1106;
+window.SMR_UPDATED = "2026-07-08 16:17 KST";
+window.SMR_TOTAL = 1108;
