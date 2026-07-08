@@ -8,6 +8,21 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-07-08",
+    "title": "한국원자력학회, \"반도체·AI 시대 신규 원전·SMR 즉시 건설\" 정책 제언",
+    "summary": "한국원자력학회가 반도체와 AI 산업의 전력 수요 대응을 위해 신규 원전과 소형모듈원자로의 즉각적 건설을 정부에 제언했다.",
+    "summaryLong": "한국원자력학회가 반도체 및 AI 산업의 급증하는 전력 수요에 대응하기 위해 신규 원전과 소형모듈원자로(SMR)의 즉각적 건설을 정부에 정책 제언으로 제시했다. 학회는 현재를 산업 경쟁력 확보의 '황금 시간'으로 판단하고, 장기 전력 수급 안정화를 위해 원자력의 신규 용량 확충이 필수적이라고 주장했다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4925",
+    "k": "반도체 ai 살릴 골든타임 원자력학회 신규 원전 smr 당장 지어야 정책 제언",
+    "ko": 1,
+    "id": "445132c8"
+  },
+  {
     "date": "2026-07-07",
     "title": "DL이앤씨, 엑스에너지 Xe-100 표준화 설계 수주",
     "summary": "DL이앤씨가 국내 건설사로는 처음으로 미국 엑스에너지(X-energy)의 Xe-100 소형모듈원자로 표준화 설계를 수주했다.",
@@ -239,6 +254,34 @@ window.SMR_NEWS = [
     "k": "한미일 1천만 smr 동맹 인태 에너지 지각변동 예고 기업 산업",
     "ko": 1,
     "id": "a262b40a"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "테라파워, 두 번째 Ac-225 생산 시설 발표",
+    "summary": "테라파워(TerraPower)가 방사성 동위원소 Ac-225 생산 시설 2호기 구축을 발표했다.",
+    "summaryLong": "테라파워(TerraPower)가 핵의학용 방사성 동위원소 Ac-225(Actinium-225)의 두 번째 생산 시설 구축을 공식 발표했다. 이는 고급 원자로 기술 개발사의 핵의학 및 산업용 동위원소 생산 인프라 확대를 의미한다. 미국 원자력학회(ANS)를 통해 공식 공지된 것으로 보인다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "ans.org",
+    "url": "https://www.ans.org/news/article-7853/terrapower-announces-second-ac225-production-facility/",
+    "k": "terrapower announces second ac 225 production facility american nuclear society ans",
+    "id": "3b5d16b9"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "한·미·일, 소형모듈원자로(SMR) 배치 협력 양해각서 체결",
+    "summary": "한국, 미국, 일본이 소형모듈원자로 배치 협력을 위한 양해각서(MOU)를 체결했다.",
+    "summaryLong": "한·미·일 3국이 소형모듈원자로(SMR) 배치 협력을 위한 양해각서를 체결했다. 이 협력은 인태(Indo-Pacific) 지역에서의 SMR 도입을 가속화하기 위한 정부 간 협약이다. 3국은 청정에너지 확대와 지역 에너지 안보를 위해 SMR 개발·배치 분야에서 협력하기로 합의했다. 이는 원자력 분야에서 한·미·일의 전략적 협력을 강화하는 의미를 갖는다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "koreatimes.co.kr",
+    "url": "https://www.koreatimes.co.kr/foreignaffairs/20260708/korea-us-japan-sign-mou-for-cooperation-on-small-modular-reactor-deployments",
+    "k": "korea us japan sign mou for cooperation on small modular reactor deployments",
+    "id": "6de82acf"
   },
   {
     "date": "2026-07-06",
@@ -15828,4 +15871,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-08 08:41 KST";
+window.SMR_UPDATED = "2026-07-08 15:14 KST";

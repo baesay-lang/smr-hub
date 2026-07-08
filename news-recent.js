@@ -1,6 +1,21 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-07-08",
+  "title": "한국원자력학회, \"반도체·AI 시대 신규 원전·SMR 즉시 건설\" 정책 제언",
+  "summary": "한국원자력학회가 반도체와 AI 산업의 전력 수요 대응을 위해 신규 원전과 소형모듈원자로의 즉각적 건설을 정부에 제언했다.",
+  "summaryLong": "한국원자력학회가 반도체 및 AI 산업의 급증하는 전력 수요에 대응하기 위해 신규 원전과 소형모듈원자로(SMR)의 즉각적 건설을 정부에 정책 제언으로 제시했다. 학회는 현재를 산업 경쟁력 확보의 '황금 시간'으로 판단하고, 장기 전력 수급 안정화를 위해 원자력의 신규 용량 확충이 필수적이라고 주장했다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=4925",
+  "k": "반도체 ai 살릴 골든타임 원자력학회 신규 원전 smr 당장 지어야 정책 제언",
+  "ko": 1,
+  "id": "445132c8"
+ },
+ {
   "date": "2026-07-07",
   "title": "DL이앤씨, 엑스에너지 Xe-100 표준화 설계 수주",
   "summary": "DL이앤씨가 국내 건설사로는 처음으로 미국 엑스에너지(X-energy)의 Xe-100 소형모듈원자로 표준화 설계를 수주했다.",
@@ -232,6 +247,34 @@ window.SMR_NEWS = [
   "k": "한미일 1천만 smr 동맹 인태 에너지 지각변동 예고 기업 산업",
   "ko": 1,
   "id": "a262b40a"
+ },
+ {
+  "date": "2026-07-07",
+  "title": "테라파워, 두 번째 Ac-225 생산 시설 발표",
+  "summary": "테라파워(TerraPower)가 방사성 동위원소 Ac-225 생산 시설 2호기 구축을 발표했다.",
+  "summaryLong": "테라파워(TerraPower)가 핵의학용 방사성 동위원소 Ac-225(Actinium-225)의 두 번째 생산 시설 구축을 공식 발표했다. 이는 고급 원자로 기술 개발사의 핵의학 및 산업용 동위원소 생산 인프라 확대를 의미한다. 미국 원자력학회(ANS)를 통해 공식 공지된 것으로 보인다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "US",
+  "source": "ans.org",
+  "url": "https://www.ans.org/news/article-7853/terrapower-announces-second-ac225-production-facility/",
+  "k": "terrapower announces second ac 225 production facility american nuclear society ans",
+  "id": "3b5d16b9"
+ },
+ {
+  "date": "2026-07-07",
+  "title": "한·미·일, 소형모듈원자로(SMR) 배치 협력 양해각서 체결",
+  "summary": "한국, 미국, 일본이 소형모듈원자로 배치 협력을 위한 양해각서(MOU)를 체결했다.",
+  "summaryLong": "한·미·일 3국이 소형모듈원자로(SMR) 배치 협력을 위한 양해각서를 체결했다. 이 협력은 인태(Indo-Pacific) 지역에서의 SMR 도입을 가속화하기 위한 정부 간 협약이다. 3국은 청정에너지 확대와 지역 에너지 안보를 위해 SMR 개발·배치 분야에서 협력하기로 합의했다. 이는 원자력 분야에서 한·미·일의 전략적 협력을 강화하는 의미를 갖는다.",
+  "cat": "계약",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "koreatimes.co.kr",
+  "url": "https://www.koreatimes.co.kr/foreignaffairs/20260708/korea-us-japan-sign-mou-for-cooperation-on-small-modular-reactor-deployments",
+  "k": "korea us japan sign mou for cooperation on small modular reactor deployments",
+  "id": "6de82acf"
  },
  {
   "date": "2026-07-06",
@@ -841,53 +884,6 @@ window.SMR_NEWS = [
   "id": "7c394c84"
  },
  {
-  "date": "2026-07-03",
-  "title": "엔비디아도 원전으로…AI 전력난에 커지는 SMR 기대감",
-  "summary": "AI 데이터센터의 전력 수요 급증에 따라 엔비디아(NVIDIA) 등 기술업체의 원자력·소형모듈원자로(SMR) 관심이 높아지고 있다.",
-  "summaryLong": "인공지능(AI) 데이터센터의 전력 수요 폭발적 증가에 대응하기 위해 엔비디아(NVIDIA) 등 글로벌 기술업체들이 소형모듈원자로(SMR) 등 원자력 전력 조달에 관심을 집중하고 있다. SMR의 소규모·모듈식 특성이 데이터센터 근처 배치에 적합하다는 평가가 제시되고 있으며, 이는 전통적 발전 시장 외 신수요처 창출의 기회로 인식되고 있다. 한국(KR)에서도 SMR의 에너지전환 및 산업 수요 대응 차원의 전략적 가치가 강조되고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "zdnet.co.kr",
-  "url": "https://zdnet.co.kr/view/?no=20260703143221",
-  "k": "엔비디아도 원전으로 ai 전력난에 커지는 smr 기대감",
-  "ko": 1,
-  "op": 1,
-  "id": "1349e90f"
- },
- {
-  "date": "2026-07-03",
-  "title": "정부, SMR을 국가전략기술로 지정 검토…영남권 첨단산업 지원",
-  "summary": "한국 정부가 소형모듈원자로(SMR)를 국가전략기술로 지정하는 방안을 검토하고 있으며, 영남권 지역의 대규모 투자 프로젝트 지원을 추진 중이다.",
-  "summaryLong": "한국 정부는 지방 중심의 3대 메가 프로젝트와 기업들의 대규모 영남권 투자를 지원하기 위한 전략의 일환으로 소형모듈원자로(SMR)를 국가전략기술으로 지정하는 방안을 검토하고 있다. 이는 SMR이 에너지 안보, 산업 경쟁력, 지역 균형 발전 측면에서 국가적 중요성을 지니고 있다는 판단에 따른 것이다. SMR 국가전략기술 지정은 관련 규제 개선, 투자 인센티브 확대, 인력 양성 등을 통한 정책적 지원 강화로 이어질 것으로 예상된다. 한국의 원전 산업 고도화 및 지역 경제 활성화의 핵심 정책 수단으로 부각되고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "연합뉴스 최신기사",
-  "url": "https://www.yna.co.kr/view/AKR20260703085900002",
-  "k": "정부 smr 국가전략기술 지정 검토 영남권 첨단산업 지원",
-  "ko": 1,
-  "op": 1,
-  "id": "7ac7df2f"
- },
- {
-  "date": "2026-07-03",
-  "title": "KINS, 원전 전력계통 안전성 고도화…SMR·디지털 시대 규제 혁신 촉구",
-  "summary": "한국원자력안전기술원(KINS)이 원전 전력계통 안전성 강화를 시작하며, SMR과 디지털화 시대의 규제 혁신 필요성을 제기했다.",
-  "summaryLong": "한국원자력안전기술원(KINS)이 기존 대형 원전뿐 아니라 소형모듈원자로(SMR)와 디지털 기술 도입으로 변화하는 원전 산업에 대응하기 위해 원전 전력계통의 안전성 고도화 사업에 착수했다. KINS는 SMR 도입 시대의 규제 체계 혁신과 안전 기준 개선의 필요성을 강조하고 있다. 이는 SMR이 기존 대형 원전과 다른 기술적 특성과 운영 방식을 가지므로, 이에 맞춘 규제 프레임워크의 구축이 시급함을 의미한다. 한국의 SMR 상용화 및 원전 산업 고도화를 지원하기 위한 규제 기관의 선제적 대응이라 평가된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "KINS",
-  "region": "KR",
-  "source": "energydaily.co.kr",
-  "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=201105",
-  "k": "kins 원전 전력계통 안전성 고도화 시동 smr 디지털 시대 규제 혁신도 함께 가야",
-  "ko": 1,
-  "id": "7d959131"
- },
- {
   "date": "2026-07-01",
   "title": "i-SMR 기술개발사업단, 싱가포르 에너지시장청과 협력",
   "summary": "한국의 i-SMR(혁신형 소형모듈원자로) 기술개발사업단이 싱가포르 에너지시장청(EMA)과 협력 양해각서를 체결했다.",
@@ -1336,5 +1332,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-08 08:41 KST";
-window.SMR_TOTAL = 1101;
+window.SMR_UPDATED = "2026-07-08 15:14 KST";
+window.SMR_TOTAL = 1104;
