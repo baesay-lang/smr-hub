@@ -503,9 +503,22 @@ function addSpeakerRow(opts){
 }
 
 /* ---------- Soniox 실시간 STT ---------- */
-async function getStream() {
-  // 대면·온라인 구분 없이 마이크로 '말소리'를 녹음(선택·화면공유 없음)
-  return navigator.mediaDevices.getUserMedia({ audio: { echoCancellation:true, noiseSuppression:true, autoGainControl:true } });
+async function getStreams() {
+  // 마이크(항상) + 컴퓨터 회의 소리(공유 시)를 합쳐 '말소리'를 잡음.
+  // 헤드폰 온라인이어도 상대 목소리(시스템 오디오)까지 포착. 대면은 공유 취소하면 마이크만.
+  const streams = [];
+  try {
+    streams.push(await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation:true, noiseSuppression:true, autoGainControl:true } }));
+  } catch(e) { /* 마이크 거부 → 시스템 오디오만이라도 시도 */ }
+  if (navigator.mediaDevices.getDisplayMedia) {
+    try {
+      const s = await navigator.mediaDevices.getDisplayMedia({ video:true, audio:true });
+      if (s.getAudioTracks().length) { s.getVideoTracks().forEach(t=>t.stop()); streams.push(s); }
+      else { s.getTracks().forEach(t=>t.stop()); }   // 오디오 미공유 → 마이크만
+    } catch(e) { /* 취소/미지원 = 대면 → 마이크만 */ }
+  }
+  if (!streams.length) throw new Error("마이크를 허용해야 시작돼요 (권한 확인)");
+  return streams;
 }
 function startSTT() {
   const ws = new WebSocket(SONIOX_WS);
@@ -561,13 +574,16 @@ function startSTT() {
   };
 }
 async function pipeAudio() {
-  state.stream = await getStream();
-  startRecording(state.stream);
+  setStatus("오디오 준비 — 마이크 허용 후, 온라인이면 회의 탭 '오디오 공유' 체크 · 대면이면 공유 취소", "");
+  const streams = await getStreams();
+  state.streams = streams;
   const ac = new (window.AudioContext||window.webkitAudioContext)();
   state.ac = ac;
-  const src = ac.createMediaStreamSource(state.stream);
   const proc = ac.createScriptProcessor(4096, 1, 1);
   state.proc = proc;
+  const mixDest = ac.createMediaStreamDestination();          // 녹음(webm 폴백)용 혼합 스트림
+  for (const s of streams) { const src = ac.createMediaStreamSource(s); src.connect(proc); src.connect(mixDest); }
+  startRecording(mixDest.stream);                              // mp3는 아래 proc(합산)에서 인코딩
   const ratio = ac.sampleRate / TARGET_RATE;
   proc.onaudioprocess = (e) => {
     if (!state.running) return;
@@ -583,7 +599,7 @@ async function pipeAudio() {
     if (state.mp3enc) { try { const b = state.mp3enc.encodeBuffer(out); if (b && b.length) state.mp3Data.push(b); } catch(e){} }
     if (state.ws && state.ws.readyState === 1) state.ws.send(out.buffer);
   };
-  src.connect(proc); proc.connect(ac.destination);
+  proc.connect(ac.destination);   // 소스는 위에서 이미 proc에 연결됨
 }
 
 /* ---------- 시작/정지 ---------- */
@@ -608,7 +624,7 @@ function stop() {
   try { if (state.rec && state.rec.state !== "inactive") state.rec.stop(); } catch {}
   try { state.proc && state.proc.disconnect(); } catch {}
   try { state.ac && state.ac.close(); } catch {}
-  try { state.stream && state.stream.getTracks().forEach(t=>t.stop()); } catch {}
+  try { (state.streams||[]).forEach(s => s.getTracks().forEach(t=>t.stop())); state.streams=[]; } catch {}
   try { if (state.ws && state.ws.readyState===1){ state.ws.send(""); state.ws.close(); } } catch {}
   if (state.mp3enc) {   // MP3 인코딩 마무리
     try { const end = state.mp3enc.flush(); if (end && end.length) state.mp3Data.push(end);
