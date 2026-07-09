@@ -16,6 +16,22 @@ window.SMR_NEWS = [
   "id": "b46dca00"
  },
  {
+  "date": "2026-07-09",
+  "title": "한·미·일 SMR 수출 동맹 '시동'…두산에너빌리티 핵심기술 존재감 더 커지나",
+  "summary": "한·미·일의 소형모듈원자로 수출 동맹 구축으로 한국 기업 두산에너빌리티의 SMR 핵심기술 역할이 확대될 가능성이 제기되고 있다.",
+  "summaryLong": "한국, 미국, 일본 3국의 소형모듈원자로(SMR) 수출 동맹 시동에 따라 국내 원전 핵심기술 공급업체인 두산에너빌리티의 기술 수요와 존재감이 증대될 수 있다는 분석이 나오고 있다. 두산에너빌리티는 한국 SMR 개발과 국제 수출 과정에서 핵심 부품·기술 공급자로서의 위상을 강화할 기회를 맞이하고 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "두산에너빌리티",
+  "region": "KR",
+  "source": "newsis.com",
+  "url": "https://www.newsis.com/view/NISX20260709_0003702330",
+  "k": "한 미 일 smr 수출 동맹 시동 두산에너빌리티 핵심기술 존재감 더 커지나",
+  "ko": 1,
+  "op": 1,
+  "id": "9abcb4ad"
+ },
+ {
   "date": "2026-07-08",
   "title": "한국원자력학회, \"반도체·AI 시대 신규 원전·SMR 즉시 건설\" 정책 제언",
   "summary": "한국원자력학회가 반도체와 AI 산업의 전력 수요 대응을 위해 신규 원전과 소형모듈원자로의 즉각적 건설을 정부에 제언했다.",
@@ -466,6 +482,20 @@ window.SMR_NEWS = [
   "id": "20c1883e"
  },
  {
+  "date": "2026-07-07",
+  "title": "한국·미국·일본, SMR 배치 협력 양해각서(MOU) 서명",
+  "summary": "한국, 미국, 일본이 소형모듈원자로(SMR) 배치 협력을 위한 양해각서를 체결했다.",
+  "summaryLong": "한국, 미국, 일본 3국이 소형모듈원자로(SMR)의 해외 배치 및 확산을 위한 협력 양해각서(MOU)를 공식 서명했다. 이는 인태 지역(Indo-Pacific) SMR 시장 진출과 관련 기술·정책 협력을 목표로 하며, 각국 정부 간 삼자 협력 체계를 구축하는 것으로 의의가 있다. 한국의 SMR 기술 수출 전략과 미국·일본의 공급망 협력을 함께 추진하는 기반이 되며, AI·데이터센터 등 신산업 전력 수요에 대응하는 국책 협력으로 해석된다.",
+  "cat": "계약",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "en.yna.co.kr",
+  "url": "https://en.yna.co.kr/view/AEN20260708000300315",
+  "k": "s korea u s japan sign mou for cooperation on small modular reactor deployments",
+  "id": "74881e2e"
+ },
+ {
   "date": "2026-07-06",
   "title": "[사설] SMR 첫 삽, 기회로의 전환",
   "summary": "캐나다 온타리오(Ontario)주의 300MW급 소형모듈원자로(SMR) 4기 건설 착공을 계기로 SMR이 현실적 대안으로 자리 잡고 있으며, 국내 제조업체들의 포트폴리오 접근 전략을 평가하는 사설.",
@@ -863,21 +893,6 @@ window.SMR_NEWS = [
   "url": "https://finance.yahoo.com/markets/stocks/articles/nuscale-power-smr-faces-lawsuit-151304822.html",
   "k": "nuscale power smr faces lawsuit as it awards paragon reactor protection contract",
   "id": "074f0909"
- },
- {
-  "date": "2026-07-05",
-  "title": "핀란드 SMR, 유럽(EU) 5개국 안전성 승인",
-  "summary": "핀란드의 소형모듈원자로(SMR)가 유럽(EU) 5개국의 안전성 평가를 통과했으며, 난방용 열공급 용도로 활용될 것으로 전망된다.",
-  "summaryLong": "핀란드에서 개발 중인 소형모듈원자로(SMR)가 유럽(EU) 5개국의 안전성 심사에서 합격 판정을 받았다. 이 SMR은 전력 생산 대신 난방용 열 공급에 중점을 두고 설계되었으며, 다중 유럽 국가의 규제 당국으로부터 안전성 승인을 획득함으로써 유럽 시장 진출의 발판을 마련했다. 이는 SMR 기술의 다양한 활용 가능성과 유럽의 에너지 안보 강화 전략의 일환으로 평가된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "EU",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=4863",
-  "k": "전기 대신 난방 핀란드 smr 유럽 5개국 안전성 합격점",
-  "ko": 1,
-  "id": "cc7ca4b5"
  },
  {
   "date": "2026-07-01",
@@ -1328,5 +1343,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-09 15:38 KST";
-window.SMR_TOTAL = 1117;
+window.SMR_UPDATED = "2026-07-09 16:03 KST";
+window.SMR_TOTAL = 1119;

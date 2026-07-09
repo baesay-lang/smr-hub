@@ -23,6 +23,22 @@ window.SMR_NEWS = [
     "id": "b46dca00"
   },
   {
+    "date": "2026-07-09",
+    "title": "한·미·일 SMR 수출 동맹 '시동'…두산에너빌리티 핵심기술 존재감 더 커지나",
+    "summary": "한·미·일의 소형모듈원자로 수출 동맹 구축으로 한국 기업 두산에너빌리티의 SMR 핵심기술 역할이 확대될 가능성이 제기되고 있다.",
+    "summaryLong": "한국, 미국, 일본 3국의 소형모듈원자로(SMR) 수출 동맹 시동에 따라 국내 원전 핵심기술 공급업체인 두산에너빌리티의 기술 수요와 존재감이 증대될 수 있다는 분석이 나오고 있다. 두산에너빌리티는 한국 SMR 개발과 국제 수출 과정에서 핵심 부품·기술 공급자로서의 위상을 강화할 기회를 맞이하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "두산에너빌리티",
+    "region": "KR",
+    "source": "newsis.com",
+    "url": "https://www.newsis.com/view/NISX20260709_0003702330",
+    "k": "한 미 일 smr 수출 동맹 시동 두산에너빌리티 핵심기술 존재감 더 커지나",
+    "ko": 1,
+    "op": 1,
+    "id": "9abcb4ad"
+  },
+  {
     "date": "2026-07-08",
     "title": "한국원자력학회, \"반도체·AI 시대 신규 원전·SMR 즉시 건설\" 정책 제언",
     "summary": "한국원자력학회가 반도체와 AI 산업의 전력 수요 대응을 위해 신규 원전과 소형모듈원자로의 즉각적 건설을 정부에 제언했다.",
@@ -471,6 +487,20 @@ window.SMR_NEWS = [
     "url": "https://www.reuters.com/business/energy/south-korea-us-japan-agree-cooperate-smr-deployment-seoul-says-2026-07-07/",
     "k": "south korea us and japan agree to cooperate on smr deployment seoul says",
     "id": "20c1883e"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "한국·미국·일본, SMR 배치 협력 양해각서(MOU) 서명",
+    "summary": "한국, 미국, 일본이 소형모듈원자로(SMR) 배치 협력을 위한 양해각서를 체결했다.",
+    "summaryLong": "한국, 미국, 일본 3국이 소형모듈원자로(SMR)의 해외 배치 및 확산을 위한 협력 양해각서(MOU)를 공식 서명했다. 이는 인태 지역(Indo-Pacific) SMR 시장 진출과 관련 기술·정책 협력을 목표로 하며, 각국 정부 간 삼자 협력 체계를 구축하는 것으로 의의가 있다. 한국의 SMR 기술 수출 전략과 미국·일본의 공급망 협력을 함께 추진하는 기반이 되며, AI·데이터센터 등 신산업 전력 수요에 대응하는 국책 협력으로 해석된다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "en.yna.co.kr",
+    "url": "https://en.yna.co.kr/view/AEN20260708000300315",
+    "k": "s korea u s japan sign mou for cooperation on small modular reactor deployments",
+    "id": "74881e2e"
   },
   {
     "date": "2026-07-06",
@@ -16060,4 +16090,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-09 15:38 KST";
+window.SMR_UPDATED = "2026-07-09 16:03 KST";
