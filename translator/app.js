@@ -605,9 +605,18 @@ async function pipeAudio() {
 /* ---------- 시작/정지 ---------- */
 async function start() {
   if (state.running) return;
+  // 화면에 이전 회의 기록이 있으면 실수로 지우지 않게 확인(복구도 가능함을 안내)
+  if (state.segments.length &&
+      !confirm(`지금 화면에 회의 기록 ${state.segments.length}줄이 있어요.\n새로 시작하면 화면에서 지워져요. (지워져도 💾 저장 → '이전 회의 복구'로 되살릴 수 있어요)\n\n새 회의를 시작할까요?`)) return;
   if (!(await ensureUnlocked())) return;   // 보안 모드면 비번 먼저(취소 시 중단)
   if (!cfg.soniox || !cfg.anthropic) { openSettings(); setStatus("⚠ 설정에서 API 키를 먼저 넣어주세요","err"); return; }
   if (!SYS_PROMPT) { setStatus("용어집 로딩 중 — 잠시 후 다시","err"); return; }
+  // 직전 회의 백업을 '이전 회의'로 보존한 뒤, 새 회의 백업 시작
+  try {
+    const b = localStorage.getItem("tr_backup");
+    if (b && (JSON.parse(b).segments||[]).length) localStorage.setItem("tr_backup_prev", b);
+    localStorage.removeItem("tr_backup");
+  } catch(e){}
   state.running = true; state.history = []; state.segments = [];
   state.startedAt = Date.now(); state.endedAt = null;
   state.audioBlob = null; state.recChunks = [];
@@ -615,7 +624,7 @@ async function start() {
   $("captions").innerHTML = ""; $("interim").textContent = "";   // 새 회의 = 새 전사
   curRow = null; lastSeg = null;
   setRunningUI(true);
-  $("saveBtn").disabled = true;
+  refreshSaveBtn();   // 새 회의라 현재 기록은 없지만, 이전 회의 복구는 가능
   try { startSTT(); }
   catch (e) { setStatus("시작 실패: " + e.message, "err"); stop(); }
 }
@@ -633,7 +642,7 @@ function stop() {
   }
   setRunningUI(false);
   $("interim").textContent = "";
-  if (state.segments.length) $("saveBtn").disabled = false;
+  refreshSaveBtn();
   setStatus("정지됨" + (state.segments.length ? ` — ${state.segments.length}줄, 저장 가능` : ""), "");
 }
 
@@ -868,8 +877,43 @@ function saveAudio(){
   download(`${meetingName()}.${ext}`, state.audioBlob);
   setStatus("오디오 저장됨", "");
 }
-function autosave(){
-  if (state.segments.length) $("saveBtn").disabled = false;   // 회의 중에도 저장 가능
+function autosave(){   // 자막이 쌓이는 대로 자동 백업(정지·재시작·새로고침·크래시에도 안 날아감)
+  if (!state.segments.length) return;
+  $("saveBtn").disabled = false;
+  try { localStorage.setItem("tr_backup", JSON.stringify({meta:buildMeta(), segments:cleanSegments(state.segments)})); }
+  catch(e){ /* 용량 초과 등 무시 */ }
+}
+function safeParse(s){ try { return s ? JSON.parse(s) : null; } catch(e){ return null; } }
+function recoverData(){   // 되살릴 직전 회의(현재 화면이 있으면 그 이전, 없으면 마지막)
+  const cur = safeParse(localStorage.getItem("tr_backup"));
+  const prev = safeParse(localStorage.getItem("tr_backup_prev"));
+  const has = d => d && d.segments && d.segments.length;
+  if (state.segments.length) return has(prev) ? prev : null;
+  return has(cur) ? cur : (has(prev) ? prev : null);
+}
+function restoreMeeting(data){   // 백업을 화면·메모리로 되살림(그대로 저장·MoM 가능)
+  state.segments = []; state.speakerMap = {}; state.spkRows = {}; state.spkAutoOpened = false;
+  $("captions").innerHTML = ""; $("interim").textContent = ""; $("spkList").innerHTML = "";
+  curRow = null; lastSeg = null;
+  state.startedAt = (data.meta && data.meta.startedAt) || null;
+  for (const s of (data.segments||[])){
+    const seg = { en:s.en, ko:s.ko, speaker:s.speaker, lang:s.lang, plain:!!s.plain, ts:s.ts,
+      override: (s.name || (s.company && s.company!=="미지정")) ? {name:s.name||"", company:s.company||""} : null };
+    state.segments.push(seg);
+    ensureSpeakerRow(seg.speaker);
+    renderSeg(seg);
+  }
+  refreshSaveBtn();
+  setStatus(`복구됨 — ${state.segments.length}줄. 저장하거나 MoM을 만드세요`, "");
+}
+function doRecover(){
+  const d = recoverData();
+  if (!d){ setStatus("복구할 이전 회의가 없어요", "err"); return; }
+  if (state.segments.length && !confirm(`지금 화면 기록을 이전 회의(${d.segments.length}줄)로 바꿀까요?\n현재 화면 내용은 사라져요.`)) return;
+  restoreMeeting(d);
+}
+function refreshSaveBtn(){   // 저장할 게 있거나(현재 회의) 복구할 게 있으면 저장 버튼 활성
+  $("saveBtn").disabled = !(state.segments.length || recoverData());
 }
 
 /* ---------- UI ---------- */
@@ -923,9 +967,12 @@ $("toggleBtn").onclick = () => (state.running ? stop() : start());
 $("saveBtn").onclick = (e)=>{ e.stopPropagation(); if($("saveBtn").disabled) return;
   const ai=$("saveAudioItem"); ai.disabled=!state.audioBlob;
   ai.textContent = state.audioBlob ? "오디오 (.mp3)" : "오디오 (녹음 정지 후)";
+  const rec=recoverData(), ri=$("recoverItem");
+  ri.hidden = !rec; if (rec) ri.textContent = `↩ 이전 회의 복구 (${rec.segments.length}줄)`;
   $("saveMenu").hidden = !$("saveMenu").hidden; };
 $("saveMenu").onclick = (e)=>{ const b=e.target.closest("button[data-fmt]"); if(!b||b.disabled) return;
-  $("saveMenu").hidden = true; saveFmt(b.dataset.fmt); };
+  $("saveMenu").hidden = true;
+  if (b.dataset.fmt === "recover") doRecover(); else saveFmt(b.dataset.fmt); };
 document.addEventListener("click", (e)=>{ if(!e.target.closest(".save-wrap")) $("saveMenu").hidden = true; });
 $("momBtn").onclick = openMoM;
 $("momClose").onclick = ()=> $("momModal").hidden = true;
@@ -966,5 +1013,7 @@ $("themeBtn").onclick = ()=>{ const d=document.documentElement.getAttribute("dat
 
 applyFont();
 loadData();
+refreshSaveBtn();   // 지난 회의 백업이 있으면 저장(복구) 버튼 활성화
+if (recoverData()) setStatus("💾 저장 → '이전 회의 복구'로 지난 회의를 되살릴 수 있어요", "");
 // (개발 전용) ?dev=1 로 열었을 때만 시뮬레이션 훅 노출 — 팀 배포본에선 비노출
 if (new URLSearchParams(location.search).has("dev")) window.__simSentence = onSentence;
