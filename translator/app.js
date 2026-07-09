@@ -504,12 +504,8 @@ function addSpeakerRow(opts){
 
 /* ---------- Soniox 실시간 STT ---------- */
 async function getStream() {
-  if (cfg.source === "mic") return navigator.mediaDevices.getUserMedia({audio:true});
-  const s = await navigator.mediaDevices.getDisplayMedia({video:true, audio:true});
-  if (!s.getAudioTracks().length) { s.getTracks().forEach(t=>t.stop());
-    throw new Error("오디오가 공유 안 됨 — 공유 창에서 '오디오 공유'를 체크하세요"); }
-  s.getVideoTracks().forEach(t=>t.stop());
-  return s;
+  // 대면·온라인 구분 없이 마이크로 '말소리'를 녹음(선택·화면공유 없음)
+  return navigator.mediaDevices.getUserMedia({ audio: { echoCancellation:true, noiseSuppression:true, autoGainControl:true } });
 }
 function startSTT() {
   const ws = new WebSocket(SONIOX_WS);
@@ -531,7 +527,7 @@ function startSTT() {
     }));
     // 오디오 시작 실패(공유 취소·마이크 거부 등)를 놓치지 않고 정지 처리
     pipeAudio().then(()=>{
-      setStatus(`듣는 중 (${cfg.source==="mic"?"마이크":"시스템 오디오"})`, "live");
+      setStatus("듣는 중 — 말하면 자막이 나옵니다", "live");
     }).catch(e=>{
       const msg = /Permission|NotAllowed/i.test(e.name||e.message) ? "취소됨 — 오디오 공유/마이크를 허용해야 시작돼요" : e.message;
       setStatus("시작 실패: " + msg, "err"); stop();
@@ -932,8 +928,6 @@ function requireAdmin(){
   return false;
 }
 $("settingsBtn").onclick = () => { if (requireAdmin()) openSettings(); };
-$("sourceSel").value = cfg.source;
-$("sourceSel").onchange = () => { cfg.source = $("sourceSel").value; localStorage.setItem("tr_source", cfg.source); };
 $("spkBtn").onclick = ()=>{ const p=$("spkPanel"); p.hidden=!p.hidden; };
 $("spkAddBtn").onclick = ()=>{ $("spkPanel").hidden=false; ensureManualRow("", "미지정"); };
 $("settingsClose").onclick = ()=> $("settingsModal").hidden=true;
