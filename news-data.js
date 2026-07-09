@@ -39,6 +39,21 @@ window.SMR_NEWS = [
     "id": "9abcb4ad"
   },
   {
+    "date": "2026-07-09",
+    "title": "한·미·일, 해외 SMR 공동 진출 협력체계 구축…배치 협력각서 서명",
+    "summary": "한국, 미국, 일본 3개국이 인도태평양 지역 소형모듈원자로(SMR) 공동 수출을 위한 협력각서를 체결했다.",
+    "summaryLong": "한국, 미국, 일본이 인도태평양(Indo-Pacific) 지역의 소형모듈원자로(SMR) 시장 공동 진출을 위한 협력체계를 구축하고 배치 협력각서(MOU)를 체결했다. 이는 3개국이 SMR 수출 경쟁력 강화를 위해 정부 차원의 협력 틀을 만든 것으로, 향후 제3·제4국 진출을 위한 공동 추진 체계를 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "inpnews.kr",
+    "url": "https://www.inpnews.kr/news/articleView.html?idxno=7305",
+    "k": "해외 smr 공동 진출 협력체계 구축 배치 협력각서 서명",
+    "ko": 1,
+    "id": "b516b378"
+  },
+  {
     "date": "2026-07-08",
     "title": "한국원자력학회, \"반도체·AI 시대 신규 원전·SMR 즉시 건설\" 정책 제언",
     "summary": "한국원자력학회가 반도체와 AI 산업의 전력 수요 대응을 위해 신규 원전과 소형모듈원자로의 즉각적 건설을 정부에 제언했다.",
@@ -16105,4 +16120,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-09 17:00 KST";
+window.SMR_UPDATED = "2026-07-09 17:25 KST";
