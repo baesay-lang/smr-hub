@@ -166,6 +166,64 @@ window.SMR_NEWS = [
   "id": "b7677636"
  },
  {
+  "date": "2026-07-09",
+  "title": "소형모듈원자로(SMR), 확장 가능하고 유연한 핵전력 제공",
+  "summary": "소형모듈원자로의 확장성과 유연성을 강조하는 기술·정책 소개 기사.",
+  "summaryLong": "투모로우스 월드 투데이(Tomorrow's World Today)가 소형모듈원자로(SMR: Small Modular Reactor)의 기술적 장점과 에너지 시장 적용 가능성을 소개한 기사. SMR 기술의 탄력성, 배포 유연성, 규모 확장성 등 기술 특성과 산업 전망을 다룬 교육·홍보 성격의 콘텐츠.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "",
+  "source": "tomorrowsworldtoday.com",
+  "url": "https://www.tomorrowsworldtoday.com/energy/small-modular-reactors-smrs-offer-scalable-and-flexible-nuclear-power/",
+  "k": "small modular reactors smrs offer scalable and flexible nuclear power",
+  "id": "4682c986"
+ },
+ {
+  "date": "2026-07-09",
+  "title": "소형모듈원자로 시장, 2026~2035년 12.8% 연평균 성장률로 186억 달러 규모",
+  "summary": "소형모듈원자로 시장이 2026~2035년 기간 12.8% 연평균 성장률로 186억 달러(USD 18.76B) 규모로 확대될 전망.",
+  "summaryLong": "EIN 프레스와이어(EIN Presswire)가 소형모듈원자로(SMR) 시장의 성장 전망을 보도했다. 2026~2035년 예측 기간 중 시장 규모가 186억 달러(USD 18.76 Billion)에 달하며, 연평균 성장률(CAGR)은 12.8%로 예상된다. SMR 산업의 경제적 규모 확대와 정책적 지원 강화를 반영하는 시장 분석 자료.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "",
+  "source": "einpresswire.com",
+  "url": "https://www.einpresswire.com/article/925497481/small-modular-reactor-market-register-usd-18-76-billion-with-a-growing-cagr-of-12-8-during-the-forecast-2026-to-2035",
+  "k": "small modular reactor market register usd 18 76 billion with a growing cagr of 12 8 during the forecast 2026 to 2035",
+  "id": "701fed69"
+ },
+ {
+  "date": "2026-07-09",
+  "title": "AI가 개발한 SMR, 원자력 추진선으로 진화",
+  "summary": "인공지능(AI) 기술을 활용하여 개발된 소형모듈원자로가 원자력 추진선 분야로 확대 적용될 예정이다.",
+  "summaryLong": "인공지능 기술을 활용하여 설계·최적화된 소형모듈원자로(SMR) 기술이 차세대 원자력 추진선 분야로의 응용 가능성을 보이고 있다. 이는 SMR의 활용 범위를 에너지 발전에서 해상 운송 분야로 확대하려는 시도로, 글로벌 탄소중립 달성과 해양 운송의 친환경화라는 차원에서 전략적 의미를 갖는다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "",
+  "source": "ebn.co.kr",
+  "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1715758",
+  "k": "ai가 키운 smr 다음 무대는 원자력 추진선",
+  "ko": 1,
+  "id": "bcdf25de"
+ },
+ {
+  "date": "2026-07-09",
+  "title": "한·미·일 SMR 공동수출 틀 마련",
+  "summary": "한국·미국·일본이 소형모듈원자로(SMR) 공동수출을 위한 협력 체계를 구축했다.",
+  "summaryLong": "한국·미국·일본이 소형모듈원자로(SMR)의 공동수출을 위한 협력 틀을 마련했다. 세 나라는 이를 통해 인도·태평양 지역 및 국제 시장에서 SMR 기술 수출을 전략적으로 추진할 계획으로, 기술·정책·시장 진출에서의 삼각 협력체를 구성한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "smedaily.co.kr",
+  "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=360017",
+  "k": "한 미 일 smr 공동수출 틀 짜졌다",
+  "ko": 1,
+  "id": "6fafcb4d"
+ },
+ {
   "date": "2026-07-08",
   "title": "한국원자력학회, \"반도체·AI 시대 신규 원전·SMR 즉시 건설\" 정책 제언",
   "summary": "한국원자력학회가 반도체와 AI 산업의 전력 수요 대응을 위해 신규 원전과 소형모듈원자로의 즉각적 건설을 정부에 제언했다.",
@@ -340,6 +398,35 @@ window.SMR_NEWS = [
   "k": "한미일 smr 수출 동맹 띄웠다 ai 시대 전력시장 정조준",
   "ko": 1,
   "id": "c9d57a6c"
+ },
+ {
+  "date": "2026-07-08",
+  "title": "오클로, 규제 승인 획득... 투자자들 밸류에이션 평가",
+  "summary": "오클로(Oklo)가 규제 당국으로부터 주요 승인을 획득했으며, 투자자들이 회사 밸류에이션을 평가하고 있다.",
+  "summaryLong": "오클로가 규제 당국으로부터 중요한 규제 승인(regulatory win)을 획득한 것으로 보도되었다. 이는 회사의 실제 사업 진전을 보여주는 인허가 소식에 해당한다. 동시에 투자 시장에서 회사의 밸류에이션을 평가하는 움직임이 나타나고 있으나, 기사의 핵심은 규제 승인이라는 실질적 사건이다.",
+  "cat": "인허가",
+  "type": "SFR",
+  "dev": "오클로",
+  "region": "US",
+  "source": "finance.yahoo.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-oklo-gains-regulatory-win-161535514.html",
+  "k": "oklo oklo gains a regulatory win as investors weigh its valuation",
+  "id": "15c26309"
+ },
+ {
+  "date": "2026-07-08",
+  "title": "한·미·일, 소형모듈원자로(SMR) 사업 협력각서 체결",
+  "summary": "한국·미국·일본이 소형모듈원자로 사업 협력을 위한 양해각서를 체결했으며, 한국의 제조 역량이 강조되었다.",
+  "summaryLong": "한·미·일 세 국가가 소형모듈원자로(SMR) 분야의 국제 협력을 위한 양해각서를 체결했다. 이 협력각서는 세 나라가 SMR 사업에서 제휴하여 글로벌 시장 진출을 도모하는 내용을 담고 있으며, 특히 한국의 제조 역량과 기술력이 협력의 핵심 요소로 강조되었다. 이는 인태지역(Indo-Pacific) 청정에너지 협력의 새로운 이정표가 될 것으로 예상된다.",
+  "cat": "계약",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "khan.co.kr",
+  "url": "https://www.khan.co.kr/article/202607081533011",
+  "k": "한 미 일 소형모듈원자로 smr 사업 협력각서 체결 한국 제조 역량에 방점",
+  "ko": 1,
+  "id": "2b4e35cb"
  },
  {
   "date": "2026-07-07",
@@ -789,94 +876,6 @@ window.SMR_NEWS = [
   "url": "https://www.ans.org/news/2026-07-06/article-8180/doe-contract-boosts-centruss-haleu-goals-as-urenco-continues-leu-expansion/",
   "k": "doe contract boosts centrus s haleu goals as urenco continues leu expansion",
   "id": "6a9d99c5"
- },
- {
-  "date": "2026-07-06",
-  "title": "SGE, 영국 소형모듈원자로(SMR) 14기 배치 계획 공개",
-  "summary": "SGE가 영국 내 소형모듈원자로 14기 배치 계획을 발표했다.",
-  "summaryLong": "SGE가 영국에 소형모듈원자로(SMR) 14기를 배치하는 계획을 공개했다. 이는 영국의 청정에너지 전환 정책 아래 소형모듈원자로 도입을 추진하는 사업으로, 구체적인 입지선정, 기술 규격, 일정 등은 관련 보도에서 확인 필요하다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "SGE",
-  "region": "UK",
-  "source": "newcivilengineer.com",
-  "url": "https://www.newcivilengineer.com/latest/sge-unveils-plans-for-14-uk-small-modular-reactors-06-07-2026/",
-  "k": "sge unveils plans for 14 uk small modular reactors",
-  "id": "59e7de53"
- },
- {
-  "date": "2026-07-06",
-  "title": "국립창원대, 1,438억 투입해 SMR 연구거점 '국가연구소' 구축",
-  "summary": "국립창원대학교가 1,438억 원을 투입하여 소형모듈원자로(SMR) 연구개발 거점으로서 국가연구소를 구축한다.",
-  "summaryLong": "국립창원대학교가 소형모듈원자로(SMR) 분야의 국가 차원 연구거점 구축을 추진하며 1,438억 원의 예산을 투입할 계획이다. 이는 한국의 SMR 기술 자립화와 산업 육성을 목표로 하는 정부 정책의 일환으로, 창원대를 SMR 연구개발의 중추 기관으로 육성하겠다는 의도로 보인다. 해당 국가연구소 구축을 통해 SMR 관련 핵심 기술 개발, 인력 양성, 산학협력 체계 확대 등이 이루어질 것으로 예상된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "창원대",
-  "region": "KR",
-  "source": "kyosu.net",
-  "url": "https://www.kyosu.net/news/articleView.html?idxno=207316",
-  "k": "국립창원대 1 438억 투입해 smr 연구거점 국가연구소 구축한다",
-  "ko": 1,
-  "id": "5f875523"
- },
- {
-  "date": "2026-07-06",
-  "title": "소형원자로 인허가 접근 방식 재검토 필요 — 리하초프",
-  "summary": "로사톰(Rosatom) 총장이 미국의 마이크로원자로 3기 임계 달성을 축하하며, 러시아도 소형로 인허가 규제를 재정비해야 경쟁력을 유지할 수 있다고 언급했다.",
-  "summaryLong": "로사톰(Rosatom)의 알렉세이 리하초프(Alexei Likhachev) 총장은 미국이 마이크로원자로 3기를 임계 상태에 도달시킨 성과를 축하하면서, 미국 규제당국의 기업 친화적 정책의 중요성을 지적했다. 리하초프는 러시아가 소형모듈원자로(SMR) 분야에서 지도적 위치를 유지하려면 인허가 접근 방식을 근본적으로 재검토해야 한다는 입장을 밝혔다. 이는 선진국의 규제 선진화에 대응하는 러시아의 정책 검토 의사를 보여주는 발언이다.",
-  "cat": "기술",
-  "type": "Micro",
-  "dev": "Rosatom",
-  "region": "US",
-  "source": "World Nuclear News",
-  "url": "https://www.world-nuclear-news.org/articles/fresh-look-needed-at-licensing-approach-for-small-reactors---likhachev",
-  "k": "fresh look needed at licensing approach for small reactors",
-  "id": "5e02a1d7"
- },
- {
-  "date": "2026-07-06",
-  "title": "한수원, 국제안전보건전시회서 혁신형 소형모듈원자로(iSMR) 선보여",
-  "summary": "한국수력원자력(한수원)이 6~9일 고양 킨텍스(KINTEX)에서 열린 '2026 국제안전보건전시회(KISS 2026)'에 참가해 차세대 기술인 혁신형 소형모듈원자로(iSMR) 모형을 전시하고 안전설계 기술과 다목적 활용성을 홍보했다.",
-  "summaryLong": "한국수력원자력(한수원)이 6~9일 고양 킨텍스(KINTEX)에서 개최된 국내 최대 규모 산업안전보건 전문 전시회인 '2026 국제안전보건전시회(KISS 2026)'에 참가했다. 한수원은 '기술 혁신과 사람 중심의 안전'을 주제로 홍보 부스를 운영하며, 차세대 주력 기술인 혁신형 소형모듈원자로(iSMR)의 모형을 전면에 내세웠다. 이를 통해 한층 강화된 안전설계 기술과 다목적 활용성을 선보임으로써 한수원의 첨단 기술력을 전방위로 과시했다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "한수원",
-  "region": "KR",
-  "source": "투데이에너지 - 전체기사",
-  "url": "https://www.todayenergy.kr/news/articleView.html?idxno=300003",
-  "k": "한수원 2026 국제안전보건전시회 참가",
-  "ko": 1,
-  "id": "9a5de0f0"
- },
- {
-  "date": "2026-07-06",
-  "title": "소형모듈원자로에 큰 포부 — 인도",
-  "summary": "인도에서 소형모듈원자로 기술에 대한 큰 기대와 포부를 표현하고 있다.",
-  "summaryLong": "인도에서 소형모듈원자로(SMR) 기술이 국가의 에너지 정책과 기후 목표 달성에 중요한 역할을 할 것으로 기대하고 있다. 소형모듈원자로는 인도의 원격 지역 전력 공급, 산업 열 수요 충족, 에너지 독립 실현 등 다양한 용도에 활용될 가능성이 있어 정부와 산업계의 관심이 증가하고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "",
-  "source": "hindustantimes.com",
-  "url": "https://www.hindustantimes.com/ht-insight/governance/big-aspirations-for-small-modular-reactor-101783336880641.html",
-  "k": "big aspirations for small modular reactor hindustan times",
-  "op": 1,
-  "id": "b2920f3f"
- },
- {
-  "date": "2026-07-06",
-  "title": "영국 칠턴 바이탈-케임브리지 아톰웍스, 소형원자로 '오딘' 연구개발 협력 의향서 체결",
-  "summary": "영국의 칠턴 바이탈(Chilton Vital)과 케임브리지 아톰웍스(Cambridge Atomworks)가 소형원자로 '오딘(Odin)' 개발을 위한 연구개발 협력 의향서를 체결했다.",
-  "summaryLong": "영국의 칠턴 바이탈(Chilton Vital)과 케임브리지 아톰웍스(Cambridge Atomworks)가 소형모듈원자로 '오딘(Odin)' 프로젝트의 연구개발을 추진하기 위해 협력 의향서(MOU)를 공식 체결했다. 이 협약을 통해 양사는 오딘 원자로의 설계, 개발, 기술 검증 등에 공동으로 참여하게 된다. 이는 영국 내 소형모듈원자로 개발 생태계 확대와 산업 파트너십 강화를 의미한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "칠턴 바이탈, 케임브리지 아톰웍스",
-  "region": "UK",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=4885",
-  "k": "칠턴 바이탈 케임브리지 아톰웍스 소형원자로 오딘 연구개발 협력 의향서 체결",
-  "ko": 1,
-  "id": "4a63d329"
  },
  {
   "date": "2026-07-05",
@@ -1355,5 +1354,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-10 07:52 KST";
-window.SMR_TOTAL = 1129;
+window.SMR_UPDATED = "2026-07-10 08:22 KST";
+window.SMR_TOTAL = 1135;

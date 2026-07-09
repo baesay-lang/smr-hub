@@ -173,6 +173,64 @@ window.SMR_NEWS = [
     "id": "b7677636"
   },
   {
+    "date": "2026-07-09",
+    "title": "소형모듈원자로(SMR), 확장 가능하고 유연한 핵전력 제공",
+    "summary": "소형모듈원자로의 확장성과 유연성을 강조하는 기술·정책 소개 기사.",
+    "summaryLong": "투모로우스 월드 투데이(Tomorrow's World Today)가 소형모듈원자로(SMR: Small Modular Reactor)의 기술적 장점과 에너지 시장 적용 가능성을 소개한 기사. SMR 기술의 탄력성, 배포 유연성, 규모 확장성 등 기술 특성과 산업 전망을 다룬 교육·홍보 성격의 콘텐츠.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "tomorrowsworldtoday.com",
+    "url": "https://www.tomorrowsworldtoday.com/energy/small-modular-reactors-smrs-offer-scalable-and-flexible-nuclear-power/",
+    "k": "small modular reactors smrs offer scalable and flexible nuclear power",
+    "id": "4682c986"
+  },
+  {
+    "date": "2026-07-09",
+    "title": "소형모듈원자로 시장, 2026~2035년 12.8% 연평균 성장률로 186억 달러 규모",
+    "summary": "소형모듈원자로 시장이 2026~2035년 기간 12.8% 연평균 성장률로 186억 달러(USD 18.76B) 규모로 확대될 전망.",
+    "summaryLong": "EIN 프레스와이어(EIN Presswire)가 소형모듈원자로(SMR) 시장의 성장 전망을 보도했다. 2026~2035년 예측 기간 중 시장 규모가 186억 달러(USD 18.76 Billion)에 달하며, 연평균 성장률(CAGR)은 12.8%로 예상된다. SMR 산업의 경제적 규모 확대와 정책적 지원 강화를 반영하는 시장 분석 자료.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "einpresswire.com",
+    "url": "https://www.einpresswire.com/article/925497481/small-modular-reactor-market-register-usd-18-76-billion-with-a-growing-cagr-of-12-8-during-the-forecast-2026-to-2035",
+    "k": "small modular reactor market register usd 18 76 billion with a growing cagr of 12 8 during the forecast 2026 to 2035",
+    "id": "701fed69"
+  },
+  {
+    "date": "2026-07-09",
+    "title": "AI가 개발한 SMR, 원자력 추진선으로 진화",
+    "summary": "인공지능(AI) 기술을 활용하여 개발된 소형모듈원자로가 원자력 추진선 분야로 확대 적용될 예정이다.",
+    "summaryLong": "인공지능 기술을 활용하여 설계·최적화된 소형모듈원자로(SMR) 기술이 차세대 원자력 추진선 분야로의 응용 가능성을 보이고 있다. 이는 SMR의 활용 범위를 에너지 발전에서 해상 운송 분야로 확대하려는 시도로, 글로벌 탄소중립 달성과 해양 운송의 친환경화라는 차원에서 전략적 의미를 갖는다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "ebn.co.kr",
+    "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1715758",
+    "k": "ai가 키운 smr 다음 무대는 원자력 추진선",
+    "ko": 1,
+    "id": "bcdf25de"
+  },
+  {
+    "date": "2026-07-09",
+    "title": "한·미·일 SMR 공동수출 틀 마련",
+    "summary": "한국·미국·일본이 소형모듈원자로(SMR) 공동수출을 위한 협력 체계를 구축했다.",
+    "summaryLong": "한국·미국·일본이 소형모듈원자로(SMR)의 공동수출을 위한 협력 틀을 마련했다. 세 나라는 이를 통해 인도·태평양 지역 및 국제 시장에서 SMR 기술 수출을 전략적으로 추진할 계획으로, 기술·정책·시장 진출에서의 삼각 협력체를 구성한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "smedaily.co.kr",
+    "url": "http://www.smedaily.co.kr/news/articleView.html?idxno=360017",
+    "k": "한 미 일 smr 공동수출 틀 짜졌다",
+    "ko": 1,
+    "id": "6fafcb4d"
+  },
+  {
     "date": "2026-07-08",
     "title": "한국원자력학회, \"반도체·AI 시대 신규 원전·SMR 즉시 건설\" 정책 제언",
     "summary": "한국원자력학회가 반도체와 AI 산업의 전력 수요 대응을 위해 신규 원전과 소형모듈원자로의 즉각적 건설을 정부에 제언했다.",
@@ -347,6 +405,35 @@ window.SMR_NEWS = [
     "k": "한미일 smr 수출 동맹 띄웠다 ai 시대 전력시장 정조준",
     "ko": 1,
     "id": "c9d57a6c"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "오클로, 규제 승인 획득... 투자자들 밸류에이션 평가",
+    "summary": "오클로(Oklo)가 규제 당국으로부터 주요 승인을 획득했으며, 투자자들이 회사 밸류에이션을 평가하고 있다.",
+    "summaryLong": "오클로가 규제 당국으로부터 중요한 규제 승인(regulatory win)을 획득한 것으로 보도되었다. 이는 회사의 실제 사업 진전을 보여주는 인허가 소식에 해당한다. 동시에 투자 시장에서 회사의 밸류에이션을 평가하는 움직임이 나타나고 있으나, 기사의 핵심은 규제 승인이라는 실질적 사건이다.",
+    "cat": "인허가",
+    "type": "SFR",
+    "dev": "오클로",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-oklo-gains-regulatory-win-161535514.html",
+    "k": "oklo oklo gains a regulatory win as investors weigh its valuation",
+    "id": "15c26309"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "한·미·일, 소형모듈원자로(SMR) 사업 협력각서 체결",
+    "summary": "한국·미국·일본이 소형모듈원자로 사업 협력을 위한 양해각서를 체결했으며, 한국의 제조 역량이 강조되었다.",
+    "summaryLong": "한·미·일 세 국가가 소형모듈원자로(SMR) 분야의 국제 협력을 위한 양해각서를 체결했다. 이 협력각서는 세 나라가 SMR 사업에서 제휴하여 글로벌 시장 진출을 도모하는 내용을 담고 있으며, 특히 한국의 제조 역량과 기술력이 협력의 핵심 요소로 강조되었다. 이는 인태지역(Indo-Pacific) 청정에너지 협력의 새로운 이정표가 될 것으로 예상된다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "khan.co.kr",
+    "url": "https://www.khan.co.kr/article/202607081533011",
+    "k": "한 미 일 소형모듈원자로 smr 사업 협력각서 체결 한국 제조 역량에 방점",
+    "ko": 1,
+    "id": "2b4e35cb"
   },
   {
     "date": "2026-07-07",
@@ -16239,4 +16326,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-10 07:52 KST";
+window.SMR_UPDATED = "2026-07-10 08:22 KST";
