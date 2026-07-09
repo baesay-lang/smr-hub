@@ -140,6 +140,35 @@ window.SMR_NEWS = [
     "id": "5ee50c51"
   },
   {
+    "date": "2026-07-08",
+    "title": "서울·워싱턴·도쿄, 소형모듈원자로(SMR) 공동 원자로 사업용 협약 체결",
+    "summary": "한국·미국·일본이 소형모듈원자로 공동 프로젝트 추진을 위한 양해각서를 체결했다.",
+    "summaryLong": "한국·미국·일본 3국이 소형모듈원자로(SMR) 배치 및 공동 원자로 사업 협력을 위한 양해각서(MOU)를 체결했다. 이는 SMR 기술 개발 및 상용화 촉진을 위한 국제 협력 체계를 구축하려는 정부 차원의 전략적 파트너십이다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "koreajoongangdaily.com",
+    "url": "https://www.koreajoongangdaily.com/korea/seoul-washington-and-tokyo-sign-smr-pact-for-joint-reactor-projects/12761566",
+    "k": "seoul washington and tokyo sign smr pact for joint reactor projects",
+    "id": "89ad3fec"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "한미일 외교장관, NATO 계기 회담에서 SMR 협력각서 체결",
+    "summary": "한국, 미국, 일본의 외교장관들이 NATO 외교회담 계기에 SMR 협력각서를 체결했다.",
+    "summaryLong": "한국, 미국, 일본의 외교장관들이 NATO(북대서양조약기구) 계기 다자 회담에서 소형모듈원자로(SMR) 협력각서(MOU)를 체결했다. 이는 3국의 SMR 수출 전략과 인도·태평양 지역 공급 네트워크 구축을 위한 공식 양해각서로, 글로벌 청정에너지 협력의 새로운 이정표가 되었다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "ichannela.com",
+    "url": "https://ichannela.com/news/detail/000000538545.do",
+    "k": "한미일 외교장관 nato 계기 회담 smr 협력각서 체결",
+    "ko": 1,
+    "id": "08766632"
+  },
+  {
     "date": "2026-07-07",
     "title": "DL이앤씨, 엑스에너지 Xe-100 표준화 설계 수주",
     "summary": "DL이앤씨가 국내 건설사로는 처음으로 미국 엑스에너지(X-energy)의 Xe-100 소형모듈원자로 표준화 설계를 수주했다.",
@@ -16002,4 +16031,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-09 08:20 KST";
+window.SMR_UPDATED = "2026-07-09 08:52 KST";

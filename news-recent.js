@@ -133,6 +133,35 @@ window.SMR_NEWS = [
   "id": "5ee50c51"
  },
  {
+  "date": "2026-07-08",
+  "title": "서울·워싱턴·도쿄, 소형모듈원자로(SMR) 공동 원자로 사업용 협약 체결",
+  "summary": "한국·미국·일본이 소형모듈원자로 공동 프로젝트 추진을 위한 양해각서를 체결했다.",
+  "summaryLong": "한국·미국·일본 3국이 소형모듈원자로(SMR) 배치 및 공동 원자로 사업 협력을 위한 양해각서(MOU)를 체결했다. 이는 SMR 기술 개발 및 상용화 촉진을 위한 국제 협력 체계를 구축하려는 정부 차원의 전략적 파트너십이다.",
+  "cat": "계약",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "koreajoongangdaily.com",
+  "url": "https://www.koreajoongangdaily.com/korea/seoul-washington-and-tokyo-sign-smr-pact-for-joint-reactor-projects/12761566",
+  "k": "seoul washington and tokyo sign smr pact for joint reactor projects",
+  "id": "89ad3fec"
+ },
+ {
+  "date": "2026-07-08",
+  "title": "한미일 외교장관, NATO 계기 회담에서 SMR 협력각서 체결",
+  "summary": "한국, 미국, 일본의 외교장관들이 NATO 외교회담 계기에 SMR 협력각서를 체결했다.",
+  "summaryLong": "한국, 미국, 일본의 외교장관들이 NATO(북대서양조약기구) 계기 다자 회담에서 소형모듈원자로(SMR) 협력각서(MOU)를 체결했다. 이는 3국의 SMR 수출 전략과 인도·태평양 지역 공급 네트워크 구축을 위한 공식 양해각서로, 글로벌 청정에너지 협력의 새로운 이정표가 되었다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "ichannela.com",
+  "url": "https://ichannela.com/news/detail/000000538545.do",
+  "k": "한미일 외교장관 nato 계기 회담 smr 협력각서 체결",
+  "ko": 1,
+  "id": "08766632"
+ },
+ {
   "date": "2026-07-07",
   "title": "DL이앤씨, 엑스에너지 Xe-100 표준화 설계 수주",
   "summary": "DL이앤씨가 국내 건설사로는 처음으로 미국 엑스에너지(X-energy)의 Xe-100 소형모듈원자로 표준화 설계를 수주했다.",
@@ -853,35 +882,6 @@ window.SMR_NEWS = [
   "id": "e257403e"
  },
  {
-  "date": "2026-07-05",
-  "title": "기장군 SMR 유치 확정, 191명 이장단과의 소통이 주효",
-  "summary": "기장군이 소형모듈원자로(SMR) 유치에 성공했으며, 지역 191명 이장단과의 소통이 성과의 핵심이었다는 평가.",
-  "summaryLong": "부산시 기장군이 소형모듈원자로(SMR) 사업 유치에 성공했다. 이는 지역 주민과 지도자 계층인 191명의 이장단과의 적극적인 소통과 협력이 중요한 역할을 한 것으로 평가되고 있다. 김형칠 공동위원장 등 관계자들은 이번 유치가 지역 합의와 투명한 의사소통의 결과라고 강조하고 있으며, 이는 SMR 국내 입지 추진의 중요한 이정표가 될 것으로 보인다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=4849",
-  "k": "기장군 smr 유치 쾌거 191명 이장단 소통이 빛났다 김형칠 공동위원장 대담",
-  "ko": 1,
-  "id": "4e81ee89"
- },
- {
-  "date": "2026-07-04",
-  "title": "미국 에너지부(DOE), 센트러스와 10억 달러 규모 고함유우라늄(HALEU) 계약 확정",
-  "summary": "미국 에너지부가 센트러스(Centrus)와 10억 달러 규모의 고함유 저농축우라늄(HALEU) 공급 계약을 최종 확정했다.",
-  "summaryLong": "미국 에너지부(DOE)가 우라늄 농축 회사 센트러스와 고함유 저농축우라늄(HALEU, High-Assay Low-Enriched Uranium) 10억 달러 규모의 공급 계약을 확정했다. 이는 미국이 러시아산 핵연료에 대한 의존도를 탈피하고 자급 역량을 강화하려는 국책 사업으로, 소형모듈원자로와 첨단로 등 신형 원자로의 연료 공급 기반 구축에 중요한 역할을 할 것으로 예상된다. DOE의 공식 계약 체결로 미국 SMR/첨단로 생태계의 연료 공급 안정성이 크게 향상될 것으로 보인다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "Centrus",
-  "region": "US",
-  "source": "techtimes.com",
-  "url": "https://www.techtimes.com/articles/319669/20260703/doe-locks-1b-centrus-haleu-deal-end-us-reliance-russian-enrichment.htm",
-  "k": "doe locks in 1b centrus haleu deal to end us reliance on russian enrichment",
-  "id": "f5cc04ba"
- },
- {
   "date": "2026-07-01",
   "title": "i-SMR 기술개발사업단, 싱가포르 에너지시장청과 협력",
   "summary": "한국의 i-SMR(혁신형 소형모듈원자로) 기술개발사업단이 싱가포르 에너지시장청(EMA)과 협력 양해각서를 체결했다.",
@@ -1330,5 +1330,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-09 08:20 KST";
-window.SMR_TOTAL = 1113;
+window.SMR_UPDATED = "2026-07-09 08:52 KST";
+window.SMR_TOTAL = 1115;
