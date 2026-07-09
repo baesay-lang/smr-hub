@@ -1,6 +1,21 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-07-09",
+  "title": "한국전력기술, 독자 SMR 개발 가시권…2027년 9월까지 기본설계 완료 목표",
+  "summary": "한국전력기술이 웨스팅하우스(Westinghouse)와 무관한 독자 소형모듈원자로(SMR) 개발을 추진 중이며, 개념설계 완료 후 2027년 9월까지 기본설계 마무리를 목표로 하고 있다.",
+  "summaryLong": "한국전력기술의 김태균 사장이 2026년 대한전기학회(KIEE) 하계학술대회에서 독자 소형모듈원자로(SMR) 개발을 미래 성장동력으로 제시했다. 회사는 현재 개념설계를 완료했고, 2027년 9월까지 기본설계를 마무리하는 것을 목표로 하고 있다. 기본설계 완료 후에는 원가 및 사업성이 구체화되어 국제 시장 진출을 추진할 계획이며, 이는 한국 원자력산업의 독자적 고유 노형 개발이라는 전략적 의미를 갖는다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "한국전력기술",
+  "region": "KR",
+  "source": "전기신문 - 전체기사",
+  "url": "https://www.electimes.com/news/articleView.html?idxno=370138",
+  "k": "2026 전기학회 하계학술대회 독자 smr 개발 가시권 김태균 사장 한전기술 미래 먹거리 키울 것",
+  "ko": 1,
+  "id": "b46dca00"
+ },
+ {
   "date": "2026-07-08",
   "title": "한국원자력학회, \"반도체·AI 시대 신규 원전·SMR 즉시 건설\" 정책 제언",
   "summary": "한국원자력학회가 반도체와 AI 산업의 전력 수요 대응을 위해 신규 원전과 소형모듈원자로의 즉각적 건설을 정부에 제언했다.",
@@ -437,6 +452,20 @@ window.SMR_NEWS = [
   "id": "b27d3294"
  },
  {
+  "date": "2026-07-07",
+  "title": "한국·미국·일본, 소형모듈원자로(SMR) 배치 협력 합의",
+  "summary": "한국, 미국, 일본이 소형모듈원자로(SMR) 배치 협력에 합의했다.",
+  "summaryLong": "한국, 미국, 일본의 3개국이 소형모듈원자로(SMR) 배치 협력에 관한 양해각서(MOU)를 체결했다는 로이터(Reuters) 보도. 이는 인도태평양 지역의 SMR 시장 확대와 기술 협력을 포함한 정책적 협력 틀을 마련한 것으로, 각 국의 SMR 개발 및 상용화 전략의 국제적 연계를 의미한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "reuters.com",
+  "url": "https://www.reuters.com/business/energy/south-korea-us-japan-agree-cooperate-smr-deployment-seoul-says-2026-07-07/",
+  "k": "south korea us and japan agree to cooperate on smr deployment seoul says",
+  "id": "20c1883e"
+ },
+ {
   "date": "2026-07-06",
   "title": "[사설] SMR 첫 삽, 기회로의 전환",
   "summary": "캐나다 온타리오(Ontario)주의 300MW급 소형모듈원자로(SMR) 4기 건설 착공을 계기로 SMR이 현실적 대안으로 자리 잡고 있으며, 국내 제조업체들의 포트폴리오 접근 전략을 평가하는 사설.",
@@ -849,37 +878,6 @@ window.SMR_NEWS = [
   "k": "전기 대신 난방 핀란드 smr 유럽 5개국 안전성 합격점",
   "ko": 1,
   "id": "cc7ca4b5"
- },
- {
-  "date": "2026-07-05",
-  "title": "기장군, SMR 유치로 첨단 부품소재 산업 허브 전환",
-  "summary": "한국 부산 기장군이 소형모듈원자로(SMR) 유치에 성공하여 기존 원전 건설지에서 첨단 부품소재(소부장) 산업 허브로 재편될 것으로 예상된다.",
-  "summaryLong": "부산 기장군이 소형모듈원자로(SMR) 유치 추진에 성공함에 따라 지역 산업 구조의 대전환이 이루어질 것으로 보인다. 기존 대형 원전 건설지였던 기장군이 SMR 관련 첨단 부품·소재(소부장) 산업의 거점으로 개편되면서, 지역 경제 활성화와 고부가가치 산업 육성의 계기가 될 것으로 기대된다. 이는 원전 중심의 지역 경제 재구조화와 첨단 기술 산업 진흥의 사례로 평가된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=4866",
-  "k": "smr 유치 성공한 기장군 원전 건설지에서 첨단 소부장 허브 로 대전환",
-  "ko": 1,
-  "id": "c77c9cd6"
- },
- {
-  "date": "2026-07-05",
-  "title": "서남권 반도체 프로젝트 추진 중 안전성 검증 안 된 SMR 추진",
-  "summary": "서남권 반도체산업 발전 속도 경쟁 과정에서 안전성이 충분히 검증되지 않은 소형모듈원자로(SMR) 추진에 우려를 제기하는 보도다.",
-  "summaryLong": "서남권 반도체산업 육성 계획의 추진 과정에서 전력 수요를 충당하기 위해 안전성이 충분히 검증되지 않은 소형모듈원자로(SMR)를 추진하려는 움직임에 대해 비판적 관점에서 다룬 보도다. 이는 정책 추진 속도와 기술·안전성 검증 사이의 불균형을 우려하는 의견을 담고 있다. 칼럼적 성격이 강한 보도로 정책 결정의 문제점을 제기하는 평론 형태다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "khan.co.kr",
-  "url": "https://www.khan.co.kr/article/202607052136015",
-  "k": "서남권 반도체 속도전 에 안전성 검증 안 된 smr 띄우기",
-  "ko": 1,
-  "op": 1,
-  "id": "e257403e"
  },
  {
   "date": "2026-07-01",
@@ -1330,5 +1328,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-09 08:52 KST";
-window.SMR_TOTAL = 1115;
+window.SMR_UPDATED = "2026-07-09 15:38 KST";
+window.SMR_TOTAL = 1117;

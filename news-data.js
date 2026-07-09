@@ -8,6 +8,21 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-07-09",
+    "title": "한국전력기술, 독자 SMR 개발 가시권…2027년 9월까지 기본설계 완료 목표",
+    "summary": "한국전력기술이 웨스팅하우스(Westinghouse)와 무관한 독자 소형모듈원자로(SMR) 개발을 추진 중이며, 개념설계 완료 후 2027년 9월까지 기본설계 마무리를 목표로 하고 있다.",
+    "summaryLong": "한국전력기술의 김태균 사장이 2026년 대한전기학회(KIEE) 하계학술대회에서 독자 소형모듈원자로(SMR) 개발을 미래 성장동력으로 제시했다. 회사는 현재 개념설계를 완료했고, 2027년 9월까지 기본설계를 마무리하는 것을 목표로 하고 있다. 기본설계 완료 후에는 원가 및 사업성이 구체화되어 국제 시장 진출을 추진할 계획이며, 이는 한국 원자력산업의 독자적 고유 노형 개발이라는 전략적 의미를 갖는다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한국전력기술",
+    "region": "KR",
+    "source": "전기신문 - 전체기사",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=370138",
+    "k": "2026 전기학회 하계학술대회 독자 smr 개발 가시권 김태균 사장 한전기술 미래 먹거리 키울 것",
+    "ko": 1,
+    "id": "b46dca00"
+  },
+  {
     "date": "2026-07-08",
     "title": "한국원자력학회, \"반도체·AI 시대 신규 원전·SMR 즉시 건설\" 정책 제언",
     "summary": "한국원자력학회가 반도체와 AI 산업의 전력 수요 대응을 위해 신규 원전과 소형모듈원자로의 즉각적 건설을 정부에 제언했다.",
@@ -442,6 +457,20 @@ window.SMR_NEWS = [
     "url": "https://sociable.co/government-and-policy/us-japan-korea-accelerate-small-modular-reactor-indo-pacific-data-centers/",
     "k": "us japan korea agree to accelerate small modular reactors in indo pacific where data centers are expanding",
     "id": "b27d3294"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "한국·미국·일본, 소형모듈원자로(SMR) 배치 협력 합의",
+    "summary": "한국, 미국, 일본이 소형모듈원자로(SMR) 배치 협력에 합의했다.",
+    "summaryLong": "한국, 미국, 일본의 3개국이 소형모듈원자로(SMR) 배치 협력에 관한 양해각서(MOU)를 체결했다는 로이터(Reuters) 보도. 이는 인도태평양 지역의 SMR 시장 확대와 기술 협력을 포함한 정책적 협력 틀을 마련한 것으로, 각 국의 SMR 개발 및 상용화 전략의 국제적 연계를 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "reuters.com",
+    "url": "https://www.reuters.com/business/energy/south-korea-us-japan-agree-cooperate-smr-deployment-seoul-says-2026-07-07/",
+    "k": "south korea us and japan agree to cooperate on smr deployment seoul says",
+    "id": "20c1883e"
   },
   {
     "date": "2026-07-06",
@@ -16031,4 +16060,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-09 08:52 KST";
+window.SMR_UPDATED = "2026-07-09 15:38 KST";
