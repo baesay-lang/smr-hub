@@ -34,6 +34,7 @@
       { t: '사업 구조', href: 'SMR-asia-structure.html' },
       { t: '한국 기업', href: 'SMR-korea-players.html' } ] },
     { label: '도구', items: [
+      { t: '실시간 번역 🔒', href: 'translator/index.html' },
       { t: 'LCOE 계산기', href: 'LCOE_Calculator.html' },
       { t: '용어집', href: 'SMR-glossary.html' } ] }
   ];
