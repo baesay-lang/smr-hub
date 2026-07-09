@@ -71,10 +71,10 @@ async function decryptBundle(b, pw){
 async function loadSecure(){
   let blob;
   try { blob = await (await fetch("secure.enc", {cache:"no-store"})).json(); }
-  catch(e){ $("dataStatus").textContent = "보안 데이터 로드 실패"; return false; }
+  catch(e){ setStatus("보안 데이터 로드 실패", "err"); return false; }
   for (let i=0; i<5; i++){
-    const pw = prompt(i ? "비밀번호가 틀렸습니다. 다시 입력하세요:" : "이 앱을 사용하려면 비밀번호를 입력하세요:");
-    if (pw === null){ $("dataStatus").textContent = "잠김 — 새로고침 후 비밀번호를 입력하세요"; return false; }
+    const pw = prompt(i ? "비밀번호가 틀렸습니다. 다시 입력하세요:" : "이 도구를 사용하려면 비밀번호를 입력하세요:");
+    if (pw === null){ setStatus("🔒 잠김 — ▶ 시작을 다시 누르면 비밀번호를 입력할 수 있어요", ""); return false; }
     try {
       const o = await decryptBundle(blob, pw.trim());
       cfg.soniox = o.soniox || ""; cfg.anthropic = o.anthropic || "";
@@ -84,25 +84,38 @@ async function loadSecure(){
       return true;
     } catch(e){ /* 복호화 실패 = 비번 틀림 → 재시도 */ }
   }
-  $("dataStatus").textContent = "비밀번호 5회 실패 — 새로고침 후 다시 시도하세요";
+  setStatus("🔒 비밀번호 5회 실패 — ▶ 시작을 다시 눌러 시도하세요", "err");
   return false;
 }
 
 /* ---------- 데이터 로드 + 프롬프트 빌드 ---------- */
+let locked = false;
 async function loadData() {
   if (secureMode()){
-    if (!(await loadSecure())) return;   // 비번 실패/취소 → 중단
-  } else {
-    await loadLocalKeys();
-    try {
-      GLOSS = await (await fetch("../data/glossary.json", {cache:"no-store"})).json();
-      SPEAKERS = await (await fetch("../data/speakers.json", {cache:"no-store"})).json();
-    } catch (e) { $("dataStatus").textContent = "용어집 로드 실패: " + e; return; }
+    // 페이지는 보이게 하고, 실제 사용(시작) 때 비번으로 잠금 해제 → 그때 복호화
+    locked = true;
+    $("dataStatus").textContent = "🔒 비밀번호 필요";
+    setStatus("🔒 팀 전용 도구 — ▶ 시작을 누른 뒤 비밀번호를 입력하세요", "");
+    return;
   }
+  await loadLocalKeys();
+  try {
+    GLOSS = await (await fetch("../data/glossary.json", {cache:"no-store"})).json();
+    SPEAKERS = await (await fetch("../data/speakers.json", {cache:"no-store"})).json();
+  } catch (e) { $("dataStatus").textContent = "용어집 로드 실패: " + e; return; }
   buildPrompts();
   buildRoster();
   $("dataStatus").textContent =
     `용어집 ${GLOSS.keep_english.length}개 · 조직 ${GLOSS.organizations.length} · 인명 ${rosterNames().length}`;
+}
+async function ensureUnlocked(){   // 보안 모드: 시작 시점에 1회 비번 입력 → 복호화
+  if (!locked) return true;
+  if (!(await loadSecure())) return false;   // 취소/오답 → 잠금 유지
+  buildPrompts(); buildRoster();
+  $("dataStatus").textContent =
+    `용어집 ${GLOSS.keep_english.length}개 · 조직 ${GLOSS.organizations.length} · 인명 ${rosterNames().length}`;
+  locked = false;
+  return true;
 }
 
 function rosterNames() {
@@ -580,6 +593,7 @@ async function pipeAudio() {
 /* ---------- 시작/정지 ---------- */
 async function start() {
   if (state.running) return;
+  if (!(await ensureUnlocked())) return;   // 보안 모드면 비번 먼저(취소 시 중단)
   if (!cfg.soniox || !cfg.anthropic) { openSettings(); setStatus("⚠ 설정에서 API 키를 먼저 넣어주세요","err"); return; }
   if (!SYS_PROMPT) { setStatus("용어집 로딩 중 — 잠시 후 다시","err"); return; }
   state.running = true; state.history = []; state.segments = [];
