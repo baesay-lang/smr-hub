@@ -1,6 +1,6 @@
 {
-  "version": "2.4.0",
+  "version": "2.4.1",
   "date": "2026-07-10",
   "url": "https://baesay-lang.github.io/smr-hub/downloads/work-calendar_latest.zip",
-  "notes": "SMR Hub 배포 시작 + 실행 시 자동 업데이트"
+  "notes": "회사 보안정책(AppLocker) 호환 — 설치 위치 문서\\WorkCalendar, bat/ps1 없이 Python 직접 실행"
 }
