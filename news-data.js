@@ -158,6 +158,92 @@ window.SMR_NEWS = [
     "id": "77f8666a"
   },
   {
+    "date": "2026-07-10",
+    "title": "NRC, 테네시 클린치 리버 사이트의 TVA 소형모듈원자로(BWRX-300) 건설허가 권고",
+    "summary": "미국원자력규제위원회(NRC) 직원이 테네시(Tennessee) 클린치 리버(Clinch River) 부지에서 테네시밸리오써리티(TVA)의 BWRX-300 소형모듈원자로 건설을 위한 건설허가를 권고했다.",
+    "summaryLong": "미국원자력규제위원회(NRC) 직원이 테네시밸리오써리티(TVA)가 테네시 클린치 리버 부지에서 추진 중인 BWRX-300 소형모듈원자로(SMR) 프로젝트에 대해 건설허가를 권고했다. BWRX-300은 캐나다 롤스로이스(Rolls-Royce SMR)가 개발한 소형 비등경수로(BWR) 기반 설계로, 미국 내 SMR 상용화의 중요한 진전을 나타낸다. 이는 대형 원전과 달리 소형 규모로 기존 화력발전소 부지 등에 배치 가능한 첨단 원자력 기술의 규제 승인 단계로 진행 중임을 보여준다.",
+    "cat": "인허가",
+    "type": "BWR",
+    "dev": "TVA/Rolls-Royce",
+    "region": "US",
+    "source": "energiesmedia.com",
+    "url": "https://energiesmedia.com/nrc-recommends-bwrx-300-permit-reactor/",
+    "k": "nrc staff recommend construction permit for tva s bwrx 300 small modular reactor at clinch river site in tennessee",
+    "id": "974f62d9"
+  },
+  {
+    "date": "2026-07-10",
+    "title": "오클로, 오로라(Aurora) 기술 발전을 위해 크리에이티브 엔지니어스 인수",
+    "summary": "소형모듈원자로 개발사 오클로(Oklo)가 크리에이티브 엔지니어스(Creative Engineers)를 인수하여 오로라(Aurora) 기술 고도화를 추진한다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발사인 오클로(Oklo)가 크리에이티브 엔지니어스(Creative Engineers)를 인수했다. 이번 인수는 오클로의 차세대 고속로(SFR) 설계인 오로라(Aurora) 기술 개발을 가속화하기 위한 전략적 움직임이다. 크리에이티브 엔지니어스의 기술 역량과 인력을 통해 오로라의 설계·엔지니어링을 한층 강화할 수 있을 것으로 예상된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/oklo-oklo-acquires-creative-engineers-135839907.html",
+    "k": "oklo oklo acquires creative engineers to advance aurora technology",
+    "id": "d0da7b54"
+  },
+  {
+    "date": "2026-07-10",
+    "title": "아르헨티나, 민간 자금 SMR 프로젝트 추진…마이트너 에너지 300MW 투자",
+    "summary": "아르헨티나 정부가 미국 기업 마이트너 에너지(Meitner Energy)의 12억 달러 투자로 아투차(Atucha) 부지에 300MW 소형모듈원전 건설을 추진한다고 발표했다.",
+    "summaryLong": "아르헨티나 정부는 미국 소형모듈원전 개발사 마이트너 에너지(Meitner Energy)가 12억 달러(USD 1.2 billion)를 투자해 아투차(Atucha) 부지에 300MW 용량의 소형모듈원전을 건설할 계획을 발표했다. 이는 민간 자금으로 추진되는 SMR 프로젝트로, 아르헨티나의 에너지 정책에서 소형모듈원전의 역할이 확대되고 있음을 보여준다. 프로젝트의 구체적 일정과 진행 상황은 추후 공개될 예정이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "마이트너 에너지",
+    "region": "",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/argentina-announces-privately-financed-smr-plan",
+    "k": "argentina announces privately financed smr plan",
+    "id": "92151072"
+  },
+  {
+    "date": "2026-07-10",
+    "title": "미국 무역기관, 터키와 소형모듈원전 협력 프로젝트 검토",
+    "summary": "미국 무역기관이 터키와의 소형모듈원전 협력 프로젝트를 추진할 계획을 밝혔다.",
+    "summaryLong": "미국 무역 관련 정부기관이 터키(Türkiye)와의 소형모듈원전(SMR) 협력 프로젝트 구성을 추진하고 있다. 이는 미국의 소형모듈원전 기술과 제품을 중동 및 이슬람권 국가로 수출하기 위한 전략적 노력의 일환으로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "aa.com.tr",
+    "url": "https://www.aa.com.tr/en/americas/us-trade-agency-eyes-small-modular-reactor-cooperation-projects-in-turkiye/3994534",
+    "k": "us trade agency eyes small modular reactor cooperation projects in t rkiye",
+    "id": "7cca7bd2"
+  },
+  {
+    "date": "2026-07-10",
+    "title": "박상웅 의원, 원자력 진흥법 개정안 발의…차세대원전 상용화·수용성 강화",
+    "summary": "박상웅 의원이 차세대원전(소형모듈원전 등)의 상용화와 수용성 강화를 위해 원자력 진흥법 개정안을 발의했다.",
+    "summaryLong": "한국 국회 박상웅 의원이 차세대원전(소형모듈원전 등) 상용화를 촉진하고 주민 수용성을 강화하기 위한 원자력 진흥법 개정안을 발의했다. 이 법안은 소형모듈원전을 포함한 차세대 원전 기술의 국내 상용화 추진을 제도적으로 뒷받침하려는 의도로 추진되고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "jeonguknews.co.kr",
+    "url": "https://www.jeonguknews.co.kr/news/articleView.html?idxno=85677",
+    "k": "차세대원전상용화법 박상웅 의원 원자력 진흥법 개정안 발의 차세대 원전 상용화 수용성 강화",
+    "ko": 1,
+    "id": "385b3fec"
+  },
+  {
+    "date": "2026-07-10",
+    "title": "기장군, SMR 유치 성과 지역 발전으로 연결",
+    "summary": "부산 기장군이 SMR 유치 성과를 바탕으로 지역 발전을 추진하기 위해 이장 180명이 한자리에 모였다.",
+    "summaryLong": "부산 기장군에서 SMR 유치 결정 이후 지역 발전 방안을 협의하기 위해 180명의 이장이 참석한 행사가 개최되었다. 이는 소형모듈원자로 프로젝트의 확정으로 지역사회가 본격적으로 발전 전략을 수립하고 있음을 보여준다. 기장군은 SMR 유치를 계기로 지역 경제 활성화와 고용 창출 등 장기적 발전 방안을 모색하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4964",
+    "k": "단독 기장군 이장 180명 한자리에 smr 유치 성과 지역 발전으로 이어가야",
+    "ko": 1,
+    "id": "b547574f"
+  },
+  {
     "date": "2026-07-09",
     "title": "한국전력기술, 독자 SMR 개발 가시권…2027년 9월까지 기본설계 완료 목표",
     "summary": "한국전력기술이 웨스팅하우스(Westinghouse)와 무관한 독자 소형모듈원자로(SMR) 개발을 추진 중이며, 개념설계 완료 후 2027년 9월까지 기본설계 마무리를 목표로 하고 있다.",
@@ -687,6 +773,20 @@ window.SMR_NEWS = [
     "k": "일 외무성 한 미 일 smr 협력에 인도 태평양 에너지 안보 향상",
     "ko": 1,
     "id": "d005b20a"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "한미일, 소형모듈원전 해외 배치 협력 양해각서 체결",
+    "summary": "미국, 일본, 한국이 소형모듈원전의 제3국 배치 협력에 관한 삼자 양해각서를 체결했다.",
+    "summaryLong": "미국, 일본, 한국(대한민국)이 소형모듈원전(SMR)의 제3국 배치 협력에 관한 삼자간 양해각서(Trilateral Memorandum of Cooperation)를 체결했다. 이 협력은 소형모듈원전 기술을 세계 여러 국가에 배치하기 위한 공동 노력으로, 한·미·일 삼국의 전략적 에너지 협력 강화를 의미한다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "china.usembassy-china.org.cn",
+    "url": "https://china.usembassy-china.org.cn/the-u-s-japan-and-the-republic-of-korea-sign-a-trilateral-memorandum-of-cooperation-on-small-modular-reactor-deployments-in-other-countries/",
+    "k": "the u s japan and the republic of korea sign a trilateral memorandum of cooperation on small modular reactor deployments in other countries",
+    "id": "adfbfe5e"
   },
   {
     "date": "2026-07-07",
@@ -16594,4 +16694,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-10 17:06 KST";
+window.SMR_UPDATED = "2026-07-11 07:35 KST";
