@@ -24,9 +24,11 @@ const cfg = {
   tz: localStorage.getItem("tr_tz") || "kst",
   companies: JSON.parse(localStorage.getItem("tr_companies") || "[]"),
   record: localStorage.getItem("tr_record") !== "0",   // 기본 ON
+  category: localStorage.getItem("tr_category") || "smr",   // 분야(도메인)
 };
 
 let GLOSS = null, SPEAKERS = null, SYS_PROMPT = "", SONIOX_CTX = "";
+let CATEGORIES = [], GLOSSARIES = {}, COMMON = null;   // 도메인 프레임워크
 let ROSTER_MAP = {}, COMPANIES_LIST = [], ROSTER_BY_CO = {};
 const EXCLUDE_CO = new Set(["Doosan","두산"]);   // 기본 목록에서 제외(필요하면 직접 추가 가능)
 let CUSTOM = (()=>{ try { const c = JSON.parse(localStorage.getItem("tr_custom_roster")); return (c && c.people) ? c : {companies:[], people:{}}; } catch(e){ return {companies:[], people:{}}; } })();
@@ -80,12 +82,51 @@ async function loadSecure(){
       cfg.soniox = o.soniox || ""; cfg.anthropic = o.anthropic || "";
       if (o.admin_pw) ADMIN_PW = String(o.admin_pw);
       adminUnlocked = true;   // 마스터 비번을 이미 통과함
-      GLOSS = o.glossary; SPEAKERS = o.speakers;
+      SPEAKERS = o.speakers;
+      COMMON = o.common || null;
+      CATEGORIES = o.categories || [{key:"smr",label:"SMR·원자력",status:"ready"}];
+      GLOSSARIES = o.glossaries || (o.glossary ? {smr:o.glossary} : {});
       return true;
     } catch(e){ /* 복호화 실패 = 비번 틀림 → 재시도 */ }
   }
   setStatus("🔒 비밀번호 5회 실패 — ▶ 시작을 다시 눌러 시도하세요", "err");
   return false;
+}
+
+/* ---------- 도메인(카테고리) ---------- */
+function emptyGlossary(){ return {meeting_context:"", keep_english:[], translate_fixed:{}, acronyms:{}, organizations:[], stt_corrections:{}}; }
+function mergeGlossary(a, b){   // a=공통집, b=도메인 → 병합(중복 제거, 도메인 우선)
+  a=a||emptyGlossary(); b=b||emptyGlossary();
+  const orgs=[], seen=new Set();
+  for (const o of [...(b.organizations||[]), ...(a.organizations||[])]) if (o && o.canonical && !seen.has(o.canonical)){ seen.add(o.canonical); orgs.push(o); }
+  return {
+    meeting_context: [b.meeting_context, a.meeting_context].filter(Boolean).join(" "),
+    keep_english: [...new Set([...(b.keep_english||[]), ...(a.keep_english||[])])],
+    translate_fixed: {...(a.translate_fixed||{}), ...(b.translate_fixed||{})},
+    acronyms: {...(a.acronyms||{}), ...(b.acronyms||{})},
+    stt_corrections: {...(a.stt_corrections||{}), ...(b.stt_corrections||{})},
+    organizations: orgs,
+  };
+}
+function catInfo(key){ return CATEGORIES.find(c=>c.key===key) || {key, label:key, status:"draft"}; }
+function buildCatSelect(){
+  const sel = $("catSel"); if (!sel) return;
+  sel.innerHTML = "";
+  for (const c of CATEGORIES){ const o=document.createElement("option"); o.value=c.key; o.textContent=c.label + (c.status==="draft"?" (준비중)":""); sel.appendChild(o); }
+  sel.value = cfg.category;
+}
+async function applyCategory(key){
+  if (CATEGORIES.length && !CATEGORIES.some(c=>c.key===key)) key = CATEGORIES[0].key;
+  if (!GLOSSARIES[key]){   // 로컬 모드: 도메인 용어집 지연 로딩
+    const file = key==="smr" ? "../data/glossary.json" : `../data/glossary.${key}.json`;
+    try { GLOSSARIES[key] = await (await fetch(file, {cache:"no-store"})).json(); }
+    catch(e){ GLOSSARIES[key] = emptyGlossary(); }
+  }
+  GLOSS = mergeGlossary(COMMON, GLOSSARIES[key]);
+  cfg.category = key; try { localStorage.setItem("tr_category", key); } catch(e){}
+  buildPrompts(); buildCatSelect();
+  const inf = catInfo(key);
+  $("dataStatus").textContent = `[${inf.label}] 용어집 ${GLOSS.keep_english.length} · 조직 ${GLOSS.organizations.length} · 인명 ${rosterNames().length}` + (inf.status==="draft" ? " · 준비중" : "");
 }
 
 /* ---------- 데이터 로드 + 프롬프트 빌드 ---------- */
@@ -99,21 +140,20 @@ async function loadData() {
     return;
   }
   await loadLocalKeys();
+  try { SPEAKERS = await (await fetch("../data/speakers.json", {cache:"no-store"})).json(); }
+  catch(e){ $("dataStatus").textContent = "명단 로드 실패: " + e; }
   try {
-    GLOSS = await (await fetch("../data/glossary.json", {cache:"no-store"})).json();
-    SPEAKERS = await (await fetch("../data/speakers.json", {cache:"no-store"})).json();
-  } catch (e) { $("dataStatus").textContent = "용어집 로드 실패: " + e; return; }
-  buildPrompts();
+    CATEGORIES = await (await fetch("../data/categories.json", {cache:"no-store"})).json();
+    COMMON = await (await fetch("../data/glossary.common.json", {cache:"no-store"})).json();
+  } catch(e){ CATEGORIES = [{key:"smr",label:"SMR·원자력",status:"ready"}]; COMMON = null; }
   buildRoster();
-  $("dataStatus").textContent =
-    `용어집 ${GLOSS.keep_english.length}개 · 조직 ${GLOSS.organizations.length} · 인명 ${rosterNames().length}`;
+  await applyCategory(cfg.category);
 }
 async function ensureUnlocked(){   // 보안 모드: 시작 시점에 1회 비번 입력 → 복호화
   if (!locked) return true;
   if (!(await loadSecure())) return false;   // 취소/오답 → 잠금 유지
-  buildPrompts(); buildRoster();
-  $("dataStatus").textContent =
-    `용어집 ${GLOSS.keep_english.length}개 · 조직 ${GLOSS.organizations.length} · 인명 ${rosterNames().length}`;
+  buildRoster();
+  await applyCategory(cfg.category);
   locked = false;
   return true;
 }
@@ -964,6 +1004,9 @@ function chipPick(id, attr){ let v=null; $(id).onclick=(e)=>{ const c=e.target.c
 
 /* ---------- 이벤트 바인딩 ---------- */
 $("toggleBtn").onclick = () => (state.running ? stop() : start());
+$("catSel").onchange = () => { const v=$("catSel").value;
+  if (locked) { cfg.category=v; try{localStorage.setItem("tr_category",v);}catch(e){} }  // 잠금 상태면 선택만 저장
+  else applyCategory(v); };
 $("saveBtn").onclick = (e)=>{ e.stopPropagation(); if($("saveBtn").disabled) return;
   const ai=$("saveAudioItem"); ai.disabled=!state.audioBlob;
   ai.textContent = state.audioBlob ? "오디오 (.mp3)" : "오디오 (녹음 정지 후)";
