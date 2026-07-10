@@ -22,6 +22,7 @@
       { t: '개발사', href: 'SMR-developers.html' },
       { t: '노형 분류', href: 'SMR-reactor-types.html' },
       { t: '카탈로그', href: 'SMR-catalogue.html' },
+      { t: '세계 원전 DB', href: 'SMR-npp-db.html' },
       { t: '연료 공급망', href: 'SMR-fuel-supply.html' } ],
       /* deep: 홈 바로가기 카드에만 노출되는 심화 페이지 (nav 드롭다운에는 안 나옴) */
       deep: [
