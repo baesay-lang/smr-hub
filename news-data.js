@@ -231,6 +231,21 @@ window.SMR_NEWS = [
     "id": "6fafcb4d"
   },
   {
+    "date": "2026-07-09",
+    "title": "한국·미국·일본, 해외 소형모듈원자로(SMR) 공동 진출 협력체계 구축",
+    "summary": "한·미·일 3국이 해외 시장에서 소형모듈원자로(SMR) 공동 진출을 위한 협력체계를 구축하기로 합의했다.",
+    "summaryLong": "한국, 미국, 일본 3국이 해외 소형모듈원자로(SMR) 공동 진출을 위한 협력체계를 구축하기로 결정했다. 이는 인도네시아, 태국, 베트남 등 동남아 국가를 중심으로 소형모듈원자로 기술과 사업 모델을 함께 수출하기 위한 정부 차원의 국책 협력 프로젝트이다. 3국의 원자력 기술·자본·운영 역량을 결합한 이 체계는 글로벌 소형모듈원자로 시장 확대에 대응하기 위한 전략적 협력으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "inpnews.kr",
+    "url": "https://www.inpnews.kr/news/articleView.html?idxno=7305",
+    "k": "해외 smr 공동 진출 협력체계 구축",
+    "ko": 1,
+    "id": "b516b378"
+  },
+  {
     "date": "2026-07-08",
     "title": "한국원자력학회, \"반도체·AI 시대 신규 원전·SMR 즉시 건설\" 정책 제언",
     "summary": "한국원자력학회가 반도체와 AI 산업의 전력 수요 대응을 위해 신규 원전과 소형모듈원자로의 즉각적 건설을 정부에 제언했다.",
@@ -434,6 +449,20 @@ window.SMR_NEWS = [
     "k": "한 미 일 소형모듈원자로 smr 사업 협력각서 체결 한국 제조 역량에 방점",
     "ko": 1,
     "id": "2b4e35cb"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "팰리세이즈 재가동 프로젝트·홀텍 IPO·소송 기각, 하지만 재가동 일정 미정",
+    "summary": "홀텍 인터내셔널(Holtec International)의 팰리세이즈(Palisades) 원전 재가동 사업이 대규모 프로젝트 단계를 마치고 소규모 활동으로 전환했으나 구체적인 재가동 일정은 아직 공개되지 않았다.",
+    "summaryLong": "미시간주 코버트(Covert)의 팰리세이즈 원전(2022년 폐지)의 재가동을 추진 중인 홀텍 인터내셔널이 지난주 대규모 프로젝트 단계를 완료하고 소규모 활동으로 전환했다고 발표했다. 회사의 IPO 추진과 관련 소송 기각 등의 진전이 있었으나, 공식적인 재가동 시작 일정은 여전히 발표되지 않은 상태다. 이는 재가동 프로젝트가 계속 진행 중임을 보여주지만 일정 불확실성을 시사한다.",
+    "cat": "투자",
+    "type": "PWR",
+    "dev": "Holtec",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-07-08/article-8187/palisades-restart-projects-holtec-ipo-lawsuit-dismissal-but-no-restart-date/",
+    "k": "palisades restart projects holtec ipo lawsuit dismissal but no restart date",
+    "id": "1a55ffa8"
   },
   {
     "date": "2026-07-07",
@@ -16326,4 +16355,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-10 08:22 KST";
+window.SMR_UPDATED = "2026-07-10 08:54 KST";

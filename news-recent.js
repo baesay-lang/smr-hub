@@ -224,6 +224,21 @@ window.SMR_NEWS = [
   "id": "6fafcb4d"
  },
  {
+  "date": "2026-07-09",
+  "title": "한국·미국·일본, 해외 소형모듈원자로(SMR) 공동 진출 협력체계 구축",
+  "summary": "한·미·일 3국이 해외 시장에서 소형모듈원자로(SMR) 공동 진출을 위한 협력체계를 구축하기로 합의했다.",
+  "summaryLong": "한국, 미국, 일본 3국이 해외 소형모듈원자로(SMR) 공동 진출을 위한 협력체계를 구축하기로 결정했다. 이는 인도네시아, 태국, 베트남 등 동남아 국가를 중심으로 소형모듈원자로 기술과 사업 모델을 함께 수출하기 위한 정부 차원의 국책 협력 프로젝트이다. 3국의 원자력 기술·자본·운영 역량을 결합한 이 체계는 글로벌 소형모듈원자로 시장 확대에 대응하기 위한 전략적 협력으로 평가된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "inpnews.kr",
+  "url": "https://www.inpnews.kr/news/articleView.html?idxno=7305",
+  "k": "해외 smr 공동 진출 협력체계 구축",
+  "ko": 1,
+  "id": "b516b378"
+ },
+ {
   "date": "2026-07-08",
   "title": "한국원자력학회, \"반도체·AI 시대 신규 원전·SMR 즉시 건설\" 정책 제언",
   "summary": "한국원자력학회가 반도체와 AI 산업의 전력 수요 대응을 위해 신규 원전과 소형모듈원자로의 즉각적 건설을 정부에 제언했다.",
@@ -427,6 +442,20 @@ window.SMR_NEWS = [
   "k": "한 미 일 소형모듈원자로 smr 사업 협력각서 체결 한국 제조 역량에 방점",
   "ko": 1,
   "id": "2b4e35cb"
+ },
+ {
+  "date": "2026-07-08",
+  "title": "팰리세이즈 재가동 프로젝트·홀텍 IPO·소송 기각, 하지만 재가동 일정 미정",
+  "summary": "홀텍 인터내셔널(Holtec International)의 팰리세이즈(Palisades) 원전 재가동 사업이 대규모 프로젝트 단계를 마치고 소규모 활동으로 전환했으나 구체적인 재가동 일정은 아직 공개되지 않았다.",
+  "summaryLong": "미시간주 코버트(Covert)의 팰리세이즈 원전(2022년 폐지)의 재가동을 추진 중인 홀텍 인터내셔널이 지난주 대규모 프로젝트 단계를 완료하고 소규모 활동으로 전환했다고 발표했다. 회사의 IPO 추진과 관련 소송 기각 등의 진전이 있었으나, 공식적인 재가동 시작 일정은 여전히 발표되지 않은 상태다. 이는 재가동 프로젝트가 계속 진행 중임을 보여주지만 일정 불확실성을 시사한다.",
+  "cat": "투자",
+  "type": "PWR",
+  "dev": "Holtec",
+  "region": "US",
+  "source": "ANS Newswire",
+  "url": "https://www.ans.org/news/2026-07-08/article-8187/palisades-restart-projects-holtec-ipo-lawsuit-dismissal-but-no-restart-date/",
+  "k": "palisades restart projects holtec ipo lawsuit dismissal but no restart date",
+  "id": "1a55ffa8"
  },
  {
   "date": "2026-07-07",
@@ -848,34 +877,6 @@ window.SMR_NEWS = [
   "url": "https://www.foxbusiness.com/video/6400379591112",
   "k": "oklo ceo here s why fast fission and recycling matters",
   "id": "3c01f974"
- },
- {
-  "date": "2026-07-06",
-  "title": "알로 애토믹스(Aalo Atomics) 시험로, 아이다호 국립연구소(INL)에서 임계 달성",
-  "summary": "알로 애토믹스의 알로-X 임계시험로(CTR)가 아이다호 국립연구소에서 임계에 도달했으며, 이는 미국 에너지부(DOE) 인가 첨단로 중 7월 4일까지 네 번째 사례이다.",
-  "summaryLong": "알로 애토믹스(Aalo Atomics)의 알로-X 임계시험로(CTR)가 아이다호 국립연구소(INL)에서 임계 달성 마일스톤을 기록했다. 미국 에너지부(DOE)는 7월 6일 이 성과를 발표했으며, 이는 연방 정부의 첨단로 시운전 및 시연 가속화 정책 아래 인가된 네 번째 첨단로 시운전 사례이다. 이 프로젝트는 '프로젝트 퍼스트 라이트(Project First Light)'로 명명되었으며, 알로 애토믹스의 기술 개발 진전과 미국의 첨단원자로 추진 의지를 보여준다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "Aalo Atomics",
-  "region": "US",
-  "source": "POWER Magazine",
-  "url": "https://www.powermag.com/aalo-atomics-test-reactor-reaches-criticality-at-inl-fourth-doe-authorized-advanced-reactor-by-july-4/",
-  "k": "aalo atomics test reactor reaches criticality at inl fourth doe authorized advanced reactor by july 4",
-  "id": "f10afb4c"
- },
- {
-  "date": "2026-07-06",
-  "title": "센트러스 에너지(Centrus Energy), 고농축저농축우라늄(HALEU) 생산 확대 위해 미국 에너지부와 9억 달러 계약 체결",
-  "summary": "센트러스 에너지가 미국 에너지부와 9억 달러 규모의 계약을 체결하여 오하이오주 피크톤(Piketon)의 미국 원심분리기 공장에서 고농축저농축우라늄(HALEU) 생산 능력을 확대한다.",
-  "summaryLong": "센트러스 에너지(Centrus Energy)가 미국 에너지부(DOE)와의 장기 다단계 계약 제도 일환으로 9억 달러 규모의 태스크 오더 계약을 체결했다. 이 계약을 통해 오하이오주 피크톤(Piketon)의 미국 원심분리기 공장(American Centrifuge Plant)에서 고농축저농축우라늄(HALEU) 생산 용량을 확대할 예정이다. 이는 센트러스의 수십억 달러 규모 용량 확대 계획의 일부이며, 첨단원자로 개발에 필수적인 연료 공급 기반 구축을 의미한다.",
-  "cat": "계약",
-  "type": "General",
-  "dev": "Centrus",
-  "region": "US",
-  "source": "ANS Newswire",
-  "url": "https://www.ans.org/news/2026-07-06/article-8180/doe-contract-boosts-centruss-haleu-goals-as-urenco-continues-leu-expansion/",
-  "k": "doe contract boosts centrus s haleu goals as urenco continues leu expansion",
-  "id": "6a9d99c5"
  },
  {
   "date": "2026-07-05",
@@ -1300,20 +1301,6 @@ window.SMR_NEWS = [
   "id": "37f00957"
  },
  {
-  "date": "2026-03-31",
-  "title": "홀텍 SMR-300, 영국 GDA 2단계 통과",
-  "summary": "홀텍 인터내셔널(Holtec International)의 SMR-300이 영국(UK)의 일반설계평가(GDA) 2단계를 완료해 영국 및 유럽·아시아 배치의 길을 열었다.",
-  "summaryLong": "홀텍 인터내셔널(Holtec International)의 SMR-300 소형모듈원자로가 영국(UK)의 일반설계평가(GDA, Generic Design Assessment) 2단계를 완료했다. 이는 설계 인증 과정의 중요한 규제 마일스톤으로, 그레이트브리튼(Great Britain)을 비롯해 유럽(Europe)과 아시아(Asia) 지역 배치 가능성을 한층 높였다. SMR-300의 상용화와 국제 확산 전략이 가속화될 것으로 예상된다.",
-  "cat": "인허가",
-  "type": "PWR",
-  "dev": "Holtec",
-  "region": "UK",
-  "source": "Holtec International",
-  "url": "https://holtecinternational.com/hh-41-04/",
-  "k": "holtec s smr 300 completes key regulatory milestone in the uk paving the way for deployments in great britain and other countries in europe and asia",
-  "id": "8e2610d1"
- },
- {
   "date": "2025-07",
   "title": "ARC-100, 캐나다 캐나다핵안전위원회(CNSC) 벤더설계심사(VDR) Phase 2 완료",
   "summary": "아크클린에너지(ARC)의 ARC-100이 근본적 인허가 장벽이 없는 것으로 판정되었으며, 뉴브런즈윅전력(NB Power)은 부지준비허가 신청을 진행 중이고 2027년 건설허가 신청을 목표로 한다.",
@@ -1354,5 +1341,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-10 08:22 KST";
-window.SMR_TOTAL = 1135;
+window.SMR_UPDATED = "2026-07-10 08:54 KST";
+window.SMR_TOTAL = 1137;
