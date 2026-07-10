@@ -25,10 +25,12 @@ const cfg = {
   companies: JSON.parse(localStorage.getItem("tr_companies") || "[]"),
   record: localStorage.getItem("tr_record") !== "0",   // 기본 ON
   category: localStorage.getItem("tr_category") || "smr",   // 분야(도메인)
+  dept: localStorage.getItem("tr_dept") || "",              // 부서
+  mtg: localStorage.getItem("tr_mtg") || "",                // 미팅
 };
 
 let GLOSS = null, SPEAKERS = null, SYS_PROMPT = "", SONIOX_CTX = "";
-let CATEGORIES = [], GLOSSARIES = {}, COMMON = null;   // 도메인 프레임워크
+let CATEGORIES = [], GLOSSARIES = {}, COMMON = null, MEETINGS = [];   // 도메인·회의 프레임워크
 let ROSTER_MAP = {}, COMPANIES_LIST = [], ROSTER_BY_CO = {};
 const EXCLUDE_CO = new Set(["Doosan","두산"]);   // 기본 목록에서 제외(필요하면 직접 추가 가능)
 let CUSTOM = (()=>{ try { const c = JSON.parse(localStorage.getItem("tr_custom_roster")); return (c && c.people) ? c : {companies:[], people:{}}; } catch(e){ return {companies:[], people:{}}; } })();
@@ -86,6 +88,7 @@ async function loadSecure(){
       COMMON = o.common || null;
       CATEGORIES = o.categories || [{key:"smr",label:"SMR·원자력",status:"ready"}];
       GLOSSARIES = o.glossaries || (o.glossary ? {smr:o.glossary} : {});
+      MEETINGS = o.meetings || [];
       return true;
     } catch(e){ /* 복호화 실패 = 비번 틀림 → 재시도 */ }
   }
@@ -128,6 +131,17 @@ async function applyCategory(key){
   const inf = catInfo(key);
   $("dataStatus").textContent = `[${inf.label}] 용어집 ${GLOSS.keep_english.length} · 조직 ${GLOSS.organizations.length} · 인명 ${rosterNames().length}` + (inf.status==="draft" ? " · 준비중" : "");
 }
+function buildMeetingSelect(){   // 부서 › 미팅 (optgroup)
+  const sel = $("mtgSel"); if (!sel) return;
+  sel.innerHTML = "";
+  const none = document.createElement("option"); none.value = ""; none.textContent = "회의 선택…"; sel.appendChild(none);
+  for (const d of (MEETINGS||[])){
+    const g = document.createElement("optgroup"); g.label = d.dept;
+    for (const m of (d.meetings||[])){ const o=document.createElement("option"); o.value = d.dept+"|||"+m; o.textContent = m; g.appendChild(o); }
+    sel.appendChild(g);
+  }
+  sel.value = (cfg.dept && cfg.mtg) ? (cfg.dept+"|||"+cfg.mtg) : "";
+}
 
 /* ---------- 데이터 로드 + 프롬프트 빌드 ---------- */
 let locked = false;
@@ -145,15 +159,18 @@ async function loadData() {
   try {
     CATEGORIES = await (await fetch("../data/categories.json", {cache:"no-store"})).json();
     COMMON = await (await fetch("../data/glossary.common.json", {cache:"no-store"})).json();
-  } catch(e){ CATEGORIES = [{key:"smr",label:"SMR·원자력",status:"ready"}]; COMMON = null; }
+    MEETINGS = await (await fetch("../data/meetings.json", {cache:"no-store"})).json();
+  } catch(e){ CATEGORIES = [{key:"smr",label:"SMR·원자력",status:"ready"}]; COMMON = null; MEETINGS = []; }
   buildRoster();
   await applyCategory(cfg.category);
+  buildMeetingSelect();
 }
 async function ensureUnlocked(){   // 보안 모드: 시작 시점에 1회 비번 입력 → 복호화
   if (!locked) return true;
   if (!(await loadSecure())) return false;   // 취소/오답 → 잠금 유지
   buildRoster();
   await applyCategory(cfg.category);
+  buildMeetingSelect();
   locked = false;
   return true;
 }
@@ -719,13 +736,20 @@ const pad = (n) => String(n).padStart(2, "0");
 function fmtClock(ms){ const d=new Date(ms); return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`; }
 function fmtElapsed(ms){ const s=Math.max(0,Math.floor(ms/1000)); return `${pad(Math.floor(s/60))}:${pad(s%60)}`; }
 function safeName(s){ return (s||"").replace(/[\\/:*?"<>|]/g,"_").trim(); }
-function meetingName(){
+function ymd(){ const d=new Date(state.startedAt || Date.now()); return `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`; }
+function meetingBase(){   // 부서·미팅 선택 → 조직화된 이름, 없으면 회의명(관리자) 또는 자동
+  if (cfg.mtg) return safeName(`[${cfg.dept}] ${cfg.mtg}`);
   if (cfg.title) return safeName(cfg.title);
-  const d = new Date(state.startedAt || Date.now());
-  return `회의_${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}_${pad(d.getHours())}${pad(d.getMinutes())}`;
+  return "회의";
+}
+function meetingName(){ return `${meetingBase()}_${ymd()}`; }   // 파일명(날짜별)
+function meetingLabel(){   // 문서·MoM 헤더에 보이는 이름
+  if (cfg.mtg) return `${cfg.dept} · ${cfg.mtg} · ${ymd()}`;
+  if (cfg.title) return `${cfg.title} · ${ymd()}`;
+  return meetingName();
 }
 function buildMeta(){
-  return { name: cfg.title || meetingName(), tz: cfg.tz, companies: cfg.companies,
+  return { name: meetingLabel(), file: meetingName(), dept: cfg.dept, mtg: cfg.mtg, tz: cfg.tz, companies: cfg.companies,
     startedAt: state.startedAt, endedAt: state.endedAt || Date.now(), speakerMap: state.speakerMap };
 }
 function cleanSegments(segs){
@@ -842,7 +866,7 @@ function saveFmt(fmt){
   if (fmt === "audio") { saveAudio(); return; }
   const data = currentData();
   if (!data || !data.segments.length) { setStatus("저장할 기록이 없어요","err"); return; }
-  const base = safeName(data.meta && data.meta.name) || meetingName();
+  const base = (data.meta && data.meta.file) ? safeName(data.meta.file) : meetingName();
   if (fmt==="txt")  download(`${base}_자막.txt`, buildTxt(data));
   if (fmt==="json") download(`${base}_기록.json`, JSON.stringify(data,null,2), "application/json");
   if (fmt==="docx") download(`${base}.docx`, buildDocx(data));
@@ -860,7 +884,7 @@ const MOM_SYSTEM = `너는 SMR 사업 회의록(MoM)을 정리하는 보조자�
 
 function momSource(){ return currentData(); }
 function momStatus(s){ $("momStatus").textContent = s; }
-function momName(){ const d=momSource(); return safeName(d && d.meta && d.meta.name) || meetingName(); }
+function momName(){ const d=momSource(); return (d && d.meta && d.meta.file) ? safeName(d.meta.file) : meetingName(); }
 function momBundle(data){
   const by = {};
   for (const s of data.segments){
@@ -1007,6 +1031,9 @@ $("toggleBtn").onclick = () => (state.running ? stop() : start());
 $("catSel").onchange = () => { const v=$("catSel").value;
   if (locked) { cfg.category=v; try{localStorage.setItem("tr_category",v);}catch(e){} }  // 잠금 상태면 선택만 저장
   else applyCategory(v); };
+$("mtgSel").onchange = () => { const p=($("mtgSel").value||"").split("|||");
+  cfg.dept=p[0]||""; cfg.mtg=p[1]||"";
+  try{ localStorage.setItem("tr_dept",cfg.dept); localStorage.setItem("tr_mtg",cfg.mtg); }catch(e){} };
 $("saveBtn").onclick = (e)=>{ e.stopPropagation(); if($("saveBtn").disabled) return;
   const ai=$("saveAudioItem"); ai.disabled=!state.audioBlob;
   ai.textContent = state.audioBlob ? "오디오 (.mp3)" : "오디오 (녹음 정지 후)";
