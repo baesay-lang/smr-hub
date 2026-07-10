@@ -1,6 +1,6 @@
 {
-  "version": "2.4.2",
+  "version": "2.5.0",
   "date": "2026-07-10",
   "url": "https://baesay-lang.github.io/smr-hub/downloads/work-calendar_latest.zip",
-  "notes": "설치기에 Python 3.12 내장 (없으면 자동 설치) + 화면 상단 잘림 수정"
+  "notes": "되돌리기(↩) 추가 — 모든 편집을 최근 20단계까지 취소 가능"
 }
