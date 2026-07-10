@@ -244,6 +244,34 @@ window.SMR_NEWS = [
     "id": "b547574f"
   },
   {
+    "date": "2026-07-10",
+    "title": "미국 원자력위원회(NRC), 웨스팅하우스 AP1000 설계인증 갱신 면제",
+    "summary": "미국 원자력위원회(NRC)가 웨스팅하우스(Westinghouse)에 보겔(Vogtle) 3·4호기 건설·운영 경험을 반영한 AP1000(가압경수로, PWR) 표준설계인증 갱신 신청을 인증서 만료 전에 진행할 수 있도록 면제했다.",
+    "summaryLong": "미국 원자력위원회(NRC)가 웨스팅하우스(Westinghouse)에 AP1000 표준설계인증(Standard Design Certification) 갱신 신청을 통상적 규칙보다 앞당겨 진행할 수 있도록 허용했다. 이는 보겔(Vogtle) 3·4호기의 건설 및 운영 경험에서 나온 교훈을 신규 설계인증에 반영하기 위한 것이다. 현 인증서의 만료까지 충분한 여유를 두고 갱신 절차를 시작할 수 있어, 인증서 단절 없이 차세대 AP1000 기술 표준화를 이룰 수 있게 된다.",
+    "cat": "인허가",
+    "type": "PWR",
+    "dev": "Westinghouse",
+    "region": "US",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/nrc-exempts-westinghouse-from-design-certification-renewal-rule",
+    "k": "nrc exempts westinghouse from design certification renewal rule",
+    "id": "3e29fa6a"
+  },
+  {
+    "date": "2026-07-10",
+    "title": "비ggs 팰로베르데(Palo Verde) 확장 지지, 애리조나의 SMR 개발 주도 추진",
+    "summary": "미국 연방 의원이 팰로베르데 원전 확장을 지지하며 애리조나주의 소형모듈원자로(SMR) 개발 주도를 촉구했다.",
+    "summaryLong": "미국 연방 의원이 팰로베르더 원전 확장을 지지하며 애리조나주이 소형모듈원자로(SMR) 개발에서 미국을 주도하도록 촉구했다. 이는 애리조나주의 원자력 산업 확대와 SMR 기술 개발을 정책적으로 뒷받침하려는 움직임으로 평가된다. 해당 발언은 미국 내 SMR 추진 기조 강화와 지역 주도권 경쟁을 반영한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "azfreenews.com",
+    "url": "https://azfreenews.com/2026/07/biggs-backs-palo-verde-expansion-pushes-arizona-to-lead-small-modular-reactor-development/",
+    "k": "biggs backs palo verde expansion pushes arizona to lead small modular reactor development",
+    "id": "a41b47e2"
+  },
+  {
     "date": "2026-07-09",
     "title": "한국전력기술, 독자 SMR 개발 가시권…2027년 9월까지 기본설계 완료 목표",
     "summary": "한국전력기술이 웨스팅하우스(Westinghouse)와 무관한 독자 소형모듈원자로(SMR) 개발을 추진 중이며, 개념설계 완료 후 2027년 9월까지 기본설계 마무리를 목표로 하고 있다.",
@@ -787,6 +815,21 @@ window.SMR_NEWS = [
     "url": "https://china.usembassy-china.org.cn/the-u-s-japan-and-the-republic-of-korea-sign-a-trilateral-memorandum-of-cooperation-on-small-modular-reactor-deployments-in-other-countries/",
     "k": "the u s japan and the republic of korea sign a trilateral memorandum of cooperation on small modular reactor deployments in other countries",
     "id": "adfbfe5e"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "AI 전력난이 부른 '원전 부활'…부산 기장 SMR·전력설비주에 쏠린 눈",
+    "summary": "인공지능(AI) 데이터센터 급증에 따른 전력 수요 증가로 소형모듈원자로(SMR)에 대한 관심이 높아지고 있다.",
+    "summaryLong": "인공지능(AI) 기술 확산으로 인한 데이터센터 전력 수요 급증이 원자력 에너지 재평가를 유도하고 있으며, 특히 소형모듈원자로(SMR)에 대한 시장 관심과 투자 수요가 높아지고 있다. 부산 기장 지역의 SMR 개발·건설 프로젝트가 이러한 추세 속에서 주목받고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "jabon.co.kr",
+    "url": "https://www.jabon.co.kr/news/articleView.html?idxno=4754",
+    "k": "ai 전력난이 부른 원전 부활 부산 기장 smr 전력설비주에 쏠린 눈",
+    "ko": 1,
+    "id": "b0c173d1"
   },
   {
     "date": "2026-07-07",
@@ -16694,4 +16737,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-11 07:35 KST";
+window.SMR_UPDATED = "2026-07-11 08:10 KST";

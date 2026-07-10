@@ -237,6 +237,34 @@ window.SMR_NEWS = [
   "id": "b547574f"
  },
  {
+  "date": "2026-07-10",
+  "title": "미국 원자력위원회(NRC), 웨스팅하우스 AP1000 설계인증 갱신 면제",
+  "summary": "미국 원자력위원회(NRC)가 웨스팅하우스(Westinghouse)에 보겔(Vogtle) 3·4호기 건설·운영 경험을 반영한 AP1000(가압경수로, PWR) 표준설계인증 갱신 신청을 인증서 만료 전에 진행할 수 있도록 면제했다.",
+  "summaryLong": "미국 원자력위원회(NRC)가 웨스팅하우스(Westinghouse)에 AP1000 표준설계인증(Standard Design Certification) 갱신 신청을 통상적 규칙보다 앞당겨 진행할 수 있도록 허용했다. 이는 보겔(Vogtle) 3·4호기의 건설 및 운영 경험에서 나온 교훈을 신규 설계인증에 반영하기 위한 것이다. 현 인증서의 만료까지 충분한 여유를 두고 갱신 절차를 시작할 수 있어, 인증서 단절 없이 차세대 AP1000 기술 표준화를 이룰 수 있게 된다.",
+  "cat": "인허가",
+  "type": "PWR",
+  "dev": "Westinghouse",
+  "region": "US",
+  "source": "World Nuclear News",
+  "url": "https://www.world-nuclear-news.org/articles/nrc-exempts-westinghouse-from-design-certification-renewal-rule",
+  "k": "nrc exempts westinghouse from design certification renewal rule",
+  "id": "3e29fa6a"
+ },
+ {
+  "date": "2026-07-10",
+  "title": "비ggs 팰로베르데(Palo Verde) 확장 지지, 애리조나의 SMR 개발 주도 추진",
+  "summary": "미국 연방 의원이 팰로베르데 원전 확장을 지지하며 애리조나주의 소형모듈원자로(SMR) 개발 주도를 촉구했다.",
+  "summaryLong": "미국 연방 의원이 팰로베르더 원전 확장을 지지하며 애리조나주이 소형모듈원자로(SMR) 개발에서 미국을 주도하도록 촉구했다. 이는 애리조나주의 원자력 산업 확대와 SMR 기술 개발을 정책적으로 뒷받침하려는 움직임으로 평가된다. 해당 발언은 미국 내 SMR 추진 기조 강화와 지역 주도권 경쟁을 반영한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "US",
+  "source": "azfreenews.com",
+  "url": "https://azfreenews.com/2026/07/biggs-backs-palo-verde-expansion-pushes-arizona-to-lead-small-modular-reactor-development/",
+  "k": "biggs backs palo verde expansion pushes arizona to lead small modular reactor development",
+  "id": "a41b47e2"
+ },
+ {
   "date": "2026-07-09",
   "title": "한국전력기술, 독자 SMR 개발 가시권…2027년 9월까지 기본설계 완료 목표",
   "summary": "한국전력기술이 웨스팅하우스(Westinghouse)와 무관한 독자 소형모듈원자로(SMR) 개발을 추진 중이며, 개념설계 완료 후 2027년 9월까지 기본설계 마무리를 목표로 하고 있다.",
@@ -782,6 +810,21 @@ window.SMR_NEWS = [
   "id": "adfbfe5e"
  },
  {
+  "date": "2026-07-08",
+  "title": "AI 전력난이 부른 '원전 부활'…부산 기장 SMR·전력설비주에 쏠린 눈",
+  "summary": "인공지능(AI) 데이터센터 급증에 따른 전력 수요 증가로 소형모듈원자로(SMR)에 대한 관심이 높아지고 있다.",
+  "summaryLong": "인공지능(AI) 기술 확산으로 인한 데이터센터 전력 수요 급증이 원자력 에너지 재평가를 유도하고 있으며, 특히 소형모듈원자로(SMR)에 대한 시장 관심과 투자 수요가 높아지고 있다. 부산 기장 지역의 SMR 개발·건설 프로젝트가 이러한 추세 속에서 주목받고 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "jabon.co.kr",
+  "url": "https://www.jabon.co.kr/news/articleView.html?idxno=4754",
+  "k": "ai 전력난이 부른 원전 부활 부산 기장 smr 전력설비주에 쏠린 눈",
+  "ko": 1,
+  "id": "b0c173d1"
+ },
+ {
   "date": "2026-07-07",
   "title": "DL이앤씨, 엑스에너지 Xe-100 표준화 설계 수주",
   "summary": "DL이앤씨가 국내 건설사로는 처음으로 미국 엑스에너지(X-energy)의 Xe-100 소형모듈원자로 표준화 설계를 수주했다.",
@@ -856,35 +899,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-07",
-  "title": "캠브리지 애토믹웍스-칠턴 바이탈, 오딘 마이크로원자로 영국 버클리 건설 협의",
-  "summary": "칠턴 바이탈 그룹(Chiltern Vital Group)이 캠브리지 애토믹웍스(Cambridge Atomworks)와 양해각서를 체결하고, 영국 글로스터셔(Gloucestershire) 버클리(Berkeley)에서 오딘(Odin) 마이크로원자로 프로토타입 건설을 검토 중이다.",
-  "summaryLong": "칠턴 바이탈 그룹(Chiltern Vital Group)은 캠브리지 애토믹웍스(Cambridge Atomworks)와 양해각서(LOI)를 체결하여, 영국 글로스터셔(Gloucestershire) 버클리 그린 과학·기술 공원(Berkeley Green Science and Technology Park)에서 오딘(Odin) 마이크로원자로 프로토타입 건설을 추진하기로 협의했다. 이는 영국 내 마이크로원자로 프로젝트의 실현화 진전을 나타내며, 캠브리지 애토믹웍스의 설계와 칠턴 바이탈의 건설 추진으로 첨단로 상용화 경로를 확충하는 의미를 갖는다.",
-  "cat": "계약",
-  "type": "Micro",
-  "dev": "Cambridge Atomworks",
-  "region": "UK",
-  "source": "World Nuclear News",
-  "url": "https://www.world-nuclear-news.org/articles/agreement-could-see-prototype-microreactor-built-at-berkeley",
-  "k": "agreement could see prototype microreactor built at berkeley",
-  "id": "6390463c"
- },
- {
-  "date": "2026-07-07",
-  "title": "한·미·일, 인도·태평양 지역 소형모듈원자로 도입 가속화 협력각서",
-  "summary": "한국, 미국, 일본이 인도·태평양 지역에 소형모듈원자로(SMR)를 도입하기 위한 협력각서를 체결했다.",
-  "summaryLong": "한국, 미국, 일본 3국이 인도·태평양 지역 국가들에 소형모듈원자로(SMR) 도입을 가속화하기 위한 협력각서를 체결했다. 이 협력은 중국의 영향력 확대에 대응하고 인태 지역의 에너지 수요 증가, 특히 데이터센터 확산에 대응하기 위한 것으로 보인다. 협력각서는 SMR 기술 공유, 도입 국가 발굴, 정책 조율 등을 포함하며, 미국 국무장관 루비오(Rubio)도 한국과 일본을 핵심 동맹으로 강조했다. 이는 글로벌 SMR 시장 확대와 탄소중립 에너지 추구를 위한 삼국 협력의 신호이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "연합뉴스 최신기사",
-  "url": "https://www.yna.co.kr/view/AKR20260708001900071",
-  "k": "한미일 인태지역 소형모듈원자로 도입 가속화 협력각서",
-  "ko": 1,
-  "id": "772154fa"
- },
- {
-  "date": "2026-07-07",
   "title": "폴란드 SGE社, 영국(UK)에 BWRX-300 14기 배치 계획",
   "summary": "폴란드의 SGE社가 영국에 캐나다 오리진(GE Hitachi) 개발 소형모듈원자로 BWRX-300 14기 배치를 추진 중이다.",
   "summaryLong": "폴란드의 에너지 회사 SGE(SGE)가 영국(UK) 내 BWRX-300 소형모듈원자로(SMR) 14기 배치 계획을 발표했다. BWRX-300은 캐나다의 오리진(GE Hitachi)이 개발한 비등경수로(BWR) 기반 제품으로, 상용화를 앞두고 있는 첨단 SMR이다. 이 계획은 영국의 에너지 안보와 탄소중립 목표 달성에 기여할 것으로 예상된다.",
@@ -924,21 +938,6 @@ window.SMR_NEWS = [
   "url": "https://www.ans.org/news/article-7853/terrapower-announces-second-ac225-production-facility/",
   "k": "terrapower announces second ac 225 production facility american nuclear society ans",
   "id": "3b5d16b9"
- },
- {
-  "date": "2026-07-06",
-  "title": "한수원, iSMR 안전기술 선보이다",
-  "summary": "한국수력원자력(한수원)이 2026 국제안전보건전시회에 참가하여 혁신형 소형모듈원자로(iSMR) 모형을 전시하고 안전설계 기술을 홍보했다.",
-  "summaryLong": "한국수력원자력(한수원)은 6일부터 9일까지 고양 킨텍스(KINTEX)에서 개최된 '2026 국제안전보건전시회(KISS 2026)'에 참가하여 차세대 주력 기술인 혁신형 소형모듈원자로(iSMR) 모형을 전시했다. '기술 혁신과 사람 중심의 안전'을 주제로 운영한 홍보 부스에서 한수원은 한층 강화된 iSMR의 안전설계 기술과 다목적 활용성에 대한 청사진을 선보였다. 이는 국내 최대 규모의 산업안전보건 전문 전시회에서 SMR 기술의 안전성과 응용 가능성을 강조하는 공식 활동이다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "한수원",
-  "region": "KR",
-  "source": "에너지데일리 - 전체기사",
-  "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=201144",
-  "k": "한수원 미래 원전 안전 기술을 선보이다",
-  "ko": 1,
-  "id": "fc9f537a"
  },
  {
   "date": "2026-07-05",
@@ -1361,5 +1360,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-11 07:35 KST";
-window.SMR_TOTAL = 1160;
+window.SMR_UPDATED = "2026-07-11 08:10 KST";
+window.SMR_TOTAL = 1163;
