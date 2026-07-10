@@ -21,5 +21,9 @@ triso_excel/
 __pycache__/
 *.pyc
 
+# 배포용 다운로드 파일은 예외 (주간업무 캘린더 — 팀 내부 배포)
+!downloads/work-calendar_latest.zip
+!downloads/work-calendar_setup.exe
+
 # 별도 프로토타입 프로젝트 — 이 저장소(공개)에 포함하지 않음
 smr-translator/
