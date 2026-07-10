@@ -91,6 +91,66 @@ window.SMR_NEWS = [
   "id": "48456191"
  },
  {
+  "date": "2026-07-10",
+  "title": "미국 기관, 터키(Türkiye)의 소형모듈원자로(SMR) 투자에 협력 신호",
+  "summary": "미국 정부 기관이 터키의 소형모듈원자로 투자에 대한 협력 의사를 표명했다.",
+  "summaryLong": "미국 정부 기관이 터키(Türkiye)의 소형모듈원자로(SMR) 투자 사업에 대해 국제 협력의 의사를 신호했다는 보도다. 미국과 터키 간의 원자력 협력 확대를 의미하는 정책 차원의 발표로, 양국 간 SMR 분야의 기술 협력, 투자 지원 또는 규제 협력 등이 진전될 가능성을 시사한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "US",
+  "source": "turkiyetoday.com",
+  "url": "https://www.turkiyetoday.com/world/us-agency-signals-cooperation-on-turkiyes-smr-investments-3223612",
+  "k": "us agency signals cooperation on t rkiye s smr investments",
+  "id": "a810f627"
+ },
+ {
+  "date": "2026-07-10",
+  "title": "한미일 소형모듈원자로(SMR) 협력과 독자 모델 중요성 [포럼]",
+  "summary": "한·미·일 3국의 소형모듈원자로 협력과 각국의 독립적 기술 개발 중요성을 다룬 정책 포럼 기사.",
+  "summaryLong": "문화일보에 게재된 포럼 칼럼으로, 한국·미국·일본 3국 간의 소형모듈원자로(SMR) 협력 체계와 함께 각국이 독자적인 첨단로 모델을 개발·확보하는 것의 전략적 중요성을 다루고 있다. 국제 협력과 기술 자립의 균형을 강조하는 정책 차원의 견해 표현으로, SMR 분야의 국제 협력 논의와 각국의 기술 개발 경쟁을 배경으로 한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "munhwa.com",
+  "url": "https://www.munhwa.com/article/11601771",
+  "k": "한미일 smr 협력과 독자 모델 중요성 포럼",
+  "ko": 1,
+  "id": "f5e391a4"
+ },
+ {
+  "date": "2026-07-10",
+  "title": "대우건설, SMR 포함 글로벌 에너지 프로바이더 선언",
+  "summary": "대우건설이 LNG, 원전, SMR 등을 포괄하는 글로벌 에너지 사업 전략을 선언했다.",
+  "summaryLong": "대우건설이 LNG, 원전, 소형모듈원자로(SMR) 등 다양한 에너지 사업을 통합 운영하는 글로벌 에너지 프로바이더로의 전환을 공식 선언했다. 이는 회사의 에너지 포트폴리오 다각화 전략의 일환으로, SMR을 차세대 청정에너지 사업의 핵심으로 포지셔닝하는 의도를 반영한다. 대우건설은 기존 LNG 사업의 경험을 바탕으로 SMR 개발·건설·운영 분야로의 진출을 추진 중이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "대우건설",
+  "region": "KR",
+  "source": "cstimes.com",
+  "url": "https://www.cstimes.com/news/articleView.html?idxno=712994",
+  "k": "대우건설 lng 원전 smr 아우르는 글로벌 에너지 프로바이더 선언",
+  "ko": 1,
+  "id": "976f8dc9"
+ },
+ {
+  "date": "2026-07-10",
+  "title": "한국의 핵연료 농축권한 확보로 미국 SMR 핵연료 문제 해결 제안",
+  "summary": "외교 당국자가 한국에 핵연료 농축권한을 부여하면 미국의 SMR 핵연료 공급 문제를 해결할 수 있다고 제안했다.",
+  "summaryLong": "한국 외교 당국자가 미국의 SMR 핵연료 확보 문제를 해결하기 위해 한국에 핵연료 농축권한을 부여할 것을 제안했다. 현재 미국은 고농축우라늄(HEU) 공급 부족으로 SMR 개발·상업화에 애로가 있으며, 한국의 핵연료주기 기술과 역량을 활용하면 공급망 안정화가 가능하다는 입장이다. 이는 한미 원자력 협력 확대 및 SMR 산업화 촉진의 정책적 의제로 부상했다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "m.news.nate.com",
+  "url": "https://m.news.nate.com/view/20260710n14107?mid=m01&list=recent&cpcd=",
+  "k": "외교당국자 smr 핵연료 확보 문제 에 농축권한 주면 해결",
+  "ko": 1,
+  "op": 1,
+  "id": "77f8666a"
+ },
+ {
   "date": "2026-07-09",
   "title": "한국전력기술, 독자 SMR 개발 가시권…2027년 9월까지 기본설계 완료 목표",
   "summary": "한국전력기술이 웨스팅하우스(Westinghouse)와 무관한 독자 소형모듈원자로(SMR) 개발을 추진 중이며, 개념설계 완료 후 2027년 9월까지 기본설계 마무리를 목표로 하고 있다.",
@@ -607,6 +667,21 @@ window.SMR_NEWS = [
   "id": "3fea5089"
  },
  {
+  "date": "2026-07-08",
+  "title": "일본 외무성, 한미일 SMR 협력의 인도·태평양 에너지 안보 기여 평가",
+  "summary": "일본 외무성이 한미일 SMR 협력이 인도·태평양 지역의 에너지 안보 향상에 기여한다고 평가했다.",
+  "summaryLong": "일본 외무성이 한국, 미국과의 소형모듈원자로(SMR) 협력이 인도·태평양 지역의 에너지 안보 향상에 전략적으로 기여할 것으로 평가했다. 일본은 SMR을 탄소중립 달성과 에너지 자립도 제고를 위한 핵심 기술로 위치시키고 있으며, 3국 협력을 통해 기술 표준화, 규제 조화, 국제 시장 형성을 촉진할 계획이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "JP",
+  "source": "hani.co.kr",
+  "url": "https://www.hani.co.kr/arti/international/international_general/1267330.html",
+  "k": "일 외무성 한 미 일 smr 협력에 인도 태평양 에너지 안보 향상",
+  "ko": 1,
+  "id": "d005b20a"
+ },
+ {
   "date": "2026-07-07",
   "title": "DL이앤씨, 엑스에너지 Xe-100 표준화 설계 수주",
   "summary": "DL이앤씨가 국내 건설사로는 처음으로 미국 엑스에너지(X-energy)의 Xe-100 소형모듈원자로 표준화 설계를 수주했다.",
@@ -811,36 +886,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-07",
-  "title": "김형칠 기장군 장안읍이장협의회장 '수십 년 원전과 공존, SMR은 생존이자 미래'",
-  "summary": "기장군 지역 인사가 SMR을 지역 발전의 핵심으로 언급하는 발언을 했다.",
-  "summaryLong": "경상남도 기장군 장안읍 이장협의회장이 SMR을 해당 지역의 생존과 미래 발전의 수단으로 표현하며 긍정적 입장을 드러냈다. 이는 현재 SMR 후보지 선정이 추진되고 있는 가운데 지역 주민 대표가 에너지 정책 변화에 대한 기대감을 나타낸 것으로, 지역 수용성 관련 논의를 반영한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "news.nate.com",
-  "url": "https://news.nate.com/view/20260708n04338",
-  "k": "김형칠 기장군 장안읍이장협의회장 수십년 원전과 공존 smr은 생존이자 미래 원전 후보지 현장",
-  "ko": 1,
-  "id": "537d4346"
- },
- {
-  "date": "2026-07-07",
-  "title": "한·미·일, 1천만 달러 규모 SMR 동맹…인태 에너지 지각변동 예고",
-  "summary": "한·미·일이 1천만 달러 규모의 SMR 협력 동맹을 구성하며 인태 지역 에너지 구도 변화를 예고했다.",
-  "summaryLong": "한국, 미국, 일본이 소형모듈원자로(SMR) 분야에서 1천만 달러(USD 10 million) 규모의 협력 동맹을 구성했다. 이는 3국이 인태 지역의 SMR 도입을 통해 에너지 구도 변화를 주도하겠다는 전략적 의도를 보여주며, 지역 내 에너지 안보와 기후변화 대응을 위한 실질적 협력 체계 구축을 의미한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "news.jkn.co.kr",
-  "url": "https://news.jkn.co.kr/post/938111",
-  "k": "한미일 1천만 smr 동맹 인태 에너지 지각변동 예고 기업 산업",
-  "ko": 1,
-  "id": "a262b40a"
- },
- {
-  "date": "2026-07-07",
   "title": "테라파워, 두 번째 Ac-225 생산 시설 발표",
   "summary": "테라파워(TerraPower)가 방사성 동위원소 Ac-225 생산 시설 2호기 구축을 발표했다.",
   "summaryLong": "테라파워(TerraPower)가 핵의학용 방사성 동위원소 Ac-225(Actinium-225)의 두 번째 생산 시설 구축을 공식 발표했다. 이는 고급 원자로 기술 개발사의 핵의학 및 산업용 동위원소 생산 인프라 확대를 의미한다. 미국 원자력학회(ANS)를 통해 공식 공지된 것으로 보인다.",
@@ -852,34 +897,6 @@ window.SMR_NEWS = [
   "url": "https://www.ans.org/news/article-7853/terrapower-announces-second-ac225-production-facility/",
   "k": "terrapower announces second ac 225 production facility american nuclear society ans",
   "id": "3b5d16b9"
- },
- {
-  "date": "2026-07-07",
-  "title": "한·미·일, 소형모듈원자로(SMR) 배치 협력 양해각서 체결",
-  "summary": "한국, 미국, 일본이 소형모듈원자로 배치 협력을 위한 양해각서(MOU)를 체결했다.",
-  "summaryLong": "한·미·일 3국이 소형모듈원자로(SMR) 배치 협력을 위한 양해각서를 체결했다. 이 협력은 인태(Indo-Pacific) 지역에서의 SMR 도입을 가속화하기 위한 정부 간 협약이다. 3국은 청정에너지 확대와 지역 에너지 안보를 위해 SMR 개발·배치 분야에서 협력하기로 합의했다. 이는 원자력 분야에서 한·미·일의 전략적 협력을 강화하는 의미를 갖는다.",
-  "cat": "계약",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "koreatimes.co.kr",
-  "url": "https://www.koreatimes.co.kr/foreignaffairs/20260708/korea-us-japan-sign-mou-for-cooperation-on-small-modular-reactor-deployments",
-  "k": "korea us japan sign mou for cooperation on small modular reactor deployments",
-  "id": "6de82acf"
- },
- {
-  "date": "2026-07-07",
-  "title": "미국·일본·한국, 데이터센터 확대 지역 인도태평양 소형모듈원자로 가속화 합의",
-  "summary": "미국, 일본, 한국이 데이터센터 전력 수요 증가가 예상되는 인도태평양 지역에서 소형모듈원자로(SMR) 개발·보급을 가속화하기로 합의했다.",
-  "summaryLong": "미국, 일본, 한국 세 국가가 인도태평양 지역에서 소형모듈원자로(SMR) 도입을 공동으로 가속화하기로 합의했다. 이 협약은 해당 지역의 데이터센터 급증에 따른 전력 수요 증가에 대응하기 위한 것으로, SMR의 소형성과 유연한 배치 특성을 활용한 전략적 파트너십이다. 이는 SMR이 주요 산업국들의 에너지 정책과 지역 협력 수준에서 점차 중요한 역할을 인정받고 있음을 시사한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "sociable.co",
-  "url": "https://sociable.co/government-and-policy/us-japan-korea-accelerate-small-modular-reactor-indo-pacific-data-centers/",
-  "k": "us japan korea agree to accelerate small modular reactors in indo pacific where data centers are expanding",
-  "id": "b27d3294"
  },
  {
   "date": "2026-07-06",
@@ -1373,5 +1390,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-10 16:02 KST";
-window.SMR_TOTAL = 1147;
+window.SMR_UPDATED = "2026-07-10 17:06 KST";
+window.SMR_TOTAL = 1153;
