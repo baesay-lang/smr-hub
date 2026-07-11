@@ -294,6 +294,22 @@ window.SMR_NEWS = [
   "id": "fdb42d94"
  },
  {
+  "date": "2026-07-10",
+  "title": "\"SMR, 대미 투자 사업 유력\"…한미 공동 진출 추진",
+  "summary": "한국과 미국이 소형모듈원자로(SMR) 대미 투자 사업을 공동으로 추진할 가능성이 제기되었다.",
+  "summaryLong": "한국과 미국이 소형모듈원자로(SMR) 분야의 대미(미국 시장) 투자 사업을 공동으로 진출할 가능성이 언급되고 있다. 양국 간 협력을 통해 미국 내 SMR 프로젝트에 참여하고 시장을 개척하려는 움직임으로 평가되나, 현재로서는 추진 계획 단계의 보도로 보인다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "news.nate.com",
+  "url": "https://news.nate.com/view/20260711n00717",
+  "k": "smr 대미 투자 사업 유력 한미 공동 진출 추진",
+  "ko": 1,
+  "op": 1,
+  "id": "5d7f73a3"
+ },
+ {
   "date": "2026-07-09",
   "title": "한국전력기술, 독자 SMR 개발 가시권…2027년 9월까지 기본설계 완료 목표",
   "summary": "한국전력기술이 웨스팅하우스(Westinghouse)와 무관한 독자 소형모듈원자로(SMR) 개발을 추진 중이며, 개념설계 완료 후 2027년 9월까지 기본설계 마무리를 목표로 하고 있다.",
@@ -869,21 +885,6 @@ window.SMR_NEWS = [
   "id": "adfbfe5e"
  },
  {
-  "date": "2026-07-08",
-  "title": "AI 전력난이 부른 '원전 부활'…부산 기장 SMR·전력설비주에 쏠린 눈",
-  "summary": "인공지능(AI) 데이터센터 급증에 따른 전력 수요 증가로 소형모듈원자로(SMR)에 대한 관심이 높아지고 있다.",
-  "summaryLong": "인공지능(AI) 기술 확산으로 인한 데이터센터 전력 수요 급증이 원자력 에너지 재평가를 유도하고 있으며, 특히 소형모듈원자로(SMR)에 대한 시장 관심과 투자 수요가 높아지고 있다. 부산 기장 지역의 SMR 개발·건설 프로젝트가 이러한 추세 속에서 주목받고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "jabon.co.kr",
-  "url": "https://www.jabon.co.kr/news/articleView.html?idxno=4754",
-  "k": "ai 전력난이 부른 원전 부활 부산 기장 smr 전력설비주에 쏠린 눈",
-  "ko": 1,
-  "id": "b0c173d1"
- },
- {
   "date": "2026-07-07",
   "title": "DL이앤씨, 엑스에너지 Xe-100 표준화 설계 수주",
   "summary": "DL이앤씨가 국내 건설사로는 처음으로 미국 엑스에너지(X-energy)의 Xe-100 소형모듈원자로 표준화 설계를 수주했다.",
@@ -1362,5 +1363,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-11 14:59 KST";
-window.SMR_TOTAL = 1169;
+window.SMR_UPDATED = "2026-07-11 15:24 KST";
+window.SMR_TOTAL = 1172;

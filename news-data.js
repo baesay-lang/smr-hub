@@ -301,6 +301,22 @@ window.SMR_NEWS = [
     "id": "fdb42d94"
   },
   {
+    "date": "2026-07-10",
+    "title": "\"SMR, 대미 투자 사업 유력\"…한미 공동 진출 추진",
+    "summary": "한국과 미국이 소형모듈원자로(SMR) 대미 투자 사업을 공동으로 추진할 가능성이 제기되었다.",
+    "summaryLong": "한국과 미국이 소형모듈원자로(SMR) 분야의 대미(미국 시장) 투자 사업을 공동으로 진출할 가능성이 언급되고 있다. 양국 간 협력을 통해 미국 내 SMR 프로젝트에 참여하고 시장을 개척하려는 움직임으로 평가되나, 현재로서는 추진 계획 단계의 보도로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "news.nate.com",
+    "url": "https://news.nate.com/view/20260711n00717",
+    "k": "smr 대미 투자 사업 유력 한미 공동 진출 추진",
+    "ko": 1,
+    "op": 1,
+    "id": "5d7f73a3"
+  },
+  {
     "date": "2026-07-09",
     "title": "한국전력기술, 독자 SMR 개발 가시권…2027년 9월까지 기본설계 완료 목표",
     "summary": "한국전력기술이 웨스팅하우스(Westinghouse)와 무관한 독자 소형모듈원자로(SMR) 개발을 추진 중이며, 개념설계 완료 후 2027년 9월까지 기본설계 마무리를 목표로 하고 있다.",
@@ -905,6 +921,35 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "9c22f71f"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "UAMPS, 뉴스케일 소형모듈원자로 계획 축소",
+    "summary": "미국 유틸리티 UAMPS가 뉴스케일 SMR 사업 규모를 축소했다.",
+    "summaryLong": "미국의 유틸리티 사업자 UAMPS(Utah Associated Municipal Power Systems)가 뉴스케일(NuScale)과의 소형모듈원자로(SMR) 프로젝트 규모를 축소하기로 결정했다는 공식 소식이다. 이는 뉴스케일의 실제 사업 진행 상황과 계약 관계의 변화를 보도한 것으로, 개발사의 마일스톤 및 프로젝트 현황에 해당하는 소식이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "뉴스케일",
+    "region": "US",
+    "source": "ans.org",
+    "url": "https://www.ans.org/news/article-3087/uamps-downsizes-nuscale-smr-plans/",
+    "k": "uamps downsizes nuscale smr plans american nuclear society ans",
+    "id": "998bc276"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "한·미·일, 소형모듈원자로(SMR) 협력 추진 — 미국과 원자력 신뢰 구축 기회",
+    "summary": "한국, 미국, 일본이 소형모듈원자로(SMR) 협력을 본격 추진하고 있다.",
+    "summaryLong": "한국, 미국, 일본 삼국이 소형모듈원자로(SMR) 분야에서 다자간 협력을 나서고 있다. 이는 각국의 SMR 개발·배포 전략을 연계하고 기술 표준, 규제 조화, 사업 협력 등을 논의하는 정부 간 협력 움직임으로 해석되며, 한국이 미국과의 원자력 신뢰와 협력 관계를 강화할 수 있는 전략적 기회로 평가되고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260708185537925",
+    "k": "smr 협력 나선다 와 원자력 신뢰 쌓을 기회",
+    "ko": 1,
+    "id": "9d111230"
   },
   {
     "date": "2026-07-07",
@@ -16827,4 +16872,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-11 14:59 KST";
+window.SMR_UPDATED = "2026-07-11 15:24 KST";
