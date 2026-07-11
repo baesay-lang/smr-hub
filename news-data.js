@@ -332,6 +332,21 @@ window.SMR_NEWS = [
     "id": "7072bf7b"
   },
   {
+    "date": "2026-07-10",
+    "title": "오클로, 핵동위원소 미래에 대거 투자하는 이유",
+    "summary": "오클로가 핵동위원소 사업 분야에 큰 베팅을 하고 있는 배경과 사업 전략을 다룬 기사다.",
+    "summaryLong": "야후 파이낸스 호주(Yahoo Finance Australia)는 오클로가 핵동위원소 사업에 왜 집중하고 있는지를 분석한 기사다. 오클로는 첨단 소형모듈원자로(SMR) 기술을 바탕으로 의료용·산업용 핵동위원소 생산을 전략적 사업으로 추진 중이다. 이는 전기 생산뿐 아니라 의료 및 산업 응용으로 사업 다각화를 추구하는 전략으로 보인다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "au.finance.yahoo.com",
+    "url": "https://au.finance.yahoo.com/news/why-oklo-betting-big-future-115700471.html",
+    "k": "why oklo is betting big on the future of nuclear isotopes",
+    "op": 1,
+    "id": "a7c77af7"
+  },
+  {
     "date": "2026-07-09",
     "title": "한국전력기술, 독자 SMR 개발 가시권…2027년 9월까지 기본설계 완료 목표",
     "summary": "한국전력기술이 웨스팅하우스(Westinghouse)와 무관한 독자 소형모듈원자로(SMR) 개발을 추진 중이며, 개념설계 완료 후 2027년 9월까지 기본설계 마무리를 목표로 하고 있다.",
@@ -14429,6 +14444,21 @@ window.SMR_NEWS = [
     "id": "65dc619c"
   },
   {
+    "date": "2026-04-09",
+    "title": "소형모듈원자로(SMR) 법안, 상원 투표 진행 중 교착 상태",
+    "summary": "미국 상원에서 소형모듈원자로(SMR) 관련 법안이 접전 투표 후 진행이 멈췄다.",
+    "summaryLong": "미국 상원에서 소형모듈원자로(SMR) 관련 법안이 접전 투표를 거친 후 교착 상태에 빠진 것으로 보도되었다. 이는 SMR 산업 진흥을 위한 정부 정책 차원의 입법이 진행 중임을 보여주며, 미국 내 SMR 정책 추진에 불확실성이 존재함을 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "pro.stateaffairs.com",
+    "url": "https://pro.stateaffairs.com/az/energy/modular-reactors-bill-fails-arizona",
+    "k": "small modular reactor bill stalls in senate after narrow vote",
+    "op": 1,
+    "id": "d29d9936"
+  },
+  {
     "date": "2026-04-08",
     "title": "SMR 경쟁 대응 '원자력 진흥법' 개정 추진, 기술·인력·재정 3축 강화",
     "summary": "한국이 국제 SMR 경쟁에 대응하기 위해 원자력 진흥법 개정을 통해 기술·인력·재정 지원을 강화할 계획이다.",
@@ -17039,4 +17069,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-12 08:01 KST";
+window.SMR_UPDATED = "2026-07-12 08:39 KST";

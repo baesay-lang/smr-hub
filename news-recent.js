@@ -325,6 +325,21 @@ window.SMR_NEWS = [
   "id": "7072bf7b"
  },
  {
+  "date": "2026-07-10",
+  "title": "오클로, 핵동위원소 미래에 대거 투자하는 이유",
+  "summary": "오클로가 핵동위원소 사업 분야에 큰 베팅을 하고 있는 배경과 사업 전략을 다룬 기사다.",
+  "summaryLong": "야후 파이낸스 호주(Yahoo Finance Australia)는 오클로가 핵동위원소 사업에 왜 집중하고 있는지를 분석한 기사다. 오클로는 첨단 소형모듈원자로(SMR) 기술을 바탕으로 의료용·산업용 핵동위원소 생산을 전략적 사업으로 추진 중이다. 이는 전기 생산뿐 아니라 의료 및 산업 응용으로 사업 다각화를 추구하는 전략으로 보인다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "au.finance.yahoo.com",
+  "url": "https://au.finance.yahoo.com/news/why-oklo-betting-big-future-115700471.html",
+  "k": "why oklo is betting big on the future of nuclear isotopes",
+  "op": 1,
+  "id": "a7c77af7"
+ },
+ {
   "date": "2026-07-09",
   "title": "한국전력기술, 독자 SMR 개발 가시권…2027년 9월까지 기본설계 완료 목표",
   "summary": "한국전력기술이 웨스팅하우스(Westinghouse)와 무관한 독자 소형모듈원자로(SMR) 개발을 추진 중이며, 개념설계 완료 후 2027년 9월까지 기본설계 마무리를 목표로 하고 있다.",
@@ -945,20 +960,6 @@ window.SMR_NEWS = [
   "id": "12bdd9e8"
  },
  {
-  "date": "2026-07-07",
-  "title": "테라파워, 두 번째 Ac-225 생산 시설 발표",
-  "summary": "테라파워(TerraPower)가 방사성 동위원소 Ac-225 생산 시설 2호기 구축을 발표했다.",
-  "summaryLong": "테라파워(TerraPower)가 핵의학용 방사성 동위원소 Ac-225(Actinium-225)의 두 번째 생산 시설 구축을 공식 발표했다. 이는 고급 원자로 기술 개발사의 핵의학 및 산업용 동위원소 생산 인프라 확대를 의미한다. 미국 원자력학회(ANS)를 통해 공식 공지된 것으로 보인다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "US",
-  "source": "ans.org",
-  "url": "https://www.ans.org/news/article-7853/terrapower-announces-second-ac225-production-facility/",
-  "k": "terrapower announces second ac 225 production facility american nuclear society ans",
-  "id": "3b5d16b9"
- },
- {
   "date": "2026-07-05",
   "title": "뉴스케일(NuScale) 파라곤과 원자로 보호 계약 체결 후 소송 직면",
   "summary": "뉴스케일(NuScale)이 파라곤(Paragon)과 원자로 보호 계약을 체결했으나 소송에 직면하고 있다.",
@@ -1366,5 +1367,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-12 08:01 KST";
-window.SMR_TOTAL = 1183;
+window.SMR_UPDATED = "2026-07-12 08:39 KST";
+window.SMR_TOTAL = 1185;
