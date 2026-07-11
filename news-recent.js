@@ -310,6 +310,21 @@ window.SMR_NEWS = [
   "id": "5d7f73a3"
  },
  {
+  "date": "2026-07-10",
+  "title": "한미일, SMR로 '전력 안보' 공조...AI 전력 경쟁 대응",
+  "summary": "한국·미국·일본이 소형모듈원자로(SMR)를 통한 전력 안보 협력을 강화한다.",
+  "summaryLong": "한국, 미국, 일본 3국이 소형모듈원자로(SMR)를 중심으로 전력 안보 협력을 추진하고 있다. 이는 인공지능(AI) 데이터센터 등 급증하는 전력 수요에 대응하기 위한 전략으로, 3국 간 정책 차원의 공조 강화를 의미한다. SMR의 상용화 가속과 아시아·태평양 지역 보급 확대를 목표로 하는 국책 협력 체계로, 향후 지역 에너지 안보 및 탄소중립 달성에 중요한 역할을 할 것으로 예상된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "kukinews.com",
+  "url": "https://www.kukinews.com/article/view/kuk202607080176",
+  "k": "한미일 smr로 전력 안보 공조 ai 전력 경쟁 대응",
+  "ko": 1,
+  "id": "7072bf7b"
+ },
+ {
   "date": "2026-07-09",
   "title": "한국전력기술, 독자 SMR 개발 가시권…2027년 9월까지 기본설계 완료 목표",
   "summary": "한국전력기술이 웨스팅하우스(Westinghouse)와 무관한 독자 소형모듈원자로(SMR) 개발을 추진 중이며, 개념설계 완료 후 2027년 9월까지 기본설계 마무리를 목표로 하고 있다.",
@@ -871,20 +886,6 @@ window.SMR_NEWS = [
   "id": "d005b20a"
  },
  {
-  "date": "2026-07-08",
-  "title": "한미일, 소형모듈원전 해외 배치 협력 양해각서 체결",
-  "summary": "미국, 일본, 한국이 소형모듈원전의 제3국 배치 협력에 관한 삼자 양해각서를 체결했다.",
-  "summaryLong": "미국, 일본, 한국(대한민국)이 소형모듈원전(SMR)의 제3국 배치 협력에 관한 삼자간 양해각서(Trilateral Memorandum of Cooperation)를 체결했다. 이 협력은 소형모듈원전 기술을 세계 여러 국가에 배치하기 위한 공동 노력으로, 한·미·일 삼국의 전략적 에너지 협력 강화를 의미한다.",
-  "cat": "계약",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "china.usembassy-china.org.cn",
-  "url": "https://china.usembassy-china.org.cn/the-u-s-japan-and-the-republic-of-korea-sign-a-trilateral-memorandum-of-cooperation-on-small-modular-reactor-deployments-in-other-countries/",
-  "k": "the u s japan and the republic of korea sign a trilateral memorandum of cooperation on small modular reactor deployments in other countries",
-  "id": "adfbfe5e"
- },
- {
   "date": "2026-07-07",
   "title": "DL이앤씨, 엑스에너지 Xe-100 표준화 설계 수주",
   "summary": "DL이앤씨가 국내 건설사로는 처음으로 미국 엑스에너지(X-energy)의 Xe-100 소형모듈원자로 표준화 설계를 수주했다.",
@@ -1363,5 +1364,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-11 15:24 KST";
-window.SMR_TOTAL = 1172;
+window.SMR_UPDATED = "2026-07-11 16:00 KST";
+window.SMR_TOTAL = 1175;
