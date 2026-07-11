@@ -637,6 +637,38 @@ window.SMR_NEWS = [
   "id": "90aa5fb6"
  },
  {
+  "date": "2026-07-09",
+  "title": "한미일 소형모듈원자로 협력에 두산·SK·현대중공업 수출길 열릴까",
+  "summary": "한국·미국·일본의 소형모듈원자로(SMR) 협력 확대에 따른 한국 기업의 수출 기회를 전망하는 기사다.",
+  "summaryLong": "한국·미국·일본 3국의 소형모듈원자로(SMR) 협력 강화가 두산, SK, 현대중공업 등 한국 기업들의 SMR 시장 수출 기회로 이어질 가능성을 다루고 있다. 인태(인도·태평양) 지역의 SMR 시장 확대와 3국 정책 협력을 배경으로 한국 원전 부품·기자재 업체의 새로운 사업 기회를 검토하는 보도다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "mt.co.kr",
+  "url": "https://www.mt.co.kr/industry/2026/07/10/2026070914313899679",
+  "k": "smr 협력에 두산 sk hd현대 수출길 열릴까 머니투데이",
+  "ko": 1,
+  "op": 1,
+  "id": "b65ca524"
+ },
+ {
+  "date": "2026-07-09",
+  "title": "한·미·일 SMR 협력, 인도네시아·태국·베트남 우선 공략",
+  "summary": "한·미·일 3국의 SMR 협력이 인도네시아, 태국, 베트남을 우선 대상으로 추진될 것으로 예상된다.",
+  "summaryLong": "한·미·일 3국의 소형모듈원자로(SMR) 협력 각서 체결 후, 인도네시아, 태국, 베트남 등 동남아시아 국가들이 우선적인 시장 진출 대상이 될 것으로 관측되고 있다. 이들 국가는 에너지 수요 증가, 탄소 중립 목표, 소규모 전력망 등의 특성으로 인해 SMR 도입에 적합한 조건을 갖추고 있다. 3국은 이들 국가와의 양자·다자 협력을 통해 SMR 보급을 가속화할 계획으로 보인다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "donga.com",
+  "url": "https://www.donga.com/news/Society/article/all/20260710/134271260/2",
+  "k": "smr로 뭉친 한미일 인니 태국 베트남 우선 공략할듯",
+  "ko": 1,
+  "op": 1,
+  "id": "5b7092d0"
+ },
+ {
   "date": "2026-07-08",
   "title": "한국원자력학회, \"반도체·AI 시대 신규 원전·SMR 즉시 건설\" 정책 제언",
   "summary": "한국원자력학회가 반도체와 AI 산업의 전력 수요 대응을 위해 신규 원전과 소형모듈원자로의 즉각적 건설을 정부에 제언했다.",
@@ -854,36 +886,6 @@ window.SMR_NEWS = [
   "url": "https://www.ans.org/news/2026-07-08/article-8187/palisades-restart-projects-holtec-ipo-lawsuit-dismissal-but-no-restart-date/",
   "k": "palisades restart projects holtec ipo lawsuit dismissal but no restart date",
   "id": "1a55ffa8"
- },
- {
-  "date": "2026-07-08",
-  "title": "한미일 'SMR 드림팀' 구성…인태지역 협력체 구축",
-  "summary": "한국, 미국, 일본이 소형모듈원자로 협력체를 구성하고 인태(Indo-Pacific) 지역 도입을 위한 협력을 강화한다.",
-  "summaryLong": "한국, 미국, 일본이 소형모듈원자로(SMR) 분야 협력체를 구축하고 인태 지역 도입을 위한 협력을 추진하기로 하면서 각서를 서명했다. 이 협력 체계는 두산, SK, HD현대 등 한국 기업들의 SMR 수출 기회를 열어줄 것으로 기대되며, 글로벌 SMR 시장 확대의 신호탄이 될 수 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "v.daum.net",
-  "url": "https://v.daum.net/v/20260708180323300",
-  "k": "한미일 smr 드림팀 띄운다",
-  "ko": 1,
-  "id": "3fea5089"
- },
- {
-  "date": "2026-07-08",
-  "title": "일본 외무성, 한미일 SMR 협력의 인도·태평양 에너지 안보 기여 평가",
-  "summary": "일본 외무성이 한미일 SMR 협력이 인도·태평양 지역의 에너지 안보 향상에 기여한다고 평가했다.",
-  "summaryLong": "일본 외무성이 한국, 미국과의 소형모듈원자로(SMR) 협력이 인도·태평양 지역의 에너지 안보 향상에 전략적으로 기여할 것으로 평가했다. 일본은 SMR을 탄소중립 달성과 에너지 자립도 제고를 위한 핵심 기술로 위치시키고 있으며, 3국 협력을 통해 기술 표준화, 규제 조화, 국제 시장 형성을 촉진할 계획이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "JP",
-  "source": "hani.co.kr",
-  "url": "https://www.hani.co.kr/arti/international/international_general/1267330.html",
-  "k": "일 외무성 한 미 일 smr 협력에 인도 태평양 에너지 안보 향상",
-  "ko": 1,
-  "id": "d005b20a"
  },
  {
   "date": "2026-07-07",
@@ -1364,5 +1366,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-11 16:00 KST";
-window.SMR_TOTAL = 1175;
+window.SMR_UPDATED = "2026-07-12 07:26 KST";
+window.SMR_TOTAL = 1180;
