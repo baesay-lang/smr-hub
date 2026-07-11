@@ -1,6 +1,21 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-07-11",
+  "title": "국제원자력기구(IAEA)·세계은행, SMR 개발 가속화 협력",
+  "summary": "국제원자력기구(IAEA)와 세계은행그룹(WBG)이 개발도상국의 원자력 에너지 지원을 위해 협력하며, 특히 소형모듈원자로(SMR) 개발 가속화를 3대 핵심 협력 분야 중 하나로 추진한다.",
+  "summaryLong": "국제원자력기구(IAEA)는 세계은행그룹(WBG)과 2025년 7월 체결한 파트너십 협정을 기반으로 개발도상국의 안전하고 책임감 있는 원자력 에너지 사용 지원에 나섰다고 밝혔다. 이 협력은 세계은행그룹이 오랜 중단 끝에 원자력 발전에 공식적으로 재관여하기 시작한 것으로, 국제 금융계 내 원자력에 대한 인식 변화를 나타낸다. 양 기구는 △세계은행그룹 내 원자력 관련 지식 강화 및 금융 의사결정 지원 △기존 원전의 장기 운영 지원 △소형모듈원자로(SMR) 개발 가속화 등 3대 핵심 협력 분야를 중심으로 협력을 진행하고 있으며, 이는 개발도상국의 에너지 접근성 확대에 기여할 것으로 예상된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "",
+  "source": "투데이에너지 - 전체기사",
+  "url": "https://www.todayenergy.kr/news/articleView.html?idxno=300274",
+  "k": "iaea 세계은행과 협력 개도국 원자력 에너지 사용 지원",
+  "ko": 1,
+  "id": "c1440ad0"
+ },
+ {
   "date": "2026-07-10",
   "title": "소형모듈원자로(SMR)·우주원전 상용화 지원 법제화 추진, 국가전략으로 격상",
   "summary": "국회에서 소형모듈원자로(SMR)와 차세대 원자력 기술의 상용화·수출을 국가 차원에서 지원하는 법안을 추진 중이다.",
@@ -263,6 +278,20 @@ window.SMR_NEWS = [
   "url": "https://azfreenews.com/2026/07/biggs-backs-palo-verde-expansion-pushes-arizona-to-lead-small-modular-reactor-development/",
   "k": "biggs backs palo verde expansion pushes arizona to lead small modular reactor development",
   "id": "a41b47e2"
+ },
+ {
+  "date": "2026-07-10",
+  "title": "홀텍 뉴클리어(Holtec Nuclear), 20억 달러 규모 IPO 신청",
+  "summary": "원자력 발전소 장비 공급업체 홀텍 뉴클리어가 약 20억 달러 규모의 기업공개(IPO)를 신청했다.",
+  "summaryLong": "원자력 발전소 장비 공급 전문 기업 홀텍 뉴클리어가 약 20억 달러 규모의 기업공개(IPO)를 신청했다. 홀텍은 소형모듈원자로(SMR) 등 첨단 원자력 기술 관련 부품·장비 공급자로서 신재생에너지 전환 및 탄소중립 실현 과정에서 핵심 역할을 담당할 것으로 예상된다. 이번 IPO는 원자력 산업의 성장 잠재력과 SMR·첨단로 시장에 대한 투자 관심이 높아지고 있음을 반영한다.",
+  "cat": "투자",
+  "type": "PWR",
+  "dev": "Holtec",
+  "region": "US",
+  "source": "renaissancecapital.com",
+  "url": "https://www.renaissancecapital.com/IPO-Center/News/120417/Nuclear-plant-equipment-provider-Holtec-Nuclear-files-for-an-estimated-$2.0",
+  "k": "hnuc ipo news nuclear plant equipment provider holtec nuclear files for an estimated 2 0 billion ipo",
+  "id": "fdb42d94"
  },
  {
   "date": "2026-07-09",
@@ -562,6 +591,21 @@ window.SMR_NEWS = [
   "id": "5a3ccb28"
  },
  {
+  "date": "2026-07-09",
+  "title": "외교부 정례 브리핑: \"SMR 협력, 한미 원자력협정 논의에 긍정적\"",
+  "summary": "외교부가 SMR 협력이 한미 원자력협정 개정 논의에 긍정적 영향을 미칠 것으로 전망했다.",
+  "summaryLong": "한국 외교부는 정례 브리핑에서 한·미·일의 소형모듈원자로(SMR) 협력이 한미 원자력협정 개정 논의에 긍정적 신호가 될 것으로 평가했다. 현재 한국과 미국 간 원자력협정은 한국의 핵연료 자체 개발을 제한하는 조항을 포함하고 있으며, SMR 협력 추진은 이러한 협정 개정 논의의 추진력으로 작용할 것으로 보인다. 이는 한국이 SMR 및 첨단로 개발에서 기술적·제도적 자율성을 확보하려는 노력의 일환으로 해석된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR|US",
+  "source": "djournal.co.kr",
+  "url": "https://www.djournal.co.kr/news/article.html?no=83647",
+  "k": "외교부 정례 브리핑 smr 협력 한미 원자력협정 논의에 긍정적 쿠팡 논란엔 차별 없다",
+  "ko": 1,
+  "id": "90aa5fb6"
+ },
+ {
   "date": "2026-07-08",
   "title": "한국원자력학회, \"반도체·AI 시대 신규 원전·SMR 즉시 건설\" 정책 제언",
   "summary": "한국원자력학회가 반도체와 AI 산업의 전력 수요 대응을 위해 신규 원전과 소형모듈원자로의 즉각적 건설을 정부에 제언했다.",
@@ -856,36 +900,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-07",
-  "title": "국내 첫 소형모듈원자로(SMR) 표준화 설계 수주… 글로벌 시장 선점 나선다",
-  "summary": "국내 기업이 첫 소형모듈원자로(SMR) 표준화 설계 수주를 획득하며 글로벌 원전 시장 진출을 추진하고 있다.",
-  "summaryLong": "한국 기업이 국내 최초로 소형모듈원자로(SMR) 표준화 설계에 대한 수주 계약을 획득했다. 이는 글로벌 SMR 시장에서의 기술 경쟁력 확보와 국제 수주 확대를 위한 중요한 마일스톤으로, 국내 원전 기술의 글로벌 상용화 전략의 일환이다. Build Up Korea 2026 등 정부 정책 배경 하에서 추진되고 있으며, 한국 기업의 원전 수출 경쟁력 강화를 의미한다.",
-  "cat": "계약",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "munhwa.com",
-  "url": "https://www.munhwa.com/article/11600763",
-  "k": "국내 첫 smr 표준화 설계 수주 글로벌 원전 시장 선점 나선다 build up korea 2026",
-  "ko": 1,
-  "id": "d8432a52"
- },
- {
-  "date": "2026-07-07",
-  "title": "한수원, KISS(원자력 안전국제세미나) 2026 참가…SMR 등 미래 원전 안전기술 공개",
-  "summary": "한국수력원자력(한수원)이 KISS(원자력 안전국제세미나) 2026에 참가하여 SMR 등 미래 원전 안전기술을 선보인다.",
-  "summaryLong": "한국수력원자력(한수원)이 국제 원자력 안전 학술행사인 KISS(원자력 안전국제세미나) 2026에 참가하여 SMR을 포함한 미래 원전 관련 안전기술을 공개할 계획이다. 이는 한수원의 SMR 등 첨단로 기술 개발 현황을 국제 무대에서 알리는 사업 활동에 해당한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "한수원",
-  "region": "KR",
-  "source": "nocutnews.co.kr",
-  "url": "https://www.nocutnews.co.kr/news/6544166",
-  "k": "한수원 kiss 2026 참가 smr 등 미래 원전 안전기술 공개",
-  "ko": 1,
-  "id": "484635a3"
- },
- {
-  "date": "2026-07-07",
   "title": "폴란드 SGE, 영국에 BWRX-300 14기 배치 제안",
   "summary": "폴란드의 신타스 그린 에너지(Synthos Green Energy)가 영국 3개 부지에 GE 베르노바 히타치 뉴클리어 에너지(GE Vernova Hitachi Nuclear Energy)의 BWRX-300 소형모듈원자로 14기 배치를 제안했다.",
   "summaryLong": "폴란드 바르샤바 소재의 개발·투자 회사 신타스 그린 에너지(Synthos Green Energy)가 영국에서 BWRX-300(비등경수로/BWR 기반 소형모듈원자로) 14기를 3개 다중 부지에 배치하는 사업을 발표했다. SGE가 이 영국 프로젝트를 위해 SGE SMR UK Limited라는 전담 법인을 설립했으며, 약 350억 파운드(GBP 35bn) 규모의 민간 자본 투자 유치를 검토하고 있는 것으로 전해졌다. 이는 영국의 에너지 안보와 탄소중립 목표 달성에 소형모듈원자로를 활용하려는 국제적 움직임의 일환으로 평가된다.",
@@ -925,20 +939,6 @@ window.SMR_NEWS = [
   "url": "https://www.ans.org/news/article-8183/polish-company-sge-hopes-to-deploy-14-bwrx300-reactors-in-uk/",
   "k": "polish company sge hopes to deploy 14 bwrx 300 reactors in u k american nuclear society ans",
   "id": "12bdd9e8"
- },
- {
-  "date": "2026-07-07",
-  "title": "ENTRA1 파트너십, 뉴스케일의 상용화 경로 강화",
-  "summary": "뉴스케일(NuScale)이 ENTRA1 파트너십을 통해 소형모듈원자로 상용 사업 추진을 가속화하고 있다.",
-  "summaryLong": "뉴스케일 파워(NuScale Power)가 ENTRA1(에너지 트랜지션 실행 파트너십) 협력을 통해 소형모듈원자로(SMR)의 상용화 경로를 강화하고 있다. 이 파트너십은 뉴스케일의 가압경수로(PWR) 기반 SMR 기술의 시장 진출을 지원하며, 미국 내 소형원자로 전개 계획의 중요한 협력 체계로 평가된다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "NuScale",
-  "region": "US",
-  "source": "theglobeandmail.com",
-  "url": "https://www.theglobeandmail.com/investing/markets/stocks/SMR/pressreleases/3164714/entra1-partnership-strengthens-nuscales-commercial-path/",
-  "k": "entra1 partnership strengthens nuscale s commercial path",
-  "id": "92eba822"
  },
  {
   "date": "2026-07-07",
@@ -1308,19 +1308,6 @@ window.SMR_NEWS = [
   "id": "5ac4cb01"
  },
  {
-  "date": "2026-05-29",
-  "title": "유타 그린리버 소형모듈원자로(SMR) 프로젝트 합작사 출범",
-  "summary": "Fulcrum Point Holdings과 Blue Castle Holdings이 홀텍(Holtec)의 소형모듈원자로(SMR)-300 기술을 이용한 유타(Utah)주 소형모듈원자로(SMR) 건설 프로젝트 추진을 위해 합작사를 설립했다.",
-  "cat": "계약",
-  "type": "PWR",
-  "dev": "Holtec",
-  "region": "US",
-  "source": "World Nuclear News",
-  "url": "https://www.world-nuclear-news.org/articles/nineteen-years-on-companies-team-up-for-us-new-build-project",
-  "summaryLong": "Fulcrum Point Holdings과 Blue Castle Holdings이 홀텍(Holtec)의 소형모듈원자로(SMR)-300 기술을 기반으로 미국 유타(Utah)주에서 소형모듈원자로(SMR) 건설 프로젝트를 추진하기 위해 합작사를 설립했다. 이 프로젝트는 그린리버 지역을 중심으로 진행될 예정이다. 홀텍(Holtec)의 소형모듈원자로(SMR)-300은 모듈화된 설계와 높은 안전성으로 주목받고 있다. 이러한 합작은 미국 내 소형모듈원자로(SMR) 상용화 노력이 단계적으로 진행되고 있음을 보여준다.",
-  "id": "d132fd23"
- },
- {
   "date": "2026-05-01",
   "title": "NRG 팔라스와 카이로스 파워, 첨단로 시험 협력 지속",
   "summary": "네덜란드 NRG 팔라스와 카이로스 파워가 첨단 원자로 시험에 대한 협력을 계속 진행한다.",
@@ -1375,5 +1362,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-11 08:42 KST";
-window.SMR_TOTAL = 1164;
+window.SMR_UPDATED = "2026-07-11 14:59 KST";
+window.SMR_TOTAL = 1169;

@@ -8,6 +8,21 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-07-11",
+    "title": "국제원자력기구(IAEA)·세계은행, SMR 개발 가속화 협력",
+    "summary": "국제원자력기구(IAEA)와 세계은행그룹(WBG)이 개발도상국의 원자력 에너지 지원을 위해 협력하며, 특히 소형모듈원자로(SMR) 개발 가속화를 3대 핵심 협력 분야 중 하나로 추진한다.",
+    "summaryLong": "국제원자력기구(IAEA)는 세계은행그룹(WBG)과 2025년 7월 체결한 파트너십 협정을 기반으로 개발도상국의 안전하고 책임감 있는 원자력 에너지 사용 지원에 나섰다고 밝혔다. 이 협력은 세계은행그룹이 오랜 중단 끝에 원자력 발전에 공식적으로 재관여하기 시작한 것으로, 국제 금융계 내 원자력에 대한 인식 변화를 나타낸다. 양 기구는 △세계은행그룹 내 원자력 관련 지식 강화 및 금융 의사결정 지원 △기존 원전의 장기 운영 지원 △소형모듈원자로(SMR) 개발 가속화 등 3대 핵심 협력 분야를 중심으로 협력을 진행하고 있으며, 이는 개발도상국의 에너지 접근성 확대에 기여할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "투데이에너지 - 전체기사",
+    "url": "https://www.todayenergy.kr/news/articleView.html?idxno=300274",
+    "k": "iaea 세계은행과 협력 개도국 원자력 에너지 사용 지원",
+    "ko": 1,
+    "id": "c1440ad0"
+  },
+  {
     "date": "2026-07-10",
     "title": "소형모듈원자로(SMR)·우주원전 상용화 지원 법제화 추진, 국가전략으로 격상",
     "summary": "국회에서 소형모듈원자로(SMR)와 차세대 원자력 기술의 상용화·수출을 국가 차원에서 지원하는 법안을 추진 중이다.",
@@ -270,6 +285,20 @@ window.SMR_NEWS = [
     "url": "https://azfreenews.com/2026/07/biggs-backs-palo-verde-expansion-pushes-arizona-to-lead-small-modular-reactor-development/",
     "k": "biggs backs palo verde expansion pushes arizona to lead small modular reactor development",
     "id": "a41b47e2"
+  },
+  {
+    "date": "2026-07-10",
+    "title": "홀텍 뉴클리어(Holtec Nuclear), 20억 달러 규모 IPO 신청",
+    "summary": "원자력 발전소 장비 공급업체 홀텍 뉴클리어가 약 20억 달러 규모의 기업공개(IPO)를 신청했다.",
+    "summaryLong": "원자력 발전소 장비 공급 전문 기업 홀텍 뉴클리어가 약 20억 달러 규모의 기업공개(IPO)를 신청했다. 홀텍은 소형모듈원자로(SMR) 등 첨단 원자력 기술 관련 부품·장비 공급자로서 신재생에너지 전환 및 탄소중립 실현 과정에서 핵심 역할을 담당할 것으로 예상된다. 이번 IPO는 원자력 산업의 성장 잠재력과 SMR·첨단로 시장에 대한 투자 관심이 높아지고 있음을 반영한다.",
+    "cat": "투자",
+    "type": "PWR",
+    "dev": "Holtec",
+    "region": "US",
+    "source": "renaissancecapital.com",
+    "url": "https://www.renaissancecapital.com/IPO-Center/News/120417/Nuclear-plant-equipment-provider-Holtec-Nuclear-files-for-an-estimated-$2.0",
+    "k": "hnuc ipo news nuclear plant equipment provider holtec nuclear files for an estimated 2 0 billion ipo",
+    "id": "fdb42d94"
   },
   {
     "date": "2026-07-09",
@@ -569,6 +598,21 @@ window.SMR_NEWS = [
     "id": "5a3ccb28"
   },
   {
+    "date": "2026-07-09",
+    "title": "외교부 정례 브리핑: \"SMR 협력, 한미 원자력협정 논의에 긍정적\"",
+    "summary": "외교부가 SMR 협력이 한미 원자력협정 개정 논의에 긍정적 영향을 미칠 것으로 전망했다.",
+    "summaryLong": "한국 외교부는 정례 브리핑에서 한·미·일의 소형모듈원자로(SMR) 협력이 한미 원자력협정 개정 논의에 긍정적 신호가 될 것으로 평가했다. 현재 한국과 미국 간 원자력협정은 한국의 핵연료 자체 개발을 제한하는 조항을 포함하고 있으며, SMR 협력 추진은 이러한 협정 개정 논의의 추진력으로 작용할 것으로 보인다. 이는 한국이 SMR 및 첨단로 개발에서 기술적·제도적 자율성을 확보하려는 노력의 일환으로 해석된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR|US",
+    "source": "djournal.co.kr",
+    "url": "https://www.djournal.co.kr/news/article.html?no=83647",
+    "k": "외교부 정례 브리핑 smr 협력 한미 원자력협정 논의에 긍정적 쿠팡 논란엔 차별 없다",
+    "ko": 1,
+    "id": "90aa5fb6"
+  },
+  {
     "date": "2026-07-08",
     "title": "한국원자력학회, \"반도체·AI 시대 신규 원전·SMR 즉시 건설\" 정책 제언",
     "summary": "한국원자력학회가 반도체와 AI 산업의 전력 수요 대응을 위해 신규 원전과 소형모듈원자로의 즉각적 건설을 정부에 제언했다.",
@@ -845,6 +889,22 @@ window.SMR_NEWS = [
     "k": "ai 전력난이 부른 원전 부활 부산 기장 smr 전력설비주에 쏠린 눈",
     "ko": 1,
     "id": "b0c173d1"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "한·미·일 SMR 수출동맹, 제3·4국 공동진출 검토",
+    "summary": "한·미·일이 SMR 수출동맹을 구성하고 제3, 4개국으로의 공동진출을 검토 중이다.",
+    "summaryLong": "한국, 미국, 일본이 소형모듈원자로(SMR) 수출을 위한 동맹을 구성하여 제3, 4개국으로의 공동진출을 검토하고 있다. 이는 글로벌 SMR 시장에서 3국의 영향력을 확대하고 기술 수출을 활성화하기 위한 전략이다. 공동진출 국가 선정과 구체적 추진 일정 등은 추가 논의가 진행될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "donga.com",
+    "url": "https://www.donga.com/news/Politics/article/all/20260709/134263751/2",
+    "k": "한미일 smr 수출동맹 3 4개국 공동진출 검토",
+    "ko": 1,
+    "op": 1,
+    "id": "9c22f71f"
   },
   {
     "date": "2026-07-07",
@@ -1163,6 +1223,21 @@ window.SMR_NEWS = [
     "k": "한 미 일 소형모듈원자로 smr 협력각서 moc 서명 글로벌 청정에너지 협력 새 이정표",
     "ko": 1,
     "id": "29e9f84e"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "미한일, 소형모듈원자로 도입 가속화 협력각서 서명",
+    "summary": "미국·한국·일본이 소형모듈원자로(SMR) 도입 가속화를 위한 협력각서(MOU)를 체결했다.",
+    "summaryLong": "미국·한국·일본이 소형모듈원자로(SMR) 도입을 가속화하기 위한 협력각서(MOU)를 정식 서명했다. 이 협력각서는 세 국가 간 SMR 기술·인허가·정책 공조를 강화하고 인태지역 시장 진출을 촉진하기 위한 틀을 마련한 것이다. 이는 글로벌 에너지 전환과 탄소중립 실현을 위한 핵심 기반이 될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US|KR|JP",
+    "source": "voakorea.com",
+    "url": "https://www.voakorea.com/a/8169162.html",
+    "k": "미한일 소형모듈원자로 도입 가속화 협력각서 서명",
+    "ko": 1,
+    "id": "93866d77"
   },
   {
     "date": "2026-07-06",
@@ -16752,4 +16827,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-11 08:42 KST";
+window.SMR_UPDATED = "2026-07-11 14:59 KST";
