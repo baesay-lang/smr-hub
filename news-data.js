@@ -1497,6 +1497,21 @@ window.SMR_NEWS = [
     "id": "ad5de94c"
   },
   {
+    "date": "2026-07-07",
+    "title": "한·미·일, 인도·태평양 지역 SMR 도입 가속화 협력 각서 체결",
+    "summary": "한국·미국·일본이 인도·태평양 지역 소형모듈원자로(SMR) 도입 가속화를 위한 협력 각서를 체결했다.",
+    "summaryLong": "한국, 미국, 일본 3국이 인도·태평양(Indo-Pacific) 지역 국가들의 소형모듈원자로(SMR) 도입 가속화를 추진하기 위한 협력 각서를 체결했다. 이는 SMR 공급 및 기술 협력을 위한 다자간 정책 차원의 양해로, 아시아·태평양 지역 원자력 에너지 확대 전략의 일환이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "chosun.com",
+    "url": "https://www.chosun.com/international/us/2026/07/08/CKT24OCWPRAHHIRE26HX33E3TY/",
+    "k": "한 미 일 인도 태평양 지역 smr 도입 가속화 협력 각서 체결",
+    "ko": 1,
+    "id": "40c2af51"
+  },
+  {
     "date": "2026-07-06",
     "title": "[사설] SMR 첫 삽, 기회로의 전환",
     "summary": "캐나다 온타리오(Ontario)주의 300MW급 소형모듈원자로(SMR) 4기 건설 착공을 계기로 SMR이 현실적 대안으로 자리 잡고 있으며, 국내 제조업체들의 포트폴리오 접근 전략을 평가하는 사설.",
@@ -17099,4 +17114,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-12 15:19 KST";
+window.SMR_UPDATED = "2026-07-12 15:44 KST";
