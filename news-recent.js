@@ -1,6 +1,67 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-07-12",
+  "title": "SK이노베이션, 테라파워와 소형모듈원자로 상용화 가속",
+  "summary": "SK이노베이션(SK Innovation)과 테라파워(TerraPower)가 소형모듈원자로(SMR) 상용화 협력을 가속화한다는 조선일보 보도.",
+  "summaryLong": "조선일보에 따르면 한국의 SK이노베이션(SK Innovation)과 미국의 테라파워(TerraPower)가 소형모듈원자로(SMR) 상용화를 위한 협력을 가속화하고 있다. 두 기업 간의 협력 강화는 글로벌 SMR 시장에서의 경쟁 심화 속에 한국 기업의 입지를 강화하는 의미가 있으며, 상용 배치 일정과 기술 협력 방식에 대한 구체적 진전이 예상된다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "SK Innovation / TerraPower",
+  "region": "KR",
+  "source": "chosun.com",
+  "url": "https://www.chosun.com/english/national-en/2026/07/13/56LCOKATNJE2BMAUTZNDS5H6SI/",
+  "k": "sk innovation terrapower accelerate smr commercialization",
+  "ko": 1,
+  "id": "cd3706af"
+ },
+ {
+  "date": "2026-07-12",
+  "title": "한미, SMR 협력 강화…핵잠·원자력 협력 2차 협의 일정 미정",
+  "summary": "한미가 소형모듈원자로(SMR) 협력을 강화했으나 핵잠함 및 원자력 협력 2차 협의 일정은 아직 결정되지 않았다.",
+  "summaryLong": "한미 간 소형모듈원자로(SMR) 분야 협력이 진전되는 가운데, 핵잠함 추진과 원자력 협력 관련 2차 협의 일정은 미정인 상태로 남아 있다. 한미 원자력 협력의 다층적 진전 속에서 SMR 부분은 진전이 있으나, 더 광범한 협력 틀의 다음 단계 일정은 조율 중인 것으로 보인다. 이는 양국 간 협력의 복잡성과 일정 조율의 어려움을 반영한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "US|KR",
+  "source": "v.daum.net",
+  "url": "https://v.daum.net/v/20260713060156084",
+  "k": "한미 smr 협력은 강화했는데 핵잠 원자력 협력 2차 협의 일정 아직",
+  "ko": 1,
+  "op": 1,
+  "id": "f7bfec67"
+ },
+ {
+  "date": "2026-07-12",
+  "title": "유럽연합(EU), SMR 2차 프로젝트 공모…2030년대 초 첫 가동 목표",
+  "summary": "유럽연합(EU)이 소형모듈원자로(SMR) 2차 프로젝트 공모에 나서며 2030년대 초 첫 가동을 속도내고 있다.",
+  "summaryLong": "유럽연합(EU)이 소형모듈원자로(SMR) 분야의 2차 프로젝트 공모를 개시했다. 이는 유럽 내 SMR 상용화 가속화를 위한 국책 사업으로, 2030년대 초 첫 가동이라는 구체적 목표를 제시하고 있다. EU의 이러한 움직임은 탄소중립 에너지 전환 전략과 에너지 안보 강화를 동시에 추진하는 차원의 정책이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "EU",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=4988",
+  "k": "eu smr 2차 프로젝트 공모 돌입 2030년대 초 첫 가동 속도",
+  "ko": 1,
+  "id": "c53865f5"
+ },
+ {
+  "date": "2026-07-12",
+  "title": "박상웅 의원, 'SMR 상용화 촉진법' 대표발의",
+  "summary": "박상웅 의원이 소형모듈원자로(SMR) 상용화를 촉진하는 법안을 대표발의했다.",
+  "summaryLong": "박상웅 의원이 소형모듈원자로(SMR) 상용화를 촉진하기 위한 법안을 대표발의했다. 이는 한국의 SMR 산업 육성을 위한 입법 추진으로, 정부 정책과 함께 국회 차원의 제도적 지원을 강화하려는 움직임이다. 이러한 법제화 노력은 SMR 개발사와 산업계의 규제 리스크 경감과 사업 확실성 제고를 목표로 한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "sisakorea.kr",
+  "url": "http://www.sisakorea.kr/96507",
+  "k": "박상웅 smr 상용화 촉진법 대표발의",
+  "ko": 1,
+  "id": "8897a635"
+ },
+ {
   "date": "2026-07-11",
   "title": "국제원자력기구(IAEA)·세계은행, SMR 개발 가속화 협력",
   "summary": "국제원자력기구(IAEA)와 세계은행그룹(WBG)이 개발도상국의 원자력 에너지 지원을 위해 협력하며, 특히 소형모듈원자로(SMR) 개발 가속화를 3대 핵심 협력 분야 중 하나로 추진한다.",
@@ -831,80 +892,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-08",
-  "title": "한·미·일 SMR 공동 수출 협업체계 구축, 삼성물산 핵심 협력사로 기대",
-  "summary": "한국, 미국, 일본이 소형모듈원자로의 공동 수출을 위한 협업체계를 구축하며 삼성물산이 핵심 협력사로 참여할 것으로 예상된다.",
-  "summaryLong": "한국, 미국, 일본의 소형모듈원자로(SMR) 협력각서에 따라 세 나라가 SMR의 공동 수출을 위한 협업체계를 구축하기로 했다. 협력 체계에는 기술 표준화, 규제 조화, 수출 지원 등이 포함되며, 한국의 삼성물산이 핵심 협력사로 참여할 것으로 기대된다. 이는 한국 원전 산업의 국제 경쟁력 강화와 SMR 시장 진출 확대에 긍정적 영향을 미칠 전망이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "businesspost.co.kr",
-  "url": "https://www.businesspost.co.kr/BP?command=article_view&num=441861",
-  "k": "한국 미국 일본 smr 공동 수출 협업체계 구축 삼성물산 핵심 협력사로 수혜 기대",
-  "ko": 1,
-  "op": 1,
-  "id": "5ee50c51"
- },
- {
-  "date": "2026-07-08",
-  "title": "서울·워싱턴·도쿄, 소형모듈원자로(SMR) 공동 원자로 사업용 협약 체결",
-  "summary": "한국·미국·일본이 소형모듈원자로 공동 프로젝트 추진을 위한 양해각서를 체결했다.",
-  "summaryLong": "한국·미국·일본 3국이 소형모듈원자로(SMR) 배치 및 공동 원자로 사업 협력을 위한 양해각서(MOU)를 체결했다. 이는 SMR 기술 개발 및 상용화 촉진을 위한 국제 협력 체계를 구축하려는 정부 차원의 전략적 파트너십이다.",
-  "cat": "계약",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "koreajoongangdaily.com",
-  "url": "https://www.koreajoongangdaily.com/korea/seoul-washington-and-tokyo-sign-smr-pact-for-joint-reactor-projects/12761566",
-  "k": "seoul washington and tokyo sign smr pact for joint reactor projects",
-  "id": "89ad3fec"
- },
- {
-  "date": "2026-07-08",
-  "title": "한미일 외교장관, NATO 계기 회담에서 SMR 협력각서 체결",
-  "summary": "한국, 미국, 일본의 외교장관들이 NATO 외교회담 계기에 SMR 협력각서를 체결했다.",
-  "summaryLong": "한국, 미국, 일본의 외교장관들이 NATO(북대서양조약기구) 계기 다자 회담에서 소형모듈원자로(SMR) 협력각서(MOU)를 체결했다. 이는 3국의 SMR 수출 전략과 인도·태평양 지역 공급 네트워크 구축을 위한 공식 양해각서로, 글로벌 청정에너지 협력의 새로운 이정표가 되었다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "ichannela.com",
-  "url": "https://ichannela.com/news/detail/000000538545.do",
-  "k": "한미일 외교장관 nato 계기 회담 smr 협력각서 체결",
-  "ko": 1,
-  "id": "08766632"
- },
- {
-  "date": "2026-07-08",
-  "title": "한·미·일, SMR 수출 동맹 구축…AI 시대 전력시장 정조준",
-  "summary": "한국·미국·일본이 소형 모듈 원자로(SMR)의 해외 수출을 위한 협력 동맹을 출범시키고 인공지능(AI) 시대 글로벌 전력시장을 겨냥한다.",
-  "summaryLong": "한국·미국·일본 삼국이 소형 모듈 원자로(SMR)의 국제 시장 진출을 위한 정부 간 협력체계를 새로이 구축했다. 이는 인공지능(AI) 데이터센터 등 신규 전력수요 증가에 대응하는 전략으로, 인태 지역 시장을 주요 목표로 삼고 있다. 세 나라의 정부·기업·기관이 함께 기술 표준화, 규제 협력, 시장 진출 전략을 추진할 계획이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "ajunews.com",
-  "url": "https://www.ajunews.com/view/20260708090808439",
-  "k": "한미일 smr 수출 동맹 띄웠다 ai 시대 전력시장 정조준",
-  "ko": 1,
-  "id": "c9d57a6c"
- },
- {
-  "date": "2026-07-08",
-  "title": "오클로, 규제 승인 획득... 투자자들 밸류에이션 평가",
-  "summary": "오클로(Oklo)가 규제 당국으로부터 주요 승인을 획득했으며, 투자자들이 회사 밸류에이션을 평가하고 있다.",
-  "summaryLong": "오클로가 규제 당국으로부터 중요한 규제 승인(regulatory win)을 획득한 것으로 보도되었다. 이는 회사의 실제 사업 진전을 보여주는 인허가 소식에 해당한다. 동시에 투자 시장에서 회사의 밸류에이션을 평가하는 움직임이 나타나고 있으나, 기사의 핵심은 규제 승인이라는 실질적 사건이다.",
-  "cat": "인허가",
-  "type": "SFR",
-  "dev": "오클로",
-  "region": "US",
-  "source": "finance.yahoo.com",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-oklo-gains-regulatory-win-161535514.html",
-  "k": "oklo oklo gains a regulatory win as investors weigh its valuation",
-  "id": "15c26309"
- },
- {
-  "date": "2026-07-08",
   "title": "팰리세이즈 재가동 프로젝트·홀텍 IPO·소송 기각, 하지만 재가동 일정 미정",
   "summary": "홀텍 인터내셔널(Holtec International)의 팰리세이즈(Palisades) 원전 재가동 사업이 대규모 프로젝트 단계를 마치고 소규모 활동으로 전환했으나 구체적인 재가동 일정은 아직 공개되지 않았다.",
   "summaryLong": "미시간주 코버트(Covert)의 팰리세이즈 원전(2022년 폐지)의 재가동을 추진 중인 홀텍 인터내셔널이 지난주 대규모 프로젝트 단계를 완료하고 소규모 활동으로 전환했다고 발표했다. 회사의 IPO 추진과 관련 소송 기각 등의 진전이 있었으나, 공식적인 재가동 시작 일정은 여전히 발표되지 않은 상태다. 이는 재가동 프로젝트가 계속 진행 중임을 보여주지만 일정 불확실성을 시사한다.",
@@ -1382,5 +1369,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-12 16:19 KST";
-window.SMR_TOTAL = 1192;
+window.SMR_UPDATED = "2026-07-13 07:28 KST";
+window.SMR_TOTAL = 1198;
