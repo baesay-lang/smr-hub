@@ -69,6 +69,37 @@ window.SMR_NEWS = [
     "id": "8897a635"
   },
   {
+    "date": "2026-07-12",
+    "title": "4년 전 미국(US) 테라파워(TerraPower) 투자, 소형모듈원자로(SMR) 상용화 가속",
+    "summary": "조선일보가 과거의 테라파워 투자가 현재 소형모듈원자로 상용화를 가속화하는 효과를 분석한 기사.",
+    "summaryLong": "조선일보는 4년 전에 이루어진 미국(US)의 테라파워(TerraPower)에 대한 투자가 현재 소형모듈원자로(SMR)의 상용화 속도에 미치는 긍정적 영향을 보도했다. 이는 테라파워라는 개발사의 사업 진전 또는 투자 실적과 관련된 뉴스로, SMR 산업의 발전 추세를 다루는 보도이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "chosun.com",
+    "url": "https://www.chosun.com/special/special_section/2026/07/13/4D7TZKGIVZDQPCUI4YWHTXKO7U/",
+    "k": "4년전 테라파워 투자 smr 상용화 속도",
+    "ko": 1,
+    "id": "e5e13902"
+  },
+  {
+    "date": "2026-07-12",
+    "title": "EU(유럽연합) SMR 2차 공모, 한국 원전산업의 기회와 과제",
+    "summary": "EU의 소형모듈원자로(SMR) 2차 공모가 한국 원전산업에 미치는 영향을 분석한 기고문.",
+    "summaryLong": "유럽연합(EU)의 SMR 개발 지원 프로그램 2차 공모를 둘러싼 한국 원전산업의 기회 요인과 제약 요인을 검토한 평론 기사이다. EU의 SMR 공모는 글로벌 소형모듈원자로 시장 확대의 신호이지만, 한국 기업들이 참여할 때의 경제성·기술 경쟁력·규제 승인 일정 등이 중요한 변수가 될 수 있음을 제시한다. SMR 수출을 국가 에너지 정책의 핵심 과제로 보는 맥락에서 EU 시장 진입 전략을 검토하는 내용으로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "EU",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=4990",
+    "k": "eu smr 2차 공모 한국 원전산업에 열린 문인가 좁아진 문인가",
+    "ko": 1,
+    "op": 1,
+    "id": "c7362a84"
+  },
+  {
     "date": "2026-07-11",
     "title": "국제원자력기구(IAEA)·세계은행, SMR 개발 가속화 협력",
     "summary": "국제원자력기구(IAEA)와 세계은행그룹(WBG)이 개발도상국의 원자력 에너지 지원을 위해 협력하며, 특히 소형모듈원자로(SMR) 개발 가속화를 3대 핵심 협력 분야 중 하나로 추진한다.",
@@ -112,6 +143,20 @@ window.SMR_NEWS = [
     "k": "대우건설의 새 좌표 lng 원전 smr 에너지 삼각편대",
     "ko": 1,
     "id": "d29a80c8"
+  },
+  {
+    "date": "2026-07-11",
+    "title": "뉴스케일(NuScale), 지연과 약한 실적으로 7.4% 하락",
+    "summary": "뉴스케일(NuScale)의 프로젝트 지연과 확정 계약 부재로 주가가 7.4% 하락했다는 보도.",
+    "summaryLong": "뉴스케일(NuScale)의 소형모듈원자로(SMR) 사업이 지연되고 실적이 부진하며 확정된 계약이 없다는 점으로 인해 주가가 7.4% 하락했다고 보도된 기사로, 회사의 사업 진행 상황과 계약 현황에 대한 실질적 소식에 해당한다.",
+    "cat": "계약",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/why-nuscale-power-smr-down-150821532.html",
+    "k": "why nuscale power smr is down 7 4 after mounting delays weak results and no firm contracts",
+    "id": "a571edbd"
   },
   {
     "date": "2026-07-10",
@@ -1662,6 +1707,36 @@ window.SMR_NEWS = [
     "k": "한미일 인태지역 국가에 smr 도입 가속화 협력각서 서명",
     "ko": 1,
     "id": "9f034732"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "한·미·일, 인도-태평양 지역 SMR 도입 가속화 협력각서 체결",
+    "summary": "한국, 미국, 일본이 인도-태평양 지역의 소형모듈원자로 도입을 지원하기 위한 협력각서를 체결했다.",
+    "summaryLong": "한국·미국·일본 3개국이 인도-태평양 지역 국가들의 소형모듈원자로(SMR) 도입을 촉진하기 위한 협력각서(MOU)를 체결했다. 이는 지역의 에너지 안보와 탄소중립 목표를 지원하면서 동시에 한·미·일의 원자력 기술과 산업을 수출하려는 전략적 협력이다. 협력 범위는 SMR 도입 가능성 검토, 기술·인적자원 지원, 규제 프레임워크 구축 등을 포함한다. 이 협력각서는 인도-태평양 지역에서 중국의 원자력 영향력 확대에 대응하는 의도도 담고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260708043415395",
+    "k": "한미일 인도 태평양 지역 소형모듈원자로 smr 도입 가속화 협력각서 체결",
+    "ko": 1,
+    "id": "bac57d65"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "한·미·일 외교장관, 인도-태평양 SMR 배치 가속화 협력각서 서명",
+    "summary": "한국, 미국, 일본 외교장관이 인도-태평양 지역의 소형모듈원자로 배치 가속화를 위한 협력각서에 서명했다.",
+    "summaryLong": "한국·미국·일본 3개국의 외교장관들이 인도-태평양 지역에 소형모듈원자로(SMR)를 배치·확산하기 위한 협력각서를 공식 서명했다. 외교 수준에서 체결된 이 각서는 지역의 에너지 안보, 탄소 감축, 경제 발전을 목표로 하며, SMR 도입 검토, 기술 이전, 규제 협력, 인력 양성 등을 포함한다. 3개국의 정부 간 합의로서 향후 구체적인 협력 프로젝트 진행을 위한 법적·정책적 기초를 마련하는 의미를 갖는다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "kaaanews.or.kr",
+    "url": "https://kaaanews.or.kr/news/view.php?idx=9696",
+    "k": "한미일 외교장관 인도 태평양 smr 배치 가속화 협력각서 서명",
+    "ko": 1,
+    "id": "ff49d748"
   },
   {
     "date": "2026-07-06",
@@ -17266,4 +17341,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-13 07:28 KST";
+window.SMR_UPDATED = "2026-07-13 08:01 KST";

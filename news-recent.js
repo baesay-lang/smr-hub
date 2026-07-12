@@ -62,6 +62,37 @@ window.SMR_NEWS = [
   "id": "8897a635"
  },
  {
+  "date": "2026-07-12",
+  "title": "4년 전 미국(US) 테라파워(TerraPower) 투자, 소형모듈원자로(SMR) 상용화 가속",
+  "summary": "조선일보가 과거의 테라파워 투자가 현재 소형모듈원자로 상용화를 가속화하는 효과를 분석한 기사.",
+  "summaryLong": "조선일보는 4년 전에 이루어진 미국(US)의 테라파워(TerraPower)에 대한 투자가 현재 소형모듈원자로(SMR)의 상용화 속도에 미치는 긍정적 영향을 보도했다. 이는 테라파워라는 개발사의 사업 진전 또는 투자 실적과 관련된 뉴스로, SMR 산업의 발전 추세를 다루는 보도이다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "US",
+  "source": "chosun.com",
+  "url": "https://www.chosun.com/special/special_section/2026/07/13/4D7TZKGIVZDQPCUI4YWHTXKO7U/",
+  "k": "4년전 테라파워 투자 smr 상용화 속도",
+  "ko": 1,
+  "id": "e5e13902"
+ },
+ {
+  "date": "2026-07-12",
+  "title": "EU(유럽연합) SMR 2차 공모, 한국 원전산업의 기회와 과제",
+  "summary": "EU의 소형모듈원자로(SMR) 2차 공모가 한국 원전산업에 미치는 영향을 분석한 기고문.",
+  "summaryLong": "유럽연합(EU)의 SMR 개발 지원 프로그램 2차 공모를 둘러싼 한국 원전산업의 기회 요인과 제약 요인을 검토한 평론 기사이다. EU의 SMR 공모는 글로벌 소형모듈원자로 시장 확대의 신호이지만, 한국 기업들이 참여할 때의 경제성·기술 경쟁력·규제 승인 일정 등이 중요한 변수가 될 수 있음을 제시한다. SMR 수출을 국가 에너지 정책의 핵심 과제로 보는 맥락에서 EU 시장 진입 전략을 검토하는 내용으로 보인다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "EU",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=4990",
+  "k": "eu smr 2차 공모 한국 원전산업에 열린 문인가 좁아진 문인가",
+  "ko": 1,
+  "op": 1,
+  "id": "c7362a84"
+ },
+ {
   "date": "2026-07-11",
   "title": "국제원자력기구(IAEA)·세계은행, SMR 개발 가속화 협력",
   "summary": "국제원자력기구(IAEA)와 세계은행그룹(WBG)이 개발도상국의 원자력 에너지 지원을 위해 협력하며, 특히 소형모듈원자로(SMR) 개발 가속화를 3대 핵심 협력 분야 중 하나로 추진한다.",
@@ -105,6 +136,20 @@ window.SMR_NEWS = [
   "k": "대우건설의 새 좌표 lng 원전 smr 에너지 삼각편대",
   "ko": 1,
   "id": "d29a80c8"
+ },
+ {
+  "date": "2026-07-11",
+  "title": "뉴스케일(NuScale), 지연과 약한 실적으로 7.4% 하락",
+  "summary": "뉴스케일(NuScale)의 프로젝트 지연과 확정 계약 부재로 주가가 7.4% 하락했다는 보도.",
+  "summaryLong": "뉴스케일(NuScale)의 소형모듈원자로(SMR) 사업이 지연되고 실적이 부진하며 확정된 계약이 없다는 점으로 인해 주가가 7.4% 하락했다고 보도된 기사로, 회사의 사업 진행 상황과 계약 현황에 대한 실질적 소식에 해당한다.",
+  "cat": "계약",
+  "type": "PWR",
+  "dev": "NuScale",
+  "region": "US",
+  "source": "finance.yahoo.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/why-nuscale-power-smr-down-150821532.html",
+  "k": "why nuscale power smr is down 7 4 after mounting delays weak results and no firm contracts",
+  "id": "a571edbd"
  },
  {
   "date": "2026-07-10",
@@ -849,49 +894,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-08",
-  "title": "미국·일본·한국, 소형모듈원자로(SMR) 배포 삼국 협력 양해각서 체결",
-  "summary": "미국, 일본, 한국 세 국가가 제3국, 특히 인도태평양 지역에서의 소형모듈원자로(SMR) 배포 가속화를 위한 삼국 협력 양해각서를 체결했다.",
-  "summaryLong": "미국, 일본, 한국은 소형모듈원자로(SMR)의 해외 배포를 가속화하기 위한 삼국 협력 협약에 서명했다. 이 양해각서는 초기 단계로 인도태평양(Indo-Pacific) 지역을 중심으로 한 SMR 배치 및 기술 협력을 추진하기 위한 것이다. 이는 SMR 시장 확대 및 글로벌 원자력 정책 강화를 의도한 국책 수준의 정책 협력으로, 향후 국제 SMR 배포 사업 추진의 토대가 될 것으로 예상된다.",
-  "cat": "계약",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "World Nuclear News",
-  "url": "https://www.world-nuclear-news.org/articles/trilateral-cooperation-agreement-on-smr-deployment",
-  "k": "trilateral cooperation agreement on smr deployment",
-  "id": "f1dc3823"
- },
- {
-  "date": "2026-07-08",
-  "title": "미국 기업 마이트너 에너지(Meitner Energy), 아르헨티나 소형모듈원자로 계획 제시",
-  "summary": "미국 기업 마이트너 에너지(Meitner Energy)가 아르헨티나(Argentina)를 대상으로 소형모듈원자로(SMR) 배치 계획을 제시했다.",
-  "summaryLong": "미국 기업 마이트너 에너지(Meitner Energy)는 아르헨티나(Argentina)를 대상으로 소형모듈원자로(SMR) 배치 방안을 제안했다. 이는 선진국 중심의 SMR 개발에서 벗어나 신흥 에너지 시장 국가로의 SMR 수출·보급을 추진하는 사례로, 글로벌 SMR 시장 확대 및 국제 에너지 협력의 일환이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "Meitner Energy",
-  "region": "US",
-  "source": "nucnet.org",
-  "url": "https://www.nucnet.org/news/us-based-meitner-energy-presents-small-modular-reactor-plan-for-argentina-7-3-2026",
-  "k": "us based meitner energy presents small modular reactor plan for argentina",
-  "op": 1,
-  "id": "888f8807"
- },
- {
-  "date": "2026-07-08",
-  "title": "루비오 국무장관, 한·미·일 소형모듈원자로 협력 양해각서 서명식 참석",
-  "summary": "루비오 미국 국무장관이 일본·한국 외교장관과 함께 SMR 협력 양해각서 서명식에 참석했다.",
-  "summaryLong": "마르코 루비오(Marco Rubio) 미국 국무장관이 일본 외교장관 및 한국 외교장관과 함께 소형모듈원자로(SMR) 협력 양해각서(MOU) 서명식에 참석했다. 미국 중국 주재 대사관이 공식 발표한 이번 행사는 한·미·일 삼국의 SMR 기술 협력 및 공동 개발·수출 전략을 강화하는 정부 간 합의를 의미한다. 이는 전략적 핵심 기술로서 SMR의 중요성을 보여주는 외교적 신호이며, 향후 삼국 간 원자력 협력 체계의 기초가 될 것으로 예상된다.",
-  "cat": "계약",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "china.usembassy-china.org.cn",
-  "url": "https://china.usembassy-china.org.cn/secretary-rubio-with-japanese-foreign-minister-and-korea-foreign-minister-at-a-small-modular-reactor-memorandum-of-cooperation-signing-ceremony/",
-  "k": "secretary rubio with japanese foreign minister and korea foreign minister at a small modular reactor memorandum of cooperation signing ceremony",
-  "id": "ca389b5d"
- },
- {
-  "date": "2026-07-08",
   "title": "팰리세이즈 재가동 프로젝트·홀텍 IPO·소송 기각, 하지만 재가동 일정 미정",
   "summary": "홀텍 인터내셔널(Holtec International)의 팰리세이즈(Palisades) 원전 재가동 사업이 대규모 프로젝트 단계를 마치고 소규모 활동으로 전환했으나 구체적인 재가동 일정은 아직 공개되지 않았다.",
   "summaryLong": "미시간주 코버트(Covert)의 팰리세이즈 원전(2022년 폐지)의 재가동을 추진 중인 홀텍 인터내셔널이 지난주 대규모 프로젝트 단계를 완료하고 소규모 활동으로 전환했다고 발표했다. 회사의 IPO 추진과 관련 소송 기각 등의 진전이 있었으나, 공식적인 재가동 시작 일정은 여전히 발표되지 않은 상태다. 이는 재가동 프로젝트가 계속 진행 중임을 보여주지만 일정 불확실성을 시사한다.",
@@ -1231,20 +1233,6 @@ window.SMR_NEWS = [
   "id": "b6a13d20"
  },
  {
-  "date": "2026-06-18",
-  "title": "뉴스케일 파워(NuScale), 주요 안전 계약 체결로 SMR 주가 변동",
-  "summary": "뉴스케일 파워(NuScale)가 핵심 안전 관련 계약을 체결하면서 SMR(소형모듈원자로) 주가가 변동했다.",
-  "summaryLong": "스톡스투트레이드(StocksToTrade) 보도에 따르면 뉴스케일 파워(NuScale)가 주요 안전 계약(Key Safety Deal)을 체결했고, 이 소식이 NYSE SMR 티커의 주가에 변동을 가져왔다. 뉴스케일의 가압경수로(PWR) 기반 소형모듈원자로 기술 상용화 과정에서 안전 관련 계약 체결은 규제 협력과 기술 신뢰도를 높이는 중요한 진전으로 평가된다. 이는 회사의 상용화 일정과 비용 관리의 성공 가능성에 대한 시장의 신호를 반영하고 있다.",
-  "cat": "계약",
-  "type": "PWR",
-  "dev": "NuScale",
-  "region": "US",
-  "source": "stockstotrade.com",
-  "url": "https://stockstotrade.com/news/nuscale-power-corporation-smr-news-2026_06_18/",
-  "k": "smr stock whipsaws as nuscale books key safety deal",
-  "id": "1bab7714"
- },
- {
   "date": "2026-06-17",
   "title": "태웅, 테라파워(TerraPower) 나트륨(Natrium) SMR 주기기 부품 수주",
   "summary": "국내 원전 부품 전문기업 태웅이 빌 게이츠 설립 미국 테라파워사의 4세대 소형모듈원자로(SMR) 나트륨 프로젝트에 주기기 핵심부품을 공급하는 계약을 체결했다.",
@@ -1369,5 +1357,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-13 07:28 KST";
-window.SMR_TOTAL = 1198;
+window.SMR_UPDATED = "2026-07-13 08:01 KST";
+window.SMR_TOTAL = 1203;
