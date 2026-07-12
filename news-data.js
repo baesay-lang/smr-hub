@@ -100,6 +100,21 @@ window.SMR_NEWS = [
     "id": "c7362a84"
   },
   {
+    "date": "2026-07-12",
+    "title": "홀텍뉴클리어(Holtec), 소형모듈원자로(SMR) 개발 기업으로 나스닥 상장 신청",
+    "summary": "홀텍뉴클리어(Holtec)가 소형모듈원자로(SMR) 개발 사업으로 미국 나스닥 상장을 신청했다.",
+    "summaryLong": "미국의 소형모듈원자로(SMR) 개발 업체 홀텍뉴클리어(Holtec)가 나스닥 상장을 신청. 이는 업체의 자금 조달과 기업 공개를 통한 사업 확대를 의미하며, SMR 분야의 투자 활성화를 반영하는 움직임.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Holtec",
+    "region": "US",
+    "source": "news.nate.com",
+    "url": "https://news.nate.com/view/20260713n03741",
+    "k": "미국 특징주 smr 개발 홀텍뉴클리어 나스닥 상장 신청",
+    "ko": 1,
+    "id": "e088196d"
+  },
+  {
     "date": "2026-07-11",
     "title": "국제원자력기구(IAEA)·세계은행, SMR 개발 가속화 협력",
     "summary": "국제원자력기구(IAEA)와 세계은행그룹(WBG)이 개발도상국의 원자력 에너지 지원을 위해 협력하며, 특히 소형모듈원자로(SMR) 개발 가속화를 3대 핵심 협력 분야 중 하나로 추진한다.",
@@ -1269,6 +1284,21 @@ window.SMR_NEWS = [
     "k": "한미일 인태 지역 smr 공급망 협력 개시 대북 공조도 재확인",
     "ko": 1,
     "id": "fc3e8949"
+  },
+  {
+    "date": "2026-07-08",
+    "title": "한·미·일, 인도·태평양 국가들의 소형모듈원자로(SMR) 도입 지원 양해각서(MOU) 체결",
+    "summary": "한국·미국·일본이 인도·태평양 지역 국가들의 소형모듈원자로(SMR) 도입을 지원하기 위한 양해각서(MOU)를 체결했다.",
+    "summaryLong": "한국, 미국, 일본 3개국이 인도·태평양(Indo-Pacific) 지역 국가들의 소형모듈원자로(SMR) 도입과 기술 이전을 지원하기 위한 양해각서(MOU)를 체결. 이는 해당 지역의 에너지 안보와 기후 목표 달성을 위한 삼국 협력 체계를 구축하는 것으로, SMR의 국제적 보급 확대를 위한 정책적 기반을 마련하는 의미 있는 진전.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "hani.co.kr",
+    "url": "https://www.hani.co.kr/arti/politics/politics_general/1267214.html",
+    "k": "한 미 일 인도 태평양 국가들 소형모듈원자로 도입 지원 mou",
+    "ko": 1,
+    "id": "5e4b4f85"
   },
   {
     "date": "2026-07-07",
@@ -17341,4 +17371,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-13 08:01 KST";
+window.SMR_UPDATED = "2026-07-13 08:38 KST";

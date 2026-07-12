@@ -93,6 +93,21 @@ window.SMR_NEWS = [
   "id": "c7362a84"
  },
  {
+  "date": "2026-07-12",
+  "title": "홀텍뉴클리어(Holtec), 소형모듈원자로(SMR) 개발 기업으로 나스닥 상장 신청",
+  "summary": "홀텍뉴클리어(Holtec)가 소형모듈원자로(SMR) 개발 사업으로 미국 나스닥 상장을 신청했다.",
+  "summaryLong": "미국의 소형모듈원자로(SMR) 개발 업체 홀텍뉴클리어(Holtec)가 나스닥 상장을 신청. 이는 업체의 자금 조달과 기업 공개를 통한 사업 확대를 의미하며, SMR 분야의 투자 활성화를 반영하는 움직임.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "Holtec",
+  "region": "US",
+  "source": "news.nate.com",
+  "url": "https://news.nate.com/view/20260713n03741",
+  "k": "미국 특징주 smr 개발 홀텍뉴클리어 나스닥 상장 신청",
+  "ko": 1,
+  "id": "e088196d"
+ },
+ {
   "date": "2026-07-11",
   "title": "국제원자력기구(IAEA)·세계은행, SMR 개발 가속화 협력",
   "summary": "국제원자력기구(IAEA)와 세계은행그룹(WBG)이 개발도상국의 원자력 에너지 지원을 위해 협력하며, 특히 소형모듈원자로(SMR) 개발 가속화를 3대 핵심 협력 분야 중 하나로 추진한다.",
@@ -1357,5 +1372,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-13 08:01 KST";
-window.SMR_TOTAL = 1203;
+window.SMR_UPDATED = "2026-07-13 08:38 KST";
+window.SMR_TOTAL = 1205;
