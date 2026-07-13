@@ -1,6 +1,6 @@
 {
-  "version": "2.5.0",
+  "version": "2.5.1",
   "date": "2026-07-10",
   "url": "https://baesay-lang.github.io/smr-hub/downloads/work-calendar_latest.zip",
-  "notes": "되돌리기(↩) 추가 — 모든 편집을 최근 20단계까지 취소 가능"
+  "notes": "블록 위/아래 모서리 드래그로 시간 조절 개선 (양방향 리사이즈, 핸들 확대)"
 }
