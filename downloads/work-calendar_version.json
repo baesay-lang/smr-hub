@@ -1,6 +1,6 @@
 {
-  "version": "3.0.1",
+  "version": "3.0.2",
   "date": "2026-07-13",
   "url": "https://baesay-lang.github.io/smr-hub/downloads/work-calendar_latest.zip",
-  "notes": "Excel 보고서 생성 시 파일이 즉시 Excel로 열림"
+  "notes": "툴바 정돈 — 버튼 높이·서체·테두리 통일, 중복 화살표 제거, 균등 폭"
 }
