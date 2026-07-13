@@ -415,6 +415,111 @@ window.SMR_NEWS = [
     "id": "85dae1ba"
   },
   {
+    "date": "2026-07-13",
+    "title": "사이즈웰 B, 20년 수명 연장; 세계 곳곳에서 SMR 협약 체결",
+    "summary": "영국 사이즈웰 B 원전이 20년 수명 연장을 획득하였고, 전 세계적으로 소형모듈원자로(SMR) 협약이 체결되고 있다.",
+    "summaryLong": "미국 핵학회(American Nuclear Society, ANS)에서 영국의 사이즈웰 B(Sizewell B) 기존 원전의 20년 수명 연장 승인과 함께 전 세계 곳곳에서 소형모듈원자로(SMR) 관련 협약들이 체결되고 있음을 종합 보도하는 기사이다. 사이즈웰 B의 수명 연장은 영국 규제 인허가 측면의 성과이며, 동시에 전 지구적 규모로 SMR 개발에 관련한 여러 계약과 협력 협약이 진행 중임을 시사한다. 이는 SMR 산업의 활성화 추세를 보여주는 다층적 뉴스이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "UK",
+    "source": "ans.org",
+    "url": "https://www.ans.org/news/article-8197/sizewell-b-gets-20year-life-extension-smr-agreements-signed-around-the-world/",
+    "k": "sizewell b gets 20 year life extension smr agreements signed around the world american nuclear society ans",
+    "id": "4a1a4b4c"
+  },
+  {
+    "date": "2026-07-13",
+    "title": "영국 시즈웰B 20년 연장…글로벌 SMR 원전 러시 본격화",
+    "summary": "영국이 시즈웰B(Sizewell B) 원전의 운영 기간을 20년 연장하며 세계적 SMR 건설 붐이 시작되고 있다.",
+    "summaryLong": "영국(UK)이 시즈웰B 원전의 운영 기간을 20년 연장하는 결정을 내렸으며, 이는 기존 대형 원전과 SMR(소형모듈원자로) 병행 전략의 일환으로 평가된다. 이를 계기로 전 세계적으로 SMR 건설 붐이 본격화되는 추세를 보이고 있으며, 선진국들의 탄소중립 실현과 에너지 안보 강화 목표가 반영되고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "UK",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5011",
+    "k": "시즈웰b 20년 연장 전 세계 smr 원전 러시 본격화",
+    "ko": 1,
+    "id": "94e4bacd"
+  },
+  {
+    "date": "2026-07-13",
+    "title": "신규 원전·SMR 추가 건설 공식화…12차 전기본에 반영 예정",
+    "summary": "한국 정부가 신규 원전과 SMR 추가 건설을 공식화하고 공론화 거쳐 12차 전력수급기본계획에 반영하기로 했다.",
+    "summaryLong": "한국 정부가 신규 원전과 SMR(소형모듈원자로)의 추가 건설 추진을 공식화했으며, 이를 공론화 절차를 거쳐 제12차 전력수급기본계획(12차 전기본)에 반영할 예정이다. 이는 탄소중립 목표 달성과 에너지 안보 강화를 위한 정부의 장기 에너지 정책 전환을 나타내는 주요 결정이며, 원자력의 전략적 역할을 강화하는 기조를 드러내고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260713185756509",
+    "k": "신규 원전 smr 추가 건설 공식화 공론화 거쳐 12차 전기본 반영",
+    "ko": 1,
+    "id": "a00ab8eb"
+  },
+  {
+    "date": "2026-07-13",
+    "title": "경남도, SMR 특별법 개정안 발의 환영",
+    "summary": "경상남도가 소형모듈원자로 특별법 개정안 발의를 환영하며 연구개발을 넘어 산업 육성 기반 마련을 기대하고 있다.",
+    "summaryLong": "경상남도는 소형모듈원자로(SMR) 관련 특별법 개정안이 발의된 것을 환영한다는 입장을 밝혔다. 기존 연구개발 중심의 정책에서 벗어나 산업 육성을 위한 제도적 기반을 마련하려는 의도가 담겨 있다. 이는 SMR 산업이 실제 수주·건설·운영으로 진전되기 위한 법적·제도적 토대를 구축하려는 정부 정책의 진화를 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "thegnnews.com",
+    "url": "https://thegnnews.com/View.aspx?No=4147751",
+    "k": "경남도 smr 특별법 개정안 발의 환영 연구개발 넘어 산업육성 기반 마련 기대",
+    "ko": 1,
+    "id": "02e654bc"
+  },
+  {
+    "date": "2026-07-13",
+    "title": "SMR 특별법, 원자로 도면을 수주로 연결",
+    "summary": "소형모듈원자로 특별법이 설계·개발 단계를 넘어 실제 수주·계약으로 이어지는 산업화를 지원하는 역할을 한다.",
+    "summaryLong": "소형모듈원자로(SMR) 특별법의 역할이 기초 연구와 기술 개발 단계를 넘어 실질적인 수주 획득 및 상용화까지 연결하는 데 있음을 강조하는 보도다. 도면 작성(설계)에서 수주(계약)로의 산업 가치사슬 연결이 정책의 핵심 목표임을 나타낸다. 이는 SMR이 단순한 R&D 프로젝트에서 실제 사업으로 진전되기 위한 제도적 지원의 중요성을 강조한다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "newsroad.co.kr",
+    "url": "http://www.newsroad.co.kr/news/articleView.html?idxno=61500",
+    "k": "smr 특별법 원자로 도면을 수주로 잇다",
+    "ko": 1,
+    "id": "dfc9f589"
+  },
+  {
+    "date": "2026-07-13",
+    "title": "신규 원전·SMR 추가 건설 검토, 2040년 50GW 전력 대응",
+    "summary": "정부가 신규 원전과 SMR의 추가 건설을 검토하여 2040년 50GW의 추가 전력 수요에 대응할 방침을 밝혔다.",
+    "summaryLong": "정부가 신규 대형 원전과 소형모듈원자로(SMR)의 추가 건설 방안을 검토 중이며, 2040년경 필요한 약 50GW의 추가 전력을 이들 원자력 시설로 대응할 계획을 제시했다. 이는 탄소중립과 에너지 안보를 동시에 달성하기 위한 정책 추진 의지를 보여주는 것으로, 향후 구체적 인허가·투자 계획이 뒤따를 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "pinpointnews.co.kr",
+    "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=468059",
+    "k": "신규 원전 smr 추가 건설 검토 2040년 50gw 추가 전력 대응",
+    "ko": 1,
+    "op": 1,
+    "id": "29d8d9af"
+  },
+  {
+    "date": "2026-07-13",
+    "title": "허성무 의원, SMR 산업 생태계 지원 확대 법안 발의",
+    "summary": "허성무 의원이 SMR 산업 생태계 지원을 확대하는 법안을 발의했다.",
+    "summaryLong": "허성무 의원이 SMR 산업의 육성과 지원 체계를 강화하기 위한 관련 법안을 국회에 발의했다. 이 법안은 SMR 기술 개발, 인프라 구축, 산업 생태계 조성 등을 포괄적으로 지원하려는 정책 의지를 반영하며, 향후 입법화될 경우 한국의 SMR 산업 경쟁력 강화에 기여할 것으로 전망된다.",
+    "cat": "정책",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "ikld.kr",
+    "url": "http://www.ikld.kr/news/articleView.html?idxno=337499",
+    "k": "허성무 의원 smr 산업 생태계 지원 확대 법안 발의",
+    "ko": 1,
+    "id": "3780c3f7"
+  },
+  {
     "date": "2026-07-12",
     "title": "SK이노베이션, 테라파워와 소형모듈원자로 상용화 가속",
     "summary": "SK이노베이션(SK Innovation)과 테라파워(TerraPower)가 소형모듈원자로(SMR) 상용화 협력을 가속화한다는 조선일보 보도.",
@@ -17822,4 +17927,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-14 08:06 KST";
+window.SMR_UPDATED = "2026-07-14 08:39 KST";
