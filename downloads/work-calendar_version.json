@@ -1,6 +1,6 @@
 {
-  "version": "2.5.1",
-  "date": "2026-07-10",
+  "version": "2.5.3",
+  "date": "2026-07-13",
   "url": "https://baesay-lang.github.io/smr-hub/downloads/work-calendar_latest.zip",
-  "notes": "블록 위/아래 모서리 드래그로 시간 조절 개선 (양방향 리사이즈, 핸들 확대)"
+  "notes": "리사이즈 드래그 정상화 — 늘리면 겹치는 이웃 블록 자동 축소·제거 + 팀 선택 기억"
 }
