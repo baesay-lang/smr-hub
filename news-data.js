@@ -326,6 +326,95 @@ window.SMR_NEWS = [
     "id": "56ab16bb"
   },
   {
+    "date": "2026-07-13",
+    "title": "사이즈웰 B, 20년 수명연장 승인; 전 세계 SMR 협약 체결",
+    "summary": "영국의 사이즈웰 B(Sizewell B) 원전이 20년 수명연장을 승인받았고, 전 세계 소형모듈원자로(SMR) 협약이 체결되고 있다.",
+    "summaryLong": "영국(UK) 서퍽(Suffolk) 해안에 위치한 사이즈웰 B(Sizewell B) 원전이 20년의 수명연장 승인을 획득하여 2055년까지 운영될 예정이다. 운영사 이디에프 에너지(EDF Energy)가 설비 유지를 위한 추가 투자를 진행하며, 에디에프의 영국 원자로 20% 지분을 보유한 센트리카(Centrica)도 투자에 동참한다. 동시에 전 세계 곳곳에서 소형모듈원자로(SMR) 관련 협약들이 체결되고 있어 첨단로 시장의 확대를 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "EDF Energy",
+    "region": "UK",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-07-13/article-8197/sizewell-b-gets-20year-life-extension-smr-agreements-signed-around-the-world/",
+    "k": "sizewell b gets 20 year life extension smr agreements signed around the world",
+    "id": "ef8b1cd0"
+  },
+  {
+    "date": "2026-07-13",
+    "title": "중·러 원자력 시장 장악에 한·미·일 SMR로 대응",
+    "summary": "한국, 미국, 일본이 중국·러시아의 원자력 시장 확대에 대응하기 위해 SMR 협력에 나섰다.",
+    "summaryLong": "중국과 러시아가 원자력 시장을 장악하려는 움직임에 대응하여 한국, 미국, 일본이 소형모듈원자로(SMR) 협력을 강화하고 있다. 미국이 주도한 것으로 보이는 이러한 협력은 한·미·일 삼국이 글로벌 원자력 시장에서 전략적 동맹을 형성하려는 의도를 반영한다. SMR은 차세대 원자력기술로서 인태지역(Indo-Pacific) 시장 진출의 핵심 수단이 될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "khan.co.kr",
+    "url": "https://www.khan.co.kr/article/202607131703001",
+    "k": "중 러 원자력 시장 장악에 한 미 일 smr로 뭉쳤나 미국이 주도한 듯",
+    "ko": 1,
+    "id": "9926fc1d"
+  },
+  {
+    "date": "2026-07-13",
+    "title": "정부, 추가 원전·SMR 건설 공식화",
+    "summary": "정부가 신규 원전 및 소형모듈원자로(SMR) 추가 건설을 공식 정책으로 확정하고, 공론화를 거쳐 제12차 전기본(전력수급기본계획)에 반영하기로 했다.",
+    "summaryLong": "한국 정부가 신규 원자력발전소 및 소형모듈원자로(SMR) 추가 건설을 정부 정책으로 공식화했다. 이는 에너지 안보 및 탄소중립 목표 달성을 위한 전략으로 추진되며, 국민 공론화 과정을 거친 후 제12차 전력수급기본계획에 반영될 예정이다. 이번 결정은 SMR 산업화 가속화와 에너지 자립도 강화의 신호로 해석된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "khan.co.kr",
+    "url": "https://www.khan.co.kr/article/202607131707001",
+    "k": "정부 추가 원전 smr 건설 공식화 공론화 후 12차 전기본 반영",
+    "ko": 1,
+    "id": "5d022621"
+  },
+  {
+    "date": "2026-07-13",
+    "title": "한미일, 인도태평양 지역 SMR 기술 협력 추진",
+    "summary": "한국·미국·일본이 인도태평양(인태) 지역에서 소형모듈원자로(SMR) 기술 홍보 및 협력을 위해 연대하고 있다.",
+    "summaryLong": "한국·미국·일본 삼국이 인도태평양 지역에서 소형모듈원자로(SMR) 기술의 보급과 홍보를 위한 협력 체계를 구축하고 있다. 이는 지역 에너지 안보 강화 및 친민주진영 국가들의 원자력 수급망 다각화를 목표로 하며, 세계 원전 기술 시장에서의 주도권 확보 전략으로 풀이된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "vietnam.vn",
+    "url": "https://www.vietnam.vn/ko/han-quoc-my-nhat-ban-bat-tay-thuc-day-cong-nghe-hat-nhan-smr-tai-an-do-duong-thai-binh-duong",
+    "k": "한국 미국 일본은 인도태평양 지역에서 소형 모듈형 원자로 smr 기술을 홍보하기 위해 협력한다",
+    "ko": 1,
+    "id": "2d8de23b"
+  },
+  {
+    "date": "2026-07-13",
+    "title": "정부, 12차 전기본에 원전·SMR 추가 건설 검토 반영",
+    "summary": "정부가 소형모듈원자로(SMR)와 원자력발전소의 추가 건설 검토를 공식화하여 12차 전력수급기본계획(전기본)에 반영할 방침을 밝혔다.",
+    "summaryLong": "정부가 원자력발전소와 소형모듈원자로(SMR)의 추가 건설 검토를 공식적으로 추진하기로 결정했다. 이는 에너지 안보와 탄소중립 정책의 일환으로, 향후 수립될 12차 전력수급기본계획(전기본)에 이러한 정책 방향을 반영할 계획임을 의미한다. 이번 결정은 SMR을 포함한 차세대 원자력 기술의 국내 도입 및 보급 확대를 위한 정책적 신호로 해석된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "viva100.com",
+    "url": "https://www.viva100.com/article/20260713501253",
+    "k": "정부 원전 smr 추가 건설 검토 공식화 12차 전기본에 반영",
+    "ko": 1,
+    "id": "26072e52"
+  },
+  {
+    "date": "2026-07-13",
+    "title": "정부, 한미일 SMR 협력각서로 글로벌 시장 공동 진출 협력 틀 마련",
+    "summary": "정부가 미국, 일본과 소형모듈원자로(SMR) 협력각서를 체결하여 글로벌 시장 공동 진출을 위한 협력 체계를 구축했다.",
+    "summaryLong": "한국 정부가 미국, 일본과 소형모듈원자로(SMR) 분야의 협력각서(MOU)를 체결했다. 이 협력각서는 3국이 글로벌 SMR 시장에서 공동으로 진출하고 경쟁력을 강화하기 위한 협력 틀을 마련하는 것을 목표로 한다. 이를 통해 기술 공유, 시장 개척, 규제 협력 등 다층적인 협력 관계를 구축함으로써 국내 SMR 산업의 국제 경쟁력 제고를 도모하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "biz.heraldcorp.com",
+    "url": "https://biz.heraldcorp.com/article/10807484",
+    "k": "정부 한미일 smr 협력각서 글로벌 시장 공동 진출 협력 틀 마련",
+    "ko": 1,
+    "id": "85dae1ba"
+  },
+  {
     "date": "2026-07-12",
     "title": "SK이노베이션, 테라파워와 소형모듈원자로 상용화 가속",
     "summary": "SK이노베이션(SK Innovation)과 테라파워(TerraPower)가 소형모듈원자로(SMR) 상용화 협력을 가속화한다는 조선일보 보도.",
@@ -17733,4 +17822,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-14 07:32 KST";
+window.SMR_UPDATED = "2026-07-14 08:06 KST";
