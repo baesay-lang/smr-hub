@@ -1,6 +1,52 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-07-13",
+  "title": "홀텍(Holtec), 인도 SMR 사업 포함한 IPO 추진",
+  "summary": "미국 핵심 기업 홀텍(Holtec)이 인도에서의 소형모듈원자로(SMR) 사업을 포함하여 기업공개(IPO)를 추진 중이다.",
+  "summaryLong": "미국 원자력 기업 홀텍(Holtec)이 기업공개(IPO) 계획을 발표했으며, 이 과정에서 인도에서의 소형모듈원자로(SMR) 사업이 포함될 것으로 예상된다. 홀텍의 IPO는 회사의 국제적 사업 확장, 특히 인도 시장에서의 SMR 기술 전개 의지를 반영하는 것으로 보인다. 이는 홀텍이 글로벌 SMR 시장에서의 입지를 강화하려는 전략의 일환이다.",
+  "cat": "투자",
+  "type": "PWR",
+  "dev": "Holtec",
+  "region": "US",
+  "source": "indianexpress.com",
+  "url": "https://indianexpress.com/article/business/holtec-ipo-india-small-modular-reactor-smr-ntpc-10783696/",
+  "k": "us nuclear firm holtec s ipo plans could have an india smr footprint",
+  "op": 1,
+  "id": "698f1008"
+ },
+ {
+  "date": "2026-07-13",
+  "title": "소형모듈원자로(SMR), 연구개발 넘어 상용화로 지원 특별법 개정 추진",
+  "summary": "소형모듈원자로(SMR)의 상용화와 수출을 국가 차원에서 지원하는 특별법 개정안이 국회에 발의되었다.",
+  "summaryLong": "더불어민주당 허성무 의원이 '소형모듈원자로(SMR) 개발 촉진 및 지원에 관한 특별법' 개정안을 발의했다. 데이터센터 증가로 인한 전력 수요 급증에 대응하기 위해 소형모듈원자로(SMR)의 상용화와 글로벌 시장 진출을 지원하도록 법안을 개정하는 것을 목표로 하고 있다. 현행 법은 연구개발과 실증 중심이었으나, 개정안은 산업화와 수출 지원까지 확대하여 국내 소형모듈원자로(SMR) 산업 생태계를 강화하겠다는 취지다. 현행법은 오는 9월 시행을 앞두고 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "에너지신문 - 전체기사",
+  "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=226754",
+  "k": "smr 연구개발 넘어 상용화로 지원 특별법 개정 추진",
+  "ko": 1,
+  "id": "d3c263d3"
+ },
+ {
+  "date": "2026-07-13",
+  "title": "경남, 'SMR 진흥특구' 지정 추진…미래 원전산업 거점화",
+  "summary": "경남도가 소형모듈원자로(SMR) 진흥특구 지정을 추진 중인 것으로 보도됐다.",
+  "summaryLong": "경남도가 소형모듈원자로(SMR)를 중심으로 한 '진흥특구' 지정을 추진하는 것으로 알려졌다. 이는 경남 지역을 미래 원전산업의 거점으로 육성하기 위한 지역 정책 차원의 노력으로 평가된다. 구체적 특구 조성 일정, 규모, 지원 내용 등의 세부사항은 제시되지 않았으며, 특구 지정의 확실성도 불명확한 상태이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "news.nate.com",
+  "url": "https://news.nate.com/view/20260713n11020",
+  "k": "미래 원전 둥지 튼다 경남 smr 진흥특구 날개 달까",
+  "ko": 1,
+  "op": 1,
+  "id": "88aef8cc"
+ },
+ {
   "date": "2026-07-12",
   "title": "SK이노베이션, 테라파워와 소형모듈원자로 상용화 가속",
   "summary": "SK이노베이션(SK Innovation)과 테라파워(TerraPower)가 소형모듈원자로(SMR) 상용화 협력을 가속화한다는 조선일보 보도.",
@@ -851,50 +897,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-08",
-  "title": "미국·일본·한국, 소형모듈원자로(SMR) 배치 협력 양해각서 체결",
-  "summary": "미국·일본·한국 3개국이 소형모듈원자로(SMR)의 배치·개발을 위한 정부 간 협력 협약을 체결했다.",
-  "summaryLong": "미국·일본·대한민국 3개국이 소형모듈원자로(SMR)의 상용화 배치와 기술 협력을 위한 정부 간 양해각서(MOU) 또는 협력 협약을 공식 체결했다. 이는 3개국의 SMR 정책 기조를 반영한 국가 간 협력 체제 구축 움직임으로, 각 국의 SMR 개발 및 배치 계획이 국제 수준으로 조율되고 있음을 보여준다. 이 협력은 SMR 기술의 표준화, 규제 조화, 부품 공급망 협력 등으로 확대될 가능성이 있다.",
-  "cat": "계약",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "aa.com.tr",
-  "url": "https://www.aa.com.tr/en/asia-pacific/us-japan-south-korea-sign-cooperation-agreement-for-deployment-of-small-modular-reactors/3989887",
-  "k": "us japan south korea sign cooperation agreement for deployment of small modular reactors",
-  "id": "b4252d89"
- },
- {
-  "date": "2026-07-08",
-  "title": "한국원자력학회, 12차 전력수급기본계획에 신규 원전·SMR 반영 촉구",
-  "summary": "한국원자력학회가 정부의 12차 전력수급기본계획(2025~2034)에 신규 원전 및 소형모듈원자로(SMR) 도입을 반영해야 한다고 주장했다.",
-  "summaryLong": "한국원자력학회가 정부의 12차 전력수급기본계획(12차 전기본, 2025~2034년)에 신규 원전 건설과 소형모듈원자로(SMR) 도입을 반영할 것을 촉구했다. 학회는 AI 데이터센터 등 신규 전력 수요 증가에 대비하여 원전의 역할 확대가 필수적이라는 입장을 표명하고 있으며, 이는 정부의 에너지 정책 수립에 영향을 미칠 것으로 예상된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "kbsm.net",
-  "url": "https://www.kbsm.net/news/view.php?idx=525990",
-  "k": "한국원자력학회 12차 전기본에 신규 원전 smr 반영해야",
-  "ko": 1,
-  "id": "68194e9c"
- },
- {
-  "date": "2026-07-08",
-  "title": "한국원자력학회, 제12차 전기본(기본계획)에 신규원전·SMR 적극 반영",
-  "summary": "한국원자력학회가 제12차 전기본에 신규원전과 SMR 도입을 적극 반영할 것을 촉구했다.",
-  "summaryLong": "한국원자력학회가 정부의 제12차 전기본(전력수급기본계획) 수립 과정에서 신규원전과 소형모듈원자로(SMR) 도입을 적극 반영해야 한다고 주장했다. 이는 글로벌 탄소중립 추세와 국내 에너지 안보 강화를 위한 정책 제안으로, 신규원전과 차세대 원자력 기술인 SMR의 정책적 위상을 높이려는 움직임이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "imaeil.com",
-  "url": "https://www.imaeil.com/page/view/2026070814485695831",
-  "k": "한국원자력학회 제12차 전기본에 신규원전 smr 적극 반영",
-  "ko": 1,
-  "id": "8f470a0b"
- },
- {
-  "date": "2026-07-08",
   "title": "딥 피션(Deep Fission), 원형 원자로 용기 시제품 인수",
   "summary": "캘리포니아 스타트업 딥 피션(Deep Fission)이 시추공 매설형 소형모듈원자로(SMR) 프로젝트용 원형 원자로 용기 시제품을 파슨스(Parsons) 부지에서 인수했다.",
   "summaryLong": "캘리포니아(California) 기반 스타트업 딥 피션(Deep Fission)은 지하 1마일 깊이의 시추공(borehole) 내에 소형모듈원자로(SMR)를 설치하는 기술 개발을 추진 중이며, 이번에 캔자스(Kansas) 주의 파슨스(Parsons) 부지에서 해당 프로젝트 파일럿용 원형 원자로 용기 시제품을 인수했다. 이는 차세대 SMR 기술의 물리적 구현 단계로, 개념 설계를 벗어나 실제 하드웨어 개발이 진행되고 있음을 의미한다.",
@@ -1105,20 +1107,6 @@ window.SMR_NEWS = [
   "url": "https://www.ans.org/news/2026-06-24/article-8043/from-theory-to-reality/",
   "k": "from theory to reality",
   "id": "279b7204"
- },
- {
-  "date": "2026-06-23",
-  "title": "홀텍과 EDF 에너지, 영국 신규 원전 계획 제출 및 합작사 설립 양해",
-  "summary": "홀텍(Holtec)과 EDF 에너지(EDF Energy)가 영국에서 신규 원전 프로젝트를 추진하기 위해 사업 계획을 제출하고 프로젝트 개발을 위한 합작사(joint venture) 설립 양해각서(Heads of Terms)에 서명했다.",
-  "summaryLong": "미국의 소형모듈원자로(SMR) 개발사 홀텍(Holtec)과 영국의 EDF 에너지(EDF Energy)가 영국에서 새로운 원전 프로젝트를 공동으로 추진하기로 합의했다. 두 회사는 프로젝트 개발을 주도할 합작사(joint venture) 설립을 위한 양해각서(Heads of Terms)에 서명했으며, 영국 규제당국에 프로젝트 계획을 공식 제출했다. 이는 홀텍의 SMR 기술을 영국 시장에 본격 도입하기 위한 전략적 파트너십이다.",
-  "cat": "계약",
-  "type": "PWR",
-  "dev": "Holtec",
-  "region": "UK",
-  "source": "Holtec International",
-  "url": "https://holtecinternational.com/hh-41-09/",
-  "k": "holtec and edf energy submit plans for new nuclear projects in britain",
-  "id": "2e0b3634"
  },
  {
   "date": "2026-06-23",
@@ -1372,5 +1360,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-13 08:38 KST";
-window.SMR_TOTAL = 1205;
+window.SMR_UPDATED = "2026-07-13 12:39 KST";
+window.SMR_TOTAL = 1209;
