@@ -1,6 +1,6 @@
 {
-  "version": "3.0.0",
+  "version": "3.0.1",
   "date": "2026-07-13",
   "url": "https://baesay-lang.github.io/smr-hub/downloads/work-calendar_latest.zip",
-  "notes": "v3.0 — 미니 월 달력, 일/주/월 뷰, 정기 일정(매주 반복), 업무 분석 대시보드"
+  "notes": "Excel 보고서 생성 시 파일이 즉시 Excel로 열림"
 }
