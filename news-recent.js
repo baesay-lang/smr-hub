@@ -249,6 +249,81 @@ window.SMR_NEWS = [
   "id": "420bc0ec"
  },
  {
+  "date": "2026-07-14",
+  "title": "정부, 신규 원전·SMR 공론화…12차 전기본 반영 방침",
+  "summary": "한국 정부가 제12차 전력수급기본계획에 신규 원전과 소형모듈원전(SMR)을 추가하는 방안을 국민 공론화를 통해 반영할 계획을 밝혔다.",
+  "summaryLong": "한국 정부는 인공지능(AI) 데이터센터, 반도체 산단 등으로 인한 급증하는 전력수요에 대응하기 위해 제12차 전력수급기본계획에 신규 원전과 소형모듈원전(SMR) 추가를 반영할 방침을 밝혔다. 김성환 기후에너지환경부 장관은 2026년 국가재정전략회의에서 전력수요가 2040년까지 50GW 이상으로 급증할 것으로 예상되는 만큼, 재생에너지 확대와 함께 원전을 통한 대응이 필요하다고 강조했다. 이는 정부의 에너지 정책 방향이 SMR을 미래 에너지원으로 인정하고 있음을 보여주는 중요한 정책 신호이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "투데이에너지 - 전체기사",
+  "url": "https://www.todayenergy.kr/news/articleView.html?idxno=300405",
+  "k": "정부 신규 원전 smr 공론화 12차 전기본 반영 방침",
+  "ko": 1,
+  "id": "d3f90fb6"
+ },
+ {
+  "date": "2026-07-14",
+  "title": "아이티센씨티에스, 원자력연구원 V-SMR 슈퍼컴 구축 완료",
+  "summary": "아이티센씨티에스가 한국원자력연구원의 V-SMR 슈퍼컴퓨터 구축을 완료했다.",
+  "summaryLong": "아이티센씨티에스가 한국원자력연구원(KAERI)의 V-SMR(수직형 소형모듈원자로) 관련 슈퍼컴퓨터 구축 업무를 완료했다는 보도이다. 이는 국내 SMR 기술 개발의 핵심 인프라 구축으로, V-SMR의 설계·안전성 분석 및 시뮬레이션을 위한 계산 기반이 마련되었음을 의미하며 한국의 첨단로 개발 진전의 일부이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "it.chosun.com",
+  "url": "https://it.chosun.com/news/articleView.html?idxno=2023092165784",
+  "k": "아이티센씨티에스 원자력연구원 v smr 슈퍼컴 구축 완료",
+  "ko": 1,
+  "id": "cfdf838a"
+ },
+ {
+  "date": "2026-07-14",
+  "title": "현대건설, 美 FANCO와 차세대 SMR 협력…4세대 원자로 협력망 확대",
+  "summary": "현대건설이 미국의 FANCO와 차세대 소형모듈원자로(SMR) 개발에 협력하기로 합의했다.",
+  "summaryLong": "현대건설이 미국 기업 FANCO와 차세대 소형모듈원자로(SMR) 개발 및 구축을 위한 협력 관계를 맺었다. 이는 현대건설의 4세대 원자로(첨단로) 국제 협력망 확대 전략의 일환으로, 미국 시장의 SMR 프로젝트 수주와 기술 개발을 강화하기 위한 파트너십 체결 사건이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "현대건설",
+  "region": "US",
+  "source": "greened.kr",
+  "url": "https://www.greened.kr/news/articleView.html?idxno=344980",
+  "k": "현대건설 fanco와 차세대 smr 협력 4세대 원자로 협력망 확대",
+  "ko": 1,
+  "id": "74c646b9"
+ },
+ {
+  "date": "2026-07-14",
+  "title": "현대건설, 미국 FANCO와 납-비스무트 냉각 SMR 사업 협력",
+  "summary": "현대건설이 미국의 FANCO와 납-비스무트 냉각 방식의 SMR 사업 협력을 추진한다.",
+  "summaryLong": "현대건설이 미국의 차세대 SMR 개발사 FANCO와 납-비스무트(Pb-Bi) 냉각 방식의 소형모듈원자로 사업 협력을 진행 중이다. 납-비스무트 냉각은 액체금속냉각 SMR 기술로, 고온·고밀도 에너지 특성으로 주목받고 있다. 현대건설은 이 협력을 통해 4세대 원전 기술 확보 및 미국 시장 진출을 강화하려는 전략이다.",
+  "cat": "기술",
+  "type": "FHR",
+  "dev": "Hyundai E&C",
+  "region": "US",
+  "source": "newspost.kr",
+  "url": "https://www.newspost.kr/news/articleView.html?idxno=224208",
+  "k": "현대건설 fanco와 납 비스무트 냉각 smr 사업 협력",
+  "ko": 1,
+  "id": "51c3ba7a"
+ },
+ {
+  "date": "2026-07-14",
+  "title": "현대건설, 미국 차세대 SMR 개발사와 협약 체결…'풀라인업 완성'",
+  "summary": "현대건설이 미국의 차세대 SMR 개발사와 협약을 체결하며 SMR 포트폴리오 확대를 완성했다.",
+  "summaryLong": "현대건설이 미국의 차세대 SMR 개발사와 협약(MOU 또는 사업협약)을 체결했다. 현대건설은 이를 통해 여러 노형의 SMR 기술 확보로 완전한 포트폴리오(풀라인업)를 완성했다는 입장이다. 이는 글로벌 SMR 시장에서의 경쟁력 강화 및 다양한 고객 요구에 대응하기 위한 전략적 협력이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "Hyundai E&C",
+  "region": "US",
+  "source": "straightnews.co.kr",
+  "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=306968",
+  "k": "현대건설 미국서 차세대 smr 개발사와 협약 풀라인업 완성",
+  "ko": 1,
+  "id": "e7d6ead8"
+ },
+ {
   "date": "2026-07-13",
   "title": "홀텍(Holtec), 인도 SMR 사업 포함한 IPO 추진",
   "summary": "미국 핵심 기업 홀텍(Holtec)이 인도에서의 소형모듈원자로(SMR) 사업을 포함하여 기업공개(IPO)를 추진 중이다.",
@@ -820,36 +895,6 @@ window.SMR_NEWS = [
   "id": "84e6b164"
  },
  {
-  "date": "2026-07-13",
-  "title": "한미일 SMR 협력…인태 시장 공략 넘어 한국 원자력 잠재력 확인",
-  "summary": "한국, 미국, 일본이 소형모듈원자로(SMR) 협력을 강화하며 인태(Indo-Pacific) 시장 진출과 한국 원자력의 글로벌 경쟁력을 입증하고 있다.",
-  "summaryLong": "한국, 미국, 일본이 소형모듈원자로 분야에서 협력을 확대하고 있으며, 이는 단순한 인태(Indo-Pacific) 시장 공략을 넘어 한국 원자력 산업의 잠재력을 국제적으로 입증하는 기회가 되고 있다. 한미일 3국 협력은 차세대 원자로 기술 개발, 표준화, 시장 진출 등 다층적 차원에서 진행되고 있다. 이러한 협력은 한국 기업들의 글로벌 SMR 프로젝트 참여를 촉진하고 원자력 외교의 중요한 축을 형성하고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "mt.co.kr",
-  "url": "https://www.mt.co.kr/politics/2026/07/13/2026071316453097931",
-  "k": "한미일 smr 협력 인태시장 공략 넘어 원자력 잠재력 확인 머니투데이",
-  "ko": 1,
-  "id": "12352e63"
- },
- {
-  "date": "2026-07-13",
-  "title": "한·미·일 'SMR 전략동맹', 중·러 대응 연대 구축",
-  "summary": "한국·미국·일본이 소형모듈원자로(SMR) 분야에서 전략적 협력 동맹을 구성하여 중국·러시아의 원자력 시장 확대에 대응한다.",
-  "summaryLong": "한국·미국·일본이 소형모듈원자로(SMR) 분야에서 전략적 협력 동맹을 체결하여 중국과 러시아의 원자력 시장 장악 전략에 대응하고 있다. 미국이 주도한 이번 협력은 세 국가 간의 기술 공유와 사업 연대를 통해 인도·태평양 지역 국가들의 환영을 받고 있다. 이는 지정학적 갈등 속에서 선진국들이 에너지 안보와 탄소중립 목표를 동시에 추구하는 전략적 의미를 갖는다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "asiatoday.co.kr",
-  "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260713010004832",
-  "k": "한미일 smr 전략동맹 중러 대응 연대 인태 일부국 환영 반응",
-  "ko": 1,
-  "id": "9d9e7df5"
- },
- {
   "date": "2026-07-12",
   "title": "SK이노베이션, 테라파워와 소형모듈원자로 상용화 가속",
   "summary": "SK이노베이션(SK Innovation)과 테라파워(TerraPower)가 소형모듈원자로(SMR) 상용화 협력을 가속화한다는 조선일보 보도.",
@@ -863,37 +908,6 @@ window.SMR_NEWS = [
   "k": "sk innovation terrapower accelerate smr commercialization",
   "ko": 1,
   "id": "cd3706af"
- },
- {
-  "date": "2026-07-12",
-  "title": "한미, SMR 협력 강화…핵잠·원자력 협력 2차 협의 일정 미정",
-  "summary": "한미가 소형모듈원자로(SMR) 협력을 강화했으나 핵잠함 및 원자력 협력 2차 협의 일정은 아직 결정되지 않았다.",
-  "summaryLong": "한미 간 소형모듈원자로(SMR) 분야 협력이 진전되는 가운데, 핵잠함 추진과 원자력 협력 관련 2차 협의 일정은 미정인 상태로 남아 있다. 한미 원자력 협력의 다층적 진전 속에서 SMR 부분은 진전이 있으나, 더 광범한 협력 틀의 다음 단계 일정은 조율 중인 것으로 보인다. 이는 양국 간 협력의 복잡성과 일정 조율의 어려움을 반영한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "US|KR",
-  "source": "v.daum.net",
-  "url": "https://v.daum.net/v/20260713060156084",
-  "k": "한미 smr 협력은 강화했는데 핵잠 원자력 협력 2차 협의 일정 아직",
-  "ko": 1,
-  "op": 1,
-  "id": "f7bfec67"
- },
- {
-  "date": "2026-07-12",
-  "title": "유럽연합(EU), SMR 2차 프로젝트 공모…2030년대 초 첫 가동 목표",
-  "summary": "유럽연합(EU)이 소형모듈원자로(SMR) 2차 프로젝트 공모에 나서며 2030년대 초 첫 가동을 속도내고 있다.",
-  "summaryLong": "유럽연합(EU)이 소형모듈원자로(SMR) 분야의 2차 프로젝트 공모를 개시했다. 이는 유럽 내 SMR 상용화 가속화를 위한 국책 사업으로, 2030년대 초 첫 가동이라는 구체적 목표를 제시하고 있다. EU의 이러한 움직임은 탄소중립 에너지 전환 전략과 에너지 안보 강화를 동시에 추진하는 차원의 정책이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "EU",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=4988",
-  "k": "eu smr 2차 프로젝트 공모 돌입 2030년대 초 첫 가동 속도",
-  "ko": 1,
-  "id": "c53865f5"
  },
  {
   "date": "2026-07-11",
@@ -1334,20 +1348,6 @@ window.SMR_NEWS = [
   "id": "5ac4cb01"
  },
  {
-  "date": "2026-05-01",
-  "title": "NRG 팔라스와 카이로스 파워, 첨단로 시험 협력 지속",
-  "summary": "네덜란드 NRG 팔라스와 카이로스 파워가 첨단 원자로 시험에 대한 협력을 계속 진행한다.",
-  "summaryLong": "네덜란드의 원자력연구기관 NRG 팔라스(NRG Pallas)와 카이로스 파워(Kairos Power)는 첨단 원자로(advanced reactor) 시험 및 검증 프로젝트에 대한 협력을 계속 추진하기로 확인했다. 양 기관 간의 지속적인 기술 협력은 카이로스의 용융염냉각로(FHR) 개발 및 규제 검증을 지원하는 의미를 갖는다.",
-  "cat": "기술",
-  "type": "FHR",
-  "dev": "Kairos Power",
-  "region": "US",
-  "source": "nucnet.org",
-  "url": "https://www.nucnet.org/news/nrg-pallas-and-kairos-power-continue-cooperation-on-advanced-reactor-tests-5-1-2026",
-  "k": "nrg pallas and kairos power continue cooperation on advanced reactor tests",
-  "id": "37f00957"
- },
- {
   "date": "2025-07",
   "title": "ARC-100, 캐나다 캐나다핵안전위원회(CNSC) 벤더설계심사(VDR) Phase 2 완료",
   "summary": "아크클린에너지(ARC)의 ARC-100이 근본적 인허가 장벽이 없는 것으로 판정되었으며, 뉴브런즈윅전력(NB Power)은 부지준비허가 신청을 진행 중이고 2027년 건설허가 신청을 목표로 한다.",
@@ -1388,5 +1388,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-15 07:34 KST";
-window.SMR_TOTAL = 1265;
+window.SMR_UPDATED = "2026-07-15 08:06 KST";
+window.SMR_TOTAL = 1271;

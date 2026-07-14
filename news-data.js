@@ -256,6 +256,81 @@ window.SMR_NEWS = [
     "id": "420bc0ec"
   },
   {
+    "date": "2026-07-14",
+    "title": "정부, 신규 원전·SMR 공론화…12차 전기본 반영 방침",
+    "summary": "한국 정부가 제12차 전력수급기본계획에 신규 원전과 소형모듈원전(SMR)을 추가하는 방안을 국민 공론화를 통해 반영할 계획을 밝혔다.",
+    "summaryLong": "한국 정부는 인공지능(AI) 데이터센터, 반도체 산단 등으로 인한 급증하는 전력수요에 대응하기 위해 제12차 전력수급기본계획에 신규 원전과 소형모듈원전(SMR) 추가를 반영할 방침을 밝혔다. 김성환 기후에너지환경부 장관은 2026년 국가재정전략회의에서 전력수요가 2040년까지 50GW 이상으로 급증할 것으로 예상되는 만큼, 재생에너지 확대와 함께 원전을 통한 대응이 필요하다고 강조했다. 이는 정부의 에너지 정책 방향이 SMR을 미래 에너지원으로 인정하고 있음을 보여주는 중요한 정책 신호이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "투데이에너지 - 전체기사",
+    "url": "https://www.todayenergy.kr/news/articleView.html?idxno=300405",
+    "k": "정부 신규 원전 smr 공론화 12차 전기본 반영 방침",
+    "ko": 1,
+    "id": "d3f90fb6"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "아이티센씨티에스, 원자력연구원 V-SMR 슈퍼컴 구축 완료",
+    "summary": "아이티센씨티에스가 한국원자력연구원의 V-SMR 슈퍼컴퓨터 구축을 완료했다.",
+    "summaryLong": "아이티센씨티에스가 한국원자력연구원(KAERI)의 V-SMR(수직형 소형모듈원자로) 관련 슈퍼컴퓨터 구축 업무를 완료했다는 보도이다. 이는 국내 SMR 기술 개발의 핵심 인프라 구축으로, V-SMR의 설계·안전성 분석 및 시뮬레이션을 위한 계산 기반이 마련되었음을 의미하며 한국의 첨단로 개발 진전의 일부이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "it.chosun.com",
+    "url": "https://it.chosun.com/news/articleView.html?idxno=2023092165784",
+    "k": "아이티센씨티에스 원자력연구원 v smr 슈퍼컴 구축 완료",
+    "ko": 1,
+    "id": "cfdf838a"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "현대건설, 美 FANCO와 차세대 SMR 협력…4세대 원자로 협력망 확대",
+    "summary": "현대건설이 미국의 FANCO와 차세대 소형모듈원자로(SMR) 개발에 협력하기로 합의했다.",
+    "summaryLong": "현대건설이 미국 기업 FANCO와 차세대 소형모듈원자로(SMR) 개발 및 구축을 위한 협력 관계를 맺었다. 이는 현대건설의 4세대 원자로(첨단로) 국제 협력망 확대 전략의 일환으로, 미국 시장의 SMR 프로젝트 수주와 기술 개발을 강화하기 위한 파트너십 체결 사건이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대건설",
+    "region": "US",
+    "source": "greened.kr",
+    "url": "https://www.greened.kr/news/articleView.html?idxno=344980",
+    "k": "현대건설 fanco와 차세대 smr 협력 4세대 원자로 협력망 확대",
+    "ko": 1,
+    "id": "74c646b9"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "현대건설, 미국 FANCO와 납-비스무트 냉각 SMR 사업 협력",
+    "summary": "현대건설이 미국의 FANCO와 납-비스무트 냉각 방식의 SMR 사업 협력을 추진한다.",
+    "summaryLong": "현대건설이 미국의 차세대 SMR 개발사 FANCO와 납-비스무트(Pb-Bi) 냉각 방식의 소형모듈원자로 사업 협력을 진행 중이다. 납-비스무트 냉각은 액체금속냉각 SMR 기술로, 고온·고밀도 에너지 특성으로 주목받고 있다. 현대건설은 이 협력을 통해 4세대 원전 기술 확보 및 미국 시장 진출을 강화하려는 전략이다.",
+    "cat": "기술",
+    "type": "FHR",
+    "dev": "Hyundai E&C",
+    "region": "US",
+    "source": "newspost.kr",
+    "url": "https://www.newspost.kr/news/articleView.html?idxno=224208",
+    "k": "현대건설 fanco와 납 비스무트 냉각 smr 사업 협력",
+    "ko": 1,
+    "id": "51c3ba7a"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "현대건설, 미국 차세대 SMR 개발사와 협약 체결…'풀라인업 완성'",
+    "summary": "현대건설이 미국의 차세대 SMR 개발사와 협약을 체결하며 SMR 포트폴리오 확대를 완성했다.",
+    "summaryLong": "현대건설이 미국의 차세대 SMR 개발사와 협약(MOU 또는 사업협약)을 체결했다. 현대건설은 이를 통해 여러 노형의 SMR 기술 확보로 완전한 포트폴리오(풀라인업)를 완성했다는 입장이다. 이는 글로벌 SMR 시장에서의 경쟁력 강화 및 다양한 고객 요구에 대응하기 위한 전략적 협력이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Hyundai E&C",
+    "region": "US",
+    "source": "straightnews.co.kr",
+    "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=306968",
+    "k": "현대건설 미국서 차세대 smr 개발사와 협약 풀라인업 완성",
+    "ko": 1,
+    "id": "e7d6ead8"
+  },
+  {
     "date": "2026-07-13",
     "title": "홀텍(Holtec), 인도 SMR 사업 포함한 IPO 추진",
     "summary": "미국 핵심 기업 홀텍(Holtec)이 인도에서의 소형모듈원자로(SMR) 사업을 포함하여 기업공개(IPO)를 추진 중이다.",
@@ -855,6 +930,21 @@ window.SMR_NEWS = [
     "k": "한미일 smr 전략동맹 중러 대응 연대 인태 일부국 환영 반응",
     "ko": 1,
     "id": "9d9e7df5"
+  },
+  {
+    "date": "2026-07-13",
+    "title": "[뉴스분석] 한·미·일 SMR 협력으로 '중·러 원전 생태계 장악' 견제",
+    "summary": "한·미·일이 SMR 협력 강화로 중국·러시아의 원전 시장 영향력 견제를 추진 중이라는 분석이다.",
+    "summaryLong": "뉴스분석 기사로, 한국·미국·일본의 SMR 협력 동향을 중국·러시아의 원전 시장 장악 견제라는 지정학적 관점에서 분석하고 있다. 현대건설의 미국 협력, 일본의 SMR 정책 등 최근 3국의 관련 움직임을 종합하여, 이것이 비(非)공산권 진영의 원전 기술 패권 경쟁 심화를 반영한다는 해석을 제시한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "newspim.com",
+    "url": "https://www.newspim.com/news/view/20260713001151",
+    "k": "뉴스분석 한 미 일 smr 협력으로 중 러 원전 생태계 장악 견제",
+    "ko": 1,
+    "id": "077cc4c5"
   },
   {
     "date": "2026-07-12",
@@ -18264,4 +18354,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-15 07:34 KST";
+window.SMR_UPDATED = "2026-07-15 08:06 KST";
