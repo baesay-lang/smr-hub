@@ -1,6 +1,6 @@
 {
-  "version": "3.1.2",
+  "version": "3.2.0",
   "date": "2026-07-14",
   "url": "https://baesay-lang.github.io/smr-hub/downloads/work-calendar_latest.zip",
-  "notes": "클릭 가능한 곳에 손가락 커서 표시 — 달력 빈 칸·미니 달력 날짜·버튼 전체 (hover 색 피드백 포함)"
+  "notes": "설정을 쓰는 자리로 — 근무시간은 왼쪽 패널 칩에서 바로 수정, 생성 팝오버에 업무 길이(최소~최대) 추가 + 상세 설정(즐겨찾기·휴무 코드) 버튼. 사이드바는 팀 선택·정기 일정만 남김"
 }
