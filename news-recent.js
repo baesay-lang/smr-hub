@@ -104,6 +104,50 @@ window.SMR_NEWS = [
   "id": "1cff64da"
  },
  {
+  "date": "2026-07-14",
+  "title": "현대건설, 미국(US) FANCO와 납-비스무트 냉각 SMR 협력",
+  "summary": "현대건설이 미국의 FANCO와 차세대 납-비스무트 냉각 소형모듈원자로(SMR) 개발 프로젝트 협력을 추진한다.",
+  "summaryLong": "현대건설이 미국의 원자력 기업 FANCO와 납-비스무트 냉각 방식의 소형모듈원자로(SMR) 개발 사업에 협력하기로 결정했다. 이는 현대건설이 차세대 원자로 기술 분야로 사업을 확대하고 글로벌 원전 협력 네트워크를 강화하는 전략의 일환이다. 협력을 통해 현대건설은 EAGL-1 등 FANCO의 SMR 프로젝트에 EPC(설계·조달·건설) 사업 참여를 모색할 예정이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "현대건설",
+  "region": "KR",
+  "source": "biz.chosun.com",
+  "url": "https://biz.chosun.com/en/en-realestate/2026/07/14/25E553TRJ5BLDKWY424YBVJZXE/",
+  "k": "hyundai e c joins us fanco to advance lead bismuth smr project chosunbiz",
+  "id": "c2e38041"
+ },
+ {
+  "date": "2026-07-14",
+  "title": "아이티센씨티에스, 한국원자력연구원 V-SMR 개발용 슈퍼컴 구축",
+  "summary": "아이티센씨티에스가 한국원자력연구원의 V-SMR(수직형 소형모듈원자로) 개발을 위한 슈퍼컴퓨터를 구축하며 AI 기술을 제공한다.",
+  "summaryLong": "아이티센씨티에스가 한국원자력연구원의 수직형 소형모듈원자로(V-SMR) 개발 프로젝트를 지원하기 위해 슈퍼컴퓨터 인프라를 구축했다. 아이티센씨티에스는 '풀스택(Full-stack) AI' 기술을 제공하여 V-SMR의 설계·분석·시뮬레이션을 지원하는 역할을 한다. 이는 국내 첨단 SMR 개발의 핵심 인프라 구축으로, 연구 속도 가속화와 기술 고도화에 기여할 것으로 예상된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "아이티센씨티에스",
+  "region": "KR",
+  "source": "byline.network",
+  "url": "https://byline.network/2026/07/14-601/",
+  "k": "아이티센씨티에스 원자력연구원 v smr 개발 슈퍼컴 구축 풀스택 ai 제공",
+  "ko": 1,
+  "id": "6b3846cd"
+ },
+ {
+  "date": "2026-07-14",
+  "title": "현대건설, 미국 FANCO와 차세대 SMR 'EAGL-1' 협력…EPC 참여 모색",
+  "summary": "현대건설이 미국 FANCO의 차세대 SMR 프로젝트 'EAGL-1'에 협력하며 EPC(설계·조달·건설) 사업 참여를 검토한다.",
+  "summaryLong": "현대건설이 미국의 원자력 기업 FANCO와 차세대 소형모듈원자로(SMR) 프로젝트 'EAGL-1'에 대한 협력 계약을 체결했다. 현대건설은 이 프로젝트에서 EPC(설계·조달·건설) 사업 참여를 적극 모색하고 있다. 이는 현대건설이 전통적 대형원전 건설 능력을 바탕으로 차세대 원자로 시장으로 진출하는 전략적 움직임이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "현대건설",
+  "region": "KR",
+  "source": "opinionnews.co.kr",
+  "url": "https://www.opinionnews.co.kr/news/articleView.html?idxno=141487",
+  "k": "현대건설 fanco와 차세대 smr eagl 1 협력 epc 참여 모색",
+  "ko": 1,
+  "id": "9b71f8e7"
+ },
+ {
   "date": "2026-07-13",
   "title": "홀텍(Holtec), 인도 SMR 사업 포함한 IPO 추진",
   "summary": "미국 핵심 기업 홀텍(Holtec)이 인도에서의 소형모듈원자로(SMR) 사업을 포함하여 기업공개(IPO)를 추진 중이다.",
@@ -690,6 +734,21 @@ window.SMR_NEWS = [
   "id": "12352e63"
  },
  {
+  "date": "2026-07-13",
+  "title": "한·미·일 'SMR 전략동맹', 중·러 대응 연대 구축",
+  "summary": "한국·미국·일본이 소형모듈원자로(SMR) 분야에서 전략적 협력 동맹을 구성하여 중국·러시아의 원자력 시장 확대에 대응한다.",
+  "summaryLong": "한국·미국·일본이 소형모듈원자로(SMR) 분야에서 전략적 협력 동맹을 체결하여 중국과 러시아의 원자력 시장 장악 전략에 대응하고 있다. 미국이 주도한 이번 협력은 세 국가 간의 기술 공유와 사업 연대를 통해 인도·태평양 지역 국가들의 환영을 받고 있다. 이는 지정학적 갈등 속에서 선진국들이 에너지 안보와 탄소중립 목표를 동시에 추구하는 전략적 의미를 갖는다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "asiatoday.co.kr",
+  "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260713010004832",
+  "k": "한미일 smr 전략동맹 중러 대응 연대 인태 일부국 환영 반응",
+  "ko": 1,
+  "id": "9d9e7df5"
+ },
+ {
   "date": "2026-07-12",
   "title": "SK이노베이션, 테라파워와 소형모듈원자로 상용화 가속",
   "summary": "SK이노베이션(SK Innovation)과 테라파워(TerraPower)가 소형모듈원자로(SMR) 상용화 협력을 가속화한다는 조선일보 보도.",
@@ -854,51 +913,6 @@ window.SMR_NEWS = [
   "url": "https://finance.yahoo.com/markets/stocks/articles/why-nuscale-power-smr-down-150821532.html",
   "k": "why nuscale power smr is down 7 4 after mounting delays weak results and no firm contracts",
   "id": "a571edbd"
- },
- {
-  "date": "2026-07-10",
-  "title": "소형모듈원자로(SMR)·우주원전 상용화 지원 법제화 추진, 국가전략으로 격상",
-  "summary": "국회에서 소형모듈원자로(SMR)와 차세대 원자력 기술의 상용화·수출을 국가 차원에서 지원하는 법안을 추진 중이다.",
-  "summaryLong": "국민의힘 박상웅 의원(경남 밀양·의령·함안·창녕)이 소형모듈원자로(SMR)를 비롯한 차세대 원자력 기술의 상용화와 해외 진출을 국가 차원에서 체계적으로 지원하는 '원자력진흥법 일부개정법률안'을 국회에 제출했다. 이는 현행 원자력 정책이 연구개발(R&D) 중심에서 실증·사업화·수출로 확대되고, 국민 이해 증진과 사회적 수용성 확보가 국가 정책으로 명문화되도록 하는 내용을 담고 있다. 인공지능 데이터센터와 반도체 클러스터 급성장에 따른 안정적 전원 수요 증가와 글로벌 차세대 원자력 기술 선점 경쟁이 배경이며, 국내 원전산업 경쟁력 강화와 시장 선점을 위한 제도적 기반 마련이 목표이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "에너지데일리 - 전체기사",
-  "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=201315",
-  "k": "smr 우주원전 상용화 지원 법제화 추진 원자력 해외진출 사회적 수용성도 국가전략으로",
-  "ko": 1,
-  "id": "a32c079e"
- },
- {
-  "date": "2026-07-10",
-  "title": "원안위, 원자력 규제지침 운영체계 첫 제도화… 규제 일관성·예측가능성 강화",
-  "summary": "원자력안전위원회(NSSC)가 소형모듈원자로(SMR)·차세대 원전 개발 본격화에 대응하여 규제지침 관리 체계를 법제화한다.",
-  "summaryLong": "원자력안전위원회(NSSC, 위원장 최원호)는 그동안 내부 기준으로 운영되던 '원자력안전 규제지침 및 심사기술서'의 법적 근거를 명확히 하기 위해 '원자력안전 규제지침 및 심사기술서 운영에 관한 훈령' 제정안을 10일 행정예고하고 30일까지 의견을 수렴한다고 발표했다. 소형모듈원자로(SMR)와 차세대 원전 개발이 본격화되는 시점에서 규제지침의 체계적 관리는 원자력 안전규제의 일관성·투명성·예측가능성을 높이고, 산업계의 인허가 추진 확실성을 강화하는 제도 개선이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "에너지데일리 - 전체기사",
-  "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=201300",
-  "k": "원안위 원자력 규제지침 운영체계 첫 제도화 규제 일관성 예측가능성 높인다",
-  "ko": 1,
-  "id": "a229c774"
- },
- {
-  "date": "2026-07-10",
-  "title": "박상웅 의원, 소형모듈원자로(SMR) 상용화 촉진 법제화 주도",
-  "summary": "국민의힘 박상웅 의원이 소형모듈원자로(SMR) 상용화 촉진을 위한 '원자력진흥법' 개정안을 대표발의했다.",
-  "summaryLong": "국민의힘 박상웅 국회의원(경남 밀양·의령·함안·창녕, 원내부대표)은 10일 차세대 원자력 기술의 상용화를 촉진하고 원자력 정책의 사회적 수용성을 높이기 위한 '원자력진흥법 일부개정법률안'을 대표발의했다. 현행법은 기본계획 수립과 연구개발(R&D) 추진 근거는 있으나, 연구성과의 실증·사업화·산업 현장 연계 및 해외 진출 지원 체계는 미흡한 상황이다. 최근 인공지능 데이터센터와 반도체 클러스터 급성장으로 안정적 전원 수요가 급증하고 있고, 소형모듈원자로(SMR) 등 차세대 원자력 기술 선점 경쟁이 전 세계적으로 치열해지는 시점에서 법제화를 통한 정책 전환이 추진되고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "투데이에너지 - 전체기사",
-  "url": "https://www.todayenergy.kr/news/articleView.html?idxno=300204",
-  "k": "박상웅 의원 smr 상용화 촉진 법제화 추진",
-  "ko": 1,
-  "id": "434105df"
  },
  {
   "date": "2026-07-10",
@@ -1393,5 +1407,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-14 15:22 KST";
-window.SMR_TOTAL = 1254;
+window.SMR_UPDATED = "2026-07-14 15:59 KST";
+window.SMR_TOTAL = 1258;

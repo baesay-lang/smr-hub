@@ -111,6 +111,50 @@ window.SMR_NEWS = [
     "id": "1cff64da"
   },
   {
+    "date": "2026-07-14",
+    "title": "현대건설, 미국(US) FANCO와 납-비스무트 냉각 SMR 협력",
+    "summary": "현대건설이 미국의 FANCO와 차세대 납-비스무트 냉각 소형모듈원자로(SMR) 개발 프로젝트 협력을 추진한다.",
+    "summaryLong": "현대건설이 미국의 원자력 기업 FANCO와 납-비스무트 냉각 방식의 소형모듈원자로(SMR) 개발 사업에 협력하기로 결정했다. 이는 현대건설이 차세대 원자로 기술 분야로 사업을 확대하고 글로벌 원전 협력 네트워크를 강화하는 전략의 일환이다. 협력을 통해 현대건설은 EAGL-1 등 FANCO의 SMR 프로젝트에 EPC(설계·조달·건설) 사업 참여를 모색할 예정이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대건설",
+    "region": "KR",
+    "source": "biz.chosun.com",
+    "url": "https://biz.chosun.com/en/en-realestate/2026/07/14/25E553TRJ5BLDKWY424YBVJZXE/",
+    "k": "hyundai e c joins us fanco to advance lead bismuth smr project chosunbiz",
+    "id": "c2e38041"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "아이티센씨티에스, 한국원자력연구원 V-SMR 개발용 슈퍼컴 구축",
+    "summary": "아이티센씨티에스가 한국원자력연구원의 V-SMR(수직형 소형모듈원자로) 개발을 위한 슈퍼컴퓨터를 구축하며 AI 기술을 제공한다.",
+    "summaryLong": "아이티센씨티에스가 한국원자력연구원의 수직형 소형모듈원자로(V-SMR) 개발 프로젝트를 지원하기 위해 슈퍼컴퓨터 인프라를 구축했다. 아이티센씨티에스는 '풀스택(Full-stack) AI' 기술을 제공하여 V-SMR의 설계·분석·시뮬레이션을 지원하는 역할을 한다. 이는 국내 첨단 SMR 개발의 핵심 인프라 구축으로, 연구 속도 가속화와 기술 고도화에 기여할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "아이티센씨티에스",
+    "region": "KR",
+    "source": "byline.network",
+    "url": "https://byline.network/2026/07/14-601/",
+    "k": "아이티센씨티에스 원자력연구원 v smr 개발 슈퍼컴 구축 풀스택 ai 제공",
+    "ko": 1,
+    "id": "6b3846cd"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "현대건설, 미국 FANCO와 차세대 SMR 'EAGL-1' 협력…EPC 참여 모색",
+    "summary": "현대건설이 미국 FANCO의 차세대 SMR 프로젝트 'EAGL-1'에 협력하며 EPC(설계·조달·건설) 사업 참여를 검토한다.",
+    "summaryLong": "현대건설이 미국의 원자력 기업 FANCO와 차세대 소형모듈원자로(SMR) 프로젝트 'EAGL-1'에 대한 협력 계약을 체결했다. 현대건설은 이 프로젝트에서 EPC(설계·조달·건설) 사업 참여를 적극 모색하고 있다. 이는 현대건설이 전통적 대형원전 건설 능력을 바탕으로 차세대 원자로 시장으로 진출하는 전략적 움직임이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대건설",
+    "region": "KR",
+    "source": "opinionnews.co.kr",
+    "url": "https://www.opinionnews.co.kr/news/articleView.html?idxno=141487",
+    "k": "현대건설 fanco와 차세대 smr eagl 1 협력 epc 참여 모색",
+    "ko": 1,
+    "id": "9b71f8e7"
+  },
+  {
     "date": "2026-07-13",
     "title": "홀텍(Holtec), 인도 SMR 사업 포함한 IPO 추진",
     "summary": "미국 핵심 기업 홀텍(Holtec)이 인도에서의 소형모듈원자로(SMR) 사업을 포함하여 기업공개(IPO)를 추진 중이다.",
@@ -695,6 +739,21 @@ window.SMR_NEWS = [
     "k": "한미일 smr 협력 인태시장 공략 넘어 원자력 잠재력 확인 머니투데이",
     "ko": 1,
     "id": "12352e63"
+  },
+  {
+    "date": "2026-07-13",
+    "title": "한·미·일 'SMR 전략동맹', 중·러 대응 연대 구축",
+    "summary": "한국·미국·일본이 소형모듈원자로(SMR) 분야에서 전략적 협력 동맹을 구성하여 중국·러시아의 원자력 시장 확대에 대응한다.",
+    "summaryLong": "한국·미국·일본이 소형모듈원자로(SMR) 분야에서 전략적 협력 동맹을 체결하여 중국과 러시아의 원자력 시장 장악 전략에 대응하고 있다. 미국이 주도한 이번 협력은 세 국가 간의 기술 공유와 사업 연대를 통해 인도·태평양 지역 국가들의 환영을 받고 있다. 이는 지정학적 갈등 속에서 선진국들이 에너지 안보와 탄소중립 목표를 동시에 추구하는 전략적 의미를 갖는다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "asiatoday.co.kr",
+    "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260713010004832",
+    "k": "한미일 smr 전략동맹 중러 대응 연대 인태 일부국 환영 반응",
+    "ko": 1,
+    "id": "9d9e7df5"
   },
   {
     "date": "2026-07-12",
@@ -18104,4 +18163,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-14 15:22 KST";
+window.SMR_UPDATED = "2026-07-14 15:59 KST";
