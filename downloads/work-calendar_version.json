@@ -1,6 +1,6 @@
 {
-  "version": "3.4.0",
+  "version": "3.4.1",
   "date": "2026-07-14",
   "url": "https://baesay-lang.github.io/smr-hub/downloads/work-calendar_latest.zip",
-  "notes": "업무 코드 목록 ★즐겨찾기 최상단 정렬 + 일정 창에서 ★ 체크로 즐겨찾기 등록, 블록 편집 창 [저장 + Outlook 보내기]로 개별 업무 1건씩 Outlook 등록 (같은 제목 자동등록분은 교체)"
+  "notes": "업데이트 안정화 — 파일 교체 실패(OneDrive·백신 잠금) 시 재시도하고, 전부 성공한 경우에만 버전을 올려 다음 실행에서 자동 재시도. v3.4.0에서 ImportError(register_one)가 났던 PC는 재실행하면 복구됨"
 }
