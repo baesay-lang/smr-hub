@@ -1,6 +1,6 @@
 {
-  "version": "3.0.3",
-  "date": "2026-07-13",
+  "version": "3.1.0",
+  "date": "2026-07-14",
   "url": "https://baesay-lang.github.io/smr-hub/downloads/work-calendar_latest.zip",
-  "notes": "설정 창을 열어 화면이 좁아질 때 주 표시가 뷰 버튼을 침범하던 문제 수정"
+  "notes": "툴바 용어 통일 — 업무 일정 생성/가져오기/등록/내보내기, 버튼 균등 크기"
 }
