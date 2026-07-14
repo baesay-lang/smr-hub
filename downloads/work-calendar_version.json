@@ -1,6 +1,6 @@
 {
-  "version": "3.5.0",
+  "version": "3.5.1",
   "date": "2026-07-14",
   "url": "https://baesay-lang.github.io/smr-hub/downloads/work-calendar_latest.zip",
-  "notes": "플랜트영업팀 업무 코드 추가 (50개 — Project 발굴·입찰지원·매뉴얼·전략과제·경영진 보고·교육·팀 일반업무·휴가) — 사이드바 팀 선택에서 '플랜트영업팀'"
+  "notes": "팀 목록 캐시 제거 — 새 팀 코드(플랜트영업팀 등)가 재시작 없이 화면 갱신만으로 반영"
 }
