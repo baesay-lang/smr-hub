@@ -60,6 +60,50 @@ window.SMR_NEWS = [
   "id": "5b8c066d"
  },
  {
+  "date": "2026-07-14",
+  "title": "현대건설, FANCO(Fundamental Advanced Next-generation Compact Oscillator)와 미국(US) SMR 사업 전략적 파트너십 체결",
+  "summary": "현대건설이 미국의 FANCO와 소형모듈원자로(SMR) 사업을 위한 전략적 파트너십을 체결했다.",
+  "summaryLong": "현대건설이 미국의 FANCO와 소형모듈원자로(SMR) 사업 확대를 위한 전략적 파트너십을 체결했다. 이 파트너십을 통해 현대건설은 미국 시장에서의 SMR 사업 입지를 강화하고, FANCO와 함께 차세대 원자로 기술 개발 및 사업화를 추진할 것으로 보인다. 이는 현대건설의 글로벌 원전 협력망 확대 전략의 일환이며, 첨단 소형원자로 분야에서의 기술 협력 강화를 의미한다.",
+  "cat": "계약",
+  "type": "General",
+  "dev": "현대건설, FANCO",
+  "region": "US",
+  "source": "koreaittimes.com",
+  "url": "https://www.koreaittimes.com/news/articleView.html?idxno=155214",
+  "k": "hyundai e c expands u s smr ambitions through strategic partnership with fanco",
+  "id": "96237832"
+ },
+ {
+  "date": "2026-07-14",
+  "title": "아이티센씨티에스, 원자력연구원의 V-SMR 슈퍼컴퓨터 구축 프로젝트 수주",
+  "summary": "아이티센씨티에스가 한국원자력연구원의 V-SMR 슈퍼컴퓨팅 시스템 구축 사업을 수주했다.",
+  "summaryLong": "아이티센씨티에스가 한국원자력연구원의 V-SMR(Vertical Small Modular Reactor) 관련 슈퍼컴퓨팅 시스템 구축 프로젝트를 수주했다. 이 프로젝트는 V-SMR 설계 및 성능 검증을 위한 고성능 컴퓨팅 인프라 구축으로, 한국의 소형모듈원자로 기술 개발 지원 사업의 일환이다. 아이티센씨티에스의 참여는 국내 SMR 개발 사업의 기술 고도화 추진을 의미한다.",
+  "cat": "계약",
+  "type": "Micro",
+  "dev": "아이티센씨티에스",
+  "region": "KR",
+  "source": "m.ddaily.co.kr",
+  "url": "https://m.ddaily.co.kr/page/view/2026071410320190809",
+  "k": "아이티센씨티에스 원자력연구원 v smr 슈퍼컴퓨터 구축",
+  "ko": 1,
+  "id": "ca4d7691"
+ },
+ {
+  "date": "2026-07-14",
+  "title": "현대건설, 미국 원전사와 'EAGL-1 프로젝트' 기본 협약 체결",
+  "summary": "현대건설이 미국 원전사와 'EAGL-1 프로젝트'에 대한 기본 협약을 체결하며 SMR 풀라인업 확보를 추진 중이다.",
+  "summaryLong": "현대건설이 미국 원전사와 'EAGL-1 프로젝트'에 대한 기본 협약(Master Agreement)을 체결했다. EAGL-1은 차세대 소형모듈원자로 프로젝트로 추정되며, 현대건설은 이 프로젝트를 통해 다양한 SMR 기술 포트폴리오(풀라인업) 확보를 목표하고 있다. 이 협약은 현대건설의 글로벌 SMR 사업 확대 전략의 핵심 마일스톤이며, 향후 설계, 건설, 운영 등 전 단계에서의 참여 확대를 의미한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "현대건설",
+  "region": "US",
+  "source": "asiatoday.co.kr",
+  "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260714010005017",
+  "k": "smr 풀라인업 확보 현대건설 원전사와 eagl 1 프로젝트 기본 협약",
+  "ko": 1,
+  "id": "1cff64da"
+ },
+ {
   "date": "2026-07-13",
   "title": "홀텍(Holtec), 인도 SMR 사업 포함한 IPO 추진",
   "summary": "미국 핵심 기업 홀텍(Holtec)이 인도에서의 소형모듈원자로(SMR) 사업을 포함하여 기업공개(IPO)를 추진 중이다.",
@@ -616,6 +660,36 @@ window.SMR_NEWS = [
   "id": "95dd3fa8"
  },
  {
+  "date": "2026-07-13",
+  "title": "심층 분석: AI 전력난과 넷제로의 교차점에서 본 SMR 산업의 경제적 파급 효과와 밸류체인 재편",
+  "summary": "AI 데이터센터의 전력 수요 증가와 탄소중립 목표가 소형모듈원자로 산업의 성장을 견인하는 현상을 경제적·산업적 관점에서 분석한다.",
+  "summaryLong": "이 기사는 인공지능(AI) 서비스 확산으로 인한 데이터센터의 급증하는 전력 수요와 글로벌 탄소중립(넷제로) 목표가 소형모듈원자로(SMR) 산업의 성장을 견인하는 메커니즘을 심층 분석한다. SMR 산업의 경제적 파급 효과와 에너지 공급망 재편을 다루며, 이는 전력 시장과 원자력 산업의 구조적 변화를 보여주는 정책 및 시장 분석 기사이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "",
+  "source": "newsvalue.kr",
+  "url": "https://www.newsvalue.kr/news/articleView.html?idxno=24148",
+  "k": "심층 분석 ai 전력난과 넷제로의 교차점 smr 소형모듈원자로 산업의 경제적 파급 효과와 밸류체인 재편",
+  "ko": 1,
+  "id": "84e6b164"
+ },
+ {
+  "date": "2026-07-13",
+  "title": "한미일 SMR 협력…인태 시장 공략 넘어 한국 원자력 잠재력 확인",
+  "summary": "한국, 미국, 일본이 소형모듈원자로(SMR) 협력을 강화하며 인태(Indo-Pacific) 시장 진출과 한국 원자력의 글로벌 경쟁력을 입증하고 있다.",
+  "summaryLong": "한국, 미국, 일본이 소형모듈원자로 분야에서 협력을 확대하고 있으며, 이는 단순한 인태(Indo-Pacific) 시장 공략을 넘어 한국 원자력 산업의 잠재력을 국제적으로 입증하는 기회가 되고 있다. 한미일 3국 협력은 차세대 원자로 기술 개발, 표준화, 시장 진출 등 다층적 차원에서 진행되고 있다. 이러한 협력은 한국 기업들의 글로벌 SMR 프로젝트 참여를 촉진하고 원자력 외교의 중요한 축을 형성하고 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "mt.co.kr",
+  "url": "https://www.mt.co.kr/politics/2026/07/13/2026071316453097931",
+  "k": "한미일 smr 협력 인태시장 공략 넘어 원자력 잠재력 확인 머니투데이",
+  "ko": 1,
+  "id": "12352e63"
+ },
+ {
   "date": "2026-07-12",
   "title": "SK이노베이션, 테라파워와 소형모듈원자로 상용화 가속",
   "summary": "SK이노베이션(SK Innovation)과 테라파워(TerraPower)가 소형모듈원자로(SMR) 상용화 협력을 가속화한다는 조선일보 보도.",
@@ -828,80 +902,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-10",
-  "title": "외교당국자 \"한국 우라늄 농축권 부여 시 미국 SMR 산업 활성화\"",
-  "summary": "한국에 우라늄 농축 권한을 부여하면 미국 소형모듈원자로 산업이 탄력을 받을 수 있다는 외교당국자의 발언이 보도됐다.",
-  "summaryLong": "외교당국자가 한국에 우라늄 농축 권한을 주면 미국의 소형모듈원자로(SMR) 산업이 활성화될 수 있다고 주장했다. 미국의 SMR 개발사들이 핵연료 확보의 어려움을 겪고 있는 가운데, 한국의 우라늄 농축 기술 활용이 해결책이 될 수 있다는 정책적 제안으로 해석된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "v.daum.net",
-  "url": "https://v.daum.net/v/20260710153141700",
-  "k": "외교당국자 한국에 우라늄 농축 권한 주면 미국 smr 산업도 탄력",
-  "ko": 1,
-  "id": "d51ee508"
- },
- {
-  "date": "2026-07-10",
-  "title": "\"미국 SMR 핵연료 문제, 한국 농축권 부여로 해결 가능\"",
-  "summary": "미국 소형모듈원자로의 핵연료 확보 문제가 한국에 우라늄 농축 권한을 부여함으로써 해결될 수 있다는 주장이 제시되었다.",
-  "summaryLong": "미국의 소형모듈원자로(SMR) 개발사들이 직면한 핵연료 확보 문제를 한국의 우라늄 농축 권한 부여로 해결할 수 있다는 의견이 제출되었다. 이는 한미 원자력 협력의 핵심 과제로, 미국 SMR 산업의 활성화와 한국의 전략적 역할을 동시에 고려한 정책 제안으로 평가된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "imnews.imbc.com",
-  "url": "https://imnews.imbc.com/news/2026/politics/article/6836528_36911.html",
-  "k": "미국 smr 핵연료 확보 문제 한국에 농축권한 주면 해결",
-  "ko": 1,
-  "id": "2a3ee674"
- },
- {
-  "date": "2026-07-10",
-  "title": "대우건설, 건설 사업 넘어 에너지 사업으로 확대…LNG·SMR 추진",
-  "summary": "대우건설이 건설 사업에서 벗어나 LNG와 소형모듈원자로 에너지 사업으로 포트폴리오를 다각화하고 있다.",
-  "summaryLong": "대우건설이 전통적 건설 사업을 넘어 LNG와 소형모듈원자로(SMR) 등 에너지 사업으로 사업 영역을 확대하고 있다. 이는 대우건설의 전략적 사업 포트폴리오 재편을 반영하는 것으로, 글로벌 에너지 시장 변화에 대응하기 위한 움직임으로 해석된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "대우건설",
-  "region": "KR",
-  "source": "v.daum.net",
-  "url": "https://v.daum.net/v/20260710142544222?t=m&x_mn=6a508aa5fbddf26a833d3723",
-  "k": "건설 넘어 에너지로 대우건설 lng smr 사업 확대",
-  "ko": 1,
-  "id": "48456191"
- },
- {
-  "date": "2026-07-10",
-  "title": "미국 기관, 터키(Türkiye)의 소형모듈원자로(SMR) 투자에 협력 신호",
-  "summary": "미국 정부 기관이 터키의 소형모듈원자로 투자에 대한 협력 의사를 표명했다.",
-  "summaryLong": "미국 정부 기관이 터키(Türkiye)의 소형모듈원자로(SMR) 투자 사업에 대해 국제 협력의 의사를 신호했다는 보도다. 미국과 터키 간의 원자력 협력 확대를 의미하는 정책 차원의 발표로, 양국 간 SMR 분야의 기술 협력, 투자 지원 또는 규제 협력 등이 진전될 가능성을 시사한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "turkiyetoday.com",
-  "url": "https://www.turkiyetoday.com/world/us-agency-signals-cooperation-on-turkiyes-smr-investments-3223612",
-  "k": "us agency signals cooperation on t rkiye s smr investments",
-  "id": "a810f627"
- },
- {
-  "date": "2026-07-10",
-  "title": "한미일 소형모듈원자로(SMR) 협력과 독자 모델 중요성 [포럼]",
-  "summary": "한·미·일 3국의 소형모듈원자로 협력과 각국의 독립적 기술 개발 중요성을 다룬 정책 포럼 기사.",
-  "summaryLong": "문화일보에 게재된 포럼 칼럼으로, 한국·미국·일본 3국 간의 소형모듈원자로(SMR) 협력 체계와 함께 각국이 독자적인 첨단로 모델을 개발·확보하는 것의 전략적 중요성을 다루고 있다. 국제 협력과 기술 자립의 균형을 강조하는 정책 차원의 견해 표현으로, SMR 분야의 국제 협력 논의와 각국의 기술 개발 경쟁을 배경으로 한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "munhwa.com",
-  "url": "https://www.munhwa.com/article/11601771",
-  "k": "한미일 smr 협력과 독자 모델 중요성 포럼",
-  "ko": 1,
-  "id": "f5e391a4"
- },
- {
-  "date": "2026-07-10",
   "title": "NRC, 테네시 클린치 리버 사이트의 TVA 소형모듈원자로(BWRX-300) 건설허가 권고",
   "summary": "미국원자력규제위원회(NRC) 직원이 테네시(Tennessee) 클린치 리버(Clinch River) 부지에서 테네시밸리오써리티(TVA)의 BWRX-300 소형모듈원자로 건설을 위한 건설허가를 권고했다.",
   "summaryLong": "미국원자력규제위원회(NRC) 직원이 테네시밸리오써리티(TVA)가 테네시 클린치 리버 부지에서 추진 중인 BWRX-300 소형모듈원자로(SMR) 프로젝트에 대해 건설허가를 권고했다. BWRX-300은 캐나다 롤스로이스(Rolls-Royce SMR)가 개발한 소형 비등경수로(BWR) 기반 설계로, 미국 내 SMR 상용화의 중요한 진전을 나타낸다. 이는 대형 원전과 달리 소형 규모로 기존 화력발전소 부지 등에 배치 가능한 첨단 원자력 기술의 규제 승인 단계로 진행 중임을 보여준다.",
@@ -998,20 +998,6 @@ window.SMR_NEWS = [
   "url": "https://www.ans.org/news/2026-07-07/article-8183/polish-company-sge-hopes-to-deploy-14-bwrx300-reactors-in-uk/",
   "k": "polish company sge hopes to deploy 14 bwrx 300 reactors in u k",
   "id": "13b8ec6b"
- },
- {
-  "date": "2026-07-07",
-  "title": "암페라, 3D 프린팅 마이크로원자로 모듈 완성",
-  "summary": "미국 암페라(Ampera)가 3D 프린팅 기술으로 제조한 전규모 핵원자로 모듈 완성을 주요 마일스톤으로 달성했다.",
-  "summaryLong": "미국 암페라(Ampera Inc)는 첫 번째 전규모 3D 프린팅 핵원자로 모듈 제조 완성을 주요 마일스톤으로 발표했다. 이는 첨단 제조 기술을 활용한 마이크로원자로 모듈 생산의 기술적 진전을 보여주는 사례로, 혁신적 제조 공정의 실현 가능성을 입증한다. 3D 프린팅 기술의 적용은 마이크로원자로의 건설 비용 절감과 제조 효율성 향상을 기대하게 한다.",
-  "cat": "기술",
-  "type": "Micro",
-  "dev": "Ampera",
-  "region": "US",
-  "source": "World Nuclear News",
-  "url": "https://www.world-nuclear-news.org/articles/ampera-makes-3d-printed-microreactor-module",
-  "k": "ampera makes 3d printed microreactor module",
-  "id": "59846cc8"
  },
  {
   "date": "2026-07-07",
@@ -1407,5 +1393,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-14 14:53 KST";
-window.SMR_TOTAL = 1249;
+window.SMR_UPDATED = "2026-07-14 15:22 KST";
+window.SMR_TOTAL = 1254;

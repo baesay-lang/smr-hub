@@ -67,6 +67,50 @@ window.SMR_NEWS = [
     "id": "5b8c066d"
   },
   {
+    "date": "2026-07-14",
+    "title": "현대건설, FANCO(Fundamental Advanced Next-generation Compact Oscillator)와 미국(US) SMR 사업 전략적 파트너십 체결",
+    "summary": "현대건설이 미국의 FANCO와 소형모듈원자로(SMR) 사업을 위한 전략적 파트너십을 체결했다.",
+    "summaryLong": "현대건설이 미국의 FANCO와 소형모듈원자로(SMR) 사업 확대를 위한 전략적 파트너십을 체결했다. 이 파트너십을 통해 현대건설은 미국 시장에서의 SMR 사업 입지를 강화하고, FANCO와 함께 차세대 원자로 기술 개발 및 사업화를 추진할 것으로 보인다. 이는 현대건설의 글로벌 원전 협력망 확대 전략의 일환이며, 첨단 소형원자로 분야에서의 기술 협력 강화를 의미한다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "현대건설, FANCO",
+    "region": "US",
+    "source": "koreaittimes.com",
+    "url": "https://www.koreaittimes.com/news/articleView.html?idxno=155214",
+    "k": "hyundai e c expands u s smr ambitions through strategic partnership with fanco",
+    "id": "96237832"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "아이티센씨티에스, 원자력연구원의 V-SMR 슈퍼컴퓨터 구축 프로젝트 수주",
+    "summary": "아이티센씨티에스가 한국원자력연구원의 V-SMR 슈퍼컴퓨팅 시스템 구축 사업을 수주했다.",
+    "summaryLong": "아이티센씨티에스가 한국원자력연구원의 V-SMR(Vertical Small Modular Reactor) 관련 슈퍼컴퓨팅 시스템 구축 프로젝트를 수주했다. 이 프로젝트는 V-SMR 설계 및 성능 검증을 위한 고성능 컴퓨팅 인프라 구축으로, 한국의 소형모듈원자로 기술 개발 지원 사업의 일환이다. 아이티센씨티에스의 참여는 국내 SMR 개발 사업의 기술 고도화 추진을 의미한다.",
+    "cat": "계약",
+    "type": "Micro",
+    "dev": "아이티센씨티에스",
+    "region": "KR",
+    "source": "m.ddaily.co.kr",
+    "url": "https://m.ddaily.co.kr/page/view/2026071410320190809",
+    "k": "아이티센씨티에스 원자력연구원 v smr 슈퍼컴퓨터 구축",
+    "ko": 1,
+    "id": "ca4d7691"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "현대건설, 미국 원전사와 'EAGL-1 프로젝트' 기본 협약 체결",
+    "summary": "현대건설이 미국 원전사와 'EAGL-1 프로젝트'에 대한 기본 협약을 체결하며 SMR 풀라인업 확보를 추진 중이다.",
+    "summaryLong": "현대건설이 미국 원전사와 'EAGL-1 프로젝트'에 대한 기본 협약(Master Agreement)을 체결했다. EAGL-1은 차세대 소형모듈원자로 프로젝트로 추정되며, 현대건설은 이 프로젝트를 통해 다양한 SMR 기술 포트폴리오(풀라인업) 확보를 목표하고 있다. 이 협약은 현대건설의 글로벌 SMR 사업 확대 전략의 핵심 마일스톤이며, 향후 설계, 건설, 운영 등 전 단계에서의 참여 확대를 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대건설",
+    "region": "US",
+    "source": "asiatoday.co.kr",
+    "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260714010005017",
+    "k": "smr 풀라인업 확보 현대건설 원전사와 eagl 1 프로젝트 기본 협약",
+    "ko": 1,
+    "id": "1cff64da"
+  },
+  {
     "date": "2026-07-13",
     "title": "홀텍(Holtec), 인도 SMR 사업 포함한 IPO 추진",
     "summary": "미국 핵심 기업 홀텍(Holtec)이 인도에서의 소형모듈원자로(SMR) 사업을 포함하여 기업공개(IPO)를 추진 중이다.",
@@ -621,6 +665,36 @@ window.SMR_NEWS = [
     "k": "smr 삼국동맹 맺은 한 미 일 k 원전기업들 웃었다",
     "ko": 1,
     "id": "95dd3fa8"
+  },
+  {
+    "date": "2026-07-13",
+    "title": "심층 분석: AI 전력난과 넷제로의 교차점에서 본 SMR 산업의 경제적 파급 효과와 밸류체인 재편",
+    "summary": "AI 데이터센터의 전력 수요 증가와 탄소중립 목표가 소형모듈원자로 산업의 성장을 견인하는 현상을 경제적·산업적 관점에서 분석한다.",
+    "summaryLong": "이 기사는 인공지능(AI) 서비스 확산으로 인한 데이터센터의 급증하는 전력 수요와 글로벌 탄소중립(넷제로) 목표가 소형모듈원자로(SMR) 산업의 성장을 견인하는 메커니즘을 심층 분석한다. SMR 산업의 경제적 파급 효과와 에너지 공급망 재편을 다루며, 이는 전력 시장과 원자력 산업의 구조적 변화를 보여주는 정책 및 시장 분석 기사이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "newsvalue.kr",
+    "url": "https://www.newsvalue.kr/news/articleView.html?idxno=24148",
+    "k": "심층 분석 ai 전력난과 넷제로의 교차점 smr 소형모듈원자로 산업의 경제적 파급 효과와 밸류체인 재편",
+    "ko": 1,
+    "id": "84e6b164"
+  },
+  {
+    "date": "2026-07-13",
+    "title": "한미일 SMR 협력…인태 시장 공략 넘어 한국 원자력 잠재력 확인",
+    "summary": "한국, 미국, 일본이 소형모듈원자로(SMR) 협력을 강화하며 인태(Indo-Pacific) 시장 진출과 한국 원자력의 글로벌 경쟁력을 입증하고 있다.",
+    "summaryLong": "한국, 미국, 일본이 소형모듈원자로 분야에서 협력을 확대하고 있으며, 이는 단순한 인태(Indo-Pacific) 시장 공략을 넘어 한국 원자력 산업의 잠재력을 국제적으로 입증하는 기회가 되고 있다. 한미일 3국 협력은 차세대 원자로 기술 개발, 표준화, 시장 진출 등 다층적 차원에서 진행되고 있다. 이러한 협력은 한국 기업들의 글로벌 SMR 프로젝트 참여를 촉진하고 원자력 외교의 중요한 축을 형성하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "mt.co.kr",
+    "url": "https://www.mt.co.kr/politics/2026/07/13/2026071316453097931",
+    "k": "한미일 smr 협력 인태시장 공략 넘어 원자력 잠재력 확인 머니투데이",
+    "ko": 1,
+    "id": "12352e63"
   },
   {
     "date": "2026-07-12",
@@ -18030,4 +18104,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-14 14:53 KST";
+window.SMR_UPDATED = "2026-07-14 15:22 KST";
