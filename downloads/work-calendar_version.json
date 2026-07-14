@@ -1,6 +1,6 @@
 {
-  "version": "3.4.1",
+  "version": "3.4.2",
   "date": "2026-07-14",
   "url": "https://baesay-lang.github.io/smr-hub/downloads/work-calendar_latest.zip",
-  "notes": "업데이트 안정화 — 파일 교체 실패(OneDrive·백신 잠금) 시 재시도하고, 전부 성공한 경우에만 버전을 올려 다음 실행에서 자동 재시도. v3.4.0에서 ImportError(register_one)가 났던 PC는 재실행하면 복구됨"
+  "notes": "업데이트 복구 강화 — 잠긴/읽기전용 파일 해제 후 재복사, 업데이트 후 낡은 캐시(__pycache__) 정리, 불완전 상태에서 모듈 자동 재적재. ImportError가 났던 PC는 창을 모두 닫고 재실행"
 }
