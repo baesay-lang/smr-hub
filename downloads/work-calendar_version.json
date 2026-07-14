@@ -1,6 +1,6 @@
 {
-  "version": "3.1.1",
+  "version": "3.1.2",
   "date": "2026-07-14",
   "url": "https://baesay-lang.github.io/smr-hub/downloads/work-calendar_latest.zip",
-  "notes": "툴바 용어 간결화 — 생성/가져오기/등록/내보내기/분석 (상세는 마우스오버·클릭 설명)"
+  "notes": "클릭 가능한 곳에 손가락 커서 표시 — 달력 빈 칸·미니 달력 날짜·버튼 전체 (hover 색 피드백 포함)"
 }
