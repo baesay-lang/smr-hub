@@ -155,6 +155,107 @@ window.SMR_NEWS = [
     "id": "9b71f8e7"
   },
   {
+    "date": "2026-07-14",
+    "title": "NRC, 웨스팅하우스의 AP1000 표준설계인증 갱신 면제 승인",
+    "summary": "미국 원자력규제위원회(NRC)가 웨스팅하우스의 AP1000 가압경수로(PWR) 표준설계인증(DC) 갱신을 위한 일정 요건 면제를 승인했다.",
+    "summaryLong": "미국 원자력규제위원회(NRC)는 웨스팅하우스가 AP1000 가압경수로(PWR)의 표준설계인증(DC)을 갱신하고 업데이트하는 과정에서 신청 시기 제한에 대한 면제 요청을 승인했다. 이는 웨스팅하우스가 설계인증 갱신을 추진하는 데 있어 규제 절차상 중요한 진전으로, 갱신 일정의 유연성을 확보하게 됐음을 의미한다.",
+    "cat": "인허가",
+    "type": "PWR",
+    "dev": "Westinghouse",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-07-14/article-8200/nrc-approves-westinghouse-exemption-request-for-ap1000-dc/",
+    "k": "nrc approves westinghouse exemption request for ap1000 dc",
+    "id": "8e72b8bf"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "홀텍, IPO 등록명세서 공개 제출",
+    "summary": "홀텍 뉴클리어 코퍼레이션(Holtec Nuclear Corporation)이 2026년 7월 10일 미국 증권거래위원회(SEC)에 신규공개(IPO) 등록명세서(Form S-1)를 제출했다.",
+    "summaryLong": "홀텍 뉴클리어 코퍼레이션(Holtec Nuclear Corporation)은 2026년 7월 10일 미국 증권거래위원회(SEC)에 A급 보통주의 신규공개(IPO)와 관련된 등록명세서(Form S-1)를 공개 제출했다. 홀텍은 소형모듈원자로(SMR) 개발 업체로서 자본시장을 통한 자금 조달을 추진하고 있다.",
+    "cat": "투자",
+    "type": "PWR",
+    "dev": "Holtec",
+    "region": "US",
+    "source": "Holtec International",
+    "url": "https://holtecinternational.com/hh-41-11/",
+    "k": "holtec nuclear corporation announces public filing of registration statement for proposed initial public offering",
+    "id": "7bee8cb3"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "현대건설·FANCO, SMR 협력 양해각서 체결",
+    "summary": "현대건설이 미국 FANCO와 EAGL-1 소형모듈원자로 프로젝트 협력을 위한 양해각서를 체결했다.",
+    "summaryLong": "한국의 현대건설(Hyundai E&C)이 미국의 퍼스트 아메리칸 뉴클리어 컴퍼니(First American Nuclear Company, FANCO)와 EAGL-1 소형모듈원자로(SMR) 프로젝트에 대한 협력 양해각서를 체결했다. 이는 한국 기업이 미국 SMR 개발사와 국제 협력을 강화하는 사례로, 양국 간 SMR 사업 협의 체계를 마련한 것으로 의미가 있다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "현대건설, FANCO",
+    "region": "KR|US",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/hyundai-ec-fanco-to-collaborate-on-smr-project",
+    "k": "hyundai e c fanco to collaborate on smr project",
+    "id": "24e08e78"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "아르헨티나의 첫 SMR 도입",
+    "summary": "아르헨티나가 소형모듈원자로(SMR) 도입을 추진하는 것으로 보도되었다.",
+    "summaryLong": "아르헨티나가 소형모듈원자로(SMR) 도입을 추진 중인 것으로 알려졌다. 보도에서는 아르헨티나의 첫 SMR 프로젝트에 대한 내용을 다루고 있으나, 제목과 스니펫만으로는 구체적인 개발사, 계약 내용, 일정 등의 세부사항이 불명확하다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "enlit.world",
+    "url": "https://www.enlit.world/library/first-smr-deal-in-argentina-is-nuclear-investment-landmark",
+    "k": "first smr for argentina",
+    "id": "ea970ee1"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "아이티센씨티에스, 원자력연구원 가상 SMR 개발용 슈퍼컴 구축",
+    "summary": "아이티센씨티에스가 한국원자력연구원과 협력하여 가상 SMR(Virtual SMR) 개발을 위한 슈퍼컴퓨터 구축을 완료했다.",
+    "summaryLong": "아이티센씨티에스가 한국원자력연구원과 함께 가상 SMR(Virtual SMR, V-SMR) 개발 프로젝트를 위한 슈퍼컴퓨터 구축을 완료했다고 보도되었다. 이는 한국의 SMR 기술 개발 인프라 확충을 의미하는 것으로, 수치해석 및 시뮬레이션 능력 강화를 목표로 한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "아이티센씨티에스",
+    "region": "KR",
+    "source": "sedaily.com",
+    "url": "https://www.sedaily.com/article/20067763",
+    "k": "아이티센씨티에스 원자력 가상 smr 개발 슈퍼컴 구축",
+    "ko": 1,
+    "id": "e886e70c"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "현대건설, 미국 SMR 기업과 협력 - EAGL-1 프로젝트 기본협약",
+    "summary": "현대건설이 미국 SMR 업체와 'EAGL-1 프로젝트' 기본협약을 체결하여 차세대 SMR 개발에 협력하기로 했다.",
+    "summaryLong": "현대건설이 미국의 SMR 기업과 'EAGL-1 프로젝트' 관련 기본협약을 체결했다. 이 협력을 통해 현대건설은 미국 차세대 원자로 시장에 진출하며, 120만 가구에 전력을 공급할 수 있는 규모의 SMR 6기 건설에 참여할 계획이다. 보도에 따르면 현대건설은 미국 FANCO 등 SMR 업체와의 협력망을 확대하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대건설",
+    "region": "US",
+    "source": "mt.co.kr",
+    "url": "https://www.mt.co.kr/estate/2026/07/14/2026071410212383125",
+    "k": "원전 6기로 120만가구 전력 공급 현대건설 smr 기업과 협력 머니투데이",
+    "ko": 1,
+    "id": "ee1e6486"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "현대건설, 미국(US) SMR 개발사 팬코(FANCO)와 납·비스무트 냉각로 협력",
+    "summary": "현대건설이 미국의 소형모듈원자로(SMR) 개발사 팬코(FANCO)와 손을 잡고 납·비스무트 냉각로 기술 개발·사업화를 추진한다.",
+    "summaryLong": "현대건설과 미국의 SMR 개발사 팬코(FANCO)가 협력 관계를 체결했다. 양사는 납·비스무트(lead-bismuth) 냉각식 소형모듈원자로 기술 개발 및 상용화를 공동으로 추진할 계획이다. 이는 현대건설이 해외 첨단원자로 기술 확보 및 국제 시장 진출을 노리는 전략적 파트너십으로 보인다. 납·비스무트 냉각로는 차세대 고속로 기술의 한 분야로, 안전성과 경제성 측면에서 주목받고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "FANCO",
+    "region": "US",
+    "source": "market-ink.co.kr",
+    "url": "https://www.market-ink.co.kr/news/articleView.html?idxno=9106",
+    "k": "현대건설 smr 개발사 fanco와 손잡고 납 비스무트 냉각로 공략",
+    "ko": 1,
+    "id": "420bc0ec"
+  },
+  {
     "date": "2026-07-13",
     "title": "홀텍(Holtec), 인도 SMR 사업 포함한 IPO 추진",
     "summary": "미국 핵심 기업 홀텍(Holtec)이 인도에서의 소형모듈원자로(SMR) 사업을 포함하여 기업공개(IPO)를 추진 중이다.",
@@ -18163,4 +18264,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-14 15:59 KST";
+window.SMR_UPDATED = "2026-07-15 07:34 KST";
