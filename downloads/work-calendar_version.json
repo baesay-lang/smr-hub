@@ -1,6 +1,6 @@
 {
-  "version": "3.1.0",
+  "version": "3.1.1",
   "date": "2026-07-14",
   "url": "https://baesay-lang.github.io/smr-hub/downloads/work-calendar_latest.zip",
-  "notes": "툴바 용어 통일 — 업무 일정 생성/가져오기/등록/내보내기, 버튼 균등 크기"
+  "notes": "툴바 용어 간결화 — 생성/가져오기/등록/내보내기/분석 (상세는 마우스오버·클릭 설명)"
 }
