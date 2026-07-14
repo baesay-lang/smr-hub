@@ -324,6 +324,51 @@ window.SMR_NEWS = [
   "id": "e7d6ead8"
  },
  {
+  "date": "2026-07-14",
+  "title": "현대건설, 미국 4세대 SMR 사업 협력",
+  "summary": "현대건설이 미국의 차세대 소형모듈원자로(SMR) 사업에 협력하기로 했다.",
+  "summaryLong": "현대건설이 미국 내 4세대 소형모듈원자로(SMR) 개발·사업에 협력하기로 결정했으며, 차세대 원자로 시장을 공략하기 위한 전략을 추진 중이다. 구체적인 계약 상대방, 계약 내용, 건설 규모, 일정 등의 세부사항은 제공된 스니펫에 포함되지 않았다. 이는 한국 건설사의 해외 SMR 사업 참여를 나타내는 중요한 소식이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "현대건설",
+  "region": "KR",
+  "source": "it.chosun.com",
+  "url": "https://it.chosun.com/news/articleView.html?idxno=2023092165762",
+  "k": "현대건설 4세대 smr 사업 협력 차세대 원자로 공략 박차",
+  "ko": 1,
+  "id": "b9bccea6"
+ },
+ {
+  "date": "2026-07-14",
+  "title": "정부, 신규 원전·SMR 확대 공식 검토",
+  "summary": "정부가 AI·반도체 산업의 전력 수요 급증에 대비하여 신규 원전과 소형모듈원자로(SMR) 확대를 공식 검토 중이다.",
+  "summaryLong": "정부가 인공지능(AI)과 반도체 산업으로 인한 전력 수요 증가에 대응하기 위해 신규 원전과 소형모듈원자로(SMR) 확대를 공식적으로 검토하고 있다. 이는 에너지 안보와 산업 경쟁력 강화를 위한 정부 차원의 전략적 접근으로, 전력 대란 가능성을 사전에 예방하려는 목적으로 보인다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "dongponews.net",
+  "url": "https://www.dongponews.net/news/articleView.html?idxno=59282",
+  "k": "정부 신규 원전 smr 확대 공식 검토 ai 반도체 전력대란 대비",
+  "ko": 1,
+  "id": "5b9dbb01"
+ },
+ {
+  "date": "2026-07-14",
+  "title": "아이티센씨티에스, 원자력연구원 V-SMR 개발 슈퍼컴 구축",
+  "summary": "아이티센씨티에스가 원자력연구원(KAERI)의 수직형 소형모듈원자로(V-SMR) 개발을 지원하기 위한 슈퍼컴퓨터를 구축한다.",
+  "summaryLong": "아이티센씨티에스가 한국원자력연구원(KAERI)의 수직형 소형모듈원자로(V-SMR) 개발 프로젝트를 지원하기 위해 슈퍼컴퓨터 인프라를 구축하고 있다. 이는 V-SMR의 설계·분석·검증 업무를 가속화하기 위한 기술 협력으로, 국내 선진 SMR 개발의 중요한 마일스톤을 의미한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "KAERI",
+  "region": "KR",
+  "source": "digitaltoday.co.kr",
+  "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=684087",
+  "k": "아이티센씨티에스 원자력연구원 v smr 개발 슈퍼컴 구축",
+  "ko": 1,
+  "id": "651c3ac7"
+ },
+ {
   "date": "2026-07-13",
   "title": "홀텍(Holtec), 인도 SMR 사업 포함한 IPO 추진",
   "summary": "미국 핵심 기업 홀텍(Holtec)이 인도에서의 소형모듈원자로(SMR) 사업을 포함하여 기업공개(IPO)를 추진 중이다.",
@@ -850,51 +895,6 @@ window.SMR_NEWS = [
   "id": "827e0fc4"
  },
  {
-  "date": "2026-07-13",
-  "title": "아이티센씨티에스, 원자력연구원 V-SMR 개발용 슈퍼컴 구축",
-  "summary": "아이티센씨티에스가 원자력연구원의 V-SMR(수직 소형모듈원자로) 개발을 지원하기 위해 슈퍼컴퓨팅 인프라를 구축했다.",
-  "summaryLong": "아이티센씨티에스가 한국원자력연구원(KAERI)의 V-SMR(수직 소형모듈원자로) 개발 프로젝트를 위한 슈퍼컴퓨터 시스템을 구축했다. 이는 V-SMR의 설계 및 안전성 분석, 시뮬레이션을 고속화하는 기술 지원이다. 국내 차세대 소형모듈원자로 기술 개발에 필요한 고성능 컴퓨팅 기반을 마련함으로써 개발 일정 단축과 기술 고도화에 기여할 것으로 기대된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "아이티센씨티에스",
-  "region": "KR",
-  "source": "smarttoday.co.kr",
-  "url": "https://www.smarttoday.co.kr/ko-kr/articles/109465",
-  "k": "아이티센씨티에스 원자력연 v smr 개발 슈퍼컴 구축",
-  "ko": 1,
-  "id": "548756e5"
- },
- {
-  "date": "2026-07-13",
-  "title": "SMR 삼국동맹 맺은 한·미·일…국내 원전기업 수혜",
-  "summary": "한·미·일이 소형모듈원자로(SMR) 분야에서 협력 동맹을 체결하여 국내 원전기업들의 시장 확대 기회가 확대되었다.",
-  "summaryLong": "한국, 미국, 일본이 소형모듈원자로(SMR) 분야 협력을 위한 삼국 동맹을 공식화했다. 이 정부 간 협력 체계는 SMR 개발, 인허가, 기술 표준화 등 다양한 분야를 포괄한다. 한국의 원전기업들은 이 정책적 협력 체계 아래 미국과 일본 시장 진출 및 기술 협력 기회를 확보하게 되어 글로벌 SMR 시장 확대에 직접 수혜될 것으로 기대된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "mk.co.kr",
-  "url": "https://www.mk.co.kr/news/business/12097658",
-  "k": "smr 삼국동맹 맺은 한 미 일 k 원전기업들 웃었다",
-  "ko": 1,
-  "id": "95dd3fa8"
- },
- {
-  "date": "2026-07-13",
-  "title": "심층 분석: AI 전력난과 넷제로의 교차점에서 본 SMR 산업의 경제적 파급 효과와 밸류체인 재편",
-  "summary": "AI 데이터센터의 전력 수요 증가와 탄소중립 목표가 소형모듈원자로 산업의 성장을 견인하는 현상을 경제적·산업적 관점에서 분석한다.",
-  "summaryLong": "이 기사는 인공지능(AI) 서비스 확산으로 인한 데이터센터의 급증하는 전력 수요와 글로벌 탄소중립(넷제로) 목표가 소형모듈원자로(SMR) 산업의 성장을 견인하는 메커니즘을 심층 분석한다. SMR 산업의 경제적 파급 효과와 에너지 공급망 재편을 다루며, 이는 전력 시장과 원자력 산업의 구조적 변화를 보여주는 정책 및 시장 분석 기사이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "",
-  "source": "newsvalue.kr",
-  "url": "https://www.newsvalue.kr/news/articleView.html?idxno=24148",
-  "k": "심층 분석 ai 전력난과 넷제로의 교차점 smr 소형모듈원자로 산업의 경제적 파급 효과와 밸류체인 재편",
-  "ko": 1,
-  "id": "84e6b164"
- },
- {
   "date": "2026-07-12",
   "title": "SK이노베이션, 테라파워와 소형모듈원자로 상용화 가속",
   "summary": "SK이노베이션(SK Innovation)과 테라파워(TerraPower)가 소형모듈원자로(SMR) 상용화 협력을 가속화한다는 조선일보 보도.",
@@ -1388,5 +1388,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-15 08:06 KST";
-window.SMR_TOTAL = 1271;
+window.SMR_UPDATED = "2026-07-15 08:38 KST";
+window.SMR_TOTAL = 1276;
