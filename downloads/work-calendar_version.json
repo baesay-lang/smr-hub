@@ -1,6 +1,6 @@
 {
-  "version": "3.5.1",
+  "version": "3.6.0",
   "date": "2026-07-14",
   "url": "https://baesay-lang.github.io/smr-hub/downloads/work-calendar_latest.zip",
-  "notes": "팀 목록 캐시 제거 — 새 팀 코드(플랜트영업팀 등)가 재시작 없이 화면 갱신만으로 반영"
+  "notes": "의견 보내기 추가 — 사이드바에서 개선 의견·기능 오류·팀 추가 요청을 파일 첨부(엑셀·캡처 등)와 함께 개발자에게 메일로 전달 (Outlook 자동 발송)"
 }
