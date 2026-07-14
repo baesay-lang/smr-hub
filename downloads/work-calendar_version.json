@@ -1,6 +1,6 @@
 {
-  "version": "3.3.0",
+  "version": "3.4.0",
   "date": "2026-07-14",
   "url": "https://baesay-lang.github.io/smr-hub/downloads/work-calendar_latest.zip",
-  "notes": "Outlook식 정기 일정 — 일정 추가/편집 창에서 '반복' 체크(요일 복수·매 N주·종료일), 왼쪽 [정기 일정 N건] 관리 다이얼로그. 달력에서 고치면 그 주만 변경. 기존 사이드바 표는 자동 이관"
+  "notes": "업무 코드 목록 ★즐겨찾기 최상단 정렬 + 일정 창에서 ★ 체크로 즐겨찾기 등록, 블록 편집 창 [저장 + Outlook 보내기]로 개별 업무 1건씩 Outlook 등록 (같은 제목 자동등록분은 교체)"
 }
