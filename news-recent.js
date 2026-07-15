@@ -147,6 +147,50 @@ window.SMR_NEWS = [
   "id": "a25ffd3d"
  },
  {
+  "date": "2026-07-15",
+  "title": "TRISO-X, 테네시주 보조금으로 핵연료 캠퍼스 확장",
+  "summary": "엑스에너지(X-energy)의 자회사 TRISO-X가 테네시주로부터 보조금을 받아 핵연료 캠퍼스 확장을 추진한다.",
+  "summaryLong": "엑스에너지(X-energy)의 TRISO-X 부문이 테네시주 정부로부터 보조금을 지원받아 핵연료 캠퍼스 확장 사업을 진행한다. TRISO-X는 고온가스로(HTGR) 및 첨단로 연료 공급 역할을 담당하는 회사로, 이번 보조금은 미국의 첨단원전 연료 공급망 강화 정책의 일환이다.",
+  "cat": "정책",
+  "type": "HTGR",
+  "dev": "X-energy",
+  "region": "US",
+  "source": "x-energy.com",
+  "url": "https://x-energy.com/news/triso-x-awarded-tennessee-grant-to-support-expansion-of-nuclear-fuel-campus/",
+  "k": "triso x awarded tennessee grant to support expansion of nuclear fuel campus x energy",
+  "id": "c498a2cf"
+ },
+ {
+  "date": "2026-07-15",
+  "title": "한국, 베트남과 원전 협력 공식화 및 K-전력 아세안 시장 진출",
+  "summary": "한국이 베트남과 차세대 원전 협력을 공식화하고 'K-Electric' 기술을 아세안 시장에 선보이는 행사가 호찌민에서 개최되었다.",
+  "summaryLong": "한국전기산업진흥회, 한국전력공사, 코엑스가 공동 주최하는 'ELECS VIETNAM 2026' 전시회가 호찌민 SECC에서 개최되었다. 이는 이재명 대통령의 지난 4월 베트남 국빈 방문 당시 한-베트남 정상회담에서 양국이 베트남의 차세대 원전 도입과 관련한 원전 협력을 공식화하고 신재생에너지 인프라 구축 협력에 합의한 배경을 바탕으로 한다. 한국의 전력·에너지 기술의 경쟁력을 아세안 지역 시장에 선보이는 기회이며, 한국의 원전 기술 수출 정책 추진을 보여주는 사례이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "전기신문 - 전체기사",
+  "url": "https://www.electimes.com/news/articleView.html?idxno=370339",
+  "k": "elecs vietnam 2026 k 전력 아세안 전력망을 잇다 호찌민서 개막",
+  "ko": 1,
+  "id": "9b94821d"
+ },
+ {
+  "date": "2026-07-15",
+  "title": "홀텍, SMR 300MW 사업 추진",
+  "summary": "홀텍이 300MW 규모의 소형모듈원자로(SMR) 사업을 추진하고 있다.",
+  "summaryLong": "원자력 관련 기업 홀텍이 원전 관련 사업에서 소형모듈원자로(SMR) 300MW 프로젝트를 중심으로 사업 전략을 전환하고 있다. 이는 홀텍의 SMR 개발 및 사업화 계획을 보여주는 기업의 실제 사업 추진 사항이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "홀텍",
+  "region": "KR",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5060",
+  "k": "원전 장의사 서 조력자 로 홀텍 smr 300mw 승부수",
+  "ko": 1,
+  "id": "05ec2875"
+ },
+ {
   "date": "2026-07-14",
   "title": "사천 환경단체, 삼천포화력 부지 SMR 추진 반대",
   "summary": "경남 사천지역 환경단체가 삼천포화력발전소 폐지 부지에 소형모듈원자로(SMR)를 도입하려는 계획에 반발하며 즉각 철회를 촉구했다.",
@@ -562,6 +606,50 @@ window.SMR_NEWS = [
   "id": "f8b56322"
  },
  {
+  "date": "2026-07-14",
+  "title": "양자 컴퓨팅을 FLiBe 화학 계산에 응용, 삼중수소 번식 기술 진전",
+  "summary": "연구팀이 양자·고전 컴퓨팅 결합으로 FLiBe(불화리튬베릴륨) 용융염 블랑켓 내 삼중수소 분광(tritium speciation) 화학 계산을 수행했으며, 핵융합 장비의 삼중수소 번식 잠금 해제를 위한 유망한 방향을 입증했다.",
+  "summaryLong": "연구팀이 양자 컴퓨팅과 고전 컴퓨팅의 결합 방식을 활용하여 FLiBe(불화리튬(lithium fluoride)·불화베릴륨(beryllium fluoride)) 용융염 블랑켓에서 삼중수소 분광 관련 화학 계산을 수행했다. 이는 향후 핵융합 기계에서 삼중수소 번식을 활성화하기 위한 유망한 기술 방향을 제시한다. 용융염 냉각로(MSR) 및 핵융합 시스템의 삼중수소 취급 및 번식 기술 개발에 기여할 수 있는 기초 연구 성과이다.",
+  "cat": "기술",
+  "type": "MSR",
+  "dev": "",
+  "region": "US",
+  "source": "ANS Newswire",
+  "url": "https://www.ans.org/news/2026-07-14/article-8203/team-brings-quantum-computing-into-flibe-chemistry-calculations/",
+  "k": "team brings quantum computing into flibe chemistry calculations",
+  "id": "4d1a76f5"
+ },
+ {
+  "date": "2026-07-14",
+  "title": "현대건설, 미국 차세대 원전 'EAGL-1' 건설",
+  "summary": "현대건설이 미국의 차세대 원전 프로젝트 'EAGL-1'의 건설을 진행.",
+  "summaryLong": "현대건설이 미국 시장에서 차세대 원전 프로젝트 'EAGL-1'의 건설 사업을 수주하여 추진 중이다. 이는 현대건설의 미국 원자력 시장 진출과 차세대 원자로 건설 기술 수출을 나타내는 실제 계약 및 사업 이행 사항이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "현대건설",
+  "region": "US",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5037",
+  "k": "k 건설 미국 원전 시장에 깃발 현대건설 차세대 원전 eagl 1 건설",
+  "ko": 1,
+  "id": "8ee0342d"
+ },
+ {
+  "date": "2026-07-14",
+  "title": "현대건설, 미국 SMR 프로젝트 본격 착수",
+  "summary": "현대건설이 미국의 소형모듈원자로(SMR) 프로젝트를 본격적으로 시작하며 차세대 원자로 시장 진출을 강화하고 있다.",
+  "summaryLong": "현대건설이 미국의 SMR(소형모듈원자로) 프로젝트를 본격적으로 추진하기 시작했다. 이는 현대건설이 차세대 원자로 시장에서의 입지를 강화하려는 전략적 움직임으로 평가된다. SMR은 대형 원전 대비 소규모이면서도 높은 효율성을 갖춘 차세대 원자로로, 미국과 국제 시장에서 주목받고 있다. 현대건설의 이번 프로젝트 착수는 한국 기업의 첨단 원자로 분야 진출 사례로, 향후 글로벌 SMR 시장 경쟁에서의 위치 강화를 의도하고 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "현대건설",
+  "region": "US",
+  "source": "gokorea.kr",
+  "url": "https://www.gokorea.kr/news/articleView.html?idxno=872029",
+  "k": "현대건설 미국 smr 프로젝트 본격 착수 차세대 원자로 시장 공략 강화",
+  "ko": 1,
+  "id": "6a491795"
+ },
+ {
   "date": "2026-07-13",
   "title": "홀텍(Holtec), 인도 SMR 사업 포함한 IPO 추진",
   "summary": "미국 핵심 기업 홀텍(Holtec)이 인도에서의 소형모듈원자로(SMR) 사업을 포함하여 기업공개(IPO)를 추진 중이다.",
@@ -818,80 +906,6 @@ window.SMR_NEWS = [
   "k": "현대건설 smr 파트너 홀텍 나스닥 ipo 계획",
   "ko": 1,
   "id": "a913d76e"
- },
- {
-  "date": "2026-07-13",
-  "title": "벨기에, SMR 연구에 1,100만 유로 투입",
-  "summary": "벨기에가 원자력 정책 정상화의 일환으로 소형모듈원자로 연구에 1,100만 유로(EUR 11 million)를 투입한다.",
-  "summaryLong": "벨기에 정부가 SMR 연구 개발에 1,100만 유로의 정부 자금을 할당하며 원자력 부문으로의 정책 회귀를 공식화했다. 이는 에너지 안보와 탄소중립 달성을 위해 원자력의 역할을 재평가하는 유럽의 광역 추세와 일맥상통한다. 벨기에는 과거 원전 폐지 정책을 유지하던 입장에서 벗어나 SMR을 차세대 기술로 인정하고 연구 기반을 구축하려는 전략적 선택을 한 것이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "EU",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5013",
-  "k": "벨기에 원자력 제자리 찾기 본격화 smr 연구에 1 100만 유로 투입",
-  "ko": 1,
-  "id": "92e4b7a7"
- },
- {
-  "date": "2026-07-13",
-  "title": "신규 원전·SMR 검토 공식화, 2040년까지 50GW 필요",
-  "summary": "한국 정부가 신규 원전 건설과 SMR 도입을 공식적으로 검토하기로 결정하며, 2040년까지 50기가와트(GW) 규모의 전력이 필요하다고 발표했다.",
-  "summaryLong": "한국 정부가 에너지 수급 계획 개선의 일환으로 신규 대형 원전 건설과 소형모듈원자로 도입을 공식 추진 대상으로 확정했다. 2040년까지 필요한 전력량이 50기가와트(GW) 규모에 달할 것으로 예상되며, 이를 충당하기 위해 기존 대형 원전과 SMR의 조합 전략이 필요하다는 판단이다. 정부의 이같은 정책 선회는 재정적·환경적·에너지 안보 측면의 종합적 검토를 바탕으로 한 것으로, 국내 원자력산업 및 관련 기업들에게 중장기 수요 창출을 의미한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "newstomato.com",
-  "url": "https://www.newstomato.com/ReadNews.aspx?no=1307071",
-  "k": "신규 원전 smr 검토 공식화 2040년까지 50gw 필요",
-  "ko": 1,
-  "id": "2164c289"
- },
- {
-  "date": "2026-07-13",
-  "title": "정부, 신규원전·SMR 도입 공식화",
-  "summary": "정부가 신규 원전과 SMR 도입을 공식화하며 AI·반도체 사업 30GW 전력 수요에 대응한다.",
-  "summaryLong": "정부가 신규 원전 건설과 SMR(소형모듈원자로) 도입을 공식적으로 결정했다. AI 및 반도체 산업의 확정된 전력 수요만 30GW에 달하는 상황에서 에너지 안보 강화 차원의 정책 결정으로 보인다. 향후 공론화 과정을 거쳐 제12차 전기본에 반영할 예정이며, 정부의 에너지 정책 기조 전환을 의미하는 주요 결정이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "hani.co.kr",
-  "url": "https://www.hani.co.kr/arti/society/environment/1268031.html",
-  "k": "정부 신규원전 smr 도입 공식화 확정 ai 반도체 사업만 30gw 필요",
-  "ko": 1,
-  "id": "4e08e64d"
- },
- {
-  "date": "2026-07-13",
-  "title": "한미일 인태지역(Indo-Pacific) SMR 협력 추진",
-  "summary": "한국·미국·일본이 인태지역(Indo-Pacific) SMR 협력을 강화하여 중국·러시아의 원전시장 장악에 대응한다.",
-  "summaryLong": "한국, 미국, 일본이 인도태평양(Indo-Pacific) 지역의 SMR 협력을 추진하기로 합의했다. 이는 중국과 러시아가 주도하는 원전시장 확대 전략에 대한 대응으로, 선진국 진영이 소형모듈원자로 기술과 시장을 중심으로 지역 영향력을 강화하려는 전략이다. 삼국 협력을 통해 기술 표준, 규제 조화, 시장 개척 등을 추진할 것으로 예상된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "mt.co.kr",
-  "url": "https://www.mt.co.kr/politics/2026/07/14/2026071319564017079",
-  "k": "한미일 인태지역 smr 협력 원전시장 장악 중 러에 대응 머니투데이",
-  "ko": 1,
-  "id": "56ab16bb"
- },
- {
-  "date": "2026-07-13",
-  "title": "사이즈웰 B, 20년 수명연장 승인; 전 세계 SMR 협약 체결",
-  "summary": "영국의 사이즈웰 B(Sizewell B) 원전이 20년 수명연장을 승인받았고, 전 세계 소형모듈원자로(SMR) 협약이 체결되고 있다.",
-  "summaryLong": "영국(UK) 서퍽(Suffolk) 해안에 위치한 사이즈웰 B(Sizewell B) 원전이 20년의 수명연장 승인을 획득하여 2055년까지 운영될 예정이다. 운영사 이디에프 에너지(EDF Energy)가 설비 유지를 위한 추가 투자를 진행하며, 에디에프의 영국 원자로 20% 지분을 보유한 센트리카(Centrica)도 투자에 동참한다. 동시에 전 세계 곳곳에서 소형모듈원자로(SMR) 관련 협약들이 체결되고 있어 첨단로 시장의 확대를 보여준다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "EDF Energy",
-  "region": "UK",
-  "source": "ANS Newswire",
-  "url": "https://www.ans.org/news/2026-07-13/article-8197/sizewell-b-gets-20year-life-extension-smr-agreements-signed-around-the-world/",
-  "k": "sizewell b gets 20 year life extension smr agreements signed around the world",
-  "id": "ef8b1cd0"
  },
  {
   "date": "2026-07-12",
@@ -1292,20 +1306,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-06-12",
-  "title": "용융염원자로 장착 대형 자동차운반선, 설계 승인 획득",
-  "summary": "용융염원자로(MSR) 기반 대형 자동차운반선이 설계 승인을 획득했다.",
-  "summaryLong": "용융염원자로(MSR) 추진 시스템을 장착한 대형 자동차운반선이 설계 승인을 획득했다. 이는 원자력 추진 해운 분야의 기술적 진전을 나타내며, 해운 산업의 탄소중립화를 위한 혁신 기술로 평가된다. 용융염원자로 기술의 해운 적용 가능성을 검증한 중요한 이정표로서, 향후 원자력 추진 선박의 상용화 전망을 밝히고 있다.",
-  "cat": "기술",
-  "type": "MSR",
-  "dev": "",
-  "region": "",
-  "source": "interestingengineering.com",
-  "url": "https://interestingengineering.com/transportation/ship-integrated-nuclear-propulsion-design-approval",
-  "k": "nuclear shipping large vehicle carrier with molten salt reactor gets design approval",
-  "id": "ad43653c"
- },
- {
-  "date": "2026-06-12",
   "title": "카이로스 파워(Kairos Power), 테네시주 오크릿지(Oak Ridge)에 원자로 시연 부지 착공",
   "summary": "카이로스 파워가 테네시주 오크릿지의 원자로 시연 부지에서 새로운 건설 접근법으로 착공했다.",
   "summaryLong": "카이로스 파워(Kairos Power)가 테네시주 오크릿지(Oak Ridge)에 위치한 원자로 시연 부지의 건설을 시작했다. 해당 부지는 약 85년 전 맨해튼 프로젝트(Manhattan Project) 당시 약 30,000명의 건설 노동자가 과수원과 농지를 원자력위원회(Atomic Energy Commission) 생산 시설로 변모시킨 역사적 위치이다. 이번 프로젝트는 소형모듈원자로(SMR) 기술의 실증 단계를 나타내며, 북미 지역의 첨단 원자로 개발 추진을 시사한다.",
@@ -1373,5 +1373,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-16 07:34 KST";
-window.SMR_TOTAL = 1293;
+window.SMR_UPDATED = "2026-07-16 08:08 KST";
+window.SMR_TOTAL = 1300;

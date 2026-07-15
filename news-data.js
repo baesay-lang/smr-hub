@@ -154,6 +154,50 @@ window.SMR_NEWS = [
     "id": "a25ffd3d"
   },
   {
+    "date": "2026-07-15",
+    "title": "TRISO-X, 테네시주 보조금으로 핵연료 캠퍼스 확장",
+    "summary": "엑스에너지(X-energy)의 자회사 TRISO-X가 테네시주로부터 보조금을 받아 핵연료 캠퍼스 확장을 추진한다.",
+    "summaryLong": "엑스에너지(X-energy)의 TRISO-X 부문이 테네시주 정부로부터 보조금을 지원받아 핵연료 캠퍼스 확장 사업을 진행한다. TRISO-X는 고온가스로(HTGR) 및 첨단로 연료 공급 역할을 담당하는 회사로, 이번 보조금은 미국의 첨단원전 연료 공급망 강화 정책의 일환이다.",
+    "cat": "정책",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "x-energy.com",
+    "url": "https://x-energy.com/news/triso-x-awarded-tennessee-grant-to-support-expansion-of-nuclear-fuel-campus/",
+    "k": "triso x awarded tennessee grant to support expansion of nuclear fuel campus x energy",
+    "id": "c498a2cf"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "한국, 베트남과 원전 협력 공식화 및 K-전력 아세안 시장 진출",
+    "summary": "한국이 베트남과 차세대 원전 협력을 공식화하고 'K-Electric' 기술을 아세안 시장에 선보이는 행사가 호찌민에서 개최되었다.",
+    "summaryLong": "한국전기산업진흥회, 한국전력공사, 코엑스가 공동 주최하는 'ELECS VIETNAM 2026' 전시회가 호찌민 SECC에서 개최되었다. 이는 이재명 대통령의 지난 4월 베트남 국빈 방문 당시 한-베트남 정상회담에서 양국이 베트남의 차세대 원전 도입과 관련한 원전 협력을 공식화하고 신재생에너지 인프라 구축 협력에 합의한 배경을 바탕으로 한다. 한국의 전력·에너지 기술의 경쟁력을 아세안 지역 시장에 선보이는 기회이며, 한국의 원전 기술 수출 정책 추진을 보여주는 사례이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "전기신문 - 전체기사",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=370339",
+    "k": "elecs vietnam 2026 k 전력 아세안 전력망을 잇다 호찌민서 개막",
+    "ko": 1,
+    "id": "9b94821d"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "홀텍, SMR 300MW 사업 추진",
+    "summary": "홀텍이 300MW 규모의 소형모듈원자로(SMR) 사업을 추진하고 있다.",
+    "summaryLong": "원자력 관련 기업 홀텍이 원전 관련 사업에서 소형모듈원자로(SMR) 300MW 프로젝트를 중심으로 사업 전략을 전환하고 있다. 이는 홀텍의 SMR 개발 및 사업화 계획을 보여주는 기업의 실제 사업 추진 사항이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "홀텍",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5060",
+    "k": "원전 장의사 서 조력자 로 홀텍 smr 300mw 승부수",
+    "ko": 1,
+    "id": "05ec2875"
+  },
+  {
     "date": "2026-07-14",
     "title": "사천 환경단체, 삼천포화력 부지 SMR 추진 반대",
     "summary": "경남 사천지역 환경단체가 삼천포화력발전소 폐지 부지에 소형모듈원자로(SMR)를 도입하려는 계획에 반발하며 즉각 철회를 촉구했다.",
@@ -567,6 +611,50 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "f8b56322"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "양자 컴퓨팅을 FLiBe 화학 계산에 응용, 삼중수소 번식 기술 진전",
+    "summary": "연구팀이 양자·고전 컴퓨팅 결합으로 FLiBe(불화리튬베릴륨) 용융염 블랑켓 내 삼중수소 분광(tritium speciation) 화학 계산을 수행했으며, 핵융합 장비의 삼중수소 번식 잠금 해제를 위한 유망한 방향을 입증했다.",
+    "summaryLong": "연구팀이 양자 컴퓨팅과 고전 컴퓨팅의 결합 방식을 활용하여 FLiBe(불화리튬(lithium fluoride)·불화베릴륨(beryllium fluoride)) 용융염 블랑켓에서 삼중수소 분광 관련 화학 계산을 수행했다. 이는 향후 핵융합 기계에서 삼중수소 번식을 활성화하기 위한 유망한 기술 방향을 제시한다. 용융염 냉각로(MSR) 및 핵융합 시스템의 삼중수소 취급 및 번식 기술 개발에 기여할 수 있는 기초 연구 성과이다.",
+    "cat": "기술",
+    "type": "MSR",
+    "dev": "",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-07-14/article-8203/team-brings-quantum-computing-into-flibe-chemistry-calculations/",
+    "k": "team brings quantum computing into flibe chemistry calculations",
+    "id": "4d1a76f5"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "현대건설, 미국 차세대 원전 'EAGL-1' 건설",
+    "summary": "현대건설이 미국의 차세대 원전 프로젝트 'EAGL-1'의 건설을 진행.",
+    "summaryLong": "현대건설이 미국 시장에서 차세대 원전 프로젝트 'EAGL-1'의 건설 사업을 수주하여 추진 중이다. 이는 현대건설의 미국 원자력 시장 진출과 차세대 원자로 건설 기술 수출을 나타내는 실제 계약 및 사업 이행 사항이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대건설",
+    "region": "US",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5037",
+    "k": "k 건설 미국 원전 시장에 깃발 현대건설 차세대 원전 eagl 1 건설",
+    "ko": 1,
+    "id": "8ee0342d"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "현대건설, 미국 SMR 프로젝트 본격 착수",
+    "summary": "현대건설이 미국의 소형모듈원자로(SMR) 프로젝트를 본격적으로 시작하며 차세대 원자로 시장 진출을 강화하고 있다.",
+    "summaryLong": "현대건설이 미국의 SMR(소형모듈원자로) 프로젝트를 본격적으로 추진하기 시작했다. 이는 현대건설이 차세대 원자로 시장에서의 입지를 강화하려는 전략적 움직임으로 평가된다. SMR은 대형 원전 대비 소규모이면서도 높은 효율성을 갖춘 차세대 원자로로, 미국과 국제 시장에서 주목받고 있다. 현대건설의 이번 프로젝트 착수는 한국 기업의 첨단 원자로 분야 진출 사례로, 향후 글로벌 SMR 시장 경쟁에서의 위치 강화를 의도하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대건설",
+    "region": "US",
+    "source": "gokorea.kr",
+    "url": "https://www.gokorea.kr/news/articleView.html?idxno=872029",
+    "k": "현대건설 미국 smr 프로젝트 본격 착수 차세대 원자로 시장 공략 강화",
+    "ko": 1,
+    "id": "6a491795"
   },
   {
     "date": "2026-07-13",
@@ -1277,6 +1365,20 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "20decd61"
+  },
+  {
+    "date": "2026-07-13",
+    "title": "오클로 주가 하락, 투자자들 최종 원자로 시운전 마일스톤 대기 중",
+    "summary": "�이버 퀀티터티브(Quiver Quantitative) 보도로, 오클로의 최종 원자로 시운전 마일스톤 완료 기다리는 와중 주가 하락.",
+    "summaryLong": "�이버 퀀티터티브(Quiver Quantitative)에서 보도한 오클로(Oklo) 주가 하락 추이이다. 투자자들이 오클로의 최종 원자로 시운전(reactor startup) 마일스톤 달성을 기다리는 상황에서 주가가 약세를 보이고 있다. 기사는 오클로의 핵심 프로젝트 진행 상황에 대한 기대와 현실적 시장 반응을 다루며, 소형모듈로의 기술 진전과 사업 진행 과정을 추적하는 내용이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "quiverquant.com",
+    "url": "https://www.quiverquant.com/news/Oklo+Slides+as+Investors+Wait+for+Final+Reactor+Startup+Milestones",
+    "k": "oklo slides as investors wait for final reactor startup milestones",
+    "id": "1a91229d"
   },
   {
     "date": "2026-07-12",
@@ -18686,4 +18788,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-16 07:34 KST";
+window.SMR_UPDATED = "2026-07-16 08:08 KST";
