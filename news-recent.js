@@ -31,6 +31,51 @@ window.SMR_NEWS = [
   "id": "2b04fced"
  },
  {
+  "date": "2026-07-15",
+  "title": "경주시, 민선 9기 기자간담회서 'SMR을 최우선 과제'로 선언",
+  "summary": "경주시가 새 시정의 최우선 과제로 소형모듈원자로(SMR) 유치를 공식 선언했다.",
+  "summaryLong": "경주시가 민선 9기 기자간담회에서 소형모듈원자로(SMR) 유치 및 관련 산업 발전을 시정의 최우선 과제로 공식 밝혔다. 이는 지역 정부가 SMR 기반 조성에 정책적 우선순위를 부여하는 공식 정책 선언으로, 향후 부지 확보, 인프라 구축, 규제 지원 등 실질적 추진으로 이어질 가능성이 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "kbsm.net",
+  "url": "https://www.kbsm.net/news/view.php?idx=526946",
+  "k": "경주시 민선9기 기자간담회 개최 smr 최우선 과제",
+  "ko": 1,
+  "id": "7b31a160"
+ },
+ {
+  "date": "2026-07-15",
+  "title": "현대건설, 미국 차세대 SMR 'EAGL-1 프로젝트' 협력 강화",
+  "summary": "현대건설이 미국의 차세대 SMR 'EAGL-1 프로젝트'와의 협력을 강화하고 있다.",
+  "summaryLong": "현대건설이 미국의 차세대 소형모듈원자로(SMR) 개발 프로젝트인 'EAGL-1'과의 협력을 확대하고 있다. 이는 한국 대형 건설사가 글로벌 첨단 원자력 시장 진출을 본격화하는 움직임으로, 미국 내 SMR 사업 참여를 통해 국제 경쟁력을 강화하려는 전략으로 평가된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "현대건설",
+  "region": "US",
+  "source": "seonamtoday.com",
+  "url": "http://seonamtoday.com/news/view.php?idx=50820",
+  "k": "현대건설 미국 차세대 smr eagl 1 프로젝트 협력 강화",
+  "ko": 1,
+  "id": "1b35cc0e"
+ },
+ {
+  "date": "2026-07-15",
+  "title": "현대건설-미국 팬코(FANCO), 납-비스무트 냉각 SMR 사업 협력",
+  "summary": "현대건설이 미국 팬코(FANCO)와 납-비스무트 냉각 소형모듈원자로(SMR) 사업에 협력하기로 했다.",
+  "summaryLong": "현대건설이 미국의 팬코(FANCO)와 납-비스무트 냉각 소형모듈원자로(SMR) 개발·건설 사업에 협력하기로 합의했다. 납-비스무트는 차세대 첨단 냉각재로, 이를 활용한 SMR 사업 참여로 현대건설이 고급 원자력 기술 분야로의 진출을 가속화하고 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "현대건설",
+  "region": "US",
+  "source": "meconomynews.com",
+  "url": "https://www.meconomynews.com/news/articleView.html?idxno=132809",
+  "k": "현대건설 fanco 납 비스무트 냉각 smr 사업 협력",
+  "ko": 1,
+  "id": "bb9849b8"
+ },
+ {
   "date": "2026-07-14",
   "title": "사천 환경단체, 삼천포화력 부지 SMR 추진 반대",
   "summary": "경남 사천지역 환경단체가 삼천포화력발전소 폐지 부지에 소형모듈원자로(SMR)를 도입하려는 계획에 반발하며 즉각 철회를 촉구했다.",
@@ -428,6 +473,22 @@ window.SMR_NEWS = [
   "k": "현대건설 미국 smr 업체와 eagl 1 프로젝트 기본 협약 체결",
   "ko": 1,
   "id": "acd33447"
+ },
+ {
+  "date": "2026-07-14",
+  "title": "삼성중공업, 부유식 데이터센터 구상 가운데 SOFC(고체산화물연료전지)를 넘어 SMR까지 추진",
+  "summary": "삼성중공업이 부유식 데이터센터 프로젝트의 일환으로 소형모듈원자로(SMR) 도입을 검토하고 있다.",
+  "summaryLong": "삼성중공업이 부유식 데이터센터 개발이라는 대형 구상 가운데 고체산화물연료전지(SOFC)를 거쳐 소형모듈원자로(SMR)까지 확대하려는 전략을 추진하고 있다. 이는 데이터센터의 장기 전력 수급 솔루션으로 SMR 활용 가능성을 검토하는 산업 응용 사례로 의미가 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "삼성중공업",
+  "region": "KR",
+  "source": "ebn.co.kr",
+  "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1716320",
+  "k": "삼성중공업 부유식 데이터센터 큰 그림 sofc 넘어 smr까지",
+  "ko": 1,
+  "op": 1,
+  "id": "f8b56322"
  },
  {
   "date": "2026-07-13",
@@ -835,65 +896,6 @@ window.SMR_NEWS = [
   "k": "정부 한미일 smr 협력각서 글로벌 시장 공동 진출 협력 틀 마련",
   "ko": 1,
   "id": "85dae1ba"
- },
- {
-  "date": "2026-07-13",
-  "title": "사이즈웰 B, 20년 수명 연장; 세계 곳곳에서 SMR 협약 체결",
-  "summary": "영국 사이즈웰 B 원전이 20년 수명 연장을 획득하였고, 전 세계적으로 소형모듈원자로(SMR) 협약이 체결되고 있다.",
-  "summaryLong": "미국 핵학회(American Nuclear Society, ANS)에서 영국의 사이즈웰 B(Sizewell B) 기존 원전의 20년 수명 연장 승인과 함께 전 세계 곳곳에서 소형모듈원자로(SMR) 관련 협약들이 체결되고 있음을 종합 보도하는 기사이다. 사이즈웰 B의 수명 연장은 영국 규제 인허가 측면의 성과이며, 동시에 전 지구적 규모로 SMR 개발에 관련한 여러 계약과 협력 협약이 진행 중임을 시사한다. 이는 SMR 산업의 활성화 추세를 보여주는 다층적 뉴스이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "UK",
-  "source": "ans.org",
-  "url": "https://www.ans.org/news/article-8197/sizewell-b-gets-20year-life-extension-smr-agreements-signed-around-the-world/",
-  "k": "sizewell b gets 20 year life extension smr agreements signed around the world american nuclear society ans",
-  "id": "4a1a4b4c"
- },
- {
-  "date": "2026-07-13",
-  "title": "영국 시즈웰B 20년 연장…글로벌 SMR 원전 러시 본격화",
-  "summary": "영국이 시즈웰B(Sizewell B) 원전의 운영 기간을 20년 연장하며 세계적 SMR 건설 붐이 시작되고 있다.",
-  "summaryLong": "영국(UK)이 시즈웰B 원전의 운영 기간을 20년 연장하는 결정을 내렸으며, 이는 기존 대형 원전과 SMR(소형모듈원자로) 병행 전략의 일환으로 평가된다. 이를 계기로 전 세계적으로 SMR 건설 붐이 본격화되는 추세를 보이고 있으며, 선진국들의 탄소중립 실현과 에너지 안보 강화 목표가 반영되고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "UK",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5011",
-  "k": "시즈웰b 20년 연장 전 세계 smr 원전 러시 본격화",
-  "ko": 1,
-  "id": "94e4bacd"
- },
- {
-  "date": "2026-07-13",
-  "title": "신규 원전·SMR 추가 건설 공식화…12차 전기본에 반영 예정",
-  "summary": "한국 정부가 신규 원전과 SMR 추가 건설을 공식화하고 공론화 거쳐 12차 전력수급기본계획에 반영하기로 했다.",
-  "summaryLong": "한국 정부가 신규 원전과 SMR(소형모듈원자로)의 추가 건설 추진을 공식화했으며, 이를 공론화 절차를 거쳐 제12차 전력수급기본계획(12차 전기본)에 반영할 예정이다. 이는 탄소중립 목표 달성과 에너지 안보 강화를 위한 정부의 장기 에너지 정책 전환을 나타내는 주요 결정이며, 원자력의 전략적 역할을 강화하는 기조를 드러내고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "v.daum.net",
-  "url": "https://v.daum.net/v/20260713185756509",
-  "k": "신규 원전 smr 추가 건설 공식화 공론화 거쳐 12차 전기본 반영",
-  "ko": 1,
-  "id": "a00ab8eb"
- },
- {
-  "date": "2026-07-13",
-  "title": "경남도, SMR 특별법 개정안 발의 환영",
-  "summary": "경상남도가 소형모듈원자로 특별법 개정안 발의를 환영하며 연구개발을 넘어 산업 육성 기반 마련을 기대하고 있다.",
-  "summaryLong": "경상남도는 소형모듈원자로(SMR) 관련 특별법 개정안이 발의된 것을 환영한다는 입장을 밝혔다. 기존 연구개발 중심의 정책에서 벗어나 산업 육성을 위한 제도적 기반을 마련하려는 의도가 담겨 있다. 이는 SMR 산업이 실제 수주·건설·운영으로 진전되기 위한 법적·제도적 토대를 구축하려는 정부 정책의 진화를 의미한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "thegnnews.com",
-  "url": "https://thegnnews.com/View.aspx?No=4147751",
-  "k": "경남도 smr 특별법 개정안 발의 환영 연구개발 넘어 산업육성 기반 마련 기대",
-  "ko": 1,
-  "id": "02e654bc"
  },
  {
   "date": "2026-07-13",
@@ -1403,5 +1405,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-15 15:26 KST";
-window.SMR_TOTAL = 1283;
+window.SMR_UPDATED = "2026-07-15 16:02 KST";
+window.SMR_TOTAL = 1288;
