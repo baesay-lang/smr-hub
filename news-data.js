@@ -83,6 +83,77 @@ window.SMR_NEWS = [
     "id": "bb9849b8"
   },
   {
+    "date": "2026-07-15",
+    "title": "TRISO-X, 테네시주 연료 캠퍼스 확장비 1,100만 달러 지원금 획득",
+    "summary": "엑스에너지(X-energy)의 자회사 TRISO-X가 테네시주(Tennessee)로부터 첨단 핵연료 캠퍼스 확장을 위해 1,100만 달러 경제개발 지원금을 받았다.",
+    "summaryLong": "나스닥(NASDAQ) 상장 회사인 엑스에너지(X-energy)의 첨단 핵연료 제조 자회사 TRISO-X가 테네시주(Tennessee) 경제개발 부서로부터 1,100만 달러(약 110억 원)의 경제개발 지원금을 획득했다. 이 자금은 오크리지(Oak Ridge) 지역의 TRISO-X 핵연료 캠퍼스 확장을 지원할 예정이다. TRISO 연료는 고온가스로(HTGR)를 포함한 첨단 원자로 개발의 핵심 연료로, 국내 첨단로 사업과도 관련성 높은 소식이다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "X-Energy, Inc. News Releases",
+    "url": "https://investors.x-energy.com/news-releases/news-release-details/triso-x-awarded-tennessee-grant-support-expansion-nuclear-fuel",
+    "k": "triso x awarded tennessee grant to support expansion of nuclear fuel campus",
+    "id": "15ddb20b"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "테라파워, 영국과 긍정적 협상 진행, 2030년대 초중반 원자로 가동 목표",
+    "summary": "테라파워(TerraPower)가 영국(UK)과의 협상에서 긍정적 진전을 이루며 2030년대 초중반 원자로 가동을 목표로 하고 있다.",
+    "summaryLong": "차세대 소듐냉각고속로(SFR) 개발사 테라파워(TerraPower)가 영국(UK) 정부와의 협상에서 긍정적 결과를 거두고 있는 것으로 알려졌다. 회사는 영국 내 원자로 건설 및 운영을 목표로 2030년대 초중반의 원자로 가동을 추진 목표로 설정했다. 이는 테라파워의 주요 국제 전략의 일환으로, 첨단로 상용화 일정에 관한 중요한 진행 사항이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "UK",
+    "source": "nucnet.org",
+    "url": "https://www.nucnet.org/news/terrapower-holds-positive-talks-with-uk-targets-early-to-mid-2030s-for-reactor-launch-7-3-2026",
+    "k": "terrapower holds positive talks with uk targets early to mid 2030s for reactor launch",
+    "id": "af35605a"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "오클로, 사용 핵연료 재활용 및 오하이오 청정에너지 캠퍼스 계획",
+    "summary": "오클로(Oklo)가 사용 핵연료 재활용 사업과 오하이오(Ohio) 청정에너지 캠퍼스 건설 계획을 추진하고 있다.",
+    "summaryLong": "소형모듈원자로(SMR) 및 사용 핵연료 재활용 기술 개발사인 오클로(Oklo)가 사용 후 핵연료 재활용 사업과 오하이오(Ohio)주에 청정에너지 캠퍼스 조성 계획을 발표했다. 이는 오클로의 핵심 사업 확장 전략으로, 폐연료 활용 기술과 지역별 거점 구축에 관한 중요한 사업 진행 뉴스이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "sg.finance.yahoo.com",
+    "url": "https://sg.finance.yahoo.com/news/oklo-oklo-plans-used-fuel-111331373.html",
+    "k": "oklo oklo plans used fuel recycling and ohio clean energy campus",
+    "id": "9ce8d436"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "SMR 연료 개발사 Standard Nuclear, IPO 앞두고 공모 규모 58% 축소",
+    "summary": "소형모듈원자로(SMR) 연료 개발사 Standard Nuclear가 1억 5,000만 달러 규모 IPO를 앞두고 공모 규모를 58% 축소했다.",
+    "summaryLong": "소형모듈원자로(SMR) 연료 개발사 Standard Nuclear가 1억 5,000만 달러 규모 신규공개(IPO) 진행을 앞두고 공모 규모를 58% 축소했다. 이는 시장 상황 변화 또는 투자 수요 조정에 따른 결정으로 보인다.",
+    "cat": "투자",
+    "type": "General",
+    "dev": "Standard Nuclear",
+    "region": "US",
+    "source": "renaissancecapital.com",
+    "url": "https://www.renaissancecapital.com/IPO-Center/News/120467/Small-modular-reactor-fuel-developer-Standard-Nuclear-slashes-deal-size-by-",
+    "k": "small modular reactor fuel developer standard nuclear slashes deal size by 58 ahead of 150 million ipo",
+    "id": "15292ccf"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "SK와 베트남 VKIST, 차세대 SMR 기술 협력 본격화",
+    "summary": "SK와 베트남 VKIST가 차세대 소형모듈원자로(SMR) 기술 협력을 본격적으로 진행한다.",
+    "summaryLong": "SK그룹과 베트남의 VKIST(베트남 과학기술원으로 추정)가 차세대 소형모듈원자로(SMR) 기술 협력을 본격화하고 있다. 이는 한-베트남 간 원전 협력 확대 기조 속에서 추진되는 협력으로, SMR 기술 개발 및 도입 가능성을 탐색하는 사업으로 판단된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "SK",
+    "region": "KR",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/Global-Biz/2026/07/2026071606464779892bd56fbc3c_1",
+    "k": "sk와 베트남 vkist 차세대 smr 기술 협력 본격화",
+    "ko": 1,
+    "id": "a25ffd3d"
+  },
+  {
     "date": "2026-07-14",
     "title": "사천 환경단체, 삼천포화력 부지 SMR 추진 반대",
     "summary": "경남 사천지역 환경단체가 삼천포화력발전소 폐지 부지에 소형모듈원자로(SMR)를 도입하려는 계획에 반발하며 즉각 철회를 촉구했다.",
@@ -18615,4 +18686,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-15 16:02 KST";
+window.SMR_UPDATED = "2026-07-16 07:34 KST";

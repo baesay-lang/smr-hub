@@ -76,6 +76,77 @@ window.SMR_NEWS = [
   "id": "bb9849b8"
  },
  {
+  "date": "2026-07-15",
+  "title": "TRISO-X, 테네시주 연료 캠퍼스 확장비 1,100만 달러 지원금 획득",
+  "summary": "엑스에너지(X-energy)의 자회사 TRISO-X가 테네시주(Tennessee)로부터 첨단 핵연료 캠퍼스 확장을 위해 1,100만 달러 경제개발 지원금을 받았다.",
+  "summaryLong": "나스닥(NASDAQ) 상장 회사인 엑스에너지(X-energy)의 첨단 핵연료 제조 자회사 TRISO-X가 테네시주(Tennessee) 경제개발 부서로부터 1,100만 달러(약 110억 원)의 경제개발 지원금을 획득했다. 이 자금은 오크리지(Oak Ridge) 지역의 TRISO-X 핵연료 캠퍼스 확장을 지원할 예정이다. TRISO 연료는 고온가스로(HTGR)를 포함한 첨단 원자로 개발의 핵심 연료로, 국내 첨단로 사업과도 관련성 높은 소식이다.",
+  "cat": "기술",
+  "type": "HTGR",
+  "dev": "X-energy",
+  "region": "US",
+  "source": "X-Energy, Inc. News Releases",
+  "url": "https://investors.x-energy.com/news-releases/news-release-details/triso-x-awarded-tennessee-grant-support-expansion-nuclear-fuel",
+  "k": "triso x awarded tennessee grant to support expansion of nuclear fuel campus",
+  "id": "15ddb20b"
+ },
+ {
+  "date": "2026-07-15",
+  "title": "테라파워, 영국과 긍정적 협상 진행, 2030년대 초중반 원자로 가동 목표",
+  "summary": "테라파워(TerraPower)가 영국(UK)과의 협상에서 긍정적 진전을 이루며 2030년대 초중반 원자로 가동을 목표로 하고 있다.",
+  "summaryLong": "차세대 소듐냉각고속로(SFR) 개발사 테라파워(TerraPower)가 영국(UK) 정부와의 협상에서 긍정적 결과를 거두고 있는 것으로 알려졌다. 회사는 영국 내 원자로 건설 및 운영을 목표로 2030년대 초중반의 원자로 가동을 추진 목표로 설정했다. 이는 테라파워의 주요 국제 전략의 일환으로, 첨단로 상용화 일정에 관한 중요한 진행 사항이다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "UK",
+  "source": "nucnet.org",
+  "url": "https://www.nucnet.org/news/terrapower-holds-positive-talks-with-uk-targets-early-to-mid-2030s-for-reactor-launch-7-3-2026",
+  "k": "terrapower holds positive talks with uk targets early to mid 2030s for reactor launch",
+  "id": "af35605a"
+ },
+ {
+  "date": "2026-07-15",
+  "title": "오클로, 사용 핵연료 재활용 및 오하이오 청정에너지 캠퍼스 계획",
+  "summary": "오클로(Oklo)가 사용 핵연료 재활용 사업과 오하이오(Ohio) 청정에너지 캠퍼스 건설 계획을 추진하고 있다.",
+  "summaryLong": "소형모듈원자로(SMR) 및 사용 핵연료 재활용 기술 개발사인 오클로(Oklo)가 사용 후 핵연료 재활용 사업과 오하이오(Ohio)주에 청정에너지 캠퍼스 조성 계획을 발표했다. 이는 오클로의 핵심 사업 확장 전략으로, 폐연료 활용 기술과 지역별 거점 구축에 관한 중요한 사업 진행 뉴스이다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "sg.finance.yahoo.com",
+  "url": "https://sg.finance.yahoo.com/news/oklo-oklo-plans-used-fuel-111331373.html",
+  "k": "oklo oklo plans used fuel recycling and ohio clean energy campus",
+  "id": "9ce8d436"
+ },
+ {
+  "date": "2026-07-15",
+  "title": "SMR 연료 개발사 Standard Nuclear, IPO 앞두고 공모 규모 58% 축소",
+  "summary": "소형모듈원자로(SMR) 연료 개발사 Standard Nuclear가 1억 5,000만 달러 규모 IPO를 앞두고 공모 규모를 58% 축소했다.",
+  "summaryLong": "소형모듈원자로(SMR) 연료 개발사 Standard Nuclear가 1억 5,000만 달러 규모 신규공개(IPO) 진행을 앞두고 공모 규모를 58% 축소했다. 이는 시장 상황 변화 또는 투자 수요 조정에 따른 결정으로 보인다.",
+  "cat": "투자",
+  "type": "General",
+  "dev": "Standard Nuclear",
+  "region": "US",
+  "source": "renaissancecapital.com",
+  "url": "https://www.renaissancecapital.com/IPO-Center/News/120467/Small-modular-reactor-fuel-developer-Standard-Nuclear-slashes-deal-size-by-",
+  "k": "small modular reactor fuel developer standard nuclear slashes deal size by 58 ahead of 150 million ipo",
+  "id": "15292ccf"
+ },
+ {
+  "date": "2026-07-15",
+  "title": "SK와 베트남 VKIST, 차세대 SMR 기술 협력 본격화",
+  "summary": "SK와 베트남 VKIST가 차세대 소형모듈원자로(SMR) 기술 협력을 본격적으로 진행한다.",
+  "summaryLong": "SK그룹과 베트남의 VKIST(베트남 과학기술원으로 추정)가 차세대 소형모듈원자로(SMR) 기술 협력을 본격화하고 있다. 이는 한-베트남 간 원전 협력 확대 기조 속에서 추진되는 협력으로, SMR 기술 개발 및 도입 가능성을 탐색하는 사업으로 판단된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "SK",
+  "region": "KR",
+  "source": "g-enews.com",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/07/2026071606464779892bd56fbc3c_1",
+  "k": "sk와 베트남 vkist 차세대 smr 기술 협력 본격화",
+  "ko": 1,
+  "id": "a25ffd3d"
+ },
+ {
   "date": "2026-07-14",
   "title": "사천 환경단체, 삼천포화력 부지 SMR 추진 반대",
   "summary": "경남 사천지역 환경단체가 삼천포화력발전소 폐지 부지에 소형모듈원자로(SMR)를 도입하려는 계획에 반발하며 즉각 철회를 촉구했다.",
@@ -823,95 +894,6 @@ window.SMR_NEWS = [
   "id": "ef8b1cd0"
  },
  {
-  "date": "2026-07-13",
-  "title": "중·러 원자력 시장 장악에 한·미·일 SMR로 대응",
-  "summary": "한국, 미국, 일본이 중국·러시아의 원자력 시장 확대에 대응하기 위해 SMR 협력에 나섰다.",
-  "summaryLong": "중국과 러시아가 원자력 시장을 장악하려는 움직임에 대응하여 한국, 미국, 일본이 소형모듈원자로(SMR) 협력을 강화하고 있다. 미국이 주도한 것으로 보이는 이러한 협력은 한·미·일 삼국이 글로벌 원자력 시장에서 전략적 동맹을 형성하려는 의도를 반영한다. SMR은 차세대 원자력기술로서 인태지역(Indo-Pacific) 시장 진출의 핵심 수단이 될 것으로 예상된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "khan.co.kr",
-  "url": "https://www.khan.co.kr/article/202607131703001",
-  "k": "중 러 원자력 시장 장악에 한 미 일 smr로 뭉쳤나 미국이 주도한 듯",
-  "ko": 1,
-  "id": "9926fc1d"
- },
- {
-  "date": "2026-07-13",
-  "title": "정부, 추가 원전·SMR 건설 공식화",
-  "summary": "정부가 신규 원전 및 소형모듈원자로(SMR) 추가 건설을 공식 정책으로 확정하고, 공론화를 거쳐 제12차 전기본(전력수급기본계획)에 반영하기로 했다.",
-  "summaryLong": "한국 정부가 신규 원자력발전소 및 소형모듈원자로(SMR) 추가 건설을 정부 정책으로 공식화했다. 이는 에너지 안보 및 탄소중립 목표 달성을 위한 전략으로 추진되며, 국민 공론화 과정을 거친 후 제12차 전력수급기본계획에 반영될 예정이다. 이번 결정은 SMR 산업화 가속화와 에너지 자립도 강화의 신호로 해석된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "khan.co.kr",
-  "url": "https://www.khan.co.kr/article/202607131707001",
-  "k": "정부 추가 원전 smr 건설 공식화 공론화 후 12차 전기본 반영",
-  "ko": 1,
-  "id": "5d022621"
- },
- {
-  "date": "2026-07-13",
-  "title": "한미일, 인도태평양 지역 SMR 기술 협력 추진",
-  "summary": "한국·미국·일본이 인도태평양(인태) 지역에서 소형모듈원자로(SMR) 기술 홍보 및 협력을 위해 연대하고 있다.",
-  "summaryLong": "한국·미국·일본 삼국이 인도태평양 지역에서 소형모듈원자로(SMR) 기술의 보급과 홍보를 위한 협력 체계를 구축하고 있다. 이는 지역 에너지 안보 강화 및 친민주진영 국가들의 원자력 수급망 다각화를 목표로 하며, 세계 원전 기술 시장에서의 주도권 확보 전략으로 풀이된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "vietnam.vn",
-  "url": "https://www.vietnam.vn/ko/han-quoc-my-nhat-ban-bat-tay-thuc-day-cong-nghe-hat-nhan-smr-tai-an-do-duong-thai-binh-duong",
-  "k": "한국 미국 일본은 인도태평양 지역에서 소형 모듈형 원자로 smr 기술을 홍보하기 위해 협력한다",
-  "ko": 1,
-  "id": "2d8de23b"
- },
- {
-  "date": "2026-07-13",
-  "title": "정부, 12차 전기본에 원전·SMR 추가 건설 검토 반영",
-  "summary": "정부가 소형모듈원자로(SMR)와 원자력발전소의 추가 건설 검토를 공식화하여 12차 전력수급기본계획(전기본)에 반영할 방침을 밝혔다.",
-  "summaryLong": "정부가 원자력발전소와 소형모듈원자로(SMR)의 추가 건설 검토를 공식적으로 추진하기로 결정했다. 이는 에너지 안보와 탄소중립 정책의 일환으로, 향후 수립될 12차 전력수급기본계획(전기본)에 이러한 정책 방향을 반영할 계획임을 의미한다. 이번 결정은 SMR을 포함한 차세대 원자력 기술의 국내 도입 및 보급 확대를 위한 정책적 신호로 해석된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "viva100.com",
-  "url": "https://www.viva100.com/article/20260713501253",
-  "k": "정부 원전 smr 추가 건설 검토 공식화 12차 전기본에 반영",
-  "ko": 1,
-  "id": "26072e52"
- },
- {
-  "date": "2026-07-13",
-  "title": "정부, 한미일 SMR 협력각서로 글로벌 시장 공동 진출 협력 틀 마련",
-  "summary": "정부가 미국, 일본과 소형모듈원자로(SMR) 협력각서를 체결하여 글로벌 시장 공동 진출을 위한 협력 체계를 구축했다.",
-  "summaryLong": "한국 정부가 미국, 일본과 소형모듈원자로(SMR) 분야의 협력각서(MOU)를 체결했다. 이 협력각서는 3국이 글로벌 SMR 시장에서 공동으로 진출하고 경쟁력을 강화하기 위한 협력 틀을 마련하는 것을 목표로 한다. 이를 통해 기술 공유, 시장 개척, 규제 협력 등 다층적인 협력 관계를 구축함으로써 국내 SMR 산업의 국제 경쟁력 제고를 도모하고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "biz.heraldcorp.com",
-  "url": "https://biz.heraldcorp.com/article/10807484",
-  "k": "정부 한미일 smr 협력각서 글로벌 시장 공동 진출 협력 틀 마련",
-  "ko": 1,
-  "id": "85dae1ba"
- },
- {
-  "date": "2026-07-13",
-  "title": "오클로, 그로브스 시험용 원자로 미국 에너지부(DOE) 최종 안전 승인으로 시운전 진전",
-  "summary": "첨단로 개발사 오클로(Oklo)가 자사 그로브스(Groves) 시험용 원자로의 미국 에너지부(DOE) 최종 안전 승인을 획득하고 시운전을 향해 진전했다.",
-  "summaryLong": "첨단로 개발사 오클로(Oklo)가 자사 소형 시험용 원자로인 그로브스(Groves)의 미국 에너지부(DOE) 최종 안전 승인을 획득했다고 발표했다. 이 승인은 그로브스 원자로가 시운전 단계로 나아갈 수 있음을 의미하며, 오클로의 첨단로 기술 개발과 상용화 일정에 중요한 이정표가 된다. 미국 에너지부(DOE)의 안전 승인은 연방 규제 인정을 반영하는 것으로, 오클로의 첨단로 기술이 안전 요건을 충족함을 확인하는 공식 발표다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "eciks.org",
-  "url": "https://eciks.org/13399-48318-oklo-stock-doe-reactor-safety-approval",
-  "k": "nuclear developer oklo advances groves test reactor toward startup with final department of energy safety approval",
-  "id": "827e0fc4"
- },
- {
   "date": "2026-07-12",
   "title": "SK이노베이션, 테라파워와 소형모듈원자로 상용화 가속",
   "summary": "SK이노베이션(SK Innovation)과 테라파워(TerraPower)가 소형모듈원자로(SMR) 상용화 협력을 가속화한다는 조선일보 보도.",
@@ -1110,20 +1092,6 @@ window.SMR_NEWS = [
   "url": "https://www.ans.org/news/2026-07-01/article-8174/clinch-river-construction-permit-recommendation-follows-safety-evaluation/",
   "k": "clinch river construction permit recommendation follows safety evaluation",
   "id": "b9b49321"
- },
- {
-  "date": "2026-07-01",
-  "title": "오클로(Oklo) 등 SMR 기업, 유틸리티 섹터 최고 공매도 관심",
-  "summary": "뉴스케일(NuScale), 오클로(Oklo), 테라파워(TerraPower), 카이로스(Kairos Power), 롤스로이스 SMR(Rolls-Royce SMR) 등 소형모듈원자로 개발사들이 유틸리티 섹터에서 가장 높은 공매도 관심을 받고 있다.",
-  "summaryLong": "뉴스케일, 오클로, 엑스에너지(X-energy), 테라파워, 카이로스파워, 롤스로이스 SMR 등 주요 소형모듈원자로 개발사들이 미국 유틸리티 섹터에서 가장 높은 공매도 관심을 집중하고 있는 것으로 나타났다. 이는 시장 참여자들이 이들 기업의 주가에 대해 약세 전망을 갖고 있음을 시사한다. 한편 BIP와 RNW 등 다른 에너지 기업들은 상대적으로 낮은 공매도 관심을 받고 있다.",
-  "cat": "기술",
-  "type": "HTGR",
-  "dev": "NuScale, Oklo, X-energy, TerraPower, Kairos, RR",
-  "region": "US",
-  "source": "msn.com",
-  "url": "https://www.msn.com/en-us/money/topstocks/ottr-oklo-draw-highest-short-interest-in-utilities-sector-bip-and-rnw-see-lowest-short-interest/ar-AA26ZF25?ocid=finance-verthp-feeds",
-  "k": "ottr oklo draw highest short interest in utilities sector bip and rnw see lowest short interest",
-  "id": "cd78e07f"
  },
  {
   "date": "2026-06-25",
@@ -1405,5 +1373,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-15 16:02 KST";
-window.SMR_TOTAL = 1288;
+window.SMR_UPDATED = "2026-07-16 07:34 KST";
+window.SMR_TOTAL = 1293;
