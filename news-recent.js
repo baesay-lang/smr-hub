@@ -191,6 +191,65 @@ window.SMR_NEWS = [
   "id": "05ec2875"
  },
  {
+  "date": "2026-07-15",
+  "title": "NRC, TVA의 BWRX-300 소형모듈원자로 건설허가 권고",
+  "summary": "미국 원자력규제위원회(NRC) 직원들이 테네시 클린치강(Clinch River)에 건설될 테네시밸리공사(TVA)의 BWRX-300 소형모듈원자로에 대한 건설허가를 권고했다.",
+  "summaryLong": "미국 원자력규제위원회(NRC) 직원들이 테네시 클린치강(Clinch River)에 건설될 테네시밸리공사(TVA)의 BWRX-300 소형모듈원자로 프로젝트에 대한 건설허가를 권고했다. 이는 미국의 대표적 SMR 개발 프로젝트 중 하나로, NRC의 공식 승인 단계로의 진전을 의미한다.",
+  "cat": "인허가",
+  "type": "BWR",
+  "dev": "TVA",
+  "region": "US",
+  "source": "energiesmedia.com",
+  "url": "https://energiesmedia.com/nrc-recommends-tva-bwrx-300-reactor/",
+  "k": "nrc staff recommend construction permit for tva s bwrx 300 small modular reactor at clinch river in tennessee",
+  "id": "8d112163"
+ },
+ {
+  "date": "2026-07-15",
+  "title": "AI 시대 전력 경쟁력, SMR···원전 제조 유일 국가 '대한민국'",
+  "summary": "김한곤 원자력연구원 단장이 AI 시대에 SMR이 전력 경쟁력의 핵심이며, 대한민국이 원전 제조 능력을 갖춘 유일한 국가라고 강조했다.",
+  "summaryLong": "김한곤 원자력연구원 단장이 AI 시대 도래에 따른 전력 수요 증가 속에서 소형모듈원자로(SMR)의 중요성을 강조했다. 발언 내용에 따르면 대한민국이 원전 설계, 제조, 건설, 운영 등 전 주기의 능력을 갖춘 유일한 국가라고 주장했으며, 이는 SMR 시장에서의 경쟁력 우위를 반영한다. SMR이 AI 데이터센터 등 새로운 전력 소비처의 전력 공급 솔루션으로 주목되고 있음을 시사한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "원자력연구원",
+  "region": "KR",
+  "source": "hellodd.com",
+  "url": "https://www.hellodd.com/news/articleView.html?idxno=112486",
+  "k": "김한곤 단장 ai 시대 전력 경쟁력 smr 원전 제조 유일 국가 대한민국",
+  "ko": 1,
+  "id": "eedba6c7"
+ },
+ {
+  "date": "2026-07-15",
+  "title": "경주 '원전 전주기 도시' 도약…SMR 산단·AI 데이터센터 승부수",
+  "summary": "경주시가 SMR 산업단지와 AI 데이터센터를 중심으로 '원전 전주기 도시'로 도약하려는 계획을 추진 중이다.",
+  "summaryLong": "경주시가 SMR 산업단지 조성과 AI 데이터센터 유치를 핵심 전략으로 추진 중이다. 이는 기존의 원전 운영·관리 역할에서 한 단계 나아가 SMR 제조·건설·운영의 전주기 거점으로 도약하려는 구상이다. AI 시대의 전력 수요 증가에 대응하며, SMR이 분산 배치 가능한 청정에너지원으로서 데이터센터의 전력 공급원이 될 수 있다는 전략이 담겨있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "kyongbuk.co.kr",
+  "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4078443",
+  "k": "경주 원전 전주기 도시 도약 smr 산단 ai 데이터센터 승부수",
+  "ko": 1,
+  "id": "413a9799"
+ },
+ {
+  "date": "2026-07-15",
+  "title": "경수로에서 고속로까지…현대건설, 4세대 SMR 선점",
+  "summary": "현대건설이 가압경수로(PWR) 기반의 소형모듈원자로부터 고속로(SFR) 등 4세대 원자로까지 다양한 포트폴리오로 SMR 시장 선점을 추진 중이다.",
+  "summaryLong": "현대건설이 SMR 사업 포트폴리오를 확대하고 있다. 기존의 가압경수로(PWR) 기반 중소형 원전에서 출발하여 나트륨냉각고속로(SFR) 등 4세대 원자로 기술까지 확보하려는 전략이 드러난다. 이는 다양한 응용 분야와 고객 요구에 대응할 수 있는 '풀 라인업' 구축을 목표로 하며, 글로벌 SMR 시장에서의 경쟁력 강화를 의도한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "현대건설",
+  "region": "KR",
+  "source": "ket.kr",
+  "url": "https://ket.kr/news/article.html?no=39438",
+  "k": "경수로에서 고속로까지 현대건설 4세대 smr 선점",
+  "ko": 1,
+  "id": "a020b3fd"
+ },
+ {
   "date": "2026-07-14",
   "title": "사천 환경단체, 삼천포화력 부지 SMR 추진 반대",
   "summary": "경남 사천지역 환경단체가 삼천포화력발전소 폐지 부지에 소형모듈원자로(SMR)를 도입하려는 계획에 반발하며 즉각 철회를 촉구했다.",
@@ -833,67 +892,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-13",
-  "title": "정부 '신규 원전·SMR' 추가 건설 공식화... '공론화 통해 추진'",
-  "summary": "정부가 신규 원전 및 소형모듈원자로(SMR) 추가 건설을 공식적으로 추진하기로 결정했으며, 공론화 과정을 거쳐 진행할 계획이다.",
-  "summaryLong": "정부가 신규 원전 및 소형모듈원자로(SMR)의 추가 건설을 공식화했다. 이는 에너지 정책 방향의 중요한 전환을 의미하며, 정부는 국민 공론화 과정을 거쳐 해당 정책을 추진할 방침을 밝혔다. 이는 원자력 정책의 적극적 추진과 SMR 산업화에 대한 정부의 의지를 드러낸 것으로 평가된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "wowtv.co.kr",
-  "url": "https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202607130213",
-  "k": "정부 신규 원전 smr 추가 건설 공식화 공론화 통해 추진",
-  "ko": 1,
-  "id": "989fd334"
- },
- {
-  "date": "2026-07-13",
-  "title": "2040년 전력수요 50GW 증가 전망…SMR 포함 기저전원 확대 방침",
-  "summary": "김성환 기후에너지환경부 장관이 메가프로젝트와 전기화 확산으로 인한 2040년까지 50GW 이상의 전력수요 증가에 대응하기 위해 재생에너지 확대와 함께 원전·소형모듈원전(SMR)을 기저전원으로 활용할 계획을 발표했다.",
-  "summaryLong": "김성환 기후에너지환경부 장관은 13일 청와대 영빈관에서 '첨단산업 전력·용수 공급 인프라 혁신전략'을 발표했다. 서남권 반도체 클러스터를 비롯한 3대 메가프로젝트와 전기화 확산에 따라 2040년까지 전력수요가 50기가와트(GW) 이상 증가할 것으로 전망했다. 이에 대응하기 위해 정부는 재생에너지를 주력 전원으로 확대하는 한편, 원전과 소형모듈원전(SMR)을 활용해 기저전원을 안정적으로 확보한다는 구상이다. 이는 대규모 산업 수요 증가 시대에 SMR 등 첨단 원전 기술의 역할을 공식화한 정책 신호로 평가된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "전기신문 - 전체기사",
-  "url": "https://www.electimes.com/news/articleView.html?idxno=370273",
-  "k": "전력수요 50gw 급증 전망 김성환 기후장관 재생e 확대 원전 활용",
-  "ko": 1,
-  "id": "2c00a7f8"
- },
- {
-  "date": "2026-07-13",
-  "title": "메가 프로젝트 핵심은 전력… 원전·SMR 추가 공식화",
-  "summary": "메가 프로젝트의 성공을 위한 핵심 과제인 전력 확보에 있어 원전과 SMR의 역할이 추가로 공식화되었다.",
-  "summaryLong": "정부의 메가 프로젝트 추진 과정에서 전력 공급이 핵심 인프라로 부각되면서, 원전과 소형모듈원전(SMR)의 역할이 공식적으로 강조되고 있다. 이는 반도체 클러스터 등 대규모 산업 프로젝트의 안정적인 전력 공급을 위해 기저전원으로서 원전과 SMR의 필요성을 재확인한 것으로 평가된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "v.daum.net",
-  "url": "https://v.daum.net/v/20260714005246954",
-  "k": "메가 프로젝트 핵심은 전력 원전 smr 추가 공식화",
-  "ko": 1,
-  "id": "33c5d8a3"
- },
- {
-  "date": "2026-07-13",
-  "title": "현대건설 미국 협력사 상장 다가오며 SMR 착공 임박",
-  "summary": "현대건설의 미국 SMR 협력사 상장이 임박하면서 SMR 착공이 가까워지고 있으며, 이를 통해 이한우 회장의 '원전 리더' 위상이 강화되고 있다.",
-  "summaryLong": "현대건설의 미국 소형모듈원전(SMR) 파트너 기업의 상장이 다가오면서 SMR 프로젝트의 착공이 임박한 것으로 보인다. 미국 시장에서의 이 협력사 상장은 현대건설의 글로벌 SMR 사업 진출을 가속화할 것으로 예상되며, 이한우 회장의 '원전 리더' 위상 강화로 이어질 것으로 평가된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "현대건설",
-  "region": "US",
-  "source": "businesspost.co.kr",
-  "url": "https://www.businesspost.co.kr/BP?command=article_view&num=442223",
-  "k": "현대건설 미국 협력사 상장 다가오며 smr 착공 성큼 이한우 원전 리더 위상 다져",
-  "ko": 1,
-  "op": 1,
-  "id": "a7c421de"
- },
- {
-  "date": "2026-07-13",
   "title": "현대건설 SMR 파트너 홀텍, 나스닥 IPO 계획",
   "summary": "현대건설의 소형모듈원전(SMR) 파트너 기업인 홀텍(Holtec)이 나스닥(NASDAQ) 상장을 계획하고 있다.",
   "summaryLong": "현대건설과 협력하고 있는 미국 SMR 기업 홀텍(Holtec)이 미국 나스닥(NASDAQ) 거래소에 신규공개상장(IPO)을 추진하고 있다. 이는 현대건설이 추진 중인 해외 소형모듈원전(SMR) 사업의 자금 조달과 기업 가치 확대를 의미하며, 글로벌 SMR 시장에서 한국 기업의 영향력 확대 신호로 해석된다.",
@@ -1022,20 +1020,6 @@ window.SMR_NEWS = [
   "id": "13b8ec6b"
  },
  {
-  "date": "2026-07-07",
-  "title": "폴란드 SGE社, 영국(UK)에 BWRX-300 14기 배치 계획",
-  "summary": "폴란드의 SGE社가 영국에 캐나다 오리진(GE Hitachi) 개발 소형모듈원자로 BWRX-300 14기 배치를 추진 중이다.",
-  "summaryLong": "폴란드의 에너지 회사 SGE(SGE)가 영국(UK) 내 BWRX-300 소형모듈원자로(SMR) 14기 배치 계획을 발표했다. BWRX-300은 캐나다의 오리진(GE Hitachi)이 개발한 비등경수로(BWR) 기반 제품으로, 상용화를 앞두고 있는 첨단 SMR이다. 이 계획은 영국의 에너지 안보와 탄소중립 목표 달성에 기여할 것으로 예상된다.",
-  "cat": "기술",
-  "type": "BWR",
-  "dev": "SGE",
-  "region": "UK",
-  "source": "ans.org",
-  "url": "https://www.ans.org/news/article-8183/polish-company-sge-hopes-to-deploy-14-bwrx300-reactors-in-uk/",
-  "k": "polish company sge hopes to deploy 14 bwrx 300 reactors in u k american nuclear society ans",
-  "id": "12bdd9e8"
- },
- {
   "date": "2026-07-05",
   "title": "뉴스케일(NuScale) 파라곤과 원자로 보호 계약 체결 후 소송 직면",
   "summary": "뉴스케일(NuScale)이 파라곤(Paragon)과 원자로 보호 계약을 체결했으나 소송에 직면하고 있다.",
@@ -1120,20 +1104,6 @@ window.SMR_NEWS = [
   "url": "https://www.world-nuclear-news.org/articles/swedish-state-to-take-majority-stake-in-videberg-kraft",
   "k": "swedish state taking majority stake in videberg kraft",
   "id": "ed7a9805"
- },
- {
-  "date": "2026-06-25",
-  "title": "폴란드, BWRX-300 SMR 최대 6기 건설 양해각서 체결",
-  "summary": "폴란드 블로츠와벡(Włocławek) 시와 오를렌 신토스 그린 에너지(Orlen Synthos Green Energy)가 GE 히치 에스더(GE Hitachi) BWRX-300 소형모듈원자로 최대 6기 건설 협력 양해각서를 체결했다.",
-  "summaryLong": "폴란드 중부 도시 블로츠와벡(Włocławek) 시와 오를렌 신토스 그린 에너지(Orlen Synthos Green Energy)가 GE 히치 에스더(GE Hitachi)의 BWRX-300 소형모듈원자로 최대 6기 건설을 위한 협력 원칙을 규정하는 양해각서를 체결했다. 이는 폴란드가 장기 탄소 중립 에너지 정책의 일환으로 SMR 도입을 구체화하는 중요한 진전을 나타낸다. BWRX-300은 캐나다에서 설계인증을 획득한 진보형 비등경수로(BWR) 기반 소형모듈원자로로, 이번 협약을 통해 폴란드의 산업용 및 지역 전력 공급 대안으로 추진되고 있다.",
-  "cat": "계약",
-  "type": "BWR",
-  "dev": "GE Hitachi",
-  "region": "CA",
-  "source": "World Nuclear News",
-  "url": "https://www.world-nuclear-news.org/articles/osge-signs-agreement-with-wloclawek-for-smr-plant",
-  "k": "osge signs agreement with w oc awek for smr plant",
-  "id": "874aa809"
  },
  {
   "date": "2026-06-24",
@@ -1373,5 +1343,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-16 08:08 KST";
-window.SMR_TOTAL = 1300;
+window.SMR_UPDATED = "2026-07-16 08:44 KST";
+window.SMR_TOTAL = 1305;
