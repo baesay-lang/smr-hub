@@ -1,6 +1,36 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-07-15",
+  "title": "'부산형 SMR 상용화'에 정부 연구개발 지원 나선다",
+  "summary": "정부가 부산형 SMR의 상용화를 위한 연구개발 지원을 시작한다.",
+  "summaryLong": "정부가 부산 지역 기반의 소형모듈원자로(SMR) 상용화 프로젝트에 대한 연구개발 지원을 추진한다. 이는 국내 SMR 기술 자립화 및 지역산업 육성을 목표로 하는 국책 지원 정책이다. 부산형 SMR은 한국이 독자 개발 중인 SMR 노형으로, 정부 차원의 본격 R&D 투자·지원이 이루어질 예정이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "kookje.co.kr",
+  "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20260715.99099004385",
+  "k": "뭐라노 부산형 smr 상용화 정부 연구개발 지원 나선다",
+  "ko": 1,
+  "id": "3ed478b2"
+ },
+ {
+  "date": "2026-07-15",
+  "title": "DL이앤씨, 매출 감소 속 SMR·데이터센터로 체질 개선",
+  "summary": "DL이앤씨가 경영 부진을 극복하기 위해 SMR과 데이터센터 사업 확대로 사업 구조를 전환한다.",
+  "summaryLong": "건설사 DL이앤씨가 매출 감소에 대응하기 위해 소형모듈원자로(SMR)와 데이터센터 사업을 중심으로 사업 포트폴리오를 재편하고 있다. 이는 기존 건설 중심 사업에서 에너지·첨단산업 분야로의 전략적 전환으로, SMR 프로젝트 참여 확대를 통해 미래 성장 동력을 확보하려는 시도다. 구체적 투자 규모와 추진 일정은 별도 공시 예정이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "DL이앤씨",
+  "region": "KR",
+  "source": "leadeconomy.co.kr",
+  "url": "https://www.leadeconomy.co.kr/news/articleView.html?idxno=8644",
+  "k": "매출 줄었지만 dl이앤씨 smr 데이터센터로 체질 바꾼다",
+  "ko": 1,
+  "id": "2b04fced"
+ },
+ {
   "date": "2026-07-14",
   "title": "사천 환경단체, 삼천포화력 부지 SMR 추진 반대",
   "summary": "경남 사천지역 환경단체가 삼천포화력발전소 폐지 부지에 소형모듈원자로(SMR)를 도입하려는 계획에 반발하며 즉각 철회를 촉구했다.",
@@ -367,6 +397,22 @@ window.SMR_NEWS = [
   "k": "아이티센씨티에스 원자력연구원 v smr 개발 슈퍼컴 구축",
   "ko": 1,
   "id": "651c3ac7"
+ },
+ {
+  "date": "2026-07-14",
+  "title": "[심층 진단] SMR 패권 경쟁, 한국은 '제조'로 남을 것인가 '설계자'로 도약할 것인가",
+  "summary": "한국의 SMR 산업 전략에 대한 심층 분석으로, 제조 기지 역할에서 설계 주도국으로의 도약 가능성을 진단한다.",
+  "summaryLong": "국내 언론이 한국의 소형모듈원자로(SMR) 산업 전략을 진단하는 심층 분석 기사다. 글로벌 SMR 패권 경쟁 속에서 한국이 단순 제조업체로 남을 것인지, 아니면 설계·기술 주도국으로 도약할 것인지를 다룬다. SMR 정책·기술·산업 생태계 발전 방향에 대한 정책적·전략적 분석 내용으로 보인다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "newsvalue.kr",
+  "url": "https://www.newsvalue.kr/news/articleView.html?idxno=24150",
+  "k": "심층 진단 smr 패권 경쟁 한국은 제조 로 남을 것인가 설계자 로 도약할 것인가",
+  "ko": 1,
+  "op": 1,
+  "id": "02e9b655"
  },
  {
   "date": "2026-07-13",
@@ -848,37 +894,6 @@ window.SMR_NEWS = [
   "k": "smr 특별법 원자로 도면을 수주로 잇다",
   "ko": 1,
   "id": "dfc9f589"
- },
- {
-  "date": "2026-07-13",
-  "title": "신규 원전·SMR 추가 건설 검토, 2040년 50GW 전력 대응",
-  "summary": "정부가 신규 원전과 SMR의 추가 건설을 검토하여 2040년 50GW의 추가 전력 수요에 대응할 방침을 밝혔다.",
-  "summaryLong": "정부가 신규 대형 원전과 소형모듈원자로(SMR)의 추가 건설 방안을 검토 중이며, 2040년경 필요한 약 50GW의 추가 전력을 이들 원자력 시설로 대응할 계획을 제시했다. 이는 탄소중립과 에너지 안보를 동시에 달성하기 위한 정책 추진 의지를 보여주는 것으로, 향후 구체적 인허가·투자 계획이 뒤따를 것으로 예상된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "pinpointnews.co.kr",
-  "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=468059",
-  "k": "신규 원전 smr 추가 건설 검토 2040년 50gw 추가 전력 대응",
-  "ko": 1,
-  "op": 1,
-  "id": "29d8d9af"
- },
- {
-  "date": "2026-07-13",
-  "title": "허성무 의원, SMR 산업 생태계 지원 확대 법안 발의",
-  "summary": "허성무 의원이 SMR 산업 생태계 지원을 확대하는 법안을 발의했다.",
-  "summaryLong": "허성무 의원이 SMR 산업의 육성과 지원 체계를 강화하기 위한 관련 법안을 국회에 발의했다. 이 법안은 SMR 기술 개발, 인프라 구축, 산업 생태계 조성 등을 포괄적으로 지원하려는 정책 의지를 반영하며, 향후 입법화될 경우 한국의 SMR 산업 경쟁력 강화에 기여할 것으로 전망된다.",
-  "cat": "정책",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "ikld.kr",
-  "url": "http://www.ikld.kr/news/articleView.html?idxno=337499",
-  "k": "허성무 의원 smr 산업 생태계 지원 확대 법안 발의",
-  "ko": 1,
-  "id": "3780c3f7"
  },
  {
   "date": "2026-07-13",
@@ -1388,5 +1403,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-15 08:38 KST";
-window.SMR_TOTAL = 1276;
+window.SMR_UPDATED = "2026-07-15 14:54 KST";
+window.SMR_TOTAL = 1281;
