@@ -415,6 +415,21 @@ window.SMR_NEWS = [
   "id": "02e9b655"
  },
  {
+  "date": "2026-07-14",
+  "title": "현대건설, 미국 SMR 업체와 'EAGL-1 프로젝트' 기본 협약 체결",
+  "summary": "현대건설이 미국 4세대 SMR 업체와 'EAGL-1 프로젝트'에 대한 기본 협약을 체결했다.",
+  "summaryLong": "현대건설이 미국의 차세대 소형모듈원자로(SMR) 개발사와 'EAGL-1 프로젝트'의 기본 협약을 체결했다. 현대건설은 4세대 SMR 사업 협력을 통해 차세대 원자로 시장 진출을 추진하고 있으며, 이번 협약으로 첨단 원자로 협력망을 확대하고 있다. 한국 건설사의 미국 첨단 원자로 사업 참여를 의미하는 전략적 협력 사례다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "현대건설",
+  "region": "US",
+  "source": "businesspost.co.kr",
+  "url": "https://www.businesspost.co.kr/BP?command=article_view&num=442286",
+  "k": "현대건설 미국 smr 업체와 eagl 1 프로젝트 기본 협약 체결",
+  "ko": 1,
+  "id": "acd33447"
+ },
+ {
   "date": "2026-07-13",
   "title": "홀텍(Holtec), 인도 SMR 사업 포함한 IPO 추진",
   "summary": "미국 핵심 기업 홀텍(Holtec)이 인도에서의 소형모듈원자로(SMR) 사업을 포함하여 기업공개(IPO)를 추진 중이다.",
@@ -879,21 +894,6 @@ window.SMR_NEWS = [
   "k": "경남도 smr 특별법 개정안 발의 환영 연구개발 넘어 산업육성 기반 마련 기대",
   "ko": 1,
   "id": "02e654bc"
- },
- {
-  "date": "2026-07-13",
-  "title": "SMR 특별법, 원자로 도면을 수주로 연결",
-  "summary": "소형모듈원자로 특별법이 설계·개발 단계를 넘어 실제 수주·계약으로 이어지는 산업화를 지원하는 역할을 한다.",
-  "summaryLong": "소형모듈원자로(SMR) 특별법의 역할이 기초 연구와 기술 개발 단계를 넘어 실질적인 수주 획득 및 상용화까지 연결하는 데 있음을 강조하는 보도다. 도면 작성(설계)에서 수주(계약)로의 산업 가치사슬 연결이 정책의 핵심 목표임을 나타낸다. 이는 SMR이 단순한 R&D 프로젝트에서 실제 사업으로 진전되기 위한 제도적 지원의 중요성을 강조한다.",
-  "cat": "계약",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "newsroad.co.kr",
-  "url": "http://www.newsroad.co.kr/news/articleView.html?idxno=61500",
-  "k": "smr 특별법 원자로 도면을 수주로 잇다",
-  "ko": 1,
-  "id": "dfc9f589"
  },
  {
   "date": "2026-07-13",
@@ -1403,5 +1403,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-15 14:54 KST";
-window.SMR_TOTAL = 1281;
+window.SMR_UPDATED = "2026-07-15 15:26 KST";
+window.SMR_TOTAL = 1283;
