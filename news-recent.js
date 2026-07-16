@@ -138,6 +138,36 @@ window.SMR_NEWS = [
   "id": "b4fa396c"
  },
  {
+  "date": "2026-07-16",
+  "title": "MSR 추진 1만 5000TEU급 컨테이너선 개념설계, 미국 선급협회 기본승인 획득",
+  "summary": "한국원자력연구원·선박해양플랜트연구소·삼성중공업이 공동 개발한 용융염원자로(MSR) 추진 대형 컨테이너선의 개념설계가 미국 선급협회(ABS)로부터 기본승인(AiP)을 획득했다.",
+  "summaryLong": "한국원자력연구원(KAERI)은 선박해양플랜트연구소(KRISO)와 삼성중공업이 공동으로 개발한 용융염원자로(MSR) 적용 1만 5000TEU급 컨테이너선의 개념설계가 미국 선급협회(ABS)로부터 기본승인(Approval in Principle, AiP)을 획득했다고 발표했다. AiP는 선급기관이 새로운 기술·설계의 개념 단계에서 국제 규정과 안전 기준에 따라 기술적 구현 가능성과 안전성을 검토·확인하는 절차다. 원자력 추진 선박 같은 첨단 기술에 대한 국제적 안전 승인으로, 한국의 고급 원자로 기술을 해양 산업에 적용하려는 노력의 중요한 마일스톤이다.",
+  "cat": "기술",
+  "type": "MSR",
+  "dev": "한국원자력연구원",
+  "region": "KR",
+  "source": "투데이에너지 - 전체기사",
+  "url": "https://www.todayenergy.kr/news/articleView.html?idxno=300487",
+  "k": "smr 추진 대형 컨테이너선 개념설계 공식 인정",
+  "ko": 1,
+  "id": "61e4d488"
+ },
+ {
+  "date": "2026-07-16",
+  "title": "원안위, SMR 도입 법·제도 2028년까지 마련",
+  "summary": "원자력안전위원회(원안위)가 SMR 도입을 위한 법·제도를 2028년까지 완비할 계획을 밝혔다.",
+  "summaryLong": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 도입을 위한 법·제도 정비를 2028년까지 완료할 일정을 제시했다. 이는 정부의 '3대 메가프로젝트' 추진 방향에 맞춰 SMR 관련 규제체계를 신속히 구축하려는 정책 의지를 반영하며, 국내 SMR 사업화의 기본 토대 마련과 직결된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "hani.co.kr",
+  "url": "https://www.hani.co.kr/arti/society/environment/1268544.html",
+  "k": "원안위 smr 도입 법 제도 2028년까지 3대 메가 속도전 발맞추기",
+  "ko": 1,
+  "id": "beee0220"
+ },
+ {
   "date": "2026-07-15",
   "title": "'부산형 SMR 상용화'에 정부 연구개발 지원 나선다",
   "summary": "정부가 부산형 SMR의 상용화를 위한 연구개발 지원을 시작한다.",
@@ -442,6 +472,20 @@ window.SMR_NEWS = [
   "k": "sk 베트남 vkist 차세대 smr 기술 협력 본격화",
   "ko": 1,
   "id": "a25ffd3d"
+ },
+ {
+  "date": "2026-07-15",
+  "title": "미국 사용후핵연료 10만 톤, 오클로가 에너지 자원으로 주목",
+  "summary": "오클로가 미국에 축적된 10만 톤의 사용후핵연료를 차세대 에너지 자원으로 활용할 수 있다고 제시하는 내용을 다룬 기사다.",
+  "summaryLong": "모틀리 풀(The Motley Fool)은 미국이 축적한 10만 톤 규모의 사용후핵연료에 주목하는 오클로(Oklo)의 사업 전략을 보도했다. 오클로의 고속로(SFR) 기술이 사용후핵연료를 새로운 에너지 자원으로 활용할 수 있다는 점을 강조하며, 이는 오클로의 핵심 기술 경쟁력과 시장 기회를 설명하는 내용이다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "fool.com",
+  "url": "https://www.fool.com/investing/2026/07/15/the-us-has-accumulated-100000-metric-tons-of-used/",
+  "k": "the u s has accumulated 100 000 metric tons of used nuclear fuel oklo sees it as a massive potential energy resource",
+  "id": "b0fa3f28"
  },
  {
   "date": "2026-07-14",
@@ -844,22 +888,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-14",
-  "title": "삼성중공업, 부유식 데이터센터 구상 가운데 SOFC(고체산화물연료전지)를 넘어 SMR까지 추진",
-  "summary": "삼성중공업이 부유식 데이터센터 프로젝트의 일환으로 소형모듈원자로(SMR) 도입을 검토하고 있다.",
-  "summaryLong": "삼성중공업이 부유식 데이터센터 개발이라는 대형 구상 가운데 고체산화물연료전지(SOFC)를 거쳐 소형모듈원자로(SMR)까지 확대하려는 전략을 추진하고 있다. 이는 데이터센터의 장기 전력 수급 솔루션으로 SMR 활용 가능성을 검토하는 산업 응용 사례로 의미가 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "삼성중공업",
-  "region": "KR",
-  "source": "ebn.co.kr",
-  "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1716320",
-  "k": "삼성중공업 부유식 데이터센터 큰 그림 sofc 넘어 smr까지",
-  "ko": 1,
-  "op": 1,
-  "id": "f8b56322"
- },
- {
-  "date": "2026-07-14",
   "title": "양자 컴퓨팅을 FLiBe 화학 계산에 응용, 삼중수소 번식 기술 진전",
   "summary": "연구팀이 양자·고전 컴퓨팅 결합으로 FLiBe(불화리튬베릴륨) 용융염 블랑켓 내 삼중수소 분광(tritium speciation) 화학 계산을 수행했으며, 핵융합 장비의 삼중수소 번식 잠금 해제를 위한 유망한 방향을 입증했다.",
   "summaryLong": "연구팀이 양자 컴퓨팅과 고전 컴퓨팅의 결합 방식을 활용하여 FLiBe(불화리튬(lithium fluoride)·불화베릴륨(beryllium fluoride)) 용융염 블랑켓에서 삼중수소 분광 관련 화학 계산을 수행했다. 이는 향후 핵융합 기계에서 삼중수소 번식을 활성화하기 위한 유망한 기술 방향을 제시한다. 용융염 냉각로(MSR) 및 핵융합 시스템의 삼중수소 취급 및 번식 기술 개발에 기여할 수 있는 기초 연구 성과이다.",
@@ -871,21 +899,6 @@ window.SMR_NEWS = [
   "url": "https://www.ans.org/news/2026-07-14/article-8203/team-brings-quantum-computing-into-flibe-chemistry-calculations/",
   "k": "team brings quantum computing into flibe chemistry calculations",
   "id": "4d1a76f5"
- },
- {
-  "date": "2026-07-14",
-  "title": "현대건설, 미국 차세대 원전 'EAGL-1' 건설",
-  "summary": "현대건설이 미국의 차세대 원전 프로젝트 'EAGL-1'의 건설을 진행.",
-  "summaryLong": "현대건설이 미국 시장에서 차세대 원전 프로젝트 'EAGL-1'의 건설 사업을 수주하여 추진 중이다. 이는 현대건설의 미국 원자력 시장 진출과 차세대 원자로 건설 기술 수출을 나타내는 실제 계약 및 사업 이행 사항이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "현대건설",
-  "region": "US",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5037",
-  "k": "k 건설 미국 원전 시장에 깃발 현대건설 차세대 원전 eagl 1 건설",
-  "ko": 1,
-  "id": "8ee0342d"
  },
  {
   "date": "2026-07-13",
@@ -901,36 +914,6 @@ window.SMR_NEWS = [
   "k": "us nuclear firm holtec s ipo plans could have an india smr footprint",
   "op": 1,
   "id": "698f1008"
- },
- {
-  "date": "2026-07-13",
-  "title": "테라파워(TerraPower), 미국 승인으로 SMR 상용화 진전",
-  "summary": "테라파워(TerraPower)가 미국 승인을 획득하며 소형모듈원자로(SMR) 상용화를 진전시켰다.",
-  "summaryLong": "테라파워(TerraPower)가 미국의 승인을 획득하여 소형모듈원자로(SMR) 상용화 추진을 한 단계 진전시켰다. 제시된 정보는 제목 수준의 기본 사실만 담고 있으나, 미국 규제당국의 공식 승인 획득은 개발사의 주요 인허가 마일스톤으로 평가된다. 이는 테라파워의 고급로 기술 개발이 규제 심사를 통과했음을 의미하며, 상용화 타임라인 단축에 긍정적 신호로 작용할 것으로 전망된다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "US",
-  "source": "chosun.com",
-  "url": "https://www.chosun.com/english/national-en/2026/07/13/56LCOKATNJE2BMAUTZNDS5H6SI/",
-  "k": "terrapower advances smr commercialization with u s approval",
-  "ko": 1,
-  "id": "cd3706af"
- },
- {
-  "date": "2026-07-12",
-  "title": "SK이노베이션, 테라파워와 소형모듈원자로 상용화 가속",
-  "summary": "SK이노베이션(SK Innovation)과 테라파워(TerraPower)가 소형모듈원자로(SMR) 상용화 협력을 가속화한다는 조선일보 보도.",
-  "summaryLong": "조선일보에 따르면 한국의 SK이노베이션(SK Innovation)과 미국의 테라파워(TerraPower)가 소형모듈원자로(SMR) 상용화를 위한 협력을 가속화하고 있다. 두 기업 간의 협력 강화는 글로벌 SMR 시장에서의 경쟁 심화 속에 한국 기업의 입지를 강화하는 의미가 있으며, 상용 배치 일정과 기술 협력 방식에 대한 구체적 진전이 예상된다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "SK Innovation / TerraPower",
-  "region": "KR",
-  "source": "chosun.com",
-  "url": "https://www.chosun.com/english/national-en/2026/07/13/56LCOKATNJE2BMAUTZNDS5H6SI/",
-  "k": "sk innovation terrapower accelerate smr commercialization",
-  "ko": 1,
-  "id": "cd3706af"
  },
  {
   "date": "2026-07-11",
@@ -1132,20 +1115,6 @@ window.SMR_NEWS = [
   "id": "279b7204"
  },
  {
-  "date": "2026-06-23",
-  "title": "테라스트리얼 에너지, 텍사스 A&M과 원자로 부지 협약 체결",
-  "summary": "테라스트리얼 에너지(Terrestrial Energy)가 텍사스 A&M 대학 시스템과 용융염로 개발 부지 리스 및 연구협약을 체결했다.",
-  "summaryLong": "테라스트리얼 에너지(Terrestrial Energy)가 텍사스 A&M 대학 시스템(TAMUS)과 지면리스 및 연구협약을 체결했다. 브라이언(Bryan), 텍사스 소재 텍사스 A&M–RELLIS 캠퍼스 내 약 77에이커(acres) 부지를 독점 사용할 권리를 확보했으며, 이 부지는 동사의 적분형 용융염로(Integral Molten Salt Reactor, IMSR) 개발에 투입될 예정이다. 협약은 부지 확보뿐 아니라 부지 특성 조사 완료를 위한 지원도 포함한다.",
-  "cat": "기술",
-  "type": "MSR",
-  "dev": "Terrestrial Energy",
-  "region": "US",
-  "source": "ANS Newswire",
-  "url": "https://www.ans.org/news/2026-06-23/article-8139/terrestrial-energy-and-texas-am-reach-agreement-on-reactor-siting/",
-  "k": "terrestrial energy and texas a m reach agreement on reactor siting",
-  "id": "c80a61d2"
- },
- {
   "date": "2026-06-22",
   "title": "오클로, 우라늄 공급 계약으로 핵분열 사업 강화",
   "summary": "오클로(Oklo)가 우라늄 공급 계약을 체결하며 핵분열 연료 확보에 나섰다.",
@@ -1313,5 +1282,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-16 15:29 KST";
-window.SMR_TOTAL = 1325;
+window.SMR_UPDATED = "2026-07-16 16:11 KST";
+window.SMR_TOTAL = 1329;

@@ -145,6 +145,36 @@ window.SMR_NEWS = [
     "id": "b4fa396c"
   },
   {
+    "date": "2026-07-16",
+    "title": "MSR 추진 1만 5000TEU급 컨테이너선 개념설계, 미국 선급협회 기본승인 획득",
+    "summary": "한국원자력연구원·선박해양플랜트연구소·삼성중공업이 공동 개발한 용융염원자로(MSR) 추진 대형 컨테이너선의 개념설계가 미국 선급협회(ABS)로부터 기본승인(AiP)을 획득했다.",
+    "summaryLong": "한국원자력연구원(KAERI)은 선박해양플랜트연구소(KRISO)와 삼성중공업이 공동으로 개발한 용융염원자로(MSR) 적용 1만 5000TEU급 컨테이너선의 개념설계가 미국 선급협회(ABS)로부터 기본승인(Approval in Principle, AiP)을 획득했다고 발표했다. AiP는 선급기관이 새로운 기술·설계의 개념 단계에서 국제 규정과 안전 기준에 따라 기술적 구현 가능성과 안전성을 검토·확인하는 절차다. 원자력 추진 선박 같은 첨단 기술에 대한 국제적 안전 승인으로, 한국의 고급 원자로 기술을 해양 산업에 적용하려는 노력의 중요한 마일스톤이다.",
+    "cat": "기술",
+    "type": "MSR",
+    "dev": "한국원자력연구원",
+    "region": "KR",
+    "source": "투데이에너지 - 전체기사",
+    "url": "https://www.todayenergy.kr/news/articleView.html?idxno=300487",
+    "k": "smr 추진 대형 컨테이너선 개념설계 공식 인정",
+    "ko": 1,
+    "id": "61e4d488"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "원안위, SMR 도입 법·제도 2028년까지 마련",
+    "summary": "원자력안전위원회(원안위)가 SMR 도입을 위한 법·제도를 2028년까지 완비할 계획을 밝혔다.",
+    "summaryLong": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 도입을 위한 법·제도 정비를 2028년까지 완료할 일정을 제시했다. 이는 정부의 '3대 메가프로젝트' 추진 방향에 맞춰 SMR 관련 규제체계를 신속히 구축하려는 정책 의지를 반영하며, 국내 SMR 사업화의 기본 토대 마련과 직결된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "hani.co.kr",
+    "url": "https://www.hani.co.kr/arti/society/environment/1268544.html",
+    "k": "원안위 smr 도입 법 제도 2028년까지 3대 메가 속도전 발맞추기",
+    "ko": 1,
+    "id": "beee0220"
+  },
+  {
     "date": "2026-07-15",
     "title": "'부산형 SMR 상용화'에 정부 연구개발 지원 나선다",
     "summary": "정부가 부산형 SMR의 상용화를 위한 연구개발 지원을 시작한다.",
@@ -449,6 +479,20 @@ window.SMR_NEWS = [
     "k": "sk 베트남 vkist 차세대 smr 기술 협력 본격화",
     "ko": 1,
     "id": "a25ffd3d"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "미국 사용후핵연료 10만 톤, 오클로가 에너지 자원으로 주목",
+    "summary": "오클로가 미국에 축적된 10만 톤의 사용후핵연료를 차세대 에너지 자원으로 활용할 수 있다고 제시하는 내용을 다룬 기사다.",
+    "summaryLong": "모틀리 풀(The Motley Fool)은 미국이 축적한 10만 톤 규모의 사용후핵연료에 주목하는 오클로(Oklo)의 사업 전략을 보도했다. 오클로의 고속로(SFR) 기술이 사용후핵연료를 새로운 에너지 자원으로 활용할 수 있다는 점을 강조하며, 이는 오클로의 핵심 기술 경쟁력과 시장 기회를 설명하는 내용이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/07/15/the-us-has-accumulated-100000-metric-tons-of-used/",
+    "k": "the u s has accumulated 100 000 metric tons of used nuclear fuel oklo sees it as a massive potential energy resource",
+    "id": "b0fa3f28"
   },
   {
     "date": "2026-07-14",
@@ -936,6 +980,22 @@ window.SMR_NEWS = [
     "url": "https://sundaytribune.co.za/business-report/2026-04-01-necsa-seeks-partners-to-develop-small-modular-reactor-technology-in-south-africa/",
     "k": "necsa seeks partners to develop small modular reactor technology in south africa",
     "id": "afa3851c"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "현대건설, 미국(US) SMR 기업과 협력 확대",
+    "summary": "현대건설이 미국의 소형모듈원자로(SMR) 기업과 협력을 확대하여 차세대 원자로의 풀 라인업 구축을 추진 중이다.",
+    "summaryLong": "현대건설이 미국의 소형모듈원자로(SMR) 개발사와의 협력 관계를 확대하고 있다. 이를 통해 차세대 원자로에 대한 풀 라인업(다양한 노형의 포괄적 포트폴리오)을 구축하려는 전략으로 보인다. 구체적인 협력 기업명, 일정, 계약 규모 등의 상세 정보는 제시된 자료에서 확인할 수 없다. 현대건설의 SMR 기술 확보 및 글로벌 시장 진출 의지를 보여주는 움직임이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대건설",
+    "region": "US",
+    "source": "worktoday.co.kr",
+    "url": "http://www.worktoday.co.kr/news/articleView.html?idxno=86758",
+    "k": "현대건설 smr 기업과 협력 확대 차세대 원자로 풀 라인업 구축",
+    "ko": 1,
+    "op": 1,
+    "id": "e57e8d58"
   },
   {
     "date": "2026-07-13",
@@ -19154,4 +19214,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-16 15:29 KST";
+window.SMR_UPDATED = "2026-07-16 16:11 KST";
