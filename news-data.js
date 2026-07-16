@@ -337,6 +337,52 @@ window.SMR_NEWS = [
     "id": "b47bb6d4"
   },
   {
+    "date": "2026-07-16",
+    "title": "3대 메가프로젝트 속도전 속 SMR 규제도 '더 빨리' 추진",
+    "summary": "정부의 3대 메가프로젝트 추진에 맞춰 소형모듈원자로 규제 프로세스도 가속화되고 있다.",
+    "summaryLong": "정부가 추진 중인 3대 메가프로젝트의 속도 전에 맞춰 소형모듈원자로(SMR) 관련 규제 체계도 신속 처리 방식으로 전환되고 있는 것으로 보인다. 이는 SMR 상용화를 국책 프로젝트 차원에서 가속화하려는 정부 정책의 일환으로, 인허가 절차 단축과 규제 합리화를 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "busan.com",
+    "url": "https://www.busan.com/view/busan/view.php?code=2026071613573626212",
+    "k": "3대 메가프로젝트 속도전에 smr 규제도 더 빨리",
+    "ko": 1,
+    "id": "efad12ec"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "원안위, SMR 규제 사전검토 본격화…국내외 3개사 참여",
+    "summary": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 규제 사전검토를 본격화하며 국내외 3개 개발사의 참여를 타진하고 있다.",
+    "summaryLong": "원자력안전위원회(원안위)가 소형모듈원자로(SMR)에 대한 규제 사전검토를 본격적으로 추진하고 있으며, 국내외 3개 개발사의 참여 의사를 타진 중이다. 사전검토는 개발사가 설계 전 단계에서 규제 요건을 사전에 파악할 수 있도록 지원하는 절차로, SMR 상용화 로드맵 가속화의 일환이다. 이를 통해 국내 SMR 개발 생태계 구축 및 국제 경쟁력 강화를 도모하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "m-i.kr",
+    "url": "http://www.m-i.kr/news/articleView.html?idxno=1392415",
+    "k": "원안위 smr 규제 사전검토 본격화 국내외 3개사 참여 타진",
+    "ko": 1,
+    "id": "0de2d770"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "체코가 선택한 SMR…두산에너빌리티에 기회",
+    "summary": "체코가 소형모듈원자로(SMR) 도입을 결정하면서 두산에너빌리티에 비즈니스 기회가 열렸다.",
+    "summaryLong": "체코 정부가 소형모듈원자로(SMR) 도입을 공식화하면서 한국의 두산에너빌리티에 국제 사업 기회가 발생하고 있다. 체코의 SMR 도입 결정은 유럽(EU) 내 탈탄소 에너지 정책의 구체화를 의미하며, 한국 SMR 기술의 해외 수출 가능성을 시사한다. 두산에너빌리티는 국내 SMR 개발 주요 업체로 글로벌 수주 경쟁에 참여할 전망이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "두산에너빌리티",
+    "region": "EU",
+    "source": "theguru.co.kr",
+    "url": "https://theguru.co.kr/news/article.html?no=104568",
+    "k": "영상 체코가 선택한 smr 두산에너빌리티에 기회",
+    "ko": 1,
+    "op": 1,
+    "id": "f2867998"
+  },
+  {
     "date": "2026-07-15",
     "title": "'부산형 SMR 상용화'에 정부 연구개발 지원 나선다",
     "summary": "정부가 부산형 SMR의 상용화를 위한 연구개발 지원을 시작한다.",
@@ -683,6 +729,21 @@ window.SMR_NEWS = [
     "url": "https://www.koreaherald.com/article/10810008",
     "k": "korea eyes slice of global smr market after pact with us japan",
     "id": "6ea306f8"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "SMR 추진 컨테이너선, 국제 첫 관문 넘어 기본승인 획득",
+    "summary": "한국원자력연구원의 용융염원자로(MSR) 컨테이너선 개념설계가 미국에서 기본승인을 획득했다.",
+    "summaryLong": "한국원자력연구원과 선박플랜트연구소가 공동 추진 중인 소형모듈원자로(SMR) 추진 컨테이너선의 용융염원자로(MSR) 개념설계가 미국에서 국제 기본승인을 획득했다. 이는 원자력 추진 선박 개발의 국제 규제 진출에서 초기 관문을 통과한 것으로, 향후 상세설계 및 인허가로 진행될 수 있는 기술적·규제적 진전을 의미한다.",
+    "cat": "기술",
+    "type": "MSR",
+    "dev": "한국원자력연구원",
+    "region": "KR",
+    "source": "view.asiae.co.kr",
+    "url": "https://view.asiae.co.kr/article/2026071608381234381",
+    "k": "smr 추진 컨테이너선 국제 첫 관문 넘었다",
+    "ko": 1,
+    "id": "28ca3c5e"
   },
   {
     "date": "2026-07-14",
@@ -1200,6 +1261,22 @@ window.SMR_NEWS = [
     "url": "https://www.enlit.world/library/first-smr-deal-in-argentina-is-nuclear-investment-landmark",
     "k": "first smr deal in argentina is nuclear investment landmark",
     "id": "ea970ee1"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "현대건설, 미국(US) 원전 기업 FANCO와 SMR 사업 협력 추진",
+    "summary": "현대건설이 미국(US)의 원전 기업 FANCO와 소형모듈원자로(SMR) 사업 협력을 추진 중이다.",
+    "summaryLong": "현대건설이 미국(US)의 원전 기업 FANCO와 소형모듈원자로(SMR) 사업 협력을 추진하고 있다. 이는 현대건설의 국제 원전 사업 포트폴리오 확대 및 소형모듈원자로(SMR) 분야로의 진출 의지를 보여주는 움직임이다. 양사 간 구체적인 협력 내용과 일정에 대해서는 추가 공식 발표가 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대건설",
+    "region": "US",
+    "source": "datanews.co.kr",
+    "url": "https://www.datanews.co.kr/news/article.html?no=145589",
+    "k": "현대건설 미국 원전 기업 fanco와 smr 사업 협력 추진",
+    "ko": 1,
+    "op": 1,
+    "id": "68a26b22"
   },
   {
     "date": "2026-07-13",
@@ -19418,4 +19495,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-17 08:07 KST";
+window.SMR_UPDATED = "2026-07-17 08:43 KST";
