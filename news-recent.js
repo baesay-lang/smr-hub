@@ -62,6 +62,82 @@ window.SMR_NEWS = [
   "id": "13fa53b4"
  },
  {
+  "date": "2026-07-16",
+  "title": "용융염원자로(MSR) 적용 컨테이너선, 미국 선급협회(ABS) 기본승인 획득",
+  "summary": "한국원자력연구원·KRISO·삼성중공업이 공동 개발한 용융염원자로(MSR) 추진 1만5000TEU급 컨테이너선이 미국 선급협회(ABS)로부터 기본승인(AiP)을 획득했다.",
+  "summaryLong": "한국원자력연구원은 선박해양플랜트연구소(KRISO)와 삼성중공업이 공동으로 개발한 용융염원자로(MSR) 추진 1만5000TEU급 컨테이너선의 개념설계가 미국 선급협회(ABS)로부터 기본승인(Approval in Principle, AiP)을 획득했다고 발표했다. AiP는 선급기관이 새로운 기술이나 설계의 개념 단계에서 관련 규정과 안전 기준을 바탕으로 기술적 구현 가능성과 안전성을 검토·확인하는 절차다. 특히 원자력 추진 선박과 같이 국제적으로 개발 초기 단계에 있는 분야에서는 개념설계 단계의 기술적 타당성 인증이 중요한 마일스톤이 된다. 이는 한국의 소형모듈원자로 기술이 국제 해사 규제 기준을 충족함을 입증한 의미 있는 성과다.",
+  "cat": "기술",
+  "type": "MSR",
+  "dev": "KAERI",
+  "region": "KR",
+  "source": "에너지데일리 - 전체기사",
+  "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=201469",
+  "k": "smr 추진 대형 컨테이너선 기본승인 획득했다",
+  "ko": 1,
+  "id": "aea0b3a4"
+ },
+ {
+  "date": "2026-07-16",
+  "title": "원안위, SMR 차세대 규제체계 구축 추진",
+  "summary": "원자력안전위원회(원안위)가 SMR 개발 가속화에 대응하여 법과 기술을 병행한 차세대 규제체계를 구축하고 있으며, 사전검토 신청 의향 기업 3곳을 확인했다.",
+  "summaryLong": "정부의 3대 메가프로젝트로 추진되는 SMR(소형모듈원자로) 개발이 빠르게 진행됨에 따라 원자력안전위원회(원안위)가 대응 규제 체계를 마련하고 있다. 원안위는 법적·기술적 검토를 병행하면서 SMR 관련 규제 기반을 구축 중이며, 현재 SMR 사전검토 신청 의향을 밝힌 기업이 3곳에 달하는 것으로 파악됐다. 이는 국내 SMR 산업의 실질적 진전과 규제당국의 선제적 대응을 보여주는 사례다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "newsis.com",
+  "url": "https://www.newsis.com/view/NISX20260716_0003711457",
+  "k": "메가프로젝트 힘받는 smr 원안위 차세대 규제체계 구축",
+  "ko": 1,
+  "id": "9f497473"
+ },
+ {
+  "date": "2026-07-16",
+  "title": "해양용 SMR 국제 규정 논의 내달 시작, 한국 참여",
+  "summary": "해양용 소형모듈원자로의 국제 이용 규정 수립을 위한 국제 논의가 내달 시작될 예정이며 한국이 참여한다.",
+  "summaryLong": "해양 응용 분야의 소형모듈원자로(SMR) 관련 국제 규정 및 지침 마련을 위한 국제 협의가 내달 시작될 예정이며, 한국이 이에 참여할 계획이다. 이는 해양용 SMR의 안전·규제 기준을 글로벌 차원에서 정립하는 단계로, 국내 SMR 해양 응용 사업의 국제 표준 적합성을 확보하는 기회가 될 것이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "fnnews.com",
+  "url": "https://www.fnnews.com/news/202607151355422935",
+  "k": "내달 해양용 smr 이용 규정 국제 논의 착수 한국 참여",
+  "ko": 1,
+  "id": "327f4422"
+ },
+ {
+  "date": "2026-07-16",
+  "title": "SK·삼성, 4세대 SMR 속도…원안위(原安委)에 '사전 검토' 타진",
+  "summary": "SK와 삼성이 4세대 소형모듈원자로(SMR) 개발을 가속화하며 원자력안전위원회(원안위)에 사전 검토를 요청한 것으로 보인다.",
+  "summaryLong": "SK와 삼성이 4세대 소형모듈원자로(SMR) 개발을 신속히 추진하기 위해 원자력안전위원회(원안위)에 사전 검토를 요청했다. 이는 설계 인증 단계 이전에 규제 당국과의 협의를 통해 개발 일정을 단축하려는 시도로 보인다. 두 기업이 추진하는 4세대 SMR 기술이 국내 규제 체계 내에서 어떻게 적용될 수 있을지 미리 검토받음으로써 향후 인허가 과정을 효율화하려는 전략으로 해석된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "SK, 삼성",
+  "region": "KR",
+  "source": "v.daum.net",
+  "url": "https://v.daum.net/v/20260716120159742",
+  "k": "sk 삼성 4세대 smr 속도 원안위에 사전 검토 타진",
+  "ko": 1,
+  "op": 1,
+  "id": "e671833d"
+ },
+ {
+  "date": "2026-07-16",
+  "title": "현대건설, 퍼스트 아메리칸 뉴클리어와 EAGL-1 SMR 프로젝트 협력 가속화",
+  "summary": "현대건설이 미국(US) 퍼스트 아메리칸 뉴클리어(First American Nuclear)와 차세대 소형모듈원자로(SMR) 'EAGL-1 프로젝트' 협력을 가속화하고 있다.",
+  "summaryLong": "현대건설이 미국(US) 기업 퍼스트 아메리칸 뉴클리어와 차세대 소형모듈원자로(SMR) 'EAGL-1 프로젝트'에서의 협력을 강화하고 있다. 양사의 구체적인 협력 내용이나 일정은 보도에서 명시되지 않았으나, 현대건설의 원자력 사업 확대 전략과 SMR 시장 진출 의지를 보여준다. EAGL-1 프로젝트는 첨단 소형모듈원자로 개발 사업으로, 양 회사의 기술·건설 역량을 결합한 협력 추진으로 예상된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "현대건설, First American Nuclear",
+  "region": "US",
+  "source": "hyundaenews.com",
+  "url": "http://hyundaenews.com/107183",
+  "k": "현대건설 미국 퍼스트 아메리칸 뉴클리어와 차세대 smr eagl 1 프로젝트 협력 가속화",
+  "ko": 1,
+  "id": "b4fa396c"
+ },
+ {
   "date": "2026-07-15",
   "title": "'부산형 SMR 상용화'에 정부 연구개발 지원 나선다",
   "summary": "정부가 부산형 SMR의 상용화를 위한 연구개발 지원을 시작한다.",
@@ -812,35 +888,6 @@ window.SMR_NEWS = [
   "id": "8ee0342d"
  },
  {
-  "date": "2026-07-14",
-  "title": "현대건설, 미국 SMR 프로젝트 본격 착수",
-  "summary": "현대건설이 미국의 소형모듈원자로(SMR) 프로젝트를 본격적으로 시작하며 차세대 원자로 시장 진출을 강화하고 있다.",
-  "summaryLong": "현대건설이 미국의 SMR(소형모듈원자로) 프로젝트를 본격적으로 추진하기 시작했다. 이는 현대건설이 차세대 원자로 시장에서의 입지를 강화하려는 전략적 움직임으로 평가된다. SMR은 대형 원전 대비 소규모이면서도 높은 효율성을 갖춘 차세대 원자로로, 미국과 국제 시장에서 주목받고 있다. 현대건설의 이번 프로젝트 착수는 한국 기업의 첨단 원자로 분야 진출 사례로, 향후 글로벌 SMR 시장 경쟁에서의 위치 강화를 의도하고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "현대건설",
-  "region": "US",
-  "source": "gokorea.kr",
-  "url": "https://www.gokorea.kr/news/articleView.html?idxno=872029",
-  "k": "현대건설 미국 smr 프로젝트 본격 착수 차세대 원자로 시장 공략 강화",
-  "ko": 1,
-  "id": "6a491795"
- },
- {
-  "date": "2026-07-14",
-  "title": "NuScale Power (NYSE:SMR) Trading Up 3.3% - Here's Why - MarketBeat",
-  "summary": "NuScale Power (NYSE:SMR) Trading Up 3.3% - Here's Why MarketBeat",
-  "summaryLong": "NuScale Power (NYSE:SMR) Trading Up 3.3% - Here's Why MarketBeat",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "NuScale",
-  "region": "",
-  "source": "marketbeat.com",
-  "url": "https://www.marketbeat.com/instant-alerts/nuscale-power-nysesmr-trading-up-33-heres-why-2026-07-14/",
-  "k": "nuscale power nyse smr trading up 3 3 here s why",
-  "id": "2ba3aba6"
- },
- {
   "date": "2026-07-13",
   "title": "홀텍(Holtec), 인도 SMR 사업 포함한 IPO 추진",
   "summary": "미국 핵심 기업 홀텍(Holtec)이 인도에서의 소형모듈원자로(SMR) 사업을 포함하여 기업공개(IPO)를 추진 중이다.",
@@ -854,37 +901,6 @@ window.SMR_NEWS = [
   "k": "us nuclear firm holtec s ipo plans could have an india smr footprint",
   "op": 1,
   "id": "698f1008"
- },
- {
-  "date": "2026-07-13",
-  "title": "소형모듈원자로(SMR), 연구개발 넘어 상용화로 지원 특별법 개정 추진",
-  "summary": "소형모듈원자로(SMR)의 상용화와 수출을 국가 차원에서 지원하는 특별법 개정안이 국회에 발의되었다.",
-  "summaryLong": "더불어민주당 허성무 의원이 '소형모듈원자로(SMR) 개발 촉진 및 지원에 관한 특별법' 개정안을 발의했다. 데이터센터 증가로 인한 전력 수요 급증에 대응하기 위해 소형모듈원자로(SMR)의 상용화와 글로벌 시장 진출을 지원하도록 법안을 개정하는 것을 목표로 하고 있다. 현행 법은 연구개발과 실증 중심이었으나, 개정안은 산업화와 수출 지원까지 확대하여 국내 소형모듈원자로(SMR) 산업 생태계를 강화하겠다는 취지다. 현행법은 오는 9월 시행을 앞두고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "에너지신문 - 전체기사",
-  "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=226754",
-  "k": "smr 연구개발 넘어 상용화로 지원 특별법 개정 추진",
-  "ko": 1,
-  "id": "d3c263d3"
- },
- {
-  "date": "2026-07-13",
-  "title": "경남, 'SMR 진흥특구' 지정 추진…미래 원전산업 거점화",
-  "summary": "경남도가 소형모듈원자로(SMR) 진흥특구 지정을 추진 중인 것으로 보도됐다.",
-  "summaryLong": "경남도가 소형모듈원자로(SMR)를 중심으로 한 '진흥특구' 지정을 추진하는 것으로 알려졌다. 이는 경남 지역을 미래 원전산업의 거점으로 육성하기 위한 지역 정책 차원의 노력으로 평가된다. 구체적 특구 조성 일정, 규모, 지원 내용 등의 세부사항은 제시되지 않았으며, 특구 지정의 확실성도 불명확한 상태이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "news.nate.com",
-  "url": "https://news.nate.com/view/20260713n11020",
-  "k": "미래 원전 둥지 튼다 경남 smr 진흥특구 날개 달까",
-  "ko": 1,
-  "op": 1,
-  "id": "88aef8cc"
  },
  {
   "date": "2026-07-13",
@@ -1229,20 +1245,6 @@ window.SMR_NEWS = [
   "id": "807c56a1"
  },
  {
-  "date": "2026-06-15",
-  "title": "Natura Resources, 신생 핵연료 기업 QNI와 고농축저농축우라늄(HALEU) 공급계약 체결",
-  "summary": "용융염로(MSR) 개발사 Natura Resources가 신생 핵연료 기업 Quadrant Nuclear Industries(QNI)와 고농축저농축우라늄(HALEU) 공급계약을 체결했다.",
-  "summaryLong": "용융염로(MSR) 개발사 Natura Resources가 미국 뉴욕 소재의 신생 기업 Quadrant Nuclear Industries(QNI)와 고농축저농축우라늄(HALEU, High-Assay Low-Enriched Uranium) 공급을 위한 정식 계약을 체결했다. Natura의 상용 원자로 시스템이 필요로 하는 핵연료를 장기 안정적으로 확보하는 것을 목표로 한다. 이는 첨단 원자로와 신규 핵연료 공급망이 제휴를 통해 상용화 생태계를 구축하는 중요한 사례이다.",
-  "cat": "계약",
-  "type": "MSR",
-  "dev": "Natura Resources",
-  "region": "US",
-  "source": "ANS Newswire",
-  "url": "https://www.ans.org/news/2026-06-15/article-8120/natura-agrees-to-haleu-offtake-from-nuclear-startup-qni/",
-  "k": "natura agrees to haleu offtake from nuclear start up qni",
-  "id": "a8222dd8"
- },
- {
   "date": "2026-06-12",
   "title": "카이로스 파워(Kairos Power), 테네시주 오크릿지(Oak Ridge)에 원자로 시연 부지 착공",
   "summary": "카이로스 파워가 테네시주 오크릿지의 원자로 시연 부지에서 새로운 건설 접근법으로 착공했다.",
@@ -1311,5 +1313,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-16 15:01 KST";
-window.SMR_TOTAL = 1319;
+window.SMR_UPDATED = "2026-07-16 15:29 KST";
+window.SMR_TOTAL = 1325;
