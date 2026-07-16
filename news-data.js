@@ -248,6 +248,95 @@ window.SMR_NEWS = [
     "id": "714943fe"
   },
   {
+    "date": "2026-07-16",
+    "title": "한국의 용융염(MSR) 추진 핵동력 컨테이너선 설계, 미국 승인 획득",
+    "summary": "한국이 개발한 용융염(MSR) 원자로 추진 컨테이너선 설계가 미국 해양 당국 승인을 획득했다.",
+    "summaryLong": "한국이 용융염원자로(MSR) 기술을 적용한 핵동력 컨테이너선 설계안이 미국 해운 규제 당국으로부터 기본 승인을 취득했다. 이는 MSR 기반 차세대 해양 추진 기술의 실용화 가능성을 입증하는 국제 수준의 인허가 성과다. 한국의 첨단 핵동력 기술이 국제 해운 표준 인증 과정을 통과함으로써, 향후 프로토타입 건조와 상용화로 나아갈 수 있는 규제 기반이 마련된 것이다.",
+    "cat": "기술",
+    "type": "MSR",
+    "dev": "",
+    "region": "KR",
+    "source": "koreatimes.co.kr",
+    "url": "https://www.koreatimes.co.kr/business/tech-science/20260716/koreas-molten-salt-nuclear-powered-container-ship-design-wins-us-approval",
+    "k": "korea s molten salt nuclear powered container ship design wins us approval",
+    "id": "498fc7e6"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "SMR 사전검토 11월 시행, 기업 3곳 신청 의향",
+    "summary": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 사전검토를 11월부터 시행하며, 국내외 기업 3곳이 신청 의향을 보였다.",
+    "summaryLong": "원자력안전위원회가 소형모듈원자로(SMR)에 대한 규제 사전검토를 11월부터 본격적으로 시행한다. 이는 기업들이 설계 초기 단계에서 규제 요건을 미리 파악하고 인허가 절차를 준비할 수 있도록 하는 제도다. 국내외 3개사가 사전검토 신청 의향을 밝혔으며, 이는 메가프로젝트로 지정된 정부 정책에 힘입어 SMR 개발 시계가 빨라지고 있음을 보여준다. 원안위는 2030년까지 SMR에 대한 안전 규제 및 인허가 체계를 완성하겠다는 목표를 제시했다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "m.science.ytn.co.kr",
+    "url": "https://m.science.ytn.co.kr/program/view_today.php?s_mcd=0082&key=202607161601029945",
+    "k": "smr 사전검토 11월 시행 기업 3곳 신청 의향",
+    "ko": 1,
+    "id": "870c4f0b"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "메가프로젝트 속 SMR 개발 가속, 원안위 2030년까지 규제 구축",
+    "summary": "정부의 메가프로젝트에 포함된 소형모듈원자로(SMR) 개발이 가속화되고 있으며, 원자력안전위원회는 2030년까지 안전 규제 체계를 완성하기로 했다.",
+    "summaryLong": "정부가 지정한 3대 메가프로젝트에 소형모듈원자로(SMR) 개발이 포함되면서 SMR 개발 일정이 빨라지고 있다. 원자력안전위원회는 이에 대응하여 2030년까지 SMR에 대한 포괄적인 안전 규제 체계를 구축하겠다는 방침을 밝혔다. 이는 메가프로젝트의 추진 일정에 발맞춰 규제 준비를 선제적으로 진행하겠다는 정부 정책의 의지를 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "khan.co.kr",
+    "url": "https://www.khan.co.kr/article/202607162030035",
+    "k": "메가프로젝트에 smr 개발 가속 원안위 2030년까지 안전 규제 구축",
+    "ko": 1,
+    "id": "4a696e13"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "원안위, 차세대 원자로 규제 체계 마련 가속…SMR 기업 참여 확대",
+    "summary": "원자력안전위원회(원안위)가 SMR의 규제 체계 마련을 가속화하고 있으며, SMR 개발 기업들의 참여가 확대되고 있다.",
+    "summaryLong": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 규제 체계 수립을 추진하면서 SMR 기업들의 규제 프로세스 참여가 확대되고 있다. 차세대 원자로에 대한 규제 기준과 인허가 절차를 정비하는 과정에서 산업계의 의견 수렴이 활발해지고 있으며, 이는 SMR 상용화 및 인허가 신청 절차의 투명성 확보를 목표로 하고 있다. 한국의 SMR 정책이 본격화되는 단계를 반영하는 움직임으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "cwn.kr",
+    "url": "https://www.cwn.kr/news/articleView.html?idxno=50630",
+    "k": "원안위 차세대 원자로 규제 체계 마련 속도 smr 기업 참여 확대",
+    "ko": 1,
+    "id": "23add48b"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "한국해양과학기술원(KRISO) 개발 SMR 컨선 설계, AIP 획득",
+    "summary": "한국해양과학기술원(KRISO)이 개발한 소형모듈원자로 추진 컨테이너선 설계가 미국선급협회(ABS)의 기본승인(AIP)을 획득했다.",
+    "summaryLong": "한국해양과학기술원(KRISO)이 소형모듈원자로(SMR)를 추진 동력으로 하는 컨테이너선의 개념설계가 국제 선급협회인 미국선급협회(ABS)로부터 기본승인(AIP, Approval In Principle)을 획득했다. 이는 SMR 추진 선박의 국제 기술 기준 부합성을 인증하는 첫 단계로, 향후 상세설계 및 건조 단계로 나아가기 위한 중요한 이정표가 되었다. 한국의 전략 프로젝트로 추진 중인 이 사업은 해양산업과 원자력 기술을 결합한 혁신적 시도로 의의가 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "KRISO",
+    "region": "KR",
+    "source": "maritimepress.co.kr",
+    "url": "http://www.maritimepress.co.kr/news/articleView.html?idxno=332184",
+    "k": "kriso 개발 smr 컨선 설계 aip 획득",
+    "ko": 1,
+    "id": "00a24f94"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "원자력안전위원회, 소형모듈원자로 규제 법안 조속 마련 추진",
+    "summary": "원자력안전위원회(NSSC)가 소형모듈원자로(SMR) 관련 규제 법안을 조속히 마련하겠다고 밝혔다.",
+    "summaryLong": "원자력안전위원회가 소형모듈원자로(SMR) 산업 발전을 지원하기 위해 관련 규제 법안을 조속히 마련할 계획을 발표했다. 현재 SMR 기술 개발이 진행 중인 상황에서 규제 체계를 정비함으로써 인허가 절차를 명확히 하고 산업 진출 장벽을 낮추려는 정책적 움직임이다. 이는 정부의 SMR 상용화 지원 정책의 일환으로 평가되며, 향후 국내 SMR 개발사들의 인허가 신청 및 승인 절차에 영향을 미칠 것으로 예상된다.",
+    "cat": "정책",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "news.nate.com",
+    "url": "https://news.nate.com/view/20260716n16304?mid=n1101",
+    "k": "원안위 소형모듈원자로 관련 규제 법안 조속히 마련",
+    "ko": 1,
+    "id": "b47bb6d4"
+  },
+  {
     "date": "2026-07-15",
     "title": "'부산형 SMR 상용화'에 정부 연구개발 지원 나선다",
     "summary": "정부가 부산형 SMR의 상용화를 위한 연구개발 지원을 시작한다.",
@@ -580,6 +669,20 @@ window.SMR_NEWS = [
     "url": "https://informat.ro/en/current-affairs/nuclearelectrica-will-not-seek-new-smr-technologies-after-the-shareholders-vote-130618",
     "k": "the ministry of energy rejects the reevaluation of the small reactor project and confirms the continuation of the investment at doice ti with nuscale",
     "id": "33cc24bd"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "한국, 미국·일본과의 협약 체결 후 글로벌 SMR 시장 진출 목표",
+    "summary": "한국이 미국(US), 일본(JP)과 소형모듈원자로(SMR) 분야 협약을 체결하고 글로벌 시장 진출을 추진한다.",
+    "summaryLong": "한국이 미국(US)과 일본(JP)과의 협약 체결을 통해 소형모듈원자로(SMR) 글로벌 시장 진출을 적극 추진하고 있다. 한국·미국·일본 간 다자 협력 체계 구축으로 SMR 기술 개발, 인증, 수출 협력의 기반을 마련하는 정책적 성과다. 한국의 SMR 기술 경쟁력을 국제 무대에서 본격화하려는 정부 차원의 전략적 파트너십으로, 향후 기술 표준화, 인허가 상호 인정, 국제 공동 사업 등으로 확대될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "koreaherald.com",
+    "url": "https://www.koreaherald.com/article/10810008",
+    "k": "korea eyes slice of global smr market after pact with us japan",
+    "id": "6ea306f8"
   },
   {
     "date": "2026-07-14",
@@ -19315,4 +19418,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-17 07:32 KST";
+window.SMR_UPDATED = "2026-07-17 08:07 KST";
