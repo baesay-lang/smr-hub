@@ -8,6 +8,67 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-07-16",
+    "title": "원자력안전위원회, SMR 관련 법 개정 속도 추진",
+    "summary": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 개발 가속화에 맞춰 SMR 관련 법 개정을 신속히 추진하겠다고 밝혔다.",
+    "summaryLong": "원자력안전위원회가 정부의 'SMR 메가프로젝트' 추진에 맞춰 소형모듈원자로 관련 법 개정을 속도 있게 진행하겠다고 발표했다. 이는 SMR 건설 및 인허가 절차를 보다 신속하게 처리하기 위한 규제 개선 움직임이다. 원안위의 법 개정 추진은 국내 SMR 개발사들의 규제 선행 불확실성을 낮추고 사업 추진을 가속화하는 데 의미가 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "hani.co.kr",
+    "url": "https://www.hani.co.kr/arti/society/environment/1268544.html",
+    "k": "속도전 메가프로젝트 맞춰 원안위도 smr법 개정 속도",
+    "ko": 1,
+    "id": "beee0220"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "원안위 \"SMR 사전검토 신청 의향 기업 3곳\"",
+    "summary": "원자력안전위원회가 설계 사전검토(Pre-review) 신청을 준비 중인 SMR 개발 기업이 3곳이라고 밝혔다.",
+    "summaryLong": "원자력안전위원회는 소형모듈원자로(SMR) 설계에 대한 사전검토(Pre-review) 신청 의향을 보이는 기업이 3곳이라고 발표했다. 이는 국내 SMR 개발이 본격적인 인허가 단계로 진입하고 있음을 시사한다. 사전검토는 정식 인허가 신청 전에 설계 안전성을 미리 검토받는 절차로, 향후 인허가 기간을 단축할 수 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "yna.co.kr",
+    "url": "https://www.yna.co.kr/view/AKR20260716023300017",
+    "k": "smr 건설 빨라지나 원안위 사전검토 신청 의향 기업 3곳",
+    "ko": 1,
+    "id": "105409cd"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "SMR 개발 가속화에 따른 규제 혁신 움직임",
+    "summary": "소형모듈원자로 개발 가속화에 따라 규제 체계 혁신이 진행 중이다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발이 가속화됨에 따라 정부와 규제기관이 규제 혁신을 추진하고 있다. 이는 기존 대형원전 중심의 규제 체계를 SMR의 특성에 맞게 개선하려는 움직임이다. 규제 혁신은 SMR의 안전성을 보장하면서도 개발 기간을 단축하는 데 중요한 역할을 할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "2news.co.kr",
+    "url": "https://www.2news.co.kr/news/articleView.html?idxno=16233",
+    "k": "소형모듈원자로 smr 개발 가속화에 따른 규제 혁신 움직임",
+    "ko": 1,
+    "id": "7b9b24d7"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "한국의 차세대 원자로 SMR 선박, 무탄소 선박시장 선도",
+    "summary": "한국이 소형모듈원자로(SMR) 기술을 선박에 적용하여 차세대 무탄소 선박시장을 선도할 계획이다.",
+    "summaryLong": "한국이 소형모듈원자로(SMR) 기술을 차세대 선박에 적용하는 프로젝트를 추진 중이다. 이는 해운산업의 탈탄소화 추세에 대응하면서 SMR의 새로운 응용 분야를 개척하려는 시도다. SMR 선박은 기존 화석연료 선박 대비 온실가스 배출을 대폭 감소시킬 수 있으며, 장항해거리와 운영효율성을 개선할 수 있다. 이를 통해 한국이 차세대 무탄소 선박시장에서 선도적 입지를 확보할 것으로 기대된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "biz.heraldcorp.com",
+    "url": "https://biz.heraldcorp.com/article/10810684",
+    "k": "차세대 원자로 smr 선박 차세대 무탄소 선박시장 선도",
+    "ko": 1,
+    "op": 1,
+    "id": "13fa53b4"
+  },
+  {
     "date": "2026-07-15",
     "title": "'부산형 SMR 상용화'에 정부 연구개발 지원 나선다",
     "summary": "정부가 부산형 SMR의 상용화를 위한 연구개발 지원을 시작한다.",
@@ -255,6 +316,63 @@ window.SMR_NEWS = [
     "k": "경수로에서 고속로까지 현대건설 4세대 smr 선점",
     "ko": 1,
     "id": "a020b3fd"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "홀텍(Holtec), IPO 신청서에서 소형모듈원자로에 주력 선언",
+    "summary": "홀텍이 기업공개(IPO) 신청서에서 소형모듈원자로(SMR) 사업을 핵심 성장 동력으로 제시했다.",
+    "summaryLong": "홀텍(Holtec)이 기업공개(IPO) 신청 과정에서 소형모듈원자로(SMR) 분야에 대한 강한 사업 의지를 드러냈다. 신청서는 홀텍의 SMR 포트폴리오와 미래 성장 전략을 상세히 담고 있으며, 이는 차세대 원전 기술 시장에서의 입지 강화를 목표로 한다.",
+    "cat": "투자",
+    "type": "PWR",
+    "dev": "홀텍",
+    "region": "US",
+    "source": "canarymedia.com",
+    "url": "https://www.canarymedia.com/articles/nuclear/holtec-ipo-small-modular-reactors",
+    "k": "holtec bets big on small nuclear reactors in its ipo filing",
+    "id": "0794ebb9"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "X-Energy drops 48% as InvestingPro Fair Value flagged overvaluation By Investing.com - Investing.com",
+    "summary": "X-Energy drops 48% as InvestingPro Fair Value flagged overvaluation By Investing.com Investing.com",
+    "summaryLong": "X-Energy drops 48% as InvestingPro Fair Value flagged overvaluation By Investing.com Investing.com",
+    "cat": "투자",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "",
+    "source": "investing.com",
+    "url": "https://www.investing.com/news/investment-ideas/xenergy-drops-48-as-investingpro-fair-value-flagged-overvaluation-93CH-4792876",
+    "k": "x energy drops 48 as investingpro fair value flagged overvaluation by investing com",
+    "id": "22339b6f"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "Tracking Cathie Wood: Heavy Investment in Circle & X-Energy, Trimming Genomics Leaders - Moomoo",
+    "summary": "Tracking Cathie Wood: Heavy Investment in Circle & X-Energy, Trimming Genomics Leaders Moomoo",
+    "summaryLong": "Tracking Cathie Wood: Heavy Investment in Circle & X-Energy, Trimming Genomics Leaders Moomoo",
+    "cat": "투자",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "",
+    "source": "moomoo.com",
+    "url": "https://www.moomoo.com/community/feed/tracking-cathie-wood-heavy-investment-in-circle-x-energy-trimming-116923217674246",
+    "k": "tracking cathie wood heavy investment in circle x energy trimming genomics leaders",
+    "id": "4bdb10e9"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "SK·베트남 VKIST, 차세대 SMR 기술 협력 본격화",
+    "summary": "SK와 베트남 국립과학기술대학(VKIST)이 차세대 소형모듈원자로(SMR) 기술 협력을 본격적으로 추진한다.",
+    "summaryLong": "한국의 SK와 베트남 국립과학기술대학(Vietnam Korea University of Science and Technology, VKIST)이 차세대 소형모듈원자로(SMR) 기술 협력을 본격화한다고 발표했다. 양 기관의 협력은 SMR 개발 및 상용화 전략의 일환으로, 국제 협력 네트워크 확대를 의미한다. 이는 국내 SMR 개발사의 국제 파트너십 확보 추진 현황을 보여주는 소식이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "SK",
+    "region": "KR",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/Global-Biz/2026/07/2026071606464779892bd56fbc3c_1",
+    "k": "sk 베트남 vkist 차세대 smr 기술 협력 본격화",
+    "ko": 1,
+    "id": "a25ffd3d"
   },
   {
     "date": "2026-07-14",
@@ -714,6 +832,20 @@ window.SMR_NEWS = [
     "k": "현대건설 미국 smr 프로젝트 본격 착수 차세대 원자로 시장 공략 강화",
     "ko": 1,
     "id": "6a491795"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "NuScale Power (NYSE:SMR) Trading Up 3.3% - Here's Why - MarketBeat",
+    "summary": "NuScale Power (NYSE:SMR) Trading Up 3.3% - Here's Why MarketBeat",
+    "summaryLong": "NuScale Power (NYSE:SMR) Trading Up 3.3% - Here's Why MarketBeat",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "",
+    "source": "marketbeat.com",
+    "url": "https://www.marketbeat.com/instant-alerts/nuscale-power-nysesmr-trading-up-33-heres-why-2026-07-14/",
+    "k": "nuscale power nyse smr trading up 3 3 here s why",
+    "id": "2ba3aba6"
   },
   {
     "date": "2026-07-13",
@@ -1453,6 +1585,48 @@ window.SMR_NEWS = [
     "k": "smr로 뭉친 한미일 중러에 대항한다 원전 공급망 진영화",
     "ko": 1,
     "id": "bd075691"
+  },
+  {
+    "date": "2026-07-13",
+    "title": "Can X-Energy's Capital-Light Model Drive Long-Term Growth? - Yahoo Finance",
+    "summary": "Can X-Energy's Capital-Light Model Drive Long-Term Growth? Yahoo Finance",
+    "summaryLong": "Can X-Energy's Capital-Light Model Drive Long-Term Growth? Yahoo Finance",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/x-energys-capital-light-model-163200663.html",
+    "k": "can x energy s capital light model drive long term growth",
+    "id": "561284b8"
+  },
+  {
+    "date": "2026-07-13",
+    "title": "SpaceX Just Did Something NuScale Power Investors Should Be Watching - Yahoo Finance",
+    "summary": "SpaceX Just Did Something NuScale Power Investors Should Be Watching Yahoo Finance",
+    "summaryLong": "SpaceX Just Did Something NuScale Power Investors Should Be Watching Yahoo Finance",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/spacex-just-did-something-nuscale-205000479.html",
+    "k": "spacex just did something nuscale power investors should be watching",
+    "id": "e05f8028"
+  },
+  {
+    "date": "2026-07-13",
+    "title": "NuScale Power (NYSE:SMR) Sets New 12-Month Low - Here's What Happened - MarketBeat",
+    "summary": "NuScale Power (NYSE:SMR) Sets New 12-Month Low - Here's What Happened MarketBeat",
+    "summaryLong": "NuScale Power (NYSE:SMR) Sets New 12-Month Low - Here's What Happened MarketBeat",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "",
+    "source": "marketbeat.com",
+    "url": "https://www.marketbeat.com/instant-alerts/nuscale-power-nysesmr-sets-new-12-month-low-heres-what-happened-2026-07-13/",
+    "k": "nuscale power nyse smr sets new 12 month low here s what happened",
+    "id": "e1db98b7"
   },
   {
     "date": "2026-07-12",
@@ -2792,6 +2966,20 @@ window.SMR_NEWS = [
     "id": "58857499"
   },
   {
+    "date": "2026-07-08",
+    "title": "Could Buying NuScale Power Today Set You Up for Life? - The Motley Fool",
+    "summary": "Could Buying NuScale Power Today Set You Up for Life? The Motley Fool",
+    "summaryLong": "Could Buying NuScale Power Today Set You Up for Life? The Motley Fool",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/07/08/could-buying-nuscale-today-set-you-up-for-life/",
+    "k": "could buying nuscale power today set you up for life",
+    "id": "3212db20"
+  },
+  {
     "date": "2026-07-07",
     "title": "DL이앤씨, 엑스에너지 Xe-100 표준화 설계 수주",
     "summary": "DL이앤씨가 국내 건설사로는 처음으로 미국 엑스에너지(X-energy)의 Xe-100 소형모듈원자로 표준화 설계를 수주했다.",
@@ -3258,6 +3446,20 @@ window.SMR_NEWS = [
     "k": "한미일 외교장관 인도 태평양 smr 배치 가속화 협력각서 서명",
     "ko": 1,
     "id": "ff49d748"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "Millionaire Maker or Market Hype? The Honest Truth About NuScale Power. - The Motley Fool",
+    "summary": "Millionaire Maker or Market Hype? The Honest Truth About NuScale Power. The Motley Fool",
+    "summaryLong": "Millionaire Maker or Market Hype? The Honest Truth About NuScale Power. The Motley Fool",
+    "cat": "투자",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/07/07/millionaire-maker-or-market-hype-the-honest-truth/",
+    "k": "millionaire maker or market hype the honest truth about nuscale power",
+    "id": "c067efe7"
   },
   {
     "date": "2026-07-06",
@@ -18862,4 +19064,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-16 08:44 KST";
+window.SMR_UPDATED = "2026-07-16 15:01 KST";

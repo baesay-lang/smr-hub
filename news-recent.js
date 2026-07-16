@@ -1,6 +1,67 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-07-16",
+  "title": "원자력안전위원회, SMR 관련 법 개정 속도 추진",
+  "summary": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 개발 가속화에 맞춰 SMR 관련 법 개정을 신속히 추진하겠다고 밝혔다.",
+  "summaryLong": "원자력안전위원회가 정부의 'SMR 메가프로젝트' 추진에 맞춰 소형모듈원자로 관련 법 개정을 속도 있게 진행하겠다고 발표했다. 이는 SMR 건설 및 인허가 절차를 보다 신속하게 처리하기 위한 규제 개선 움직임이다. 원안위의 법 개정 추진은 국내 SMR 개발사들의 규제 선행 불확실성을 낮추고 사업 추진을 가속화하는 데 의미가 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "hani.co.kr",
+  "url": "https://www.hani.co.kr/arti/society/environment/1268544.html",
+  "k": "속도전 메가프로젝트 맞춰 원안위도 smr법 개정 속도",
+  "ko": 1,
+  "id": "beee0220"
+ },
+ {
+  "date": "2026-07-16",
+  "title": "원안위 \"SMR 사전검토 신청 의향 기업 3곳\"",
+  "summary": "원자력안전위원회가 설계 사전검토(Pre-review) 신청을 준비 중인 SMR 개발 기업이 3곳이라고 밝혔다.",
+  "summaryLong": "원자력안전위원회는 소형모듈원자로(SMR) 설계에 대한 사전검토(Pre-review) 신청 의향을 보이는 기업이 3곳이라고 발표했다. 이는 국내 SMR 개발이 본격적인 인허가 단계로 진입하고 있음을 시사한다. 사전검토는 정식 인허가 신청 전에 설계 안전성을 미리 검토받는 절차로, 향후 인허가 기간을 단축할 수 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "yna.co.kr",
+  "url": "https://www.yna.co.kr/view/AKR20260716023300017",
+  "k": "smr 건설 빨라지나 원안위 사전검토 신청 의향 기업 3곳",
+  "ko": 1,
+  "id": "105409cd"
+ },
+ {
+  "date": "2026-07-16",
+  "title": "SMR 개발 가속화에 따른 규제 혁신 움직임",
+  "summary": "소형모듈원자로 개발 가속화에 따라 규제 체계 혁신이 진행 중이다.",
+  "summaryLong": "소형모듈원자로(SMR) 개발이 가속화됨에 따라 정부와 규제기관이 규제 혁신을 추진하고 있다. 이는 기존 대형원전 중심의 규제 체계를 SMR의 특성에 맞게 개선하려는 움직임이다. 규제 혁신은 SMR의 안전성을 보장하면서도 개발 기간을 단축하는 데 중요한 역할을 할 것으로 예상된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "2news.co.kr",
+  "url": "https://www.2news.co.kr/news/articleView.html?idxno=16233",
+  "k": "소형모듈원자로 smr 개발 가속화에 따른 규제 혁신 움직임",
+  "ko": 1,
+  "id": "7b9b24d7"
+ },
+ {
+  "date": "2026-07-16",
+  "title": "한국의 차세대 원자로 SMR 선박, 무탄소 선박시장 선도",
+  "summary": "한국이 소형모듈원자로(SMR) 기술을 선박에 적용하여 차세대 무탄소 선박시장을 선도할 계획이다.",
+  "summaryLong": "한국이 소형모듈원자로(SMR) 기술을 차세대 선박에 적용하는 프로젝트를 추진 중이다. 이는 해운산업의 탈탄소화 추세에 대응하면서 SMR의 새로운 응용 분야를 개척하려는 시도다. SMR 선박은 기존 화석연료 선박 대비 온실가스 배출을 대폭 감소시킬 수 있으며, 장항해거리와 운영효율성을 개선할 수 있다. 이를 통해 한국이 차세대 무탄소 선박시장에서 선도적 입지를 확보할 것으로 기대된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "biz.heraldcorp.com",
+  "url": "https://biz.heraldcorp.com/article/10810684",
+  "k": "차세대 원자로 smr 선박 차세대 무탄소 선박시장 선도",
+  "ko": 1,
+  "op": 1,
+  "id": "13fa53b4"
+ },
+ {
   "date": "2026-07-15",
   "title": "'부산형 SMR 상용화'에 정부 연구개발 지원 나선다",
   "summary": "정부가 부산형 SMR의 상용화를 위한 연구개발 지원을 시작한다.",
@@ -248,6 +309,63 @@ window.SMR_NEWS = [
   "k": "경수로에서 고속로까지 현대건설 4세대 smr 선점",
   "ko": 1,
   "id": "a020b3fd"
+ },
+ {
+  "date": "2026-07-15",
+  "title": "홀텍(Holtec), IPO 신청서에서 소형모듈원자로에 주력 선언",
+  "summary": "홀텍이 기업공개(IPO) 신청서에서 소형모듈원자로(SMR) 사업을 핵심 성장 동력으로 제시했다.",
+  "summaryLong": "홀텍(Holtec)이 기업공개(IPO) 신청 과정에서 소형모듈원자로(SMR) 분야에 대한 강한 사업 의지를 드러냈다. 신청서는 홀텍의 SMR 포트폴리오와 미래 성장 전략을 상세히 담고 있으며, 이는 차세대 원전 기술 시장에서의 입지 강화를 목표로 한다.",
+  "cat": "투자",
+  "type": "PWR",
+  "dev": "홀텍",
+  "region": "US",
+  "source": "canarymedia.com",
+  "url": "https://www.canarymedia.com/articles/nuclear/holtec-ipo-small-modular-reactors",
+  "k": "holtec bets big on small nuclear reactors in its ipo filing",
+  "id": "0794ebb9"
+ },
+ {
+  "date": "2026-07-15",
+  "title": "X-Energy drops 48% as InvestingPro Fair Value flagged overvaluation By Investing.com - Investing.com",
+  "summary": "X-Energy drops 48% as InvestingPro Fair Value flagged overvaluation By Investing.com Investing.com",
+  "summaryLong": "X-Energy drops 48% as InvestingPro Fair Value flagged overvaluation By Investing.com Investing.com",
+  "cat": "투자",
+  "type": "HTGR",
+  "dev": "X-energy",
+  "region": "",
+  "source": "investing.com",
+  "url": "https://www.investing.com/news/investment-ideas/xenergy-drops-48-as-investingpro-fair-value-flagged-overvaluation-93CH-4792876",
+  "k": "x energy drops 48 as investingpro fair value flagged overvaluation by investing com",
+  "id": "22339b6f"
+ },
+ {
+  "date": "2026-07-15",
+  "title": "Tracking Cathie Wood: Heavy Investment in Circle & X-Energy, Trimming Genomics Leaders - Moomoo",
+  "summary": "Tracking Cathie Wood: Heavy Investment in Circle & X-Energy, Trimming Genomics Leaders Moomoo",
+  "summaryLong": "Tracking Cathie Wood: Heavy Investment in Circle & X-Energy, Trimming Genomics Leaders Moomoo",
+  "cat": "투자",
+  "type": "HTGR",
+  "dev": "X-energy",
+  "region": "",
+  "source": "moomoo.com",
+  "url": "https://www.moomoo.com/community/feed/tracking-cathie-wood-heavy-investment-in-circle-x-energy-trimming-116923217674246",
+  "k": "tracking cathie wood heavy investment in circle x energy trimming genomics leaders",
+  "id": "4bdb10e9"
+ },
+ {
+  "date": "2026-07-15",
+  "title": "SK·베트남 VKIST, 차세대 SMR 기술 협력 본격화",
+  "summary": "SK와 베트남 국립과학기술대학(VKIST)이 차세대 소형모듈원자로(SMR) 기술 협력을 본격적으로 추진한다.",
+  "summaryLong": "한국의 SK와 베트남 국립과학기술대학(Vietnam Korea University of Science and Technology, VKIST)이 차세대 소형모듈원자로(SMR) 기술 협력을 본격화한다고 발표했다. 양 기관의 협력은 SMR 개발 및 상용화 전략의 일환으로, 국제 협력 네트워크 확대를 의미한다. 이는 국내 SMR 개발사의 국제 파트너십 확보 추진 현황을 보여주는 소식이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "SK",
+  "region": "KR",
+  "source": "g-enews.com",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/07/2026071606464779892bd56fbc3c_1",
+  "k": "sk 베트남 vkist 차세대 smr 기술 협력 본격화",
+  "ko": 1,
+  "id": "a25ffd3d"
  },
  {
   "date": "2026-07-14",
@@ -709,6 +827,20 @@ window.SMR_NEWS = [
   "id": "6a491795"
  },
  {
+  "date": "2026-07-14",
+  "title": "NuScale Power (NYSE:SMR) Trading Up 3.3% - Here's Why - MarketBeat",
+  "summary": "NuScale Power (NYSE:SMR) Trading Up 3.3% - Here's Why MarketBeat",
+  "summaryLong": "NuScale Power (NYSE:SMR) Trading Up 3.3% - Here's Why MarketBeat",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "NuScale",
+  "region": "",
+  "source": "marketbeat.com",
+  "url": "https://www.marketbeat.com/instant-alerts/nuscale-power-nysesmr-trading-up-33-heres-why-2026-07-14/",
+  "k": "nuscale power nyse smr trading up 3 3 here s why",
+  "id": "2ba3aba6"
+ },
+ {
   "date": "2026-07-13",
   "title": "홀텍(Holtec), 인도 SMR 사업 포함한 IPO 추진",
   "summary": "미국 핵심 기업 홀텍(Holtec)이 인도에서의 소형모듈원자로(SMR) 사업을 포함하여 기업공개(IPO)를 추진 중이다.",
@@ -768,142 +900,6 @@ window.SMR_NEWS = [
   "k": "terrapower advances smr commercialization with u s approval",
   "ko": 1,
   "id": "cd3706af"
- },
- {
-  "date": "2026-07-13",
-  "title": "김성환 기후부 장관 \"전력 수요 폭발 대응…신규 원전·SMR 추가 건설 공식 검토\"",
-  "summary": "한국 기후부 장관이 전력 수요 증가에 대응하기 위해 신규 원전과 소형모듈원자로(SMR) 추가 건설을 공식 검토 중임을 밝혔다.",
-  "summaryLong": "김성환 한국 기후부 장관이 급증하는 전력 수요 대응을 위해 신규 대형 원전과 소형모듈원자로(SMR) 추가 건설을 정부 차원에서 공식적으로 검토 중이라고 발표했다. 이는 한국 정부의 SMR 정책 의지를 보여주는 정책 신호로, 향후 SMR 사업 추진 기반이 될 수 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "m-i.kr",
-  "url": "https://www.m-i.kr/news/articleView.html?idxno=1391030",
-  "k": "김성환 기후부 장관 전력 수요 폭발 대응 신규 원전 smr 추가 건설 공식 검토",
-  "ko": 1,
-  "id": "84bdfc1b"
- },
- {
-  "date": "2026-07-13",
-  "title": "박상웅 의원, AI 시대 \"차세대 원전\" 상용화 법안 발의",
-  "summary": "국회 의원이 인공지능(AI) 시대의 에너지 수요에 대응하기 위해 차세대 원전(SMR·첨단로) 상용화를 지원하는 법안을 발의했다.",
-  "summaryLong": "박상웅 국회 의원이 인공지능(AI) 시대의 급증하는 전력 수요를 충족하기 위해 소형모듈원자로(SMR) 및 차세대 고급 원자로의 상용화를 촉진하는 법안을 국회에 발의했다. \"실험실 밖으로\"라는 기치 하에 기술 개발 단계를 넘어 실제 상용화 지원을 목표로 하는 정책 입법으로, SMR·첨단로 사업 확대를 위한 제도적 기반 마련을 의도하고 있다.",
-  "cat": "정책",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5001",
-  "k": "실험실 밖으로 박상웅 의원 ai 시대 핵심 차세대 원전 상용화 법안 발의",
-  "ko": 1,
-  "id": "f8e796d0"
- },
- {
-  "date": "2026-07-13",
-  "title": "두산에너빌리티 SMR 매출 2031년 6조원 목표, 내년부터 본격화",
-  "summary": "두산에너빌리티가 SMR 사업으로 2031년 6조원의 매출을 목표로 하고 있으며, 내년부터 본격적인 매출을 시작할 계획이다.",
-  "summaryLong": "두산에너빌리티가 소형모듈원자로(SMR) 사업의 매출 목표를 2031년 6조원으로 설정했다고 발표했다. 회사는 2025년부터 SMR 관련 매출이 본격적으로 발생할 것으로 전망하고 있다. 이는 두산에너빌리티의 SMR 사업이 상용화 단계로 진입하고 있음을 시사한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "두산에너빌리티",
-  "region": "KR",
-  "source": "fntimes.com",
-  "url": "https://www.fntimes.com/html/view.php?ud=202607131426542333fa6b69a559_18",
-  "k": "두산에너빌리티 smr 매출 2031년 6조 내년부터 매출 본격화",
-  "ko": 1,
-  "id": "5b308ccb"
- },
- {
-  "date": "2026-07-13",
-  "title": "호남 반도체 전력 부족 우려에 원전·SMR 추가 건설 검토",
-  "summary": "호남 지역 반도체 산업의 전력 부족 우려에 따라 정부가 원전과 SMR 추가 건설을 검토하고 있다.",
-  "summaryLong": "호남 지역의 반도체 산업 확대에 따른 전력 수급 부족 문제를 해결하기 위해 정부가 원전과 소형모듈원자로(SMR) 추가 건설을 검토하기 시작했다. 이는 탈원전 정책 속도전과 에너지 수급 현실 사이의 긴장 속에서 이루어지고 있다. SMR은 호남 지역의 에너지 솔루션으로서 주목받고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "v.daum.net",
-  "url": "https://v.daum.net/v/20260713162209478",
-  "k": "호남 반도체 전력 부족 우려에 원전 smr 추가 건설 검토 탈원전 속도전",
-  "ko": 1,
-  "op": 1,
-  "id": "88fab9b6"
- },
- {
-  "date": "2026-07-13",
-  "title": "한수원 iSMR 및 원격로봇 등 미래 원전 안전기술 공개",
-  "summary": "한국수력원자력이 국내형 소형모듈원자로(iSMR)와 원격로봇 등 미래 원전 안전기술을 공개했다.",
-  "summaryLong": "한국수력원자력(한수원)이 국내형 소형모듈원자로(iSMR)와 원격로봇 기술 등 미래 원전의 안전성을 강화하기 위한 첨단 기술들을 공개했다. 이는 한수원의 iSMR 개발 현황과 차세대 원전 안전 기술 개발 진행 상황을 보여주는 것이다. 한수원은 이를 통해 국내 SMR 기술의 발전 수준을 대외적으로 입증하고 있다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "한수원",
-  "region": "KR",
-  "source": "inpnews.kr",
-  "url": "https://www.inpnews.kr/news/articleView.html?idxno=7328",
-  "k": "한수원 ismr 원격로봇 등 미래 원전 안전기술 공개",
-  "ko": 1,
-  "id": "36116e5d"
- },
- {
-  "date": "2026-07-13",
-  "title": "경남, 243개 원전기업 보유…SMR 산업화 추진",
-  "summary": "경남이 243개의 원전 관련 기업을 보유하고 있으며, SMR을 연구 단계에서 산업 단계로 전환하는 정책을 추진 중이다.",
-  "summaryLong": "경남도가 보유한 243개의 원전 관련 기업들을 기반으로 소형모듈원자로(SMR)를 순수 연구개발 영역에서 상용화·산업화 단계로 진전시키는 정책을 추진하고 있다. 경남이 국내 원전 산업의 중심지로서 SMR 생태계 확대에 주력하는 모습을 보여준다. 이는 정부의 SMR 산업화 방향과 궤를 같이하는 지역 차원의 응대 전략이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "sedaily.com",
-  "url": "https://www.sedaily.com/article/20067044",
-  "k": "원전기업 243개 품은 경남 smr 연구 서 산업 으로 판 커진다",
-  "ko": 1,
-  "id": "16ac33fa"
- },
- {
-  "date": "2026-07-13",
-  "title": "SMR 정책 '과기부 단독'에서 공동 추진… 공급망·금융지원 담은 특별법 개정 추진",
-  "summary": "정부가 소형모듈원자로(SMR) 개발 정책을 기후에너지환경부와 공동 추진 체계로 전환하고, 금융·세제 지원과 공급망 육성을 담은 특별법 개정을 추진 중이다.",
-  "summaryLong": "국회 산업통상자원중소벤처기업위원회 허성무 의원(더불어민주당, 경남 창원시성산구)이 소형모듈원자로(SMR) 개발 정책의 대폭적 개편 내용을 담은 '소형모듈원자로 개발 촉진 및 지원에 관한 특별법 일부개정법률안'을 국회에 제출했다. 현재 과학기술정보통신부 중심의 추진체계를 기후에너지환경부와의 공동 추진 체계로 개편하고, 연구개발 중심에서 산업화·수출 중심으로 정책 방향을 확대한다. 금융·세제 지원, 공급망 육성, 진흥특구 지정 근거 등을 새로 포함하여 SMR 산업 생태계를 본격적으로 육성하려는 법안이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "에너지데일리 - 전체기사",
-  "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=201360",
-  "k": "smr 정책 과기부 단독 에서 공동 추진 공급망 금융지원 담은 특별법 개정 추진",
-  "ko": 1,
-  "id": "16246de2"
- },
- {
-  "date": "2026-07-13",
-  "title": "원전 공급망 '진영화' 반영한 한미일 SMR 협력… 중러에 대항",
-  "summary": "한국, 미국, 일본의 소형모듈원자로(SMR) 협력이 원전 공급망의 진영화 현상을 반영하고 있으며, 중국·러시아에 대항하는 성격을 갖는다.",
-  "summaryLong": "한국, 미국, 일본이 추진 중인 소형모듈원자로(SMR) 협력은 국제 원자력 공급망에서 나타나는 진영화 현상을 반영한 것이라는 분석이 제시되고 있다. 이는 중국과 러시아의 원자력 기술 진출에 대항하기 위한 전략적 협력으로 평가되며, 한미일 삼국의 SMR 협력 강화는 민주주의 진영의 원자력 산업 경쟁력 확보와 공급망 선진화를 목표로 하고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "연합뉴스 최신기사",
-  "url": "https://www.yna.co.kr/view/AKR20260713131100504",
-  "k": "원전 공급망 진영화 반영한 한미일 smr 협력 중러에 대항",
-  "ko": 1,
-  "id": "121ad5bd"
- },
- {
-  "date": "2026-07-13",
-  "title": "현대건설 SMR 파트너 홀텍, 나스닥 IPO 계획",
-  "summary": "현대건설의 소형모듈원전(SMR) 파트너 기업인 홀텍(Holtec)이 나스닥(NASDAQ) 상장을 계획하고 있다.",
-  "summaryLong": "현대건설과 협력하고 있는 미국 SMR 기업 홀텍(Holtec)이 미국 나스닥(NASDAQ) 거래소에 신규공개상장(IPO)을 추진하고 있다. 이는 현대건설이 추진 중인 해외 소형모듈원전(SMR) 사업의 자금 조달과 기업 가치 확대를 의미하며, 글로벌 SMR 시장에서 한국 기업의 영향력 확대 신호로 해석된다.",
-  "cat": "투자",
-  "type": "PWR",
-  "dev": "Holtec",
-  "region": "US",
-  "source": "hankyung.com",
-  "url": "https://www.hankyung.com/article/202607132829i",
-  "k": "현대건설 smr 파트너 홀텍 나스닥 ipo 계획",
-  "ko": 1,
-  "id": "a913d76e"
  },
  {
   "date": "2026-07-12",
@@ -1020,6 +1016,20 @@ window.SMR_NEWS = [
   "id": "13b8ec6b"
  },
  {
+  "date": "2026-07-07",
+  "title": "Millionaire Maker or Market Hype? The Honest Truth About NuScale Power. - The Motley Fool",
+  "summary": "Millionaire Maker or Market Hype? The Honest Truth About NuScale Power. The Motley Fool",
+  "summaryLong": "Millionaire Maker or Market Hype? The Honest Truth About NuScale Power. The Motley Fool",
+  "cat": "투자",
+  "type": "PWR",
+  "dev": "NuScale",
+  "region": "",
+  "source": "fool.com",
+  "url": "https://www.fool.com/investing/2026/07/07/millionaire-maker-or-market-hype-the-honest-truth/",
+  "k": "millionaire maker or market hype the honest truth about nuscale power",
+  "id": "c067efe7"
+ },
+ {
   "date": "2026-07-05",
   "title": "뉴스케일(NuScale) 파라곤과 원자로 보호 계약 체결 후 소송 직면",
   "summary": "뉴스케일(NuScale)이 파라곤(Paragon)과 원자로 보호 계약을 체결했으나 소송에 직면하고 있다.",
@@ -1047,20 +1057,6 @@ window.SMR_NEWS = [
   "k": "i smr 기술개발사업단 싱가포르 에너지시장청과 협력",
   "ko": 1,
   "id": "43462ee1"
- },
- {
-  "date": "2026-07-01",
-  "title": "엑스에너지, 영국 센트리카와 6GW 원전 파트너십 GDA 신청",
-  "summary": "첨단원자로 개발사 엑스에너지(X-energy)가 영국(UK) 센트리카(Centrica)와의 6GW 파트너십을 위해 영국 범용설계심사(GDA) 신청을 진행했다.",
-  "summaryLong": "첨단원자로 개발사 엑스에너지(X-energy)는 2026년 6월 2일 영국(UK)의 범용설계심사(Generic Design Assessment, GDA) 신청서를 제출했다고 발표했다. 이는 영국 에너지 기업 센트리카(Centrica)와 진행 중인 6GW 규모의 원전 파트너십 사업과 관련된 것으로, 규제 승인 절차의 중요한 단계를 나타낸다.",
-  "cat": "인허가",
-  "type": "HTGR",
-  "dev": "X-energy",
-  "region": "UK",
-  "source": "POWER Magazine",
-  "url": "https://www.powermag.com/power-digest-july-2026/",
-  "k": "power digest july 2026",
-  "id": "21f7b82e"
  },
  {
   "date": "2026-07-01",
@@ -1177,20 +1173,6 @@ window.SMR_NEWS = [
   "id": "cfdd9ddc"
  },
  {
-  "date": "2026-06-19",
-  "title": "뉴스케일 파워, 패러곤(Paragon) SMR 계약 체결 후 주가 상승 후 거래 중단",
-  "summary": "뉴스케일 파워(NuScale Power)가 패러곤(Paragon) 소형모듈원자로 거래 체결 발표 후 주가가 올랐지만 준틴스데이(Juneteenth) 휴장으로 거래가 중단되었다.",
-  "summaryLong": "뉴스케일 파워(NuScale Power)가 소형모듈원자로(SMR) 관련 계약을 체결하면서 주가가 상승했으나, 미국의 준틴스데이(Juneteenth) 연방 휴일로 인해 시장 거래가 일시 중단되었다. 이 계약은 뉴스케일의 소형모듈원자로 사업 확대를 보여주는 신호로 평가되고 있다.",
-  "cat": "계약",
-  "type": "PWR",
-  "dev": "NuScale",
-  "region": "US",
-  "source": "ts2.tech",
-  "url": "https://ts2.tech/en/nuscale-power-halts-after-gains-on-paragon-smr-deal-juneteenth-pause/",
-  "k": "nuscale power halts after gains on paragon smr deal juneteenth pause",
-  "id": "ba36d440"
- },
- {
   "date": "2026-06-18",
   "title": "테라파워, 나트륨(Natrium) 원자로 영국 설계인증(GDA) 신청",
   "summary": "테라파워(TerraPower)가 나트륨 고속로 기술에 대한 영국 설계인증을 공식 시작함.",
@@ -1231,20 +1213,6 @@ window.SMR_NEWS = [
   "url": "https://www.ans.org/news/2026-06-18/article-8134/two-steps-forward-for-uk-advanced-nuclear/",
   "k": "two steps forward for u k advanced nuclear",
   "id": "98139f38"
- },
- {
-  "date": "2026-06-18",
-  "title": "엑스에너지(X-energy), 높은 현금 소소와 상장 후 밸류에이션 부담으로 주가 하락",
-  "summary": "엑스에너지(X-energy)가 IPO 이후 높은 현금 소소율과 밸류에이션 평가를 둘러싼 투자자 우려로 주가 하락을 기록했다.",
-  "summaryLong": "퀴버 퀀터티티브(Quiver Quantitative) 분석에 따르면 엑스에너지(X-energy)가 상장 후 주가 약세를 보이고 있다. 고온가스로(HTGR) 기술을 개발 중인 엑스에너지는 상당한 현금 소소로 인한 경영 효율성 논란과 상장 시 책정된 높은 밸류에이션에 대한 투자자들의 회의적 평가가 주가 하락의 배경이다. 이는 신흥 핵기술 기업들의 수익성과 사업화 일정에 대한 투자자 관심을 반영하고 있다.",
-  "cat": "투자",
-  "type": "HTGR",
-  "dev": "X-energy",
-  "region": "US",
-  "source": "quiverquant.com",
-  "url": "https://www.quiverquant.com/news/X-Energy+Slides+as+Investors+Continue+to+Digest+Heavy+Cash+Burn+and+Post-IPO+Valuation",
-  "k": "x energy slides as investors continue to digest heavy cash burn and post ipo valuation",
-  "id": "b6a13d20"
  },
  {
   "date": "2026-06-17",
@@ -1343,5 +1311,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-16 08:44 KST";
-window.SMR_TOTAL = 1305;
+window.SMR_UPDATED = "2026-07-16 15:01 KST";
+window.SMR_TOTAL = 1319;
