@@ -175,6 +175,79 @@ window.SMR_NEWS = [
     "id": "beee0220"
   },
   {
+    "date": "2026-07-16",
+    "title": "엑스에너지(X-Energy) TRISO-X, 테네시주(Tennessee)로부터 1,100만 달러 연료 제조 캠퍼스 지원금 획득",
+    "summary": "엑스에너지(X-Energy) 자회사 TRISO-X가 테네시주(Tennessee)에서 1,100만 달러 지원금을 받아 오크리지(Oak Ridge) 연료 제조 캠퍼스 개발을 계속 진행한다.",
+    "summaryLong": "엑스에너지(X-Energy)의 자회사인 TRISO-X가 테네시주(Tennessee) 정부로부터 1,100만 달러 규모의 보조금을 획득했다. 이 자금은 오크리지(Oak Ridge)에 위치한 TRISO-X의 연료 제조 캠퍼스 계속 개발에 사용될 예정이며, 두 번째 상용 연료 시설과 전담 연구개발 센터 구축 가능성도 포함한다. TRISO 피복 입자 연료는 고온가스로(HTGR) 등 첨단 원자로의 핵심 기술로, 이번 지원금은 미국의 선진 원자로 연료 공급망 강화 정책의 일환으로 평가된다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/grant-to-support-expansion-of-triso-x-nuclear-fuel-campus",
+    "k": "grant to support expansion of triso x nuclear fuel campus",
+    "id": "3f65171a"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "K-원자력 추진선, 용융염원자로 기본승인 획득으로 상용화 첫 관문 통과",
+    "summary": "한국원자력연구원·조선해양플랜트연구소·삼성중공업이 공동 개발한 용융염원자로(MSR) 기반 원자력 추진선이 미국선급협회(ABS)로부터 기본승인(AiP)을 획득했다.",
+    "summaryLong": "한국원자력연구원, 선박해양플랜트연구소(KRISO), 삼성중공업이 공동 개발한 용융염원자로(MSR) 기반 1만 5000TEU급 컨테이너선 개념설계가 미국선급협회(ABS)로부터 기본승인(AiP)을 획득했다. 탄소배출 규제 강화로 국제 해운시장에서 원자력 추진선이 차세대 대안으로 주목받는 가운데, 국내 원자력과 조선 기술의 결합이 상용화를 향한 첫 단계를 성공적으로 완료한 것으로 평가된다. 본 승인은 용융염원자로 같은 첨단로 기술이 실제 산업 적용으로 나아가는 중요한 마일스톤을 의미한다.",
+    "cat": "기술",
+    "type": "MSR",
+    "dev": "한국원자력연구원",
+    "region": "KR",
+    "source": "에너지신문 - 전체기사",
+    "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=226868",
+    "k": "k 원자력 추진선 상용화 첫 관문 넘었다",
+    "ko": 1,
+    "id": "2abed33d"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "SMR 연료 개발사 스탠더드 뉴클리어(Standard Nuclear), IPO 가격 결정",
+    "summary": "소형모듈원자로(SMR) 연료 개발사인 스탠더드 뉴클리어(Standard Nuclear)가 기존보다 축소된 규모로 IPO를 진행하며 주당 15달러로 가격을 결정했다.",
+    "summaryLong": "SMR 연료 공급 전문 기업인 스탠더드 뉴클리어(Standard Nuclear)가 기존 계획보다 축소된 규모의 신주공개(IPO)를 진행하고 주당 15달러로 최종 공모가를 결정했다. 이는 SMR 산업의 연료 공급 인프라 구축을 향한 투자 움직임을 나타낸다.",
+    "cat": "투자",
+    "type": "General",
+    "dev": "Standard Nuclear",
+    "region": "US",
+    "source": "renaissancecapital.com",
+    "url": "https://www.renaissancecapital.com/IPO-Center/News/120497/Small-modular-reactor-fuel-developer-Standard-Nuclear-prices-previously-dow",
+    "k": "stdn ipo news small modular reactor fuel developer standard nuclear prices previously downsized ipo at 15",
+    "id": "dea2fec5"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "한국원자력연구원, SMR 국제 기본인증 획득",
+    "summary": "한국원자력연구원이 소형모듈원자로(SMR) 기술의 국제 기본인증(AIP)을 획득했다.",
+    "summaryLong": "한국원자력연구원이 소형모듈원자로(SMR) 기술 관련 국제 기본인증(Approval in Principle)을 획득하여 원자력 추진 선박 시대의 도래를 알렸다. 이는 SMR 기술의 해양 분야 적용이 국제 규제 기준을 충족함을 입증한 성과이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한국원자력연",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260716181821497",
+    "k": "원자력 추진 선박 시대 한국원자력연 smr 국제 기본인증 획득",
+    "ko": 1,
+    "id": "a4879507"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "SMR 추진 대형 컨테이너선, 세계 최초 기본승인 획득",
+    "summary": "소형모듈원자로(SMR)로 추진하는 1.5만TEU급 컨테이너선이 미국 선급으로부터 세계 최초로 기본승인(AIP)을 획득했다.",
+    "summaryLong": "SMR로 추진하는 1.5만TEU급 대형 컨테이너선이 미국 선급으로부터 세계 최초의 기본승인(AIP, Approval in Principle)을 획득했다. 이는 SMR 기술이 해양 운송 분야에 적용되어 무탄소 선박 실현이 가능함을 보여주는 획기적인 사례이다. 선박 추진에 SMR을 탑재하는 기술이 국제 규제 기준을 통과한 것으로, 해운 산업의 탈탄소화에 청신호를 제공한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "sanupin-news.kr",
+    "url": "https://www.sanupin-news.kr/news/articleView.html?idxno=15030",
+    "k": "뉴테크in 바다 위 움직이는 원전 뜬다 smr 실은 1 5만teu급 컨테이너선 세계 첫 기본승인",
+    "ko": 1,
+    "id": "714943fe"
+  },
+  {
     "date": "2026-07-15",
     "title": "'부산형 SMR 상용화'에 정부 연구개발 지원 나선다",
     "summary": "정부가 부산형 SMR의 상용화를 위한 연구개발 지원을 시작한다.",
@@ -493,6 +566,20 @@ window.SMR_NEWS = [
     "url": "https://www.fool.com/investing/2026/07/15/the-us-has-accumulated-100000-metric-tons-of-used/",
     "k": "the u s has accumulated 100 000 metric tons of used nuclear fuel oklo sees it as a massive potential energy resource",
     "id": "b0fa3f28"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "루마니아 에너지부, 뉴스케일(NuScale) 소형모듈원자로 프로젝트 계속 추진 확인",
+    "summary": "루마니아 에너지부가 도이체슈티(Doicești) 소형모듈원자로(SMR) 프로젝트의 재검토 거부 및 뉴스케일(NuScale)과의 투자 지속을 공식 확인했다.",
+    "summaryLong": "루마니아 에너지부가 도이체슈티(Doicești)에서 뉴스케일(NuScale)과 함께 추진 중인 소형모듈원자로(SMR) 프로젝트에 대한 재평가 요구를 거부하고, 투자 계속을 공식 확인했다. 이는 국내외 정치적·경제적 불확실성 속에서 루마니아 정부의 소형모듈원자로 도입 의지를 재확인하는 신호로, 뉴스케일의 유럽 시장 진출 전략에 중요한 정책 지지를 의미한다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "EU",
+    "source": "informat.ro",
+    "url": "https://informat.ro/en/current-affairs/nuclearelectrica-will-not-seek-new-smr-technologies-after-the-shareholders-vote-130618",
+    "k": "the ministry of energy rejects the reevaluation of the small reactor project and confirms the continuation of the investment at doice ti with nuscale",
+    "id": "33cc24bd"
   },
   {
     "date": "2026-07-14",
@@ -996,6 +1083,20 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "e57e8d58"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "아르헨티나의 첫 SMR 계약, 핵심 투자 성과",
+    "summary": "아르헨티나에서 첫 소형모듈원자로(SMR) 계약이 체결되어 라틴아메리카의 SMR 도입 움직임의 신호탄이 되었다.",
+    "summaryLong": "아르헨티나가 처음으로 소형모듈원자로(SMR) 프로젝트 계약을 체결했으며, 이는 라틴아메리카 지역의 핵심 투자 사례로 평가받고 있다. SMR의 글로벌 시장 확대와 신흥국 진출의 중요한 마일스톤이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "enlit.world",
+    "url": "https://www.enlit.world/library/first-smr-deal-in-argentina-is-nuclear-investment-landmark",
+    "k": "first smr deal in argentina is nuclear investment landmark",
+    "id": "ea970ee1"
   },
   {
     "date": "2026-07-13",
@@ -19214,4 +19315,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-16 16:11 KST";
+window.SMR_UPDATED = "2026-07-17 07:32 KST";
