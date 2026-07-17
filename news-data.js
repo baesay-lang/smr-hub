@@ -935,6 +935,21 @@ window.SMR_NEWS = [
     "id": "091ced3a"
   },
   {
+    "date": "2026-07-15",
+    "title": "SMR 추진 컨테이너선, 미국 선급 기본승인 획득",
+    "summary": "소형모듈원자로(SMR)를 동력으로 하는 컨테이너선이 미국 선급(ABS) 기본승인을 받았다.",
+    "summaryLong": "소형모듈원자로(SMR) 추진 대형 컨테이너선의 개념설계가 미국 선급(American Bureau of Shipping, ABS) 기본승인을 획득했다. 이는 무탄소 선박 시대를 향한 첫 관문을 통과한 것으로, SMR의 해양 응용 분야 실용화를 위한 중요한 인허가 마일스톤이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "energydaily.co.kr",
+    "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=201469",
+    "k": "smr 추진 컨테이너선 선급 기본승인 획득 무탄소 선박 시대 청신호",
+    "ko": 1,
+    "id": "aea0b3a4"
+  },
+  {
     "date": "2026-07-14",
     "title": "사천 환경단체, 삼천포화력 부지 SMR 추진 반대",
     "summary": "경남 사천지역 환경단체가 삼천포화력발전소 폐지 부지에 소형모듈원자로(SMR)를 도입하려는 계획에 반발하며 즉각 철회를 촉구했다.",
@@ -1555,6 +1570,21 @@ window.SMR_NEWS = [
     "k": "현대건설 미국 차세대 원자로 프로젝트 참여 smr 동맹 확장",
     "ko": 1,
     "id": "9c78d1a0"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "현대건설, 미국 FANCO와 글로벌 SMR 사업 추진",
+    "summary": "현대건설이 미국의 FANCO와 파트너십을 체결하여 글로벌 소형모듈원자로(SMR) 시장 진출을 가속화하고 있다.",
+    "summaryLong": "현대건설이 미국의 FANCO와 손을 잡고 글로벌 SMR 사업 확대에 박차를 가하고 있다. 이 협력은 한국 건설사의 SMR 국제 수주 역량 강화 및 미국 시장 진출을 위한 전략적 파트너십이다. FANCO와의 제휴를 통해 현대건설은 SMR 건설·엔지니어링 분야에서 경쟁력을 강화하고, 북미 및 국제 프로젝트 수주 기회를 모색하게 된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대건설",
+    "region": "US",
+    "source": "fortunekorea.co.kr",
+    "url": "https://www.fortunekorea.co.kr/news/articleView.html?idxno=53211",
+    "k": "현대건설 fanco와 손잡고 글로벌 smr 공략 박차",
+    "ko": 1,
+    "id": "4d4c2e88"
   },
   {
     "date": "2026-07-13",
@@ -19829,4 +19859,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-18 07:26 KST";
+window.SMR_UPDATED = "2026-07-18 07:59 KST";

@@ -885,6 +885,21 @@ window.SMR_NEWS = [
   "id": "33cc24bd"
  },
  {
+  "date": "2026-07-15",
+  "title": "SMR 추진 컨테이너선, 미국 선급 기본승인 획득",
+  "summary": "소형모듈원자로(SMR)를 동력으로 하는 컨테이너선이 미국 선급(ABS) 기본승인을 받았다.",
+  "summaryLong": "소형모듈원자로(SMR) 추진 대형 컨테이너선의 개념설계가 미국 선급(American Bureau of Shipping, ABS) 기본승인을 획득했다. 이는 무탄소 선박 시대를 향한 첫 관문을 통과한 것으로, SMR의 해양 응용 분야 실용화를 위한 중요한 인허가 마일스톤이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "US",
+  "source": "energydaily.co.kr",
+  "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=201469",
+  "k": "smr 추진 컨테이너선 선급 기본승인 획득 무탄소 선박 시대 청신호",
+  "ko": 1,
+  "id": "aea0b3a4"
+ },
+ {
   "date": "2026-07-14",
   "title": "아이티센씨티에스, 원자력연구원의 V-SMR 슈퍼컴퓨터 구축 프로젝트 수주",
   "summary": "아이티센씨티에스가 한국원자력연구원의 V-SMR 슈퍼컴퓨팅 시스템 구축 사업을 수주했다.",
@@ -1309,5 +1324,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-18 07:26 KST";
-window.SMR_TOTAL = 1371;
+window.SMR_UPDATED = "2026-07-18 07:59 KST";
+window.SMR_TOTAL = 1373;
