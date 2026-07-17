@@ -31,6 +31,34 @@ window.SMR_NEWS = [
   "id": "230cd346"
  },
  {
+  "date": "2026-07-17",
+  "title": "엑스에너지(X-energy) 자회사 TRISO-X, 연료시설 건설 자금 1,100만 달러 지원금 획득",
+  "summary": "엑스에너지(X-energy)의 자회사 TRISO-X가 테네시 주(Tennessee)의 원자력에너지공급망투자기금(Nuclear Energy Supply Chain Investment Fund)으로부터 연료시설 건설 지속을 위해 1,100만 달러의 경제개발보조금을 획득했다.",
+  "summaryLong": "고온가스로(HTGR) 연료 개발사 엑스에너지(X-energy)의 자회사 TRISO-X가 테네시 주(Tennessee)의 원자력에너지공급망투자기금(Nuclear Energy Supply Chain Investment Fund)으로부터 1,100만 달러의 경제개발보조금을 획득했다. 이 기금은 2023년 원자력에너지 사업 투자, 인력 개발 프로그램 지원 목적으로 설립되었다. TRISO-X는 고도화된 핵연료 시설 건설을 지속하기 위해 이 자금을 활용할 계획이다.",
+  "cat": "정책",
+  "type": "HTGR",
+  "dev": "X-energy",
+  "region": "US",
+  "source": "ANS Newswire",
+  "url": "https://www.ans.org/news/2026-07-17/article-8214/new-grant-to-fund-continued-construction-of-trisox-fuel-facilities/",
+  "k": "new grant to fund continued construction of triso x fuel facilities",
+  "id": "e0f02d62"
+ },
+ {
+  "date": "2026-07-17",
+  "title": "한국 SMR 추진 컨테이너선 미국 선급 기본승인 획득",
+  "summary": "한국선박해양플랜트연구소(KRISO)가 용융염 SMR 두 기를 탑재한 컨테이너선 개념설계에 대해 미국 선급(American Bureau of Shipping, ABS)으로부터 기본승인(Approval in Principle, AIP)을 획득했다.",
+  "summaryLong": "한국선박해양플랜트연구소(KRISO)가 소형모듈원자로(SMR) 기술을 적용한 컨테이너선 개념설계에 대해 미국선급협회(American Bureau of Shipping, ABS)의 기본승인(Approval in Principle, AIP)을 취득했다. 이 설계는 용융염로(MSR) 방식의 SMR 두 기를 탑재한 대형 컨테이너선으로, 무탄소 선박 시대 진입의 신호탄이 될 것으로 평가된다. 한국의 SMR 기술이 해양 분야로의 상용화 가능성을 보여주는 사례로, 향후 실제 건조 및 운영 허가로의 진전이 기대된다.",
+  "cat": "기술",
+  "type": "MSR",
+  "dev": "KRISO",
+  "region": "KR",
+  "source": "World Nuclear News",
+  "url": "https://www.world-nuclear-news.org/articles/korean-smr-powered-container-ship-design-certified",
+  "k": "south korean smr powered container ship design certified",
+  "id": "55d77bc1"
+ },
+ {
   "date": "2026-07-16",
   "title": "원자력안전위원회, SMR 관련 법 개정 속도 추진",
   "summary": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 개발 가속화에 맞춰 SMR 관련 법 개정을 신속히 추진하겠다고 밝혔다.",
@@ -508,6 +536,21 @@ window.SMR_NEWS = [
   "id": "0e1b48e2"
  },
  {
+  "date": "2026-07-16",
+  "title": "국내외 기업 3곳, SMR 사전검토 신청 의향 표명",
+  "summary": "국내외 기업 3곳이 소형모듈원자로(SMR) 건설을 위해 사전검토 신청 의향을 표명했다.",
+  "summaryLong": "소형모듈원자로(SMR) 사업 추진을 위해 국내외 기업 3곳이 규제기관의 사전검토 신청 의향을 표명했다. 사전검토는 설계안 제출 전 핵심 기술·안전성 요구사항을 미리 검토받아 인허가 절차를 단축할 수 있는 과정으로, 국내 SMR 건설 일정 단축에 긍정적 신호다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "sedaily.com",
+  "url": "https://www.sedaily.com/article/20068714",
+  "k": "smr 건설 빨라지나 국내외 기업 3곳 사전검토 신청 의향 표명",
+  "ko": 1,
+  "id": "421aea5d"
+ },
+ {
   "date": "2026-07-15",
   "title": "'부산형 SMR 상용화'에 정부 연구개발 지원 나선다",
   "summary": "정부가 부산형 SMR의 상용화를 위한 연구개발 지원을 시작한다.",
@@ -840,49 +883,6 @@ window.SMR_NEWS = [
   "url": "https://informat.ro/en/current-affairs/nuclearelectrica-will-not-seek-new-smr-technologies-after-the-shareholders-vote-130618",
   "k": "the ministry of energy rejects the reevaluation of the small reactor project and confirms the continuation of the investment at doice ti with nuscale",
   "id": "33cc24bd"
- },
- {
-  "date": "2026-07-15",
-  "title": "한국, 미국·일본과의 협약 체결 후 글로벌 SMR 시장 진출 목표",
-  "summary": "한국이 미국(US), 일본(JP)과 소형모듈원자로(SMR) 분야 협약을 체결하고 글로벌 시장 진출을 추진한다.",
-  "summaryLong": "한국이 미국(US)과 일본(JP)과의 협약 체결을 통해 소형모듈원자로(SMR) 글로벌 시장 진출을 적극 추진하고 있다. 한국·미국·일본 간 다자 협력 체계 구축으로 SMR 기술 개발, 인증, 수출 협력의 기반을 마련하는 정책적 성과다. 한국의 SMR 기술 경쟁력을 국제 무대에서 본격화하려는 정부 차원의 전략적 파트너십으로, 향후 기술 표준화, 인허가 상호 인정, 국제 공동 사업 등으로 확대될 것으로 예상된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "koreaherald.com",
-  "url": "https://www.koreaherald.com/article/10810008",
-  "k": "korea eyes slice of global smr market after pact with us japan",
-  "id": "6ea306f8"
- },
- {
-  "date": "2026-07-15",
-  "title": "SMR 추진 컨테이너선, 국제 첫 관문 넘어 기본승인 획득",
-  "summary": "한국원자력연구원의 용융염원자로(MSR) 컨테이너선 개념설계가 미국에서 기본승인을 획득했다.",
-  "summaryLong": "한국원자력연구원과 선박플랜트연구소가 공동 추진 중인 소형모듈원자로(SMR) 추진 컨테이너선의 용융염원자로(MSR) 개념설계가 미국에서 국제 기본승인을 획득했다. 이는 원자력 추진 선박 개발의 국제 규제 진출에서 초기 관문을 통과한 것으로, 향후 상세설계 및 인허가로 진행될 수 있는 기술적·규제적 진전을 의미한다.",
-  "cat": "기술",
-  "type": "MSR",
-  "dev": "한국원자력연구원",
-  "region": "KR",
-  "source": "view.asiae.co.kr",
-  "url": "https://view.asiae.co.kr/article/2026071608381234381",
-  "k": "smr 추진 컨테이너선 국제 첫 관문 넘었다",
-  "ko": 1,
-  "id": "28ca3c5e"
- },
- {
-  "date": "2026-07-15",
-  "title": "TRISO-X, 신규 핵연료 시설과 연구개발 센터로 1,100명 이상의 일자리 창출",
-  "summary": "TRISO-X가 새로운 핵연료 제조 시설과 연구개발 센터 건립을 통해 1,100명 이상의 일자리를 창출할 예정이다.",
-  "summaryLong": "TRISO-X가 테네시주(Tennessee)에 신규 고온가스로(HTGR) 및 첨단로용 TRISO 핵연료 제조 시설과 연구개발 센터를 건설하여 1,100명 이상의 고용 창출을 계획하고 있다. 이는 미국의 첨단 원자로 연료 공급 능력 강화 및 제조 기반 구축을 위한 정부 지원 정책의 일환이다. TRISO-X의 시설 확충은 고온가스로, 마이크로 원자로 등 차세대 원자로 상용화를 위한 필수 인프라 구축을 의미한다.",
-  "cat": "기술",
-  "type": "HTGR",
-  "dev": "TRISO-X",
-  "region": "US",
-  "source": "tnecd.com",
-  "url": "https://tnecd.com/news/triso-x-to-create-more-than-1100-jobs-through-new-fuel-facility-research-and-development-center/",
-  "k": "triso x to create more than 1 100 jobs through new fuel facility research and development center",
-  "id": "091ced3a"
  },
  {
   "date": "2026-07-14",
@@ -1309,5 +1309,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-17 16:05 KST";
-window.SMR_TOTAL = 1366;
+window.SMR_UPDATED = "2026-07-18 07:26 KST";
+window.SMR_TOTAL = 1371;

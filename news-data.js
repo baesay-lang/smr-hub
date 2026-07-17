@@ -38,6 +38,34 @@ window.SMR_NEWS = [
     "id": "230cd346"
   },
   {
+    "date": "2026-07-17",
+    "title": "엑스에너지(X-energy) 자회사 TRISO-X, 연료시설 건설 자금 1,100만 달러 지원금 획득",
+    "summary": "엑스에너지(X-energy)의 자회사 TRISO-X가 테네시 주(Tennessee)의 원자력에너지공급망투자기금(Nuclear Energy Supply Chain Investment Fund)으로부터 연료시설 건설 지속을 위해 1,100만 달러의 경제개발보조금을 획득했다.",
+    "summaryLong": "고온가스로(HTGR) 연료 개발사 엑스에너지(X-energy)의 자회사 TRISO-X가 테네시 주(Tennessee)의 원자력에너지공급망투자기금(Nuclear Energy Supply Chain Investment Fund)으로부터 1,100만 달러의 경제개발보조금을 획득했다. 이 기금은 2023년 원자력에너지 사업 투자, 인력 개발 프로그램 지원 목적으로 설립되었다. TRISO-X는 고도화된 핵연료 시설 건설을 지속하기 위해 이 자금을 활용할 계획이다.",
+    "cat": "정책",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-07-17/article-8214/new-grant-to-fund-continued-construction-of-trisox-fuel-facilities/",
+    "k": "new grant to fund continued construction of triso x fuel facilities",
+    "id": "e0f02d62"
+  },
+  {
+    "date": "2026-07-17",
+    "title": "한국 SMR 추진 컨테이너선 미국 선급 기본승인 획득",
+    "summary": "한국선박해양플랜트연구소(KRISO)가 용융염 SMR 두 기를 탑재한 컨테이너선 개념설계에 대해 미국 선급(American Bureau of Shipping, ABS)으로부터 기본승인(Approval in Principle, AIP)을 획득했다.",
+    "summaryLong": "한국선박해양플랜트연구소(KRISO)가 소형모듈원자로(SMR) 기술을 적용한 컨테이너선 개념설계에 대해 미국선급협회(American Bureau of Shipping, ABS)의 기본승인(Approval in Principle, AIP)을 취득했다. 이 설계는 용융염로(MSR) 방식의 SMR 두 기를 탑재한 대형 컨테이너선으로, 무탄소 선박 시대 진입의 신호탄이 될 것으로 평가된다. 한국의 SMR 기술이 해양 분야로의 상용화 가능성을 보여주는 사례로, 향후 실제 건조 및 운영 허가로의 진전이 기대된다.",
+    "cat": "기술",
+    "type": "MSR",
+    "dev": "KRISO",
+    "region": "KR",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/korean-smr-powered-container-ship-design-certified",
+    "k": "south korean smr powered container ship design certified",
+    "id": "55d77bc1"
+  },
+  {
     "date": "2026-07-16",
     "title": "원자력안전위원회, SMR 관련 법 개정 속도 추진",
     "summary": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 개발 가속화에 맞춰 SMR 관련 법 개정을 신속히 추진하겠다고 밝혔다.",
@@ -513,6 +541,21 @@ window.SMR_NEWS = [
     "url": "https://timesofindia.indiatimes.com/world/rest-of-world/around-2-billion-years-ago-oklo-became-a-natural-nuclear-reactor-beneath-africa-and-its-radioactive-remains-are-still-there/articleshow/132436519.cms",
     "k": "around 2 billion years ago oklo became a natural nuclear reactor beneath africa and its radioactive rem",
     "id": "0e1b48e2"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "국내외 기업 3곳, SMR 사전검토 신청 의향 표명",
+    "summary": "국내외 기업 3곳이 소형모듈원자로(SMR) 건설을 위해 사전검토 신청 의향을 표명했다.",
+    "summaryLong": "소형모듈원자로(SMR) 사업 추진을 위해 국내외 기업 3곳이 규제기관의 사전검토 신청 의향을 표명했다. 사전검토는 설계안 제출 전 핵심 기술·안전성 요구사항을 미리 검토받아 인허가 절차를 단축할 수 있는 과정으로, 국내 SMR 건설 일정 단축에 긍정적 신호다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "sedaily.com",
+    "url": "https://www.sedaily.com/article/20068714",
+    "k": "smr 건설 빨라지나 국내외 기업 3곳 사전검토 신청 의향 표명",
+    "ko": 1,
+    "id": "421aea5d"
   },
   {
     "date": "2026-07-15",
@@ -1482,6 +1525,36 @@ window.SMR_NEWS = [
     "url": "https://finance.yahoo.com/energy/articles/nuscale-power-down-84-52-184100869.html",
     "k": "nuscale power is down 84 from its 52 week high is it finally time to buy the dip in the nuclear start up",
     "id": "b6eca06d"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "현대건설, 미국 FANCO와 차세대 SMR 개발 협력",
+    "summary": "현대건설이 미국의 FANCO와 차세대 SMR 개발 협력 계약을 체결했다.",
+    "summaryLong": "현대건설이 미국 기업 FANCO와 차세대 소형모듈원자로(SMR) 개발을 위한 협력 협약을 체결했다. 이는 한국의 대형 건설사가 미국의 SMR 개발 파트너와 기술 협력 계약을 맺은 것으로, 한국의 원자력 기술 수출 및 국제 협력 사업 추진의 일환이다. 향후 한국의 SMR 기술력과 건설 역량을 바탕으로 국제 시장 진출 확대가 기대된다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "현대건설, FANCO",
+    "region": "KR",
+    "source": "kmecnews.co.kr",
+    "url": "https://www.kmecnews.co.kr/news/articleView.html?idxno=50851",
+    "k": "현대건설 fanco와 차세대 smr 개발 협력",
+    "ko": 1,
+    "id": "cdb768ab"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "현대건설, 미국 차세대 원자로 프로젝트 참여…SMR 동맹 확장",
+    "summary": "현대건설이 미국의 차세대 원자로 프로젝트에 참여하며 글로벌 소형모듈원자로(SMR) 사업 확대를 추진한다.",
+    "summaryLong": "현대건설이 미국의 차세대 원자로 프로젝트에 참여함으로써 글로벌 소형모듈원자로(SMR) 사업을 확대하고 있다. 이를 통해 한국 건설업체의 국제 원자력 시장 진출을 가속화하고 관련 기술 협력과 파트너십을 강화하는 전략이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대건설",
+    "region": "US",
+    "source": "newspim.com",
+    "url": "https://www.newspim.com/news/view/20260714000453",
+    "k": "현대건설 미국 차세대 원자로 프로젝트 참여 smr 동맹 확장",
+    "ko": 1,
+    "id": "9c78d1a0"
   },
   {
     "date": "2026-07-13",
@@ -19756,4 +19829,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-17 16:05 KST";
+window.SMR_UPDATED = "2026-07-18 07:26 KST";
