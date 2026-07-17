@@ -480,6 +480,34 @@ window.SMR_NEWS = [
   "id": "cf389171"
  },
  {
+  "date": "2026-07-16",
+  "title": "X-Energy: A Credible Nuclear Platform, But Valuation Is Not Cheap - Seeking Alpha",
+  "summary": "X-Energy: A Credible Nuclear Platform, But Valuation Is Not Cheap Seeking Alpha",
+  "summaryLong": "X-Energy: A Credible Nuclear Platform, But Valuation Is Not Cheap Seeking Alpha",
+  "cat": "투자",
+  "type": "HTGR",
+  "dev": "X-energy",
+  "region": "",
+  "source": "seekingalpha.com",
+  "url": "https://seekingalpha.com/article/4922467-x-energy-stock-credible-nuclear-platform-but-valuation-not-cheap",
+  "k": "x energy a credible nuclear platform but valuation is not cheap",
+  "id": "0a7c9b36"
+ },
+ {
+  "date": "2026-07-16",
+  "title": "Around 2 billion years ago, Oklo became a natural nuclear reactor beneath Africa, and its radioactive rem - The Times of India",
+  "summary": "Around 2 billion years ago, Oklo became a natural nuclear reactor beneath Africa, and its radioactive rem The Times of India",
+  "summaryLong": "Around 2 billion years ago, Oklo became a natural nuclear reactor beneath Africa, and its radioactive rem The Times of India",
+  "cat": "투자",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "",
+  "source": "timesofindia.indiatimes.com",
+  "url": "https://timesofindia.indiatimes.com/world/rest-of-world/around-2-billion-years-ago-oklo-became-a-natural-nuclear-reactor-beneath-africa-and-its-radioactive-remains-are-still-there/articleshow/132436519.cms",
+  "k": "around 2 billion years ago oklo became a natural nuclear reactor beneath africa and its radioactive rem",
+  "id": "0e1b48e2"
+ },
+ {
   "date": "2026-07-15",
   "title": "'부산형 SMR 상용화'에 정부 연구개발 지원 나선다",
   "summary": "정부가 부산형 SMR의 상용화를 위한 연구개발 지원을 시작한다.",
@@ -858,36 +886,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-14",
-  "title": "사천 환경단체, 삼천포화력 부지 SMR 추진 반대",
-  "summary": "경남 사천지역 환경단체가 삼천포화력발전소 폐지 부지에 소형모듈원자로(SMR)를 도입하려는 계획에 반발하며 즉각 철회를 촉구했다.",
-  "summaryLong": "경남 사천지역의 환경단체와 시민단체들이 삼천포화력발전소 폐지 부지에 소형모듈원자로(SMR)를 도입하려는 정부·기업의 계획에 대해 강하게 반발하고 있다. 단체들은 부지 재활용 방식에 대해 우려를 표시하며 계획의 즉각 철회를 요구했다. 이는 지역 수용성 측면에서 SMR 정책이 직면한 과제를 보여주는 사례이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "연합뉴스 최신기사",
-  "url": "https://www.yna.co.kr/view/AKR20260714115200052",
-  "k": "사천 환경단체 삼천포화력 부지 smr 추진 즉각 철회하라",
-  "ko": 1,
-  "id": "587a15b3"
- },
- {
-  "date": "2026-07-14",
-  "title": "현대건설, 미국 SMR 개발사 퍼스트 아메리칸 뉴클리어와 기본협약",
-  "summary": "현대건설이 미국의 소형모듈원자로(SMR) 개발사 퍼스트 아메리칸 뉴클리어(FAN)와 차세대 SMR 협력 기본협약을 체결했다.",
-  "summaryLong": "현대건설이 13일(현지시간) 미국 뉴욕에서 미국의 소형모듈원자로(SMR) 개발사 퍼스트 아메리칸 뉴클리어(FANCO)와 차세대 SMR 개발·사업화를 위한 기본협약(MOU)을 체결했다. 이 협력을 통해 현대건설은 첨단로 분야의 해외 협력 포트폴리오를 확대하고 미국 시장 진출을 가속화할 계획이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "현대건설",
-  "region": "US",
-  "source": "연합뉴스 경제 최신기사",
-  "url": "https://www.yna.co.kr/view/AKR20260714068000003",
-  "k": "현대건설 미국서 차세대 소형모듈원자로 협력 기본협약",
-  "ko": 1,
-  "id": "82af0948"
- },
- {
-  "date": "2026-07-14",
   "title": "아이티센씨티에스, 원자력연구원의 V-SMR 슈퍼컴퓨터 구축 프로젝트 수주",
   "summary": "아이티센씨티에스가 한국원자력연구원의 V-SMR 슈퍼컴퓨팅 시스템 구축 사업을 수주했다.",
   "summaryLong": "아이티센씨티에스가 한국원자력연구원의 V-SMR(Vertical Small Modular Reactor) 관련 슈퍼컴퓨팅 시스템 구축 프로젝트를 수주했다. 이 프로젝트는 V-SMR 설계 및 성능 검증을 위한 고성능 컴퓨팅 인프라 구축으로, 한국의 소형모듈원자로 기술 개발 지원 사업의 일환이다. 아이티센씨티에스의 참여는 국내 SMR 개발 사업의 기술 고도화 추진을 의미한다.",
@@ -960,6 +958,20 @@ window.SMR_NEWS = [
   "id": "698f1008"
  },
  {
+  "date": "2026-07-13",
+  "title": "NRC issues white safety finding to V.C. Summer",
+  "summary": "The Nuclear Regulatory Commission has upheld and finalized a “white” safety finding at V.C. Summer power plant in Jenkinsville, S.C., over the plant’s failure to properly…",
+  "summaryLong": "The Nuclear Regulatory Commission has upheld and finalized a “white” safety finding at V.C. Summer power plant in Jenkinsville, S.C., over the plant’s failure to properly preplan and perform maintenance on its turbine-driven emergency feedwater pump (TDEFW) governor valve linkage. The 966-MWe three-loop Westinghouse pressurized water reactor at Summer started commercial operati…",
+  "cat": "인허가",
+  "type": "PWR",
+  "dev": "Westinghouse",
+  "region": "US",
+  "source": "ANS Newswire",
+  "url": "https://www.ans.org/news/2026-07-13/article-8198/nrc-issues-white-safety-finding-to-vc-summer/",
+  "k": "nrc issues white safety finding to v c summer",
+  "id": "a4191554"
+ },
+ {
   "date": "2026-07-11",
   "title": "뉴스케일(NuScale), 지연과 약한 실적으로 7.4% 하락",
   "summary": "뉴스케일(NuScale)의 프로젝트 지연과 확정 계약 부재로 주가가 7.4% 하락했다는 보도.",
@@ -1028,21 +1040,6 @@ window.SMR_NEWS = [
   "url": "https://www.world-nuclear-news.org/articles/deep-fission-receives-prototype-reactor-canister",
   "k": "deep fission receives prototype reactor canister",
   "id": "9fad13f2"
- },
- {
-  "date": "2026-07-07",
-  "title": "DL이앤씨, 엑스에너지 Xe-100 표준화 설계 수주",
-  "summary": "DL이앤씨가 국내 건설사로는 처음으로 미국 엑스에너지(X-energy)의 Xe-100 소형모듈원자로 표준화 설계를 수주했다.",
-  "summaryLong": "한국의 건설사 DL이앤씨가 미국의 SMR 개발사 엑스에너지의 고온가스로(HTGR) 기술인 Xe-100에 대한 표준화 설계(design certification) 업무를 수주했으며, 이는 국내 건설사가 미국 첨단 소형모듈원자로 설계 인증에 참여한 첫 사례이다. 이는 한국 건설 산업의 국제 원자력 시장 진출과 엑스에너지의 설계 인증 추진을 위한 역량 강화를 의미하며, 양사 간 협력 체계가 강화되고 있음을 보여준다.",
-  "cat": "계약",
-  "type": "HTGR",
-  "dev": "X-energy",
-  "region": "US",
-  "source": "market-ink.co.kr",
-  "url": "https://www.market-ink.co.kr/news/articleView.html?idxno=8818",
-  "k": "dl이앤씨 국내 건설사 최초 smr 표준화 설계 수주 엑스에너지 xe 100 파트너",
-  "ko": 1,
-  "id": "8035d6e9"
  },
  {
   "date": "2026-07-07",
@@ -1188,20 +1185,6 @@ window.SMR_NEWS = [
   "id": "07b2ef53"
  },
  {
-  "date": "2026-06-20",
-  "title": "오클로, 센트러스 연료 계약 체결로 주가 상승",
-  "summary": "오클로(Oklo)가 센트러스(Centrus)와 핵연료 공급 계약을 체결하면서 원전 공급망 우려 해소에 따른 주가 급등이 이루어졌다.",
-  "summaryLong": "오클로(Oklo)와 센트러스(Centrus)의 핵연료 공급 계약 체결이 주목받으면서 오클로의 주가가 주간 상승률을 기록했다. 이 계약은 소형모듈원자로(SMR) 및 첨단로 상용화 과정에서 핵연료 공급의 안정성을 확보하는 데 중요한 의미를 갖는다. 센트러스는 미국의 주요 농축 연료 공급사로, 원전 산업의 공급망 리스크에 대한 시장 우려가 이 계약 체결로 완화된 것으로 해석된다.",
-  "cat": "계약",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "ts2.tech",
-  "url": "https://ts2.tech/en/oklo-rises-for-the-week-after-centrus-fuel-agreement-draws-attention-to-nuclear-supply-concerns/",
-  "k": "oklo rises for the week after centrus fuel agreement draws attention to nuclear supply concerns",
-  "id": "cfdd9ddc"
- },
- {
   "date": "2026-06-18",
   "title": "테라파워, 나트륨(Natrium) 원자로 영국 설계인증(GDA) 신청",
   "summary": "테라파워(TerraPower)가 나트륨 고속로 기술에 대한 영국 설계인증을 공식 시작함.",
@@ -1326,5 +1309,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-17 15:26 KST";
-window.SMR_TOTAL = 1359;
+window.SMR_UPDATED = "2026-07-17 16:05 KST";
+window.SMR_TOTAL = 1366;

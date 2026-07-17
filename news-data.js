@@ -487,6 +487,34 @@ window.SMR_NEWS = [
     "id": "cf389171"
   },
   {
+    "date": "2026-07-16",
+    "title": "X-Energy: A Credible Nuclear Platform, But Valuation Is Not Cheap - Seeking Alpha",
+    "summary": "X-Energy: A Credible Nuclear Platform, But Valuation Is Not Cheap Seeking Alpha",
+    "summaryLong": "X-Energy: A Credible Nuclear Platform, But Valuation Is Not Cheap Seeking Alpha",
+    "cat": "투자",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "",
+    "source": "seekingalpha.com",
+    "url": "https://seekingalpha.com/article/4922467-x-energy-stock-credible-nuclear-platform-but-valuation-not-cheap",
+    "k": "x energy a credible nuclear platform but valuation is not cheap",
+    "id": "0a7c9b36"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "Around 2 billion years ago, Oklo became a natural nuclear reactor beneath Africa, and its radioactive rem - The Times of India",
+    "summary": "Around 2 billion years ago, Oklo became a natural nuclear reactor beneath Africa, and its radioactive rem The Times of India",
+    "summaryLong": "Around 2 billion years ago, Oklo became a natural nuclear reactor beneath Africa, and its radioactive rem The Times of India",
+    "cat": "투자",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "",
+    "source": "timesofindia.indiatimes.com",
+    "url": "https://timesofindia.indiatimes.com/world/rest-of-world/around-2-billion-years-ago-oklo-became-a-natural-nuclear-reactor-beneath-africa-and-its-radioactive-remains-are-still-there/articleshow/132436519.cms",
+    "k": "around 2 billion years ago oklo became a natural nuclear reactor beneath africa and its radioactive rem",
+    "id": "0e1b48e2"
+  },
+  {
     "date": "2026-07-15",
     "title": "'부산형 SMR 상용화'에 정부 연구개발 지원 나선다",
     "summary": "정부가 부산형 SMR의 상용화를 위한 연구개발 지원을 시작한다.",
@@ -1442,6 +1470,20 @@ window.SMR_NEWS = [
     "id": "c39c262a"
   },
   {
+    "date": "2026-07-14",
+    "title": "NuScale Power Is Down 84% From Its 52-Week High. Is It Finally Time to Buy the Dip in the Nuclear Start-Up? - Yahoo Finance",
+    "summary": "NuScale Power Is Down 84% From Its 52-Week High. Is It Finally Time to Buy the Dip in the Nuclear Start-Up? Yahoo Finance",
+    "summaryLong": "NuScale Power Is Down 84% From Its 52-Week High. Is It Finally Time to Buy the Dip in the Nuclear Start-Up? Yahoo Finance",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/nuscale-power-down-84-52-184100869.html",
+    "k": "nuscale power is down 84 from its 52 week high is it finally time to buy the dip in the nuclear start up",
+    "id": "b6eca06d"
+  },
+  {
     "date": "2026-07-13",
     "title": "홀텍(Holtec), 인도 SMR 사업 포함한 IPO 추진",
     "summary": "미국 핵심 기업 홀텍(Holtec)이 인도에서의 소형모듈원자로(SMR) 사업을 포함하여 기업공개(IPO)를 추진 중이다.",
@@ -2223,6 +2265,34 @@ window.SMR_NEWS = [
     "id": "e1db98b7"
   },
   {
+    "date": "2026-07-13",
+    "title": "NRC issues white safety finding to V.C. Summer",
+    "summary": "The Nuclear Regulatory Commission has upheld and finalized a “white” safety finding at V.C. Summer power plant in Jenkinsville, S.C., over the plant’s failure to properly…",
+    "summaryLong": "The Nuclear Regulatory Commission has upheld and finalized a “white” safety finding at V.C. Summer power plant in Jenkinsville, S.C., over the plant’s failure to properly preplan and perform maintenance on its turbine-driven emergency feedwater pump (TDEFW) governor valve linkage. The 966-MWe three-loop Westinghouse pressurized water reactor at Summer started commercial operati…",
+    "cat": "인허가",
+    "type": "PWR",
+    "dev": "Westinghouse",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-07-13/article-8198/nrc-issues-white-safety-finding-to-vc-summer/",
+    "k": "nrc issues white safety finding to v c summer",
+    "id": "a4191554"
+  },
+  {
+    "date": "2026-07-13",
+    "title": "How InvestingPro’s Fair Value predicted Oklo’s 48% decline By Investing.com - Investing.com",
+    "summary": "How InvestingPro’s Fair Value predicted Oklo’s 48% decline By Investing.com Investing.com",
+    "summaryLong": "How InvestingPro’s Fair Value predicted Oklo’s 48% decline By Investing.com Investing.com",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "",
+    "source": "investing.com",
+    "url": "https://www.investing.com/news/investment-ideas/how-investingpros-fair-value-predicted-oklos-48-decline-93CH-4788010",
+    "k": "how investingpro s fair value predicted oklo s 48 decline by investing com",
+    "id": "6ef33387"
+  },
+  {
     "date": "2026-07-12",
     "title": "SK이노베이션, 테라파워와 소형모듈원자로 상용화 가속",
     "summary": "SK이노베이션(SK Innovation)과 테라파워(TerraPower)가 소형모듈원자로(SMR) 상용화 협력을 가속화한다는 조선일보 보도.",
@@ -2328,6 +2398,20 @@ window.SMR_NEWS = [
     "k": "미국 특징주 smr 개발 홀텍뉴클리어 나스닥 상장 신청",
     "ko": 1,
     "id": "e088196d"
+  },
+  {
+    "date": "2026-07-12",
+    "title": "Could Buying Oklo Today Set You Up for Life? - Yahoo Finance",
+    "summary": "Could Buying Oklo Today Set You Up for Life? Yahoo Finance",
+    "summaryLong": "Could Buying Oklo Today Set You Up for Life? Yahoo Finance",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/could-buying-oklo-today-set-180500399.html",
+    "k": "could buying oklo today set you up for life",
+    "id": "da89181d"
   },
   {
     "date": "2026-07-11",
@@ -3055,6 +3139,20 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "5b7092d0"
+  },
+  {
+    "date": "2026-07-09",
+    "title": "Oklo Just Dropped Below $50. Should Long-Term Investors Pounce? - Yahoo Finance",
+    "summary": "Oklo Just Dropped Below $50. Should Long-Term Investors Pounce? Yahoo Finance",
+    "summaryLong": "Oklo Just Dropped Below $50. Should Long-Term Investors Pounce? Yahoo Finance",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-just-dropped-below-50-192500166.html",
+    "k": "oklo just dropped below 50 should long term investors pounce",
+    "id": "00b077ab"
   },
   {
     "date": "2026-07-08",
@@ -19658,4 +19756,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-17 15:26 KST";
+window.SMR_UPDATED = "2026-07-17 16:05 KST";
