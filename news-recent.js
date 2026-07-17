@@ -1,6 +1,21 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-07-17",
+  "title": "메가프로젝트로 빨라진 SMR 시계, 법 개정·연구개발 동시 추진",
+  "summary": "정부가 SMR을 국책 메가프로젝트로 추진하면서 관련 법 개정과 연구개발을 동시에 진행 중이다.",
+  "summaryLong": "정부가 소형모듈원자로(SMR)를 'K-문샷' 등 국책 메가프로젝트로 격상하면서 규제 환경 개선과 기술 개발이 동시에 추진되고 있다. 관련 법 개정을 통해 인허가 절차를 단축하고, 연구개발 투자를 확대하는 정책적 지원이 진행 중이다. 이러한 정책적 가속화는 국내 SMR 상용화 일정을 앞당기고 글로벌 시장 경쟁력 강화를 목표로 한다.",
+  "cat": "정책",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "m.news.nate.com",
+  "url": "https://m.news.nate.com/view/20260717n06778?mid=m05&list=recent&cpcd=",
+  "k": "메가프로젝트로 빨라진 smr 시계 법 개정 연구개발 동시 추진",
+  "ko": 1,
+  "id": "ef3e89de"
+ },
+ {
   "date": "2026-07-16",
   "title": "원자력안전위원회, SMR 관련 법 개정 속도 추진",
   "summary": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 개발 가속화에 맞춰 SMR 관련 법 개정을 신속히 추진하겠다고 밝혔다.",
@@ -374,6 +389,50 @@ window.SMR_NEWS = [
   "ko": 1,
   "op": 1,
   "id": "f2867998"
+ },
+ {
+  "date": "2026-07-16",
+  "title": "용융염원자로(MSR) 추진 한국 컨테이너선, 미국 선급 기본승인 획득",
+  "summary": "용융염원자로(MSR)를 탑재한 한국 컨테이너선의 개념설계가 미국 선급(ABS) 기본승인을 획득했다.",
+  "summaryLong": "한국에서 개발 중인 용융염원자로(MSR) 추진 컨테이너선 개념설계가 미국 선급협회(ABS: American Bureau of Shipping)로부터 기본승인(AiP: Approval in Principle)을 획득했다. 이는 SMR 추진 해양 선박 개념이 국제 규제 심사의 첫 번째 관문을 통과한 것으로, 향후 상세설계 및 건조 단계로 진행하기 위한 기술적·규제적 기반을 확보한 의미이다. 한국이 차세대 에너지 추진 기술에서 국제 경쟁력을 갖추는 신호로 평가된다.",
+  "cat": "기술",
+  "type": "MSR",
+  "dev": "",
+  "region": "KR",
+  "source": "maritime-executive.com",
+  "url": "https://maritime-executive.com/article/korean-containership-with-molten-salt-nuclear-reactor-gets-abs-approval",
+  "k": "korean containership with molten salt nuclear reactor gets abs approval",
+  "id": "eb7f3273"
+ },
+ {
+  "date": "2026-07-16",
+  "title": "11월 SMR 사전검토제 시행, 신청 의향 기업 3곳",
+  "summary": "원자력안전위원회(원안위)가 11월부터 소형모듈원자로(SMR) 사전검토제를 시행하며, 신청 의향 기업이 3곳으로 파악됐다.",
+  "summaryLong": "원자력안전위원회(원안위)가 11월부터 소형모듈원자로(SMR) 사전검토제를 시행한다. 현재까지 신청 의향을 보인 기업은 3곳으로 파악되었다. 사전검토제는 SMR 개발 기업들이 본격적인 인허가 절차 전에 설계와 기술에 대해 사전 검토를 받는 제도이며, 한국의 SMR 규제 체계 정비 움직임을 나타낸다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "edata.ekn.kr",
+  "url": "https://edata.ekn.kr/article/view/ekn202607160004",
+  "k": "11월 smr 사전검토제 시행 원안위 신청 의향 기업 3곳",
+  "ko": 1,
+  "id": "7b67ca0e"
+ },
+ {
+  "date": "2026-07-16",
+  "title": "SMR 개발 가속에 규제도 채비, 원안위 법·기술 병행 검토",
+  "summary": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 개발 가속에 대응하여 규제 체계의 법·기술적 정비를 병행 검토하고 있다.",
+  "summaryLong": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 개발 가속화에 대응하기 위해 규제 체계의 법적·기술적 측면을 병행하여 검토하고 있다. 이는 국내 SMR 산업 성장에 맞춰 인허가 절차와 안전 기준을 선제적으로 정비하려는 정책 움직임이다. 규제 현대화를 통해 SMR 개발 기업들의 진출 촉진과 국가 경쟁력 강화를 도모하고 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "v.daum.net",
+  "url": "https://v.daum.net/v/20260716120133695",
+  "k": "smr 개발 가속에 규제도 채비 원안위 법 기술 병행 검토",
+  "ko": 1,
+  "id": "365a236e"
  },
  {
   "date": "2026-07-15",
@@ -828,65 +887,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-14",
-  "title": "현대건설, 미국 원전사와 'EAGL-1 프로젝트' 기본 협약 체결",
-  "summary": "현대건설이 미국 원전사와 'EAGL-1 프로젝트'에 대한 기본 협약을 체결하며 SMR 풀라인업 확보를 추진 중이다.",
-  "summaryLong": "현대건설이 미국 원전사와 'EAGL-1 프로젝트'에 대한 기본 협약(Master Agreement)을 체결했다. EAGL-1은 차세대 소형모듈원자로 프로젝트로 추정되며, 현대건설은 이 프로젝트를 통해 다양한 SMR 기술 포트폴리오(풀라인업) 확보를 목표하고 있다. 이 협약은 현대건설의 글로벌 SMR 사업 확대 전략의 핵심 마일스톤이며, 향후 설계, 건설, 운영 등 전 단계에서의 참여 확대를 의미한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "현대건설",
-  "region": "US",
-  "source": "asiatoday.co.kr",
-  "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260714010005017",
-  "k": "smr 풀라인업 확보 현대건설 원전사와 eagl 1 프로젝트 기본 협약",
-  "ko": 1,
-  "id": "1cff64da"
- },
- {
-  "date": "2026-07-14",
-  "title": "현대건설, 미국(US) FANCO와 납-비스무트 냉각 SMR 협력",
-  "summary": "현대건설이 미국의 FANCO와 차세대 납-비스무트 냉각 소형모듈원자로(SMR) 개발 프로젝트 협력을 추진한다.",
-  "summaryLong": "현대건설이 미국의 원자력 기업 FANCO와 납-비스무트 냉각 방식의 소형모듈원자로(SMR) 개발 사업에 협력하기로 결정했다. 이는 현대건설이 차세대 원자로 기술 분야로 사업을 확대하고 글로벌 원전 협력 네트워크를 강화하는 전략의 일환이다. 협력을 통해 현대건설은 EAGL-1 등 FANCO의 SMR 프로젝트에 EPC(설계·조달·건설) 사업 참여를 모색할 예정이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "현대건설",
-  "region": "KR",
-  "source": "biz.chosun.com",
-  "url": "https://biz.chosun.com/en/en-realestate/2026/07/14/25E553TRJ5BLDKWY424YBVJZXE/",
-  "k": "hyundai e c joins us fanco to advance lead bismuth smr project chosunbiz",
-  "id": "c2e38041"
- },
- {
-  "date": "2026-07-14",
-  "title": "아이티센씨티에스, 한국원자력연구원 V-SMR 개발용 슈퍼컴 구축",
-  "summary": "아이티센씨티에스가 한국원자력연구원의 V-SMR(수직형 소형모듈원자로) 개발을 위한 슈퍼컴퓨터를 구축하며 AI 기술을 제공한다.",
-  "summaryLong": "아이티센씨티에스가 한국원자력연구원의 수직형 소형모듈원자로(V-SMR) 개발 프로젝트를 지원하기 위해 슈퍼컴퓨터 인프라를 구축했다. 아이티센씨티에스는 '풀스택(Full-stack) AI' 기술을 제공하여 V-SMR의 설계·분석·시뮬레이션을 지원하는 역할을 한다. 이는 국내 첨단 SMR 개발의 핵심 인프라 구축으로, 연구 속도 가속화와 기술 고도화에 기여할 것으로 예상된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "아이티센씨티에스",
-  "region": "KR",
-  "source": "byline.network",
-  "url": "https://byline.network/2026/07/14-601/",
-  "k": "아이티센씨티에스 원자력연구원 v smr 개발 슈퍼컴 구축 풀스택 ai 제공",
-  "ko": 1,
-  "id": "6b3846cd"
- },
- {
-  "date": "2026-07-14",
-  "title": "현대건설, 미국 FANCO와 차세대 SMR 'EAGL-1' 협력…EPC 참여 모색",
-  "summary": "현대건설이 미국 FANCO의 차세대 SMR 프로젝트 'EAGL-1'에 협력하며 EPC(설계·조달·건설) 사업 참여를 검토한다.",
-  "summaryLong": "현대건설이 미국의 원자력 기업 FANCO와 차세대 소형모듈원자로(SMR) 프로젝트 'EAGL-1'에 대한 협력 계약을 체결했다. 현대건설은 이 프로젝트에서 EPC(설계·조달·건설) 사업 참여를 적극 모색하고 있다. 이는 현대건설이 전통적 대형원전 건설 능력을 바탕으로 차세대 원자로 시장으로 진출하는 전략적 움직임이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "현대건설",
-  "region": "KR",
-  "source": "opinionnews.co.kr",
-  "url": "https://www.opinionnews.co.kr/news/articleView.html?idxno=141487",
-  "k": "현대건설 fanco와 차세대 smr eagl 1 협력 epc 참여 모색",
-  "ko": 1,
-  "id": "9b71f8e7"
- },
- {
-  "date": "2026-07-14",
   "title": "NRC, 웨스팅하우스의 AP1000 표준설계인증 갱신 면제 승인",
   "summary": "미국 원자력규제위원회(NRC)가 웨스팅하우스의 AP1000 가압경수로(PWR) 표준설계인증(DC) 갱신을 위한 일정 요건 면제를 승인했다.",
   "summaryLong": "미국 원자력규제위원회(NRC)는 웨스팅하우스가 AP1000 가압경수로(PWR)의 표준설계인증(DC)을 갱신하고 업데이트하는 과정에서 신청 시기 제한에 대한 면제 요청을 승인했다. 이는 웨스팅하우스가 설계인증 갱신을 추진하는 데 있어 규제 절차상 중요한 진전으로, 갱신 일정의 유연성을 확보하게 됐음을 의미한다.",
@@ -1310,5 +1310,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-17 08:43 KST";
-window.SMR_TOTAL = 1348;
+window.SMR_UPDATED = "2026-07-17 15:01 KST";
+window.SMR_TOTAL = 1354;

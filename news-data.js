@@ -8,6 +8,21 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-07-17",
+    "title": "메가프로젝트로 빨라진 SMR 시계, 법 개정·연구개발 동시 추진",
+    "summary": "정부가 SMR을 국책 메가프로젝트로 추진하면서 관련 법 개정과 연구개발을 동시에 진행 중이다.",
+    "summaryLong": "정부가 소형모듈원자로(SMR)를 'K-문샷' 등 국책 메가프로젝트로 격상하면서 규제 환경 개선과 기술 개발이 동시에 추진되고 있다. 관련 법 개정을 통해 인허가 절차를 단축하고, 연구개발 투자를 확대하는 정책적 지원이 진행 중이다. 이러한 정책적 가속화는 국내 SMR 상용화 일정을 앞당기고 글로벌 시장 경쟁력 강화를 목표로 한다.",
+    "cat": "정책",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "m.news.nate.com",
+    "url": "https://m.news.nate.com/view/20260717n06778?mid=m05&list=recent&cpcd=",
+    "k": "메가프로젝트로 빨라진 smr 시계 법 개정 연구개발 동시 추진",
+    "ko": 1,
+    "id": "ef3e89de"
+  },
+  {
     "date": "2026-07-16",
     "title": "원자력안전위원회, SMR 관련 법 개정 속도 추진",
     "summary": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 개발 가속화에 맞춰 SMR 관련 법 개정을 신속히 추진하겠다고 밝혔다.",
@@ -381,6 +396,50 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "f2867998"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "용융염원자로(MSR) 추진 한국 컨테이너선, 미국 선급 기본승인 획득",
+    "summary": "용융염원자로(MSR)를 탑재한 한국 컨테이너선의 개념설계가 미국 선급(ABS) 기본승인을 획득했다.",
+    "summaryLong": "한국에서 개발 중인 용융염원자로(MSR) 추진 컨테이너선 개념설계가 미국 선급협회(ABS: American Bureau of Shipping)로부터 기본승인(AiP: Approval in Principle)을 획득했다. 이는 SMR 추진 해양 선박 개념이 국제 규제 심사의 첫 번째 관문을 통과한 것으로, 향후 상세설계 및 건조 단계로 진행하기 위한 기술적·규제적 기반을 확보한 의미이다. 한국이 차세대 에너지 추진 기술에서 국제 경쟁력을 갖추는 신호로 평가된다.",
+    "cat": "기술",
+    "type": "MSR",
+    "dev": "",
+    "region": "KR",
+    "source": "maritime-executive.com",
+    "url": "https://maritime-executive.com/article/korean-containership-with-molten-salt-nuclear-reactor-gets-abs-approval",
+    "k": "korean containership with molten salt nuclear reactor gets abs approval",
+    "id": "eb7f3273"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "11월 SMR 사전검토제 시행, 신청 의향 기업 3곳",
+    "summary": "원자력안전위원회(원안위)가 11월부터 소형모듈원자로(SMR) 사전검토제를 시행하며, 신청 의향 기업이 3곳으로 파악됐다.",
+    "summaryLong": "원자력안전위원회(원안위)가 11월부터 소형모듈원자로(SMR) 사전검토제를 시행한다. 현재까지 신청 의향을 보인 기업은 3곳으로 파악되었다. 사전검토제는 SMR 개발 기업들이 본격적인 인허가 절차 전에 설계와 기술에 대해 사전 검토를 받는 제도이며, 한국의 SMR 규제 체계 정비 움직임을 나타낸다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "edata.ekn.kr",
+    "url": "https://edata.ekn.kr/article/view/ekn202607160004",
+    "k": "11월 smr 사전검토제 시행 원안위 신청 의향 기업 3곳",
+    "ko": 1,
+    "id": "7b67ca0e"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "SMR 개발 가속에 규제도 채비, 원안위 법·기술 병행 검토",
+    "summary": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 개발 가속에 대응하여 규제 체계의 법·기술적 정비를 병행 검토하고 있다.",
+    "summaryLong": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 개발 가속화에 대응하기 위해 규제 체계의 법적·기술적 측면을 병행하여 검토하고 있다. 이는 국내 SMR 산업 성장에 맞춰 인허가 절차와 안전 기준을 선제적으로 정비하려는 정책 움직임이다. 규제 현대화를 통해 SMR 개발 기업들의 진출 촉진과 국가 경쟁력 강화를 도모하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260716120133695",
+    "k": "smr 개발 가속에 규제도 채비 원안위 법 기술 병행 검토",
+    "ko": 1,
+    "id": "365a236e"
   },
   {
     "date": "2026-07-15",
@@ -1277,6 +1336,36 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "68a26b22"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "현대건설, 미국 FANCO와 차세대 SMR 'EAGL-1' 협력",
+    "summary": "현대건설이 미국 FANCO사와 차세대 소형모듈원자로(SMR) 'EAGL-1' 개발·사업화를 위한 협력을 추진한다.",
+    "summaryLong": "현대건설이 미국의 첨단로 개발사 FANCO(Fission Energy)와 차세대 소형모듈원자로(SMR) 'EAGL-1' 개발 및 사업화에 대한 협력 관계를 체결했다. 이는 한국의 주요 건설사가 미국의 선진 SMR 기술을 국내 및 해외 시장에 적용하려는 전략적 파트너십으로, 한국의 원자력 에너지 생태계 확대와 SMR 시장 진출을 의미한다. 양사는 기술 개발, 인허가 추진, 사업 기획 등을 공동으로 추진할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Hyundai Engineering & Construction, FANCO",
+    "region": "KR",
+    "source": "dailysportshankook.co.kr",
+    "url": "https://www.dailysportshankook.co.kr/news/articleView.html?idxno=431154",
+    "k": "현대건설 미국 fanco와 차세대 smr eagl 1 협력",
+    "ko": 1,
+    "id": "2ccd38b2"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "현대건설, 미국 SMR 사업 협력으로 120만 가구 전력 공급 규모 사업 추진",
+    "summary": "현대건설이 미국 SMR 사업 파트너십을 통해 120만 가구 규모의 전력 공급 프로젝트를 추진한다.",
+    "summaryLong": "현대건설이 미국 SMR 개발사와의 협력을 통해 6기의 소형모듈원자로(SMR) 기반 발전 사업을 추진하여 약 120만 가구에 전력을 공급하는 규모의 프로젝트를 목표로 하고 있다. 이는 현대건설의 국제 원자력 사업 확대 전략의 핵심 프로젝트로, 미국 시장에서의 SMR 상용화 및 대규모 배치(deployment) 기회를 활용하는 전략이다. 성공 시 국내 건설사의 글로벌 원자력 산업 경쟁력 강화에 중요한 의미를 갖는다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대건설",
+    "region": "US",
+    "source": "hankyung.com",
+    "url": "https://www.hankyung.com/article/2026071435236",
+    "k": "원전 6기로 120만가구 전력 현대건설 smr 사업 협력",
+    "ko": 1,
+    "id": "7fec3d2c"
   },
   {
     "date": "2026-07-13",
@@ -19495,4 +19584,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-17 08:43 KST";
+window.SMR_UPDATED = "2026-07-17 15:01 KST";
