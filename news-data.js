@@ -66,6 +66,21 @@ window.SMR_NEWS = [
     "id": "55d77bc1"
   },
   {
+    "date": "2026-07-17",
+    "title": "경북도·경주시, '상용' SMR 유치에 재도전",
+    "summary": "경주시의 실용 SMR(KSNP) 유치 실패 이후, 상용 SMR 유치를 추진 중이다.",
+    "summaryLong": "경주시와 경북도가 기존의 실용급 소형모듈원자로(KSNP, 실용 SMR) 유치 계획 좌절 후, 상용급 SMR 유치로 방향을 전환하고 있다. 이는 SMR 국내 실증 사업 추진 과정에서의 정책 조정으로, 차기 SMR 유치 대상지 선정과 관련한 정부 정책 움직임이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "newsis.com",
+    "url": "https://www.newsis.com/view/NISX20260717_0003713446",
+    "k": "실용 smr 유치 실패 경북도 경주시 상용 에 재도전",
+    "ko": 1,
+    "id": "0d90580e"
+  },
+  {
     "date": "2026-07-16",
     "title": "원자력안전위원회, SMR 관련 법 개정 속도 추진",
     "summary": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 개발 가속화에 맞춰 SMR 관련 법 개정을 신속히 추진하겠다고 밝혔다.",
@@ -948,6 +963,21 @@ window.SMR_NEWS = [
     "k": "smr 추진 컨테이너선 선급 기본승인 획득 무탄소 선박 시대 청신호",
     "ko": 1,
     "id": "aea0b3a4"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "SMR 추진 대형 컨테이너선 기본승인 획득",
+    "summary": "SMR 추진 대형 컨테이너선이 미국선급협회로부터 기본승인을 획득했다.",
+    "summaryLong": "한국의 연구기관이 추진하는 소형모듈원자로(SMR) 추진 대형 컨테이너선 개념설계가 미국선급협회(ABS)로부터 기본승인(Approval in Principle, AIP)을 획득했다. 이는 SMR의 해양 추진 응용 분야에서 국제 규제 기관으로부터 첫 인정을 받은 것으로, 상용화를 향한 중요한 마일스톤이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "KRISO",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5063",
+    "k": "smr 추진 대형 컨테이너선 기본승인 획득",
+    "ko": 1,
+    "id": "02ec23bc"
   },
   {
     "date": "2026-07-14",
@@ -19859,4 +19889,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-18 07:59 KST";
+window.SMR_UPDATED = "2026-07-18 08:38 KST";

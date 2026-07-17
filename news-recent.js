@@ -59,6 +59,21 @@ window.SMR_NEWS = [
   "id": "55d77bc1"
  },
  {
+  "date": "2026-07-17",
+  "title": "경북도·경주시, '상용' SMR 유치에 재도전",
+  "summary": "경주시의 실용 SMR(KSNP) 유치 실패 이후, 상용 SMR 유치를 추진 중이다.",
+  "summaryLong": "경주시와 경북도가 기존의 실용급 소형모듈원자로(KSNP, 실용 SMR) 유치 계획 좌절 후, 상용급 SMR 유치로 방향을 전환하고 있다. 이는 SMR 국내 실증 사업 추진 과정에서의 정책 조정으로, 차기 SMR 유치 대상지 선정과 관련한 정부 정책 움직임이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "newsis.com",
+  "url": "https://www.newsis.com/view/NISX20260717_0003713446",
+  "k": "실용 smr 유치 실패 경북도 경주시 상용 에 재도전",
+  "ko": 1,
+  "id": "0d90580e"
+ },
+ {
   "date": "2026-07-16",
   "title": "원자력안전위원회, SMR 관련 법 개정 속도 추진",
   "summary": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 개발 가속화에 맞춰 SMR 관련 법 개정을 신속히 추진하겠다고 밝혔다.",
@@ -1324,5 +1339,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-18 07:59 KST";
-window.SMR_TOTAL = 1373;
+window.SMR_UPDATED = "2026-07-18 08:38 KST";
+window.SMR_TOTAL = 1375;
