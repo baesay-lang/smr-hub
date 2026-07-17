@@ -16,6 +16,21 @@ window.SMR_NEWS = [
   "id": "ef3e89de"
  },
  {
+  "date": "2026-07-17",
+  "title": "현대건설, 미국 FANCO와 4세대 SMR 협력·원자로 풀라인업 완성",
+  "summary": "현대건설이 미국의 FANCO와 4세대 소형모듈원자로(SMR) 협력을 체결하여 원자로 포트폴리오를 확대한다.",
+  "summaryLong": "현대건설이 미국 기업 FANCO와 4세대 소형모듈원자로(SMR) 기술 협력을 추진하기로 합의했다. 이를 통해 현대건설은 기존의 대형로·중형로에 이어 SMR을 포함한 다양한 급수의 원자로 제품군(원자로 풀라인업)을 갖추게 된다. 이 협력은 글로벌 SMR 시장 진출을 위한 현대건설의 전략적 포지셔닝을 나타낸다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "Hyundai E&C",
+  "region": "KR",
+  "source": "inpnews.kr",
+  "url": "https://www.inpnews.kr/news/articleView.html?idxno=7343",
+  "k": "현대건설 fanco와 4세대 smr 협력 원자로 풀라인업 완성",
+  "ko": 1,
+  "id": "230cd346"
+ },
+ {
   "date": "2026-07-16",
   "title": "원자력안전위원회, SMR 관련 법 개정 속도 추진",
   "summary": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 개발 가속화에 맞춰 SMR 관련 법 개정을 신속히 추진하겠다고 밝혔다.",
@@ -435,6 +450,36 @@ window.SMR_NEWS = [
   "id": "365a236e"
  },
  {
+  "date": "2026-07-16",
+  "title": "SMR 추진 컨테이너선, 미국선급 기본승인 획득·원자력 상선 시대 진입",
+  "summary": "한국 선박플랜트연구소가 개발한 소형모듈원자로(SMR) 추진 컨테이너선이 미국선급협회(ABS) 기본승인을 받았다.",
+  "summaryLong": "한국 선박플랜트연구소(KRISO 또는 해양플랜트연)가 소형모듈원자로(SMR)를 추진 시스템으로 하는 컨테이너선의 개념설계에 대해 미국선급협회(ABS)로부터 기본승인(기본 인증)을 획득했다. 이는 SMR 기술을 해양 수송에 적용하려는 국내 산업 진출의 주요 마일스톤이며, 무탄소·친환경 선박 시대의 기술적 가능성을 보여준다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "KRISO",
+  "region": "KR",
+  "source": "hellodd.com",
+  "url": "https://www.hellodd.com/news/articleView.html?idxno=112503",
+  "k": "원자력 상선 시대 성큼 선박플랜트연 smr 추진 컨테이너선 승인 획득",
+  "ko": 1,
+  "id": "fc42813b"
+ },
+ {
+  "date": "2026-07-16",
+  "title": "체코의 SMR 영토 확장, 자국 제조업계 대규모 낙수효과 기대",
+  "summary": "체코가 소형모듈원자로 사업 영역을 확대하면서 국내 제조업체들의 공급망 참여와 경제적 이득을 기대하고 있다.",
+  "summaryLong": "체코의 SMR 프로젝트 추진이 확대되면서 체코 자국 제조업계에 대한 대규모 낙수효과(경제 파급 효과)가 예상되고 있다. 이는 SMR 건설과 부품 공급에 필요한 산업 생태계 조성 및 고용 창출로 이어질 것으로 전망된다. 체코 정부의 에너지 정책 전환 속에서 SMR이 핵심 전략으로 자리잡고 있음을 보여주는 사례이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "EU",
+  "source": "cucucu.co.kr",
+  "url": "https://www.cucucu.co.kr/news/view.php?no=4415",
+  "k": "체코 smr 영토 확장 자국 제조업계 대규모 낙수효과 기대",
+  "ko": 1,
+  "id": "cf389171"
+ },
+ {
   "date": "2026-07-15",
   "title": "'부산형 SMR 상용화'에 정부 연구개발 지원 나선다",
   "summary": "정부가 부산형 SMR의 상용화를 위한 연구개발 지원을 시작한다.",
@@ -798,6 +843,20 @@ window.SMR_NEWS = [
   "id": "28ca3c5e"
  },
  {
+  "date": "2026-07-15",
+  "title": "TRISO-X, 신규 핵연료 시설과 연구개발 센터로 1,100명 이상의 일자리 창출",
+  "summary": "TRISO-X가 새로운 핵연료 제조 시설과 연구개발 센터 건립을 통해 1,100명 이상의 일자리를 창출할 예정이다.",
+  "summaryLong": "TRISO-X가 테네시주(Tennessee)에 신규 고온가스로(HTGR) 및 첨단로용 TRISO 핵연료 제조 시설과 연구개발 센터를 건설하여 1,100명 이상의 고용 창출을 계획하고 있다. 이는 미국의 첨단 원자로 연료 공급 능력 강화 및 제조 기반 구축을 위한 정부 지원 정책의 일환이다. TRISO-X의 시설 확충은 고온가스로, 마이크로 원자로 등 차세대 원자로 상용화를 위한 필수 인프라 구축을 의미한다.",
+  "cat": "기술",
+  "type": "HTGR",
+  "dev": "TRISO-X",
+  "region": "US",
+  "source": "tnecd.com",
+  "url": "https://tnecd.com/news/triso-x-to-create-more-than-1100-jobs-through-new-fuel-facility-research-and-development-center/",
+  "k": "triso x to create more than 1 100 jobs through new fuel facility research and development center",
+  "id": "091ced3a"
+ },
+ {
   "date": "2026-07-14",
   "title": "사천 환경단체, 삼천포화력 부지 SMR 추진 반대",
   "summary": "경남 사천지역 환경단체가 삼천포화력발전소 폐지 부지에 소형모듈원자로(SMR)를 도입하려는 계획에 반발하며 즉각 철회를 촉구했다.",
@@ -826,49 +885,6 @@ window.SMR_NEWS = [
   "k": "현대건설 미국서 차세대 소형모듈원자로 협력 기본협약",
   "ko": 1,
   "id": "82af0948"
- },
- {
-  "date": "2026-07-14",
-  "title": "한·미·일, SMR 수출 동맹 구성",
-  "summary": "한국, 미국, 일본이 소형모듈원자로(SMR) 수출을 위한 3국 협력 동맹을 결성했다.",
-  "summaryLong": "한국, 미국, 일본 3개국이 소형모듈원자로(SMR) 기술 수출 및 글로벌 시장 개척을 위한 정부 간 협력 동맹을 공식 출범시켰다. 이는 SMR의 국제 수출 경쟁력 강화 및 규제 조화, 기술 표준화를 추진하기 위한 정책적 움직임이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "upi.com",
-  "url": "https://www.upi.com/Top_News/World-News/2026/07/13/united-states-japan-joint-small-modular-reactor-project/9231783994951/",
-  "k": "south korea u s japan form alliance on smr exports",
-  "id": "9e3d6bd4"
- },
- {
-  "date": "2026-07-14",
-  "title": "아이티센씨티에스, 원자력 V-SMR 개발용 슈퍼컴 구축",
-  "summary": "아이티센씨티에스가 원자력 V-SMR(수직축 소형모듈원자로) 개발 지원용 슈퍼컴퓨터 시스템을 구축했다.",
-  "summaryLong": "정보통신 기업 아이티센씨티에스가 국내 첨단로 개발 프로젝트 중 하나인 V-SMR(수직축 소형모듈원자로) 기술 개발을 지원하기 위한 고성능 슈퍼컴퓨터 시스템을 신규 구축했다. 슈퍼컴은 원자로 설계, 열수력 해석, 안전 평가 등 복잡한 계산 작업을 담당하게 되며, 국내 SMR 자주 기술 개발 역량을 강화하는 데 기여할 것으로 기대된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "아이티센씨티에스",
-  "region": "KR",
-  "source": "mt.co.kr",
-  "url": "https://www.mt.co.kr/stock/2026/07/14/2026071413269682002",
-  "k": "더벨 아이티센씨티에스 원자력 v smr 개발 슈퍼컴 구축 머니투데이",
-  "ko": 1,
-  "id": "5b8c066d"
- },
- {
-  "date": "2026-07-14",
-  "title": "현대건설, FANCO(Fundamental Advanced Next-generation Compact Oscillator)와 미국(US) SMR 사업 전략적 파트너십 체결",
-  "summary": "현대건설이 미국의 FANCO와 소형모듈원자로(SMR) 사업을 위한 전략적 파트너십을 체결했다.",
-  "summaryLong": "현대건설이 미국의 FANCO와 소형모듈원자로(SMR) 사업 확대를 위한 전략적 파트너십을 체결했다. 이 파트너십을 통해 현대건설은 미국 시장에서의 SMR 사업 입지를 강화하고, FANCO와 함께 차세대 원자로 기술 개발 및 사업화를 추진할 것으로 보인다. 이는 현대건설의 글로벌 원전 협력망 확대 전략의 일환이며, 첨단 소형원자로 분야에서의 기술 협력 강화를 의미한다.",
-  "cat": "계약",
-  "type": "General",
-  "dev": "현대건설, FANCO",
-  "region": "US",
-  "source": "koreaittimes.com",
-  "url": "https://www.koreaittimes.com/news/articleView.html?idxno=155214",
-  "k": "hyundai e c expands u s smr ambitions through strategic partnership with fanco",
-  "id": "96237832"
  },
  {
   "date": "2026-07-14",
@@ -1310,5 +1326,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-17 15:01 KST";
-window.SMR_TOTAL = 1354;
+window.SMR_UPDATED = "2026-07-17 15:26 KST";
+window.SMR_TOTAL = 1359;

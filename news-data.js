@@ -23,6 +23,21 @@ window.SMR_NEWS = [
     "id": "ef3e89de"
   },
   {
+    "date": "2026-07-17",
+    "title": "현대건설, 미국 FANCO와 4세대 SMR 협력·원자로 풀라인업 완성",
+    "summary": "현대건설이 미국의 FANCO와 4세대 소형모듈원자로(SMR) 협력을 체결하여 원자로 포트폴리오를 확대한다.",
+    "summaryLong": "현대건설이 미국 기업 FANCO와 4세대 소형모듈원자로(SMR) 기술 협력을 추진하기로 합의했다. 이를 통해 현대건설은 기존의 대형로·중형로에 이어 SMR을 포함한 다양한 급수의 원자로 제품군(원자로 풀라인업)을 갖추게 된다. 이 협력은 글로벌 SMR 시장 진출을 위한 현대건설의 전략적 포지셔닝을 나타낸다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Hyundai E&C",
+    "region": "KR",
+    "source": "inpnews.kr",
+    "url": "https://www.inpnews.kr/news/articleView.html?idxno=7343",
+    "k": "현대건설 fanco와 4세대 smr 협력 원자로 풀라인업 완성",
+    "ko": 1,
+    "id": "230cd346"
+  },
+  {
     "date": "2026-07-16",
     "title": "원자력안전위원회, SMR 관련 법 개정 속도 추진",
     "summary": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 개발 가속화에 맞춰 SMR 관련 법 개정을 신속히 추진하겠다고 밝혔다.",
@@ -442,6 +457,36 @@ window.SMR_NEWS = [
     "id": "365a236e"
   },
   {
+    "date": "2026-07-16",
+    "title": "SMR 추진 컨테이너선, 미국선급 기본승인 획득·원자력 상선 시대 진입",
+    "summary": "한국 선박플랜트연구소가 개발한 소형모듈원자로(SMR) 추진 컨테이너선이 미국선급협회(ABS) 기본승인을 받았다.",
+    "summaryLong": "한국 선박플랜트연구소(KRISO 또는 해양플랜트연)가 소형모듈원자로(SMR)를 추진 시스템으로 하는 컨테이너선의 개념설계에 대해 미국선급협회(ABS)로부터 기본승인(기본 인증)을 획득했다. 이는 SMR 기술을 해양 수송에 적용하려는 국내 산업 진출의 주요 마일스톤이며, 무탄소·친환경 선박 시대의 기술적 가능성을 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "KRISO",
+    "region": "KR",
+    "source": "hellodd.com",
+    "url": "https://www.hellodd.com/news/articleView.html?idxno=112503",
+    "k": "원자력 상선 시대 성큼 선박플랜트연 smr 추진 컨테이너선 승인 획득",
+    "ko": 1,
+    "id": "fc42813b"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "체코의 SMR 영토 확장, 자국 제조업계 대규모 낙수효과 기대",
+    "summary": "체코가 소형모듈원자로 사업 영역을 확대하면서 국내 제조업체들의 공급망 참여와 경제적 이득을 기대하고 있다.",
+    "summaryLong": "체코의 SMR 프로젝트 추진이 확대되면서 체코 자국 제조업계에 대한 대규모 낙수효과(경제 파급 효과)가 예상되고 있다. 이는 SMR 건설과 부품 공급에 필요한 산업 생태계 조성 및 고용 창출로 이어질 것으로 전망된다. 체코 정부의 에너지 정책 전환 속에서 SMR이 핵심 전략으로 자리잡고 있음을 보여주는 사례이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "EU",
+    "source": "cucucu.co.kr",
+    "url": "https://www.cucucu.co.kr/news/view.php?no=4415",
+    "k": "체코 smr 영토 확장 자국 제조업계 대규모 낙수효과 기대",
+    "ko": 1,
+    "id": "cf389171"
+  },
+  {
     "date": "2026-07-15",
     "title": "'부산형 SMR 상용화'에 정부 연구개발 지원 나선다",
     "summary": "정부가 부산형 SMR의 상용화를 위한 연구개발 지원을 시작한다.",
@@ -803,6 +848,20 @@ window.SMR_NEWS = [
     "k": "smr 추진 컨테이너선 국제 첫 관문 넘었다",
     "ko": 1,
     "id": "28ca3c5e"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "TRISO-X, 신규 핵연료 시설과 연구개발 센터로 1,100명 이상의 일자리 창출",
+    "summary": "TRISO-X가 새로운 핵연료 제조 시설과 연구개발 센터 건립을 통해 1,100명 이상의 일자리를 창출할 예정이다.",
+    "summaryLong": "TRISO-X가 테네시주(Tennessee)에 신규 고온가스로(HTGR) 및 첨단로용 TRISO 핵연료 제조 시설과 연구개발 센터를 건설하여 1,100명 이상의 고용 창출을 계획하고 있다. 이는 미국의 첨단 원자로 연료 공급 능력 강화 및 제조 기반 구축을 위한 정부 지원 정책의 일환이다. TRISO-X의 시설 확충은 고온가스로, 마이크로 원자로 등 차세대 원자로 상용화를 위한 필수 인프라 구축을 의미한다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "TRISO-X",
+    "region": "US",
+    "source": "tnecd.com",
+    "url": "https://tnecd.com/news/triso-x-to-create-more-than-1100-jobs-through-new-fuel-facility-research-and-development-center/",
+    "k": "triso x to create more than 1 100 jobs through new fuel facility research and development center",
+    "id": "091ced3a"
   },
   {
     "date": "2026-07-14",
@@ -1366,6 +1425,21 @@ window.SMR_NEWS = [
     "k": "원전 6기로 120만가구 전력 현대건설 smr 사업 협력",
     "ko": 1,
     "id": "7fec3d2c"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "현대건설, 미국 팬코(FANCO)와 납-비스무트 냉각 소형모듈원자로(SMR) 사업 협력",
+    "summary": "현대건설이 미국의 팬코(FANCO)와 납-비스무트(Pb-Bi) 냉각 소형모듈원자로(SMR) 개발에 협력하기로 했다.",
+    "summaryLong": "현대건설이 미국의 팬코(FANCO)와 납-비스무트(Pb-Bi) 냉각 방식의 소형모듈원자로(SMR) 개발 사업에서 협력하기로 합의했다. 현대건설은 원자력 발전소 건설 및 운영 경험을 바탕으로 고급 냉각재 기술 기반 SMR 기술 개발 및 상용화에 참여하게 되며, 이는 한국 건설사의 차세대 원자력 기술 분야 진출을 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대건설",
+    "region": "US",
+    "source": "biz.chosun.com",
+    "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/07/14/4UAZFCPXFJEXRMILNUHGVFHEBA/",
+    "k": "현대건설 fanco와 납 비스무트 냉각 smr 사업 협력 조선비즈",
+    "ko": 1,
+    "id": "c39c262a"
   },
   {
     "date": "2026-07-13",
@@ -19584,4 +19658,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-17 15:01 KST";
+window.SMR_UPDATED = "2026-07-17 15:26 KST";
