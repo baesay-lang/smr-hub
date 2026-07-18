@@ -626,6 +626,37 @@ window.SMR_NEWS = [
   "id": "796f5659"
  },
  {
+  "date": "2026-07-16",
+  "title": "메가프로젝트 속도전에 따라 SMR 규제도 '더 빨리'",
+  "summary": "정부의 3대 메가프로젝트 추진에 맞춰 SMR 규제 체계도 신속화 추진.",
+  "summaryLong": "한국 정부가 추진 중인 3대 메가프로젝트의 속도전에 발맞춰 소형모듈원자로(SMR) 관련 규제 프로세스도 빠르게 진행될 것으로 보도되었다. 이는 SMR 산업 활성화를 위한 정부 정책 차원의 규제 개선 움직임으로, SMR 개발·사업화 경로 단축을 목표로 한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "mt.co.kr",
+  "url": "https://www.mt.co.kr/tech/2026/07/16/2026071514173781695",
+  "k": "속도전 3대 메가프로젝트 따라 smr 규제도 더 빨리 머니투데이",
+  "ko": 1,
+  "op": 1,
+  "id": "dae83305"
+ },
+ {
+  "date": "2026-07-16",
+  "title": "KRISO, SMR 추진 컨테이너선 개념설계 미국선급협회 기본승인 획득",
+  "summary": "한국해양과학기술원(KRISO)이 SMR 추진 컨테이너선 개념설계에 대해 미국선급협회(ABS)로부터 기본승인 획득.",
+  "summaryLong": "한국해양과학기술원(KRISO)이 개발 중인 소형모듈원자로(SMR) 추진 대형 컨테이너선의 개념설계가 미국선급협회(American Bureau of Shipping, ABS)로부터 기본승인(AiP, Approval in Principle)을 획득했다. 이는 SMR 추진 선박의 국제 규제 승인 과정의 첫 단계 통과로, 상용화를 향한 중요한 마일스톤이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "KRISO",
+  "region": "KR",
+  "source": "2news.co.kr",
+  "url": "https://www.2news.co.kr/news/articleView.html?idxno=16173",
+  "k": "kriso smr 추진 컨테이너선 개념설계 미국선급협회 기본승인 획득",
+  "ko": 1,
+  "id": "a4a63ab2"
+ },
+ {
   "date": "2026-07-15",
   "title": "'부산형 SMR 상용화'에 정부 연구개발 지원 나선다",
   "summary": "정부가 부산형 SMR의 상용화를 위한 연구개발 지원을 시작한다.",
@@ -858,21 +889,6 @@ window.SMR_NEWS = [
   "k": "경주 원전 전주기 도시 도약 smr 산단 ai 데이터센터 승부수",
   "ko": 1,
   "id": "413a9799"
- },
- {
-  "date": "2026-07-15",
-  "title": "경수로에서 고속로까지…현대건설, 4세대 SMR 선점",
-  "summary": "현대건설이 가압경수로(PWR) 기반의 소형모듈원자로부터 고속로(SFR) 등 4세대 원자로까지 다양한 포트폴리오로 SMR 시장 선점을 추진 중이다.",
-  "summaryLong": "현대건설이 SMR 사업 포트폴리오를 확대하고 있다. 기존의 가압경수로(PWR) 기반 중소형 원전에서 출발하여 나트륨냉각고속로(SFR) 등 4세대 원자로 기술까지 확보하려는 전략이 드러난다. 이는 다양한 응용 분야와 고객 요구에 대응할 수 있는 '풀 라인업' 구축을 목표로 하며, 글로벌 SMR 시장에서의 경쟁력 강화를 의도한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "현대건설",
-  "region": "KR",
-  "source": "ket.kr",
-  "url": "https://ket.kr/news/article.html?no=39438",
-  "k": "경수로에서 고속로까지 현대건설 4세대 smr 선점",
-  "ko": 1,
-  "id": "a020b3fd"
  },
  {
   "date": "2026-07-15",
@@ -1385,5 +1401,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-18 14:43 KST";
-window.SMR_TOTAL = 1379;
+window.SMR_UPDATED = "2026-07-18 15:14 KST";
+window.SMR_TOTAL = 1381;

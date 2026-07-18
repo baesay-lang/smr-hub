@@ -633,6 +633,37 @@ window.SMR_NEWS = [
     "id": "796f5659"
   },
   {
+    "date": "2026-07-16",
+    "title": "메가프로젝트 속도전에 따라 SMR 규제도 '더 빨리'",
+    "summary": "정부의 3대 메가프로젝트 추진에 맞춰 SMR 규제 체계도 신속화 추진.",
+    "summaryLong": "한국 정부가 추진 중인 3대 메가프로젝트의 속도전에 발맞춰 소형모듈원자로(SMR) 관련 규제 프로세스도 빠르게 진행될 것으로 보도되었다. 이는 SMR 산업 활성화를 위한 정부 정책 차원의 규제 개선 움직임으로, SMR 개발·사업화 경로 단축을 목표로 한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "mt.co.kr",
+    "url": "https://www.mt.co.kr/tech/2026/07/16/2026071514173781695",
+    "k": "속도전 3대 메가프로젝트 따라 smr 규제도 더 빨리 머니투데이",
+    "ko": 1,
+    "op": 1,
+    "id": "dae83305"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "KRISO, SMR 추진 컨테이너선 개념설계 미국선급협회 기본승인 획득",
+    "summary": "한국해양과학기술원(KRISO)이 SMR 추진 컨테이너선 개념설계에 대해 미국선급협회(ABS)로부터 기본승인 획득.",
+    "summaryLong": "한국해양과학기술원(KRISO)이 개발 중인 소형모듈원자로(SMR) 추진 대형 컨테이너선의 개념설계가 미국선급협회(American Bureau of Shipping, ABS)로부터 기본승인(AiP, Approval in Principle)을 획득했다. 이는 SMR 추진 선박의 국제 규제 승인 과정의 첫 단계 통과로, 상용화를 향한 중요한 마일스톤이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "KRISO",
+    "region": "KR",
+    "source": "2news.co.kr",
+    "url": "https://www.2news.co.kr/news/articleView.html?idxno=16173",
+    "k": "kriso smr 추진 컨테이너선 개념설계 미국선급협회 기본승인 획득",
+    "ko": 1,
+    "id": "a4a63ab2"
+  },
+  {
     "date": "2026-07-15",
     "title": "'부산형 SMR 상용화'에 정부 연구개발 지원 나선다",
     "summary": "정부가 부산형 SMR의 상용화를 위한 연구개발 지원을 시작한다.",
@@ -19949,4 +19980,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-18 14:43 KST";
+window.SMR_UPDATED = "2026-07-18 15:14 KST";
