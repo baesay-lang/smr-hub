@@ -664,6 +664,21 @@ window.SMR_NEWS = [
     "id": "a4a63ab2"
   },
   {
+    "date": "2026-07-16",
+    "title": "'K-문샷' SMR 추진 컨테이너선, 국제 기본인증 획득",
+    "summary": "국내 SMR 추진 컨테이너선 개념설계가 국제 기본인증을 획득했다.",
+    "summaryLong": "한국이 추진 중인 '문샷' 프로젝트의 소형모듈원자로(SMR) 추진 대형 컨테이너선이 국제해사기구(IMO) 및 선급 기준 기본인증(Preliminary Approval)을 획득했다. 이는 차세대 저탄소 해운 추진 기술로 SMR을 적용한 선박 개발의 초기 규제 관문을 통과한 것으로, 실선 건조 단계로의 진입을 위한 중요한 이정표이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "sedaily.com",
+    "url": "https://www.sedaily.com/article/20068441",
+    "k": "k 문샷 smr 추진 컨테이너선 국제 기본인증 획득 첫 관문 통과",
+    "ko": 1,
+    "id": "8bd69dfa"
+  },
+  {
     "date": "2026-07-15",
     "title": "'부산형 SMR 상용화'에 정부 연구개발 지원 나선다",
     "summary": "정부가 부산형 SMR의 상용화를 위한 연구개발 지원을 시작한다.",
@@ -1706,6 +1721,21 @@ window.SMR_NEWS = [
     "k": "현대건설 fanco와 손잡고 글로벌 smr 공략 박차",
     "ko": 1,
     "id": "4d4c2e88"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "아이티센씨티에스, 원자력연 V-SMR 개발 슈퍼컴 구축",
+    "summary": "아이티센씨티에스가 원자력연구원(KAERI)의 V-SMR 개발을 위한 슈퍼컴퓨팅 시스템을 구축했다.",
+    "summaryLong": "아이티센씨티에스(ITSENTIS)가 한국원자력연구원(KAERI)의 첨단 소형모듈원자로인 V-SMR(Versatile-SMR) 개발을 지원하기 위한 슈퍼컴퓨터 시스템을 구축하여 납품했다. 이는 V-SMR의 설계·개발 과정에서 복잡한 열수력·중성자물리 해석에 필요한 고성능 컴퓨팅 인프라를 제공하는 기술 파트너십 결과로, 국내 SMR 개발 기반 확충의 일환이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "KAERI",
+    "region": "KR",
+    "source": "dt.co.kr",
+    "url": "https://www.dt.co.kr/article/12072920",
+    "k": "아이티센씨티에스 원자력 v smr 개발 슈퍼컴 구축",
+    "ko": 1,
+    "id": "44892ab9"
   },
   {
     "date": "2026-07-13",
@@ -19980,4 +20010,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-18 15:14 KST";
+window.SMR_UPDATED = "2026-07-18 15:34 KST";

@@ -657,6 +657,21 @@ window.SMR_NEWS = [
   "id": "a4a63ab2"
  },
  {
+  "date": "2026-07-16",
+  "title": "'K-문샷' SMR 추진 컨테이너선, 국제 기본인증 획득",
+  "summary": "국내 SMR 추진 컨테이너선 개념설계가 국제 기본인증을 획득했다.",
+  "summaryLong": "한국이 추진 중인 '문샷' 프로젝트의 소형모듈원자로(SMR) 추진 대형 컨테이너선이 국제해사기구(IMO) 및 선급 기준 기본인증(Preliminary Approval)을 획득했다. 이는 차세대 저탄소 해운 추진 기술로 SMR을 적용한 선박 개발의 초기 규제 관문을 통과한 것으로, 실선 건조 단계로의 진입을 위한 중요한 이정표이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "sedaily.com",
+  "url": "https://www.sedaily.com/article/20068441",
+  "k": "k 문샷 smr 추진 컨테이너선 국제 기본인증 획득 첫 관문 통과",
+  "ko": 1,
+  "id": "8bd69dfa"
+ },
+ {
   "date": "2026-07-15",
   "title": "'부산형 SMR 상용화'에 정부 연구개발 지원 나선다",
   "summary": "정부가 부산형 SMR의 상용화를 위한 연구개발 지원을 시작한다.",
@@ -874,21 +889,6 @@ window.SMR_NEWS = [
   "k": "김한곤 단장 ai 시대 전력 경쟁력 smr 원전 제조 유일 국가 대한민국",
   "ko": 1,
   "id": "eedba6c7"
- },
- {
-  "date": "2026-07-15",
-  "title": "경주 '원전 전주기 도시' 도약…SMR 산단·AI 데이터센터 승부수",
-  "summary": "경주시가 SMR 산업단지와 AI 데이터센터를 중심으로 '원전 전주기 도시'로 도약하려는 계획을 추진 중이다.",
-  "summaryLong": "경주시가 SMR 산업단지 조성과 AI 데이터센터 유치를 핵심 전략으로 추진 중이다. 이는 기존의 원전 운영·관리 역할에서 한 단계 나아가 SMR 제조·건설·운영의 전주기 거점으로 도약하려는 구상이다. AI 시대의 전력 수요 증가에 대응하며, SMR이 분산 배치 가능한 청정에너지원으로서 데이터센터의 전력 공급원이 될 수 있다는 전략이 담겨있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "kyongbuk.co.kr",
-  "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4078443",
-  "k": "경주 원전 전주기 도시 도약 smr 산단 ai 데이터센터 승부수",
-  "ko": 1,
-  "id": "413a9799"
  },
  {
   "date": "2026-07-15",
@@ -1401,5 +1401,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-18 15:14 KST";
-window.SMR_TOTAL = 1381;
+window.SMR_UPDATED = "2026-07-18 15:34 KST";
+window.SMR_TOTAL = 1383;
