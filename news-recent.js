@@ -716,6 +716,21 @@ window.SMR_NEWS = [
   "id": "2520669b"
  },
  {
+  "date": "2026-07-16",
+  "title": "원자력연 \"소형모듈원자로 추진 대형 컨테이너선 기본승인 획득\"",
+  "summary": "한국원자력연구원(원자력연)이 소형모듈원자로(SMR) 추진 컨테이너선의 개념설계에 대해 기본승인을 획득했다.",
+  "summaryLong": "한국원자력연구원(원자력연)은 소형모듈원자로(SMR)를 추진력으로 하는 대형 컨테이너선의 개념설계가 미국 선급협회(ABS) 또는 국제 선박 규제 기준에 따른 기본승인(Approval in Principle)을 획득했다고 발표했다. 이는 해양 분야로의 SMR 적용이라는 혁신적 확장이자, 기술 검증 및 규제 승인 진전을 의미한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "원자력연",
+  "region": "KR",
+  "source": "v.daum.net",
+  "url": "https://v.daum.net/v/FZLyqySrGX?f=p",
+  "k": "원자력연 소형모듈원자로 추진 대형 컨테이너선 기본승인 획득",
+  "ko": 1,
+  "id": "c0d885c7"
+ },
+ {
   "date": "2026-07-15",
   "title": "'부산형 SMR 상용화'에 정부 연구개발 지원 나선다",
   "summary": "정부가 부산형 SMR의 상용화를 위한 연구개발 지원을 시작한다.",
@@ -874,21 +889,6 @@ window.SMR_NEWS = [
   "url": "https://x-energy.com/news/triso-x-awarded-tennessee-grant-to-support-expansion-of-nuclear-fuel-campus/",
   "k": "triso x awarded tennessee grant to support expansion of nuclear fuel campus x energy",
   "id": "c498a2cf"
- },
- {
-  "date": "2026-07-15",
-  "title": "한국, 베트남과 원전 협력 공식화 및 K-전력 아세안 시장 진출",
-  "summary": "한국이 베트남과 차세대 원전 협력을 공식화하고 'K-Electric' 기술을 아세안 시장에 선보이는 행사가 호찌민에서 개최되었다.",
-  "summaryLong": "한국전기산업진흥회, 한국전력공사, 코엑스가 공동 주최하는 'ELECS VIETNAM 2026' 전시회가 호찌민 SECC에서 개최되었다. 이는 이재명 대통령의 지난 4월 베트남 국빈 방문 당시 한-베트남 정상회담에서 양국이 베트남의 차세대 원전 도입과 관련한 원전 협력을 공식화하고 신재생에너지 인프라 구축 협력에 합의한 배경을 바탕으로 한다. 한국의 전력·에너지 기술의 경쟁력을 아세안 지역 시장에 선보이는 기회이며, 한국의 원전 기술 수출 정책 추진을 보여주는 사례이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "전기신문 - 전체기사",
-  "url": "https://www.electimes.com/news/articleView.html?idxno=370339",
-  "k": "elecs vietnam 2026 k 전력 아세안 전력망을 잇다 호찌민서 개막",
-  "ko": 1,
-  "id": "9b94821d"
  },
  {
   "date": "2026-07-15",
@@ -1415,5 +1415,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-19 07:27 KST";
-window.SMR_TOTAL = 1386;
+window.SMR_UPDATED = "2026-07-19 08:00 KST";
+window.SMR_TOTAL = 1387;
