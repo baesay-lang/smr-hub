@@ -118,6 +118,21 @@ window.SMR_NEWS = [
   "id": "0d90580e"
  },
  {
+  "date": "2026-07-17",
+  "title": "한국해양과학기술원, 소형모듈원자로 추진 컨테이너선 개념설계 미국 선급(ABS) 기본승인 획득",
+  "summary": "한국해양과학기술원(KRISO)이 소형모듈원자로(SMR) 추진 컨테이너선의 개념설계에 대해 미국 선급협회(ABS)로부터 기본승인을 획득했다.",
+  "summaryLong": "한국해양과학기술원(KRISO)이 개발 중인 소형모듈원자로(SMR) 추진 컨테이너선의 개념설계가 미국 선급협회(American Bureau of Shipping, ABS)로부터 기본승인을 획득했다. 이는 해양 운송 분야의 SMR 활용 기술이 국제 규제 당국의 단계적 인증을 통과한 의미 있는 마일스톤으로, 향후 상세설계 및 건조 단계로 진행될 것으로 예상된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "KRISO",
+  "region": "KR",
+  "source": "ksw-news.com",
+  "url": "http://www.ksw-news.com/news/articleView.html?idxno=3018238",
+  "k": "kriso smr 추진 컨테이너선 개념설계 미국선급 기본승인 획득",
+  "ko": 1,
+  "id": "ff96334e"
+ },
+ {
   "date": "2026-07-16",
   "title": "원자력안전위원회, SMR 관련 법 개정 속도 추진",
   "summary": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 개발 가속화에 맞춰 SMR 관련 법 개정을 신속히 추진하겠다고 밝혔다.",
@@ -878,20 +893,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-15",
-  "title": "TRISO-X, 테네시주 보조금으로 핵연료 캠퍼스 확장",
-  "summary": "엑스에너지(X-energy)의 자회사 TRISO-X가 테네시주로부터 보조금을 받아 핵연료 캠퍼스 확장을 추진한다.",
-  "summaryLong": "엑스에너지(X-energy)의 TRISO-X 부문이 테네시주 정부로부터 보조금을 지원받아 핵연료 캠퍼스 확장 사업을 진행한다. TRISO-X는 고온가스로(HTGR) 및 첨단로 연료 공급 역할을 담당하는 회사로, 이번 보조금은 미국의 첨단원전 연료 공급망 강화 정책의 일환이다.",
-  "cat": "정책",
-  "type": "HTGR",
-  "dev": "X-energy",
-  "region": "US",
-  "source": "x-energy.com",
-  "url": "https://x-energy.com/news/triso-x-awarded-tennessee-grant-to-support-expansion-of-nuclear-fuel-campus/",
-  "k": "triso x awarded tennessee grant to support expansion of nuclear fuel campus x energy",
-  "id": "c498a2cf"
- },
- {
-  "date": "2026-07-15",
   "title": "NRC, TVA의 BWRX-300 소형모듈원자로 건설허가 권고",
   "summary": "미국 원자력규제위원회(NRC) 직원들이 테네시 클린치강(Clinch River)에 건설될 테네시밸리공사(TVA)의 BWRX-300 소형모듈원자로에 대한 건설허가를 권고했다.",
   "summaryLong": "미국 원자력규제위원회(NRC) 직원들이 테네시 클린치강(Clinch River)에 건설될 테네시밸리공사(TVA)의 BWRX-300 소형모듈원자로 프로젝트에 대한 건설허가를 권고했다. 이는 미국의 대표적 SMR 개발 프로젝트 중 하나로, NRC의 공식 승인 단계로의 진전을 의미한다.",
@@ -1415,5 +1416,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-19 08:00 KST";
-window.SMR_TOTAL = 1387;
+window.SMR_UPDATED = "2026-07-19 08:38 KST";
+window.SMR_TOTAL = 1388;

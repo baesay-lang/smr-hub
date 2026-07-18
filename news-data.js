@@ -125,6 +125,21 @@ window.SMR_NEWS = [
     "id": "0d90580e"
   },
   {
+    "date": "2026-07-17",
+    "title": "한국해양과학기술원, 소형모듈원자로 추진 컨테이너선 개념설계 미국 선급(ABS) 기본승인 획득",
+    "summary": "한국해양과학기술원(KRISO)이 소형모듈원자로(SMR) 추진 컨테이너선의 개념설계에 대해 미국 선급협회(ABS)로부터 기본승인을 획득했다.",
+    "summaryLong": "한국해양과학기술원(KRISO)이 개발 중인 소형모듈원자로(SMR) 추진 컨테이너선의 개념설계가 미국 선급협회(American Bureau of Shipping, ABS)로부터 기본승인을 획득했다. 이는 해양 운송 분야의 SMR 활용 기술이 국제 규제 당국의 단계적 인증을 통과한 의미 있는 마일스톤으로, 향후 상세설계 및 건조 단계로 진행될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "KRISO",
+    "region": "KR",
+    "source": "ksw-news.com",
+    "url": "http://www.ksw-news.com/news/articleView.html?idxno=3018238",
+    "k": "kriso smr 추진 컨테이너선 개념설계 미국선급 기본승인 획득",
+    "ko": 1,
+    "id": "ff96334e"
+  },
+  {
     "date": "2026-07-16",
     "title": "원자력안전위원회, SMR 관련 법 개정 속도 추진",
     "summary": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 개발 가속화에 맞춰 SMR 관련 법 개정을 신속히 추진하겠다고 밝혔다.",
@@ -20069,4 +20084,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-19 08:00 KST";
+window.SMR_UPDATED = "2026-07-19 08:38 KST";
