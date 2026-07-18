@@ -31,6 +31,20 @@ window.SMR_NEWS = [
   "id": "3c7aef37"
  },
  {
+  "date": "2026-07-18",
+  "title": "용융염원자로 탑재 핵추진선 설계, 미국 기관 승인 획득",
+  "summary": "이중 용융염원자로(MSR)를 탑재한 핵추진선 설계가 미국 규제 기관으로부터 승인을 받음.",
+  "summaryLong": "이중 용융염원자로(MSR)를 탑재한 핵추진선 설계 개념이 미국 관련 기관으로부터 기본 승인(예비 설계 승인)을 획득했다고 보도됨. 용융염 기술을 선박 추진에 적용하는 첨단로 활용 사례로, 규제 기관의 설계 검토·승인을 거쳐 개념설계 단계를 진전시킨 의미 있는 마일스톤. SMR·첨단로 개발의 다양한 활용 분야 확대를 보여주는 사례.",
+  "cat": "기술",
+  "type": "MSR",
+  "dev": "",
+  "region": "US",
+  "source": "interestingengineering.com",
+  "url": "https://interestingengineering.com/energy/nuclear-powered-ship-design-salt-reactors",
+  "k": "nuclear powered ship design with dual molten salt reactors wins approval from us body",
+  "id": "c245903a"
+ },
+ {
   "date": "2026-07-17",
   "title": "메가프로젝트로 빨라진 SMR 시계, 법 개정·연구개발 동시 추진",
   "summary": "정부가 SMR을 국책 메가프로젝트로 추진하면서 관련 법 개정과 연구개발을 동시에 진행 중이다.",
@@ -672,6 +686,36 @@ window.SMR_NEWS = [
   "id": "8bd69dfa"
  },
  {
+  "date": "2026-07-16",
+  "title": "소형모듈원자로 추진 대형 컨테이너선, 건조 한발 진전",
+  "summary": "소형모듈원자로(SMR) 기술을 활용한 대형 컨테이너선 개발이 진전됨.",
+  "summaryLong": "소형모듈원자로(SMR)를 추진 시스템으로 탑재한 대형 컨테이너선의 건조·개발 사업이 신규 진전 단계에 도달했다고 보도됨. 한국 관계 기관의 주도로 추진되는 사업으로, SMR의 해양 산업 적용 실증 프로젝트로 의미 있음. 구체적인 일정·기술 세부사항은 제목·스니펫에 명시되지 않음.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "thebigdata.co.kr",
+  "url": "https://www.thebigdata.co.kr/view.php?ud=202607161146227425570d99e4c8_23",
+  "k": "소형모듈원자로로 운항하는 대형 컨테이너선 건조 한발 더 나갔다",
+  "ko": 1,
+  "id": "e9a34136"
+ },
+ {
+  "date": "2026-07-16",
+  "title": "3대 메가프로젝트 속도전 따라 SMR 규제도 '더 빨리'",
+  "summary": "정부의 주요 프로젝트 추진 속도화에 맞춰 소형모듈원자로 규제 절차도 가속화되는 추세.",
+  "summaryLong": "한국 정부의 3대 메가프로젝트 추진 속도 가속화에 발맞춰, 소형모듈원자로(SMR) 분야 규제·인허가 절차도 신속화·효율화되는 정책 동향을 다룬 보도. 국책 SMR 프로젝트들의 일정 단축과 규제 당국의 대응 체계 개선을 포함. SMR 산업 발전과 정부 정책 연계 추진 상황을 반영.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "news.nate.com",
+  "url": "https://news.nate.com/view/20260716n16384",
+  "k": "속도전 3대 메가프로젝트 따라 smr 규제도 더 빨리",
+  "ko": 1,
+  "id": "2520669b"
+ },
+ {
   "date": "2026-07-15",
   "title": "'부산형 SMR 상용화'에 정부 연구개발 지원 나선다",
   "summary": "정부가 부산형 SMR의 상용화를 위한 연구개발 지원을 시작한다.",
@@ -848,21 +892,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-15",
-  "title": "홀텍, SMR 300MW 사업 추진",
-  "summary": "홀텍이 300MW 규모의 소형모듈원자로(SMR) 사업을 추진하고 있다.",
-  "summaryLong": "원자력 관련 기업 홀텍이 원전 관련 사업에서 소형모듈원자로(SMR) 300MW 프로젝트를 중심으로 사업 전략을 전환하고 있다. 이는 홀텍의 SMR 개발 및 사업화 계획을 보여주는 기업의 실제 사업 추진 사항이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "홀텍",
-  "region": "KR",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5060",
-  "k": "원전 장의사 서 조력자 로 홀텍 smr 300mw 승부수",
-  "ko": 1,
-  "id": "05ec2875"
- },
- {
-  "date": "2026-07-15",
   "title": "NRC, TVA의 BWRX-300 소형모듈원자로 건설허가 권고",
   "summary": "미국 원자력규제위원회(NRC) 직원들이 테네시 클린치강(Clinch River)에 건설될 테네시밸리공사(TVA)의 BWRX-300 소형모듈원자로에 대한 건설허가를 권고했다.",
   "summaryLong": "미국 원자력규제위원회(NRC) 직원들이 테네시 클린치강(Clinch River)에 건설될 테네시밸리공사(TVA)의 BWRX-300 소형모듈원자로 프로젝트에 대한 건설허가를 권고했다. 이는 미국의 대표적 SMR 개발 프로젝트 중 하나로, NRC의 공식 승인 단계로의 진전을 의미한다.",
@@ -874,21 +903,6 @@ window.SMR_NEWS = [
   "url": "https://energiesmedia.com/nrc-recommends-tva-bwrx-300-reactor/",
   "k": "nrc staff recommend construction permit for tva s bwrx 300 small modular reactor at clinch river in tennessee",
   "id": "8d112163"
- },
- {
-  "date": "2026-07-15",
-  "title": "AI 시대 전력 경쟁력, SMR···원전 제조 유일 국가 '대한민국'",
-  "summary": "김한곤 원자력연구원 단장이 AI 시대에 SMR이 전력 경쟁력의 핵심이며, 대한민국이 원전 제조 능력을 갖춘 유일한 국가라고 강조했다.",
-  "summaryLong": "김한곤 원자력연구원 단장이 AI 시대 도래에 따른 전력 수요 증가 속에서 소형모듈원자로(SMR)의 중요성을 강조했다. 발언 내용에 따르면 대한민국이 원전 설계, 제조, 건설, 운영 등 전 주기의 능력을 갖춘 유일한 국가라고 주장했으며, 이는 SMR 시장에서의 경쟁력 우위를 반영한다. SMR이 AI 데이터센터 등 새로운 전력 소비처의 전력 공급 솔루션으로 주목되고 있음을 시사한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "원자력연구원",
-  "region": "KR",
-  "source": "hellodd.com",
-  "url": "https://www.hellodd.com/news/articleView.html?idxno=112486",
-  "k": "김한곤 단장 ai 시대 전력 경쟁력 smr 원전 제조 유일 국가 대한민국",
-  "ko": 1,
-  "id": "eedba6c7"
  },
  {
   "date": "2026-07-15",
@@ -1401,5 +1415,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-18 15:34 KST";
-window.SMR_TOTAL = 1383;
+window.SMR_UPDATED = "2026-07-19 07:27 KST";
+window.SMR_TOTAL = 1386;

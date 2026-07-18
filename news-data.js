@@ -38,6 +38,20 @@ window.SMR_NEWS = [
     "id": "3c7aef37"
   },
   {
+    "date": "2026-07-18",
+    "title": "용융염원자로 탑재 핵추진선 설계, 미국 기관 승인 획득",
+    "summary": "이중 용융염원자로(MSR)를 탑재한 핵추진선 설계가 미국 규제 기관으로부터 승인을 받음.",
+    "summaryLong": "이중 용융염원자로(MSR)를 탑재한 핵추진선 설계 개념이 미국 관련 기관으로부터 기본 승인(예비 설계 승인)을 획득했다고 보도됨. 용융염 기술을 선박 추진에 적용하는 첨단로 활용 사례로, 규제 기관의 설계 검토·승인을 거쳐 개념설계 단계를 진전시킨 의미 있는 마일스톤. SMR·첨단로 개발의 다양한 활용 분야 확대를 보여주는 사례.",
+    "cat": "기술",
+    "type": "MSR",
+    "dev": "",
+    "region": "US",
+    "source": "interestingengineering.com",
+    "url": "https://interestingengineering.com/energy/nuclear-powered-ship-design-salt-reactors",
+    "k": "nuclear powered ship design with dual molten salt reactors wins approval from us body",
+    "id": "c245903a"
+  },
+  {
     "date": "2026-07-17",
     "title": "메가프로젝트로 빨라진 SMR 시계, 법 개정·연구개발 동시 추진",
     "summary": "정부가 SMR을 국책 메가프로젝트로 추진하면서 관련 법 개정과 연구개발을 동시에 진행 중이다.",
@@ -677,6 +691,36 @@ window.SMR_NEWS = [
     "k": "k 문샷 smr 추진 컨테이너선 국제 기본인증 획득 첫 관문 통과",
     "ko": 1,
     "id": "8bd69dfa"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "소형모듈원자로 추진 대형 컨테이너선, 건조 한발 진전",
+    "summary": "소형모듈원자로(SMR) 기술을 활용한 대형 컨테이너선 개발이 진전됨.",
+    "summaryLong": "소형모듈원자로(SMR)를 추진 시스템으로 탑재한 대형 컨테이너선의 건조·개발 사업이 신규 진전 단계에 도달했다고 보도됨. 한국 관계 기관의 주도로 추진되는 사업으로, SMR의 해양 산업 적용 실증 프로젝트로 의미 있음. 구체적인 일정·기술 세부사항은 제목·스니펫에 명시되지 않음.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "thebigdata.co.kr",
+    "url": "https://www.thebigdata.co.kr/view.php?ud=202607161146227425570d99e4c8_23",
+    "k": "소형모듈원자로로 운항하는 대형 컨테이너선 건조 한발 더 나갔다",
+    "ko": 1,
+    "id": "e9a34136"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "3대 메가프로젝트 속도전 따라 SMR 규제도 '더 빨리'",
+    "summary": "정부의 주요 프로젝트 추진 속도화에 맞춰 소형모듈원자로 규제 절차도 가속화되는 추세.",
+    "summaryLong": "한국 정부의 3대 메가프로젝트 추진 속도 가속화에 발맞춰, 소형모듈원자로(SMR) 분야 규제·인허가 절차도 신속화·효율화되는 정책 동향을 다룬 보도. 국책 SMR 프로젝트들의 일정 단축과 규제 당국의 대응 체계 개선을 포함. SMR 산업 발전과 정부 정책 연계 추진 상황을 반영.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "news.nate.com",
+    "url": "https://news.nate.com/view/20260716n16384",
+    "k": "속도전 3대 메가프로젝트 따라 smr 규제도 더 빨리",
+    "ko": 1,
+    "id": "2520669b"
   },
   {
     "date": "2026-07-15",
@@ -20010,4 +20054,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-18 15:34 KST";
+window.SMR_UPDATED = "2026-07-19 07:27 KST";
