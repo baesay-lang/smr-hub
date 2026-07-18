@@ -1,6 +1,36 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-07-18",
+  "title": "에너지 안보 경쟁력: 한국의 CFE·SMR 주목",
+  "summary": "재생에너지 비중이 10%에 머물러 있는 한국이 에너지 안보 강화를 위해 탄소무배출연료(CFE)와 SMR에 주목하고 있다.",
+  "summaryLong": "한국이 재생에너지 비중의 저위 상태(10% 수준)를 감안하여 에너지 안보 경쟁력 강화 차원에서 탄소무배출연료(CFE)와 소형모듈원자로(SMR)를 주요 기술로 주목하고 있다는 보도이다. 정부의 에너지 정책에서 SMR의 역할 강화를 반영하는 내용이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "jabon.co.kr",
+  "url": "https://www.jabon.co.kr/news/articleView.html?idxno=5050",
+  "k": "에너지 안보가 경쟁력 재생 10 꼴찌 한국 cfe smr 주목",
+  "ko": 1,
+  "id": "169c5fd1"
+ },
+ {
+  "date": "2026-07-18",
+  "title": "SMR의 경쟁력: 공장 제작·현장 조립 방식",
+  "summary": "소형모듈원자로(SMR)의 경쟁력을 공장에서의 모듈식 제작과 현장 조립 방식으로 설명하는 영상 기사.",
+  "summaryLong": "소형모듈원자로(SMR)의 주요 경쟁력을 공장에서의 표준화된 모듈 제작과 건설 현장에서의 조립 방식으로 설명하는 교육 영상 기사이다. SMR의 핵심 기술적 장점인 모듈화 생산의 효율성과 품질 관리 이점을 다루고 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "newsis.com",
+  "url": "https://www.newsis.com/view/NISX20260716_0003712614",
+  "k": "공장서 만들고 현장서 조립 차세대 원전 smr 의 경쟁력 짤막영상",
+  "ko": 1,
+  "id": "3c7aef37"
+ },
+ {
   "date": "2026-07-17",
   "title": "메가프로젝트로 빨라진 SMR 시계, 법 개정·연구개발 동시 추진",
   "summary": "정부가 SMR을 국책 메가프로젝트로 추진하면서 관련 법 개정과 연구개발을 동시에 진행 중이다.",
@@ -566,6 +596,36 @@ window.SMR_NEWS = [
   "id": "421aea5d"
  },
  {
+  "date": "2026-07-16",
+  "title": "원안위 \"2030년까지 SMR 인허가 체계 구축\"",
+  "summary": "원자력안전위원회(원안위)가 2030년까지 SMR 인허가 체계를 구축하겠다고 발표했으며, 사전검토 신청 의향 기업이 3곳이고 11월부터 사전검토 시행 예정이다.",
+  "summaryLong": "한국 원자력안전위원회(원안위)가 소형모듈원자로(SMR) 개발의 가속화에 따라 2030년까지 SMR에 대한 인허가 체계를 구축하겠다고 발표했다. 원안위는 사전검토 신청 의향을 보이는 기업이 3곳이라고 밝혔으며, 사전검토는 11월부터 시행될 예정이다. 이는 국내 메가프로젝트 추진에 따른 규제 당국의 대응으로, SMR 개발의 정책적 지원 강화를 의미한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "khan.co.kr",
+  "url": "https://www.khan.co.kr/article/202607161613001",
+  "k": "메가프로젝트에 빨라지는 smr 개발 시계 원안위 2030년까지 인허가 체계 구축",
+  "ko": 1,
+  "id": "a89c2992"
+ },
+ {
+  "date": "2026-07-16",
+  "title": "SMR 추진 컨테이너선 개념설계, 미국선급협회 기본승인 획득",
+  "summary": "소형모듈원자로(SMR)를 추진 시스템으로 하는 컨테이너선의 개념설계가 미국선급협회(ABS)로부터 기본승인(Approval in Principle, AIP)을 획득했다.",
+  "summaryLong": "한국의 선박해양플랜트연구소(KRISO) 또는 관련 기관이 개발한 소형모듈원자로(SMR) 추진 컨테이너선의 개념설계가 미국선급협회(ABS)로부터 기본승인(Approval in Principle, AIP)을 획득했다. 이는 SMR 기반 선박 추진의 기술 타당성이 국제 해사 규제 기관으로부터 인정된 것을 의미한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "KRISO",
+  "region": "KR",
+  "source": "mobile.busan.com",
+  "url": "https://mobile.busan.com/view/election/view.php?code=2026071611142808229",
+  "k": "smr 추진 컨테이너선 개념설계 미국선급 기본승인 획득",
+  "ko": 1,
+  "id": "796f5659"
+ },
+ {
   "date": "2026-07-15",
   "title": "'부산형 SMR 상용화'에 정부 연구개발 지원 나선다",
   "summary": "정부가 부산형 SMR의 상용화를 위한 연구개발 지원을 시작한다.",
@@ -870,20 +930,6 @@ window.SMR_NEWS = [
   "k": "sk 베트남 vkist 차세대 smr 기술 협력 본격화",
   "ko": 1,
   "id": "a25ffd3d"
- },
- {
-  "date": "2026-07-15",
-  "title": "미국 사용후핵연료 10만 톤, 오클로가 에너지 자원으로 주목",
-  "summary": "오클로가 미국에 축적된 10만 톤의 사용후핵연료를 차세대 에너지 자원으로 활용할 수 있다고 제시하는 내용을 다룬 기사다.",
-  "summaryLong": "모틀리 풀(The Motley Fool)은 미국이 축적한 10만 톤 규모의 사용후핵연료에 주목하는 오클로(Oklo)의 사업 전략을 보도했다. 오클로의 고속로(SFR) 기술이 사용후핵연료를 새로운 에너지 자원으로 활용할 수 있다는 점을 강조하며, 이는 오클로의 핵심 기술 경쟁력과 시장 기회를 설명하는 내용이다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "fool.com",
-  "url": "https://www.fool.com/investing/2026/07/15/the-us-has-accumulated-100000-metric-tons-of-used/",
-  "k": "the u s has accumulated 100 000 metric tons of used nuclear fuel oklo sees it as a massive potential energy resource",
-  "id": "b0fa3f28"
  },
  {
   "date": "2026-07-15",
@@ -1339,5 +1385,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-18 08:38 KST";
-window.SMR_TOTAL = 1375;
+window.SMR_UPDATED = "2026-07-18 14:43 KST";
+window.SMR_TOTAL = 1379;
