@@ -45,6 +45,20 @@ window.SMR_NEWS = [
   "id": "9f54e812"
  },
  {
+  "date": "2026-07-19",
+  "title": "오클로(Oklo) 주가 16% 하락, 7월 원자로 마일스톤에 집중",
+  "summary": "오클로(Oklo)가 7월 원자로 마일스톤을 앞두고 주가가 16% 하락했다.",
+  "summaryLong": "오클로(Oklo)의 주가가 16% 하락했으며, 시장의 관심이 7월에 예정된 원자로 핵심 시운전 마일스톤으로 옮겨가고 있다. 이는 회사의 첨단로(고속로) 개발 일정과 실제 기술 진행 상황에 관한 구체적인 사업 뉴스로, SMR·첨단로 레퍼런스 사이트의 중요 이정표이다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "ts2.tech",
+  "url": "https://ts2.tech/en/oklo-nyseoklo-drops-16-as-focus-shifts-to-july-reactor-milestone-for-next-key-test/",
+  "k": "oklo nyse oklo drops 16 as focus shifts to july reactor milestone for next key test",
+  "id": "cae9d904"
+ },
+ {
   "date": "2026-07-18",
   "title": "에너지 안보 경쟁력: 한국의 CFE·SMR 주목",
   "summary": "재생에너지 비중이 10%에 머물러 있는 한국이 에너지 안보 강화를 위해 탄소무배출연료(CFE)와 SMR에 주목하고 있다.",
@@ -881,21 +895,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-15",
-  "title": "경주시, 민선 9기 기자간담회서 'SMR을 최우선 과제'로 선언",
-  "summary": "경주시가 새 시정의 최우선 과제로 소형모듈원자로(SMR) 유치를 공식 선언했다.",
-  "summaryLong": "경주시가 민선 9기 기자간담회에서 소형모듈원자로(SMR) 유치 및 관련 산업 발전을 시정의 최우선 과제로 공식 밝혔다. 이는 지역 정부가 SMR 기반 조성에 정책적 우선순위를 부여하는 공식 정책 선언으로, 향후 부지 확보, 인프라 구축, 규제 지원 등 실질적 추진으로 이어질 가능성이 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "kbsm.net",
-  "url": "https://www.kbsm.net/news/view.php?idx=526946",
-  "k": "경주시 민선9기 기자간담회 개최 smr 최우선 과제",
-  "ko": 1,
-  "id": "7b31a160"
- },
- {
-  "date": "2026-07-15",
   "title": "테라파워, 영국과 긍정적 협상 진행, 2030년대 초중반 원자로 가동 목표",
   "summary": "테라파워(TerraPower)가 영국(UK)과의 협상에서 긍정적 진전을 이루며 2030년대 초중반 원자로 가동을 목표로 하고 있다.",
   "summaryLong": "차세대 소듐냉각고속로(SFR) 개발사 테라파워(TerraPower)가 영국(UK) 정부와의 협상에서 긍정적 결과를 거두고 있는 것으로 알려졌다. 회사는 영국 내 원자로 건설 및 운영을 목표로 2030년대 초중반의 원자로 가동을 추진 목표로 설정했다. 이는 테라파워의 주요 국제 전략의 일환으로, 첨단로 상용화 일정에 관한 중요한 진행 사항이다.",
@@ -907,20 +906,6 @@ window.SMR_NEWS = [
   "url": "https://www.nucnet.org/news/terrapower-holds-positive-talks-with-uk-targets-early-to-mid-2030s-for-reactor-launch-7-3-2026",
   "k": "terrapower holds positive talks with uk targets early to mid 2030s for reactor launch",
   "id": "af35605a"
- },
- {
-  "date": "2026-07-15",
-  "title": "오클로, 사용 핵연료 재활용 및 오하이오 청정에너지 캠퍼스 계획",
-  "summary": "오클로(Oklo)가 사용 핵연료 재활용 사업과 오하이오(Ohio) 청정에너지 캠퍼스 건설 계획을 추진하고 있다.",
-  "summaryLong": "소형모듈원자로(SMR) 및 사용 핵연료 재활용 기술 개발사인 오클로(Oklo)가 사용 후 핵연료 재활용 사업과 오하이오(Ohio)주에 청정에너지 캠퍼스 조성 계획을 발표했다. 이는 오클로의 핵심 사업 확장 전략으로, 폐연료 활용 기술과 지역별 거점 구축에 관한 중요한 사업 진행 뉴스이다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "sg.finance.yahoo.com",
-  "url": "https://sg.finance.yahoo.com/news/oklo-oklo-plans-used-fuel-111331373.html",
-  "k": "oklo oklo plans used fuel recycling and ohio clean energy campus",
-  "id": "9ce8d436"
  },
  {
   "date": "2026-07-15",
@@ -1432,5 +1417,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-20 08:02 KST";
-window.SMR_TOTAL = 1395;
+window.SMR_UPDATED = "2026-07-20 08:41 KST";
+window.SMR_TOTAL = 1396;

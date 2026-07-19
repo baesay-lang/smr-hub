@@ -52,6 +52,20 @@ window.SMR_NEWS = [
     "id": "9f54e812"
   },
   {
+    "date": "2026-07-19",
+    "title": "오클로(Oklo) 주가 16% 하락, 7월 원자로 마일스톤에 집중",
+    "summary": "오클로(Oklo)가 7월 원자로 마일스톤을 앞두고 주가가 16% 하락했다.",
+    "summaryLong": "오클로(Oklo)의 주가가 16% 하락했으며, 시장의 관심이 7월에 예정된 원자로 핵심 시운전 마일스톤으로 옮겨가고 있다. 이는 회사의 첨단로(고속로) 개발 일정과 실제 기술 진행 상황에 관한 구체적인 사업 뉴스로, SMR·첨단로 레퍼런스 사이트의 중요 이정표이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "ts2.tech",
+    "url": "https://ts2.tech/en/oklo-nyseoklo-drops-16-as-focus-shifts-to-july-reactor-milestone-for-next-key-test/",
+    "k": "oklo nyse oklo drops 16 as focus shifts to july reactor milestone for next key test",
+    "id": "cae9d904"
+  },
+  {
     "date": "2026-07-18",
     "title": "에너지 안보 경쟁력: 한국의 CFE·SMR 주목",
     "summary": "재생에너지 비중이 10%에 머물러 있는 한국이 에너지 안보 강화를 위해 탄소무배출연료(CFE)와 SMR에 주목하고 있다.",
@@ -20188,4 +20202,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-20 08:02 KST";
+window.SMR_UPDATED = "2026-07-20 08:41 KST";
