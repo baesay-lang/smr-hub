@@ -1,6 +1,35 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-07-19",
+  "title": "중국, 소형모듈원자로 옆 대형원전 먼저 임계 달성…SMR는 216일 지연되고 비용 2.5배",
+  "summary": "중국이 같은 섬에 인접한 소형모듈원자로(SMR)보다 대형 풀사이즈 원전을 먼저 임계에 도달시켰으며, SMR은 일정 지연과 높은 단가 문제를 노출했다.",
+  "summaryLong": "중국의 한 섬에 나란히 건설된 대형 풀사이즈 원전이 인접한 소형모듈원자로(SMR)보다 먼저 첫 임계(first criticality)에 도달했다. SMR은 계획 대비 216일 지연되었으며, 메가와트당 건설비가 대형 원전의 2.5배에 달하는 것으로 드러났다. 이는 중국 SMR 프로젝트의 일정 관리와 경제성 문제를 여실히 보여주는 사례로, 글로벌 SMR 시장의 현실적 과제를 시사한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "CN",
+  "source": "autonocion.com",
+  "url": "https://www.autonocion.com/us/china-full-size-reactor/",
+  "k": "china just lit a full size reactor that beat the small modular one next door to first criticality on the same island a fence between them and the small one 216 days late costs two and a half times more per megawatt to build",
+  "id": "e1f7fed8"
+ },
+ {
+  "date": "2026-07-19",
+  "title": "KRISO, SMR 추진 컨테이너선 개념설계 ABS(미국선급) 기본승인 획득",
+  "summary": "한국해양과학기술원(KRISO)이 소형모듈원자로(SMR) 추진 컨테이너선의 개념설계에 대해 ABS(미국선급)로부터 기본승인을 획득했다.",
+  "summaryLong": "한국해양과학기술원(KRISO)이 소형모듈원자로(SMR)를 추진 시스템으로 하는 컨테이너선의 개념설계(concept design)에 대해 미국선급(ABS)의 기본승인(preliminary approval)을 받았다. 이는 SMR 해양 응용 분야의 규제 진전을 나타내는 중요한 마일스톤으로, SMR 기술의 다양한 활용 가능성을 확인하는 사례다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "KRISO",
+  "region": "KR",
+  "source": "etnews.com",
+  "url": "https://www.etnews.com/20260719000098",
+  "k": "kriso smr 추진 컨테이너선 개념설계 abs 기본승인 획득",
+  "ko": 1,
+  "id": "22c7302d"
+ },
+ {
   "date": "2026-07-18",
   "title": "에너지 안보 경쟁력: 한국의 CFE·SMR 주목",
   "summary": "재생에너지 비중이 10%에 머물러 있는 한국이 에너지 안보 강화를 위해 탄소무배출연료(CFE)와 SMR에 주목하고 있다.",
@@ -867,35 +896,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-15",
-  "title": "현대건설-미국 팬코(FANCO), 납-비스무트 냉각 SMR 사업 협력",
-  "summary": "현대건설이 미국 팬코(FANCO)와 납-비스무트 냉각 소형모듈원자로(SMR) 사업에 협력하기로 했다.",
-  "summaryLong": "현대건설이 미국의 팬코(FANCO)와 납-비스무트 냉각 소형모듈원자로(SMR) 개발·건설 사업에 협력하기로 합의했다. 납-비스무트는 차세대 첨단 냉각재로, 이를 활용한 SMR 사업 참여로 현대건설이 고급 원자력 기술 분야로의 진출을 가속화하고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "현대건설",
-  "region": "US",
-  "source": "meconomynews.com",
-  "url": "https://www.meconomynews.com/news/articleView.html?idxno=132809",
-  "k": "현대건설 fanco 납 비스무트 냉각 smr 사업 협력",
-  "ko": 1,
-  "id": "bb9849b8"
- },
- {
-  "date": "2026-07-15",
-  "title": "TRISO-X, 테네시주 연료 캠퍼스 확장비 1,100만 달러 지원금 획득",
-  "summary": "엑스에너지(X-energy)의 자회사 TRISO-X가 테네시주(Tennessee)로부터 첨단 핵연료 캠퍼스 확장을 위해 1,100만 달러 경제개발 지원금을 받았다.",
-  "summaryLong": "나스닥(NASDAQ) 상장 회사인 엑스에너지(X-energy)의 첨단 핵연료 제조 자회사 TRISO-X가 테네시주(Tennessee) 경제개발 부서로부터 1,100만 달러(약 110억 원)의 경제개발 지원금을 획득했다. 이 자금은 오크리지(Oak Ridge) 지역의 TRISO-X 핵연료 캠퍼스 확장을 지원할 예정이다. TRISO 연료는 고온가스로(HTGR)를 포함한 첨단 원자로 개발의 핵심 연료로, 국내 첨단로 사업과도 관련성 높은 소식이다.",
-  "cat": "기술",
-  "type": "HTGR",
-  "dev": "X-energy",
-  "region": "US",
-  "source": "X-Energy, Inc. News Releases",
-  "url": "https://investors.x-energy.com/news-releases/news-release-details/triso-x-awarded-tennessee-grant-support-expansion-nuclear-fuel",
-  "k": "triso x awarded tennessee grant to support expansion of nuclear fuel campus",
-  "id": "15ddb20b"
- },
- {
-  "date": "2026-07-15",
   "title": "테라파워, 영국과 긍정적 협상 진행, 2030년대 초중반 원자로 가동 목표",
   "summary": "테라파워(TerraPower)가 영국(UK)과의 협상에서 긍정적 진전을 이루며 2030년대 초중반 원자로 가동을 목표로 하고 있다.",
   "summaryLong": "차세대 소듐냉각고속로(SFR) 개발사 테라파워(TerraPower)가 영국(UK) 정부와의 협상에서 긍정적 결과를 거두고 있는 것으로 알려졌다. 회사는 영국 내 원자로 건설 및 운영을 목표로 2030년대 초중반의 원자로 가동을 추진 목표로 설정했다. 이는 테라파워의 주요 국제 전략의 일환으로, 첨단로 상용화 일정에 관한 중요한 진행 사항이다.",
@@ -1432,5 +1432,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-19 16:17 KST";
-window.SMR_TOTAL = 1392;
+window.SMR_UPDATED = "2026-07-20 07:28 KST";
+window.SMR_TOTAL = 1394;
