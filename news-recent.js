@@ -761,6 +761,51 @@ window.SMR_NEWS = [
   "id": "f7ed99de"
  },
  {
+  "date": "2026-07-16",
+  "title": "용융염원자로(MSR) 컨테이너선 개념설계, 미국서 기본승인 획득",
+  "summary": "한국이 개발한 용융염원자로(MSR) 적용 컨테이너선 개념설계가 미국 선급협회로부터 기본승인을 획득했다.",
+  "summaryLong": "한국의 원자력연구소가 추진하는 용융염원자로(MSR) 추진 컨테이너선의 개념설계가 미국 선급협회(ABS)로부터 기본승인(AIP, Approval in Principle)을 획득했다고 보도되었다. 이는 첨단로 기술의 해상 응용 분야 확대를 의미하며, 국내 MSR 기술의 국제 인정 사례로서 기술 개발 마일스톤에 해당한다. 컨테이너선 추진 시스템으로의 SMR/첨단로 활용 가능성을 보여주는 의의 있는 진전이다.",
+  "cat": "기술",
+  "type": "MSR",
+  "dev": "원자력연구소",
+  "region": "KR",
+  "source": "zdnet.co.kr",
+  "url": "https://zdnet.co.kr/view/?no=20260716202107",
+  "k": "용융염원자로 msr 컨테이너선 개념설계 미국서 기본승인 획득",
+  "ko": 1,
+  "id": "96a78b7a"
+ },
+ {
+  "date": "2026-07-16",
+  "title": "원자력연구소 소형모듈원자로 추진 컨테이너선 기본승인 획득",
+  "summary": "원자력연구소가 개발한 SMR 추진 컨테이너선이 기본승인을 획득했다.",
+  "summaryLong": "한국원자력연구원(원자력연구소)이 소형모듈원자로(SMR)를 동력으로 하는 컨테이너선의 개념설계가 국제해사기구(IMO) 또는 선급협회로부터 기본승인(AIP)을 획득했다고 발표했다. 이는 SMR 기술의 해상 산업 응용 분야 확대를 의미하며, 한국의 첨단로 기술 개발 수준을 국제적으로 입증하는 중요한 마일스톤이다. 원자력연구소의 공식 발표로 확인된 사실이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "원자력연구소",
+  "region": "KR",
+  "source": "biz.chosun.com",
+  "url": "https://biz.chosun.com/science-chosun/science/2026/07/16/PB3RQO27KRCTZLKU3WOMFMJ3EM/",
+  "k": "원자력연구소 소형모듈원자로 추진 컨테이너선 기본승인 받아 조선비즈",
+  "ko": 1,
+  "id": "a1837a5e"
+ },
+ {
+  "date": "2026-07-16",
+  "title": "한국형 용융염원자로 적용 컨테이너선, 미국 선급협회 기본승인 획득",
+  "summary": "한국형 용융염원자로(MSR)를 적용한 컨테이너선이 미국 선급협회(ABS)로부터 기본승인을 획득했다.",
+  "summaryLong": "한국이 개발하는 용융염원자로(MSR) 기술을 적용한 컨테이너선의 개념설계가 미국 선급협회(ABS, American Bureau of Shipping)로부터 기본승인(AIP, Approval in Principle)을 획득했다고 보도되었다. 이는 국내 MSR 기술의 국제 해상 산업 응용 가능성을 입증하는 사건으로, 첨단로 기술의 실용화 방향 확대를 보여준다. 미국 선급협회의 공식 승인으로 국제적 기술 인정을 획득한 의미 있는 진전이다.",
+  "cat": "기술",
+  "type": "MSR",
+  "dev": "",
+  "region": "KR",
+  "source": "v.daum.net",
+  "url": "https://v.daum.net/v/20260716091950096",
+  "k": "한국형 용융염원자로 적용 컨테이너선 선급협회 기본승인 획득",
+  "ko": 1,
+  "id": "07a1d9eb"
+ },
+ {
   "date": "2026-07-15",
   "title": "'부산형 SMR 상용화'에 정부 연구개발 지원 나선다",
   "summary": "정부가 부산형 SMR의 상용화를 위한 연구개발 지원을 시작한다.",
@@ -876,20 +921,6 @@ window.SMR_NEWS = [
   "url": "https://sg.finance.yahoo.com/news/oklo-oklo-plans-used-fuel-111331373.html",
   "k": "oklo oklo plans used fuel recycling and ohio clean energy campus",
   "id": "9ce8d436"
- },
- {
-  "date": "2026-07-15",
-  "title": "SMR 연료 개발사 Standard Nuclear, IPO 앞두고 공모 규모 58% 축소",
-  "summary": "소형모듈원자로(SMR) 연료 개발사 Standard Nuclear가 1억 5,000만 달러 규모 IPO를 앞두고 공모 규모를 58% 축소했다.",
-  "summaryLong": "소형모듈원자로(SMR) 연료 개발사 Standard Nuclear가 1억 5,000만 달러 규모 신규공개(IPO) 진행을 앞두고 공모 규모를 58% 축소했다. 이는 시장 상황 변화 또는 투자 수요 조정에 따른 결정으로 보인다.",
-  "cat": "투자",
-  "type": "General",
-  "dev": "Standard Nuclear",
-  "region": "US",
-  "source": "renaissancecapital.com",
-  "url": "https://www.renaissancecapital.com/IPO-Center/News/120467/Small-modular-reactor-fuel-developer-Standard-Nuclear-slashes-deal-size-by-",
-  "k": "small modular reactor fuel developer standard nuclear slashes deal size by 58 ahead of 150 million ipo",
-  "id": "15292ccf"
  },
  {
   "date": "2026-07-15",
@@ -1401,5 +1432,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-19 15:13 KST";
-window.SMR_TOTAL = 1389;
+window.SMR_UPDATED = "2026-07-19 15:40 KST";
+window.SMR_TOTAL = 1392;
