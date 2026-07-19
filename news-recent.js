@@ -30,6 +30,21 @@ window.SMR_NEWS = [
   "id": "22c7302d"
  },
  {
+  "date": "2026-07-19",
+  "title": "블랙앤비치, 미국기계학회(ASME) 원전 인증 취득…SMR 시장 진출",
+  "summary": "블랙앤비치가 미국기계학회(ASME) 원전 인증을 획득하며 소형모듈원자로(SMR) 시장 공략에 나섰다.",
+  "summaryLong": "블랙앤비치가 미국기계학회(ASME)로부터 원자력 관련 인증을 획득했으며, 이를 바탕으로 소형모듈원자로(SMR) 시장에 진출하려는 움직임을 보이고 있다. 인증 획득은 제품·서비스가 국제 표준을 충족했음을 의미하며, SMR 분야에서의 기술 경쟁력을 입증하는 중요한 이정표이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "BlueNanteh",
+  "region": "",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5128",
+  "k": "블랙앤비치 asme 원전 인증 smr 공략",
+  "ko": 1,
+  "id": "9f54e812"
+ },
+ {
   "date": "2026-07-18",
   "title": "에너지 안보 경쟁력: 한국의 CFE·SMR 주목",
   "summary": "재생에너지 비중이 10%에 머물러 있는 한국이 에너지 안보 강화를 위해 탄소무배출연료(CFE)와 SMR에 주목하고 있다.",
@@ -881,21 +896,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-15",
-  "title": "현대건설, 미국 차세대 SMR 'EAGL-1 프로젝트' 협력 강화",
-  "summary": "현대건설이 미국의 차세대 SMR 'EAGL-1 프로젝트'와의 협력을 강화하고 있다.",
-  "summaryLong": "현대건설이 미국의 차세대 소형모듈원자로(SMR) 개발 프로젝트인 'EAGL-1'과의 협력을 확대하고 있다. 이는 한국 대형 건설사가 글로벌 첨단 원자력 시장 진출을 본격화하는 움직임으로, 미국 내 SMR 사업 참여를 통해 국제 경쟁력을 강화하려는 전략으로 평가된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "현대건설",
-  "region": "US",
-  "source": "seonamtoday.com",
-  "url": "http://seonamtoday.com/news/view.php?idx=50820",
-  "k": "현대건설 미국 차세대 smr eagl 1 프로젝트 협력 강화",
-  "ko": 1,
-  "id": "1b35cc0e"
- },
- {
-  "date": "2026-07-15",
   "title": "테라파워, 영국과 긍정적 협상 진행, 2030년대 초중반 원자로 가동 목표",
   "summary": "테라파워(TerraPower)가 영국(UK)과의 협상에서 긍정적 진전을 이루며 2030년대 초중반 원자로 가동을 목표로 하고 있다.",
   "summaryLong": "차세대 소듐냉각고속로(SFR) 개발사 테라파워(TerraPower)가 영국(UK) 정부와의 협상에서 긍정적 결과를 거두고 있는 것으로 알려졌다. 회사는 영국 내 원자로 건설 및 운영을 목표로 2030년대 초중반의 원자로 가동을 추진 목표로 설정했다. 이는 테라파워의 주요 국제 전략의 일환으로, 첨단로 상용화 일정에 관한 중요한 진행 사항이다.",
@@ -1432,5 +1432,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-20 07:28 KST";
-window.SMR_TOTAL = 1394;
+window.SMR_UPDATED = "2026-07-20 08:02 KST";
+window.SMR_TOTAL = 1395;

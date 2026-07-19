@@ -37,6 +37,21 @@ window.SMR_NEWS = [
     "id": "22c7302d"
   },
   {
+    "date": "2026-07-19",
+    "title": "블랙앤비치, 미국기계학회(ASME) 원전 인증 취득…SMR 시장 진출",
+    "summary": "블랙앤비치가 미국기계학회(ASME) 원전 인증을 획득하며 소형모듈원자로(SMR) 시장 공략에 나섰다.",
+    "summaryLong": "블랙앤비치가 미국기계학회(ASME)로부터 원자력 관련 인증을 획득했으며, 이를 바탕으로 소형모듈원자로(SMR) 시장에 진출하려는 움직임을 보이고 있다. 인증 획득은 제품·서비스가 국제 표준을 충족했음을 의미하며, SMR 분야에서의 기술 경쟁력을 입증하는 중요한 이정표이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "BlueNanteh",
+    "region": "",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5128",
+    "k": "블랙앤비치 asme 원전 인증 smr 공략",
+    "ko": 1,
+    "id": "9f54e812"
+  },
+  {
     "date": "2026-07-18",
     "title": "에너지 안보 경쟁력: 한국의 CFE·SMR 주목",
     "summary": "재생에너지 비중이 10%에 머물러 있는 한국이 에너지 안보 강화를 위해 탄소무배출연료(CFE)와 SMR에 주목하고 있다.",
@@ -20173,4 +20188,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-20 07:28 KST";
+window.SMR_UPDATED = "2026-07-20 08:02 KST";
