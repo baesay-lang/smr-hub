@@ -746,6 +746,21 @@ window.SMR_NEWS = [
   "id": "c0d885c7"
  },
  {
+  "date": "2026-07-16",
+  "title": "SMR 건설 가속화, 원안위에 사전검토 신청 의향 기업 3곳",
+  "summary": "원자력안전위원회(원안위)가 SMR 개발사 3곳으로부터 사전검토 신청 의향을 받았으며, 3대 메가 프로젝트와 맞춰 SMR 건설이 가속화될 것으로 예상된다.",
+  "summaryLong": "원자력안전위원회가 소형모듈원자로(SMR) 개발 기업 3곳으로부터 설계인증을 위한 사전검토 신청 의향을 접수했다. 정부의 3대 메가 프로젝트(신산업 육성·국가 기반시설 구축·전략산업 투자 등)와 맞춰 SMR 건설 일정이 단축될 것으로 보인다. 이는 한국의 SMR 상용화 타임라인이 앞당겨질 수 있음을 시사하며, 규제기관과 개발사 간의 협력 체계가 강화되는 신호로 평가된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "news.nate.com",
+  "url": "https://news.nate.com/view/20260716n27398",
+  "k": "3대 메가 프로젝트 맞춰 smr 건설 빨라진다 원안위 사전검토 신청 의향 기업 3곳",
+  "ko": 1,
+  "id": "f7ed99de"
+ },
+ {
   "date": "2026-07-15",
   "title": "'부산형 SMR 상용화'에 정부 연구개발 지원 나선다",
   "summary": "정부가 부산형 SMR의 상용화를 위한 연구개발 지원을 시작한다.",
@@ -878,21 +893,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-15",
-  "title": "SK와 베트남 VKIST, 차세대 SMR 기술 협력 본격화",
-  "summary": "SK와 베트남 VKIST가 차세대 소형모듈원자로(SMR) 기술 협력을 본격적으로 진행한다.",
-  "summaryLong": "SK그룹과 베트남의 VKIST(베트남 과학기술원으로 추정)가 차세대 소형모듈원자로(SMR) 기술 협력을 본격화하고 있다. 이는 한-베트남 간 원전 협력 확대 기조 속에서 추진되는 협력으로, SMR 기술 개발 및 도입 가능성을 탐색하는 사업으로 판단된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "SK",
-  "region": "KR",
-  "source": "g-enews.com",
-  "url": "https://www.g-enews.com/article/Global-Biz/2026/07/2026071606464779892bd56fbc3c_1",
-  "k": "sk와 베트남 vkist 차세대 smr 기술 협력 본격화",
-  "ko": 1,
-  "id": "a25ffd3d"
- },
- {
-  "date": "2026-07-15",
   "title": "NRC, TVA의 BWRX-300 소형모듈원자로 건설허가 권고",
   "summary": "미국 원자력규제위원회(NRC) 직원들이 테네시 클린치강(Clinch River)에 건설될 테네시밸리공사(TVA)의 BWRX-300 소형모듈원자로에 대한 건설허가를 권고했다.",
   "summaryLong": "미국 원자력규제위원회(NRC) 직원들이 테네시 클린치강(Clinch River)에 건설될 테네시밸리공사(TVA)의 BWRX-300 소형모듈원자로 프로젝트에 대한 건설허가를 권고했다. 이는 미국의 대표적 SMR 개발 프로젝트 중 하나로, NRC의 공식 승인 단계로의 진전을 의미한다.",
@@ -946,21 +946,6 @@ window.SMR_NEWS = [
   "url": "https://www.moomoo.com/community/feed/tracking-cathie-wood-heavy-investment-in-circle-x-energy-trimming-116923217674246",
   "k": "tracking cathie wood heavy investment in circle x energy trimming genomics leaders",
   "id": "4bdb10e9"
- },
- {
-  "date": "2026-07-15",
-  "title": "SK·베트남 VKIST, 차세대 SMR 기술 협력 본격화",
-  "summary": "SK와 베트남 국립과학기술대학(VKIST)이 차세대 소형모듈원자로(SMR) 기술 협력을 본격적으로 추진한다.",
-  "summaryLong": "한국의 SK와 베트남 국립과학기술대학(Vietnam Korea University of Science and Technology, VKIST)이 차세대 소형모듈원자로(SMR) 기술 협력을 본격화한다고 발표했다. 양 기관의 협력은 SMR 개발 및 상용화 전략의 일환으로, 국제 협력 네트워크 확대를 의미한다. 이는 국내 SMR 개발사의 국제 파트너십 확보 추진 현황을 보여주는 소식이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "SK",
-  "region": "KR",
-  "source": "g-enews.com",
-  "url": "https://www.g-enews.com/article/Global-Biz/2026/07/2026071606464779892bd56fbc3c_1",
-  "k": "sk 베트남 vkist 차세대 smr 기술 협력 본격화",
-  "ko": 1,
-  "id": "a25ffd3d"
  },
  {
   "date": "2026-07-15",
@@ -1416,5 +1401,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-19 08:38 KST";
-window.SMR_TOTAL = 1388;
+window.SMR_UPDATED = "2026-07-19 15:13 KST";
+window.SMR_TOTAL = 1389;
