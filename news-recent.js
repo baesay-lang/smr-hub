@@ -46,6 +46,63 @@ window.SMR_NEWS = [
   "id": "97ca305d"
  },
  {
+  "date": "2026-07-20",
+  "title": "팰리세이즈 원전 재가동 준비, 안전 리더십팀 구성",
+  "summary": "홀텍 인터내셔널(Holtec International)이 팰리세이즈 원전의 재가동을 위해 핵심 안전 리더십팀을 구성했다.",
+  "summaryLong": "홀텍 인터내셔널이 폐지된 팰리세이즈 원전의 재가동을 위한 준비 단계로 원자력 업계 지도자들로 안전 리더십팀을 구성했다. 이는 원전 재개 승인 과정에서 안전성을 강조하고 규제 신뢰를 구축하기 위한 인사 조치로 보인다. 팰리세이즈는 미국의 주요 소형모듈원자로(SMR) 관련 프로젝트로, 이번 안전팀 확보는 운영 재개의 중요 이정표를 의미한다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "Holtec",
+  "region": "US",
+  "source": "Holtec International",
+  "url": "https://holtecinternational.com/hh-41-12/",
+  "k": "palisades safety leadership team established in preparation for the plant s restart",
+  "id": "1bebb6fc"
+ },
+ {
+  "date": "2026-07-20",
+  "title": "홀텍, 소형모듈원자로 대량 생산 판매 확대를 위해 IPO 추진",
+  "summary": "뉴저지 소재 홀텍이 소형모듈원자로(SMR)의 대량 생산·판매 확대를 목표로 신규공개상장(IPO)을 계획 중이다.",
+  "summaryLong": "뉴저지주(New Jersey) 기반의 홀텍 인터내셔널이 소형모듈원자로(SMR) 사업 확장을 위한 자금 조달 목적으로 신규공개상장(IPO)을 추진하고 있다. 이는 SMR의 대량 생산 및 시장 판매를 본격화하기 위한 자본 확충 전략으로, 홀텍의 SMR 사업에 대한 투자자 관심이 증가함을 보여준다.",
+  "cat": "투자",
+  "type": "PWR",
+  "dev": "Holtec",
+  "region": "US",
+  "source": "inquirer.com",
+  "url": "https://www.inquirer.com/business/holtec-nuclear-plants-ipo-20260720.html",
+  "k": "n j based holtec plans ipo to boost sales of its mass produced small nuclear plants",
+  "id": "793bafc0"
+ },
+ {
+  "date": "2026-07-20",
+  "title": "테라 이노바툼, 와이켄(Waiken ILW)과 마이크로리액터 데이터센터 배치",
+  "summary": "이탈리아 본사의 마이크로 모듈 원자로 개발사 테라 이노바툼(Terra Innovatum)이 라틴 아메리카 및 브라질의 데이터센터 기반시설에 마이크로리액터 장비를 배치하기로 선정되었다.",
+  "summaryLong": "이탈리아 본사, 미국 펜실베이니아주 사무소를 운영하는 마이크로 모듈 원자로 개발사 테라 이노바툼(Terra Innovatum)이 와이켄(Waiken ILW)과 협력하여 라틴 아메리카 및 브라질의 데이터센터 인프라에 마이크로리액터 장비를 배치하기로 선정되었다. 이는 초소형 원자로 기술의 데이터센터 전력 공급 용도 실제 배치 사례로, 마이크로리액터 시장의 상용화 진전을 나타낸다.",
+  "cat": "기술",
+  "type": "Micro",
+  "dev": "Terra Innovatum",
+  "region": "EU",
+  "source": "POWER Magazine",
+  "url": "https://www.powermag.com/terra-innovatum-waiken-ilw-will-deploy-microreactors-for-data-center-infrastructure/",
+  "k": "terra innovatum waiken ilw will deploy microreactors for data center infrastructure",
+  "id": "0365d409"
+ },
+ {
+  "date": "2026-07-20",
+  "title": "원자력연구원·한국해양과학기술원, SMR 추진 대형 컨테이너선 기본승인 획득",
+  "summary": "한국원자력연구원(KAERI)과 한국해양과학기술원(KRISO)이 소형모듈원자로(SMR) 추진 대형 컨테이너선의 기본승인을 획득했다.",
+  "summaryLong": "한국원자력연구원(KAERI)과 한국해양과학기술원(KRISO)이 소형모듈원자로(SMR)를 추진 동력으로 하는 대형 컨테이너선에 대해 기본승인(preliminary approval)을 획득했다. 이는 SMR의 해운 분야 응용 사례로, 규제 당국으로부터 설계 단계의 승인을 받은 것으로 SMR 활용 영역 확대와 기술 성숙도를 시사한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "KAERI·KRISO",
+  "region": "KR",
+  "source": "epj.co.kr",
+  "url": "https://www.epj.co.kr/news/articleView.html?idxno=39007",
+  "k": "원자력연구원 kriso smr 추진 대형 컨테이너선 기본승인 획득",
+  "ko": 1,
+  "id": "a27a19df"
+ },
+ {
   "date": "2026-07-19",
   "title": "중국, 소형모듈원자로 옆 대형원전 먼저 임계 달성…SMR는 216일 지연되고 비용 2.5배",
   "summary": "중국이 같은 섬에 인접한 소형모듈원자로(SMR)보다 대형 풀사이즈 원전을 먼저 임계에 도달시켰으며, SMR은 일정 지연과 높은 단가 문제를 노출했다.",
@@ -833,66 +890,6 @@ window.SMR_NEWS = [
   "id": "8bd69dfa"
  },
  {
-  "date": "2026-07-16",
-  "title": "소형모듈원자로 추진 대형 컨테이너선, 건조 한발 진전",
-  "summary": "소형모듈원자로(SMR) 기술을 활용한 대형 컨테이너선 개발이 진전됨.",
-  "summaryLong": "소형모듈원자로(SMR)를 추진 시스템으로 탑재한 대형 컨테이너선의 건조·개발 사업이 신규 진전 단계에 도달했다고 보도됨. 한국 관계 기관의 주도로 추진되는 사업으로, SMR의 해양 산업 적용 실증 프로젝트로 의미 있음. 구체적인 일정·기술 세부사항은 제목·스니펫에 명시되지 않음.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "thebigdata.co.kr",
-  "url": "https://www.thebigdata.co.kr/view.php?ud=202607161146227425570d99e4c8_23",
-  "k": "소형모듈원자로로 운항하는 대형 컨테이너선 건조 한발 더 나갔다",
-  "ko": 1,
-  "id": "e9a34136"
- },
- {
-  "date": "2026-07-16",
-  "title": "3대 메가프로젝트 속도전 따라 SMR 규제도 '더 빨리'",
-  "summary": "정부의 주요 프로젝트 추진 속도화에 맞춰 소형모듈원자로 규제 절차도 가속화되는 추세.",
-  "summaryLong": "한국 정부의 3대 메가프로젝트 추진 속도 가속화에 발맞춰, 소형모듈원자로(SMR) 분야 규제·인허가 절차도 신속화·효율화되는 정책 동향을 다룬 보도. 국책 SMR 프로젝트들의 일정 단축과 규제 당국의 대응 체계 개선을 포함. SMR 산업 발전과 정부 정책 연계 추진 상황을 반영.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "news.nate.com",
-  "url": "https://news.nate.com/view/20260716n16384",
-  "k": "속도전 3대 메가프로젝트 따라 smr 규제도 더 빨리",
-  "ko": 1,
-  "id": "2520669b"
- },
- {
-  "date": "2026-07-16",
-  "title": "원자력연 \"소형모듈원자로 추진 대형 컨테이너선 기본승인 획득\"",
-  "summary": "한국원자력연구원(원자력연)이 소형모듈원자로(SMR) 추진 컨테이너선의 개념설계에 대해 기본승인을 획득했다.",
-  "summaryLong": "한국원자력연구원(원자력연)은 소형모듈원자로(SMR)를 추진력으로 하는 대형 컨테이너선의 개념설계가 미국 선급협회(ABS) 또는 국제 선박 규제 기준에 따른 기본승인(Approval in Principle)을 획득했다고 발표했다. 이는 해양 분야로의 SMR 적용이라는 혁신적 확장이자, 기술 검증 및 규제 승인 진전을 의미한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "원자력연",
-  "region": "KR",
-  "source": "v.daum.net",
-  "url": "https://v.daum.net/v/FZLyqySrGX?f=p",
-  "k": "원자력연 소형모듈원자로 추진 대형 컨테이너선 기본승인 획득",
-  "ko": 1,
-  "id": "c0d885c7"
- },
- {
-  "date": "2026-07-16",
-  "title": "SMR 건설 가속화, 원안위에 사전검토 신청 의향 기업 3곳",
-  "summary": "원자력안전위원회(원안위)가 SMR 개발사 3곳으로부터 사전검토 신청 의향을 받았으며, 3대 메가 프로젝트와 맞춰 SMR 건설이 가속화될 것으로 예상된다.",
-  "summaryLong": "원자력안전위원회가 소형모듈원자로(SMR) 개발 기업 3곳으로부터 설계인증을 위한 사전검토 신청 의향을 접수했다. 정부의 3대 메가 프로젝트(신산업 육성·국가 기반시설 구축·전략산업 투자 등)와 맞춰 SMR 건설 일정이 단축될 것으로 보인다. 이는 한국의 SMR 상용화 타임라인이 앞당겨질 수 있음을 시사하며, 규제기관과 개발사 간의 협력 체계가 강화되는 신호로 평가된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "news.nate.com",
-  "url": "https://news.nate.com/view/20260716n27398",
-  "k": "3대 메가 프로젝트 맞춰 smr 건설 빨라진다 원안위 사전검토 신청 의향 기업 3곳",
-  "ko": 1,
-  "id": "f7ed99de"
- },
- {
   "date": "2026-07-15",
   "title": "NRC, TVA의 BWRX-300 소형모듈원자로 건설허가 권고",
   "summary": "미국 원자력규제위원회(NRC) 직원들이 테네시 클린치강(Clinch River)에 건설될 테네시밸리공사(TVA)의 BWRX-300 소형모듈원자로에 대한 건설허가를 권고했다.",
@@ -994,20 +991,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-14",
-  "title": "홀텍, IPO 등록명세서 공개 제출",
-  "summary": "홀텍 뉴클리어 코퍼레이션(Holtec Nuclear Corporation)이 2026년 7월 10일 미국 증권거래위원회(SEC)에 신규공개(IPO) 등록명세서(Form S-1)를 제출했다.",
-  "summaryLong": "홀텍 뉴클리어 코퍼레이션(Holtec Nuclear Corporation)은 2026년 7월 10일 미국 증권거래위원회(SEC)에 A급 보통주의 신규공개(IPO)와 관련된 등록명세서(Form S-1)를 공개 제출했다. 홀텍은 소형모듈원자로(SMR) 개발 업체로서 자본시장을 통한 자금 조달을 추진하고 있다.",
-  "cat": "투자",
-  "type": "PWR",
-  "dev": "Holtec",
-  "region": "US",
-  "source": "Holtec International",
-  "url": "https://holtecinternational.com/hh-41-11/",
-  "k": "holtec nuclear corporation announces public filing of registration statement for proposed initial public offering",
-  "id": "7bee8cb3"
- },
- {
-  "date": "2026-07-14",
   "title": "현대건설, 미국 FANCO와 납-비스무트 냉각 SMR 사업 협력",
   "summary": "현대건설이 미국의 FANCO와 납-비스무트 냉각 방식의 SMR 사업 협력을 추진한다.",
   "summaryLong": "현대건설이 미국의 차세대 SMR 개발사 FANCO와 납-비스무트(Pb-Bi) 냉각 방식의 소형모듈원자로 사업 협력을 진행 중이다. 납-비스무트 냉각은 액체금속냉각 SMR 기술로, 고온·고밀도 에너지 특성으로 주목받고 있다. 현대건설은 이 협력을 통해 4세대 원전 기술 확보 및 미국 시장 진출을 강화하려는 전략이다.",
@@ -1090,20 +1073,6 @@ window.SMR_NEWS = [
   "url": "https://www.ans.org/news/2026-07-09/article-8165/industry-updatejuly-2026/",
   "k": "industry update july 2026",
   "id": "15f346c1"
- },
- {
-  "date": "2026-07-08",
-  "title": "딥 피션(Deep Fission), 원형 원자로 용기 시제품 인수",
-  "summary": "캘리포니아 스타트업 딥 피션(Deep Fission)이 시추공 매설형 소형모듈원자로(SMR) 프로젝트용 원형 원자로 용기 시제품을 파슨스(Parsons) 부지에서 인수했다.",
-  "summaryLong": "캘리포니아(California) 기반 스타트업 딥 피션(Deep Fission)은 지하 1마일 깊이의 시추공(borehole) 내에 소형모듈원자로(SMR)를 설치하는 기술 개발을 추진 중이며, 이번에 캔자스(Kansas) 주의 파슨스(Parsons) 부지에서 해당 프로젝트 파일럿용 원형 원자로 용기 시제품을 인수했다. 이는 차세대 SMR 기술의 물리적 구현 단계로, 개념 설계를 벗어나 실제 하드웨어 개발이 진행되고 있음을 의미한다.",
-  "cat": "기술",
-  "type": "Micro",
-  "dev": "Deep Fission",
-  "region": "US",
-  "source": "World Nuclear News",
-  "url": "https://www.world-nuclear-news.org/articles/deep-fission-receives-prototype-reactor-canister",
-  "k": "deep fission receives prototype reactor canister",
-  "id": "9fad13f2"
  },
  {
   "date": "2026-07-07",
@@ -1373,5 +1342,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-20 16:21 KST";
-window.SMR_TOTAL = 1401;
+window.SMR_UPDATED = "2026-07-21 07:32 KST";
+window.SMR_TOTAL = 1405;

@@ -53,6 +53,63 @@ window.SMR_NEWS = [
     "id": "97ca305d"
   },
   {
+    "date": "2026-07-20",
+    "title": "팰리세이즈 원전 재가동 준비, 안전 리더십팀 구성",
+    "summary": "홀텍 인터내셔널(Holtec International)이 팰리세이즈 원전의 재가동을 위해 핵심 안전 리더십팀을 구성했다.",
+    "summaryLong": "홀텍 인터내셔널이 폐지된 팰리세이즈 원전의 재가동을 위한 준비 단계로 원자력 업계 지도자들로 안전 리더십팀을 구성했다. 이는 원전 재개 승인 과정에서 안전성을 강조하고 규제 신뢰를 구축하기 위한 인사 조치로 보인다. 팰리세이즈는 미국의 주요 소형모듈원자로(SMR) 관련 프로젝트로, 이번 안전팀 확보는 운영 재개의 중요 이정표를 의미한다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Holtec",
+    "region": "US",
+    "source": "Holtec International",
+    "url": "https://holtecinternational.com/hh-41-12/",
+    "k": "palisades safety leadership team established in preparation for the plant s restart",
+    "id": "1bebb6fc"
+  },
+  {
+    "date": "2026-07-20",
+    "title": "홀텍, 소형모듈원자로 대량 생산 판매 확대를 위해 IPO 추진",
+    "summary": "뉴저지 소재 홀텍이 소형모듈원자로(SMR)의 대량 생산·판매 확대를 목표로 신규공개상장(IPO)을 계획 중이다.",
+    "summaryLong": "뉴저지주(New Jersey) 기반의 홀텍 인터내셔널이 소형모듈원자로(SMR) 사업 확장을 위한 자금 조달 목적으로 신규공개상장(IPO)을 추진하고 있다. 이는 SMR의 대량 생산 및 시장 판매를 본격화하기 위한 자본 확충 전략으로, 홀텍의 SMR 사업에 대한 투자자 관심이 증가함을 보여준다.",
+    "cat": "투자",
+    "type": "PWR",
+    "dev": "Holtec",
+    "region": "US",
+    "source": "inquirer.com",
+    "url": "https://www.inquirer.com/business/holtec-nuclear-plants-ipo-20260720.html",
+    "k": "n j based holtec plans ipo to boost sales of its mass produced small nuclear plants",
+    "id": "793bafc0"
+  },
+  {
+    "date": "2026-07-20",
+    "title": "테라 이노바툼, 와이켄(Waiken ILW)과 마이크로리액터 데이터센터 배치",
+    "summary": "이탈리아 본사의 마이크로 모듈 원자로 개발사 테라 이노바툼(Terra Innovatum)이 라틴 아메리카 및 브라질의 데이터센터 기반시설에 마이크로리액터 장비를 배치하기로 선정되었다.",
+    "summaryLong": "이탈리아 본사, 미국 펜실베이니아주 사무소를 운영하는 마이크로 모듈 원자로 개발사 테라 이노바툼(Terra Innovatum)이 와이켄(Waiken ILW)과 협력하여 라틴 아메리카 및 브라질의 데이터센터 인프라에 마이크로리액터 장비를 배치하기로 선정되었다. 이는 초소형 원자로 기술의 데이터센터 전력 공급 용도 실제 배치 사례로, 마이크로리액터 시장의 상용화 진전을 나타낸다.",
+    "cat": "기술",
+    "type": "Micro",
+    "dev": "Terra Innovatum",
+    "region": "EU",
+    "source": "POWER Magazine",
+    "url": "https://www.powermag.com/terra-innovatum-waiken-ilw-will-deploy-microreactors-for-data-center-infrastructure/",
+    "k": "terra innovatum waiken ilw will deploy microreactors for data center infrastructure",
+    "id": "0365d409"
+  },
+  {
+    "date": "2026-07-20",
+    "title": "원자력연구원·한국해양과학기술원, SMR 추진 대형 컨테이너선 기본승인 획득",
+    "summary": "한국원자력연구원(KAERI)과 한국해양과학기술원(KRISO)이 소형모듈원자로(SMR) 추진 대형 컨테이너선의 기본승인을 획득했다.",
+    "summaryLong": "한국원자력연구원(KAERI)과 한국해양과학기술원(KRISO)이 소형모듈원자로(SMR)를 추진 동력으로 하는 대형 컨테이너선에 대해 기본승인(preliminary approval)을 획득했다. 이는 SMR의 해운 분야 응용 사례로, 규제 당국으로부터 설계 단계의 승인을 받은 것으로 SMR 활용 영역 확대와 기술 성숙도를 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "KAERI·KRISO",
+    "region": "KR",
+    "source": "epj.co.kr",
+    "url": "https://www.epj.co.kr/news/articleView.html?idxno=39007",
+    "k": "원자력연구원 kriso smr 추진 대형 컨테이너선 기본승인 획득",
+    "ko": 1,
+    "id": "a27a19df"
+  },
+  {
     "date": "2026-07-19",
     "title": "중국, 소형모듈원자로 옆 대형원전 먼저 임계 달성…SMR는 216일 지연되고 비용 2.5배",
     "summary": "중국이 같은 섬에 인접한 소형모듈원자로(SMR)보다 대형 풀사이즈 원전을 먼저 임계에 도달시켰으며, SMR은 일정 지연과 높은 단가 문제를 노출했다.",
@@ -20276,4 +20333,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-20 16:21 KST";
+window.SMR_UPDATED = "2026-07-21 07:32 KST";
