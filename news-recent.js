@@ -1,6 +1,36 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-07-20",
+  "title": "국제전기, SMR용 디지털 UPS 개발 과제 수주",
+  "summary": "국제전기가 혁신형 SMR용 디지털 무정전전원공급장치(UPS) 개발 과제를 수주했다.",
+  "summaryLong": "국내 국제전기가 혁신형 소형모듈원자로(SMR)용 디지털 무정전전원공급장치(UPS) 개발 과제를 수주했다. 이는 차세대 원전 전력설비 시장 진출을 목표로 하는 전략적 수주로, SMR의 안전 및 안정적 운영에 필요한 핵심 부품 개발을 의미한다. 국제전기는 이를 통해 SMR 관련 원전 전력설비 공급업체로서의 입지를 강화할 것으로 기대된다.",
+  "cat": "계약",
+  "type": "PWR",
+  "dev": "국제전기",
+  "region": "KR",
+  "source": "news.nate.com",
+  "url": "https://news.nate.com/view/20260720n21345",
+  "k": "국제전기 혁신형 smr용 디지털 ups 개발 과제 수주 차세대 원전 전력설비 공략",
+  "ko": 1,
+  "id": "b94bdc2f"
+ },
+ {
+  "date": "2026-07-20",
+  "title": "테라파워, 영국 당국과 긴밀 협력 중…2030년대 원자로 가동 목표",
+  "summary": "미국 소형모듈원자로(SMR) 기업 테라파워(TerraPower)가 영국 당국과 협력하며 2030년대 원자로 가동을 목표로 하고 있다.",
+  "summaryLong": "미국의 소형모듈원자로(SMR) 개발사 테라파워(TerraPower)가 영국 당국과 긴밀한 협력을 진행 중이며, 2030년대 원자로 가동을 목표로 추진하고 있다는 공식 발표 소식이다. 영국(UK) 규제 당국과의 협력은 설계 인증 및 인허가 추진 과정의 일부이며, 구체적인 가동 시기 목표 제시는 기술·사업 진전의 중요 마일스톤이다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "UK",
+  "source": "theguru.co.kr",
+  "url": "https://www.theguru.co.kr/news/article.html?no=104627",
+  "k": "smr 기업 테라파워 당국과 긴밀히 협력 중 2030년대 원자로 가동 목표",
+  "ko": 1,
+  "id": "75995a71"
+ },
+ {
   "date": "2026-07-19",
   "title": "중국, 소형모듈원자로 옆 대형원전 먼저 임계 달성…SMR는 216일 지연되고 비용 2.5배",
   "summary": "중국이 같은 섬에 인접한 소형모듈원자로(SMR)보다 대형 풀사이즈 원전을 먼저 임계에 도달시켰으며, SMR은 일정 지연과 높은 단가 문제를 노출했다.",
@@ -57,6 +87,20 @@ window.SMR_NEWS = [
   "url": "https://ts2.tech/en/oklo-nyseoklo-drops-16-as-focus-shifts-to-july-reactor-milestone-for-next-key-test/",
   "k": "oklo nyse oklo drops 16 as focus shifts to july reactor milestone for next key test",
   "id": "cae9d904"
+ },
+ {
+  "date": "2026-07-19",
+  "title": "홀텍(Holtec), SMR 사업으로 IPO 추진",
+  "summary": "미국 홀텍이 소형모듈원자로(SMR) 사업 확대를 목표로 기업공개(IPO)를 추진 중이다.",
+  "summaryLong": "미국의 원자력 기업 홀텍(Holtec)이 소형모듈원자로(SMR) 사업에 대한 투자 확대를 배경으로 기업공개(IPO)를 추진하고 있다. 이는 SMR 시장 성장 전망과 정부의 차세대 원전 정책 추진에 따른 사업 기회 확대에 대응하는 것으로 보인다. IPO를 통해 조달한 자금은 SMR 개발 및 사업화 가속화에 투입될 것으로 예상된다.",
+  "cat": "투자",
+  "type": "PWR",
+  "dev": "Holtec",
+  "region": "US",
+  "source": "asiatimes.com",
+  "url": "https://asiatimes.com/2026/07/us-firm-holtec-bets-big-on-small-modular-nuclear-reactors-in-ipo/",
+  "k": "us firm holtec bets big on small modular nuclear reactors in ipo",
+  "id": "b1dc37ce"
  },
  {
   "date": "2026-07-18",
@@ -849,65 +893,6 @@ window.SMR_NEWS = [
   "id": "a1837a5e"
  },
  {
-  "date": "2026-07-16",
-  "title": "한국형 용융염원자로 적용 컨테이너선, 미국 선급협회 기본승인 획득",
-  "summary": "한국형 용융염원자로(MSR)를 적용한 컨테이너선이 미국 선급협회(ABS)로부터 기본승인을 획득했다.",
-  "summaryLong": "한국이 개발하는 용융염원자로(MSR) 기술을 적용한 컨테이너선의 개념설계가 미국 선급협회(ABS, American Bureau of Shipping)로부터 기본승인(AIP, Approval in Principle)을 획득했다고 보도되었다. 이는 국내 MSR 기술의 국제 해상 산업 응용 가능성을 입증하는 사건으로, 첨단로 기술의 실용화 방향 확대를 보여준다. 미국 선급협회의 공식 승인으로 국제적 기술 인정을 획득한 의미 있는 진전이다.",
-  "cat": "기술",
-  "type": "MSR",
-  "dev": "",
-  "region": "KR",
-  "source": "v.daum.net",
-  "url": "https://v.daum.net/v/20260716091950096",
-  "k": "한국형 용융염원자로 적용 컨테이너선 선급협회 기본승인 획득",
-  "ko": 1,
-  "id": "07a1d9eb"
- },
- {
-  "date": "2026-07-15",
-  "title": "'부산형 SMR 상용화'에 정부 연구개발 지원 나선다",
-  "summary": "정부가 부산형 SMR의 상용화를 위한 연구개발 지원을 시작한다.",
-  "summaryLong": "정부가 부산 지역 기반의 소형모듈원자로(SMR) 상용화 프로젝트에 대한 연구개발 지원을 추진한다. 이는 국내 SMR 기술 자립화 및 지역산업 육성을 목표로 하는 국책 지원 정책이다. 부산형 SMR은 한국이 독자 개발 중인 SMR 노형으로, 정부 차원의 본격 R&D 투자·지원이 이루어질 예정이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "kookje.co.kr",
-  "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20260715.99099004385",
-  "k": "뭐라노 부산형 smr 상용화 정부 연구개발 지원 나선다",
-  "ko": 1,
-  "id": "3ed478b2"
- },
- {
-  "date": "2026-07-15",
-  "title": "DL이앤씨, 매출 감소 속 SMR·데이터센터로 체질 개선",
-  "summary": "DL이앤씨가 경영 부진을 극복하기 위해 SMR과 데이터센터 사업 확대로 사업 구조를 전환한다.",
-  "summaryLong": "건설사 DL이앤씨가 매출 감소에 대응하기 위해 소형모듈원자로(SMR)와 데이터센터 사업을 중심으로 사업 포트폴리오를 재편하고 있다. 이는 기존 건설 중심 사업에서 에너지·첨단산업 분야로의 전략적 전환으로, SMR 프로젝트 참여 확대를 통해 미래 성장 동력을 확보하려는 시도다. 구체적 투자 규모와 추진 일정은 별도 공시 예정이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "DL이앤씨",
-  "region": "KR",
-  "source": "leadeconomy.co.kr",
-  "url": "https://www.leadeconomy.co.kr/news/articleView.html?idxno=8644",
-  "k": "매출 줄었지만 dl이앤씨 smr 데이터센터로 체질 바꾼다",
-  "ko": 1,
-  "id": "2b04fced"
- },
- {
-  "date": "2026-07-15",
-  "title": "테라파워, 영국과 긍정적 협상 진행, 2030년대 초중반 원자로 가동 목표",
-  "summary": "테라파워(TerraPower)가 영국(UK)과의 협상에서 긍정적 진전을 이루며 2030년대 초중반 원자로 가동을 목표로 하고 있다.",
-  "summaryLong": "차세대 소듐냉각고속로(SFR) 개발사 테라파워(TerraPower)가 영국(UK) 정부와의 협상에서 긍정적 결과를 거두고 있는 것으로 알려졌다. 회사는 영국 내 원자로 건설 및 운영을 목표로 2030년대 초중반의 원자로 가동을 추진 목표로 설정했다. 이는 테라파워의 주요 국제 전략의 일환으로, 첨단로 상용화 일정에 관한 중요한 진행 사항이다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "UK",
-  "source": "nucnet.org",
-  "url": "https://www.nucnet.org/news/terrapower-holds-positive-talks-with-uk-targets-early-to-mid-2030s-for-reactor-launch-7-3-2026",
-  "k": "terrapower holds positive talks with uk targets early to mid 2030s for reactor launch",
-  "id": "af35605a"
- },
- {
   "date": "2026-07-15",
   "title": "NRC, TVA의 BWRX-300 소형모듈원자로 건설허가 권고",
   "summary": "미국 원자력규제위원회(NRC) 직원들이 테네시 클린치강(Clinch River)에 건설될 테네시밸리공사(TVA)의 BWRX-300 소형모듈원자로에 대한 건설허가를 권고했다.",
@@ -962,20 +947,6 @@ window.SMR_NEWS = [
   "url": "https://www.moomoo.com/community/feed/tracking-cathie-wood-heavy-investment-in-circle-x-energy-trimming-116923217674246",
   "k": "tracking cathie wood heavy investment in circle x energy trimming genomics leaders",
   "id": "4bdb10e9"
- },
- {
-  "date": "2026-07-15",
-  "title": "루마니아 에너지부, 뉴스케일(NuScale) 소형모듈원자로 프로젝트 계속 추진 확인",
-  "summary": "루마니아 에너지부가 도이체슈티(Doicești) 소형모듈원자로(SMR) 프로젝트의 재검토 거부 및 뉴스케일(NuScale)과의 투자 지속을 공식 확인했다.",
-  "summaryLong": "루마니아 에너지부가 도이체슈티(Doicești)에서 뉴스케일(NuScale)과 함께 추진 중인 소형모듈원자로(SMR) 프로젝트에 대한 재평가 요구를 거부하고, 투자 계속을 공식 확인했다. 이는 국내외 정치적·경제적 불확실성 속에서 루마니아 정부의 소형모듈원자로 도입 의지를 재확인하는 신호로, 뉴스케일의 유럽 시장 진출 전략에 중요한 정책 지지를 의미한다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "NuScale",
-  "region": "EU",
-  "source": "informat.ro",
-  "url": "https://informat.ro/en/current-affairs/nuclearelectrica-will-not-seek-new-smr-technologies-after-the-shareholders-vote-130618",
-  "k": "the ministry of energy rejects the reevaluation of the small reactor project and confirms the continuation of the investment at doice ti with nuscale",
-  "id": "33cc24bd"
  },
  {
   "date": "2026-07-15",
@@ -1049,21 +1020,6 @@ window.SMR_NEWS = [
   "k": "현대건설 fanco와 납 비스무트 냉각 smr 사업 협력",
   "ko": 1,
   "id": "51c3ba7a"
- },
- {
-  "date": "2026-07-13",
-  "title": "홀텍(Holtec), 인도 SMR 사업 포함한 IPO 추진",
-  "summary": "미국 핵심 기업 홀텍(Holtec)이 인도에서의 소형모듈원자로(SMR) 사업을 포함하여 기업공개(IPO)를 추진 중이다.",
-  "summaryLong": "미국 원자력 기업 홀텍(Holtec)이 기업공개(IPO) 계획을 발표했으며, 이 과정에서 인도에서의 소형모듈원자로(SMR) 사업이 포함될 것으로 예상된다. 홀텍의 IPO는 회사의 국제적 사업 확장, 특히 인도 시장에서의 SMR 기술 전개 의지를 반영하는 것으로 보인다. 이는 홀텍이 글로벌 SMR 시장에서의 입지를 강화하려는 전략의 일환이다.",
-  "cat": "투자",
-  "type": "PWR",
-  "dev": "Holtec",
-  "region": "US",
-  "source": "indianexpress.com",
-  "url": "https://indianexpress.com/article/business/holtec-ipo-india-small-modular-reactor-smr-ntpc-10783696/",
-  "k": "us nuclear firm holtec s ipo plans could have an india smr footprint",
-  "op": 1,
-  "id": "698f1008"
  },
  {
   "date": "2026-07-13",
@@ -1417,5 +1373,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-20 08:41 KST";
-window.SMR_TOTAL = 1396;
+window.SMR_UPDATED = "2026-07-20 15:33 KST";
+window.SMR_TOTAL = 1399;

@@ -8,6 +8,36 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-07-20",
+    "title": "국제전기, SMR용 디지털 UPS 개발 과제 수주",
+    "summary": "국제전기가 혁신형 SMR용 디지털 무정전전원공급장치(UPS) 개발 과제를 수주했다.",
+    "summaryLong": "국내 국제전기가 혁신형 소형모듈원자로(SMR)용 디지털 무정전전원공급장치(UPS) 개발 과제를 수주했다. 이는 차세대 원전 전력설비 시장 진출을 목표로 하는 전략적 수주로, SMR의 안전 및 안정적 운영에 필요한 핵심 부품 개발을 의미한다. 국제전기는 이를 통해 SMR 관련 원전 전력설비 공급업체로서의 입지를 강화할 것으로 기대된다.",
+    "cat": "계약",
+    "type": "PWR",
+    "dev": "국제전기",
+    "region": "KR",
+    "source": "news.nate.com",
+    "url": "https://news.nate.com/view/20260720n21345",
+    "k": "국제전기 혁신형 smr용 디지털 ups 개발 과제 수주 차세대 원전 전력설비 공략",
+    "ko": 1,
+    "id": "b94bdc2f"
+  },
+  {
+    "date": "2026-07-20",
+    "title": "테라파워, 영국 당국과 긴밀 협력 중…2030년대 원자로 가동 목표",
+    "summary": "미국 소형모듈원자로(SMR) 기업 테라파워(TerraPower)가 영국 당국과 협력하며 2030년대 원자로 가동을 목표로 하고 있다.",
+    "summaryLong": "미국의 소형모듈원자로(SMR) 개발사 테라파워(TerraPower)가 영국 당국과 긴밀한 협력을 진행 중이며, 2030년대 원자로 가동을 목표로 추진하고 있다는 공식 발표 소식이다. 영국(UK) 규제 당국과의 협력은 설계 인증 및 인허가 추진 과정의 일부이며, 구체적인 가동 시기 목표 제시는 기술·사업 진전의 중요 마일스톤이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "UK",
+    "source": "theguru.co.kr",
+    "url": "https://www.theguru.co.kr/news/article.html?no=104627",
+    "k": "smr 기업 테라파워 당국과 긴밀히 협력 중 2030년대 원자로 가동 목표",
+    "ko": 1,
+    "id": "75995a71"
+  },
+  {
     "date": "2026-07-19",
     "title": "중국, 소형모듈원자로 옆 대형원전 먼저 임계 달성…SMR는 216일 지연되고 비용 2.5배",
     "summary": "중국이 같은 섬에 인접한 소형모듈원자로(SMR)보다 대형 풀사이즈 원전을 먼저 임계에 도달시켰으며, SMR은 일정 지연과 높은 단가 문제를 노출했다.",
@@ -64,6 +94,20 @@ window.SMR_NEWS = [
     "url": "https://ts2.tech/en/oklo-nyseoklo-drops-16-as-focus-shifts-to-july-reactor-milestone-for-next-key-test/",
     "k": "oklo nyse oklo drops 16 as focus shifts to july reactor milestone for next key test",
     "id": "cae9d904"
+  },
+  {
+    "date": "2026-07-19",
+    "title": "홀텍(Holtec), SMR 사업으로 IPO 추진",
+    "summary": "미국 홀텍이 소형모듈원자로(SMR) 사업 확대를 목표로 기업공개(IPO)를 추진 중이다.",
+    "summaryLong": "미국의 원자력 기업 홀텍(Holtec)이 소형모듈원자로(SMR) 사업에 대한 투자 확대를 배경으로 기업공개(IPO)를 추진하고 있다. 이는 SMR 시장 성장 전망과 정부의 차세대 원전 정책 추진에 따른 사업 기회 확대에 대응하는 것으로 보인다. IPO를 통해 조달한 자금은 SMR 개발 및 사업화 가속화에 투입될 것으로 예상된다.",
+    "cat": "투자",
+    "type": "PWR",
+    "dev": "Holtec",
+    "region": "US",
+    "source": "asiatimes.com",
+    "url": "https://asiatimes.com/2026/07/us-firm-holtec-bets-big-on-small-modular-nuclear-reactors-in-ipo/",
+    "k": "us firm holtec bets big on small modular nuclear reactors in ipo",
+    "id": "b1dc37ce"
   },
   {
     "date": "2026-07-18",
@@ -20202,4 +20246,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-20 08:41 KST";
+window.SMR_UPDATED = "2026-07-20 15:33 KST";
