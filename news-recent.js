@@ -103,6 +103,22 @@ window.SMR_NEWS = [
   "id": "a27a19df"
  },
  {
+  "date": "2026-07-20",
+  "title": "한국, 미·중 AI 종속 막고 SMR(소형모듈원자로) 조기상용화 추진",
+  "summary": "한국이 미국·중국에 대한 AI 기술 종속을 막기 위해 소형모듈원자로(SMR)의 조기상용화를 전략으로 제시했다.",
+  "summaryLong": "한국이 AI 산업의 미국·중국 쏠림 현상을 극복하기 위해 독자적 기술 모델 개발과 함께 소형모듈원자로(SMR)의 조기상용화를 정책 과제로 추진하는 것으로 보도됐다. 이는 SMR을 데이터센터 등 AI 인프라의 에너지원으로 활용하겠다는 의도를 반영한 국책 정책 방향 제시이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "news1.kr",
+  "url": "https://www.news1.kr/it-science/general-science/6233178",
+  "k": "미 중 ai 종속 막는 독자 모델 필요 smr 조기상용화도 종합",
+  "ko": 1,
+  "op": 1,
+  "id": "2e7f01ee"
+ },
+ {
   "date": "2026-07-19",
   "title": "중국, 소형모듈원자로 옆 대형원전 먼저 임계 달성…SMR는 216일 지연되고 비용 2.5배",
   "summary": "중국이 같은 섬에 인접한 소형모듈원자로(SMR)보다 대형 풀사이즈 원전을 먼저 임계에 도달시켰으며, SMR은 일정 지연과 높은 단가 문제를 노출했다.",
@@ -875,21 +891,6 @@ window.SMR_NEWS = [
   "id": "a4a63ab2"
  },
  {
-  "date": "2026-07-16",
-  "title": "'K-문샷' SMR 추진 컨테이너선, 국제 기본인증 획득",
-  "summary": "국내 SMR 추진 컨테이너선 개념설계가 국제 기본인증을 획득했다.",
-  "summaryLong": "한국이 추진 중인 '문샷' 프로젝트의 소형모듈원자로(SMR) 추진 대형 컨테이너선이 국제해사기구(IMO) 및 선급 기준 기본인증(Preliminary Approval)을 획득했다. 이는 차세대 저탄소 해운 추진 기술로 SMR을 적용한 선박 개발의 초기 규제 관문을 통과한 것으로, 실선 건조 단계로의 진입을 위한 중요한 이정표이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "sedaily.com",
-  "url": "https://www.sedaily.com/article/20068441",
-  "k": "k 문샷 smr 추진 컨테이너선 국제 기본인증 획득 첫 관문 통과",
-  "ko": 1,
-  "id": "8bd69dfa"
- },
- {
   "date": "2026-07-15",
   "title": "NRC, TVA의 BWRX-300 소형모듈원자로 건설허가 권고",
   "summary": "미국 원자력규제위원회(NRC) 직원들이 테네시 클린치강(Clinch River)에 건설될 테네시밸리공사(TVA)의 BWRX-300 소형모듈원자로에 대한 건설허가를 권고했다.",
@@ -1342,5 +1343,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-21 07:32 KST";
-window.SMR_TOTAL = 1405;
+window.SMR_UPDATED = "2026-07-21 08:09 KST";
+window.SMR_TOTAL = 1406;
