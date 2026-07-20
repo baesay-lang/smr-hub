@@ -31,6 +31,21 @@ window.SMR_NEWS = [
   "id": "75995a71"
  },
  {
+  "date": "2026-07-20",
+  "title": "배경훈 장관, AI 데이터센터(AIDC) 전력 확보 위해 경수로형(PWR) SMR 상용화 앞당기겠다",
+  "summary": "배경훈 산업통상자원부 장관이 AI 데이터센터의 전력 수요 대응을 위해 경수로형 SMR의 상용화 일정을 단축하겠다는 입장을 밝혔다.",
+  "summaryLong": "배경훈 장관은 AI 데이터센터의 급증하는 전력 수요에 대응하기 위해 경수로형(PWR) 소형모듈원자로(SMR)의 상용화 일정을 앞당기겠다고 발표했다. 이는 정부가 SMR을 에너지 정책의 핵심 수단으로 삼고 있음을 보여주는 발언으로, AI 산업의 전력 확보를 국가 차원의 과제로 인식하고 있음을 의미한다. SMR 상용화 가속은 국내 원전 산업의 경쟁력 강화와 에너지 안보 전략의 일환으로 추진되고 있다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "",
+  "region": "KR",
+  "source": "news1.kr",
+  "url": "https://www.news1.kr/it-science/general-science/6232925",
+  "k": "배경훈 aidc 전력 확보 위해 경수로형 smr 상용화 앞당기겠다",
+  "ko": 1,
+  "id": "97ca305d"
+ },
+ {
   "date": "2026-07-19",
   "title": "중국, 소형모듈원자로 옆 대형원전 먼저 임계 달성…SMR는 216일 지연되고 비용 2.5배",
   "summary": "중국이 같은 섬에 인접한 소형모듈원자로(SMR)보다 대형 풀사이즈 원전을 먼저 임계에 도달시켰으며, SMR은 일정 지연과 높은 단가 문제를 노출했다.",
@@ -101,6 +116,21 @@ window.SMR_NEWS = [
   "url": "https://asiatimes.com/2026/07/us-firm-holtec-bets-big-on-small-modular-nuclear-reactors-in-ipo/",
   "k": "us firm holtec bets big on small modular nuclear reactors in ipo",
   "id": "b1dc37ce"
+ },
+ {
+  "date": "2026-07-19",
+  "title": "AI 전력 대란 대응, 한국 2030년대 SMR·핵융합 에너지 전략 추진",
+  "summary": "한국 정부가 AI 산업의 전력 수요 증가에 대응하기 위해 소형모듈원자로(SMR)와 핵융합을 2030년대 주요 에너지 정책으로 추진한다는 방침을 밝혔다.",
+  "summaryLong": "한국 정부는 AI 데이터센터 등으로 인한 전력 수요 급증 대응을 위해 소형모듈원자로(SMR)와 핵융합을 2030년대의 전략적 에너지 확보 수단으로 삼겠다고 발표했다. 이는 AI 산업의 확대로 예상되는 전력난을 사전에 차단하고자 하는 정부의 선제적 에너지 정책으로, SMR의 유연한 배치와 핵융합의 장기적 가능성을 동시에 추진하는 이중 전략이다. 정부는 이를 통해 에너지 안보와 산업 경쟁력을 동시에 확보하려는 의도를 드러냈다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "edaily.co.kr",
+  "url": "https://www.edaily.co.kr/News/Read?newsId=01833526645516160&mediaCodeNo=257",
+  "k": "ai 전력 대란 막는다 한국 smr 핵융합 2030년대 에너지 승부수",
+  "ko": 1,
+  "id": "dc8f56c0"
  },
  {
   "date": "2026-07-18",
@@ -863,36 +893,6 @@ window.SMR_NEWS = [
   "id": "f7ed99de"
  },
  {
-  "date": "2026-07-16",
-  "title": "용융염원자로(MSR) 컨테이너선 개념설계, 미국서 기본승인 획득",
-  "summary": "한국이 개발한 용융염원자로(MSR) 적용 컨테이너선 개념설계가 미국 선급협회로부터 기본승인을 획득했다.",
-  "summaryLong": "한국의 원자력연구소가 추진하는 용융염원자로(MSR) 추진 컨테이너선의 개념설계가 미국 선급협회(ABS)로부터 기본승인(AIP, Approval in Principle)을 획득했다고 보도되었다. 이는 첨단로 기술의 해상 응용 분야 확대를 의미하며, 국내 MSR 기술의 국제 인정 사례로서 기술 개발 마일스톤에 해당한다. 컨테이너선 추진 시스템으로의 SMR/첨단로 활용 가능성을 보여주는 의의 있는 진전이다.",
-  "cat": "기술",
-  "type": "MSR",
-  "dev": "원자력연구소",
-  "region": "KR",
-  "source": "zdnet.co.kr",
-  "url": "https://zdnet.co.kr/view/?no=20260716202107",
-  "k": "용융염원자로 msr 컨테이너선 개념설계 미국서 기본승인 획득",
-  "ko": 1,
-  "id": "96a78b7a"
- },
- {
-  "date": "2026-07-16",
-  "title": "원자력연구소 소형모듈원자로 추진 컨테이너선 기본승인 획득",
-  "summary": "원자력연구소가 개발한 SMR 추진 컨테이너선이 기본승인을 획득했다.",
-  "summaryLong": "한국원자력연구원(원자력연구소)이 소형모듈원자로(SMR)를 동력으로 하는 컨테이너선의 개념설계가 국제해사기구(IMO) 또는 선급협회로부터 기본승인(AIP)을 획득했다고 발표했다. 이는 SMR 기술의 해상 산업 응용 분야 확대를 의미하며, 한국의 첨단로 기술 개발 수준을 국제적으로 입증하는 중요한 마일스톤이다. 원자력연구소의 공식 발표로 확인된 사실이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "원자력연구소",
-  "region": "KR",
-  "source": "biz.chosun.com",
-  "url": "https://biz.chosun.com/science-chosun/science/2026/07/16/PB3RQO27KRCTZLKU3WOMFMJ3EM/",
-  "k": "원자력연구소 소형모듈원자로 추진 컨테이너선 기본승인 받아 조선비즈",
-  "ko": 1,
-  "id": "a1837a5e"
- },
- {
   "date": "2026-07-15",
   "title": "NRC, TVA의 BWRX-300 소형모듈원자로 건설허가 권고",
   "summary": "미국 원자력규제위원회(NRC) 직원들이 테네시 클린치강(Clinch River)에 건설될 테네시밸리공사(TVA)의 BWRX-300 소형모듈원자로에 대한 건설허가를 권고했다.",
@@ -1373,5 +1373,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-20 15:33 KST";
-window.SMR_TOTAL = 1399;
+window.SMR_UPDATED = "2026-07-20 16:21 KST";
+window.SMR_TOTAL = 1401;
