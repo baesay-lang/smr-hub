@@ -24,6 +24,137 @@ window.SMR_NEWS = [
     "id": "782ebad9"
   },
   {
+    "date": "2026-07-21",
+    "title": "롤스로이스(Rolls-Royce) SMR, 체코 추가 2곳 건설 준비 착수",
+    "summary": "체코 산업무역부(Ministry of Industry and Trade), ČEZ, 롤스로이스 SMR이 양해각서(MOU)를 체결하고 체코 내 2개 추가 지역에서 소형모듈원자로(SMR) 사업 준비활동을 시작한다.",
+    "summaryLong": "체코 산업무역부, ČEZ, 롤스로이스 SMR이 양해각서(MOU)를 체결하여 체코 내 두 개의 추가 부지에서 소형모듈원자로(SMR) 프로젝트 준비활동을 시작하기로 합의했다. 이는 체코의 에너지 전환 전략의 일환으로, 기존 부지에 이어 새로운 입지를 확보함으로써 SMR 도입을 본격화하려는 움직임이다. 롤스로이스 SMR은 유럽 시장 진출의 중요한 계약 사례로, 향후 설계 인증 및 건설 인허가 획득으로 이어질 것으로 예상된다.",
+    "cat": "계약",
+    "type": "PWR",
+    "dev": "Rolls-Royce SMR",
+    "region": "EU",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/two-more-czech-sites-lined-up-for-rolls-royce-smrs",
+    "k": "two more czech sites lined up for rolls royce smrs",
+    "id": "09680659"
+  },
+  {
+    "date": "2026-07-21",
+    "title": "오클로(Oklo), 엑스에너지(X-Energy), 트럼프 정부 AI용 신규 원자로 가속화 정책 참여",
+    "summary": "오클로와 엑스에너지가 트럼프 행정부의 AI 데이터센터 전력 공급을 위한 신규 원자로 인허가 가속화 정책에 참여한다.",
+    "summaryLong": "오클로와 엑스에너지가 트럼프 행정부의 신규 원자로 인허가 및 건설 촉진 정책에 참여하는 것으로 보도되었다. 이는 미국의 AI 데이터센터 증대에 따른 전력 수급 확보 및 탈탄소 목표 달성을 목표로 하는 정책 주도 사업이다. 첨단로 개발사들이 정부 정책과 직결되어 사업 추진 가속도를 높일 수 있는 기회로 평가된다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "오클로, 엑스에너지",
+    "region": "US",
+    "source": "bloomberg.com",
+    "url": "https://www.bloomberg.com/news/articles/2026-07-21/oklo-x-energy-join-trump-effort-to-speed-new-nuclear-reactors-for-ai",
+    "k": "oklo x energy join trump effort to speed new nuclear reactors for ai",
+    "id": "4f9a66f8"
+  },
+  {
+    "date": "2026-07-21",
+    "title": "프랑스 산업단지에 다중 용융염로 제안",
+    "summary": "프랑스 용융염로 개발사 스텔라리아(Stellaria)가 유니텔 그룹(Unitel Group)·에너지 허브(Energie Hub)와 남부 포스쉬르메르(Fos-sur-Mer) 지역에 통합 에너지 허브 개발을 위한 양해각서를 체결했다.",
+    "summaryLong": "프랑스 용융염로(MSR) 개발사인 스텔라리아(Stellaria)가 에너지 기업 유니텔 그룹(Unitel Group)과 에너지 허브(Energie Hub)와 양해각서를 체결하고 남부 프랑스 포스쉬르메르(Fos-sur-Mer) 지역에 다중 용융염로를 기반으로 한 통합 에너지 허브 개발을 추진하기로 합의했다. 이는 산업단지의 열·전력 공급을 위한 소형모듈원자로 활용 프로젝트로, 스텔라리아의 핵심 상용화 전략의 일환이다.",
+    "cat": "계약",
+    "type": "MSR",
+    "dev": "Stellaria",
+    "region": "EU",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/multiple-msrs-proposed-for-french-industrial-park",
+    "k": "multiple msrs proposed for french industrial park",
+    "id": "ffa3f8d0"
+  },
+  {
+    "date": "2026-07-21",
+    "title": "제이콥스, 영국 SMR 프로젝트 계획 지원",
+    "summary": "미국 엔지니어링 그룹 제이콥스(Jacobs)가 영국 그레이트브리티시에너지-뉴클리어(Great British Energy – Nuclear)로부터 계획 및 허가 서비스 제공 계약을 체결했다.",
+    "summaryLong": "미국 기반 엔지니어링 회사 제이콥스(Jacobs)가 영국 정부 에너지 기관인 그레이트브리티시에너지-뉴클리어(Great British Energy – Nuclear)로부터 영국의 소형모듈원자로(SMR) 프로젝트들의 계획 수립 및 규제 허가 서비스를 제공하기 위해 선정되었다. 이는 영국 SMR 상용화 추진의 핵심 인프라 구축 단계로, 제이콥스가 부지 선정부터 인허가까지 주요 역할을 수행할 예정이다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "Jacobs",
+    "region": "UK",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/jacobs-to-assist-in-planning-of-uk-smr-projects",
+    "k": "jacobs to assist in planning of uk smr projects",
+    "id": "ea21a72e"
+  },
+  {
+    "date": "2026-07-21",
+    "title": "컨스텔레이션, SMR 스타트업 블루에너지에 투자",
+    "summary": "컨스텔레이션(Constellation)이 소형모듈원자로 스타트업 블루에너지(Blue Energy)에 투자했다.",
+    "summaryLong": "에너지 기업 컨스텔레이션(Constellation)이 소형모듈원자로(SMR) 개발 스타트업 블루에너지(Blue Energy)에 투자를 실행했다. 구체적인 투자 규모와 일정은 보도에서 제시되지 않았으나, 미국 SMR 산업의 자본 투입 확대 추세를 반영하는 사례이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Blue Energy",
+    "region": "US",
+    "source": "esgtoday.com",
+    "url": "https://www.esgtoday.com/constellation-invests-in-small-modular-reactor-developer-blue-energy/",
+    "k": "constellation invests in small modular reactor startup blue energy",
+    "id": "52a96dd3"
+  },
+  {
+    "date": "2026-07-21",
+    "title": "테라스트리얼 에너지, SMR 사업 파이프라인 공개",
+    "summary": "테라스트리얼 에너지(Terrestrial Energy)가 소형모듈원자로(SMR) 사업 파이프라인을 공개하며 2050년 2.3조 달러 시장 진출을 노린다.",
+    "summaryLong": "테라스트리얼 에너지가 소형모듈원자로(SMR) 사업 파이프라인을 공개하며 2050년 시장 규모 2.3조 달러 규모의 SMR 시장을 목표로 삼고 있다. 이는 회사의 상용화 전략과 시장 기회에 대한 공식 입장을 드러낸 것으로, SMR 산업의 성장 전망을 반영하고 있다. 구체적인 프로젝트 진행 상황과 상용화 일정에 대한 세부 정보가 포함되어 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Terrestrial Energy",
+    "region": "US",
+    "source": "stock.mk.co.kr",
+    "url": "https://stock.mk.co.kr/news/view/1124442",
+    "k": "테라스트리얼 에너지 smr 사업 파이프라인 공개 2050년 2 3조달러 시장 공략",
+    "ko": 1,
+    "id": "de3a3b6e"
+  },
+  {
+    "date": "2026-07-21",
+    "title": "AI 기술으로 SMR 제어봉 자동 제어 실현",
+    "summary": "인공지능(AI) 기술이 소형모듈원자로(SMR)의 제어봉 운영에 적용되며 자율운전 실현 가능성을 보여준다.",
+    "summaryLong": "소형모듈원자로(SMR) 분야에서 인공지능(AI) 기술을 활용한 제어봉 자동 제어 실험이 실시되었다. 이는 SMR의 자율운전 기술 개발이 현실화되고 있음을 시사하는 중요한 기술 진전으로, 향후 SMR 운영의 효율성과 안전성 향상에 기여할 수 있다. AI 기반 자동화 기술은 SMR의 소형·모듈화 특성과 결합될 경우 운영 인력 감소 및 비용 절감 효과를 기대할 수 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5176",
+    "k": "ai가 원자로 제어봉 움직였다 smr 자율운전 성큼",
+    "ko": 1,
+    "id": "2360f0d1"
+  },
+  {
+    "date": "2026-07-21",
+    "title": "블루코어에너지, 해상 SMR로 프리시드 라운드 1000만 달러 투자유치",
+    "summary": "해상 소형모듈원자로(SMR) 개발사 블루코어에너지(BlueCore Energy)가 프리시드(Pre-Seed) 라운드에서 1000만 달러 투자를 유치했다.",
+    "summaryLong": "해상 응용 소형모듈원자로(SMR) 개발을 추진 중인 스타트업 블루코어에너지(BlueCore Energy)가 프리시드(Pre-Seed) 단계 펀딩 라운드에서 1000만 달러 규모의 투자 유치에 성공했다. 이는 해상 SMR 기술에 대한 시장의 관심과 투자 수요를 반영하는 사례로, 향후 기술 개발 및 사업화 추진에 필요한 초기 자본금을 확보한 것으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "BlueCore Energy",
+    "region": "US",
+    "source": "wowtale.net",
+    "url": "https://wowtale.net/2026/07/22/261759/",
+    "k": "해상 smr 스타트업 블루코어에너지 프리시드로 1 000만 달러 투자유치",
+    "ko": 1,
+    "id": "f0682a3a"
+  },
+  {
+    "date": "2026-07-21",
+    "title": "현대건설 SMR, 양해각서(MOU) 체결만 증가…첫 매출 시점 불투명",
+    "summary": "현대건설의 소형모듈원자로(SMR) 사업이 양해각서(MOU) 체결은 늘고 있으나 실질적 매출 창출 시점이 불투명한 상황이다.",
+    "summaryLong": "현대건설의 소형모듈원자로(SMR) 사업이 국내외 다양한 기관과의 양해각서(MOU) 체결을 통해 사업 기반을 확대하고 있으나, 실제 상용화 및 매출 창출로 이어지는 구체적 일정과 계약 진전이 부족한 상황으로 평가되고 있다. 이는 MOU 체결과 실제 프로젝트 수주 간의 괴리를 지적하는 비판적 관점을 반영하고 있으며, 현대건설 SMR 사업의 가시적 성과 창출 시점에 대한 의문을 제기하고 있다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "Hyundai Engineering & Construction",
+    "region": "KR",
+    "source": "newsquest.co.kr",
+    "url": "https://www.newsquest.co.kr/news/articleView.html?idxno=270107",
+    "k": "mou만 쌓인 현대건설 smr 첫 매출은 언제 나오나",
+    "ko": 1,
+    "op": 1,
+    "id": "1f583995"
+  },
+  {
     "date": "2026-07-20",
     "title": "국제전기, SMR용 디지털 UPS 개발 과제 수주",
     "summary": "국제전기가 혁신형 SMR용 디지털 무정전전원공급장치(UPS) 개발 과제를 수주했다.",
@@ -1048,6 +1179,21 @@ window.SMR_NEWS = [
     "k": "한국형 용융염원자로 적용 컨테이너선 선급협회 기본승인 획득",
     "ko": 1,
     "id": "07a1d9eb"
+  },
+  {
+    "date": "2026-07-16",
+    "title": "한국원자력연구원, SMR 추진 대형 컨테이너선 기본설계 승인 획득",
+    "summary": "한국원자력연구원(KAERI)이 소형모듈원자로(SMR) 추진 방식의 대형 컨테이너선 기본설계 승인을 획득했다.",
+    "summaryLong": "한국원자력연구원(KAERI)이 소형모듈원자로(SMR) 추진 기술을 적용한 대형 컨테이너선의 기본설계 승인을 획득했다. 이는 SMR 기술의 해상 수송 및 해양 응용 분야 확대를 시도하는 국책 연구기관의 혁신적 프로젝트로, 기존 원자로 기술의 활용 범위를 넓히는 중요한 성과이다. 기본설계 승인은 해당 사업의 타당성이 기술적으로 인정되었음을 의미하며, 향후 상세 설계 및 건조 단계로의 진전 가능성을 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "KAERI",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260716150900429",
+    "k": "원자력연 smr 추진 대형 컨테이너선 기본승인 획득",
+    "ko": 1,
+    "id": "58eeca42"
   },
   {
     "date": "2026-07-15",
@@ -15755,6 +15901,21 @@ window.SMR_NEWS = [
     "id": "15637592"
   },
   {
+    "date": "2026-06-04",
+    "title": "노퍼크, 소형모듈원자로가 게임 체인저가 될 수 있다고 평가",
+    "summary": "미국 노퍼크(Norfolk)가 소형모듈원자로의 지역 도입 가능성을 긍정적으로 평가했다.",
+    "summaryLong": "미국 노퍼크(Norfolk) 지역이 소형모듈원자로(SMR) 도입을 지역 에너지 정책의 게임 체인저로 평가하며 긍정적 입장을 표명했다. 구체적인 사업 계획이나 일정은 미공개 상태이며, 지역 정책 방향에 대한 의견 표현 수준의 보도이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "3newsnow.com",
+    "url": "https://www.3newsnow.com/northeast-nebraska/perfect-thing-to-have-in-our-backyard-norfolk-says-small-modular-nuclear-reactor-could-be-a-game-changer",
+    "k": "perfect thing to have in our backyard norfolk says small modular nuclear reactor could be a game changer",
+    "op": 1,
+    "id": "1d703754"
+  },
+  {
     "date": "2026-06-03",
     "title": "X-energy, 영국 규제기관에 Xe-100 고온가스냉각로 인허가 신청",
     "summary": "미국의 첨단원전 개발사 X-energy가 고온가스냉각로(HTGR) Xe-100을 영국 제네릭 설계 평가 절차에 신청했다.",
@@ -20381,4 +20542,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-21 15:12 KST";
+window.SMR_UPDATED = "2026-07-22 07:30 KST";
