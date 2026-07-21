@@ -1,6 +1,22 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-07-21",
+  "title": "SMR 시대 보안·정보 관리의 중요성",
+  "summary": "소형모듈원자로(SMR) 등 차세대 핵발전이 국가 전략 자산으로 부상하면서 기술 보안과 정보 관리 체계 구축의 필요성을 제기한 의견 기사다.",
+  "summaryLong": "글로벌 에너지 시장의 패러다임 변화와 탄소중립·4차 산업혁명에 따른 전력 수요 증가 속에서 소형모듈원자로(SMR)를 비롯한 차세대 핵발전 기술이 국가 경쟁력의 핵심축으로 부상하고 있다고 지적한다. 이러한 원천기술이 경제적 성장 동력을 넘어 국방·안보와 직결된 전략 자산이 되는 만큼, 기술 보호를 위한 정보 보안 인식과 관리 체계 구축이 시급하다는 주장을 제시했다. SMR 산업의 정책적·전략적 중요성을 조명한 기사로, 정부 차원의 규제·정책 방향을 제언하는 성격이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "전기신문 - 전체기사",
+  "url": "https://www.electimes.com/news/articleView.html?idxno=370421",
+  "k": "수요광장 전기sm시대 연구 개발 만큼 중요한 보안과 정보 관리",
+  "ko": 1,
+  "op": 1,
+  "id": "782ebad9"
+ },
+ {
   "date": "2026-07-20",
   "title": "국제전기, SMR용 디지털 UPS 개발 과제 수주",
   "summary": "국제전기가 혁신형 SMR용 디지털 무정전전원공급장치(UPS) 개발 과제를 수주했다.",
@@ -117,6 +133,22 @@ window.SMR_NEWS = [
   "ko": 1,
   "op": 1,
   "id": "2e7f01ee"
+ },
+ {
+  "date": "2026-07-20",
+  "title": "인구 밀집 지역 SMR 건설 추진에 대한 검증 필요성 제기",
+  "summary": "인구 17만5천 명이 거주하는 지역에 검증 단계의 SMR을 건설하려는 계획에 대해 신중을 촉구하는 보도다.",
+  "summaryLong": "한겨레21이 검증 단계에 있는 소형모듈원자로(SMR)를 인구 밀집 지역에 건설하려는 계획의 위험성을 지적한 기사다. 해당 건설 계획이 추진되려는 지역의 인구가 17만5천 명에 달하는 상황에서, 아직 기술과 안전성 검증이 충분하지 않은 SMR을 건설하는 것이 타당한지 문제 제기하고 있다. SMR의 실제 건설·입지 추진 과정과 관련된 정책·규제 논쟁을 다룬 기사로, 한국 내 SMR 사업화 과정의 쟁점을 보도했다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "h21.hani.co.kr",
+  "url": "https://h21.hani.co.kr/arti/society/environment/59624.html",
+  "k": "검증 필요한 smr을 17만5천 인구밀집 지역에 짓겠다고",
+  "ko": 1,
+  "op": 1,
+  "id": "30973988"
  },
  {
   "date": "2026-07-19",
@@ -860,37 +892,6 @@ window.SMR_NEWS = [
   "id": "796f5659"
  },
  {
-  "date": "2026-07-16",
-  "title": "메가프로젝트 속도전에 따라 SMR 규제도 '더 빨리'",
-  "summary": "정부의 3대 메가프로젝트 추진에 맞춰 SMR 규제 체계도 신속화 추진.",
-  "summaryLong": "한국 정부가 추진 중인 3대 메가프로젝트의 속도전에 발맞춰 소형모듈원자로(SMR) 관련 규제 프로세스도 빠르게 진행될 것으로 보도되었다. 이는 SMR 산업 활성화를 위한 정부 정책 차원의 규제 개선 움직임으로, SMR 개발·사업화 경로 단축을 목표로 한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "mt.co.kr",
-  "url": "https://www.mt.co.kr/tech/2026/07/16/2026071514173781695",
-  "k": "속도전 3대 메가프로젝트 따라 smr 규제도 더 빨리 머니투데이",
-  "ko": 1,
-  "op": 1,
-  "id": "dae83305"
- },
- {
-  "date": "2026-07-16",
-  "title": "KRISO, SMR 추진 컨테이너선 개념설계 미국선급협회 기본승인 획득",
-  "summary": "한국해양과학기술원(KRISO)이 SMR 추진 컨테이너선 개념설계에 대해 미국선급협회(ABS)로부터 기본승인 획득.",
-  "summaryLong": "한국해양과학기술원(KRISO)이 개발 중인 소형모듈원자로(SMR) 추진 대형 컨테이너선의 개념설계가 미국선급협회(American Bureau of Shipping, ABS)로부터 기본승인(AiP, Approval in Principle)을 획득했다. 이는 SMR 추진 선박의 국제 규제 승인 과정의 첫 단계 통과로, 상용화를 향한 중요한 마일스톤이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "KRISO",
-  "region": "KR",
-  "source": "2news.co.kr",
-  "url": "https://www.2news.co.kr/news/articleView.html?idxno=16173",
-  "k": "kriso smr 추진 컨테이너선 개념설계 미국선급협회 기본승인 획득",
-  "ko": 1,
-  "id": "a4a63ab2"
- },
- {
   "date": "2026-07-15",
   "title": "NRC, TVA의 BWRX-300 소형모듈원자로 건설허가 권고",
   "summary": "미국 원자력규제위원회(NRC) 직원들이 테네시 클린치강(Clinch River)에 건설될 테네시밸리공사(TVA)의 BWRX-300 소형모듈원자로에 대한 건설허가를 권고했다.",
@@ -1343,5 +1344,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-21 08:09 KST";
-window.SMR_TOTAL = 1406;
+window.SMR_UPDATED = "2026-07-21 15:12 KST";
+window.SMR_TOTAL = 1408;
