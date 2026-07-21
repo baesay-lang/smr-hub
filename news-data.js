@@ -212,6 +212,51 @@ window.SMR_NEWS = [
     "id": "0beaae97"
   },
   {
+    "date": "2026-07-21",
+    "title": "롤스로이스 SMR, 체코 내 건설 부지 확대 추진",
+    "summary": "영국 롤스로이스(Rolls-Royce)가 체코에서 소형모듈원자로(SMR) 건설 부지를 확대하기로 추진하고 있다.",
+    "summaryLong": "영국 방위·항공 우주 기업 롤스로이스(Rolls-Royce)가 체코(Czechia) 내에서 자사의 소형모듈원자로(SMR) 건설을 위한 부지를 확대하는 것을 추진 중이다. 이는 롤스로이스의 SMR 프로젝트가 체코에서 본격 진행되고 있음을 보여주는 사업 진전 뉴스이며, 유럽 원전 정책의 변화 속에서 중요한 프로젝트 동향이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "UK",
+    "source": "2news.co.kr",
+    "url": "https://www.2news.co.kr/news/articleView.html?idxno=17086",
+    "k": "롤스로이스 smr 체코 내 소형모듈원자로 건설 부지 확대 추진",
+    "ko": 1,
+    "id": "192d3f40"
+  },
+  {
+    "date": "2026-07-21",
+    "title": "영국 SMR 건설 본격화, 제이콥스가 부지 인허가 주도",
+    "summary": "영국의 소형모듈원자로 건설이 본격화되며, 엔지니어링 기업 제이콥스(Jacobs)가 부지 인허가 절차를 주도하고 있다.",
+    "summaryLong": "영국에서 소형모듈원자로(SMR) 건설이 본격적으로 진행되고 있으며, 글로벌 엔지니어링 회사 제이콥스(Jacobs)가 부지 인허가 프로세스를 주도하고 있다. 이는 영국 정부의 SMR 정책 추진 속에서 규제 승인 단계가 가시화되고 있음을 나타내는 인허가 관련 뉴스이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "UK",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5171",
+    "k": "영국 smr 건설 본격화 제이콥스가 부지 인허가 이끈다",
+    "ko": 1,
+    "id": "2460f264"
+  },
+  {
+    "date": "2026-07-21",
+    "title": "테라스트리얼, SMR 파이프라인·NRC 승인·DOE 파트너십으로 시장 공략",
+    "summary": "테라스트리얼에너지(TerraPower)가 소형모듈원자로 개발 파이프라인, 미국 원자력규제위원회(NRC) 승인, 미국 에너지부(DOE) 파트너십을 활용해 2050년 2.3조 달러 시장을 공략하고 있다.",
+    "summaryLong": "미국의 첨단 원자로 개발사 테라스트리얼에너지(TerraPower)가 자사의 SMR 개발 파이프라인, 미국 원자력규제위원회(NRC) 인허가 진행, 미국 에너지부(DOE) 파트너십 등을 바탕으로 2050년까지 2.3조 달러 규모의 시장 공략을 본격화하고 있다는 보도이다. NRC 승인 진행과 정부 지원이라는 정책·인허가 차원의 진전이 결합된 기업 뉴스이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "stock.mk.co.kr",
+    "url": "https://stock.mk.co.kr/news/view/1124457",
+    "k": "테라스트리얼에너지 smr 파이프라인 nrc 승인 doe 파트너십으로 2050년 2 3조 달러 시장 공략 본격화",
+    "ko": 1,
+    "id": "e33c81e4"
+  },
+  {
     "date": "2026-07-20",
     "title": "국제전기, SMR용 디지털 UPS 개발 과제 수주",
     "summary": "국제전기가 혁신형 SMR용 디지털 무정전전원공급장치(UPS) 개발 과제를 수주했다.",
@@ -20613,4 +20658,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-22 08:06 KST";
+window.SMR_UPDATED = "2026-07-22 08:43 KST";

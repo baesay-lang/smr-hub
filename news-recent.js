@@ -205,6 +205,51 @@ window.SMR_NEWS = [
   "id": "0beaae97"
  },
  {
+  "date": "2026-07-21",
+  "title": "롤스로이스 SMR, 체코 내 건설 부지 확대 추진",
+  "summary": "영국 롤스로이스(Rolls-Royce)가 체코에서 소형모듈원자로(SMR) 건설 부지를 확대하기로 추진하고 있다.",
+  "summaryLong": "영국 방위·항공 우주 기업 롤스로이스(Rolls-Royce)가 체코(Czechia) 내에서 자사의 소형모듈원자로(SMR) 건설을 위한 부지를 확대하는 것을 추진 중이다. 이는 롤스로이스의 SMR 프로젝트가 체코에서 본격 진행되고 있음을 보여주는 사업 진전 뉴스이며, 유럽 원전 정책의 변화 속에서 중요한 프로젝트 동향이다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "Rolls-Royce",
+  "region": "UK",
+  "source": "2news.co.kr",
+  "url": "https://www.2news.co.kr/news/articleView.html?idxno=17086",
+  "k": "롤스로이스 smr 체코 내 소형모듈원자로 건설 부지 확대 추진",
+  "ko": 1,
+  "id": "192d3f40"
+ },
+ {
+  "date": "2026-07-21",
+  "title": "영국 SMR 건설 본격화, 제이콥스가 부지 인허가 주도",
+  "summary": "영국의 소형모듈원자로 건설이 본격화되며, 엔지니어링 기업 제이콥스(Jacobs)가 부지 인허가 절차를 주도하고 있다.",
+  "summaryLong": "영국에서 소형모듈원자로(SMR) 건설이 본격적으로 진행되고 있으며, 글로벌 엔지니어링 회사 제이콥스(Jacobs)가 부지 인허가 프로세스를 주도하고 있다. 이는 영국 정부의 SMR 정책 추진 속에서 규제 승인 단계가 가시화되고 있음을 나타내는 인허가 관련 뉴스이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "UK",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5171",
+  "k": "영국 smr 건설 본격화 제이콥스가 부지 인허가 이끈다",
+  "ko": 1,
+  "id": "2460f264"
+ },
+ {
+  "date": "2026-07-21",
+  "title": "테라스트리얼, SMR 파이프라인·NRC 승인·DOE 파트너십으로 시장 공략",
+  "summary": "테라스트리얼에너지(TerraPower)가 소형모듈원자로 개발 파이프라인, 미국 원자력규제위원회(NRC) 승인, 미국 에너지부(DOE) 파트너십을 활용해 2050년 2.3조 달러 시장을 공략하고 있다.",
+  "summaryLong": "미국의 첨단 원자로 개발사 테라스트리얼에너지(TerraPower)가 자사의 SMR 개발 파이프라인, 미국 원자력규제위원회(NRC) 인허가 진행, 미국 에너지부(DOE) 파트너십 등을 바탕으로 2050년까지 2.3조 달러 규모의 시장 공략을 본격화하고 있다는 보도이다. NRC 승인 진행과 정부 지원이라는 정책·인허가 차원의 진전이 결합된 기업 뉴스이다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "US",
+  "source": "stock.mk.co.kr",
+  "url": "https://stock.mk.co.kr/news/view/1124457",
+  "k": "테라스트리얼에너지 smr 파이프라인 nrc 승인 doe 파트너십으로 2050년 2 3조 달러 시장 공략 본격화",
+  "ko": 1,
+  "id": "e33c81e4"
+ },
+ {
   "date": "2026-07-20",
   "title": "국제전기, SMR용 디지털 UPS 개발 과제 수주",
   "summary": "국제전기가 혁신형 SMR용 디지털 무정전전원공급장치(UPS) 개발 과제를 수주했다.",
@@ -843,51 +888,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-16",
-  "title": "원안위, 차세대 원자로 규제 체계 마련 가속…SMR 기업 참여 확대",
-  "summary": "원자력안전위원회(원안위)가 SMR의 규제 체계 마련을 가속화하고 있으며, SMR 개발 기업들의 참여가 확대되고 있다.",
-  "summaryLong": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 규제 체계 수립을 추진하면서 SMR 기업들의 규제 프로세스 참여가 확대되고 있다. 차세대 원자로에 대한 규제 기준과 인허가 절차를 정비하는 과정에서 산업계의 의견 수렴이 활발해지고 있으며, 이는 SMR 상용화 및 인허가 신청 절차의 투명성 확보를 목표로 하고 있다. 한국의 SMR 정책이 본격화되는 단계를 반영하는 움직임으로 평가된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "cwn.kr",
-  "url": "https://www.cwn.kr/news/articleView.html?idxno=50630",
-  "k": "원안위 차세대 원자로 규제 체계 마련 속도 smr 기업 참여 확대",
-  "ko": 1,
-  "id": "23add48b"
- },
- {
-  "date": "2026-07-16",
-  "title": "한국해양과학기술원(KRISO) 개발 SMR 컨선 설계, AIP 획득",
-  "summary": "한국해양과학기술원(KRISO)이 개발한 소형모듈원자로 추진 컨테이너선 설계가 미국선급협회(ABS)의 기본승인(AIP)을 획득했다.",
-  "summaryLong": "한국해양과학기술원(KRISO)이 소형모듈원자로(SMR)를 추진 동력으로 하는 컨테이너선의 개념설계가 국제 선급협회인 미국선급협회(ABS)로부터 기본승인(AIP, Approval In Principle)을 획득했다. 이는 SMR 추진 선박의 국제 기술 기준 부합성을 인증하는 첫 단계로, 향후 상세설계 및 건조 단계로 나아가기 위한 중요한 이정표가 되었다. 한국의 전략 프로젝트로 추진 중인 이 사업은 해양산업과 원자력 기술을 결합한 혁신적 시도로 의의가 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "KRISO",
-  "region": "KR",
-  "source": "maritimepress.co.kr",
-  "url": "http://www.maritimepress.co.kr/news/articleView.html?idxno=332184",
-  "k": "kriso 개발 smr 컨선 설계 aip 획득",
-  "ko": 1,
-  "id": "00a24f94"
- },
- {
-  "date": "2026-07-16",
-  "title": "원자력안전위원회, 소형모듈원자로 규제 법안 조속 마련 추진",
-  "summary": "원자력안전위원회(NSSC)가 소형모듈원자로(SMR) 관련 규제 법안을 조속히 마련하겠다고 밝혔다.",
-  "summaryLong": "원자력안전위원회가 소형모듈원자로(SMR) 산업 발전을 지원하기 위해 관련 규제 법안을 조속히 마련할 계획을 발표했다. 현재 SMR 기술 개발이 진행 중인 상황에서 규제 체계를 정비함으로써 인허가 절차를 명확히 하고 산업 진출 장벽을 낮추려는 정책적 움직임이다. 이는 정부의 SMR 상용화 지원 정책의 일환으로 평가되며, 향후 국내 SMR 개발사들의 인허가 신청 및 승인 절차에 영향을 미칠 것으로 예상된다.",
-  "cat": "정책",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "news.nate.com",
-  "url": "https://news.nate.com/view/20260716n16304?mid=n1101",
-  "k": "원안위 소형모듈원자로 관련 규제 법안 조속히 마련",
-  "ko": 1,
-  "id": "b47bb6d4"
- },
- {
-  "date": "2026-07-16",
   "title": "X-Energy: A Credible Nuclear Platform, But Valuation Is Not Cheap - Seeking Alpha",
   "summary": "X-Energy: A Credible Nuclear Platform, But Valuation Is Not Cheap Seeking Alpha",
   "summaryLong": "X-Energy: A Credible Nuclear Platform, But Valuation Is Not Cheap Seeking Alpha",
@@ -1353,5 +1353,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-22 08:06 KST";
-window.SMR_TOTAL = 1424;
+window.SMR_UPDATED = "2026-07-22 08:43 KST";
+window.SMR_TOTAL = 1427;
