@@ -155,6 +155,63 @@ window.SMR_NEWS = [
     "id": "1f583995"
   },
   {
+    "date": "2026-07-21",
+    "title": "롤스로이스(Rolls-Royce) SMR, 체코(Czech Republic) 추가 2개 원전 부지 협약 체결",
+    "summary": "롤스로이스 SMR이 체코의 두 개 추가 원전 부지에서 작업을 진행하기 위한 협약을 체결했다.",
+    "summaryLong": "롤스로이스 SMR(Rolls-Royce SMR)이 체코(Czech Republic)의 추가 2개 원전 부지에서 사업을 추진하기 위한 협약을 체결했다. 이는 유럽에서의 SMR 배치 확대를 위한 중요한 단계로, 롤스로이스가 체코 내 여러 부지에서 소형모듈원자로 개발 및 건설을 추진 중임을 보여준다. 협약 체결을 통해 롤스로이스는 체코에서의 프로젝트 추진을 위한 법적·행정적 기반을 마련했다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Rolls-Royce SMR",
+    "region": "EU",
+    "source": "nucnet.org",
+    "url": "https://www.nucnet.org/news/rolls-royce-smr-signs-agreement-for-work-at-two-additional-reactor-sites-in-czech-republic-7-2-2026",
+    "k": "rolls royce smr signs agreement for work at two additional reactor sites in czech republic",
+    "id": "5ca35a5d"
+  },
+  {
+    "date": "2026-07-21",
+    "title": "오클로(Oklo), 엑스에너지(X-Energy), 트럼프 행정부의 원전 AI 전력 공급 가속화 계획에 참여",
+    "summary": "오클로와 엑스에너지가 트럼프 행정부의 AI용 원자력발전 가속화 정책에 참여한다.",
+    "summaryLong": "오클로(Oklo)와 엑스에너지(X-Energy)가 트럼프(Trump) 행정부가 추진 중인 AI 데이터센터용 원자력발전 인프라 구축 가속화 계획에 함께 참여하기로 했다. 이는 미국(US) 정부가 AI 산업의 전력 수요 급증에 대응하기 위해 첨단 소형모듈원자로(SMR) 및 다양한 원전 기술 개발사들을 국책 프로그램으로 지원하는 정책의 일환이다. 양사의 참여는 첨단 원전 기술이 미국의 에너지 안보 및 AI 산업 경쟁력 강화에 중요한 역할을 할 것으로 정부가 판단했음을 의미한다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "Oklo, X-Energy",
+    "region": "US",
+    "source": "seekingalpha.com",
+    "url": "https://seekingalpha.com/news/4616269-oklo-x-energy-to-join-trump-administration-effort-to-speed-nuclear-reactors-for-ai-bloomberg",
+    "k": "oklo x energy to join trump administration effort to speed nuclear reactors for ai bloomberg",
+    "id": "d251c51c"
+  },
+  {
+    "date": "2026-07-21",
+    "title": "영국, 소형모듈원자로 프로젝트에 제이콥스(Jacobs) 선정",
+    "summary": "영국이 소형모듈원자로(SMR) 프로젝트의 핵심 서비스 제공자로 제이콥스를 선정했다.",
+    "summaryLong": "영국이 소형모듈원자로(SMR) 프로젝트를 위한 핵심 서비스 공급자로 엔지니어링 회사 제이콥스(Jacobs)를 선정했다. 뉴크넷(NucNet)이 보도한 것으로, 영국의 SMR 정책 추진 과정에서 설계, 안전, 인허가 지원 등 중요한 역할을 수행할 계약 파트너십이 확정된 사건이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "UK",
+    "source": "nucnet.org",
+    "url": "https://www.nucnet.org/news/uk-chooses-jacobs-to-provide-key-services-for-small-modular-reactor-projects-7-2-2026",
+    "k": "uk chooses jacobs to provide key services for small modular reactor projects",
+    "id": "e7933bb7"
+  },
+  {
+    "date": "2026-07-21",
+    "title": "테레스트리얼 에너지, 4세대 SMR 'IMSR' 상용화 가속... 2050년 2.3조 달러 시장 목표",
+    "summary": "테레스트리얼 에너지(Terrestrial Energy)가 용융염로(MSR) 기반의 혁신형 소형모듈원자로(IMSR) 상용화를 가속화하며 대규모 시장 진출을 노린다.",
+    "summaryLong": "캐나다 핵심 SMR 개발사 테레스트리얼 에너지(Terrestrial Energy)가 차세대 용융염 소형모듈원자로(IMSR, Integrated Molten Salt Reactor) 상용화에 박차를 가하고 있다. 회사는 2050년까지 전 세계 SMR 시장이 2조 3000억 달러(약 2.3조 달러) 규모로 성장할 것으로 전망하며 이 시장 선점을 목표로 하고 있다. IMSR은 4세대 원자로 기술로 분류되며, 고도의 안전성과 경제성을 표방하고 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Terrestrial Energy",
+    "region": "CA",
+    "source": "datatooza.com",
+    "url": "https://www.datatooza.com/article/202607212217594565cd1e71475f_80",
+    "k": "테레스트리얼 에너지 4세대 smr imsr 상용화 박차 2050년 2조 3000억 달러 시장 조준",
+    "ko": 1,
+    "id": "0beaae97"
+  },
+  {
     "date": "2026-07-20",
     "title": "국제전기, SMR용 디지털 UPS 개발 과제 수주",
     "summary": "국제전기가 혁신형 SMR용 디지털 무정전전원공급장치(UPS) 개발 과제를 수주했다.",
@@ -17677,6 +17734,20 @@ window.SMR_NEWS = [
     "id": "6532ea5e"
   },
   {
+    "date": "2026-04-23",
+    "title": "테라파워 케머러 1호기, 건설 시작 - 나트륨(Natrium) 프로젝트 로드맵",
+    "summary": "테라파워의 케머러 1호기가 건설 단계에 진입했다.",
+    "summaryLong": "테라파워(TerraPower)의 나트륨(Natrium) 프로젝트의 첫 번째 발전소인 케머러 1호기(Kemmerer 1)가 건설 단계에 진입했다. POWER 매거진이 프로젝트의 개념 단계부터 최초 발전까지의 역사적 진전을 다룬 기사로, 테라파워의 고속로(SFR) 기술 실증의 중요한 마일스톤을 기록하는 사건이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "powermag.com",
+    "url": "https://www.powermag.com/terrapowers-kemmerer-1-enters-construction-timeline-of-the-natrium-projects-road-to-first-power/",
+    "k": "terrapower s kemmerer 1 enters construction timeline of the natrium project s road to first power",
+    "id": "e3739b73"
+  },
+  {
     "date": "2026-04-22",
     "title": "온타리오와 유콘, 소형모듈원자로 개발 협력 추진",
     "summary": "캐나다 온타리오주와 유콘(Yukon) 지역이 소형모듈원자로 개발을 함께 추진하기로 합의했다.",
@@ -20542,4 +20613,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-22 07:30 KST";
+window.SMR_UPDATED = "2026-07-22 08:06 KST";

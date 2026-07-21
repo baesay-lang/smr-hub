@@ -148,6 +148,63 @@ window.SMR_NEWS = [
   "id": "1f583995"
  },
  {
+  "date": "2026-07-21",
+  "title": "롤스로이스(Rolls-Royce) SMR, 체코(Czech Republic) 추가 2개 원전 부지 협약 체결",
+  "summary": "롤스로이스 SMR이 체코의 두 개 추가 원전 부지에서 작업을 진행하기 위한 협약을 체결했다.",
+  "summaryLong": "롤스로이스 SMR(Rolls-Royce SMR)이 체코(Czech Republic)의 추가 2개 원전 부지에서 사업을 추진하기 위한 협약을 체결했다. 이는 유럽에서의 SMR 배치 확대를 위한 중요한 단계로, 롤스로이스가 체코 내 여러 부지에서 소형모듈원자로 개발 및 건설을 추진 중임을 보여준다. 협약 체결을 통해 롤스로이스는 체코에서의 프로젝트 추진을 위한 법적·행정적 기반을 마련했다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "Rolls-Royce SMR",
+  "region": "EU",
+  "source": "nucnet.org",
+  "url": "https://www.nucnet.org/news/rolls-royce-smr-signs-agreement-for-work-at-two-additional-reactor-sites-in-czech-republic-7-2-2026",
+  "k": "rolls royce smr signs agreement for work at two additional reactor sites in czech republic",
+  "id": "5ca35a5d"
+ },
+ {
+  "date": "2026-07-21",
+  "title": "오클로(Oklo), 엑스에너지(X-Energy), 트럼프 행정부의 원전 AI 전력 공급 가속화 계획에 참여",
+  "summary": "오클로와 엑스에너지가 트럼프 행정부의 AI용 원자력발전 가속화 정책에 참여한다.",
+  "summaryLong": "오클로(Oklo)와 엑스에너지(X-Energy)가 트럼프(Trump) 행정부가 추진 중인 AI 데이터센터용 원자력발전 인프라 구축 가속화 계획에 함께 참여하기로 했다. 이는 미국(US) 정부가 AI 산업의 전력 수요 급증에 대응하기 위해 첨단 소형모듈원자로(SMR) 및 다양한 원전 기술 개발사들을 국책 프로그램으로 지원하는 정책의 일환이다. 양사의 참여는 첨단 원전 기술이 미국의 에너지 안보 및 AI 산업 경쟁력 강화에 중요한 역할을 할 것으로 정부가 판단했음을 의미한다.",
+  "cat": "기술",
+  "type": "HTGR",
+  "dev": "Oklo, X-Energy",
+  "region": "US",
+  "source": "seekingalpha.com",
+  "url": "https://seekingalpha.com/news/4616269-oklo-x-energy-to-join-trump-administration-effort-to-speed-nuclear-reactors-for-ai-bloomberg",
+  "k": "oklo x energy to join trump administration effort to speed nuclear reactors for ai bloomberg",
+  "id": "d251c51c"
+ },
+ {
+  "date": "2026-07-21",
+  "title": "영국, 소형모듈원자로 프로젝트에 제이콥스(Jacobs) 선정",
+  "summary": "영국이 소형모듈원자로(SMR) 프로젝트의 핵심 서비스 제공자로 제이콥스를 선정했다.",
+  "summaryLong": "영국이 소형모듈원자로(SMR) 프로젝트를 위한 핵심 서비스 공급자로 엔지니어링 회사 제이콥스(Jacobs)를 선정했다. 뉴크넷(NucNet)이 보도한 것으로, 영국의 SMR 정책 추진 과정에서 설계, 안전, 인허가 지원 등 중요한 역할을 수행할 계약 파트너십이 확정된 사건이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "UK",
+  "source": "nucnet.org",
+  "url": "https://www.nucnet.org/news/uk-chooses-jacobs-to-provide-key-services-for-small-modular-reactor-projects-7-2-2026",
+  "k": "uk chooses jacobs to provide key services for small modular reactor projects",
+  "id": "e7933bb7"
+ },
+ {
+  "date": "2026-07-21",
+  "title": "테레스트리얼 에너지, 4세대 SMR 'IMSR' 상용화 가속... 2050년 2.3조 달러 시장 목표",
+  "summary": "테레스트리얼 에너지(Terrestrial Energy)가 용융염로(MSR) 기반의 혁신형 소형모듈원자로(IMSR) 상용화를 가속화하며 대규모 시장 진출을 노린다.",
+  "summaryLong": "캐나다 핵심 SMR 개발사 테레스트리얼 에너지(Terrestrial Energy)가 차세대 용융염 소형모듈원자로(IMSR, Integrated Molten Salt Reactor) 상용화에 박차를 가하고 있다. 회사는 2050년까지 전 세계 SMR 시장이 2조 3000억 달러(약 2.3조 달러) 규모로 성장할 것으로 전망하며 이 시장 선점을 목표로 하고 있다. IMSR은 4세대 원자로 기술로 분류되며, 고도의 안전성과 경제성을 표방하고 있다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "Terrestrial Energy",
+  "region": "CA",
+  "source": "datatooza.com",
+  "url": "https://www.datatooza.com/article/202607212217594565cd1e71475f_80",
+  "k": "테레스트리얼 에너지 4세대 smr imsr 상용화 박차 2050년 2조 3000억 달러 시장 조준",
+  "ko": 1,
+  "id": "0beaae97"
+ },
+ {
   "date": "2026-07-20",
   "title": "국제전기, SMR용 디지털 UPS 개발 과제 수주",
   "summary": "국제전기가 혁신형 SMR용 디지털 무정전전원공급장치(UPS) 개발 과제를 수주했다.",
@@ -831,66 +888,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-16",
-  "title": "3대 메가프로젝트 속도전 속 SMR 규제도 '더 빨리' 추진",
-  "summary": "정부의 3대 메가프로젝트 추진에 맞춰 소형모듈원자로 규제 프로세스도 가속화되고 있다.",
-  "summaryLong": "정부가 추진 중인 3대 메가프로젝트의 속도 전에 맞춰 소형모듈원자로(SMR) 관련 규제 체계도 신속 처리 방식으로 전환되고 있는 것으로 보인다. 이는 SMR 상용화를 국책 프로젝트 차원에서 가속화하려는 정부 정책의 일환으로, 인허가 절차 단축과 규제 합리화를 의미한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "busan.com",
-  "url": "https://www.busan.com/view/busan/view.php?code=2026071613573626212",
-  "k": "3대 메가프로젝트 속도전에 smr 규제도 더 빨리",
-  "ko": 1,
-  "id": "efad12ec"
- },
- {
-  "date": "2026-07-16",
-  "title": "원안위, SMR 규제 사전검토 본격화…국내외 3개사 참여",
-  "summary": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 규제 사전검토를 본격화하며 국내외 3개 개발사의 참여를 타진하고 있다.",
-  "summaryLong": "원자력안전위원회(원안위)가 소형모듈원자로(SMR)에 대한 규제 사전검토를 본격적으로 추진하고 있으며, 국내외 3개 개발사의 참여 의사를 타진 중이다. 사전검토는 개발사가 설계 전 단계에서 규제 요건을 사전에 파악할 수 있도록 지원하는 절차로, SMR 상용화 로드맵 가속화의 일환이다. 이를 통해 국내 SMR 개발 생태계 구축 및 국제 경쟁력 강화를 도모하고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "m-i.kr",
-  "url": "http://www.m-i.kr/news/articleView.html?idxno=1392415",
-  "k": "원안위 smr 규제 사전검토 본격화 국내외 3개사 참여 타진",
-  "ko": 1,
-  "id": "0de2d770"
- },
- {
-  "date": "2026-07-16",
-  "title": "체코가 선택한 SMR…두산에너빌리티에 기회",
-  "summary": "체코가 소형모듈원자로(SMR) 도입을 결정하면서 두산에너빌리티에 비즈니스 기회가 열렸다.",
-  "summaryLong": "체코 정부가 소형모듈원자로(SMR) 도입을 공식화하면서 한국의 두산에너빌리티에 국제 사업 기회가 발생하고 있다. 체코의 SMR 도입 결정은 유럽(EU) 내 탈탄소 에너지 정책의 구체화를 의미하며, 한국 SMR 기술의 해외 수출 가능성을 시사한다. 두산에너빌리티는 국내 SMR 개발 주요 업체로 글로벌 수주 경쟁에 참여할 전망이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "두산에너빌리티",
-  "region": "EU",
-  "source": "theguru.co.kr",
-  "url": "https://theguru.co.kr/news/article.html?no=104568",
-  "k": "영상 체코가 선택한 smr 두산에너빌리티에 기회",
-  "ko": 1,
-  "op": 1,
-  "id": "f2867998"
- },
- {
-  "date": "2026-07-16",
-  "title": "용융염원자로(MSR) 추진 한국 컨테이너선, 미국 선급 기본승인 획득",
-  "summary": "용융염원자로(MSR)를 탑재한 한국 컨테이너선의 개념설계가 미국 선급(ABS) 기본승인을 획득했다.",
-  "summaryLong": "한국에서 개발 중인 용융염원자로(MSR) 추진 컨테이너선 개념설계가 미국 선급협회(ABS: American Bureau of Shipping)로부터 기본승인(AiP: Approval in Principle)을 획득했다. 이는 SMR 추진 해양 선박 개념이 국제 규제 심사의 첫 번째 관문을 통과한 것으로, 향후 상세설계 및 건조 단계로 진행하기 위한 기술적·규제적 기반을 확보한 의미이다. 한국이 차세대 에너지 추진 기술에서 국제 경쟁력을 갖추는 신호로 평가된다.",
-  "cat": "기술",
-  "type": "MSR",
-  "dev": "",
-  "region": "KR",
-  "source": "maritime-executive.com",
-  "url": "https://maritime-executive.com/article/korean-containership-with-molten-salt-nuclear-reactor-gets-abs-approval",
-  "k": "korean containership with molten salt nuclear reactor gets abs approval",
-  "id": "eb7f3273"
- },
- {
-  "date": "2026-07-16",
   "title": "X-Energy: A Credible Nuclear Platform, But Valuation Is Not Cheap - Seeking Alpha",
   "summary": "X-Energy: A Credible Nuclear Platform, But Valuation Is Not Cheap Seeking Alpha",
   "summaryLong": "X-Energy: A Credible Nuclear Platform, But Valuation Is Not Cheap Seeking Alpha",
@@ -1356,5 +1353,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-22 07:30 KST";
-window.SMR_TOTAL = 1419;
+window.SMR_UPDATED = "2026-07-22 08:06 KST";
+window.SMR_TOTAL = 1424;
