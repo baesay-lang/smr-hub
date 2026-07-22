@@ -75,6 +75,36 @@ window.SMR_NEWS = [
   "id": "69db41cd"
  },
  {
+  "date": "2026-07-22",
+  "title": "삼성중공업, 미국 S&L과 부유식 SMR 표준 플랫폼 공동 개발 MOU 체결",
+  "summary": "삼성중공업이 미국 사전트 앤 런디(Sargent & Lundy)와 부유식 소형모듈원전(FSMR) 표준 플랫폼 공동 개발을 위한 양해각서를 체결했다.",
+  "summaryLong": "삼성중공업은 미국 워싱턴 D.C.에서 원전 설계·엔지니어링 기업인 사전트 앤 런디(Sargent & Lundy, S&L)와 부유식 소형모듈원전(FSMR) 표준 플랫폼 공동 개발을 위한 상호 우선 협력 양해각서(MOU)를 체결했다. 삼성중공업은 지난해 개념설계를 완료한 후 본격적으로 FSMR 개발에 나서고 있으며, 사전트 앤 런디는 1891년 설립 이후 70년 이상 글로벌 원전 프로젝트 설계 및 엔지니어링을 주도해 온 기업이다. 이번 협력은 부유식 해상 원자력발전 플랫폼 개발의 중요한 이정표가 된다.",
+  "cat": "계약",
+  "type": "General",
+  "dev": "삼성중공업",
+  "region": "KR",
+  "source": "이투뉴스 - 전체기사",
+  "url": "http://www.e2news.com/news/articleView.html?idxno=332526",
+  "k": "삼성중공업 s l과 부유식 smr 표준 플랫폼 공동 개발",
+  "ko": 1,
+  "id": "c279ca6b"
+ },
+ {
+  "date": "2026-07-22",
+  "title": "차세대 원자력(SMR 등) 국가전략기술 편입 추진·세제지원 법제화",
+  "summary": "한국 정부가 소형모듈원자로(SMR) 등 차세대 원자력을 국가전략기술로 지정하고 세제지원을 법제화하려 한다.",
+  "summaryLong": "한국 정부가 소형모듈원자로(SMR)를 포함한 차세대 원자력 기술을 국가전략기술로 편입시키는 방안을 추진 중이다. 이와 함께 SMR 등 첨단 원자력 기술 개발 및 산업화를 지원하기 위해 조세감면, 연구개발 지원 등 정책적 혜택을 법제화할 계획이다. 이는 국내 SMR 산업의 경쟁력 강화 및 국제 시장 진출을 촉진하기 위한 정부의 의지를 보여주는 정책 신호다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "knpnews.com",
+  "url": "http://www.knpnews.com/news/articleViewAmp.html?idxno=34146",
+  "k": "차세대 원자력 국가전략기술 편입 추진 smr 세제지원 법제화",
+  "ko": 1,
+  "id": "557e8f30"
+ },
+ {
   "date": "2026-07-21",
   "title": "SMR 시대 보안·정보 관리의 중요성",
   "summary": "소형모듈원자로(SMR) 등 차세대 핵발전이 국가 전략 자산으로 부상하면서 기술 보안과 정보 관리 체계 구축의 필요성을 제기한 의견 기사다.",
@@ -351,6 +381,21 @@ window.SMR_NEWS = [
   "k": "롤스로이스 smr 체코 2곳 추가 건설 추진 한국 원전수출 영향은 제한적",
   "ko": 1,
   "id": "0c3bfbc3"
+ },
+ {
+  "date": "2026-07-21",
+  "title": "미국 SMR 개발사 오클로·엑스에너지, 트럼프 정부의 AI 데이터센터 원자력 사업 참여",
+  "summary": "미국의 소형모듈원자로 개발사 오클로(Oklo)와 엑스에너지(X-energy)가 트럼프 주도 AI 데이터센터 전력공급 원자력 사업에 참여한다.",
+  "summaryLong": "소형모듈원자로 개발사인 오클로(Oklo)와 엑스에너지(X-energy)가 트럼프 정부 주도의 AI 데이터센터 원자력 전력 공급 사업에 선정되어 참여하게 되었다. 이는 미국이 AI 산업 고도화에 필요한 대규모 안정적 전력 공급을 원자력으로 충당하려는 국가 전략의 일환이다. 양 회사는 자사의 SMR 기술을 활용하여 데이터센터용 소규모 전용 원전 공급을 추진할 것으로 보인다.",
+  "cat": "기술",
+  "type": "HTGR",
+  "dev": "오클로, 엑스에너지",
+  "region": "US",
+  "source": "theguru.co.kr",
+  "url": "https://www.theguru.co.kr/news/article.html?no=104725",
+  "k": "smr 오클로 엑스에너지 트럼프 주도 ai 데이터센터 원자력 사업 참여",
+  "ko": 1,
+  "id": "503a4bcc"
  },
  {
   "date": "2026-07-20",
@@ -844,21 +889,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-16",
-  "title": "MSR 추진 1만 5000TEU급 컨테이너선 개념설계, 미국 선급협회 기본승인 획득",
-  "summary": "한국원자력연구원·선박해양플랜트연구소·삼성중공업이 공동 개발한 용융염원자로(MSR) 추진 대형 컨테이너선의 개념설계가 미국 선급협회(ABS)로부터 기본승인(AiP)을 획득했다.",
-  "summaryLong": "한국원자력연구원(KAERI)은 선박해양플랜트연구소(KRISO)와 삼성중공업이 공동으로 개발한 용융염원자로(MSR) 적용 1만 5000TEU급 컨테이너선의 개념설계가 미국 선급협회(ABS)로부터 기본승인(Approval in Principle, AiP)을 획득했다고 발표했다. AiP는 선급기관이 새로운 기술·설계의 개념 단계에서 국제 규정과 안전 기준에 따라 기술적 구현 가능성과 안전성을 검토·확인하는 절차다. 원자력 추진 선박 같은 첨단 기술에 대한 국제적 안전 승인으로, 한국의 고급 원자로 기술을 해양 산업에 적용하려는 노력의 중요한 마일스톤이다.",
-  "cat": "기술",
-  "type": "MSR",
-  "dev": "한국원자력연구원",
-  "region": "KR",
-  "source": "투데이에너지 - 전체기사",
-  "url": "https://www.todayenergy.kr/news/articleView.html?idxno=300487",
-  "k": "smr 추진 대형 컨테이너선 개념설계 공식 인정",
-  "ko": 1,
-  "id": "61e4d488"
- },
- {
-  "date": "2026-07-16",
   "title": "원안위, SMR 도입 법·제도 2028년까지 마련",
   "summary": "원자력안전위원회(원안위)가 SMR 도입을 위한 법·제도를 2028년까지 완비할 계획을 밝혔다.",
   "summaryLong": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 도입을 위한 법·제도 정비를 2028년까지 완료할 일정을 제시했다. 이는 정부의 '3대 메가프로젝트' 추진 방향에 맞춰 SMR 관련 규제체계를 신속히 구축하려는 정책 의지를 반영하며, 국내 SMR 사업화의 기본 토대 마련과 직결된다.",
@@ -871,20 +901,6 @@ window.SMR_NEWS = [
   "k": "원안위 smr 도입 법 제도 2028년까지 3대 메가 속도전 발맞추기",
   "ko": 1,
   "id": "beee0220"
- },
- {
-  "date": "2026-07-16",
-  "title": "엑스에너지(X-Energy) TRISO-X, 테네시주(Tennessee)로부터 1,100만 달러 연료 제조 캠퍼스 지원금 획득",
-  "summary": "엑스에너지(X-Energy) 자회사 TRISO-X가 테네시주(Tennessee)에서 1,100만 달러 지원금을 받아 오크리지(Oak Ridge) 연료 제조 캠퍼스 개발을 계속 진행한다.",
-  "summaryLong": "엑스에너지(X-Energy)의 자회사인 TRISO-X가 테네시주(Tennessee) 정부로부터 1,100만 달러 규모의 보조금을 획득했다. 이 자금은 오크리지(Oak Ridge)에 위치한 TRISO-X의 연료 제조 캠퍼스 계속 개발에 사용될 예정이며, 두 번째 상용 연료 시설과 전담 연구개발 센터 구축 가능성도 포함한다. TRISO 피복 입자 연료는 고온가스로(HTGR) 등 첨단 원자로의 핵심 기술로, 이번 지원금은 미국의 선진 원자로 연료 공급망 강화 정책의 일환으로 평가된다.",
-  "cat": "기술",
-  "type": "HTGR",
-  "dev": "X-Energy",
-  "region": "US",
-  "source": "World Nuclear News",
-  "url": "https://www.world-nuclear-news.org/articles/grant-to-support-expansion-of-triso-x-nuclear-fuel-campus",
-  "k": "grant to support expansion of triso x nuclear fuel campus",
-  "id": "3f65171a"
  },
  {
   "date": "2026-07-16",
@@ -1366,5 +1382,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-22 15:12 KST";
-window.SMR_TOTAL = 1434;
+window.SMR_UPDATED = "2026-07-22 15:40 KST";
+window.SMR_TOTAL = 1437;
