@@ -387,6 +387,79 @@ window.SMR_NEWS = [
     "id": "63fbe00d"
   },
   {
+    "date": "2026-07-22",
+    "title": "오클로(Oklo), 핵심 원자력 이니셔티브 확보",
+    "summary": "오클로가 주요 원자력 정책 이니셔티브에 선정되었거나 관련 사항을 발표했다.",
+    "summaryLong": "야후 파이낸스 보도에 따르면 오클로(Oklo)가 '핵심 원자력 이니셔티브(Key Nuclear Initiative)'와 관련된 중요한 진전을 이루었다. 구체적인 내용은 제목과 스니펫으로는 명확하지 않으나, 정부 정책·프로그램과 관련된 오클로의 공식 선정 또는 협력 발표로 추정된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/oklo-lands-key-nuclear-initiative-122800096.html",
+    "k": "oklo lands key nuclear initiative what investors should know",
+    "id": "00240da3"
+  },
+  {
+    "date": "2026-07-22",
+    "title": "엑스에너지, 원자력 배치용 6천만 달러 AI 연구 프로젝트 참여",
+    "summary": "엑스에너지가 미국의 AI 원자력 활용 연구 프로젝트에 6천만 달러(약 6,000만 달러) 규모로 참여한다.",
+    "summaryLong": "인베스팅닷컴(Investing.com) 보도에 따르면, 엑스에너지(X-energy)가 원자력 배치(nuclear deployment)를 위한 AI 연구 프로젝트에 6천만 달러(약 6,000만 달러) 규모로 참여한다. 본 프로젝트는 정부 차원의 원자력·AI 융합 정책 이니셔티브로 보이며, 엑스에너지의 참여는 회사의 고온가스로(HTGR) 기술이 AI 전력 수요 대응에 활용될 수 있음을 시사한다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "investing.com",
+    "url": "https://www.investing.com/news/company-news/xenergy-joins-60m-ai-research-project-for-nuclear-deployment-93CH-4806930",
+    "k": "x energy joins 60m ai research project for nuclear deployment",
+    "id": "b2cdfde9"
+  },
+  {
+    "date": "2026-07-22",
+    "title": "삼성중공업, 미국(US) S&L과 부유식 SMR 상용화 협력",
+    "summary": "삼성중공업이 미국(US) 원전 설계사 S&L과 손을 잡고 부유식 소형모듈원자로(SMR) 상용화에 나섰다. AI 데이터센터와 해상 전력시장을 목표로 한다.",
+    "summaryLong": "삼성중공업이 미국(US)의 원전 설계 기업 S&L(Seatwire & Lee)과 협력하여 부유식 소형모듈원자로(SMR) 개발을 추진하고 있다. 이 협력은 AI 데이터센터와 해상 전력시장을 주요 수요처로 설정하며 상용화 속도를 높이는 것을 목표로 한다. 부유식 SMR은 해상 환경에 특화된 전력 공급 솔루션으로, 원격지역 및 산업용 전력 수요를 충족할 수 있는 차세대 원자력 기술을 대표한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "삼성중공업",
+    "region": "US",
+    "source": "haesanews.com",
+    "url": "http://www.haesanews.com/news/articleView.html?idxno=149472",
+    "k": "삼성중공업 s l과 손잡고 부유식 smr 상용화 속도 ai 데이터센터 해상 전력시장 공략",
+    "ko": 1,
+    "id": "767db6a2"
+  },
+  {
+    "date": "2026-07-22",
+    "title": "미국, 차세대 원전 허브에 458억 원 투자",
+    "summary": "미국이 연구실 단계를 벗어난 소형모듈원자로(SMR) 등 차세대 원전 기술 개발에 458억 원 규모의 자금을 투입한다.",
+    "summaryLong": "미국 정부가 소형모듈원자로(SMR) 등 차세대 원자력 기술을 상용화 단계로 끌어올리기 위해 차세대 원전 허브(원자력 혁신 거점)에 458억 원의 투자를 단행한다. 이는 연구실 수준의 기술을 실제 산업화로 연결하기 위한 정부 정책의 일환으로, 미국의 원자력 산업 경쟁력 강화와 탈탄소 에너지 전환을 동시에 추진하는 국책 프로그램이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5208",
+    "k": "연구실 밖으로 나온 smr 미국 차세대 원전 허브에 458억 쏜다",
+    "ko": 1,
+    "id": "e003c191"
+  },
+  {
+    "date": "2026-07-22",
+    "title": "삼성중공업, 부유식 SMR 개발 본격화···미국 설계사와 MOU 체결",
+    "summary": "삼성중공업이 미국 원전 설계사와 부유식 SMR 개발을 위한 양해각서(MOU)를 체결했다.",
+    "summaryLong": "삼성중공업이 미국의 원전 설계 기업과 부유식 소형모듈원자로(SMR) 개발을 위한 양해각서(MOU)를 체결하며 본격적인 개발에 착수했다. 이번 협력은 부유식 SMR의 설계, 개발, 상용화를 목표로 진행될 예정이다. 삼성중공업은 해양 플랫폼 건설 역량과 미국 기업의 원전 설계 기술을 결합하여 차세대 에너지 솔루션 개발을 추진하고 있다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "삼성중공업",
+    "region": "KR",
+    "source": "news.nate.com",
+    "url": "https://news.nate.com/view/20260722n10878",
+    "k": "삼성중공업 부유식 smr 본격 개발 미국 원전 설계사와 mou도",
+    "ko": 1,
+    "id": "3f829668"
+  },
+  {
     "date": "2026-07-21",
     "title": "SMR 시대 보안·정보 관리의 중요성",
     "summary": "소형모듈원자로(SMR) 등 차세대 핵발전이 국가 전략 자산으로 부상하면서 기술 보안과 정보 관리 체계 구축의 필요성을 제기한 의견 기사다.",
@@ -21125,4 +21198,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-23 08:13 KST";
+window.SMR_UPDATED = "2026-07-23 08:45 KST";

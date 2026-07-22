@@ -380,6 +380,79 @@ window.SMR_NEWS = [
   "id": "63fbe00d"
  },
  {
+  "date": "2026-07-22",
+  "title": "오클로(Oklo), 핵심 원자력 이니셔티브 확보",
+  "summary": "오클로가 주요 원자력 정책 이니셔티브에 선정되었거나 관련 사항을 발표했다.",
+  "summaryLong": "야후 파이낸스 보도에 따르면 오클로(Oklo)가 '핵심 원자력 이니셔티브(Key Nuclear Initiative)'와 관련된 중요한 진전을 이루었다. 구체적인 내용은 제목과 스니펫으로는 명확하지 않으나, 정부 정책·프로그램과 관련된 오클로의 공식 선정 또는 협력 발표로 추정된다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "finance.yahoo.com",
+  "url": "https://finance.yahoo.com/energy/articles/oklo-lands-key-nuclear-initiative-122800096.html",
+  "k": "oklo lands key nuclear initiative what investors should know",
+  "id": "00240da3"
+ },
+ {
+  "date": "2026-07-22",
+  "title": "엑스에너지, 원자력 배치용 6천만 달러 AI 연구 프로젝트 참여",
+  "summary": "엑스에너지가 미국의 AI 원자력 활용 연구 프로젝트에 6천만 달러(약 6,000만 달러) 규모로 참여한다.",
+  "summaryLong": "인베스팅닷컴(Investing.com) 보도에 따르면, 엑스에너지(X-energy)가 원자력 배치(nuclear deployment)를 위한 AI 연구 프로젝트에 6천만 달러(약 6,000만 달러) 규모로 참여한다. 본 프로젝트는 정부 차원의 원자력·AI 융합 정책 이니셔티브로 보이며, 엑스에너지의 참여는 회사의 고온가스로(HTGR) 기술이 AI 전력 수요 대응에 활용될 수 있음을 시사한다.",
+  "cat": "기술",
+  "type": "HTGR",
+  "dev": "X-energy",
+  "region": "US",
+  "source": "investing.com",
+  "url": "https://www.investing.com/news/company-news/xenergy-joins-60m-ai-research-project-for-nuclear-deployment-93CH-4806930",
+  "k": "x energy joins 60m ai research project for nuclear deployment",
+  "id": "b2cdfde9"
+ },
+ {
+  "date": "2026-07-22",
+  "title": "삼성중공업, 미국(US) S&L과 부유식 SMR 상용화 협력",
+  "summary": "삼성중공업이 미국(US) 원전 설계사 S&L과 손을 잡고 부유식 소형모듈원자로(SMR) 상용화에 나섰다. AI 데이터센터와 해상 전력시장을 목표로 한다.",
+  "summaryLong": "삼성중공업이 미국(US)의 원전 설계 기업 S&L(Seatwire & Lee)과 협력하여 부유식 소형모듈원자로(SMR) 개발을 추진하고 있다. 이 협력은 AI 데이터센터와 해상 전력시장을 주요 수요처로 설정하며 상용화 속도를 높이는 것을 목표로 한다. 부유식 SMR은 해상 환경에 특화된 전력 공급 솔루션으로, 원격지역 및 산업용 전력 수요를 충족할 수 있는 차세대 원자력 기술을 대표한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "삼성중공업",
+  "region": "US",
+  "source": "haesanews.com",
+  "url": "http://www.haesanews.com/news/articleView.html?idxno=149472",
+  "k": "삼성중공업 s l과 손잡고 부유식 smr 상용화 속도 ai 데이터센터 해상 전력시장 공략",
+  "ko": 1,
+  "id": "767db6a2"
+ },
+ {
+  "date": "2026-07-22",
+  "title": "미국, 차세대 원전 허브에 458억 원 투자",
+  "summary": "미국이 연구실 단계를 벗어난 소형모듈원자로(SMR) 등 차세대 원전 기술 개발에 458억 원 규모의 자금을 투입한다.",
+  "summaryLong": "미국 정부가 소형모듈원자로(SMR) 등 차세대 원자력 기술을 상용화 단계로 끌어올리기 위해 차세대 원전 허브(원자력 혁신 거점)에 458억 원의 투자를 단행한다. 이는 연구실 수준의 기술을 실제 산업화로 연결하기 위한 정부 정책의 일환으로, 미국의 원자력 산업 경쟁력 강화와 탈탄소 에너지 전환을 동시에 추진하는 국책 프로그램이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "US",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5208",
+  "k": "연구실 밖으로 나온 smr 미국 차세대 원전 허브에 458억 쏜다",
+  "ko": 1,
+  "id": "e003c191"
+ },
+ {
+  "date": "2026-07-22",
+  "title": "삼성중공업, 부유식 SMR 개발 본격화···미국 설계사와 MOU 체결",
+  "summary": "삼성중공업이 미국 원전 설계사와 부유식 SMR 개발을 위한 양해각서(MOU)를 체결했다.",
+  "summaryLong": "삼성중공업이 미국의 원전 설계 기업과 부유식 소형모듈원자로(SMR) 개발을 위한 양해각서(MOU)를 체결하며 본격적인 개발에 착수했다. 이번 협력은 부유식 SMR의 설계, 개발, 상용화를 목표로 진행될 예정이다. 삼성중공업은 해양 플랫폼 건설 역량과 미국 기업의 원전 설계 기술을 결합하여 차세대 에너지 솔루션 개발을 추진하고 있다.",
+  "cat": "계약",
+  "type": "General",
+  "dev": "삼성중공업",
+  "region": "KR",
+  "source": "news.nate.com",
+  "url": "https://news.nate.com/view/20260722n10878",
+  "k": "삼성중공업 부유식 smr 본격 개발 미국 원전 설계사와 mou도",
+  "ko": 1,
+  "id": "3f829668"
+ },
+ {
   "date": "2026-07-21",
   "title": "SMR 시대 보안·정보 관리의 중요성",
   "summary": "소형모듈원자로(SMR) 등 차세대 핵발전이 국가 전략 자산으로 부상하면서 기술 보안과 정보 관리 체계 구축의 필요성을 제기한 의견 기사다.",
@@ -805,80 +878,6 @@ window.SMR_NEWS = [
   "ko": 1,
   "op": 1,
   "id": "2e7f01ee"
- },
- {
-  "date": "2026-07-20",
-  "title": "인구 밀집 지역 SMR 건설 추진에 대한 검증 필요성 제기",
-  "summary": "인구 17만5천 명이 거주하는 지역에 검증 단계의 SMR을 건설하려는 계획에 대해 신중을 촉구하는 보도다.",
-  "summaryLong": "한겨레21이 검증 단계에 있는 소형모듈원자로(SMR)를 인구 밀집 지역에 건설하려는 계획의 위험성을 지적한 기사다. 해당 건설 계획이 추진되려는 지역의 인구가 17만5천 명에 달하는 상황에서, 아직 기술과 안전성 검증이 충분하지 않은 SMR을 건설하는 것이 타당한지 문제 제기하고 있다. SMR의 실제 건설·입지 추진 과정과 관련된 정책·규제 논쟁을 다룬 기사로, 한국 내 SMR 사업화 과정의 쟁점을 보도했다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "h21.hani.co.kr",
-  "url": "https://h21.hani.co.kr/arti/society/environment/59624.html",
-  "k": "검증 필요한 smr을 17만5천 인구밀집 지역에 짓겠다고",
-  "ko": 1,
-  "op": 1,
-  "id": "30973988"
- },
- {
-  "date": "2026-07-19",
-  "title": "중국, 소형모듈원자로 옆 대형원전 먼저 임계 달성…SMR는 216일 지연되고 비용 2.5배",
-  "summary": "중국이 같은 섬에 인접한 소형모듈원자로(SMR)보다 대형 풀사이즈 원전을 먼저 임계에 도달시켰으며, SMR은 일정 지연과 높은 단가 문제를 노출했다.",
-  "summaryLong": "중국의 한 섬에 나란히 건설된 대형 풀사이즈 원전이 인접한 소형모듈원자로(SMR)보다 먼저 첫 임계(first criticality)에 도달했다. SMR은 계획 대비 216일 지연되었으며, 메가와트당 건설비가 대형 원전의 2.5배에 달하는 것으로 드러났다. 이는 중국 SMR 프로젝트의 일정 관리와 경제성 문제를 여실히 보여주는 사례로, 글로벌 SMR 시장의 현실적 과제를 시사한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "CN",
-  "source": "autonocion.com",
-  "url": "https://www.autonocion.com/us/china-full-size-reactor/",
-  "k": "china just lit a full size reactor that beat the small modular one next door to first criticality on the same island a fence between them and the small one 216 days late costs two and a half times more per megawatt to build",
-  "id": "e1f7fed8"
- },
- {
-  "date": "2026-07-19",
-  "title": "KRISO, SMR 추진 컨테이너선 개념설계 ABS(미국선급) 기본승인 획득",
-  "summary": "한국해양과학기술원(KRISO)이 소형모듈원자로(SMR) 추진 컨테이너선의 개념설계에 대해 ABS(미국선급)로부터 기본승인을 획득했다.",
-  "summaryLong": "한국해양과학기술원(KRISO)이 소형모듈원자로(SMR)를 추진 시스템으로 하는 컨테이너선의 개념설계(concept design)에 대해 미국선급(ABS)의 기본승인(preliminary approval)을 받았다. 이는 SMR 해양 응용 분야의 규제 진전을 나타내는 중요한 마일스톤으로, SMR 기술의 다양한 활용 가능성을 확인하는 사례다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "KRISO",
-  "region": "KR",
-  "source": "etnews.com",
-  "url": "https://www.etnews.com/20260719000098",
-  "k": "kriso smr 추진 컨테이너선 개념설계 abs 기본승인 획득",
-  "ko": 1,
-  "id": "22c7302d"
- },
- {
-  "date": "2026-07-19",
-  "title": "블랙앤비치, 미국기계학회(ASME) 원전 인증 취득…SMR 시장 진출",
-  "summary": "블랙앤비치가 미국기계학회(ASME) 원전 인증을 획득하며 소형모듈원자로(SMR) 시장 공략에 나섰다.",
-  "summaryLong": "블랙앤비치가 미국기계학회(ASME)로부터 원자력 관련 인증을 획득했으며, 이를 바탕으로 소형모듈원자로(SMR) 시장에 진출하려는 움직임을 보이고 있다. 인증 획득은 제품·서비스가 국제 표준을 충족했음을 의미하며, SMR 분야에서의 기술 경쟁력을 입증하는 중요한 이정표이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "BlueNanteh",
-  "region": "",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5128",
-  "k": "블랙앤비치 asme 원전 인증 smr 공략",
-  "ko": 1,
-  "id": "9f54e812"
- },
- {
-  "date": "2026-07-19",
-  "title": "오클로(Oklo) 주가 16% 하락, 7월 원자로 마일스톤에 집중",
-  "summary": "오클로(Oklo)가 7월 원자로 마일스톤을 앞두고 주가가 16% 하락했다.",
-  "summaryLong": "오클로(Oklo)의 주가가 16% 하락했으며, 시장의 관심이 7월에 예정된 원자로 핵심 시운전 마일스톤으로 옮겨가고 있다. 이는 회사의 첨단로(고속로) 개발 일정과 실제 기술 진행 상황에 관한 구체적인 사업 뉴스로, SMR·첨단로 레퍼런스 사이트의 중요 이정표이다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "ts2.tech",
-  "url": "https://ts2.tech/en/oklo-nyseoklo-drops-16-as-focus-shifts-to-july-reactor-milestone-for-next-key-test/",
-  "k": "oklo nyse oklo drops 16 as focus shifts to july reactor milestone for next key test",
-  "id": "cae9d904"
  },
  {
   "date": "2026-07-19",
@@ -1373,5 +1372,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-23 08:13 KST";
-window.SMR_TOTAL = 1459;
+window.SMR_UPDATED = "2026-07-23 08:45 KST";
+window.SMR_TOTAL = 1464;
