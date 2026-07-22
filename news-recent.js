@@ -293,6 +293,93 @@ window.SMR_NEWS = [
   "id": "0e3e3d80"
  },
  {
+  "date": "2026-07-22",
+  "title": "엑스에너지, AI 가속 첨단원자로 배치 사업에 6천만달러 프로젝트 참여",
+  "summary": "엑스에너지(X-Energy)가 AI 활용 첨단원자로 배치를 위한 6천만달러 규모 프로젝트에 참여한다.",
+  "summaryLong": "엑스에너지(X-Energy)가 AI 기술을 활용한 첨단 원자로 배치 촉진을 목표로 하는 6천만달러 규모의 프로젝트에 참여했다고 씽킹알파(Seeking Alpha)가 보도했다. 이는 엑스에너지의 첨단로 기술·프로젝트 참여라는 실제 사업 진전을 나타내며, 정부 또는 업계 주도의 국책 프로젝트에 개발사가 선정된 의미 있는 뉴스다.",
+  "cat": "기술",
+  "type": "HTGR",
+  "dev": "X-Energy",
+  "region": "US",
+  "source": "seekingalpha.com",
+  "url": "https://seekingalpha.com/news/4616999-x-energy-joins-60m-project-for-ai-accelerated-advanced-nuclear-deployment",
+  "k": "x energy joins 60m project for ai accelerated advanced nuclear deployment xe nasdaq",
+  "id": "c4af6e3f"
+ },
+ {
+  "date": "2026-07-22",
+  "title": "오클로·엑스에너지, 백악관 AI 핵전력 이니셔티브 포함 보도로 주가 급등",
+  "summary": "오클로와 엑스에너지가 백악관의 AI 기반 핵전력 발전소 건설 가속화 이니셔티브에 포함된다는 보도로 주가가 급등했다.",
+  "summaryLong": "오클로(Oklo)와 엑스에너지(X-energy)의 주가가 두 회사가 백악관(White House)의 AI 기반 원자력 발전소 건설 가속화 이니셔티브에 포함된다는 보도 이후 급등했다. 이는 미국 연방 정부가 첨단로 및 SMR 기술을 국가 에너지·AI 정책의 핵심으로 추진하고 있음을 시사한다. 두 회사 모두 차세대 원자로 기술 개발사로서 정부 정책 지원의 대상이 되고 있다.",
+  "cat": "기술",
+  "type": "HTGR",
+  "dev": "Oklo,X-energy",
+  "region": "US",
+  "source": "news.futunn.com",
+  "url": "https://news.futunn.com/en/post/76378951/shares-of-oklo-and-x-energy-surged-after-reports-indicated",
+  "k": "shares of oklo and x energy surged after reports indicated their inclusion in the white house s ai driven initiative to accelerate nuclear power plant construction",
+  "id": "62bd731f"
+ },
+ {
+  "date": "2026-07-22",
+  "title": "제이콥스, 영국 소형모듈원자로 계획 지원 선정",
+  "summary": "제이콥스 엔지니어링이 영국의 소형모듈원자로(SMR) 프로젝트 계획 수립 지원업체로 선정됨.",
+  "summaryLong": "제이콥스(Jacobs) 엔지니어링이 영국의 소형모듈원자로(SMR) 프로젝트 계획 수립을 지원할 기술용역 기관으로 선정되었다. 이는 영국 정부의 SMR 도입 정책 추진 과정에서 주요 엔지니어링 설계 및 계획 업무를 위한 계약성 용역 수주로 평가된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "Jacobs",
+  "region": "UK",
+  "source": "constructionowners.com",
+  "url": "https://www.constructionowners.com/news/jacobs-selected-to-support-planning-for-u-k-small-modular-reactor-projects",
+  "k": "jacobs selected to support planning for u k small modular reactor projects",
+  "id": "1fe1d82b"
+ },
+ {
+  "date": "2026-07-22",
+  "title": "인도, 2033년까지 소형모듈원자로 5기 구축 계획",
+  "summary": "인도가 2033년까지 5기의 소형모듈원자로(SMR) 구축을 추진하며 한미일 SMR 동맹의 기회 창출.",
+  "summaryLong": "인도가 2033년을 목표로 5기의 소형모듈원자로(SMR) 건설을 추진하는 국책 프로그램을 발표했다. 이는 인도의 전력 공급 다각화 및 에너지 안보 강화 전략의 일환이며, 한미일이 체결한 SMR 협력 양해각서(MOU)와 시너지를 형성할 것으로 예상되어 한국 기업의 해외 SMR 시장 진출 기회를 확대할 가능성이 높다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "JP",
+  "source": "theguru.co.kr",
+  "url": "https://theguru.co.kr/news/article.html?no=104758",
+  "k": "인도 2033년까지 smr 5기 구축 한미일 smr 동맹 에 기회",
+  "ko": 1,
+  "id": "a77308f5"
+ },
+ {
+  "date": "2026-07-22",
+  "title": "삼성중공업, 미국 원전 설계사와 부유식 소형모듈원자로 상용화 추진",
+  "summary": "삼성중공업이 미국 원전 설계사와 협력하여 해상 부유식 소형모듈원자로 상용화를 가속화하고 있음.",
+  "summaryLong": "삼성중공업이 미국의 원전 엔지니어링 회사와 손을 잡고 부유식 소형모듈원자로(Floating SMR) 상용화를 추진 중이다. AI 데이터센터와 해상 전력시장을 목표로 기술 개발 및 시장 선점에 나서고 있으며, 이는 차세대 에너지 시스템으로서의 부유식 SMR 기술 실증과 사업화 추진을 의미한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "삼성중공업",
+  "region": "KR",
+  "source": "wikileaks-kr.org",
+  "url": "http://www.wikileaks-kr.org/news/articleView.html?idxno=190019",
+  "k": "바다에 띄우는 smr 삼성중공업 원전 설계사와 해상 원전 상용화 속도 낸다",
+  "ko": 1,
+  "id": "9319ecb3"
+ },
+ {
+  "date": "2026-07-22",
+  "title": "삼성중공업, FDC 이어 '부유식 SMR' 개발 시동",
+  "summary": "삼성중공업이 부유식 소형모듈원자로(SMR) 개발에 신규 파트너와 함께 나선다.",
+  "summaryLong": "삼성중공업이 기존 FDC(Floating Dual Core) 프로젝트에 이어 새로운 파트너와 함께 부유식 소형모듈원자로(SMR) 개발을 시작한다. 삼성중공업은 해양 원자력 기술 분야에서 지속적으로 협력 네트워크를 확대하고 있다. 부유식 SMR 개발을 통해 미국(US) 등 글로벌 시장에서 차세대 원자로 사업의 입지를 강화할 계획이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "삼성중공업",
+  "region": "KR",
+  "source": "hansbiz.co.kr",
+  "url": "http://www.hansbiz.co.kr/news/articleView.html?idxno=851857",
+  "k": "삼성중공업 fdc 이어 부유식 smr 개발 시동",
+  "ko": 1,
+  "id": "63fbe00d"
+ },
+ {
   "date": "2026-07-21",
   "title": "SMR 시대 보안·정보 관리의 중요성",
   "summary": "소형모듈원자로(SMR) 등 차세대 핵발전이 국가 전략 자산으로 부상하면서 기술 보안과 정보 관리 체계 구축의 필요성을 제기한 의견 기사다.",
@@ -808,51 +895,6 @@ window.SMR_NEWS = [
   "id": "b1dc37ce"
  },
  {
-  "date": "2026-07-19",
-  "title": "AI 전력 대란 대응, 한국 2030년대 SMR·핵융합 에너지 전략 추진",
-  "summary": "한국 정부가 AI 산업의 전력 수요 증가에 대응하기 위해 소형모듈원자로(SMR)와 핵융합을 2030년대 주요 에너지 정책으로 추진한다는 방침을 밝혔다.",
-  "summaryLong": "한국 정부는 AI 데이터센터 등으로 인한 전력 수요 급증 대응을 위해 소형모듈원자로(SMR)와 핵융합을 2030년대의 전략적 에너지 확보 수단으로 삼겠다고 발표했다. 이는 AI 산업의 확대로 예상되는 전력난을 사전에 차단하고자 하는 정부의 선제적 에너지 정책으로, SMR의 유연한 배치와 핵융합의 장기적 가능성을 동시에 추진하는 이중 전략이다. 정부는 이를 통해 에너지 안보와 산업 경쟁력을 동시에 확보하려는 의도를 드러냈다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "edaily.co.kr",
-  "url": "https://www.edaily.co.kr/News/Read?newsId=01833526645516160&mediaCodeNo=257",
-  "k": "ai 전력 대란 막는다 한국 smr 핵융합 2030년대 에너지 승부수",
-  "ko": 1,
-  "id": "dc8f56c0"
- },
- {
-  "date": "2026-07-18",
-  "title": "에너지 안보 경쟁력: 한국의 CFE·SMR 주목",
-  "summary": "재생에너지 비중이 10%에 머물러 있는 한국이 에너지 안보 강화를 위해 탄소무배출연료(CFE)와 SMR에 주목하고 있다.",
-  "summaryLong": "한국이 재생에너지 비중의 저위 상태(10% 수준)를 감안하여 에너지 안보 경쟁력 강화 차원에서 탄소무배출연료(CFE)와 소형모듈원자로(SMR)를 주요 기술로 주목하고 있다는 보도이다. 정부의 에너지 정책에서 SMR의 역할 강화를 반영하는 내용이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "jabon.co.kr",
-  "url": "https://www.jabon.co.kr/news/articleView.html?idxno=5050",
-  "k": "에너지 안보가 경쟁력 재생 10 꼴찌 한국 cfe smr 주목",
-  "ko": 1,
-  "id": "169c5fd1"
- },
- {
-  "date": "2026-07-18",
-  "title": "SMR의 경쟁력: 공장 제작·현장 조립 방식",
-  "summary": "소형모듈원자로(SMR)의 경쟁력을 공장에서의 모듈식 제작과 현장 조립 방식으로 설명하는 영상 기사.",
-  "summaryLong": "소형모듈원자로(SMR)의 주요 경쟁력을 공장에서의 표준화된 모듈 제작과 건설 현장에서의 조립 방식으로 설명하는 교육 영상 기사이다. SMR의 핵심 기술적 장점인 모듈화 생산의 효율성과 품질 관리 이점을 다루고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "newsis.com",
-  "url": "https://www.newsis.com/view/NISX20260716_0003712614",
-  "k": "공장서 만들고 현장서 조립 차세대 원전 smr 의 경쟁력 짤막영상",
-  "ko": 1,
-  "id": "3c7aef37"
- },
- {
   "date": "2026-07-18",
   "title": "용융염원자로 탑재 핵추진선 설계, 미국 기관 승인 획득",
   "summary": "이중 용융염원자로(MSR)를 탑재한 핵추진선 설계가 미국 규제 기관으로부터 승인을 받음.",
@@ -865,21 +907,6 @@ window.SMR_NEWS = [
   "url": "https://interestingengineering.com/energy/nuclear-powered-ship-design-salt-reactors",
   "k": "nuclear powered ship design with dual molten salt reactors wins approval from us body",
   "id": "c245903a"
- },
- {
-  "date": "2026-07-17",
-  "title": "메가프로젝트로 빨라진 SMR 시계, 법 개정·연구개발 동시 추진",
-  "summary": "정부가 SMR을 국책 메가프로젝트로 추진하면서 관련 법 개정과 연구개발을 동시에 진행 중이다.",
-  "summaryLong": "정부가 소형모듈원자로(SMR)를 'K-문샷' 등 국책 메가프로젝트로 격상하면서 규제 환경 개선과 기술 개발이 동시에 추진되고 있다. 관련 법 개정을 통해 인허가 절차를 단축하고, 연구개발 투자를 확대하는 정책적 지원이 진행 중이다. 이러한 정책적 가속화는 국내 SMR 상용화 일정을 앞당기고 글로벌 시장 경쟁력 강화를 목표로 한다.",
-  "cat": "정책",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "m.news.nate.com",
-  "url": "https://m.news.nate.com/view/20260717n06778?mid=m05&list=recent&cpcd=",
-  "k": "메가프로젝트로 빨라진 smr 시계 법 개정 연구개발 동시 추진",
-  "ko": 1,
-  "id": "ef3e89de"
  },
  {
   "date": "2026-07-16",
@@ -1346,5 +1373,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-23 07:37 KST";
-window.SMR_TOTAL = 1451;
+window.SMR_UPDATED = "2026-07-23 08:13 KST";
+window.SMR_TOTAL = 1459;
