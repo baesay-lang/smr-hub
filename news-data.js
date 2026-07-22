@@ -8,6 +8,80 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-07-22",
+    "title": "오클로, 엑스에너지(X-energy) 미국 핵에너지-AI 정책 추진에 참여",
+    "summary": "오클로와 엑스에너지가 미국의 핵에너지-AI 연계 정책 이니셔티브에 참여한다.",
+    "summaryLong": "오클로(Oklo)와 엑스에너지(X-energy)가 미국의 핵에너지를 AI 산업에 활용하는 정책 추진에 참여하게 되었다. 이는 미국 정부의 첨단 소형모듈원자로 기술을 에너지-AI 생태계에 통합하려는 국책 사업으로, 두 개발사의 기술과 비즈니스 전략이 정책 수준에서 추진되고 있음을 의미한다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "Oklo, X-energy",
+    "region": "US",
+    "source": "techinasia.com",
+    "url": "https://www.techinasia.com/news/oklo-xenergy-join-nuclear-push-ai",
+    "k": "oklo x energy join us nuclear push for ai",
+    "id": "a4140482"
+  },
+  {
+    "date": "2026-07-22",
+    "title": "SMR·초소형로 국가전략기술 법제화, R&D·시설투자 세제지원 강화",
+    "summary": "소형모듈원자로(SMR)와 초소형모듈원자로(MMR) 등 차세대 원자력 기술을 국가전략기술으로 법률에 명시하고 R&D·시설투자 세제지원을 강화하는 법안이 국회에 제출됐다.",
+    "summaryLong": "박수영 국회의원(국민의힘, 부산 남구)이 조세특례제한법 개정안을 대표 발의했다. 이 법안은 소형모듈원자로(SMR)와 초소형모듈원자로(MMR) 등 차세대 원자력 기술을 국가전략기술로 법률에 명시하고, 관련 연구개발과 시설투자에 대한 세제지원을 강화하는 내용을 담고 있다. 인공지능(AI) 확산에 따른 전력수요 증가와 글로벌 원전 기술 경쟁에 대응하기 위해 원자력을 국가 핵심 전략산업으로 육성하기 위한 제도적 기반을 마련하려는 취지다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "에너지데일리 - 전체기사",
+    "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=201619",
+    "k": "smr 등 차세대 원전 국가전략기술 명문화 추진 r d 시설투자 세제지원 확대",
+    "ko": 1,
+    "id": "58729105"
+  },
+  {
+    "date": "2026-07-22",
+    "title": "대한전기산업연합회, SMR 표준화 주제로 2026 KEPIC-Week 개최",
+    "summary": "대한전기산업연합회가 2026년 1월 KEPIC-Week 행사에서 SMR 표준화를 중심 주제로 논의한다.",
+    "summaryLong": "대한전기산업연합회가 법정단체 출범 후 첫 '2026 KEPIC-Week' 행사를 개최할 예정이다. 이번 행사에서는 사용후핵연료 기준이 최초로 공개되며, 소형모듈원자로(SMR) 표준화가 주요 논의 주제로 다루어질 예정이다. 이는 국내 SMR 산업의 표준 체계 구축과 국제 경쟁력 강화를 위한 중요한 플랫폼 역할을 할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "skenews.kr",
+    "url": "https://www.skenews.kr/news/articleView.html?idxno=52640",
+    "k": "대한전기산업연합회 법정단체 출범 후 첫 2026 kepic week 내달 25일 개최 사용후핵연료 기준 최초 공개 smr 표준화 격돌",
+    "ko": 1,
+    "id": "496b99b4"
+  },
+  {
+    "date": "2026-07-22",
+    "title": "현대건설, 미국 FANCO와 차세대 SMR 'EAGL-1' 협약",
+    "summary": "현대건설이 미국의 FANCO(핵심 기업명)와 차세대 소형모듈원자로 'EAGL-1' 개발 협약을 체결했다.",
+    "summaryLong": "현대건설이 미국의 FANCO와 차세대 소형모듈원자로 'EAGL-1' 개발 및 상용화를 위한 협약을 체결했다. EAGL-1은 차세대 SMR 설계로, 현대건설의 건설 및 엔지니어링 역량과 FANCO의 원전 기술을 결합하는 전략적 파트너십이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대건설",
+    "region": "KR",
+    "source": "sisaworld.kr",
+    "url": "https://www.sisaworld.kr/news/articleView.html?idxno=23590",
+    "k": "현대건설 fanco와 차세대 smr eagl 1 협약",
+    "ko": 1,
+    "id": "bda64b26"
+  },
+  {
+    "date": "2026-07-22",
+    "title": "DL그룹, SMR·복합발전소 사업 확장",
+    "summary": "DL그룹이 소형모듈원자로(SMR)와 복합발전소 사업을 확장하고 있다.",
+    "summaryLong": "DL그룹이 소형모듈원자로(SMR)와 복합발전소 사업의 확장 전략을 추진하고 있다. 이는 차세대 에너지 사업으로의 포트폴리오 다각화 및 신성장 동력 확보를 목표로 하는 경영 전략이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "DL그룹",
+    "region": "KR",
+    "source": "biz.chosun.com",
+    "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/07/22/YKFF2BLPUFDX3A7WPJLOTEGATM/",
+    "k": "dl그룹 smr 복합발전소 사업 확장 조선비즈",
+    "ko": 1,
+    "id": "69db41cd"
+  },
+  {
     "date": "2026-07-21",
     "title": "SMR 시대 보안·정보 관리의 중요성",
     "summary": "소형모듈원자로(SMR) 등 차세대 핵발전이 국가 전략 자산으로 부상하면서 기술 보안과 정보 관리 체계 구축의 필요성을 제기한 의견 기사다.",
@@ -255,6 +329,35 @@ window.SMR_NEWS = [
     "k": "테라스트리얼에너지 smr 파이프라인 nrc 승인 doe 파트너십으로 2050년 2 3조 달러 시장 공략 본격화",
     "ko": 1,
     "id": "e33c81e4"
+  },
+  {
+    "date": "2026-07-21",
+    "title": "미국 원자력규제위원회(NRC), 테라파워(TerraPower) 건설허가 승인",
+    "summary": "미국 원자력규제위원회(NRC)가 테라파워의 건설허가를 승인했다.",
+    "summaryLong": "미국 원자력규제위원회(NRC)가 테라파워(TerraPower)의 건설허가를 승인했다. 이는 첨단 소형모듈원자로(SMR) 개발사의 중요한 규제 마일스톤으로, 상용 원자로 건설 추진에 있어 핵심적인 인허가 단계다. 테라파워는 나트륨냉각 고속로 기술을 개발 중이며, 이번 승인은 미국 첨단원자력 개발 정책의 구체적 진전을 보여준다.",
+    "cat": "인허가",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "ans.org",
+    "url": "https://www.ans.org/news/article-7818/nrc-approves-terrapower-construction-permit/",
+    "k": "nrc approves terrapower construction permit",
+    "id": "ca0f28bd"
+  },
+  {
+    "date": "2026-07-21",
+    "title": "롤스로이스 SMR, 체코 2곳 추가 건설 추진",
+    "summary": "영국의 롤스로이스(Rolls-Royce)가 체코에 소형모듈원자로 2곳의 추가 건설을 추진하고 있다.",
+    "summaryLong": "영국의 롤스로이스(Rolls-Royce)가 체코에 소형모듈원자로(SMR) 2곳의 추가 건설을 추진하고 있다. 이는 유럽 내 SMR 보급 확대의 일환으로, 체코의 에너지 수급 전략의 일부이다. 한편 이러한 유럽 내 SMR 사업 전개가 한국의 원전 수출에 미치는 영향은 제한적일 것으로 분석되고 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "롤스로이스",
+    "region": "UK",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5181",
+    "k": "롤스로이스 smr 체코 2곳 추가 건설 추진 한국 원전수출 영향은 제한적",
+    "ko": 1,
+    "id": "0c3bfbc3"
   },
   {
     "date": "2026-07-20",
@@ -20658,4 +20761,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-22 08:43 KST";
+window.SMR_UPDATED = "2026-07-22 15:12 KST";
