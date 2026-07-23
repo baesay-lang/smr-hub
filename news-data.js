@@ -8,6 +8,108 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-07-23",
+    "title": "일본의 미국 투자 소형원전 사업, 사고 시 배상책임 논란",
+    "summary": "한·미·일 관세 협상 후속으로 추진되는 SMR 사업에서 원전 사고 배상 책임 문제가 대두되고 있다.",
+    "summaryLong": "미국과 일본의 관세 협상에 따라 추진되고 있는 차세대 소형모듈원자로(SMR) 사업을 둘러싸고 원전 사고 발생 시 배상 책임 귀속 문제가 논쟁이 되고 있다. 이는 일본의 대미 투자 조건과 원전 운영 리스크 관리 정책 수립 과정에서 양국 간 입장 차이를 반영하고 있으며, 향후 SMR 상용화 단계에서 중요한 규제·정책 이슈가 될 것으로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "연합뉴스 최신기사",
+    "url": "https://www.yna.co.kr/view/AKR20260723120900009",
+    "k": "대미투자 소형원전 사업에 사고시 배상책임 논란",
+    "ko": 1,
+    "id": "2db6e9fe"
+  },
+  {
+    "date": "2026-07-23",
+    "title": "한국, 에이전트 AI·소형모듈원자로 상용화 추진",
+    "summary": "한국이 에이전트 AI와 소형모듈원자로(SMR) 상용화를 추진 중이다.",
+    "summaryLong": "한국 정부가 에이전트 AI와 소형모듈원자로(SMR) 상용화를 국가 전략으로 추진하고 있다. SMR은 차세대 원자력 에너지 솔루션으로서 정부의 정책 우선순위에 포함되어 있으며, 상용화를 통한 글로벌 시장 진출을 목표로 하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "mlex.com",
+    "url": "https://www.mlex.com/mlex/articles/2504202/south-korea-pushes-agentic-ai-small-modular-reactor-commercialization",
+    "k": "south korea pushes agentic ai small modular reactor commercialization",
+    "id": "14c3d3d3"
+  },
+  {
+    "date": "2026-07-23",
+    "title": "한미 부유식 SMR 플랫폼 파트너십",
+    "summary": "한국과 미국이 부유식 소형모듈원자로(SMR) 플랫폼 개발을 위한 파트너십을 추진 중이다.",
+    "summaryLong": "한국과 미국이 부유식 소형모듈원자로(SMR) 플랫폼 개발을 위한 전략적 파트너십을 체결하였다. 양국의 협력을 통해 해상 원자력 플랫폼 기술을 공동으로 개발·상용화하려는 의도로, 글로벌 부유식 SMR 시장 진출을 목표로 하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "eurasiareview.com",
+    "url": "https://www.eurasiareview.com/23072026-south-korean-us-partnership-for-floating-smr-platform/",
+    "k": "south korean us partnership for floating smr platform",
+    "id": "a65e9371"
+  },
+  {
+    "date": "2026-07-23",
+    "title": "2047년까지 핵발전 용량 100GW 달성 로드맵 공개, SMR 국산화 추진",
+    "summary": "정부가 2047년 핵발전 용량 100GW 달성 로드맵을 발표하면서 국산 소형모듈원자로(SMR) 상용화를 추진 중이다.",
+    "summaryLong": "인도 정부가 2047년까지 핵발전 용량 100GW 달성을 목표로 하는 로드맵을 공개하였으며, 여기에 국산 소형모듈원자로(SMR)의 개발·상용화가 주요 과제로 포함되어 있다. SMR을 통한 분산형 원자력 발전과 국내 기술 자립을 동시에 달성하려는 국가 전략이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "ddnews.gov.in",
+    "url": "https://ddnews.gov.in/en/government-unveils-roadmap-to-achieve-100-gw-nuclear-power-capacity-by-2047-pushes-indigenous-small-modular-reactors/",
+    "k": "government unveils roadmap to achieve 100 gw nuclear power capacity by 2047 pushes indigenous small modular reactors",
+    "id": "0f2a2f1c"
+  },
+  {
+    "date": "2026-07-23",
+    "title": "SMR 특별법 개정안 입법예고, 세제지원·진흥특구 신설",
+    "summary": "정부가 소형모듈원자로(SMR) 관련 특별법 개정안을 입법예고하며 세제지원과 진흥특구 신설을 추진 중이다.",
+    "summaryLong": "한국 정부가 소형모듈원자로(SMR) 산업 활성화를 위한 특별법 개정안을 입법예고하였다. 개정안에는 세제지원 확대와 SMR 진흥특구 신설이 포함되어 있으며, 민간 기업의 SMR 개발·상용화를 지원하기 위한 정부 정책이 강화되고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "energyprosumer.info",
+    "url": "https://www.energyprosumer.info/5992",
+    "k": "smr 특별법 개정안 입법예고 세제지원 진흥특구 신설",
+    "ko": 1,
+    "id": "4670acaa"
+  },
+  {
+    "date": "2026-07-23",
+    "title": "정부, 차세대 SMR을 국가전략으로 추진…핵연료·실증·특구 전방위 지원",
+    "summary": "정부가 차세대 소형모듈원자로(SMR)를 국가 전략 사업으로 지정하고 핵연료부터 실증까지 전방위적으로 지원하고 있다.",
+    "summaryLong": "한국 정부가 차세대 소형모듈원자로(SMR)를 국가 전략 사업으로 확정하고, 핵연료 공급, 실증 사업, 진흥특구 조성 등 전 분야에 걸친 종합적 지원 체계를 구축하고 있다. SMR의 조기 상용화와 글로벌 경쟁력 확보를 목표로 하는 통합 정책 추진이 시작되었다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "view.asiae.co.kr",
+    "url": "https://view.asiae.co.kr/article/2026072215074117943",
+    "k": "정부 차세대 smr 국가전략으로 키운다 핵연료 실증 특구 전방위 지원",
+    "ko": 1,
+    "id": "c98235b6"
+  },
+  {
+    "date": "2026-07-23",
+    "title": "미국, 해저 원전·선박용 SMR 등 추진 결정",
+    "summary": "미국이 해저 설치형 원전과 선박용 소형모듈원자로(SMR) 등 혁신적 원전 형태 개발을 추진하기로 결정했다.",
+    "summaryLong": "미국 정부가 기존 육상 원전을 넘어 해저 설치형 원전과 선박용 소형모듈원자로(SMR), 기타 차세대 원전 형태 개발을 추진하기로 공식화했다. 이는 극한 환경 적응, 운송 용이성, 분산형 전력 공급 등 SMR의 장점을 극대화하여 에너지 안보 및 기후변화 대응을 강화하려는 정책 기조를 반영한다. 미국의 이러한 다각적 SMR 전략은 국제 SMR 시장 선점 움직임으로도 해석된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "theguru.co.kr",
+    "url": "https://theguru.co.kr/news/article.html?no=104783",
+    "k": "미국 바다 밑 원전 선박 smr 등 추진하기로",
+    "ko": 1,
+    "id": "247a8981"
+  },
+  {
     "date": "2026-07-22",
     "title": "오클로, 엑스에너지(X-energy) 미국 핵에너지-AI 정책 추진에 참여",
     "summary": "오클로와 엑스에너지가 미국의 핵에너지-AI 연계 정책 이니셔티브에 참여한다.",
@@ -458,6 +560,50 @@ window.SMR_NEWS = [
     "k": "삼성중공업 부유식 smr 본격 개발 미국 원전 설계사와 mou도",
     "ko": 1,
     "id": "3f829668"
+  },
+  {
+    "date": "2026-07-22",
+    "title": "엑스에너지(X-Energy), 6천만 달러 규모 AI 기반 프로메테우스 프로젝트 참여",
+    "summary": "엑스에너지가 6천만 달러 규모의 AI 기반 프로메테우스 프로젝트에 참여한다.",
+    "summaryLong": "고온가스로(HTGR) 개발사 엑스에너지(X-Energy)가 6천만 달러 규모의 AI 기반 프로메테우스 프로젝트(Prometheus project)에 참여한다. 이 프로젝트는 첨단 원자로 기술의 혁신적 응용을 목표로 하며, AI 기술과의 융합을 통해 차세대 SMR·첨단로 개발을 가속화하려는 노력의 일환이다. 엑스에너지의 참여는 미국의 첨단 원자로 생태계 확대를 의미한다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "pluang.com",
+    "url": "https://pluang.com/en/news-feed/x-energy-bergabung-dengan-proyek-prometheus-untuk-percepatan-reaktor-nuklir",
+    "k": "x energy joins 60m ai driven prometheus projec",
+    "id": "8d4ece44"
+  },
+  {
+    "date": "2026-07-22",
+    "title": "삼성중공업, 미국 S&L과 부유식 SMR 상용화 협력 MOU 체결",
+    "summary": "삼성중공업이 미국 S&L과 부유식 소형모듈원자로(SMR) 상용화를 위한 협력계약을 체결하였다.",
+    "summaryLong": "삼성중공업이 미국 기업 S&L과 부유식 소형모듈원자로(SMR)의 상용화 협력을 위한 계약을 체결하였다. 양사는 글로벌 해상 원전 시장 진출을 목표로 공동 개발·사업화를 추진할 예정이며, 해양 원자력 플랫폼 분야에서 국제적 입지를 강화하게 된다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "삼성중공업",
+    "region": "KR",
+    "source": "straightnews.co.kr",
+    "url": "https://www.straightnews.co.kr/news/articleView.html?idxno=307458",
+    "k": "삼성중공업 s l과 부유식 smr 상용화 협력 글로벌 해상원전 시장 공략",
+    "ko": 1,
+    "id": "d88eec51"
+  },
+  {
+    "date": "2026-07-22",
+    "title": "인도, 2033년까지 SMR 5기 구축 계획…한미일 'SMR 동맹' 기회",
+    "summary": "인도가 2033년까지 소형모듈원자로(SMR) 5기 구축 계획을 발표하며 한미일 SMR 동맹 협력의 기회를 제공할 것으로 예상된다.",
+    "summaryLong": "인도가 2033년까지 소형모듈원자로(SMR) 5기 구축을 목표로 하는 계획을 공식화했다. 이는 아시아태평양 지역 에너지 안보 강화 및 탄소중립 추진의 일환이며, 한국·미국·일본이 추진 중인 'SMR 동맹'에 인도가 참여할 수 있는 협력 기회를 열어주는 것으로 평가된다. 이를 통해 역내 SMR 생태계 확대와 기술 표준화, 공급망 구축이 촉진될 것으로 전망된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "JP",
+    "source": "theguru.co.kr",
+    "url": "https://theguru.co.kr/news/article.html?no=104758",
+    "k": "인도 2033년까지 smr 5기 구축 한미일 smr 동맹 기회",
+    "ko": 1,
+    "id": "a77308f5"
   },
   {
     "date": "2026-07-21",
@@ -21170,6 +21316,20 @@ window.SMR_NEWS = [
     "id": "0772be54"
   },
   {
+    "date": "2019-07-09",
+    "title": "TRISO 연료입자: 지구상 가장 견고한 원자력 연료",
+    "summary": "미국 에너지부(DOE)가 TRISO 연료입자의 특성과 안전성을 설명한다.",
+    "summaryLong": "미국 에너지부(DOE)가 TRISO(삼중-구조 등방성 연료입자, Tri-structural Isotropic) 연료입자 기술을 소개하고 있다. TRISO 연료는 고온가스로(HTGR)와 소형모듈원자로(SMR) 등 첨단 원자로의 핵심 연료 기술로, 극한의 온도 조건에서도 견고한 성능을 유지할 수 있다는 점을 강조한다. 이는 차세대 원자로 기술 실현의 중요한 기술 기반이다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "",
+    "region": "US",
+    "source": "energy.gov",
+    "url": "https://www.energy.gov/ne/articles/triso-particles-most-robust-nuclear-fuel-earth",
+    "k": "triso particles the most robust nuclear fuel on earth",
+    "id": "a3d68a48"
+  },
+  {
     "date": "2019-04-10",
     "title": "소형모듈원자로가 외부 전력을 상실하면 어떻게 할까?",
     "summary": "미국 에너지부(DOE)가 소형모듈원자로(SMR)의 전력 상실 시 대응 방안에 관한 안전 지침을 제시했다.",
@@ -21198,4 +21358,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-23 08:45 KST";
+window.SMR_UPDATED = "2026-07-23 15:17 KST";
