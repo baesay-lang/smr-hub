@@ -133,6 +133,68 @@ window.SMR_NEWS = [
   "id": "3ca5be23"
  },
  {
+  "date": "2026-07-23",
+  "title": "한국, 소형원자로 사업화 특수목적법인 설립·GPU 520장 추가 지원",
+  "summary": "한국이 소형모듈원자로(SMR) 사업화를 위한 특수목적법인을 설립하고 GPU 520장을 추가 지원하기로 결정했다.",
+  "summaryLong": "한국 정부가 소형모듈원자로(SMR)의 사업화를 가속화하기 위해 특수목적법인(SPV)을 설립하기로 결정했으며, 관련 기술 개발을 지원하기 위해 GPU 520장을 추가로 지원하기로 했다. 국립한국해양대학교가 주도하는 '해양 SMR' 시대 개막을 표방하며 산·학·연(산업·학계·연구) 전략 소통회가 개최되었다. 차세대 비경수형(non-light water) SMR의 상용화를 민·관 합작으로 추진하겠다는 정책 선언이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "hankookilbo.com",
+  "url": "https://www.hankookilbo.com/news/article/A2026072314450001470",
+  "k": "소형 원자로 사업화 특수목적법인 만들고 gpu 520장 추가 지원한다",
+  "ko": 1,
+  "id": "0a5fa410"
+ },
+ {
+  "date": "2026-07-23",
+  "title": "미국, 해저 원전·부유식 SMR 도입 가능성 검토",
+  "summary": "미국이 바다에 건설하는 해저 원전과 부유식 소형모듈원자로(SMR) 도입 가능성을 검토하고 있다.",
+  "summaryLong": "미국이 바다에 건설하는 해저 원전 및 부유식 소형모듈원자로(SMR) 도입의 타당성을 검토하고 있다. 이는 미국 정부 차원에서 해양 환경에서의 소형모듈원자로 활용 가능성을 평가하는 정책 검토 단계의 보도이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "US",
+  "source": "esgeconomy.com",
+  "url": "https://www.esgeconomy.com/news/articleView.html?idxno=16139",
+  "k": "바다에 원전 짓나 해저 원전 부유식 smr 도입 가능성 검토",
+  "ko": 1,
+  "op": 1,
+  "id": "9106ae10"
+ },
+ {
+  "date": "2026-07-23",
+  "title": "국립한국해양대, 해양 SMR 시대 개막 선포·산학연 전략 소통회 개최",
+  "summary": "국립한국해양대학교가 '해양 SMR 시대' 도래를 선포하고 산업·학계·연구기관 간 전략 소통회를 개최했다.",
+  "summaryLong": "국립한국해양대학교가 '해양 소형모듈원자로(SMR) 시대'의 도래를 선포하고 산업·학계·연구기관(산·학·연) 간 전략 소통회를 개최했다. 이는 한국의 해양 환경에 최적화된 소형모듈원자로 기술 개발과 상용화를 위한 산·학·연 협력 체계 구축을 목표로 하는 정책·연구 이니셔티브이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "fnnews.com",
+  "url": "https://www.fnnews.com/news/202607231345360823",
+  "k": "지금은 해양 smr 시대 국립한국해양대 산 학 연 전략 소통회",
+  "ko": 1,
+  "id": "0933685f"
+ },
+ {
+  "date": "2026-07-23",
+  "title": "차세대 비경수형 SMR 상용화, 민·관 합작으로 가속",
+  "summary": "정부와 민간이 협력하여 차세대 비경수형 소형모듈원자로(SMR) 상용화를 추진하고 있다.",
+  "summaryLong": "정부와 민간이 손을 잡고 차세대 비경수형 소형모듈원자로(SMR) 상용화 일정을 단축하려는 움직임이 있다. 민·관 합작 체계를 통해 기술 개발부터 상용화까지 전주기적 지원을 강화하는 것으로 보인다. 이는 SMR 시장 선점을 위한 국가적 전략의 일환으로, 규제 승인과 투자 연계를 통해 개발 속도를 높이려는 정책 추진 방향을 반영한다.",
+  "cat": "계약",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "news.nate.com",
+  "url": "https://news.nate.com/view/20260723n09632",
+  "k": "차세대 비경수형 smr 상용화 민 관 합작으로 더 빨리",
+  "ko": 1,
+  "op": 1,
+  "id": "90e56591"
+ },
+ {
   "date": "2026-07-22",
   "title": "오클로, 엑스에너지(X-energy) 미국 핵에너지-AI 정책 추진에 참여",
   "summary": "오클로와 엑스에너지가 미국의 핵에너지-AI 연계 정책 이니셔티브에 참여한다.",
@@ -644,6 +706,21 @@ window.SMR_NEWS = [
   "id": "3722f8c1"
  },
  {
+  "date": "2026-07-22",
+  "title": "삼성중공업, 미국 원전 설계사와 부유식 SMR 개발",
+  "summary": "삼성중공업이 미국의 원전 설계 기업과 협력하여 부유식 소형모듈원자로(SMR) 개발을 추진한다.",
+  "summaryLong": "삼성중공업이 미국의 원자력발전 설계 기업과 손을 잡고 부유식 소형모듈원자로(SMR) 플랫폼 개발에 나선다. 이 사업은 해상 부유식 구조의 SMR 표준 플랫폼을 개발하고 상용화하기 위한 전략적 합작이다. 삼성중공업의 조선 기술과 미국 설계사의 원자력 기술을 결합하여 글로벌 SMR 시장 선점을 목표로 하는 사업이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "Samsung",
+  "region": "US",
+  "source": "news.einfomax.co.kr",
+  "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4426205",
+  "k": "삼성 미국 원전 설계 기업과 부유식 smr 개발 나서",
+  "ko": 1,
+  "id": "c4252217"
+ },
+ {
   "date": "2026-07-21",
   "title": "SMR 시대 보안·정보 관리의 중요성",
   "summary": "소형모듈원자로(SMR) 등 차세대 핵발전이 국가 전략 자산으로 부상하면서 기술 보안과 정보 관리 체계 구축의 필요성을 제기한 의견 기사다.",
@@ -803,79 +880,6 @@ window.SMR_NEWS = [
   "url": "https://www.nucnet.org/news/rolls-royce-smr-signs-agreement-for-work-at-two-additional-reactor-sites-in-czech-republic-7-2-2026",
   "k": "rolls royce smr signs agreement for work at two additional reactor sites in czech republic",
   "id": "5ca35a5d"
- },
- {
-  "date": "2026-07-21",
-  "title": "오클로(Oklo), 엑스에너지(X-Energy), 트럼프 행정부의 원전 AI 전력 공급 가속화 계획에 참여",
-  "summary": "오클로와 엑스에너지가 트럼프 행정부의 AI용 원자력발전 가속화 정책에 참여한다.",
-  "summaryLong": "오클로(Oklo)와 엑스에너지(X-Energy)가 트럼프(Trump) 행정부가 추진 중인 AI 데이터센터용 원자력발전 인프라 구축 가속화 계획에 함께 참여하기로 했다. 이는 미국(US) 정부가 AI 산업의 전력 수요 급증에 대응하기 위해 첨단 소형모듈원자로(SMR) 및 다양한 원전 기술 개발사들을 국책 프로그램으로 지원하는 정책의 일환이다. 양사의 참여는 첨단 원전 기술이 미국의 에너지 안보 및 AI 산업 경쟁력 강화에 중요한 역할을 할 것으로 정부가 판단했음을 의미한다.",
-  "cat": "기술",
-  "type": "HTGR",
-  "dev": "Oklo, X-Energy",
-  "region": "US",
-  "source": "seekingalpha.com",
-  "url": "https://seekingalpha.com/news/4616269-oklo-x-energy-to-join-trump-administration-effort-to-speed-nuclear-reactors-for-ai-bloomberg",
-  "k": "oklo x energy to join trump administration effort to speed nuclear reactors for ai bloomberg",
-  "id": "d251c51c"
- },
- {
-  "date": "2026-07-21",
-  "title": "영국, 소형모듈원자로 프로젝트에 제이콥스(Jacobs) 선정",
-  "summary": "영국이 소형모듈원자로(SMR) 프로젝트의 핵심 서비스 제공자로 제이콥스를 선정했다.",
-  "summaryLong": "영국이 소형모듈원자로(SMR) 프로젝트를 위한 핵심 서비스 공급자로 엔지니어링 회사 제이콥스(Jacobs)를 선정했다. 뉴크넷(NucNet)이 보도한 것으로, 영국의 SMR 정책 추진 과정에서 설계, 안전, 인허가 지원 등 중요한 역할을 수행할 계약 파트너십이 확정된 사건이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "UK",
-  "source": "nucnet.org",
-  "url": "https://www.nucnet.org/news/uk-chooses-jacobs-to-provide-key-services-for-small-modular-reactor-projects-7-2-2026",
-  "k": "uk chooses jacobs to provide key services for small modular reactor projects",
-  "id": "e7933bb7"
- },
- {
-  "date": "2026-07-21",
-  "title": "테레스트리얼 에너지, 4세대 SMR 'IMSR' 상용화 가속... 2050년 2.3조 달러 시장 목표",
-  "summary": "테레스트리얼 에너지(Terrestrial Energy)가 용융염로(MSR) 기반의 혁신형 소형모듈원자로(IMSR) 상용화를 가속화하며 대규모 시장 진출을 노린다.",
-  "summaryLong": "캐나다 핵심 SMR 개발사 테레스트리얼 에너지(Terrestrial Energy)가 차세대 용융염 소형모듈원자로(IMSR, Integrated Molten Salt Reactor) 상용화에 박차를 가하고 있다. 회사는 2050년까지 전 세계 SMR 시장이 2조 3000억 달러(약 2.3조 달러) 규모로 성장할 것으로 전망하며 이 시장 선점을 목표로 하고 있다. IMSR은 4세대 원자로 기술로 분류되며, 고도의 안전성과 경제성을 표방하고 있다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "Terrestrial Energy",
-  "region": "CA",
-  "source": "datatooza.com",
-  "url": "https://www.datatooza.com/article/202607212217594565cd1e71475f_80",
-  "k": "테레스트리얼 에너지 4세대 smr imsr 상용화 박차 2050년 2조 3000억 달러 시장 조준",
-  "ko": 1,
-  "id": "0beaae97"
- },
- {
-  "date": "2026-07-21",
-  "title": "롤스로이스 SMR, 체코 내 건설 부지 확대 추진",
-  "summary": "영국 롤스로이스(Rolls-Royce)가 체코에서 소형모듈원자로(SMR) 건설 부지를 확대하기로 추진하고 있다.",
-  "summaryLong": "영국 방위·항공 우주 기업 롤스로이스(Rolls-Royce)가 체코(Czechia) 내에서 자사의 소형모듈원자로(SMR) 건설을 위한 부지를 확대하는 것을 추진 중이다. 이는 롤스로이스의 SMR 프로젝트가 체코에서 본격 진행되고 있음을 보여주는 사업 진전 뉴스이며, 유럽 원전 정책의 변화 속에서 중요한 프로젝트 동향이다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "Rolls-Royce",
-  "region": "UK",
-  "source": "2news.co.kr",
-  "url": "https://www.2news.co.kr/news/articleView.html?idxno=17086",
-  "k": "롤스로이스 smr 체코 내 소형모듈원자로 건설 부지 확대 추진",
-  "ko": 1,
-  "id": "192d3f40"
- },
- {
-  "date": "2026-07-21",
-  "title": "영국 SMR 건설 본격화, 제이콥스가 부지 인허가 주도",
-  "summary": "영국의 소형모듈원자로 건설이 본격화되며, 엔지니어링 기업 제이콥스(Jacobs)가 부지 인허가 절차를 주도하고 있다.",
-  "summaryLong": "영국에서 소형모듈원자로(SMR) 건설이 본격적으로 진행되고 있으며, 글로벌 엔지니어링 회사 제이콥스(Jacobs)가 부지 인허가 프로세스를 주도하고 있다. 이는 영국 정부의 SMR 정책 추진 속에서 규제 승인 단계가 가시화되고 있음을 나타내는 인허가 관련 뉴스이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "UK",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5171",
-  "k": "영국 smr 건설 본격화 제이콥스가 부지 인허가 이끈다",
-  "ko": 1,
-  "id": "2460f264"
  },
  {
   "date": "2026-07-21",
@@ -1427,5 +1431,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-23 15:38 KST";
-window.SMR_TOTAL = 1478;
+window.SMR_UPDATED = "2026-07-23 16:22 KST";
+window.SMR_TOTAL = 1483;
