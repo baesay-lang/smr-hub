@@ -493,6 +493,35 @@ window.SMR_NEWS = [
     "id": "c1e58f2d"
   },
   {
+    "date": "2026-07-23",
+    "title": "엑스에너지, 6천만 달러 프로메테우스 이니셔티브 참여로 첨단 원자력 배치 가속화",
+    "summary": "엑스에너지가 6천만 달러 규모의 프로메테우스 이니셔티브(Prometheus Initiative)에 참여하여 첨단 원자력 배치를 가속화한다.",
+    "summaryLong": "첨단로 개발사 엑스에너지(X-energy)가 6천만 달러(60M) 규모의 프로메테우스 이니셔티브(Prometheus Initiative)에 참여하게 되었다. 이 이니셔티브는 첨단 원자력 기술의 상용화·배치 속도를 높이기 위한 협력 프로그램으로, 엑스에너지의 고온가스로(HTGR) 개발과 시장 진출을 지원하는 의미를 가진다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "igrownews.com",
+    "url": "https://igrownews.com/x-energy-latest-news/",
+    "k": "x energy joins 60m prometheus initiative to speed up advanced nuclear deployment",
+    "id": "1af7be51"
+  },
+  {
+    "date": "2026-07-23",
+    "title": "인도, 2033년까지 소형모듈원자로 5기 독자 건설… 2047년 원전 100GW 목표",
+    "summary": "인도가 2033년까지 SMR 5기를 독자 개발·건설하고 2047년까지 원전 용량을 100GW로 확대하겠다는 정책 목표를 발표했다.",
+    "summaryLong": "글로벌이코노믹이 보도한 바에 따르면 인도 정부는 2033년까지 소형모듈원자로(SMR) 5기를 독자적으로 건설하겠다는 계획을 밝혔으며, 이는 2047년까지 전체 원전 발전 용량을 100GW로 확보하겠다는 장기 에너지 정책의 일환이다. 인도의 SMR 개발 정책과 건설 일정을 구체적으로 제시한 국책 사업 발표다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "JP",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/Global-Biz/2026/07/202607240734231022e7e8286d56_1",
+    "k": "2047년 원전 100gw 확보 2033년까지 소형모듈원자로 5기 독자 건설",
+    "ko": 1,
+    "id": "b2142a8a"
+  },
+  {
     "date": "2026-07-22",
     "title": "오클로, 엑스에너지(X-energy) 미국 핵에너지-AI 정책 추진에 참여",
     "summary": "오클로와 엑스에너지가 미국의 핵에너지-AI 연계 정책 이니셔티브에 참여한다.",
@@ -1046,6 +1075,21 @@ window.SMR_NEWS = [
     "k": "삼성 미 원전 설계사와 바다 위 smr 플랫폼 개발",
     "ko": 1,
     "id": "aa1953d9"
+  },
+  {
+    "date": "2026-07-22",
+    "title": "삼성중공업, 미국(US) S&L과 부유식 SMR 표준 플랫폼 개발",
+    "summary": "삼성중공업이 미국의 원전 설계사 S&L(Sesame & Lilies)과 부유식 소형모듈원자로(SMR) 표준 플랫폼 개발에 협력한다.",
+    "summaryLong": "삼성중공업이 미국의 원전 설계사 S&L과 손을 맞잡고 부유식 소형모듈원자로(SMR) 표준 플랫폼을 공동 개발한다. 이 협력을 통해 22조 원대로 추정되는 부유식 SMR 시장 선점을 노린다. 부유식 SMR은 해양에 설치 가능한 차세대 원전으로, 상용화 시점을 앞당기는 것이 목표이며, 삼성중공업의 해양 건설 기술과 S&L의 원전 설계 역량의 결합이 핵심이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Samsung",
+    "region": "KR",
+    "source": "greened.kr",
+    "url": "https://www.greened.kr/news/articleView.html?idxno=345678",
+    "k": "삼성 s l과 부유식 smr 표준 플랫폼 개발 22조 시장 선점 나서",
+    "ko": 1,
+    "id": "390dc50e"
   },
   {
     "date": "2026-07-21",
@@ -21800,4 +21844,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-24 08:07 KST";
+window.SMR_UPDATED = "2026-07-24 08:43 KST";
