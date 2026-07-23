@@ -391,6 +391,108 @@ window.SMR_NEWS = [
     "id": "ea3cd261"
   },
   {
+    "date": "2026-07-23",
+    "title": "오클로, Groves 시험로 운영 허가 취득",
+    "summary": "오클로가 미국 에너지부(DOE) 승인을 받아 Groves 시험로 운영을 시작할 수 있게 되었다.",
+    "summaryLong": "오클로(Oklo)가 미국 에너지부(DOE)로부터 Groves 시험로 운영 승인을 획득했다. 이는 오클로의 고급 원자로 개발 프로젝트가 규제 승인 단계를 진행하고 있음을 의미한다. Groves 시험로는 오클로의 차세대 소형 원자로 기술 검증을 위한 중요한 마일스톤이다. 이 승인으로 오클로는 실제 운영을 통해 설계 및 안전성 검증을 진행할 수 있게 된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "investing.com",
+    "url": "https://www.investing.com/news/company-news/oklo-receives-doe-authorization-to-start-groves-test-reactor-93CH-4810035",
+    "k": "oklo receives doe authorization to start groves test reactor",
+    "id": "ba7f57af"
+  },
+  {
+    "date": "2026-07-23",
+    "title": "엑스에너지, DOE 지원 Prometheus AI 원자력 설계 이니셔티브 참여",
+    "summary": "엑스에너지(X-Energy)가 DOE 지원 Prometheus AI 원자력 설계 이니셔티브에 참여하면서 주가가 9.2% 상승했다.",
+    "summaryLong": "엑스에너지(X-Energy)가 미국 에너지부(DOE) 지원을 받는 Prometheus AI 원자력 설계 이니셔티브에 참여함으로써 AI를 활용한 첨단 원자로 개발 프로젝트에 포함되었다. 이 소식에 따라 엑스에너지의 주가는 9.2% 상승했다. Prometheus 이니셔티브는 AI 기술을 활용해 고급 원자로 배포를 가속화하는 정부 주도 프로그램이다. 엑스에너지의 참여는 회사의 기술 개발이 국가 정책 수준의 지원을 받고 있음을 보여준다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/technology/ai/articles/x-energy-xe-9-2-110937772.html",
+    "k": "x energy xe is up 9 2 after joining doe backed prometheus ai nuclear design initiative",
+    "id": "29290c3f"
+  },
+  {
+    "date": "2026-07-23",
+    "title": "인도, 2033년까지 자체설계 소형모듈원자로 5기 개발 계획",
+    "summary": "인도 정부가 자체 설계한 소형모듈원자로 5기를 2033년까지 개발하겠다고 발표했다.",
+    "summaryLong": "인도 정부가 2033년까지 자체 설계·개발한 소형모듈원자로(SMR) 5기를 건설할 계획을 공식 발표했다. 이는 인도의 국책 원자력 에너지 정책의 일환으로, SMR 기술 자립화 및 국내 핵심 산업 육성을 목표로 하는 정부의 전략적 프로그램에 해당한다. 시간 일정(2033년)과 규모(5기)가 명시된 확정된 정부 정책 발표이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "JP",
+    "source": "m.economictimes.com",
+    "url": "https://m.economictimes.com/industry/energy/power/india-to-develop-5-indigenously-designed-small-modular-reactors-by-2033-government/articleshow/132585196.cms",
+    "k": "india to develop 5 indigenously designed small modular reactors by 2033 government",
+    "id": "083446e8"
+  },
+  {
+    "date": "2026-07-23",
+    "title": "루마니아, 뉴스케일(NuScale) SMR 안 유지하며 재검토 보류",
+    "summary": "루마니아가 소형모듈원자로(SMR) 도입 관련 재검토를 보류하고 뉴스케일(NuScale) 방식을 유지하기로 결정했다.",
+    "summaryLong": "루마니아가 기존에 추진하던 뉴스케일(NuScale) 소형모듈원자로(SMR) 도입 사업의 재검토를 중단하고 현재 계획을 유지하기로 최종 결정했다. 루마니아는 에너지 안보 강화 및 탈탄소화를 위해 뉴스케일 기술 도입을 계속 추진할 계획이다. 이 결정은 유럽 내 SMR 도입 추진 국가들 중 핵심 사례로, 뉴스케일의 기술 신뢰도 확보를 의미한다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "EU",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5225",
+    "k": "루마니아 smr 재검토 제동 누스케일안 유지",
+    "ko": 1,
+    "id": "67091344"
+  },
+  {
+    "date": "2026-07-23",
+    "title": "현대중공업(HD)과 삼성중공업(Samsung), SMR 생태계·플랫폼 개발 추진",
+    "summary": "한국 조선기업들이 소형모듈원자로(SMR) 산업 진입으로 현대중공업은 생태계, 삼성중공업은 플랫폼 개발에 나선다.",
+    "summaryLong": "한국 대형 조선기업인 현대중공업(HD)과 삼성중공업이 SMR 시장 진출을 위해 각각 전략을 달리하고 있다. 현대중공업은 SMR 관련 공급망 생태계 구축에, 삼성중공업은 부유식 또는 표준화된 플랫폼 개발에 집중하고 있다. 한국 조선산업이 선박 수주 감소에 대응하기 위해 SMR 등 신규 사업으로 진출하는 전략을 펼치고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "HD현대, Samsung",
+    "region": "KR",
+    "source": "ebn.co.kr",
+    "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1717491",
+    "k": "smr 올라탄 k조선 hd현대는 생태계 삼성은 플랫폼",
+    "ko": 1,
+    "id": "e6e7d71a"
+  },
+  {
+    "date": "2026-07-23",
+    "title": "SMR 표준설계 2028년 목표, 상용화 시기는 미정",
+    "summary": "한국이 소형모듈원자로(SMR) 표준설계 인가를 2028년에 달성하도록 일정을 잡았으나 상용화 시기는 별도 결정 예정이다.",
+    "summaryLong": "한국 정부가 SMR 관련 정책 추진 중 표준설계 인가를 2028년으로 목표를 설정했으며, 이에 앞서 세액공제 등 세제 지원 정책은 선행 추진 중이다. 다만 본격적인 상용화 시기는 표준설계 인가 이후 별도로 결정될 예정이다. 정부의 SMR 육성 정책이 인허가 일정과 산업 육성 정책이 불균형을 보이고 있다.",
+    "cat": "인허가",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "newspim.com",
+    "url": "https://www.newspim.com/news/view/20260723001213",
+    "k": "표준설계 2028년 상용화는 미정 smr 세액공제만 앞서간다",
+    "ko": 1,
+    "id": "3a01f569"
+  },
+  {
+    "date": "2026-07-23",
+    "title": "정부, 차세대 SMR 육성 종합대책 마련",
+    "summary": "한국 정부가 소형모듈원자로(SMR) 수요·공급망·제도 전 영역을 아우르는 육성안을 마련해 추진하기로 발표했다.",
+    "summaryLong": "한국 정부가 소형모듈원자로(SMR) 산업 육성을 위한 종합대책을 마련하고 있으며, 수요 창출, 공급망 구축, 제도 개선 등 전방위적 지원 방안을 포함하고 있다. 정부는 국내 SMR 개발사와 조선·부품 기업의 생태계 조성을 목표로 하고 있다. 이는 한국이 글로벌 SMR 시장에서 경쟁력 확보를 위한 종합 정책 추진을 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/Industry/2026/07/20260723203748221924debea800_1",
+    "k": "정부 차세대 smr 육성안 마련 수요 공급망 제도 전방위 지원",
+    "ko": 1,
+    "id": "c1e58f2d"
+  },
+  {
     "date": "2026-07-22",
     "title": "오클로, 엑스에너지(X-energy) 미국 핵에너지-AI 정책 추진에 참여",
     "summary": "오클로와 엑스에너지가 미국의 핵에너지-AI 연계 정책 이니셔티브에 참여한다.",
@@ -929,6 +1031,21 @@ window.SMR_NEWS = [
     "url": "https://x-energy.com/news/x-energy-joins-project-prometheus-for-ai-accelerated-advanced-nuclear-deployment/",
     "k": "x energy joins project prometheus for ai accelerated advanced nuclear deployment x energy",
     "id": "27640ed5"
+  },
+  {
+    "date": "2026-07-22",
+    "title": "삼성중공업, 미국 원전 설계사와 '부유식 SMR' 플랫폼 개발 협력",
+    "summary": "삼성중공업이 미국의 원전 설계사와 부유식 소형모듈원자로(SMR) 플랫폼 개발을 추진 중이다.",
+    "summaryLong": "삼성중공업이 미국의 원전 엔지니어링 설계사(S&L로 추정)와 협력하여 부유식 소형모듈원자로(SMR) 플랫폼 개발 사업을 진행하고 있다. 이는 해양 환경에 적합한 부유식 SMR의 표준화된 설계를 목표로 하고 있으며, 향후 국제 시장 진출 및 수출을 염두에 둔 전략이다. 삼성중공업의 조선 기술과 미국 원전 설계 기술의 결합을 통해 차별화된 경쟁력 확보를 노린다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Samsung",
+    "region": "KR",
+    "source": "biz.sbs.co.kr",
+    "url": "https://biz.sbs.co.kr/article/20000323896",
+    "k": "삼성 미 원전 설계사와 바다 위 smr 플랫폼 개발",
+    "ko": 1,
+    "id": "aa1953d9"
   },
   {
     "date": "2026-07-21",
@@ -21683,4 +21800,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-24 07:34 KST";
+window.SMR_UPDATED = "2026-07-24 08:07 KST";
