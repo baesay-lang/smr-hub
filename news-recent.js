@@ -103,6 +103,36 @@ window.SMR_NEWS = [
   "id": "247a8981"
  },
  {
+  "date": "2026-07-23",
+  "title": "차세대 비경수형 SMR 상용화, 민·관 합작으로 가속화",
+  "summary": "정부와 민간의 협력을 통해 차세대 비경수형(non-LWR) SMR 상용화를 가속화하려는 정책 추진이 보도되었다.",
+  "summaryLong": "머니투데이 보도에 따르면 차세대 비경수형 SMR의 상용화를 민간과 정부의 합작으로 더욱 빠르게 추진하려는 움직임이 있다. 이는 한국 정부의 첨단 원자로 개발 정책 추진을 시사하며, 고속로, 고온가스로, 용융염로 등 차세대 노형 상용화에 대한 국책 전략을 나타낸다.",
+  "cat": "계약",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "mt.co.kr",
+  "url": "https://www.mt.co.kr/tech/2026/07/23/2026072215052771435",
+  "k": "차세대 비경수형 smr 상용화 민 관 합작으로 더 빨리 머니투데이",
+  "ko": 1,
+  "id": "4ecb7359"
+ },
+ {
+  "date": "2026-07-23",
+  "title": "SMR 안전성 검증 미흡, 전문가 '검증되지 않은 실험로' 지적",
+  "summary": "SMR의 안전성에 대해 전문가들이 검증 부족을 지적하며 규제 수준의 문제를 제기했다.",
+  "summaryLong": "뉴스사천 보도에 따르면 SMR의 안전성에 대해 전문가들이 '검증되지 않은 실험로'라고 평가하며 우려를 표했다. 이는 SMR 설계인증·규제 승인 과정에서의 안전성 검증 수준에 대한 비판적 평가로, 한국의 SMR 규제 정책과 인허가 기준에 대한 논의를 반영한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "news4000.com",
+  "url": "http://www.news4000.com/news/articleView.html?idxno=57822",
+  "k": "smr 과연 안전한가 전문가 검증 안 된 실험로",
+  "ko": 1,
+  "id": "3ca5be23"
+ },
+ {
   "date": "2026-07-22",
   "title": "오클로, 엑스에너지(X-energy) 미국 핵에너지-AI 정책 추진에 참여",
   "summary": "오클로와 엑스에너지가 미국의 핵에너지-AI 연계 정책 이니셔티브에 참여한다.",
@@ -599,6 +629,21 @@ window.SMR_NEWS = [
   "id": "a77308f5"
  },
  {
+  "date": "2026-07-22",
+  "title": "삼성중공업, 미국 S&L과 부유식 SMR 플랫폼 개발 협력",
+  "summary": "삼성중공업이 미국의 S&L(사보스&리턴)과 손을 잡고 범용 부유식 SMR 플랫폼을 개발한다.",
+  "summaryLong": "삼성중공업이 미국 원전 설계사 S&L(사보스&리턴)과 파트너십을 체결하여 범용 부유식 소형모듈원자로(SMR) 플랫폼을 개발하기로 했다. 이 협력은 해상·해외 시장 진출을 겨냥한 전략으로, 표준화된 부유식 SMR 설계를 통해 글로벌 경쟁력을 확보하려는 움직임이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "삼성중공업",
+  "region": "US",
+  "source": "biz.newdaily.co.kr",
+  "url": "https://biz.newdaily.co.kr/site/data/html/2026/07/22/2026072200293.html",
+  "k": "삼성중공업 s l과 손잡고 범용 부유식 smr 플랫폼 개발",
+  "ko": 1,
+  "id": "3722f8c1"
+ },
+ {
   "date": "2026-07-21",
   "title": "SMR 시대 보안·정보 관리의 중요성",
   "summary": "소형모듈원자로(SMR) 등 차세대 핵발전이 국가 전략 자산으로 부상하면서 기술 보안과 정보 관리 체계 구축의 필요성을 제기한 의견 기사다.",
@@ -860,21 +905,6 @@ window.SMR_NEWS = [
   "url": "https://www.ans.org/news/article-7818/nrc-approves-terrapower-construction-permit/",
   "k": "nrc approves terrapower construction permit",
   "id": "ca0f28bd"
- },
- {
-  "date": "2026-07-21",
-  "title": "롤스로이스 SMR, 체코 2곳 추가 건설 추진",
-  "summary": "영국의 롤스로이스(Rolls-Royce)가 체코에 소형모듈원자로 2곳의 추가 건설을 추진하고 있다.",
-  "summaryLong": "영국의 롤스로이스(Rolls-Royce)가 체코에 소형모듈원자로(SMR) 2곳의 추가 건설을 추진하고 있다. 이는 유럽 내 SMR 보급 확대의 일환으로, 체코의 에너지 수급 전략의 일부이다. 한편 이러한 유럽 내 SMR 사업 전개가 한국의 원전 수출에 미치는 영향은 제한적일 것으로 분석되고 있다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "롤스로이스",
-  "region": "UK",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5181",
-  "k": "롤스로이스 smr 체코 2곳 추가 건설 추진 한국 원전수출 영향은 제한적",
-  "ko": 1,
-  "id": "0c3bfbc3"
  },
  {
   "date": "2026-07-20",
@@ -1397,5 +1427,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-23 15:17 KST";
-window.SMR_TOTAL = 1475;
+window.SMR_UPDATED = "2026-07-23 15:38 KST";
+window.SMR_TOTAL = 1478;
