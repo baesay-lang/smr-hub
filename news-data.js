@@ -171,6 +171,69 @@ window.SMR_NEWS = [
     "id": "1b28f9f1"
   },
   {
+    "date": "2026-07-24",
+    "title": "현대엔지니어링, 원자력·SMR 전문가 초청 세미나 개최",
+    "summary": "현대엔지니어링이 원자력 및 SMR 분야 전문가를 초청하여 세미나를 진행.",
+    "summaryLong": "현대엔지니어링이 원자력 및 소형모듈원자로(SMR) 분야 전문가를 초청하여 세미나를 개최했다. 국내 건설사의 SMR 관련 사업 강화 차원의 행사로, 업계 최신 정보 수집 및 전문성 강화를 위한 공식 활동이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대엔지니어링",
+    "region": "KR",
+    "source": "newsis.com",
+    "url": "https://www.newsis.com/view/NISX20260724_0003721980",
+    "k": "현대엔지니어링 원자력 smr 전문가 초청 세미나 개최",
+    "ko": 1,
+    "id": "3a1cf2b6"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "현대ENG, SMR 기술기업 전략적 투자 적극 검토",
+    "summary": "현대엔지니어링이 소형모듈원자로(SMR) 기술기업에 대한 전략적 투자를 적극 검토 중이다.",
+    "summaryLong": "현대엔지니어링이 소형모듈원자로(SMR) 관련 기술기업에 대한 전략적 투자를 적극적으로 검토하고 있다. 이는 회사가 SMR 산업 확대 및 기술 확보를 위해 투자를 고려 중임을 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대ENG",
+    "region": "KR",
+    "source": "thetracker.co.kr",
+    "url": "https://thetracker.co.kr/View.aspx?No=4160731",
+    "k": "현대eng smr 기술기업 전략적 투자 적극 검토",
+    "ko": 1,
+    "op": 1,
+    "id": "e8253983"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "한국(K) 조선, SMR·해상 데이터로 '초격차' 형성…중국 추격 따돌린다",
+    "summary": "한국 조선 산업이 소형모듈원자로(SMR)·해상 데이터 기술로 경쟁력을 확보하고 중국을 추격으로부터 앞서고 있다.",
+    "summaryLong": "한국 조선 산업이 소형모듈원자로(SMR) 및 해상 관련 데이터 기술을 활용하여 국제 경쟁에서 차별화된 경쟁력을 형성하고 있다. 이를 통해 중국의 추격을 효과적으로 견제하고 글로벌 시장에서의 리더십을 유지하는 전략을 펼치고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "mediapen.com",
+    "url": "https://www.mediapen.com/news/view/1112014",
+    "k": "k 조선 smr 해상 데이터로 초격차 중국 추격 따돌린다",
+    "ko": 1,
+    "op": 1,
+    "id": "0f620276"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "두산·HD현대(현대중공업) vs 미쓰비시, 막 오른 SMR '한일 주도권 싸움'",
+    "summary": "두산, 현대중공업과 미쓰비시(Mitsubishi) 간 소형모듈원자로(SMR) 시장 주도권 경쟁이 본격화하고 있다.",
+    "summaryLong": "두산과 현대중공업 등 한국 기업들과 일본의 미쓰비시(Mitsubishi) 간 소형모듈원자로(SMR) 시장에서의 주도권 싸움이 격화하고 있다. 글로벌 SMR 시장 성장에 따라 한국과 일본 기업들이 기술·사업 우위를 놓고 경쟁을 펼치고 있는 상황을 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "newsfreezone.co.kr",
+    "url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=700852",
+    "k": "두산 hd현대 vs 미쓰비시 막 오른 smr 한일 주도권 싸움",
+    "ko": 1,
+    "op": 1,
+    "id": "13521456"
+  },
+  {
     "date": "2026-07-23",
     "title": "일본의 미국 투자 소형원전 사업, 사고 시 배상책임 논란",
     "summary": "한·미·일 관세 협상 후속으로 추진되는 SMR 사업에서 원전 사고 배상 책임 문제가 대두되고 있다.",
@@ -1283,6 +1346,21 @@ window.SMR_NEWS = [
     "k": "삼성 s l과 부유식 smr 표준 플랫폼 개발 22조 시장 선점 나서",
     "ko": 1,
     "id": "390dc50e"
+  },
+  {
+    "date": "2026-07-22",
+    "title": "오클로·엑스에너지, 연방정부 핵에너지 역할 추진설로 상승",
+    "summary": "오클로(Oklo)와 엑스에너지(X-Energy)가 연방정부의 핵에너지 역할 관련 보도에 따라 주가가 상승했다.",
+    "summaryLong": "야후 파이낸스(Yahoo Finance) 보도에 따르면 오클로(Oklo)와 엑스에너지(X-Energy)가 연방정부의 핵에너지 정책 역할 관련 뉴스에 반응하여 주가가 상승했다. 이는 미국 연방정부의 첨단로 개발 정책과 관련된 소식으로, 두 SMR 개발사의 정책 환경 변화를 시사한다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "Oklo, X-Energy",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/oklo-x-energy-rise-reported-124440786.html",
+    "k": "oklo and x energy rise on reported federal nuclear role",
+    "op": 1,
+    "id": "9d7dfff2"
   },
   {
     "date": "2026-07-21",
@@ -22037,4 +22115,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-24 15:36 KST";
+window.SMR_UPDATED = "2026-07-24 16:21 KST";

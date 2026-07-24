@@ -164,6 +164,69 @@ window.SMR_NEWS = [
   "id": "1b28f9f1"
  },
  {
+  "date": "2026-07-24",
+  "title": "현대엔지니어링, 원자력·SMR 전문가 초청 세미나 개최",
+  "summary": "현대엔지니어링이 원자력 및 SMR 분야 전문가를 초청하여 세미나를 진행.",
+  "summaryLong": "현대엔지니어링이 원자력 및 소형모듈원자로(SMR) 분야 전문가를 초청하여 세미나를 개최했다. 국내 건설사의 SMR 관련 사업 강화 차원의 행사로, 업계 최신 정보 수집 및 전문성 강화를 위한 공식 활동이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "현대엔지니어링",
+  "region": "KR",
+  "source": "newsis.com",
+  "url": "https://www.newsis.com/view/NISX20260724_0003721980",
+  "k": "현대엔지니어링 원자력 smr 전문가 초청 세미나 개최",
+  "ko": 1,
+  "id": "3a1cf2b6"
+ },
+ {
+  "date": "2026-07-24",
+  "title": "현대ENG, SMR 기술기업 전략적 투자 적극 검토",
+  "summary": "현대엔지니어링이 소형모듈원자로(SMR) 기술기업에 대한 전략적 투자를 적극 검토 중이다.",
+  "summaryLong": "현대엔지니어링이 소형모듈원자로(SMR) 관련 기술기업에 대한 전략적 투자를 적극적으로 검토하고 있다. 이는 회사가 SMR 산업 확대 및 기술 확보를 위해 투자를 고려 중임을 의미한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "현대ENG",
+  "region": "KR",
+  "source": "thetracker.co.kr",
+  "url": "https://thetracker.co.kr/View.aspx?No=4160731",
+  "k": "현대eng smr 기술기업 전략적 투자 적극 검토",
+  "ko": 1,
+  "op": 1,
+  "id": "e8253983"
+ },
+ {
+  "date": "2026-07-24",
+  "title": "한국(K) 조선, SMR·해상 데이터로 '초격차' 형성…중국 추격 따돌린다",
+  "summary": "한국 조선 산업이 소형모듈원자로(SMR)·해상 데이터 기술로 경쟁력을 확보하고 중국을 추격으로부터 앞서고 있다.",
+  "summaryLong": "한국 조선 산업이 소형모듈원자로(SMR) 및 해상 관련 데이터 기술을 활용하여 국제 경쟁에서 차별화된 경쟁력을 형성하고 있다. 이를 통해 중국의 추격을 효과적으로 견제하고 글로벌 시장에서의 리더십을 유지하는 전략을 펼치고 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "mediapen.com",
+  "url": "https://www.mediapen.com/news/view/1112014",
+  "k": "k 조선 smr 해상 데이터로 초격차 중국 추격 따돌린다",
+  "ko": 1,
+  "op": 1,
+  "id": "0f620276"
+ },
+ {
+  "date": "2026-07-24",
+  "title": "두산·HD현대(현대중공업) vs 미쓰비시, 막 오른 SMR '한일 주도권 싸움'",
+  "summary": "두산, 현대중공업과 미쓰비시(Mitsubishi) 간 소형모듈원자로(SMR) 시장 주도권 경쟁이 본격화하고 있다.",
+  "summaryLong": "두산과 현대중공업 등 한국 기업들과 일본의 미쓰비시(Mitsubishi) 간 소형모듈원자로(SMR) 시장에서의 주도권 싸움이 격화하고 있다. 글로벌 SMR 시장 성장에 따라 한국과 일본 기업들이 기술·사업 우위를 놓고 경쟁을 펼치고 있는 상황을 보여준다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "newsfreezone.co.kr",
+  "url": "https://www.newsfreezone.co.kr/news/articleView.html?idxno=700852",
+  "k": "두산 hd현대 vs 미쓰비시 막 오른 smr 한일 주도권 싸움",
+  "ko": 1,
+  "op": 1,
+  "id": "13521456"
+ },
+ {
   "date": "2026-07-23",
   "title": "일본의 미국 투자 소형원전 사업, 사고 시 배상책임 논란",
   "summary": "한·미·일 관세 협상 후속으로 추진되는 SMR 사업에서 원전 사고 배상 책임 문제가 대두되고 있다.",
@@ -828,34 +891,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-22",
-  "title": "개발사·정부 관계자, 미국 핵규제위원회(NRC)와 첨단로 전망 논의",
-  "summary": "미국 에너지부(DOE), 캐나다 핵안전위원회(CNSC), 테라파워, 래디언트, 웨스팅하우스, 엑스에너지 등이 미국 핵규제위원회(NRC)에 모여 각사의 첨단원자로 프로젝트 현황을 공유했다.",
-  "summaryLong": "미국 핵규제위원회(NRC)는 '첨단로 현황과 향방(Advanced Reactor Landscape: Current Status and Moving Forward)' 공개 세션을 개최하여 정부기관과 민간 개발사들이 진행 중인 고급 원자로 이니셔티브를 논의했다. 참석자는 미국 에너지부(DOE), 캐나다 핵안전위원회(CNSC), 그리고 테라파워, 래디언트, 웨스팅하우스, 엑스에너지 등 주요 첨단로 개발사들이었다. 이 회의는 첨단로 개발 생태계의 현주소를 점검하고 규제 방향을 조율하는 자리로서 산업의 인허가·기술 발전 과정을 반영한다.",
-  "cat": "기술",
-  "type": "HTGR",
-  "dev": "TerraPower, Radiant, Westinghouse, X-energy",
-  "region": "US",
-  "source": "ANS Newswire",
-  "url": "https://www.ans.org/news/2026-07-22/article-8237/developers-officials-talk-advanced-reactor-outlook-with-nrc/",
-  "k": "developers officials talk advanced reactor outlook with nrc",
-  "id": "2d82a219"
- },
- {
-  "date": "2026-07-22",
-  "title": "엑스에너지, 프로메테우스 프로젝트 참여—6,000만 달러 미국 에너지부 투자",
-  "summary": "엑스에너지가 아이다호국립연구소(INL), 엔비디아(NVIDIA), 아마존웹서비스(AWS)와 인공지능 기반 첨단원자로 배포 가속화 3년 프로젝트에 참여하며 미국 에너지부(DOE)의 제네시스 미션(Genesis Mission) 하에 6,000만 달러를 지원받는다.",
-  "summaryLong": "엑스에너지는 아이다호국립연구소(INL), 엔비디아(NVIDIA), 아마존웹서비스(AWS)와 협력하여 인공지능 기반의 첨단원자로 배포 가속화 프로젝트인 '프로메테우스(Project Prometheus)'에 참여한다. 미국 에너지부(DOE)의 제네시스 미션(Genesis Mission) 산하에서 3년간 진행되는 이 이니셔티브는 6,000만 달러의 정부 투자를 받으며, 업계 일정 단축과 원가 절감을 장기 목표로 한다. 이는 첨단로 상용화 촉진을 위한 정부 정책의 구체적 실행 사례로 평가된다.",
-  "cat": "기술",
-  "type": "HTGR",
-  "dev": "X-energy",
-  "region": "US",
-  "source": "X-Energy, Inc. News Releases",
-  "url": "https://investors.x-energy.com/news-releases/news-release-details/x-energy-joins-project-prometheus-ai-accelerated-advanced",
-  "k": "x energy joins project prometheus for ai accelerated advanced nuclear deployment",
-  "id": "7cb7b3c0"
- },
- {
-  "date": "2026-07-22",
   "title": "체코 ČEZ와 롤스로이스 SMR, 소형모듈원자로 파트너십 확대",
   "summary": "체코 전력회사 ČEZ와 영국 롤스로이스 SMR(Rolls-Royce SMR)이 체코 소형모듈원자로(SMR) 사업 협력을 확대한다.",
   "summaryLong": "체코 주요 전력기업 ČEZ와 영국 롤스로이스 SMR(Rolls-Royce SMR)은 체코 내 소형모듈원자로(SMR) 파트너십을 확대하는 협약을 체결했다. 양사의 확대된 협력은 유럽에서의 소형모듈원자로 배치 추진 및 현지화 전략을 반영하며, 롤스로이스 SMR의 프로토타입 개발과 향후 상용화 계획의 진전을 의미한다.",
@@ -867,20 +902,6 @@ window.SMR_NEWS = [
   "url": "https://ceenergynews.com/nuclear/cez-and-rolls-royce-smr-expand-czech-small-modular-reactor-partnership/",
   "k": "ez and rolls royce smr expand czech small modular reactor partnership",
   "id": "d80419d8"
- },
- {
-  "date": "2026-07-22",
-  "title": "삼성중공업-사전트&런디(Sargent & Lundy) 부유식 SMR 플랫폼 개발 양해각서 체결",
-  "summary": "삼성중공업이 미국 엔지니어링 업체 사전트&런디(Sargent & Lundy)와 표준화된 부유식 소형모듈원전 플랫폼 개발을 위한 양해각서를 체결했다.",
-  "summaryLong": "한국의 삼성중공업과 미국(US) 기반 엔지니어링 회사 사전트&런디(Sargent & Lundy)가 표준화된 부유식 소형모듈원전(SMR) 플랫폼 개발을 위한 양해각서(MOU)를 체결했다고 발표했다. 이는 SMR의 해상 배치 기술 개발을 목표로 하며, 한미 협력을 통한 차세대 원자로 기술 추진의 중요한 계약 사례이다.",
-  "cat": "계약",
-  "type": "General",
-  "dev": "삼성중공업",
-  "region": "KR",
-  "source": "World Nuclear News",
-  "url": "https://www.world-nuclear-news.org/articles/korean-us-partnership-for-floating-smr-platform",
-  "k": "korean us partnership for floating smr platform",
-  "id": "739b8adf"
  },
  {
   "date": "2026-07-22",
@@ -1445,5 +1466,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-24 15:36 KST";
-window.SMR_TOTAL = 1521;
+window.SMR_UPDATED = "2026-07-24 16:21 KST";
+window.SMR_TOTAL = 1526;
