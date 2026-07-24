@@ -355,6 +355,64 @@ window.SMR_NEWS = [
   "id": "a69bf053"
  },
  {
+  "date": "2026-07-24",
+  "title": "BWXT, 카이로스 파워, 와이오밍주 원자력산업 미래에 기대",
+  "summary": "BWXT와 카이로스 파워(Kairos Power)가 와이오밍주의 원자력산업 발전에 대한 기대감을 표했다.",
+  "summaryLong": "BWXT와 첨단 소형모듈원자로(SMR) 개발사 카이로스 파워(Kairos Power)가 와이오밍주에서의 원자력산업 미래에 대한 기대감을 표현했다. 두 기업 모두 지역 내 원자력 프로젝트 발전 가능성에 긍정적인 입장을 보이고 있다.",
+  "cat": "기술",
+  "type": "FHR",
+  "dev": "BWXT, Kairos",
+  "region": "US",
+  "source": "gillettenewsrecord.com",
+  "url": "https://www.gillettenewsrecord.com/news/local/article_e480b468-1c5d-447e-8ea3-98b484593fc9.html",
+  "k": "bwxt kairos power excited about future of nuclear industry in wyoming",
+  "id": "58c9c3e0"
+ },
+ {
+  "date": "2026-07-24",
+  "title": "미국, 오클로의 핵연료 장전 승인 - 첫 임계 추진",
+  "summary": "미국이 오클로(Oklo)의 핵연료 장전을 허용하여 첫 임계(criticality) 달성을 추진할 수 있게 됐다.",
+  "summaryLong": "미국 정부가 마이크로 원자로 개발사 오클로(Oklo)의 핵연료 장전을 승인함으로써, 회사가 첫 임계(criticality) 달성을 향해 나아갈 수 있게 되었다. 이는 오클로의 마이크로 원자로 프로젝트에서 중요한 운영 단계 진입을 의미한다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "interestingengineering.com",
+  "url": "https://interestingengineering.com/energy/us-oklo-test-reactor-nuclear-fuel",
+  "k": "us allows oklo to load nuclear fuel proceed toward first criticality",
+  "id": "0be5a478"
+ },
+ {
+  "date": "2026-07-24",
+  "title": "현대엔지니어링, 북미 원자력·SMR 산업 동향 세미나 개최",
+  "summary": "현대엔지니어링이 북미 원자력·SMR 전문가를 초청해 산업 동향과 규제를 공유하는 사내 세미나 개최.",
+  "summaryLong": "현대엔지니어링이 북미 원자력·소형모듈원자로(SMR) 전문가를 초청하여 산업 동향과 규제 정보를 공유하는 사내 세미나를 개최했다. 이는 북미 시장 공략과 SMR·원자력 분야의 기술 경쟁력 강화를 위한 역량 개발 활동이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "현대엔지니어링",
+  "region": "KR",
+  "source": "donga.com",
+  "url": "https://www.donga.com/news/Economy/article/all/20260724/134362250/1",
+  "k": "현대엔지니어링 북미 원자력 smr 산업 동향 사내 세미나 개최",
+  "ko": 1,
+  "id": "04410cf2"
+ },
+ {
+  "date": "2026-07-24",
+  "title": "정부, 차세대 SMR 상용화 속도 추진",
+  "summary": "정부가 재생에너지만으로는 한계가 있다며 차세대 소형모듈원자로(SMR) 상용화를 가속화하는 정책을 추진하고 있다.",
+  "summaryLong": "한국 정부가 재생에너지만으로는 에너지 수급에 충분하지 않다는 판단 하에 차세대 소형모듈원자로(SMR) 상용화 일정을 앞당기는 정책을 추진하고 있다. 이는 에너지 안보와 탄소중립 목표 달성을 위해 SMR 기술 개발 및 상용화를 국책사업으로 지원하는 정부의 에너지 정책 방향을 반영한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "esgeconomy.com",
+  "url": "https://www.esgeconomy.com/news/articleView.html?idxno=16159",
+  "k": "재생에너지만으론 쉽지 않아 정부 차세대 smr 상용화도 속도",
+  "ko": 1,
+  "id": "9d0b3e22"
+ },
+ {
   "date": "2026-07-23",
   "title": "일본의 미국 투자 소형원전 사업, 사고 시 배상책임 논란",
   "summary": "한·미·일 관세 협상 후속으로 추진되는 SMR 사업에서 원전 사고 배상 책임 문제가 대두되고 있다.",
@@ -825,65 +883,6 @@ window.SMR_NEWS = [
   "id": "3a01f569"
  },
  {
-  "date": "2026-07-23",
-  "title": "정부, 차세대 SMR 육성 종합대책 마련",
-  "summary": "한국 정부가 소형모듈원자로(SMR) 수요·공급망·제도 전 영역을 아우르는 육성안을 마련해 추진하기로 발표했다.",
-  "summaryLong": "한국 정부가 소형모듈원자로(SMR) 산업 육성을 위한 종합대책을 마련하고 있으며, 수요 창출, 공급망 구축, 제도 개선 등 전방위적 지원 방안을 포함하고 있다. 정부는 국내 SMR 개발사와 조선·부품 기업의 생태계 조성을 목표로 하고 있다. 이는 한국이 글로벌 SMR 시장에서 경쟁력 확보를 위한 종합 정책 추진을 의미한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "g-enews.com",
-  "url": "https://www.g-enews.com/article/Industry/2026/07/20260723203748221924debea800_1",
-  "k": "정부 차세대 smr 육성안 마련 수요 공급망 제도 전방위 지원",
-  "ko": 1,
-  "id": "c1e58f2d"
- },
- {
-  "date": "2026-07-23",
-  "title": "엑스에너지, 6천만 달러 프로메테우스 이니셔티브 참여로 첨단 원자력 배치 가속화",
-  "summary": "엑스에너지가 6천만 달러 규모의 프로메테우스 이니셔티브(Prometheus Initiative)에 참여하여 첨단 원자력 배치를 가속화한다.",
-  "summaryLong": "첨단로 개발사 엑스에너지(X-energy)가 6천만 달러(60M) 규모의 프로메테우스 이니셔티브(Prometheus Initiative)에 참여하게 되었다. 이 이니셔티브는 첨단 원자력 기술의 상용화·배치 속도를 높이기 위한 협력 프로그램으로, 엑스에너지의 고온가스로(HTGR) 개발과 시장 진출을 지원하는 의미를 가진다.",
-  "cat": "기술",
-  "type": "HTGR",
-  "dev": "X-energy",
-  "region": "US",
-  "source": "igrownews.com",
-  "url": "https://igrownews.com/x-energy-latest-news/",
-  "k": "x energy joins 60m prometheus initiative to speed up advanced nuclear deployment",
-  "id": "1af7be51"
- },
- {
-  "date": "2026-07-23",
-  "title": "인도, 2033년까지 소형모듈원자로 5기 독자 건설… 2047년 원전 100GW 목표",
-  "summary": "인도가 2033년까지 SMR 5기를 독자 개발·건설하고 2047년까지 원전 용량을 100GW로 확대하겠다는 정책 목표를 발표했다.",
-  "summaryLong": "글로벌이코노믹이 보도한 바에 따르면 인도 정부는 2033년까지 소형모듈원자로(SMR) 5기를 독자적으로 건설하겠다는 계획을 밝혔으며, 이는 2047년까지 전체 원전 발전 용량을 100GW로 확보하겠다는 장기 에너지 정책의 일환이다. 인도의 SMR 개발 정책과 건설 일정을 구체적으로 제시한 국책 사업 발표다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "JP",
-  "source": "g-enews.com",
-  "url": "https://www.g-enews.com/article/Global-Biz/2026/07/202607240734231022e7e8286d56_1",
-  "k": "2047년 원전 100gw 확보 2033년까지 소형모듈원자로 5기 독자 건설",
-  "ko": 1,
-  "id": "b2142a8a"
- },
- {
-  "date": "2026-07-23",
-  "title": "정치권, SMR을 '국가전략기술'로 지정 추진…탈원전 기조 전환",
-  "summary": "정치권이 소형모듈원자로(SMR)를 국가전략기술로 지정하려는 움직임을 보이고 있으며, 이는 탈원전 시대의 종료를 의미한다.",
-  "summaryLong": "정치권이 소형모듈원자로(SMR)를 국가전략기술로 공식 지정하려는 정책 움직임을 전개하고 있다. 이는 그간의 탈원전 기조에서 벗어나 차세대 원전 기술에 전략적 중요성을 부여하는 정책 전환을 의미하며, SMR의 국가 산업으로서의 위상 강화와 글로벌 시장 선점 의지를 나타낸다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "businesspost.co.kr",
-  "url": "https://www.businesspost.co.kr/BP?command=article_view&num=442985",
-  "k": "채널who 탈원전 외치던 시대는 끝 smr 국가전략기술 로 지정하려는 정치권 움직임",
-  "ko": 1,
-  "id": "7c386d27"
- },
- {
   "date": "2026-07-22",
   "title": "나투라 리소스(Natura Resources) 용융염로, 미국 안전설계 인증 획득",
   "summary": "나투라 리소스(Natura Resources)의 액체 연료 고급 원자로가 미국 에너지부(DOE) 안전설계 인증을 획득하여 텍사스주 애빌린 크리스천 대학교(Abilene Christian University)에서 첫 배치 단계로 나아갔다.",
@@ -1252,20 +1251,6 @@ window.SMR_NEWS = [
   "id": "ed7a9805"
  },
  {
-  "date": "2026-06-24",
-  "title": "카이로스 파워의 허메스(Hermes) 건설 현장 방문기",
-  "summary": "ANS(American Nuclear Society) 기고자가 카이로스 파워(Kairos Power)의 허메스(Hermes) 테스트 원자로가 오크리지(Oak Ridge)에서 본격적인 건설 단계에 진입한 것을 확인했다.",
-  "summaryLong": "미국 테네시주 오크리지(Oak Ridge)의 카이로스 파워 허메스 건설 현장에서 NQA-1 기준으로 시공된 파일, 지진 격리 장치, 중장비 등이 설치되고 있는 현장을 확인했다는 기고문이다. 이는 카이로스의 고온가스로(HTGR) 기반 시범 원자로가 설계 단계에서 벗어나 실제 건설이 진행 중임을 보여주는 사례로, SMR·첨단로 상용화의 진전을 나타낸다.",
-  "cat": "기술",
-  "type": "FHR",
-  "dev": "Kairos Power",
-  "region": "US",
-  "source": "ANS Newswire",
-  "url": "https://www.ans.org/news/2026-06-24/article-8043/from-theory-to-reality/",
-  "k": "from theory to reality",
-  "id": "279b7204"
- },
- {
   "date": "2026-06-22",
   "title": "오클로, 우라늄 공급 계약으로 핵분열 사업 강화",
   "summary": "오클로(Oklo)가 우라늄 공급 계약을 체결하며 핵분열 연료 확보에 나섰다.",
@@ -1404,5 +1389,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-25 07:38 KST";
-window.SMR_TOTAL = 1535;
+window.SMR_UPDATED = "2026-07-25 08:12 KST";
+window.SMR_TOTAL = 1539;

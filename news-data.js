@@ -362,6 +362,64 @@ window.SMR_NEWS = [
     "id": "a69bf053"
   },
   {
+    "date": "2026-07-24",
+    "title": "BWXT, 카이로스 파워, 와이오밍주 원자력산업 미래에 기대",
+    "summary": "BWXT와 카이로스 파워(Kairos Power)가 와이오밍주의 원자력산업 발전에 대한 기대감을 표했다.",
+    "summaryLong": "BWXT와 첨단 소형모듈원자로(SMR) 개발사 카이로스 파워(Kairos Power)가 와이오밍주에서의 원자력산업 미래에 대한 기대감을 표현했다. 두 기업 모두 지역 내 원자력 프로젝트 발전 가능성에 긍정적인 입장을 보이고 있다.",
+    "cat": "기술",
+    "type": "FHR",
+    "dev": "BWXT, Kairos",
+    "region": "US",
+    "source": "gillettenewsrecord.com",
+    "url": "https://www.gillettenewsrecord.com/news/local/article_e480b468-1c5d-447e-8ea3-98b484593fc9.html",
+    "k": "bwxt kairos power excited about future of nuclear industry in wyoming",
+    "id": "58c9c3e0"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "미국, 오클로의 핵연료 장전 승인 - 첫 임계 추진",
+    "summary": "미국이 오클로(Oklo)의 핵연료 장전을 허용하여 첫 임계(criticality) 달성을 추진할 수 있게 됐다.",
+    "summaryLong": "미국 정부가 마이크로 원자로 개발사 오클로(Oklo)의 핵연료 장전을 승인함으로써, 회사가 첫 임계(criticality) 달성을 향해 나아갈 수 있게 되었다. 이는 오클로의 마이크로 원자로 프로젝트에서 중요한 운영 단계 진입을 의미한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "interestingengineering.com",
+    "url": "https://interestingengineering.com/energy/us-oklo-test-reactor-nuclear-fuel",
+    "k": "us allows oklo to load nuclear fuel proceed toward first criticality",
+    "id": "0be5a478"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "현대엔지니어링, 북미 원자력·SMR 산업 동향 세미나 개최",
+    "summary": "현대엔지니어링이 북미 원자력·SMR 전문가를 초청해 산업 동향과 규제를 공유하는 사내 세미나 개최.",
+    "summaryLong": "현대엔지니어링이 북미 원자력·소형모듈원자로(SMR) 전문가를 초청하여 산업 동향과 규제 정보를 공유하는 사내 세미나를 개최했다. 이는 북미 시장 공략과 SMR·원자력 분야의 기술 경쟁력 강화를 위한 역량 개발 활동이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대엔지니어링",
+    "region": "KR",
+    "source": "donga.com",
+    "url": "https://www.donga.com/news/Economy/article/all/20260724/134362250/1",
+    "k": "현대엔지니어링 북미 원자력 smr 산업 동향 사내 세미나 개최",
+    "ko": 1,
+    "id": "04410cf2"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "정부, 차세대 SMR 상용화 속도 추진",
+    "summary": "정부가 재생에너지만으로는 한계가 있다며 차세대 소형모듈원자로(SMR) 상용화를 가속화하는 정책을 추진하고 있다.",
+    "summaryLong": "한국 정부가 재생에너지만으로는 에너지 수급에 충분하지 않다는 판단 하에 차세대 소형모듈원자로(SMR) 상용화 일정을 앞당기는 정책을 추진하고 있다. 이는 에너지 안보와 탄소중립 목표 달성을 위해 SMR 기술 개발 및 상용화를 국책사업으로 지원하는 정부의 에너지 정책 방향을 반영한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "esgeconomy.com",
+    "url": "https://www.esgeconomy.com/news/articleView.html?idxno=16159",
+    "k": "재생에너지만으론 쉽지 않아 정부 차세대 smr 상용화도 속도",
+    "ko": 1,
+    "id": "9d0b3e22"
+  },
+  {
     "date": "2026-07-23",
     "title": "일본의 미국 투자 소형원전 사업, 사고 시 배상책임 논란",
     "summary": "한·미·일 관세 협상 후속으로 추진되는 SMR 사업에서 원전 사고 배상 책임 문제가 대두되고 있다.",
@@ -22243,4 +22301,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-25 07:38 KST";
+window.SMR_UPDATED = "2026-07-25 08:12 KST";
