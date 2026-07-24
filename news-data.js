@@ -8,6 +8,109 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-07-24",
+    "title": "고리 출신 원전안전협의회 위원장, 국내 첫 i-SMR 고리 유치 주도",
+    "summary": "대한민국 최초 혁신형 소형모듈원전(i-SMR) 초도호기가 고리원자력본부 신고리 7·8호기 부지에 건설될 예정이다.",
+    "summaryLong": "고리에서 태어나 50년 만에 고향으로 돌아온 이창호 전국 원자력안전협의회 위원장이 대한민국 최초 i-SMR 고리 유치를 이끌었다. i-SMR 초도호기는 고리원자력본부 내 신고리 7·8호기 부지에 건설될 예정이다. 이는 국내 SMR 개발과 상용화의 중요한 마일스톤으로, 고리 지역이 차세대 핵심 원전 기술의 시범 지역이 될 것을 의미한다. 원전 건설로 삶의 터전을 잃었던 주민들을 배경으로 한 인간적 스토리와 함께, 국내 SMR 전략의 구체적 진전을 보여주는 소식이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "KAERI",
+    "region": "KR",
+    "source": "전기신문 - 전체기사",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=370530",
+    "k": "고리 출신 이창호 원자력안전협의회 위원장 첫 i smr 고리 유치 이끌어",
+    "ko": 1,
+    "id": "f7b956a4"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "오클로, 그로브 원자로 가동 허가 미국 에너지부(DOE)로부터 획득",
+    "summary": "오클로(Oklo)가 미국 에너지부(DOE)로부터 그로브 동위원소 시험용 원자로의 가동 허가를 획득했다.",
+    "summaryLong": "오클로(Oklo)는 미국 에너지부(DOE)로부터 그로브(Groves) 동위원소 시험용 원자로의 가동 허가를 취득했다. 이는 오클로의 소형 첨단로(Fast Reactor) 기술 개발 진행 과정에서 중요한 인허가 마일스톤으로, 실제 시설 운영 허가 단계로의 진전을 의미한다. DOE 승인은 미국의 첨단 원자로 개발 정책 지원과 함께 오클로의 기술 신뢰성을 입증하는 신호다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "worldbusinessoutlook.com",
+    "url": "https://worldbusinessoutlook.com/oklo-receives-u-s-department-of-energy-startup-authorization-for-groves-reactor/",
+    "k": "oklo receives u s department of energy startup authorization for groves reactor",
+    "id": "5820064c"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "정부, SMR을 국가전략산업으로 육성…글로벌 시장 선점 종합 로드맵 공식화",
+    "summary": "정부가 소형모듈원자로(SMR)를 미래 국가전략산업으로 육성하기 위한 종합 로드맵을 공식화했다. 수요 창출·공급망 구축·핵연료 확보·실증·안전규제 개선·사업화까지 전주기 육성체계를 제시했다.",
+    "summaryLong": "정부가 차세대 소형모듈원자로(SMR)를 미래 국가전략산업으로 지정하고 이를 육성하기 위한 종합 로드맵을 공식화했다. 이번 대책은 단순한 연구개발(R&D) 지원을 넘어 수요 창출·공급망 구축·핵연료 확보·실증·안전규제 개선·사업화에 이르는 전주기 육성체계를 제시하면서 글로벌 SMR 시장 선점을 위한 국가 차원의 전략적 추진을 선언했다. 이는 원전 산업의 범위를 기존 대형원전 중심에서 차세대 원전 산업으로 확장하는 한편, 인공지능(AI)과 함께 국가의 미래 성장축으로 설정하는 의미를 지닌다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "에너지데일리 - 전체기사",
+    "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=201714",
+    "k": "분석 정부 smr 국가전략산업 승부수 원전 수출 넘어 차세대 에너지 패권 경쟁 돌입",
+    "ko": 1,
+    "id": "70e095bd"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "미국 대사, \"한·미·일 SMR 협력이 최우선 과제\"",
+    "summary": "케빈 김(Kevin Kim) 주아세안(ASEAN) 미국대사가 한국·미국·일본이 함께 추진하기로 한 소형모듈원자로(SMR) 협력이 최우선 과제라고 밝혔다.",
+    "summaryLong": "케빈 김(Kevin Kim) 주아세안(ASEAN) 미국대사는 한국·미국·일본 삼국이 함께 추진하기로 한 소형모듈원자로(SMR) 협력을 최우선 과제로 지정하고, 향후 구체적 논의를 지속하겠다는 입장을 표명했다. 이는 인도태평양 지역에서의 청정에너지 협력과 에너지 안보 강화라는 전략적 맥락에서 SMR 개발·배포가 갖는 중요성을 반영한 것이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "연합뉴스 최신기사",
+    "url": "https://www.yna.co.kr/view/AKR20260724102500504",
+    "k": "케빈 김 smr 협력은 최우선 과제 구체적 논의 이어갈 것",
+    "ko": 1,
+    "id": "bbf1fb4d"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "롱비치항(Port of Long Beach), 미국 최초 항만으로 해양성 SMR 협약 체결",
+    "summary": "롱비치항(Port of Long Beach)이 미국 해양청(MARAD)과 소형모듈원자로(SMR) 협약을 체결하여 미국 항만 중 최초로 해양성 SMR 협력에 나섰다.",
+    "summaryLong": "롱비치항(Port of Long Beach)이 미국 해양청(MARAD, Maritime Administration)과 소형모듈원자로(SMR) 협약을 체결했다. 미국 항만 중 처음으로 진행되는 이 협력은 해양 운송 및 항만 운영의 탈탄소화를 위한 해양성 SMR의 활용 가능성을 탐색하는 협약으로, 차세대 청정에너지 기술 도입의 실질적 진전을 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "indexbox.io",
+    "url": "https://www.indexbox.io/blog/port-of-long-beach-becomes-first-us-seaport-to-sign-smr-agreement-with-marad/",
+    "k": "port of long beach becomes first u s seaport to sign smr agreement with marad",
+    "id": "ad504b4a"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "현대엔지니어링, 북미 원자력 전문가 초청…SMR 역량 강화",
+    "summary": "현대엔지니어링이 북미 원자력 전문가를 초청하여 SMR 사업 역량을 강화하고 있다.",
+    "summaryLong": "현대엔지니어링이 북미 원자력 전문가들을 초청하여 소형모듈원자로(SMR) 분야의 기술 역량 강화와 경쟁력 제고에 나섰다. 이는 북미 시장 진출을 위한 기술 협력 및 인적 네트워크 확대를 통해 SMR 사업의 국제 경쟁력을 높이려는 현대엔지니어링의 전략적 움직임으로 해석된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대엔지니어링",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260724114249118",
+    "k": "현대엔지니어링 북미 원자력 전문가 초청 smr 역량 강화",
+    "ko": 1,
+    "id": "01afec94"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "정부, \"2030년 SMR 상용화\" 목표로 민관합작 생태계 조기 구축",
+    "summary": "정부가 2030년 SMR 상용화 목표 달성을 위해 민관합작 생태계 조기 구축에 총력을 기울이고 있다.",
+    "summaryLong": "정부가 2030년 소형모듈원자로(SMR) 상용화를 목표로 설정하고 민간·관·학이 협력하는 생태계 조기 구축에 집중하고 있다. 이는 정부의 종합 로드맵 수립과 함께 진행되는 실질적 추진 전략으로, 수요 창출·공급망 확보·기술 개발·규제 개선 등 다층적 지원을 통해 상용화 시점을 앞당기려는 의지를 반영한다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "edata.ekn.kr",
+    "url": "https://edata.ekn.kr/article/view/ekn202607240001",
+    "k": "2030년 smr 상용화 대비 정부 민관합작 생태계 조기 구축 총력",
+    "ko": 1,
+    "id": "f2ea058c"
+  },
+  {
     "date": "2026-07-23",
     "title": "일본의 미국 투자 소형원전 사업, 사고 시 배상책임 논란",
     "summary": "한·미·일 관세 협상 후속으로 추진되는 SMR 사업에서 원전 사고 배상 책임 문제가 대두되고 있다.",
@@ -520,6 +623,36 @@ window.SMR_NEWS = [
     "k": "2047년 원전 100gw 확보 2033년까지 소형모듈원자로 5기 독자 건설",
     "ko": 1,
     "id": "b2142a8a"
+  },
+  {
+    "date": "2026-07-23",
+    "title": "정치권, SMR을 '국가전략기술'로 지정 추진…탈원전 기조 전환",
+    "summary": "정치권이 소형모듈원자로(SMR)를 국가전략기술로 지정하려는 움직임을 보이고 있으며, 이는 탈원전 시대의 종료를 의미한다.",
+    "summaryLong": "정치권이 소형모듈원자로(SMR)를 국가전략기술로 공식 지정하려는 정책 움직임을 전개하고 있다. 이는 그간의 탈원전 기조에서 벗어나 차세대 원전 기술에 전략적 중요성을 부여하는 정책 전환을 의미하며, SMR의 국가 산업으로서의 위상 강화와 글로벌 시장 선점 의지를 나타낸다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "businesspost.co.kr",
+    "url": "https://www.businesspost.co.kr/BP?command=article_view&num=442985",
+    "k": "채널who 탈원전 외치던 시대는 끝 smr 국가전략기술 로 지정하려는 정치권 움직임",
+    "ko": 1,
+    "id": "7c386d27"
+  },
+  {
+    "date": "2026-07-23",
+    "title": "국립한국해양대, 해양 SMR 시대 대비…산학연 전략 소통회 개최",
+    "summary": "국립한국해양대가 해양 소형모듈원자로(SMR) 시대에 대비하여 산업계·학계·연구기관이 함께하는 전략 소통회를 개최했다.",
+    "summaryLong": "국립한국해양대가 '해양 소형모듈원자로(SMR)' 시대를 대비하여 산업·학계·연구기관이 참여하는 전략 소통회를 개최했다. 이는 해양 운송·해수 담수화·도서 지역 에너지 공급 등 해양 분야에서의 SMR 활용 가능성을 모색하고, 정부의 SMR 전략 추진과 연계하여 해양 거버넌스 구축을 추진하려는 학계의 선제적 준비를 반영한 것이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "veritas-a.com",
+    "url": "https://www.veritas-a.com/news/articleView.html?idxno=620431",
+    "k": "이젠 해양 smr 시대 국립한국해양대 산 학 연 전략 소통회 개최",
+    "ko": 1,
+    "id": "8b1d5e37"
   },
   {
     "date": "2026-07-22",
@@ -21844,4 +21977,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-24 08:43 KST";
+window.SMR_UPDATED = "2026-07-24 15:11 KST";
