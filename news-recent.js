@@ -104,6 +104,66 @@ window.SMR_NEWS = [
   "id": "f2ea058c"
  },
  {
+  "date": "2026-07-24",
+  "title": "정부, 소형모듈원자로 육성 본격 추진",
+  "summary": "정부가 9월 시행 예정인 SMR 특별법에 따라 2027년 상반기 중으로 SMR 시스템 개발 기본계획을 수립하기로 했다.",
+  "summaryLong": "정부는 소형모듈원자로(SMR) 육성에 본격 나섰다. 과학기술정보통신부는 9월 시행 예정인 SMR 특별법에 따라 2027년 상반기 중으로 'SMR 시스템 개발 기본계획'을 수립할 계획이다. 민간-공공 합작 특수목적회사(SPC) 등 전문기업을 육성하고, 개발·제조·실증·핵연료 전 주기 공급 역량을 완비한다는 전략이다. 정부는 차세대 SMR 시장 선점을 위해 수요 발굴에도 나설 예정이며, 이는 국내 완전 피동형 소형모듈원자로 'SMART100' 등 국내 SMR 개발을 지원하는 정책이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "투데이에너지 - 전체기사",
+  "url": "https://www.todayenergy.kr/news/articleView.html?idxno=300786",
+  "k": "정부 소형모듈원자로 육성 본격 추진",
+  "ko": 1,
+  "id": "8a0980b6"
+ },
+ {
+  "date": "2026-07-24",
+  "title": "인도, 2033년까지 자체 개발 소형모듈원자로(SMR) 5기 계획",
+  "summary": "인도가 자국 기술로 소형모듈원자로(SMR) 5기를 2033년까지 건설하는 국책 계획을 밝혔다.",
+  "summaryLong": "인도 정부가 자국 핵기술을 바탕으로 소형모듈원자로(SMR) 5기를 2033년까지 완성하겠다는 계획을 공식 발표했다. 이는 인도의 에너지 자립 및 기술 자립 전략의 일환으로, 차세대 핵전력 개발 국책 프로그램에 해당하는 구체적인 정부 정책 수립 사항이다.",
+  "cat": "정책",
+  "type": "General",
+  "dev": "",
+  "region": "JP",
+  "source": "gktoday.in",
+  "url": "https://www.gktoday.in/india-plans-five-indigenous-small-modular-reactors-by-2033/",
+  "k": "india plans five indigenous small modular reactors by 2033",
+  "id": "df954226"
+ },
+ {
+  "date": "2026-07-24",
+  "title": "현대엔지니어링, 북미 원전 전문가 초청 세미나…SMR 사업 경쟁력 강화",
+  "summary": "현대엔지니어링이 북미 원전 전문가 초청 세미나를 개최해 소형모듈원자로(SMR) 사업 역량을 강화하고 있다.",
+  "summaryLong": "현대엔지니어링이 북미 지역의 원자력 발전소 운영 및 설계 전문가들을 초청하여 세미나를 개최함으로써 소형모듈원자로(SMR) 시장 진출을 위한 기술 및 비즈니스 경쟁력을 강화하고 있다. 이는 한국 기업의 SMR 사업 추진 과정에서 국제 기술 협력 및 인적 네트워크 구축을 통한 구체적인 사업 준비 활동이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "현대엔지니어링",
+  "region": "KR",
+  "source": "viva100.com",
+  "url": "https://www.viva100.com/article/20260724500425",
+  "k": "현대엔지니어링 북미 원전 전문가 초청 세미나 smr 사업 경쟁력 강화",
+  "ko": 1,
+  "id": "40458326"
+ },
+ {
+  "date": "2026-07-24",
+  "title": "현대ENG, SMR 원천기술 확보 추진",
+  "summary": "현대엔지니어링이 SMR 분야의 원천기술 확보를 통해 고부가가치 사업자로의 도약을 목표로 한다.",
+  "summaryLong": "현대엔지니어링이 소형모듈원자로(SMR) 분야의 원천기술 확보를 나선 것으로 보도되었다. 이는 회사가 원자력·에너지 사업 포트폴리오를 고도화하고 고부가가치 사업자로의 도약을 추진하는 전략의 일환이다. 구체적인 기술 분야·개발 일정·협력사·투자 규모에 대한 정보는 제한적이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "현대ENG",
+  "region": "KR",
+  "source": "sedaily.com",
+  "url": "https://www.sedaily.com/article/20071473",
+  "k": "현대eng smr 원천기술 확보 나선다 고부가 사업자 도약",
+  "ko": 1,
+  "op": 1,
+  "id": "1b28f9f1"
+ },
+ {
   "date": "2026-07-23",
   "title": "일본의 미국 투자 소형원전 사업, 사고 시 배상책임 논란",
   "summary": "한·미·일 관세 협상 후속으로 추진되는 SMR 사업에서 원전 사고 배상 책임 문제가 대두되고 있다.",
@@ -837,49 +897,6 @@ window.SMR_NEWS = [
   "id": "2763d189"
  },
  {
-  "date": "2026-07-22",
-  "title": "한국 국회, 차세대 원자력 세제 지원 법안 발의...글로벌 SMR 경쟁 대응",
-  "summary": "박수영 의원이 소형모듈원전(SMR)과 4세대 원자로를 국가전략기술에 포함하여 세제 지원을 확대하는 조세특례제한법 개정안을 발의했다.",
-  "summaryLong": "박수영 의원(국민의힘)이 소형모듈원전(SMR)과 4세대 원자로 등 차세대 원자력을 국가전략기술으로 지정하는 '조세특례제한법 일부개정법률안'을 국회에 제출했다. 개정안의 핵심은 차세대 원자력을 국가전략기술 대상에 추가하여 연구·인력개발비, 사업화 시설, 연구개발시설 등에 대한 세제 지원을 확대하는 것이며, 인공지능(AI) 확산과 데이터센터 증가에 따른 전력 수요 증대 속에서 글로벌 SMR 경쟁에 대응하려는 의도를 담고 있다.",
-  "cat": "정책",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "에너지신문 - 전체기사",
-  "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=226981",
-  "k": "차세대 원자력 세제지원 법안 발의 글로벌 smr 경쟁 대응",
-  "ko": 1,
-  "id": "290e99f3"
- },
- {
-  "date": "2026-07-22",
-  "title": "미국·일본·한국 소형모듈원자로 협력 양해각서 체결",
-  "summary": "나토(NATO) 정상회담에서 한미일이 소형모듈원자로 배치 관련 3자 협력 양해각서를 체결했다.",
-  "summaryLong": "미국, 일본, 한국이 나토(NATO) 정상회담에서 소형모듈원자로(SMR) 배치 협력에 관한 삼자 양해각서를 체결했다. 이는 타국 내 SMR 도입·배치를 위한 기술협력, 정보교환, 정책조율 등을 포괄하는 국제협력 체계를 구축하려는 것으로, 글로벌 SMR 시장 확대와 선진국 간 전략적 동맹 강화를 의미한다.",
-  "cat": "계약",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "america-times.com",
-  "url": "https://www.america-times.com/united-states-japan-and-south-korea-sign-small-modular-reactor-cooperation-memorandum-at-nato-summit/",
-  "k": "united states japan and south korea sign small modular reactor cooperation memorandum at nato summit",
-  "id": "9cf8da60"
- },
- {
-  "date": "2026-07-22",
-  "title": "제이콥스, 영국 소형모듈원자로 계획 지원 계약 체결",
-  "summary": "글로벌 엔지니어링 회사 제이콥스(Jacobs)가 영국(UK) 소형모듈원자로 프로젝트 계획 지원 역할을 맡았다.",
-  "summaryLong": "국제 엔지니어링·컨설팅 회사 제이콥스(Jacobs)가 영국(UK) 소형모듈원자로(SMR) 프로젝트의 계획 및 설계 지원 업무를 수주했다. 이는 영국 정부의 SMR 상용화 전략의 일환으로, 선진 설계·인프라 계획 수립에 국제 기술 전문가를 활용하는 것이다.",
-  "cat": "계약",
-  "type": "General",
-  "dev": "Jacobs",
-  "region": "UK",
-  "source": "constructionbriefing.com",
-  "url": "https://www.constructionbriefing.com/news/jacobs-wins-small-modular-reactor-planning-role/8127334.article",
-  "k": "jacobs wins small modular reactor planning role",
-  "id": "5e71281a"
- },
- {
   "date": "2026-07-21",
   "title": "롤스로이스(Rolls-Royce) SMR, 체코 추가 2곳 건설 준비 착수",
   "summary": "체코 산업무역부(Ministry of Industry and Trade), ČEZ, 롤스로이스 SMR이 양해각서(MOU)를 체결하고 체코 내 2개 추가 지역에서 소형모듈원자로(SMR) 사업 준비활동을 시작한다.",
@@ -1428,5 +1445,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-24 15:11 KST";
-window.SMR_TOTAL = 1517;
+window.SMR_UPDATED = "2026-07-24 15:36 KST";
+window.SMR_TOTAL = 1521;
