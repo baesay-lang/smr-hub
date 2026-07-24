@@ -413,6 +413,35 @@ window.SMR_NEWS = [
   "id": "9d0b3e22"
  },
  {
+  "date": "2026-07-24",
+  "title": "오클로, 미국 에너지부(DOE) 승인으로 동위원소 생산 추진",
+  "summary": "오클로(Oklo)가 미국 에너지부(DOE)의 승인을 얻어 동위원소 생산 추진에 주요 진전을 이루었다.",
+  "summaryLong": "오클로(Oklo)가 미국 에너지부(DOE)의 승인을 통해 동위원소 생산 사업 추진에 중요한 진전을 이루었다. 오클로는 소형 고속로(SFR) 기술을 개발 중인 첨단로 개발사이며, DOE의 정부 승인은 기업의 실제 사업 진행을 나타내는 공식 인증에 해당한다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "finance.yahoo.com",
+  "url": "https://finance.yahoo.com/energy/articles/oklo-takes-major-step-toward-124700758.html",
+  "k": "oklo takes major step toward isotope production with doe nod",
+  "id": "80ae8e82"
+ },
+ {
+  "date": "2026-07-24",
+  "title": "현대엔지니어링, 원자력·SMR 전문가 초청 세미나…북미 시장 공략",
+  "summary": "현대엔지니어링이 원자력 및 소형모듈원자로(SMR) 분야 전문가 세미나를 개최해 북미 시장 진출을 추진하고 있다.",
+  "summaryLong": "현대엔지니어링이 원자력 및 소형모듈원자로(SMR) 분야의 전문가들을 초청하는 세미나를 개최함으로써 북미 시장 공략에 박차를 가하고 있다. 이는 한국 주요 건설사가 선진 SMR 기술과 시장 동향을 학습하고 북미 진출 기반을 마련하려는 전략적 움직임을 보여주며, SMR 산업의 국제 확대 추세를 반영한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "현대엔지니어링",
+  "region": "KR",
+  "source": "ebn.co.kr",
+  "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1717745",
+  "k": "현대엔지니어링 원자력 smr 전문가 초청 세미나 북미 시장 공략 박차",
+  "ko": 1,
+  "id": "19a36682"
+ },
+ {
   "date": "2026-07-23",
   "title": "일본의 미국 투자 소형원전 사업, 사고 시 배상책임 논란",
   "summary": "한·미·일 관세 협상 후속으로 추진되는 SMR 사업에서 원전 사고 배상 책임 문제가 대두되고 있다.",
@@ -851,36 +880,6 @@ window.SMR_NEWS = [
   "k": "루마니아 smr 재검토 제동 누스케일안 유지",
   "ko": 1,
   "id": "67091344"
- },
- {
-  "date": "2026-07-23",
-  "title": "현대중공업(HD)과 삼성중공업(Samsung), SMR 생태계·플랫폼 개발 추진",
-  "summary": "한국 조선기업들이 소형모듈원자로(SMR) 산업 진입으로 현대중공업은 생태계, 삼성중공업은 플랫폼 개발에 나선다.",
-  "summaryLong": "한국 대형 조선기업인 현대중공업(HD)과 삼성중공업이 SMR 시장 진출을 위해 각각 전략을 달리하고 있다. 현대중공업은 SMR 관련 공급망 생태계 구축에, 삼성중공업은 부유식 또는 표준화된 플랫폼 개발에 집중하고 있다. 한국 조선산업이 선박 수주 감소에 대응하기 위해 SMR 등 신규 사업으로 진출하는 전략을 펼치고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "HD현대, Samsung",
-  "region": "KR",
-  "source": "ebn.co.kr",
-  "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1717491",
-  "k": "smr 올라탄 k조선 hd현대는 생태계 삼성은 플랫폼",
-  "ko": 1,
-  "id": "e6e7d71a"
- },
- {
-  "date": "2026-07-23",
-  "title": "SMR 표준설계 2028년 목표, 상용화 시기는 미정",
-  "summary": "한국이 소형모듈원자로(SMR) 표준설계 인가를 2028년에 달성하도록 일정을 잡았으나 상용화 시기는 별도 결정 예정이다.",
-  "summaryLong": "한국 정부가 SMR 관련 정책 추진 중 표준설계 인가를 2028년으로 목표를 설정했으며, 이에 앞서 세액공제 등 세제 지원 정책은 선행 추진 중이다. 다만 본격적인 상용화 시기는 표준설계 인가 이후 별도로 결정될 예정이다. 정부의 SMR 육성 정책이 인허가 일정과 산업 육성 정책이 불균형을 보이고 있다.",
-  "cat": "인허가",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "newspim.com",
-  "url": "https://www.newspim.com/news/view/20260723001213",
-  "k": "표준설계 2028년 상용화는 미정 smr 세액공제만 앞서간다",
-  "ko": 1,
-  "id": "3a01f569"
  },
  {
   "date": "2026-07-22",
@@ -1389,5 +1388,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-25 08:12 KST";
-window.SMR_TOTAL = 1539;
+window.SMR_UPDATED = "2026-07-25 08:47 KST";
+window.SMR_TOTAL = 1541;

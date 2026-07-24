@@ -420,6 +420,35 @@ window.SMR_NEWS = [
     "id": "9d0b3e22"
   },
   {
+    "date": "2026-07-24",
+    "title": "오클로, 미국 에너지부(DOE) 승인으로 동위원소 생산 추진",
+    "summary": "오클로(Oklo)가 미국 에너지부(DOE)의 승인을 얻어 동위원소 생산 추진에 주요 진전을 이루었다.",
+    "summaryLong": "오클로(Oklo)가 미국 에너지부(DOE)의 승인을 통해 동위원소 생산 사업 추진에 중요한 진전을 이루었다. 오클로는 소형 고속로(SFR) 기술을 개발 중인 첨단로 개발사이며, DOE의 정부 승인은 기업의 실제 사업 진행을 나타내는 공식 인증에 해당한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/oklo-takes-major-step-toward-124700758.html",
+    "k": "oklo takes major step toward isotope production with doe nod",
+    "id": "80ae8e82"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "현대엔지니어링, 원자력·SMR 전문가 초청 세미나…북미 시장 공략",
+    "summary": "현대엔지니어링이 원자력 및 소형모듈원자로(SMR) 분야 전문가 세미나를 개최해 북미 시장 진출을 추진하고 있다.",
+    "summaryLong": "현대엔지니어링이 원자력 및 소형모듈원자로(SMR) 분야의 전문가들을 초청하는 세미나를 개최함으로써 북미 시장 공략에 박차를 가하고 있다. 이는 한국 주요 건설사가 선진 SMR 기술과 시장 동향을 학습하고 북미 진출 기반을 마련하려는 전략적 움직임을 보여주며, SMR 산업의 국제 확대 추세를 반영한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대엔지니어링",
+    "region": "KR",
+    "source": "ebn.co.kr",
+    "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1717745",
+    "k": "현대엔지니어링 원자력 smr 전문가 초청 세미나 북미 시장 공략 박차",
+    "ko": 1,
+    "id": "19a36682"
+  },
+  {
     "date": "2026-07-23",
     "title": "일본의 미국 투자 소형원전 사업, 사고 시 배상책임 논란",
     "summary": "한·미·일 관세 협상 후속으로 추진되는 SMR 사업에서 원전 사고 배상 책임 문제가 대두되고 있다.",
@@ -22301,4 +22330,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-25 08:12 KST";
+window.SMR_UPDATED = "2026-07-25 08:47 KST";
