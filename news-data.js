@@ -23,6 +23,95 @@ window.SMR_NEWS = [
     "id": "6a0d952b"
   },
   {
+    "date": "2026-07-25",
+    "title": "뉴스케일 파워(NuScale Power), 올해 주가 38% 하락 — 향후 5년 전망",
+    "summary": "SMR 개발사 뉴스케일의 올해 주가 하락 현황과 향후 5년 사업 전망을 다룬 투자 분석 기사이다.",
+    "summaryLong": "뉴스케일 파워(NuScale Power)의 올해 주가가 38% 하락한 상황에서, 향후 5년간의 사업 전망을 분석한 기사이다. SMR 개발 업체로서 시장 변화와 경영 상황을 평가하는 내용으로, 회사의 전략과 시장 위치 변화를 조망한다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "뉴스케일",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/nuscale-power-down-38-heres-212500204.html",
+    "k": "nuscale power is down 38 this year here s what the next 5 years could look like",
+    "op": 1,
+    "id": "f000df21"
+  },
+  {
+    "date": "2026-07-25",
+    "title": "오클로(Oklo) 주가 44% 하락, 매수 관점 평가",
+    "summary": "SMR 및 첨단로 개발사 오클로의 주가 급락에 대한 투자 의견 기사이다.",
+    "summaryLong": "고속로(SFR) 및 소형 원자로 개발업체 오클로(Oklo)의 주가가 44% 하락한 상황에서, 이를 매수 기회로 보는 투자 칼럼이다. 시장 심리의 과도한 반응을 지적하며 장기 투자 관점의 평가를 제시하는 의견 기사이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "오클로",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/07/25/the-crowd-is-dumping-oklo-heres-why-id-be-buying/",
+    "k": "the crowd is dumping oklo here s why i d be buying it down 44",
+    "op": 1,
+    "id": "52e52948"
+  },
+  {
+    "date": "2026-07-25",
+    "title": "오클로(Oklo), 모멘텀 구축 중이나 상용화 증거 부족",
+    "summary": "첨단로 개발사 오클로의 사업 진전과 그에도 불구한 상용화 증거 부재를 평가한 기사이다.",
+    "summaryLong": "고속로(SFR) 개발업체 오클로(Oklo)가 규제 승인, 자금 조달 등 여러 면에서 모멘텀을 구축하고 있으나, 실제 상용 발전소 운영이라는 최종 증거는 아직 부족하다는 분석이다. 기술 개발과 사업 진전에도 불구하고 상용화 입증의 중요성을 지적한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "오클로",
+    "region": "US",
+    "source": "seekingalpha.com",
+    "url": "https://seekingalpha.com/article/4925562-oklo-building-momentum-still-missing-commercial-proof",
+    "k": "oklo building momentum still missing commercial proof",
+    "op": 1,
+    "id": "658480d2"
+  },
+  {
+    "date": "2026-07-25",
+    "title": "오클로, 그로브스 원자로 시작 인가 획득 — 규제 이정표",
+    "summary": "오클로(Oklo)가 그로브스(Groves) 고속로의 운영 시작 인가를 획득하며 규제 승인 과정의 주요 단계를 통과했다.",
+    "summaryLong": "고속로(SFR) 개발사 오클로(Oklo)가 그로브스(Groves) 원자로의 시작 운영 인가(startup authorization)를 획득했다. 이는 설계 인증과 안전 심사를 거쳐 실제 운영 단계로 진입하는 규제 이정표로, 미국 원자력규제위원회(NRC)의 승인을 통해 첨단로 상용화가 한 단계 진전되었음을 의미한다.",
+    "cat": "인허가",
+    "type": "SFR",
+    "dev": "오클로",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/07/25/nuclear-company-oklo-receives-startup-authorization-for-groves-reactor-a-key-step-in-its-regulatory-journey/",
+    "k": "nuclear company oklo receives startup authorization for groves reactor a key step in its regulatory journey",
+    "id": "5fce82fe"
+  },
+  {
+    "date": "2026-07-25",
+    "title": "OpenAI 샘 알트만, 오클로 핵심 투자자 — 따라야 할까",
+    "summary": "OpenAI CEO 샘 알트만의 오클로 투자를 중심으로 첨단로 업체에 대한 투자 매력을 평가한 기사이다.",
+    "summaryLong": "OpenAI CEO 샘 알트만(Sam Altman)이 고속로(SFR) 개발사 오클로(Oklo)에 개인 투자를 진행하고 있다는 점을 배경으로, 오클로 및 첨단 핵심 기업에 대한 투자 타당성을 검토하는 칼럼이다. 저명 인사의 투자 참여가 회사 신뢰도와 산업 전망에 미치는 영향을 다룬다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "오클로",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/07/25/openais-sam-altman-is-betting-big-on-nuclear-shoul/",
+    "k": "openai s sam altman is betting big on nuclear should you follow him into oklo",
+    "op": 1,
+    "id": "f05b0851"
+  },
+  {
+    "date": "2026-07-25",
+    "title": "SMR 인허가·공급망 리스크, 상용화 2033년도 불투명한 상황 분석",
+    "summary": "SMR의 인허가 및 공급망 리스크로 인해 상용화 시점이 불투명한 상황을 분석하고, 한국 산업계의 대응 전략을 제시한다.",
+    "summaryLong": "SMR(소형모듈원자로)의 상용화 일정 및 시장 진출에 영향을 미치는 인허가 리스크와 공급망 문제를 다룬 분석 기사다. 예상되던 2033년 상용화 시점도 불투명해지는 상황 속에서, 한국 산업계가 이러한 리스크에 어떻게 대응해야 할 것인지 전략을 모색하고 있다. SMR 규제 환경 변화와 산업 현황에 관한 정책·규제 관련 주요 인사이트를 제공한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "eanews.kr",
+    "url": "https://www.eanews.kr/news/980323",
+    "k": "smr 인허가 공급망 리스크 상용화 2033년도 불투명 한국 산업계의 대응 전략은",
+    "ko": 1,
+    "id": "016a8eab"
+  },
+  {
     "date": "2026-07-24",
     "title": "고리 출신 원전안전협의회 위원장, 국내 첫 i-SMR 고리 유치 주도",
     "summary": "대한민국 최초 혁신형 소형모듈원전(i-SMR) 초도호기가 고리원자력본부 신고리 7·8호기 부지에 건설될 예정이다.",
@@ -536,6 +625,20 @@ window.SMR_NEWS = [
     "k": "현대엔지니어링 원자력 smr 전문가 세미나 개최 북미 시장 공략 속도",
     "ko": 1,
     "id": "21b136e4"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "인도, 소형모듈원자로(SMR) 5기 자국 개발·보급 목표로 핵계획 가속화",
+    "summary": "인도(India)가 5기의 토착형 소형모듈원자로(SMR) 개발을 목표로 핵에너지 정책을 가속화하고 있다.",
+    "summaryLong": "인도가 원자력 정책을 추진하면서 자국에서 개발·제조한 소형모듈원자로(SMR) 5기를 보급하는 것을 목표로 하고 있다. 이는 인도의 에너지 안보 전략 차원에서 SMR 기술 개발 및 자립화를 추진하는 국책 프로그램으로, 향후 동아시아 및 개도국 SMR 시장에서의 경쟁 심화를 예고한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "JP",
+    "source": "nucnet.org",
+    "url": "https://www.nucnet.org/news/india-accelerates-nuclear-plans-with-target-of-five-indigenous-small-modular-reactors-7-5-2026",
+    "k": "india accelerates nuclear plans with target of five indigenous small modular reactors",
+    "id": "784ef771"
   },
   {
     "date": "2026-07-23",
@@ -1680,6 +1783,21 @@ window.SMR_NEWS = [
     "k": "oklo could become a huge winner in the ai power boom",
     "op": 1,
     "id": "de3f7e50"
+  },
+  {
+    "date": "2026-07-22",
+    "title": "뉴스케일 파워(NuScale), 장기 매수 추천",
+    "summary": "SMR 개발사 뉴스케일의 장기 투자 가치를 주장하는 투자 의견 기사이다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발사 뉴스케일 파워(NuScale Power)에 대한 장기 투자 관점의 매수 추천 칼럼이다. 현재 주가 저평가 상황 속에서 회사의 기술, 시장 전망, 전략을 긍정적으로 평가하며 장기 투자자 관점의 의견을 제시한다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "뉴스케일",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/07/22/nuscale-power-the-case-for-a-long-term-buy-now/",
+    "k": "nuscale power smr the case for a long term buy right now",
+    "op": 1,
+    "id": "28f2bda2"
   },
   {
     "date": "2026-07-21",
@@ -22434,4 +22552,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-25 16:05 KST";
+window.SMR_UPDATED = "2026-07-26 07:30 KST";
