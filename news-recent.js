@@ -487,6 +487,35 @@ window.SMR_NEWS = [
   "id": "f880682f"
  },
  {
+  "date": "2026-07-24",
+  "title": "오클로 CEO 제이콥 드위트: AI가 원자력에너지의 미래를 변화시키고 있다",
+  "summary": "오클로(Oklo) CEO의 AI와 원자력의 결합에 관한 인터뷰 기사이다.",
+  "summaryLong": "오클로(Oklo)의 CEO 제이콥 드위트(Jacob DeWitte)가 CNBC 인터뷰에서 인공지능(AI) 기술이 원자력에너지 산업의 미래를 어떻게 변화시키고 있는지에 대해 언급했다. 오클로는 고속로(SFR) 기반의 소형모듈원자로 기술과 핵연료 재활용을 추진하는 회사로서, AI 기술과의 결합이 운영 효율성·안전성·경제성 향상에 기여할 수 있다고 전망하고 있다. 이는 SMR 산업이 차세대 디지털 기술과 통합되는 추세를 반영한 것으로 보인다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "cnbc.com",
+  "url": "https://www.cnbc.com/video/2026/07/24/oklo-ceo-jacob-dewitte-ai-is-transforming-the-future-of-nuclear-energy.html",
+  "k": "oklo ceo jacob dewitte ai is transforming the future of nuclear energy",
+  "id": "4fc2c14f"
+ },
+ {
+  "date": "2026-07-24",
+  "title": "현대엔지니어링, SMR 사업 집중 추진",
+  "summary": "현대엔지니어링이 소형모듈원자로(SMR) 사업에 집중하며 원전 역량을 강화하고 있다.",
+  "summaryLong": "현대엔지니어링이 소형모듈원자로(SMR) 분야에 집중 투자하면서 원자력 사업 역량을 키우고 있다. 회사는 SMR을 차세대 에너지 사업의 핵심으로 보고 사업 전략을 수립하고 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "현대엔지니어링",
+  "region": "KR",
+  "source": "news.bizwatch.co.kr",
+  "url": "https://news.bizwatch.co.kr/article/real_estate/2026/07/24/0044",
+  "k": "원전 역량 키우는 현대엔지니어링 smr 집중",
+  "ko": 1,
+  "id": "1c38b538"
+ },
+ {
   "date": "2026-07-23",
   "title": "일본의 미국 투자 소형원전 사업, 사고 시 배상책임 논란",
   "summary": "한·미·일 관세 협상 후속으로 추진되는 SMR 사업에서 원전 사고 배상 책임 문제가 대두되고 있다.",
@@ -853,35 +882,6 @@ window.SMR_NEWS = [
   "k": "국립한국해양대 해양 smr 상용화 시동",
   "ko": 1,
   "id": "d028f955"
- },
- {
-  "date": "2026-07-23",
-  "title": "정부, SMR 상용화 시점 앞당기기 위해 개발·규제 통합 TF 가동",
-  "summary": "정부가 소형모듈원자로(SMR) 상용화를 앞당기기 위해 개발과 규제를 아우르는 태스크포스(TF)를 구성해 가동을 시작했다.",
-  "summaryLong": "한국 정부가 소형모듈원자로(SMR)의 상용화 시점을 앞당기기 위한 통합 태스크포스(TF)를 가동했다. 이 TF는 기술 개발과 규제 개선을 동시에 추진하여 개발 기간을 단축하고 시장 진입을 가속화하는 것을 목표로 한다. 이는 정부의 차세대 원자력 기술 육성 의지를 보여주는 조치로, 글로벌 SMR 시장 선점을 위한 전략적 접근이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "mk.co.kr",
-  "url": "https://www.mk.co.kr/news/it/12105584",
-  "k": "단독 smr 상용화 시점 앞당긴다 개발 규제 아우르는 tf 가동",
-  "ko": 1,
-  "id": "ea3cd261"
- },
- {
-  "date": "2026-07-23",
-  "title": "오클로, Groves 시험로 운영 허가 취득",
-  "summary": "오클로가 미국 에너지부(DOE) 승인을 받아 Groves 시험로 운영을 시작할 수 있게 되었다.",
-  "summaryLong": "오클로(Oklo)가 미국 에너지부(DOE)로부터 Groves 시험로 운영 승인을 획득했다. 이는 오클로의 고급 원자로 개발 프로젝트가 규제 승인 단계를 진행하고 있음을 의미한다. Groves 시험로는 오클로의 차세대 소형 원자로 기술 검증을 위한 중요한 마일스톤이다. 이 승인으로 오클로는 실제 운영을 통해 설계 및 안전성 검증을 진행할 수 있게 된다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "investing.com",
-  "url": "https://www.investing.com/news/company-news/oklo-receives-doe-authorization-to-start-groves-test-reactor-93CH-4810035",
-  "k": "oklo receives doe authorization to start groves test reactor",
-  "id": "ba7f57af"
  },
  {
   "date": "2026-07-23",
@@ -1405,5 +1405,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-25 15:03 KST";
-window.SMR_TOTAL = 1544;
+window.SMR_UPDATED = "2026-07-25 15:27 KST";
+window.SMR_TOTAL = 1547;

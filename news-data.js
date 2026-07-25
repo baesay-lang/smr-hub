@@ -494,6 +494,35 @@ window.SMR_NEWS = [
     "id": "f880682f"
   },
   {
+    "date": "2026-07-24",
+    "title": "오클로 CEO 제이콥 드위트: AI가 원자력에너지의 미래를 변화시키고 있다",
+    "summary": "오클로(Oklo) CEO의 AI와 원자력의 결합에 관한 인터뷰 기사이다.",
+    "summaryLong": "오클로(Oklo)의 CEO 제이콥 드위트(Jacob DeWitte)가 CNBC 인터뷰에서 인공지능(AI) 기술이 원자력에너지 산업의 미래를 어떻게 변화시키고 있는지에 대해 언급했다. 오클로는 고속로(SFR) 기반의 소형모듈원자로 기술과 핵연료 재활용을 추진하는 회사로서, AI 기술과의 결합이 운영 효율성·안전성·경제성 향상에 기여할 수 있다고 전망하고 있다. 이는 SMR 산업이 차세대 디지털 기술과 통합되는 추세를 반영한 것으로 보인다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "cnbc.com",
+    "url": "https://www.cnbc.com/video/2026/07/24/oklo-ceo-jacob-dewitte-ai-is-transforming-the-future-of-nuclear-energy.html",
+    "k": "oklo ceo jacob dewitte ai is transforming the future of nuclear energy",
+    "id": "4fc2c14f"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "현대엔지니어링, SMR 사업 집중 추진",
+    "summary": "현대엔지니어링이 소형모듈원자로(SMR) 사업에 집중하며 원전 역량을 강화하고 있다.",
+    "summaryLong": "현대엔지니어링이 소형모듈원자로(SMR) 분야에 집중 투자하면서 원자력 사업 역량을 키우고 있다. 회사는 SMR을 차세대 에너지 사업의 핵심으로 보고 사업 전략을 수립하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대엔지니어링",
+    "region": "KR",
+    "source": "news.bizwatch.co.kr",
+    "url": "https://news.bizwatch.co.kr/article/real_estate/2026/07/24/0044",
+    "k": "원전 역량 키우는 현대엔지니어링 smr 집중",
+    "ko": 1,
+    "id": "1c38b538"
+  },
+  {
     "date": "2026-07-23",
     "title": "일본의 미국 투자 소형원전 사업, 사고 시 배상책임 논란",
     "summary": "한·미·일 관세 협상 후속으로 추진되는 SMR 사업에서 원전 사고 배상 책임 문제가 대두되고 있다.",
@@ -1621,6 +1650,21 @@ window.SMR_NEWS = [
     "k": "oklo and x energy rise on reported federal nuclear role",
     "op": 1,
     "id": "9d7dfff2"
+  },
+  {
+    "date": "2026-07-22",
+    "title": "오클로, AI 전력 붐의 큰 수혜자가 될 수 있다",
+    "summary": "오클로(Oklo)가 AI 데이터센터 전력 수요 증가로 인한 성장 기회를 분석하는 투자 전망 기사이다.",
+    "summaryLong": "오클로(Oklo)가 인공지능(AI) 기술 확산에 따른 데이터센터 전력 수요 급증의 주요 수혜 기업이 될 가능성을 다루는 기사이다. 오클로의 고속로(SFR) 기반 소형모듈원자로는 소규모 분산 배치·높은 에너지 밀도·지속적 운영 특성으로 인해 AI 시대의 친환경 전력 수요에 부합할 수 있다. 다만 이는 투자 전망에 기반한 추측성 분석이며, 실제 시장 점유·계약 체결·상업화 등이 선행되어야 한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/07/22/oklo-could-become-a-huge-winner-in-the-ai-power-bo/",
+    "k": "oklo could become a huge winner in the ai power boom",
+    "op": 1,
+    "id": "de3f7e50"
   },
   {
     "date": "2026-07-21",
@@ -22375,4 +22419,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-25 15:03 KST";
+window.SMR_UPDATED = "2026-07-25 15:27 KST";
