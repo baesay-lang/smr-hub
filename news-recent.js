@@ -105,6 +105,49 @@ window.SMR_NEWS = [
   "id": "016a8eab"
  },
  {
+  "date": "2026-07-25",
+  "title": "오클로, 그로브스 원자로 기동 허가 획득",
+  "summary": "오클로가 그로브스 원자로(Groves Reactor) 기동 승인을 획득하며 원전 프로젝트를 진전시키고 있다.",
+  "summaryLong": "오클로(Oklo)가 그로브스 원자로(Groves Reactor) 기동 승인을 획득했으며, 이는 회사의 핵심 원전 프로젝트 추진을 한 단계 진전시키는 규제 마일스톤이다. 기동 허가는 설계 검증과 건설 완료 이후 실제 원자로 가동을 앞두고 규제 당국으로부터 받는 중요한 인가다. 오클로의 고온가스로(HTGR) 기반 마이크로 원자로 기술이 미국 규제 당국의 안전성 심사를 통과했음을 의미하며, 첨단로 상용화의 실질적 진전을 보여준다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "오클로",
+  "region": "US",
+  "source": "pluang.com",
+  "url": "https://pluang.com/en/news-feed/oklo-dapat-izin-startup-reaktor-groves",
+  "k": "oklo gets startup approval for groves reactor advancing its nuclear project",
+  "id": "a1f1e4ed"
+ },
+ {
+  "date": "2026-07-25",
+  "title": "오클로(OKLO), 크레이그-할럼에서 '보유' 평가 받음",
+  "summary": "투자사 크레이그-할럼이 오클로에 대해 '보유(Hold)' 평가를 제시한 애널리스트 리포트다.",
+  "summaryLong": "투자 분석사 크레이그-할럼(Craig-Hallum)이 오클로(Oklo) 주식에 대해 '보유(Hold)' 평가를 내렸다. 이는 회사의 기술 발전과 규제 진전을 인정하면서도, 현 시점에서의 주가 수준과 상용화 일정 불확실성을 감안한 신중한 평가다. 애널리스트들이 오클로의 첨단로 기술과 미래 전망은 긍정적으로 평가하되, 단기적 투자 기회는 제한적이라고 판단하고 있음을 보여준다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "오클로",
+  "region": "US",
+  "source": "theglobeandmail.com",
+  "url": "https://www.theglobeandmail.com/investing/markets/stocks/OKLO/pressreleases/3458533/oklo-inc-oklo-receives-a-hold-from-craig-hallum/",
+  "k": "oklo inc oklo receives a hold from craig hallum",
+  "id": "d619d725"
+ },
+ {
+  "date": "2026-07-25",
+  "title": "SMR 보급의 걸림돌: 인허가·공급망",
+  "summary": "SMR 보급 확대의 주요 장애물로 인허가 절차와 공급망 문제를 지적하는 기사다.",
+  "summaryLong": "SMR(소형모듈원자로) 보급 확대 과정에서 인허가 절차의 복잡성과 공급망 구축의 어려움이 주요 걸림돌로 작용하고 있음을 다룬다. 산업 차원의 규제·정책 과제와 기술·경제적 문제점을 분석한 기사로, SMR 산업화 전망과 정책 개선의 필요성을 제시한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "newsyonhap.com",
+  "url": "https://newsyonhap.com/news/116015",
+  "k": "smr 보급의 걸림돌 인허가 공급망",
+  "ko": 1,
+  "id": "cdf3f414"
+ },
+ {
   "date": "2026-07-24",
   "title": "고리 출신 원전안전협의회 위원장, 국내 첫 i-SMR 고리 유치 주도",
   "summary": "대한민국 최초 혁신형 소형모듈원전(i-SMR) 초도호기가 고리원자력본부 신고리 7·8호기 부지에 건설될 예정이다.",
@@ -634,6 +677,51 @@ window.SMR_NEWS = [
   "id": "784ef771"
  },
  {
+  "date": "2026-07-24",
+  "title": "뉴스케일 파워, 원전 성장과 전력 수요 증가에 주목",
+  "summary": "뉴스케일 파워가 원전 성장과 전력 수요 증가에 대응하는 비즈니스 전략을 설명한 기사다.",
+  "summaryLong": "뉴스케일 파워(NuScale Power)가 향후 원자력 산업의 성장과 급증하는 전력 수요(특히 AI 데이터센터)에 대응하는 소형모듈원자로(SMR) 솔루션의 가치를 강조하고 있다. 회사는 자신의 VOYGR-12 및 기타 SMR 프로젝트가 이러한 시장 기회를 충족시킬 수 있는 위치를 갖추었다고 평가하고 있다. 에너지 수요 급증과 탄소중립 정책이 SMR 개발의 필요성을 뒷받침하고 있음을 나타낸다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "뉴스케일",
+  "region": "US",
+  "source": "finance.yahoo.com",
+  "url": "https://finance.yahoo.com/energy/articles/nuscale-power-targets-nuclear-growth-133900368.html",
+  "k": "nuscale power targets nuclear growth and rising power demand",
+  "id": "973e53cf"
+ },
+ {
+  "date": "2026-07-24",
+  "title": "뉴스케일, 규제 선도를 상용화 성공으로 전환 가능성",
+  "summary": "뉴스케일이 규제 승인 측면에서의 선도적 지위를 상용 성공으로 전환할 수 있을지 평가하는 기사다.",
+  "summaryLong": "뉴스케일 파워(NuScale Power)가 미국 핵규제위원회(NRC) 설계인증 획득에서 첨단로 개발사 중 선도적 위치에 있지만, 이를 실제 상용 성공으로 전환할 수 있을지가 핵심 쟁점이다. 규제 인가 취득만으로는 충분하지 않으며, 실제 프로젝트 실행, 비용 관리, 고객 확보 등이 중요하다는 점을 지적하고 있다. 플루어 철수 등 파트너십 어려움이 상용화 경로의 불확실성을 높이고 있는 상황이다.",
+  "cat": "인허가",
+  "type": "PWR",
+  "dev": "뉴스케일",
+  "region": "US",
+  "source": "finance.yahoo.com",
+  "url": "https://finance.yahoo.com/energy/articles/nuscale-turn-regulatory-lead-commercial-134300487.html",
+  "k": "can nuscale turn its regulatory lead into commercial success",
+  "op": 1,
+  "id": "053bf075"
+ },
+ {
+  "date": "2026-07-24",
+  "title": "현대엔지니어링, 북미 원자력·SMR 사업 기회 검토",
+  "summary": "현대엔지니어링이 북미 지역의 원자력·SMR 사업 기회를 살펴보고 있다.",
+  "summaryLong": "현대엔지니어링이 북미(미국·캐나다) 지역의 원자력·SMR 시장 사업 기회를 검토 및 분석하고 있다. 세미나 개최 등을 통해 시장 정보를 수집하고 진출 전략을 수립하려는 움직임으로 보인다. 구체적인 계약이나 투자 결정은 이루어지지 않은 선제적 시장 조사 단계로 평가된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "현대엔지니어링",
+  "region": "KR",
+  "source": "econovill.com",
+  "url": "https://www.econovill.com/news/articleView.html?idxno=746066",
+  "k": "현대엔지니어링 북미 원자력 smr 사업 기회 살핀다",
+  "ko": 1,
+  "op": 1,
+  "id": "fc8c3cf5"
+ },
+ {
   "date": "2026-07-23",
   "title": "일본의 미국 투자 소형원전 사업, 사고 시 배상책임 논란",
   "summary": "한·미·일 관세 협상 후속으로 추진되는 SMR 사업에서 원전 사고 배상 책임 문제가 대두되고 있다.",
@@ -798,51 +886,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-23",
-  "title": "국립한국해양대, 해양 SMR 시대 개막 선포·산학연 전략 소통회 개최",
-  "summary": "국립한국해양대학교가 '해양 SMR 시대' 도래를 선포하고 산업·학계·연구기관 간 전략 소통회를 개최했다.",
-  "summaryLong": "국립한국해양대학교가 '해양 소형모듈원자로(SMR) 시대'의 도래를 선포하고 산업·학계·연구기관(산·학·연) 간 전략 소통회를 개최했다. 이는 한국의 해양 환경에 최적화된 소형모듈원자로 기술 개발과 상용화를 위한 산·학·연 협력 체계 구축을 목표로 하는 정책·연구 이니셔티브이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "fnnews.com",
-  "url": "https://www.fnnews.com/news/202607231345360823",
-  "k": "지금은 해양 smr 시대 국립한국해양대 산 학 연 전략 소통회",
-  "ko": 1,
-  "id": "0933685f"
- },
- {
-  "date": "2026-07-23",
-  "title": "차세대 비경수형 SMR 상용화, 민·관 합작으로 가속",
-  "summary": "정부와 민간이 협력하여 차세대 비경수형 소형모듈원자로(SMR) 상용화를 추진하고 있다.",
-  "summaryLong": "정부와 민간이 손을 잡고 차세대 비경수형 소형모듈원자로(SMR) 상용화 일정을 단축하려는 움직임이 있다. 민·관 합작 체계를 통해 기술 개발부터 상용화까지 전주기적 지원을 강화하는 것으로 보인다. 이는 SMR 시장 선점을 위한 국가적 전략의 일환으로, 규제 승인과 투자 연계를 통해 개발 속도를 높이려는 정책 추진 방향을 반영한다.",
-  "cat": "계약",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "news.nate.com",
-  "url": "https://news.nate.com/view/20260723n09632",
-  "k": "차세대 비경수형 smr 상용화 민 관 합작으로 더 빨리",
-  "ko": 1,
-  "op": 1,
-  "id": "90e56591"
- },
- {
-  "date": "2026-07-23",
-  "title": "오클로, 그로브스 원자로 미국 에너지부 가동 승인 획득",
-  "summary": "오클로(Oklo)가 그로브스(Groves) 원자로에 대한 미국 에너지부(DOE) 가동 승인을 획득하여 연료 장입과 임계점 도달을 앞두고 있다.",
-  "summaryLong": "오클로(Oklo)가 그로브스(Groves) 테스트 원자로에 대한 미국 에너지부(DOE)의 가동 승인(Startup Authorization)을 획득했다고 발표했다. 이 승인으로 연료 장입(fuel loading)과 첫 임계점(first criticality) 달성이 명법적으로 허가되었으며, 이는 오클로의 마이크로 원자로 상용화 경로의 중요한 이정표다. 그로브스 원자로는 오클로의 폐연료 재활용 기술 검증 및 운영 경험 확보의 핵심 시설이다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "rutlandherald.com",
-  "url": "https://www.rutlandherald.com/news/business/oklo-receives-u-s-department-of-energy-startup-authorization-for-groves-reactor-clearing-way-for/article_534cf7c5-17e0-5251-9573-2983949500ee.html",
-  "k": "oklo receives u s department of energy startup authorization for groves reactor clearing way for fuel loading and first criticality",
-  "id": "0efa4b7c"
- },
- {
-  "date": "2026-07-23",
   "title": "카이로스 파워, 7월 28일 오크릿지 원자로 논의 예정",
   "summary": "카이로스 파워(Kairos Power)의 지도부가 오크릿지(Oak Ridge) 원자로 사업에 대해 논의할 예정이다.",
   "summaryLong": "카이로스 파워(Kairos Power)의 경영진이 7월 28일 오크릿지(Oak Ridge)에서 해당 지역의 원자로 사업을 논의하기로 했다. 구체적인 안건이나 상세 내용은 스니펫에 제시되지 않았으나, 카이로스의 용융염냉각 고온가스로(FHR) 기술 개발 및 지역 배치 계획과 관련된 논의로 추정된다.",
@@ -869,20 +912,6 @@ window.SMR_NEWS = [
   "url": "https://www.cnbc.com/video/2026/07/23/x-energy-ceo-clay-sell-ai-will-transform-how-nuclear-plants-are-built.html",
   "k": "x energy ceo clay sell ai will transform how nuclear plants are built",
   "id": "23a816ab"
- },
- {
-  "date": "2026-07-23",
-  "title": "루마니아 누클레아렐렉트리카, SMR 재검토 제안 기각",
-  "summary": "루마니아 국영 원전 기업 누클레아렐렉트리카(Nuclearelectrica)의 소형모듈원자로(SMR) 기술 재평가 및 입지 확대 제안이 에너지부에 의해 기각되었다.",
-  "summaryLong": "루마니아의 국영 원자력 기업인 누클레아렐렉트리카가 주주들에게 SMR(소형모듈원자로)의 초기 개발 전략을 재검토하고, 다양한 SMR 기술을 분석 범위에 포함시키며, 규모 확대 결정 시 잠재 입지 목록을 확대하는 조치의 시작을 승인받기 위해 제안했으나, 정부 에너지부가 이를 기각했다. 이는 루마니아의 SMR 정책 방향성과 관련 인허가 전략에 변화가 있음을 시사한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "Nuclearelectrica",
-  "region": "EU",
-  "source": "World Nuclear News",
-  "url": "https://www.world-nuclear-news.org/articles/nuclearelectricas-proposal-to-review-smr-options-rejected-by-ministry",
-  "k": "nuclearelectrica s proposal to review smr options rejected by ministry",
-  "id": "4f746951"
  },
  {
   "date": "2026-07-23",
@@ -1406,5 +1435,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-26 07:30 KST";
-window.SMR_TOTAL = 1556;
+window.SMR_UPDATED = "2026-07-26 08:04 KST";
+window.SMR_TOTAL = 1562;

@@ -112,6 +112,49 @@ window.SMR_NEWS = [
     "id": "016a8eab"
   },
   {
+    "date": "2026-07-25",
+    "title": "오클로, 그로브스 원자로 기동 허가 획득",
+    "summary": "오클로가 그로브스 원자로(Groves Reactor) 기동 승인을 획득하며 원전 프로젝트를 진전시키고 있다.",
+    "summaryLong": "오클로(Oklo)가 그로브스 원자로(Groves Reactor) 기동 승인을 획득했으며, 이는 회사의 핵심 원전 프로젝트 추진을 한 단계 진전시키는 규제 마일스톤이다. 기동 허가는 설계 검증과 건설 완료 이후 실제 원자로 가동을 앞두고 규제 당국으로부터 받는 중요한 인가다. 오클로의 고온가스로(HTGR) 기반 마이크로 원자로 기술이 미국 규제 당국의 안전성 심사를 통과했음을 의미하며, 첨단로 상용화의 실질적 진전을 보여준다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "오클로",
+    "region": "US",
+    "source": "pluang.com",
+    "url": "https://pluang.com/en/news-feed/oklo-dapat-izin-startup-reaktor-groves",
+    "k": "oklo gets startup approval for groves reactor advancing its nuclear project",
+    "id": "a1f1e4ed"
+  },
+  {
+    "date": "2026-07-25",
+    "title": "오클로(OKLO), 크레이그-할럼에서 '보유' 평가 받음",
+    "summary": "투자사 크레이그-할럼이 오클로에 대해 '보유(Hold)' 평가를 제시한 애널리스트 리포트다.",
+    "summaryLong": "투자 분석사 크레이그-할럼(Craig-Hallum)이 오클로(Oklo) 주식에 대해 '보유(Hold)' 평가를 내렸다. 이는 회사의 기술 발전과 규제 진전을 인정하면서도, 현 시점에서의 주가 수준과 상용화 일정 불확실성을 감안한 신중한 평가다. 애널리스트들이 오클로의 첨단로 기술과 미래 전망은 긍정적으로 평가하되, 단기적 투자 기회는 제한적이라고 판단하고 있음을 보여준다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "오클로",
+    "region": "US",
+    "source": "theglobeandmail.com",
+    "url": "https://www.theglobeandmail.com/investing/markets/stocks/OKLO/pressreleases/3458533/oklo-inc-oklo-receives-a-hold-from-craig-hallum/",
+    "k": "oklo inc oklo receives a hold from craig hallum",
+    "id": "d619d725"
+  },
+  {
+    "date": "2026-07-25",
+    "title": "SMR 보급의 걸림돌: 인허가·공급망",
+    "summary": "SMR 보급 확대의 주요 장애물로 인허가 절차와 공급망 문제를 지적하는 기사다.",
+    "summaryLong": "SMR(소형모듈원자로) 보급 확대 과정에서 인허가 절차의 복잡성과 공급망 구축의 어려움이 주요 걸림돌로 작용하고 있음을 다룬다. 산업 차원의 규제·정책 과제와 기술·경제적 문제점을 분석한 기사로, SMR 산업화 전망과 정책 개선의 필요성을 제시한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "newsyonhap.com",
+    "url": "https://newsyonhap.com/news/116015",
+    "k": "smr 보급의 걸림돌 인허가 공급망",
+    "ko": 1,
+    "id": "cdf3f414"
+  },
+  {
     "date": "2026-07-24",
     "title": "고리 출신 원전안전협의회 위원장, 국내 첫 i-SMR 고리 유치 주도",
     "summary": "대한민국 최초 혁신형 소형모듈원전(i-SMR) 초도호기가 고리원자력본부 신고리 7·8호기 부지에 건설될 예정이다.",
@@ -639,6 +682,51 @@ window.SMR_NEWS = [
     "url": "https://www.nucnet.org/news/india-accelerates-nuclear-plans-with-target-of-five-indigenous-small-modular-reactors-7-5-2026",
     "k": "india accelerates nuclear plans with target of five indigenous small modular reactors",
     "id": "784ef771"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "뉴스케일 파워, 원전 성장과 전력 수요 증가에 주목",
+    "summary": "뉴스케일 파워가 원전 성장과 전력 수요 증가에 대응하는 비즈니스 전략을 설명한 기사다.",
+    "summaryLong": "뉴스케일 파워(NuScale Power)가 향후 원자력 산업의 성장과 급증하는 전력 수요(특히 AI 데이터센터)에 대응하는 소형모듈원자로(SMR) 솔루션의 가치를 강조하고 있다. 회사는 자신의 VOYGR-12 및 기타 SMR 프로젝트가 이러한 시장 기회를 충족시킬 수 있는 위치를 갖추었다고 평가하고 있다. 에너지 수요 급증과 탄소중립 정책이 SMR 개발의 필요성을 뒷받침하고 있음을 나타낸다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "뉴스케일",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/nuscale-power-targets-nuclear-growth-133900368.html",
+    "k": "nuscale power targets nuclear growth and rising power demand",
+    "id": "973e53cf"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "뉴스케일, 규제 선도를 상용화 성공으로 전환 가능성",
+    "summary": "뉴스케일이 규제 승인 측면에서의 선도적 지위를 상용 성공으로 전환할 수 있을지 평가하는 기사다.",
+    "summaryLong": "뉴스케일 파워(NuScale Power)가 미국 핵규제위원회(NRC) 설계인증 획득에서 첨단로 개발사 중 선도적 위치에 있지만, 이를 실제 상용 성공으로 전환할 수 있을지가 핵심 쟁점이다. 규제 인가 취득만으로는 충분하지 않으며, 실제 프로젝트 실행, 비용 관리, 고객 확보 등이 중요하다는 점을 지적하고 있다. 플루어 철수 등 파트너십 어려움이 상용화 경로의 불확실성을 높이고 있는 상황이다.",
+    "cat": "인허가",
+    "type": "PWR",
+    "dev": "뉴스케일",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/nuscale-turn-regulatory-lead-commercial-134300487.html",
+    "k": "can nuscale turn its regulatory lead into commercial success",
+    "op": 1,
+    "id": "053bf075"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "현대엔지니어링, 북미 원자력·SMR 사업 기회 검토",
+    "summary": "현대엔지니어링이 북미 지역의 원자력·SMR 사업 기회를 살펴보고 있다.",
+    "summaryLong": "현대엔지니어링이 북미(미국·캐나다) 지역의 원자력·SMR 시장 사업 기회를 검토 및 분석하고 있다. 세미나 개최 등을 통해 시장 정보를 수집하고 진출 전략을 수립하려는 움직임으로 보인다. 구체적인 계약이나 투자 결정은 이루어지지 않은 선제적 시장 조사 단계로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대엔지니어링",
+    "region": "KR",
+    "source": "econovill.com",
+    "url": "https://www.econovill.com/news/articleView.html?idxno=746066",
+    "k": "현대엔지니어링 북미 원자력 smr 사업 기회 살핀다",
+    "ko": 1,
+    "op": 1,
+    "id": "fc8c3cf5"
   },
   {
     "date": "2026-07-23",
@@ -22552,4 +22640,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-26 07:30 KST";
+window.SMR_UPDATED = "2026-07-26 08:04 KST";
