@@ -8,6 +8,21 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-07-25",
+    "title": "인도, 2033년 국산 SMR 5기 가동…원전 100GW 목표",
+    "summary": "인도가 2033년까지 자체 개발 소형모듈원자로(SMR) 5기를 가동하고 원전 총 100GW 달성을 목표로 하고 있다.",
+    "summaryLong": "인도가 2033년까지 국산 소형모듈원자로(SMR) 5기의 가동을 목표로 하면서 전체 원전 발전량을 100GW까지 확대하려는 계획을 추진 중이다. 이는 인도 정부의 원전 에너지 정책 및 SMR 개발 국책 프로그램에 관한 보도로, 국가 수준의 원전 확대 및 SMR 육성 정책을 담고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "JP",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5246",
+    "k": "인도 2033년 국산 smr 5기 가동 원전 100gw 승부수",
+    "ko": 1,
+    "id": "6a0d952b"
+  },
+  {
     "date": "2026-07-24",
     "title": "고리 출신 원전안전협의회 위원장, 국내 첫 i-SMR 고리 유치 주도",
     "summary": "대한민국 최초 혁신형 소형모듈원전(i-SMR) 초도호기가 고리원자력본부 신고리 7·8호기 부지에 건설될 예정이다.",
@@ -447,6 +462,36 @@ window.SMR_NEWS = [
     "k": "현대엔지니어링 원자력 smr 전문가 초청 세미나 북미 시장 공략 박차",
     "ko": 1,
     "id": "19a36682"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "오클로, 미국 에너지부(DOE)로부터 그로브스 동위원소 시험로 가동 인가 획득",
+    "summary": "오클로(Oklo)가 미국 에너지부(DOE)로부터 그로브스 동위원소 시험로(Groves Isotope Test Reactor)의 가동 인가를 획득했다.",
+    "summaryLong": "오클로(Oklo)가 미국 에너지부(DOE)로부터 그로브스 동위원소 시험로(Groves Isotope Test Reactor)의 가동 인가를 획득했다. 이는 오클로의 소형 원자로 기술이 규제 당국의 승인을 받은 주요 이정표를 의미한다. 동위원소 생산과 전력 생산을 동시에 추진하는 오클로의 사업 전략에 중요한 진전으로 평가된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "marketscreener.com",
+    "url": "https://www.marketscreener.com/news/oklo-inc-receives-department-of-energy-startup-authorization-for-groves-isotope-test-reactor-ce7f51dfd188f621",
+    "k": "oklo inc receives department of energy startup authorization for groves isotope test reactor",
+    "id": "5b1a7362"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "한미일 소형원자로 건설 협력의 의미",
+    "summary": "한미일 삼국의 소형원자로 건설 협력에 관한 분석 기사다.",
+    "summaryLong": "한미일 삼국의 소형원자로(SMR) 건설 협력 추진의 배경과 의의를 다룬 기사다. 제공된 정보가 제목만 있어 구체적인 협력 내용, 협약 체결 시점, 참여 기업·기관, 기술 분야 등을 파악할 수 없다. 다만 제목에서 정책적·외교적 수준의 협력 동향을 다루는 것으로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "minplusnews.com",
+    "url": "https://www.minplusnews.com/news/articleView.html?idxno=18130",
+    "k": "한미일 소형 원자로 건설 협력의 숨은 뜻",
+    "ko": 1,
+    "op": 1,
+    "id": "f880682f"
   },
   {
     "date": "2026-07-23",
@@ -22330,4 +22375,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-25 08:47 KST";
+window.SMR_UPDATED = "2026-07-25 15:03 KST";

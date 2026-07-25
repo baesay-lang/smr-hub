@@ -1,6 +1,21 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-07-25",
+  "title": "인도, 2033년 국산 SMR 5기 가동…원전 100GW 목표",
+  "summary": "인도가 2033년까지 자체 개발 소형모듈원자로(SMR) 5기를 가동하고 원전 총 100GW 달성을 목표로 하고 있다.",
+  "summaryLong": "인도가 2033년까지 국산 소형모듈원자로(SMR) 5기의 가동을 목표로 하면서 전체 원전 발전량을 100GW까지 확대하려는 계획을 추진 중이다. 이는 인도 정부의 원전 에너지 정책 및 SMR 개발 국책 프로그램에 관한 보도로, 국가 수준의 원전 확대 및 SMR 육성 정책을 담고 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "JP",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5246",
+  "k": "인도 2033년 국산 smr 5기 가동 원전 100gw 승부수",
+  "ko": 1,
+  "id": "6a0d952b"
+ },
+ {
   "date": "2026-07-24",
   "title": "고리 출신 원전안전협의회 위원장, 국내 첫 i-SMR 고리 유치 주도",
   "summary": "대한민국 최초 혁신형 소형모듈원전(i-SMR) 초도호기가 고리원자력본부 신고리 7·8호기 부지에 건설될 예정이다.",
@@ -442,6 +457,36 @@ window.SMR_NEWS = [
   "id": "19a36682"
  },
  {
+  "date": "2026-07-24",
+  "title": "오클로, 미국 에너지부(DOE)로부터 그로브스 동위원소 시험로 가동 인가 획득",
+  "summary": "오클로(Oklo)가 미국 에너지부(DOE)로부터 그로브스 동위원소 시험로(Groves Isotope Test Reactor)의 가동 인가를 획득했다.",
+  "summaryLong": "오클로(Oklo)가 미국 에너지부(DOE)로부터 그로브스 동위원소 시험로(Groves Isotope Test Reactor)의 가동 인가를 획득했다. 이는 오클로의 소형 원자로 기술이 규제 당국의 승인을 받은 주요 이정표를 의미한다. 동위원소 생산과 전력 생산을 동시에 추진하는 오클로의 사업 전략에 중요한 진전으로 평가된다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "marketscreener.com",
+  "url": "https://www.marketscreener.com/news/oklo-inc-receives-department-of-energy-startup-authorization-for-groves-isotope-test-reactor-ce7f51dfd188f621",
+  "k": "oklo inc receives department of energy startup authorization for groves isotope test reactor",
+  "id": "5b1a7362"
+ },
+ {
+  "date": "2026-07-24",
+  "title": "한미일 소형원자로 건설 협력의 의미",
+  "summary": "한미일 삼국의 소형원자로 건설 협력에 관한 분석 기사다.",
+  "summaryLong": "한미일 삼국의 소형원자로(SMR) 건설 협력 추진의 배경과 의의를 다룬 기사다. 제공된 정보가 제목만 있어 구체적인 협력 내용, 협약 체결 시점, 참여 기업·기관, 기술 분야 등을 파악할 수 없다. 다만 제목에서 정책적·외교적 수준의 협력 동향을 다루는 것으로 보인다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "minplusnews.com",
+  "url": "https://www.minplusnews.com/news/articleView.html?idxno=18130",
+  "k": "한미일 소형 원자로 건설 협력의 숨은 뜻",
+  "ko": 1,
+  "op": 1,
+  "id": "f880682f"
+ },
+ {
   "date": "2026-07-23",
   "title": "일본의 미국 투자 소형원전 사업, 사고 시 배상책임 논란",
   "summary": "한·미·일 관세 협상 후속으로 추진되는 SMR 사업에서 원전 사고 배상 책임 문제가 대두되고 있다.",
@@ -837,34 +882,6 @@ window.SMR_NEWS = [
   "url": "https://www.investing.com/news/company-news/oklo-receives-doe-authorization-to-start-groves-test-reactor-93CH-4810035",
   "k": "oklo receives doe authorization to start groves test reactor",
   "id": "ba7f57af"
- },
- {
-  "date": "2026-07-23",
-  "title": "엑스에너지, DOE 지원 Prometheus AI 원자력 설계 이니셔티브 참여",
-  "summary": "엑스에너지(X-Energy)가 DOE 지원 Prometheus AI 원자력 설계 이니셔티브에 참여하면서 주가가 9.2% 상승했다.",
-  "summaryLong": "엑스에너지(X-Energy)가 미국 에너지부(DOE) 지원을 받는 Prometheus AI 원자력 설계 이니셔티브에 참여함으로써 AI를 활용한 첨단 원자로 개발 프로젝트에 포함되었다. 이 소식에 따라 엑스에너지의 주가는 9.2% 상승했다. Prometheus 이니셔티브는 AI 기술을 활용해 고급 원자로 배포를 가속화하는 정부 주도 프로그램이다. 엑스에너지의 참여는 회사의 기술 개발이 국가 정책 수준의 지원을 받고 있음을 보여준다.",
-  "cat": "기술",
-  "type": "HTGR",
-  "dev": "X-energy",
-  "region": "US",
-  "source": "finance.yahoo.com",
-  "url": "https://finance.yahoo.com/technology/ai/articles/x-energy-xe-9-2-110937772.html",
-  "k": "x energy xe is up 9 2 after joining doe backed prometheus ai nuclear design initiative",
-  "id": "29290c3f"
- },
- {
-  "date": "2026-07-23",
-  "title": "인도, 2033년까지 자체설계 소형모듈원자로 5기 개발 계획",
-  "summary": "인도 정부가 자체 설계한 소형모듈원자로 5기를 2033년까지 개발하겠다고 발표했다.",
-  "summaryLong": "인도 정부가 2033년까지 자체 설계·개발한 소형모듈원자로(SMR) 5기를 건설할 계획을 공식 발표했다. 이는 인도의 국책 원자력 에너지 정책의 일환으로, SMR 기술 자립화 및 국내 핵심 산업 육성을 목표로 하는 정부의 전략적 프로그램에 해당한다. 시간 일정(2033년)과 규모(5기)가 명시된 확정된 정부 정책 발표이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "JP",
-  "source": "m.economictimes.com",
-  "url": "https://m.economictimes.com/industry/energy/power/india-to-develop-5-indigenously-designed-small-modular-reactors-by-2033-government/articleshow/132585196.cms",
-  "k": "india to develop 5 indigenously designed small modular reactors by 2033 government",
-  "id": "083446e8"
  },
  {
   "date": "2026-07-23",
@@ -1388,5 +1405,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-25 08:47 KST";
-window.SMR_TOTAL = 1541;
+window.SMR_UPDATED = "2026-07-25 15:03 KST";
+window.SMR_TOTAL = 1544;
