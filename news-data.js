@@ -68,6 +68,20 @@ window.SMR_NEWS = [
     "id": "d812bf83"
   },
   {
+    "date": "2026-07-26",
+    "title": "미 에너지부(DOE), 오클로 연구용 원자로 운영 허가",
+    "summary": "미 에너지부(DOE)가 텍사스의 오클로(Oklo) 연구용 원자로 운영을 승인했다.",
+    "summaryLong": "미 에너지부(DOE)가 오클로(Oklo)의 텍사스 연구용 원자로 운영을 공식 허가했다. 이는 오클로의 고속로 기술 개발 과정에서 중요한 진전을 의미한다. 연구용 원자로 운영 승인은 향후 상용화로 향한 실증 과정의 핵심 마일스톤이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "neutronbytes.com",
+    "url": "https://neutronbytes.com/2026/07/26/doe-oks-startup-of-oklo-research-reactor-in-texas/",
+    "k": "doe oks startup of oklo research reactor in texas",
+    "id": "7cded738"
+  },
+  {
     "date": "2026-07-25",
     "title": "인도, 2033년 국산 SMR 5기 가동…원전 100GW 목표",
     "summary": "인도가 2033년까지 자체 개발 소형모듈원자로(SMR) 5기를 가동하고 원전 총 100GW 달성을 목표로 하고 있다.",
@@ -22714,4 +22728,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-27 07:33 KST";
+window.SMR_UPDATED = "2026-07-27 08:07 KST";

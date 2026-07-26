@@ -61,6 +61,20 @@ window.SMR_NEWS = [
   "id": "d812bf83"
  },
  {
+  "date": "2026-07-26",
+  "title": "미 에너지부(DOE), 오클로 연구용 원자로 운영 허가",
+  "summary": "미 에너지부(DOE)가 텍사스의 오클로(Oklo) 연구용 원자로 운영을 승인했다.",
+  "summaryLong": "미 에너지부(DOE)가 오클로(Oklo)의 텍사스 연구용 원자로 운영을 공식 허가했다. 이는 오클로의 고속로 기술 개발 과정에서 중요한 진전을 의미한다. 연구용 원자로 운영 승인은 향후 상용화로 향한 실증 과정의 핵심 마일스톤이다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "neutronbytes.com",
+  "url": "https://neutronbytes.com/2026/07/26/doe-oks-startup-of-oklo-research-reactor-in-texas/",
+  "k": "doe oks startup of oklo research reactor in texas",
+  "id": "7cded738"
+ },
+ {
   "date": "2026-07-25",
   "title": "인도, 2033년 국산 SMR 5기 가동…원전 100GW 목표",
   "summary": "인도가 2033년까지 자체 개발 소형모듈원자로(SMR) 5기를 가동하고 원전 총 100GW 달성을 목표로 하고 있다.",
@@ -869,21 +883,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-23",
-  "title": "정부, 차세대 SMR을 국가전략으로 추진…핵연료·실증·특구 전방위 지원",
-  "summary": "정부가 차세대 소형모듈원자로(SMR)를 국가 전략 사업으로 지정하고 핵연료부터 실증까지 전방위적으로 지원하고 있다.",
-  "summaryLong": "한국 정부가 차세대 소형모듈원자로(SMR)를 국가 전략 사업으로 확정하고, 핵연료 공급, 실증 사업, 진흥특구 조성 등 전 분야에 걸친 종합적 지원 체계를 구축하고 있다. SMR의 조기 상용화와 글로벌 경쟁력 확보를 목표로 하는 통합 정책 추진이 시작되었다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "view.asiae.co.kr",
-  "url": "https://view.asiae.co.kr/article/2026072215074117943",
-  "k": "정부 차세대 smr 국가전략으로 키운다 핵연료 실증 특구 전방위 지원",
-  "ko": 1,
-  "id": "c98235b6"
- },
- {
-  "date": "2026-07-23",
   "title": "카이로스 파워, 7월 28일 오크릿지 원자로 논의 예정",
   "summary": "카이로스 파워(Kairos Power)의 지도부가 오크릿지(Oak Ridge) 원자로 사업에 대해 논의할 예정이다.",
   "summaryLong": "카이로스 파워(Kairos Power)의 경영진이 7월 28일 오크릿지(Oak Ridge)에서 해당 지역의 원자로 사업을 논의하기로 했다. 구체적인 안건이나 상세 내용은 스니펫에 제시되지 않았으나, 카이로스의 용융염냉각 고온가스로(FHR) 기술 개발 및 지역 배치 계획과 관련된 논의로 추정된다.",
@@ -1403,5 +1402,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-27 07:33 KST";
-window.SMR_TOTAL = 1567;
+window.SMR_UPDATED = "2026-07-27 08:07 KST";
+window.SMR_TOTAL = 1568;
