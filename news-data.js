@@ -23,6 +23,51 @@ window.SMR_NEWS = [
     "id": "680b536e"
   },
   {
+    "date": "2026-07-26",
+    "title": "정부, 소형모듈원자로(SMR) 상용화 속도전 추진 중… 안전 규제 독립성 '시험대'",
+    "summary": "한국 정부가 소형모듈원자로(SMR) 상용화 가속화를 추진하면서 안전 규제 기관의 독립성 문제가 대두되고 있다.",
+    "summaryLong": "한국 정부가 소형모듈원자로(SMR)의 상용화 속도를 높이려는 정책을 추진하고 있는 가운데, 원자력 안전 규제의 독립성과 신중성 간의 균형 문제가 사회적 쟁점이 되고 있다. 정부의 성장 목표와 규제 당국의 안전 심사 기준 간 긴장 관계를 다루고 있으며, 한국의 소형모듈원자로 정책 방향과 규제 환경의 과제를 조명하는 내용이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "asiatoday.co.kr",
+    "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260726010009415",
+    "k": "정부 smr 상용화 속도전에 안전 규제 독립성은 시험대",
+    "ko": 1,
+    "id": "54da28e3"
+  },
+  {
+    "date": "2026-07-26",
+    "title": "국제원자력기구(IAEA), '원전 설계 단계부터 핵비확산 고려' 원칙 강조…한국 소형모듈원자로(SMR) 수출 경쟁력 강화",
+    "summary": "국제원자력기구(IAEA)가 원자로 설계 단계부터의 핵비확산 중요성을 강조함으로써 한국 소형모듈원자로(SMR)의 국제 경쟁력이 부각되고 있다.",
+    "summaryLong": "국제원자력기구(IAEA)가 원자로 설계 초기 단계부터 핵비확산을 고려하는 원칙의 중요성을 제시했다. 이는 핵비확산 측면에서 강화된 설계 기준을 의미하며, 한국의 소형모듈원자로(SMR) 기술이 이러한 국제 규제 기준을 충족함으로써 수출 시 경쟁 우위를 확보할 수 있음을 시사한다. 국제 규제 틀의 변화가 한국 소형모듈원자로(SMR)의 수출 전략에 긍정적 영향을 미칠 수 있는 환경을 조성하는 내용이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5260",
+    "k": "iaea 원전 설계부터 핵비확산 한국 smr 수출 새 경쟁력",
+    "ko": 1,
+    "id": "dc12c5cf"
+  },
+  {
+    "date": "2026-07-26",
+    "title": "미국 원자력규제위원회(NRC), 마이크로원자로 운송규제 개정 추진…한국 소형모듈원자로(K-SMR)의 과제 제시",
+    "summary": "미국 원자력규제위원회(NRC)가 마이크로원자로의 운송 규제를 손질하고 있으며, 이는 한국 소형모듈원자로(K-SMR)의 국제 진출에 영향을 미칠 것으로 보인다.",
+    "summaryLong": "미국 원자력규제위원회(NRC)가 마이크로원자로의 운송 관련 규제를 개정하는 작업을 진행 중이다. 마이크로원자로는 상대적으로 소형이고 이동 가능한 특성 때문에 운송 규제가 중요한 이슈이며, 미국의 규제 기준 변화는 한국 소형모듈원자로(K-SMR)의 국제 수출 및 인허가 과정에서 고려해야 할 규제 요건으로 작용할 수 있다. 미국의 규제 방향 전환이 한국 원자력 산업에 미칠 규제 정책 측면의 함의를 다루는 내용이다.",
+    "cat": "기술",
+    "type": "Micro",
+    "dev": "",
+    "region": "US",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5264",
+    "k": "nrc 마이크로원자로 운송규제 손질 k smr 과제는",
+    "ko": 1,
+    "id": "d812bf83"
+  },
+  {
     "date": "2026-07-25",
     "title": "인도, 2033년 국산 SMR 5기 가동…원전 100GW 목표",
     "summary": "인도가 2033년까지 자체 개발 소형모듈원자로(SMR) 5기를 가동하고 원전 총 100GW 달성을 목표로 하고 있다.",
@@ -742,6 +787,20 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "fc8c3cf5"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "테라파워(TerraPower), 미국원자력협회(INPO) 첫 고급원자로 회사로 가입",
+    "summary": "테라파워가 고급원자로 개발사로서 처음으로 미국 핵연료·운영기준 전문 기관인 INPO(원자력발전운영협회)에 가입했다.",
+    "summaryLong": "테라파워(TerraPower)가 고급원자로(Advanced Reactor) 개발 회사로서 최초로 미국원자력협회(INPO, Institute of Nuclear Power Operations)에 가입했다. INPO는 원자력발전 운영 및 안전 기준을 관장하는 핵심 기관이다. 이는 테라파워의 고급원자로 사업이 업계 표준 및 규제 체계로 편입되었음을 의미한다. 고급원자로 업계의 성숙도 및 규제 순응 의지를 보여주는 신호로 평가된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "ans.org",
+    "url": "https://www.ans.org/news/2026-07-24/article-8243/terrapower-becomes-first-advanced-reactor-company-to-join-inpo/",
+    "k": "terrapower becomes first advanced reactor company to join inpo american nuclear society ans",
+    "id": "dc4fbd91"
   },
   {
     "date": "2026-07-23",
@@ -22655,4 +22714,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-26 16:23 KST";
+window.SMR_UPDATED = "2026-07-27 07:33 KST";

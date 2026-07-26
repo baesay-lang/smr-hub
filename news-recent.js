@@ -16,6 +16,51 @@ window.SMR_NEWS = [
   "id": "680b536e"
  },
  {
+  "date": "2026-07-26",
+  "title": "정부, 소형모듈원자로(SMR) 상용화 속도전 추진 중… 안전 규제 독립성 '시험대'",
+  "summary": "한국 정부가 소형모듈원자로(SMR) 상용화 가속화를 추진하면서 안전 규제 기관의 독립성 문제가 대두되고 있다.",
+  "summaryLong": "한국 정부가 소형모듈원자로(SMR)의 상용화 속도를 높이려는 정책을 추진하고 있는 가운데, 원자력 안전 규제의 독립성과 신중성 간의 균형 문제가 사회적 쟁점이 되고 있다. 정부의 성장 목표와 규제 당국의 안전 심사 기준 간 긴장 관계를 다루고 있으며, 한국의 소형모듈원자로 정책 방향과 규제 환경의 과제를 조명하는 내용이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "asiatoday.co.kr",
+  "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260726010009415",
+  "k": "정부 smr 상용화 속도전에 안전 규제 독립성은 시험대",
+  "ko": 1,
+  "id": "54da28e3"
+ },
+ {
+  "date": "2026-07-26",
+  "title": "국제원자력기구(IAEA), '원전 설계 단계부터 핵비확산 고려' 원칙 강조…한국 소형모듈원자로(SMR) 수출 경쟁력 강화",
+  "summary": "국제원자력기구(IAEA)가 원자로 설계 단계부터의 핵비확산 중요성을 강조함으로써 한국 소형모듈원자로(SMR)의 국제 경쟁력이 부각되고 있다.",
+  "summaryLong": "국제원자력기구(IAEA)가 원자로 설계 초기 단계부터 핵비확산을 고려하는 원칙의 중요성을 제시했다. 이는 핵비확산 측면에서 강화된 설계 기준을 의미하며, 한국의 소형모듈원자로(SMR) 기술이 이러한 국제 규제 기준을 충족함으로써 수출 시 경쟁 우위를 확보할 수 있음을 시사한다. 국제 규제 틀의 변화가 한국 소형모듈원자로(SMR)의 수출 전략에 긍정적 영향을 미칠 수 있는 환경을 조성하는 내용이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5260",
+  "k": "iaea 원전 설계부터 핵비확산 한국 smr 수출 새 경쟁력",
+  "ko": 1,
+  "id": "dc12c5cf"
+ },
+ {
+  "date": "2026-07-26",
+  "title": "미국 원자력규제위원회(NRC), 마이크로원자로 운송규제 개정 추진…한국 소형모듈원자로(K-SMR)의 과제 제시",
+  "summary": "미국 원자력규제위원회(NRC)가 마이크로원자로의 운송 규제를 손질하고 있으며, 이는 한국 소형모듈원자로(K-SMR)의 국제 진출에 영향을 미칠 것으로 보인다.",
+  "summaryLong": "미국 원자력규제위원회(NRC)가 마이크로원자로의 운송 관련 규제를 개정하는 작업을 진행 중이다. 마이크로원자로는 상대적으로 소형이고 이동 가능한 특성 때문에 운송 규제가 중요한 이슈이며, 미국의 규제 기준 변화는 한국 소형모듈원자로(K-SMR)의 국제 수출 및 인허가 과정에서 고려해야 할 규제 요건으로 작용할 수 있다. 미국의 규제 방향 전환이 한국 원자력 산업에 미칠 규제 정책 측면의 함의를 다루는 내용이다.",
+  "cat": "기술",
+  "type": "Micro",
+  "dev": "",
+  "region": "US",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5264",
+  "k": "nrc 마이크로원자로 운송규제 손질 k smr 과제는",
+  "ko": 1,
+  "id": "d812bf83"
+ },
+ {
   "date": "2026-07-25",
   "title": "인도, 2033년 국산 SMR 5기 가동…원전 100GW 목표",
   "summary": "인도가 2033년까지 자체 개발 소형모듈원자로(SMR) 5기를 가동하고 원전 총 100GW 달성을 목표로 하고 있다.",
@@ -737,6 +782,20 @@ window.SMR_NEWS = [
   "id": "fc8c3cf5"
  },
  {
+  "date": "2026-07-24",
+  "title": "테라파워(TerraPower), 미국원자력협회(INPO) 첫 고급원자로 회사로 가입",
+  "summary": "테라파워가 고급원자로 개발사로서 처음으로 미국 핵연료·운영기준 전문 기관인 INPO(원자력발전운영협회)에 가입했다.",
+  "summaryLong": "테라파워(TerraPower)가 고급원자로(Advanced Reactor) 개발 회사로서 최초로 미국원자력협회(INPO, Institute of Nuclear Power Operations)에 가입했다. INPO는 원자력발전 운영 및 안전 기준을 관장하는 핵심 기관이다. 이는 테라파워의 고급원자로 사업이 업계 표준 및 규제 체계로 편입되었음을 의미한다. 고급원자로 업계의 성숙도 및 규제 순응 의지를 보여주는 신호로 평가된다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "US",
+  "source": "ans.org",
+  "url": "https://www.ans.org/news/2026-07-24/article-8243/terrapower-becomes-first-advanced-reactor-company-to-join-inpo/",
+  "k": "terrapower becomes first advanced reactor company to join inpo american nuclear society ans",
+  "id": "dc4fbd91"
+ },
+ {
   "date": "2026-07-23",
   "title": "일본의 미국 투자 소형원전 사업, 사고 시 배상책임 논란",
   "summary": "한·미·일 관세 협상 후속으로 추진되는 SMR 사업에서 원전 사고 배상 책임 문제가 대두되고 있다.",
@@ -822,66 +881,6 @@ window.SMR_NEWS = [
   "k": "정부 차세대 smr 국가전략으로 키운다 핵연료 실증 특구 전방위 지원",
   "ko": 1,
   "id": "c98235b6"
- },
- {
-  "date": "2026-07-23",
-  "title": "미국, 해저 원전·선박용 SMR 등 추진 결정",
-  "summary": "미국이 해저 설치형 원전과 선박용 소형모듈원자로(SMR) 등 혁신적 원전 형태 개발을 추진하기로 결정했다.",
-  "summaryLong": "미국 정부가 기존 육상 원전을 넘어 해저 설치형 원전과 선박용 소형모듈원자로(SMR), 기타 차세대 원전 형태 개발을 추진하기로 공식화했다. 이는 극한 환경 적응, 운송 용이성, 분산형 전력 공급 등 SMR의 장점을 극대화하여 에너지 안보 및 기후변화 대응을 강화하려는 정책 기조를 반영한다. 미국의 이러한 다각적 SMR 전략은 국제 SMR 시장 선점 움직임으로도 해석된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "theguru.co.kr",
-  "url": "https://theguru.co.kr/news/article.html?no=104783",
-  "k": "미국 바다 밑 원전 선박 smr 등 추진하기로",
-  "ko": 1,
-  "id": "247a8981"
- },
- {
-  "date": "2026-07-23",
-  "title": "차세대 비경수형 SMR 상용화, 민·관 합작으로 가속화",
-  "summary": "정부와 민간의 협력을 통해 차세대 비경수형(non-LWR) SMR 상용화를 가속화하려는 정책 추진이 보도되었다.",
-  "summaryLong": "머니투데이 보도에 따르면 차세대 비경수형 SMR의 상용화를 민간과 정부의 합작으로 더욱 빠르게 추진하려는 움직임이 있다. 이는 한국 정부의 첨단 원자로 개발 정책 추진을 시사하며, 고속로, 고온가스로, 용융염로 등 차세대 노형 상용화에 대한 국책 전략을 나타낸다.",
-  "cat": "계약",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "mt.co.kr",
-  "url": "https://www.mt.co.kr/tech/2026/07/23/2026072215052771435",
-  "k": "차세대 비경수형 smr 상용화 민 관 합작으로 더 빨리 머니투데이",
-  "ko": 1,
-  "id": "4ecb7359"
- },
- {
-  "date": "2026-07-23",
-  "title": "SMR 안전성 검증 미흡, 전문가 '검증되지 않은 실험로' 지적",
-  "summary": "SMR의 안전성에 대해 전문가들이 검증 부족을 지적하며 규제 수준의 문제를 제기했다.",
-  "summaryLong": "뉴스사천 보도에 따르면 SMR의 안전성에 대해 전문가들이 '검증되지 않은 실험로'라고 평가하며 우려를 표했다. 이는 SMR 설계인증·규제 승인 과정에서의 안전성 검증 수준에 대한 비판적 평가로, 한국의 SMR 규제 정책과 인허가 기준에 대한 논의를 반영한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "news4000.com",
-  "url": "http://www.news4000.com/news/articleView.html?idxno=57822",
-  "k": "smr 과연 안전한가 전문가 검증 안 된 실험로",
-  "ko": 1,
-  "id": "3ca5be23"
- },
- {
-  "date": "2026-07-23",
-  "title": "한국, 소형원자로 사업화 특수목적법인 설립·GPU 520장 추가 지원",
-  "summary": "한국이 소형모듈원자로(SMR) 사업화를 위한 특수목적법인을 설립하고 GPU 520장을 추가 지원하기로 결정했다.",
-  "summaryLong": "한국 정부가 소형모듈원자로(SMR)의 사업화를 가속화하기 위해 특수목적법인(SPV)을 설립하기로 결정했으며, 관련 기술 개발을 지원하기 위해 GPU 520장을 추가로 지원하기로 했다. 국립한국해양대학교가 주도하는 '해양 SMR' 시대 개막을 표방하며 산·학·연(산업·학계·연구) 전략 소통회가 개최되었다. 차세대 비경수형(non-light water) SMR의 상용화를 민·관 합작으로 추진하겠다는 정책 선언이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "hankookilbo.com",
-  "url": "https://www.hankookilbo.com/news/article/A2026072314450001470",
-  "k": "소형 원자로 사업화 특수목적법인 만들고 gpu 520장 추가 지원한다",
-  "ko": 1,
-  "id": "0a5fa410"
  },
  {
   "date": "2026-07-23",
@@ -1107,21 +1106,6 @@ window.SMR_NEWS = [
   "url": "https://www.moomoo.com/community/feed/tracking-cathie-wood-heavy-investment-in-circle-x-energy-trimming-116923217674246",
   "k": "tracking cathie wood heavy investment in circle x energy trimming genomics leaders",
   "id": "4bdb10e9"
- },
- {
-  "date": "2026-07-14",
-  "title": "아이티센씨티에스, 원자력연구원의 V-SMR 슈퍼컴퓨터 구축 프로젝트 수주",
-  "summary": "아이티센씨티에스가 한국원자력연구원의 V-SMR 슈퍼컴퓨팅 시스템 구축 사업을 수주했다.",
-  "summaryLong": "아이티센씨티에스가 한국원자력연구원의 V-SMR(Vertical Small Modular Reactor) 관련 슈퍼컴퓨팅 시스템 구축 프로젝트를 수주했다. 이 프로젝트는 V-SMR 설계 및 성능 검증을 위한 고성능 컴퓨팅 인프라 구축으로, 한국의 소형모듈원자로 기술 개발 지원 사업의 일환이다. 아이티센씨티에스의 참여는 국내 SMR 개발 사업의 기술 고도화 추진을 의미한다.",
-  "cat": "계약",
-  "type": "Micro",
-  "dev": "아이티센씨티에스",
-  "region": "KR",
-  "source": "m.ddaily.co.kr",
-  "url": "https://m.ddaily.co.kr/page/view/2026071410320190809",
-  "k": "아이티센씨티에스 원자력연구원 v smr 슈퍼컴퓨터 구축",
-  "ko": 1,
-  "id": "ca4d7691"
  },
  {
   "date": "2026-07-14",
@@ -1419,5 +1403,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-26 16:23 KST";
-window.SMR_TOTAL = 1563;
+window.SMR_UPDATED = "2026-07-27 07:33 KST";
+window.SMR_TOTAL = 1567;
