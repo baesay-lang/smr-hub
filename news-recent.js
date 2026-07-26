@@ -810,6 +810,21 @@ window.SMR_NEWS = [
   "id": "dc4fbd91"
  },
  {
+  "date": "2026-07-24",
+  "title": "현대엔지니어링, 원자력·SMR 산업 동향 사내 세미나 개최",
+  "summary": "현대엔지니어링이 원자력·SMR 산업 동향을 주제로 사내 세미나를 개최했다.",
+  "summaryLong": "현대엔지니어링이 원자력 및 SMR(소형모듈원자로) 산업 동향을 다루는 사내 세미나를 개최했다. 이는 현대엔지니어링의 SMR 사업 추진과 산업 이해도 제고를 위한 내부 교육 활동으로, 한국의 주요 건설·엔지니어링사의 SMR 분야 전략 강화를 시사한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "현대엔지니어링",
+  "region": "KR",
+  "source": "enewstoday.co.kr",
+  "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2452143",
+  "k": "현대엔지니어링 원자력 smr 산업 동향 사내 세미나 개최",
+  "ko": 1,
+  "id": "9bfa5ffc"
+ },
+ {
   "date": "2026-07-23",
   "title": "일본의 미국 투자 소형원전 사업, 사고 시 배상책임 논란",
   "summary": "한·미·일 관세 협상 후속으로 추진되는 SMR 사업에서 원전 사고 배상 책임 문제가 대두되고 있다.",
@@ -865,21 +880,6 @@ window.SMR_NEWS = [
   "url": "https://ddnews.gov.in/en/government-unveils-roadmap-to-achieve-100-gw-nuclear-power-capacity-by-2047-pushes-indigenous-small-modular-reactors/",
   "k": "government unveils roadmap to achieve 100 gw nuclear power capacity by 2047 pushes indigenous small modular reactors",
   "id": "0f2a2f1c"
- },
- {
-  "date": "2026-07-23",
-  "title": "SMR 특별법 개정안 입법예고, 세제지원·진흥특구 신설",
-  "summary": "정부가 소형모듈원자로(SMR) 관련 특별법 개정안을 입법예고하며 세제지원과 진흥특구 신설을 추진 중이다.",
-  "summaryLong": "한국 정부가 소형모듈원자로(SMR) 산업 활성화를 위한 특별법 개정안을 입법예고하였다. 개정안에는 세제지원 확대와 SMR 진흥특구 신설이 포함되어 있으며, 민간 기업의 SMR 개발·상용화를 지원하기 위한 정부 정책이 강화되고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "energyprosumer.info",
-  "url": "https://www.energyprosumer.info/5992",
-  "k": "smr 특별법 개정안 입법예고 세제지원 진흥특구 신설",
-  "ko": 1,
-  "id": "4670acaa"
  },
  {
   "date": "2026-07-23",
@@ -1402,5 +1402,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-27 08:07 KST";
-window.SMR_TOTAL = 1568;
+window.SMR_UPDATED = "2026-07-27 08:45 KST";
+window.SMR_TOTAL = 1569;

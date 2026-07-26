@@ -817,6 +817,21 @@ window.SMR_NEWS = [
     "id": "dc4fbd91"
   },
   {
+    "date": "2026-07-24",
+    "title": "현대엔지니어링, 원자력·SMR 산업 동향 사내 세미나 개최",
+    "summary": "현대엔지니어링이 원자력·SMR 산업 동향을 주제로 사내 세미나를 개최했다.",
+    "summaryLong": "현대엔지니어링이 원자력 및 SMR(소형모듈원자로) 산업 동향을 다루는 사내 세미나를 개최했다. 이는 현대엔지니어링의 SMR 사업 추진과 산업 이해도 제고를 위한 내부 교육 활동으로, 한국의 주요 건설·엔지니어링사의 SMR 분야 전략 강화를 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대엔지니어링",
+    "region": "KR",
+    "source": "enewstoday.co.kr",
+    "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2452143",
+    "k": "현대엔지니어링 원자력 smr 산업 동향 사내 세미나 개최",
+    "ko": 1,
+    "id": "9bfa5ffc"
+  },
+  {
     "date": "2026-07-23",
     "title": "일본의 미국 투자 소형원전 사업, 사고 시 배상책임 논란",
     "summary": "한·미·일 관세 협상 후속으로 추진되는 SMR 사업에서 원전 사고 배상 책임 문제가 대두되고 있다.",
@@ -22728,4 +22743,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-27 08:07 KST";
+window.SMR_UPDATED = "2026-07-27 08:45 KST";
