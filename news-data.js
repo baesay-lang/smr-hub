@@ -8,6 +8,21 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-07-26",
+    "title": "IAEA(국제원자력기구), 차세대 선박용 SMR '아틀라스(ATLAS)' 출범",
+    "summary": "국제원자력기구(IAEA)가 해상 운송용 소형모듈원자로인 아틀라스 프로젝트를 공식 출범시켰다.",
+    "summaryLong": "국제원자력기구(IAEA)가 선박 추진용 차세대 소형모듈원자로인 아틀라스(ATLAS)를 출범시켰다는 보도로, SMR의 해양 응용 분야 확대와 국제 협력 강화를 보여준다. 이는 SMR 기술의 다양한 산업 응용을 추진하는 정책 차원의 국제 이니셔티브 소식이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "IAEA",
+    "region": "",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5256",
+    "k": "바다 위 원전 시대 열린다 iaea 차세대 선박용 smr 아틀라스 출범",
+    "ko": 1,
+    "id": "680b536e"
+  },
+  {
     "date": "2026-07-25",
     "title": "인도, 2033년 국산 SMR 5기 가동…원전 100GW 목표",
     "summary": "인도가 2033년까지 자체 개발 소형모듈원자로(SMR) 5기를 가동하고 원전 총 100GW 달성을 목표로 하고 있다.",
@@ -22640,4 +22655,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-26 08:45 KST";
+window.SMR_UPDATED = "2026-07-26 15:22 KST";

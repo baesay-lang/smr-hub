@@ -1,6 +1,21 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-07-26",
+  "title": "IAEA(국제원자력기구), 차세대 선박용 SMR '아틀라스(ATLAS)' 출범",
+  "summary": "국제원자력기구(IAEA)가 해상 운송용 소형모듈원자로인 아틀라스 프로젝트를 공식 출범시켰다.",
+  "summaryLong": "국제원자력기구(IAEA)가 선박 추진용 차세대 소형모듈원자로인 아틀라스(ATLAS)를 출범시켰다는 보도로, SMR의 해양 응용 분야 확대와 국제 협력 강화를 보여준다. 이는 SMR 기술의 다양한 산업 응용을 추진하는 정책 차원의 국제 이니셔티브 소식이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "IAEA",
+  "region": "",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5256",
+  "k": "바다 위 원전 시대 열린다 iaea 차세대 선박용 smr 아틀라스 출범",
+  "ko": 1,
+  "id": "680b536e"
+ },
+ {
   "date": "2026-07-25",
   "title": "인도, 2033년 국산 SMR 5기 가동…원전 100GW 목표",
   "summary": "인도가 2033년까지 자체 개발 소형모듈원자로(SMR) 5기를 가동하고 원전 총 100GW 달성을 목표로 하고 있다.",
@@ -870,22 +885,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-23",
-  "title": "미국, 해저 원전·부유식 SMR 도입 가능성 검토",
-  "summary": "미국이 바다에 건설하는 해저 원전과 부유식 소형모듈원자로(SMR) 도입 가능성을 검토하고 있다.",
-  "summaryLong": "미국이 바다에 건설하는 해저 원전 및 부유식 소형모듈원자로(SMR) 도입의 타당성을 검토하고 있다. 이는 미국 정부 차원에서 해양 환경에서의 소형모듈원자로 활용 가능성을 평가하는 정책 검토 단계의 보도이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "esgeconomy.com",
-  "url": "https://www.esgeconomy.com/news/articleView.html?idxno=16139",
-  "k": "바다에 원전 짓나 해저 원전 부유식 smr 도입 가능성 검토",
-  "ko": 1,
-  "op": 1,
-  "id": "9106ae10"
- },
- {
-  "date": "2026-07-23",
   "title": "카이로스 파워, 7월 28일 오크릿지 원자로 논의 예정",
   "summary": "카이로스 파워(Kairos Power)의 지도부가 오크릿지(Oak Ridge) 원자로 사업에 대해 논의할 예정이다.",
   "summaryLong": "카이로스 파워(Kairos Power)의 경영진이 7월 28일 오크릿지(Oak Ridge)에서 해당 지역의 원자로 사업을 논의하기로 했다. 구체적인 안건이나 상세 내용은 스니펫에 제시되지 않았으나, 카이로스의 용융염냉각 고온가스로(FHR) 기술 개발 및 지역 배치 계획과 관련된 논의로 추정된다.",
@@ -912,21 +911,6 @@ window.SMR_NEWS = [
   "url": "https://www.cnbc.com/video/2026/07/23/x-energy-ceo-clay-sell-ai-will-transform-how-nuclear-plants-are-built.html",
   "k": "x energy ceo clay sell ai will transform how nuclear plants are built",
   "id": "23a816ab"
- },
- {
-  "date": "2026-07-23",
-  "title": "미국, 해저 원전·부유식 SMR 타당성 검토",
-  "summary": "미국이 해저 원자력발전소와 부유식 SMR의 기술적·경제적 타당성을 검토하고 있다.",
-  "summaryLong": "미국은 차세대 원자력 기술으로서 해저 원전과 부유식 SMR(소형모듈원자로)의 가능성을 탐색하고 있다. 이는 기존 육상 원전의 입지 제약을 극복하고 해양 환경을 활용한 새로운 에너지 공급 방식을 모색하는 전략이다. 타당성 검토 과정에서 기술적 안전성, 경제성, 규제 방안 등이 함께 검토될 것으로 예상된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "esgeconomy.com",
-  "url": "https://www.esgeconomy.com/news/articleView.html?idxno=16139",
-  "k": "바다에 원전 해저 원전 부유식 smr 타당성 검토",
-  "ko": 1,
-  "id": "9106ae10"
  },
  {
   "date": "2026-07-22",
@@ -1435,5 +1419,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-26 08:45 KST";
-window.SMR_TOTAL = 1562;
+window.SMR_UPDATED = "2026-07-26 15:22 KST";
+window.SMR_TOTAL = 1563;
