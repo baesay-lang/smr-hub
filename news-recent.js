@@ -1,6 +1,21 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-07-27",
+  "title": "에너지 공기업, 도심·산단 지하 SMR 배치 검토",
+  "summary": "한국 에너지 공기업이 도시 지하 및 산업단지 지하에 소형모듈원자로(SMR) 배치하는 지하화 방안을 검토하고 있다.",
+  "summaryLong": "한국의 에너지 관련 공공기관이 도시 중심가와 산업단지 지하에 소형모듈원자로를 배치하는 지하화 방식을 정책적으로 검토하고 있다는 독점 보도이다. 이는 SMR의 도시 적용성을 높이기 위한 정부 정책 차원의 검토로, SMR 첨단로 레퍼런스 사이트 구축과 관련된 국책 정책 소식이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "edata.ekn.kr",
+  "url": "https://edata.ekn.kr/article/view/ekn202607270004",
+  "k": "단독 도심 산단 지하에 소형원전 에너지 공기업 smr 지하화 검토",
+  "ko": 1,
+  "id": "28a7d1f6"
+ },
+ {
   "date": "2026-07-26",
   "title": "IAEA(국제원자력기구), 차세대 선박용 SMR '아틀라스(ATLAS)' 출범",
   "summary": "국제원자력기구(IAEA)가 해상 운송용 소형모듈원자로인 아틀라스 프로젝트를 공식 출범시켰다.",
@@ -872,20 +887,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-23",
-  "title": "한국, 에이전트 AI·소형모듈원자로 상용화 추진",
-  "summary": "한국이 에이전트 AI와 소형모듈원자로(SMR) 상용화를 추진 중이다.",
-  "summaryLong": "한국 정부가 에이전트 AI와 소형모듈원자로(SMR) 상용화를 국가 전략으로 추진하고 있다. SMR은 차세대 원자력 에너지 솔루션으로서 정부의 정책 우선순위에 포함되어 있으며, 상용화를 통한 글로벌 시장 진출을 목표로 하고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "mlex.com",
-  "url": "https://www.mlex.com/mlex/articles/2504202/south-korea-pushes-agentic-ai-small-modular-reactor-commercialization",
-  "k": "south korea pushes agentic ai small modular reactor commercialization",
-  "id": "14c3d3d3"
- },
- {
-  "date": "2026-07-23",
   "title": "카이로스 파워, 7월 28일 오크릿지 원자로 논의 예정",
   "summary": "카이로스 파워(Kairos Power)의 지도부가 오크릿지(Oak Ridge) 원자로 사업에 대해 논의할 예정이다.",
   "summaryLong": "카이로스 파워(Kairos Power)의 경영진이 7월 28일 오크릿지(Oak Ridge)에서 해당 지역의 원자로 사업을 논의하기로 했다. 구체적인 안건이나 상세 내용은 스니펫에 제시되지 않았으나, 카이로스의 용융염냉각 고온가스로(FHR) 기술 개발 및 지역 배치 계획과 관련된 논의로 추정된다.",
@@ -1405,5 +1406,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-27 15:49 KST";
-window.SMR_TOTAL = 1571;
+window.SMR_UPDATED = "2026-07-27 16:43 KST";
+window.SMR_TOTAL = 1572;
