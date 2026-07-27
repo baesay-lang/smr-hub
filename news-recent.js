@@ -134,6 +134,21 @@ window.SMR_NEWS = [
   "id": "8ef4ce74"
  },
  {
+  "date": "2026-07-27",
+  "title": "미국 롱비치(Long Beach)항, 해양 SMR 거점으로 부상",
+  "summary": "미국 롱비치항이 해양 소형모듈원자로 거점으로 개발되면서 한국 원전·조선업의 새로운 기회 제시.",
+  "summaryLong": "미국 캘리포니아 주 롱비치항이 해양 소형모듈원자로(Floating SMR, FSMS) 거점 항구로 개발·운영되기 위한 준비를 진행 중. 이는 해양 SMR의 건조·운영 기지로 북미 시장에서의 전략적 거점이 될 것으로 예상되며, 한국의 원전 기술과 조선 역량이 해양 SMR 건조·공급 분야에서 새로운 기회를 얻을 수 있음을 시사.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "US",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5284",
+  "k": "미국 롱비치항 해양 smr 거점 도약 한국 원전 조선업의 새로운 기회",
+  "ko": 1,
+  "id": "6c1825ad"
+ },
+ {
   "date": "2026-07-26",
   "title": "IAEA(국제원자력기구), 차세대 선박용 SMR '아틀라스(ATLAS)' 출범",
   "summary": "국제원자력기구(IAEA)가 해상 운송용 소형모듈원자로인 아틀라스 프로젝트를 공식 출범시켰다.",
@@ -871,21 +886,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-24",
-  "title": "현대엔지니어링, SMR 사업 집중 추진",
-  "summary": "현대엔지니어링이 소형모듈원자로(SMR) 사업에 집중하며 원전 역량을 강화하고 있다.",
-  "summaryLong": "현대엔지니어링이 소형모듈원자로(SMR) 분야에 집중 투자하면서 원자력 사업 역량을 키우고 있다. 회사는 SMR을 차세대 에너지 사업의 핵심으로 보고 사업 전략을 수립하고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "현대엔지니어링",
-  "region": "KR",
-  "source": "news.bizwatch.co.kr",
-  "url": "https://news.bizwatch.co.kr/article/real_estate/2026/07/24/0044",
-  "k": "원전 역량 키우는 현대엔지니어링 smr 집중",
-  "ko": 1,
-  "id": "1c38b538"
- },
- {
-  "date": "2026-07-24",
   "title": "테라파워(TerraPower), 미국원자력협회(INPO) 첫 고급원자로 회사로 가입",
   "summary": "테라파워가 고급원자로 개발사로서 처음으로 미국 핵연료·운영기준 전문 기관인 INPO(원자력발전운영협회)에 가입했다.",
   "summaryLong": "테라파워(TerraPower)가 고급원자로(Advanced Reactor) 개발 회사로서 최초로 미국원자력협회(INPO, Institute of Nuclear Power Operations)에 가입했다. INPO는 원자력발전 운영 및 안전 기준을 관장하는 핵심 기관이다. 이는 테라파워의 고급원자로 사업이 업계 표준 및 규제 체계로 편입되었음을 의미한다. 고급원자로 업계의 성숙도 및 규제 순응 의지를 보여주는 신호로 평가된다.",
@@ -1405,5 +1405,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-28 07:36 KST";
-window.SMR_TOTAL = 1581;
+window.SMR_UPDATED = "2026-07-28 08:15 KST";
+window.SMR_TOTAL = 1583;

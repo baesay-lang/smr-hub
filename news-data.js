@@ -141,6 +141,21 @@ window.SMR_NEWS = [
     "id": "8ef4ce74"
   },
   {
+    "date": "2026-07-27",
+    "title": "미국 롱비치(Long Beach)항, 해양 SMR 거점으로 부상",
+    "summary": "미국 롱비치항이 해양 소형모듈원자로 거점으로 개발되면서 한국 원전·조선업의 새로운 기회 제시.",
+    "summaryLong": "미국 캘리포니아 주 롱비치항이 해양 소형모듈원자로(Floating SMR, FSMS) 거점 항구로 개발·운영되기 위한 준비를 진행 중. 이는 해양 SMR의 건조·운영 기지로 북미 시장에서의 전략적 거점이 될 것으로 예상되며, 한국의 원전 기술과 조선 역량이 해양 SMR 건조·공급 분야에서 새로운 기회를 얻을 수 있음을 시사.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5284",
+    "k": "미국 롱비치항 해양 smr 거점 도약 한국 원전 조선업의 새로운 기회",
+    "ko": 1,
+    "id": "6c1825ad"
+  },
+  {
     "date": "2026-07-26",
     "title": "IAEA(국제원자력기구), 차세대 선박용 SMR '아틀라스(ATLAS)' 출범",
     "summary": "국제원자력기구(IAEA)가 해상 운송용 소형모듈원자로인 아틀라스 프로젝트를 공식 출범시켰다.",
@@ -1553,6 +1568,21 @@ window.SMR_NEWS = [
     "k": "이젠 해양 smr 시대 국립한국해양대 산 학 연 전략 소통회 개최",
     "ko": 1,
     "id": "8b1d5e37"
+  },
+  {
+    "date": "2026-07-23",
+    "title": "오클로, 연방 정부 2억 달러 프로그램으로 적정가 대비 45% 저평가 가능성 (야후파이낸스)",
+    "summary": "오클로(Oklo)가 연방 정부 2억 달러 지원 프로그램의 수혜를 받으며 주가 저평가 가능성이 제기된다.",
+    "summaryLong": "오클로가 연방 정부의 2억 달러 규모 프로그램 지원의 수혜자가 될 것으로 보도되며, 현재 주가가 적정가 대비 45% 저평가되었을 가능성이 투자 분석으로 제시되고 있다. 다만 기사는 '가능성(Could Be)' 표현으로 추측성 투자 분석이며, 연방 지원 프로그램 자체는 SMR 정책 차원에서 의미가 있으나, 대부분 주가 투자 칼럼 성격이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-oklo-could-45-below-211334506.html",
+    "k": "oklo oklo could be 45 below fair value following 200 million federal program",
+    "op": 1,
+    "id": "100863e4"
   },
   {
     "date": "2026-07-22",
@@ -22922,4 +22952,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-28 07:36 KST";
+window.SMR_UPDATED = "2026-07-28 08:15 KST";
