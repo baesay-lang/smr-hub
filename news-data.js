@@ -82,6 +82,21 @@ window.SMR_NEWS = [
     "id": "7cded738"
   },
   {
+    "date": "2026-07-26",
+    "title": "미국 첨단원자로 4기 임계, 한국 i-SMR 실증 속도전 과제",
+    "summary": "미국에서 첨단원자로 4기가 임계에 도달했으며, 한국의 i-SMR도 실증 속도 경쟁에 나서고 있다.",
+    "summaryLong": "미국에서 첨단원자로 4기가 임계에 도달하면서 미국의 원자력 가속화가 진행 중이다. 한국은 자체 개발 소형모듈원자로(i-SMR)의 실증 추진 속도가 중요한 과제로 지목되고 있다. 이는 미국 첨단로 개발의 진전에 대응하여 한국 SMR 기술의 상용화 일정이 강조되는 상황을 보여준다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "",
+    "region": "US|KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5265",
+    "k": "원자력 가속 첨단원자로 4기 임계 한국 i smr도 실증 속도전 과제",
+    "ko": 1,
+    "id": "d712bdf0"
+  },
+  {
     "date": "2026-07-25",
     "title": "인도, 2033년 국산 SMR 5기 가동…원전 100GW 목표",
     "summary": "인도가 2033년까지 자체 개발 소형모듈원자로(SMR) 5기를 가동하고 원전 총 100GW 달성을 목표로 하고 있다.",
@@ -830,6 +845,22 @@ window.SMR_NEWS = [
     "k": "현대엔지니어링 원자력 smr 산업 동향 사내 세미나 개최",
     "ko": 1,
     "id": "9bfa5ffc"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "해양 SMR 조기 상용화 방안 논의",
+    "summary": "해양 소형모듈원자로(SMR) 조기 상용화를 위한 방안이 논의되었다.",
+    "summaryLong": "해양 활용형 소형모듈원자로(SMR)의 조기 상용화를 추진하기 위한 논의가 진행되었다. 구체적인 참석 기관, 일정, 추진 계획 등 상세 내용은 제목과 스니펫만으로는 확인되지 않으나, SMR 상용화 정책 및 산업 동향에 관한 논의로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "maritimepress.co.kr",
+    "url": "http://www.maritimepress.co.kr/news/articleView.html?idxno=332291",
+    "k": "해양 smr 조기 상용화 방안 논의",
+    "ko": 1,
+    "op": 1,
+    "id": "333ec123"
   },
   {
     "date": "2026-07-23",
@@ -22743,4 +22774,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-27 08:45 KST";
+window.SMR_UPDATED = "2026-07-27 15:49 KST";

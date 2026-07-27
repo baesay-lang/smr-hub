@@ -75,6 +75,21 @@ window.SMR_NEWS = [
   "id": "7cded738"
  },
  {
+  "date": "2026-07-26",
+  "title": "미국 첨단원자로 4기 임계, 한국 i-SMR 실증 속도전 과제",
+  "summary": "미국에서 첨단원자로 4기가 임계에 도달했으며, 한국의 i-SMR도 실증 속도 경쟁에 나서고 있다.",
+  "summaryLong": "미국에서 첨단원자로 4기가 임계에 도달하면서 미국의 원자력 가속화가 진행 중이다. 한국은 자체 개발 소형모듈원자로(i-SMR)의 실증 추진 속도가 중요한 과제로 지목되고 있다. 이는 미국 첨단로 개발의 진전에 대응하여 한국 SMR 기술의 상용화 일정이 강조되는 상황을 보여준다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "",
+  "region": "US|KR",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5265",
+  "k": "원자력 가속 첨단원자로 4기 임계 한국 i smr도 실증 속도전 과제",
+  "ko": 1,
+  "id": "d712bdf0"
+ },
+ {
   "date": "2026-07-25",
   "title": "인도, 2033년 국산 SMR 5기 가동…원전 100GW 목표",
   "summary": "인도가 2033년까지 자체 개발 소형모듈원자로(SMR) 5기를 가동하고 원전 총 100GW 달성을 목표로 하고 있다.",
@@ -825,6 +840,22 @@ window.SMR_NEWS = [
   "id": "9bfa5ffc"
  },
  {
+  "date": "2026-07-24",
+  "title": "해양 SMR 조기 상용화 방안 논의",
+  "summary": "해양 소형모듈원자로(SMR) 조기 상용화를 위한 방안이 논의되었다.",
+  "summaryLong": "해양 활용형 소형모듈원자로(SMR)의 조기 상용화를 추진하기 위한 논의가 진행되었다. 구체적인 참석 기관, 일정, 추진 계획 등 상세 내용은 제목과 스니펫만으로는 확인되지 않으나, SMR 상용화 정책 및 산업 동향에 관한 논의로 보인다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "maritimepress.co.kr",
+  "url": "http://www.maritimepress.co.kr/news/articleView.html?idxno=332291",
+  "k": "해양 smr 조기 상용화 방안 논의",
+  "ko": 1,
+  "op": 1,
+  "id": "333ec123"
+ },
+ {
   "date": "2026-07-23",
   "title": "일본의 미국 투자 소형원전 사업, 사고 시 배상책임 논란",
   "summary": "한·미·일 관세 협상 후속으로 추진되는 SMR 사업에서 원전 사고 배상 책임 문제가 대두되고 있다.",
@@ -852,34 +883,6 @@ window.SMR_NEWS = [
   "url": "https://www.mlex.com/mlex/articles/2504202/south-korea-pushes-agentic-ai-small-modular-reactor-commercialization",
   "k": "south korea pushes agentic ai small modular reactor commercialization",
   "id": "14c3d3d3"
- },
- {
-  "date": "2026-07-23",
-  "title": "한미 부유식 SMR 플랫폼 파트너십",
-  "summary": "한국과 미국이 부유식 소형모듈원자로(SMR) 플랫폼 개발을 위한 파트너십을 추진 중이다.",
-  "summaryLong": "한국과 미국이 부유식 소형모듈원자로(SMR) 플랫폼 개발을 위한 전략적 파트너십을 체결하였다. 양국의 협력을 통해 해상 원자력 플랫폼 기술을 공동으로 개발·상용화하려는 의도로, 글로벌 부유식 SMR 시장 진출을 목표로 하고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "eurasiareview.com",
-  "url": "https://www.eurasiareview.com/23072026-south-korean-us-partnership-for-floating-smr-platform/",
-  "k": "south korean us partnership for floating smr platform",
-  "id": "a65e9371"
- },
- {
-  "date": "2026-07-23",
-  "title": "2047년까지 핵발전 용량 100GW 달성 로드맵 공개, SMR 국산화 추진",
-  "summary": "정부가 2047년 핵발전 용량 100GW 달성 로드맵을 발표하면서 국산 소형모듈원자로(SMR) 상용화를 추진 중이다.",
-  "summaryLong": "인도 정부가 2047년까지 핵발전 용량 100GW 달성을 목표로 하는 로드맵을 공개하였으며, 여기에 국산 소형모듈원자로(SMR)의 개발·상용화가 주요 과제로 포함되어 있다. SMR을 통한 분산형 원자력 발전과 국내 기술 자립을 동시에 달성하려는 국가 전략이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "",
-  "source": "ddnews.gov.in",
-  "url": "https://ddnews.gov.in/en/government-unveils-roadmap-to-achieve-100-gw-nuclear-power-capacity-by-2047-pushes-indigenous-small-modular-reactors/",
-  "k": "government unveils roadmap to achieve 100 gw nuclear power capacity by 2047 pushes indigenous small modular reactors",
-  "id": "0f2a2f1c"
  },
  {
   "date": "2026-07-23",
@@ -1402,5 +1405,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-27 08:45 KST";
-window.SMR_TOTAL = 1569;
+window.SMR_UPDATED = "2026-07-27 15:49 KST";
+window.SMR_TOTAL = 1571;
