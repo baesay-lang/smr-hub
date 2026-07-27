@@ -259,6 +259,21 @@ window.SMR_NEWS = [
     "id": "cdf3f414"
   },
   {
+    "date": "2026-07-25",
+    "title": "현대엔지니어링, 북미 SMR 사업기회 모색",
+    "summary": "현대엔지니어링이 전문가 초청 세미나를 통해 북미 SMR 사업 기회를 모색하고 있다.",
+    "summaryLong": "현대엔지니어링이 북미(North America) 지역의 소형모듈원자로(SMR) 사업 진출 기회를 모색하기 위해 전문가 초청 세미나를 개최했다. 이는 한국 대형 건설사의 SMR 시장 진입 및 사업 다각화 전략을 보여주는 사례로, 첨단원자로 분야의 국제적 사업 확대 움직임을 반영한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대엔지니어링",
+    "region": "KR",
+    "source": "asiatime.co.kr",
+    "url": "https://www.asiatime.co.kr/article/20260724500276",
+    "k": "현대엔지니어링 북미 smr 사업기회 모색 전문가 초청 세미나",
+    "ko": 1,
+    "id": "22d929f2"
+  },
+  {
     "date": "2026-07-24",
     "title": "고리 출신 원전안전협의회 위원장, 국내 첫 i-SMR 고리 유치 주도",
     "summary": "대한민국 최초 혁신형 소형모듈원전(i-SMR) 초도호기가 고리원자력본부 신고리 7·8호기 부지에 건설될 예정이다.",
@@ -22789,4 +22804,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-27 16:43 KST";
+window.SMR_UPDATED = "2026-07-27 17:16 KST";
