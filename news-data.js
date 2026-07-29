@@ -187,6 +187,82 @@ window.SMR_NEWS = [
     "id": "e230041b"
   },
   {
+    "date": "2026-07-29",
+    "title": "맥더못(McDermott)과 ULC-에너지, 네덜란드 롤스로이스(Rolls-Royce) SMR 프로젝트 진전 위해 협력",
+    "summary": "맥더못과 ULC-에너지가 네덜란드의 롤스로이스(Rolls-Royce) SMR 프로젝트 진전을 위한 협약을 체결했다.",
+    "summaryLong": "맥더못(McDermott)과 ULC-에너지(ULC-Energy)가 네덜란드에서 롤스로이스 SMR(소형모듈원자로) 프로젝트 추진을 위한 협력 협약을 체결했다. 이는 롤스로이스의 소형모듈원자로 기술을 네덜란드에서 구현하기 위한 주요 파트너십으로, 프로젝트의 구체적인 일정과 규모 등의 세부사항은 보도에 나타나지 않았다. 이 협약은 유럽(EU) 지역에서의 SMR 배치 및 개발 확대 움직임을 나타낸다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "EU",
+    "source": "oceannews.com",
+    "url": "https://oceannews.com/news/energy/mcdermott-and-ulc-energy-partner-to-advance-rolls-royce-smr-projects-in-the-netherlands/",
+    "k": "mcdermott and ulc energy partner to advance rolls royce smr projects in the netherlands",
+    "id": "60d353a9"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "SK이노베이션, 베트남에 LNG·SMR 연계 에너지 협력 방안 제시",
+    "summary": "SK이노베이션이 베트남 에너지 부문과 LNG 및 소형모듈원자로 연계 협력 방안을 논의했다.",
+    "summaryLong": "SK이노베이션 추형욱 대표이사가 16~17일 베트남을 방문하여 산업무역부(Ministry of Industry and Trade), 베트남 국영 에너지기업 PVN(Petrovietnam), 발전 자회사 PV Power와 협력 방안을 논의했다. 단기적으로는 미국(US), 호주(Australia)를 기반으로 한 액화천연가스(LNG) 공급망을 활용하여 전력 수급 안정성을 제고하고, 장기적으로는 차세대 소형모듈원자로(SMR) 분야로 협력을 확대하는 단계별 전략이다. 이는 베트남과의 에너지 및 첨단기술 협력 MOU 체결을 위한 협의로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "SK Innovation",
+    "region": "KR",
+    "source": "에너지데일리 - 전체기사",
+    "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=201844",
+    "k": "sk이노베이션 베트남에 lng smr 연계 에너지 협력 방안 제시했다",
+    "ko": 1,
+    "id": "f43c66c5"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "원전으로 청정 수소 생산…네덜란드 SMR 프로젝트 가속화",
+    "summary": "네덜란드의 SMR 프로젝트가 원자력을 이용한 청정 수소 생산으로 가속화되고 있다.",
+    "summaryLong": "네덜란드의 소형모듈원자로(SMR) 프로젝트가 원자력을 활용한 청정 수소 생산 분야로 확대되며 진전을 보이고 있다. 구체적인 프로젝트 명칭·일정·당사자는 제공된 스니펫에서 불명확하나, SMR 기술을 통한 그린 수소 생산의 실현이 추진 중임을 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "EU",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5340",
+    "k": "원전으로 청정 수소까지 만든다 네덜란드 smr 프로젝트 가속",
+    "ko": 1,
+    "id": "80747dca"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "한국 총리, 빌 게이츠와 8월 만날 듯…SMR 분야 협력 논의 전망",
+    "summary": "한국 총리가 빌 게이츠와 만나 SMR 분야 협력을 논의할 가능성이 제기되었다.",
+    "summaryLong": "한국 총리가 빌 게이츠와 8월에 만날 것으로 전망되며, 이 자리에서 소형모듈원자로(SMR) 분야의 협력이 논의될 가능성이 있다. 제공된 스니펫이 제목만 있어 구체적 일정·배경·협력 범위는 명확하지 않으나, SMR 분야 국제 협력의 가능성을 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "newsis.com",
+    "url": "https://www.newsis.com/view/NISX20260729_0003728870",
+    "k": "한 총리 빌 게이츠와 8월 만날 듯 smr 분야 협력 논의 전망",
+    "ko": 1,
+    "op": 1,
+    "id": "add2ddae"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "빌 게이츠 방한, 한국 AI·SMR 협력 확대 신호탄 되나",
+    "summary": "빌 게이츠의 방한이 한국과의 인공지능(AI), 소형모듈원자로(SMR) 협력 확대 신호로 전망된다.",
+    "summaryLong": "마이크로소프트 창업자 빌 게이츠의 방한이 임박한 가운데 한국과 테라파워(TerraPower) 등 소형모듈원자로(SMR) 개발사 간의 협력 확대 신호로 관측되고 있다. 게이츠는 테라파워 회장으로서 첨단 핵기술 개발을 주도해온 인물이며, 이번 방한은 한국 정부의 원자력 정책 전환과 맞물려 한·미 SMR 협력 강화의 계기가 될 수 있다. 다만 구체적인 협력 내용, 계약, 투자 규모 등은 아직 공식화되지 않았다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "KR",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/ICT/2026/07/202607291957326672cd0bfacc1c_1",
+    "k": "빌 게이츠 방한 초읽기 ai smr 협력 확대 신호탄 되나",
+    "ko": 1,
+    "op": 1,
+    "id": "3f7411ca"
+  },
+  {
     "date": "2026-07-28",
     "title": "[인터뷰] 대한전기산업연합회, SMR 등 적기 표준 마련 추진",
     "summary": "대한전기산업연합회가 SMR 등 신규 기술에 대한 산업 표준 마련을 추진한다고 밝혔다.",
@@ -23638,4 +23714,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-30 07:33 KST";
+window.SMR_UPDATED = "2026-07-30 08:08 KST";
