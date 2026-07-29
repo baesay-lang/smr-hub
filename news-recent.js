@@ -62,6 +62,21 @@ window.SMR_NEWS = [
   "id": "84f90650"
  },
  {
+  "date": "2026-07-29",
+  "title": "한국 전기산업연합회, SMR 등 신기술용 기술기준 확대 추진",
+  "summary": "대한전기산업연합회가 KEPIC(한국 전력산업 코드) 운영 관련 SMR 등 신기술에 대한 성능·위험도 기반의 기술기준 강화를 발표했다.",
+  "summaryLong": "법정단체로 출범한 대한전기산업연합회가 2026 KEPIC-Week 개최를 앞두고, AI·SMR 등 신기술에 대해 성능·위험도 기반의 기술기준을 확대하고 국제표준화와의 정합성을 강화하겠다고 밝혔다. KEPIC(한국 전력산업 코드)은 전력설비의 설계·제작·시공·운전·유지·검사·해체 등에 필요한 기술적·제도적 요건을 규정한 민간 단체표준이며, 이번 기준 확대는 국내 SMR 산업의 규제 기반 정비 움직임으로 해석된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "투데이에너지 - 전체기사",
+  "url": "https://www.todayenergy.kr/news/articleView.html?idxno=300969",
+  "k": "전기산업연합회 smr 등 신기술 성능 위험도 기반 기술기준 확대",
+  "ko": 1,
+  "id": "cbe37a9b"
+ },
+ {
   "date": "2026-07-28",
   "title": "[인터뷰] 대한전기산업연합회, SMR 등 적기 표준 마련 추진",
   "summary": "대한전기산업연합회가 SMR 등 신규 기술에 대한 산업 표준 마련을 추진한다고 밝혔다.",
@@ -372,6 +387,36 @@ window.SMR_NEWS = [
   "k": "롱비치 해양 smr 시동 한국 에너지 안보의 새 항로",
   "ko": 1,
   "id": "ee79a822"
+ },
+ {
+  "date": "2026-07-28",
+  "title": "미국 SMR 개발사 테레스트리얼 에너지, 텍사스에 4세대 원자로 시범 플랜트 건설",
+  "summary": "미국의 SMR 개발사 테레스트리얼 에너지(Terrestrial Energy)가 텍사스에서 4세대 원자로 시범 플랜트 건설을 추진하고 있다.",
+  "summaryLong": "미국의 소형모듈원자로(SMR) 개발사인 테레스트리얼 에너지(Terrestrial Energy)가 텍사스에 차세대(4세대) 원자로 시범 플랜트(파일럿 플랜트) 건설을 계획하고 있다. 테레스트리얼 에너지는 용융염냉각 고온 원자로(molten salt reactor) 기술을 개발 중인 회사로, 이 시범 플랜트는 첨단 노형의 기술 검증 및 규제 인허가 기반 마련을 위한 중요 마일스톤이 될 것으로 예상된다.",
+  "cat": "기술",
+  "type": "MSR",
+  "dev": "Terrestrial Energy",
+  "region": "US",
+  "source": "theguru.co.kr",
+  "url": "https://theguru.co.kr/news/article.html?no=105044",
+  "k": "smr 테레스트리얼 에너지 텍사스에 4세대 원자로 시범 플랜트 짓는다",
+  "ko": 1,
+  "id": "81682a84"
+ },
+ {
+  "date": "2026-07-28",
+  "title": "러시아 해상 원전의 안전성 입증, 한국형 해양 SMR에 압박",
+  "summary": "러시아의 해상 원전이 안전성을 입증하면서 한국의 해양 소형모듈원자로 개발에 경쟁 압박이 가해지고 있다.",
+  "summaryLong": "러시아가 운영 중인 해상 원자력발전소의 안전성 운영 실적이 국제적으로 인정되면서, 한국이 개발 중인 해양형 소형모듈원자로(해양 SMR)의 경쟁력 강화에 긴급성이 대두되고 있다. 러시아의 해상 원전 성공 사례는 글로벌 해양 에너지 시장에서의 기술 선점 경쟁을 심화시키고 있으며, 한국 SMR 산업의 국제 경쟁력 확보에 대한 우려와 함께 개발 속도 제고의 필요성을 부각시키고 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5317",
+  "k": "얼음 바다 녹이는 러시아 해상 원전 안전성 입증 한국형 해양 smr 발등의 불",
+  "ko": 1,
+  "id": "7b8141de"
  },
  {
   "date": "2026-07-27",
@@ -848,50 +893,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-24",
-  "title": "정부, SMR을 국가전략산업으로 육성…글로벌 시장 선점 종합 로드맵 공식화",
-  "summary": "정부가 소형모듈원자로(SMR)를 미래 국가전략산업으로 육성하기 위한 종합 로드맵을 공식화했다. 수요 창출·공급망 구축·핵연료 확보·실증·안전규제 개선·사업화까지 전주기 육성체계를 제시했다.",
-  "summaryLong": "정부가 차세대 소형모듈원자로(SMR)를 미래 국가전략산업으로 지정하고 이를 육성하기 위한 종합 로드맵을 공식화했다. 이번 대책은 단순한 연구개발(R&D) 지원을 넘어 수요 창출·공급망 구축·핵연료 확보·실증·안전규제 개선·사업화에 이르는 전주기 육성체계를 제시하면서 글로벌 SMR 시장 선점을 위한 국가 차원의 전략적 추진을 선언했다. 이는 원전 산업의 범위를 기존 대형원전 중심에서 차세대 원전 산업으로 확장하는 한편, 인공지능(AI)과 함께 국가의 미래 성장축으로 설정하는 의미를 지닌다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "에너지데일리 - 전체기사",
-  "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=201714",
-  "k": "분석 정부 smr 국가전략산업 승부수 원전 수출 넘어 차세대 에너지 패권 경쟁 돌입",
-  "ko": 1,
-  "id": "70e095bd"
- },
- {
-  "date": "2026-07-24",
-  "title": "미국 대사, \"한·미·일 SMR 협력이 최우선 과제\"",
-  "summary": "케빈 김(Kevin Kim) 주아세안(ASEAN) 미국대사가 한국·미국·일본이 함께 추진하기로 한 소형모듈원자로(SMR) 협력이 최우선 과제라고 밝혔다.",
-  "summaryLong": "케빈 김(Kevin Kim) 주아세안(ASEAN) 미국대사는 한국·미국·일본 삼국이 함께 추진하기로 한 소형모듈원자로(SMR) 협력을 최우선 과제로 지정하고, 향후 구체적 논의를 지속하겠다는 입장을 표명했다. 이는 인도태평양 지역에서의 청정에너지 협력과 에너지 안보 강화라는 전략적 맥락에서 SMR 개발·배포가 갖는 중요성을 반영한 것이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "연합뉴스 최신기사",
-  "url": "https://www.yna.co.kr/view/AKR20260724102500504",
-  "k": "케빈 김 smr 협력은 최우선 과제 구체적 논의 이어갈 것",
-  "ko": 1,
-  "id": "bbf1fb4d"
- },
- {
-  "date": "2026-07-24",
-  "title": "롱비치항(Port of Long Beach), 미국 최초 항만으로 해양성 SMR 협약 체결",
-  "summary": "롱비치항(Port of Long Beach)이 미국 해양청(MARAD)과 소형모듈원자로(SMR) 협약을 체결하여 미국 항만 중 최초로 해양성 SMR 협력에 나섰다.",
-  "summaryLong": "롱비치항(Port of Long Beach)이 미국 해양청(MARAD, Maritime Administration)과 소형모듈원자로(SMR) 협약을 체결했다. 미국 항만 중 처음으로 진행되는 이 협력은 해양 운송 및 항만 운영의 탈탄소화를 위한 해양성 SMR의 활용 가능성을 탐색하는 협약으로, 차세대 청정에너지 기술 도입의 실질적 진전을 의미한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "indexbox.io",
-  "url": "https://www.indexbox.io/blog/port-of-long-beach-becomes-first-us-seaport-to-sign-smr-agreement-with-marad/",
-  "k": "port of long beach becomes first u s seaport to sign smr agreement with marad",
-  "id": "ad504b4a"
- },
- {
-  "date": "2026-07-24",
   "title": "GE 버노바 히타치·벨란, BWRX-300 밸브 공급 계약 체결",
   "summary": "GE 버노바 히타치와 벨란(Velan)이 유럽 지역 BWRX-300 소형모듈원자로용 밸브 공급 계약을 체결했다.",
   "summaryLong": "GE 버노바 히타치와 밸란(Velan)은 유럽(EU) 지역 BWRX-300 소형모듈원자로(SMR) 프로젝트용 밸브 공급 계약을 체결했다. 이는 BWRX-300의 유럽 전개를 위한 공급망 구축의 핵심 부품 협력 사례이다.",
@@ -1058,20 +1059,6 @@ window.SMR_NEWS = [
   "url": "https://asiatimes.com/2026/07/us-firm-holtec-bets-big-on-small-modular-nuclear-reactors-in-ipo/",
   "k": "us firm holtec bets big on small modular nuclear reactors in ipo",
   "id": "b1dc37ce"
- },
- {
-  "date": "2026-07-18",
-  "title": "용융염원자로 탑재 핵추진선 설계, 미국 기관 승인 획득",
-  "summary": "이중 용융염원자로(MSR)를 탑재한 핵추진선 설계가 미국 규제 기관으로부터 승인을 받음.",
-  "summaryLong": "이중 용융염원자로(MSR)를 탑재한 핵추진선 설계 개념이 미국 관련 기관으로부터 기본 승인(예비 설계 승인)을 획득했다고 보도됨. 용융염 기술을 선박 추진에 적용하는 첨단로 활용 사례로, 규제 기관의 설계 검토·승인을 거쳐 개념설계 단계를 진전시킨 의미 있는 마일스톤. SMR·첨단로 개발의 다양한 활용 분야 확대를 보여주는 사례.",
-  "cat": "기술",
-  "type": "MSR",
-  "dev": "",
-  "region": "US",
-  "source": "interestingengineering.com",
-  "url": "https://interestingengineering.com/energy/nuclear-powered-ship-design-salt-reactors",
-  "k": "nuclear powered ship design with dual molten salt reactors wins approval from us body",
-  "id": "c245903a"
  },
  {
   "date": "2026-07-16",
@@ -1439,5 +1426,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-29 15:15 KST";
-window.SMR_TOTAL = 1614;
+window.SMR_UPDATED = "2026-07-29 15:41 KST";
+window.SMR_TOTAL = 1617;
