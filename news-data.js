@@ -99,6 +99,94 @@ window.SMR_NEWS = [
     "id": "b105640b"
   },
   {
+    "date": "2026-07-29",
+    "title": "맥더못, 네덜란드 롤스로이스 SMR 프로젝트 지원",
+    "summary": "네덜란드 원자력 개발사 ULC-Energy가 미국 엔지니어링·건설사 McDermott과 협력 협약을 체결하여 네덜란드 내 롤스로이스(Rolls-Royce) SMR 프로젝트 개발을 지원한다.",
+    "summaryLong": "네덜란드 원자력 개발 회사 ULC-Energy가 미국 기반 엔지니어링 및 건설 회사 McDermott과 협력 협약을 체결했다. 이 협약은 네덜란드에서 진행되는 롤스로이스(Rolls-Royce) SMR 프로젝트 개발을 지원하기 위한 것이다. McDermott은 설계, 엔지니어링, 구매 및 건설 관리 등 광범위한 서비스를 제공할 예정이다. 이는 유럽, 특히 네덜란드에서의 소형모듈원자로(SMR) 배치 확대를 위한 국제 협력의 사례이며, 롤스로이스의 SMR 상용화 진행의 중요한 진전이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "롤스로이스 SMR, ULC-Energy",
+    "region": "EU",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/mcdermott-to-support-dutch-deployment-of-rolls-royce-smr",
+    "k": "mcdermott to support potential dutch rolls royce smr projects",
+    "id": "2d286fd6"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "엑스에너지, 6천만 달러 규모 AI-원자력 프로메테우스 프로젝트 참여",
+    "summary": "엑스에너지(X-energy)가 6천만 달러 규모의 AI-원자력 프로메테우스(Prometheus) 프로젝트에 참여한다.",
+    "summaryLong": "고온가스로(HTGR) 개발사 엑스에너지(X-energy)가 6천만 달러(60M) 규모의 AI-원자력 프로메테우스(Prometheus) 프로젝트에 참여한다는 소식이다. 이 프로젝트는 인공지능(AI) 기술과 원자력을 결합하여 원자로 운영 최적화 및 안전성 강화를 추구하는 국책 또는 협력 프로그램으로 추정된다. 엑스에너지의 참여는 첨단로 기술과 AI의 융합 추세를 보여주며, 회사의 기술 개발 역량 강화를 의미한다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "엑스에너지",
+    "region": "US",
+    "source": "esgnews.com",
+    "url": "https://esgnews.com/x-energy-joins-60m-ai-nuclear-prometheus-project/",
+    "k": "x energy joins 60m ai nuclear prometheus project",
+    "id": "0f643297"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "오클로, 그로브스 시험로에 대한 미국 에너지부 시작 승인 획득",
+    "summary": "오클로(Oklo)가 그로브스(Groves) 시험로에 대해 미국 에너지부(DOE) 스타트업 승인을 획득했다.",
+    "summaryLong": "고속로 개발사 오클로(Oklo)가 자사의 그로브스(Groves) 시험로 프로젝트에 대해 미국 에너지부(DOE)로부터 스타트업(Start-up) 승인을 획득했다. 이는 원자로 운영을 위한 주요 규제 마일스톤으로, 설계 확정 이후 실제 운영 허가로 진행되는 과정의 중요한 단계이다. 이 승인은 오클로의 나트륨냉각고속로(SFR) 기술 상용화 추진이 규제 단계에서 실질적 진전을 이뤘음을 의미한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "오클로",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-oklo-wins-doe-startup-120743224.html",
+    "k": "oklo oklo wins doe startup approval for its groves test reactor",
+    "id": "35660e6d"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "빌 게이츠 방한…한국 기업과 SMR 공급망 논의",
+    "summary": "테라파워 회장 빌 게이츠가 한국을 방문해 국내 기업들과 SMR 공급망 협력을 논의했다.",
+    "summaryLong": "테라파워(TerraPower) 회장이자 빌앤멜린다게이츠재단(Bill & Melinda Gates Foundation) 의장인 빌 게이츠가 한국 방문 중 국내 원자력 기업들과 소형모듈원자로(SMR) 공급망 구축 및 협력 방안을 논의했다. 이는 테라파워의 고속로(SFR) 기술과 한국의 원전 부품·소재 역량을 결합하는 글로벌 공급망 전략의 일환으로 보이며, 한국이 SMR 생태계에서 핵심 공급업체로 포지셔닝되고 있음을 시사한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "테라파워",
+    "region": "US",
+    "source": "hankyung.com",
+    "url": "https://www.hankyung.com/article/2026072937601",
+    "k": "단독 빌 게이츠 방한 기업과 smr 공급망 논의",
+    "ko": 1,
+    "id": "2c9c5ae8"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "KEPIC, AI·SMR 시대 맞춰 기술기준 확대·산업계 지원 강화",
+    "summary": "한국전력기술(KEPIC)이 AI·SMR 시대 대비 기술기준 확대 및 산업계 지원을 강화하기로 했다.",
+    "summaryLong": "한국전력기술(Korea Electric Power Industry Code, KEPIC)이 인공지능(AI)과 소형모듈원자로(SMR) 시대 도래에 대비해 원자력 기술기준(Code) 확대 및 산업계 기술 지원을 강화하는 정책을 추진하고 있다. 이는 국내 원자력 규제·기준 체계를 SMR·첨단로 설계·건설·운영 요구사항에 맞춰 현대화하는 정책 차원의 조치로, SMR 상용화 환경 조성을 위한 정부·규제 기관의 의지를 나타낸다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "inpnews.kr",
+    "url": "https://www.inpnews.kr/news/articleView.html?idxno=7371",
+    "k": "kepic ai smr 시대 맞춰 기술기준 확대 산업계 지원 강화",
+    "ko": 1,
+    "id": "b105640b"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "빌 게이츠 8월 방한… 한·미 SMR(소형모듈원자로) 동맹 강화",
+    "summary": "빌 게이츠 테라파워(TerraPower) 회장이 8월 방한하여 한국과 미국의 SMR 협력을 강화할 예정이다.",
+    "summaryLong": "빌 게이츠가 이끄는 미국의 첨단 원자로 개발사 테라파워(TerraPower) 회장이 8월 한국을 방문하여 한·미 SMR 동맹을 강화할 계획이다. 이는 한국이 원자력 발전을 부활시키는 정책 기조 속에서 이루어지는 것으로, 양국 간 SMR 기술 협력 및 파트너십 심화를 의미한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "KR",
+    "source": "segye.com",
+    "url": "https://www.segye.com/newsView/20260729518839?OutUrl=google",
+    "k": "빌 게이츠 8월 방한 한 미 smr동맹 강화",
+    "ko": 1,
+    "op": 1,
+    "id": "e230041b"
+  },
+  {
     "date": "2026-07-28",
     "title": "[인터뷰] 대한전기산업연합회, SMR 등 적기 표준 마련 추진",
     "summary": "대한전기산업연합회가 SMR 등 신규 기술에 대한 산업 표준 마련을 추진한다고 밝혔다.",
@@ -439,6 +527,21 @@ window.SMR_NEWS = [
     "k": "얼음 바다 녹이는 러시아 해상 원전 안전성 입증 한국형 해양 smr 발등의 불",
     "ko": 1,
     "id": "7b8141de"
+  },
+  {
+    "date": "2026-07-28",
+    "title": "2026 KEPIC-Week 대한전기산업연합회 \"SMR·AI 시대 연다\"",
+    "summary": "대한전기산업연합회가 2026 KEPIC-Week에서 SMR·AI 시대 개막을 선포했다.",
+    "summaryLong": "대한전기산업연합회가 2026 KEPIC-Week 행사에서 소형모듈원자로(SMR)와 인공지능(AI) 결합 시대 도래를 선포했다. 한국 전기·원자력 산업의 디지털 전환과 첨단로 중심의 에너지 정책 방향을 반영한 정책 메시지로, 국가 차원의 SMR 산업 육성 전략을 나타낸다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "energykorea.co.kr",
+    "url": "https://www.energykorea.co.kr/news/articleView.html?idxno=65890",
+    "k": "2026 kepic week 대한전기산업연합회 smr ai 시대 연다",
+    "ko": 1,
+    "id": "4d59375b"
   },
   {
     "date": "2026-07-27",
@@ -1592,6 +1695,21 @@ window.SMR_NEWS = [
     "k": "원자력 smr 동력 확보 현대엔지니어링 전문가 초청 세미나 개최",
     "ko": 1,
     "id": "cdb53224"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "현대엔지니어링 원자력·SMR 전문가 초청 세미나, \"기술 경쟁력 지속 강화\"",
+    "summary": "현대엔지니어링이 원자력·SMR 분야 전문가를 초청해 기술 경쟁력 강화를 위한 세미나를 개최했다.",
+    "summaryLong": "현대엔지니어링이 원자력·소형모듈원자로(SMR) 분야 전문가를 초청하여 기술 경쟁력 강화를 위한 세미나를 개최했다. 국내 주요 건설·엔지니어링 업체의 SMR 사업 역량 강화 움직임을 보여주는 행사로, 첨단로 기술 습득과 국제 경쟁력 제고를 위한 전략적 투자를 나타낸다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대엔지니어링",
+    "region": "KR",
+    "source": "businesspost.co.kr",
+    "url": "https://www.businesspost.co.kr/BP?command=article_view&num=443114",
+    "k": "현대엔지니어링 원자력 smr 전문가 초청 세미나 기술 경쟁력 지속 강화",
+    "ko": 1,
+    "id": "1de1b9e8"
   },
   {
     "date": "2026-07-23",
@@ -23520,4 +23638,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-29 16:33 KST";
+window.SMR_UPDATED = "2026-07-30 07:33 KST";
