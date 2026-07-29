@@ -256,6 +256,52 @@ window.SMR_NEWS = [
   "id": "3f7411ca"
  },
  {
+  "date": "2026-07-29",
+  "title": "맥더못(McDermott)과 ULC-에너지(ULC-Energy), 네덜란드 롤스로이스 SMR 프로젝트 진전 협약",
+  "summary": "맥더못이 ULC-에너지와 네덜란드에서의 롤스로이스(Rolls-Royce) SMR 사업 추진을 위한 협약을 체결",
+  "summaryLong": "엔지니어링 기업 맥더못(McDermott)과 ULC-에너지(ULC-Energy)가 네덜란드에서 롤스로이스 SMR 프로젝트를 진전시키기 위한 협약을 체결했다. 이는 유럽에서 소형모듈원자로 도입을 위한 파트너십 강화를 의미하는 것으로, 롤스로이스의 소형모듈원자로 사업 추진의 구체적인 진전을 나타내는 사항이다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "Rolls-Royce",
+  "region": "EU",
+  "source": "energynews.pro",
+  "url": "https://energynews.pro/en/mcdermott-and-ulc-energy-sign-agreement-to-advance-rolls-royce-smr-projects-in-netherlands",
+  "k": "mcdermott and ulc energy sign agreement to advance rolls royce smr projects in netherlands",
+  "id": "1646d17f"
+ },
+ {
+  "date": "2026-07-29",
+  "title": "SK이노베이션, 베트남 AI 전력수요 대응…LNG부터 SMR까지 단계별 협력 제안",
+  "summary": "SK이노베이션이 베트남의 인공지능(AI) 전력수요 대응을 위해 LNG에서 SMR까지 단계적 에너지 협력 방안을 제안했다.",
+  "summaryLong": "SK이노베이션이 베트남의 인공지능(AI) 급증으로 인한 전력수요 증가에 대응하기 위해 액화천연가스(LNG)부터 소형모듈원자로(SMR)까지 단계적 에너지 협력 방안을 제시했습니다. 초기 LNG 공급으로 즉각적인 수요를 충족하고, 중·장기적으로 SMR 도입을 통한 저탄소 전력 공급 체계 구축을 제안하고 있습니다. 이는 베트남의 에너지 정책과 글로벌 탄소중립 목표에 부합하는 포괄적 협력 모델로, SK이노베이션의 SMR 사업 국제화 노력을 반영합니다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "SK이노베이션",
+  "region": "KR",
+  "source": "eroun.net",
+  "url": "https://www.eroun.net/news/articleView.html?idxno=86549",
+  "k": "sk이노베이션 베트남 ai 전력수요 대응 제안 lng부터 smr까지 단계별 협력",
+  "ko": 1,
+  "op": 1,
+  "id": "6a344298"
+ },
+ {
+  "date": "2026-07-29",
+  "title": "빌 게이츠, 내달 방한…SMR 동맹 강화",
+  "summary": "빌 게이츠가 내달 한국을 방문하여 SMR 동맹 강화 협력을 추진한다.",
+  "summaryLong": "테라파워(TerraPower) 회장인 빌 게이츠가 내달 서울을 방문하여 한국과의 소형모듈원자로(SMR) 협력 관계 강화를 도모할 예정이다. 한국의 원자력 정책 부활 배경 속에서 테라파워와 한국 간 전략적 파트너십 심화가 예상된다. 이는 글로벌 SMR 개발사와 한국의 정책적 연계를 나타내는 중요한 신호로 평가된다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "KR",
+  "source": "news.nate.com",
+  "url": "https://news.nate.com/view/20260729n34344",
+  "k": "빌 게이츠 내달 방한 smr동맹 강화",
+  "ko": 1,
+  "op": 1,
+  "id": "3bb2c8bd"
+ },
+ {
   "date": "2026-07-28",
   "title": "[인터뷰] 대한전기산업연합회, SMR 등 적기 표준 마련 추진",
   "summary": "대한전기산업연합회가 SMR 등 신규 기술에 대한 산업 표준 마련을 추진한다고 밝혔다.",
@@ -851,50 +897,6 @@ window.SMR_NEWS = [
   "id": "54da28e3"
  },
  {
-  "date": "2026-07-26",
-  "title": "국제원자력기구(IAEA), '원전 설계 단계부터 핵비확산 고려' 원칙 강조…한국 소형모듈원자로(SMR) 수출 경쟁력 강화",
-  "summary": "국제원자력기구(IAEA)가 원자로 설계 단계부터의 핵비확산 중요성을 강조함으로써 한국 소형모듈원자로(SMR)의 국제 경쟁력이 부각되고 있다.",
-  "summaryLong": "국제원자력기구(IAEA)가 원자로 설계 초기 단계부터 핵비확산을 고려하는 원칙의 중요성을 제시했다. 이는 핵비확산 측면에서 강화된 설계 기준을 의미하며, 한국의 소형모듈원자로(SMR) 기술이 이러한 국제 규제 기준을 충족함으로써 수출 시 경쟁 우위를 확보할 수 있음을 시사한다. 국제 규제 틀의 변화가 한국 소형모듈원자로(SMR)의 수출 전략에 긍정적 영향을 미칠 수 있는 환경을 조성하는 내용이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5260",
-  "k": "iaea 원전 설계부터 핵비확산 한국 smr 수출 새 경쟁력",
-  "ko": 1,
-  "id": "dc12c5cf"
- },
- {
-  "date": "2026-07-26",
-  "title": "미국 원자력규제위원회(NRC), 마이크로원자로 운송규제 개정 추진…한국 소형모듈원자로(K-SMR)의 과제 제시",
-  "summary": "미국 원자력규제위원회(NRC)가 마이크로원자로의 운송 규제를 손질하고 있으며, 이는 한국 소형모듈원자로(K-SMR)의 국제 진출에 영향을 미칠 것으로 보인다.",
-  "summaryLong": "미국 원자력규제위원회(NRC)가 마이크로원자로의 운송 관련 규제를 개정하는 작업을 진행 중이다. 마이크로원자로는 상대적으로 소형이고 이동 가능한 특성 때문에 운송 규제가 중요한 이슈이며, 미국의 규제 기준 변화는 한국 소형모듈원자로(K-SMR)의 국제 수출 및 인허가 과정에서 고려해야 할 규제 요건으로 작용할 수 있다. 미국의 규제 방향 전환이 한국 원자력 산업에 미칠 규제 정책 측면의 함의를 다루는 내용이다.",
-  "cat": "기술",
-  "type": "Micro",
-  "dev": "",
-  "region": "US",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5264",
-  "k": "nrc 마이크로원자로 운송규제 손질 k smr 과제는",
-  "ko": 1,
-  "id": "d812bf83"
- },
- {
-  "date": "2026-07-26",
-  "title": "미 에너지부(DOE), 오클로 연구용 원자로 운영 허가",
-  "summary": "미 에너지부(DOE)가 텍사스의 오클로(Oklo) 연구용 원자로 운영을 승인했다.",
-  "summaryLong": "미 에너지부(DOE)가 오클로(Oklo)의 텍사스 연구용 원자로 운영을 공식 허가했다. 이는 오클로의 고속로 기술 개발 과정에서 중요한 진전을 의미한다. 연구용 원자로 운영 승인은 향후 상용화로 향한 실증 과정의 핵심 마일스톤이다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "neutronbytes.com",
-  "url": "https://neutronbytes.com/2026/07/26/doe-oks-startup-of-oklo-research-reactor-in-texas/",
-  "k": "doe oks startup of oklo research reactor in texas",
-  "id": "7cded738"
- },
- {
   "date": "2026-07-24",
   "title": "GE 버노바 히타치·벨란, BWRX-300 밸브 공급 계약 체결",
   "summary": "GE 버노바 히타치와 벨란(Velan)이 유럽 지역 BWRX-300 소형모듈원자로용 밸브 공급 계약을 체결했다.",
@@ -1415,5 +1417,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-30 08:08 KST";
-window.SMR_TOTAL = 1634;
+window.SMR_UPDATED = "2026-07-30 08:46 KST";
+window.SMR_TOTAL = 1638;

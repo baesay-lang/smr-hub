@@ -263,6 +263,52 @@ window.SMR_NEWS = [
     "id": "3f7411ca"
   },
   {
+    "date": "2026-07-29",
+    "title": "맥더못(McDermott)과 ULC-에너지(ULC-Energy), 네덜란드 롤스로이스 SMR 프로젝트 진전 협약",
+    "summary": "맥더못이 ULC-에너지와 네덜란드에서의 롤스로이스(Rolls-Royce) SMR 사업 추진을 위한 협약을 체결",
+    "summaryLong": "엔지니어링 기업 맥더못(McDermott)과 ULC-에너지(ULC-Energy)가 네덜란드에서 롤스로이스 SMR 프로젝트를 진전시키기 위한 협약을 체결했다. 이는 유럽에서 소형모듈원자로 도입을 위한 파트너십 강화를 의미하는 것으로, 롤스로이스의 소형모듈원자로 사업 추진의 구체적인 진전을 나타내는 사항이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "EU",
+    "source": "energynews.pro",
+    "url": "https://energynews.pro/en/mcdermott-and-ulc-energy-sign-agreement-to-advance-rolls-royce-smr-projects-in-netherlands",
+    "k": "mcdermott and ulc energy sign agreement to advance rolls royce smr projects in netherlands",
+    "id": "1646d17f"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "SK이노베이션, 베트남 AI 전력수요 대응…LNG부터 SMR까지 단계별 협력 제안",
+    "summary": "SK이노베이션이 베트남의 인공지능(AI) 전력수요 대응을 위해 LNG에서 SMR까지 단계적 에너지 협력 방안을 제안했다.",
+    "summaryLong": "SK이노베이션이 베트남의 인공지능(AI) 급증으로 인한 전력수요 증가에 대응하기 위해 액화천연가스(LNG)부터 소형모듈원자로(SMR)까지 단계적 에너지 협력 방안을 제시했습니다. 초기 LNG 공급으로 즉각적인 수요를 충족하고, 중·장기적으로 SMR 도입을 통한 저탄소 전력 공급 체계 구축을 제안하고 있습니다. 이는 베트남의 에너지 정책과 글로벌 탄소중립 목표에 부합하는 포괄적 협력 모델로, SK이노베이션의 SMR 사업 국제화 노력을 반영합니다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "SK이노베이션",
+    "region": "KR",
+    "source": "eroun.net",
+    "url": "https://www.eroun.net/news/articleView.html?idxno=86549",
+    "k": "sk이노베이션 베트남 ai 전력수요 대응 제안 lng부터 smr까지 단계별 협력",
+    "ko": 1,
+    "op": 1,
+    "id": "6a344298"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "빌 게이츠, 내달 방한…SMR 동맹 강화",
+    "summary": "빌 게이츠가 내달 한국을 방문하여 SMR 동맹 강화 협력을 추진한다.",
+    "summaryLong": "테라파워(TerraPower) 회장인 빌 게이츠가 내달 서울을 방문하여 한국과의 소형모듈원자로(SMR) 협력 관계 강화를 도모할 예정이다. 한국의 원자력 정책 부활 배경 속에서 테라파워와 한국 간 전략적 파트너십 심화가 예상된다. 이는 글로벌 SMR 개발사와 한국의 정책적 연계를 나타내는 중요한 신호로 평가된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "KR",
+    "source": "news.nate.com",
+    "url": "https://news.nate.com/view/20260729n34344",
+    "k": "빌 게이츠 내달 방한 smr동맹 강화",
+    "ko": 1,
+    "op": 1,
+    "id": "3bb2c8bd"
+  },
+  {
     "date": "2026-07-28",
     "title": "[인터뷰] 대한전기산업연합회, SMR 등 적기 표준 마련 추진",
     "summary": "대한전기산업연합회가 SMR 등 신규 기술에 대한 산업 표준 마련을 추진한다고 밝혔다.",
@@ -1786,6 +1832,21 @@ window.SMR_NEWS = [
     "k": "현대엔지니어링 원자력 smr 전문가 초청 세미나 기술 경쟁력 지속 강화",
     "ko": 1,
     "id": "1de1b9e8"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "현대엔지니어링, 미국 원자력 전문가 초청 세미나 개최…SMR·핵융합 사업 추진",
+    "summary": "현대엔지니어링이 미국(US) 원자력 전문가를 초청한 세미나를 열고 SMR·핵융합 사업을 추진 중이다.",
+    "summaryLong": "현대엔지니어링이 미국(US)의 원자력 전문가를 초청하여 세미나를 개최하고 소형모듈원자로(SMR)와 핵융합 사업 추진을 가속화하고 있습니다. 북미 지역의 원자력 및 SMR 규제·산업 동향을 공유하며 기술 협력과 시장 진출 기반을 다지는 전략적 움직임으로, 현대엔지니어링의 차세대 원전 사업 포트폴리오 확대 의지를 드러냅니다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대엔지니어링",
+    "region": "US",
+    "source": "paxetv.com",
+    "url": "http://www.paxetv.com/news/articleView.html?idxno=277826",
+    "k": "현대엔지니어링 원자력 전문가 초청 세미나 개최 smr 핵융합 사업 박차",
+    "ko": 1,
+    "id": "81e23066"
   },
   {
     "date": "2026-07-23",
@@ -23714,4 +23775,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-30 08:08 KST";
+window.SMR_UPDATED = "2026-07-30 08:46 KST";
