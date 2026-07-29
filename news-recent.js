@@ -1,6 +1,67 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-07-29",
+  "title": "SK이노베이션, 베트남 AI 전력시장 공략…LNG에서 SMR까지 협력",
+  "summary": "SK이노베이션이 베트남과 LNG 공급부터 소형모듈원자로(SMR) 및 에너지저장장치(ESS)까지 단계별 에너지 협력을 제시했다.",
+  "summaryLong": "SK이노베이션이 지난 16~17일 베트남을 방문하여 산업무역부 및 국영 에너지기업 PVN(Petrovietnam)과 에너지 협력을 협의했다. AI와 첨단 제조업 확산으로 전력 수요가 급증하는 베트남을 목표로 단기적으로는 미국·호주산 액화천natural가스(LNG) 공급망 구축, 장기적으로는 차세대 소형모듈원자로(SMR), 에너지저장장치(ESS), 재생에너지까지 협력 범위를 확대할 계획이다. 국내 주요 에너지 기업의 SMR 사업 다변화 및 국제 협력 추진 사례로 의미가 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "SK이노베이션",
+  "region": "KR",
+  "source": "에너지신문 - 전체기사",
+  "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=227120",
+  "k": "sk이노베이션 베트남 ai 전력시장 공략 lng에서 smr까지 협력",
+  "ko": 1,
+  "id": "33a15887"
+ },
+ {
+  "date": "2026-07-29",
+  "title": "미국 SMR 테레스트리얼 에너지, 텍사스에 4세대 원자로 시범 플랜트 건설",
+  "summary": "미국 SMR 업체 테레스트리얼 에너지가 텍사스에 4세대 원자로 시범 플랜트를 건설할 계획이다.",
+  "summaryLong": "미국(US) SMR 개발사 테레스트리얼 에너지(Terrestrial Energy)가 텍사스(Texas) 지역에 4세대 원자로 기술을 적용한 시범 플랜트 건설을 추진 중이라는 소식이다. 제목과 스니펫만 제공되어 구체적인 일정·규모·기술 세부사항은 불명확하나, SMR 실증 프로젝트의 진전으로 관련성이 높다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "Terrestrial Energy",
+  "region": "US",
+  "source": "kr.investing.com",
+  "url": "https://kr.investing.com/news/stock-market-news/article-2033309",
+  "k": "smr 테레스트리얼 에너지 텍사스에 4세대 원자로 시범 플랜트 짓는다 by the guru",
+  "ko": 1,
+  "id": "e5aa1273"
+ },
+ {
+  "date": "2026-07-29",
+  "title": "태웅, 테라파워(TerraPower) SMR 2호기 추가 수주 추진",
+  "summary": "태웅이 미국의 테라파워(TerraPower) 소형모듈원자로(SMR) 1호기에 이어 2호기 추가 수주를 추진 중이다.",
+  "summaryLong": "한국 기업 태웅이 미국 테라파워(TerraPower)의 소형모듈원자로(SMR) 사업에서 1호기 수주에 이어 2호기 추가 수주를 적극 추진하고 있다. 이는 태웅이 해외 선도 SMR 개발사와의 협력을 확대하려는 전략으로 보이며, 국내 SMR 시장 참여자의 글로벌 역할 강화를 의미한다.",
+  "cat": "계약",
+  "type": "SFR",
+  "dev": "태웅",
+  "region": "US",
+  "source": "etoday.co.kr",
+  "url": "https://www.etoday.co.kr/news/view/2608419",
+  "k": "태웅 미 테라파워 smr 1호기 이어 2호기도 추가 수주 추진",
+  "ko": 1,
+  "op": 1,
+  "id": "e26410c9"
+ },
+ {
+  "date": "2026-07-29",
+  "title": "태웅, SMR 대량생산 기술로 시장 주도 시동",
+  "summary": "태웅이 소형모듈원자로(SMR) 대량생산 기술 확보로 소형원전 시장의 주요 플레이어로 본격 진입한다.",
+  "summaryLong": "한국 기업 태웅이 소형모듈원자로(SMR)의 대량생산 기술 개발에 성공하며 글로벌 소형원전 시장에서 주도적 역할을 수행하려고 한다. 이는 기존의 일회성 수주 중심에서 벗어나 생산 효율성과 경제성을 갖춘 자체 기술 확보로 시장 경쟁력을 강화하는 전략이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "태웅",
+  "region": "KR",
+  "source": "market-ink.co.kr",
+  "url": "https://www.market-ink.co.kr/news/articleView.html?idxno=9692",
+  "k": "태웅 smr 대량생산 기술로 승부수 소형모듈원전 시장 메인 플레이어 시동",
+  "ko": 1,
+  "id": "84f90650"
+ },
+ {
   "date": "2026-07-28",
   "title": "[인터뷰] 대한전기산업연합회, SMR 등 적기 표준 마련 추진",
   "summary": "대한전기산업연합회가 SMR 등 신규 기술에 대한 산업 표준 마련을 추진한다고 밝혔다.",
@@ -296,6 +357,21 @@ window.SMR_NEWS = [
   "k": "ai 전력난 원전이 답 대형 원전 4기 smr 2기 더 지어야 두산에너빌리티 창원공장 르포",
   "ko": 1,
   "id": "e143e1e3"
+ },
+ {
+  "date": "2026-07-28",
+  "title": "롱비치 해양 SMR 시동, 한국 에너지 안보 강화",
+  "summary": "롱비치(Long Beach) 해양 소형모듈원자로(SMR)가 시동되어 한국의 에너지 안보 강화에 기여한다.",
+  "summaryLong": "미국 롱비치(Long Beach) 지역의 해양 소형모듈원자로(SMR)가 시운전을 시작했다. 이는 해상 원전 기술의 실제 가동 사례로, 한국의 해양 SMR 개발 추진에 중요한 레퍼런스가 되면서 국내 에너지 안보 강화 및 해상 원전 기술 확보의 필요성을 부각시킨다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "US",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5322",
+  "k": "롱비치 해양 smr 시동 한국 에너지 안보의 새 항로",
+  "ko": 1,
+  "id": "ee79a822"
  },
  {
   "date": "2026-07-27",
@@ -816,80 +892,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-24",
-  "title": "현대엔지니어링, 북미 원자력 전문가 초청…SMR 역량 강화",
-  "summary": "현대엔지니어링이 북미 원자력 전문가를 초청하여 SMR 사업 역량을 강화하고 있다.",
-  "summaryLong": "현대엔지니어링이 북미 원자력 전문가들을 초청하여 소형모듈원자로(SMR) 분야의 기술 역량 강화와 경쟁력 제고에 나섰다. 이는 북미 시장 진출을 위한 기술 협력 및 인적 네트워크 확대를 통해 SMR 사업의 국제 경쟁력을 높이려는 현대엔지니어링의 전략적 움직임으로 해석된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "현대엔지니어링",
-  "region": "KR",
-  "source": "v.daum.net",
-  "url": "https://v.daum.net/v/20260724114249118",
-  "k": "현대엔지니어링 북미 원자력 전문가 초청 smr 역량 강화",
-  "ko": 1,
-  "id": "01afec94"
- },
- {
-  "date": "2026-07-24",
-  "title": "정부, \"2030년 SMR 상용화\" 목표로 민관합작 생태계 조기 구축",
-  "summary": "정부가 2030년 SMR 상용화 목표 달성을 위해 민관합작 생태계 조기 구축에 총력을 기울이고 있다.",
-  "summaryLong": "정부가 2030년 소형모듈원자로(SMR) 상용화를 목표로 설정하고 민간·관·학이 협력하는 생태계 조기 구축에 집중하고 있다. 이는 정부의 종합 로드맵 수립과 함께 진행되는 실질적 추진 전략으로, 수요 창출·공급망 확보·기술 개발·규제 개선 등 다층적 지원을 통해 상용화 시점을 앞당기려는 의지를 반영한다.",
-  "cat": "계약",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "edata.ekn.kr",
-  "url": "https://edata.ekn.kr/article/view/ekn202607240001",
-  "k": "2030년 smr 상용화 대비 정부 민관합작 생태계 조기 구축 총력",
-  "ko": 1,
-  "id": "f2ea058c"
- },
- {
-  "date": "2026-07-24",
-  "title": "정부, 소형모듈원자로 육성 본격 추진",
-  "summary": "정부가 9월 시행 예정인 SMR 특별법에 따라 2027년 상반기 중으로 SMR 시스템 개발 기본계획을 수립하기로 했다.",
-  "summaryLong": "정부는 소형모듈원자로(SMR) 육성에 본격 나섰다. 과학기술정보통신부는 9월 시행 예정인 SMR 특별법에 따라 2027년 상반기 중으로 'SMR 시스템 개발 기본계획'을 수립할 계획이다. 민간-공공 합작 특수목적회사(SPC) 등 전문기업을 육성하고, 개발·제조·실증·핵연료 전 주기 공급 역량을 완비한다는 전략이다. 정부는 차세대 SMR 시장 선점을 위해 수요 발굴에도 나설 예정이며, 이는 국내 완전 피동형 소형모듈원자로 'SMART100' 등 국내 SMR 개발을 지원하는 정책이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "투데이에너지 - 전체기사",
-  "url": "https://www.todayenergy.kr/news/articleView.html?idxno=300786",
-  "k": "정부 소형모듈원자로 육성 본격 추진",
-  "ko": 1,
-  "id": "8a0980b6"
- },
- {
-  "date": "2026-07-24",
-  "title": "인도, 2033년까지 자체 개발 소형모듈원자로(SMR) 5기 계획",
-  "summary": "인도가 자국 기술로 소형모듈원자로(SMR) 5기를 2033년까지 건설하는 국책 계획을 밝혔다.",
-  "summaryLong": "인도 정부가 자국 핵기술을 바탕으로 소형모듈원자로(SMR) 5기를 2033년까지 완성하겠다는 계획을 공식 발표했다. 이는 인도의 에너지 자립 및 기술 자립 전략의 일환으로, 차세대 핵전력 개발 국책 프로그램에 해당하는 구체적인 정부 정책 수립 사항이다.",
-  "cat": "정책",
-  "type": "General",
-  "dev": "",
-  "region": "JP",
-  "source": "gktoday.in",
-  "url": "https://www.gktoday.in/india-plans-five-indigenous-small-modular-reactors-by-2033/",
-  "k": "india plans five indigenous small modular reactors by 2033",
-  "id": "df954226"
- },
- {
-  "date": "2026-07-24",
-  "title": "현대엔지니어링, 북미 원전 전문가 초청 세미나…SMR 사업 경쟁력 강화",
-  "summary": "현대엔지니어링이 북미 원전 전문가 초청 세미나를 개최해 소형모듈원자로(SMR) 사업 역량을 강화하고 있다.",
-  "summaryLong": "현대엔지니어링이 북미 지역의 원자력 발전소 운영 및 설계 전문가들을 초청하여 세미나를 개최함으로써 소형모듈원자로(SMR) 시장 진출을 위한 기술 및 비즈니스 경쟁력을 강화하고 있다. 이는 한국 기업의 SMR 사업 추진 과정에서 국제 기술 협력 및 인적 네트워크 구축을 통한 구체적인 사업 준비 활동이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "현대엔지니어링",
-  "region": "KR",
-  "source": "viva100.com",
-  "url": "https://www.viva100.com/article/20260724500425",
-  "k": "현대엔지니어링 북미 원전 전문가 초청 세미나 smr 사업 경쟁력 강화",
-  "ko": 1,
-  "id": "40458326"
- },
- {
-  "date": "2026-07-24",
   "title": "GE 버노바 히타치·벨란, BWRX-300 밸브 공급 계약 체결",
   "summary": "GE 버노바 히타치와 벨란(Velan)이 유럽 지역 BWRX-300 소형모듈원자로용 밸브 공급 계약을 체결했다.",
   "summaryLong": "GE 버노바 히타치와 밸란(Velan)은 유럽(EU) 지역 BWRX-300 소형모듈원자로(SMR) 프로젝트용 밸브 공급 계약을 체결했다. 이는 BWRX-300의 유럽 전개를 위한 공급망 구축의 핵심 부품 협력 사례이다.",
@@ -1356,20 +1358,6 @@ window.SMR_NEWS = [
   "id": "73397c42"
  },
  {
-  "date": "2026-06-18",
-  "title": "테라파워, 영국 자회사 설립 및 나트륨(Natrium) 원자로 GDA 1단계 착수",
-  "summary": "테라파워(TerraPower)가 영국(UK) 자회사를 설립하고 나트륨(Natrium) 소듐냉각고속로의 설계 인증(GDA) 1단계를 시작했다.",
-  "summaryLong": "테라파워는 영국에서의 사업 확대를 위해 영국 자회사를 신설하고, 동시에 자사의 나트륨(Natrium) 소듐냉각고속로(SFR)에 대한 영국 설계 인증(GDA, Generic Design Assessment) 1단계 신청을 공식 착수했다. GDA는 영국 원자력규제청(ONR)에 의한 신형 원자로 설계의 안전성·보안성을 평가하는 프로세스로, 이는 테라파워의 나트륨 로 기술이 영국 시장에서 상용화되기 위한 중요한 인허가 단계이다. 이번 조치는 테라파워의 국제 시장 진출 전략과 기술 검증의 가속화를 의미한다.",
-  "cat": "인허가",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "UK",
-  "source": "niauk.org",
-  "url": "https://www.niauk.org/terrapower-launches-uk-subsidiary-and-starts-gda-step-1-for-natrium-reactor/",
-  "k": "terrapower launches uk subsidiary and starts gda step 1 for natrium reactor",
-  "id": "de83fa73"
- },
- {
   "date": "2026-06-03",
   "title": "한국 i-SMRDA, 터키 Nuclean과 SMR 협력 협약 체결",
   "summary": "한국의 i-SMRDA(i-Small Modular Reactor Development Alliance)와 터키의 Nuclean이 소형모듈원자로(SMR) 개발·보급을 위한 협력 양해각서를 체결했다.",
@@ -1451,5 +1439,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-29 08:44 KST";
-window.SMR_TOTAL = 1608;
+window.SMR_UPDATED = "2026-07-29 15:15 KST";
+window.SMR_TOTAL = 1614;

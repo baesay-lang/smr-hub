@@ -8,6 +8,67 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-07-29",
+    "title": "SK이노베이션, 베트남 AI 전력시장 공략…LNG에서 SMR까지 협력",
+    "summary": "SK이노베이션이 베트남과 LNG 공급부터 소형모듈원자로(SMR) 및 에너지저장장치(ESS)까지 단계별 에너지 협력을 제시했다.",
+    "summaryLong": "SK이노베이션이 지난 16~17일 베트남을 방문하여 산업무역부 및 국영 에너지기업 PVN(Petrovietnam)과 에너지 협력을 협의했다. AI와 첨단 제조업 확산으로 전력 수요가 급증하는 베트남을 목표로 단기적으로는 미국·호주산 액화천natural가스(LNG) 공급망 구축, 장기적으로는 차세대 소형모듈원자로(SMR), 에너지저장장치(ESS), 재생에너지까지 협력 범위를 확대할 계획이다. 국내 주요 에너지 기업의 SMR 사업 다변화 및 국제 협력 추진 사례로 의미가 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "SK이노베이션",
+    "region": "KR",
+    "source": "에너지신문 - 전체기사",
+    "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=227120",
+    "k": "sk이노베이션 베트남 ai 전력시장 공략 lng에서 smr까지 협력",
+    "ko": 1,
+    "id": "33a15887"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "미국 SMR 테레스트리얼 에너지, 텍사스에 4세대 원자로 시범 플랜트 건설",
+    "summary": "미국 SMR 업체 테레스트리얼 에너지가 텍사스에 4세대 원자로 시범 플랜트를 건설할 계획이다.",
+    "summaryLong": "미국(US) SMR 개발사 테레스트리얼 에너지(Terrestrial Energy)가 텍사스(Texas) 지역에 4세대 원자로 기술을 적용한 시범 플랜트 건설을 추진 중이라는 소식이다. 제목과 스니펫만 제공되어 구체적인 일정·규모·기술 세부사항은 불명확하나, SMR 실증 프로젝트의 진전으로 관련성이 높다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Terrestrial Energy",
+    "region": "US",
+    "source": "kr.investing.com",
+    "url": "https://kr.investing.com/news/stock-market-news/article-2033309",
+    "k": "smr 테레스트리얼 에너지 텍사스에 4세대 원자로 시범 플랜트 짓는다 by the guru",
+    "ko": 1,
+    "id": "e5aa1273"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "태웅, 테라파워(TerraPower) SMR 2호기 추가 수주 추진",
+    "summary": "태웅이 미국의 테라파워(TerraPower) 소형모듈원자로(SMR) 1호기에 이어 2호기 추가 수주를 추진 중이다.",
+    "summaryLong": "한국 기업 태웅이 미국 테라파워(TerraPower)의 소형모듈원자로(SMR) 사업에서 1호기 수주에 이어 2호기 추가 수주를 적극 추진하고 있다. 이는 태웅이 해외 선도 SMR 개발사와의 협력을 확대하려는 전략으로 보이며, 국내 SMR 시장 참여자의 글로벌 역할 강화를 의미한다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "태웅",
+    "region": "US",
+    "source": "etoday.co.kr",
+    "url": "https://www.etoday.co.kr/news/view/2608419",
+    "k": "태웅 미 테라파워 smr 1호기 이어 2호기도 추가 수주 추진",
+    "ko": 1,
+    "op": 1,
+    "id": "e26410c9"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "태웅, SMR 대량생산 기술로 시장 주도 시동",
+    "summary": "태웅이 소형모듈원자로(SMR) 대량생산 기술 확보로 소형원전 시장의 주요 플레이어로 본격 진입한다.",
+    "summaryLong": "한국 기업 태웅이 소형모듈원자로(SMR)의 대량생산 기술 개발에 성공하며 글로벌 소형원전 시장에서 주도적 역할을 수행하려고 한다. 이는 기존의 일회성 수주 중심에서 벗어나 생산 효율성과 경제성을 갖춘 자체 기술 확보로 시장 경쟁력을 강화하는 전략이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "태웅",
+    "region": "KR",
+    "source": "market-ink.co.kr",
+    "url": "https://www.market-ink.co.kr/news/articleView.html?idxno=9692",
+    "k": "태웅 smr 대량생산 기술로 승부수 소형모듈원전 시장 메인 플레이어 시동",
+    "ko": 1,
+    "id": "84f90650"
+  },
+  {
     "date": "2026-07-28",
     "title": "[인터뷰] 대한전기산업연합회, SMR 등 적기 표준 마련 추진",
     "summary": "대한전기산업연합회가 SMR 등 신규 기술에 대한 산업 표준 마련을 추진한다고 밝혔다.",
@@ -303,6 +364,21 @@ window.SMR_NEWS = [
     "k": "ai 전력난 원전이 답 대형 원전 4기 smr 2기 더 지어야 두산에너빌리티 창원공장 르포",
     "ko": 1,
     "id": "e143e1e3"
+  },
+  {
+    "date": "2026-07-28",
+    "title": "롱비치 해양 SMR 시동, 한국 에너지 안보 강화",
+    "summary": "롱비치(Long Beach) 해양 소형모듈원자로(SMR)가 시동되어 한국의 에너지 안보 강화에 기여한다.",
+    "summaryLong": "미국 롱비치(Long Beach) 지역의 해양 소형모듈원자로(SMR)가 시운전을 시작했다. 이는 해상 원전 기술의 실제 가동 사례로, 한국의 해양 SMR 개발 추진에 중요한 레퍼런스가 되면서 국내 에너지 안보 강화 및 해상 원전 기술 확보의 필요성을 부각시킨다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5322",
+    "k": "롱비치 해양 smr 시동 한국 에너지 안보의 새 항로",
+    "ko": 1,
+    "id": "ee79a822"
   },
   {
     "date": "2026-07-27",
@@ -1396,6 +1472,21 @@ window.SMR_NEWS = [
     "k": "현대엔지니어링 원자력 smr 전문가와 사업 기회 모색",
     "ko": 1,
     "id": "b62ac7eb"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "현대엔지니어링, 북미 원자력·SMR 전문가 초청 세미나 개최",
+    "summary": "현대엔지니어링이 북미 원자력 및 소형모듈원자로(SMR) 전문가를 초청해 미래 에너지 사업 확대 방안을 논의한다.",
+    "summaryLong": "현대엔지니어링이 북미 지역 원자력 및 소형모듈원자로(SMR) 분야의 전문가를 초청하여 세미나를 개최하고 있다. 이를 통해 글로벌 SMR 및 원자력 사업의 최신 동향을 파악하고, 미래 에너지 사업 진출 기반을 마련하려는 전략적 움직임으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대엔지니어링",
+    "region": "KR",
+    "source": "asiatoday.co.kr",
+    "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260724010008948",
+    "k": "현대엔지니어링 북미 원자력 smr 전문가 초청 미래 에너지 사업 확대",
+    "ko": 1,
+    "id": "d25cbba1"
   },
   {
     "date": "2026-07-23",
@@ -23324,4 +23415,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-29 08:44 KST";
+window.SMR_UPDATED = "2026-07-29 15:15 KST";
