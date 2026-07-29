@@ -77,6 +77,21 @@ window.SMR_NEWS = [
   "id": "cbe37a9b"
  },
  {
+  "date": "2026-07-29",
+  "title": "KEPIC, AI·SMR 시대 맞춰 기준체계 확장",
+  "summary": "원자력기술규정(KEPIC)이 SMR 시대에 대응하여 기준체계를 확장하고 있다.",
+  "summaryLong": "한국원자력학회의 원자력기술규정(KEPIC)이 인공지능(AI)과 소형모듈원자로(SMR) 시대에 대응하기 위해 기준체계를 확장하고 있다. 이는 SMR 및 첨단로의 설계·안전 기준 강화와 관련된 정책·규제 차원의 움직임이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "inpnews.kr",
+  "url": "https://www.inpnews.kr/news/articleView.html?idxno=7371",
+  "k": "kepic ai smr 시대 맞춰 기준체계 확장",
+  "ko": 1,
+  "id": "b105640b"
+ },
+ {
   "date": "2026-07-28",
   "title": "[인터뷰] 대한전기산업연합회, SMR 등 적기 표준 마련 추진",
   "summary": "대한전기산업연합회가 SMR 등 신규 기술에 대한 산업 표준 마련을 추진한다고 밝혔다.",
@@ -612,6 +627,21 @@ window.SMR_NEWS = [
   "id": "11eba671"
  },
  {
+  "date": "2026-07-27",
+  "title": "뉴스케일 파워(NuScale Power) 주가 급등 예측",
+  "summary": "뉴스케일 파워(NuScale Power)의 주가 급등 가능성을 분석한 투자 전망 기사이다.",
+  "summaryLong": "야후 파이낸스(Yahoo Finance)에 게재된 기사로, 뉴스케일 파워(NuScale Power)의 주가 급등 가능성을 분석하고 있다. 소형모듈원자로(SMR) 개발사인 뉴스케일 파워의 사업 전망과 주가 흐름에 대한 투자자 분석 콘텐츠이다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "NuScale",
+  "region": "US",
+  "source": "finance.yahoo.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/bold-prediction-nuscale-power-break-165700786.html",
+  "k": "bold prediction nuscale power is about to break out",
+  "op": 1,
+  "id": "914fe509"
+ },
+ {
   "date": "2026-07-26",
   "title": "IAEA(국제원자력기구), 차세대 선박용 SMR '아틀라스(ATLAS)' 출범",
   "summary": "국제원자력기구(IAEA)가 해상 운송용 소형모듈원자로인 아틀라스 프로젝트를 공식 출범시켰다.",
@@ -699,6 +729,21 @@ window.SMR_NEWS = [
   "k": "원자력 가속 첨단원자로 4기 임계 한국 i smr도 실증 속도전 과제",
   "ko": 1,
   "id": "d712bdf0"
+ },
+ {
+  "date": "2026-07-26",
+  "title": "뉴스케일 파워(NuScale) 오늘 매수가 평생 수익 기회 될 수 있다는 예측",
+  "summary": "뉴스케일 파워(NuScale Power) 주식 매수가 장기적으로 큰 수익을 가져올 수 있다는 투자 예측이다.",
+  "summaryLong": "모틀리풀(The Motley Fool)의 투자 칼럼으로, 뉴스케일 파워(NuScale Power) 주식 매수가 현재 시점에 장기적 평생 수익 기회를 제공할 수 있다는 투자 예측을 제시하고 있다. 소형모듈원자로(SMR) 개발사의 장기 성장성을 강조하는 투자 전망 기사이다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "NuScale",
+  "region": "US",
+  "source": "fool.com",
+  "url": "https://www.fool.com/how-to-invest/thirteen-steps/2026/07/26/prediction-buying-nuscale-today-could-set-you/",
+  "k": "prediction buying nuscale power today could set you up for life",
+  "op": 1,
+  "id": "6d1362ba"
  },
  {
   "date": "2026-07-25",
@@ -846,50 +891,6 @@ window.SMR_NEWS = [
   "k": "smr 보급의 걸림돌 인허가 공급망",
   "ko": 1,
   "id": "cdf3f414"
- },
- {
-  "date": "2026-07-25",
-  "title": "현대엔지니어링, 북미 SMR 사업기회 모색",
-  "summary": "현대엔지니어링이 전문가 초청 세미나를 통해 북미 SMR 사업 기회를 모색하고 있다.",
-  "summaryLong": "현대엔지니어링이 북미(North America) 지역의 소형모듈원자로(SMR) 사업 진출 기회를 모색하기 위해 전문가 초청 세미나를 개최했다. 이는 한국 대형 건설사의 SMR 시장 진입 및 사업 다각화 전략을 보여주는 사례로, 첨단원자로 분야의 국제적 사업 확대 움직임을 반영한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "현대엔지니어링",
-  "region": "KR",
-  "source": "asiatime.co.kr",
-  "url": "https://www.asiatime.co.kr/article/20260724500276",
-  "k": "현대엔지니어링 북미 smr 사업기회 모색 전문가 초청 세미나",
-  "ko": 1,
-  "id": "22d929f2"
- },
- {
-  "date": "2026-07-24",
-  "title": "고리 출신 원전안전협의회 위원장, 국내 첫 i-SMR 고리 유치 주도",
-  "summary": "대한민국 최초 혁신형 소형모듈원전(i-SMR) 초도호기가 고리원자력본부 신고리 7·8호기 부지에 건설될 예정이다.",
-  "summaryLong": "고리에서 태어나 50년 만에 고향으로 돌아온 이창호 전국 원자력안전협의회 위원장이 대한민국 최초 i-SMR 고리 유치를 이끌었다. i-SMR 초도호기는 고리원자력본부 내 신고리 7·8호기 부지에 건설될 예정이다. 이는 국내 SMR 개발과 상용화의 중요한 마일스톤으로, 고리 지역이 차세대 핵심 원전 기술의 시범 지역이 될 것을 의미한다. 원전 건설로 삶의 터전을 잃었던 주민들을 배경으로 한 인간적 스토리와 함께, 국내 SMR 전략의 구체적 진전을 보여주는 소식이다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "KAERI",
-  "region": "KR",
-  "source": "전기신문 - 전체기사",
-  "url": "https://www.electimes.com/news/articleView.html?idxno=370530",
-  "k": "고리 출신 이창호 원자력안전협의회 위원장 첫 i smr 고리 유치 이끌어",
-  "ko": 1,
-  "id": "f7b956a4"
- },
- {
-  "date": "2026-07-24",
-  "title": "오클로, 그로브 원자로 가동 허가 미국 에너지부(DOE)로부터 획득",
-  "summary": "오클로(Oklo)가 미국 에너지부(DOE)로부터 그로브 동위원소 시험용 원자로의 가동 허가를 획득했다.",
-  "summaryLong": "오클로(Oklo)는 미국 에너지부(DOE)로부터 그로브(Groves) 동위원소 시험용 원자로의 가동 허가를 취득했다. 이는 오클로의 소형 첨단로(Fast Reactor) 기술 개발 진행 과정에서 중요한 인허가 마일스톤으로, 실제 시설 운영 허가 단계로의 진전을 의미한다. DOE 승인은 미국의 첨단 원자로 개발 정책 지원과 함께 오클로의 기술 신뢰성을 입증하는 신호다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "worldbusinessoutlook.com",
-  "url": "https://worldbusinessoutlook.com/oklo-receives-u-s-department-of-energy-startup-authorization-for-groves-reactor/",
-  "k": "oklo receives u s department of energy startup authorization for groves reactor",
-  "id": "5820064c"
  },
  {
   "date": "2026-07-24",
@@ -1426,5 +1427,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-29 15:41 KST";
-window.SMR_TOTAL = 1617;
+window.SMR_UPDATED = "2026-07-29 16:33 KST";
+window.SMR_TOTAL = 1621;
