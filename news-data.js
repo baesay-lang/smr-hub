@@ -38,6 +38,52 @@ window.SMR_NEWS = [
     "id": "689c05ef"
   },
   {
+    "date": "2026-07-30",
+    "title": "경남 원전기업·연구기관, SMR 제작기간 단축 기술 개발",
+    "summary": "경남 지역 원전기업과 연구기관이 소형모듈원자로(SMR) 제작 기간을 단축하는 정부 과제에 주도적으로 참여하고 있다.",
+    "summaryLong": "경남도가 소형모듈원자로(SMR) 제작 기간을 단축하는 3가지 기술 개발을 목표로 하는 정부 과제 공모를 진행하고 있으며, 지역의 원전기업과 연구기관이 이 과제의 핵심 추진 기관으로 참여하고 있다. SMR 제작 기간 단축은 소형모듈원자로의 경제성 향상과 시장 경쟁력 강화에 중요한 과제로 평가되고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "연합뉴스 최신기사",
+    "url": "https://www.yna.co.kr/view/AKR20260730134600052",
+    "k": "경남 원전기업 연구기관 smr 제작기간 단축 기술 개발 주도",
+    "ko": 1,
+    "id": "2ecb9334"
+  },
+  {
+    "date": "2026-07-30",
+    "title": "미국 엑셀서비스, 베트남 법인 설립…SMR 기술 공유",
+    "summary": "미국 원자력 기업 엑셀서비스(Excel Services)가 베트남에 법인을 설립하고 SMR 기술 경험을 단계적으로 공유한다.",
+    "summaryLong": "미국의 원자력 기업 엑셀서비스(Excel Services)가 베트남에 법인을 설립하고 소형모듈원자로(SMR) 관련 기술 및 경험을 단계적으로 공유할 계획을 밝혔다. 이는 글로벌 SMR 시장 확대 추진 중 베트남 지역에서의 사업 진출 및 기술 협력 강화를 의미한다. 엑셀서비스의 베트남 진출은 동남아시아 지역 SMR 생태계 구축에 기여할 것으로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Excel Services",
+    "region": "US",
+    "source": "fnnews.com",
+    "url": "https://www.fnnews.com/news/202607301037196296",
+    "k": "미국 원자력 기업 엑셀서비스 베트남에 법인 설립 smr 경험 기술 단계적으로 공유",
+    "ko": 1,
+    "id": "9ceb015c"
+  },
+  {
+    "date": "2026-07-30",
+    "title": "빌 게이츠 방한, SK·현대중공업·두산과 SMR 공급망 구체화 예상",
+    "summary": "테라파워(TerraPower) 회장 빌 게이츠가 1년 만에 방한하여 SK, 현대중공업, 두산 등과 SMR 공급망 협력을 구체화할 것으로 전망된다.",
+    "summaryLong": "테라파워(TerraPower) 회장 빌 게이츠가 약 1년 만에 한국을 방문할 예정이며, SK이노베이션, 현대중공업, 두산 등 국내 주요 기업과의 소형모듈원자로(SMR) 공급망 협력을 구체화할 것으로 예상된다. 이는 테라파워의 고온가스로(HTGR) 기술과 한국 기업들의 제조·건설 능력을 연결하는 전략적 파트너십 확대를 의미한다. 이러한 협력은 글로벌 SMR 시장에서 한국의 지위 강화와 SMR 상용화 가속화에 중요한 역할을 할 것으로 평가된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "biztribune.co.kr",
+    "url": "https://www.biztribune.co.kr/news/articleView.html?idxno=356726",
+    "k": "빌 게이츠 1년 만 방한 sk hd현대 두산과 smr 공급망 구체화할 듯",
+    "ko": 1,
+    "op": 1,
+    "id": "f6a12026"
+  },
+  {
     "date": "2026-07-29",
     "title": "SK이노베이션, 베트남 AI 전력시장 공략…LNG에서 SMR까지 협력",
     "summary": "SK이노베이션이 베트남과 LNG 공급부터 소형모듈원자로(SMR) 및 에너지저장장치(ESS)까지 단계별 에너지 협력을 제시했다.",
@@ -352,6 +398,66 @@ window.SMR_NEWS = [
     "k": "차세대 원전 smr 드디어 현실이 될까 미국 arc 100 실증 착수",
     "ko": 1,
     "id": "f97bf80a"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "맥더모트, 네덜란드의 롤스로이스 SMR 프로젝트 지원",
+    "summary": "맥더모트(McDermott)가 네덜란드의 롤스로이스 SMR 프로젝트 지원 계약을 체결했다.",
+    "summaryLong": "엔지니어링·건설사 맥더모트(McDermott)가 네덜란드에서 진행될 롤스로이스(Rolls-Royce) SMR(소형모듈원자로) 프로젝트를 기술·관리적으로 지원하기로 합의했다. 이는 유럽에서의 소형모듈원자로 사업화를 위한 산업 파트너십 확대를 나타내며, 유럽 지역 첨단 원자력 기술의 상용화 경로를 강화하는 의미가 있다.",
+    "cat": "계약",
+    "type": "PWR",
+    "dev": "Rolls-Royce SMR",
+    "region": "EU",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/mcdermott-to-support-dutch-deployment-of-rolls-royce-smr",
+    "k": "mcdermott to support potential dutch rolls royce smr projects world nuclear news org",
+    "id": "2d286fd6"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "SK이노베이션, LNG·SMR 연계로 베트남 전력시장 공략",
+    "summary": "SK이노베이션이 베트남에 LNG와 소형모듈원자로(SMR)를 연계한 단계별 에너지 협력 방안을 제시하고, 장기적으로 SMR 분야 협력 확대를 추진한다.",
+    "summaryLong": "SK이노베이션이 베트남 한-베 비즈니스 포럼에서 LNG와 소형모듈원자로(SMR)를 연계한 에너지 협력 전략을 발표했다. 단기적으로는 미국·호주 기반 LNG 공급망을 활용해 전력 수급 안정성을 높이고, 장기적으로는 차세대 SMR 분야로 협력을 확대한다는 구상이다. 베트남은 인공지능(AI)·첨단산업 성장으로 전력 수요가 빠르게 증가하고 있어 유망한 전력 공급시장으로 주목받고 있으며, SK이노베이션의 이번 제안은 동남아 에너지 시장 진출을 노린 전략적 움직임으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "SK이노베이션",
+    "region": "KR",
+    "source": "투데이에너지 - 전체기사",
+    "url": "https://www.todayenergy.kr/news/articleView.html?idxno=300988",
+    "k": "sk이노베이션 lng smr 연계로 베트남 전력시장 공략 나서",
+    "ko": 1,
+    "id": "cf061196"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "SK이노 CEO 추형욱, 베트남서 SMR 연계 에너지 협력 제안",
+    "summary": "SK이노베이션의 추형욱 최고경영자가 베트남에서 소형모듈원자로(SMR) 연계 에너지 협력을 제안했다.",
+    "summaryLong": "SK이노베이션의 추형욱 최고경영자가 베트남 방문 시 소형모듈원자로(SMR)와 연계된 에너지 협력 방안을 제안했다. 이는 SK이노베이션이 베트남 시장에서의 SMR 관련 사업 추진 및 전략적 파트너십 구축을 모색하고 있음을 보여준다. 한국 기업의 SMR 기술 및 사업 역량을 동남아 지역으로 확대하는 전략적 움직임으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "SK이노베이션",
+    "region": "KR",
+    "source": "dt.co.kr",
+    "url": "https://www.dt.co.kr/article/12075562",
+    "k": "추형욱 sk이노 ceo 베트남서 smr 연계 에너지 협력 제안",
+    "ko": 1,
+    "id": "41a04d48"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "빌 게이츠 방한, 한·미 SMR 동맹 강화",
+    "summary": "빌 게이츠 회장이 한국을 방문하여 한·미 간 소형모듈원자로(SMR) 동맹 강화를 추진할 것으로 예상된다.",
+    "summaryLong": "빌 게이츠 테라파워(TerraPower) 회장이 방한하여 한·미 간 소형모듈원자로(SMR) 협력을 강화할 것으로 보인다. 이는 한국과 미국 간 원자력 기술 동맹을 심화시키는 차원의 방문으로 평가된다. 방문 일정과 구체적 논의 내용은 향후 공개될 예정이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "KR",
+    "source": "bloomingbit.io",
+    "url": "https://bloomingbit.io/feed/news/117264",
+    "k": "단독 빌 게이츠 방한 smr 동맹 강화한다",
+    "ko": 1,
+    "op": 1,
+    "id": "fc845227"
   },
   {
     "date": "2026-07-28",
@@ -917,6 +1023,20 @@ window.SMR_NEWS = [
     "k": "bold prediction nuscale power is about to break out",
     "op": 1,
     "id": "914fe509"
+  },
+  {
+    "date": "2026-07-27",
+    "title": "해양 SMR 미국 이니셔티브에 첫 항만 참여",
+    "summary": "미국의 해양 소형모듈원자로(Maritime SMR) 이니셔티브에 첫 항만이 공식 참여했다.",
+    "summaryLong": "미국이 추진 중인 해양 소형모듈원자로(Maritime SMR) 개발 이니셔티브에 첫 항만이 공식 참여를 선언했다. 이는 소형모듈원자로를 해양 선박 추진 및 원격 해양 시설 전력 공급에 활용하는 미국의 전략적 프로젝트에 대한 지역 인프라 기관의 지지를 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/first-port-signs-up-to-us-initiative-on-maritime-smrs",
+    "k": "first port signs up to us initiative on maritime smrs world nuclear news org",
+    "id": "7b0b989f"
   },
   {
     "date": "2026-07-26",
@@ -1922,6 +2042,49 @@ window.SMR_NEWS = [
     "k": "현대엔지니어링 원자력 smr 사업 역량 강화",
     "ko": 1,
     "id": "ddc91432"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "오클로, 시험로 운영 허가 획득",
+    "summary": "오클로(Oklo)가 그로브스(Groves) 시험로의 운영 시작 허가를 획득했다.",
+    "summaryLong": "오클로가 자사의 그로브스 시험로 운영 시작에 대한 허가를 획득했다. 이는 미국 에너지부(DOE)로부터의 공식 승인을 의미하며, 오클로의 첨단로 기술 개발 및 상용화 경로에서 중요한 마일스톤이다. 이를 통해 실제 운영 데이터 수집 및 기술 검증이 가능해질 것으로 예상된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/oklo-cleared-to-start-up-test-reactor",
+    "k": "oklo cleared to start up test reactor world nuclear news org",
+    "id": "02e3acfe"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "미국, 오클로(Oklo)의 동위원소(Isotope) 시험로 핵연료 장입 및 첫 임계 진행 승인",
+    "summary": "미국 규제 당국이 오클로(Oklo)의 동위원소(Isotope) 시험로 핵연료 장입 및 첫 임계(criticality) 달성을 승인했다.",
+    "summaryLong": "오클로(Oklo)의 동위원소(Isotope) 시험로가 미국 규제 당국으로부터 핵연료 장입 및 첫 임계(first criticality) 진행 허가를 획득했다. 이는 오클로의 고속로(SFR) 시험 시설이 운영 인허가의 주요 마일스톤을 통과한 것으로, SMR·첨단로 개발의 중요한 기술적·규제적 진전이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "오클로(Oklo)",
+    "region": "US",
+    "source": "interestingengineering.com",
+    "url": "https://interestingengineering.com/energy/us-oklo-test-reactor-nuclear-fuel",
+    "k": "us allows oklo s isotope test reactor to load nuclear fuel proceed toward first criticality",
+    "id": "0be5a478"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "현대ENG, 원자력·SMR 전문가 초청 세미나 개최",
+    "summary": "현대엔지니어링(현대ENG)이 원자력 및 소형모듈원자로(SMR) 분야 전문가를 초청하여 세미나를 개최한다.",
+    "summaryLong": "현대엔지니어링(현대ENG)이 원자력 및 소형모듈원자로(SMR) 분야의 전문가들을 초청하여 세미나를 개최하고 있다. 이는 회사의 원자력·SMR 사업 역량 강화 및 최신 기술 동향 파악을 위한 학습·협력 활동으로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대ENG",
+    "region": "KR",
+    "source": "smarttoday.co.kr",
+    "url": "https://www.smarttoday.co.kr/ko-kr/articles/109784",
+    "k": "현대eng 원자력 smr 전문가 초청 세미나 개최",
+    "ko": 1,
+    "id": "9c67d835"
   },
   {
     "date": "2026-07-23",
@@ -5519,6 +5682,20 @@ window.SMR_NEWS = [
     "k": "아이티센씨티에스 원자력 v smr 개발 슈퍼컴 구축",
     "ko": 1,
     "id": "44892ab9"
+  },
+  {
+    "date": "2026-07-14",
+    "title": "현대건설, FANCO와 SMR 프로젝트 협력",
+    "summary": "현대건설(Hyundai E&C)이 FANCO와 소형모듈원자로(SMR) 프로젝트 협력을 발표했다.",
+    "summaryLong": "현대건설(Hyundai E&C)과 FANCO가 소형모듈원자로(SMR) 프로젝트에 대한 협력을 공식 발표했다. 구체적인 협력 내용과 일정은 원문 확인이 필요하나, 한국 건설사의 국제 SMR 프로젝트 참여 확대를 의미하는 전략적 움직임이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대건설",
+    "region": "KR",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/hyundai-ec-fanco-to-collaborate-on-smr-project",
+    "k": "hyundai e c fanco to collaborate on smr project world nuclear news org",
+    "id": "24e08e78"
   },
   {
     "date": "2026-07-13",
@@ -11515,6 +11692,20 @@ window.SMR_NEWS = [
     "url": "https://www.enr.com/articles/63237-ohio-smr-project-advances-with-pjm-filing-ge-reactor-deal",
     "k": "ohio smr project advances with pjm filing ge reactor deal engineering news record",
     "id": "3dd89a22"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "롤스로이스(Rolls-Royce) SMR, 더비(Derby)에 제조 개발 센터 계획",
+    "summary": "롤스로이스(Rolls-Royce) SMR이 영국 더비(Derby)에 제조 개발 센터 건립을 계획하고 있다.",
+    "summaryLong": "롤스로이스(Rolls-Royce) SMR이 영국 더비(Derby) 지역에 제조 개발 센터 설립을 추진 중이다. 이는 롤스로이스(Rolls-Royce) 소형모듈원자로(SMR) 상용화를 위한 제조 인프라 구축의 일환으로, SMR 사업의 확대와 국내 산업 기반 조성을 나타내는 중요한 계획이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "롤스로이스(Rolls-Royce)",
+    "region": "UK",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/rolls-royce-smr-plans-manufacturing-development-centre-in-derby",
+    "k": "rolls royce smr plans manufacturing development centre in derby world nuclear news org",
+    "id": "4485a660"
   },
   {
     "date": "2026-06-28",
@@ -18867,6 +19058,20 @@ window.SMR_NEWS = [
     "id": "8fe08171"
   },
   {
+    "date": "2026-06-05",
+    "title": "우즈베키스탄 SMR 첫 콘크리트 타설식 개최",
+    "summary": "우즈베키스탄 소형모듈원자로(SMR) 프로젝트의 첫 콘크리트 타설식이 개최되었다.",
+    "summaryLong": "우즈베키스탄의 소형모듈원자로(SMR) 건설 프로젝트에서 첫 콘크리트 타설식이 거행되었다. 이는 해당 프로젝트가 설계 단계를 거쳐 실제 건설 단계에 진입했음을 의미하는 주요 마일스톤이다. 이 행사를 통해 우즈베키스탄이 글로벌 SMR 도입 국가로서의 입지를 확대하고 있으며, SMR의 상용화 추진이 가속화되고 있음을 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/ceremony-to-mark-first-concrete-for-uzbekistan-smr",
+    "k": "ceremony to mark first concrete for uzbekistan smr world nuclear news org",
+    "id": "a261715c"
+  },
+  {
     "date": "2026-06-04",
     "title": "엑스에너지(X-energy), 나스닥(Nasdaq) 상장 후 2026년 1분기 분기별 파이프라인 144기·11.5GWe 공시",
     "summary": "나스닥 상장 후 분기 공시에서 미국·영국 합산 144기, 약 11.5 GWe의 파이프라인(고객 권리 전량 행사 가정)을 공개했다.",
@@ -19208,6 +19413,20 @@ window.SMR_NEWS = [
     "k": "perfect thing to have in our backyard norfolk says small modular nuclear reactor could be a game changer",
     "op": 1,
     "id": "1d703754"
+  },
+  {
+    "date": "2026-06-04",
+    "title": "미국 SMR 개발사, 파트너십 체결",
+    "summary": "미국의 소형모듈원자로(SMR) 개발사들이 신규 파트너십을 발표했다.",
+    "summaryLong": "미국 소형모듈원자로 개발사들이 추가 파트너십을 공식 발표했다. 구체적인 파트너사와 협력 내용은 원문을 통해 확인 필요하나, SMR 산업의 국제 협력 네트워크 확대를 의미하는 움직임이다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/us-smr-developers-announce-partnerships",
+    "k": "us smr developers announce partnerships world nuclear news org",
+    "id": "5aaba06a"
   },
   {
     "date": "2026-06-03",
@@ -20136,6 +20355,20 @@ window.SMR_NEWS = [
     "url": "https://www.neimagazine.com/news/psi-validates-smr-passive-cooling/",
     "k": "psi validates smr passive cooling",
     "id": "65283d69"
+  },
+  {
+    "date": "2026-05-15",
+    "title": "미국, SMR 배치 촉진 연방 자금 지원",
+    "summary": "미국 연방정부가 소형모듈원자로(SMR) 배치 촉진을 위한 자금을 지원하기로 결정했다.",
+    "summaryLong": "미국 연방정부가 소형모듈원자로(SMR)의 상업화 배치를 가속화하기 위한 연방 자금을 지원하기로 공식 발표했다. 이는 미국의 SMR 산업 육성 및 에너지 전환 전략의 일환으로, 정부 차원의 SMR 산업 지원이 강화되고 있음을 보여주는 사례이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "world-nuclear-news.org",
+    "url": "https://world-nuclear-news.org/articles/us-federal-funds-awarded-to-spur-smr-deployment",
+    "k": "us federal funds awarded to spur smr deployment world nuclear news org",
+    "id": "f9d6f822"
   },
   {
     "date": "2026-05-14",
@@ -21492,6 +21725,20 @@ window.SMR_NEWS = [
     "url": "https://www.world-nuclear-news.org/articles/application-submitted-for-swedish-smr-plant",
     "k": "application submitted for swedish smr plant",
     "id": "d4db1f26"
+  },
+  {
+    "date": "2026-03-23",
+    "title": "스웨덴 SMR 발전소 인허가 신청",
+    "summary": "스웨덴의 소형모듈원자로(SMR) 발전소 프로젝트가 인허가 신청을 제출했다.",
+    "summaryLong": "스웨덴에서 소형모듈원자로(SMR) 발전소 건설을 위한 공식 인허가 신청이 제출되었다. 이는 SMR이 유럽에서 실제 상업용 발전소로 진행되는 초기 단계의 규제 승인 절차임을 의미한다. 스웨덴의 인허가 신청은 북유럽 지역 SMR 도입의 중요한 사례가 될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "EU",
+    "source": "world-nuclear-news.org",
+    "url": "https://world-nuclear-news.org/articles/application-submitted-for-swedish-smr-plant",
+    "k": "application submitted for swedish smr plant world nuclear news org",
+    "id": "ca02403b"
   },
   {
     "date": "2026-03-20",
@@ -23864,4 +24111,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-30 15:08 KST";
+window.SMR_UPDATED = "2026-07-30 15:38 KST";
