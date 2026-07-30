@@ -203,6 +203,21 @@ window.SMR_NEWS = [
     "id": "32de7250"
   },
   {
+    "date": "2026-07-30",
+    "title": "영국 원전 소재전쟁 가속…한국 i-SMR도 속도전",
+    "summary": "영국의 원전 시장 경쟁이 심화되면서 한국의 i-SMR(차세대소형모듈원전)도 개발 속도를 높이고 있다.",
+    "summaryLong": "영국에서 원전 기술 개발을 놓고 벌어지는 경쟁이 가속화되고 있으며, 한국의 i-SMR 프로젝트도 이에 응하는 형태로 개발 일정을 앞당기고 있다. 이는 글로벌 SMR·첨단로 시장에서 주요국들이 기술 확보와 인허가를 두고 벌이는 '속도전'의 일환으로 보인다. 영국과 한국을 포함한 여러 나라의 SMR 개발 동향이 상호 영향을 미치고 있음을 시사한다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "한국원전",
+    "region": "UK",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5362",
+    "k": "영국 원전 소재전쟁 가속 한국 i smr도 속도전",
+    "ko": 1,
+    "id": "766ff0de"
+  },
+  {
     "date": "2026-07-29",
     "title": "SK이노베이션, 베트남 AI 전력시장 공략…LNG에서 SMR까지 협력",
     "summary": "SK이노베이션이 베트남과 LNG 공급부터 소형모듈원자로(SMR) 및 에너지저장장치(ESS)까지 단계별 에너지 협력을 제시했다.",
@@ -24275,4 +24290,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-31 07:39 KST";
+window.SMR_UPDATED = "2026-07-31 08:15 KST";
