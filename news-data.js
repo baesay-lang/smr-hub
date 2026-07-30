@@ -99,6 +99,110 @@ window.SMR_NEWS = [
     "id": "afe75959"
   },
   {
+    "date": "2026-07-30",
+    "title": "홀텍, 2036년 오이스터 크릭 SMR-300 1.36GW 프로젝트 목표",
+    "summary": "미국 원자력규제위원회(NRC)가 뉴저지주 오이스터 크릭 발전소의 폐지 허가 계획을 승인하여 홀텍이 SMR-300 4기 건설 추진이 가능해졌다.",
+    "summaryLong": "미국 원자력규제위원회(NRC)가 뉴저지주 오이스터 크릭 발전소의 폐지 허가 계획(LTP)을 승인했다. 이는 폐지 절차의 최종 단계를 승인하는 규제 이정표로, 홀텍 인터내셔널이 레이시 타운십(Lacey Township)에서 SMR-300 소형모듈원자로 4기(총 1.36GW) 건설을 추진할 수 있는 길을 열었다. 홀텍은 2036년을 목표로 이 프로젝트를 진행할 계획이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Holtec",
+    "region": "US",
+    "source": "POWER Magazine",
+    "url": "https://www.powermag.com/holtec-targets-2036-for-1-36-gw-smr-300-project-at-oyster-creek/",
+    "k": "holtec targets 2036 for 1 36 gw smr 300 project at oyster creek",
+    "id": "43a1c044"
+  },
+  {
+    "date": "2026-07-30",
+    "title": "오이스터 크릭 폐지 허가 계획 NRC 승인, SMR-300 4기 프로젝트 추진",
+    "summary": "홀텍이 오이스터 크릭 발전소 폐지 허가 계획 승인을 발표하며 SMR-300 4기 건설 프로젝트 추진을 공식화했다.",
+    "summaryLong": "홀텍 인터내셔널이 미국 원자력규제위원회(NRC)의 오이스터 크릭 발전소 폐지 허가 계획(LTP) 승인을 공식 발표했다. 이 승인은 폐기 중인 발전소 부지를 SMR-300 소형모듈원자로 프로젝트로 전환할 수 있는 중요한 규제 승인이다. 홀텍은 이를 통해 뉴저지주에서 SMR-300 4기를 건설할 수 있게 되었다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Holtec",
+    "region": "US",
+    "source": "Holtec International",
+    "url": "https://holtecinternational.com/hh-41-13/",
+    "k": "oyster creek s license termination plan approved by the usnrc oyster creek project planned to feature four smr 300 units",
+    "id": "fbe94605"
+  },
+  {
+    "date": "2026-07-30",
+    "title": "알로 애토믹스(Aalo Atomics)와 크루소(Crusoe), 2027년 INL 시연 목표 핵심 파트너십",
+    "summary": "첨단원자로 개발사 알로 애토믹스와 AI 데이터센터 기업 크루소가 아이다호국립연구소(INL)에서 원자력 AI 팩토리 프로젝트를 위한 전략적 파트너십을 체결했다.",
+    "summaryLong": "첨단 원자로 개발사 알로 애토믹스(Aalo Atomics)와 에너지 우선 AI 인프라 기업 크루소(Crusoe)는 7월 30일 아이다호국립연구소(Idaho National Laboratory, INL)에서 원자력 구동 'AI Factory' 데이터센터 프로젝트를 위한 전략적 파트너십을 공식 발표했다. 본 협력을 통해 알로의 INL 내 첨단 원자로 개발 프로그램과 크루소의 모듈식 AI 데이터센터 플랫폼을 결합하여 2027년 시연을 목표로 진행할 예정이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "알로 애토믹스",
+    "region": "US",
+    "source": "POWER Magazine",
+    "url": "https://www.powermag.com/aalo-crusoe-plan-2027-inl-demonstration-pairing-nuclear-power-and-ai-data-center-load/",
+    "k": "aalo crusoe plan 2027 inl demonstration pairing nuclear power and ai data center load",
+    "id": "f0086d2a"
+  },
+  {
+    "date": "2026-07-30",
+    "title": "중국, 세계 최초 '순수 헬륨 터빈' 발전 성공으로 SMR 패권 속도",
+    "summary": "중국이 세계 최초로 순수 헬륨 냉각 터빈 발전에 성공하며 소형모듈원자로(SMR) 분야 기술 주도권을 강화하고 있다.",
+    "summaryLong": "중국이 소형모듈원자로(SMR) 기술 개발에서 세계 최초로 순수 헬륨을 냉각재로 사용하는 터빈 발전에 성공했다고 보도되었다. 고온가스로(HTGR) 등 첨단 원자로 계통에서 핵심인 헬륨 터빈 기술의 발전 성공으로 중국이 차세대 원자로 시장에서의 기술적 우위와 패권 확보를 가속화하고 있다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "",
+    "region": "JP",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5356",
+    "k": "중국 세계 최초 순수 헬륨 터빈 발전 성공 smr 패권에 속도",
+    "ko": 1,
+    "id": "ec776665"
+  },
+  {
+    "date": "2026-07-30",
+    "title": "경남, SMR 혁신제조 정부사업 3개 과제 선정·2569억 원 투입",
+    "summary": "경주 경상남도가 소형모듈원자로(SMR) 혁신제조 관련 정부 지원 사업에서 3개 과제를 선정받아 총 2569억 원을 투입하기로 결정했다.",
+    "summaryLong": "경상남도가 소형모듈원자로(SMR) 혁신제조 분야 정부 지원 사업에서 3개 과제 전부를 석권하여 총 2569억 원의 사업비 투입이 확정되었다. 이는 정부 국책 프로그램으로서 차세대 원전 시장 선도를 위한 지역 및 산업 역량 강화 투자로, 한국의 SMR 기술 개발과 제조 기반 구축에 대한 정책적 지원을 반영한다.",
+    "cat": "정책",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "thegnnews.com",
+    "url": "https://thegnnews.com/View.aspx?No=4169202",
+    "k": "경남 smr 혁신제조 정부사업 3개 과제 석권 2569억 원 투입해 차세대 원전시장 선도",
+    "ko": 1,
+    "id": "b8dc41ab"
+  },
+  {
+    "date": "2026-07-30",
+    "title": "빌 게이츠 방한 추진, SK·한수원·HD현대와 SMR 협력 논의 기대",
+    "summary": "빌 게이츠(Bill Gates)가 내달 방한을 추진하며 SK, 한수원, HD현대 등과 소형모듈원자로(SMR) 협력을 논의할 것으로 예상된다.",
+    "summaryLong": "테라파워(TerraPower) 창립자인 빌 게이츠가 내달 한국 방문을 추진 중이며, 이 자리에서 SK, 한국수력원자력(한수원), HD현대 등 국내 주요 기업들과 소형모듈원자로(SMR) 분야 협력을 논의할 가능성이 높다. 이는 테라파워의 첨단로(고속로) 기술과 국내 SMR 개발·제조 역량을 연결하는 국제 파트너십 논의로 해석된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "KR",
+    "source": "greened.kr",
+    "url": "https://www.greened.kr/news/articleView.html?idxno=346428",
+    "k": "빌 게이츠 내달 방한 추진 sk 한수원 hd현대 smr 협력 논의 기대",
+    "ko": 1,
+    "op": 1,
+    "id": "1bdd318a"
+  },
+  {
+    "date": "2026-07-30",
+    "title": "빌 게이츠, 이르면 내달 방한…AI·SMR 협력 논의 전망",
+    "summary": "빌 게이츠가 이르면 내달 한국을 방문하여 인공지능(AI)과 소형모듈원자로(SMR) 협력을 논의할 것으로 예상된다.",
+    "summaryLong": "테라파워(TerraPower) 창립자인 빌 게이츠가 이르면 내달 한국 방문을 추진하고 있으며, 이 자리에서 인공지능(AI) 및 소형모듈원자로(SMR) 분야의 협력을 논의할 것으로 전망된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "KR",
+    "source": "KAIF 투데이뉴스",
+    "url": "https://www.kaif.or.kr/ko/?c=250&s=&gp=1&gbn=view&ix=29999",
+    "k": "빌 게이츠 이르면 내달 방한 ai smr 협력 논의 전망",
+    "ko": 1,
+    "op": 1,
+    "id": "32de7250"
+  },
+  {
     "date": "2026-07-29",
     "title": "SK이노베이션, 베트남 AI 전력시장 공략…LNG에서 SMR까지 협력",
     "summary": "SK이노베이션이 베트남과 LNG 공급부터 소형모듈원자로(SMR) 및 에너지저장장치(ESS)까지 단계별 에너지 협력을 제시했다.",
@@ -24171,4 +24275,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-30 16:22 KST";
+window.SMR_UPDATED = "2026-07-31 07:39 KST";
