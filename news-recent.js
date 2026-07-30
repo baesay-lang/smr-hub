@@ -211,6 +211,22 @@ window.SMR_NEWS = [
   "id": "766ff0de"
  },
  {
+  "date": "2026-07-30",
+  "title": "롤스로이스 SMR 네덜란드(Netherlands) 사업 확대, 두산에너빌리티 공급 기회 확대 전망",
+  "summary": "롤스로이스 SMR(Rolls-Royce SMR)의 네덜란드 사업 확대에 따른 두산에너빌리티의 공급 기회 전망.",
+  "summaryLong": "롤스로이스 SMR(Rolls-Royce SMR)이 네덜란드(Netherlands)에서 소형모듈원자로(SMR) 사업을 확대하고 있는 가운데, 국내 기업인 두산에너빌리티가 부품 공급 기회를 확대할 수 있을 것으로 보인다는 내용이다. SMR 개발사의 해외 사업 진전과 국내 기업의 참여 기회를 다루는 기사로, 첨단로 개발 사업과 관련된 공급망 동향을 반영한다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "롤스로이스 SMR",
+  "region": "UK",
+  "source": "pinpointnews.co.kr",
+  "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=473066",
+  "k": "롤스로이스 smr 네덜란드 사업 확대 두산에너빌 공급 기회 넓어지나",
+  "ko": 1,
+  "op": 1,
+  "id": "a91ba03d"
+ },
+ {
   "date": "2026-07-29",
   "title": "SK이노베이션, 베트남 AI 전력시장 공략…LNG에서 SMR까지 협력",
   "summary": "SK이노베이션이 베트남과 LNG 공급부터 소형모듈원자로(SMR) 및 에너지저장장치(ESS)까지 단계별 에너지 협력을 제시했다.",
@@ -1406,5 +1422,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-31 08:15 KST";
-window.SMR_TOTAL = 1673;
+window.SMR_UPDATED = "2026-07-31 08:44 KST";
+window.SMR_TOTAL = 1674;
