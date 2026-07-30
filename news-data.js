@@ -84,6 +84,21 @@ window.SMR_NEWS = [
     "id": "f6a12026"
   },
   {
+    "date": "2026-07-30",
+    "title": "빌 게이츠 내달 방한, SK·HD현대와 SMR 협력 강화",
+    "summary": "테라파워(TerraPower) CEO 빌 게이츠가 방한하여 SK·HD현대 등과 소형모듈원자로(SMR) 협력을 논의할 예정이다.",
+    "summaryLong": "테라파워(TerraPower)의 CEO 빌 게이츠가 내달 한국을 방문하여 SK와 HD현대 등 주요 기업들과 소형모듈원자로(SMR) 분야의 협력을 강화하기로 예정되어 있다. 이는 한국의 핵심 산업 파트너들과의 협력을 통해 SMR 공급망 및 기술 개발을 가속화하려는 움직임으로 보인다. 게이츠의 방한은 글로벌 SMR 개발 및 상용화 전략의 일환으로 평가되고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260730111107608",
+    "k": "빌 게이츠 내달 방한 sk hd현대 등과 smr 협력 강화",
+    "ko": 1,
+    "id": "afe75959"
+  },
+  {
     "date": "2026-07-29",
     "title": "SK이노베이션, 베트남 AI 전력시장 공략…LNG에서 SMR까지 협력",
     "summary": "SK이노베이션이 베트남과 LNG 공급부터 소형모듈원자로(SMR) 및 에너지저장장치(ESS)까지 단계별 에너지 협력을 제시했다.",
@@ -458,6 +473,51 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "fc845227"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "원자력 발전소 아날로그에서 디지털 제어로의 전환",
+    "summary": "첨단원자로의 디지털 제어 시스템 도입에 대한 기술적 경험과 교훈을 다룬 기고문.",
+    "summaryLong": "미국 해군(U.S. Navy)의 원자력 경험을 갖춘 전문가가 상용 첨단원자로로의 전환 과정에서 아날로그 제어에서 디지털 제어 시스템으로의 변화에 대해 기술합니다. 현대 첨단원자로의 완전 디지털 제어실 운영 경험을 통해 데이터 기반 의사결정의 중요성과 기술 전환의 과제를 논의하고 있으며, 소형모듈원자로(SMR)와 첨단로 개발에 필수적인 기술 이슈를 다룹니다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-07-29/article-8166/what-have-recent-projects-taught-us-about-the-move-from-analog-to-digital-plant-controls/",
+    "k": "i nn i asks what have recent projects taught us about the move from analog to digital plant controls",
+    "id": "dddc5368"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "글로벌 원자력 법률 인재 양성, SMR 시대의 필수과제",
+    "summary": "원전 수출과 소형모듈원자로(SMR) 시대에 대비한 국제 원자력 법률 전문가 양성의 필요성.",
+    "summaryLong": "이 기사는 향후 원전 수출 확대와 소형모듈원자로(SMR) 시대의 도래에 따라 국제 규제, 안전 기준, 계약 등 원자력 관련 법률 업무를 담당할 글로벌 인재 양성의 중요성을 강조합니다. SMR과 첨단로 국제화에 필요한 법률·규제 인프라 구축 측면의 정책적 기초를 다루고 있습니다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5331",
+    "k": "원전 수출 smr 시대의 필수 글로벌 원자력 법률 인재 키운다",
+    "ko": 1,
+    "id": "f17beb72"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "SK이노, 베트남에 LNG·SMR 연계 에너지 협력 제안",
+    "summary": "SK이노베이션이 베트남에 LNG와 소형모듈원자로(SMR)를 연계한 에너지 협력을 제안했다.",
+    "summaryLong": "SK이노베이션이 베트남 정부 및 기업에 대해 LNG(액화천연가스)와 소형모듈원자로(SMR)를 연계한 에너지 사업 협력 방안을 제시했다. 이는 한국 기업의 해외 SMR 사업 진출 전략을 보여주는 사례이며, 에너지 협력 양해각서(MOU) 체결로 발전할 가능성을 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "SK이노베이션",
+    "region": "KR",
+    "source": "m-i.kr",
+    "url": "https://www.m-i.kr/news/articleView.html?idxno=1396852",
+    "k": "sk이노 베트남에 lng smr 연계 에너지 협력 제시",
+    "ko": 1,
+    "op": 1,
+    "id": "7b652b5c"
   },
   {
     "date": "2026-07-28",
@@ -24111,4 +24171,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-30 15:38 KST";
+window.SMR_UPDATED = "2026-07-30 16:22 KST";
