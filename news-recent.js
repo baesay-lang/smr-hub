@@ -1,6 +1,36 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-07-30",
+  "title": "KEPIC(전력산업기술기준), SMR·신기술 표준화 추진",
+  "summary": "한국 전기산업연합회 KEPIC(전력산업기술기준) 본부장이 SMR 등 신기술에 대한 기술기준 확대와 플랫폼 고도화를 추진하겠다고 발표했다.",
+  "summaryLong": "전영태 전기산업연합회 KEPIC(전력산업기술기준) 본부장이 2026년 KEPIC-Week(8월 25~28일, 강원도 정선) 사전 인터뷰에서 원전 중심의 기반을 유지하면서도 SMR, AI, ESS, 해상풍력 등 신기술 분야에 대한 성능 및 위험도 기반의 기술기준 확대가 필요하다고 밝혔다. 탄소중립 시대 전력산업의 변화에 대응하여 KEPIC 플랫폼 고도화와 실용적 내실화, 적기 기준 제·개정을 추진할 방침을 제시했다. 이는 국내 SMR 및 신기술 상용화를 위한 규제·표준 정책의 진전을 의미한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "전기신문 - 전체기사",
+  "url": "https://www.electimes.com/news/articleView.html?idxno=370800",
+  "k": "원전안전성 지키며 smr 신기술 케픽화 노력",
+  "ko": 1,
+  "id": "d7baf510"
+ },
+ {
+  "date": "2026-07-30",
+  "title": "경남도, SMR 제조혁신 3개 핵심과제 모두 선정",
+  "summary": "경상남도가 소형모듈원전(SMR) 제조혁신 프로젝트의 3개 핵심과제를 모두 확보했다.",
+  "summaryLong": "경상남도가 소형모듈원전(SMR) 제조 분야 혁신 사업의 3개 핵심 과제를 모두 국책 프로젝트로 선정받았다. 이는 한국의 SMR 산업 육성 정책 아래 지역 기반 제조 혁신 계획이 정부 차원에서 공식 지원받게 됨을 의미한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "newsgn.com",
+  "url": "https://www.newsgn.com/news/articleView.html?idxno=565295",
+  "k": "경남도 소형모듈원전 smr 제조혁신 3개 핵심과제 모두 선정",
+  "ko": 1,
+  "id": "689c05ef"
+ },
+ {
   "date": "2026-07-29",
   "title": "SK이노베이션, 베트남 AI 전력시장 공략…LNG에서 SMR까지 협력",
   "summary": "SK이노베이션이 베트남과 LNG 공급부터 소형모듈원자로(SMR) 및 에너지저장장치(ESS)까지 단계별 에너지 협력을 제시했다.",
@@ -300,6 +330,21 @@ window.SMR_NEWS = [
   "ko": 1,
   "op": 1,
   "id": "3bb2c8bd"
+ },
+ {
+  "date": "2026-07-29",
+  "title": "미국 ARC-100 SMR 실증 착수",
+  "summary": "미국의 ARC-100 소형모듈원자로(SMR) 실증이 착수되었다.",
+  "summaryLong": "미국에서 차세대 소형모듈원자로(SMR)인 ARC-100의 실증 프로젝트가 착수되었다. ARC-100은 고급 원자로 기술의 실용화를 위한 중요한 마일스톤으로, 이 프로젝트의 진행은 SMR 상용화 실현 가능성을 높이는 신호로 평가된다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "",
+  "region": "US",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5339",
+  "k": "차세대 원전 smr 드디어 현실이 될까 미국 arc 100 실증 착수",
+  "ko": 1,
+  "id": "f97bf80a"
  },
  {
   "date": "2026-07-28",
@@ -852,51 +897,6 @@ window.SMR_NEWS = [
   "id": "11eba671"
  },
  {
-  "date": "2026-07-27",
-  "title": "뉴스케일 파워(NuScale Power) 주가 급등 예측",
-  "summary": "뉴스케일 파워(NuScale Power)의 주가 급등 가능성을 분석한 투자 전망 기사이다.",
-  "summaryLong": "야후 파이낸스(Yahoo Finance)에 게재된 기사로, 뉴스케일 파워(NuScale Power)의 주가 급등 가능성을 분석하고 있다. 소형모듈원자로(SMR) 개발사인 뉴스케일 파워의 사업 전망과 주가 흐름에 대한 투자자 분석 콘텐츠이다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "NuScale",
-  "region": "US",
-  "source": "finance.yahoo.com",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/bold-prediction-nuscale-power-break-165700786.html",
-  "k": "bold prediction nuscale power is about to break out",
-  "op": 1,
-  "id": "914fe509"
- },
- {
-  "date": "2026-07-26",
-  "title": "IAEA(국제원자력기구), 차세대 선박용 SMR '아틀라스(ATLAS)' 출범",
-  "summary": "국제원자력기구(IAEA)가 해상 운송용 소형모듈원자로인 아틀라스 프로젝트를 공식 출범시켰다.",
-  "summaryLong": "국제원자력기구(IAEA)가 선박 추진용 차세대 소형모듈원자로인 아틀라스(ATLAS)를 출범시켰다는 보도로, SMR의 해양 응용 분야 확대와 국제 협력 강화를 보여준다. 이는 SMR 기술의 다양한 산업 응용을 추진하는 정책 차원의 국제 이니셔티브 소식이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "IAEA",
-  "region": "",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5256",
-  "k": "바다 위 원전 시대 열린다 iaea 차세대 선박용 smr 아틀라스 출범",
-  "ko": 1,
-  "id": "680b536e"
- },
- {
-  "date": "2026-07-26",
-  "title": "정부, 소형모듈원자로(SMR) 상용화 속도전 추진 중… 안전 규제 독립성 '시험대'",
-  "summary": "한국 정부가 소형모듈원자로(SMR) 상용화 가속화를 추진하면서 안전 규제 기관의 독립성 문제가 대두되고 있다.",
-  "summaryLong": "한국 정부가 소형모듈원자로(SMR)의 상용화 속도를 높이려는 정책을 추진하고 있는 가운데, 원자력 안전 규제의 독립성과 신중성 간의 균형 문제가 사회적 쟁점이 되고 있다. 정부의 성장 목표와 규제 당국의 안전 심사 기준 간 긴장 관계를 다루고 있으며, 한국의 소형모듈원자로 정책 방향과 규제 환경의 과제를 조명하는 내용이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "asiatoday.co.kr",
-  "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260726010009415",
-  "k": "정부 smr 상용화 속도전에 안전 규제 독립성은 시험대",
-  "ko": 1,
-  "id": "54da28e3"
- },
- {
   "date": "2026-07-24",
   "title": "GE 버노바 히타치·벨란, BWRX-300 밸브 공급 계약 체결",
   "summary": "GE 버노바 히타치와 벨란(Velan)이 유럽 지역 BWRX-300 소형모듈원자로용 밸브 공급 계약을 체결했다.",
@@ -1417,5 +1417,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-30 08:46 KST";
-window.SMR_TOTAL = 1638;
+window.SMR_UPDATED = "2026-07-30 15:08 KST";
+window.SMR_TOTAL = 1644;

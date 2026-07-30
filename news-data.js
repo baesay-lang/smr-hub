@@ -8,6 +8,36 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-07-30",
+    "title": "KEPIC(전력산업기술기준), SMR·신기술 표준화 추진",
+    "summary": "한국 전기산업연합회 KEPIC(전력산업기술기준) 본부장이 SMR 등 신기술에 대한 기술기준 확대와 플랫폼 고도화를 추진하겠다고 발표했다.",
+    "summaryLong": "전영태 전기산업연합회 KEPIC(전력산업기술기준) 본부장이 2026년 KEPIC-Week(8월 25~28일, 강원도 정선) 사전 인터뷰에서 원전 중심의 기반을 유지하면서도 SMR, AI, ESS, 해상풍력 등 신기술 분야에 대한 성능 및 위험도 기반의 기술기준 확대가 필요하다고 밝혔다. 탄소중립 시대 전력산업의 변화에 대응하여 KEPIC 플랫폼 고도화와 실용적 내실화, 적기 기준 제·개정을 추진할 방침을 제시했다. 이는 국내 SMR 및 신기술 상용화를 위한 규제·표준 정책의 진전을 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "전기신문 - 전체기사",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=370800",
+    "k": "원전안전성 지키며 smr 신기술 케픽화 노력",
+    "ko": 1,
+    "id": "d7baf510"
+  },
+  {
+    "date": "2026-07-30",
+    "title": "경남도, SMR 제조혁신 3개 핵심과제 모두 선정",
+    "summary": "경상남도가 소형모듈원전(SMR) 제조혁신 프로젝트의 3개 핵심과제를 모두 확보했다.",
+    "summaryLong": "경상남도가 소형모듈원전(SMR) 제조 분야 혁신 사업의 3개 핵심 과제를 모두 국책 프로젝트로 선정받았다. 이는 한국의 SMR 산업 육성 정책 아래 지역 기반 제조 혁신 계획이 정부 차원에서 공식 지원받게 됨을 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "newsgn.com",
+    "url": "https://www.newsgn.com/news/articleView.html?idxno=565295",
+    "k": "경남도 소형모듈원전 smr 제조혁신 3개 핵심과제 모두 선정",
+    "ko": 1,
+    "id": "689c05ef"
+  },
+  {
     "date": "2026-07-29",
     "title": "SK이노베이션, 베트남 AI 전력시장 공략…LNG에서 SMR까지 협력",
     "summary": "SK이노베이션이 베트남과 LNG 공급부터 소형모듈원자로(SMR) 및 에너지저장장치(ESS)까지 단계별 에너지 협력을 제시했다.",
@@ -307,6 +337,21 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "3bb2c8bd"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "미국 ARC-100 SMR 실증 착수",
+    "summary": "미국의 ARC-100 소형모듈원자로(SMR) 실증이 착수되었다.",
+    "summaryLong": "미국에서 차세대 소형모듈원자로(SMR)인 ARC-100의 실증 프로젝트가 착수되었다. ARC-100은 고급 원자로 기술의 실용화를 위한 중요한 마일스톤으로, 이 프로젝트의 진행은 SMR 상용화 실현 가능성을 높이는 신호로 평가된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "",
+    "region": "US",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5339",
+    "k": "차세대 원전 smr 드디어 현실이 될까 미국 arc 100 실증 착수",
+    "ko": 1,
+    "id": "f97bf80a"
   },
   {
     "date": "2026-07-28",
@@ -1847,6 +1892,36 @@ window.SMR_NEWS = [
     "k": "현대엔지니어링 원자력 전문가 초청 세미나 개최 smr 핵융합 사업 박차",
     "ko": 1,
     "id": "81e23066"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "현대엔지니어링, 북미 원자력·SMR 규제·산업 동향 세미나 진행",
+    "summary": "현대엔지니어링이 북미 원자력 및 소형모듈원자로(SMR) 분야의 규제 및 산업 동향을 공유하는 세미나를 개최했다.",
+    "summaryLong": "현대엔지니어링이 북미 지역의 원자력 및 소형모듈원자로(SMR) 규제 환경과 산업 동향을 주제로 세미나를 진행했다. 이는 국내 대형 건설사가 차세대 원전 분야의 해외 시장 진출 및 기술 협력을 준비하기 위해 선제적으로 정보를 수집하고 역량을 강화하려는 움직임으로 보인다. 구체적인 참석자 규모나 발표 내용에 대한 상세 정보는 제한적이나, SMR 산업 진출의 사전 준비 단계로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대엔지니어링",
+    "region": "KR",
+    "source": "100ssd.co.kr",
+    "url": "https://www.100ssd.co.kr/news/articleView.html?idxno=211421",
+    "k": "현대엔지니어링 북미 원자력 smr 규제 산업 동향 공유 세미나 진행",
+    "ko": 1,
+    "id": "60f9f977"
+  },
+  {
+    "date": "2026-07-24",
+    "title": "현대엔지니어링, 원자력·SMR 사업 역량 강화",
+    "summary": "현대엔지니어링이 원자력 및 소형모듈원자로(SMR) 사업의 역량 강화를 추진하고 있다.",
+    "summaryLong": "현대엔지니어링이 원자력 및 소형모듈원자로(SMR) 사업 진출을 위해 조직적·기술적 역량 강화를 진행 중이다. 이는 국내 주요 건설사가 차세대 원전 시장의 성장 가능성을 인식하고, 향후 국내외 SMR 프로젝트 수주에 대비하기 위한 전략적 준비 단계로 평가된다. 구체적인 투자 규모, 채용 계획, 기술 협력사 등에 대한 상세 정보는 제한적이나, 장기적인 사업 다각화 전략의 일환으로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대엔지니어링",
+    "region": "KR",
+    "source": "thereport.co.kr",
+    "url": "https://www.thereport.co.kr/news/articleView.html?idxno=89887",
+    "k": "현대엔지니어링 원자력 smr 사업 역량 강화",
+    "ko": 1,
+    "id": "ddc91432"
   },
   {
     "date": "2026-07-23",
@@ -11426,6 +11501,20 @@ window.SMR_NEWS = [
     "k": "부산 해양 소형모듈원자로 세미나 매년 연다 미래 원전시장 선점 본격화",
     "ko": 1,
     "id": "4b873846"
+  },
+  {
+    "date": "2026-06-29",
+    "title": "오하이오 SMR 프로젝트, PJM 신청 및 GE 원자로 계약 추진",
+    "summary": "오하이오의 SMR 프로젝트가 PJM(펜실베이니아-뉴저지-메릴랜드 전력관리기구) 신청과 GE(제너럴일렉트릭)와의 원자로 계약으로 진전되었다.",
+    "summaryLong": "오하이오 소형모듈원자로(SMR) 프로젝트가 PJM(펜실베이니아-뉴저지-메릴랜드 전력관리기구)에 신청을 제출하고 GE(제너럴일렉트릭)와 원자로 공급 계약을 체결하며 구체적으로 추진 중이다. 이는 미국 내 SMR 상용화 프로젝트의 진전 단계를 보여주는 사례로, 규제 신청과 주요 공급사와의 계약 체결이 동시에 진행되고 있음을 나타낸다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "GE",
+    "region": "US",
+    "source": "enr.com",
+    "url": "https://www.enr.com/articles/63237-ohio-smr-project-advances-with-pjm-filing-ge-reactor-deal",
+    "k": "ohio smr project advances with pjm filing ge reactor deal engineering news record",
+    "id": "3dd89a22"
   },
   {
     "date": "2026-06-28",
@@ -23775,4 +23864,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-30 08:46 KST";
+window.SMR_UPDATED = "2026-07-30 15:08 KST";
