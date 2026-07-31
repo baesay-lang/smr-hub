@@ -46,6 +46,21 @@ window.SMR_NEWS = [
   "id": "7152caa8"
  },
  {
+  "date": "2026-07-31",
+  "title": "경상남도, SMR 혁신제조 국가사업 3개 과제 전부 선정…2,569억 투입",
+  "summary": "경상남도가 소형모듈원자로(SMR) 혁신제조 관련 국가사업 3개 과제를 전부 확보했다.",
+  "summaryLong": "경상남도가 소형모듈원자로(SMR) 혁신제조 국가사업의 3개 과제를 전부 선정받아 총 2,569억 원의 정부 투입이 결정되었다. 이는 한국의 글로벌 원전 허브 구축 전략의 일환으로, SMR 제조 역량 강화와 국제 경쟁력 확보를 목표로 하는 국책 프로그램이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "koreaeaglenews.com",
+  "url": "https://www.koreaeaglenews.com/news/articleView.html?idxno=103372",
+  "k": "경상남 smr 혁신제조 국가사업 3개 과제 모두 따냈다 2 569억 투입 글로벌 원전 허브 도약",
+  "ko": 1,
+  "id": "fabd29be"
+ },
+ {
   "date": "2026-07-30",
   "title": "KEPIC(전력산업기술기준), SMR·신기술 표준화 추진",
   "summary": "한국 전기산업연합회 KEPIC(전력산업기술기준) 본부장이 SMR 등 신기술에 대한 기술기준 확대와 플랫폼 고도화를 추진하겠다고 발표했다.",
@@ -888,20 +903,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-28",
-  "title": "오클로, 고급 시험용 원자로 시운전 인허가 획득",
-  "summary": "오클로가 그로브스 시험용 고급 원자로의 시운전 허가를 미국 에너지부(DOE)로부터 획득했다.",
-  "summaryLong": "오클로가 자사의 그로브스 시험용 고급 원자로(Advanced Test Reactor)의 시운전을 시작할 수 있는 미국 에너지부(DOE) 인허가를 획득했다. 이는 오클로의 고급로 기술 개발 프로젝트가 중요한 규제 승인 단계를 통과한 것으로, 시험용 원자로 운영의 실질적 진전을 의미한다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "tomorrowsworldtoday.com",
-  "url": "https://www.tomorrowsworldtoday.com/nuclear/oklo-is-now-authorized-to-start-up-its-advanced-test-reactor/",
-  "k": "oklo is now authorized to start up its advanced test reactor",
-  "id": "21bde856"
- },
- {
-  "date": "2026-07-28",
   "title": "래디언트와 NASA, 미국 고농축우라늄(HALEU) 할당 확보",
   "summary": "래디언트 인더스트리(Radiant Industries)가 NASA의 화성 핵추진 미션 및 미국 공군 마이크로리액터 배치를 위해 고농축우라늄(HALEU) 할당을 받았다.",
   "summaryLong": "래디언트 인더스트리(Radiant Industries)와 NASA가 고농축우라늄 가용성 프로그램(HALEU Availability Program)의 3차 할당에서 우라늄을 획득했다. 할당분은 NASA의 화성 핵추진 우주 탐사 미션과 래디언트의 미국 공군(USAF)용 마이크로리액터 배치 사업에 활용될 예정이다. HALEU는 차세대 고급 노형(특히 마이크로리액터, 고온가스로 등)의 핵심 연료로, 이 할당은 미국 정부의 첨단원전 지원 정책 실현 사례이다.",
@@ -1453,5 +1454,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-31 15:52 KST";
-window.SMR_TOTAL = 1681;
+window.SMR_UPDATED = "2026-07-31 16:37 KST";
+window.SMR_TOTAL = 1686;

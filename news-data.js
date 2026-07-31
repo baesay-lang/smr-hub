@@ -53,6 +53,21 @@ window.SMR_NEWS = [
     "id": "7152caa8"
   },
   {
+    "date": "2026-07-31",
+    "title": "경상남도, SMR 혁신제조 국가사업 3개 과제 전부 선정…2,569억 투입",
+    "summary": "경상남도가 소형모듈원자로(SMR) 혁신제조 관련 국가사업 3개 과제를 전부 확보했다.",
+    "summaryLong": "경상남도가 소형모듈원자로(SMR) 혁신제조 국가사업의 3개 과제를 전부 선정받아 총 2,569억 원의 정부 투입이 결정되었다. 이는 한국의 글로벌 원전 허브 구축 전략의 일환으로, SMR 제조 역량 강화와 국제 경쟁력 확보를 목표로 하는 국책 프로그램이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "koreaeaglenews.com",
+    "url": "https://www.koreaeaglenews.com/news/articleView.html?idxno=103372",
+    "k": "경상남 smr 혁신제조 국가사업 3개 과제 모두 따냈다 2 569억 투입 글로벌 원전 허브 도약",
+    "ko": 1,
+    "id": "fabd29be"
+  },
+  {
     "date": "2026-07-30",
     "title": "KEPIC(전력산업기술기준), SMR·신기술 표준화 추진",
     "summary": "한국 전기산업연합회 KEPIC(전력산업기술기준) 본부장이 SMR 등 신기술에 대한 기술기준 확대와 플랫폼 고도화를 추진하겠다고 발표했다.",
@@ -3559,6 +3574,20 @@ window.SMR_NEWS = [
     "id": "28f2bda2"
   },
   {
+    "date": "2026-07-22",
+    "title": "엑스에너지, 프로메테우스 프로젝트 참여로 AI 기반 고급원자로 배치 추진",
+    "summary": "엑스에너지가 AI 활용 고급원자로 배치 가속화 프로젝트인 프로메테우스(Project Prometheus)에 참여했다.",
+    "summaryLong": "엑스에너지가 AI 기술을 활용한 첨단원자로 배치 가속화를 목표로 하는 프로메테우스 프로젝트에 공식 참여했다는 발표다. 이는 고급로의 설계, 인허가, 건설, 운영 전 단계에 AI 기술 적용을 통해 개발 속도를 높이려는 산업 이니셔티브로, 엑스에너지의 기술 혁신 추진 의지를 보여준다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "x-energy.com",
+    "url": "https://x-energy.com/news/x-energy-joins-project-prometheus-for-ai-accelerated-advanced-nuclear-deployment/",
+    "k": "x energy joins project prometheus for ai accelerated advanced nuclear deployment x energy com",
+    "id": "27640ed5"
+  },
+  {
     "date": "2026-07-21",
     "title": "SMR 시대 보안·정보 관리의 중요성",
     "summary": "소형모듈원자로(SMR) 등 차세대 핵발전이 국가 전략 자산으로 부상하면서 기술 보안과 정보 관리 체계 구축의 필요성을 제기한 의견 기사다.",
@@ -5328,6 +5357,20 @@ window.SMR_NEWS = [
     "k": "smr 추진 대형 컨테이너선 기본승인 획득",
     "ko": 1,
     "id": "02ec23bc"
+  },
+  {
+    "date": "2026-07-15",
+    "title": "TRISO-X, 테네시주 보조금 획득으로 핵연료 캠퍼스 확장",
+    "summary": "TRISO-X가 테네시주(Tennessee) 정부 보조금을 받아 핵연료 생산 캠퍼스 확장을 추진한다.",
+    "summaryLong": "엑스에너지의 자회사 TRISO-X가 미국 테네시주 정부로부터 핵연료 캠퍼스 확장을 지원하는 보조금을 획득했다. 이는 고급로 및 소형모듈원자로용 TRISO 연료의 국내 생산 능력 확대를 위한 정부 지원으로, 미국의 첨단원자로 연료 공급망 강화 정책의 일환이다.",
+    "cat": "정책",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "x-energy.com",
+    "url": "https://x-energy.com/news/triso-x-awarded-tennessee-grant-to-support-expansion-of-nuclear-fuel-campus/",
+    "k": "triso x awarded tennessee grant to support expansion of nuclear fuel campus x energy com",
+    "id": "c498a2cf"
   },
   {
     "date": "2026-07-14",
@@ -21516,6 +21559,20 @@ window.SMR_NEWS = [
     "id": "e3739b73"
   },
   {
+    "date": "2026-04-23",
+    "title": "엑스에너지(X-energy), 확대된 신규공모 공시 가격 결정",
+    "summary": "엑스에너지가 증액된 신규공모(IPO) 가격 책정을 공시했다.",
+    "summaryLong": "엑스에너지(X-energy)가 신규공모(IPO) 규모를 확대하고 최종 공시 가격을 결정했다고 발표했다. 이는 자본 조달을 통해 소형모듈원자로(SMR) 기술 개발과 상용화 추진에 필요한 자금을 확보하는 단계이다.",
+    "cat": "투자",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "x-energy.com",
+    "url": "https://x-energy.com/news/x-energy-announces-pricing-of-upsized-initial-public-offering/",
+    "k": "x energy announces pricing of upsized initial public offering x energy com",
+    "id": "c11d46ca"
+  },
+  {
     "date": "2026-04-22",
     "title": "온타리오와 유콘, 소형모듈원자로 개발 협력 추진",
     "summary": "캐나다 온타리오주와 유콘(Yukon) 지역이 소형모듈원자로 개발을 함께 추진하기로 합의했다.",
@@ -23859,6 +23916,20 @@ window.SMR_NEWS = [
     "id": "3353a7f8"
   },
   {
+    "date": "2025-09-25",
+    "title": "엑스에너지, 앨버타주 Xe-100 배치 타당성 확인",
+    "summary": "엑스에너지(X-energy)가 캐나다 앨버타주(Alberta)에서 Xe-100 고급 소형모듈원자로(SMR) 배치의 타당성을 확인했다.",
+    "summaryLong": "엑스에너지가 캐나다 앨버타주에서 자사의 Xe-100 고온가스로(HTGR) 기반 소형모듈원자로 배치 프로젝트의 타당성 분석을 완료했다는 공식 발표로, 북미 지역에서의 상용화 추진 의향을 명확히 한 것으로 평가된다. 이는 엑스에너지의 고급로 개발 포트폴리오 확대 및 캐나다 시장 진출 의지를 반영한다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "CA",
+    "source": "x-energy.com",
+    "url": "https://x-energy.com/news/x-energy-confirms-feasibility-of-xe-100-advanced-small-modular-reactor-deployment-in-alberta/",
+    "k": "x energy confirms feasibility of xe 100 advanced small modular reactor deployment in alberta x energy com",
+    "id": "3353a7f8"
+  },
+  {
     "date": "2025-09-24",
     "title": "뉴스케일의 SMR 설계, 세계 최초 진정한 확장형 핵전력 솔루션",
     "summary": "뉴스케일(NuScale)이 자사의 SMR 설계를 세계 최초의 진정한 확장형 핵전력 솔루션으로 소개했다.",
@@ -24409,4 +24480,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-31 15:52 KST";
+window.SMR_UPDATED = "2026-07-31 16:37 KST";
