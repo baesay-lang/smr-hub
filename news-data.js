@@ -8,6 +8,51 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-07-31",
+    "title": "경남도, SMR 혁신제조 기술개발 3개 핵심 과제 선정",
+    "summary": "경상남도가 주관하는 'SMR 혁신제조 기술개발' 사업에서 도내 원전 기업과 연구기관이 3개 과제 모두 최종 선정되었다.",
+    "summaryLong": "경상남도(Gyeongnam Province)가 민선 9기 도정의 핵심 공약인 '글로벌 SMR(소형모듈원자로) 개발·제조·검사 원스톱 거점 구축' 사업의 일환으로 추진 중인 SMR 혁신제조 기술개발 사업에서 도내 원전 기업과 연구기관이 3개 과제 모두 최종 선정되었다. 선정된 과제들은 SMR 제작 기간을 기존 14개월에서 3개월로 80% 단축하는 제조 혁신 기술들을 목표로 하고 있으며, 이번 사업은 2023년부터의 정부 건의를 거쳐 지난해 8월 예비타당성조사(PFS) 면제를 통해 정부 사업화되었다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "투데이에너지 - 전체기사",
+    "url": "https://www.todayenergy.kr/news/articleView.html?idxno=301064",
+    "k": "경남도 smr 제조혁신 3개 핵심과제 선정",
+    "ko": 1,
+    "id": "1129721a"
+  },
+  {
+    "date": "2026-07-31",
+    "title": "SK이노베이션, 테라파워 SMR 프로젝트 참여",
+    "summary": "SK이노베이션이 빌 게이츠가 설립한 테라파워(TerraPower)의 4세대 SMR 개발에 참여하고 있다.",
+    "summaryLong": "SK이노베이션이 빌 게이츠(Bill Gates)가 설립한 테라파워(TerraPower)의 4세대 소형모듈원자로(SMR) 개발 프로젝트에 참여하고 있는 것으로 보도되었다. 구체적인 계약 내용이나 역할 분담 등의 세부 사항은 제목에 명시되지 않았으나, 국내 주요 에너지 기업의 첨단로 개발 참여를 보여주는 사례이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260731131103628",
+    "k": "빌 게이츠 원전 올라탄 sk이노베이션 국내 4세대 smr 속도",
+    "ko": 1,
+    "id": "1b16f13c"
+  },
+  {
+    "date": "2026-07-31",
+    "title": "현대건설 홀텍, 미국 2호 SMR 프로젝트 구체화…뉴저지 폐쇄원전 부지 확보",
+    "summary": "현대건설 계열의 홀텍(Holtec)이 미국 뉴저지(New Jersey)의 폐쇄된 원자력발전소 부지에서 두 번째 SMR 프로젝트를 추진하게 되었다.",
+    "summaryLong": "현대건설(Hyundai Engineering and Construction)의 원팀인 홀텍(Holtec)이 미국 뉴저지(New Jersey)의 폐쇄된 원자력발전소 부지에서 미국 내 두 번째 소형모듈원자로(SMR) 프로젝트를 추진하게 되었다. 해당 부지의 폐쇄원전 면허 종료가 확정됨에 따라 새로운 SMR 프로젝트 추진이 현실화되었으며, 이는 현대건설의 글로벌 SMR 사업 확대를 보여주는 사례이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Holtec",
+    "region": "US",
+    "source": "theguru.co.kr",
+    "url": "https://www.theguru.co.kr/news/article.html?no=105199",
+    "k": "현대건설 원팀 홀텍 2호 smr 프로젝트 가시화 뉴저지 폐쇄원전 면허 종료 확정",
+    "ko": 1,
+    "id": "7152caa8"
+  },
+  {
     "date": "2026-07-30",
     "title": "KEPIC(전력산업기술기준), SMR·신기술 표준화 추진",
     "summary": "한국 전기산업연합회 KEPIC(전력산업기술기준) 본부장이 SMR 등 신기술에 대한 기술기준 확대와 플랫폼 고도화를 추진하겠다고 발표했다.",
@@ -655,6 +700,20 @@ window.SMR_NEWS = [
     "id": "7b652b5c"
   },
   {
+    "date": "2026-07-29",
+    "title": "맥더못과 ULC-에너지, 롤스로이스 SMR 사업 협력 양해각서 체결",
+    "summary": "맥더못(McDermott)과 ULC-에너지(ULC-Energy)가 롤스로이스(Rolls-Royce) SMR 프로젝트 추진을 위해 협력 협약을 체결했다.",
+    "summaryLong": "엔지니어링 기업 맥더못(McDermott)과 ULC-에너지(ULC-Energy)가 소형모듈원자로(SMR) 개발사인 롤스로이스(Rolls-Royce)의 SMR 사업을 진전시키기 위해 협력 협약을 체결했다. 이는 롤스로이스 SMR의 프로젝트 실현화를 위한 핵심 파트너십 구축으로, 엔지니어링·건설 역량을 갖춘 맥더못의 참여로 사업 추진 속도가 가속화될 것으로 예상된다.",
+    "cat": "계약",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "UK",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/mcdermott-ulc-energy-sign-cooperation-110000798.html",
+    "k": "mcdermott and ulc energy sign cooperation agreement to advance rolls royce smr projects",
+    "id": "5d6b26cc"
+  },
+  {
     "date": "2026-07-28",
     "title": "[인터뷰] 대한전기산업연합회, SMR 등 적기 표준 마련 추진",
     "summary": "대한전기산업연합회가 SMR 등 신규 기술에 대한 산업 표준 마련을 추진한다고 밝혔다.",
@@ -1232,6 +1291,20 @@ window.SMR_NEWS = [
     "url": "https://www.world-nuclear-news.org/articles/first-port-signs-up-to-us-initiative-on-maritime-smrs",
     "k": "first port signs up to us initiative on maritime smrs world nuclear news org",
     "id": "7b0b989f"
+  },
+  {
+    "date": "2026-07-27",
+    "title": "오클로, 2026년 2분기 실적 발표 일정 공지",
+    "summary": "오클로(Oklo)가 2026년 2분기 재무 실적 및 사업 현황 발표 일정을 공식 공지했다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발사인 오클로(Oklo)가 2026년 2분기 재무 결과 및 사업 업데이트 콜(call) 개최 날짜를 공식 발표했다. 이는 회사의 정기 실적 공시 일정으로, 그로브스(Groves) 시험로 진행 상황과 고객 계약 현황 등 사업 진전 상황이 공개될 예정이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/oklo-announces-date-second-quarter-103000447.html",
+    "k": "oklo announces date for second quarter 2026 financial results and business update call",
+    "id": "7843e0e5"
   },
   {
     "date": "2026-07-26",
@@ -24306,4 +24379,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-31 08:44 KST";
+window.SMR_UPDATED = "2026-07-31 15:30 KST";

@@ -1,6 +1,51 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-07-31",
+  "title": "경남도, SMR 혁신제조 기술개발 3개 핵심 과제 선정",
+  "summary": "경상남도가 주관하는 'SMR 혁신제조 기술개발' 사업에서 도내 원전 기업과 연구기관이 3개 과제 모두 최종 선정되었다.",
+  "summaryLong": "경상남도(Gyeongnam Province)가 민선 9기 도정의 핵심 공약인 '글로벌 SMR(소형모듈원자로) 개발·제조·검사 원스톱 거점 구축' 사업의 일환으로 추진 중인 SMR 혁신제조 기술개발 사업에서 도내 원전 기업과 연구기관이 3개 과제 모두 최종 선정되었다. 선정된 과제들은 SMR 제작 기간을 기존 14개월에서 3개월로 80% 단축하는 제조 혁신 기술들을 목표로 하고 있으며, 이번 사업은 2023년부터의 정부 건의를 거쳐 지난해 8월 예비타당성조사(PFS) 면제를 통해 정부 사업화되었다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "투데이에너지 - 전체기사",
+  "url": "https://www.todayenergy.kr/news/articleView.html?idxno=301064",
+  "k": "경남도 smr 제조혁신 3개 핵심과제 선정",
+  "ko": 1,
+  "id": "1129721a"
+ },
+ {
+  "date": "2026-07-31",
+  "title": "SK이노베이션, 테라파워 SMR 프로젝트 참여",
+  "summary": "SK이노베이션이 빌 게이츠가 설립한 테라파워(TerraPower)의 4세대 SMR 개발에 참여하고 있다.",
+  "summaryLong": "SK이노베이션이 빌 게이츠(Bill Gates)가 설립한 테라파워(TerraPower)의 4세대 소형모듈원자로(SMR) 개발 프로젝트에 참여하고 있는 것으로 보도되었다. 구체적인 계약 내용이나 역할 분담 등의 세부 사항은 제목에 명시되지 않았으나, 국내 주요 에너지 기업의 첨단로 개발 참여를 보여주는 사례이다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "US",
+  "source": "v.daum.net",
+  "url": "https://v.daum.net/v/20260731131103628",
+  "k": "빌 게이츠 원전 올라탄 sk이노베이션 국내 4세대 smr 속도",
+  "ko": 1,
+  "id": "1b16f13c"
+ },
+ {
+  "date": "2026-07-31",
+  "title": "현대건설 홀텍, 미국 2호 SMR 프로젝트 구체화…뉴저지 폐쇄원전 부지 확보",
+  "summary": "현대건설 계열의 홀텍(Holtec)이 미국 뉴저지(New Jersey)의 폐쇄된 원자력발전소 부지에서 두 번째 SMR 프로젝트를 추진하게 되었다.",
+  "summaryLong": "현대건설(Hyundai Engineering and Construction)의 원팀인 홀텍(Holtec)이 미국 뉴저지(New Jersey)의 폐쇄된 원자력발전소 부지에서 미국 내 두 번째 소형모듈원자로(SMR) 프로젝트를 추진하게 되었다. 해당 부지의 폐쇄원전 면허 종료가 확정됨에 따라 새로운 SMR 프로젝트 추진이 현실화되었으며, 이는 현대건설의 글로벌 SMR 사업 확대를 보여주는 사례이다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "Holtec",
+  "region": "US",
+  "source": "theguru.co.kr",
+  "url": "https://www.theguru.co.kr/news/article.html?no=105199",
+  "k": "현대건설 원팀 홀텍 2호 smr 프로젝트 가시화 뉴저지 폐쇄원전 면허 종료 확정",
+  "ko": 1,
+  "id": "7152caa8"
+ },
+ {
   "date": "2026-07-30",
   "title": "KEPIC(전력산업기술기준), SMR·신기술 표준화 추진",
   "summary": "한국 전기산업연합회 KEPIC(전력산업기술기준) 본부장이 SMR 등 신기술에 대한 기술기준 확대와 플랫폼 고도화를 추진하겠다고 발표했다.",
@@ -648,6 +693,20 @@ window.SMR_NEWS = [
   "id": "7b652b5c"
  },
  {
+  "date": "2026-07-29",
+  "title": "맥더못과 ULC-에너지, 롤스로이스 SMR 사업 협력 양해각서 체결",
+  "summary": "맥더못(McDermott)과 ULC-에너지(ULC-Energy)가 롤스로이스(Rolls-Royce) SMR 프로젝트 추진을 위해 협력 협약을 체결했다.",
+  "summaryLong": "엔지니어링 기업 맥더못(McDermott)과 ULC-에너지(ULC-Energy)가 소형모듈원자로(SMR) 개발사인 롤스로이스(Rolls-Royce)의 SMR 사업을 진전시키기 위해 협력 협약을 체결했다. 이는 롤스로이스 SMR의 프로젝트 실현화를 위한 핵심 파트너십 구축으로, 엔지니어링·건설 역량을 갖춘 맥더못의 참여로 사업 추진 속도가 가속화될 것으로 예상된다.",
+  "cat": "계약",
+  "type": "PWR",
+  "dev": "Rolls-Royce",
+  "region": "UK",
+  "source": "finance.yahoo.com",
+  "url": "https://finance.yahoo.com/energy/articles/mcdermott-ulc-energy-sign-cooperation-110000798.html",
+  "k": "mcdermott and ulc energy sign cooperation agreement to advance rolls royce smr projects",
+  "id": "5d6b26cc"
+ },
+ {
   "date": "2026-07-28",
   "title": "[인터뷰] 대한전기산업연합회, SMR 등 적기 표준 마련 추진",
   "summary": "대한전기산업연합회가 SMR 등 신규 기술에 대한 산업 표준 마련을 추진한다고 밝혔다.",
@@ -839,49 +898,6 @@ window.SMR_NEWS = [
   "k": "입찰 정보 7월 28일자",
   "ko": 1,
   "id": "52ed497c"
- },
- {
-  "date": "2026-07-28",
-  "title": "정부, SMR 특별법 시행령 제정령안 입법예고",
-  "summary": "과학기술정보통신부가 지난 3월 공포된 소형모듈원자로(SMR) 개발 촉진 특별법의 시행령 제정령안을 입법예고했다. 시행령안은 SMR의 모듈 형태·제작·운송·설치 방식 등 핵심 특성을 구체화하고 부대시설을 시스템 구성요소로 규정했다.",
-  "summaryLong": "과학기술정보통신부가 지난 3월 10일 공포된 소형모듈원자로(SMR) 개발 촉진 및 지원에 관한 특별법의 시행령 제정령안을 입법예고했으며, 해당 법은 9월 11일부터 시행될 예정이다. 지난 24일 입법예고된 제정령안의 주요 내용은 SMR의 설비용량 기준뿐 아니라 모듈 형태, 제작·운송·설치 방식, 용량 확장 구조 등 핵심 특성을 구체화한 것이다. 제정령안은 모듈 형태의 요건을 SMR 정의에 포함시키고, 소형모듈원자로와 결합 또는 연계되는 부대시설·장치를 시스템 구성요소로 규정했다. 이는 SMR 개발 및 규제 체계를 명확히 함으로써 관련 산업의 법적 기반을 마련하는 의미를 갖는다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "투데이에너지 - 전체기사",
-  "url": "https://www.todayenergy.kr/news/articleView.html?idxno=300929",
-  "k": "정부 smr 특별법 시행령 제정령안 입법예고",
-  "ko": 1,
-  "id": "53ed4b0f"
- },
- {
-  "date": "2026-07-28",
-  "title": "롱비치항, MARAD와 해양 원자로 파트너십 체결",
-  "summary": "미국 교통부 해사청(MARAD)이 캘리포니아 롱비치항과 협력각서(MOC)를 체결하여 상선·항만·해양자산 전력공급용 소형모듈원자로(SMR) 개발을 추진한다.",
-  "summaryLong": "미국 교통부 산하 해사청(MARAD)이 캘리포니아 남부의 롱비치항(Port of Long Beach)과 협력각서(Memorandum of Cooperation, MOC)를 체결했다. 이는 상용선박, 항만, 기타 해양자산의 전력공급을 위한 소형모듈원자로(SMR) 개발을 추진하기 위한 최초의 협력 사례로, 롱비치항이 이 분야에서 MARAD와 파트너십을 맺은 미국 첫 항만이 되었다. 이 협력은 해양 부문에서의 SMR 활용 가능성을 실증하고 규제·기술 프레임워크를 개발하는 데 중점을 둘 것으로 예상된다.",
-  "cat": "계약",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "ANS Newswire",
-  "url": "https://www.ans.org/news/2026-07-28/article-8250/long-beach-is-first-port-to-partner-with-marad-on-maritime-reactors/",
-  "k": "long beach is first port to partner with marad on maritime reactors",
-  "id": "af32acef"
- },
- {
-  "date": "2026-07-28",
-  "title": "캐나다 첫 SMR용 대형 강철 반응기 용기 제작 중",
-  "summary": "온타리오주의 공장에서 캐나다 첫 소형모듈원자로를 위한 길이 98피트, 무게 606톤의 대형 강철 반응기 용기 제작이 진행 중이다.",
-  "summaryLong": "캐나다 온타리오주의 공장에서 캐나다 첫 소형모듈원자로(SMR)를 위한 대형 강철 반응기 용기 제작이 진행 중이다. 이 강철 용기는 길이 98피트, 무게 606톤 규모로, 현재 북미 대륙에서 이러한 규모의 용기 제작을 시작한 유일한 업체가 이 작업을 수행하고 있다. 이는 캐나다의 SMR 상용화 프로젝트가 설계 단계에서 실제 하드웨어 제작 단계로 진전되었음을 의미한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "CA",
-  "source": "autonocion.com",
-  "url": "https://www.autonocion.com/us/canada-first-small-modular-reactor/",
-  "k": "a 606 ton steel can 98 feet long is taking shape in an ontario factory the piece that turns canada s first small modular reactor from a hole in the ground into a machine and exactly one shop on the continent has started one",
-  "id": "0a5bac57"
  },
  {
   "date": "2026-07-28",
@@ -1422,5 +1438,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-07-31 08:44 KST";
-window.SMR_TOTAL = 1674;
+window.SMR_UPDATED = "2026-07-31 15:30 KST";
+window.SMR_TOTAL = 1679;
