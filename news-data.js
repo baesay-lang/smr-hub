@@ -466,6 +466,21 @@ window.SMR_NEWS = [
     "id": "68411189"
   },
   {
+    "date": "2026-07-30",
+    "title": "경남 기업·연구기관, SMR 혁신 제조 기술개발 사업 선정",
+    "summary": "경남의 기업과 연구기관이 SMR 혁신 제조 기술개발 사업 공모에 선정되었다.",
+    "summaryLong": "경상남도의 관련 기업과 연구기관이 SMR(소형모듈원자로) 혁신 제조 기술개발 사업 공모에 선정되었다. 이는 정부 국책 프로그램 지원 대상 선정으로, 한국의 SMR 기술 개발을 지원하는 정책 사업의 일환이다. SMR 핵심 제조 기술 고도화를 목표로 진행될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "idomin.com",
+    "url": "https://www.idomin.com/news/articleView.html?idxno=2011354",
+    "k": "경남 기업 연구기관 smr 혁신 제조 기술개발 사업 공모 선정",
+    "ko": 1,
+    "id": "1ca32c73"
+  },
+  {
     "date": "2026-07-29",
     "title": "SK이노베이션, 베트남 AI 전력시장 공략…LNG에서 SMR까지 협력",
     "summary": "SK이노베이션이 베트남과 LNG 공급부터 소형모듈원자로(SMR) 및 에너지저장장치(ESS)까지 단계별 에너지 협력을 제시했다.",
@@ -24652,4 +24667,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-01 08:12 KST";
+window.SMR_UPDATED = "2026-08-01 08:46 KST";
