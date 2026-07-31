@@ -68,6 +68,77 @@ window.SMR_NEWS = [
     "id": "fabd29be"
   },
   {
+    "date": "2026-07-31",
+    "title": "캐메코, 웨스팅하우스 IPO 계획 발표",
+    "summary": "캐메코(Cameco)와 브룩필드 재생에너지 파트너스(Brookfield Renewable Partners)의 합작사인 웨스팅하우스 일렉트릭(Westinghouse Electric Company)이 주식 상장을 위한 예비등록명세서를 미국 증권거래위원회(SEC)에 기밀 제출했다.",
+    "summaryLong": "웨스팅하우스 일렉트릭이 기업공개(IPO)를 추진하기 위해 미국 증권거래위원회(SEC)에 예비등록명세서를 비공개로 제출했다. 동사는 캐메코와 브룩필드 재생에너지 파트너스의 합작회사로, 가압경수로(PWR) 및 소형모듈원자로(SMR) 기술을 보유한 글로벌 원전 기업이다. 이번 상장은 핵에너지에 대한 전 세계적 수요 증가 속에서 추진되고 있으며, 자본 조달과 사업 확장의 계기가 될 것으로 예상된다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "Westinghouse",
+    "region": "US",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/cameco-announces-go-public-plans-for-westinghouse",
+    "k": "cameco announces ipo plan for westinghouse",
+    "id": "e07b3f30"
+  },
+  {
+    "date": "2026-07-31",
+    "title": "ARC, 아이다호 국립연구소와 전략적 파트너십 체결",
+    "summary": "ARC 클린 테크놀로지(ARC Clean Technology)가 배텔 에너지 얼라이언스(Battelle Energy Alliance, 아이다호 국립연구소(Idaho National Laboratory, INL) 운영)와 전략적 파트너십 프로젝트 계약을 체결했다.",
+    "summaryLong": "ARC 클린 테크놀로지가 아이다호 국립연구소(INL)의 운영 기관인 배텔 에너지 얼라이언스(Battelle Energy Alliance)와 전략적 파트너십 프로젝트 계약을 체결했다. 이 다년 협약을 통해 ARC와 INL은 ARC의 100메가와트급 소듐냉각 고속로(SFR)인 ARC-100의 설계, 실증 및 초기 배치에 협력하기로 합의했다. 이는 SMR·첨단로 분야에서 미국의 선도적 연구기관과 민간 개발사 간의 실질적 사업 협력을 나타낸다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "ARC",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-07-31/article-8260/arc-partners-with-inl-for-first-reactor-deployment/",
+    "k": "arc partners with inl for first reactor deployment",
+    "id": "4e6d2ed2"
+  },
+  {
+    "date": "2026-07-31",
+    "title": "오클로, 텍사스 동위원소 원자로 미국 에너지부 운영 승인 획득",
+    "summary": "오클로(Oklo)가 텍사스의 동위원소 생산 원자로에 대해 미국 에너지부(DOE) 운영 승인을 획득했다.",
+    "summaryLong": "오클로가 텍사스에 건설 중인 동위원소 생산용 원자로에 대해 미국 에너지부(DOE)의 운영 승인을 취득했다. 이는 오클로의 소형모듈원자로(SMR) 사업이 미국 규제 절차를 통과하고 실제 운영 단계로 진입할 수 있음을 의미하는 중요한 인허가 마일스톤이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "etfdb.com",
+    "url": "https://etfdb.com/nuclear-energy-content-hub/oklo-secures-authorization-texas-isotope-reactor/",
+    "k": "oklo secures doe startup authorization for texas isotope reactor",
+    "id": "32a12539"
+  },
+  {
+    "date": "2026-07-31",
+    "title": "루마니아, 비용·일정 우려 속 뉴스케일 추진 강화",
+    "summary": "루마니아가 비용 초과 및 일정 지연 우려에도 불구하고 뉴스케일(NuScale) 소형모듈원자로 사업을 계속 추진하기로 결정했다.",
+    "summaryLong": "루마니아가 뉴스케일(NuScale)의 소형모듈원자로(SMR) 도입 사업을 지속 추진하기로 입장을 재확인했다. 다만 프로젝트의 비용 상승과 일정 지연, 투명성 부족 등에 대한 우려가 제기되고 있는 상황 속에서의 결정이다. 이는 유럽의 주요 에너지 정책 국가가 SMR 사업의 도전 과제에도 불구하고 에너지 안보와 탄소중립을 위해 SMR에 대한 약속을 유지하고 있음을 보여준다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "EU",
+    "source": "energyintel.com",
+    "url": "https://www.energyintel.com/0000019f-aebb-dc12-a1ff-bfffa3380000",
+    "k": "romania doubles down on nuscale amid cost schedule transparency concerns",
+    "id": "943c9054"
+  },
+  {
+    "date": "2026-07-31",
+    "title": "이탈리아 원전 복귀, 한국 SMR 기회 열리나",
+    "summary": "이탈리아의 원전 재도입 정책이 한국 SMR 기업들의 수출 시장 기회를 창출할 가능성을 분석한 보도.",
+    "summaryLong": "한국 에너지 매체는 이탈리아가 원자력 정책 전환을 통해 원전 복귀를 추진함에 따라 한국의 소형모듈원자로(SMR) 기업들에게 유럽 시장 진출의 새로운 기회가 열릴 수 있음을 지적했다. 이는 글로벌 에너지 정책 변화와 한국 SMR 기업의 전략적 기회에 대한 정책·시장 분석 보도이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5379",
+    "k": "이탈리아 원전 복귀 초읽기 한국 smr 기회 열리나",
+    "ko": 1,
+    "id": "71722796"
+  },
+  {
     "date": "2026-07-30",
     "title": "KEPIC(전력산업기술기준), SMR·신기술 표준화 추진",
     "summary": "한국 전기산업연합회 KEPIC(전력산업기술기준) 본부장이 SMR 등 신기술에 대한 기술기준 확대와 플랫폼 고도화를 추진하겠다고 발표했다.",
@@ -322,6 +393,48 @@ window.SMR_NEWS = [
     "k": "경남도 smr 제조혁신 3개 핵심과제 선정 제작 기간 80 단축",
     "ko": 1,
     "id": "6d60da72"
+  },
+  {
+    "date": "2026-07-30",
+    "title": "테라파워, 미국 원자력 운영자 협회(INPO)에 첫 첨단로 회원사로 가입",
+    "summary": "테라파워(TerraPower)가 미국 원자력 운영자 협회(INPO)에 첨단로 회사로는 처음 가입했으며, 이는 업계 안전 기준 수용의 의미를 가진다.",
+    "summaryLong": "테라파워(TerraPower)가 미국 원자력 운영자 협회(INPO, Institute of Nuclear Power Operations)에 첨단로 회사로는 처음 가입 승인을 받았다. 이는 원자력 산업의 운영 안전 기준을 수립하고 감시하는 공식 기관에 첨단로 개발사가 회원으로 인정받은 것으로, 산업 진출 및 규제 수용성 확대를 의미한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "energiesmedia.com",
+    "url": "https://energiesmedia.com/terrapower-joins-inpo-nuclear-safety/",
+    "k": "terrapower joins inpo as first advanced reactor company accepted into the nuclear safety institute",
+    "id": "fa159c7b"
+  },
+  {
+    "date": "2026-07-30",
+    "title": "맥더모트(McDermott)와 ULC-에너지(ULC-Energy), 롤스로이스 SMR 프로젝트 협력 계약 체결",
+    "summary": "맥더모트(McDermott)와 ULC-에너지(ULC-Energy)가 롤스로이스(Rolls-Royce) SMR 프로젝트 추진을 위한 협력 계약을 체결했다.",
+    "summaryLong": "엔지니어링 기업 맥더모트(McDermott)와 ULC-에너지(ULC-Energy)가 롤스로이스(Rolls-Royce) SMR 프로젝트 추진을 위한 협력 계약(Cooperation Deal)을 체결했다. 이는 롤스로이스 SMR의 개발·건설 파트너십 확대를 의미하며, 프로젝트 실행 및 상용화 경로 강화의 중요한 계약 진전에 해당한다.",
+    "cat": "계약",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "UK",
+    "source": "igrownews.com",
+    "url": "https://igrownews.com/mcdermott-ulc-energy-latest-news/",
+    "k": "mcdermott and ulc energy sign cooperation deal to advance rolls royce smr projects",
+    "id": "ee78fa65"
+  },
+  {
+    "date": "2026-07-30",
+    "title": "프랑스 EDF, SMR 사업에 투자자 유치 추진",
+    "summary": "프랑스 국영전력(EDF)이 자사의 소형모듈원자로(SMR) 프로젝트에 외부 투자자 유치를 추진 중이다.",
+    "summaryLong": "로이터 통신은 프랑스의 주요 전력회사인 EDF(전력(Électricité de France))가 자사의 SMR 사업에 투자자들을 참여시키기 위해 움직이고 있다고 보도했다. 이는 EDF의 SMR 개발 사업이 상용화 단계로 진입하면서 자금 조달 및 파트너십 확대를 모색하는 단계임을 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "EDF",
+    "region": "EU",
+    "source": "reuters.com",
+    "url": "https://www.reuters.com/business/energy/frances-edf-looking-bring-investors-its-smr-project-2026-07-30/",
+    "k": "france s edf looking to bring in investors for its smr project",
+    "id": "ca5b7e06"
   },
   {
     "date": "2026-07-29",
@@ -757,6 +870,21 @@ window.SMR_NEWS = [
     "url": "https://finance.yahoo.com/energy/articles/mcdermott-ulc-energy-sign-cooperation-110000798.html",
     "k": "mcdermott and ulc energy sign cooperation agreement to advance rolls royce smr projects",
     "id": "5d6b26cc"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "빌 게이츠, 한국 방문으로 SMR 협력 강화…핵발전 정책 부활 시점에 맞춰",
+    "summary": "테라파워(TerraPower) 회장 빌 게이츠가 한국을 방문하여 소형모듈원자로(SMR) 분야 협력을 심화시킨다.",
+    "summaryLong": "테라파워(TerraPower)의 회장 빌 게이츠가 한국을 재방문하여 소형모듈원자로(SMR) 분야의 협력 관계를 확대할 계획이다. 한국이 핵발전 정책을 재활성화하는 시점과 맞물려 진행되는 이 방문은, 글로벌 SMR 개발사와 한국 정부 및 산업계 간 협력 강화의 신호로 해석된다. 테라파워를 포함한 주요 SMR 개발사들이 한국 시장에 대한 관심을 높이고 있는 배경이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "KR",
+    "source": "kedglobal.com",
+    "url": "https://www.kedglobal.com/energy/newsView/ked202607290009",
+    "k": "bill gates to return to seoul to deepen smr ties as korea revives nuclear power",
+    "op": 1,
+    "id": "176bf069"
   },
   {
     "date": "2026-07-28",
@@ -24480,4 +24608,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-07-31 16:37 KST";
+window.SMR_UPDATED = "2026-08-01 07:36 KST";
