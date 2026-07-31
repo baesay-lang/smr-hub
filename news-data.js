@@ -139,6 +139,20 @@ window.SMR_NEWS = [
     "id": "71722796"
   },
   {
+    "date": "2026-07-31",
+    "title": "웨스팅하우스 일렉트릭, IPO 신청 — 원자력 수요 증가 속 미국 에너지부(DOE) 175억 달러 융자",
+    "summary": "웨스팅하우스 일렉트릭이 미국 증권거래위원회(SEC)에 IPO 등록 신청서를 제출했으며, 미국 에너지부로부터 175억 달러 규모의 AP1000 10기 건설 융자를 받는다.",
+    "summaryLong": "웨스팅하우스 일렉트릭 컴퍼니가 미국 증권거래위원회(SEC)에 신규공개(IPO) 등록 신청서를 제출했다. 이는 전력 수요 증가와 선진국들의 탄소중립 정책 추진 속에서 이루어진 것으로, 동사는 미국 에너지부(DOE)로부터 AP1000 원전 10기 건설에 필요한 175억 달러 규모의 융자 지원을 받게 된다. 이는 원자력 산업의 부흥과 민간 기업의 시장 진출 확대를 보여주는 신호로 해석된다.",
+    "cat": "투자",
+    "type": "PWR",
+    "dev": "Westinghouse",
+    "region": "US",
+    "source": "Power Engineering",
+    "url": "https://www.power-eng.com/nuclear/westinghouse-electric-files-for-ipo-as-nuclear-demand-grows/",
+    "k": "westinghouse electric files for ipo as nuclear demand grows",
+    "id": "07688562"
+  },
+  {
     "date": "2026-07-30",
     "title": "KEPIC(전력산업기술기준), SMR·신기술 표준화 추진",
     "summary": "한국 전기산업연합회 KEPIC(전력산업기술기준) 본부장이 SMR 등 신기술에 대한 기술기준 확대와 플랫폼 고도화를 추진하겠다고 발표했다.",
@@ -435,6 +449,21 @@ window.SMR_NEWS = [
     "url": "https://www.reuters.com/business/energy/frances-edf-looking-bring-investors-its-smr-project-2026-07-30/",
     "k": "france s edf looking to bring in investors for its smr project",
     "id": "ca5b7e06"
+  },
+  {
+    "date": "2026-07-30",
+    "title": "경남도, 소형모듈원전(SMR) 제조혁신 3개 핵심과제 전수 선정",
+    "summary": "경상남도가 소형모듈원전 제조혁신 정부 공모사업의 3개 핵심과제 모두를 선정받았다.",
+    "summaryLong": "경상남도가 소형모듈원전(SMR) 제조혁신 국책 프로그램의 3개 핵심과제를 모두 선정받았다. 이는 한국 정부의 SMR 산업 육성 정책 하에서 지자체 및 산업계가 국가 지원 프로젝트를 확보한 사례로, SMR 국내 산업 생태계 구축과 정부 정책 추진의 구체적 진전을 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "e-newsp.com",
+    "url": "https://www.e-newsp.com/news/article.html?no=90060",
+    "k": "경남도 소형모듈원전 smr 제조혁신 3개 핵심과제 모두 선정 e newsp com",
+    "ko": 1,
+    "id": "68411189"
   },
   {
     "date": "2026-07-29",
@@ -885,6 +914,21 @@ window.SMR_NEWS = [
     "k": "bill gates to return to seoul to deepen smr ties as korea revives nuclear power",
     "op": 1,
     "id": "176bf069"
+  },
+  {
+    "date": "2026-07-29",
+    "title": "태웅, SMR 대량생산 기술로 소형모듈원전 시장 진출",
+    "summary": "태웅이 SMR 대량생산 기술을 바탕으로 소형모듈원전 시장의 주요 플레이어로 진입한다.",
+    "summaryLong": "태웅이 소형모듈원자로(SMR) 대량생산 기술 역량을 토대로 소형모듈원전 시장에서 주요 사업자(main player)로 자리 잡기 위한 전략을 추진 중이다. 회사는 기술 개발을 통해 SMR 시장 선도를 목표로 하고 있으며, 이는 성장 중인 글로벌 SMR 시장에서 경쟁력을 확보하려는 움직임으로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "태웅",
+    "region": "KR",
+    "source": "market-ink.co.kr",
+    "url": "https://www.market-ink.co.kr/news/articleView.html?idxno=9692",
+    "k": "태웅 smr 대량생산 기술로 승부수 소형모듈원전 시장 메인 플레이어 시동 market ink co kr",
+    "ko": 1,
+    "id": "84f90650"
   },
   {
     "date": "2026-07-28",
@@ -24608,4 +24652,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-01 07:36 KST";
+window.SMR_UPDATED = "2026-08-01 08:12 KST";

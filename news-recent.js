@@ -132,6 +132,20 @@ window.SMR_NEWS = [
   "id": "71722796"
  },
  {
+  "date": "2026-07-31",
+  "title": "웨스팅하우스 일렉트릭, IPO 신청 — 원자력 수요 증가 속 미국 에너지부(DOE) 175억 달러 융자",
+  "summary": "웨스팅하우스 일렉트릭이 미국 증권거래위원회(SEC)에 IPO 등록 신청서를 제출했으며, 미국 에너지부로부터 175억 달러 규모의 AP1000 10기 건설 융자를 받는다.",
+  "summaryLong": "웨스팅하우스 일렉트릭 컴퍼니가 미국 증권거래위원회(SEC)에 신규공개(IPO) 등록 신청서를 제출했다. 이는 전력 수요 증가와 선진국들의 탄소중립 정책 추진 속에서 이루어진 것으로, 동사는 미국 에너지부(DOE)로부터 AP1000 원전 10기 건설에 필요한 175억 달러 규모의 융자 지원을 받게 된다. 이는 원자력 산업의 부흥과 민간 기업의 시장 진출 확대를 보여주는 신호로 해석된다.",
+  "cat": "투자",
+  "type": "PWR",
+  "dev": "Westinghouse",
+  "region": "US",
+  "source": "Power Engineering",
+  "url": "https://www.power-eng.com/nuclear/westinghouse-electric-files-for-ipo-as-nuclear-demand-grows/",
+  "k": "westinghouse electric files for ipo as nuclear demand grows",
+  "id": "07688562"
+ },
+ {
   "date": "2026-07-30",
   "title": "KEPIC(전력산업기술기준), SMR·신기술 표준화 추진",
   "summary": "한국 전기산업연합회 KEPIC(전력산업기술기준) 본부장이 SMR 등 신기술에 대한 기술기준 확대와 플랫폼 고도화를 추진하겠다고 발표했다.",
@@ -428,6 +442,21 @@ window.SMR_NEWS = [
   "url": "https://www.reuters.com/business/energy/frances-edf-looking-bring-investors-its-smr-project-2026-07-30/",
   "k": "france s edf looking to bring in investors for its smr project",
   "id": "ca5b7e06"
+ },
+ {
+  "date": "2026-07-30",
+  "title": "경남도, 소형모듈원전(SMR) 제조혁신 3개 핵심과제 전수 선정",
+  "summary": "경상남도가 소형모듈원전 제조혁신 정부 공모사업의 3개 핵심과제 모두를 선정받았다.",
+  "summaryLong": "경상남도가 소형모듈원전(SMR) 제조혁신 국책 프로그램의 3개 핵심과제를 모두 선정받았다. 이는 한국 정부의 SMR 산업 육성 정책 하에서 지자체 및 산업계가 국가 지원 프로젝트를 확보한 사례로, SMR 국내 산업 생태계 구축과 정부 정책 추진의 구체적 진전을 보여준다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "e-newsp.com",
+  "url": "https://www.e-newsp.com/news/article.html?no=90060",
+  "k": "경남도 소형모듈원전 smr 제조혁신 3개 핵심과제 모두 선정 e newsp com",
+  "ko": 1,
+  "id": "68411189"
  },
  {
   "date": "2026-07-29",
@@ -866,33 +895,18 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-29",
-  "title": "빌 게이츠, 한국 방문으로 SMR 협력 강화…핵발전 정책 부활 시점에 맞춰",
-  "summary": "테라파워(TerraPower) 회장 빌 게이츠가 한국을 방문하여 소형모듈원자로(SMR) 분야 협력을 심화시킨다.",
-  "summaryLong": "테라파워(TerraPower)의 회장 빌 게이츠가 한국을 재방문하여 소형모듈원자로(SMR) 분야의 협력 관계를 확대할 계획이다. 한국이 핵발전 정책을 재활성화하는 시점과 맞물려 진행되는 이 방문은, 글로벌 SMR 개발사와 한국 정부 및 산업계 간 협력 강화의 신호로 해석된다. 테라파워를 포함한 주요 SMR 개발사들이 한국 시장에 대한 관심을 높이고 있는 배경이다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "KR",
-  "source": "kedglobal.com",
-  "url": "https://www.kedglobal.com/energy/newsView/ked202607290009",
-  "k": "bill gates to return to seoul to deepen smr ties as korea revives nuclear power",
-  "op": 1,
-  "id": "176bf069"
- },
- {
-  "date": "2026-07-28",
-  "title": "[인터뷰] 대한전기산업연합회, SMR 등 적기 표준 마련 추진",
-  "summary": "대한전기산업연합회가 SMR 등 신규 기술에 대한 산업 표준 마련을 추진한다고 밝혔다.",
-  "summaryLong": "2026 KEPIC(Korea Electric Power Industry Code, 전력산업기술기준)-Week가 8월 25~28일 강원도(Gangwon-do) 정선(Jeongseon)에서 개최된다. 대한전기산업연합회가 이 행사를 통해 소형모듈원자로(SMR) 등 차세대 원전 기술에 대한 국내 산업 표준 마련에 최선을 다하겠다는 입장을 표명했다. KEPIC은 발전설비의 품질확보와 안전성을 위한 설계·제작·시공·운전·유지정비·시험·검사 등의 기술적·제도적 요건을 규정하는 민간단체표준이다.",
+  "title": "태웅, SMR 대량생산 기술로 소형모듈원전 시장 진출",
+  "summary": "태웅이 SMR 대량생산 기술을 바탕으로 소형모듈원전 시장의 주요 플레이어로 진입한다.",
+  "summaryLong": "태웅이 소형모듈원자로(SMR) 대량생산 기술 역량을 토대로 소형모듈원전 시장에서 주요 사업자(main player)로 자리 잡기 위한 전략을 추진 중이다. 회사는 기술 개발을 통해 SMR 시장 선도를 목표로 하고 있으며, 이는 성장 중인 글로벌 SMR 시장에서 경쟁력을 확보하려는 움직임으로 보인다.",
   "cat": "기술",
   "type": "General",
-  "dev": "",
+  "dev": "태웅",
   "region": "KR",
-  "source": "에너지데일리 - 전체기사",
-  "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=201801",
-  "k": "인터뷰 대한전기산업연합회 smr 등 적기 표준 마련 최선 다하겠다",
+  "source": "market-ink.co.kr",
+  "url": "https://www.market-ink.co.kr/news/articleView.html?idxno=9692",
+  "k": "태웅 smr 대량생산 기술로 승부수 소형모듈원전 시장 메인 플레이어 시동 market ink co kr",
   "ko": 1,
-  "id": "8746488a"
+  "id": "84f90650"
  },
  {
   "date": "2026-07-28",
@@ -1195,20 +1209,6 @@ window.SMR_NEWS = [
   "id": "51c3ba7a"
  },
  {
-  "date": "2026-07-13",
-  "title": "NRC issues white safety finding to V.C. Summer",
-  "summary": "The Nuclear Regulatory Commission has upheld and finalized a “white” safety finding at V.C. Summer power plant in Jenkinsville, S.C., over the plant’s failure to properly…",
-  "summaryLong": "The Nuclear Regulatory Commission has upheld and finalized a “white” safety finding at V.C. Summer power plant in Jenkinsville, S.C., over the plant’s failure to properly preplan and perform maintenance on its turbine-driven emergency feedwater pump (TDEFW) governor valve linkage. The 966-MWe three-loop Westinghouse pressurized water reactor at Summer started commercial operati…",
-  "cat": "인허가",
-  "type": "PWR",
-  "dev": "Westinghouse",
-  "region": "US",
-  "source": "ANS Newswire",
-  "url": "https://www.ans.org/news/2026-07-13/article-8198/nrc-issues-white-safety-finding-to-vc-summer/",
-  "k": "nrc issues white safety finding to v c summer",
-  "id": "a4191554"
- },
- {
   "date": "2026-07-11",
   "title": "뉴스케일(NuScale), 지연과 약한 실적으로 7.4% 하락",
   "summary": "뉴스케일(NuScale)의 프로젝트 지연과 확정 계약 부재로 주가가 7.4% 하락했다는 보도.",
@@ -1419,5 +1419,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-01 07:36 KST";
-window.SMR_TOTAL = 1695;
+window.SMR_UPDATED = "2026-08-01 08:12 KST";
+window.SMR_TOTAL = 1698;
