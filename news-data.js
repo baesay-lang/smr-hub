@@ -20750,6 +20750,21 @@ window.SMR_NEWS = [
     "id": "bf749b2d"
   },
   {
+    "date": "2026-05-21",
+    "title": "소형모듈원자로(SMR) 시장, 2033년까지 124억 달러 규모로 성장 예상",
+    "summary": "소형모듈원자로(SMR) 시장이 2033년까지 약 124억 달러(US$ 12.24 Billion) 규모에 이를 것으로 전망된다.",
+    "summaryLong": "시장 조사 기관이 소형모듈원자로(SMR) 산업의 중기 성장 시장 규모를 분석한 보고서다. 2033년 시장 규모가 약 124억 달러(US$ 12.24 Billion)에 도달할 것으로 예측되고 있다. 이는 SMR 산업 전반에 대한 시장 정보로, 정책·규제 환경과 산업 수요를 반영한 시장 전망 자료이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "openpr.com",
+    "url": "https://www.openpr.com/news/4521474/small-modular-reactor-market-to-reach-us-12-24-billion-by-2033",
+    "k": "small modular reactor market to reach us 12 24 billion by 2033",
+    "op": 1,
+    "id": "574abbc8"
+  },
+  {
     "date": "2026-05-20",
     "title": "Deep Fission(딥 피션), 1억 5천만 달러 규모 기업공개 신청",
     "summary": "소형모듈원자로 개발사 Deep Fission(딥 피션)이 1억 5천만 달러 규모의 기업공개를 신청했다.",
@@ -21275,6 +21290,20 @@ window.SMR_NEWS = [
     "url": "https://www.biospace.com/press-releases/terrapower-isotopes-breaks-ground-on-worlds-largest-actinium-225-manufacturing-facility-in-philadelphia",
     "k": "terrapower isotopes breaks ground on world s largest actinium 225 manufacturing facility in philadelphia",
     "id": "27a5b96a"
+  },
+  {
+    "date": "2026-05-07",
+    "title": "엑스에너지(X-Energy), 아마존 지원 소형모듈원자로 업체로서 나스닥(NASDAQ) 상장",
+    "summary": "아마존이 지원하는 소형모듈원자로 개발사 엑스에너지(X-Energy)가 나스닥(NASDAQ)에 상장했다.",
+    "summaryLong": "아마존(Amazon)의 지원을 받는 소형모듈원자로(SMR) 개발사 엑스에너지(X-Energy)가 나스닥(NASDAQ)에 상장했다. 이는 미국 첨단원자로 산업의 투자 확대를 보여주는 사례로, 기술 개발에서 자본 조달 단계로 진전된 것을 의미한다.",
+    "cat": "투자",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "indexbox.io",
+    "url": "https://www.indexbox.io/blog/x-energy-ipo-amazon-backed-nuclear-startup-debuts-on-nasdaq/",
+    "k": "x energy ipo amazon backed small modular reactor company lists on nasdaq news and statistics",
+    "id": "a5fe7281"
   },
   {
     "date": "2026-05-06",
@@ -24814,4 +24843,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-02 08:03 KST";
+window.SMR_UPDATED = "2026-08-02 08:44 KST";
