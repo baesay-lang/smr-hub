@@ -1433,5 +1433,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-01 16:17 KST";
+window.SMR_UPDATED = "2026-08-02 07:29 KST";
 window.SMR_TOTAL = 1706;
