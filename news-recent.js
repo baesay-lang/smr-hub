@@ -16,6 +16,37 @@ window.SMR_NEWS = [
   "id": "6364f784"
  },
  {
+  "date": "2026-08-01",
+  "title": "미국, 전략적 파트너십으로 100MW급 소형모듈원자로 배치 가속화",
+  "summary": "미국에서 소형모듈원자로(SMR) 배치를 가속화하기 위한 전략적 파트너십이 추진되고 있다.",
+  "summaryLong": "미국 내 소형모듈원자로(SMR) 분야에서 전략적 파트너십을 통해 100MW급 SMR 배치를 가속화하려는 움직임이 있다. 구체적인 당사자와 배경에 대한 상세 정보는 제공된 스니펫에 부족하나, 이는 SMR의 상용화와 시장 확대를 위한 협력 체계 구축을 의미한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "US",
+  "source": "interestingengineering.com",
+  "url": "https://interestingengineering.com/energy/us-first-of-kind-100-mw-sodium-cooled-small-modular-reactor-deployment-gets-a-boost",
+  "k": "us strategic partnership could accelerate 100 mw smr deployment",
+  "op": 1,
+  "id": "a49c6550"
+ },
+ {
+  "date": "2026-08-01",
+  "title": "롤스로이스, SMR로 AI 데이터센터 전력 공급 추진…대형 기술기업 계약 임박",
+  "summary": "롤스로이스(Rolls-Royce)가 소형모듈원자로(SMR)를 통해 AI 데이터센터의 전력 수요를 충당하려 하며, 하이퍼스케일러(대형 기술기업)와의 계약이 임박한 것으로 보도되었다.",
+  "summaryLong": "영국의 롤스로이스가 소형모듈원자로(SMR) 기술을 활용하여 인공지능(AI) 데이터센터의 전력 수요를 공략하고 있으며, 메타·구글·마이크로소프트 같은 하이퍼스케일러(대형 클라우드 기술기업)와의 구체적인 전력공급 계약 체결이 임박한 상황이다. 이는 SMR이 데이터센터의 전력 자급 수단으로 주목받고 있음을 보여주며, 롤스로이스의 SMR 상용화 전략의 핵심 마케팅 지점이 되고 있다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "Rolls-Royce",
+  "region": "UK",
+  "source": "youthassembly.kr",
+  "url": "https://www.youthassembly.kr/news/980253",
+  "k": "롤스로이스 smr로 ai 데이터센터 전력 수요 공략 하이퍼스케일러 계약 임박",
+  "ko": 1,
+  "op": 1,
+  "id": "1407a15b"
+ },
+ {
   "date": "2026-07-31",
   "title": "경남도, SMR 혁신제조 기술개발 3개 핵심 과제 선정",
   "summary": "경상남도가 주관하는 'SMR 혁신제조 기술개발' 사업에서 도내 원전 기업과 연구기관이 3개 과제 모두 최종 선정되었다.",
@@ -504,6 +535,20 @@ window.SMR_NEWS = [
   "id": "1ca32c73"
  },
  {
+  "date": "2026-07-30",
+  "title": "엑스에너지(X-Energy), 2026년 2분기 실적 발표 예정",
+  "summary": "엑스에너지(X-Energy)가 8월 13일 2026년 2분기 재무 및 운영 실적을 발표할 예정이라고 공시했다.",
+  "summaryLong": "나스닥(NASDAQ) 상장사인 엑스에너지(X-Energy)가 2026년 2분기 재무 및 운영 실적 발표 일정을 공식 공지했다. 고급 원자로 기술 설계사이자 핵연료 제조업체인 엑스에너지는 메릴랜드(Maryland)주 록빌(Rockville)에 본사를 두고 있다. 정기 실적 공시는 기업의 사업 진행 상황과 재정 건전성을 보여주는 중요한 신호다.",
+  "cat": "기술",
+  "type": "HTGR",
+  "dev": "X-Energy",
+  "region": "US",
+  "source": "X-Energy, Inc. News Releases",
+  "url": "https://investors.x-energy.com/news-releases/news-release-details/x-energy-report-second-quarter-2026-results-august-13-2026",
+  "k": "x energy to report second quarter 2026 results on august 13 2026",
+  "id": "20495290"
+ },
+ {
   "date": "2026-07-29",
   "title": "SK이노베이션, 베트남 AI 전력시장 공략…LNG에서 SMR까지 협력",
   "summary": "SK이노베이션이 베트남과 LNG 공급부터 소형모듈원자로(SMR) 및 에너지저장장치(ESS)까지 단계별 에너지 협력을 제시했다.",
@@ -850,51 +895,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-29",
-  "title": "SK이노 CEO 추형욱, 베트남서 SMR 연계 에너지 협력 제안",
-  "summary": "SK이노베이션의 추형욱 최고경영자가 베트남에서 소형모듈원자로(SMR) 연계 에너지 협력을 제안했다.",
-  "summaryLong": "SK이노베이션의 추형욱 최고경영자가 베트남 방문 시 소형모듈원자로(SMR)와 연계된 에너지 협력 방안을 제안했다. 이는 SK이노베이션이 베트남 시장에서의 SMR 관련 사업 추진 및 전략적 파트너십 구축을 모색하고 있음을 보여준다. 한국 기업의 SMR 기술 및 사업 역량을 동남아 지역으로 확대하는 전략적 움직임으로 평가된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "SK이노베이션",
-  "region": "KR",
-  "source": "dt.co.kr",
-  "url": "https://www.dt.co.kr/article/12075562",
-  "k": "추형욱 sk이노 ceo 베트남서 smr 연계 에너지 협력 제안",
-  "ko": 1,
-  "id": "41a04d48"
- },
- {
-  "date": "2026-07-29",
-  "title": "빌 게이츠 방한, 한·미 SMR 동맹 강화",
-  "summary": "빌 게이츠 회장이 한국을 방문하여 한·미 간 소형모듈원자로(SMR) 동맹 강화를 추진할 것으로 예상된다.",
-  "summaryLong": "빌 게이츠 테라파워(TerraPower) 회장이 방한하여 한·미 간 소형모듈원자로(SMR) 협력을 강화할 것으로 보인다. 이는 한국과 미국 간 원자력 기술 동맹을 심화시키는 차원의 방문으로 평가된다. 방문 일정과 구체적 논의 내용은 향후 공개될 예정이다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "KR",
-  "source": "bloomingbit.io",
-  "url": "https://bloomingbit.io/feed/news/117264",
-  "k": "단독 빌 게이츠 방한 smr 동맹 강화한다",
-  "ko": 1,
-  "op": 1,
-  "id": "fc845227"
- },
- {
-  "date": "2026-07-29",
-  "title": "원자력 발전소 아날로그에서 디지털 제어로의 전환",
-  "summary": "첨단원자로의 디지털 제어 시스템 도입에 대한 기술적 경험과 교훈을 다룬 기고문.",
-  "summaryLong": "미국 해군(U.S. Navy)의 원자력 경험을 갖춘 전문가가 상용 첨단원자로로의 전환 과정에서 아날로그 제어에서 디지털 제어 시스템으로의 변화에 대해 기술합니다. 현대 첨단원자로의 완전 디지털 제어실 운영 경험을 통해 데이터 기반 의사결정의 중요성과 기술 전환의 과제를 논의하고 있으며, 소형모듈원자로(SMR)와 첨단로 개발에 필수적인 기술 이슈를 다룹니다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "ANS Newswire",
-  "url": "https://www.ans.org/news/2026-07-29/article-8166/what-have-recent-projects-taught-us-about-the-move-from-analog-to-digital-plant-controls/",
-  "k": "i nn i asks what have recent projects taught us about the move from analog to digital plant controls",
-  "id": "dddc5368"
- },
- {
-  "date": "2026-07-29",
   "title": "맥더못과 ULC-에너지, 롤스로이스 SMR 사업 협력 양해각서 체결",
   "summary": "맥더못(McDermott)과 ULC-에너지(ULC-Energy)가 롤스로이스(Rolls-Royce) SMR 프로젝트 추진을 위해 협력 협약을 체결했다.",
   "summaryLong": "엔지니어링 기업 맥더못(McDermott)과 ULC-에너지(ULC-Energy)가 소형모듈원자로(SMR) 개발사인 롤스로이스(Rolls-Royce)의 SMR 사업을 진전시키기 위해 협력 협약을 체결했다. 이는 롤스로이스 SMR의 프로젝트 실현화를 위한 핵심 파트너십 구축으로, 엔지니어링·건설 역량을 갖춘 맥더못의 참여로 사업 추진 속도가 가속화될 것으로 예상된다.",
@@ -995,20 +995,6 @@ window.SMR_NEWS = [
   "url": "https://energiesmedia.com/ge-vernova-velan-valve-agreement-energy/",
   "k": "ge vernova hitachi and velan sign valve supply agreement for bwrx 300 small modular reactors in europe",
   "id": "b9932a2f"
- },
- {
-  "date": "2026-07-24",
-  "title": "미국, '프로메테우스(Prometheus)' AI 핵 이니셔티브 출범, 엑스에너지·오클로 등 참여",
-  "summary": "미국이 AI와 핵에너지를 결합한 '프로메테우스' 정부 이니셔티브를 출범시켰으며, 엑스에너지와 오클로 등 SMR 개발사들이 참여한다.",
-  "summaryLong": "미국 정부가 인공지능(AI)과 핵에너지 기술을 통합하는 '프로메테우스(Prometheus)' 국책 프로그램을 공식 출범했다. 이 이니셔티브에는 엑스에너지(X-energy), 오클로(Oklo) 등 소형모듈원자로 개발 기업들이 파트너로 참여한다. 정부의 전략적 핵에너지 정책 프로그램으로, 첨단로 산업 생태계 조성과 경쟁력 강화를 목표로 한다.",
-  "cat": "기술",
-  "type": "HTGR",
-  "dev": "Oklo, X-Energy",
-  "region": "US",
-  "source": "nai500.com",
-  "url": "https://nai500.com/blog/2026/07/u-s-launches-prometheus-ai-nuclear-initiative-with-x-energy-oklo-among-partners/",
-  "k": "u s launches prometheus ai nuclear initiative with x energy oklo among partners",
-  "id": "52ae4301"
  },
  {
   "date": "2026-07-24",
@@ -1433,5 +1419,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-02 07:29 KST";
-window.SMR_TOTAL = 1706;
+window.SMR_UPDATED = "2026-08-02 08:03 KST";
+window.SMR_TOTAL = 1709;

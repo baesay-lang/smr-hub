@@ -23,6 +23,37 @@ window.SMR_NEWS = [
     "id": "6364f784"
   },
   {
+    "date": "2026-08-01",
+    "title": "미국, 전략적 파트너십으로 100MW급 소형모듈원자로 배치 가속화",
+    "summary": "미국에서 소형모듈원자로(SMR) 배치를 가속화하기 위한 전략적 파트너십이 추진되고 있다.",
+    "summaryLong": "미국 내 소형모듈원자로(SMR) 분야에서 전략적 파트너십을 통해 100MW급 SMR 배치를 가속화하려는 움직임이 있다. 구체적인 당사자와 배경에 대한 상세 정보는 제공된 스니펫에 부족하나, 이는 SMR의 상용화와 시장 확대를 위한 협력 체계 구축을 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "interestingengineering.com",
+    "url": "https://interestingengineering.com/energy/us-first-of-kind-100-mw-sodium-cooled-small-modular-reactor-deployment-gets-a-boost",
+    "k": "us strategic partnership could accelerate 100 mw smr deployment",
+    "op": 1,
+    "id": "a49c6550"
+  },
+  {
+    "date": "2026-08-01",
+    "title": "롤스로이스, SMR로 AI 데이터센터 전력 공급 추진…대형 기술기업 계약 임박",
+    "summary": "롤스로이스(Rolls-Royce)가 소형모듈원자로(SMR)를 통해 AI 데이터센터의 전력 수요를 충당하려 하며, 하이퍼스케일러(대형 기술기업)와의 계약이 임박한 것으로 보도되었다.",
+    "summaryLong": "영국의 롤스로이스가 소형모듈원자로(SMR) 기술을 활용하여 인공지능(AI) 데이터센터의 전력 수요를 공략하고 있으며, 메타·구글·마이크로소프트 같은 하이퍼스케일러(대형 클라우드 기술기업)와의 구체적인 전력공급 계약 체결이 임박한 상황이다. 이는 SMR이 데이터센터의 전력 자급 수단으로 주목받고 있음을 보여주며, 롤스로이스의 SMR 상용화 전략의 핵심 마케팅 지점이 되고 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "UK",
+    "source": "youthassembly.kr",
+    "url": "https://www.youthassembly.kr/news/980253",
+    "k": "롤스로이스 smr로 ai 데이터센터 전력 수요 공략 하이퍼스케일러 계약 임박",
+    "ko": 1,
+    "op": 1,
+    "id": "1407a15b"
+  },
+  {
     "date": "2026-07-31",
     "title": "경남도, SMR 혁신제조 기술개발 3개 핵심 과제 선정",
     "summary": "경상남도가 주관하는 'SMR 혁신제조 기술개발' 사업에서 도내 원전 기업과 연구기관이 3개 과제 모두 최종 선정되었다.",
@@ -509,6 +540,20 @@ window.SMR_NEWS = [
     "k": "경남 기업 연구기관 smr 혁신 제조 기술개발 사업 공모 선정",
     "ko": 1,
     "id": "1ca32c73"
+  },
+  {
+    "date": "2026-07-30",
+    "title": "엑스에너지(X-Energy), 2026년 2분기 실적 발표 예정",
+    "summary": "엑스에너지(X-Energy)가 8월 13일 2026년 2분기 재무 및 운영 실적을 발표할 예정이라고 공시했다.",
+    "summaryLong": "나스닥(NASDAQ) 상장사인 엑스에너지(X-Energy)가 2026년 2분기 재무 및 운영 실적 발표 일정을 공식 공지했다. 고급 원자로 기술 설계사이자 핵연료 제조업체인 엑스에너지는 메릴랜드(Maryland)주 록빌(Rockville)에 본사를 두고 있다. 정기 실적 공시는 기업의 사업 진행 상황과 재정 건전성을 보여주는 중요한 신호다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "X-Energy, Inc. News Releases",
+    "url": "https://investors.x-energy.com/news-releases/news-release-details/x-energy-report-second-quarter-2026-results-august-13-2026",
+    "k": "x energy to report second quarter 2026 results on august 13 2026",
+    "id": "20495290"
   },
   {
     "date": "2026-07-29",
@@ -24769,4 +24814,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-02 07:29 KST";
+window.SMR_UPDATED = "2026-08-02 08:03 KST";
