@@ -8,6 +8,21 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-08-01",
+    "title": "SK이노베이션, '정유에서 전기'로 피벗 추진, SMR·LNG가 솔루션",
+    "summary": "SK이노베이션이 정유 사업에서 전기·에너지 사업으로의 전략 전환을 추진하며 SMR과 LNG를 핵심 솔루션으로 제시했다.",
+    "summaryLong": "SK이노베이션이 정유 중심의 기존 사업 모델을 전기·에너지 사업으로 전환하는 전략적 피벗을 추진하고 있으며, 소형모듈원자로(SMR)와 액화천연가스(LNG)를 핵심 솔루션으로 명시했다. 이는 국내 주요 에너지 기업의 SMR 포트폴리오 추진 의지를 보여주는 정책·전략 뉴스다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "SK이노베이션",
+    "region": "KR",
+    "source": "edata.ekn.kr",
+    "url": "https://edata.ekn.kr/article/view/ekn202608010001",
+    "k": "정유에서 전기 로 피봇 sk이노베이션 솔루션은 lng smr",
+    "ko": 1,
+    "id": "6364f784"
+  },
+  {
     "date": "2026-07-31",
     "title": "경남도, SMR 혁신제조 기술개발 3개 핵심 과제 선정",
     "summary": "경상남도가 주관하는 'SMR 혁신제조 기술개발' 사업에서 도내 원전 기업과 연구기관이 3개 과제 모두 최종 선정되었다.",
@@ -3788,6 +3803,21 @@ window.SMR_NEWS = [
     "url": "https://x-energy.com/news/x-energy-joins-project-prometheus-for-ai-accelerated-advanced-nuclear-deployment/",
     "k": "x energy joins project prometheus for ai accelerated advanced nuclear deployment x energy com",
     "id": "27640ed5"
+  },
+  {
+    "date": "2026-07-22",
+    "title": "미국, 용융염로(MSR) 안전 검증·SMR 선박 실증 추진",
+    "summary": "미국이 용융염로(MSR)의 안전성 검증과 SMR의 선박 실증 사업을 진행하며 원자력 산업 판도 변화를 주도하고 있다.",
+    "summaryLong": "미국이 용융염로(MSR, Molten Salt Reactor)의 안전 검증과 소형모듈원자로(SMR)의 선박 적용 실증 프로젝트를 추진하고 있다고 보도되었다. 이는 미국 정부의 첨단원전 기술 실증 정책이자 산업 판도 변화의 신호로, 정부 정책 및 기술 실증 프로그램의 진전을 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/Global-Biz/2026/07/202607230640038119fbbec65dfb_1",
+    "k": "msr 안전 검증 smr 선박 실증 원자력 산업 판도 바뀐다 g enews com",
+    "ko": 1,
+    "id": "4a5b67e2"
   },
   {
     "date": "2026-07-21",
@@ -21691,6 +21721,20 @@ window.SMR_NEWS = [
     "id": "5cf5cdc3"
   },
   {
+    "date": "2026-04-24",
+    "title": "프론티어 뉴클리어 자회사, 미국 SMR 상용화 작업 시작",
+    "summary": "프론티어 뉴클리어(Frontier Nuclear)의 자회사가 미국에서 소형모듈원자로(SMR) 상용화 업무를 개시했다.",
+    "summaryLong": "프론티어 뉴클리어의 자회사가 미국 내에서 소형모듈원자로(SMR)의 상용화 업무를 시작했다. 이는 SMR 개발사의 실제 사업 추진 및 상용화 마일스톤에 해당하는 의미 있는 기술·사업 진전이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Frontier Nuclear",
+    "region": "US",
+    "source": "miningweekly.com",
+    "url": "https://www.miningweekly.com/article/frontier-nuclear-affiliate-starts-small-modular-reactor-commercialisation-work-in-us-2026-04-24",
+    "k": "frontier nuclear affiliate starts small modular reactor commercialisation work in us",
+    "id": "2d30711f"
+  },
+  {
     "date": "2026-04-23",
     "title": "X-에너지, 확대된 신규공개(IPO) 공모가 공시",
     "summary": "X-에너지(X-energy)가 확대된 규모의 신규공개(IPO)의 공모가를 공시.",
@@ -24710,4 +24754,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-01 15:15 KST";
+window.SMR_UPDATED = "2026-08-01 15:38 KST";

@@ -1,6 +1,21 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-08-01",
+  "title": "SK이노베이션, '정유에서 전기'로 피벗 추진, SMR·LNG가 솔루션",
+  "summary": "SK이노베이션이 정유 사업에서 전기·에너지 사업으로의 전략 전환을 추진하며 SMR과 LNG를 핵심 솔루션으로 제시했다.",
+  "summaryLong": "SK이노베이션이 정유 중심의 기존 사업 모델을 전기·에너지 사업으로 전환하는 전략적 피벗을 추진하고 있으며, 소형모듈원자로(SMR)와 액화천연가스(LNG)를 핵심 솔루션으로 명시했다. 이는 국내 주요 에너지 기업의 SMR 포트폴리오 추진 의지를 보여주는 정책·전략 뉴스다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "SK이노베이션",
+  "region": "KR",
+  "source": "edata.ekn.kr",
+  "url": "https://edata.ekn.kr/article/view/ekn202608010001",
+  "k": "정유에서 전기 로 피봇 sk이노베이션 솔루션은 lng smr",
+  "ko": 1,
+  "id": "6364f784"
+ },
+ {
   "date": "2026-07-31",
   "title": "경남도, SMR 혁신제조 기술개발 3개 핵심 과제 선정",
   "summary": "경상남도가 주관하는 'SMR 혁신제조 기술개발' 사업에서 도내 원전 기업과 연구기관이 3개 과제 모두 최종 선정되었다.",
@@ -880,21 +895,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-29",
-  "title": "글로벌 원자력 법률 인재 양성, SMR 시대의 필수과제",
-  "summary": "원전 수출과 소형모듈원자로(SMR) 시대에 대비한 국제 원자력 법률 전문가 양성의 필요성.",
-  "summaryLong": "이 기사는 향후 원전 수출 확대와 소형모듈원자로(SMR) 시대의 도래에 따라 국제 규제, 안전 기준, 계약 등 원자력 관련 법률 업무를 담당할 글로벌 인재 양성의 중요성을 강조합니다. SMR과 첨단로 국제화에 필요한 법률·규제 인프라 구축 측면의 정책적 기초를 다루고 있습니다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5331",
-  "k": "원전 수출 smr 시대의 필수 글로벌 원자력 법률 인재 키운다",
-  "ko": 1,
-  "id": "f17beb72"
- },
- {
-  "date": "2026-07-29",
   "title": "맥더못과 ULC-에너지, 롤스로이스 SMR 사업 협력 양해각서 체결",
   "summary": "맥더못(McDermott)과 ULC-에너지(ULC-Energy)가 롤스로이스(Rolls-Royce) SMR 프로젝트 추진을 위해 협력 협약을 체결했다.",
   "summaryLong": "엔지니어링 기업 맥더못(McDermott)과 ULC-에너지(ULC-Energy)가 소형모듈원자로(SMR) 개발사인 롤스로이스(Rolls-Royce)의 SMR 사업을 진전시키기 위해 협력 협약을 체결했다. 이는 롤스로이스 SMR의 프로젝트 실현화를 위한 핵심 파트너십 구축으로, 엔지니어링·건설 역량을 갖춘 맥더못의 참여로 사업 추진 속도가 가속화될 것으로 예상된다.",
@@ -1433,5 +1433,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-01 15:15 KST";
-window.SMR_TOTAL = 1702;
+window.SMR_UPDATED = "2026-08-01 15:38 KST";
+window.SMR_TOTAL = 1705;
