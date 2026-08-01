@@ -146,6 +146,21 @@ window.SMR_NEWS = [
   "id": "07688562"
  },
  {
+  "date": "2026-07-31",
+  "title": "경남도, SMR 핵심기술 3관왕으로 미래 원전시장 선점 추진",
+  "summary": "경남도가 SMR(소형모듈원자로) 핵심기술 분야에서 3관왕을 달성하며 미래 원전시장 선점에 나선다.",
+  "summaryLong": "경남도가 SMR(소형모듈원자로) 분야에서 핵심기술 개발에 성공, 3개 부문에서 우수 성과를 달성한 것으로 보도되었다. 이는 한국이 글로벌 SMR·첨단로 시장에서의 경쟁력 확보를 위한 지역 차원의 기술 개발 전략의 일환으로 평가된다. 구체적인 기술 내용, 개발 일정, 관련 기관·기업, 국책 프로그램 참여 여부 등 상세 정보는 제목·스니펫에 명시되어 있지 않다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "newstown.co.kr",
+  "url": "https://www.newstown.co.kr/news/articleView.html?idxno=710942",
+  "k": "경남도 smr 핵심기술 3관왕 미래 원전시장 선점 나선다",
+  "ko": 1,
+  "id": "57c9f5e7"
+ },
+ {
   "date": "2026-07-30",
   "title": "KEPIC(전력산업기술기준), SMR·신기술 표준화 추진",
   "summary": "한국 전기산업연합회 KEPIC(전력산업기술기준) 본부장이 SMR 등 신기술에 대한 기술기준 확대와 플랫폼 고도화를 추진하겠다고 발표했다.",
@@ -880,22 +895,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-29",
-  "title": "SK이노, 베트남에 LNG·SMR 연계 에너지 협력 제안",
-  "summary": "SK이노베이션이 베트남에 LNG와 소형모듈원자로(SMR)를 연계한 에너지 협력을 제안했다.",
-  "summaryLong": "SK이노베이션이 베트남 정부 및 기업에 대해 LNG(액화천연가스)와 소형모듈원자로(SMR)를 연계한 에너지 사업 협력 방안을 제시했다. 이는 한국 기업의 해외 SMR 사업 진출 전략을 보여주는 사례이며, 에너지 협력 양해각서(MOU) 체결로 발전할 가능성을 시사한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "SK이노베이션",
-  "region": "KR",
-  "source": "m-i.kr",
-  "url": "https://www.m-i.kr/news/articleView.html?idxno=1396852",
-  "k": "sk이노 베트남에 lng smr 연계 에너지 협력 제시",
-  "ko": 1,
-  "op": 1,
-  "id": "7b652b5c"
- },
- {
-  "date": "2026-07-29",
   "title": "맥더못과 ULC-에너지, 롤스로이스 SMR 사업 협력 양해각서 체결",
   "summary": "맥더못(McDermott)과 ULC-에너지(ULC-Energy)가 롤스로이스(Rolls-Royce) SMR 프로젝트 추진을 위해 협력 협약을 체결했다.",
   "summaryLong": "엔지니어링 기업 맥더못(McDermott)과 ULC-에너지(ULC-Energy)가 소형모듈원자로(SMR) 개발사인 롤스로이스(Rolls-Royce)의 SMR 사업을 진전시키기 위해 협력 협약을 체결했다. 이는 롤스로이스 SMR의 프로젝트 실현화를 위한 핵심 파트너십 구축으로, 엔지니어링·건설 역량을 갖춘 맥더못의 참여로 사업 추진 속도가 가속화될 것으로 예상된다.",
@@ -1434,5 +1433,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-01 08:46 KST";
-window.SMR_TOTAL = 1699;
+window.SMR_UPDATED = "2026-08-01 15:15 KST";
+window.SMR_TOTAL = 1702;

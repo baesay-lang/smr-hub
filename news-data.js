@@ -153,6 +153,21 @@ window.SMR_NEWS = [
     "id": "07688562"
   },
   {
+    "date": "2026-07-31",
+    "title": "경남도, SMR 핵심기술 3관왕으로 미래 원전시장 선점 추진",
+    "summary": "경남도가 SMR(소형모듈원자로) 핵심기술 분야에서 3관왕을 달성하며 미래 원전시장 선점에 나선다.",
+    "summaryLong": "경남도가 SMR(소형모듈원자로) 분야에서 핵심기술 개발에 성공, 3개 부문에서 우수 성과를 달성한 것으로 보도되었다. 이는 한국이 글로벌 SMR·첨단로 시장에서의 경쟁력 확보를 위한 지역 차원의 기술 개발 전략의 일환으로 평가된다. 구체적인 기술 내용, 개발 일정, 관련 기관·기업, 국책 프로그램 참여 여부 등 상세 정보는 제목·스니펫에 명시되어 있지 않다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "newstown.co.kr",
+    "url": "https://www.newstown.co.kr/news/articleView.html?idxno=710942",
+    "k": "경남도 smr 핵심기술 3관왕 미래 원전시장 선점 나선다",
+    "ko": 1,
+    "id": "57c9f5e7"
+  },
+  {
     "date": "2026-07-30",
     "title": "KEPIC(전력산업기술기준), SMR·신기술 표준화 추진",
     "summary": "한국 전기산업연합회 KEPIC(전력산업기술기준) 본부장이 SMR 등 신기술에 대한 기술기준 확대와 플랫폼 고도화를 추진하겠다고 발표했다.",
@@ -10922,6 +10937,20 @@ window.SMR_NEWS = [
     "id": "89be0ec2"
   },
   {
+    "date": "2026-07-01",
+    "title": "뉴브런즈윅 소형모듈원자로(SMR) 포럼: 에너지 논의의 한계",
+    "summary": "캐나다 뉴브런즈윅(New Brunswick)에서 열린 소형모듈원자로 포럼에 대한 비판적 평가.",
+    "summaryLong": "캐나다 뉴브런즈윅에서 개최된 소형모듈원자로(SMR) 포럼의 내용과 한계를 다루는 보도이다. SMR 정책·규제·지역 에너지 전략 등 전반적 맥락을 다루고 있으며, 캐나다의 SMR 추진 현황을 엿볼 수 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "CA",
+    "source": "nbmediacoop.org",
+    "url": "https://nbmediacoop.org/2026/07/01/inside-the-small-modular-reactor-forum-a-narrow-energy-conversation-in-new-brunswick/",
+    "k": "inside the small modular reactor forum a narrow energy conversation in new brunswick",
+    "id": "635f9b35"
+  },
+  {
     "date": "2026-06-30",
     "title": "스페이스X, 리비안, 뉴스케일(NuScale)의 성장 전망 분석",
     "summary": "뉴스케일(NuScale)을 포함한 여러 성장 기업의 주식 투자 전망을 비교 분석한 보도이다.",
@@ -21550,6 +21579,20 @@ window.SMR_NEWS = [
     "id": "b254d886"
   },
   {
+    "date": "2026-04-27",
+    "title": "미국 에너지정보청(EIA), 소형모듈원자로·마이크로 원자로 현황 업데이트",
+    "summary": "미국 에너지정보청(EIA)이 소형모듈원자로와 마이크로 원자로의 현황을 업데이트했다.",
+    "summaryLong": "미국 에너지정보청(EIA)이 소형모듈원자로(SMR)와 마이크로 원자로(Microreactor)의 개발·배치 현황을 업데이트한 보도이다. 미국 정부 차원의 SMR·첨단로 정책 및 시장 현황 평가를 다루고 있으며, 규제 기관의 공식 입장을 반영한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "rtoinsider.com",
+    "url": "https://www.rtoinsider.com/131019-eia-update-advanced-nuclear-pipeline-us/",
+    "k": "eia gives update on small modular and microreactors",
+    "id": "c1c93312"
+  },
+  {
     "date": "2026-04-25",
     "title": "경남도, SMR 패스트트랙 원자력안전법 개정안 국회 통과 환영",
     "summary": "경남 지역이 소형모듈원자로(SMR) 인허가 절차 단축을 위한 원자력안전법 개정안 통과를 환영했다.",
@@ -24667,4 +24710,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-01 08:46 KST";
+window.SMR_UPDATED = "2026-08-01 15:15 KST";
