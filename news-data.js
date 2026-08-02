@@ -8,6 +8,52 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-08-02",
+    "title": "SMR 100기 경쟁 본격화…한국 공급망 기회 확대",
+    "summary": "전 세계 소형모듈원자로 100기 경쟁이 본격화되면서 한국의 공급망 산업에 기회가 커지고 있다.",
+    "summaryLong": "전 세계적으로 소형모듈원자로(SMR) 약 100기 규모의 사업 경쟁이 본격화되고 있으며, 이에 따라 한국의 원전 부품·제어 기술 등 공급망 산업이 새로운 기회를 맞고 있다. SMR 산업 확대가 한국 원전 관련 기업들의 수출 및 수주 기회를 열어주고 있음을 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5420",
+    "k": "smr 100기 경쟁 본격화 한국 공급망 기회 커진다",
+    "ko": 1,
+    "id": "c92df13d"
+  },
+  {
+    "date": "2026-08-02",
+    "title": "뉴스케일, 미국 최대 SMR 사업 추진…비구속 협약이 변수",
+    "summary": "뉴스케일이 미국 최대 규모의 소형모듈원자로 사업을 추진 중이며, 비구속 협약(MOU)이 성사 여부의 변수로 작용하고 있다.",
+    "summaryLong": "뉴스케일이 미국 내 최대 규모의 소형모듈원자로(SMR) 사업을 추진하고 있으며, 사업 성사 여부는 비구속 협약(MOU, 양해각서)의 진행 상황에 달려 있는 상태이다. 현재 협약이 구속력 있는 계약으로 전환될지 여부가 미결정된 상황이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/Global-Biz/2026/08/202608030642315811fbbec65dfb_1",
+    "k": "뉴스케일 최대 smr 사업 추진 비구속 협약이 변수",
+    "ko": 1,
+    "op": 1,
+    "id": "88a6085f"
+  },
+  {
+    "date": "2026-08-02",
+    "title": "우리기술, 한국수력원자력 93억원 공급계약 진행…SMR 확장성 주목",
+    "summary": "우리기술이 한국수력원자력(한수원)과 93억원 규모의 원전 제어기술 공급계약을 진행 중이며, SMR 분야 확장성이 주목받고 있다.",
+    "summaryLong": "우리기술이 한국수력원자력(한수원)과 93억원 규모의 원전 제어기술 공급계약을 체결했다. 해당 기술은 소형모듈원자로(SMR) 분야로의 확장 가능성이 높아 주목받고 있다. 한국 기업의 SMR 관련 부품·기술 공급 사업이 본격화되는 신호로 평가된다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "우리기술",
+    "region": "KR",
+    "source": "cbci.co.kr",
+    "url": "https://www.cbci.co.kr/news/articleView.html?idxno=593934",
+    "k": "우리기술 한수원 93억원 공급계약 진행 원전 제어기술 smr 확장성 주목",
+    "ko": 1,
+    "id": "587c3731"
+  },
+  {
     "date": "2026-08-01",
     "title": "SK이노베이션, '정유에서 전기'로 피벗 추진, SMR·LNG가 솔루션",
     "summary": "SK이노베이션이 정유 사업에서 전기·에너지 사업으로의 전략 전환을 추진하며 SMR과 LNG를 핵심 솔루션으로 제시했다.",
@@ -23021,6 +23067,21 @@ window.SMR_NEWS = [
     "id": "6af29ec4"
   },
   {
+    "date": "2026-03-03",
+    "title": "소형모듈원자로(SMR) 시장, 2030년까지 71.4억 달러, 연 3.0% 성장",
+    "summary": "시장 조사기관이 소형모듈원자로 시장이 2030년까지 71.4억 달러(약 7.14십억 달러) 규모에 이를 것으로 예측했다.",
+    "summaryLong": "마켓츠앤드마켓츠(MarketsandMarkets)는 소형모듈원자로(SMR) 시장이 2030년까지 71.4억 달러 규모로 성장할 것으로 전망했으며, 연평균 성장률(CAGR)은 3.0%일 것으로 예측했다. 이는 SMR 산업의 성장성과 전망을 나타내는 시장 분석 보도이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/news/small-modular-reactor-market-hit-140000096.html",
+    "k": "small modular reactor market to hit 7 14 billion at 3 0 cagr through 2030 marketsandmarkets",
+    "op": 1,
+    "id": "586f6f10"
+  },
+  {
     "date": "2026-02",
     "title": "홀텍(Holtec), 팰리세이즈 에스엠알-300(Pioneer) 건설허가 신청 미국 원자력규제위원회(NRC) 접수",
     "summary": "미시간 팰리세이즈(Palisades) 부지에 쌍둥이 에스엠알-300(SMR-300) 건설허가 신청을 미국 원자력규제위원회(NRC)에 접수하였으며, 제한작업승인(LWA) 포함 안전·환경평가를 2027년 상반기 완료 목표로 추진 중이다.",
@@ -24858,4 +24919,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-02 16:19 KST";
+window.SMR_UPDATED = "2026-08-03 07:30 KST";

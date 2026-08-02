@@ -1,6 +1,52 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-08-02",
+  "title": "SMR 100기 경쟁 본격화…한국 공급망 기회 확대",
+  "summary": "전 세계 소형모듈원자로 100기 경쟁이 본격화되면서 한국의 공급망 산업에 기회가 커지고 있다.",
+  "summaryLong": "전 세계적으로 소형모듈원자로(SMR) 약 100기 규모의 사업 경쟁이 본격화되고 있으며, 이에 따라 한국의 원전 부품·제어 기술 등 공급망 산업이 새로운 기회를 맞고 있다. SMR 산업 확대가 한국 원전 관련 기업들의 수출 및 수주 기회를 열어주고 있음을 시사한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5420",
+  "k": "smr 100기 경쟁 본격화 한국 공급망 기회 커진다",
+  "ko": 1,
+  "id": "c92df13d"
+ },
+ {
+  "date": "2026-08-02",
+  "title": "뉴스케일, 미국 최대 SMR 사업 추진…비구속 협약이 변수",
+  "summary": "뉴스케일이 미국 최대 규모의 소형모듈원자로 사업을 추진 중이며, 비구속 협약(MOU)이 성사 여부의 변수로 작용하고 있다.",
+  "summaryLong": "뉴스케일이 미국 내 최대 규모의 소형모듈원자로(SMR) 사업을 추진하고 있으며, 사업 성사 여부는 비구속 협약(MOU, 양해각서)의 진행 상황에 달려 있는 상태이다. 현재 협약이 구속력 있는 계약으로 전환될지 여부가 미결정된 상황이다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "NuScale",
+  "region": "US",
+  "source": "g-enews.com",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/08/202608030642315811fbbec65dfb_1",
+  "k": "뉴스케일 최대 smr 사업 추진 비구속 협약이 변수",
+  "ko": 1,
+  "op": 1,
+  "id": "88a6085f"
+ },
+ {
+  "date": "2026-08-02",
+  "title": "우리기술, 한국수력원자력 93억원 공급계약 진행…SMR 확장성 주목",
+  "summary": "우리기술이 한국수력원자력(한수원)과 93억원 규모의 원전 제어기술 공급계약을 진행 중이며, SMR 분야 확장성이 주목받고 있다.",
+  "summaryLong": "우리기술이 한국수력원자력(한수원)과 93억원 규모의 원전 제어기술 공급계약을 체결했다. 해당 기술은 소형모듈원자로(SMR) 분야로의 확장 가능성이 높아 주목받고 있다. 한국 기업의 SMR 관련 부품·기술 공급 사업이 본격화되는 신호로 평가된다.",
+  "cat": "계약",
+  "type": "General",
+  "dev": "우리기술",
+  "region": "KR",
+  "source": "cbci.co.kr",
+  "url": "https://www.cbci.co.kr/news/articleView.html?idxno=593934",
+  "k": "우리기술 한수원 93억원 공급계약 진행 원전 제어기술 smr 확장성 주목",
+  "ko": 1,
+  "id": "587c3731"
+ },
+ {
   "date": "2026-08-01",
   "title": "SK이노베이션, '정유에서 전기'로 피벗 추진, SMR·LNG가 솔루션",
   "summary": "SK이노베이션이 정유 사업에서 전기·에너지 사업으로의 전략 전환을 추진하며 SMR과 LNG를 핵심 솔루션으로 제시했다.",
@@ -850,37 +896,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-29",
-  "title": "빌 게이츠, 내달 방한…SMR 동맹 강화",
-  "summary": "빌 게이츠가 내달 한국을 방문하여 SMR 동맹 강화 협력을 추진한다.",
-  "summaryLong": "테라파워(TerraPower) 회장인 빌 게이츠가 내달 서울을 방문하여 한국과의 소형모듈원자로(SMR) 협력 관계 강화를 도모할 예정이다. 한국의 원자력 정책 부활 배경 속에서 테라파워와 한국 간 전략적 파트너십 심화가 예상된다. 이는 글로벌 SMR 개발사와 한국의 정책적 연계를 나타내는 중요한 신호로 평가된다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "KR",
-  "source": "news.nate.com",
-  "url": "https://news.nate.com/view/20260729n34344",
-  "k": "빌 게이츠 내달 방한 smr동맹 강화",
-  "ko": 1,
-  "op": 1,
-  "id": "3bb2c8bd"
- },
- {
-  "date": "2026-07-29",
-  "title": "미국 ARC-100 SMR 실증 착수",
-  "summary": "미국의 ARC-100 소형모듈원자로(SMR) 실증이 착수되었다.",
-  "summaryLong": "미국에서 차세대 소형모듈원자로(SMR)인 ARC-100의 실증 프로젝트가 착수되었다. ARC-100은 고급 원자로 기술의 실용화를 위한 중요한 마일스톤으로, 이 프로젝트의 진행은 SMR 상용화 실현 가능성을 높이는 신호로 평가된다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "",
-  "region": "US",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5339",
-  "k": "차세대 원전 smr 드디어 현실이 될까 미국 arc 100 실증 착수",
-  "ko": 1,
-  "id": "f97bf80a"
- },
- {
-  "date": "2026-07-29",
   "title": "맥더모트, 네덜란드의 롤스로이스 SMR 프로젝트 지원",
   "summary": "맥더모트(McDermott)가 네덜란드의 롤스로이스 SMR 프로젝트 지원 계약을 체결했다.",
   "summaryLong": "엔지니어링·건설사 맥더모트(McDermott)가 네덜란드에서 진행될 롤스로이스(Rolls-Royce) SMR(소형모듈원자로) 프로젝트를 기술·관리적으로 지원하기로 합의했다. 이는 유럽에서의 소형모듈원자로 사업화를 위한 산업 파트너십 확대를 나타내며, 유럽 지역 첨단 원자력 기술의 상용화 경로를 강화하는 의미가 있다.",
@@ -1419,5 +1434,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-02 16:19 KST";
-window.SMR_TOTAL = 1712;
+window.SMR_UPDATED = "2026-08-03 07:30 KST";
+window.SMR_TOTAL = 1716;
