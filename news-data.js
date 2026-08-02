@@ -24919,4 +24919,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-03 08:02 KST";
+window.SMR_UPDATED = "2026-08-03 08:45 KST";
