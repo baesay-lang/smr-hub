@@ -53,6 +53,123 @@ window.SMR_NEWS = [
     "id": "2ded5d49"
   },
   {
+    "date": "2026-08-03",
+    "title": "ARC, 아이다호 국립연구소(INL)와 SMR 배치 계약",
+    "summary": "ARC 클린 테크놀로지(ARC Clean Technology)가 아이다호 국립연구소(INL)에 ARC-100 소형모듈원자로(SMR)의 첫 배치를 목표로 하는 계약을 체결했다.",
+    "summaryLong": "ARC 클린 테크놀로지(ARC Clean Technology)는 미국 에너지부(DOE) 산하 아이다호 국립연구소(INL)와 협약을 체결하여 ARC-100 소형모듈원자로(SMR)의 첫 번째 현장 배치를 추진하기로 합의했다. 이는 ARC-100이 실제 운영 환경에서 처음 구현되는 단계로, 소형모듈원자로 상용화의 주요 이정표가 될 것으로 예상된다. 아이다호 국립연구소는 미국 내 원자력 기술 개발·실증의 핵심 거점으로, 이번 계약은 미국의 첨단 원자로 전략 추진을 보여주는 사례다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "ARC",
+    "region": "US",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/arc-partners-with-inl-for-smr-deployment",
+    "k": "arc partners with inl for smr deployment",
+    "id": "eb04f9a9"
+  },
+  {
+    "date": "2026-08-03",
+    "title": "한국, 9월 SMR 특별법 시행…소형모듈원자로 본격 육성",
+    "summary": "한국이 9월 시행 예정인 'SMR 특별법'을 통해 소형모듈원자로(SMR) 개발을 본격 추진한다.",
+    "summaryLong": "한국 원자력안전위원회는 오는 9월 소형모듈원자로(SMR) 특별법 시행을 앞두고 있으며, 이는 SMR을 차세대 원자력 기술로 본격 육성하기 위한 국책 정책이다. SMR은 기존 대형 경수로(PWR/BWR)에 비해 출력이 낮고 모듈화된 설계를 통해 안전성과 경제성을 높이며, 인공지능(AI) 시대의 증가하는 전력 수요, 기후위기 대응, 에너지 안보 강화에 대응하는 핵심 에너지원으로 평가받고 있다. 미국·중국·영국 등 주요 원전 강국들은 이미 SMR 연구개발과 실증 기반을 구축하고 글로벌 시장 선점을 위해 경쟁 중이며, 한국의 i-SMR(i-SMR) 등 국내 개발 사업이 추진되고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "투데이에너지 - 전체기사",
+    "url": "https://www.todayenergy.kr/news/articleView.html?idxno=301152",
+    "k": "9월 smr 특별법 시행 소형모듈원자로 본격 육성",
+    "ko": 1,
+    "id": "f8f661b8"
+  },
+  {
+    "date": "2026-08-03",
+    "title": "엑스에너지(X-energy), SGL 카본과 핵급 흑연 생산 능력 확대",
+    "summary": "엑스에너지(X-energy)가 독일의 SGL 카본(SGL Carbon)과 협력하여 고온가스로(HTGR) 용 핵급 흑연 생산 능력을 확대하고 유럽(EU) 공급망을 강화한다.",
+    "summaryLong": "엑스에너지(X-energy)는 2026년 8월 핵급 흑연 공급업체 SGL 카본(SGL Carbon)과 함께 핵급 흑연 생산 능력을 확대하는 계약을 발표했다. 이 계약은 흑연 빌렛(billet) 생산 능력을 두 배로 늘리고 유럽(EU) 공급망을 강화하는 것을 목표로 한다. 핵급 흑연은 고온가스로(HTGR) 계열의 Xe-100 원자로 개발에 핵심적인 장기 납기 자재(long-lead material)이며, 이번 협력은 엑스에너지의 첨단 원자로 및 연료 기술 상용화 일정을 가속화하는 데 의미가 있다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "X-Energy, Inc. News Releases",
+    "url": "https://investors.x-energy.com/news-releases/news-release-details/x-energy-sgl-carbon-announce-capacity-expansion-nuclear-grade",
+    "k": "x energy sgl carbon announce capacity expansion for nuclear grade graphite",
+    "id": "0e18b7e2"
+  },
+  {
+    "date": "2026-08-03",
+    "title": "로스앨라모스(LANL)의 지아코어 마이크로원자로, 임계도달",
+    "summary": "미국 로스앨라모스국립연구소(LANL)의 지아코어(ZiaCore) 마이크로원자로가 국가임계실험연구센터(NCERC)의 데이모스(Deimos) 시험베드에서 4월~5월 중 영점전력임계 달성 테스트를 완료했다.",
+    "summaryLong": "미국 로스앨라모스국립연구소(LANL)는 자신의 지아코어(ZiaCore) 마이크로원자로가 국가임계실험연구센터(NCERC)의 데이모스(Deimos) 시험베드에서 4주간의 실험을 통해 4월~5월 중 고온에서 영점전력임계(zero-power criticality)에 도달했다고 발표했다. 이는 마이크로원자로의 기본적인 핵물리 성능이 예상 범위 내임을 확인하는 중요한 기술적 마일스톤으로, 향후 고출력 시운전 진행의 기초가 된다.",
+    "cat": "기술",
+    "type": "Micro",
+    "dev": "LANL",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-08-03/article-8265/lanls-ziacore-microreactor-reaches-criticality/",
+    "k": "lanl s ziacore microreactor reaches criticality",
+    "id": "e26160c9"
+  },
+  {
+    "date": "2026-08-03",
+    "title": "해양SMR 조선사 경쟁 본격화, 한전기술 '반디' 국책R&D 추진",
+    "summary": "한전기술이 해양SMR '반디' 개발을 위해 국책 연구개발 사업을 추진 중이며, 조선사들 간 해양SMR 사업 경쟁이 심화되고 있다.",
+    "summaryLong": "한전기술이 개발 중인 해양SMR '반디'를 중심으로 국책 연구개발(R&D) 프로젝트를 추진하고 있다. 이는 해양 환경에서의 소형모듈원자로 사업화를 목표로 한 정부 정책 차원의 지원 프로그램으로 보인다. 국내 조선 업계에서도 해양SMR 사업 기회를 놓치지 않기 위한 경쟁이 심화되고 있으며, 한전기술의 '반디' 개발이 이러한 경쟁의 중심이 되고 있다.",
+    "cat": "정책",
+    "type": "General",
+    "dev": "한전기술",
+    "region": "KR",
+    "source": "asiatoday.co.kr",
+    "url": "https://www.asiatoday.co.kr/kn/view.php?key=20260803010000709",
+    "k": "해양smr 조선사 경쟁 본격화 한전기술 반디 국책r d 추진",
+    "ko": 1,
+    "id": "263a8e3a"
+  },
+  {
+    "date": "2026-08-03",
+    "title": "발라아토믹스, 10억 달러 시리즈B 투자 유치",
+    "summary": "SMR 개발사 발라아토믹스(Oklo)가 10억 달러(약 1조 2천억 원) 규모의 시리즈B 펀딩을 조달했다.",
+    "summaryLong": "SMR 개발 스타트업 발라아토믹스(Oklo)가 10억 달러 규모의 시리즈B 투자 라운드를 성공적으로 완료했다. 이는 SMR 개발사 중에서도 유의미한 규모의 자금 조달로, 회사의 기술 개발 및 사업화 진전을 가속화할 것으로 예상된다. 발라아토믹스는 첨단 냉각 방식의 소형원자로 개발을 추진 중인 유명 SMR 기업이며, 이번 투자는 미국 내 SMR 시장 경쟁 심화를 반영하는 신호로 보인다.",
+    "cat": "투자",
+    "type": "SFR",
+    "dev": "발라아토믹스",
+    "region": "US",
+    "source": "wowtale.net",
+    "url": "https://wowtale.net/2026/08/04/262352/",
+    "k": "smr 원자력 발라아토믹스 10억 달러 시리즈b 투자유치",
+    "ko": 1,
+    "id": "2faa36a7"
+  },
+  {
+    "date": "2026-08-03",
+    "title": "미국 NRC, 홀텍 오이스터크릭 원전 해체 승인… SMR 단지 재탄생",
+    "summary": "미국 원자력규제위원회(NRC)가 홀텍(Holtec)의 오이스터크릭(Oyster Creek) 원전 해체를 승인했으며, 이 부지가 SMR 단지로 재개발될 예정이다.",
+    "summaryLong": "미국 원자력규제위원회(NRC)가 홀텍(Holtec) 인터내셔널의 오이스터크릭(Oyster Creek) 폐지원전 해체를 공식 승인했다. 홀텍은 이 부지를 소형모듈원자로(SMR) 단지로 재개발할 계획을 추진 중이며, NRC의 해체 승인은 이러한 사업 추진의 중요한 규제 관문을 통과했음을 의미한다. 폐지원전 부지를 SMR 단지로 재활용하는 이 사례는 미국의 원전 부지 활용 전략과 SMR 보급 정책이 맞아떨어진 사례로 평가된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "홀텍",
+    "region": "US",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5443",
+    "k": "미국 nrc 홀텍 오이스터크릭 원전 해체 승인 smr 단지 재탄생",
+    "ko": 1,
+    "id": "3e28993e"
+  },
+  {
+    "date": "2026-08-03",
+    "title": "미국 도미니언 노스 애나 원전 부지 허가 연장, SMR 등 선택지 확보",
+    "summary": "미국 도미니언(Dominion) 에너지가 노스 애나(North Anna) 원전 부지의 운영 허가를 연장받았으며, 이는 SMR 등 다양한 발전 옵션 추진에 필요한 규제 요건을 충족하게 되었다.",
+    "summaryLong": "미국 도미니언(Dominion) 에너지가 버지니아주의 노스 애나(North Anna) 원전 부지에 대한 운영 허가 연장을 획득했다. 이 허가 연장은 현존 원자력 발전시설의 계속 운영뿐 아니라, 해당 부지에서 소형모듈원자로(SMR) 등 새로운 발전 기술을 도입할 수 있는 규제적 기반을 제공한다. 기존 원전 부지의 허가 연장은 SMR 사업 추진을 위한 중요한 전제 조건으로, 미국 내 SMR 사업 부지 확보 전략의 일환으로 볼 수 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "도미니언",
+    "region": "US",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5440",
+    "k": "미국 도미니언 노스 애나 원전 부지 허가 연장 smr 등 선택지 확보",
+    "ko": 1,
+    "id": "3d2897ab"
+  },
+  {
     "date": "2026-08-02",
     "title": "SMR 100기 경쟁 본격화…한국 공급망 기회 확대",
     "summary": "전 세계 소형모듈원자로 100기 경쟁이 본격화되면서 한국의 공급망 산업에 기회가 커지고 있다.",
@@ -159,6 +276,21 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "1407a15b"
+  },
+  {
+    "date": "2026-08-01",
+    "title": "빌 게이츠, 핵에너지 투자 확대 — 테라파워(TerraPower) 주목",
+    "summary": "빌 게이츠가 핵에너지 산업에 베팅하면서 테라파워(TerraPower)가 시장의 주목을 받고 있다.",
+    "summaryLong": "NAI500에서 빌 게이츠(Bill Gates)가 주도하는 핵에너지 투자 확대 움직임 가운데 테라파워(TerraPower)가 시장의 관심을 받고 있다고 보도했다. 소형모듈원자로(SMR)·첨단로 개발사인 테라파워에 대한 투자자 주목과 사업 전망을 다루고 있으나, 구체적인 투자 공시나 계약 사건이 명확하지 않아 분석·전망 형태로 판단된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "nai500.com",
+    "url": "https://nai500.com/blog/2026/08/bill-gates-bets-on-nuclear-energy-terrapower-draws-market-attention/",
+    "k": "bill gates bets on nuclear energy terrapower draws market attention",
+    "op": 1,
+    "id": "c5cce20a"
   },
   {
     "date": "2026-07-31",
@@ -25022,4 +25154,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-03 17:06 KST";
+window.SMR_UPDATED = "2026-08-04 07:35 KST";
