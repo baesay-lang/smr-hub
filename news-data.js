@@ -8,6 +8,51 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-08-03",
+    "title": "두산에너빌리티·고려정밀공업·재료연구원, 기후부 'SMR 제조혁신 핵심과제' 선정",
+    "summary": "두산에너빌리티, 고려정밀공업, 재료연구원이 한국 정부(기후부) 주관 'SMR 제조혁신 핵심과제'에 선정됨.",
+    "summaryLong": "두산에너빌리티, 고려정밀공업, 재료연구원 컨소시엄이 한국 기후대응·에너지부(기후부) 주관의 'SMR 제조혁신 핵심과제'에 최종 선정되었다. 이는 한국의 소형모듈원자로(SMR) 산업화 추진 국책 프로그램의 일환으로, 부품 국산화, 제조 기술 혁신, 공급망 확보 등을 목표로 하는 정부 지원 사업으로 보임.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "두산에너빌리티",
+    "region": "KR",
+    "source": "snmnews.com",
+    "url": "https://www.snmnews.com/news/articleView.html?idxno=572827",
+    "k": "두산에너빌리티 고려정밀공업 재료연구원 기후부 주관 smr 제조혁신 핵심과제 선정",
+    "ko": 1,
+    "id": "37b6a2d9"
+  },
+  {
+    "date": "2026-08-03",
+    "title": "캐나다 SMR 역설: G7 최초 상업용 착공과 연료 의존 및 핵확산 문제",
+    "summary": "캐나다의 G7 최초 상업용 SMR 착공이 우라늄 공급 의존과 핵확산 우려라는 구조적 딜레마를 드러내고 있다.",
+    "summaryLong": "캐나다가 선진국(G7) 중 최초로 소형모듈원자로(SMR)의 상업용 착공에 나선 가운데, 이 프로젝트가 내포한 구조적 모순이 분석되고 있다. 상업 규모의 SMR 운영을 위한 우라늄 연료에 대한 의존도 증가와 핵확산 위험 사이의 딜레마가 존재한다는 지적이 제기되고 있으며, 이는 SMR 확대 시대의 국제 정책과 보안 과제를 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "CA",
+    "source": "knpp.co.kr",
+    "url": "http://knpp.co.kr/news/528973",
+    "k": "캐나다 smr 역설 g7 최초 상업용 착공이 드러낸 연료 의존과 핵확산 딜레마",
+    "ko": 1,
+    "id": "db7ef608"
+  },
+  {
+    "date": "2026-08-03",
+    "title": "캐나다 SMR, 우라늄 공급 의존의 역설",
+    "summary": "캐나다 소형모듈원자로(SMR) 사업이 우라늄 공급에 대한 의존 심화라는 역설적 문제를 안고 있다.",
+    "summaryLong": "캐나다의 소형모듈원자로(SMR) 사업 추진이 역설적 상황을 초래하고 있다는 분석이 제시되고 있다. SMR 상용화를 통해 청정 에너지 공급을 확대하려는 정책 의도와 달리, 실제로는 필요한 우라늄 연료에 대한 의존도가 심화되는 구조적 문제를 안고 있다는 점이 지적되고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "CA",
+    "source": "youthassembly.kr",
+    "url": "https://www.youthassembly.kr/news/980549",
+    "k": "캐나다 smr 우라늄 의존의 역설",
+    "ko": 1,
+    "id": "2ded5d49"
+  },
+  {
     "date": "2026-08-02",
     "title": "SMR 100기 경쟁 본격화…한국 공급망 기회 확대",
     "summary": "전 세계 소형모듈원자로 100기 경쟁이 본격화되면서 한국의 공급망 산업에 기회가 커지고 있다.",
@@ -52,6 +97,22 @@ window.SMR_NEWS = [
     "k": "우리기술 한수원 93억원 공급계약 진행 원전 제어기술 smr 확장성 주목",
     "ko": 1,
     "id": "587c3731"
+  },
+  {
+    "date": "2026-08-02",
+    "title": "뉴스케일 파워, 미국(US) 최대 SMR 사업 추진",
+    "summary": "뉴스케일 파워(NuScale Power)가 미국 최대 규모의 소형모듈원자로(SMR) 사업을 추진 중이며, 비구속 협약이 주요 변수로 작용하고 있다.",
+    "summaryLong": "뉴스케일 파워가 미국에서 최대 규모의 소형모듈원자로(SMR) 사업을 추진하고 있다. 이 사업의 진행 과정에서 비구속 협약(non-binding agreement)의 역할이 중요한 변수로 지목되고 있으며, 이것이 프로젝트의 실행 여부와 일정에 영향을 미칠 것으로 보인다. 뉴스케일 파워는 미국의 주요 SMR 개발 업체로서 상용화를 앞두고 있는 업체 중 하나이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "뉴스케일 파워",
+    "region": "US",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/Global-Biz/2026/08/202608030642315811fbbec65dfb_1",
+    "k": "뉴스케일 파워 최대 smr 사업 추진 비구속 협약이 변수",
+    "ko": 1,
+    "op": 1,
+    "id": "88a6085f"
   },
   {
     "date": "2026-08-01",
@@ -3939,6 +4000,20 @@ window.SMR_NEWS = [
     "k": "msr 안전 검증 smr 선박 실증 원자력 산업 판도 바뀐다 g enews com",
     "ko": 1,
     "id": "4a5b67e2"
+  },
+  {
+    "date": "2026-07-22",
+    "title": "미국·일본·한국, NATO 정상회담에서 소형모듈원자로(SMR) 협력 양해각서 체결",
+    "summary": "미국, 일본, 한국이 NATO 정상회담에서 소형모듈원자로(SMR) 협력에 관한 양해각서를 체결.",
+    "summaryLong": "미국, 일본, 한국 세 나라가 NATO(북대서양조약기구) 정상회담에서 소형모듈원자로(SMR) 분야 협력을 위한 양해각서(MOU)를 서명했다. 이는 SMR 기술 개발, 규제 협력, 인력 양성 등을 포함한 다층적 협력 체계를 구축하려는 정부 간 정책 협력으로, 각국의 SMR 산업 추진 의지를 보여주는 주요 국책 행보.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "",
+    "region": "US|KR|JP",
+    "source": "america-times.com",
+    "url": "https://www.america-times.com/united-states-japan-and-south-korea-sign-small-modular-reactor-cooperation-memorandum-at-nato-summit/",
+    "k": "united states japan and south korea sign small modular reactor cooperation memorandum at nato summit america times com",
+    "id": "9cf8da60"
   },
   {
     "date": "2026-07-21",
@@ -23462,6 +23537,20 @@ window.SMR_NEWS = [
     "id": "78ffee35"
   },
   {
+    "date": "2026-01-30",
+    "title": "경제협력개발기구 원자력기관(NEA), 소형모듈원자로 디지털 대시보드 3.1판 출시",
+    "summary": "경제협력개발기구 원자력기관(NEA)이 소형모듈원자로(SMR) 디지털 대시보드 3.1판을 출시하고 지속적 업데이트 운영 개시.",
+    "summaryLong": "경제협력개발기구 원자력기관(NEA, Nuclear Energy Agency)이 소형모듈원자로(SMR) 분야 통합 정보 플랫폼인 'SMR 디지털 대시보드' 3.1판을 출시했다. 신규 판본에서는 더욱 정교한 데이터 통합과 함께 정기적인 롤링 업데이트 체계를 도입하여 SMR 개발 동향을 실시간 추적할 수 있도록 개선했으며, 이는 국제 SMR 정책·규제 표준화 추진의 일환.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "EU",
+    "source": "oecd-nea.org",
+    "url": "https://www.oecd-nea.org/jcms/pl_114667/launch-of-edition-3-1-and-new-rolling-update-nea-small-modular-reactor-digital-dashboard",
+    "k": "launch of edition 3 1 and new rolling update nea small modular reactor digital dashboard oecd nea org",
+    "id": "78ffee35"
+  },
+  {
     "date": "2026-01-23",
     "title": "소형모듈원자로 법제가 미국 각 주(State)의 원자력 정책을 재편",
     "summary": "소형모듈원자로 관련 법제 정비가 미국 각 주의 핵에너지 정책을 재구성하고 있다.",
@@ -23893,6 +23982,20 @@ window.SMR_NEWS = [
     "url": "https://www.world-nuclear-news.org/articles/two-smr-projects-selected-for-us-federal-funding",
     "k": "two smr projects selected for us federal funding",
     "id": "edffa836"
+  },
+  {
+    "date": "2025-12-03",
+    "title": "경제협력개발기구 원자력기관(NEA), 소형모듈원자로(SMR) 안전 평가 워크숍 개최",
+    "summary": "경제협력개발기구 원자력기관(NEA)이 소형모듈원자로(SMR)의 안전 평가 최근 진전과 과제를 다루는 워크숍을 개최.",
+    "summaryLong": "경제협력개발기구 원자력기관(NEA)이 소형모듈원자로(SMR)의 안전성 평가 분야 최근 기술 진전과 남은 과제를 집중 논의하는 국제 워크숍을 개최했다. 이 행사는 SMR 설계인증(Design Certification) 및 안전분석 인허가(Safety Analysis Approval) 기준 국제 조화와 규제 효율화를 추진하는 정책 성격의 활동으로, SMR 상용화 시 필수적인 규제 틀 구축에 기여하고 있음.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "EU",
+    "source": "oecd-nea.org",
+    "url": "https://www.oecd-nea.org/jcms/pl_112742/workshop-highlights-recent-advances-and-challenges-in-small-modular-reactor-safety-assessment",
+    "k": "workshop highlights recent advances and challenges in small modular reactor safety assessment oecd nea org",
+    "id": "433191ab"
   },
   {
     "date": "2025-12-02",
@@ -24919,4 +25022,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-03 08:45 KST";
+window.SMR_UPDATED = "2026-08-03 15:46 KST";

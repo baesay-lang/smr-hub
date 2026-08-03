@@ -1,6 +1,51 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-08-03",
+  "title": "두산에너빌리티·고려정밀공업·재료연구원, 기후부 'SMR 제조혁신 핵심과제' 선정",
+  "summary": "두산에너빌리티, 고려정밀공업, 재료연구원이 한국 정부(기후부) 주관 'SMR 제조혁신 핵심과제'에 선정됨.",
+  "summaryLong": "두산에너빌리티, 고려정밀공업, 재료연구원 컨소시엄이 한국 기후대응·에너지부(기후부) 주관의 'SMR 제조혁신 핵심과제'에 최종 선정되었다. 이는 한국의 소형모듈원자로(SMR) 산업화 추진 국책 프로그램의 일환으로, 부품 국산화, 제조 기술 혁신, 공급망 확보 등을 목표로 하는 정부 지원 사업으로 보임.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "두산에너빌리티",
+  "region": "KR",
+  "source": "snmnews.com",
+  "url": "https://www.snmnews.com/news/articleView.html?idxno=572827",
+  "k": "두산에너빌리티 고려정밀공업 재료연구원 기후부 주관 smr 제조혁신 핵심과제 선정",
+  "ko": 1,
+  "id": "37b6a2d9"
+ },
+ {
+  "date": "2026-08-03",
+  "title": "캐나다 SMR 역설: G7 최초 상업용 착공과 연료 의존 및 핵확산 문제",
+  "summary": "캐나다의 G7 최초 상업용 SMR 착공이 우라늄 공급 의존과 핵확산 우려라는 구조적 딜레마를 드러내고 있다.",
+  "summaryLong": "캐나다가 선진국(G7) 중 최초로 소형모듈원자로(SMR)의 상업용 착공에 나선 가운데, 이 프로젝트가 내포한 구조적 모순이 분석되고 있다. 상업 규모의 SMR 운영을 위한 우라늄 연료에 대한 의존도 증가와 핵확산 위험 사이의 딜레마가 존재한다는 지적이 제기되고 있으며, 이는 SMR 확대 시대의 국제 정책과 보안 과제를 시사한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "CA",
+  "source": "knpp.co.kr",
+  "url": "http://knpp.co.kr/news/528973",
+  "k": "캐나다 smr 역설 g7 최초 상업용 착공이 드러낸 연료 의존과 핵확산 딜레마",
+  "ko": 1,
+  "id": "db7ef608"
+ },
+ {
+  "date": "2026-08-03",
+  "title": "캐나다 SMR, 우라늄 공급 의존의 역설",
+  "summary": "캐나다 소형모듈원자로(SMR) 사업이 우라늄 공급에 대한 의존 심화라는 역설적 문제를 안고 있다.",
+  "summaryLong": "캐나다의 소형모듈원자로(SMR) 사업 추진이 역설적 상황을 초래하고 있다는 분석이 제시되고 있다. SMR 상용화를 통해 청정 에너지 공급을 확대하려는 정책 의도와 달리, 실제로는 필요한 우라늄 연료에 대한 의존도가 심화되는 구조적 문제를 안고 있다는 점이 지적되고 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "CA",
+  "source": "youthassembly.kr",
+  "url": "https://www.youthassembly.kr/news/980549",
+  "k": "캐나다 smr 우라늄 의존의 역설",
+  "ko": 1,
+  "id": "2ded5d49"
+ },
+ {
   "date": "2026-08-02",
   "title": "SMR 100기 경쟁 본격화…한국 공급망 기회 확대",
   "summary": "전 세계 소형모듈원자로 100기 경쟁이 본격화되면서 한국의 공급망 산업에 기회가 커지고 있다.",
@@ -45,6 +90,22 @@ window.SMR_NEWS = [
   "k": "우리기술 한수원 93억원 공급계약 진행 원전 제어기술 smr 확장성 주목",
   "ko": 1,
   "id": "587c3731"
+ },
+ {
+  "date": "2026-08-02",
+  "title": "뉴스케일 파워, 미국(US) 최대 SMR 사업 추진",
+  "summary": "뉴스케일 파워(NuScale Power)가 미국 최대 규모의 소형모듈원자로(SMR) 사업을 추진 중이며, 비구속 협약이 주요 변수로 작용하고 있다.",
+  "summaryLong": "뉴스케일 파워가 미국에서 최대 규모의 소형모듈원자로(SMR) 사업을 추진하고 있다. 이 사업의 진행 과정에서 비구속 협약(non-binding agreement)의 역할이 중요한 변수로 지목되고 있으며, 이것이 프로젝트의 실행 여부와 일정에 영향을 미칠 것으로 보인다. 뉴스케일 파워는 미국의 주요 SMR 개발 업체로서 상용화를 앞두고 있는 업체 중 하나이다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "뉴스케일 파워",
+  "region": "US",
+  "source": "g-enews.com",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/08/202608030642315811fbbec65dfb_1",
+  "k": "뉴스케일 파워 최대 smr 사업 추진 비구속 협약이 변수",
+  "ko": 1,
+  "op": 1,
+  "id": "88a6085f"
  },
  {
   "date": "2026-08-01",
@@ -834,68 +895,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-29",
-  "title": "한국 총리, 빌 게이츠와 8월 만날 듯…SMR 분야 협력 논의 전망",
-  "summary": "한국 총리가 빌 게이츠와 만나 SMR 분야 협력을 논의할 가능성이 제기되었다.",
-  "summaryLong": "한국 총리가 빌 게이츠와 8월에 만날 것으로 전망되며, 이 자리에서 소형모듈원자로(SMR) 분야의 협력이 논의될 가능성이 있다. 제공된 스니펫이 제목만 있어 구체적 일정·배경·협력 범위는 명확하지 않으나, SMR 분야 국제 협력의 가능성을 시사한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "newsis.com",
-  "url": "https://www.newsis.com/view/NISX20260729_0003728870",
-  "k": "한 총리 빌 게이츠와 8월 만날 듯 smr 분야 협력 논의 전망",
-  "ko": 1,
-  "op": 1,
-  "id": "add2ddae"
- },
- {
-  "date": "2026-07-29",
-  "title": "빌 게이츠 방한, 한국 AI·SMR 협력 확대 신호탄 되나",
-  "summary": "빌 게이츠의 방한이 한국과의 인공지능(AI), 소형모듈원자로(SMR) 협력 확대 신호로 전망된다.",
-  "summaryLong": "마이크로소프트 창업자 빌 게이츠의 방한이 임박한 가운데 한국과 테라파워(TerraPower) 등 소형모듈원자로(SMR) 개발사 간의 협력 확대 신호로 관측되고 있다. 게이츠는 테라파워 회장으로서 첨단 핵기술 개발을 주도해온 인물이며, 이번 방한은 한국 정부의 원자력 정책 전환과 맞물려 한·미 SMR 협력 강화의 계기가 될 수 있다. 다만 구체적인 협력 내용, 계약, 투자 규모 등은 아직 공식화되지 않았다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "KR",
-  "source": "g-enews.com",
-  "url": "https://www.g-enews.com/article/ICT/2026/07/202607291957326672cd0bfacc1c_1",
-  "k": "빌 게이츠 방한 초읽기 ai smr 협력 확대 신호탄 되나",
-  "ko": 1,
-  "op": 1,
-  "id": "3f7411ca"
- },
- {
-  "date": "2026-07-29",
-  "title": "맥더못(McDermott)과 ULC-에너지(ULC-Energy), 네덜란드 롤스로이스 SMR 프로젝트 진전 협약",
-  "summary": "맥더못이 ULC-에너지와 네덜란드에서의 롤스로이스(Rolls-Royce) SMR 사업 추진을 위한 협약을 체결",
-  "summaryLong": "엔지니어링 기업 맥더못(McDermott)과 ULC-에너지(ULC-Energy)가 네덜란드에서 롤스로이스 SMR 프로젝트를 진전시키기 위한 협약을 체결했다. 이는 유럽에서 소형모듈원자로 도입을 위한 파트너십 강화를 의미하는 것으로, 롤스로이스의 소형모듈원자로 사업 추진의 구체적인 진전을 나타내는 사항이다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "Rolls-Royce",
-  "region": "EU",
-  "source": "energynews.pro",
-  "url": "https://energynews.pro/en/mcdermott-and-ulc-energy-sign-agreement-to-advance-rolls-royce-smr-projects-in-netherlands",
-  "k": "mcdermott and ulc energy sign agreement to advance rolls royce smr projects in netherlands",
-  "id": "1646d17f"
- },
- {
-  "date": "2026-07-29",
-  "title": "SK이노베이션, 베트남 AI 전력수요 대응…LNG부터 SMR까지 단계별 협력 제안",
-  "summary": "SK이노베이션이 베트남의 인공지능(AI) 전력수요 대응을 위해 LNG에서 SMR까지 단계적 에너지 협력 방안을 제안했다.",
-  "summaryLong": "SK이노베이션이 베트남의 인공지능(AI) 급증으로 인한 전력수요 증가에 대응하기 위해 액화천연가스(LNG)부터 소형모듈원자로(SMR)까지 단계적 에너지 협력 방안을 제시했습니다. 초기 LNG 공급으로 즉각적인 수요를 충족하고, 중·장기적으로 SMR 도입을 통한 저탄소 전력 공급 체계 구축을 제안하고 있습니다. 이는 베트남의 에너지 정책과 글로벌 탄소중립 목표에 부합하는 포괄적 협력 모델로, SK이노베이션의 SMR 사업 국제화 노력을 반영합니다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "SK이노베이션",
-  "region": "KR",
-  "source": "eroun.net",
-  "url": "https://www.eroun.net/news/articleView.html?idxno=86549",
-  "k": "sk이노베이션 베트남 ai 전력수요 대응 제안 lng부터 smr까지 단계별 협력",
-  "ko": 1,
-  "op": 1,
-  "id": "6a344298"
- },
- {
-  "date": "2026-07-29",
   "title": "맥더모트, 네덜란드의 롤스로이스 SMR 프로젝트 지원",
   "summary": "맥더모트(McDermott)가 네덜란드의 롤스로이스 SMR 프로젝트 지원 계약을 체결했다.",
   "summaryLong": "엔지니어링·건설사 맥더모트(McDermott)가 네덜란드에서 진행될 롤스로이스(Rolls-Royce) SMR(소형모듈원자로) 프로젝트를 기술·관리적으로 지원하기로 합의했다. 이는 유럽에서의 소형모듈원자로 사업화를 위한 산업 파트너십 확대를 나타내며, 유럽 지역 첨단 원자력 기술의 상용화 경로를 강화하는 의미가 있다.",
@@ -1434,5 +1433,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-03 08:45 KST";
-window.SMR_TOTAL = 1716;
+window.SMR_UPDATED = "2026-08-03 15:46 KST";
+window.SMR_TOTAL = 1723;
