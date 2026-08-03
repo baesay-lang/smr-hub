@@ -170,6 +170,35 @@ window.SMR_NEWS = [
     "id": "3d2897ab"
   },
   {
+    "date": "2026-08-03",
+    "title": "엑스에너지, SGL 카본과 원전급 흑연 생산량 확대 발표",
+    "summary": "엑스에너지(X-energy)와 독일 SGL 카본(SGL Carbon)이 원전용 고급 흑연의 생산 능력 확대를 공동 발표했다.",
+    "summaryLong": "엑스에너지(X-energy)와 독일의 카본 소재 전문기업 SGL 카본(SGL Carbon)이 원전용 고급 흑연의 생산 능력 확대 계획을 발표했다. 이는 엑스에너지의 고온가스로(HTGR) 계열 Xe-100 원자로의 상용화 및 공급 확대를 뒷받침하기 위한 부품 공급 체인 강화 움직임이다. 원전급 흑연은 고온가스로의 핵심 부품으로, 생산 능력 확대는 향후 다수의 원자로 건설에 필수적이다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "mycarrollcountynews.com",
+    "url": "https://www.mycarrollcountynews.com/online_features/press_releases/article_bada6024-6f28-54c9-b0b2-a56031e26117.html",
+    "k": "x energy sgl carbon announce capacity expansion for nuclear grade graphite carroll county mirror democrat",
+    "id": "1140f98b"
+  },
+  {
+    "date": "2026-08-03",
+    "title": "미국 SMR 4기·중국 원자로 8기…원전 확장 경쟁 가속",
+    "summary": "미국의 소형모듈원자로(SMR) 4기와 중국의 원자로 8기 건설 등 글로벌 원전 확장 경쟁이 심화되고 있다.",
+    "summaryLong": "제목만 제시되어 구체적인 내용 파악이 제한적이나, 미국과 중국의 원자력 개발 현황을 비교하는 뉴스로 보인다. 미국의 소형모듈원자로(SMR) 4기 추진과 중국의 원자로 8기 건설 계획이 거론되며, 이는 글로벌 원전 확장 경쟁의 심화를 보여주는 내용으로 해석된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/Global-Biz/2026/08/202608040721169175fbbec65dfb_1",
+    "k": "smr 4기 원자로 8기 원전 확장 경쟁 가속 g enews com",
+    "ko": 1,
+    "id": "1e21a3f0"
+  },
+  {
     "date": "2026-08-02",
     "title": "SMR 100기 경쟁 본격화…한국 공급망 기회 확대",
     "summary": "전 세계 소형모듈원자로 100기 경쟁이 본격화되면서 한국의 공급망 산업에 기회가 커지고 있다.",
@@ -227,6 +256,37 @@ window.SMR_NEWS = [
     "source": "g-enews.com",
     "url": "https://www.g-enews.com/article/Global-Biz/2026/08/202608030642315811fbbec65dfb_1",
     "k": "뉴스케일 파워 최대 smr 사업 추진 비구속 협약이 변수",
+    "ko": 1,
+    "op": 1,
+    "id": "88a6085f"
+  },
+  {
+    "date": "2026-08-02",
+    "title": "경남 원전기업·연구기관, SMR 혁신제조 3개 과제 모두 선정",
+    "summary": "경남 지역의 두산에너빌리티, 고려정밀공업, 한국재료연구원이 정부의 소형모듈원자로(SMR) 혁신제조 기술개발 사업 3개 과제에 주관기관으로 최종 선정되었다.",
+    "summaryLong": "경상남도가 기후에너지환경부와 한국에너지기술평가원이 주관하는 SMR 혁신제조 기술개발 사업에서 도내 3개 기관을 주관기관으로 확보했다. 두산에너빌리티와 고려정밀공업, 한국재료연구원이 각각 과제를 담당하게 되며, 이들은 SMR 제작 기간을 기존 14개월에서 3개월로 약 80% 단축하는 핵심 제조기술을 개발할 예정이다. 사업 기간은 2026년부터 2031년까지 추진되며, 이는 경남의 '글로벌 SMR 개발·제조·검사 원스톱 거점 구축' 공약 실현의 핵심 사업으로서 글로벌 SMR 제조 거점 구축에 속도를 낼 것으로 전망된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "두산에너빌리티, 고려정밀공업, 한국재료연구원",
+    "region": "KR",
+    "source": "전기신문 - 전체기사",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=370888",
+    "k": "경남 원전기업 연구기관 smr 혁신제조 3개 과제 모두 따냈다",
+    "ko": 1,
+    "id": "dfce8960"
+  },
+  {
+    "date": "2026-08-02",
+    "title": "뉴스케일 파워, 미국 최대 SMR 사업 추진…비구속 협약이 변수",
+    "summary": "뉴스케일 파워(NuScale Power)가 미국 최대 규모의 소형모듈원자로(SMR) 사업을 추진 중이며, 비구속 협약 체결 여부가 향후 진전의 주요 변수로 작용할 것으로 보인다.",
+    "summaryLong": "제목만 제시되어 구체적인 내용 파악이 제한적이나, 미국 SMR 개발 주도 기업인 뉴스케일 파워(NuScale Power)가 미국 최대 규모의 소형모듈원자로(SMR) 사업을 추진하고 있는 것으로 보인다. 비구속 협약(MOU) 체결 여부가 사업 추진의 중요한 변수가 될 수 있으며, 이는 뉴스케일의 미국 내 주요 프로젝트 진행 상황을 나타내는 것으로 해석된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "뉴스케일 파워",
+    "region": "US",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/Global-Biz/2026/08/202608030642315811fbbec65dfb_1",
+    "k": "뉴스케일 파워 최대 smr 사업 추진 비구속 협약이 변수 g enews com",
     "ko": 1,
     "op": 1,
     "id": "88a6085f"
@@ -25154,4 +25214,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-04 07:35 KST";
+window.SMR_UPDATED = "2026-08-04 08:14 KST";

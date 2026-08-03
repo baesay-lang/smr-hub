@@ -163,6 +163,35 @@ window.SMR_NEWS = [
   "id": "3d2897ab"
  },
  {
+  "date": "2026-08-03",
+  "title": "엑스에너지, SGL 카본과 원전급 흑연 생산량 확대 발표",
+  "summary": "엑스에너지(X-energy)와 독일 SGL 카본(SGL Carbon)이 원전용 고급 흑연의 생산 능력 확대를 공동 발표했다.",
+  "summaryLong": "엑스에너지(X-energy)와 독일의 카본 소재 전문기업 SGL 카본(SGL Carbon)이 원전용 고급 흑연의 생산 능력 확대 계획을 발표했다. 이는 엑스에너지의 고온가스로(HTGR) 계열 Xe-100 원자로의 상용화 및 공급 확대를 뒷받침하기 위한 부품 공급 체인 강화 움직임이다. 원전급 흑연은 고온가스로의 핵심 부품으로, 생산 능력 확대는 향후 다수의 원자로 건설에 필수적이다.",
+  "cat": "기술",
+  "type": "HTGR",
+  "dev": "X-energy",
+  "region": "US",
+  "source": "mycarrollcountynews.com",
+  "url": "https://www.mycarrollcountynews.com/online_features/press_releases/article_bada6024-6f28-54c9-b0b2-a56031e26117.html",
+  "k": "x energy sgl carbon announce capacity expansion for nuclear grade graphite carroll county mirror democrat",
+  "id": "1140f98b"
+ },
+ {
+  "date": "2026-08-03",
+  "title": "미국 SMR 4기·중국 원자로 8기…원전 확장 경쟁 가속",
+  "summary": "미국의 소형모듈원자로(SMR) 4기와 중국의 원자로 8기 건설 등 글로벌 원전 확장 경쟁이 심화되고 있다.",
+  "summaryLong": "제목만 제시되어 구체적인 내용 파악이 제한적이나, 미국과 중국의 원자력 개발 현황을 비교하는 뉴스로 보인다. 미국의 소형모듈원자로(SMR) 4기 추진과 중국의 원자로 8기 건설 계획이 거론되며, 이는 글로벌 원전 확장 경쟁의 심화를 보여주는 내용으로 해석된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "US",
+  "source": "g-enews.com",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/08/202608040721169175fbbec65dfb_1",
+  "k": "smr 4기 원자로 8기 원전 확장 경쟁 가속 g enews com",
+  "ko": 1,
+  "id": "1e21a3f0"
+ },
+ {
   "date": "2026-08-02",
   "title": "SMR 100기 경쟁 본격화…한국 공급망 기회 확대",
   "summary": "전 세계 소형모듈원자로 100기 경쟁이 본격화되면서 한국의 공급망 산업에 기회가 커지고 있다.",
@@ -220,6 +249,37 @@ window.SMR_NEWS = [
   "source": "g-enews.com",
   "url": "https://www.g-enews.com/article/Global-Biz/2026/08/202608030642315811fbbec65dfb_1",
   "k": "뉴스케일 파워 최대 smr 사업 추진 비구속 협약이 변수",
+  "ko": 1,
+  "op": 1,
+  "id": "88a6085f"
+ },
+ {
+  "date": "2026-08-02",
+  "title": "경남 원전기업·연구기관, SMR 혁신제조 3개 과제 모두 선정",
+  "summary": "경남 지역의 두산에너빌리티, 고려정밀공업, 한국재료연구원이 정부의 소형모듈원자로(SMR) 혁신제조 기술개발 사업 3개 과제에 주관기관으로 최종 선정되었다.",
+  "summaryLong": "경상남도가 기후에너지환경부와 한국에너지기술평가원이 주관하는 SMR 혁신제조 기술개발 사업에서 도내 3개 기관을 주관기관으로 확보했다. 두산에너빌리티와 고려정밀공업, 한국재료연구원이 각각 과제를 담당하게 되며, 이들은 SMR 제작 기간을 기존 14개월에서 3개월로 약 80% 단축하는 핵심 제조기술을 개발할 예정이다. 사업 기간은 2026년부터 2031년까지 추진되며, 이는 경남의 '글로벌 SMR 개발·제조·검사 원스톱 거점 구축' 공약 실현의 핵심 사업으로서 글로벌 SMR 제조 거점 구축에 속도를 낼 것으로 전망된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "두산에너빌리티, 고려정밀공업, 한국재료연구원",
+  "region": "KR",
+  "source": "전기신문 - 전체기사",
+  "url": "https://www.electimes.com/news/articleView.html?idxno=370888",
+  "k": "경남 원전기업 연구기관 smr 혁신제조 3개 과제 모두 따냈다",
+  "ko": 1,
+  "id": "dfce8960"
+ },
+ {
+  "date": "2026-08-02",
+  "title": "뉴스케일 파워, 미국 최대 SMR 사업 추진…비구속 협약이 변수",
+  "summary": "뉴스케일 파워(NuScale Power)가 미국 최대 규모의 소형모듈원자로(SMR) 사업을 추진 중이며, 비구속 협약 체결 여부가 향후 진전의 주요 변수로 작용할 것으로 보인다.",
+  "summaryLong": "제목만 제시되어 구체적인 내용 파악이 제한적이나, 미국 SMR 개발 주도 기업인 뉴스케일 파워(NuScale Power)가 미국 최대 규모의 소형모듈원자로(SMR) 사업을 추진하고 있는 것으로 보인다. 비구속 협약(MOU) 체결 여부가 사업 추진의 중요한 변수가 될 수 있으며, 이는 뉴스케일의 미국 내 주요 프로젝트 진행 상황을 나타내는 것으로 해석된다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "뉴스케일 파워",
+  "region": "US",
+  "source": "g-enews.com",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/08/202608030642315811fbbec65dfb_1",
+  "k": "뉴스케일 파워 최대 smr 사업 추진 비구속 협약이 변수 g enews com",
   "ko": 1,
   "op": 1,
   "id": "88a6085f"
@@ -850,51 +910,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-29",
-  "title": "태웅, SMR 대량생산 기술로 시장 주도 시동",
-  "summary": "태웅이 소형모듈원자로(SMR) 대량생산 기술 확보로 소형원전 시장의 주요 플레이어로 본격 진입한다.",
-  "summaryLong": "한국 기업 태웅이 소형모듈원자로(SMR)의 대량생산 기술 개발에 성공하며 글로벌 소형원전 시장에서 주도적 역할을 수행하려고 한다. 이는 기존의 일회성 수주 중심에서 벗어나 생산 효율성과 경제성을 갖춘 자체 기술 확보로 시장 경쟁력을 강화하는 전략이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "태웅",
-  "region": "KR",
-  "source": "market-ink.co.kr",
-  "url": "https://www.market-ink.co.kr/news/articleView.html?idxno=9692",
-  "k": "태웅 smr 대량생산 기술로 승부수 소형모듈원전 시장 메인 플레이어 시동",
-  "ko": 1,
-  "id": "84f90650"
- },
- {
-  "date": "2026-07-29",
-  "title": "한국 전기산업연합회, SMR 등 신기술용 기술기준 확대 추진",
-  "summary": "대한전기산업연합회가 KEPIC(한국 전력산업 코드) 운영 관련 SMR 등 신기술에 대한 성능·위험도 기반의 기술기준 강화를 발표했다.",
-  "summaryLong": "법정단체로 출범한 대한전기산업연합회가 2026 KEPIC-Week 개최를 앞두고, AI·SMR 등 신기술에 대해 성능·위험도 기반의 기술기준을 확대하고 국제표준화와의 정합성을 강화하겠다고 밝혔다. KEPIC(한국 전력산업 코드)은 전력설비의 설계·제작·시공·운전·유지·검사·해체 등에 필요한 기술적·제도적 요건을 규정한 민간 단체표준이며, 이번 기준 확대는 국내 SMR 산업의 규제 기반 정비 움직임으로 해석된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "투데이에너지 - 전체기사",
-  "url": "https://www.todayenergy.kr/news/articleView.html?idxno=300969",
-  "k": "전기산업연합회 smr 등 신기술 성능 위험도 기반 기술기준 확대",
-  "ko": 1,
-  "id": "cbe37a9b"
- },
- {
-  "date": "2026-07-29",
-  "title": "KEPIC, AI·SMR 시대 맞춰 기준체계 확장",
-  "summary": "원자력기술규정(KEPIC)이 SMR 시대에 대응하여 기준체계를 확장하고 있다.",
-  "summaryLong": "한국원자력학회의 원자력기술규정(KEPIC)이 인공지능(AI)과 소형모듈원자로(SMR) 시대에 대응하기 위해 기준체계를 확장하고 있다. 이는 SMR 및 첨단로의 설계·안전 기준 강화와 관련된 정책·규제 차원의 움직임이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "inpnews.kr",
-  "url": "https://www.inpnews.kr/news/articleView.html?idxno=7371",
-  "k": "kepic ai smr 시대 맞춰 기준체계 확장",
-  "ko": 1,
-  "id": "b105640b"
- },
- {
-  "date": "2026-07-29",
   "title": "맥더못, 네덜란드 롤스로이스 SMR 프로젝트 지원",
   "summary": "네덜란드 원자력 개발사 ULC-Energy가 미국 엔지니어링·건설사 McDermott과 협력 협약을 체결하여 네덜란드 내 롤스로이스(Rolls-Royce) SMR 프로젝트 개발을 지원한다.",
   "summaryLong": "네덜란드 원자력 개발 회사 ULC-Energy가 미국 기반 엔지니어링 및 건설 회사 McDermott과 협력 협약을 체결했다. 이 협약은 네덜란드에서 진행되는 롤스로이스(Rolls-Royce) SMR 프로젝트 개발을 지원하기 위한 것이다. McDermott은 설계, 엔지니어링, 구매 및 건설 관리 등 광범위한 서비스를 제공할 예정이다. 이는 유럽, 특히 네덜란드에서의 소형모듈원자로(SMR) 배치 확대를 위한 국제 협력의 사례이며, 롤스로이스의 SMR 상용화 진행의 중요한 진전이다.",
@@ -906,21 +921,6 @@ window.SMR_NEWS = [
   "url": "https://www.world-nuclear-news.org/articles/mcdermott-to-support-dutch-deployment-of-rolls-royce-smr",
   "k": "mcdermott to support potential dutch rolls royce smr projects",
   "id": "2d286fd6"
- },
- {
-  "date": "2026-07-29",
-  "title": "KEPIC, AI·SMR 시대 맞춰 기술기준 확대·산업계 지원 강화",
-  "summary": "한국전력기술(KEPIC)이 AI·SMR 시대 대비 기술기준 확대 및 산업계 지원을 강화하기로 했다.",
-  "summaryLong": "한국전력기술(Korea Electric Power Industry Code, KEPIC)이 인공지능(AI)과 소형모듈원자로(SMR) 시대 도래에 대비해 원자력 기술기준(Code) 확대 및 산업계 기술 지원을 강화하는 정책을 추진하고 있다. 이는 국내 원자력 규제·기준 체계를 SMR·첨단로 설계·건설·운영 요구사항에 맞춰 현대화하는 정책 차원의 조치로, SMR 상용화 환경 조성을 위한 정부·규제 기관의 의지를 나타낸다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "inpnews.kr",
-  "url": "https://www.inpnews.kr/news/articleView.html?idxno=7371",
-  "k": "kepic ai smr 시대 맞춰 기술기준 확대 산업계 지원 강화",
-  "ko": 1,
-  "id": "b105640b"
  },
  {
   "date": "2026-07-29",
@@ -949,21 +949,6 @@ window.SMR_NEWS = [
   "url": "https://finance.yahoo.com/energy/articles/mcdermott-ulc-energy-sign-cooperation-110000798.html",
   "k": "mcdermott and ulc energy sign cooperation agreement to advance rolls royce smr projects",
   "id": "5d6b26cc"
- },
- {
-  "date": "2026-07-29",
-  "title": "태웅, SMR 대량생산 기술로 소형모듈원전 시장 진출",
-  "summary": "태웅이 SMR 대량생산 기술을 바탕으로 소형모듈원전 시장의 주요 플레이어로 진입한다.",
-  "summaryLong": "태웅이 소형모듈원자로(SMR) 대량생산 기술 역량을 토대로 소형모듈원전 시장에서 주요 사업자(main player)로 자리 잡기 위한 전략을 추진 중이다. 회사는 기술 개발을 통해 SMR 시장 선도를 목표로 하고 있으며, 이는 성장 중인 글로벌 SMR 시장에서 경쟁력을 확보하려는 움직임으로 보인다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "태웅",
-  "region": "KR",
-  "source": "market-ink.co.kr",
-  "url": "https://www.market-ink.co.kr/news/articleView.html?idxno=9692",
-  "k": "태웅 smr 대량생산 기술로 승부수 소형모듈원전 시장 메인 플레이어 시동 market ink co kr",
-  "ko": 1,
-  "id": "84f90650"
  },
  {
   "date": "2026-07-28",
@@ -1446,5 +1431,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-04 07:35 KST";
-window.SMR_TOTAL = 1732;
+window.SMR_UPDATED = "2026-08-04 08:14 KST";
+window.SMR_TOTAL = 1736;
