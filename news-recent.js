@@ -1,6 +1,66 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-08-04",
+  "title": "원자력산업협회, 정부의 SMR 국가전략기술 지정 환영 성명",
+  "summary": "한국 정부의 소형모듈원자로(SMR)를 국가전략기술 지정 및 2026년 세제개편안에 포함시킨 정책을 산업계가 환영했다.",
+  "summaryLong": "한국원자력산업협회(회장 김회천)는 정부의 소형모듈원자로(SMR)를 국가전략기술로 지정하고 2026년 세제개편안에 SMR 관련 기술 및 시설투자에 대한 세액공제를 명시적으로 포함한 정책을 환영하는 성명서를 발표했다. 산업협회는 561개 회원사 20만 3448명을 대표하여 정부의 SMR 진흥 정책이 기존 대형 원전과 달리 모듈화·공장 제작 기반 기술의 초기 R&D 및 설비 투자를 촉진할 것으로 평가했다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "에너지데일리 - 전체기사",
+  "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=201971",
+  "k": "원자력산업협회 561개 회원사 smr 국가전략기술 지정 환영한다",
+  "ko": 1,
+  "id": "9ab683fa"
+ },
+ {
+  "date": "2026-08-04",
+  "title": "현대제철, 차세대 원전(SMR) 사업 진출…인프라 구축 추진",
+  "summary": "현대제철이 소형모듈원자로(SMR) 산업에 본격 진출하여 관련 인프라 구축을 추진하고 있다.",
+  "summaryLong": "현대제철이 정부의 SMR 국가전략기술 지정에 발맞춰 차세대 원전 사업으로의 진출을 결정했다. 회사는 SMR 산업에 필요한 부품·소재, 제조 인프라 등을 정조준하여 단계적으로 사업을 확대할 계획이다. 이는 한국의 주요 제철·소재 기업이 SMR 산업 생태계에 참여하는 첫 움직임으로 평가된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "현대제철",
+  "region": "KR",
+  "source": "news.nate.com",
+  "url": "https://news.nate.com/view/20260804n18990?mid=n1101",
+  "k": "현대제철 차세대 원전 올라탄다 smr 인프라 정조준",
+  "ko": 1,
+  "id": "f40226a7"
+ },
+ {
+  "date": "2026-08-04",
+  "title": "발라 아토믹스(Balla Atomics), 10억 달러 투자 유치",
+  "summary": "엔비디아(Nvidia)의 SMR 파트너인 발라 아토믹스(Balla Atomics)가 10억 달러(USD) 규모의 투자를 유치했다.",
+  "summaryLong": "소형모듈원자로(SMR) 개발사 발라 아토믹스(Balla Atomics)가 10억 달러(USD) 규모의 대규모 투자 라운드를 성공적으로 진행했다. 발라 아토믹스는 엔비디아(Nvidia) 등 주요 기술 기업과 협력하며 SMR 기술 개발을 진행 중이며, 이번 투자는 회사의 기술 개발과 사업화 추진에 필요한 자금을 확보하는 데 중요한 이정표다.",
+  "cat": "투자",
+  "type": "General",
+  "dev": "Balla Atomics",
+  "region": "US",
+  "source": "theguru.co.kr",
+  "url": "https://www.theguru.co.kr/news/article.html?no=105321",
+  "k": "엔비디아 smr 파트너 발라 아토믹스 10억 달러 투자 유치",
+  "ko": 1,
+  "id": "2324b4a1"
+ },
+ {
+  "date": "2026-08-04",
+  "title": "경남, SMR 제조혁신 국가사업 3개 핵심과제 모두 선정",
+  "summary": "경상남도가 소형모듈원자로(SMR) 제조혁신 국가사업의 3개 핵심과제를 모두 따냈다.",
+  "summaryLong": "경상남도가 정부의 소형모듈원자로(SMR) 제조혁신 국가사업에서 추진 중인 3개 핵심 과제를 모두 확보했다. 이는 경남이 SMR 산업의 중심지로서 국책 프로젝트에서 중추적 역할을 담당하게 됨을 의미한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "inpnews.kr",
+  "url": "https://www.inpnews.kr/news/articleView.html?idxno=7440",
+  "k": "경남 smr 제조혁신 국가사업 싹쓸이 3개 핵심과제 모두 따냈다",
+  "ko": 1,
+  "id": "66463a72"
+ },
+ {
   "date": "2026-08-03",
   "title": "두산에너빌리티·고려정밀공업·재료연구원, 기후부 'SMR 제조혁신 핵심과제' 선정",
   "summary": "두산에너빌리티, 고려정밀공업, 재료연구원이 한국 정부(기후부) 주관 'SMR 제조혁신 핵심과제'에 선정됨.",
@@ -219,6 +279,35 @@ window.SMR_NEWS = [
   "k": "smr 4기 원자로 8기 원전 확장 경쟁 가속",
   "ko": 1,
   "id": "1e21a3f0"
+ },
+ {
+  "date": "2026-08-03",
+  "title": "미국 역사적 핵시설, 49년 운영 후 SMR-300 4기 도입 추진",
+  "summary": "미국의 오래된 핵발전소 부지가 49년의 운영을 마친 후 SMR-300(소형모듈원자로) 4기 도입을 검토하고 있다.",
+  "summaryLong": "미국의 역사적 의미가 있는 핵발전소 부지가 49년간의 운영을 종료한 후 차세대 소형모듈원자로(SMR-300) 4기 도입을 추진 중인 것으로 보도되었다. 이는 노후 핵시설 부지의 재활용 방안으로서 SMR 기술을 활용하려는 시도를 보여주는 사례이다. SMR-300의 소형 설계는 기존 대형원전 부지 활용에 유리한 특성을 갖추고 있다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "",
+  "region": "US",
+  "source": "interestingengineering.com",
+  "url": "https://interestingengineering.com/energy/49-year-u-s-nuclear-power-site-prepares-for-future-with-four-smr-300-reactors",
+  "k": "historic u s nuclear site eyes four smr 300 reactors after 49 years of service",
+  "op": 1,
+  "id": "5674d082"
+ },
+ {
+  "date": "2026-08-03",
+  "title": "엑스에너지(X-energy), SGL 카본과 원자력급 흑연 생산 확대 발표",
+  "summary": "엑스에너지(X-energy)가 SGL 카본(SGL Carbon)과 협력하여 고온가스로(HTGR) 연료용 핵등급 흑연의 생산 용량을 확대한다.",
+  "summaryLong": "소형모듈원자로(SMR) 개발사 엑스에너지(X-energy)와 독일 소재 소재 공급사 SGL 카본(SGL Carbon)이 Xe-100 고온가스로(HTGR) 용량 증대를 지원하기 위해 원자력급 흑연의 생산 능력을 확대하기로 발표했다. 이 협력은 SMR 상용화를 위한 공급망 확충 노력의 일환으로, 핵심 구성 재료인 흑연의 안정적 공급 기반을 강화하는 의미를 가진다.",
+  "cat": "기술",
+  "type": "HTGR",
+  "dev": "X-energy",
+  "region": "US",
+  "source": "x-energy.com",
+  "url": "https://x-energy.com/news/x-energy-sgl-carbon-announce-capacity-expansion-for-nuclear-grade-graphite/",
+  "k": "x energy sgl carbon announce capacity expansion for nuclear grade graphite x energy",
+  "id": "4755b4a9"
  },
  {
   "date": "2026-08-02",
@@ -807,20 +896,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-30",
-  "title": "테라파워, 미국 원자력 운영자 협회(INPO)에 첫 첨단로 회원사로 가입",
-  "summary": "테라파워(TerraPower)가 미국 원자력 운영자 협회(INPO)에 첨단로 회사로는 처음 가입했으며, 이는 업계 안전 기준 수용의 의미를 가진다.",
-  "summaryLong": "테라파워(TerraPower)가 미국 원자력 운영자 협회(INPO, Institute of Nuclear Power Operations)에 첨단로 회사로는 처음 가입 승인을 받았다. 이는 원자력 산업의 운영 안전 기준을 수립하고 감시하는 공식 기관에 첨단로 개발사가 회원으로 인정받은 것으로, 산업 진출 및 규제 수용성 확대를 의미한다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "US",
-  "source": "energiesmedia.com",
-  "url": "https://energiesmedia.com/terrapower-joins-inpo-nuclear-safety/",
-  "k": "terrapower joins inpo as first advanced reactor company accepted into the nuclear safety institute",
-  "id": "fa159c7b"
- },
- {
-  "date": "2026-07-30",
   "title": "맥더모트(McDermott)와 ULC-에너지(ULC-Energy), 롤스로이스 SMR 프로젝트 협력 계약 체결",
   "summary": "맥더모트(McDermott)와 ULC-에너지(ULC-Energy)가 롤스로이스(Rolls-Royce) SMR 프로젝트 추진을 위한 협력 계약을 체결했다.",
   "summaryLong": "엔지니어링 기업 맥더모트(McDermott)와 ULC-에너지(ULC-Energy)가 롤스로이스(Rolls-Royce) SMR 프로젝트 추진을 위한 협력 계약(Cooperation Deal)을 체결했다. 이는 롤스로이스 SMR의 개발·건설 파트너십 확대를 의미하며, 프로젝트 실행 및 상용화 경로 강화의 중요한 계약 진전에 해당한다.",
@@ -832,64 +907,6 @@ window.SMR_NEWS = [
   "url": "https://igrownews.com/mcdermott-ulc-energy-latest-news/",
   "k": "mcdermott and ulc energy sign cooperation deal to advance rolls royce smr projects",
   "id": "ee78fa65"
- },
- {
-  "date": "2026-07-30",
-  "title": "프랑스 EDF, SMR 사업에 투자자 유치 추진",
-  "summary": "프랑스 국영전력(EDF)이 자사의 소형모듈원자로(SMR) 프로젝트에 외부 투자자 유치를 추진 중이다.",
-  "summaryLong": "로이터 통신은 프랑스의 주요 전력회사인 EDF(전력(Électricité de France))가 자사의 SMR 사업에 투자자들을 참여시키기 위해 움직이고 있다고 보도했다. 이는 EDF의 SMR 개발 사업이 상용화 단계로 진입하면서 자금 조달 및 파트너십 확대를 모색하는 단계임을 시사한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "EDF",
-  "region": "EU",
-  "source": "reuters.com",
-  "url": "https://www.reuters.com/business/energy/frances-edf-looking-bring-investors-its-smr-project-2026-07-30/",
-  "k": "france s edf looking to bring in investors for its smr project",
-  "id": "ca5b7e06"
- },
- {
-  "date": "2026-07-30",
-  "title": "경남도, 소형모듈원전(SMR) 제조혁신 3개 핵심과제 전수 선정",
-  "summary": "경상남도가 소형모듈원전 제조혁신 정부 공모사업의 3개 핵심과제 모두를 선정받았다.",
-  "summaryLong": "경상남도가 소형모듈원전(SMR) 제조혁신 국책 프로그램의 3개 핵심과제를 모두 선정받았다. 이는 한국 정부의 SMR 산업 육성 정책 하에서 지자체 및 산업계가 국가 지원 프로젝트를 확보한 사례로, SMR 국내 산업 생태계 구축과 정부 정책 추진의 구체적 진전을 보여준다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "e-newsp.com",
-  "url": "https://www.e-newsp.com/news/article.html?no=90060",
-  "k": "경남도 소형모듈원전 smr 제조혁신 3개 핵심과제 모두 선정 e newsp com",
-  "ko": 1,
-  "id": "68411189"
- },
- {
-  "date": "2026-07-30",
-  "title": "경남 기업·연구기관, SMR 혁신 제조 기술개발 사업 선정",
-  "summary": "경남의 기업과 연구기관이 SMR 혁신 제조 기술개발 사업 공모에 선정되었다.",
-  "summaryLong": "경상남도의 관련 기업과 연구기관이 SMR(소형모듈원자로) 혁신 제조 기술개발 사업 공모에 선정되었다. 이는 정부 국책 프로그램 지원 대상 선정으로, 한국의 SMR 기술 개발을 지원하는 정책 사업의 일환이다. SMR 핵심 제조 기술 고도화를 목표로 진행될 것으로 예상된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "idomin.com",
-  "url": "https://www.idomin.com/news/articleView.html?idxno=2011354",
-  "k": "경남 기업 연구기관 smr 혁신 제조 기술개발 사업 공모 선정",
-  "ko": 1,
-  "id": "1ca32c73"
- },
- {
-  "date": "2026-07-30",
-  "title": "엑스에너지(X-Energy), 2026년 2분기 실적 발표 예정",
-  "summary": "엑스에너지(X-Energy)가 8월 13일 2026년 2분기 재무 및 운영 실적을 발표할 예정이라고 공시했다.",
-  "summaryLong": "나스닥(NASDAQ) 상장사인 엑스에너지(X-Energy)가 2026년 2분기 재무 및 운영 실적 발표 일정을 공식 공지했다. 고급 원자로 기술 설계사이자 핵연료 제조업체인 엑스에너지는 메릴랜드(Maryland)주 록빌(Rockville)에 본사를 두고 있다. 정기 실적 공시는 기업의 사업 진행 상황과 재정 건전성을 보여주는 중요한 신호다.",
-  "cat": "기술",
-  "type": "HTGR",
-  "dev": "X-Energy",
-  "region": "US",
-  "source": "X-Energy, Inc. News Releases",
-  "url": "https://investors.x-energy.com/news-releases/news-release-details/x-energy-report-second-quarter-2026-results-august-13-2026",
-  "k": "x energy to report second quarter 2026 results on august 13 2026",
-  "id": "20495290"
  },
  {
   "date": "2026-07-29",
@@ -1430,5 +1447,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-04 08:52 KST";
-window.SMR_TOTAL = 1739;
+window.SMR_UPDATED = "2026-08-04 15:12 KST";
+window.SMR_TOTAL = 1745;

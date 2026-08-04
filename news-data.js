@@ -8,6 +8,66 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-08-04",
+    "title": "원자력산업협회, 정부의 SMR 국가전략기술 지정 환영 성명",
+    "summary": "한국 정부의 소형모듈원자로(SMR)를 국가전략기술 지정 및 2026년 세제개편안에 포함시킨 정책을 산업계가 환영했다.",
+    "summaryLong": "한국원자력산업협회(회장 김회천)는 정부의 소형모듈원자로(SMR)를 국가전략기술로 지정하고 2026년 세제개편안에 SMR 관련 기술 및 시설투자에 대한 세액공제를 명시적으로 포함한 정책을 환영하는 성명서를 발표했다. 산업협회는 561개 회원사 20만 3448명을 대표하여 정부의 SMR 진흥 정책이 기존 대형 원전과 달리 모듈화·공장 제작 기반 기술의 초기 R&D 및 설비 투자를 촉진할 것으로 평가했다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "에너지데일리 - 전체기사",
+    "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=201971",
+    "k": "원자력산업협회 561개 회원사 smr 국가전략기술 지정 환영한다",
+    "ko": 1,
+    "id": "9ab683fa"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "현대제철, 차세대 원전(SMR) 사업 진출…인프라 구축 추진",
+    "summary": "현대제철이 소형모듈원자로(SMR) 산업에 본격 진출하여 관련 인프라 구축을 추진하고 있다.",
+    "summaryLong": "현대제철이 정부의 SMR 국가전략기술 지정에 발맞춰 차세대 원전 사업으로의 진출을 결정했다. 회사는 SMR 산업에 필요한 부품·소재, 제조 인프라 등을 정조준하여 단계적으로 사업을 확대할 계획이다. 이는 한국의 주요 제철·소재 기업이 SMR 산업 생태계에 참여하는 첫 움직임으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대제철",
+    "region": "KR",
+    "source": "news.nate.com",
+    "url": "https://news.nate.com/view/20260804n18990?mid=n1101",
+    "k": "현대제철 차세대 원전 올라탄다 smr 인프라 정조준",
+    "ko": 1,
+    "id": "f40226a7"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "발라 아토믹스(Balla Atomics), 10억 달러 투자 유치",
+    "summary": "엔비디아(Nvidia)의 SMR 파트너인 발라 아토믹스(Balla Atomics)가 10억 달러(USD) 규모의 투자를 유치했다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발사 발라 아토믹스(Balla Atomics)가 10억 달러(USD) 규모의 대규모 투자 라운드를 성공적으로 진행했다. 발라 아토믹스는 엔비디아(Nvidia) 등 주요 기술 기업과 협력하며 SMR 기술 개발을 진행 중이며, 이번 투자는 회사의 기술 개발과 사업화 추진에 필요한 자금을 확보하는 데 중요한 이정표다.",
+    "cat": "투자",
+    "type": "General",
+    "dev": "Balla Atomics",
+    "region": "US",
+    "source": "theguru.co.kr",
+    "url": "https://www.theguru.co.kr/news/article.html?no=105321",
+    "k": "엔비디아 smr 파트너 발라 아토믹스 10억 달러 투자 유치",
+    "ko": 1,
+    "id": "2324b4a1"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "경남, SMR 제조혁신 국가사업 3개 핵심과제 모두 선정",
+    "summary": "경상남도가 소형모듈원자로(SMR) 제조혁신 국가사업의 3개 핵심과제를 모두 따냈다.",
+    "summaryLong": "경상남도가 정부의 소형모듈원자로(SMR) 제조혁신 국가사업에서 추진 중인 3개 핵심 과제를 모두 확보했다. 이는 경남이 SMR 산업의 중심지로서 국책 프로젝트에서 중추적 역할을 담당하게 됨을 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "inpnews.kr",
+    "url": "https://www.inpnews.kr/news/articleView.html?idxno=7440",
+    "k": "경남 smr 제조혁신 국가사업 싹쓸이 3개 핵심과제 모두 따냈다",
+    "ko": 1,
+    "id": "66463a72"
+  },
+  {
     "date": "2026-08-03",
     "title": "두산에너빌리티·고려정밀공업·재료연구원, 기후부 'SMR 제조혁신 핵심과제' 선정",
     "summary": "두산에너빌리티, 고려정밀공업, 재료연구원이 한국 정부(기후부) 주관 'SMR 제조혁신 핵심과제'에 선정됨.",
@@ -226,6 +286,35 @@ window.SMR_NEWS = [
     "k": "smr 4기 원자로 8기 원전 확장 경쟁 가속",
     "ko": 1,
     "id": "1e21a3f0"
+  },
+  {
+    "date": "2026-08-03",
+    "title": "미국 역사적 핵시설, 49년 운영 후 SMR-300 4기 도입 추진",
+    "summary": "미국의 오래된 핵발전소 부지가 49년의 운영을 마친 후 SMR-300(소형모듈원자로) 4기 도입을 검토하고 있다.",
+    "summaryLong": "미국의 역사적 의미가 있는 핵발전소 부지가 49년간의 운영을 종료한 후 차세대 소형모듈원자로(SMR-300) 4기 도입을 추진 중인 것으로 보도되었다. 이는 노후 핵시설 부지의 재활용 방안으로서 SMR 기술을 활용하려는 시도를 보여주는 사례이다. SMR-300의 소형 설계는 기존 대형원전 부지 활용에 유리한 특성을 갖추고 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "",
+    "region": "US",
+    "source": "interestingengineering.com",
+    "url": "https://interestingengineering.com/energy/49-year-u-s-nuclear-power-site-prepares-for-future-with-four-smr-300-reactors",
+    "k": "historic u s nuclear site eyes four smr 300 reactors after 49 years of service",
+    "op": 1,
+    "id": "5674d082"
+  },
+  {
+    "date": "2026-08-03",
+    "title": "엑스에너지(X-energy), SGL 카본과 원자력급 흑연 생산 확대 발표",
+    "summary": "엑스에너지(X-energy)가 SGL 카본(SGL Carbon)과 협력하여 고온가스로(HTGR) 연료용 핵등급 흑연의 생산 용량을 확대한다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발사 엑스에너지(X-energy)와 독일 소재 소재 공급사 SGL 카본(SGL Carbon)이 Xe-100 고온가스로(HTGR) 용량 증대를 지원하기 위해 원자력급 흑연의 생산 능력을 확대하기로 발표했다. 이 협력은 SMR 상용화를 위한 공급망 확충 노력의 일환으로, 핵심 구성 재료인 흑연의 안정적 공급 기반을 강화하는 의미를 가진다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "x-energy.com",
+    "url": "https://x-energy.com/news/x-energy-sgl-carbon-announce-capacity-expansion-for-nuclear-grade-graphite/",
+    "k": "x energy sgl carbon announce capacity expansion for nuclear grade graphite x energy",
+    "id": "4755b4a9"
   },
   {
     "date": "2026-08-02",
@@ -25257,4 +25346,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-04 08:52 KST";
+window.SMR_UPDATED = "2026-08-04 15:12 KST";
