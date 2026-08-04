@@ -83,6 +83,81 @@ window.SMR_NEWS = [
     "id": "7bdb5974"
   },
   {
+    "date": "2026-08-04",
+    "title": "원자력안전위, 2026년 하반기 SMR 개발 규제 과제 추진",
+    "summary": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 개발에 대한 규제 수요 대응을 2026년 하반기 주요 업무로 설정했음을 대통령에게 보고.",
+    "summaryLong": "원자력안전위원회(원안위)가 신규·계속운전 원전, 소형모듈원자로(SMR) 개발, 사용후핵연료 건식저장시설 도입 등을 포함한 2026년 하반기 업무계획을 대통령에게 보고했다. SMR 개발에 따른 다양한 규제수요에 대응하고 원자력·방사선 안전을 확보함으로써 국가 전략에 부응할 계획이다. 이는 정부 차원의 SMR 규제 기반 정비 정책으로, 국내 첨단로 산업의 제도적 지원 신호를 나타낸다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "에너지데일리 - 전체기사",
+    "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=201975",
+    "k": "빈틈없는 원자력안전 대체불가 대한민국 뒷받침한다",
+    "ko": 1,
+    "id": "96b67dae"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "발라 아토믹스, SMR 대량 생산 단계로 전환",
+    "summary": "발라 아토믹스(Ballard Atomics)가 소형모듈원자로(SMR)의 대량 생산 단계로 전환을 발표했다.",
+    "summaryLong": "발라 아토믹스(Ballard Atomics)는 소형모듈원자로(SMR) 개발에서 대량 생산 단계로의 전환을 선언했다. 이는 회사의 SMR 기술이 상용화 단계에 가까워졌음을 의미하며, 글로벌 SMR 시장 경쟁에서 중요한 마일스톤으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Ballard Atomics",
+    "region": "",
+    "source": "koreancenter.or.kr",
+    "url": "https://www.koreancenter.or.kr/news/articleView.html?idxno=1390950",
+    "k": "발라 아토믹스 smr 대량 생산 단계로 전환",
+    "ko": 1,
+    "id": "675547d4"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "내년 소형원자로 기술기준 제시…건식저장·검사체계 정비",
+    "summary": "정부가 내년 소형모듈원자로(SMR) 기술기준을 마련하고 건식저장, 검사체계를 정비할 계획이다.",
+    "summaryLong": "정부는 소형모듈원자로(SMR) 상용화를 위해 내년 기술기준을 수립할 예정이다. 동시에 SMR의 연료 건식저장과 안전검사 체계도 함께 정비하여 규제 기반을 구축할 계획이다. 이는 SMR의 인허가 및 상용화를 위한 제도적 기반 마련으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "news.nate.com",
+    "url": "https://news.nate.com/view/20260804n23752?mid=n0105",
+    "k": "내년에 소형 원자로 기술기준 나온다 건식저장 검사체계도 정비",
+    "ko": 1,
+    "id": "dbfae7b8"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "발라 아토믹스, SMR 대량 생산 전환으로 1.4조원 규모 투자 유치",
+    "summary": "발라 아토믹스(Ballard Atomics)가 SMR 대량 생산 단계 전환을 위해 1.4조원 규모의 투자를 유치했다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발사 발라 아토믹스(Ballard Atomics)는 SMR 대량 생산 단계로의 전환을 위해 1.4조원 규모의 투자 자금을 확보했다. 이는 회사의 상용화 추진이 가시화되고 있음을 보여주는 것으로, 글로벌 SMR 시장 경쟁에서 주요 선수로서의 위상을 강화하는 계기가 될 것으로 예상된다.",
+    "cat": "투자",
+    "type": "General",
+    "dev": "Ballard Atomics",
+    "region": "",
+    "source": "biz.sbs.co.kr",
+    "url": "https://biz.sbs.co.kr/article/20000326489",
+    "k": "smr 대량 생산 단계로 전환 발라 아토믹스 1 4조원 규모 투자 유치",
+    "ko": 1,
+    "id": "d11eb83c"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "발라 아토믹스(Vistra Atomics), 1조 4천억 원 조달…기업가치 8조 6천억 원",
+    "summary": "데이터센터용 초소형 원자로 개발사 발라 아토믹스(Vistra Atomics)가 1조 4천억 원 규모의 투자 유치에 성공해 기업가치가 8조 6천억 원으로 평가됐다.",
+    "summaryLong": "초소형 원자로(SMR) 개발사 발라 아토믹스(Vistra Atomics)가 대규모 투자 라운드를 통해 1조 4천억 원을 조달했으며, 이에 따라 기업가치가 8조 6천억 원으로 평가되었다. 동사는 데이터센터와 산업용 전력 수요를 충족하기 위해 초소형 원자로 기술을 개발 중이다. 이번 투자 유치는 AI 데이터센터의 전력 수요 증가에 대응하려는 시장의 관심이 반영된 결과로 보인다. 발라 아토믹스는 이 자금을 기술 개발 및 상용화 추진에 투입할 것으로 예상된다.",
+    "cat": "투자",
+    "type": "Micro",
+    "dev": "Vistra Atomics",
+    "region": "US",
+    "source": "aimatters.co.kr",
+    "url": "https://aimatters.co.kr/news-report/47761/",
+    "k": "데이터센터용 초소형 원자로 발라 아토믹스 1조 4천억 원 조달 기업가치 8조 6천억 원",
+    "ko": 1,
+    "id": "d60f9f87"
+  },
+  {
     "date": "2026-08-03",
     "title": "두산에너빌리티·고려정밀공업·재료연구원, 기후부 'SMR 제조혁신 핵심과제' 선정",
     "summary": "두산에너빌리티, 고려정밀공업, 재료연구원이 한국 정부(기후부) 주관 'SMR 제조혁신 핵심과제'에 선정됨.",
@@ -344,6 +419,34 @@ window.SMR_NEWS = [
     "url": "https://www.citybiz.co/article/882684/x-energy-and-sgl-carbon-expand-nuclear-grade-graphite-production-to-support-xe-100-reactor-growth/",
     "k": "x energy and sgl carbon expand nuclear grade graphite production to support xe 100 reactor growth",
     "id": "81f95cbf"
+  },
+  {
+    "date": "2026-08-03",
+    "title": "엑스에너지·SGL Carbon, 원전용 흑연 생산 확대 발표",
+    "summary": "엑스에너지(X-energy)와 SGL Carbon이 고온가스로(HTGR) 연료용 원전급 흑연의 생산 능력 확대를 공동 발표했다.",
+    "summaryLong": "엑스에너지(X-energy)와 SGL Carbon이 원전급 흑연의 생산 능력 확대 계획을 발표했다. 이는 엑스에너지의 고온가스로(HTGR) 프로젝트 추진에 필요한 핵심 연료 소재의 공급망 구축 움직임이다. 두 회사의 협력을 통해 상용 규모의 흑연 생산 체계를 갖추려는 것으로, 첨단로 상용화의 중요한 마일스톤이다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "엑스에너지",
+    "region": "US",
+    "source": "x-energy.com",
+    "url": "https://x-energy.com/news/x-energy-sgl-carbon-announce-capacity-expansion-for-nuclear-grade-graphite/",
+    "k": "x energy sgl carbon announce capacity expansion for nuclear grade graphite x energy com",
+    "id": "4755b4a9"
+  },
+  {
+    "date": "2026-08-03",
+    "title": "엑스에너지, 그래파이트 생산능력 2배 확대에 800만 달러 투자",
+    "summary": "엑스에너지(X-energy)가 고온가스로(HTGR) 연료용 그래파이트 생산 시설 확충을 위해 800만 달러(약 11억 원)를 투자하기로 결정.",
+    "summaryLong": "엑스에너지(X-energy)가 고온가스로(HTGR) 기술의 핵심 부품인 그래파이트 생산 용량을 2배로 확대하기 위해 800만 달러의 자금을 투자한다고 발표했다. 이는 회사의 상용화 준비 단계에서 공급망 확보 및 생산 인프라 확충을 위한 구체적 투자로, 첨단로 실증 및 상용화 로드맵 이행의 중요한 마일스톤이다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "ca.investing.com",
+    "url": "https://ca.investing.com/news/stock-market-news/xenergy-invests-8m-to-double-graphite-production-capacity-93CH-4770654",
+    "k": "x energy invests 8m to double graphite production capacity by investing com",
+    "id": "815b7e96"
   },
   {
     "date": "2026-08-02",
@@ -25389,4 +25492,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-04 15:37 KST";
+window.SMR_UPDATED = "2026-08-04 16:27 KST";
