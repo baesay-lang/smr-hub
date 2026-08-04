@@ -192,6 +192,35 @@ window.SMR_NEWS = [
   "id": "1e21a3f0"
  },
  {
+  "date": "2026-08-03",
+  "title": "엑스에너지, 핵급 흑연 생산 능력 2배 확대 계획",
+  "summary": "엑스에너지(X-energy)가 핵급 흑연(nuclear-grade graphite) 생산 능력을 2배로 증대할 계획을 발표했다.",
+  "summaryLong": "엑스에너지가 고온가스로(HTGR) 사업 확대를 지원하기 위해 핵급 흑연 생산 능력을 2배로 확대할 계획을 공개했다. 이는 엑스에너지의 Xe-100 반응로(Xe-100 Reactor) 성장을 뒷받침하기 위한 공급망 강화 전략으로 보인다. 구체적인 생산량 규모나 확대 일정은 명시되지 않았다.",
+  "cat": "기술",
+  "type": "HTGR",
+  "dev": "X-energy",
+  "region": "US",
+  "source": "seekingalpha.com",
+  "url": "https://seekingalpha.com/news/4623659-x-energy-rises-on-plans-to-double-nuclear-grade-graphite-production-capacity",
+  "k": "x energy rises on plans to double nuclear grade graphite production capacity xe nasdaq",
+  "id": "cd0634ba"
+ },
+ {
+  "date": "2026-08-03",
+  "title": "미국 소형모듈원자로 4기·중국 원자로 8기…원전 확장 경쟁 가속",
+  "summary": "미국과 중국이 소형모듈원자로 및 대형 원자로 건설을 확대하며 글로벌 원전 확장 경쟁이 심화되고 있다.",
+  "summaryLong": "미국(US)과 중국(China)이 원자력 발전소 확장 경쟁을 가속화하고 있다. 미국은 소형모듈원자로(SMR) 4기 건설을 추진하고 있으며, 중국은 전통적 대형 원자로 8기의 건설을 진행 중이다. 양국의 이러한 움직임은 전 지구적 에너지 수요 증가와 탄소중립 목표에 대응하기 위한 원전 확대 전략의 일환으로, 글로벌 원자력 산업에서의 기술 경쟁과 시장 선점이 심화되고 있음을 보여준다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "US",
+  "source": "g-enews.com",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/08/202608040721169175fbbec65dfb_1",
+  "k": "smr 4기 원자로 8기 원전 확장 경쟁 가속",
+  "ko": 1,
+  "id": "1e21a3f0"
+ },
+ {
   "date": "2026-08-02",
   "title": "SMR 100기 경쟁 본격화…한국 공급망 기회 확대",
   "summary": "전 세계 소형모듈원자로 100기 경쟁이 본격화되면서 한국의 공급망 산업에 기회가 커지고 있다.",
@@ -864,36 +893,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-07-29",
-  "title": "SK이노베이션, 베트남 AI 전력시장 공략…LNG에서 SMR까지 협력",
-  "summary": "SK이노베이션이 베트남과 LNG 공급부터 소형모듈원자로(SMR) 및 에너지저장장치(ESS)까지 단계별 에너지 협력을 제시했다.",
-  "summaryLong": "SK이노베이션이 지난 16~17일 베트남을 방문하여 산업무역부 및 국영 에너지기업 PVN(Petrovietnam)과 에너지 협력을 협의했다. AI와 첨단 제조업 확산으로 전력 수요가 급증하는 베트남을 목표로 단기적으로는 미국·호주산 액화천natural가스(LNG) 공급망 구축, 장기적으로는 차세대 소형모듈원자로(SMR), 에너지저장장치(ESS), 재생에너지까지 협력 범위를 확대할 계획이다. 국내 주요 에너지 기업의 SMR 사업 다변화 및 국제 협력 추진 사례로 의미가 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "SK이노베이션",
-  "region": "KR",
-  "source": "에너지신문 - 전체기사",
-  "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=227120",
-  "k": "sk이노베이션 베트남 ai 전력시장 공략 lng에서 smr까지 협력",
-  "ko": 1,
-  "id": "33a15887"
- },
- {
-  "date": "2026-07-29",
-  "title": "미국 SMR 테레스트리얼 에너지, 텍사스에 4세대 원자로 시범 플랜트 건설",
-  "summary": "미국 SMR 업체 테레스트리얼 에너지가 텍사스에 4세대 원자로 시범 플랜트를 건설할 계획이다.",
-  "summaryLong": "미국(US) SMR 개발사 테레스트리얼 에너지(Terrestrial Energy)가 텍사스(Texas) 지역에 4세대 원자로 기술을 적용한 시범 플랜트 건설을 추진 중이라는 소식이다. 제목과 스니펫만 제공되어 구체적인 일정·규모·기술 세부사항은 불명확하나, SMR 실증 프로젝트의 진전으로 관련성이 높다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "Terrestrial Energy",
-  "region": "US",
-  "source": "kr.investing.com",
-  "url": "https://kr.investing.com/news/stock-market-news/article-2033309",
-  "k": "smr 테레스트리얼 에너지 텍사스에 4세대 원자로 시범 플랜트 짓는다 by the guru",
-  "ko": 1,
-  "id": "e5aa1273"
- },
- {
-  "date": "2026-07-29",
   "title": "태웅, 테라파워(TerraPower) SMR 2호기 추가 수주 추진",
   "summary": "태웅이 미국의 테라파워(TerraPower) 소형모듈원자로(SMR) 1호기에 이어 2호기 추가 수주를 추진 중이다.",
   "summaryLong": "한국 기업 태웅이 미국 테라파워(TerraPower)의 소형모듈원자로(SMR) 사업에서 1호기 수주에 이어 2호기 추가 수주를 적극 추진하고 있다. 이는 태웅이 해외 선도 SMR 개발사와의 협력을 확대하려는 전략으로 보이며, 국내 SMR 시장 참여자의 글로벌 역할 강화를 의미한다.",
@@ -1431,5 +1430,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-04 08:14 KST";
-window.SMR_TOTAL = 1736;
+window.SMR_UPDATED = "2026-08-04 08:52 KST";
+window.SMR_TOTAL = 1739;

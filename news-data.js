@@ -199,6 +199,35 @@ window.SMR_NEWS = [
     "id": "1e21a3f0"
   },
   {
+    "date": "2026-08-03",
+    "title": "엑스에너지, 핵급 흑연 생산 능력 2배 확대 계획",
+    "summary": "엑스에너지(X-energy)가 핵급 흑연(nuclear-grade graphite) 생산 능력을 2배로 증대할 계획을 발표했다.",
+    "summaryLong": "엑스에너지가 고온가스로(HTGR) 사업 확대를 지원하기 위해 핵급 흑연 생산 능력을 2배로 확대할 계획을 공개했다. 이는 엑스에너지의 Xe-100 반응로(Xe-100 Reactor) 성장을 뒷받침하기 위한 공급망 강화 전략으로 보인다. 구체적인 생산량 규모나 확대 일정은 명시되지 않았다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "seekingalpha.com",
+    "url": "https://seekingalpha.com/news/4623659-x-energy-rises-on-plans-to-double-nuclear-grade-graphite-production-capacity",
+    "k": "x energy rises on plans to double nuclear grade graphite production capacity xe nasdaq",
+    "id": "cd0634ba"
+  },
+  {
+    "date": "2026-08-03",
+    "title": "미국 소형모듈원자로 4기·중국 원자로 8기…원전 확장 경쟁 가속",
+    "summary": "미국과 중국이 소형모듈원자로 및 대형 원자로 건설을 확대하며 글로벌 원전 확장 경쟁이 심화되고 있다.",
+    "summaryLong": "미국(US)과 중국(China)이 원자력 발전소 확장 경쟁을 가속화하고 있다. 미국은 소형모듈원자로(SMR) 4기 건설을 추진하고 있으며, 중국은 전통적 대형 원자로 8기의 건설을 진행 중이다. 양국의 이러한 움직임은 전 지구적 에너지 수요 증가와 탄소중립 목표에 대응하기 위한 원전 확대 전략의 일환으로, 글로벌 원자력 산업에서의 기술 경쟁과 시장 선점이 심화되고 있음을 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/Global-Biz/2026/08/202608040721169175fbbec65dfb_1",
+    "k": "smr 4기 원자로 8기 원전 확장 경쟁 가속",
+    "ko": 1,
+    "id": "1e21a3f0"
+  },
+  {
     "date": "2026-08-02",
     "title": "SMR 100기 경쟁 본격화…한국 공급망 기회 확대",
     "summary": "전 세계 소형모듈원자로 100기 경쟁이 본격화되면서 한국의 공급망 산업에 기회가 커지고 있다.",
@@ -20404,6 +20433,20 @@ window.SMR_NEWS = [
     "id": "5aaba06a"
   },
   {
+    "date": "2026-06-04",
+    "title": "엑스에너지, 2026년 1분기 실적 보고",
+    "summary": "엑스에너지가 2026년 1분기 사업 실적을 공시한다.",
+    "summaryLong": "엑스에너지가 2026년 1분기 경영 실적을 공식 발표했다. 고온가스로 개발사의 정기적 실적 공개로, 사업 진전 상황을 나타내는 공식 뉴스이다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "x-energy.com",
+    "url": "https://x-energy.com/news/x-energy-reports-first-quarter-2026-results/",
+    "k": "x energy reports first quarter 2026 results x energy com",
+    "id": "9f464055"
+  },
+  {
     "date": "2026-06-03",
     "title": "X-energy, 영국 규제기관에 Xe-100 고온가스냉각로 인허가 신청",
     "summary": "미국의 첨단원전 개발사 X-energy가 고온가스냉각로(HTGR) Xe-100을 영국 제네릭 설계 평가 절차에 신청했다.",
@@ -25214,4 +25257,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-04 08:14 KST";
+window.SMR_UPDATED = "2026-08-04 08:52 KST";
