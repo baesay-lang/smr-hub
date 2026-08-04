@@ -68,6 +68,21 @@ window.SMR_NEWS = [
     "id": "66463a72"
   },
   {
+    "date": "2026-08-04",
+    "title": "SMR, 국가전략기술로 지정된 이유",
+    "summary": "한국 정부가 소형모듈원자로(SMR)를 국가전략기술로 지정하여 관련 투자에 세제혜택을 제공하기로 결정했다.",
+    "summaryLong": "한국 정부의 '2026년 세제개편안'에 따라 소형모듈원자로(SMR) 기술·시설을 미래형 에너지 국가전략기술로 정식 지정했다. 반도체, 배터리와 같은 전략산업 수준의 세액공제 인센티브를 제도화하며, 2027년 1월 1일 이후 발생하는 R&D 비용과 투자분부터 적용된다. 이는 SMR을 국가 차원의 핵심 산업으로 집중 육성하기 위한 정책적 신호로, 개발사들의 투자 확대와 기술 개발을 촉진할 것으로 전망된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "투데이에너지 - 전체기사",
+    "url": "https://www.todayenergy.kr/news/articleView.html?idxno=301185",
+    "k": "포커스 smr 국가전략기술로 지정된 이유는",
+    "ko": 1,
+    "id": "7bdb5974"
+  },
+  {
     "date": "2026-08-03",
     "title": "두산에너빌리티·고려정밀공업·재료연구원, 기후부 'SMR 제조혁신 핵심과제' 선정",
     "summary": "두산에너빌리티, 고려정밀공업, 재료연구원이 한국 정부(기후부) 주관 'SMR 제조혁신 핵심과제'에 선정됨.",
@@ -317,6 +332,20 @@ window.SMR_NEWS = [
     "id": "4755b4a9"
   },
   {
+    "date": "2026-08-03",
+    "title": "엑스에너지, SGL 카본과 핵급 흑연 생산 확대 협약, Xe-100 원자로 성장 지원",
+    "summary": "엑스에너지(X-energy)와 SGL 카본(SGL Carbon)이 Xe-100 고온가스로(HTGR) 성장을 지원하기 위해 핵급 흑연 생산을 확대하는 협약을 체결했다.",
+    "summaryLong": "엑스에너지(X-energy)와 독일의 화학기업 SGL 카본(SGL Carbon)이 핵급 흑염(nuclear-grade graphite) 생산 능력을 확대하기로 합의했다. 이는 엑스에너지의 Xe-100 고온가스로(HTGR) 개발 및 상용화 단계에서 필수 핵심 부품인 흑연의 안정적인 공급망 구축을 목표로 하는 계약이다. 이 협력은 Xe-100의 성장 전망과 해당 로형의 사업 추진이 실질적으로 진행 중임을 보여준다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "citybiz.co",
+    "url": "https://www.citybiz.co/article/882684/x-energy-and-sgl-carbon-expand-nuclear-grade-graphite-production-to-support-xe-100-reactor-growth/",
+    "k": "x energy and sgl carbon expand nuclear grade graphite production to support xe 100 reactor growth",
+    "id": "81f95cbf"
+  },
+  {
     "date": "2026-08-02",
     "title": "SMR 100기 경쟁 본격화…한국 공급망 기회 확대",
     "summary": "전 세계 소형모듈원자로 100기 경쟁이 본격화되면서 한국의 공급망 산업에 기회가 커지고 있다.",
@@ -469,6 +498,20 @@ window.SMR_NEWS = [
     "k": "bill gates bets on nuclear energy terrapower draws market attention",
     "op": 1,
     "id": "c5cce20a"
+  },
+  {
+    "date": "2026-08-01",
+    "title": "펜실베이니아 입법자, 소형모듈원자로 추진 경로 승인: 저렴한 전기료와 일자리 기대",
+    "summary": "펜실베이니아(Pennsylvania) 주 의회가 소형모듈원자로(SMR) 개발을 위한 규제 및 정책 경로를 승인했다.",
+    "summaryLong": "미국 펜실베이니아 주 의회가 소형모듈원자로(SMR) 도입을 지원하는 입법 조치를 통과시켰다. 주 정부는 SMR이 저렴한 전기료 제공과 지역 일자리 창출에 기여할 것으로 기대하며, 이는 미국 내 SMR 상용화를 위한 주(state) 수준의 정책적 지원이 강화되고 있음을 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "foxbaltimore.com",
+    "url": "https://foxbaltimore.com/news/local/pa-lawmakers-clear-path-for-small-modular-reactors-pitching-lower-bills-and-jobs-maryland-delegate-",
+    "k": "pa lawmakers clear path for small modular reactors pitching lower bills and jobs",
+    "id": "5680b443"
   },
   {
     "date": "2026-07-31",
@@ -25346,4 +25389,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-04 15:12 KST";
+window.SMR_UPDATED = "2026-08-04 15:37 KST";
