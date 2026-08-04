@@ -392,6 +392,93 @@ window.SMR_NEWS = [
     "id": "3cd3e43c"
   },
   {
+    "date": "2026-08-04",
+    "title": "미국 걸프만 지역에 SMR-300 쌍로 680MW 전력 공급",
+    "summary": "SMR-300 소형모듈원자로 2기가 미국(US) 걸프만 지역 전력망에 680MW 규모로 전력을 공급할 예정이다.",
+    "summaryLong": "SMR-300 쌍로(dual) 원자로가 미국(US) 걸프만 지역의 전력망 강화에 투입될 예정이다. 이 프로젝트는 680MW의 전력 용량을 제공하며, 소형모듈원자로(SMR) 기술의 상용화 사례를 보여준다. 걸프만 지역의 에너지 수요 대응 및 탄소 중립 전력 공급 확대에 기여할 것으로 기대된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "",
+    "region": "US",
+    "source": "interestingengineering.com",
+    "url": "https://interestingengineering.com/energy/smr-300-reactors-could-deliver-680-mw-of-carbon-free-power-to-us-data-centers",
+    "k": "dual smr 300 reactors to boost us gulf south grid with 680 mw power",
+    "id": "301c53aa"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "엔테르지·홀텍·현대중공업, 소형모듈원자로 평가 협약 체결",
+    "summary": "엔테르지(Entergy), 홀텍(Holtec), 현대중공업(Hyundai)이 소형모듈원자로(SMR) 평가를 위한 협약을 체결했다.",
+    "summaryLong": "미국의 에너지 기업 엔테르지(Entergy), 스펙 연료 및 원자로 제조사 홀텍(Holtec), 한국의 현대중공업(Hyundai)이 소형모듈원자로(SMR) 도입 타당성 평가를 위한 양해각서(협약)를 체결했다. 이는 미국 시장에서의 SMR 상용화 추진을 위한 주요 산업 파트너십으로, 국내 원전 기업의 해외 진출 전략을 보여준다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Holtec, Hyundai",
+    "region": "US",
+    "source": "arkansasonline.com",
+    "url": "https://www.arkansasonline.com/news/2026/aug/04/entergy-holtec-and-hyundai-sign-agreement-to/",
+    "k": "entergy holtec and hyundai sign agreement to evaluate small modular reactors the arkansas democrat gazette",
+    "id": "f39c8d9f"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "현대건설, 홀텍·엔티지와 미국 걸프만에 'SMR-300' 프로젝트 추진",
+    "summary": "현대건설이 홀텍(Holtec)과 엔티지(Entergy)와 함께 미국 걸프만 지역에 SMR-300 프로젝트를 추진한다.",
+    "summaryLong": "현대건설이 핵연료 및 원자로 제조사 홀텍(Holtec)과 미국 전력사 엔티지(Entergy)와 협력하여 미국 걸프만 지역에서 소형모듈원자로 SMR-300 프로젝트를 본격 추진한다. 이는 한국 건설 대기업의 국제 원자력 사업 확대 사례로, 미국 내 SMR 상용화를 견인하는 주요 프로젝트이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Holtec, Hyundai",
+    "region": "US",
+    "source": "thetracker.co.kr",
+    "url": "https://thetracker.co.kr/View.aspx?No=4174463",
+    "k": "단독 현대건설 홀텍 엔티지와 걸프만에 smr 300 프로젝트 추진",
+    "ko": 1,
+    "id": "45021cce"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "TRISO-X, 오크리지 핵연료 캠퍼스 70에이커 확장",
+    "summary": "엑스에너지(X-energy) 계열 TRISO-X가 오크리지(Oak Ridge) 핵연료 캠퍼스를 70에이커 규모로 확장한다.",
+    "summaryLong": "첨단원자로 개발사 엑스에너지(X-energy) 계열의 핵연료 전문사 TRISO-X가 미국 테네시주 오크리지(Oak Ridge)의 핵연료 생산 캠퍼스를 70에이커 규모로 대폭 확장한다. 이는 고온가스로(HTGR) 등 차세대 원자로용 TRISO(삼중 구조 이성질체) 연료의 대량 생산 능력 확보를 위한 전략적 투자로, 첨단로 상용화의 핵심 인프라 구축을 의미한다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "x-energy.com",
+    "url": "https://x-energy.com/news/triso-x-announces-70-acre-expansion-of-oakridge-nuclear-fuel-campus/",
+    "k": "triso x announces 70 acre expansion of oakridge nuclear fuel campus x energy",
+    "id": "142e3efc"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "고리 3·4호기 계속운전 승인 일정 주목",
+    "summary": "한국 원자력안전위원회(NSC)가 2026년 하반기 고리 3·4호기 계속운전 승인 심사 계획을 발표했다.",
+    "summaryLong": "한국 원자력안전위원회(NSC)는 2026년 하반기 업무계획에서 고리 3·4호기의 계속운전 허가 심사를 추진할 예정이며, 2027년 상반기에는 한빛 1·2호기 계속운전 심사도 통과할 것으로 예상했다. 동시에 소형모듈원자로(SMR) 개발과 사용후핵연료 건식저장시설 도입 등을 핵심 과제로 추진 중이다. 새울 3호기는 10월 상업운전을 개시할 예정이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "투데이에너지 - 전체기사",
+    "url": "https://www.todayenergy.kr/news/articleView.html?idxno=301214",
+    "k": "올 하반기 고리 3 4호기 계속운전 승인 여부 주목",
+    "ko": 1,
+    "id": "e9886b2b"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "그리스, SMR 도입 검토 위원회 출범",
+    "summary": "그리스가 소형모듈원자로(SMR) 도입 검토를 위한 위원회를 출범시켰다.",
+    "summaryLong": "그리스가 소형모듈원자로(SMR) 도입 타당성을 검토하기 위한 위원회를 공식 출범했다. 이는 유럽 에너지 다변화 전략의 일환으로, EU 역내 여러 국가에서 SMR 도입을 추진하는 흐름과 맥락을 함께 하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "EU",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5467",
+    "k": "그리스 smr 도입 검토 위원회 출범 유럽 에너지 다변화 확산",
+    "ko": 1,
+    "id": "3224092c"
+  },
+  {
     "date": "2026-08-03",
     "title": "두산에너빌리티·고려정밀공업·재료연구원, 기후부 'SMR 제조혁신 핵심과제' 선정",
     "summary": "두산에너빌리티, 고려정밀공업, 재료연구원이 한국 정부(기후부) 주관 'SMR 제조혁신 핵심과제'에 선정됨.",
@@ -697,6 +784,34 @@ window.SMR_NEWS = [
     "id": "de0e6a86"
   },
   {
+    "date": "2026-08-03",
+    "title": "뉴스케일 파워, 실적 및 SMR 프로젝트 마일스톤 앞두고 투자자 매수",
+    "summary": "뉴스케일(NuScale) 파워의 주가가 실적 발표와 SMR 프로젝트 마일스톤 달성을 앞두고 상승하고 있다.",
+    "summaryLong": "뉴스케일(NuScale) 파워의 주가가 실적 발표와 소형모듈원자로(SMR) 프로젝트의 주요 마일스톤 도래를 배경으로 투자자들의 매수 수요로 인해 상승 추세를 보이고 있다. 이는 기업의 기술·사업 진전이 주가에 반영되는 시장 반응을 보여주는 보도이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "quiverquant.com",
+    "url": "https://www.quiverquant.com/news/NuScale+Power+Rises+as+Investors+Position+Ahead+of+Earnings+and+SMR+Project+Milestones",
+    "k": "nuscale power rises as investors position ahead of earnings and smr project milestones",
+    "id": "0f733310"
+  },
+  {
+    "date": "2026-08-03",
+    "title": "엑스에너지(X-Energy), SGL 카본(SGL Carbon)과 Xe-100 흑연 공급망 확대",
+    "summary": "엑스에너지가 SGL 카본과 고온가스로(HTGR) Xe-100용 흑연 공급망을 확대하고 있다.",
+    "summaryLong": "엑스에너지(X-Energy)와 카본 전문회사 SGL 카본(SGL Carbon)이 고온가스로(HTGR) Xe-100 원자로용 흑연 공급망을 확대·강화하는 협력을 진행하고 있다. 이는 Xe-100의 핵심 부품 공급망 구축으로, 상용화를 위한 중요한 기술·산업 기반 마련을 의미한다. 공급망 다각화와 안정성 확보는 Xe-100의 사업화 추진 과정에서 필수적인 진전이다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "marketscreener.com",
+    "url": "https://www.marketscreener.com/news/x-energy-sgl-carbon-expand-graphite-supply-chain-for-xe-100-reactors-ce7f50d9d881f523",
+    "k": "x energy sgl carbon expand graphite supply chain for xe 100 reactors",
+    "id": "7c9d6017"
+  },
+  {
     "date": "2026-08-02",
     "title": "SMR 100기 경쟁 본격화…한국 공급망 기회 확대",
     "summary": "전 세계 소형모듈원자로 100기 경쟁이 본격화되면서 한국의 공급망 산업에 기회가 커지고 있다.",
@@ -863,6 +978,21 @@ window.SMR_NEWS = [
     "url": "https://foxbaltimore.com/news/local/pa-lawmakers-clear-path-for-small-modular-reactors-pitching-lower-bills-and-jobs-maryland-delegate-",
     "k": "pa lawmakers clear path for small modular reactors pitching lower bills and jobs",
     "id": "5680b443"
+  },
+  {
+    "date": "2026-08-01",
+    "title": "차세대 원전 효율 높인다…중국, 헬륨 터빈 발전 시험 성공",
+    "summary": "중국이 헬륨 터빈을 이용한 차세대 원전 발전 시험에 성공했다.",
+    "summaryLong": "중국이 헬륨(Helium) 터빈을 활용한 차세대 원전 발전 시스템의 시험을 성공적으로 수행했다. 헬륨 터빈 기술은 원전의 발전 효율을 높이는 혁신 기술로, 특히 고온가스로(HTGR) 등 첨단 원자로 설계와 결합되어 원전 성능 향상을 가능하게 한다. 이는 중국의 차세대 원전 기술 개발이 실질적 진전을 보이고 있음을 시사한다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "",
+    "region": "CN",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5356",
+    "k": "차세대 원전 효율 높인다 중국 헬륨 터빈 발전 시험 성공",
+    "ko": 1,
+    "id": "ec776665"
   },
   {
     "date": "2026-07-31",
@@ -1380,6 +1510,20 @@ window.SMR_NEWS = [
     "url": "https://investors.x-energy.com/news-releases/news-release-details/x-energy-report-second-quarter-2026-results-august-13-2026",
     "k": "x energy to report second quarter 2026 results on august 13 2026",
     "id": "20495290"
+  },
+  {
+    "date": "2026-07-30",
+    "title": "오클로(Oklo) vs 뉴스케일(NuScale): 누가 실제 고객 계약을 확보했을까?",
+    "summary": "오클로와 뉴스케일의 고객 계약 현황을 비교 분석하는 기사이다.",
+    "summaryLong": "야후 파이낸스의 기사로, 첨단로 개발사인 오클로(Oklo)와 뉴스케일(NuScale)이 보유한 실제 고객 계약 상황을 비교하고 있다. 두 회사의 전력 구매 계약(PPA), 고객 확보, 사업화 진행 상황 등 실질적인 비즈니스 성과를 분석하는 내용으로, SMR·첨단로 업체의 계약 현황에 관한 중요한 정보를 다루고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo, NuScale",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/oklo-vs-nuscale-one-actually-222500998.html",
+    "k": "oklo vs nuscale which one actually has paying customers lined up",
+    "id": "d683bfea"
   },
   {
     "date": "2026-07-29",
@@ -25740,4 +25884,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-05 07:40 KST";
+window.SMR_UPDATED = "2026-08-05 08:13 KST";
