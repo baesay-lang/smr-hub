@@ -8,6 +8,21 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-08-05",
+    "title": "561개 원전기업 수혜, SMR 세액공제 '마중물 될 것'",
+    "summary": "소형모듈원전(SMR) 관련 세액공제가 561개 원전기업에 혜택을 주며 산업 활성화의 '마중물' 역할을 할 것으로 기대된다.",
+    "summaryLong": "소형모듈원전(SMR) 관련 세액공제 제도가 국내 561개 원전기업에 직·간접적인 경제적 혜택을 제공할 것으로 예상되고 있다. 이러한 세제 지원 정책은 SMR 산업 활성화를 위한 정부의 적극적 지원 의지를 반영한 것으로, 기업들의 투자 결정을 촉진하고 산업 전체의 성장을 견인하는 '마중물' 역할을 할 것으로 전망된다. 이는 한국의 SMR 사업화 가속화에 중요한 정책적 기반을 제공할 것으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "KAIF 투데이뉴스",
+    "url": "https://www.kaif.or.kr/ko/?c=250&s=&gp=1&gbn=view&ix=30005",
+    "k": "561개 원전기업 웃었다 smr 세액공제 마중물 될 것",
+    "ko": 1,
+    "id": "671059f8"
+  },
+  {
     "date": "2026-08-04",
     "title": "원자력산업협회, 정부의 SMR 국가전략기술 지정 환영 성명",
     "summary": "한국 정부의 소형모듈원자로(SMR)를 국가전략기술 지정 및 2026년 세제개편안에 포함시킨 정책을 산업계가 환영했다.",
@@ -524,6 +539,80 @@ window.SMR_NEWS = [
     "id": "984406a5"
   },
   {
+    "date": "2026-08-04",
+    "title": "AP1000 기술, AP300 소형모듈원자로로 확대",
+    "summary": "웨스팅하우스(Westinghouse)의 AP1000 기술 플랫폼이 AP300 소형모듈원자로(SMR)로 확장되었다.",
+    "summaryLong": "웨스팅하우스(Westinghouse)가 대형원전 AP1000의 기술 플랫폼을 소형모듈원자로(SMR) 분야로 확대하여 AP300 모델을 개발했다. 이는 기존의 검증된 AP1000 기술을 소형화·모듈화하여 소규모 전력망과 산업용 열 공급 시장에 적용하는 전략이다. 동일한 기술 기반을 유지함으로써 설계인증 절차를 단축하고 규제 리스크를 줄일 수 있을 것으로 예상된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Westinghouse",
+    "region": "US",
+    "source": "interestingengineering.com",
+    "url": "https://interestingengineering.com/energy/one-nuclear-platform-ap300-ap1000",
+    "k": "one nuclear platform two reactors ap1000 technology now extends to ap300 smr",
+    "id": "6dcd358f"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "i-SMR 심사 본격화, 원안위 신규원전·사용후핵연료 규제체계 강화",
+    "summary": "한국 원자력안전위원회(NSSC)가 i-SMR(혁신 소형모듈원자로) 심사를 본격화하면서 신규원전과 사용후핵연료 규제 체계를 강화했다.",
+    "summaryLong": "한국 원자력안전위원회(NSSC)가 한국수력원자력의 i-SMR(혁신 소형모듈원자로) 개발에 대한 설계심사를 본격적으로 진행하고 있다. 이에 맞춰 신규원전의 안전성 평가와 사용후핵연료 관리에 대한 규제 기준을 강화하여 소형로 특성에 맞는 규제 체계를 구축하고 있다. 이는 국내 첨단 소형로 상용화를 위한 규제 인프라 정비의 중요한 단계다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "한국수력원자력(KHNP)",
+    "region": "KR",
+    "source": "inpnews.kr",
+    "url": "https://www.inpnews.kr/news/articleView.html?idxno=7450",
+    "k": "i smr 심사 본격화 원안위 신규원전 사용후핵연료 규제체계 강화",
+    "ko": 1,
+    "id": "ec494bfb"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "현대건설, 홀텍·엔터지와 미국 걸프만에 SMR-300 프로젝트 추진",
+    "summary": "현대건설이 홀텍(Holtec)·엔터지(Entergy)와 손잡고 미국 걸프만 지역에 웨스팅하우스 AP300 프로젝트를 추진한다.",
+    "summaryLong": "현대건설이 미국의 홀텍(Holtec) 인터내셔널과 전력사 엔터지(Entergy)와 합작하여 미국 걸프만(Gulf Coast) 지역에 AP300 소형모듈원자로(SMR) 프로젝트를 진행할 계획을 밝혔다. 이는 국내 건설사의 북미 소형로 시장 진출의 첫 사례로, 현대건설이 설계·건설 역량을 제공하고 미국 현지 기업들과 협력하는 구조다. 프로젝트는 미국의 탄소중립 에너지 공급 정책과 부지 재활용 전략의 연장선상에 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "현대건설, Holtec, Entergy",
+    "region": "US",
+    "source": "thetracker.co.kr",
+    "url": "https://thetracker.co.kr/View.aspx?No=4174463",
+    "k": "단독 현대건설 홀텍 엔터지와 걸프만에 smr 300 프로젝트 추진",
+    "ko": 1,
+    "id": "45021cce"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "SMR 국가전략기술 지정에 원전업계 환영, 글로벌 시장 선점 기대",
+    "summary": "원전업계가 SMR의 국가전략기술 지정을 환영하며 글로벌 시장 선점을 기대하고 있다.",
+    "summaryLong": "원전 산업계가 소형모듈원자로(SMR)의 국가전략기술 지정을 환영하며 글로벌 시장에서의 선점을 기대하고 있다. 정부의 정책 지원을 통해 국내 SMR 기술 개발과 사업화가 가속화될 것으로 전망되고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5454",
+    "k": "smr 국가전략기술 지정에 원전업계 환영 글로벌 시장 선점 기대",
+    "ko": 1,
+    "id": "33264956"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "이차전지·반도체부터 AI 로봇·SMR까지 TK 전략산업 세제 혜택",
+    "summary": "대구경북(TK) 지역의 전략산업으로 지정된 소형모듈원전(SMR) 등에 대한 지방세제 혜택이 제공된다.",
+    "summaryLong": "대구경북(TK) 지역의 이차전지, 반도체, 인공지능(AI) 로봇, 소형모듈원전(SMR) 등 전략산업에 대해 지방세제 혜택이 확대되었다. 이는 지역 원전산업의 경쟁력 강화를 위한 정부 정책의 일환으로, SMR을 포함한 전략산업에 대한 세액공제 등의 인센티브를 제공함으로써 관련 기업의 투자 유인을 높이기 위한 조치이다. 이러한 세제 혜택은 TK 지역의 원전 및 에너지산업 발전에 긍정적인 영향을 미칠 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260804145710462",
+    "k": "지방세제 혜택 이차전지 반도체부터 ai 로봇 smr까지 tk 전략산업 세제 혜택 호재",
+    "ko": 1,
+    "id": "96b9fdfa"
+  },
+  {
     "date": "2026-08-03",
     "title": "두산에너빌리티·고려정밀공업·재료연구원, 기후부 'SMR 제조혁신 핵심과제' 선정",
     "summary": "두산에너빌리티, 고려정밀공업, 재료연구원이 한국 정부(기후부) 주관 'SMR 제조혁신 핵심과제'에 선정됨.",
@@ -855,6 +944,20 @@ window.SMR_NEWS = [
     "url": "https://www.marketscreener.com/news/x-energy-sgl-carbon-expand-graphite-supply-chain-for-xe-100-reactors-ce7f50d9d881f523",
     "k": "x energy sgl carbon expand graphite supply chain for xe 100 reactors",
     "id": "7c9d6017"
+  },
+  {
+    "date": "2026-08-03",
+    "title": "미국, 가장 오래된 원전 부지에 AP300 4기 건설 승인",
+    "summary": "미국이 폐지된 가장 오래된 원전 부지에 웨스팅하우스 AP300 소형모듈원자로 4기 건설을 승인했다.",
+    "summaryLong": "미국 규제당국이 역사가 가장 오랜 원전 부지에 웨스팅하우스(Westinghouse)의 AP300 소형모듈원자로(SMR) 4기를 건설하는 것을 승인했다. 이는 미국의 탈탄소 정책과 부지 재활용 계획의 일환으로, 기존 원전 인프라와 인력을 활용하여 신형 소형로를 배치하는 모델을 보여준다. 이 프로젝트는 AP300의 대규모 상용화 사례로서 설계인증 이후의 첫 번째 주요 건설 계획이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Westinghouse",
+    "region": "US",
+    "source": "interestingengineering.com",
+    "url": "https://interestingengineering.com/energy/49-year-u-s-nuclear-power-site-prepares-for-future-with-four-smr-300-reactors",
+    "k": "us clears oldest nuclear plant site for four advanced smr 300 reactors",
+    "id": "5674d082"
   },
   {
     "date": "2026-08-02",
@@ -25929,4 +26032,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-05 08:46 KST";
+window.SMR_UPDATED = "2026-08-05 15:07 KST";
