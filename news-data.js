@@ -613,6 +613,35 @@ window.SMR_NEWS = [
     "id": "96b9fdfa"
   },
   {
+    "date": "2026-08-04",
+    "title": "엑스에너지(X-energy), 오크릿지(Oak Ridge) 핵연료 캠퍼스 70에이커 확장",
+    "summary": "엑스에너지가 TRISO-X 연료 생산 시설의 오크릿지 캠퍼스를 70에이커 규모로 확장한다고 발표했다.",
+    "summaryLong": "엑스에너지의 자회사 TRISO-X가 테네시 주 오크릿지의 핵연료 캠퍼스를 70에이커 규모로 확장하기로 발표했다. 이는 첨단로용 TRISO 연료의 생산 역량을 확대하기 위한 투자로, 차세대 소형모듈원자로(SMR)와 첨단로 개발사들의 연료 수급 안정성 강화에 기여할 것으로 예상된다. 엑스에너지는 미국 내 SMR·첨단로 개발의 주요 플레이어로서 공급망 확충을 통해 시장 리더십을 강화하고 있다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "x-energy.com",
+    "url": "https://x-energy.com/news/triso-x-announces-70-acre-expansion-of-oakridge-nuclear-fuel-campus/",
+    "k": "triso x announces 70 acre expansion of oakridge nuclear fuel campus x energy com",
+    "id": "142e3efc"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "현대건설, 미국 홀텍·엔터지와 걸프만 SMR 사업 협력 협약",
+    "summary": "현대건설이 미국 홀텍(Holtec)·엔터지(Entergy)와 걸프만(Gulf of Mexico) 지역 SMR 사업 협력을 위한 협약을 체결했다.",
+    "summaryLong": "현대건설이 미국의 홀텍 인터내셔널(Holtec International)과 엔터지(Entergy)와 함께 멕시코만(Gulf of Mexico) 지역에서 소형모듈원자로(SMR) 사업을 추진하기 위한 협력 협약을 체결했다. AI 데이터센터의 전력 수요 증가를 겨냥한 이번 협력은 홀텍의 소형모듈원자로 기술과 현대건설의 건설 역량, 엔터지의 전력망 운영 경험을 결합하는 전략으로, 한국 건설사의 해외 SMR 사업 진출을 보여주는 중요한 계약 사례다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "현대건설",
+    "region": "KR",
+    "source": "theguru.co.kr",
+    "url": "https://www.theguru.co.kr/news/article.html?no=105359",
+    "k": "현대건설 홀텍 엔터지와 걸프만 smr 사업 협력 ai 데이터센터 전력 수요 공략",
+    "ko": 1,
+    "id": "1b17dc16"
+  },
+  {
     "date": "2026-08-03",
     "title": "두산에너빌리티·고려정밀공업·재료연구원, 기후부 'SMR 제조혁신 핵심과제' 선정",
     "summary": "두산에너빌리티, 고려정밀공업, 재료연구원이 한국 정부(기후부) 주관 'SMR 제조혁신 핵심과제'에 선정됨.",
@@ -26032,4 +26061,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-05 15:07 KST";
+window.SMR_UPDATED = "2026-08-05 15:38 KST";
