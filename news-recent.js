@@ -148,6 +148,109 @@ window.SMR_NEWS = [
   "id": "d2dcc82c"
  },
  {
+  "date": "2026-08-05",
+  "title": "웨스팅하우스 파트너십으로 차세대 원자로 확대",
+  "summary": "웨스팅하우스의 파트너십을 통해 차세대 원자로 사업 확대 계획이 보도되었다.",
+  "summaryLong": "웨스팅하우스(Westinghouse)가 파트너십을 통해 차세대 원자로(SMR 또는 첨단로로 추정) 사업을 확대하려는 계획이 발표되었다. 스니펫에는 구체적 파트너나 일정이 기재되지 않았으나, 제목에서 파트너십 기반 사업 확장을 시사하고 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "Westinghouse",
+  "region": "US",
+  "source": "tomorrowsworldtoday.com",
+  "url": "https://www.tomorrowsworldtoday.com/energy/westinghouse-partnership-will-scale-next-gen-reactors/",
+  "k": "westinghouse partnership will scale next gen reactors",
+  "id": "6a667509"
+ },
+ {
+  "date": "2026-08-05",
+  "title": "뉴스케일 2026년 2분기 실적 발표",
+  "summary": "뉴스케일 파워가 2026년 2분기 실적을 공식 발표했다.",
+  "summaryLong": "소형모듈원자로(SMR) 개발사 뉴스케일 파워(NuScale Power)가 2026년 2분기 분기 실적 결과를 공식 발표했다. 스니펫에는 구체적 실적 수치나 분석이 기재되지 않았으나, 공식 실적 보도로 확인된 사실이다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "뉴스케일",
+  "region": "US",
+  "source": "nuscalepower.com",
+  "url": "https://www.nuscalepower.com/press-releases/2026/nuscale-power-reports-second-quarter-2026-results?hsLang=en",
+  "k": "nuscale power reports second quarter 2026 results",
+  "id": "01808974"
+ },
+ {
+  "date": "2026-08-05",
+  "title": "엑스에너지: 상용화 가장 가까운 SMR 개발사",
+  "summary": "엑스에너지(X-Energy)가 고온가스로(HTGR) 기반 SMR 중 상용화 단계에 가장 가깝다는 투자 분석이다.",
+  "summaryLong": "고온가스로(HTGR) 기반 소형모듈원자로(SMR) 개발사 엑스에너지(X-Energy)가 여러 SMR 개발사 중 상용화(Finish Line)에 가장 근접한 기업으로 평가받았다. 나스닥(NASDAQ: XE) 상장사인 엑스에너지의 기술 진척도를 투자 관점에서 분석한 보도다.",
+  "cat": "기술",
+  "type": "HTGR",
+  "dev": "엑스에너지",
+  "region": "US",
+  "source": "seekingalpha.com",
+  "url": "https://seekingalpha.com/article/4930987-x-energy-inc-the-smr-developer-closest-to-the-finish-line",
+  "k": "x energy the smr developer closest to the finish line nasdaq xe",
+  "op": 1,
+  "id": "de04a1b7"
+ },
+ {
+  "date": "2026-08-05",
+  "title": "오클로: 최고 대비 75% 하락, 실적 발표 주목",
+  "summary": "오클로(Oklo)의 주가가 최고가 대비 75% 하락했으며 실적 발표가 기업 재평가의 분수령이 될 전망이다.",
+  "summaryLong": "소형모듈원자로(SMR) 개발사 오클로(Oklo)의 주가가 최고가 대비 75% 급락했으며, 향후 실적 발표(Earnings)가 기업 전망을 판가름할 중요한 전환점이 될 것으로 예상되고 있다. 이는 오클로의 주가 약세와 투자 재평가 움직임을 다룬 보도다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "오클로",
+  "region": "US",
+  "source": "nai500.com",
+  "url": "https://nai500.com/blog/2026/08/oklo-down-75-from-peak-faces-pivotal-earnings-test/",
+  "k": "oklo down 75 from peak faces pivotal earnings test",
+  "op": 1,
+  "id": "a3f7092d"
+ },
+ {
+  "date": "2026-08-05",
+  "title": "홀텍 미국 원전 해체 최종단계, 현대건설 SMR 시장 진출",
+  "summary": "홀텍이 미국 원전 해체 사업 최종단계를 진행하는 가운데 현대건설이 SMR 시장 진출을 추진 중이다.",
+  "summaryLong": "홀텍이 미국의 원전 해체 프로젝트 최종단계를 진행 중이며, 현대건설이 소형모듈원자로(SMR) 시장 진출을 추진 중이라고 보도했다. 스니펫만으로는 현대건설의 구체적인 SMR 사업 계획, 기술 개발 현황, 파트너십 체결 여부 등의 세부 사항이 명확하지 않으나, SMR 시장 진출 의향을 나타낸 중요한 뉴스로 보인다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "현대건설",
+  "region": "KR",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5494",
+  "k": "홀텍 미국 원전 해체 최종단계 현대건설 smr 시장 진출",
+  "ko": 1,
+  "id": "4344779a"
+ },
+ {
+  "date": "2026-08-05",
+  "title": "영국 GBE-N, WANO(세계원전운영자협회) 신규 가입…SMR 운영 준비 착수",
+  "summary": "영국의 GBE-N(Great British Energy - Nuclear)이 세계원전운영자협회(WANO)에 신규 가입하며 SMR 운영 준비를 시작했다.",
+  "summaryLong": "영국의 GBE-N(Great British Energy - Nuclear)이 세계원전운영자협회(WANO)에 신규 가입을 완료했으며, 이는 SMR 운영 준비의 본격화를 의미한다. WANO 가입은 국제 원전 운영 표준과 안전 관리 체계에 편입되는 것으로, 향후 SMR 상용 운영을 위한 국제 규제 및 운영 기준 준수 체계를 갖추는 단계이다. 영국의 SMR 프로젝트가 개발 단계에서 운영 단계로 진입하는 신호로 볼 수 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "GBE-N",
+  "region": "UK",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5493",
+  "k": "영국 gbe n wano 신규 가입 smr 운영 준비 착수",
+  "ko": 1,
+  "id": "3e446fbb"
+ },
+ {
+  "date": "2026-08-05",
+  "title": "SMR 국가전략기술 지정·세액공제 확대, 원전 산업 재도약 발판 마련",
+  "summary": "정부가 SMR을 국가전략기술으로 지정하고 세액공제를 확대하는 정책을 시행했다.",
+  "summaryLong": "정부가 소형모듈원자로(SMR)를 국가전략기술으로 지정하고 관련 세액공제를 확대하는 정책을 공식 추진하고 있다. 이는 SMR 산업의 투자 유인 및 기술 개발 촉진을 위한 정부 정책으로, 원전 산업의 재도약을 위한 제도적 발판을 마련한 것이다. SMR 개발·생산 관련 기업들의 투자 환경 개선과 경쟁력 강화를 목표로 한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "knpp.co.kr",
+  "url": "http://knpp.co.kr/news/530337",
+  "k": "smr 국가전략기술 지정 세액공제 확대 원전 산업 재도약 발판 마련",
+  "ko": 1,
+  "id": "b1634a05"
+ },
+ {
   "date": "2026-08-04",
   "title": "원자력산업협회, 정부의 SMR 국가전략기술 지정 환영 성명",
   "summary": "한국 정부의 소형모듈원자로(SMR)를 국가전략기술 지정 및 2026년 세제개편안에 포함시킨 정책을 산업계가 환영했다.",
@@ -783,80 +886,6 @@ window.SMR_NEWS = [
   "id": "a6333153"
  },
  {
-  "date": "2026-08-04",
-  "title": "원자력 응용용 GUTOR 80 UPS·배터리충전기·인버터 솔루션, ASME NQA-1 기준 준수",
-  "summary": "미국·캐나다의 SMR 및 마이크로로터 증가로 원자력 응용 전자기기 수요 증가를 배경으로 한 부품 솔루션 안내.",
-  "summaryLong": "미국 원자력학회(ANS, American Nuclear Society) 뉴스와이어에서 미국과 캐나다가 수십 년 만에 최대 규모로 원자력 용량을 신축·갱신할 계획임을 배경으로, 소형모듈원자로(SMR)와 마이크로로터(microreactor) 파이프라인이 병행 추진되면서 관련 전자기기 수요가 증가하는 상황을 소개했다. 이를 바탕으로 ASME NQA-1(미국기계학회 원자력품질보증 기준) 준수 UPS·배터리 충전기·인버터 솔루션(GUTOR 80)의 원자력 응용 시장 기회를 다루고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "US, CA",
-  "source": "ANS Newswire",
-  "url": "https://www.ans.org/news/2026-08-04/article-8218/gutor-80-ups-battery-charger-inverter-solutions-for-nuclear-applications-built-to-asme-nqa1/",
-  "k": "gutor 80 ups battery charger inverter solutions for nuclear applications built to asme nqa 1",
-  "id": "91786513"
- },
- {
-  "date": "2026-08-04",
-  "title": "AI 전력원 SMR 상용화 대비…원안위, 기술중립 규제체계 구축",
-  "summary": "한국 원자력안전위원회(원안위)가 소형모듈원자로(SMR) 상용화를 앞두고 기술중립적 규제체계를 선제적으로 구축.",
-  "summaryLong": "뉴스1, 정책브리핑, 국제신문 보도에 따르면, 한국 원자력안전위원회(원안위)가 인공지능(AI) 전력 수요 증가에 대응하여 소형모듈원자로(SMR) 상용화를 앞두고 기술중립적 규제체계를 구축하고 있다. 또한 경주, 창원 등 지역에서 SMR 중심의 원전산업 육성전략을 추진하면서 관련 인프라 구축을 속도 내고 있으며, 신형원자로 진입에 대비한 선제적 인허가 체계도 마련 중이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "news1.kr",
-  "url": "https://www.news1.kr/it-science/general-science/6248503",
-  "k": "ai 전력원 smr 상용화 대비 원안위 기술중립 규제체계 구축",
-  "ko": 1,
-  "id": "e4ec96da"
- },
- {
-  "date": "2026-08-03",
-  "title": "두산에너빌리티·고려정밀공업·재료연구원, 기후부 'SMR 제조혁신 핵심과제' 선정",
-  "summary": "두산에너빌리티, 고려정밀공업, 재료연구원이 한국 정부(기후부) 주관 'SMR 제조혁신 핵심과제'에 선정됨.",
-  "summaryLong": "두산에너빌리티, 고려정밀공업, 재료연구원 컨소시엄이 한국 기후대응·에너지부(기후부) 주관의 'SMR 제조혁신 핵심과제'에 최종 선정되었다. 이는 한국의 소형모듈원자로(SMR) 산업화 추진 국책 프로그램의 일환으로, 부품 국산화, 제조 기술 혁신, 공급망 확보 등을 목표로 하는 정부 지원 사업으로 보임.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "두산에너빌리티",
-  "region": "KR",
-  "source": "snmnews.com",
-  "url": "https://www.snmnews.com/news/articleView.html?idxno=572827",
-  "k": "두산에너빌리티 고려정밀공업 재료연구원 기후부 주관 smr 제조혁신 핵심과제 선정",
-  "ko": 1,
-  "id": "37b6a2d9"
- },
- {
-  "date": "2026-08-03",
-  "title": "캐나다 SMR 역설: G7 최초 상업용 착공과 연료 의존 및 핵확산 문제",
-  "summary": "캐나다의 G7 최초 상업용 SMR 착공이 우라늄 공급 의존과 핵확산 우려라는 구조적 딜레마를 드러내고 있다.",
-  "summaryLong": "캐나다가 선진국(G7) 중 최초로 소형모듈원자로(SMR)의 상업용 착공에 나선 가운데, 이 프로젝트가 내포한 구조적 모순이 분석되고 있다. 상업 규모의 SMR 운영을 위한 우라늄 연료에 대한 의존도 증가와 핵확산 위험 사이의 딜레마가 존재한다는 지적이 제기되고 있으며, 이는 SMR 확대 시대의 국제 정책과 보안 과제를 시사한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "CA",
-  "source": "knpp.co.kr",
-  "url": "http://knpp.co.kr/news/528973",
-  "k": "캐나다 smr 역설 g7 최초 상업용 착공이 드러낸 연료 의존과 핵확산 딜레마",
-  "ko": 1,
-  "id": "db7ef608"
- },
- {
-  "date": "2026-08-03",
-  "title": "캐나다 SMR, 우라늄 공급 의존의 역설",
-  "summary": "캐나다 소형모듈원자로(SMR) 사업이 우라늄 공급에 대한 의존 심화라는 역설적 문제를 안고 있다.",
-  "summaryLong": "캐나다의 소형모듈원자로(SMR) 사업 추진이 역설적 상황을 초래하고 있다는 분석이 제시되고 있다. SMR 상용화를 통해 청정 에너지 공급을 확대하려는 정책 의도와 달리, 실제로는 필요한 우라늄 연료에 대한 의존도가 심화되는 구조적 문제를 안고 있다는 점이 지적되고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "CA",
-  "source": "youthassembly.kr",
-  "url": "https://www.youthassembly.kr/news/980549",
-  "k": "캐나다 smr 우라늄 의존의 역설",
-  "ko": 1,
-  "id": "2ded5d49"
- },
- {
   "date": "2026-08-03",
   "title": "ARC, 아이다호 국립연구소(INL)와 SMR 배치 계약",
   "summary": "ARC 클린 테크놀로지(ARC Clean Technology)가 아이다호 국립연구소(INL)에 ARC-100 소형모듈원자로(SMR)의 첫 배치를 목표로 하는 계약을 체결했다.",
@@ -869,21 +898,6 @@ window.SMR_NEWS = [
   "url": "https://www.world-nuclear-news.org/articles/arc-partners-with-inl-for-smr-deployment",
   "k": "arc partners with inl for smr deployment",
   "id": "eb04f9a9"
- },
- {
-  "date": "2026-08-03",
-  "title": "한국, 9월 SMR 특별법 시행…소형모듈원자로 본격 육성",
-  "summary": "한국이 9월 시행 예정인 'SMR 특별법'을 통해 소형모듈원자로(SMR) 개발을 본격 추진한다.",
-  "summaryLong": "한국 원자력안전위원회는 오는 9월 소형모듈원자로(SMR) 특별법 시행을 앞두고 있으며, 이는 SMR을 차세대 원자력 기술로 본격 육성하기 위한 국책 정책이다. SMR은 기존 대형 경수로(PWR/BWR)에 비해 출력이 낮고 모듈화된 설계를 통해 안전성과 경제성을 높이며, 인공지능(AI) 시대의 증가하는 전력 수요, 기후위기 대응, 에너지 안보 강화에 대응하는 핵심 에너지원으로 평가받고 있다. 미국·중국·영국 등 주요 원전 강국들은 이미 SMR 연구개발과 실증 기반을 구축하고 글로벌 시장 선점을 위해 경쟁 중이며, 한국의 i-SMR(i-SMR) 등 국내 개발 사업이 추진되고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "투데이에너지 - 전체기사",
-  "url": "https://www.todayenergy.kr/news/articleView.html?idxno=301152",
-  "k": "9월 smr 특별법 시행 소형모듈원자로 본격 육성",
-  "ko": 1,
-  "id": "f8f661b8"
  },
  {
   "date": "2026-08-03",
@@ -913,21 +927,6 @@ window.SMR_NEWS = [
   "k": "smr 원자력 발라아토믹스 10억 달러 시리즈b 투자유치",
   "ko": 1,
   "id": "2faa36a7"
- },
- {
-  "date": "2026-08-01",
-  "title": "빌 게이츠, 핵에너지 투자 확대 — 테라파워(TerraPower) 주목",
-  "summary": "빌 게이츠가 핵에너지 산업에 베팅하면서 테라파워(TerraPower)가 시장의 주목을 받고 있다.",
-  "summaryLong": "NAI500에서 빌 게이츠(Bill Gates)가 주도하는 핵에너지 투자 확대 움직임 가운데 테라파워(TerraPower)가 시장의 관심을 받고 있다고 보도했다. 소형모듈원자로(SMR)·첨단로 개발사인 테라파워에 대한 투자자 주목과 사업 전망을 다루고 있으나, 구체적인 투자 공시나 계약 사건이 명확하지 않아 분석·전망 형태로 판단된다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "US",
-  "source": "nai500.com",
-  "url": "https://nai500.com/blog/2026/08/bill-gates-bets-on-nuclear-energy-terrapower-draws-market-attention/",
-  "k": "bill gates bets on nuclear energy terrapower draws market attention",
-  "op": 1,
-  "id": "c5cce20a"
  },
  {
   "date": "2026-07-31",
@@ -1453,5 +1452,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-06 07:37 KST";
-window.SMR_TOTAL = 1810;
+window.SMR_UPDATED = "2026-08-06 08:13 KST";
+window.SMR_TOTAL = 1817;

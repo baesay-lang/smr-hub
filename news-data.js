@@ -155,6 +155,109 @@ window.SMR_NEWS = [
     "id": "d2dcc82c"
   },
   {
+    "date": "2026-08-05",
+    "title": "웨스팅하우스 파트너십으로 차세대 원자로 확대",
+    "summary": "웨스팅하우스의 파트너십을 통해 차세대 원자로 사업 확대 계획이 보도되었다.",
+    "summaryLong": "웨스팅하우스(Westinghouse)가 파트너십을 통해 차세대 원자로(SMR 또는 첨단로로 추정) 사업을 확대하려는 계획이 발표되었다. 스니펫에는 구체적 파트너나 일정이 기재되지 않았으나, 제목에서 파트너십 기반 사업 확장을 시사하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Westinghouse",
+    "region": "US",
+    "source": "tomorrowsworldtoday.com",
+    "url": "https://www.tomorrowsworldtoday.com/energy/westinghouse-partnership-will-scale-next-gen-reactors/",
+    "k": "westinghouse partnership will scale next gen reactors",
+    "id": "6a667509"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "뉴스케일 2026년 2분기 실적 발표",
+    "summary": "뉴스케일 파워가 2026년 2분기 실적을 공식 발표했다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발사 뉴스케일 파워(NuScale Power)가 2026년 2분기 분기 실적 결과를 공식 발표했다. 스니펫에는 구체적 실적 수치나 분석이 기재되지 않았으나, 공식 실적 보도로 확인된 사실이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "뉴스케일",
+    "region": "US",
+    "source": "nuscalepower.com",
+    "url": "https://www.nuscalepower.com/press-releases/2026/nuscale-power-reports-second-quarter-2026-results?hsLang=en",
+    "k": "nuscale power reports second quarter 2026 results",
+    "id": "01808974"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "엑스에너지: 상용화 가장 가까운 SMR 개발사",
+    "summary": "엑스에너지(X-Energy)가 고온가스로(HTGR) 기반 SMR 중 상용화 단계에 가장 가깝다는 투자 분석이다.",
+    "summaryLong": "고온가스로(HTGR) 기반 소형모듈원자로(SMR) 개발사 엑스에너지(X-Energy)가 여러 SMR 개발사 중 상용화(Finish Line)에 가장 근접한 기업으로 평가받았다. 나스닥(NASDAQ: XE) 상장사인 엑스에너지의 기술 진척도를 투자 관점에서 분석한 보도다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "엑스에너지",
+    "region": "US",
+    "source": "seekingalpha.com",
+    "url": "https://seekingalpha.com/article/4930987-x-energy-inc-the-smr-developer-closest-to-the-finish-line",
+    "k": "x energy the smr developer closest to the finish line nasdaq xe",
+    "op": 1,
+    "id": "de04a1b7"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "오클로: 최고 대비 75% 하락, 실적 발표 주목",
+    "summary": "오클로(Oklo)의 주가가 최고가 대비 75% 하락했으며 실적 발표가 기업 재평가의 분수령이 될 전망이다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발사 오클로(Oklo)의 주가가 최고가 대비 75% 급락했으며, 향후 실적 발표(Earnings)가 기업 전망을 판가름할 중요한 전환점이 될 것으로 예상되고 있다. 이는 오클로의 주가 약세와 투자 재평가 움직임을 다룬 보도다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "오클로",
+    "region": "US",
+    "source": "nai500.com",
+    "url": "https://nai500.com/blog/2026/08/oklo-down-75-from-peak-faces-pivotal-earnings-test/",
+    "k": "oklo down 75 from peak faces pivotal earnings test",
+    "op": 1,
+    "id": "a3f7092d"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "홀텍 미국 원전 해체 최종단계, 현대건설 SMR 시장 진출",
+    "summary": "홀텍이 미국 원전 해체 사업 최종단계를 진행하는 가운데 현대건설이 SMR 시장 진출을 추진 중이다.",
+    "summaryLong": "홀텍이 미국의 원전 해체 프로젝트 최종단계를 진행 중이며, 현대건설이 소형모듈원자로(SMR) 시장 진출을 추진 중이라고 보도했다. 스니펫만으로는 현대건설의 구체적인 SMR 사업 계획, 기술 개발 현황, 파트너십 체결 여부 등의 세부 사항이 명확하지 않으나, SMR 시장 진출 의향을 나타낸 중요한 뉴스로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대건설",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5494",
+    "k": "홀텍 미국 원전 해체 최종단계 현대건설 smr 시장 진출",
+    "ko": 1,
+    "id": "4344779a"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "영국 GBE-N, WANO(세계원전운영자협회) 신규 가입…SMR 운영 준비 착수",
+    "summary": "영국의 GBE-N(Great British Energy - Nuclear)이 세계원전운영자협회(WANO)에 신규 가입하며 SMR 운영 준비를 시작했다.",
+    "summaryLong": "영국의 GBE-N(Great British Energy - Nuclear)이 세계원전운영자협회(WANO)에 신규 가입을 완료했으며, 이는 SMR 운영 준비의 본격화를 의미한다. WANO 가입은 국제 원전 운영 표준과 안전 관리 체계에 편입되는 것으로, 향후 SMR 상용 운영을 위한 국제 규제 및 운영 기준 준수 체계를 갖추는 단계이다. 영국의 SMR 프로젝트가 개발 단계에서 운영 단계로 진입하는 신호로 볼 수 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "GBE-N",
+    "region": "UK",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5493",
+    "k": "영국 gbe n wano 신규 가입 smr 운영 준비 착수",
+    "ko": 1,
+    "id": "3e446fbb"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "SMR 국가전략기술 지정·세액공제 확대, 원전 산업 재도약 발판 마련",
+    "summary": "정부가 SMR을 국가전략기술으로 지정하고 세액공제를 확대하는 정책을 시행했다.",
+    "summaryLong": "정부가 소형모듈원자로(SMR)를 국가전략기술으로 지정하고 관련 세액공제를 확대하는 정책을 공식 추진하고 있다. 이는 SMR 산업의 투자 유인 및 기술 개발 촉진을 위한 정부 정책으로, 원전 산업의 재도약을 위한 제도적 발판을 마련한 것이다. SMR 개발·생산 관련 기업들의 투자 환경 개선과 경쟁력 강화를 목표로 한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "knpp.co.kr",
+    "url": "http://knpp.co.kr/news/530337",
+    "k": "smr 국가전략기술 지정 세액공제 확대 원전 산업 재도약 발판 마련",
+    "ko": 1,
+    "id": "b1634a05"
+  },
+  {
     "date": "2026-08-04",
     "title": "원자력산업협회, 정부의 SMR 국가전략기술 지정 환영 성명",
     "summary": "한국 정부의 소형모듈원자로(SMR)를 국가전략기술 지정 및 2026년 세제개편안에 포함시킨 정책을 산업계가 환영했다.",
@@ -26296,4 +26399,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-06 07:37 KST";
+window.SMR_UPDATED = "2026-08-06 08:13 KST";
