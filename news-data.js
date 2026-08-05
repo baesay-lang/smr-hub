@@ -642,6 +642,22 @@ window.SMR_NEWS = [
     "id": "1b17dc16"
   },
   {
+    "date": "2026-08-04",
+    "title": "[사설] 태양광 AMPC와 SMR 세제 혜택…무탄소 에너지 제조 강국으로",
+    "summary": "사설에서 태양광 AMPC(Advanced Manufacturing Production Credit)와 SMR 세제 혜택 정책을 통한 무탄소 에너지 산업 육성을 주장했다.",
+    "summaryLong": "언론 사설에서 태양광 AMPC(첨단제조생산세제)와 소형모듈원자로(SMR) 세제 혜택 정책을 평가하며, 이러한 정책들이 한국을 무탄소 에너지 제조 강국으로 나아가는 길을 제시한다고 주장했다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "skenews.kr",
+    "url": "https://www.skenews.kr/news/articleView.html?idxno=52717",
+    "k": "사설 태양광 ampc와 smr 세제 혜택 무탄소 에너지 제조 강국 으로 가는 길",
+    "ko": 1,
+    "op": 1,
+    "id": "a6333153"
+  },
+  {
     "date": "2026-08-03",
     "title": "두산에너빌리티·고려정밀공업·재료연구원, 기후부 'SMR 제조혁신 핵심과제' 선정",
     "summary": "두산에너빌리티, 고려정밀공업, 재료연구원이 한국 정부(기후부) 주관 'SMR 제조혁신 핵심과제'에 선정됨.",
@@ -5041,6 +5057,21 @@ window.SMR_NEWS = [
     "id": "9cf8da60"
   },
   {
+    "date": "2026-07-22",
+    "title": "'차세대 원자력' 세제지원 법안 발의…글로벌 SMR 경쟁 대응",
+    "summary": "차세대 원자력(SMR) 분야 세제지원 법안이 발의되어 글로벌 경쟁에 대응하는 정책이 추진 중이다.",
+    "summaryLong": "국내에서 차세대 원자력 기술인 소형모듈원자로(SMR) 분야를 지원하기 위한 세제지원 법안이 발의되었다. 이는 글로벌 SMR 산업 경쟁에서 한국의 경쟁력을 강화하기 위한 정부 정책의 일환이다.",
+    "cat": "정책",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "energy-news.co.kr",
+    "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=226981",
+    "k": "차세대 원자력 세제지원 법안 발의 글로벌 smr 경쟁 대응 energy news co kr",
+    "ko": 1,
+    "id": "290e99f3"
+  },
+  {
     "date": "2026-07-21",
     "title": "SMR 시대 보안·정보 관리의 중요성",
     "summary": "소형모듈원자로(SMR) 등 차세대 핵발전이 국가 전략 자산으로 부상하면서 기술 보안과 정보 관리 체계 구축의 필요성을 제기한 의견 기사다.",
@@ -5348,6 +5379,20 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "0e3bfee9"
+  },
+  {
+    "date": "2026-07-21",
+    "title": "체코(Czech), 롤스로이스(Rolls-Royce) SMR 2개 추가 부지 확보",
+    "summary": "롤스로이스가 체코에서 소형모듈원자로(SMR) 2개 추가 부지를 확보했다.",
+    "summaryLong": "영국의 롤스로이스(Rolls-Royce)가 체코 내 2개의 추가 부지를 소형모듈원자로(SMR) 건설 후보지로 확보했다. 이는 유럽의 에너지 안보 강화와 탄소중립 목표 달성을 위한 체코 정부의 핵심 정책의 일환이다. 롤스로이스 SMR은 영국 설계인증 과정을 진행 중이며, 체코는 유럽 내 SMR 도입을 선도하는 국가로 자리 잡고 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Rolls-Royce",
+    "region": "UK",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/two-more-czech-sites-lined-up-for-rolls-royce-smrs",
+    "k": "two more czech sites lined up for rolls royce smrs world nuclear news org",
+    "id": "09680659"
   },
   {
     "date": "2026-07-20",
@@ -8803,6 +8848,20 @@ window.SMR_NEWS = [
     "k": "why oklo is betting big on the future of nuclear isotopes",
     "op": 1,
     "id": "a7c77af7"
+  },
+  {
+    "date": "2026-07-10",
+    "title": "아르헨티나, 민간 자금 조성 SMR 계획 발표",
+    "summary": "아르헨티나가 민간 재정으로 소형모듈원자로(SMR) 사업을 추진하는 정부 정책 발표.",
+    "summaryLong": "아르헨티나 정부가 민간 투자 형태로 소형모듈원자로(SMR) 사업을 추진하기로 공식 발표했다. 정부의 에너지·원전 정책 차원에서 SMR 도입을 선언한 의미 있는 뉴스로, 남미 지역 SMR 시장 형성의 신호탄이 될 전망이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "world-nuclear-news.org",
+    "url": "https://www.world-nuclear-news.org/articles/argentina-announces-privately-financed-smr-plan",
+    "k": "argentina announces privately financed smr plan world nuclear news org",
+    "id": "92151072"
   },
   {
     "date": "2026-07-09",
@@ -26061,4 +26120,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-05 15:38 KST";
+window.SMR_UPDATED = "2026-08-05 16:27 KST";

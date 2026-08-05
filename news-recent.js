@@ -635,6 +635,22 @@ window.SMR_NEWS = [
   "id": "1b17dc16"
  },
  {
+  "date": "2026-08-04",
+  "title": "[사설] 태양광 AMPC와 SMR 세제 혜택…무탄소 에너지 제조 강국으로",
+  "summary": "사설에서 태양광 AMPC(Advanced Manufacturing Production Credit)와 SMR 세제 혜택 정책을 통한 무탄소 에너지 산업 육성을 주장했다.",
+  "summaryLong": "언론 사설에서 태양광 AMPC(첨단제조생산세제)와 소형모듈원자로(SMR) 세제 혜택 정책을 평가하며, 이러한 정책들이 한국을 무탄소 에너지 제조 강국으로 나아가는 길을 제시한다고 주장했다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "skenews.kr",
+  "url": "https://www.skenews.kr/news/articleView.html?idxno=52717",
+  "k": "사설 태양광 ampc와 smr 세제 혜택 무탄소 에너지 제조 강국 으로 가는 길",
+  "ko": 1,
+  "op": 1,
+  "id": "a6333153"
+ },
+ {
   "date": "2026-08-03",
   "title": "두산에너빌리티·고려정밀공업·재료연구원, 기후부 'SMR 제조혁신 핵심과제' 선정",
   "summary": "두산에너빌리티, 고려정밀공업, 재료연구원이 한국 정부(기후부) 주관 'SMR 제조혁신 핵심과제'에 선정됨.",
@@ -868,34 +884,6 @@ window.SMR_NEWS = [
   "k": "historic u s nuclear site eyes four smr 300 reactors after 49 years of service",
   "op": 1,
   "id": "5674d082"
- },
- {
-  "date": "2026-08-03",
-  "title": "엑스에너지(X-energy), SGL 카본과 원자력급 흑연 생산 확대 발표",
-  "summary": "엑스에너지(X-energy)가 SGL 카본(SGL Carbon)과 협력하여 고온가스로(HTGR) 연료용 핵등급 흑연의 생산 용량을 확대한다.",
-  "summaryLong": "소형모듈원자로(SMR) 개발사 엑스에너지(X-energy)와 독일 소재 소재 공급사 SGL 카본(SGL Carbon)이 Xe-100 고온가스로(HTGR) 용량 증대를 지원하기 위해 원자력급 흑연의 생산 능력을 확대하기로 발표했다. 이 협력은 SMR 상용화를 위한 공급망 확충 노력의 일환으로, 핵심 구성 재료인 흑연의 안정적 공급 기반을 강화하는 의미를 가진다.",
-  "cat": "기술",
-  "type": "HTGR",
-  "dev": "X-energy",
-  "region": "US",
-  "source": "x-energy.com",
-  "url": "https://x-energy.com/news/x-energy-sgl-carbon-announce-capacity-expansion-for-nuclear-grade-graphite/",
-  "k": "x energy sgl carbon announce capacity expansion for nuclear grade graphite x energy",
-  "id": "4755b4a9"
- },
- {
-  "date": "2026-08-03",
-  "title": "엑스에너지·SGL Carbon, 원전용 흑연 생산 확대 발표",
-  "summary": "엑스에너지(X-energy)와 SGL Carbon이 고온가스로(HTGR) 연료용 원전급 흑연의 생산 능력 확대를 공동 발표했다.",
-  "summaryLong": "엑스에너지(X-energy)와 SGL Carbon이 원전급 흑연의 생산 능력 확대 계획을 발표했다. 이는 엑스에너지의 고온가스로(HTGR) 프로젝트 추진에 필요한 핵심 연료 소재의 공급망 구축 움직임이다. 두 회사의 협력을 통해 상용 규모의 흑연 생산 체계를 갖추려는 것으로, 첨단로 상용화의 중요한 마일스톤이다.",
-  "cat": "기술",
-  "type": "HTGR",
-  "dev": "엑스에너지",
-  "region": "US",
-  "source": "x-energy.com",
-  "url": "https://x-energy.com/news/x-energy-sgl-carbon-announce-capacity-expansion-for-nuclear-grade-graphite/",
-  "k": "x energy sgl carbon announce capacity expansion for nuclear grade graphite x energy com",
-  "id": "4755b4a9"
  },
  {
   "date": "2026-08-03",
@@ -1464,5 +1452,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-05 15:38 KST";
-window.SMR_TOTAL = 1794;
+window.SMR_UPDATED = "2026-08-05 16:27 KST";
+window.SMR_TOTAL = 1798;
