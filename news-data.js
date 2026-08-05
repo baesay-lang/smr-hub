@@ -258,6 +258,110 @@ window.SMR_NEWS = [
     "id": "b1634a05"
   },
   {
+    "date": "2026-08-05",
+    "title": "뉴스케일 파워 2026년 2분기 실적: 매출 급감·원가 상승",
+    "summary": "뉴스케일 파워의 2026년 2분기 실적에서 매출이 75,000달러로 급감하고 비용이 증가했다.",
+    "summaryLong": "뉴스케일 파워(NuScale Power)의 2026년 2분기 실적 보도에 따르면 회사 매출이 75,000달러에 그쳤으며 비용은 상승 추세를 보이고 있다. 이는 상업화 진행 지연과 관련된 재정 현황을 나타내는 실적 지표로, SMR 개발사의 사업 진행 상황을 반영하는 중요한 수치이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "tradingkey.com",
+    "url": "https://www.tradingkey.com/news/earnings/262080247-tradingkey",
+    "k": "nuscale power q2 2026 earnings revenue falls to 75 000 as costs rise",
+    "id": "969c29a7"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "경상남도, SMR 국가전략기술 지정 환영…경남 원전기업 투자·성장 가속화",
+    "summary": "정부가 2026년 세제개편안을 통해 SMR과 초소형원자로(MMR)를 국가전략기술로 지정하자, 경상남도가 환영 입장을 표명했다.",
+    "summaryLong": "경상남도(도지사 박완수)는 정부의 '2026년 세제개편안'을 통해 소형모듈원자로(SMR) 및 초소형원자로(MMR)이 조세특례제한법(ELTAX) 상 국가전략기술로 지정된 것을 적극 환영했다. 이는 경남도가 대한민국 원자력산업의 중심지로서 지역 국회의원과 협력하고, 관계부처에 제도개선을 건의해 온 노력의 결실이다. 이번 법 개정(조세특례제한법 및 시행령 개정)을 통해 도내 원전 제조기업들의 SMR 산업 투자 및 혁신 성장이 가속화될 것으로 기대되고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "전기신문 - 전체기사",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=371023",
+    "k": "경남도 smr 국가전략기술 지정 대환영 경남 원전기업 smr 투자 및 혁신 성장 가속화",
+    "ko": 1,
+    "id": "efe9c35e"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "SMR 입지·거래 규제 결정까지 정확히 2년 [린의 행정과 법률]",
+    "summary": "SMR의 입지 선정과 거래를 좌우할 규제 시안이 2년 내에 확정될 예정이다.",
+    "summaryLong": "한국경제의 칼럼 '린의 행정과 법률'에서 소형모듈원자로(SMR)의 입지 지정과 거래 규제를 결정할 규제 마련 과정이 앞으로 정확히 2년의 시간 제약 속에 진행될 것임을 지적하고 있다. 이는 SMR 산업화를 위한 정부 행정 및 규제 정책 수립의 중요성과 시급성을 다루는 정책 분석 기사로, SMR 산업 전개를 좌우할 규제 환경 구축의 현황과 과제를 제시한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "hankyung.com",
+    "url": "https://www.hankyung.com/article/202608057226i",
+    "k": "smr 입지 거래 규제 좌우할 시간 딱 2년 린의 행정과 법률",
+    "ko": 1,
+    "id": "3f934b12"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "SMR 전폭 지원으로 공급망 생태계 조기 구축·글로벌 시장 선점 기대",
+    "summary": "정부의 SMR 전폭 지원이 공급망 생태계 조성과 글로벌 시장 선점으로 이어질 것으로 기대된다.",
+    "summaryLong": "소형모듈원자로(SMR)에 대한 정부의 적극적 지원이 국내 공급망 생태계 조기 구축과 글로벌 시장 선점에 긍정적 영향을 미칠 것으로 전망된다. 국가전략기술 지정을 통한 정책 지원으로 관련 산업의 경쟁력 강화 및 수출 기회 확대가 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "busan.com",
+    "url": "https://www.busan.com/view/busan/view.php?code=2026080517150049237",
+    "k": "smr 전폭지원에 공급망 생태계 조기 구축 글로벌 시장 선점 기대감",
+    "ko": 1,
+    "id": "44f5f34a"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "창원시, SMR 국가전략기술 지정 적극 환영",
+    "summary": "창원시가 SMR의 국가전략기술 지정을 적극 환영했다.",
+    "summaryLong": "창원시가 소형모듈원자로(SMR)의 국가전략기술 지정을 적극 환영하는 입장을 표명했다. SMR은 창원시의 주요 산업 중 하나로, 국가전략기술 지정으로 인한 지역 원전산업의 성장을 기대하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "gnnews24.kr",
+    "url": "https://www.gnnews24.kr/news/articleView.html?idxno=33583",
+    "k": "창원시 smr 국가전략기술 지정 적극 환영",
+    "ko": 1,
+    "id": "359599e3"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "SMR 세액공제, 원전 재도약 발판…업계 환영",
+    "summary": "업계가 SMR 국가전략기술 지정으로 인한 세액공제를 원전산업 재도약의 발판으로 평가하며 환영했다.",
+    "summaryLong": "원자력 업계가 소형모듈원자로(SMR)의 국가전략기술 지정을 환영하며, 이에 따른 세액공제를 원전산업 재도약의 발판으로 평가했다. 국가전략기술 지정으로 인한 세제 인센티브는 SMR 개발과 상용화를 가속화하여 산업의 경쟁력 강화에 기여할 것으로 기대된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "munhwa.com",
+    "url": "https://www.munhwa.com/article/11607516",
+    "k": "smr 세액공제 원전 재도약 발판 업계 전략기술 지정 환영",
+    "ko": 1,
+    "id": "7b7b805b"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "미국 SMR 세액공제 확대의 영향",
+    "summary": "미국의 소형모듈원자로(SMR) 세액공제 정책 확대가 시장에 미치는 파급 효과에 대한 분석.",
+    "summaryLong": "미국 정부의 소형모듈원자로(SMR) 세액공제 정책이 확대되면서 SMR 산업에 미치는 영향을 다룬 보도이다. 세액공제 확대는 SMR 개발사들의 경제성 개선과 사업 추진력 강화에 직결되는 정책 변화로, 얼리어답터(Early Adopter)들에게 시장 진입 기회를 제공할 것으로 예상된다. 이는 SMR의 상용화 가속화와 미국 내 소형 원자로 프로젝트 투자 확대를 견인할 것으로 전망된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "eanews.kr",
+    "url": "https://www.eanews.kr/news/984726",
+    "k": "smr 세액공제 확대의 파장",
+    "ko": 1,
+    "id": "dbdb808c"
+  },
+  {
     "date": "2026-08-04",
     "title": "원자력산업협회, 정부의 SMR 국가전략기술 지정 환영 성명",
     "summary": "한국 정부의 소형모듈원자로(SMR)를 국가전략기술 지정 및 2026년 세제개편안에 포함시킨 정책을 산업계가 환영했다.",
@@ -922,6 +1026,20 @@ window.SMR_NEWS = [
     "id": "e4ec96da"
   },
   {
+    "date": "2026-08-04",
+    "title": "오클로 8월 7일 실적 발표 예고: 투자자 주시 사항",
+    "summary": "오클로가 8월 7일 실적을 발표할 예정이며 투자자들이 주의 깊게 지켜봐야 할 포인트를 제시하고 있다.",
+    "summaryLong": "야후 파이낸스(Yahoo Finance)의 기사는 첨단원자로 개발사인 오클로(Oklo)의 8월 7일 실적 발표를 앞두고, 투자자들이 주의 깊게 살펴봐야 할 핵심 지표와 사항들을 제시하고 있다. 오클로는 마이크로 크기의 고급 핵연료 기술과 폐기물 감축에 중점을 두는 첨단 원자로 개발사로, 실적 발표는 회사의 사업 진전 상황을 나타내는 중요한 신호이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-reports-earnings-aug-7-202001575.html",
+    "k": "oklo reports earnings on aug 7 here s what investors should be watching",
+    "id": "3ed95c99"
+  },
+  {
     "date": "2026-08-03",
     "title": "두산에너빌리티·고려정밀공업·재료연구원, 기후부 'SMR 제조혁신 핵심과제' 선정",
     "summary": "두산에너빌리티, 고려정밀공업, 재료연구원이 한국 정부(기후부) 주관 'SMR 제조혁신 핵심과제'에 선정됨.",
@@ -1267,6 +1385,21 @@ window.SMR_NEWS = [
     "url": "https://interestingengineering.com/energy/49-year-u-s-nuclear-power-site-prepares-for-future-with-four-smr-300-reactors",
     "k": "us clears oldest nuclear plant site for four advanced smr 300 reactors",
     "id": "5674d082"
+  },
+  {
+    "date": "2026-08-03",
+    "title": "월스트리트가 AI 전망을 틀렸다면: 오클로 투자 가치는?",
+    "summary": "인공지능(AI) 전망의 불확실성 속에서 오클로의 장기 투자 가치를 분석하는 예측성 기사이다.",
+    "summaryLong": "야후 파이낸스(Yahoo Finance)의 이 기사는 월스트리트(Wall Street) 분석가들의 AI 시장 전망이 틀렸을 경우를 가정하고, 첨단원자로 개발사 오클로(Oklo)의 투자 가치가 여전히 유지될지를 분석하고 있다. 오클로는 데이터센터와 산업용 전력 공급을 목표로 하는 마이크로 규모 첨단 원자로 개발사로, 이 기사는 AI 수요 둔화 시나리오에서도 핵전력의 가치를 검토하는 투자 관점의 의견성 보도이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-wrong-ai-oklo-113500690.html",
+    "k": "if wall street is wrong about ai would oklo still be worth buying",
+    "op": 1,
+    "id": "27bbc5f6"
   },
   {
     "date": "2026-08-02",
@@ -26399,4 +26532,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-06 08:13 KST";
+window.SMR_UPDATED = "2026-08-06 08:42 KST";
