@@ -362,6 +362,21 @@ window.SMR_NEWS = [
     "id": "dbdb808c"
   },
   {
+    "date": "2026-08-05",
+    "title": "현대건설, 미국 AI 데이터센터용 SMR 공급 타당성 평가 착수",
+    "summary": "현대건설이 미국의 인공지능(AI) 데이터센터를 위한 소형모듈원자로(SMR) 공급 프로젝트의 타당성 평가를 시작했다.",
+    "summaryLong": "현대건설이 미국 시장의 인공지능(AI) 데이터센터 전력 공급용 소형모듈원자로(SMR) 사업의 타당성 평가(feasibility study)에 착수했다. 이는 현대건설이 SMR 기술을 바탕으로 미국의 신흥 전력 수요 시장에 진출하기 위한 본격적인 검토 단계로, 향후 계약 체결 등 실제 사업화로 이어질 가능성을 보여주는 중요한 마일스톤이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대건설",
+    "region": "US",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/Global-Biz/2026/08/202608060726116080fbbec65dfb_1",
+    "k": "현대건설 ai 데이터센터용 smr 공급 타당성 평가 착수",
+    "ko": 1,
+    "id": "bb972cea"
+  },
+  {
     "date": "2026-08-04",
     "title": "원자력산업협회, 정부의 SMR 국가전략기술 지정 환영 성명",
     "summary": "한국 정부의 소형모듈원자로(SMR)를 국가전략기술 지정 및 2026년 세제개편안에 포함시킨 정책을 산업계가 환영했다.",
@@ -26532,4 +26547,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-06 08:42 KST";
+window.SMR_UPDATED = "2026-08-06 15:11 KST";
