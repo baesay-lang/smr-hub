@@ -377,6 +377,50 @@ window.SMR_NEWS = [
     "id": "bb972cea"
   },
   {
+    "date": "2026-08-05",
+    "title": "웨스팅하우스, AP1000 글로벌 배치 및 IPO 계획 발표",
+    "summary": "웨스팅하우스가 AP1000 원자로 최대 91기의 글로벌 배치 계획 및 IPO 관련 소식을 발표했다.",
+    "summaryLong": "웨스팅하우스와 그 주요 주주인 카메코(Cameco), 브룩필드 자산관리(Brookfield Asset Management)가 최근 발표한 내용에 따르면, 웨스팅하우스의 장기 전략은 가압경수로(AP1000) 기함 원자로를 전 세계적으로 최대 91기 배치하는 것을 포함한다. 이는 웨스팅하우스의 상장(IPO) 추진과 함께 발표된 중요한 비즈니스 계획이다.",
+    "cat": "투자",
+    "type": "PWR",
+    "dev": "Westinghouse",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-08-05/article-8272/westinghouse-updates-ap1000-potential-ipo-amentum-partnership/",
+    "k": "westinghouse updates ap1000 potential ipo amentum partnership",
+    "id": "56a4c8dc"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "원자력산업협회, 차세대 SMR 국가전략기술 지정 환영",
+    "summary": "한국 정부가 차세대 SMR을 국가전략기술로 지정한 정책 결정을 원자력산업협회와 회원사 561개가 환영했다.",
+    "summaryLong": "원자력산업협회가 회원사 561개 기업과 함께 한국 정부의 차세대 SMR 국가전략기술 지정 결정을 환영하는 성명을 발표했다. 이는 SMR 산업 육성을 위한 정부의 전략적 정책 수립을 의미하며, 향후 세제 지원, 규제 개선, 투자 확대 등을 통한 산업 도약의 전환점이 될 것으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "epj.co.kr",
+    "url": "http://www.epj.co.kr/news/articleView.html?idxno=39110",
+    "k": "원자력산업협회 회원사 561개사와 차세대 smr 국가전략기술 지정 에 환영",
+    "ko": 1,
+    "id": "df2247f3"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "창원특례시, SMR 국가전략기술 지정 환영 및 세제지원 확대 기대",
+    "summary": "창원특례시가 정부의 SMR 국가전략기술 지정을 환영하고 세제지원 확대를 기대하는 입장을 표현했다.",
+    "summaryLong": "창원특례시가 한국 정부의 SMR 국가전략기술 지정 정책을 환영하며, 향후 세제지원 확대와 규제 개선을 통해 지역 원전산업의 경쟁력 강화를 기대하는 성명을 발표했다. 창원은 국내 원전 부품·장비 산업의 중심지로, 이번 정책이 지역 중소·중견 기업의 SMR 참여 기회 확대로 이어질 것으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "thekorea.kr",
+    "url": "http://www.thekorea.kr/bbs/board.php?bo_table=news&wr_id=535747",
+    "k": "창원특례시 smr 국가전략기술 지정 환영 세제지원 확대 기대 뉴스",
+    "ko": 1,
+    "id": "eaf8ece7"
+  },
+  {
     "date": "2026-08-04",
     "title": "원자력산업협회, 정부의 SMR 국가전략기술 지정 환영 성명",
     "summary": "한국 정부의 소형모듈원자로(SMR)를 국가전략기술 지정 및 2026년 세제개편안에 포함시킨 정책을 산업계가 환영했다.",
@@ -1053,6 +1097,36 @@ window.SMR_NEWS = [
     "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-reports-earnings-aug-7-202001575.html",
     "k": "oklo reports earnings on aug 7 here s what investors should be watching",
     "id": "3ed95c99"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "경남도·원전업계, SMR·MMR 국가전략기술 지정 환영",
+    "summary": "경상남도와 원전업계가 소형모듈원자로(SMR), 마이크로모듈원자로(MMR) 국가전략기술 지정을 환영했다.",
+    "summaryLong": "경상남도와 원전업계가 소형모듈원자로(SMR)와 마이크로모듈원자로(MMR)의 국가전략기술 지정을 환영하는 입장을 보였다. 이는 한국 정부의 SMR·초소형로 산업 지원 정책 시행에 따른 지역·업계의 긍정적 반응이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "newsgn.com",
+    "url": "https://www.newsgn.com/news/articleView.html?idxno=566098",
+    "k": "경남도 원전업계 smr mmr 국가전략기술 지정 환영",
+    "ko": 1,
+    "id": "69ecded1"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "경상남도, SMR 국가전략기술 지정 환영…원전산업 새 전기",
+    "summary": "경상남도가 소형모듈원자로(SMR) 국가전략기술 지정을 환영하며 원전산업의 새로운 기회로 평가했다.",
+    "summaryLong": "경상남도가 소형모듈원자로(SMR)의 국가전략기술 지정을 환영하면서 이를 한국 원전산업의 새로운 전기가 될 것으로 기대했다. SMR 산업 육성에 따른 지역 경제 활성화와 산업 전환의 기회로 평가하는 지방정부의 반응이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "koreaeaglenews.com",
+    "url": "http://www.koreaeaglenews.com/news/articleView.html?idxno=103540",
+    "k": "경상남도 smr 국가전략기술 지정 환영 원전산업 새 전기 마련",
+    "ko": 1,
+    "id": "59f2097e"
   },
   {
     "date": "2026-08-03",
@@ -26547,4 +26621,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-06 15:11 KST";
+window.SMR_UPDATED = "2026-08-06 15:43 KST";

@@ -370,6 +370,50 @@ window.SMR_NEWS = [
   "id": "bb972cea"
  },
  {
+  "date": "2026-08-05",
+  "title": "웨스팅하우스, AP1000 글로벌 배치 및 IPO 계획 발표",
+  "summary": "웨스팅하우스가 AP1000 원자로 최대 91기의 글로벌 배치 계획 및 IPO 관련 소식을 발표했다.",
+  "summaryLong": "웨스팅하우스와 그 주요 주주인 카메코(Cameco), 브룩필드 자산관리(Brookfield Asset Management)가 최근 발표한 내용에 따르면, 웨스팅하우스의 장기 전략은 가압경수로(AP1000) 기함 원자로를 전 세계적으로 최대 91기 배치하는 것을 포함한다. 이는 웨스팅하우스의 상장(IPO) 추진과 함께 발표된 중요한 비즈니스 계획이다.",
+  "cat": "투자",
+  "type": "PWR",
+  "dev": "Westinghouse",
+  "region": "US",
+  "source": "ANS Newswire",
+  "url": "https://www.ans.org/news/2026-08-05/article-8272/westinghouse-updates-ap1000-potential-ipo-amentum-partnership/",
+  "k": "westinghouse updates ap1000 potential ipo amentum partnership",
+  "id": "56a4c8dc"
+ },
+ {
+  "date": "2026-08-05",
+  "title": "원자력산업협회, 차세대 SMR 국가전략기술 지정 환영",
+  "summary": "한국 정부가 차세대 SMR을 국가전략기술로 지정한 정책 결정을 원자력산업협회와 회원사 561개가 환영했다.",
+  "summaryLong": "원자력산업협회가 회원사 561개 기업과 함께 한국 정부의 차세대 SMR 국가전략기술 지정 결정을 환영하는 성명을 발표했다. 이는 SMR 산업 육성을 위한 정부의 전략적 정책 수립을 의미하며, 향후 세제 지원, 규제 개선, 투자 확대 등을 통한 산업 도약의 전환점이 될 것으로 평가된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "epj.co.kr",
+  "url": "http://www.epj.co.kr/news/articleView.html?idxno=39110",
+  "k": "원자력산업협회 회원사 561개사와 차세대 smr 국가전략기술 지정 에 환영",
+  "ko": 1,
+  "id": "df2247f3"
+ },
+ {
+  "date": "2026-08-05",
+  "title": "창원특례시, SMR 국가전략기술 지정 환영 및 세제지원 확대 기대",
+  "summary": "창원특례시가 정부의 SMR 국가전략기술 지정을 환영하고 세제지원 확대를 기대하는 입장을 표현했다.",
+  "summaryLong": "창원특례시가 한국 정부의 SMR 국가전략기술 지정 정책을 환영하며, 향후 세제지원 확대와 규제 개선을 통해 지역 원전산업의 경쟁력 강화를 기대하는 성명을 발표했다. 창원은 국내 원전 부품·장비 산업의 중심지로, 이번 정책이 지역 중소·중견 기업의 SMR 참여 기회 확대로 이어질 것으로 평가된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "thekorea.kr",
+  "url": "http://www.thekorea.kr/bbs/board.php?bo_table=news&wr_id=535747",
+  "k": "창원특례시 smr 국가전략기술 지정 환영 세제지원 확대 기대 뉴스",
+  "ko": 1,
+  "id": "eaf8ece7"
+ },
+ {
   "date": "2026-08-04",
   "title": "원자력산업협회, 정부의 SMR 국가전략기술 지정 환영 성명",
   "summary": "한국 정부의 소형모듈원자로(SMR)를 국가전략기술 지정 및 2026년 세제개편안에 포함시킨 정책을 산업계가 환영했다.",
@@ -842,51 +886,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-08-04",
-  "title": "경남도, SMR·MMR 국가전략기술 지정 환영",
-  "summary": "경남도는 2026년 정부 세제개편안에서 소형모듈원자로(SMR)와 초소형원자로(MMR)가 국가전략기술로 지정된 것을 환영했다.",
-  "summaryLong": "경남도는 2026년 정부 세제개편안에 포함된 소형모듈원자로(SMR)와 초소형원자로(MMR)의 국가전략기술 지정을 환영하는 입장을 표명했다. 원전 제조의 중심지인 경남도는 이번 지정이 지역 원자력산업 발전에 긍정적 영향을 미칠 것으로 기대하고 있다. 이는 정부가 SMR·MMR을 국가 핵심 기술로 공식 인정하고 정책적 지원을 강화하는 신호로, 한국의 첨단로 산업 발전 방향을 보여주는 정책 발표이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "연합뉴스 경제 최신기사",
-  "url": "https://www.yna.co.kr/view/AKR20260804122300052",
-  "k": "원전 제조 중심지 경남도 smr 국가전략기술 지정 환영",
-  "ko": 1,
-  "id": "f7e3d57c"
- },
- {
-  "date": "2026-08-04",
-  "title": "정부, SMR 국가전략기술로 지정…원전업계 '과감한 결단' 환영",
-  "summary": "정부가 소형모듈원자로(SMR)를 국가전략기술로 지정하자 원자력 업계는 과감한 결단이라며 환영했다.",
-  "summaryLong": "정부는 소형모듈원자로(SMR)를 국가전략기술로 공식 지정했다. 원자력 업계는 이 결정을 전략적으로 중요한 과감한 결단이라고 평가하고 환영 입장을 표시했다. 이는 한국 정부가 SMR을 국가 산업 정책의 중심에 두는 방향을 명확히 한 정책 결정이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "biz.chosun.com",
-  "url": "https://biz.chosun.com/industry/company/2026/08/04/QCEUSPISZFDBHBISZDWW7AJORY/",
-  "k": "정부 smr 국가전략기술로 지정 원전업계 과감한 결단 환영 조선비즈",
-  "ko": 1,
-  "id": "7319cde9"
- },
- {
-  "date": "2026-08-04",
-  "title": "SMR 국가전략기술 지정으로 세제 혜택 제공, 원전업계 환영",
-  "summary": "정부가 SMR을 국가전략기술으로 지정하고 세제 혜택을 부여하자 원전업계가 적극 환영했다.",
-  "summaryLong": "정부가 소형모듈원자로(SMR)를 국가전략기술으로 지정하면서 관련 산업에 세제 혜택을 제공하기로 한 정책 결정을 원전업계가 적극 환영했다. 세제 혜택은 기업의 투자와 기술 개발을 촉진하는 인센티브로 작용하여 SMR 산업의 경쟁력 강화와 상용화 가속화에 도움이 될 것으로 평가된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "news.nate.com",
-  "url": "https://news.nate.com/view/20260804n18844?mid=n1101",
-  "k": "smr 국가전략기술 지정해 세제 혜택 원전업계 적극 환영",
-  "ko": 1,
-  "id": "984406a5"
- },
- {
-  "date": "2026-08-04",
   "title": "현대건설, 홀텍·엔터지와 미국 걸프만에 SMR-300 프로젝트 추진",
   "summary": "현대건설이 홀텍(Holtec)·엔터지(Entergy)와 손잡고 미국 걸프만 지역에 웨스팅하우스 AP300 프로젝트를 추진한다.",
   "summaryLong": "현대건설이 미국의 홀텍(Holtec) 인터내셔널과 전력사 엔터지(Entergy)와 합작하여 미국 걸프만(Gulf Coast) 지역에 AP300 소형모듈원자로(SMR) 프로젝트를 진행할 계획을 밝혔다. 이는 국내 건설사의 북미 소형로 시장 진출의 첫 사례로, 현대건설이 설계·건설 역량을 제공하고 미국 현지 기업들과 협력하는 구조다. 프로젝트는 미국의 탄소중립 에너지 공급 정책과 부지 재활용 전략의 연장선상에 있다.",
@@ -969,20 +968,6 @@ window.SMR_NEWS = [
   "url": "https://www.world-nuclear-news.org/articles/cameco-announces-go-public-plans-for-westinghouse",
   "k": "cameco announces ipo plan for westinghouse",
   "id": "e07b3f30"
- },
- {
-  "date": "2026-07-31",
-  "title": "웨스팅하우스 일렉트릭, IPO 신청 — 원자력 수요 증가 속 미국 에너지부(DOE) 175억 달러 융자",
-  "summary": "웨스팅하우스 일렉트릭이 미국 증권거래위원회(SEC)에 IPO 등록 신청서를 제출했으며, 미국 에너지부로부터 175억 달러 규모의 AP1000 10기 건설 융자를 받는다.",
-  "summaryLong": "웨스팅하우스 일렉트릭 컴퍼니가 미국 증권거래위원회(SEC)에 신규공개(IPO) 등록 신청서를 제출했다. 이는 전력 수요 증가와 선진국들의 탄소중립 정책 추진 속에서 이루어진 것으로, 동사는 미국 에너지부(DOE)로부터 AP1000 원전 10기 건설에 필요한 175억 달러 규모의 융자 지원을 받게 된다. 이는 원자력 산업의 부흥과 민간 기업의 시장 진출 확대를 보여주는 신호로 해석된다.",
-  "cat": "투자",
-  "type": "PWR",
-  "dev": "Westinghouse",
-  "region": "US",
-  "source": "Power Engineering",
-  "url": "https://www.power-eng.com/nuclear/westinghouse-electric-files-for-ipo-as-nuclear-demand-grows/",
-  "k": "westinghouse electric files for ipo as nuclear demand grows",
-  "id": "07688562"
  },
  {
   "date": "2026-07-30",
@@ -1480,5 +1465,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-06 15:11 KST";
-window.SMR_TOTAL = 1827;
+window.SMR_UPDATED = "2026-08-06 15:43 KST";
+window.SMR_TOTAL = 1832;
