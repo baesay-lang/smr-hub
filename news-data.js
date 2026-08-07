@@ -111,6 +111,107 @@ window.SMR_NEWS = [
     "id": "58d62dbc"
   },
   {
+    "date": "2026-08-06",
+    "title": "오클로 그로브스 원자로, DOE 파일럿 프로그램 다섯 번째 임계 달성",
+    "summary": "오클로(Oklo)의 그로브스 동위원소 시험로(Groves Isotope Test Reactor)가 미국 에너지부(DOE) 원자로 파일럿 프로그램(RPP) 하에서 다섯 번째로 임계 상태에 도달했으며, 민간 소유 부지에서는 처음이다.",
+    "summaryLong": "오클로가 텍사스(Texas) 록하트(Lockhart)에 위치한 그로브스 동위원소 시험로를 운영하는 저출력 시험로가 2026년 8월 5일 오후 9시 19분(EDT)에 자기 지탱 가능한 임계 상태에 도달했다. 이는 미국 에너지부 원자로 파일럿 프로그램 하에서 달성된 다섯 번째 임계 사례이며, 민간이 소유한 부지에서 프로그램 하의 최초 임계 달성이다. 이 마일스톤은 오클로의 소형 모듈 원자로(SMR) 기술 개발과 상용화 추진의 중요한 진전을 의미한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "오클로(Oklo)",
+    "region": "US",
+    "source": "POWER Magazine",
+    "url": "https://www.powermag.com/oklos-groves-becomes-fifth-doe-pilot-reactor-to-reach-criticality-first-on-private-land/",
+    "k": "oklo s groves becomes fifth doe pilot reactor to reach criticality first on private land",
+    "id": "9030d83a"
+  },
+  {
+    "date": "2026-08-06",
+    "title": "뉴스케일, 파라곤과 제어계측 설계 계약 체결",
+    "summary": "뉴스케일 파워(NuScale Power)가 파라곤 에너지 솔루션(Paragon Energy Solutions)과 77 MWe 뉴스케일 파워 모듈용 고도로 통합된 보호계통(HIPS) 최종 설계 개발 계약을 체결했다.",
+    "summaryLong": "뉴스케일 파워가 미론 테크놀로지스(Mirion Technologies) 산하 파라곤 에너지 솔루션과 계약을 체결하여, 단일 제어실로 운영 가능한 77 MWe 뉴스케일 파워 모듈 대상의 고도로 통합된 보호계통(HIPS) 최종 설계 개발을 진행하기로 했다. 이 계약은 뉴스케일 소형 모듈 원자로의 상용화 추진에 필요한 주요 계통의 설계 완성을 목표로 한다.",
+    "cat": "계약",
+    "type": "PWR",
+    "dev": "뉴스케일(NuScale)",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-08-06/article-8226/industry-updateaugust-2026/",
+    "k": "industry update august 2026",
+    "id": "360d0478"
+  },
+  {
+    "date": "2026-08-06",
+    "title": "엑스에너지-센트러스, Xe-100용 HALEU 공급 계약 체결",
+    "summary": "엑스에너지(X-Energy)와 센트러스 에너지(Centrus Energy)가 엑스에너지의 Xe-100 첨단 소형 모듈 원자로 개발을 위한 고순도 저농축 우라늄(HALEU) 장기 공급 확정 계약을 체결했다.",
+    "summaryLong": "엑스에너지와 센트러스 에너지가 2026년 8월 6일 HALEU(고순도 저농축 우라늄) 장기 공급에 관한 확정 계약을 체결했다. 이 계약은 엑스에너지의 고온가스로(HTGR) 기반 Xe-100 첨단 소형 모듈 원자로 개발의 상용화 추진을 위한 것으로, 엑스에너지가 센트러스에 선금(prepayment)을 제공하고 동테네시(Eastern Tennessee)에 청정 에너지 투자와 일자리 창출을 목표로 한다. 이 계약은 HALEU 농축 및 TRISO 연료 제조의 국내 상용화를 앞당기는 의의가 있다.",
+    "cat": "계약",
+    "type": "HTGR",
+    "dev": "엑스에너지(X-Energy)",
+    "region": "US",
+    "source": "X-Energy, Inc. News Releases",
+    "url": "https://investors.x-energy.com/news-releases/news-release-details/x-energy-centrus-sign-haleu-supply-agreement-xe-100-advanced",
+    "k": "x energy centrus sign haleu supply agreement for xe 100 advanced small modular reactor development",
+    "id": "bac82c42"
+  },
+  {
+    "date": "2026-08-06",
+    "title": "큐리오(Curio), 뉴스케일, 프라마톰(Framatome) 핵연료 솔루션 MOU 체결",
+    "summary": "큐리오(Curio), 뉴스케일(NuScale), 프라마톰(Framatome)이 핵연료 솔루션 개발을 위한 양해각서(MOU)를 체결했다.",
+    "summaryLong": "큐리오(Curio), 뉴스케일(NuScale Power), 프라마톰(Framatome)의 세 기관이 소형모듈원자로(SMR) 용 핵연료 솔루션 개발에 대한 양해각서(MOU)를 공동 체결했다. 이는 SMR 산업의 공급망 강화와 연료 기술 확보를 위한 전략적 협력의 의미를 갖는 중요한 계약 체결로, 상용화에 필수적인 연료 공급 생태계 구축을 나타낸다.",
+    "cat": "계약",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "ca.investing.com",
+    "url": "https://ca.investing.com/news/stock-market-news/curio-nuscale-framatome-sign-mou-on-nuclear-fuel-solutions-93CH-4781868",
+    "k": "curio nuscale framatome sign mou on nuclear fuel solutions by investing com",
+    "id": "ad93771e"
+  },
+  {
+    "date": "2026-08-06",
+    "title": "서울대(SNU) NEXFO, SMR·마이크로원자로(MMR) 지속가능성 논의",
+    "summary": "서울대(SNU)의 NEXFO가 소형모듈원자로(SMR)와 마이크로원자로(MMR)의 지속가능성 해법을 주제로 포럼을 개최했다.",
+    "summaryLong": "서울대(SNU)의 NEXFO가 소형모듈원자로(SMR)와 마이크로원자로(MMR)의 지속가능성 관련 과제와 해법을 논의하는 행사를 개최했다. 이는 한국 내 차세대 소형원자로 기술 발전과 정책 기반 조성을 위한 학술·산업계 협력 활동으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5510",
+    "k": "서울대 nexfo smr mmr 지속가능성 해법 논의",
+    "ko": 1,
+    "id": "dc9e2cad"
+  },
+  {
+    "date": "2026-08-06",
+    "title": "미국 오클로(Oklo) 시험로 임계 및 딥피션(Deep Fission) 설계 승인, 혁신 SMR 가속화",
+    "summary": "오클로(Oklo)의 시험로가 임계에 도달하고 딥피션(Deep Fission) 설계가 승인되어 혁신 소형모듈원자로(SMR) 상용화가 가속화되고 있다.",
+    "summaryLong": "미국 오클로(Oklo)가 자신의 시험로에서 핵 임계 달성과 함께 차세대 원자로 설계인 딥피션(Deep Fission)이 설계 승인을 획득했다. 이 이중 성과는 혁신형 소형모듈원자로(SMR) 기술의 상용화 진전을 의미하며, 차세대 원전 시장 형성을 가속화할 것으로 전망된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5507",
+    "k": "미국 오클로 시험로 임계 및 딥피션 설계 승인 혁신 smr 가속화",
+    "ko": 1,
+    "id": "559b1991"
+  },
+  {
+    "date": "2026-08-06",
+    "title": "센트러스(Centrus)·엑스에너지(X-energy) HALEU 공급 계약…차세대 원전 상용화 청신호",
+    "summary": "센트러스(Centrus)와 엑스에너지(X-energy)가 고농축우라늄(HALEU) 공급 계약을 체결하여 차세대 원전 상용화의 신호탄을 올렸다.",
+    "summaryLong": "미국의 우라늄 농축 기업 센트러스(Centrus)와 소형모듈원자로(SMR) 개발사 엑스에너지(X-energy) 간에 고농축우라늄(HALEU) 공급 계약이 체결되었다. 이는 고급 연료의 공급 체계를 확보하고 차세대 혁신형 원전의 상용화 조건을 갖추는 중요한 계약으로, SMR 및 첨단로 산업화의 실질적 진전을 의미한다.",
+    "cat": "계약",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5502",
+    "k": "센트러스 엑스에너지 haleu 공급 계약 차세대 원전 상용화 청신호",
+    "ko": 1,
+    "id": "589b1e4a"
+  },
+  {
     "date": "2026-08-05",
     "title": "561개 원전기업 수혜, SMR 세액공제 '마중물 될 것'",
     "summary": "소형모듈원전(SMR) 관련 세액공제가 561개 원전기업에 혜택을 주며 산업 활성화의 '마중물' 역할을 할 것으로 기대된다.",
@@ -1290,6 +1391,21 @@ window.SMR_NEWS = [
     "k": "companies to evaluate opportunities for holtec reactor deployment in us south",
     "op": 1,
     "id": "8c0bb5df"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "원자력산업협회, SMR 국가전략기술 지정 환영",
+    "summary": "원자력산업협회가 소형모듈원자로(SMR)의 국가전략기술 지정을 환영하는 입장을 표명했다.",
+    "summaryLong": "한국 원자력산업협회가 소형모듈원자로(SMR)가 국가전략기술로 지정된 것에 대해 환영 의사를 표시했다. 이는 정부 차원의 SMR 산업 육성 의지를 반영한 정책 발표로, 국내 SMR 산업의 발전 기반 조성을 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "asiae.co.kr",
+    "url": "https://www.asiae.co.kr/article/2026080410584822372",
+    "k": "원자력산업협회 smr 국가전략기술 지정 환영",
+    "ko": 1,
+    "id": "aae5f685"
   },
   {
     "date": "2026-08-03",
@@ -26784,4 +26900,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-07 10:07 KST";
+window.SMR_UPDATED = "2026-08-07 10:36 KST";
