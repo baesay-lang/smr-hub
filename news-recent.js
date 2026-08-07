@@ -1,6 +1,36 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-08-07",
+  "title": "인도, 국내 소형모듈원자로 개발에 200억 루피 투자 추진",
+  "summary": "인도가 자국 소형모듈원자로(SMR) 개발을 위해 200억 인도 루피(INR 20,000 Crore) 규모의 국책 지원을 추진 중이다.",
+  "summaryLong": "인도가 핵에너지 산업 고도화 미션의 일환으로 자국 소형모듈원자로(SMR) 개발에 200억 인도 루피(INR 20,000 Crore) 규모의 자금 지원을 가속화하고 있다. 이는 인도의 주요 에너지 정책 프로그램으로서 국내 SMR 기술 자립과 산업 육성을 목표로 한다. 솔라쿼터(SolarQuarter) 보도에 따른 정부 정책 공시로, 인도 내 SMR 개발 생태계 조성의 중요한 정책적 신호다.",
+  "cat": "정책",
+  "type": "General",
+  "dev": "",
+  "region": "JP",
+  "source": "solarquarter.com",
+  "url": "https://solarquarter.com/2026/08/07/india-accelerates-nuclear-energy-mission-with-inr-20000-crore-push-for-indigenous-small-modular-reactors/",
+  "k": "india accelerates nuclear energy mission with inr 20 000 crore push for indigenous small modular reactors",
+  "id": "a3248115"
+ },
+ {
+  "date": "2026-08-07",
+  "title": "싱가포르, 한국과 SMR 협력 및 아세안(ASEAN) 파워그리드 구축 검토",
+  "summary": "싱가포르 국무장관이 한국과의 소형모듈원자로(SMR) 협력 및 동남아 전력망 연계 구축을 언급했다.",
+  "summaryLong": "싱가포르 국무장관이 한국(Korea)과의 소형모듈원자로(SMR) 협력 추진과 아세안(ASEAN) 국가들을 연결하는 파워그리드(전력망) 구축 구상을 밝혔다. 이는 한국의 SMR 기술과 전력 공급 인프라를 동남아시아 지역에 확대하는 협력 방향을 시사하는 발언으로, 정부 간 전략적 에너지 협력의 가능성을 제시한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "munhwa.com",
+  "url": "https://www.munhwa.com/article/11607997",
+  "k": "싱가포르 국무장관 과 smr협력 아세안 파워그리드 구축",
+  "ko": 1,
+  "op": 1,
+  "id": "5f208f44"
+ },
+ {
   "date": "2026-08-06",
   "title": "미국 시험로 마일스톤 달성",
   "summary": "오클로(Oklo)의 그로브스 동위원소 시험로(Groves Isotope Test Reactor)가 임계에 도달했고, 딥 피션(Deep Fission)의 지하 원자로가 안전설계 승인을 획득했다.",
@@ -203,6 +233,48 @@ window.SMR_NEWS = [
   "k": "센트러스 엑스에너지 haleu 공급 계약 차세대 원전 상용화 청신호",
   "ko": 1,
   "id": "589b1e4a"
+ },
+ {
+  "date": "2026-08-06",
+  "title": "오클로, 아이소톱 테스트 원자로 임계 달성",
+  "summary": "오클로(Oklo)의 그로브스 아이소톱 테스트 원자로(Groves Isotope Test Reactor)가 미국 에너지부(DOE) 인허가 절차에 따라 임계에 도달했다.",
+  "summaryLong": "오클로가 텍사스(Texas) 로크하트(Lockhart)의 그로브스 시설에서 운영 중인 아이소톱 테스트 원자로가 현지 시간 수요일 오후 9시 19분에 임계에 도달했다고 미국 에너지부가 발표했다. 이는 DOE 인허가 절차에 따라 임계를 달성한 다섯 번째 원자로이며, 오클로의 소형모듈원자로(SMR) 기술 개발이 중요한 마일스톤을 통과했음을 의미한다. 이 성과는 향후 상용화 추진에 있어 기술적 가능성을 입증하는 의미가 있다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "ANS Newswire",
+  "url": "https://www.ans.org/news/2026-08-06/article-8277/oklos-isotope-test-reactor-achieves-criticality/",
+  "k": "oklo s isotope test reactor achieves criticality",
+  "id": "69dc1c6f"
+ },
+ {
+  "date": "2026-08-06",
+  "title": "센트러스 에너지, 엑스에너지와 LEU·HALeu 공급 계약 체결",
+  "summary": "센트러스 에너지(Centrus Energy)가 엑스에너지(X-energy)와 저농축우라늄(LEU) 및 고농축우라늄(HALEU) 공급 계약을 체결했다.",
+  "summaryLong": "센트러스 에너지가 엑스에너지와 국내 LEU 및 HALEU 농축 공급 계약을 체결했다고 2026년 8월 6일 발표했다. 계약에는 엑스에너지의 사전 선금이 포함되며, 이 프로젝트는 미국 동부 테네시(Eastern Tennessee) 지역에 청정에너지 투자와 일자리를 창출할 것으로 예상된다. 이는 엑스에너지의 Xe-100 첨단 소형모듈원자로(Advanced Small Modular Reactor) 개발을 위한 연료 공급 기반을 마련하는 중요한 계약이다.",
+  "cat": "계약",
+  "type": "HTGR",
+  "dev": "X-energy, Centrus",
+  "region": "US",
+  "source": "Centrus Energy Corp. News Releases",
+  "url": "https://investors.centrusenergy.com/news-releases/news-release-details/centrus-energy-signs-leu-and-haleu-supply-agreement-x-energy",
+  "k": "centrus energy signs leu and haleu supply agreement with x energy",
+  "id": "e7858f39"
+ },
+ {
+  "date": "2026-08-06",
+  "title": "큐리오·뉴스케일·프라마톰, 차세대 핵연료 주기 MOU 체결",
+  "summary": "큐리오(Curio), 뉴스케일 파워(NuScale Power), 프라마톰(Framatome)이 차세대 핵연료 주기 발전을 위한 전략적 양해각서(MOU)를 체결했다.",
+  "summaryLong": "소형모듈원자로(SMR) 개발사 뉴스케일 파워, 핵연료 기술사 큐리오, 원전 장비 제조사 프라마톰이 혁신적 핵연료 주기 구축을 위한 전략적 양해각서를 체결했다. 이 협약은 SMR 상용화에 필수적인 완전한 핵연료 서플라이 체인 구축을 목표로 하며, 세 기관의 기술과 경험을 결합하는 의의가 있다.",
+  "cat": "계약",
+  "type": "PWR",
+  "dev": "NuScale",
+  "region": "US",
+  "source": "businesswire.com",
+  "url": "https://www.businesswire.com/news/home/20260806687946/en/Curio-NuScale-Power-and-Framatome-Sign-Strategic-MOU-to-Advance-the-Future-Nuclear-Fuel-Cycle?feedref=JjAwJuNHiystnCoBq_hl-Ypx8OuIA-qqxXAfOC1go22PU1fv-fCAtwybrddq94az7dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSFja_QkRbjKVqSkUPuEMBEw%3D%3D",
+  "k": "curio nuscale power and framatome sign strategic mou to advance the future nuclear fuel cycle",
+  "id": "112b8ff6"
  },
  {
   "date": "2026-08-05",
@@ -663,6 +735,21 @@ window.SMR_NEWS = [
   "id": "167a1d5c"
  },
  {
+  "date": "2026-08-05",
+  "title": "창원특례시, SMR 국가전략기술 지정 적극 환영",
+  "summary": "창원특례시가 소형모듈원자로(SMR)의 국가전략기술 지정을 환영했다.",
+  "summaryLong": "경남 창원특례시가 소형모듈원자로(SMR)의 국가전략기술 지정을 적극 환영하는 입장을 표현했다. 창원은 전국 최대 규모의 원전 및 중공업 산업 기지로서 SMR 산업 확대에 따른 지역 경제 활성화를 기대하고 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "knnewstoday.co.kr",
+  "url": "https://www.knnewstoday.co.kr/news/articleView.html?idxno=329185",
+  "k": "창원특례시 smr 국가전략기술 지정 적극 환영",
+  "ko": 1,
+  "id": "e0345d78"
+ },
+ {
   "date": "2026-08-04",
   "title": "원자력산업협회, 정부의 SMR 국가전략기술 지정 환영 성명",
   "summary": "한국 정부의 소형모듈원자로(SMR)를 국가전략기술 지정 및 2026년 세제개편안에 포함시킨 정책을 산업계가 환영했다.",
@@ -839,48 +926,6 @@ window.SMR_NEWS = [
   "url": "https://holtecinternational.com/hh-41-14/",
   "k": "holtec entergy and hyundai e c sign moa to evaluate potential smr 300 projects in gulf south region",
   "id": "fbfa8f26"
- },
- {
-  "date": "2026-08-04",
-  "title": "트리소-X, 오크리지(Oak Ridge) 핵연료 캠퍼스 70에이커 확장",
-  "summary": "엑스에너지(X-Energy)의 자회사인 트리소-X(TRISO-X)가 테네시주 오크리지의 핵연료 캠퍼스를 약 180에이커로 확장했다.",
-  "summaryLong": "엑스에너지의 자회사인 트리소-X가 테네시주 오크리지의 핵연료 생산 캠퍼스를 70에이커 추가 인수하여 약 180에이커로 확장했다. 이는 고온가스로(HTGR) 등 첨단로 연료인 TRISO(삼구조 등방성 연료입자) 연료의 장기 생산 역량 확대를 위한 조치다. 트리소-X는 미국 내 TRISO 연료의 주요 공급자이며, 이번 확장은 국내 원전 공급 체인 강화와 고급 핵연료 기술 자립의 의지를 보여준다.",
-  "cat": "기술",
-  "type": "HTGR",
-  "dev": "X-Energy",
-  "region": "US",
-  "source": "X-Energy, Inc. News Releases",
-  "url": "https://investors.x-energy.com/news-releases/news-release-details/triso-x-announces-70-acre-expansion-oak-ridge-nuclear-fuel",
-  "k": "triso x announces 70 acre expansion of oak ridge nuclear fuel campus",
-  "id": "f6927f05"
- },
- {
-  "date": "2026-08-04",
-  "title": "엑스에너지, 핵용 흑연 공급 능력 2배 확대",
-  "summary": "엑스에너지가 원자로용 핵연료 및 부품 공급을 위해 핵용 흑연 생산 능력을 2배로 확대했다.",
-  "summaryLong": "엑스에너지가 원자로용 흑연 공급 능력을 2배로 확대했다. 고온가스로 등 첨단로에서는 핵용 흑연이 필수 부품으로, 이번 확대는 엑스에너지의 HTGR 및 관련 연료 사업의 생산 역량 증강을 의미한다.",
-  "cat": "기술",
-  "type": "HTGR",
-  "dev": "X-Energy",
-  "region": "US",
-  "source": "metaltechnews.com",
-  "url": "https://www.metaltechnews.com/story/2026/08/05/tech-bytes/x-energy-doubles-nuclear-graphite-supply/2873.html",
-  "k": "x energy doubles nuclear graphite supply",
-  "id": "22dda436"
- },
- {
-  "date": "2026-08-04",
-  "title": "그리스 장관들, 원자력 에너지 선택지 검토",
-  "summary": "그리스 국무총리 회의가 소형모듈원자로(SMR)의 잠재력을 탐색하기 위한 부처간 위원회를 구성.",
-  "summaryLong": "그리스 국무총리실이 소형모듈원자로(SMR) 도입 가능성을 검토하기 위한 부처간 위원회(Inter-Ministerial Committee)를 설립했다는 뉴스다. 그리스 정부가 국가 에너지 정책 차원에서 SMR 기술의 도입을 본격적으로 검토하기 시작했음을 보여주는 정책 수준의 진전으로, 유럽 지역의 SMR 정책 추진 현황을 반영하고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "EU",
-  "source": "World Nuclear News",
-  "url": "https://www.world-nuclear-news.org/articles/greek-ministers-to-examine-nuclear-energy-options",
-  "k": "greek ministers to examine nuclear energy options",
-  "id": "784ff46d"
  },
  {
   "date": "2026-08-03",
@@ -1308,5 +1353,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-07 10:36 KST";
-window.SMR_TOTAL = 1851;
+window.SMR_UPDATED = "2026-08-07 14:15 KST";
+window.SMR_TOTAL = 1857;
