@@ -84,6 +84,132 @@ window.SMR_NEWS = [
     "id": "a1298967"
   },
   {
+    "date": "2026-08-07",
+    "title": "큐리오·뉴스케일·프라마톰, 사용후핵연료 재활용 협력",
+    "summary": "미국 고급원전 재활용 기술사 큐리오(Curio)가 뉴스케일 파워(NuScale Power)·프라마톰(Framatome)과 양해각서를 체결해 사용후핵연료에서 회수한 물질이 향후 연료·제품 스트림을 지원하는 방식을 평가하기로 했다.",
+    "summaryLong": "미국의 고급원전 재활용 기술 전문사 큐리오(Curio)가 소형모듈원자로(SMR) 개발사 뉴스케일 파워(NuScale Power)와 원자력 부품·연료 제조사 프라마톰(Framatome)과 양해각서(MOU)를 체결했다. 이 협력을 통해 세 회사는 사용후핵연료에서 회수한 물질이 향후 원전 연료 및 기타 제품 스트림을 어떻게 지원할 수 있을지를 평가할 계획이다. 이는 SMR 배치 확대 시 필요한 연료 공급망 구축과 핵연료 순환경제 실현을 위한 전략적 파트너십이다.",
+    "cat": "계약",
+    "type": "PWR",
+    "dev": "Curio, NuScale, Framatome",
+    "region": "US",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/us-collaboration-to-study-used-nuclear-fuel-recycling",
+    "k": "us collaboration to study used nuclear fuel recycling",
+    "id": "340b4060"
+  },
+  {
+    "date": "2026-08-07",
+    "title": "센트러스, 엑스에너지와 저농축우라늄 공급 계약 체결",
+    "summary": "연료 농축사 센트러스 에너지(Centrus Energy)가 첨단로 개발사 엑스에너지(X-energy)와 저농축우라늄(LEU)·고순도저농축우라늄(HALEU) 공급 계약을 체결했다.",
+    "summaryLong": "미국 연료 농축사 센트러스 에너지(Centrus Energy Corp.)가 고온가스로(HTGR) 개발사 엑스에너지(X-energy)와 저농축우라늄(LEU) 및 고순도저농축우라늄(HALEU) 공급 계약을 체결했다. 센트러스는 오하이오(Ohio)주 피크턴(Piketon)의 미국 원심분리기 플랜트(American Centrifuge Plant)에서 이 연료를 생산할 예정이며, 엑스에너지가 계획한 Xe-100 소형모듈원자로(SMR) 배치와 TRISO-X 연료 생산을 지원하게 된다. 이는 첨단로 개발사의 연료 공급망 구축 및 상용화 추진을 위한 중요 계약이다.",
+    "cat": "계약",
+    "type": "HTGR",
+    "dev": "Centrus, X-energy",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-08-07/article-8279/centrus-xenergy-sign-enrichment-contract-as-trisox-expands-tx1-campus/",
+    "k": "centrus x energy sign enrichment contract as triso x expands tx 1 campus",
+    "id": "eeb422e6"
+  },
+  {
+    "date": "2026-08-07",
+    "title": "뉴스케일, 원자로 파트너십을 통해 핵연료 사업 확대",
+    "summary": "뉴스케일 파워(NuScale Power)가 새로운 반응기 파트너십을 통해 핵연료 공급 계획을 확대했다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발사 뉴스케일 파워(NuScale Power)가 신규 반응기 파트너십 체결을 통해 원자력 연료 사업 계획을 확대하고 있다. 이는 뉴스케일이 자사 SMR 배치 확대에 필요한 연료 공급망 구축과 전략적 협력을 강화하려는 노력의 일환으로 보인다. 구체적 파트너사와 연료 수량 등 세부사항은 제공된 스니펫에서 불명확하다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "uk.finance.yahoo.com",
+    "url": "https://uk.finance.yahoo.com/news/nuscale-power-smr-expands-nuclear-191130489.html",
+    "k": "nuscale power smr expands its nuclear fuel plans with new reactor partnership",
+    "id": "42ef9e19"
+  },
+  {
+    "date": "2026-08-07",
+    "title": "오클로 2026년 2분기 어닝콜: 초임계 달성 및 전략 발표",
+    "summary": "오클로(Oklo)가 2026년 2분기 어닝콜에서 초임계(Criticality) 마일스톤과 전략을 발표했다.",
+    "summaryLong": "고급원자로 개발사 오클로(Oklo)가 상장 후 2026년 2분기 실적 어닝콜(Earnings Call)을 개최해 반응기 초임계(Criticality) 달성이라는 기록적 마일스톤과 향후 사업 전략을 공개했다. 이는 오클로의 소형모듈원자로(SMR) 상용화 일정과 기술 진전을 공개적으로 입증하는 공시이며, 투자자와 규제 당국에 사업 신뢰성을 강화하는 신호다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "uk.finance.yahoo.com",
+    "url": "https://uk.finance.yahoo.com/news/oklo-inc-oklo-q2-2026-210149204.html",
+    "k": "oklo inc oklo q2 2026 earnings call highlights record criticality milestone and strategic",
+    "id": "0f4afa92"
+  },
+  {
+    "date": "2026-08-07",
+    "title": "오클로(Oklo) 첫 매출 달성, 오로라 파워하우스(Aurora Powerhouse)로 핵심 성장 전략 강화",
+    "summary": "오클로(Oklo)가 첫 매출을 기록했으며, 오로라 파워하우스(Aurora Powerhouse) 사업으로 성장 전략을 강화하고 있다.",
+    "summaryLong": "오클로(Oklo)가 사업 초기 단계에서 첫 수익을 발생시켰으며, 오로라 파워하우스(Aurora Powerhouse)라는 핵심 프로젝트를 통해 마이크로 원자로 성장 전략을 가속화하고 있다. 이는 초소형로 개발사의 상용화 진전을 보여주는 중요한 마일스톤으로, 기술 개발과 실제 전력 판매 사업으로의 진출을 의미한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "benzinga.com",
+    "url": "https://www.benzinga.com/markets/mid-cap/26/08/61042612/oklo-reports-first-revenue-as-strengthens-nuclear-growth-strategy-with-aurora-powerhouse",
+    "k": "oklo reports first revenue as strengthens nuclear growth strategy with aurora powerhouse",
+    "id": "aa0282b9"
+  },
+  {
+    "date": "2026-08-07",
+    "title": "센트루스(Centrus), 엑스에너지(X-energy)와 고농축우라늄(HALEU) 공급 계약 체결",
+    "summary": "센트루스(Centrus)가 엑스에너지(X-energy)와 고농축우라늄(HALEU) 공급 계약을 체결했다.",
+    "summaryLong": "우라늄 농축 기업인 센트루스(Centrus)가 첨단원자로 개발사 엑스에너지(X-energy)와 고농축우라늄(HALEU, High-Assay Low-Enriched Uranium) 공급 계약을 체결했다. 이는 고온가스로(HTGR) 등 차세대 원자로를 위한 특수 핵연료 공급 계약으로, 엑스에너지의 상용화 추진에 필수적인 공급망 확보를 의미한다.",
+    "cat": "계약",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "energyintel.com",
+    "url": "https://www.energyintel.com/0000019f-dd0d-d1b0-a7ff-ff9dd4610000",
+    "k": "centrus inks haleu supply deal with x energy",
+    "id": "f3a1362c"
+  },
+  {
+    "date": "2026-08-07",
+    "title": "오클로 CEO, 미국에서 '세계 기록 속도'로 원자로 건설 중",
+    "summary": "오클로(Oklo) CEO가 미국에서 소형모듈원자로(SMR)를 세계 기록 속도로 건설 중이라고 밝혔다.",
+    "summaryLong": "오클로(Oklo)의 최고경영자는 미국에서 소형모듈원자로(SMR)가 세계 기록 수준의 빠른 속도로 건설되고 있다고 발표했다. 이는 SMR의 건설 효율성과 산업화 가능성을 보여주는 사례로, 첨단로 개발 업체들이 공사 일정을 단축하기 위한 노력의 결과를 반영한다. 구체적인 건설 속도나 프로젝트 일정에 대한 추가 정보는 원문 확인 필요.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "foxbusiness.com",
+    "url": "https://www.foxbusiness.com/video/6402991188112",
+    "k": "we re seeing nuclear reactors get build at world record speed in us oklo ceo says",
+    "id": "f6dda3e8"
+  },
+  {
+    "date": "2026-08-07",
+    "title": "오클로, 기록적인 11개월 만에 첫 임계달성 - 건설비 50% 증가",
+    "summary": "오클로(Oklo)가 그로브스(Groves) 원자로로 11개월 만에 첫 임계(criticality)를 달성했으며, 건설비가 50% 증가했다.",
+    "summaryLong": "오클로(Oklo)는 Q2 2026 어닝 콜에서 그로브스(Groves) 소형모듈원자로가 기록적인 11개월 건설 기간 만에 첫 임계(criticality)에 도달했다고 발표했다. 회사는 핵심 프로젝트를 앞당기면서 건설 지출을 50% 증가시켰으며, 이는 첨단로 개발의 가속화를 보여주는 주요 마일스톤이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.biggo.com",
+    "url": "https://finance.biggo.com/news/US_OKLO_2026-08-07",
+    "k": "oklo q2 2026 earnings call oklo hits first criticality in record 11 months construction spend leaps 50 as nuclear developer pulls forward key projects",
+    "id": "08f6abe4"
+  },
+  {
+    "date": "2026-08-07",
+    "title": "미국 에너지부, 다섯 번째 첨단로 임계 달성 축하",
+    "summary": "미국 에너지부(DOE) 원자력에너지실(Office of Nuclear Energy)이 다섯 번째 첨단로 임계 상태 달성을 축하했다.",
+    "summaryLong": "미국 에너지부(DOE)의 원자력에너지실(Office of Nuclear Energy)이 첨단로(advanced reactor) 개발 프로그램 범위 내에서 다섯 번째 임계 상태(criticality) 달성을 축하한다는 발표이다. 이는 미국의 다양한 첨단로 개발사들의 기술 마일스톤 진행을 나타내며, SMR·첨단로 상용화 추진 과정에서 순조로운 기술 진전을 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "tedmag.com",
+    "url": "https://tedmag.com/office-of-nuclear-energy-celebrates-fifth-advanced-reactor-criticality/",
+    "k": "office of nuclear energy celebrates fifth advanced reactor criticality",
+    "id": "6d4349d6"
+  },
+  {
     "date": "2026-08-06",
     "title": "미국 시험로 마일스톤 달성",
     "summary": "오클로(Oklo)의 그로브스 동위원소 시험로(Groves Isotope Test Reactor)가 임계에 도달했고, 딥 피션(Deep Fission)의 지하 원자로가 안전설계 승인을 획득했다.",
@@ -413,6 +539,34 @@ window.SMR_NEWS = [
     "k": "샘 올트먼의 smr 기업 오클로 동위원소 원자로 임계 도달",
     "ko": 1,
     "id": "2874865c"
+  },
+  {
+    "date": "2026-08-06",
+    "title": "오클로 그로브스 반응기, 1년 내 초임계 달성",
+    "summary": "첨단로 개발사 오클로(Oklo)의 그로브스(Groves) 반응기가 1년 내에 초임계(First Criticality) 마일스톤을 달성했다.",
+    "summaryLong": "고속로 개발사 오클로(Oklo)의 그로브스(Groves) 반응기 시제기가 건설 개시 후 1년 이내에 초임계(First Criticality) 마일스톤을 달성했다. 이는 오클로가 추진 중인 소형모듈원자로(SMR) 상용화 일정이 계획대로 진행되고 있음을 보여주는 중요한 기술 성과다. 초임계 달성은 반응기의 기본 안전성과 설계 타당성을 검증하는 필수 단계로, 향후 인허가 진전과 상용화에 긍정적 신호다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "oklo.com",
+    "url": "https://oklo.com/newsroom/news-details/2026/Oklos-Groves-Reactor-Achieves-First-Criticality-in-Under-a-Year/default.aspx",
+    "k": "oklo s groves reactor achieves first criticality in under a year",
+    "id": "708b9479"
+  },
+  {
+    "date": "2026-08-06",
+    "title": "미국 정부, 오클로 원자로 승인 - 에너지 우위 아젠다 추진",
+    "summary": "미국 정부가 오클로(Oklo)의 원자로를 승인했으며, 이는 미국의 에너지 우위 정책 추진의 일부이다.",
+    "summaryLong": "미국 정부가 오클로(Oklo)의 소형모듈원자로 프로젝트를 승인했다고 미국 제조업협회(NAM)가 발표했다. 이 승인은 미국의 에너지 안보 및 산업 경쟁력 강화를 목표로 하는 정부 정책의 일환으로 평가되고 있다. 구체적인 승인 범위와 일정에 대한 상세 정보는 원문 확인 필요.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "nam.org",
+    "url": "https://nam.org/u-s-government-clears-oklo-reactor-advancing-energy-dominance-agenda/",
+    "k": "u s government clears oklo reactor advancing energy dominance agenda national association of manufacturers",
+    "id": "b62bd064"
   },
   {
     "date": "2026-08-05",
@@ -901,6 +1055,20 @@ window.SMR_NEWS = [
     "k": "창원특례시 smr 국가전략기술 확대 환영 원전산업 경쟁력 강화 기대",
     "ko": 1,
     "id": "266f801a"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "소형모듈원자로의 큰 과제",
+    "summary": "소형모듈원자로(SMR)의 기술적·경제적 과제를 다룬 분석 기사.",
+    "summaryLong": "SMR(소형모듈원자로) 기술의 상용화 과정에서 직면하는 주요 과제와 한계를 살펴본 독일공영방송(DW)의 분석 기사이다. 제공된 스니펫만으로는 구체적 내용을 알 수 없으나, SMR 산업의 현황과 전망에 관한 기고문으로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "dw.com",
+    "url": "https://www.dw.com/en/small-reactors-big-promises-what-the-nuclear-trend-can-really-deliver/a-77491854",
+    "k": "the big catch with small modular nuclear reactors",
+    "id": "755740b6"
   },
   {
     "date": "2026-08-04",
@@ -1653,6 +1821,21 @@ window.SMR_NEWS = [
     "url": "https://www.nucnet.org/news/x-energy-and-centrus-sign-agreement-for-leu-and-haleu-nuclear-fuel-services-8-4-2026",
     "k": "x energy and centrus sign agreement for leu and haleu nuclear fuel services",
     "id": "05a8576f"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "원자력산업협회, SMR의 국가전략기술 지정 환영",
+    "summary": "원자력산업협회가 SMR(소형모듈원자로)의 국가전략기술 지정을 환영하며 산업 도약의 전환점이 될 것으로 평가했다.",
+    "summaryLong": "한국 원자력산업협회가 소형모듈원자로(SMR)가 국가 전략기술로 지정된 것을 환영하는 입장을 표했다. 협회는 이번 지정이 SMR 산업의 성장과 국가 차원의 지원 강화를 의미하며 산업의 도약적 전환점이 될 것으로 전망했다. 이는 한국 정부의 SMR 육성 정책이 강화되고 있음을 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "kyongbuk.co.kr",
+    "url": "https://www.kyongbuk.co.kr/news/articleView.html?idxno=4080225",
+    "k": "원자력산업협회 smr 국가전략기술 지정 환영 산업 도약 전환점",
+    "ko": 1,
+    "id": "fb11cb16"
   },
   {
     "date": "2026-08-03",
@@ -27147,4 +27330,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-07 15:02 KST";
+window.SMR_UPDATED = "2026-08-08 07:09 KST";
