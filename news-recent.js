@@ -46,6 +46,37 @@ window.SMR_NEWS = [
   "id": "13af938d"
  },
  {
+  "date": "2026-08-07",
+  "title": "소형모듈원자로 상용화는 언제쯤일까",
+  "summary": "소형모듈원자로의 상용화 시점에 대한 신문 사설 평론.",
+  "summaryLong": "내일신문의 사설로서 소형모듈원자로(SMR) 기술의 상용화 전망과 일정에 대해 다루고 있다. 국내 에너지 정책 차원에서 SMR의 역할과 상용화 가능성을 제기하는 의견 기사이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "연합뉴스 최신기사",
+  "url": "https://www.yna.co.kr/view/AKR20260807081000011",
+  "k": "전국 주요 신문 사설 7일 석간",
+  "ko": 1,
+  "op": 1,
+  "id": "d596b5dd"
+ },
+ {
+  "date": "2026-08-07",
+  "title": "한수원 협력사 오클로, SMR 연구용 원자로 임계 상태 도달",
+  "summary": "한국수력원자력(한수원)의 협력사인 미국의 오클로(Oklo)가 소형모듈원자로 연구용 원자로가 임계 상태에 도달했으며, 미국 에너지부(DOE)가 이를 중요한 이정표로 평가했다.",
+  "summaryLong": "한국수력원자력(한수원)의 협력사인 미국 오클로(Oklo)가 자사 SMR 연구용 원자로의 임계(critical) 상태 도달을 발표했다. 미국 에너지부(DOE)는 이를 중요한 기술 이정표로 평가했으며, 이는 오클로의 고속로 기술 개발 진전과 함께 한-미 원자력 협력의 구체적 성과를 보여주는 사례이다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "businesspost.co.kr",
+  "url": "https://www.businesspost.co.kr/BP?command=article_view&num=444208",
+  "k": "한수원 협력사 미국 오클로 smr 연구용 원자로 임계 상태 도달 미 에너지부 중요한 이정표",
+  "ko": 1,
+  "id": "a1298967"
+ },
+ {
   "date": "2026-08-06",
   "title": "미국 시험로 마일스톤 달성",
   "summary": "오클로(Oklo)의 그로브스 동위원소 시험로(Groves Isotope Test Reactor)가 임계에 도달했고, 딥 피션(Deep Fission)의 지하 원자로가 안전설계 승인을 획득했다.",
@@ -332,6 +363,49 @@ window.SMR_NEWS = [
   "url": "https://www.investing.com/news/company-news/centrus-energy-signs-uranium-enrichment-deal-with-xenergy-93CH-4841905",
   "k": "centrus energy signs uranium enrichment deal with x energy",
   "id": "6839c1bb"
+ },
+ {
+  "date": "2026-08-06",
+  "title": "오클로(Oklo), 시험 원자로에서 첫 핵분열 달성",
+  "summary": "원자력 스타트업 오클로(Oklo)가 시험 원자로에서 첫 핵분열을 성공적으로 달성했다.",
+  "summaryLong": "소형모듈원자로(SMR) 개발사 오클로(Oklo)가 자사 시험 원자로에서 첫 핵분열을 달성했다. 이는 오클로의 기술 개발 과정에서 중요한 마일스톤으로, 선진소형원자로(첨단로) 개발 프로그램의 진전을 보여준다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "canarymedia.com",
+  "url": "https://www.canarymedia.com/articles/nuclear/nuclear-startup-oklo-splits-its-first-atoms-in-test-reactor",
+  "k": "nuclear startup oklo splits its first atoms in test reactor",
+  "id": "886d819f"
+ },
+ {
+  "date": "2026-08-06",
+  "title": "엑스에너지(X-energy)·센트러스(Centrus), 고농축우라늄(HALEU) 공급 계약 체결",
+  "summary": "엑스에너지(X-energy)와 센트러스(Centrus)가 익(Xe)-100 첨단소형원자로 개발용 고농축우라늄(HALEU) 공급 계약을 체결했다.",
+  "summaryLong": "고온가스로(HTGR) 개발사 엑스에너지(X-energy)와 연료 공급사 센트러스(Centrus)가 익(Xe)-100 첨단소형원자로(advanced small modular reactor) 개발을 위한 고농축우라늄(HALEU) 공급 계약을 체결했다. 이는 엑스에너지의 고온가스로 사업 추진에 필수적인 핵연료 공급 기반을 확보한 것으로, 상용화 경로에서 중요한 파트너십 구축을 의미한다.",
+  "cat": "계약",
+  "type": "HTGR",
+  "dev": "X-energy",
+  "region": "US",
+  "source": "x-energy.com",
+  "url": "https://x-energy.com/news/x-energy-centrus-sign-haleu-supplyagreement-for-xe-100-advanced-small-modular-reactor-development/",
+  "k": "x energy centrus sign haleu supply agreement for xe 100 advanced small modular reactor development x energy",
+  "id": "4f331613"
+ },
+ {
+  "date": "2026-08-06",
+  "title": "샘 올트먼의 SMR 기업 오클로, 동위원소 원자로 임계 도달",
+  "summary": "샘 올트먼(Sam Altman)이 투자한 소형모듈원자로 개발사 오클로(Oklo)가 동위원소 원자로의 임계 상태를 달성했다.",
+  "summaryLong": "오픈에이아이(OpenAI) 최고경영자 샘 올트먼이 주요 투자자로 참여한 소형모듈원자로 기업 오클로(Oklo)가 자사의 동위원소 원자로(isotope reactor) 프로젝트에서 임계(criticality) 상태를 달성했다. 이는 오클로의 차별화된 기술 개발이 상용화 단계로 진입하고 있음을 보여주는 중요한 기술적 성과이다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "theguru.co.kr",
+  "url": "https://www.theguru.co.kr/news/article.html?no=105487",
+  "k": "샘 올트먼의 smr 기업 오클로 동위원소 원자로 임계 도달",
+  "ko": 1,
+  "id": "2874865c"
  },
  {
   "date": "2026-08-05",
@@ -807,81 +881,6 @@ window.SMR_NEWS = [
   "id": "e0345d78"
  },
  {
-  "date": "2026-08-05",
-  "title": "창원시, SMR 국가전략기술 확대 지정 환영",
-  "summary": "창원특례시가 소형모듈원자로의 국가전략기술 확대 지정을 환영하며 원전산업 경쟁력 강화를 기대했다.",
-  "summaryLong": "창원특례시가 소형모듈원자로(SMR)의 국가전략기술 지정 범위 확대를 환영하는 성명을 발표했다. 창원시는 이번 정책 확대가 지역의 원전산업 경쟁력 강화 및 산업 발전에 기여할 것으로 기대하고 있다. 이는 지방 정부 차원에서 소형모듈원자로 산업 육성을 지지하는 의견을 반영한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "koreaeaglenews.com",
-  "url": "https://www.koreaeaglenews.com/news/articleView.html?idxno=103574",
-  "k": "창원특례시 smr 국가전략기술 확대 환영 원전산업 경쟁력 강화 기대",
-  "ko": 1,
-  "id": "266f801a"
- },
- {
-  "date": "2026-08-04",
-  "title": "원자력산업협회, 정부의 SMR 국가전략기술 지정 환영 성명",
-  "summary": "한국 정부의 소형모듈원자로(SMR)를 국가전략기술 지정 및 2026년 세제개편안에 포함시킨 정책을 산업계가 환영했다.",
-  "summaryLong": "한국원자력산업협회(회장 김회천)는 정부의 소형모듈원자로(SMR)를 국가전략기술로 지정하고 2026년 세제개편안에 SMR 관련 기술 및 시설투자에 대한 세액공제를 명시적으로 포함한 정책을 환영하는 성명서를 발표했다. 산업협회는 561개 회원사 20만 3448명을 대표하여 정부의 SMR 진흥 정책이 기존 대형 원전과 달리 모듈화·공장 제작 기반 기술의 초기 R&D 및 설비 투자를 촉진할 것으로 평가했다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "에너지데일리 - 전체기사",
-  "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=201971",
-  "k": "원자력산업협회 561개 회원사 smr 국가전략기술 지정 환영한다",
-  "ko": 1,
-  "id": "9ab683fa"
- },
- {
-  "date": "2026-08-04",
-  "title": "현대제철, 차세대 원전(SMR) 사업 진출…인프라 구축 추진",
-  "summary": "현대제철이 소형모듈원자로(SMR) 산업에 본격 진출하여 관련 인프라 구축을 추진하고 있다.",
-  "summaryLong": "현대제철이 정부의 SMR 국가전략기술 지정에 발맞춰 차세대 원전 사업으로의 진출을 결정했다. 회사는 SMR 산업에 필요한 부품·소재, 제조 인프라 등을 정조준하여 단계적으로 사업을 확대할 계획이다. 이는 한국의 주요 제철·소재 기업이 SMR 산업 생태계에 참여하는 첫 움직임으로 평가된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "현대제철",
-  "region": "KR",
-  "source": "news.nate.com",
-  "url": "https://news.nate.com/view/20260804n18990?mid=n1101",
-  "k": "현대제철 차세대 원전 올라탄다 smr 인프라 정조준",
-  "ko": 1,
-  "id": "f40226a7"
- },
- {
-  "date": "2026-08-04",
-  "title": "발라 아토믹스(Balla Atomics), 10억 달러 투자 유치",
-  "summary": "엔비디아(Nvidia)의 SMR 파트너인 발라 아토믹스(Balla Atomics)가 10억 달러(USD) 규모의 투자를 유치했다.",
-  "summaryLong": "소형모듈원자로(SMR) 개발사 발라 아토믹스(Balla Atomics)가 10억 달러(USD) 규모의 대규모 투자 라운드를 성공적으로 진행했다. 발라 아토믹스는 엔비디아(Nvidia) 등 주요 기술 기업과 협력하며 SMR 기술 개발을 진행 중이며, 이번 투자는 회사의 기술 개발과 사업화 추진에 필요한 자금을 확보하는 데 중요한 이정표다.",
-  "cat": "투자",
-  "type": "General",
-  "dev": "Balla Atomics",
-  "region": "US",
-  "source": "theguru.co.kr",
-  "url": "https://www.theguru.co.kr/news/article.html?no=105321",
-  "k": "엔비디아 smr 파트너 발라 아토믹스 10억 달러 투자 유치",
-  "ko": 1,
-  "id": "2324b4a1"
- },
- {
-  "date": "2026-08-04",
-  "title": "경남, SMR 제조혁신 국가사업 3개 핵심과제 모두 선정",
-  "summary": "경상남도가 소형모듈원자로(SMR) 제조혁신 국가사업의 3개 핵심과제를 모두 따냈다.",
-  "summaryLong": "경상남도가 정부의 소형모듈원자로(SMR) 제조혁신 국가사업에서 추진 중인 3개 핵심 과제를 모두 확보했다. 이는 경남이 SMR 산업의 중심지로서 국책 프로젝트에서 중추적 역할을 담당하게 됨을 의미한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "inpnews.kr",
-  "url": "https://www.inpnews.kr/news/articleView.html?idxno=7440",
-  "k": "경남 smr 제조혁신 국가사업 싹쓸이 3개 핵심과제 모두 따냈다",
-  "ko": 1,
-  "id": "66463a72"
- },
- {
   "date": "2026-08-04",
   "title": "발라 아토믹스(Vistra Atomics), 1조 4천억 원 조달…기업가치 8조 6천억 원",
   "summary": "데이터센터용 초소형 원자로 개발사 발라 아토믹스(Vistra Atomics)가 1조 4천억 원 규모의 투자 유치에 성공해 기업가치가 8조 6천억 원으로 평가됐다.",
@@ -1350,5 +1349,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-07 14:50 KST";
-window.SMR_TOTAL = 1863;
+window.SMR_UPDATED = "2026-08-07 15:02 KST";
+window.SMR_TOTAL = 1868;
