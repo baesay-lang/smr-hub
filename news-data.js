@@ -8,6 +8,109 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-08-06",
+    "title": "미국 시험로 마일스톤 달성",
+    "summary": "오클로(Oklo)의 그로브스 동위원소 시험로(Groves Isotope Test Reactor)가 임계에 도달했고, 딥 피션(Deep Fission)의 지하 원자로가 안전설계 승인을 획득했다.",
+    "summaryLong": "미국 에너지부(DOE) 반응로 파일럿 프로그램(Reactor Pilot Program, RPP)에 참여 중인 두 선진로 개발사가 연이어 중요 마일스톤을 달성했다. 오클로의 그로브스 동위원소 시험로는 텍사스(Texas) 록하트(Lockhart)의 민간 소유지에서 첫 임계에 도달했으며, 이는 RPP 프로그램 하에서 민간 부지에서의 첫 사례다. 동시에 딥 피션의 지하 원자로는 안전설계 승인(Safety Design Approval)을 받아 개발 진행 단계를 앞당겼다. 두 사건 모두 미국의 첨단원자로 상용화 추진 정책의 구체적 진전을 보여준다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo, Deep Fission",
+    "region": "US",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/us-test-reactors-achieve-milestones",
+    "k": "us test reactors achieve milestones",
+    "id": "b719111c"
+  },
+  {
+    "date": "2026-08-06",
+    "title": "엑스에너지·센트러스, HALEU 공급계약 체결",
+    "summary": "엑스에너지(X-Energy)와 센트러스 에너지(Centrus Energy Corp)가 Xe-100 고온가스로(HTGR) 연료용 고농축저준축(HALEU) 공급 계약을 체결했다.",
+    "summaryLong": "엑스에너지와 센트러스 에너지는 Xe-100 소형모듈원자로(SMR) 개발을 지원하기 위해 저농축우라늄(LEU)과 고농축저준축우라늄(HALEU) 농축 서비스 공급에 관한 계약을 체결했다. 이 계약은 엑스에너지의 고온가스로(HTGR) 노형 상용화 추진에 필수적인 핵연료 공급망 확보를 의미한다. 센트러스는 HALEU 농축과 TRISO 핵연료 제조 분야에서의 장기 공급 역할을 담당하게 되어, 차세대 첨단로의 상용화 일정을 앞당기는 데 기여할 것으로 예상된다.",
+    "cat": "계약",
+    "type": "HTGR",
+    "dev": "X-Energy, Centrus",
+    "region": "US",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/x-energy-and-centrus-sign-haleu-supply-agreement",
+    "k": "x energy and centrus sign haleu supply agreement",
+    "id": "cdf8f7f0"
+  },
+  {
+    "date": "2026-08-06",
+    "title": "큐리오·뉴스케일·프라마톰, 첨단로 연료기술 MOU 체결",
+    "summary": "큐리오(Curio), 뉴스케일(NuScale), 프라마톰(Framatome)이 차세대 원자력 발전을 지원할 핵연료 기술 개발을 위한 양해각서(MOU)를 체결했다.",
+    "summaryLong": "원자력 에너지 기술 분야의 선도 기업 3곳이 첨단로 및 차세대 원자력 발전용 핵연료 기술 개발 방향을 공동으로 검토하기 위해 양해각서(MOU)를 체결했다. 이 협약은 뉴스케일의 소형모듈원자로(PWR 노형) 상용화와 관련 개발사들의 연료 솔루션 수요를 충족시키려는 노력의 일환이다. 세 기업의 협력은 첨단로 연료 기술 표준화 및 공급망 다변화에 기여할 것으로 전망된다.",
+    "cat": "계약",
+    "type": "PWR",
+    "dev": "Curio, NuScale, Framatome",
+    "region": "US",
+    "source": "POWER Magazine",
+    "url": "https://www.powermag.com/curio-nuscale-framatome-join-to-support-fuel-solution-for-advanced-reactors/",
+    "k": "curio nuscale framatome join to support fuel solution for advanced reactors",
+    "id": "8c7ace4e"
+  },
+  {
+    "date": "2026-08-06",
+    "title": "미국 에너지부(DOE), 딥피션의 지중 소형원자로 안전 설계 승인",
+    "summary": "미국 에너지부(DOE)가 딥피션(Deep Fission)의 그래비티(Gravity) 원자로에 대해 원자력 안전 설계 협약(NSDA) 승인을 완료했다.",
+    "summaryLong": "미국 에너지부(DOE)가 캘리포니아 기반 딥피션(Deep Fission)의 그래비티(Gravity) 지중 소형모듈원자로(SMR)에 대해 원자력 안전 설계 협약(Nuclear Safety Design Agreement, NSDA)을 승인했다고 발표했다. 이는 딥피션의 원자로 설계가 미국 에너지부 원자로 파일럿 프로그램(DOE Reactor Pilot Program) 진전 자격이 있음을 공식 확인하는 중요한 규제 마일스톤이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Deep Fission",
+    "region": "US",
+    "source": "POWER Magazine",
+    "url": "https://www.powermag.com/doe-approves-safety-design-of-deep-fissions-underground-smr/",
+    "k": "doe approves safety design of deep fission s underground smr",
+    "id": "d855f53a"
+  },
+  {
+    "date": "2026-08-06",
+    "title": "태웅, 미국 테라파워(TerraPower) SMR 2호기 추가 수주 추진",
+    "summary": "태웅이 미국 테라파워의 소형모듈원자로 2호기 추가 수주를 추진 중이다.",
+    "summaryLong": "한국 철강 기업 태웅이 미국의 첨단로 개발사 테라파워(TerraPower)의 소형모듈원자로(SMR) 2호기에 대한 추가 수주를 추진하고 있다. 이는 태웅의 SMR 관련 사업 포트폴리오 확대를 의미하며, 글로벌 SMR 시장에서 한국 공급업체의 입지 강화를 보여주는 사례다. 구체적인 계약 체결 시점과 규모는 추가 확인이 필요하다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "snmnews.com",
+    "url": "http://www.snmnews.com/news/articleView.html?idxno=573017",
+    "k": "태웅 테라파워 smr 2호기 추가 수주 추진",
+    "ko": 1,
+    "op": 1,
+    "id": "6a125756"
+  },
+  {
+    "date": "2026-08-06",
+    "title": "미국 도미니언 노스애나 원전 부지허가 연장, SMR 도입 가속화",
+    "summary": "미국 도미니언 에너지(Dominion Energy)의 노스애나(North Anna) 원전 부지 운영허가가 연장되면서 소형모듈원자로(SMR) 도입이 가속화될 전망이다.",
+    "summaryLong": "미국 도미니언 에너지(Dominion Energy)의 노스애나(North Anna) 원전 부지 운영허가가 연장됨에 따라 동 부지에 소형모듈원자로(SMR)를 도입하는 계획이 탄력을 받을 것으로 보인다. 기존 대형원전 부지의 허가 연장을 통해 SMR 도입 기반이 마련되는 것으로, 미국의 SMR 상용화 추진 동향을 보여주는 사례다.",
+    "cat": "인허가",
+    "type": "General",
+    "dev": "Dominion Energy",
+    "region": "US",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5503",
+    "k": "미 도미니언 노스애나 원전 부지허가 연장 smr 도입 잰걸음",
+    "ko": 1,
+    "op": 1,
+    "id": "599b1fdd"
+  },
+  {
+    "date": "2026-08-06",
+    "title": "한국원자력산업협회, '차세대 원전(SMR) 국가전략기술 지정' 환영",
+    "summary": "한국원자력산업협회가 소형모듈원자로를 국가전략기술로 지정한 정부 정책을 환영했다.",
+    "summaryLong": "한국원자력산업협회가 정부의 소형모듈원자로(SMR)를 차세대 원전 기술로 국가전략기술에 지정한 정책을 공식 환영했다. 이는 한국 정부가 SMR을 국가적 핵심 기술로 위치시키고 지원을 강화하겠다는 신호를 의미하며, 국내 원자력 산업계의 SMR 개발과 상용화 투자 확대를 견인할 것으로 기대된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "epnews.co.kr",
+    "url": "https://www.epnews.co.kr/news/articleView.html?idxno=66001",
+    "k": "한국원자력산업협회 차세대 원전 smr 국가전략기술 지정 환영",
+    "ko": 1,
+    "id": "58d62dbc"
+  },
+  {
     "date": "2026-08-05",
     "title": "561개 원전기업 수혜, SMR 세액공제 '마중물 될 것'",
     "summary": "소형모듈원전(SMR) 관련 세액공제가 561개 원전기업에 혜택을 주며 산업 활성화의 '마중물' 역할을 할 것으로 기대된다.",
@@ -419,6 +522,51 @@ window.SMR_NEWS = [
     "k": "창원특례시 smr 국가전략기술 지정 환영 세제지원 확대 기대 뉴스",
     "ko": 1,
     "id": "eaf8ece7"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "뉴스케일(NuScale), TVA 협약으로 11.8억 달러(ENTRA1) 지급 예상",
+    "summary": "뉴스케일(NuScale)이 테네시밸리공사(TVA)와의 협약에 따라 약 11.8억 달러 지급 가능성이 제기되고 있다.",
+    "summaryLong": "뉴스케일(NuScale)이 테네시밸리공사(TVA)와 체결한 협약 조건에 따라 약 11.8억 달러(ENTRA1 관련)의 지급 가능성이 보도되었다. 이는 뉴스케일의 미국 내 소형모듈원자로(SMR) 프로젝트 추진과 관련한 계약 의무사항으로 보인다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "뉴스케일(NuScale)",
+    "region": "US",
+    "source": "ts2.tech",
+    "url": "https://ts2.tech/en/nuscale-power-shares-decline-as-tva-agreement-may-lead-to-1-18-billion-entra1-payout/",
+    "k": "nuscale power shares decline as tva agreement may lead to 1 18 billion entra1 payout",
+    "op": 1,
+    "id": "2ef89378"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "미래 신형원자로(SMR), 선제적 인허가 체계 구축",
+    "summary": "한국 정부가 소형모듈원자로(SMR) 분야의 선제적 인허가 체계 구축을 추진하고 있다.",
+    "summaryLong": "한국 정부가 미래 신형원자로인 소형모듈원자로(SMR)에 대해 선제적 인허가 체계를 구축하고 있다는 정책 브리핑이다. SMR의 입지·거래 규제와 관련해 향후 2년이 중요한 시간이 될 것으로 전망되며, 경남도는 SMR을 국가전략기술로 지정하여 지역 원전 기업들의 SMR 투자 및 혁신 성장 가속화를 기대하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "korea.kr",
+    "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148969429&pWise=sub&pWiseSub=R6",
+    "k": "미래 신형원자로 smr 선제적 인허가 체계 구축 전체 카드 한컷 멀티미디어",
+    "ko": 1,
+    "id": "ca050270"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "창원, 소형모듈원자로(SMR) 중심 원전산업 육성전략 추진",
+    "summary": "창원이 소형모듈원자로를 중심으로 한 원전산업 육성전략을 추진하며 인프라 구축을 가속화하고 있다.",
+    "summaryLong": "부산광역시 창원이 소형모듈원자로(SMR)를 중심으로 한 원전산업 육성전략을 적극 추진하고 있으며, 관련 인프라 구축 속도를 높이고 있다. 이는 지역의 원자력 산업 생태계 강화와 SMR 시장 진출을 겨냥한 지방정부의 전략적 투자를 반영한다. 구체적인 정책 내용과 투자 규모에 대한 상세 내용이 필요하다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "kookje.co.kr",
+    "url": "http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0300&key=20260806.22004001397&kid=",
+    "k": "창원 smr 소형모듈원자로 중심 원전산업 육성전략 추진 인프라 구축 속도",
+    "ko": 1,
+    "id": "167a1d5c"
   },
   {
     "date": "2026-08-04",
@@ -1127,6 +1275,21 @@ window.SMR_NEWS = [
     "k": "경상남도 smr 국가전략기술 지정 환영 원전산업 새 전기 마련",
     "ko": 1,
     "id": "59f2097e"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "기업들, 미국 남부 홀텍 원자로 배포 기회 검토",
+    "summary": "기업들이 홀텍(Holtec)의 소형모듈원자로를 미국 남부에 배포할 기회를 평가하고 있다.",
+    "summaryLong": "여러 기업들이 홀텍의 소형모듈원자로를 미국 남부 지역에 배포할 사업 기회를 검토하고 있는 것으로 보도되었다. 이는 홀텍의 SMR 상용화 전략과 지역적 수요 발굴을 반영한다. 미국 남부는 에너지 수요와 산업 재구성 기회로 인해 SMR 배포의 주요 대상 지역으로 주목받고 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "Holtec",
+    "region": "US",
+    "source": "nucnet.org",
+    "url": "https://www.nucnet.org/news/companies-to-evaluate-opportunities-for-holtec-reactor-deployment-in-us-south-8-4-2026",
+    "k": "companies to evaluate opportunities for holtec reactor deployment in us south",
+    "op": 1,
+    "id": "8c0bb5df"
   },
   {
     "date": "2026-08-03",
@@ -26621,4 +26784,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-06 16:27 KST";
+window.SMR_UPDATED = "2026-08-07 10:07 KST";
