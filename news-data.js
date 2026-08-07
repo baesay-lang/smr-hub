@@ -38,6 +38,21 @@ window.SMR_NEWS = [
     "id": "5f208f44"
   },
   {
+    "date": "2026-08-07",
+    "title": "엑스에너지(X-energy), 센트러스에너지와 우라늄 공급 계약 체결",
+    "summary": "미국의 소형모듈원자로 개발사 엑스에너지가 센트러스에너지와 우라늄 공급 계약을 체결했다.",
+    "summaryLong": "DL이앤씨의 협력사인 미국 소형모듈원자로 개발사 엑스에너지(X-energy)가 한국수력원전과 포스코가 참여한 센트러스에너지(Centrus Energy)와 우라늄 공급 계약을 체결했다. 이는 소형모듈원자로 운영에 필수적인 연료 공급망을 확보하기 위한 전략적 계약으로, 엑스에너지의 상용화 진행 과정을 보여주는 중요한 협력 사례이다.",
+    "cat": "계약",
+    "type": "HTGR",
+    "dev": "엑스에너지",
+    "region": "US",
+    "source": "businesspost.co.kr",
+    "url": "https://www.businesspost.co.kr/BP?command=article_view&num=444196",
+    "k": "dl이앤씨 smr 협력사 x에너지 한수원 포스코 동맹 센트러스에너지와 우라늄 계약 체결",
+    "ko": 1,
+    "id": "13af938d"
+  },
+  {
     "date": "2026-08-06",
     "title": "미국 시험로 마일스톤 달성",
     "summary": "오클로(Oklo)의 그로브스 동위원소 시험로(Groves Isotope Test Reactor)가 임계에 도달했고, 딥 피션(Deep Fission)의 지하 원자로가 안전설계 승인을 획득했다.",
@@ -282,6 +297,48 @@ window.SMR_NEWS = [
     "url": "https://www.businesswire.com/news/home/20260806687946/en/Curio-NuScale-Power-and-Framatome-Sign-Strategic-MOU-to-Advance-the-Future-Nuclear-Fuel-Cycle?feedref=JjAwJuNHiystnCoBq_hl-Ypx8OuIA-qqxXAfOC1go22PU1fv-fCAtwybrddq94az7dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSFja_QkRbjKVqSkUPuEMBEw%3D%3D",
     "k": "curio nuscale power and framatome sign strategic mou to advance the future nuclear fuel cycle",
     "id": "112b8ff6"
+  },
+  {
+    "date": "2026-08-06",
+    "title": "오클로(Oklo)의 소형원자로, 임계점 도달 선언",
+    "summary": "미국이 오클로(Oklo)의 소형모듈원자로(SMR)가 임계점(criticality)에 도달했음을 공식 발표했다.",
+    "summaryLong": "미국 정부가 오클로(Oklo)의 소형모듈원자로(SMR) 개발 프로젝트에서 원자로가 임계점(criticality)에 도달했음을 공식 선언했다. 이는 오클로의 핵심 기술 마일스톤으로, 원자로 운영 능력을 검증하는 중요한 단계를 완료했음을 의미한다. 이 성과는 미국의 SMR 개발 사업에서 첫 번째 상용 모델 달성을 향한 진전을 보여준다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "bloomberg.com",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-06/us-says-oklo-s-small-nuclear-reactor-reaches-criticality",
+    "k": "us says oklo s small nuclear reactor reaches criticality",
+    "id": "7dbe1802"
+  },
+  {
+    "date": "2026-08-06",
+    "title": "센트러스-엑스에너지 계약으로 미국 우라늄 연료 생산 용량 확대",
+    "summary": "미국의 센트러스(Centrus)와 엑스에너지(X-energy)가 우라늄 연료 공급 계약을 체결하여 미국 국내 고농축우라늄(HALEU) 생산 능력을 확대한다.",
+    "summaryLong": "센트러스 에너지(Centrus Energy)와 엑스에너지(X-energy)가 저농축우라늄(LEU) 및 고농축우라늄(HALEU) 연료 공급 계약을 체결했다. 이 계약은 미국의 첨단 소형모듈원자로와 고속로 개발에 필수적인 고농축우라늄 공급을 보장하기 위한 전략적 계약이다. 센트러스는 미국 내 유일한 HALEU 생산자로서 엑스에너지의 고온가스로(HTGR) 연료 공급을 담당하게 된다. 이는 미국 정부의 국내 핵연료 공급망 확보 정책의 일환으로, 향후 여러 첨단로 프로젝트의 연료 안정성을 확보하는 중요한 계약이다.",
+    "cat": "계약",
+    "type": "HTGR",
+    "dev": "X-energy, Centrus",
+    "region": "US",
+    "source": "interestingengineering.com",
+    "url": "https://interestingengineering.com/energy/centrus-x-energy-uranium-enrichment-capacity",
+    "k": "us uranium fuel capacity expands with centrus x energy agreement",
+    "id": "19aaa57f"
+  },
+  {
+    "date": "2026-08-06",
+    "title": "센트러스 에너지(Centrus Energy), 엑스에너지(X-energy)와 우라늄 농축 계약 체결",
+    "summary": "센트러스 에너지가 엑스에너지와 우라늄 농축 공급 계약을 체결했다.",
+    "summaryLong": "센트러스 에너지(Centrus Energy)가 고급 소형모듈원자로(Advanced SMR) 개발사인 엑스에너지(X-energy)와 우라늄 농축 공급 계약을 체결했다. 이는 엑스에너지의 고온가스로(HTGR) 기술 개발을 지원하기 위한 핵연료 공급 협력으로, 미국 내 첨단로 상용화를 위한 공급망 구축의 일환이다.",
+    "cat": "계약",
+    "type": "HTGR",
+    "dev": "Centrus Energy",
+    "region": "US",
+    "source": "investing.com",
+    "url": "https://www.investing.com/news/company-news/centrus-energy-signs-uranium-enrichment-deal-with-xenergy-93CH-4841905",
+    "k": "centrus energy signs uranium enrichment deal with x energy",
+    "id": "6839c1bb"
   },
   {
     "date": "2026-08-05",
@@ -755,6 +812,21 @@ window.SMR_NEWS = [
     "k": "창원특례시 smr 국가전략기술 지정 적극 환영",
     "ko": 1,
     "id": "e0345d78"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "창원시, SMR 국가전략기술 확대 지정 환영",
+    "summary": "창원특례시가 소형모듈원자로의 국가전략기술 확대 지정을 환영하며 원전산업 경쟁력 강화를 기대했다.",
+    "summaryLong": "창원특례시가 소형모듈원자로(SMR)의 국가전략기술 지정 범위 확대를 환영하는 성명을 발표했다. 창원시는 이번 정책 확대가 지역의 원전산업 경쟁력 강화 및 산업 발전에 기여할 것으로 기대하고 있다. 이는 지방 정부 차원에서 소형모듈원자로 산업 육성을 지지하는 의견을 반영한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "koreaeaglenews.com",
+    "url": "https://www.koreaeaglenews.com/news/articleView.html?idxno=103574",
+    "k": "창원특례시 smr 국가전략기술 확대 환영 원전산업 경쟁력 강화 기대",
+    "ko": 1,
+    "id": "266f801a"
   },
   {
     "date": "2026-08-04",
@@ -1493,6 +1565,20 @@ window.SMR_NEWS = [
     "k": "원자력산업협회 smr 국가전략기술 지정 환영",
     "ko": 1,
     "id": "aae5f685"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "엑스에너지와 센트러스, LEU·HALEU 핵연료 서비스 계약 체결",
+    "summary": "엑스에너지(X-energy)와 센트러스(Centrus)가 저농축우라늄(LEU) 및 고농축우라늄(HALEU) 핵연료 공급 계약을 체결했다.",
+    "summaryLong": "엑스에너지(X-energy)와 센트러스 에너지(Centrus Energy)가 저농축우라늄(LEU) 및 고농축우라늄(HALEU) 핵연료 서비스 계약을 공식 체결했다고 NucNet이 보도했다. 엑스에너지는 미국의 고온가스로(HTGR) 개발사로서 산업용 열 및 전력 생산을 목표로 프로젝트를 추진 중이며, 이 계약으로 고농축우라늄 연료 공급을 장기 확보한다. 센트러스는 미국 내 유일한 HALEU 생산 시설 운영사로서 첨단 소형모듈원자로 및 고속로 개발에 필수적인 연료를 공급하게 된다. 이 계약은 미국 정부의 국내 핵연료 독립 및 첨단 원자력 기술 확보 전략의 중핵이다.",
+    "cat": "계약",
+    "type": "HTGR",
+    "dev": "X-energy, Centrus",
+    "region": "US",
+    "source": "nucnet.org",
+    "url": "https://www.nucnet.org/news/x-energy-and-centrus-sign-agreement-for-leu-and-haleu-nuclear-fuel-services-8-4-2026",
+    "k": "x energy and centrus sign agreement for leu and haleu nuclear fuel services",
+    "id": "05a8576f"
   },
   {
     "date": "2026-08-03",
@@ -26987,4 +27073,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-07 14:15 KST";
+window.SMR_UPDATED = "2026-08-07 14:50 KST";

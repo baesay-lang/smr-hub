@@ -31,6 +31,21 @@ window.SMR_NEWS = [
   "id": "5f208f44"
  },
  {
+  "date": "2026-08-07",
+  "title": "엑스에너지(X-energy), 센트러스에너지와 우라늄 공급 계약 체결",
+  "summary": "미국의 소형모듈원자로 개발사 엑스에너지가 센트러스에너지와 우라늄 공급 계약을 체결했다.",
+  "summaryLong": "DL이앤씨의 협력사인 미국 소형모듈원자로 개발사 엑스에너지(X-energy)가 한국수력원전과 포스코가 참여한 센트러스에너지(Centrus Energy)와 우라늄 공급 계약을 체결했다. 이는 소형모듈원자로 운영에 필수적인 연료 공급망을 확보하기 위한 전략적 계약으로, 엑스에너지의 상용화 진행 과정을 보여주는 중요한 협력 사례이다.",
+  "cat": "계약",
+  "type": "HTGR",
+  "dev": "엑스에너지",
+  "region": "US",
+  "source": "businesspost.co.kr",
+  "url": "https://www.businesspost.co.kr/BP?command=article_view&num=444196",
+  "k": "dl이앤씨 smr 협력사 x에너지 한수원 포스코 동맹 센트러스에너지와 우라늄 계약 체결",
+  "ko": 1,
+  "id": "13af938d"
+ },
+ {
   "date": "2026-08-06",
   "title": "미국 시험로 마일스톤 달성",
   "summary": "오클로(Oklo)의 그로브스 동위원소 시험로(Groves Isotope Test Reactor)가 임계에 도달했고, 딥 피션(Deep Fission)의 지하 원자로가 안전설계 승인을 획득했다.",
@@ -275,6 +290,48 @@ window.SMR_NEWS = [
   "url": "https://www.businesswire.com/news/home/20260806687946/en/Curio-NuScale-Power-and-Framatome-Sign-Strategic-MOU-to-Advance-the-Future-Nuclear-Fuel-Cycle?feedref=JjAwJuNHiystnCoBq_hl-Ypx8OuIA-qqxXAfOC1go22PU1fv-fCAtwybrddq94az7dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSFja_QkRbjKVqSkUPuEMBEw%3D%3D",
   "k": "curio nuscale power and framatome sign strategic mou to advance the future nuclear fuel cycle",
   "id": "112b8ff6"
+ },
+ {
+  "date": "2026-08-06",
+  "title": "오클로(Oklo)의 소형원자로, 임계점 도달 선언",
+  "summary": "미국이 오클로(Oklo)의 소형모듈원자로(SMR)가 임계점(criticality)에 도달했음을 공식 발표했다.",
+  "summaryLong": "미국 정부가 오클로(Oklo)의 소형모듈원자로(SMR) 개발 프로젝트에서 원자로가 임계점(criticality)에 도달했음을 공식 선언했다. 이는 오클로의 핵심 기술 마일스톤으로, 원자로 운영 능력을 검증하는 중요한 단계를 완료했음을 의미한다. 이 성과는 미국의 SMR 개발 사업에서 첫 번째 상용 모델 달성을 향한 진전을 보여준다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "bloomberg.com",
+  "url": "https://www.bloomberg.com/news/articles/2026-08-06/us-says-oklo-s-small-nuclear-reactor-reaches-criticality",
+  "k": "us says oklo s small nuclear reactor reaches criticality",
+  "id": "7dbe1802"
+ },
+ {
+  "date": "2026-08-06",
+  "title": "센트러스-엑스에너지 계약으로 미국 우라늄 연료 생산 용량 확대",
+  "summary": "미국의 센트러스(Centrus)와 엑스에너지(X-energy)가 우라늄 연료 공급 계약을 체결하여 미국 국내 고농축우라늄(HALEU) 생산 능력을 확대한다.",
+  "summaryLong": "센트러스 에너지(Centrus Energy)와 엑스에너지(X-energy)가 저농축우라늄(LEU) 및 고농축우라늄(HALEU) 연료 공급 계약을 체결했다. 이 계약은 미국의 첨단 소형모듈원자로와 고속로 개발에 필수적인 고농축우라늄 공급을 보장하기 위한 전략적 계약이다. 센트러스는 미국 내 유일한 HALEU 생산자로서 엑스에너지의 고온가스로(HTGR) 연료 공급을 담당하게 된다. 이는 미국 정부의 국내 핵연료 공급망 확보 정책의 일환으로, 향후 여러 첨단로 프로젝트의 연료 안정성을 확보하는 중요한 계약이다.",
+  "cat": "계약",
+  "type": "HTGR",
+  "dev": "X-energy, Centrus",
+  "region": "US",
+  "source": "interestingengineering.com",
+  "url": "https://interestingengineering.com/energy/centrus-x-energy-uranium-enrichment-capacity",
+  "k": "us uranium fuel capacity expands with centrus x energy agreement",
+  "id": "19aaa57f"
+ },
+ {
+  "date": "2026-08-06",
+  "title": "센트러스 에너지(Centrus Energy), 엑스에너지(X-energy)와 우라늄 농축 계약 체결",
+  "summary": "센트러스 에너지가 엑스에너지와 우라늄 농축 공급 계약을 체결했다.",
+  "summaryLong": "센트러스 에너지(Centrus Energy)가 고급 소형모듈원자로(Advanced SMR) 개발사인 엑스에너지(X-energy)와 우라늄 농축 공급 계약을 체결했다. 이는 엑스에너지의 고온가스로(HTGR) 기술 개발을 지원하기 위한 핵연료 공급 협력으로, 미국 내 첨단로 상용화를 위한 공급망 구축의 일환이다.",
+  "cat": "계약",
+  "type": "HTGR",
+  "dev": "Centrus Energy",
+  "region": "US",
+  "source": "investing.com",
+  "url": "https://www.investing.com/news/company-news/centrus-energy-signs-uranium-enrichment-deal-with-xenergy-93CH-4841905",
+  "k": "centrus energy signs uranium enrichment deal with x energy",
+  "id": "6839c1bb"
  },
  {
   "date": "2026-08-05",
@@ -750,6 +807,21 @@ window.SMR_NEWS = [
   "id": "e0345d78"
  },
  {
+  "date": "2026-08-05",
+  "title": "창원시, SMR 국가전략기술 확대 지정 환영",
+  "summary": "창원특례시가 소형모듈원자로의 국가전략기술 확대 지정을 환영하며 원전산업 경쟁력 강화를 기대했다.",
+  "summaryLong": "창원특례시가 소형모듈원자로(SMR)의 국가전략기술 지정 범위 확대를 환영하는 성명을 발표했다. 창원시는 이번 정책 확대가 지역의 원전산업 경쟁력 강화 및 산업 발전에 기여할 것으로 기대하고 있다. 이는 지방 정부 차원에서 소형모듈원자로 산업 육성을 지지하는 의견을 반영한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "koreaeaglenews.com",
+  "url": "https://www.koreaeaglenews.com/news/articleView.html?idxno=103574",
+  "k": "창원특례시 smr 국가전략기술 확대 환영 원전산업 경쟁력 강화 기대",
+  "ko": 1,
+  "id": "266f801a"
+ },
+ {
   "date": "2026-08-04",
   "title": "원자력산업협회, 정부의 SMR 국가전략기술 지정 환영 성명",
   "summary": "한국 정부의 소형모듈원자로(SMR)를 국가전략기술 지정 및 2026년 세제개편안에 포함시킨 정책을 산업계가 환영했다.",
@@ -808,81 +880,6 @@ window.SMR_NEWS = [
   "k": "경남 smr 제조혁신 국가사업 싹쓸이 3개 핵심과제 모두 따냈다",
   "ko": 1,
   "id": "66463a72"
- },
- {
-  "date": "2026-08-04",
-  "title": "SMR, 국가전략기술로 지정된 이유",
-  "summary": "한국 정부가 소형모듈원자로(SMR)를 국가전략기술로 지정하여 관련 투자에 세제혜택을 제공하기로 결정했다.",
-  "summaryLong": "한국 정부의 '2026년 세제개편안'에 따라 소형모듈원자로(SMR) 기술·시설을 미래형 에너지 국가전략기술로 정식 지정했다. 반도체, 배터리와 같은 전략산업 수준의 세액공제 인센티브를 제도화하며, 2027년 1월 1일 이후 발생하는 R&D 비용과 투자분부터 적용된다. 이는 SMR을 국가 차원의 핵심 산업으로 집중 육성하기 위한 정책적 신호로, 개발사들의 투자 확대와 기술 개발을 촉진할 것으로 전망된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "투데이에너지 - 전체기사",
-  "url": "https://www.todayenergy.kr/news/articleView.html?idxno=301185",
-  "k": "포커스 smr 국가전략기술로 지정된 이유는",
-  "ko": 1,
-  "id": "7bdb5974"
- },
- {
-  "date": "2026-08-04",
-  "title": "원자력안전위, 2026년 하반기 SMR 개발 규제 과제 추진",
-  "summary": "원자력안전위원회(원안위)가 소형모듈원자로(SMR) 개발에 대한 규제 수요 대응을 2026년 하반기 주요 업무로 설정했음을 대통령에게 보고.",
-  "summaryLong": "원자력안전위원회(원안위)가 신규·계속운전 원전, 소형모듈원자로(SMR) 개발, 사용후핵연료 건식저장시설 도입 등을 포함한 2026년 하반기 업무계획을 대통령에게 보고했다. SMR 개발에 따른 다양한 규제수요에 대응하고 원자력·방사선 안전을 확보함으로써 국가 전략에 부응할 계획이다. 이는 정부 차원의 SMR 규제 기반 정비 정책으로, 국내 첨단로 산업의 제도적 지원 신호를 나타낸다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "에너지데일리 - 전체기사",
-  "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=201975",
-  "k": "빈틈없는 원자력안전 대체불가 대한민국 뒷받침한다",
-  "ko": 1,
-  "id": "96b67dae"
- },
- {
-  "date": "2026-08-04",
-  "title": "발라 아토믹스, SMR 대량 생산 단계로 전환",
-  "summary": "발라 아토믹스(Ballard Atomics)가 소형모듈원자로(SMR)의 대량 생산 단계로 전환을 발표했다.",
-  "summaryLong": "발라 아토믹스(Ballard Atomics)는 소형모듈원자로(SMR) 개발에서 대량 생산 단계로의 전환을 선언했다. 이는 회사의 SMR 기술이 상용화 단계에 가까워졌음을 의미하며, 글로벌 SMR 시장 경쟁에서 중요한 마일스톤으로 평가된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "Ballard Atomics",
-  "region": "",
-  "source": "koreancenter.or.kr",
-  "url": "https://www.koreancenter.or.kr/news/articleView.html?idxno=1390950",
-  "k": "발라 아토믹스 smr 대량 생산 단계로 전환",
-  "ko": 1,
-  "id": "675547d4"
- },
- {
-  "date": "2026-08-04",
-  "title": "내년 소형원자로 기술기준 제시…건식저장·검사체계 정비",
-  "summary": "정부가 내년 소형모듈원자로(SMR) 기술기준을 마련하고 건식저장, 검사체계를 정비할 계획이다.",
-  "summaryLong": "정부는 소형모듈원자로(SMR) 상용화를 위해 내년 기술기준을 수립할 예정이다. 동시에 SMR의 연료 건식저장과 안전검사 체계도 함께 정비하여 규제 기반을 구축할 계획이다. 이는 SMR의 인허가 및 상용화를 위한 제도적 기반 마련으로 평가된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "news.nate.com",
-  "url": "https://news.nate.com/view/20260804n23752?mid=n0105",
-  "k": "내년에 소형 원자로 기술기준 나온다 건식저장 검사체계도 정비",
-  "ko": 1,
-  "id": "dbfae7b8"
- },
- {
-  "date": "2026-08-04",
-  "title": "발라 아토믹스, SMR 대량 생산 전환으로 1.4조원 규모 투자 유치",
-  "summary": "발라 아토믹스(Ballard Atomics)가 SMR 대량 생산 단계 전환을 위해 1.4조원 규모의 투자를 유치했다.",
-  "summaryLong": "소형모듈원자로(SMR) 개발사 발라 아토믹스(Ballard Atomics)는 SMR 대량 생산 단계로의 전환을 위해 1.4조원 규모의 투자 자금을 확보했다. 이는 회사의 상용화 추진이 가시화되고 있음을 보여주는 것으로, 글로벌 SMR 시장 경쟁에서 주요 선수로서의 위상을 강화하는 계기가 될 것으로 예상된다.",
-  "cat": "투자",
-  "type": "General",
-  "dev": "Ballard Atomics",
-  "region": "",
-  "source": "biz.sbs.co.kr",
-  "url": "https://biz.sbs.co.kr/article/20000326489",
-  "k": "smr 대량 생산 단계로 전환 발라 아토믹스 1 4조원 규모 투자 유치",
-  "ko": 1,
-  "id": "d11eb83c"
  },
  {
   "date": "2026-08-04",
@@ -1353,5 +1350,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-07 14:15 KST";
-window.SMR_TOTAL = 1857;
+window.SMR_UPDATED = "2026-08-07 14:50 KST";
+window.SMR_TOTAL = 1863;
