@@ -252,6 +252,20 @@ window.SMR_NEWS = [
     "id": "a5f44feb"
   },
   {
+    "date": "2026-08-07",
+    "title": "오클로, 동위원소 시험원자로 임계 달성",
+    "summary": "오클로(Oklo)가 자사의 동위원소 시험용 소형모듈원자로에서 임계(criticality)를 달성했다.",
+    "summaryLong": "오클로는 자신의 동위원소 시험원자로(Isotope Test Reactor)에서 처음 임계에 도달했다고 미국핵학회(American Nuclear Society, ANS)를 통해 발표했다. 임계 달성은 원자로 개발의 주요 기술 마일스톤으로, 원자로가 자체 핵분열 반응을 유지할 수 있음을 입증하는 것이다. 이는 오클로의 소형모듈원자로 기술 개발 진행 상황을 보여주는 확인된 기술 성과 보도다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "오클로",
+    "region": "US",
+    "source": "ans.org",
+    "url": "https://www.ans.org/news/article-8277/oklos-isotope-test-reactor-achieves-criticality/",
+    "k": "oklo s isotope test reactor achieves criticality american nuclear society ans",
+    "id": "c57975ce"
+  },
+  {
     "date": "2026-08-06",
     "title": "미국 시험로 마일스톤 달성",
     "summary": "오클로(Oklo)의 그로브스 동위원소 시험로(Groves Isotope Test Reactor)가 임계에 도달했고, 딥 피션(Deep Fission)의 지하 원자로가 안전설계 승인을 획득했다.",
@@ -27372,4 +27386,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-08 07:49 KST";
+window.SMR_UPDATED = "2026-08-08 08:21 KST";

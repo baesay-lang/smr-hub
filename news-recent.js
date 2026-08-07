@@ -245,6 +245,20 @@ window.SMR_NEWS = [
   "id": "a5f44feb"
  },
  {
+  "date": "2026-08-07",
+  "title": "오클로, 동위원소 시험원자로 임계 달성",
+  "summary": "오클로(Oklo)가 자사의 동위원소 시험용 소형모듈원자로에서 임계(criticality)를 달성했다.",
+  "summaryLong": "오클로는 자신의 동위원소 시험원자로(Isotope Test Reactor)에서 처음 임계에 도달했다고 미국핵학회(American Nuclear Society, ANS)를 통해 발표했다. 임계 달성은 원자로 개발의 주요 기술 마일스톤으로, 원자로가 자체 핵분열 반응을 유지할 수 있음을 입증하는 것이다. 이는 오클로의 소형모듈원자로 기술 개발 진행 상황을 보여주는 확인된 기술 성과 보도다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "오클로",
+  "region": "US",
+  "source": "ans.org",
+  "url": "https://www.ans.org/news/article-8277/oklos-isotope-test-reactor-achieves-criticality/",
+  "k": "oklo s isotope test reactor achieves criticality american nuclear society ans",
+  "id": "c57975ce"
+ },
+ {
   "date": "2026-08-06",
   "title": "미국 시험로 마일스톤 달성",
   "summary": "오클로(Oklo)의 그로브스 동위원소 시험로(Groves Isotope Test Reactor)가 임계에 도달했고, 딥 피션(Deep Fission)의 지하 원자로가 안전설계 승인을 획득했다.",
@@ -855,20 +869,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-08-05",
-  "title": "뉴스케일 파워 2026년 2분기 실적: 매출 급감·원가 상승",
-  "summary": "뉴스케일 파워의 2026년 2분기 실적에서 매출이 75,000달러로 급감하고 비용이 증가했다.",
-  "summaryLong": "뉴스케일 파워(NuScale Power)의 2026년 2분기 실적 보도에 따르면 회사 매출이 75,000달러에 그쳤으며 비용은 상승 추세를 보이고 있다. 이는 상업화 진행 지연과 관련된 재정 현황을 나타내는 실적 지표로, SMR 개발사의 사업 진행 상황을 반영하는 중요한 수치이다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "NuScale",
-  "region": "US",
-  "source": "tradingkey.com",
-  "url": "https://www.tradingkey.com/news/earnings/262080247-tradingkey",
-  "k": "nuscale power q2 2026 earnings revenue falls to 75 000 as costs rise",
-  "id": "969c29a7"
- },
- {
-  "date": "2026-08-05",
   "title": "현대건설, 미국 AI 데이터센터용 SMR 공급 타당성 평가 착수",
   "summary": "현대건설이 미국의 인공지능(AI) 데이터센터를 위한 소형모듈원자로(SMR) 공급 프로젝트의 타당성 평가를 시작했다.",
   "summaryLong": "현대건설이 미국 시장의 인공지능(AI) 데이터센터 전력 공급용 소형모듈원자로(SMR) 사업의 타당성 평가(feasibility study)에 착수했다. 이는 현대건설이 SMR 기술을 바탕으로 미국의 신흥 전력 수요 시장에 진출하기 위한 본격적인 검토 단계로, 향후 계약 체결 등 실제 사업화로 이어질 가능성을 보여주는 중요한 마일스톤이다.",
@@ -1365,5 +1365,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-08 07:49 KST";
-window.SMR_TOTAL = 1884;
+window.SMR_UPDATED = "2026-08-08 08:21 KST";
+window.SMR_TOTAL = 1885;
