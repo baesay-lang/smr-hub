@@ -203,6 +203,48 @@ window.SMR_NEWS = [
   "id": "6d4349d6"
  },
  {
+  "date": "2026-08-07",
+  "title": "오클로의 성과, 미국 핵에너지 미래 진전",
+  "summary": "오클로(Oklo)의 기술 성과가 미국 핵에너지 산업 발전에 기여하고 있다는 미국제조업협회(NAM) 발표다.",
+  "summaryLong": "미국제조업협회(NAM)가 오클로(Oklo)의 기술적 성과가 미국의 핵에너지 미래 발전에 중요한 역할을 하고 있음을 언급했다. 오클로는 소형모듈원자로(SMR) 및 첨단 핵기술 개발의 주요 업체로서, 본 발표는 그 기술적 진전과 의의를 인정하는 정부·산업 차원의 평가다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "nam.org",
+  "url": "https://nam.org/oklo-achievement-advances-americas-nuclear-energy-future/",
+  "k": "oklo achievement advances america s nuclear energy future national association of manufacturers",
+  "id": "4a89aa03"
+ },
+ {
+  "date": "2026-08-07",
+  "title": "오클로, 그로브스 시험로 첫 임계 달성, 유동성 30억 달러",
+  "summary": "오클로(Oklo)가 그로브스(Groves) 시험로에서 첫 임계(first criticality)를 달성했으며 30억 달러 규모의 유동성을 확보했다.",
+  "summaryLong": "오클로는 Q2 2026 실적 보고에서 자사의 그로브스 시험로가 첫 임계 상태에 도달했음을 공식 발표했다. 이는 미국 에너지부(DOE) 핵연료 시범 프로그램 하에서 진행 중인 프로젝트의 주요 마일스톤으로, 설계·허가·건설 후 실제 운영 가능성을 검증하는 단계다. 동시에 30억 달러 규모의 자금 유동성을 확보하여 향후 프로젝트 가속화를 추진할 계획이다. 이 성과는 소형모듈원자로(SMR) 및 첨단로 분야의 상용화 진전을 보여주는 사례다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "오클로(Oklo)",
+  "region": "US",
+  "source": "investing.com",
+  "url": "https://www.investing.com/news/company-news/oklo-q2-2026-slides-first-criticality-achieved-3b-liquidity-93CH-4846923",
+  "k": "oklo q2 2026 slides first criticality achieved 3b liquidity",
+  "id": "2226367c"
+ },
+ {
+  "date": "2026-08-07",
+  "title": "오클로 그로브스(Groves) 원자로 임계(Criticality) 달성, 42억 달러 밸류에이션 상용화 검증 필요",
+  "summary": "오클로의 그로브스 원자로가 임계(criticality) 상태에 도달했으나 42억 달러 밸류에이션은 상용화 입증이 필요하다는 평가다.",
+  "summaryLong": "오클로(Oklo)의 그로브스(Groves) 원자로가 임계(criticality) 달성이라는 기술적 마일스톤을 기록했으며, 이는 원자로가 자체 유지 핵반응 상태에 진입했음을 의미한다. 현재 시장은 오클로를 42억 달러로 평가하고 있으나, 이러한 밸류에이션이 정당화되려면 실제 상용 운영의 성공적 입증이 필수적이라는 분석이다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "ts2.tech",
+  "url": "https://ts2.tech/en/oklo-nyseoklo-achieves-reactor-criticality-4-2-billion-valuation-requires-commercial-validation/",
+  "k": "oklo nyse oklo achieves reactor criticality 4 2 billion valuation requires commercial validation",
+  "id": "a5f44feb"
+ },
+ {
   "date": "2026-08-06",
   "title": "미국 시험로 마일스톤 달성",
   "summary": "오클로(Oklo)의 그로브스 동위원소 시험로(Groves Isotope Test Reactor)가 임계에 도달했고, 딥 피션(Deep Fission)의 지하 원자로가 안전설계 승인을 획득했다.",
@@ -827,51 +869,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-08-05",
-  "title": "경상남도, SMR 국가전략기술 지정 환영…경남 원전기업 투자·성장 가속화",
-  "summary": "정부가 2026년 세제개편안을 통해 SMR과 초소형원자로(MMR)를 국가전략기술로 지정하자, 경상남도가 환영 입장을 표명했다.",
-  "summaryLong": "경상남도(도지사 박완수)는 정부의 '2026년 세제개편안'을 통해 소형모듈원자로(SMR) 및 초소형원자로(MMR)이 조세특례제한법(ELTAX) 상 국가전략기술로 지정된 것을 적극 환영했다. 이는 경남도가 대한민국 원자력산업의 중심지로서 지역 국회의원과 협력하고, 관계부처에 제도개선을 건의해 온 노력의 결실이다. 이번 법 개정(조세특례제한법 및 시행령 개정)을 통해 도내 원전 제조기업들의 SMR 산업 투자 및 혁신 성장이 가속화될 것으로 기대되고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "전기신문 - 전체기사",
-  "url": "https://www.electimes.com/news/articleView.html?idxno=371023",
-  "k": "경남도 smr 국가전략기술 지정 대환영 경남 원전기업 smr 투자 및 혁신 성장 가속화",
-  "ko": 1,
-  "id": "efe9c35e"
- },
- {
-  "date": "2026-08-05",
-  "title": "SMR 입지·거래 규제 결정까지 정확히 2년 [린의 행정과 법률]",
-  "summary": "SMR의 입지 선정과 거래를 좌우할 규제 시안이 2년 내에 확정될 예정이다.",
-  "summaryLong": "한국경제의 칼럼 '린의 행정과 법률'에서 소형모듈원자로(SMR)의 입지 지정과 거래 규제를 결정할 규제 마련 과정이 앞으로 정확히 2년의 시간 제약 속에 진행될 것임을 지적하고 있다. 이는 SMR 산업화를 위한 정부 행정 및 규제 정책 수립의 중요성과 시급성을 다루는 정책 분석 기사로, SMR 산업 전개를 좌우할 규제 환경 구축의 현황과 과제를 제시한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "hankyung.com",
-  "url": "https://www.hankyung.com/article/202608057226i",
-  "k": "smr 입지 거래 규제 좌우할 시간 딱 2년 린의 행정과 법률",
-  "ko": 1,
-  "id": "3f934b12"
- },
- {
-  "date": "2026-08-05",
-  "title": "SMR 전폭 지원으로 공급망 생태계 조기 구축·글로벌 시장 선점 기대",
-  "summary": "정부의 SMR 전폭 지원이 공급망 생태계 조성과 글로벌 시장 선점으로 이어질 것으로 기대된다.",
-  "summaryLong": "소형모듈원자로(SMR)에 대한 정부의 적극적 지원이 국내 공급망 생태계 조기 구축과 글로벌 시장 선점에 긍정적 영향을 미칠 것으로 전망된다. 국가전략기술 지정을 통한 정책 지원으로 관련 산업의 경쟁력 강화 및 수출 기회 확대가 예상된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "busan.com",
-  "url": "https://www.busan.com/view/busan/view.php?code=2026080517150049237",
-  "k": "smr 전폭지원에 공급망 생태계 조기 구축 글로벌 시장 선점 기대감",
-  "ko": 1,
-  "id": "44f5f34a"
- },
- {
-  "date": "2026-08-05",
   "title": "현대건설, 미국 AI 데이터센터용 SMR 공급 타당성 평가 착수",
   "summary": "현대건설이 미국의 인공지능(AI) 데이터센터를 위한 소형모듈원자로(SMR) 공급 프로젝트의 타당성 평가를 시작했다.",
   "summaryLong": "현대건설이 미국 시장의 인공지능(AI) 데이터센터 전력 공급용 소형모듈원자로(SMR) 사업의 타당성 평가(feasibility study)에 착수했다. 이는 현대건설이 SMR 기술을 바탕으로 미국의 신흥 전력 수요 시장에 진출하기 위한 본격적인 검토 단계로, 향후 계약 체결 등 실제 사업화로 이어질 가능성을 보여주는 중요한 마일스톤이다.",
@@ -1368,5 +1365,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-08 07:09 KST";
-window.SMR_TOTAL = 1881;
+window.SMR_UPDATED = "2026-08-08 07:49 KST";
+window.SMR_TOTAL = 1884;

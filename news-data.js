@@ -210,6 +210,48 @@ window.SMR_NEWS = [
     "id": "6d4349d6"
   },
   {
+    "date": "2026-08-07",
+    "title": "오클로의 성과, 미국 핵에너지 미래 진전",
+    "summary": "오클로(Oklo)의 기술 성과가 미국 핵에너지 산업 발전에 기여하고 있다는 미국제조업협회(NAM) 발표다.",
+    "summaryLong": "미국제조업협회(NAM)가 오클로(Oklo)의 기술적 성과가 미국의 핵에너지 미래 발전에 중요한 역할을 하고 있음을 언급했다. 오클로는 소형모듈원자로(SMR) 및 첨단 핵기술 개발의 주요 업체로서, 본 발표는 그 기술적 진전과 의의를 인정하는 정부·산업 차원의 평가다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "nam.org",
+    "url": "https://nam.org/oklo-achievement-advances-americas-nuclear-energy-future/",
+    "k": "oklo achievement advances america s nuclear energy future national association of manufacturers",
+    "id": "4a89aa03"
+  },
+  {
+    "date": "2026-08-07",
+    "title": "오클로, 그로브스 시험로 첫 임계 달성, 유동성 30억 달러",
+    "summary": "오클로(Oklo)가 그로브스(Groves) 시험로에서 첫 임계(first criticality)를 달성했으며 30억 달러 규모의 유동성을 확보했다.",
+    "summaryLong": "오클로는 Q2 2026 실적 보고에서 자사의 그로브스 시험로가 첫 임계 상태에 도달했음을 공식 발표했다. 이는 미국 에너지부(DOE) 핵연료 시범 프로그램 하에서 진행 중인 프로젝트의 주요 마일스톤으로, 설계·허가·건설 후 실제 운영 가능성을 검증하는 단계다. 동시에 30억 달러 규모의 자금 유동성을 확보하여 향후 프로젝트 가속화를 추진할 계획이다. 이 성과는 소형모듈원자로(SMR) 및 첨단로 분야의 상용화 진전을 보여주는 사례다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "오클로(Oklo)",
+    "region": "US",
+    "source": "investing.com",
+    "url": "https://www.investing.com/news/company-news/oklo-q2-2026-slides-first-criticality-achieved-3b-liquidity-93CH-4846923",
+    "k": "oklo q2 2026 slides first criticality achieved 3b liquidity",
+    "id": "2226367c"
+  },
+  {
+    "date": "2026-08-07",
+    "title": "오클로 그로브스(Groves) 원자로 임계(Criticality) 달성, 42억 달러 밸류에이션 상용화 검증 필요",
+    "summary": "오클로의 그로브스 원자로가 임계(criticality) 상태에 도달했으나 42억 달러 밸류에이션은 상용화 입증이 필요하다는 평가다.",
+    "summaryLong": "오클로(Oklo)의 그로브스(Groves) 원자로가 임계(criticality) 달성이라는 기술적 마일스톤을 기록했으며, 이는 원자로가 자체 유지 핵반응 상태에 진입했음을 의미한다. 현재 시장은 오클로를 42억 달러로 평가하고 있으나, 이러한 밸류에이션이 정당화되려면 실제 상용 운영의 성공적 입증이 필수적이라는 분석이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "ts2.tech",
+    "url": "https://ts2.tech/en/oklo-nyseoklo-achieves-reactor-criticality-4-2-billion-valuation-requires-commercial-validation/",
+    "k": "oklo nyse oklo achieves reactor criticality 4 2 billion valuation requires commercial validation",
+    "id": "a5f44feb"
+  },
+  {
     "date": "2026-08-06",
     "title": "미국 시험로 마일스톤 달성",
     "summary": "오클로(Oklo)의 그로브스 동위원소 시험로(Groves Isotope Test Reactor)가 임계에 도달했고, 딥 피션(Deep Fission)의 지하 원자로가 안전설계 승인을 획득했다.",
@@ -27330,4 +27372,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-08 07:09 KST";
+window.SMR_UPDATED = "2026-08-08 07:49 KST";
