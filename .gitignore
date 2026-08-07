@@ -22,8 +22,9 @@ __pycache__/
 *.pyc
 
 # 배포용 다운로드 파일은 예외 (주간업무 캘린더 — 팀 내부 배포)
+# setup.exe 배포는 폐지 — 무서명 + 내부 파이썬 설치기 동봉 구조가
+# Defender ML 오탐(Trojan:Win32/Phonzy.A!ml)에 걸려 zip 배포로 전환함
 !downloads/work-calendar_latest.zip
-!downloads/work-calendar_setup.exe
 
 # 별도 프로토타입 프로젝트 — 이 저장소(공개)에 포함하지 않음
 smr-translator/
