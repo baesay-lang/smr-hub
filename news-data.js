@@ -310,6 +310,49 @@ window.SMR_NEWS = [
     "id": "3a6bdf2c"
   },
   {
+    "date": "2026-08-07",
+    "title": "오클로(Oklo) 2026년 2분기 재무 결과 및 사업 현황 발표",
+    "summary": "오클로가 2분기 재무 실적과 사업 진행 현황을 공시했다.",
+    "summaryLong": "오클로(Oklo)가 2026년 2분기 재무 결과와 사업 현황을 발표했다. 소형모듈원자로(SMR) 개발사로서 분기별 재무 성과와 사업 진행 상황을 공개하는 정기 공시이다. 추가 세부 사항은 원문에서 확인 가능하다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/oklo-publishes-second-quarter-2026-110000760.html",
+    "k": "oklo publishes second quarter 2026 financial results and business update",
+    "id": "8e97a4e2"
+  },
+  {
+    "date": "2026-08-07",
+    "title": "오클로 그로브스(Groves) 원자로, 착공 후 1년 이내 임계 달성",
+    "summary": "오클로의 그로브스 테스트 원자로가 착공 후 1년 이내에 임계 상태에 도달했다.",
+    "summaryLong": "오클로(Oklo)의 그로브스(Groves) 테스트 원자로가 착공 후 1년 이내 첫 임계(First Criticality)를 달성했다. 이는 소형모듈원자로(SMR) 개발에서 핵심적인 기술 마일스톤으로, 오클로의 설계·제조·운영 능력을 입증하는 중대한 성과이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "eciks.org",
+    "url": "https://eciks.org/19496-oklo-groves-reactor-criticality",
+    "k": "oklo s groves reactor reaches criticality less than a year after groundbreaking",
+    "id": "d236c00f"
+  },
+  {
+    "date": "2026-08-07",
+    "title": "한수원 협력사 오클로(Oklo) SMR 연구용 원자로 임계 상태 달성, 미국 에너지부(DOE) \"주요 이정표\" 평가",
+    "summary": "미국의 오클로(Oklo)가 개발한 소형모듈원자로(SMR) 연구용 원자로가 임계 상태에 도달했으며, 미국 에너지부(DOE)가 이를 중요한 이정표로 평가했다.",
+    "summaryLong": "한국수력원자력(한수원)의 협력사로 알려진 미국 오클로(Oklo)가 자사의 소형모듈원자로(SMR) 연구용 원자로 프로젝트를 통해 임계 상태(criticality) 도달이라는 주요 기술 마일스톤을 달성했다. 미국 에너지부(DOE)는 이 성과를 중요한 이정표로 평가했으며, 이는 오클로의 SMR 기술 개발이 설계 단계를 넘어 실제 운영 검증 단계로 진입했음을 의미한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "businesspost.co.kr",
+    "url": "https://www.businesspost.co.kr/BP?command=article_view&num=444208",
+    "k": "한수원 협력사 미국 오클로 smr 연구용 원자로 임계 상태 도달 미국 에너지부 중요한 이정표",
+    "ko": 1,
+    "id": "a1298967"
+  },
+  {
     "date": "2026-08-06",
     "title": "미국 시험로 마일스톤 달성",
     "summary": "오클로(Oklo)의 그로브스 동위원소 시험로(Groves Isotope Test Reactor)가 임계에 도달했고, 딥 피션(Deep Fission)의 지하 원자로가 안전설계 승인을 획득했다.",
@@ -667,6 +710,20 @@ window.SMR_NEWS = [
     "url": "https://nam.org/u-s-government-clears-oklo-reactor-advancing-energy-dominance-agenda/",
     "k": "u s government clears oklo reactor advancing energy dominance agenda national association of manufacturers",
     "id": "b62bd064"
+  },
+  {
+    "date": "2026-08-06",
+    "title": "뉴스케일 파워(NuScale), Q2 손실 기록하며 수익 추정치 하회",
+    "summary": "소형모듈원자로 개발사 뉴스케일 파워가 2분기 실적에서 손실을 기록하고 수익 예상을 넘지 못했다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발사 뉴스케일 파워 코퍼레이션(NuScale Power Corporation)이 2분기 실적을 발표했다. 발표 결과 순손실을 기록했으며 분석가 수익 추정치를 하회했다. 이는 SMR 개발의 높은 초기 투자 비용과 상용화 전 개발 단계의 특성을 반영한 것으로 보인다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/nuscale-power-corporation-smr-reports-003514848.html",
+    "k": "nuscale power corporation smr reports q2 loss lags revenue estimates",
+    "id": "7e037268"
   },
   {
     "date": "2026-08-05",
@@ -27430,4 +27487,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-08 13:36 KST";
+window.SMR_UPDATED = "2026-08-08 14:07 KST";
