@@ -22,6 +22,65 @@ window.SMR_NEWS = [
     "id": "370bbb07"
   },
   {
+    "date": "2026-08-08",
+    "title": "엠파워드 펀드, 뉴스케일에 140만 달러 투자",
+    "summary": "엠파워드 펀드(Empowered Funds LLC)가 뉴스케일 파워(NuScale Power Corporation)에 140만 달러를 투자했다.",
+    "summaryLong": "뉴스케일 파워(NuScale Power Corporation)가 엠파워드 펀드(Empowered Funds LLC)로부터 140만 달러의 투자를 유치했다. 이는 소형모듈원자로(SMR) 분야의 핵심 개발사에 대한 지속적인 자본 투자를 나타낸다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "marketbeat.com",
+    "url": "https://www.marketbeat.com/instant-alerts/filing-empowered-funds-llc-invests-140-million-in-nuscale-power-corporation-smr-2026-08-08/",
+    "k": "empowered funds llc invests 1 40 million in nuscale power corporation smr",
+    "id": "f6207c06"
+  },
+  {
+    "date": "2026-08-08",
+    "title": "SMR 추진선·부동점 냉각재(FSMR) 국제기준 표준화 이달 말 첫 논의",
+    "summary": "소형모듈원자로(SMR) 추진선과 부동점 냉각재(FSMR) 기술의 국제 표준화 논의가 이달 말 시작됩니다.",
+    "summaryLong": "국제 표준화 기구에서 SMR 관련 추진선 기술과 부동점 냉각재 기술의 국제 기준 표준화 논의를 이달 말 처음 진행할 예정입니다. 이는 SMR의 설계·제조·운영 표준화를 통해 상용화 가속화를 목표로 하는 정책 움직임으로, 선진국 주도 기술 표준 수립 과정에 참여하는 의미가 있습니다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260809060216613",
+    "k": "smr추진선 fsmr 국제기준 표준화 이달말 첫 논의 상용화 한 발",
+    "ko": 1,
+    "id": "d3f59150"
+  },
+  {
+    "date": "2026-08-08",
+    "title": "주간 원자력: 8월 3~8일 SMR 세제지원·해외사업 확대",
+    "summary": "한국의 SMR 세제지원 정책과 해외사업 확대가 원전산업 투자 기반을 확충하고 있습니다.",
+    "summaryLong": "정부가 소형모듈원자로(SMR) 산업에 대한 세제지원을 추진하고 해외사업 확대를 지원함으로써 원전산업의 투자 기반을 넓히고 있습니다. 이는 국내 SMR 개발사들의 글로벌 경쟁력 강화와 상용화 기반 조성을 목표로 하는 정책 기조를 반영합니다. 구체적인 세제지원 규모나 해외사업 대상국은 제목에 명시되지 않았습니다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "knpnews.com",
+    "url": "http://www.knpnews.com/news/articleViewAmp.html?idxno=34259",
+    "k": "주간 원자력 8월 3 8일 smr 세제지원 해외사업 확대 원전산업 투자 기반 넓어져",
+    "ko": 1,
+    "id": "eff89981"
+  },
+  {
+    "date": "2026-08-08",
+    "title": "트럼프 행정부, 미국 첨단원자로 임계 목표 초과 달성",
+    "summary": "미국이 첨단 원자로 개발의 임계 목표를 초과 달성하며 한국 SMR 전략에 영향을 미치고 있습니다.",
+    "summaryLong": "트럼프 행정부가 미국의 첨단 원자로 개발 목표를 초과 달성함으로써 글로벌 SMR·첨단로 시장에서의 미국의 리더십을 강화했습니다. 이러한 미국의 기술 진전과 정책 지원은 한국의 SMR 전략 수립과 국제 경쟁 구도에 직접적인 영향을 미칠 것으로 전망됩니다. 구체적인 임계 목표 수치나 달성 프로젝트명은 제공되지 않았습니다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "newsyonhap.com",
+    "url": "https://newsyonhap.com/news/118383",
+    "k": "트럼프 행정부 미국 첨단 원자로 임계 목표 초과 달성 한국 smr 전략에 미칠 영향",
+    "ko": 1,
+    "id": "d024548c"
+  },
+  {
     "date": "2026-08-07",
     "title": "인도, 국내 소형모듈원자로 개발에 200억 루피 투자 추진",
     "summary": "인도가 자국 소형모듈원자로(SMR) 개발을 위해 200억 인도 루피(INR 20,000 Crore) 규모의 국책 지원을 추진 중이다.",
@@ -1257,6 +1316,21 @@ window.SMR_NEWS = [
     "id": "755740b6"
   },
   {
+    "date": "2026-08-05",
+    "title": "뉴스케일 파워(NuScale), 상용화 지연으로 수익성 테스트 직면",
+    "summary": "뉴스케일 파워(NuScale Power)가 소형모듈원자로(SMR) 상용화 지연으로 인한 실적 악화에 직면했습니다.",
+    "summaryLong": "뉴스케일 파워가 첫 프로젝트 상용화 일정 지연으로 인해 수익성 달성에 어려움을 겪고 있습니다. 이는 SMR 개발사의 현실적 과제와 시장 기대치 사이의 간극을 드러내는 사례로, 향후 개발 일정 및 비즈니스 모델의 재검토가 필요한 상황입니다. 구체적인 지연 규모나 재계획 내용은 스니펫에 포함되지 않았습니다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "ng.investing.com",
+    "url": "https://ng.investing.com/news/earnings/nuscale-power-faces-earnings-test-as-commercialization-lags-93CH-2640200",
+    "k": "nuscale power faces earnings test as commercialization lags by investing com",
+    "op": 1,
+    "id": "36490522"
+  },
+  {
     "date": "2026-08-04",
     "title": "원자력산업협회, 정부의 SMR 국가전략기술 지정 환영 성명",
     "summary": "한국 정부의 소형모듈원자로(SMR)를 국가전략기술 지정 및 2026년 세제개편안에 포함시킨 정책을 산업계가 환영했다.",
@@ -2022,6 +2096,21 @@ window.SMR_NEWS = [
     "k": "원자력산업협회 smr 국가전략기술 지정 환영 산업 도약 전환점",
     "ko": 1,
     "id": "fb11cb16"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "김성환 기후장관, 12차 전기본 원전·SMR 추가 포함 여부 이달 공론화",
+    "summary": "정부가 12차 전력수급기본계획(전기본)에 원전과 SMR 포함 여부를 이달 중 공론화하기로 했습니다.",
+    "summaryLong": "김성환 기후환경부 장관이 정부의 12차 전력수급기본계획(전기본) 수립 과정에서 원자력과 소형모듈원자로(SMR)의 추가 포함 여부를 이달 중 공론화하겠다고 발표했습니다. 이는 한국의 장기 에너지 정책에서 원전·SMR의 역할 재정의와 관련한 주요 정책 결정 시점을 의미하며, 최종 에너지 믹스 구성에 중대한 영향을 미칠 것으로 예상됩니다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "khan.co.kr",
+    "url": "https://www.khan.co.kr/article/202608042118025",
+    "k": "김성환 기후장관 12차 전기본에 원전 smr 추가 포함 여부 이달 공론화 돌입",
+    "ko": 1,
+    "id": "57830f63"
   },
   {
     "date": "2026-08-03",
@@ -27516,4 +27605,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-08 14:29 KST";
+window.SMR_UPDATED = "2026-08-09 06:57 KST";

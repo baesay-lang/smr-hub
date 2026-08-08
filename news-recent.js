@@ -15,6 +15,65 @@ window.SMR_NEWS = [
   "id": "370bbb07"
  },
  {
+  "date": "2026-08-08",
+  "title": "엠파워드 펀드, 뉴스케일에 140만 달러 투자",
+  "summary": "엠파워드 펀드(Empowered Funds LLC)가 뉴스케일 파워(NuScale Power Corporation)에 140만 달러를 투자했다.",
+  "summaryLong": "뉴스케일 파워(NuScale Power Corporation)가 엠파워드 펀드(Empowered Funds LLC)로부터 140만 달러의 투자를 유치했다. 이는 소형모듈원자로(SMR) 분야의 핵심 개발사에 대한 지속적인 자본 투자를 나타낸다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "NuScale",
+  "region": "US",
+  "source": "marketbeat.com",
+  "url": "https://www.marketbeat.com/instant-alerts/filing-empowered-funds-llc-invests-140-million-in-nuscale-power-corporation-smr-2026-08-08/",
+  "k": "empowered funds llc invests 1 40 million in nuscale power corporation smr",
+  "id": "f6207c06"
+ },
+ {
+  "date": "2026-08-08",
+  "title": "SMR 추진선·부동점 냉각재(FSMR) 국제기준 표준화 이달 말 첫 논의",
+  "summary": "소형모듈원자로(SMR) 추진선과 부동점 냉각재(FSMR) 기술의 국제 표준화 논의가 이달 말 시작됩니다.",
+  "summaryLong": "국제 표준화 기구에서 SMR 관련 추진선 기술과 부동점 냉각재 기술의 국제 기준 표준화 논의를 이달 말 처음 진행할 예정입니다. 이는 SMR의 설계·제조·운영 표준화를 통해 상용화 가속화를 목표로 하는 정책 움직임으로, 선진국 주도 기술 표준 수립 과정에 참여하는 의미가 있습니다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "v.daum.net",
+  "url": "https://v.daum.net/v/20260809060216613",
+  "k": "smr추진선 fsmr 국제기준 표준화 이달말 첫 논의 상용화 한 발",
+  "ko": 1,
+  "id": "d3f59150"
+ },
+ {
+  "date": "2026-08-08",
+  "title": "주간 원자력: 8월 3~8일 SMR 세제지원·해외사업 확대",
+  "summary": "한국의 SMR 세제지원 정책과 해외사업 확대가 원전산업 투자 기반을 확충하고 있습니다.",
+  "summaryLong": "정부가 소형모듈원자로(SMR) 산업에 대한 세제지원을 추진하고 해외사업 확대를 지원함으로써 원전산업의 투자 기반을 넓히고 있습니다. 이는 국내 SMR 개발사들의 글로벌 경쟁력 강화와 상용화 기반 조성을 목표로 하는 정책 기조를 반영합니다. 구체적인 세제지원 규모나 해외사업 대상국은 제목에 명시되지 않았습니다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "knpnews.com",
+  "url": "http://www.knpnews.com/news/articleViewAmp.html?idxno=34259",
+  "k": "주간 원자력 8월 3 8일 smr 세제지원 해외사업 확대 원전산업 투자 기반 넓어져",
+  "ko": 1,
+  "id": "eff89981"
+ },
+ {
+  "date": "2026-08-08",
+  "title": "트럼프 행정부, 미국 첨단원자로 임계 목표 초과 달성",
+  "summary": "미국이 첨단 원자로 개발의 임계 목표를 초과 달성하며 한국 SMR 전략에 영향을 미치고 있습니다.",
+  "summaryLong": "트럼프 행정부가 미국의 첨단 원자로 개발 목표를 초과 달성함으로써 글로벌 SMR·첨단로 시장에서의 미국의 리더십을 강화했습니다. 이러한 미국의 기술 진전과 정책 지원은 한국의 SMR 전략 수립과 국제 경쟁 구도에 직접적인 영향을 미칠 것으로 전망됩니다. 구체적인 임계 목표 수치나 달성 프로젝트명은 제공되지 않았습니다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "US",
+  "source": "newsyonhap.com",
+  "url": "https://newsyonhap.com/news/118383",
+  "k": "트럼프 행정부 미국 첨단 원자로 임계 목표 초과 달성 한국 smr 전략에 미칠 영향",
+  "ko": 1,
+  "id": "d024548c"
+ },
+ {
   "date": "2026-08-07",
   "title": "인도, 국내 소형모듈원자로 개발에 200억 루피 투자 추진",
   "summary": "인도가 자국 소형모듈원자로(SMR) 개발을 위해 200억 인도 루피(INR 20,000 Crore) 규모의 국책 지원을 추진 중이다.",
@@ -806,66 +865,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-08-05",
-  "title": "테네시밸리공사(TVA), 폐지된 벨폰트 원전 부지에 소형모듈원자로 계획",
-  "summary": "미국 테네시밸리공사(TVA)가 폐쇄된 벨폰트(Bellefonte) 원자력발전소 부지에 소형모듈원자로(SMR) 건설을 추진 중.",
-  "summaryLong": "채터누가 타임스 프리 프레스(Chattanooga Times Free Press) 보도에 따르면, 테네시밸리공사(TVA, Tennessee Valley Authority)가 앨라배마 주 벨폰트(Bellefonte)에서 1980년대부터 폐지된 원자력발전소 부지를 활용하여 소형모듈원자로(SMR) 프로젝트를 계획하고 있다. 이는 미국 전역의 SMR 개발·배치 추세 속에서 기존 폐지 부지의 재활용 및 지역 전력 공급 강화 전략의 일환이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "TVA",
-  "region": "US",
-  "source": "timesfreepress.com",
-  "url": "https://www.timesfreepress.com/news/2026/aug/05/tva-planning-small-modular-reactors-at-abandoned/",
-  "k": "tva planning small modular reactors at abandoned bellefonte nuclear plant",
-  "id": "cfe1a0e5"
- },
- {
-  "date": "2026-08-05",
-  "title": "현대건설, 홀텍·엔터지와 미국 동남부 SMR 사업 진출 검토",
-  "summary": "현대건설이 미국 기업 홀텍(HoltTech)·엔터지(Entergi)와 함께 미국 동남부 연안 지역에서 소형모듈원자로(SMR) 사업 진출을 검토 중이다.",
-  "summaryLong": "현대건설이 미국의 홀텍(HoltTech)·엔터지(Entergi)와 협력하여 미국 동남부 연안 지역에서의 소형모듈원자로(SMR) 사업 진출을 검토하고 있다. 이는 현대건설이 글로벌 SMR 시장 진출을 추진하는 과정의 일환으로, 미국 파트너사들과 함께 지역별 적합성 검토를 진행 중인 것으로 보인다. SMR의 소형화·모듈화 특성을 고려하여 연안 지역 진출을 검토하는 것으로 예상된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "현대건설",
-  "region": "US",
-  "source": "businesspost.co.kr",
-  "url": "https://www.businesspost.co.kr/BP?command=article_view&num=444051",
-  "k": "현대건설 홀텍 엔터지와 미국 동남부 연안 지역서 smr 사업 진출 검토",
-  "ko": 1,
-  "op": 1,
-  "id": "f94c190b"
- },
- {
-  "date": "2026-08-05",
-  "title": "미쓰비시중공업, SMR 국내 실용화 본격 개발 추진",
-  "summary": "미쓰비시중공업(Mitsubishi Heavy Industries)이 차세대형 소형모듈원자로(SMR)의 국내 실용화를 위한 본격 개발에 착수했다.",
-  "summaryLong": "미쓰비시중공업(Mitsubishi Heavy Industries)이 차세대형 소형모듈원자로(SMR)의 일본 국내 실용화를 목표로 본격적인 개발에 진입했다. 일본의 주요 원자력 기업인 미쓰비시중공업의 SMR 개발 추진은 일본이 2050년 탄소중립 목표 달성을 위해 SMR 기술을 전략적으로 추진하는 움직임을 보여준다. 이는 글로벌 SMR 개발 경쟁에서 일본의 기술적 입지를 강화하려는 의도로 해석된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "미쓰비시중공업",
-  "region": "JP",
-  "source": "www3.nhk.or.jp",
-  "url": "https://www3.nhk.or.jp/nhkworld/ko/news/20260805_B1/",
-  "k": "미쓰비시중공업 차세대형 원자로 smr 국내 실용화를 위한 본격 개발에",
-  "ko": 1,
-  "id": "dd793146"
- },
- {
-  "date": "2026-08-05",
-  "title": "SMR 특허전쟁: 중국·러시아와 경쟁, 한국도 게임 체인저로 부상",
-  "summary": "차세대 소형모듈원자로(SMR) 분야에서 중국·러시아가 주도권을 놓고 경쟁하는 가운데 한국도 게임 체인저로 떠오르고 있다.",
-  "summaryLong": "글로벌 차세대 소형모듈원자로(SMR) 특허 분야에서 중국과 러시아가 적극 경쟁하고 있으며, 한국도 이 시장에서 주요 플레이어로 부상하고 있다. SMR은 차세대 에너지 기술로서 각국이 기술 우위 확보를 위해 특허 확보에 집중하고 있다. 한국의 부상은 국가전략기술 지정과 함께 정부 정책 지원이 뒷받침된 결과로 평가된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "e-patentnews.com",
-  "url": "http://www.e-patentnews.com/15158",
-  "k": "중국이 치고 러시아가 버틴다 차세대 smr 특허전쟁 한국도 게임 체인저 로 떠올랐다",
-  "ko": 1,
-  "id": "3b750c0b"
- },
- {
-  "date": "2026-08-05",
   "title": "웨스팅하우스, AP1000 글로벌 배치 및 IPO 계획 발표",
   "summary": "웨스팅하우스가 AP1000 원자로 최대 91기의 글로벌 배치 계획 및 IPO 관련 소식을 발표했다.",
   "summaryLong": "웨스팅하우스와 그 주요 주주인 카메코(Cameco), 브룩필드 자산관리(Brookfield Asset Management)가 최근 발표한 내용에 따르면, 웨스팅하우스의 장기 전략은 가압경수로(AP1000) 기함 원자로를 전 세계적으로 최대 91기 배치하는 것을 포함한다. 이는 웨스팅하우스의 상장(IPO) 추진과 함께 발표된 중요한 비즈니스 계획이다.",
@@ -1347,5 +1346,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-08 14:29 KST";
-window.SMR_TOTAL = 1894;
+window.SMR_UPDATED = "2026-08-09 06:57 KST";
+window.SMR_TOTAL = 1900;
