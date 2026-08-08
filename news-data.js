@@ -353,6 +353,21 @@ window.SMR_NEWS = [
     "id": "a1298967"
   },
   {
+    "date": "2026-08-07",
+    "title": "오클로, 그로브스 원자로 임계 도달 후 저평가 여부 검토",
+    "summary": "오클로가 그로브스(Groves) 원자로의 임계 도달 달성 이후 주가 평가에 관한 분석 보도이다.",
+    "summaryLong": "오클로(Oklo)의 그로브스(Groves) 원자로가 임계(Criticality) 달성이라는 주요 기술 마일스톤을 달성했으며, 이에 따른 회사 주가의 밸류에이션 평가에 관한 분석 보도이다. 임계 달성은 소형모듈원자로 개발에서 원자로 운영 가능성을 검증하는 중요한 단계로, 회사의 기술 진척을 보여주는 사건이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-oklo-undervalued-reaching-criticality-051411087.html",
+    "k": "is oklo oklo undervalued after reaching criticality at its groves reactor",
+    "op": 1,
+    "id": "3250199e"
+  },
+  {
     "date": "2026-08-06",
     "title": "미국 시험로 마일스톤 달성",
     "summary": "오클로(Oklo)의 그로브스 동위원소 시험로(Groves Isotope Test Reactor)가 임계에 도달했고, 딥 피션(Deep Fission)의 지하 원자로가 안전설계 승인을 획득했다.",
@@ -724,6 +739,20 @@ window.SMR_NEWS = [
     "url": "https://finance.yahoo.com/markets/stocks/articles/nuscale-power-corporation-smr-reports-003514848.html",
     "k": "nuscale power corporation smr reports q2 loss lags revenue estimates",
     "id": "7e037268"
+  },
+  {
+    "date": "2026-08-06",
+    "title": "엑스에너지-센트루스, Xe-100 첨단소형모듈로용 고농축우라늄(HALEU) 공급 계약 체결",
+    "summary": "엑스에너지(X-energy)와 센트루스(Centrus)가 Xe-100 첨단소형모듈로 개발을 위한 HALEU(High-Assay Low-Enriched Uranium) 공급 계약을 체결했다.",
+    "summaryLong": "엑스에너지(X-energy)와 핵연료 공급 기업 센트루스(Centrus)가 고농축 저농축우라늄(HALEU, High-Assay Low-Enriched Uranium) 공급 계약을 체결했다. 이 계약은 엑스에너지의 Xe-100 첨단소형모듈로 개발 프로젝트를 지원하기 위한 것이다. Xe-100은 고온가스로(HTGR) 기반의 차세대 소형모듈원자로이며, 안정적인 핵연료 공급 확보는 상용화 추진의 핵심 조건이다.",
+    "cat": "계약",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "x-energy.com",
+    "url": "https://x-energy.com/news/x-energy-centrus-sign-haleu-supplyagreement-for-xe-100-advanced-small-modular-reactor-development/",
+    "k": "x energy centrus sign haleu supply agreement for xe 100 advanced small modular reactor development x energy com",
+    "id": "4f331613"
   },
   {
     "date": "2026-08-05",
@@ -27487,4 +27516,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-08 14:07 KST";
+window.SMR_UPDATED = "2026-08-08 14:29 KST";

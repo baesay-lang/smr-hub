@@ -346,6 +346,21 @@ window.SMR_NEWS = [
   "id": "a1298967"
  },
  {
+  "date": "2026-08-07",
+  "title": "오클로, 그로브스 원자로 임계 도달 후 저평가 여부 검토",
+  "summary": "오클로가 그로브스(Groves) 원자로의 임계 도달 달성 이후 주가 평가에 관한 분석 보도이다.",
+  "summaryLong": "오클로(Oklo)의 그로브스(Groves) 원자로가 임계(Criticality) 달성이라는 주요 기술 마일스톤을 달성했으며, 이에 따른 회사 주가의 밸류에이션 평가에 관한 분석 보도이다. 임계 달성은 소형모듈원자로 개발에서 원자로 운영 가능성을 검증하는 중요한 단계로, 회사의 기술 진척을 보여주는 사건이다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "finance.yahoo.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-oklo-undervalued-reaching-criticality-051411087.html",
+  "k": "is oklo oklo undervalued after reaching criticality at its groves reactor",
+  "op": 1,
+  "id": "3250199e"
+ },
+ {
   "date": "2026-08-06",
   "title": "미국 시험로 마일스톤 달성",
   "summary": "오클로(Oklo)의 그로브스 동위원소 시험로(Groves Isotope Test Reactor)가 임계에 도달했고, 딥 피션(Deep Fission)의 지하 원자로가 안전설계 승인을 획득했다.",
@@ -719,6 +734,20 @@ window.SMR_NEWS = [
   "id": "7e037268"
  },
  {
+  "date": "2026-08-06",
+  "title": "엑스에너지-센트루스, Xe-100 첨단소형모듈로용 고농축우라늄(HALEU) 공급 계약 체결",
+  "summary": "엑스에너지(X-energy)와 센트루스(Centrus)가 Xe-100 첨단소형모듈로 개발을 위한 HALEU(High-Assay Low-Enriched Uranium) 공급 계약을 체결했다.",
+  "summaryLong": "엑스에너지(X-energy)와 핵연료 공급 기업 센트루스(Centrus)가 고농축 저농축우라늄(HALEU, High-Assay Low-Enriched Uranium) 공급 계약을 체결했다. 이 계약은 엑스에너지의 Xe-100 첨단소형모듈로 개발 프로젝트를 지원하기 위한 것이다. Xe-100은 고온가스로(HTGR) 기반의 차세대 소형모듈원자로이며, 안정적인 핵연료 공급 확보는 상용화 추진의 핵심 조건이다.",
+  "cat": "계약",
+  "type": "HTGR",
+  "dev": "X-energy",
+  "region": "US",
+  "source": "x-energy.com",
+  "url": "https://x-energy.com/news/x-energy-centrus-sign-haleu-supplyagreement-for-xe-100-advanced-small-modular-reactor-development/",
+  "k": "x energy centrus sign haleu supply agreement for xe 100 advanced small modular reactor development x energy com",
+  "id": "4f331613"
+ },
+ {
   "date": "2026-08-05",
   "title": "561개 원전기업 수혜, SMR 세액공제 '마중물 될 것'",
   "summary": "소형모듈원전(SMR) 관련 세액공제가 561개 원전기업에 혜택을 주며 산업 활성화의 '마중물' 역할을 할 것으로 기대된다.",
@@ -834,51 +863,6 @@ window.SMR_NEWS = [
   "k": "중국이 치고 러시아가 버틴다 차세대 smr 특허전쟁 한국도 게임 체인저 로 떠올랐다",
   "ko": 1,
   "id": "3b750c0b"
- },
- {
-  "date": "2026-08-05",
-  "title": "현대건설, 미국(US) AI 데이터센터용 SMR 전력 공급 협약",
-  "summary": "현대건설이 미국 AI 데이터센터에 소형모듈원자로(SMR) 전력을 공급하는 협약을 체결했다.",
-  "summaryLong": "현대건설이 미국의 AI 데이터센터 운영사와 소형모듈원자로(SMR) 기반 전력 공급 협약을 체결했다. 이는 국내 대형 건설사의 첨단 에너지 솔루션 사업 확대를 보여주는 사례로, SMR의 높은 전력 효율과 안정성을 바탕으로 데이터센터의 전력 수요 증가에 대응하는 전략이다. 협약을 통해 현대건설은 글로벌 SMR 시장 진출을 본격화하고, 미국의 에너지 정책 변화에 부응하는 사업 기회를 확보하게 된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "현대건설",
-  "region": "US",
-  "source": "g-enews.com",
-  "url": "https://www.g-enews.com/article/Global-Biz/2026/08/202608060726116080fbbec65dfb_1",
-  "k": "현대건설 ai 데이터센터용 smr 전력 공급 협약",
-  "ko": 1,
-  "id": "bb972cea"
- },
- {
-  "date": "2026-08-05",
-  "title": "국내 첫 미국(US) SMR 설계 따낸 DL이앤씨, 760조 시장 선점",
-  "summary": "DL이앤씨가 국내 처음으로 미국의 소형모듈원자로(SMR) 설계를 획득하며 글로벌 시장 진출을 선도했다.",
-  "summaryLong": "DL이앤씨가 국내 기업으로서 처음 미국의 소형모듈원자로(SMR) 설계를 확보했다. 이는 국내 건설·원전 기업의 기술 수준이 글로벌 수준에 도달했음을 입증하는 사례이며, 향후 미국을 포함한 글로벌 SMR 시장(시장규모 약 760조 원)에서의 선점 기회를 마련했다는 의미를 갖는다. DL이앤씨의 이번 성과는 국내 원전산업의 해외 진출 확대를 견인할 것으로 예상된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "DL이앤씨",
-  "region": "US",
-  "source": "news1.kr",
-  "url": "https://www.news1.kr/realestate/general/6250338",
-  "k": "국내 첫 smr 설계 따낸 dl이앤씨 760조 시장 선점 나섰다",
-  "ko": 1,
-  "id": "d2dcc82c"
- },
- {
-  "date": "2026-08-05",
-  "title": "현대건설, 미국 AI 데이터센터용 SMR 공급 타당성 평가 착수",
-  "summary": "현대건설이 미국의 인공지능(AI) 데이터센터를 위한 소형모듈원자로(SMR) 공급 프로젝트의 타당성 평가를 시작했다.",
-  "summaryLong": "현대건설이 미국 시장의 인공지능(AI) 데이터센터 전력 공급용 소형모듈원자로(SMR) 사업의 타당성 평가(feasibility study)에 착수했다. 이는 현대건설이 SMR 기술을 바탕으로 미국의 신흥 전력 수요 시장에 진출하기 위한 본격적인 검토 단계로, 향후 계약 체결 등 실제 사업화로 이어질 가능성을 보여주는 중요한 마일스톤이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "현대건설",
-  "region": "US",
-  "source": "g-enews.com",
-  "url": "https://www.g-enews.com/article/Global-Biz/2026/08/202608060726116080fbbec65dfb_1",
-  "k": "현대건설 ai 데이터센터용 smr 공급 타당성 평가 착수",
-  "ko": 1,
-  "id": "bb972cea"
  },
  {
   "date": "2026-08-05",
@@ -1363,5 +1347,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-08 14:07 KST";
-window.SMR_TOTAL = 1892;
+window.SMR_UPDATED = "2026-08-08 14:29 KST";
+window.SMR_TOTAL = 1894;
