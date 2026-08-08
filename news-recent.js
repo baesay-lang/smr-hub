@@ -74,6 +74,20 @@ window.SMR_NEWS = [
   "id": "d024548c"
  },
  {
+  "date": "2026-08-08",
+  "title": "미국 의료용 동위원소 수입 현황과 오클로(Oklo)의 원자로 임계 달성",
+  "summary": "오클로(Oklo)의 원자로가 임계 상태에 도달했으며, 미국 병원들의 의료용 동위원소 수입 문제와 연계된 소식이다.",
+  "summaryLong": "미국 병원들이 모든 의료용 동위원소를 수입에 의존하고 있는 가운데, 오클로(Oklo)의 원자로가 임계 상태에 도달했다. 이는 미국 내 소형모듈원자로(SMR) 개발사인 오클로의 기술 마일스톤 달성을 보도한 것으로, 향후 의료용 동위원소의 국내 생산 가능성과도 관련이 있다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "techtimes.com",
+  "url": "https://www.techtimes.com/articles/323629/20260808/us-hospitals-import-every-medical-isotope-oklos-reactor-just-went-critical.htm",
+  "k": "us hospitals import every medical isotope oklo s reactor just went critical",
+  "id": "a935c261"
+ },
+ {
   "date": "2026-08-07",
   "title": "인도, 국내 소형모듈원자로 개발에 200억 루피 투자 추진",
   "summary": "인도가 자국 소형모듈원자로(SMR) 개발을 위해 200억 인도 루피(INR 20,000 Crore) 규모의 국책 지원을 추진 중이다.",
@@ -851,20 +865,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-08-05",
-  "title": "엑스에너지, 오크릿지 핵연료 캠퍼스 70에이커 확장",
-  "summary": "엑스에너지(X-energy)가 미국 테네시주 오크릿지(Oak Ridge) 핵연료 캠퍼스를 70에이커 규모로 확장한다.",
-  "summaryLong": "엑스에너지가 미국 테네시주 오크릿지의 핵연료 생산 캠퍼스를 70에이커 규모로 확장하고 있다. 엑스에너지는 고온가스로(HTGR) 기술과 HALEU(고농축우라늄) 연료 개발을 추진 중인 첨단로 개발사로, 이 시설 확장은 대규모 핵연료 공급 능력 구축의 일환이다. 이는 엑스에너지의 상용화 준비 및 공급망 인프라 확충을 의미한다.",
-  "cat": "기술",
-  "type": "HTGR",
-  "dev": "X-energy",
-  "region": "US",
-  "source": "interestingengineering.com",
-  "url": "https://interestingengineering.com/energy/x-energy-adds-70-acres-tennessee-nuclear-fuel-campus",
-  "k": "x energy expands nuclear fuel campus in oak ridge by 70 acres",
-  "id": "be15371c"
- },
- {
-  "date": "2026-08-05",
   "title": "웨스팅하우스, AP1000 글로벌 배치 및 IPO 계획 발표",
   "summary": "웨스팅하우스가 AP1000 원자로 최대 91기의 글로벌 배치 계획 및 IPO 관련 소식을 발표했다.",
   "summaryLong": "웨스팅하우스와 그 주요 주주인 카메코(Cameco), 브룩필드 자산관리(Brookfield Asset Management)가 최근 발표한 내용에 따르면, 웨스팅하우스의 장기 전략은 가압경수로(AP1000) 기함 원자로를 전 세계적으로 최대 91기 배치하는 것을 포함한다. 이는 웨스팅하우스의 상장(IPO) 추진과 함께 발표된 중요한 비즈니스 계획이다.",
@@ -1346,5 +1346,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-09 06:57 KST";
-window.SMR_TOTAL = 1900;
+window.SMR_UPDATED = "2026-08-09 07:39 KST";
+window.SMR_TOTAL = 1901;

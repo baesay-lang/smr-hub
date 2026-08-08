@@ -81,6 +81,20 @@ window.SMR_NEWS = [
     "id": "d024548c"
   },
   {
+    "date": "2026-08-08",
+    "title": "미국 의료용 동위원소 수입 현황과 오클로(Oklo)의 원자로 임계 달성",
+    "summary": "오클로(Oklo)의 원자로가 임계 상태에 도달했으며, 미국 병원들의 의료용 동위원소 수입 문제와 연계된 소식이다.",
+    "summaryLong": "미국 병원들이 모든 의료용 동위원소를 수입에 의존하고 있는 가운데, 오클로(Oklo)의 원자로가 임계 상태에 도달했다. 이는 미국 내 소형모듈원자로(SMR) 개발사인 오클로의 기술 마일스톤 달성을 보도한 것으로, 향후 의료용 동위원소의 국내 생산 가능성과도 관련이 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "techtimes.com",
+    "url": "https://www.techtimes.com/articles/323629/20260808/us-hospitals-import-every-medical-isotope-oklos-reactor-just-went-critical.htm",
+    "k": "us hospitals import every medical isotope oklo s reactor just went critical",
+    "id": "a935c261"
+  },
+  {
     "date": "2026-08-07",
     "title": "인도, 국내 소형모듈원자로 개발에 200억 루피 투자 추진",
     "summary": "인도가 자국 소형모듈원자로(SMR) 개발을 위해 200억 인도 루피(INR 20,000 Crore) 규모의 국책 지원을 추진 중이다.",
@@ -27605,4 +27619,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-09 06:57 KST";
+window.SMR_UPDATED = "2026-08-09 07:39 KST";
