@@ -95,6 +95,20 @@ window.SMR_NEWS = [
     "id": "a935c261"
   },
   {
+    "date": "2026-08-08",
+    "title": "오클로(Oklo) 2026년 2분기 실적 및 어닝콜 자료",
+    "summary": "오클로의 2026년 2분기 실적 보고서 및 어닝콜 프레젠테이션이 발표되었다.",
+    "summaryLong": "소듐냉각고속로(SFR) 개발사 오클로(Oklo Inc.)가 2026년 8월 8일 2분기 실적을 발표했다. 뉴욕증권거래소(NYSE) 상장사인 오클로의 분기별 실적 공시로, 회사의 사업 진전 현황과 재무 상태를 담고 있다. 구체적 사업 성과와 기술 진행 상황은 추가 검토 필요하다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "seekingalpha.com",
+    "url": "https://seekingalpha.com/article/4933673-oklo-inc-2026-q2-results-earnings-call-presentation?source=generic_rss",
+    "k": "oklo inc 2026 q2 results earnings call presentation nyse oklo 2026 08 08",
+    "id": "1de3b0dc"
+  },
+  {
     "date": "2026-08-07",
     "title": "인도, 국내 소형모듈원자로 개발에 200억 루피 투자 추진",
     "summary": "인도가 자국 소형모듈원자로(SMR) 개발을 위해 200억 인도 루피(INR 20,000 Crore) 규모의 국책 지원을 추진 중이다.",
@@ -27619,4 +27633,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-09 07:39 KST";
+window.SMR_UPDATED = "2026-08-09 08:12 KST";

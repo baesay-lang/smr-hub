@@ -88,6 +88,20 @@ window.SMR_NEWS = [
   "id": "a935c261"
  },
  {
+  "date": "2026-08-08",
+  "title": "오클로(Oklo) 2026년 2분기 실적 및 어닝콜 자료",
+  "summary": "오클로의 2026년 2분기 실적 보고서 및 어닝콜 프레젠테이션이 발표되었다.",
+  "summaryLong": "소듐냉각고속로(SFR) 개발사 오클로(Oklo Inc.)가 2026년 8월 8일 2분기 실적을 발표했다. 뉴욕증권거래소(NYSE) 상장사인 오클로의 분기별 실적 공시로, 회사의 사업 진전 현황과 재무 상태를 담고 있다. 구체적 사업 성과와 기술 진행 상황은 추가 검토 필요하다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "seekingalpha.com",
+  "url": "https://seekingalpha.com/article/4933673-oklo-inc-2026-q2-results-earnings-call-presentation?source=generic_rss",
+  "k": "oklo inc 2026 q2 results earnings call presentation nyse oklo 2026 08 08",
+  "id": "1de3b0dc"
+ },
+ {
   "date": "2026-08-07",
   "title": "인도, 국내 소형모듈원자로 개발에 200억 루피 투자 추진",
   "summary": "인도가 자국 소형모듈원자로(SMR) 개발을 위해 200억 인도 루피(INR 20,000 Crore) 규모의 국책 지원을 추진 중이다.",
@@ -851,20 +865,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-08-05",
-  "title": "홀텍, 오이스터 크릭 진전 및 걸프 사우스 진출",
-  "summary": "홀텍이 오이스터 크릭 원전의 라이센스 종료 계획(LTP) 인가를 획득했으며, 엔터지 및 현대건설과 함께 걸프 사우스 지역의 신규 원자로 배치를 평가한다.",
-  "summaryLong": "홀텍 인터내셔널이 지난주 두 가지 중요 성과를 발표했다. 첫째, 미국 원자력규제위원회(NRC)가 오이스터 크릭 원전의 라이센스 종료 계획(LTP) 승인을 완료했다. 둘째, 엔터지와 현대건설과의 파트너십을 통해 걸프 사우스 지역의 신규 원자로 배치 기회를 평가하기로 했다. 이는 홀텍의 구 시설 폐지 절차 완료와 신규 SMR 사업 확장을 동시에 보여준다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "Holtec",
-  "region": "US",
-  "source": "ANS Newswire",
-  "url": "https://www.ans.org/news/2026-08-05/article-8273/holtec-moves-forward-on-oyster-creek-looks-to-gulf-south/",
-  "k": "holtec moves forward on oyster creek looks to gulf south",
-  "id": "98a37d87"
- },
- {
-  "date": "2026-08-05",
   "title": "웨스팅하우스, AP1000 글로벌 배치 및 IPO 계획 발표",
   "summary": "웨스팅하우스가 AP1000 원자로 최대 91기의 글로벌 배치 계획 및 IPO 관련 소식을 발표했다.",
   "summaryLong": "웨스팅하우스와 그 주요 주주인 카메코(Cameco), 브룩필드 자산관리(Brookfield Asset Management)가 최근 발표한 내용에 따르면, 웨스팅하우스의 장기 전략은 가압경수로(AP1000) 기함 원자로를 전 세계적으로 최대 91기 배치하는 것을 포함한다. 이는 웨스팅하우스의 상장(IPO) 추진과 함께 발표된 중요한 비즈니스 계획이다.",
@@ -1346,5 +1346,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-09 07:39 KST";
-window.SMR_TOTAL = 1901;
+window.SMR_UPDATED = "2026-08-09 08:12 KST";
+window.SMR_TOTAL = 1902;
