@@ -1,6 +1,20 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-08-08",
+  "title": "오클로 그로브원 임계 달성, 의료용 동위원소 경쟁 시작",
+  "summary": "오클로(Oklo)의 그로브원(Groves One) 소형모듈원자로가 임계에 도달했으며 의료용 동위원소 생산 경쟁이 본격화되고 있다.",
+  "summaryLong": "오클로의 그로브원 초소형 원자로가 임계 달성이라는 중요한 마일스톤에 도달했다. 이는 미국 신생 SMR 개발사가 실제 운영 단계로 진입하는 주요 기술적 성과이다. 동시에 의료용 동위원소 생산이라는 상용화 목표도 본격적으로 추진되고 있으며, 이 분야에서의 경쟁이 확산되고 있음을 시사한다. 그로브원의 임계 달성은 미국 SMR 산업의 중요한 기술적 진전을 나타낸다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "cbsaustin.com",
+  "url": "https://cbsaustin.com/news/local/oklos-groves-one-achieves-criticality-and-the-race-for-medical-isotopes-begins",
+  "k": "oklo s groves one achieves criticality and the race for medical isotopes begins",
+  "id": "370bbb07"
+ },
+ {
   "date": "2026-08-07",
   "title": "인도, 국내 소형모듈원자로 개발에 200억 루피 투자 추진",
   "summary": "인도가 자국 소형모듈원자로(SMR) 개발을 위해 200억 인도 루피(INR 20,000 Crore) 규모의 국책 지원을 추진 중이다.",
@@ -257,6 +271,36 @@ window.SMR_NEWS = [
   "url": "https://www.ans.org/news/article-8277/oklos-isotope-test-reactor-achieves-criticality/",
   "k": "oklo s isotope test reactor achieves criticality american nuclear society ans",
   "id": "c57975ce"
+ },
+ {
+  "date": "2026-08-07",
+  "title": "뉴스케일, 올해 핵심 계약으로 2030년까지 3배 성장 가능성 — 3조 달러 규모 핵에너지 붐",
+  "summary": "뉴스케일이 올해 체결할 중대 계약에 따라 2030년까지 3배 성장할 가능성이 제기되고 있다.",
+  "summaryLong": "금융 분석가들은 뉴스케일 파워(NuScale Power)가 올해 체결할 주요 계약 성공이 회사 성장의 결정적 요소가 될 것으로 전망하고 있다. 3조 달러 규모의 글로벌 핵에너지 붐 속에서 뉴스케일의 소형모듈원자로(SMR) 계약 수주가 2030년까지 주가 3배 상승으로 이어질 가능성이 거론되고 있다. 다만 이는 향후 계약 성사에 따른 추측·전망성 보도다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "NuScale",
+  "region": "US",
+  "source": "finance.biggo.com",
+  "url": "https://finance.biggo.com/news/59d13666-42a8-4b91-a310-b5313949a35b",
+  "k": "nuscale could triple by 2030 as 3 trillion nuclear boom hinges on a single contract this year",
+  "op": 1,
+  "id": "0e63f24d"
+ },
+ {
+  "date": "2026-08-07",
+  "title": "한미글로벌, 미국(US) SMR 사업개발 추진…12개 현지 프로젝트 기반",
+  "summary": "한미글로벌이 미국의 12개 SMR 프로젝트를 기반으로 사업개발을 정조준하며 원전 통합자로의 도약을 추진 중이다.",
+  "summaryLong": "한미글로벌이 미국 내 12개의 소형모듈원자로(SMR) 관련 프로젝트를 기반으로 사업개발을 본격화하고 있다. 이는 한미글로벌이 단순 공급자 역할에서 벗어나 미국 원자력 시장에서 사업 통합자로서의 위상을 높이려는 전략으로 보인다. 다수의 현지 프로젝트 참여를 통해 SMR 관련 기술·공급망·인허가 경험을 축적하고 있으며, 이를 통해 글로벌 SMR 시장에서의 경쟁력 강화를 목표로 하고 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "한미글로벌",
+  "region": "US",
+  "source": "upkoreanews.kr",
+  "url": "https://www.upkoreanews.kr/news/articleView.html?idxno=99663",
+  "k": "한미글로벌 미국 smr 사업개발 정조준 12개 현지 프로젝트 기반으로 원전 통합자 도약",
+  "ko": 1,
+  "id": "3a6bdf2c"
  },
  {
   "date": "2026-08-06",
@@ -824,51 +868,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-08-05",
-  "title": "홀텍 미국 원전 해체 최종단계, 현대건설 SMR 시장 진출",
-  "summary": "홀텍이 미국 원전 해체 사업 최종단계를 진행하는 가운데 현대건설이 SMR 시장 진출을 추진 중이다.",
-  "summaryLong": "홀텍이 미국의 원전 해체 프로젝트 최종단계를 진행 중이며, 현대건설이 소형모듈원자로(SMR) 시장 진출을 추진 중이라고 보도했다. 스니펫만으로는 현대건설의 구체적인 SMR 사업 계획, 기술 개발 현황, 파트너십 체결 여부 등의 세부 사항이 명확하지 않으나, SMR 시장 진출 의향을 나타낸 중요한 뉴스로 보인다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "현대건설",
-  "region": "KR",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5494",
-  "k": "홀텍 미국 원전 해체 최종단계 현대건설 smr 시장 진출",
-  "ko": 1,
-  "id": "4344779a"
- },
- {
-  "date": "2026-08-05",
-  "title": "영국 GBE-N, WANO(세계원전운영자협회) 신규 가입…SMR 운영 준비 착수",
-  "summary": "영국의 GBE-N(Great British Energy - Nuclear)이 세계원전운영자협회(WANO)에 신규 가입하며 SMR 운영 준비를 시작했다.",
-  "summaryLong": "영국의 GBE-N(Great British Energy - Nuclear)이 세계원전운영자협회(WANO)에 신규 가입을 완료했으며, 이는 SMR 운영 준비의 본격화를 의미한다. WANO 가입은 국제 원전 운영 표준과 안전 관리 체계에 편입되는 것으로, 향후 SMR 상용 운영을 위한 국제 규제 및 운영 기준 준수 체계를 갖추는 단계이다. 영국의 SMR 프로젝트가 개발 단계에서 운영 단계로 진입하는 신호로 볼 수 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "GBE-N",
-  "region": "UK",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5493",
-  "k": "영국 gbe n wano 신규 가입 smr 운영 준비 착수",
-  "ko": 1,
-  "id": "3e446fbb"
- },
- {
-  "date": "2026-08-05",
-  "title": "SMR 국가전략기술 지정·세액공제 확대, 원전 산업 재도약 발판 마련",
-  "summary": "정부가 SMR을 국가전략기술으로 지정하고 세액공제를 확대하는 정책을 시행했다.",
-  "summaryLong": "정부가 소형모듈원자로(SMR)를 국가전략기술으로 지정하고 관련 세액공제를 확대하는 정책을 공식 추진하고 있다. 이는 SMR 산업의 투자 유인 및 기술 개발 촉진을 위한 정부 정책으로, 원전 산업의 재도약을 위한 제도적 발판을 마련한 것이다. SMR 개발·생산 관련 기업들의 투자 환경 개선과 경쟁력 강화를 목표로 한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "knpp.co.kr",
-  "url": "http://knpp.co.kr/news/530337",
-  "k": "smr 국가전략기술 지정 세액공제 확대 원전 산업 재도약 발판 마련",
-  "ko": 1,
-  "id": "b1634a05"
- },
- {
-  "date": "2026-08-05",
   "title": "현대건설, 미국 AI 데이터센터용 SMR 공급 타당성 평가 착수",
   "summary": "현대건설이 미국의 인공지능(AI) 데이터센터를 위한 소형모듈원자로(SMR) 공급 프로젝트의 타당성 평가를 시작했다.",
   "summaryLong": "현대건설이 미국 시장의 인공지능(AI) 데이터센터 전력 공급용 소형모듈원자로(SMR) 사업의 타당성 평가(feasibility study)에 착수했다. 이는 현대건설이 SMR 기술을 바탕으로 미국의 신흥 전력 수요 시장에 진출하기 위한 본격적인 검토 단계로, 향후 계약 체결 등 실제 사업화로 이어질 가능성을 보여주는 중요한 마일스톤이다.",
@@ -1365,5 +1364,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-08 08:21 KST";
-window.SMR_TOTAL = 1885;
+window.SMR_UPDATED = "2026-08-08 13:36 KST";
+window.SMR_TOTAL = 1888;

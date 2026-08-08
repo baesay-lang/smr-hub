@@ -8,6 +8,20 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-08-08",
+    "title": "오클로 그로브원 임계 달성, 의료용 동위원소 경쟁 시작",
+    "summary": "오클로(Oklo)의 그로브원(Groves One) 소형모듈원자로가 임계에 도달했으며 의료용 동위원소 생산 경쟁이 본격화되고 있다.",
+    "summaryLong": "오클로의 그로브원 초소형 원자로가 임계 달성이라는 중요한 마일스톤에 도달했다. 이는 미국 신생 SMR 개발사가 실제 운영 단계로 진입하는 주요 기술적 성과이다. 동시에 의료용 동위원소 생산이라는 상용화 목표도 본격적으로 추진되고 있으며, 이 분야에서의 경쟁이 확산되고 있음을 시사한다. 그로브원의 임계 달성은 미국 SMR 산업의 중요한 기술적 진전을 나타낸다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "cbsaustin.com",
+    "url": "https://cbsaustin.com/news/local/oklos-groves-one-achieves-criticality-and-the-race-for-medical-isotopes-begins",
+    "k": "oklo s groves one achieves criticality and the race for medical isotopes begins",
+    "id": "370bbb07"
+  },
+  {
     "date": "2026-08-07",
     "title": "인도, 국내 소형모듈원자로 개발에 200억 루피 투자 추진",
     "summary": "인도가 자국 소형모듈원자로(SMR) 개발을 위해 200억 인도 루피(INR 20,000 Crore) 규모의 국책 지원을 추진 중이다.",
@@ -264,6 +278,36 @@ window.SMR_NEWS = [
     "url": "https://www.ans.org/news/article-8277/oklos-isotope-test-reactor-achieves-criticality/",
     "k": "oklo s isotope test reactor achieves criticality american nuclear society ans",
     "id": "c57975ce"
+  },
+  {
+    "date": "2026-08-07",
+    "title": "뉴스케일, 올해 핵심 계약으로 2030년까지 3배 성장 가능성 — 3조 달러 규모 핵에너지 붐",
+    "summary": "뉴스케일이 올해 체결할 중대 계약에 따라 2030년까지 3배 성장할 가능성이 제기되고 있다.",
+    "summaryLong": "금융 분석가들은 뉴스케일 파워(NuScale Power)가 올해 체결할 주요 계약 성공이 회사 성장의 결정적 요소가 될 것으로 전망하고 있다. 3조 달러 규모의 글로벌 핵에너지 붐 속에서 뉴스케일의 소형모듈원자로(SMR) 계약 수주가 2030년까지 주가 3배 상승으로 이어질 가능성이 거론되고 있다. 다만 이는 향후 계약 성사에 따른 추측·전망성 보도다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "finance.biggo.com",
+    "url": "https://finance.biggo.com/news/59d13666-42a8-4b91-a310-b5313949a35b",
+    "k": "nuscale could triple by 2030 as 3 trillion nuclear boom hinges on a single contract this year",
+    "op": 1,
+    "id": "0e63f24d"
+  },
+  {
+    "date": "2026-08-07",
+    "title": "한미글로벌, 미국(US) SMR 사업개발 추진…12개 현지 프로젝트 기반",
+    "summary": "한미글로벌이 미국의 12개 SMR 프로젝트를 기반으로 사업개발을 정조준하며 원전 통합자로의 도약을 추진 중이다.",
+    "summaryLong": "한미글로벌이 미국 내 12개의 소형모듈원자로(SMR) 관련 프로젝트를 기반으로 사업개발을 본격화하고 있다. 이는 한미글로벌이 단순 공급자 역할에서 벗어나 미국 원자력 시장에서 사업 통합자로서의 위상을 높이려는 전략으로 보인다. 다수의 현지 프로젝트 참여를 통해 SMR 관련 기술·공급망·인허가 경험을 축적하고 있으며, 이를 통해 글로벌 SMR 시장에서의 경쟁력 강화를 목표로 하고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한미글로벌",
+    "region": "US",
+    "source": "upkoreanews.kr",
+    "url": "https://www.upkoreanews.kr/news/articleView.html?idxno=99663",
+    "k": "한미글로벌 미국 smr 사업개발 정조준 12개 현지 프로젝트 기반으로 원전 통합자 도약",
+    "ko": 1,
+    "id": "3a6bdf2c"
   },
   {
     "date": "2026-08-06",
@@ -27386,4 +27430,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-08 08:21 KST";
+window.SMR_UPDATED = "2026-08-08 13:36 KST";
