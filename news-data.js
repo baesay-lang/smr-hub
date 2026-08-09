@@ -8,6 +8,35 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-08-09",
+    "title": "오클로(Oklo) 그로브스 연구로 최초 임계 달성",
+    "summary": "오클로의 그로브스(Groves) 연구용 원자로가 최초 임계(first criticality)에 도달했다.",
+    "summaryLong": "오클로(Oklo)가 개발 중인 그로브스 연구용 원자로가 최초 임계에 도달하는 중요한 마일스톤을 달성했다. 이는 소형모듈원자로(SMR) 개발 및 시운전 과정에서 핵심적인 기술적 성과로, 미국 에너지부(DOE) 프로그램 지원 하에 진행되고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "neutronbytes.com",
+    "url": "https://neutronbytes.com/2026/08/08/oklos-groves-research-reactor-achieves-first-criticality/",
+    "k": "oklo s groves research reactor achieves first criticality",
+    "id": "fc9ba860"
+  },
+  {
+    "date": "2026-08-09",
+    "title": "그리스, SMR 전담 기구 신설…원전 타당성 검토",
+    "summary": "그리스가 소형모듈원자로(SMR) 도입을 위한 전담 기구를 신설하고 원전 타당성 검토를 추진하고 있다.",
+    "summaryLong": "그리스 정부가 소형모듈원자로(SMR) 도입을 전담할 신규 기구를 설립하기로 결정했다. 이는 그리스가 SMR을 에너지 정책에 포함시키기 위한 정부 차원의 구체적인 조치로, 원전 도입의 타당성 검토가 진행 중임을 의미한다. 그리스의 이같은 정책 추진은 유럽(EU) 내에서 SMR에 대한 관심이 확대되고 있음을 반영한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "EU",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/Global-Biz/2026/08/202608090944563472fbbec65dfb_1",
+    "k": "그리스 smr 기구 신설 원전 타당성 검토",
+    "ko": 1,
+    "id": "5b5c10d4"
+  },
+  {
     "date": "2026-08-08",
     "title": "오클로 그로브원 임계 달성, 의료용 동위원소 경쟁 시작",
     "summary": "오클로(Oklo)의 그로브원(Groves One) 소형모듈원자로가 임계에 도달했으며 의료용 동위원소 생산 경쟁이 본격화되고 있다.",
@@ -27633,4 +27662,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-09 08:12 KST";
+window.SMR_UPDATED = "2026-08-09 13:47 KST";
