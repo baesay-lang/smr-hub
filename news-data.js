@@ -37,6 +37,64 @@ window.SMR_NEWS = [
     "id": "5b5c10d4"
   },
   {
+    "date": "2026-08-09",
+    "title": "뉴스케일 파워(NuScale Power) Q2 실적 발표 요약",
+    "summary": "뉴스케일 파워(NuScale Power)의 2분기 실적 발표 주요 내용을 정리한 기사이다.",
+    "summaryLong": "뉴스케일 파워(NuScale Power)의 2분기 실적 발표 내용을 다룬 기사이다. 구체적인 제목이나 스니펫 정보가 제한적이어서 상세 내용을 파악하기 어렵지만, 소형모듈원자로(SMR) 선도 개발사인 뉴스케일의 경영 실적과 사업 진전 상황을 다루는 공식 발표 요약으로 보인다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "marketbeat.com",
+    "url": "https://www.marketbeat.com/instant-alerts/nuscale-power-q2-earnings-call-highlights-2026-08-09/",
+    "k": "nuscale power q2 earnings call highlights",
+    "id": "290c7e28"
+  },
+  {
+    "date": "2026-08-09",
+    "title": "테라파워(TerraPower) 케머러 원전 건설 현장 공개",
+    "summary": "테라파워(TerraPower)가 미국 와이오밍(Wyoming) 케머러(Kemmerer)에 건설 중인 나트륨냉각 고속원자로 발전소의 시험·연료 공급 시설 건설 현장을 공개했다.",
+    "summaryLong": "테라파워(TerraPower)가 미국 와이오밍(Wyoming) 남서부 케머러(Kemmerer)에 건설 중인 나트륨냉각 고속로 시범 발전소의 시험 및 연료 공급 시설 건설 현장을 공개했다. 이 프로젝트는 차세대 원자로 기술 시범과 함께 더 빠른 건설 기법을 입증하기 위한 목적으로 추진되고 있다. 현장 사진 공개를 통해 테라파워의 첨단로 상용화 프로젝트가 실질적인 건설 단계로 진행되고 있음을 보여준다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "lufkindailynews.com",
+    "url": "https://lufkindailynews.com/news_reuters/national/a-view-inside-an-under-construction-test-and-fueling-facility-at-terrapower-s-kemmerer-nuclear/image_8337bf01-bbd6-5b08-83be-9d8d7905519e.html",
+    "k": "a view inside an under construction test and fueling facility at terrapower s kemmerer nuclear power plant being built in southwestern wyoming and serving as a demonstration of new technology and construction techniques backers say will allow faster com",
+    "id": "3cd1c91f"
+  },
+  {
+    "date": "2026-08-09",
+    "title": "미국 큐리오·뉴스케일·프라마톰, SMR 핵연료 재활용 동맹 구축",
+    "summary": "미국의 큐리오(Curio), 뉴스케일(NuScale), 프라마톰(Framatom)이 소형모듈원자로(SMR) 핵연료 재활용 협력 동맹을 결성했다.",
+    "summaryLong": "미국의 핵연료 재활용 기업 큐리오(Curio), SMR 개발사 뉴스케일(NuScale), 원전 연료·부품 공급사 프라마톰(Framatom)이 소형모듈원자로(SMR) 분야의 핵연료 재활용·순환 활용을 위한 전략적 동맹(alliance)을 공식 구축했다. 이는 SMR의 경제성 및 지속가능성 강화를 겨냥한 산업 협력으로, 향후 연료 공급 시스템 통합과 기술 표준화에 영향을 미칠 것으로 예상된다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale, Curio, Framatom",
+    "region": "US",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5540",
+    "k": "큐리오 누스케일 프라마톰 smr 핵연료 재활용 동맹 구축",
+    "ko": 1,
+    "id": "be913180"
+  },
+  {
+    "date": "2026-08-09",
+    "title": "미국 NRC, 새로운 인허가 청문 방식 도입…클린치리버 SMR이 첫 적용",
+    "summary": "미국 원자력규제위원회(NRC)가 원전 인허가 심사의 새로운 청문(hearing) 절차를 도입하며, 클린치리버 SMR 사업이 첫 적용 대상이 된다.",
+    "summaryLong": "미국 원자력규제위원회(NRC)가 원자력 시설 인허가 과정에서 공개 청문(public hearing) 방식을 혁신하는 새로운 절차를 제도화했다. 이 신규 청문 방식은 클린치리버(Clinch River) 소형모듈원자로(SMR) 건설허가 심사에 처음으로 적용되며, 규제 효율성과 투명성 개선을 목표로 한다. 이는 SMR 및 첨단원자로의 인허가 진행 속도 향상과 규제 합리화라는 정책 방향과 맞물려 업계에 긍정적 신호로 작용할 것으로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5532",
+    "k": "nrc 원전 인허가 심사 새 청문 방식 도입 클린치리버 smr 첫 적용",
+    "ko": 1,
+    "id": "caa28d85"
+  },
+  {
     "date": "2026-08-08",
     "title": "오클로 그로브원 임계 달성, 의료용 동위원소 경쟁 시작",
     "summary": "오클로(Oklo)의 그로브원(Groves One) 소형모듈원자로가 임계에 도달했으며 의료용 동위원소 생산 경쟁이 본격화되고 있다.",
@@ -20872,6 +20930,20 @@ window.SMR_NEWS = [
     "id": "0a479b9b"
   },
   {
+    "date": "2026-06-16",
+    "title": "테라파워, 영국 나트륨 원자로 GDA 1단계 착수로 배치 진전",
+    "summary": "테라파워(TerraPower)가 영국 법인을 설립하고 나트륨(Natrium®) 원자로의 일반설계평가(GDA) 1단계를 시작하며 영국 배치를 본격화했다.",
+    "summaryLong": "테라파워(TerraPower)가 영국 진출을 위해 테라파워 영국(TerraPower UK) 법인을 출범시키고, 소형모듈원자로(SMR) 기반의 나트륨(Natrium®) 원자로에 대해 영국 원자력규제청(ONR)의 일반설계평가(GDA) 1단계를 공식 착수했다. 이는 테라파워의 첨단원자로 개발이 규제당국의 본격적인 검증 단계에 진입했음을 의미하며, 영국의 차세대 에너지 정책과 맞물려 상업화 경로가 구체화되는 주요 이정표다.",
+    "cat": "인허가",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "UK",
+    "source": "terrapower.com",
+    "url": "https://www.terrapower.com/TerraPower-Takes-Major-Step-Forward-in-UK-Deployment-with-launch-of-TerraPower-UK-and-Start-of-GDA-Step-1-for-Natrium-Reactor",
+    "k": "terrapower takes major step forward in uk deployment with launch of terrapower uk and start of gda step 1 for natrium reactor",
+    "id": "6f47f6d9"
+  },
+  {
     "date": "2026-06-15",
     "title": "한전기술, 베트남 SMR 협력 구체화",
     "summary": "한전기술이 베트남의 소형모듈원자로(SMR) 법제화 움직임에 협력하며 전략적 교두보를 마련하고 있다.",
@@ -27705,4 +27777,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-09 14:36 KST";
+window.SMR_UPDATED = "2026-08-10 07:01 KST";

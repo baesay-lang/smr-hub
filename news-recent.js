@@ -30,6 +30,64 @@ window.SMR_NEWS = [
   "id": "5b5c10d4"
  },
  {
+  "date": "2026-08-09",
+  "title": "뉴스케일 파워(NuScale Power) Q2 실적 발표 요약",
+  "summary": "뉴스케일 파워(NuScale Power)의 2분기 실적 발표 주요 내용을 정리한 기사이다.",
+  "summaryLong": "뉴스케일 파워(NuScale Power)의 2분기 실적 발표 내용을 다룬 기사이다. 구체적인 제목이나 스니펫 정보가 제한적이어서 상세 내용을 파악하기 어렵지만, 소형모듈원자로(SMR) 선도 개발사인 뉴스케일의 경영 실적과 사업 진전 상황을 다루는 공식 발표 요약으로 보인다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "NuScale",
+  "region": "US",
+  "source": "marketbeat.com",
+  "url": "https://www.marketbeat.com/instant-alerts/nuscale-power-q2-earnings-call-highlights-2026-08-09/",
+  "k": "nuscale power q2 earnings call highlights",
+  "id": "290c7e28"
+ },
+ {
+  "date": "2026-08-09",
+  "title": "테라파워(TerraPower) 케머러 원전 건설 현장 공개",
+  "summary": "테라파워(TerraPower)가 미국 와이오밍(Wyoming) 케머러(Kemmerer)에 건설 중인 나트륨냉각 고속원자로 발전소의 시험·연료 공급 시설 건설 현장을 공개했다.",
+  "summaryLong": "테라파워(TerraPower)가 미국 와이오밍(Wyoming) 남서부 케머러(Kemmerer)에 건설 중인 나트륨냉각 고속로 시범 발전소의 시험 및 연료 공급 시설 건설 현장을 공개했다. 이 프로젝트는 차세대 원자로 기술 시범과 함께 더 빠른 건설 기법을 입증하기 위한 목적으로 추진되고 있다. 현장 사진 공개를 통해 테라파워의 첨단로 상용화 프로젝트가 실질적인 건설 단계로 진행되고 있음을 보여준다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "US",
+  "source": "lufkindailynews.com",
+  "url": "https://lufkindailynews.com/news_reuters/national/a-view-inside-an-under-construction-test-and-fueling-facility-at-terrapower-s-kemmerer-nuclear/image_8337bf01-bbd6-5b08-83be-9d8d7905519e.html",
+  "k": "a view inside an under construction test and fueling facility at terrapower s kemmerer nuclear power plant being built in southwestern wyoming and serving as a demonstration of new technology and construction techniques backers say will allow faster com",
+  "id": "3cd1c91f"
+ },
+ {
+  "date": "2026-08-09",
+  "title": "미국 큐리오·뉴스케일·프라마톰, SMR 핵연료 재활용 동맹 구축",
+  "summary": "미국의 큐리오(Curio), 뉴스케일(NuScale), 프라마톰(Framatom)이 소형모듈원자로(SMR) 핵연료 재활용 협력 동맹을 결성했다.",
+  "summaryLong": "미국의 핵연료 재활용 기업 큐리오(Curio), SMR 개발사 뉴스케일(NuScale), 원전 연료·부품 공급사 프라마톰(Framatom)이 소형모듈원자로(SMR) 분야의 핵연료 재활용·순환 활용을 위한 전략적 동맹(alliance)을 공식 구축했다. 이는 SMR의 경제성 및 지속가능성 강화를 겨냥한 산업 협력으로, 향후 연료 공급 시스템 통합과 기술 표준화에 영향을 미칠 것으로 예상된다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "NuScale, Curio, Framatom",
+  "region": "US",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5540",
+  "k": "큐리오 누스케일 프라마톰 smr 핵연료 재활용 동맹 구축",
+  "ko": 1,
+  "id": "be913180"
+ },
+ {
+  "date": "2026-08-09",
+  "title": "미국 NRC, 새로운 인허가 청문 방식 도입…클린치리버 SMR이 첫 적용",
+  "summary": "미국 원자력규제위원회(NRC)가 원전 인허가 심사의 새로운 청문(hearing) 절차를 도입하며, 클린치리버 SMR 사업이 첫 적용 대상이 된다.",
+  "summaryLong": "미국 원자력규제위원회(NRC)가 원자력 시설 인허가 과정에서 공개 청문(public hearing) 방식을 혁신하는 새로운 절차를 제도화했다. 이 신규 청문 방식은 클린치리버(Clinch River) 소형모듈원자로(SMR) 건설허가 심사에 처음으로 적용되며, 규제 효율성과 투명성 개선을 목표로 한다. 이는 SMR 및 첨단원자로의 인허가 진행 속도 향상과 규제 합리화라는 정책 방향과 맞물려 업계에 긍정적 신호로 작용할 것으로 보인다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "US",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5532",
+  "k": "nrc 원전 인허가 심사 새 청문 방식 도입 클린치리버 smr 첫 적용",
+  "ko": 1,
+  "id": "caa28d85"
+ },
+ {
   "date": "2026-08-08",
   "title": "오클로 그로브원 임계 달성, 의료용 동위원소 경쟁 시작",
   "summary": "오클로(Oklo)의 그로브원(Groves One) 소형모듈원자로가 임계에 도달했으며 의료용 동위원소 생산 경쟁이 본격화되고 있다.",
@@ -808,77 +866,6 @@ window.SMR_NEWS = [
   "id": "6839c1bb"
  },
  {
-  "date": "2026-08-06",
-  "title": "오클로(Oklo), 시험 원자로에서 첫 핵분열 달성",
-  "summary": "원자력 스타트업 오클로(Oklo)가 시험 원자로에서 첫 핵분열을 성공적으로 달성했다.",
-  "summaryLong": "소형모듈원자로(SMR) 개발사 오클로(Oklo)가 자사 시험 원자로에서 첫 핵분열을 달성했다. 이는 오클로의 기술 개발 과정에서 중요한 마일스톤으로, 선진소형원자로(첨단로) 개발 프로그램의 진전을 보여준다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "canarymedia.com",
-  "url": "https://www.canarymedia.com/articles/nuclear/nuclear-startup-oklo-splits-its-first-atoms-in-test-reactor",
-  "k": "nuclear startup oklo splits its first atoms in test reactor",
-  "id": "886d819f"
- },
- {
-  "date": "2026-08-06",
-  "title": "엑스에너지(X-energy)·센트러스(Centrus), 고농축우라늄(HALEU) 공급 계약 체결",
-  "summary": "엑스에너지(X-energy)와 센트러스(Centrus)가 익(Xe)-100 첨단소형원자로 개발용 고농축우라늄(HALEU) 공급 계약을 체결했다.",
-  "summaryLong": "고온가스로(HTGR) 개발사 엑스에너지(X-energy)와 연료 공급사 센트러스(Centrus)가 익(Xe)-100 첨단소형원자로(advanced small modular reactor) 개발을 위한 고농축우라늄(HALEU) 공급 계약을 체결했다. 이는 엑스에너지의 고온가스로 사업 추진에 필수적인 핵연료 공급 기반을 확보한 것으로, 상용화 경로에서 중요한 파트너십 구축을 의미한다.",
-  "cat": "계약",
-  "type": "HTGR",
-  "dev": "X-energy",
-  "region": "US",
-  "source": "x-energy.com",
-  "url": "https://x-energy.com/news/x-energy-centrus-sign-haleu-supplyagreement-for-xe-100-advanced-small-modular-reactor-development/",
-  "k": "x energy centrus sign haleu supply agreement for xe 100 advanced small modular reactor development x energy",
-  "id": "4f331613"
- },
- {
-  "date": "2026-08-06",
-  "title": "샘 올트먼의 SMR 기업 오클로, 동위원소 원자로 임계 도달",
-  "summary": "샘 올트먼(Sam Altman)이 투자한 소형모듈원자로 개발사 오클로(Oklo)가 동위원소 원자로의 임계 상태를 달성했다.",
-  "summaryLong": "오픈에이아이(OpenAI) 최고경영자 샘 올트먼이 주요 투자자로 참여한 소형모듈원자로 기업 오클로(Oklo)가 자사의 동위원소 원자로(isotope reactor) 프로젝트에서 임계(criticality) 상태를 달성했다. 이는 오클로의 차별화된 기술 개발이 상용화 단계로 진입하고 있음을 보여주는 중요한 기술적 성과이다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "theguru.co.kr",
-  "url": "https://www.theguru.co.kr/news/article.html?no=105487",
-  "k": "샘 올트먼의 smr 기업 오클로 동위원소 원자로 임계 도달",
-  "ko": 1,
-  "id": "2874865c"
- },
- {
-  "date": "2026-08-06",
-  "title": "오클로 그로브스 반응기, 1년 내 초임계 달성",
-  "summary": "첨단로 개발사 오클로(Oklo)의 그로브스(Groves) 반응기가 1년 내에 초임계(First Criticality) 마일스톤을 달성했다.",
-  "summaryLong": "고속로 개발사 오클로(Oklo)의 그로브스(Groves) 반응기 시제기가 건설 개시 후 1년 이내에 초임계(First Criticality) 마일스톤을 달성했다. 이는 오클로가 추진 중인 소형모듈원자로(SMR) 상용화 일정이 계획대로 진행되고 있음을 보여주는 중요한 기술 성과다. 초임계 달성은 반응기의 기본 안전성과 설계 타당성을 검증하는 필수 단계로, 향후 인허가 진전과 상용화에 긍정적 신호다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "oklo.com",
-  "url": "https://oklo.com/newsroom/news-details/2026/Oklos-Groves-Reactor-Achieves-First-Criticality-in-Under-a-Year/default.aspx",
-  "k": "oklo s groves reactor achieves first criticality in under a year",
-  "id": "708b9479"
- },
- {
-  "date": "2026-08-06",
-  "title": "엑스에너지-센트루스, Xe-100 첨단소형모듈로용 고농축우라늄(HALEU) 공급 계약 체결",
-  "summary": "엑스에너지(X-energy)와 센트루스(Centrus)가 Xe-100 첨단소형모듈로 개발을 위한 HALEU(High-Assay Low-Enriched Uranium) 공급 계약을 체결했다.",
-  "summaryLong": "엑스에너지(X-energy)와 핵연료 공급 기업 센트루스(Centrus)가 고농축 저농축우라늄(HALEU, High-Assay Low-Enriched Uranium) 공급 계약을 체결했다. 이 계약은 엑스에너지의 Xe-100 첨단소형모듈로 개발 프로젝트를 지원하기 위한 것이다. Xe-100은 고온가스로(HTGR) 기반의 차세대 소형모듈원자로이며, 안정적인 핵연료 공급 확보는 상용화 추진의 핵심 조건이다.",
-  "cat": "계약",
-  "type": "HTGR",
-  "dev": "X-energy",
-  "region": "US",
-  "source": "x-energy.com",
-  "url": "https://x-energy.com/news/x-energy-centrus-sign-haleu-supplyagreement-for-xe-100-advanced-small-modular-reactor-development/",
-  "k": "x energy centrus sign haleu supply agreement for xe 100 advanced small modular reactor development x energy com",
-  "id": "4f331613"
- },
- {
   "date": "2026-08-05",
   "title": "엔터지, 홀텍 SMR-300 배치 검토",
   "summary": "홀텍 인터내셔널(Holtec International)이 미국 전력회사 엔터지(Entergy)와 한국 현대건설과 양해각서를 체결하여 SMR-300 소형모듈원자로의 배치 기회를 평가한다.",
@@ -1375,5 +1362,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-09 14:36 KST";
-window.SMR_TOTAL = 1907;
+window.SMR_UPDATED = "2026-08-10 07:01 KST";
+window.SMR_TOTAL = 1912;
