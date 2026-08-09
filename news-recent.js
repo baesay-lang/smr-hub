@@ -232,6 +232,21 @@ window.SMR_NEWS = [
   "id": "14a2db31"
  },
  {
+  "date": "2026-08-08",
+  "title": "골드만삭스 \"SMR·원전에 수조 달러 유입\"…폴란드 첫 원전 협상은 진통",
+  "summary": "골드만삭스(Goldman Sachs)가 소형모듈원자로(SMR)와 원전에 수조 달러의 자금이 유입될 것으로 전망했으며, 폴란드의 첫 원전 도입 협상은 어려움을 겪고 있다.",
+  "summaryLong": "골드만삭스(Goldman Sachs)가 소형모듈원자로(SMR)와 원자력 발전 전반에 대규모 자금 유입이 있을 것으로 예측했다. 동시에 폴란드(Poland)가 첫 원자력 발전소 도입을 추진 중이나 협상 과정에서 어려움을 겪고 있는 상황을 보도하고 있다. 이는 글로벌 SMR 투자 트렌드와 유럽 원전 정책 변화를 함께 다루는 정책·투자 관련 보도다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "EU",
+  "source": "g-enews.com",
+  "url": "https://www.g-enews.com/article/Global-Biz/2026/08/202608090644081785fbbec65dfb_1",
+  "k": "골드만삭스 smr 원전 수조 달러 유입 폴란드 첫 원전 협상은 진통",
+  "ko": 1,
+  "id": "135f3e33"
+ },
+ {
   "date": "2026-08-07",
   "title": "인도, 국내 소형모듈원자로 개발에 200억 루피 투자 추진",
   "summary": "인도가 자국 소형모듈원자로(SMR) 개발을 위해 200억 인도 루피(INR 20,000 Crore) 규모의 국책 지원을 추진 중이다.",
@@ -852,20 +867,6 @@ window.SMR_NEWS = [
   "id": "7dbe1802"
  },
  {
-  "date": "2026-08-06",
-  "title": "센트러스-엑스에너지 계약으로 미국 우라늄 연료 생산 용량 확대",
-  "summary": "미국의 센트러스(Centrus)와 엑스에너지(X-energy)가 우라늄 연료 공급 계약을 체결하여 미국 국내 고농축우라늄(HALEU) 생산 능력을 확대한다.",
-  "summaryLong": "센트러스 에너지(Centrus Energy)와 엑스에너지(X-energy)가 저농축우라늄(LEU) 및 고농축우라늄(HALEU) 연료 공급 계약을 체결했다. 이 계약은 미국의 첨단 소형모듈원자로와 고속로 개발에 필수적인 고농축우라늄 공급을 보장하기 위한 전략적 계약이다. 센트러스는 미국 내 유일한 HALEU 생산자로서 엑스에너지의 고온가스로(HTGR) 연료 공급을 담당하게 된다. 이는 미국 정부의 국내 핵연료 공급망 확보 정책의 일환으로, 향후 여러 첨단로 프로젝트의 연료 안정성을 확보하는 중요한 계약이다.",
-  "cat": "계약",
-  "type": "HTGR",
-  "dev": "X-energy, Centrus",
-  "region": "US",
-  "source": "interestingengineering.com",
-  "url": "https://interestingengineering.com/energy/centrus-x-energy-uranium-enrichment-capacity",
-  "k": "us uranium fuel capacity expands with centrus x energy agreement",
-  "id": "19aaa57f"
- },
- {
   "date": "2026-08-05",
   "title": "엔터지, 홀텍 SMR-300 배치 검토",
   "summary": "홀텍 인터내셔널(Holtec International)이 미국 전력회사 엔터지(Entergy)와 한국 현대건설과 양해각서를 체결하여 SMR-300 소형모듈원자로의 배치 기회를 평가한다.",
@@ -1362,5 +1363,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-10 07:42 KST";
-window.SMR_TOTAL = 1913;
+window.SMR_UPDATED = "2026-08-10 08:13 KST";
+window.SMR_TOTAL = 1914;
