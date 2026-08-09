@@ -88,6 +88,20 @@ window.SMR_NEWS = [
   "id": "caa28d85"
  },
  {
+  "date": "2026-08-09",
+  "title": "오클로 그로브 원자로 첫 임계 달성",
+  "summary": "오클로(Oklo)의 그로브(Groves) 시험용 원자로가 1년 이내에 첫 임계(criticality)에 도달했다.",
+  "summaryLong": "오클로(Oklo)는 개발 중인 그로브(Groves) 시험용 원자로가 1년 이내에 첫 임계 상태에 도달했음을 발표했다. 이는 오클로의 소형모듈원자로(SMR) 개발 프로그램에서 주요 기술적 마일스톤을 달성한 것으로, 미국 에너지부(DOE) 핵심 원자력 파일럿 프로그램(Advanced Reactor Demonstration Program)의 일환으로 진행되고 있다. 첫 임계 달성은 원자로가 자체 핵분열 연쇄반응을 유지할 수 있음을 입증하는 것으로, 향후 상용화 단계로의 진전을 의미한다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "finance.yahoo.com",
+  "url": "https://finance.yahoo.com/energy/articles/oklo-oklo-groves-reactor-hits-121315063.html",
+  "k": "oklo s oklo groves reactor hits criticality in under a year",
+  "id": "3bd7edf5"
+ },
+ {
   "date": "2026-08-08",
   "title": "오클로 그로브원 임계 달성, 의료용 동위원소 경쟁 시작",
   "summary": "오클로(Oklo)의 그로브원(Groves One) 소형모듈원자로가 임계에 도달했으며 의료용 동위원소 생산 경쟁이 본격화되고 있다.",
@@ -852,20 +866,6 @@ window.SMR_NEWS = [
   "id": "19aaa57f"
  },
  {
-  "date": "2026-08-06",
-  "title": "센트러스 에너지(Centrus Energy), 엑스에너지(X-energy)와 우라늄 농축 계약 체결",
-  "summary": "센트러스 에너지가 엑스에너지와 우라늄 농축 공급 계약을 체결했다.",
-  "summaryLong": "센트러스 에너지(Centrus Energy)가 고급 소형모듈원자로(Advanced SMR) 개발사인 엑스에너지(X-energy)와 우라늄 농축 공급 계약을 체결했다. 이는 엑스에너지의 고온가스로(HTGR) 기술 개발을 지원하기 위한 핵연료 공급 협력으로, 미국 내 첨단로 상용화를 위한 공급망 구축의 일환이다.",
-  "cat": "계약",
-  "type": "HTGR",
-  "dev": "Centrus Energy",
-  "region": "US",
-  "source": "investing.com",
-  "url": "https://www.investing.com/news/company-news/centrus-energy-signs-uranium-enrichment-deal-with-xenergy-93CH-4841905",
-  "k": "centrus energy signs uranium enrichment deal with x energy",
-  "id": "6839c1bb"
- },
- {
   "date": "2026-08-05",
   "title": "엔터지, 홀텍 SMR-300 배치 검토",
   "summary": "홀텍 인터내셔널(Holtec International)이 미국 전력회사 엔터지(Entergy)와 한국 현대건설과 양해각서를 체결하여 SMR-300 소형모듈원자로의 배치 기회를 평가한다.",
@@ -1362,5 +1362,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-10 07:01 KST";
-window.SMR_TOTAL = 1912;
+window.SMR_UPDATED = "2026-08-10 07:42 KST";
+window.SMR_TOTAL = 1913;
