@@ -131,6 +131,35 @@ window.SMR_NEWS = [
   "id": "1de3b0dc"
  },
  {
+  "date": "2026-08-08",
+  "title": "오클로(OKLO) 경영진 교체 및 상용화 임박",
+  "summary": "오클로(Oklo)의 경영진 개편이 상용화 단계에서 어떤 의미를 갖는지에 대한 분석.",
+  "summaryLong": "오클로(Oklo)가 경영진 교체를 단행했으며, 회사의 상용화 진행이 임박한 시점에서 이러한 리더십 변화의 의미를 다루고 있다. 다만 구체적인 인사 내용이나 배경 정보가 스니펫에 제한적으로 제공되어 있다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "uk.finance.yahoo.com",
+  "url": "https://uk.finance.yahoo.com/news/does-oklo-oklo-leadership-overhaul-231234616.html",
+  "k": "what does oklo oklo leadership overhaul mean as commercialization nears",
+  "op": 1,
+  "id": "3c321d5e"
+ },
+ {
+  "date": "2026-08-08",
+  "title": "오클로 Q2 어닝콜 하이라이트",
+  "summary": "오클로(Oklo)의 2분기 실적 발표 내용.",
+  "summaryLong": "오클로(Oklo)의 2분기 실적 관련 어닝콜 주요 내용을 정리한 보도이다. 구체적인 실적 수치나 내용이 스니펫에 제한적으로 제공되어 있다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "marketbeat.com",
+  "url": "https://www.marketbeat.com/instant-alerts/oklo-q2-earnings-call-highlights-2026-08-08/",
+  "k": "oklo q2 earnings call highlights",
+  "id": "14a2db31"
+ },
+ {
   "date": "2026-08-07",
   "title": "인도, 국내 소형모듈원자로 개발에 200억 루피 투자 추진",
   "summary": "인도가 자국 소형모듈원자로(SMR) 개발을 위해 200억 인도 루피(INR 20,000 Crore) 규모의 국책 지원을 추진 중이다.",
@@ -837,34 +866,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-08-06",
-  "title": "미국 정부, 오클로 원자로 승인 - 에너지 우위 아젠다 추진",
-  "summary": "미국 정부가 오클로(Oklo)의 원자로를 승인했으며, 이는 미국의 에너지 우위 정책 추진의 일부이다.",
-  "summaryLong": "미국 정부가 오클로(Oklo)의 소형모듈원자로 프로젝트를 승인했다고 미국 제조업협회(NAM)가 발표했다. 이 승인은 미국의 에너지 안보 및 산업 경쟁력 강화를 목표로 하는 정부 정책의 일환으로 평가되고 있다. 구체적인 승인 범위와 일정에 대한 상세 정보는 원문 확인 필요.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "nam.org",
-  "url": "https://nam.org/u-s-government-clears-oklo-reactor-advancing-energy-dominance-agenda/",
-  "k": "u s government clears oklo reactor advancing energy dominance agenda national association of manufacturers",
-  "id": "b62bd064"
- },
- {
-  "date": "2026-08-06",
-  "title": "뉴스케일 파워(NuScale), Q2 손실 기록하며 수익 추정치 하회",
-  "summary": "소형모듈원자로 개발사 뉴스케일 파워가 2분기 실적에서 손실을 기록하고 수익 예상을 넘지 못했다.",
-  "summaryLong": "소형모듈원자로(SMR) 개발사 뉴스케일 파워 코퍼레이션(NuScale Power Corporation)이 2분기 실적을 발표했다. 발표 결과 순손실을 기록했으며 분석가 수익 추정치를 하회했다. 이는 SMR 개발의 높은 초기 투자 비용과 상용화 전 개발 단계의 특성을 반영한 것으로 보인다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "NuScale",
-  "region": "US",
-  "source": "finance.yahoo.com",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/nuscale-power-corporation-smr-reports-003514848.html",
-  "k": "nuscale power corporation smr reports q2 loss lags revenue estimates",
-  "id": "7e037268"
- },
- {
-  "date": "2026-08-06",
   "title": "엑스에너지-센트루스, Xe-100 첨단소형모듈로용 고농축우라늄(HALEU) 공급 계약 체결",
   "summary": "엑스에너지(X-energy)와 센트루스(Centrus)가 Xe-100 첨단소형모듈로 개발을 위한 HALEU(High-Assay Low-Enriched Uranium) 공급 계약을 체결했다.",
   "summaryLong": "엑스에너지(X-energy)와 핵연료 공급 기업 센트루스(Centrus)가 고농축 저농축우라늄(HALEU, High-Assay Low-Enriched Uranium) 공급 계약을 체결했다. 이 계약은 엑스에너지의 Xe-100 첨단소형모듈로 개발 프로젝트를 지원하기 위한 것이다. Xe-100은 고온가스로(HTGR) 기반의 차세대 소형모듈원자로이며, 안정적인 핵연료 공급 확보는 상용화 추진의 핵심 조건이다.",
@@ -1374,5 +1375,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-09 14:14 KST";
-window.SMR_TOTAL = 1905;
+window.SMR_UPDATED = "2026-08-09 14:36 KST";
+window.SMR_TOTAL = 1907;

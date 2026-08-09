@@ -138,6 +138,35 @@ window.SMR_NEWS = [
     "id": "1de3b0dc"
   },
   {
+    "date": "2026-08-08",
+    "title": "오클로(OKLO) 경영진 교체 및 상용화 임박",
+    "summary": "오클로(Oklo)의 경영진 개편이 상용화 단계에서 어떤 의미를 갖는지에 대한 분석.",
+    "summaryLong": "오클로(Oklo)가 경영진 교체를 단행했으며, 회사의 상용화 진행이 임박한 시점에서 이러한 리더십 변화의 의미를 다루고 있다. 다만 구체적인 인사 내용이나 배경 정보가 스니펫에 제한적으로 제공되어 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "uk.finance.yahoo.com",
+    "url": "https://uk.finance.yahoo.com/news/does-oklo-oklo-leadership-overhaul-231234616.html",
+    "k": "what does oklo oklo leadership overhaul mean as commercialization nears",
+    "op": 1,
+    "id": "3c321d5e"
+  },
+  {
+    "date": "2026-08-08",
+    "title": "오클로 Q2 어닝콜 하이라이트",
+    "summary": "오클로(Oklo)의 2분기 실적 발표 내용.",
+    "summaryLong": "오클로(Oklo)의 2분기 실적 관련 어닝콜 주요 내용을 정리한 보도이다. 구체적인 실적 수치나 내용이 스니펫에 제한적으로 제공되어 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "marketbeat.com",
+    "url": "https://www.marketbeat.com/instant-alerts/oklo-q2-earnings-call-highlights-2026-08-08/",
+    "k": "oklo q2 earnings call highlights",
+    "id": "14a2db31"
+  },
+  {
     "date": "2026-08-07",
     "title": "인도, 국내 소형모듈원자로 개발에 200억 루피 투자 추진",
     "summary": "인도가 자국 소형모듈원자로(SMR) 개발을 위해 200억 인도 루피(INR 20,000 Crore) 규모의 국책 지원을 추진 중이다.",
@@ -27676,4 +27705,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-09 14:14 KST";
+window.SMR_UPDATED = "2026-08-09 14:36 KST";
