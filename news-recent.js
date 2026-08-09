@@ -477,6 +477,20 @@ window.SMR_NEWS = [
   "id": "3250199e"
  },
  {
+  "date": "2026-08-07",
+  "title": "오클로 성과, 미국 원자력 에너지 미래 진전",
+  "summary": "오클로(Oklo)의 성과가 미국의 원자력 에너지 발전에 기여하고 있다는 내용의 보도.",
+  "summaryLong": "미국 원자력협회(NAM, Nuclear American Manufacturers)에서 보도한 오클로(Oklo)의 성과가 미국의 원자력 에너지 미래 발전을 크게 앞당기고 있다고 평가했다. 구체적인 성과 내용은 제시되지 않았으나, 소형모듈원자로(SMR) 개발 선도 기업인 오클로의 진전이 미국의 에너지 자립도 강화 전략과 맞닿아 있음을 시사한다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "nam.org",
+  "url": "https://nam.org/oklo-achievement-advances-americas-nuclear-energy-future/",
+  "k": "oklo achievement advances america s nuclear energy future",
+  "id": "4a89aa03"
+ },
+ {
   "date": "2026-08-06",
   "title": "미국 시험로 마일스톤 달성",
   "summary": "오클로(Oklo)의 그로브스 동위원소 시험로(Groves Isotope Test Reactor)가 임계에 도달했고, 딥 피션(Deep Fission)의 지하 원자로가 안전설계 승인을 획득했다.",
@@ -1360,5 +1374,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-09 13:47 KST";
-window.SMR_TOTAL = 1904;
+window.SMR_UPDATED = "2026-08-09 14:14 KST";
+window.SMR_TOTAL = 1905;
