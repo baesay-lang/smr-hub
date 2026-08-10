@@ -155,6 +155,64 @@ window.SMR_NEWS = [
     "id": "2d16de2d"
   },
   {
+    "date": "2026-08-10",
+    "title": "뉴스케일, AI 데이터센터 전력 수요에 대응 가능한가",
+    "summary": "뉴스케일(NuScale)이 AI 데이터센터의 급증하는 전력 수요를 충족할 수 있는지에 대한 전망을 다룬 보도.",
+    "summaryLong": "AI 데이터센터의 전력 공급이 시장 과제로 부상하는 가운데, 소형모듈원자로(SMR) 개발사 뉴스케일(NuScale)의 배치 가능성과 일정을 검토한 기사다. AI 산업의 급증하는 전력 수요와 전통 전력 공급 부족이라는 배경에서 뉴스케일 기술의 시장 진입 타이밍과 실현 가능성을 평가한다. 뉴스케일이 프로젝트 일정을 맞출 수 있는지 여부가 핵심이며, 기술의 상용화 전망과 시장 기회의 규모를 보여준다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/ai-data-centers-power-now-172500764.html",
+    "k": "ai data centers need power now can nuscale deliver in time",
+    "op": 1,
+    "id": "19bf0168"
+  },
+  {
+    "date": "2026-08-10",
+    "title": "오클로(Oklo) Q2 순손실 확대, 비용 증가로 시장 예상 하회",
+    "summary": "오클로(Oklo)의 2분기 순손실이 전년 대비 확대되고 비용 증가로 애널리스트 예상을 하회한 실적 보도.",
+    "summaryLong": "고속로(SFR) 개발사 오클로(Oklo)의 2분기 재무 실적이 악화됐다는 보도다. 전년 동기 대비 순손실 폭이 커졌으며, 운영 비용 증가로 인해 시장 예상치를 하회했다. 이는 오클로의 사업 실행 과정에서 비용 관리의 어려움과 개발 단계 기업의 현금 소모 가속화를 반영한다. 실적이 주가와 투자자 신뢰도에 미치는 영향이 주요 관심사다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/oklo-q2-loss-widens-y-132000482.html",
+    "k": "oklo q2 loss widens y y misses estimates on higher costs",
+    "id": "a4c8c145"
+  },
+  {
+    "date": "2026-08-10",
+    "title": "오클로 Q2 실적설명회, 높은 현금 소모를 실행 과제와 연결",
+    "summary": "오클로(Oklo)의 2분기 실적설명회에서 현금 소모 증가를 사업 실행 현황과 연관 지은 보도.",
+    "summaryLong": "고속로(SFR) 개발사 오클로(Oklo)의 2분기 실적설명회(earnings call) 내용을 다룬 기사다. 회사는 높아진 현금 소모 속도를 기술 개발 및 상용화 추진의 실행 과제와 연결하여 설명했다. 이는 프로젝트 일정 진행, 규제 대응, 시설 구축 등 구체적 실행 단계에서의 투자 필요성을 반영하며, 장기 자금 운용 계획과 일정 예측의 신뢰도가 투자자 평가의 중심이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-q2-earnings-call-links-140000416.html",
+    "k": "oklo q2 earnings call links higher cash use to execution",
+    "id": "64ae7bf2"
+  },
+  {
+    "date": "2026-08-10",
+    "title": "원안위, 스웨덴과 소형모듈원자로 안전규제 논의",
+    "summary": "한국 원자력안전위원회(원안위)가 스웨덴과 소형모듈원자로(SMR) 안전규제 등 협력을 논의했다.",
+    "summaryLong": "한국 원자력안전위원회(원안위)가 스웨덴과 소형모듈원자로(SMR)의 안전규제 기준 및 인허가 체계에 대한 협력을 논의했다. 이는 양국 간 첨단원자로 규제 표준화 및 국제 협력을 추진하는 정책 차원의 논의로, 한국의 소형모듈원자로 인허가 체계 정비 및 국제 협력 강화를 나타낸다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "dongascience.com",
+    "url": "https://www.dongascience.com/ko/news/79362",
+    "k": "사이언스게시판 원안위 스웨덴과 smr 안전규제 등 논의",
+    "ko": 1,
+    "id": "028598a6"
+  },
+  {
     "date": "2026-08-09",
     "title": "오클로(Oklo) 그로브스 연구로 최초 임계 달성",
     "summary": "오클로의 그로브스(Groves) 연구용 원자로가 최초 임계(first criticality)에 도달했다.",
@@ -268,6 +326,48 @@ window.SMR_NEWS = [
     "url": "https://finance.biggo.com/news/67a3b066-3564-4e65-aeac-d78127b58b0d",
     "k": "oklo built a nuclear reactor from dirt to criticality in under 11 months",
     "id": "5c0dd773"
+  },
+  {
+    "date": "2026-08-09",
+    "title": "테라파워(TerraPower) 케머러 1호기 건설 진행 중",
+    "summary": "테라파워(TerraPower)가 미국 와이오밍(Wyoming)주 남서부 케머러에서 소형모듈원자로 케머러 1호기를 건설 중이며, 야생동물 보호 조치를 시행하고 있다.",
+    "summaryLong": "테라파워(TerraPower)가 미국 와이오밍(Wyoming)주 남서부 케머러 지역에서 건설 중인 나트륨(Natrium) 냉각식 소형모듈원자로 케머러 1호기 프로젝트에서 2026년 5월 기준으로 건설이 진행되고 있다. 현장에서는 프롱혼(pronghorn) 등 야생동물 보호를 위한 여러 조치가 취해지고 있으며, 이는 원자력 시설 건설과 생태 보존의 양립을 보여주는 사례다. 테라파워의 케머러 프로젝트는 미국 에너지부(DOE)의 지원을 받는 주요 첨단로 사업으로, 건설이 계속 진행 중이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "lufkindailynews.com",
+    "url": "https://lufkindailynews.com/news_reuters/national/a-worker-at-terrapower-s-kemmerer-unit-1-nuclear-power-plant-project-in-southwestern-wyoming/image_3d7262b5-6102-5234-af3d-26b0718f3e5b.html",
+    "k": "a worker at terrapower s kemmerer unit 1 nuclear power plant project in southwestern wyoming watches at pronghorn cross the site where workers have taken steps to protect wildlife while building the nuclear reactor site in a photo taken in may 2026",
+    "id": "79d8b3e4"
+  },
+  {
+    "date": "2026-08-09",
+    "title": "테라파워 케머러 1호기 부지 조성 진행",
+    "summary": "테라파워(TerraPower)가 미국 와이오밍(Wyoming)주 남서부에 건설 중인 케머러 1호기 소형모듈원자로 부지 조성 작업을 진행하고 있다.",
+    "summaryLong": "테라파워(TerraPower)가 미국 와이오밍(Wyoming)주 남서부 케머러 지역에서 소형모듈원자로 케머러 1호기(Natrium 냉각식) 건설을 위한 부지 조성 작업을 2026년 5월 기준으로 추진 중이다. 현장 작업자들이 부지 준비를 진행하고 있으며, 이는 미국 에너지부(DOE) 지원의 첨단로 실증 프로젝트로서 건설 진행 상황을 보여준다. 테라파워의 케머러 프로젝트는 소형모듈원자로 상용화의 주요 사례가 되고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "lufkindailynews.com",
+    "url": "https://lufkindailynews.com/news_reuters/national/workers-at-terrapower-s-kemmerer-unit-1-prepare-the-site-of-the-company-s-new/image_0abaf999-e2aa-5ae6-a660-0bdd8e7ea01f.html",
+    "k": "workers at terrapower s kemmerer unit 1 prepare the site of the company s new small scale nuclear power plant being built in southwestern wyoming in a photo taken in may 2026",
+    "id": "a763f36e"
+  },
+  {
+    "date": "2026-08-09",
+    "title": "테라파워 케머러 나트륨(Natrium) 원자로 건설 진행",
+    "summary": "테라파워(TerraPower)의 경영진이 미국 와이오밍(Wyoming)주 케머러에서 건설 중인 나트륨(Natrium) 소형모듈원자로 프로젝트 현장을 방문했다.",
+    "summaryLong": "테라파워(TerraPower)의 건설 담당 이사 앤디 크루시엘(Andy Chrusciel)과 회장 겸 CEO 크리스 레베스크(Chris Levesque)가 미국 와이오밍(Wyoming)주 케머러에서 건설 중인 나트륨(Natrium) 냉각식 소형모듈원자로 프로젝트 현장을 2026년 5월에 방문했다. 이는 테라파워가 미국 에너지부(DOE)의 지원을 받아 추진 중인 첨단로 시범 프로젝트로, 현장 건설이 활발히 진행 중임을 나타낸다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "lufkindailynews.com",
+    "url": "https://lufkindailynews.com/news_reuters/national/terrapower-director-of-construction-andy-chrusciel-left-and-company-president-and-ceo-chris-levesque-pose/image_1518e8dc-4e2e-582c-9744-b08132adc884.html",
+    "k": "terrapower director of construction andy chrusciel left and company president and ceo chris levesque pose for a photo at the under construction natrium nuclear power plant project in kemmerer wyoming in may 2026",
+    "id": "15d356aa"
   },
   {
     "date": "2026-08-08",
@@ -28010,4 +28110,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-11 07:50 KST";
+window.SMR_UPDATED = "2026-08-11 08:21 KST";
