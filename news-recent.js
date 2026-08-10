@@ -31,6 +31,21 @@ window.SMR_NEWS = [
   "id": "1a470fa0"
  },
  {
+  "date": "2026-08-10",
+  "title": "원안위, 스웨덴과 방사성폐기물·SMR 안전규제 협력 강화",
+  "summary": "원자력안전위원회(NSSC)가 스웨덴 방사선안전청(SSM)과 양자회의를 개최하여 방사성폐기물 처분과 SMR 안전규제 현안을 논의했다.",
+  "summaryLong": "한국 원자력안전위원회(NSSC, 위원장 최원호)는 서울에서 스웨덴 방사선안전청(SSM, Swedish Radiation Safety Authority)과 양자회의를 개최하여 방사성폐기물 관리와 소형모듈원자로(SMR) 안전규제 현안을 논의했다. 스웨덴은 고준위방사성폐기물 관리 선도국으로 평가받으며 현재 고준위폐기물 심층처분시설을 건설 중이고, 한국과의 규제협력 확대를 통해 양국의 SMR 안전규제 기준 마련과 국제 규제 조화에 기여할 것으로 예상된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "에너지데일리 - 전체기사",
+  "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=202100",
+  "k": "방사성폐기물 smr 안전규제 스웨덴과 함께 논의한다",
+  "ko": 1,
+  "id": "d4931bb1"
+ },
+ {
   "date": "2026-08-09",
   "title": "오클로(Oklo) 그로브스 연구로 최초 임계 달성",
   "summary": "오클로의 그로브스(Groves) 연구용 원자로가 최초 임계(first criticality)에 도달했다.",
@@ -854,21 +869,6 @@ window.SMR_NEWS = [
   "id": "559b1991"
  },
  {
-  "date": "2026-08-06",
-  "title": "센트러스(Centrus)·엑스에너지(X-energy) HALEU 공급 계약…차세대 원전 상용화 청신호",
-  "summary": "센트러스(Centrus)와 엑스에너지(X-energy)가 고농축우라늄(HALEU) 공급 계약을 체결하여 차세대 원전 상용화의 신호탄을 올렸다.",
-  "summaryLong": "미국의 우라늄 농축 기업 센트러스(Centrus)와 소형모듈원자로(SMR) 개발사 엑스에너지(X-energy) 간에 고농축우라늄(HALEU) 공급 계약이 체결되었다. 이는 고급 연료의 공급 체계를 확보하고 차세대 혁신형 원전의 상용화 조건을 갖추는 중요한 계약으로, SMR 및 첨단로 산업화의 실질적 진전을 의미한다.",
-  "cat": "계약",
-  "type": "HTGR",
-  "dev": "X-energy",
-  "region": "US",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5502",
-  "k": "센트러스 엑스에너지 haleu 공급 계약 차세대 원전 상용화 청신호",
-  "ko": 1,
-  "id": "589b1e4a"
- },
- {
   "date": "2026-08-05",
   "title": "엔터지, 홀텍 SMR-300 배치 검토",
   "summary": "홀텍 인터내셔널(Holtec International)이 미국 전력회사 엔터지(Entergy)와 한국 현대건설과 양해각서를 체결하여 SMR-300 소형모듈원자로의 배치 기회를 평가한다.",
@@ -1365,5 +1365,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-10 14:07 KST";
-window.SMR_TOTAL = 1919;
+window.SMR_UPDATED = "2026-08-10 14:40 KST";
+window.SMR_TOTAL = 1920;
