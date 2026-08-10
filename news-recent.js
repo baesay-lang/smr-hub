@@ -1,6 +1,36 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-08-10",
+  "title": "HD현대, 테라파워와 SMR 협력 확대",
+  "summary": "현대중공업(HD현대)이 테라파워(TerraPower)와 소형모듈원자로(SMR) 분야 협력을 확대하고 있다.",
+  "summaryLong": "현대중공업(HD현대)이 빌 게이츠(Bill Gates)가 설립한 미국 첨단로 개발사 테라파워(TerraPower)와의 소형모듈원자로(SMR) 사업 협력을 진행 중이다. 양사 간 기술 협력, 설계 참여, 제조 역량 활용 등을 통해 글로벌 SMR 시장 진출을 모색하고 있으며, 이는 현대중공업의 원자력 사업 포트폴리오 확대 전략의 일환이다. 테라파워의 나트륨 냉각 고속로(SFR) 기술과 현대중공업의 제조·건설 경험 결합으로 경쟁력 있는 SMR 솔루션 개발을 목표로 하고 있다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "HD현대",
+  "region": "US",
+  "source": "newstopkorea.com",
+  "url": "https://www.newstopkorea.com/news/articleView.html?idxno=46879",
+  "k": "빌 게이츠 방한 앞둔 정기선 hd현대 테라파워와 smr 판 키운다",
+  "ko": 1,
+  "id": "f9f53e73"
+ },
+ {
+  "date": "2026-08-10",
+  "title": "아세안의 에너지 문제 해결을 위한 SMR 구축 필요성 제기",
+  "summary": "소형모듈원자로(SMR)가 아세안(ASEAN) 지역의 에너지 문제 해결을 위한 중요한 솔루션으로 제시되고 있다.",
+  "summaryLong": "전문가들이 아세안(ASEAN) 지역의 시급한 에너지 수요 문제를 해결하기 위한 방안으로 소형모듈원자로(SMR) 구축의 필요성을 강조하고 있다. SMR의 소형화, 모듈식 설계, 낮은 초기 투자 비용 등의 특성이 전력망 인프라가 부족한 개도국 및 아세안 국가들에 적합한 것으로 평가된다. 이는 한국의 SMR 기술·제품을 아시아 신흥시장에 수출하기 위한 정책적·산업적 배경으로 작용할 수 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "munhwa.com",
+  "url": "https://www.munhwa.com/article/11608439",
+  "k": "에너지 문제 아세안 시급 현안 smr 구축이 해결책",
+  "ko": 1,
+  "id": "1a470fa0"
+ },
+ {
   "date": "2026-08-09",
   "title": "오클로(Oklo) 그로브스 연구로 최초 임계 달성",
   "summary": "오클로의 그로브스(Groves) 연구용 원자로가 최초 임계(first criticality)에 도달했다.",
@@ -100,6 +130,20 @@ window.SMR_NEWS = [
   "url": "https://finance.yahoo.com/energy/articles/oklo-oklo-groves-reactor-hits-121315063.html",
   "k": "oklo s oklo groves reactor hits criticality in under a year",
   "id": "3bd7edf5"
+ },
+ {
+  "date": "2026-08-09",
+  "title": "오클로, 11개월 만에 그로브스 원자로 임계 달성",
+  "summary": "오클로(Oklo)가 그로브스(Groves) 테스트 원자로를 착공에서 임계(criticality) 달성까지 11개월 이내에 완성했다.",
+  "summaryLong": "오클로(Oklo)의 그로브스(Groves) 테스트 원자로가 최초 임계(first criticality)에 도달했으며, 이는 착공부터 완성까지 11개월 이내의 신속한 건설·준공 속도를 기록했다. 이 마일스톤은 소형모듈원자로(SMR) 개발의 실행 속도와 제조 효율성을 입증하는 사건으로서, 미국 에너지부(DOE) 후원 원자력 시범 프로그램의 일환이다. 임계 달성은 원자로의 자가 지속 핵분열 반응 시작을 의미하며, 오클로의 선진 원자로 프로젝트의 주요 기술 이정표이다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "finance.biggo.com",
+  "url": "https://finance.biggo.com/news/67a3b066-3564-4e65-aeac-d78127b58b0d",
+  "k": "oklo built a nuclear reactor from dirt to criticality in under 11 months",
+  "id": "5c0dd773"
  },
  {
   "date": "2026-08-08",
@@ -607,6 +651,20 @@ window.SMR_NEWS = [
   "id": "4a89aa03"
  },
  {
+  "date": "2026-08-07",
+  "title": "오클로(Oklo) Q2 2026 실적 발표",
+  "summary": "오클로의 2026년 2분기 실적 발표 및 재정 현황 요약.",
+  "summaryLong": "오클로(Oklo)가 2026년 2분기 실적을 공개했다. 스니펫 정보만으로는 구체적 사업 진전, 재정 상황, 기술 개발 현황 등의 세부 내용이 제한적이나, 상장 공개기업의 정기 실적 발표는 사업 진행 상황을 반영하는 공식 자료이다. 오클로는 미국의 소형모듈원자로(SMR) 및 고급 원자로 개발사이며 정부 후원 프로그램 참여 기업이다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "finance.yahoo.com",
+  "url": "https://finance.yahoo.com/energy/articles/oklo-inc-q2-2026-earnings-212453604.html",
+  "k": "oklo inc q2 2026 earnings call summary",
+  "id": "78e9e8fb"
+ },
+ {
   "date": "2026-08-06",
   "title": "미국 시험로 마일스톤 달성",
   "summary": "오클로(Oklo)의 그로브스 동위원소 시험로(Groves Isotope Test Reactor)가 임계에 도달했고, 딥 피션(Deep Fission)의 지하 원자로가 안전설계 승인을 획득했다.",
@@ -809,62 +867,6 @@ window.SMR_NEWS = [
   "k": "센트러스 엑스에너지 haleu 공급 계약 차세대 원전 상용화 청신호",
   "ko": 1,
   "id": "589b1e4a"
- },
- {
-  "date": "2026-08-06",
-  "title": "오클로, 아이소톱 테스트 원자로 임계 달성",
-  "summary": "오클로(Oklo)의 그로브스 아이소톱 테스트 원자로(Groves Isotope Test Reactor)가 미국 에너지부(DOE) 인허가 절차에 따라 임계에 도달했다.",
-  "summaryLong": "오클로가 텍사스(Texas) 로크하트(Lockhart)의 그로브스 시설에서 운영 중인 아이소톱 테스트 원자로가 현지 시간 수요일 오후 9시 19분에 임계에 도달했다고 미국 에너지부가 발표했다. 이는 DOE 인허가 절차에 따라 임계를 달성한 다섯 번째 원자로이며, 오클로의 소형모듈원자로(SMR) 기술 개발이 중요한 마일스톤을 통과했음을 의미한다. 이 성과는 향후 상용화 추진에 있어 기술적 가능성을 입증하는 의미가 있다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "ANS Newswire",
-  "url": "https://www.ans.org/news/2026-08-06/article-8277/oklos-isotope-test-reactor-achieves-criticality/",
-  "k": "oklo s isotope test reactor achieves criticality",
-  "id": "69dc1c6f"
- },
- {
-  "date": "2026-08-06",
-  "title": "센트러스 에너지, 엑스에너지와 LEU·HALeu 공급 계약 체결",
-  "summary": "센트러스 에너지(Centrus Energy)가 엑스에너지(X-energy)와 저농축우라늄(LEU) 및 고농축우라늄(HALEU) 공급 계약을 체결했다.",
-  "summaryLong": "센트러스 에너지가 엑스에너지와 국내 LEU 및 HALEU 농축 공급 계약을 체결했다고 2026년 8월 6일 발표했다. 계약에는 엑스에너지의 사전 선금이 포함되며, 이 프로젝트는 미국 동부 테네시(Eastern Tennessee) 지역에 청정에너지 투자와 일자리를 창출할 것으로 예상된다. 이는 엑스에너지의 Xe-100 첨단 소형모듈원자로(Advanced Small Modular Reactor) 개발을 위한 연료 공급 기반을 마련하는 중요한 계약이다.",
-  "cat": "계약",
-  "type": "HTGR",
-  "dev": "X-energy, Centrus",
-  "region": "US",
-  "source": "Centrus Energy Corp. News Releases",
-  "url": "https://investors.centrusenergy.com/news-releases/news-release-details/centrus-energy-signs-leu-and-haleu-supply-agreement-x-energy",
-  "k": "centrus energy signs leu and haleu supply agreement with x energy",
-  "id": "e7858f39"
- },
- {
-  "date": "2026-08-06",
-  "title": "큐리오·뉴스케일·프라마톰, 차세대 핵연료 주기 MOU 체결",
-  "summary": "큐리오(Curio), 뉴스케일 파워(NuScale Power), 프라마톰(Framatome)이 차세대 핵연료 주기 발전을 위한 전략적 양해각서(MOU)를 체결했다.",
-  "summaryLong": "소형모듈원자로(SMR) 개발사 뉴스케일 파워, 핵연료 기술사 큐리오, 원전 장비 제조사 프라마톰이 혁신적 핵연료 주기 구축을 위한 전략적 양해각서를 체결했다. 이 협약은 SMR 상용화에 필수적인 완전한 핵연료 서플라이 체인 구축을 목표로 하며, 세 기관의 기술과 경험을 결합하는 의의가 있다.",
-  "cat": "계약",
-  "type": "PWR",
-  "dev": "NuScale",
-  "region": "US",
-  "source": "businesswire.com",
-  "url": "https://www.businesswire.com/news/home/20260806687946/en/Curio-NuScale-Power-and-Framatome-Sign-Strategic-MOU-to-Advance-the-Future-Nuclear-Fuel-Cycle?feedref=JjAwJuNHiystnCoBq_hl-Ypx8OuIA-qqxXAfOC1go22PU1fv-fCAtwybrddq94az7dI9_69nqXXndEkzoNy31peBvhKXN8xoKDPrCnMXhC58cMd5Jhr97vTYoLZQbGkSFja_QkRbjKVqSkUPuEMBEw%3D%3D",
-  "k": "curio nuscale power and framatome sign strategic mou to advance the future nuclear fuel cycle",
-  "id": "112b8ff6"
- },
- {
-  "date": "2026-08-06",
-  "title": "오클로(Oklo)의 소형원자로, 임계점 도달 선언",
-  "summary": "미국이 오클로(Oklo)의 소형모듈원자로(SMR)가 임계점(criticality)에 도달했음을 공식 발표했다.",
-  "summaryLong": "미국 정부가 오클로(Oklo)의 소형모듈원자로(SMR) 개발 프로젝트에서 원자로가 임계점(criticality)에 도달했음을 공식 선언했다. 이는 오클로의 핵심 기술 마일스톤으로, 원자로 운영 능력을 검증하는 중요한 단계를 완료했음을 의미한다. 이 성과는 미국의 SMR 개발 사업에서 첫 번째 상용 모델 달성을 향한 진전을 보여준다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "bloomberg.com",
-  "url": "https://www.bloomberg.com/news/articles/2026-08-06/us-says-oklo-s-small-nuclear-reactor-reaches-criticality",
-  "k": "us says oklo s small nuclear reactor reaches criticality",
-  "id": "7dbe1802"
  },
  {
   "date": "2026-08-05",
@@ -1363,5 +1365,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-10 08:13 KST";
-window.SMR_TOTAL = 1914;
+window.SMR_UPDATED = "2026-08-10 14:07 KST";
+window.SMR_TOTAL = 1919;

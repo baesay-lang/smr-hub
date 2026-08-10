@@ -8,6 +8,36 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-08-10",
+    "title": "HD현대, 테라파워와 SMR 협력 확대",
+    "summary": "현대중공업(HD현대)이 테라파워(TerraPower)와 소형모듈원자로(SMR) 분야 협력을 확대하고 있다.",
+    "summaryLong": "현대중공업(HD현대)이 빌 게이츠(Bill Gates)가 설립한 미국 첨단로 개발사 테라파워(TerraPower)와의 소형모듈원자로(SMR) 사업 협력을 진행 중이다. 양사 간 기술 협력, 설계 참여, 제조 역량 활용 등을 통해 글로벌 SMR 시장 진출을 모색하고 있으며, 이는 현대중공업의 원자력 사업 포트폴리오 확대 전략의 일환이다. 테라파워의 나트륨 냉각 고속로(SFR) 기술과 현대중공업의 제조·건설 경험 결합으로 경쟁력 있는 SMR 솔루션 개발을 목표로 하고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "HD현대",
+    "region": "US",
+    "source": "newstopkorea.com",
+    "url": "https://www.newstopkorea.com/news/articleView.html?idxno=46879",
+    "k": "빌 게이츠 방한 앞둔 정기선 hd현대 테라파워와 smr 판 키운다",
+    "ko": 1,
+    "id": "f9f53e73"
+  },
+  {
+    "date": "2026-08-10",
+    "title": "아세안의 에너지 문제 해결을 위한 SMR 구축 필요성 제기",
+    "summary": "소형모듈원자로(SMR)가 아세안(ASEAN) 지역의 에너지 문제 해결을 위한 중요한 솔루션으로 제시되고 있다.",
+    "summaryLong": "전문가들이 아세안(ASEAN) 지역의 시급한 에너지 수요 문제를 해결하기 위한 방안으로 소형모듈원자로(SMR) 구축의 필요성을 강조하고 있다. SMR의 소형화, 모듈식 설계, 낮은 초기 투자 비용 등의 특성이 전력망 인프라가 부족한 개도국 및 아세안 국가들에 적합한 것으로 평가된다. 이는 한국의 SMR 기술·제품을 아시아 신흥시장에 수출하기 위한 정책적·산업적 배경으로 작용할 수 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "munhwa.com",
+    "url": "https://www.munhwa.com/article/11608439",
+    "k": "에너지 문제 아세안 시급 현안 smr 구축이 해결책",
+    "ko": 1,
+    "id": "1a470fa0"
+  },
+  {
     "date": "2026-08-09",
     "title": "오클로(Oklo) 그로브스 연구로 최초 임계 달성",
     "summary": "오클로의 그로브스(Groves) 연구용 원자로가 최초 임계(first criticality)에 도달했다.",
@@ -107,6 +137,20 @@ window.SMR_NEWS = [
     "url": "https://finance.yahoo.com/energy/articles/oklo-oklo-groves-reactor-hits-121315063.html",
     "k": "oklo s oklo groves reactor hits criticality in under a year",
     "id": "3bd7edf5"
+  },
+  {
+    "date": "2026-08-09",
+    "title": "오클로, 11개월 만에 그로브스 원자로 임계 달성",
+    "summary": "오클로(Oklo)가 그로브스(Groves) 테스트 원자로를 착공에서 임계(criticality) 달성까지 11개월 이내에 완성했다.",
+    "summaryLong": "오클로(Oklo)의 그로브스(Groves) 테스트 원자로가 최초 임계(first criticality)에 도달했으며, 이는 착공부터 완성까지 11개월 이내의 신속한 건설·준공 속도를 기록했다. 이 마일스톤은 소형모듈원자로(SMR) 개발의 실행 속도와 제조 효율성을 입증하는 사건으로서, 미국 에너지부(DOE) 후원 원자력 시범 프로그램의 일환이다. 임계 달성은 원자로의 자가 지속 핵분열 반응 시작을 의미하며, 오클로의 선진 원자로 프로젝트의 주요 기술 이정표이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.biggo.com",
+    "url": "https://finance.biggo.com/news/67a3b066-3564-4e65-aeac-d78127b58b0d",
+    "k": "oklo built a nuclear reactor from dirt to criticality in under 11 months",
+    "id": "5c0dd773"
   },
   {
     "date": "2026-08-08",
@@ -612,6 +656,20 @@ window.SMR_NEWS = [
     "url": "https://nam.org/oklo-achievement-advances-americas-nuclear-energy-future/",
     "k": "oklo achievement advances america s nuclear energy future",
     "id": "4a89aa03"
+  },
+  {
+    "date": "2026-08-07",
+    "title": "오클로(Oklo) Q2 2026 실적 발표",
+    "summary": "오클로의 2026년 2분기 실적 발표 및 재정 현황 요약.",
+    "summaryLong": "오클로(Oklo)가 2026년 2분기 실적을 공개했다. 스니펫 정보만으로는 구체적 사업 진전, 재정 상황, 기술 개발 현황 등의 세부 내용이 제한적이나, 상장 공개기업의 정기 실적 발표는 사업 진행 상황을 반영하는 공식 자료이다. 오클로는 미국의 소형모듈원자로(SMR) 및 고급 원자로 개발사이며 정부 후원 프로그램 참여 기업이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/oklo-inc-q2-2026-earnings-212453604.html",
+    "k": "oklo inc q2 2026 earnings call summary",
+    "id": "78e9e8fb"
   },
   {
     "date": "2026-08-06",
@@ -2298,6 +2356,21 @@ window.SMR_NEWS = [
     "k": "김성환 기후장관 12차 전기본에 원전 smr 추가 포함 여부 이달 공론화 돌입",
     "ko": 1,
     "id": "57830f63"
+  },
+  {
+    "date": "2026-08-04",
+    "title": "SMR을 국가전략기술로 지정, 세제 혜택 제공",
+    "summary": "정부가 소형모듈원자로(SMR)를 국가전략기술로 지정하고 세제 혜택을 제공하기로 결정했다.",
+    "summaryLong": "한국 정부가 소형모듈원자로(SMR)를 국가전략기술로 공식 지정하고 관련 기업들에 세제 혜택(감세, 투세 공제 등)을 제공하는 정책을 추진하고 있다. 이는 원자력업계가 적극 환영하고 있으며, SMR 개발·제조 및 공급망 구축에 투자하는 기업들의 세금 부담을 경감하여 사업 경쟁력을 강화하려는 목표이다. 국가전략기술 지정은 정부 R&D 지원, 금융 지원, 규제 개선 등 다양한 정책 인센티브를 뒷받침하는 정부의 적극적 SMR 산업화 의지를 반영한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "mt.co.kr",
+    "url": "https://www.mt.co.kr/economy/2026/08/04/2026080414111464834",
+    "k": "smr 국가전략기술 지정해 세제 혜택 원전업계 적극 환영 머니투데이",
+    "ko": 1,
+    "id": "764ab7fb"
   },
   {
     "date": "2026-08-03",
@@ -27806,4 +27879,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-10 08:13 KST";
+window.SMR_UPDATED = "2026-08-10 14:07 KST";
