@@ -61,6 +61,93 @@ window.SMR_NEWS = [
   "id": "792cb354"
  },
  {
+  "date": "2026-08-10",
+  "title": "오클로의 신형 원자로 마일스톤, 인허가 경로의 위험 완화",
+  "summary": "오클로(Oklo)가 신형 원자로 마일스톤을 달성하여 규제 인허가 경로에서 위험을 낮추었다는 보도.",
+  "summaryLong": "오클로(Oklo)가 신형 원자로 개발에서 마일스톤을 달성했으며, 이것이 미국 원자력규제위원회(NRC)의 인허가 승인 경로에서 기술적·규제적 위험을 완화시켰다는 내용이다. 오클로는 고속로(SFR) 기반의 소형모듈원자로 개발사로서, 이번 마일스톤은 설계 검증이나 기술 요구사항 충족 단계로 추정되며, 향후 인허가 진행에 긍정적 신호로 평가된다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "benzinga.com",
+  "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/08/61081665/oklos-new-reactor-milestone-lowers-the-risk-in-its-path-to-approval",
+  "k": "oklo s new reactor milestone lowers the risk in its path to approval",
+  "id": "f7f93134"
+ },
+ {
+  "date": "2026-08-10",
+  "title": "해드론 에너지, 전 테라파워 COO 에릭 윌리엄스를 공학 부사장으로 임명",
+  "summary": "해드론 에너지(Hadron Energy)가 테라파워(TerraPower)의 전직 최고운영책임자(COO) 에릭 윌리엄스를 공학 담당 경영진으로 영입했다.",
+  "summaryLong": "첨단로 개발사 해드론 에너지(Hadron Energy)가 테라파워(TerraPower)에서 최고운영책임자(COO)를 지낸 에릭 윌리엄스를 공학 담당 경영진(Executive Vice President of Engineering)으로 임명했다. 이는 해드론 에너지의 기술 역량 강화와 고속로(SFR) 개발 프로젝트 추진을 위한 인적 확충을 의미하며, 테라파워에서의 경험을 바탕으로 해드론의 엔지니어링 조직 고도화가 예상된다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Hadron Energy",
+  "region": "US",
+  "source": "businesswire.com",
+  "url": "https://www.businesswire.com/news/home/20260810344929/en/Hadron-Energy-Appoints-Previous-TerraPower-COO-Eric-Williams-as-Executive-Vice-President-of-Engineering",
+  "k": "hadron energy appoints previous terrapower coo eric williams as executive vice president of engineering",
+  "id": "edf47f9f"
+ },
+ {
+  "date": "2026-08-10",
+  "title": "안타레스의 마크-0 마이크로원자로 임계 달성",
+  "summary": "안타레스(Antares)의 마크-0(Mark-0) 마이크로원자로가 아이다호 국립연구소(Idaho National Laboratory)에서 임계에 도달했다.",
+  "summaryLong": "미국 원자력학회(American Nuclear Society) 회장 마크 피터스(Mark Peters)가 언급한 바에 따르면, 안타레스(Antares)의 마크-0(Mark-0) 마이크로원자로가 아이다호 국립연구소(INL)에서 임계 달성이라는 중요한 기술 마일스톤을 이뤘다. 이는 단순 기술 실적을 넘어 소형모듈원자로 분야의 발전 추진력을 보여주는 의미 있는 사건이다.",
+  "cat": "기술",
+  "type": "Micro",
+  "dev": "Antares",
+  "region": "US",
+  "source": "ANS Newswire",
+  "url": "https://www.ans.org/news/2026-08-10/article-8220/capitalizing-on-community/",
+  "k": "capitalizing on community",
+  "id": "ba42f1d2"
+ },
+ {
+  "date": "2026-08-10",
+  "title": "원자력 추진선 규제 정비…SMR 상용화 신호",
+  "summary": "원자력 추진선 관련 규제가 정리되면서 소형모듈원자로(SMR) 상용화에 긍정 신호가 나타났다.",
+  "summaryLong": "원자력 추진선 분야의 규제 체계가 명확해지고 있으며, 이는 소형모듈원자로(SMR)의 상용화 추진에 긍정적인 환경을 조성하고 있다. 정부 규제 정비 및 정책 움직임이 SMR 산업 활성화에 청신호를 주고 있는 상황이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "news.nate.com",
+  "url": "https://news.nate.com/view/20260810n21643?mid=n1101",
+  "k": "원자력 추진선 규제 안개 걷힌다 smr 상용화 청신호",
+  "ko": 1,
+  "id": "26b0306f"
+ },
+ {
+  "date": "2026-08-10",
+  "title": "한국 조선사, 미래 먹거리로 SMR 육성 추진",
+  "summary": "한국 조선 업체들이 소형모듈원자로(SMR)를 미래 성장 동력으로 삼아 개발·수주를 적극 추진하고 있다.",
+  "summaryLong": "한국 조선 산업이 현재의 호실적에 안주하지 않고 미래 사업 다각화를 위해 소형모듈원자로(SMR) 및 부유식 해상풍력(FDC) 등을 전략적 사업 분야로 육성하고 있다. 조선사들의 핵심 미래 먹거리로서 SMR 관련 사업 확대가 진행 중이다.",
+  "cat": "계약",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "edaily.co.kr",
+  "url": "https://www.edaily.co.kr/News/Read?newsId=04749446645546008&mediaCodeNo=257",
+  "k": "호실적 안주 안한다 미래 먹거리 fdc smr 띄우는 k조선",
+  "ko": 1,
+  "id": "acf17874"
+ },
+ {
+  "date": "2026-08-10",
+  "title": "한국형 AMPC·SMR 국가전략기술 지정",
+  "summary": "한국형 첨단모듈식원전(AMPC)과 SMR이 국가전략기술로 지정되어 무탄소 에너지 생태계 구축의 전환점이 될 것으로 평가된다.",
+  "summaryLong": "한국 정부가 한국형 첨단모듈식원전(AMPC)과 소형모듈원자로(SMR)를 국가전략기술로 지정했다. 이는 무탄소 에너지 제조 생태계 재건을 위한 핵심 정책으로, 원자력 기술의 국가적 중요성을 강조하고 산업 지원을 강화하는 정부 전략의 일환이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "eanews.kr",
+  "url": "https://www.eanews.kr/news/986666",
+  "k": "한국형 ampc smr 국가전략기술 지정 무탄소 에너지 제조 생태계 재건의 분기점",
+  "ko": 1,
+  "id": "2d16de2d"
+ },
+ {
   "date": "2026-08-09",
   "title": "오클로(Oklo) 그로브스 연구로 최초 임계 달성",
   "summary": "오클로의 그로브스(Groves) 연구용 원자로가 최초 임계(first criticality)에 도달했다.",
@@ -784,35 +871,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-08-06",
-  "title": "한국원자력산업협회, '차세대 원전(SMR) 국가전략기술 지정' 환영",
-  "summary": "한국원자력산업협회가 소형모듈원자로를 국가전략기술로 지정한 정부 정책을 환영했다.",
-  "summaryLong": "한국원자력산업협회가 정부의 소형모듈원자로(SMR)를 차세대 원전 기술로 국가전략기술에 지정한 정책을 공식 환영했다. 이는 한국 정부가 SMR을 국가적 핵심 기술로 위치시키고 지원을 강화하겠다는 신호를 의미하며, 국내 원자력 산업계의 SMR 개발과 상용화 투자 확대를 견인할 것으로 기대된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "epnews.co.kr",
-  "url": "https://www.epnews.co.kr/news/articleView.html?idxno=66001",
-  "k": "한국원자력산업협회 차세대 원전 smr 국가전략기술 지정 환영",
-  "ko": 1,
-  "id": "58d62dbc"
- },
- {
-  "date": "2026-08-06",
-  "title": "오클로 그로브스 원자로, DOE 파일럿 프로그램 다섯 번째 임계 달성",
-  "summary": "오클로(Oklo)의 그로브스 동위원소 시험로(Groves Isotope Test Reactor)가 미국 에너지부(DOE) 원자로 파일럿 프로그램(RPP) 하에서 다섯 번째로 임계 상태에 도달했으며, 민간 소유 부지에서는 처음이다.",
-  "summaryLong": "오클로가 텍사스(Texas) 록하트(Lockhart)에 위치한 그로브스 동위원소 시험로를 운영하는 저출력 시험로가 2026년 8월 5일 오후 9시 19분(EDT)에 자기 지탱 가능한 임계 상태에 도달했다. 이는 미국 에너지부 원자로 파일럿 프로그램 하에서 달성된 다섯 번째 임계 사례이며, 민간이 소유한 부지에서 프로그램 하의 최초 임계 달성이다. 이 마일스톤은 오클로의 소형 모듈 원자로(SMR) 기술 개발과 상용화 추진의 중요한 진전을 의미한다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "오클로(Oklo)",
-  "region": "US",
-  "source": "POWER Magazine",
-  "url": "https://www.powermag.com/oklos-groves-becomes-fifth-doe-pilot-reactor-to-reach-criticality-first-on-private-land/",
-  "k": "oklo s groves becomes fifth doe pilot reactor to reach criticality first on private land",
-  "id": "9030d83a"
- },
- {
-  "date": "2026-08-06",
   "title": "뉴스케일, 파라곤과 제어계측 설계 계약 체결",
   "summary": "뉴스케일 파워(NuScale Power)가 파라곤 에너지 솔루션(Paragon Energy Solutions)과 77 MWe 뉴스케일 파워 모듈용 고도로 통합된 보호계통(HIPS) 최종 설계 개발 계약을 체결했다.",
   "summaryLong": "뉴스케일 파워가 미론 테크놀로지스(Mirion Technologies) 산하 파라곤 에너지 솔루션과 계약을 체결하여, 단일 제어실로 운영 가능한 77 MWe 뉴스케일 파워 모듈 대상의 고도로 통합된 보호계통(HIPS) 최종 설계 개발을 진행하기로 했다. 이 계약은 뉴스케일 소형 모듈 원자로의 상용화 추진에 필요한 주요 계통의 설계 완성을 목표로 한다.",
@@ -824,49 +882,6 @@ window.SMR_NEWS = [
   "url": "https://www.ans.org/news/2026-08-06/article-8226/industry-updateaugust-2026/",
   "k": "industry update august 2026",
   "id": "360d0478"
- },
- {
-  "date": "2026-08-06",
-  "title": "엑스에너지-센트러스, Xe-100용 HALEU 공급 계약 체결",
-  "summary": "엑스에너지(X-Energy)와 센트러스 에너지(Centrus Energy)가 엑스에너지의 Xe-100 첨단 소형 모듈 원자로 개발을 위한 고순도 저농축 우라늄(HALEU) 장기 공급 확정 계약을 체결했다.",
-  "summaryLong": "엑스에너지와 센트러스 에너지가 2026년 8월 6일 HALEU(고순도 저농축 우라늄) 장기 공급에 관한 확정 계약을 체결했다. 이 계약은 엑스에너지의 고온가스로(HTGR) 기반 Xe-100 첨단 소형 모듈 원자로 개발의 상용화 추진을 위한 것으로, 엑스에너지가 센트러스에 선금(prepayment)을 제공하고 동테네시(Eastern Tennessee)에 청정 에너지 투자와 일자리 창출을 목표로 한다. 이 계약은 HALEU 농축 및 TRISO 연료 제조의 국내 상용화를 앞당기는 의의가 있다.",
-  "cat": "계약",
-  "type": "HTGR",
-  "dev": "엑스에너지(X-Energy)",
-  "region": "US",
-  "source": "X-Energy, Inc. News Releases",
-  "url": "https://investors.x-energy.com/news-releases/news-release-details/x-energy-centrus-sign-haleu-supply-agreement-xe-100-advanced",
-  "k": "x energy centrus sign haleu supply agreement for xe 100 advanced small modular reactor development",
-  "id": "bac82c42"
- },
- {
-  "date": "2026-08-06",
-  "title": "큐리오(Curio), 뉴스케일, 프라마톰(Framatome) 핵연료 솔루션 MOU 체결",
-  "summary": "큐리오(Curio), 뉴스케일(NuScale), 프라마톰(Framatome)이 핵연료 솔루션 개발을 위한 양해각서(MOU)를 체결했다.",
-  "summaryLong": "큐리오(Curio), 뉴스케일(NuScale Power), 프라마톰(Framatome)의 세 기관이 소형모듈원자로(SMR) 용 핵연료 솔루션 개발에 대한 양해각서(MOU)를 공동 체결했다. 이는 SMR 산업의 공급망 강화와 연료 기술 확보를 위한 전략적 협력의 의미를 갖는 중요한 계약 체결로, 상용화에 필수적인 연료 공급 생태계 구축을 나타낸다.",
-  "cat": "계약",
-  "type": "PWR",
-  "dev": "NuScale",
-  "region": "US",
-  "source": "ca.investing.com",
-  "url": "https://ca.investing.com/news/stock-market-news/curio-nuscale-framatome-sign-mou-on-nuclear-fuel-solutions-93CH-4781868",
-  "k": "curio nuscale framatome sign mou on nuclear fuel solutions by investing com",
-  "id": "ad93771e"
- },
- {
-  "date": "2026-08-06",
-  "title": "서울대(SNU) NEXFO, SMR·마이크로원자로(MMR) 지속가능성 논의",
-  "summary": "서울대(SNU)의 NEXFO가 소형모듈원자로(SMR)와 마이크로원자로(MMR)의 지속가능성 해법을 주제로 포럼을 개최했다.",
-  "summaryLong": "서울대(SNU)의 NEXFO가 소형모듈원자로(SMR)와 마이크로원자로(MMR)의 지속가능성 관련 과제와 해법을 논의하는 행사를 개최했다. 이는 한국 내 차세대 소형원자로 기술 발전과 정책 기반 조성을 위한 학술·산업계 협력 활동으로 평가된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5510",
-  "k": "서울대 nexfo smr mmr 지속가능성 해법 논의",
-  "ko": 1,
-  "id": "dc9e2cad"
  },
  {
   "date": "2026-08-05",
@@ -1038,20 +1053,6 @@ window.SMR_NEWS = [
   "url": "https://finance.yahoo.com/energy/articles/mcdermott-ulc-energy-sign-cooperation-110000798.html",
   "k": "mcdermott and ulc energy sign cooperation agreement to advance rolls royce smr projects",
   "id": "5d6b26cc"
- },
- {
-  "date": "2026-07-28",
-  "title": "래디언트와 NASA, 미국 고농축우라늄(HALEU) 할당 확보",
-  "summary": "래디언트 인더스트리(Radiant Industries)가 NASA의 화성 핵추진 미션 및 미국 공군 마이크로리액터 배치를 위해 고농축우라늄(HALEU) 할당을 받았다.",
-  "summaryLong": "래디언트 인더스트리(Radiant Industries)와 NASA가 고농축우라늄 가용성 프로그램(HALEU Availability Program)의 3차 할당에서 우라늄을 획득했다. 할당분은 NASA의 화성 핵추진 우주 탐사 미션과 래디언트의 미국 공군(USAF)용 마이크로리액터 배치 사업에 활용될 예정이다. HALEU는 차세대 고급 노형(특히 마이크로리액터, 고온가스로 등)의 핵심 연료로, 이 할당은 미국 정부의 첨단원전 지원 정책 실현 사례이다.",
-  "cat": "기술",
-  "type": "Micro",
-  "dev": "Radiant",
-  "region": "US",
-  "source": "World Nuclear News",
-  "url": "https://www.world-nuclear-news.org/articles/radiant-and-nasa-awarded-us-haleu-allocations",
-  "k": "radiant and nasa awarded us haleu allocations",
-  "id": "e5d575d4"
  },
  {
   "date": "2026-07-28",
@@ -1365,5 +1366,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-11 07:09 KST";
-window.SMR_TOTAL = 1922;
+window.SMR_UPDATED = "2026-08-11 07:50 KST";
+window.SMR_TOTAL = 1928;

@@ -68,6 +68,93 @@ window.SMR_NEWS = [
     "id": "792cb354"
   },
   {
+    "date": "2026-08-10",
+    "title": "오클로의 신형 원자로 마일스톤, 인허가 경로의 위험 완화",
+    "summary": "오클로(Oklo)가 신형 원자로 마일스톤을 달성하여 규제 인허가 경로에서 위험을 낮추었다는 보도.",
+    "summaryLong": "오클로(Oklo)가 신형 원자로 개발에서 마일스톤을 달성했으며, 이것이 미국 원자력규제위원회(NRC)의 인허가 승인 경로에서 기술적·규제적 위험을 완화시켰다는 내용이다. 오클로는 고속로(SFR) 기반의 소형모듈원자로 개발사로서, 이번 마일스톤은 설계 검증이나 기술 요구사항 충족 단계로 추정되며, 향후 인허가 진행에 긍정적 신호로 평가된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "benzinga.com",
+    "url": "https://www.benzinga.com/analyst-stock-ratings/analyst-color/26/08/61081665/oklos-new-reactor-milestone-lowers-the-risk-in-its-path-to-approval",
+    "k": "oklo s new reactor milestone lowers the risk in its path to approval",
+    "id": "f7f93134"
+  },
+  {
+    "date": "2026-08-10",
+    "title": "해드론 에너지, 전 테라파워 COO 에릭 윌리엄스를 공학 부사장으로 임명",
+    "summary": "해드론 에너지(Hadron Energy)가 테라파워(TerraPower)의 전직 최고운영책임자(COO) 에릭 윌리엄스를 공학 담당 경영진으로 영입했다.",
+    "summaryLong": "첨단로 개발사 해드론 에너지(Hadron Energy)가 테라파워(TerraPower)에서 최고운영책임자(COO)를 지낸 에릭 윌리엄스를 공학 담당 경영진(Executive Vice President of Engineering)으로 임명했다. 이는 해드론 에너지의 기술 역량 강화와 고속로(SFR) 개발 프로젝트 추진을 위한 인적 확충을 의미하며, 테라파워에서의 경험을 바탕으로 해드론의 엔지니어링 조직 고도화가 예상된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Hadron Energy",
+    "region": "US",
+    "source": "businesswire.com",
+    "url": "https://www.businesswire.com/news/home/20260810344929/en/Hadron-Energy-Appoints-Previous-TerraPower-COO-Eric-Williams-as-Executive-Vice-President-of-Engineering",
+    "k": "hadron energy appoints previous terrapower coo eric williams as executive vice president of engineering",
+    "id": "edf47f9f"
+  },
+  {
+    "date": "2026-08-10",
+    "title": "안타레스의 마크-0 마이크로원자로 임계 달성",
+    "summary": "안타레스(Antares)의 마크-0(Mark-0) 마이크로원자로가 아이다호 국립연구소(Idaho National Laboratory)에서 임계에 도달했다.",
+    "summaryLong": "미국 원자력학회(American Nuclear Society) 회장 마크 피터스(Mark Peters)가 언급한 바에 따르면, 안타레스(Antares)의 마크-0(Mark-0) 마이크로원자로가 아이다호 국립연구소(INL)에서 임계 달성이라는 중요한 기술 마일스톤을 이뤘다. 이는 단순 기술 실적을 넘어 소형모듈원자로 분야의 발전 추진력을 보여주는 의미 있는 사건이다.",
+    "cat": "기술",
+    "type": "Micro",
+    "dev": "Antares",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-08-10/article-8220/capitalizing-on-community/",
+    "k": "capitalizing on community",
+    "id": "ba42f1d2"
+  },
+  {
+    "date": "2026-08-10",
+    "title": "원자력 추진선 규제 정비…SMR 상용화 신호",
+    "summary": "원자력 추진선 관련 규제가 정리되면서 소형모듈원자로(SMR) 상용화에 긍정 신호가 나타났다.",
+    "summaryLong": "원자력 추진선 분야의 규제 체계가 명확해지고 있으며, 이는 소형모듈원자로(SMR)의 상용화 추진에 긍정적인 환경을 조성하고 있다. 정부 규제 정비 및 정책 움직임이 SMR 산업 활성화에 청신호를 주고 있는 상황이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "news.nate.com",
+    "url": "https://news.nate.com/view/20260810n21643?mid=n1101",
+    "k": "원자력 추진선 규제 안개 걷힌다 smr 상용화 청신호",
+    "ko": 1,
+    "id": "26b0306f"
+  },
+  {
+    "date": "2026-08-10",
+    "title": "한국 조선사, 미래 먹거리로 SMR 육성 추진",
+    "summary": "한국 조선 업체들이 소형모듈원자로(SMR)를 미래 성장 동력으로 삼아 개발·수주를 적극 추진하고 있다.",
+    "summaryLong": "한국 조선 산업이 현재의 호실적에 안주하지 않고 미래 사업 다각화를 위해 소형모듈원자로(SMR) 및 부유식 해상풍력(FDC) 등을 전략적 사업 분야로 육성하고 있다. 조선사들의 핵심 미래 먹거리로서 SMR 관련 사업 확대가 진행 중이다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "edaily.co.kr",
+    "url": "https://www.edaily.co.kr/News/Read?newsId=04749446645546008&mediaCodeNo=257",
+    "k": "호실적 안주 안한다 미래 먹거리 fdc smr 띄우는 k조선",
+    "ko": 1,
+    "id": "acf17874"
+  },
+  {
+    "date": "2026-08-10",
+    "title": "한국형 AMPC·SMR 국가전략기술 지정",
+    "summary": "한국형 첨단모듈식원전(AMPC)과 SMR이 국가전략기술로 지정되어 무탄소 에너지 생태계 구축의 전환점이 될 것으로 평가된다.",
+    "summaryLong": "한국 정부가 한국형 첨단모듈식원전(AMPC)과 소형모듈원자로(SMR)를 국가전략기술로 지정했다. 이는 무탄소 에너지 제조 생태계 재건을 위한 핵심 정책으로, 원자력 기술의 국가적 중요성을 강조하고 산업 지원을 강화하는 정부 전략의 일환이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "eanews.kr",
+    "url": "https://www.eanews.kr/news/986666",
+    "k": "한국형 ampc smr 국가전략기술 지정 무탄소 에너지 제조 생태계 재건의 분기점",
+    "ko": 1,
+    "id": "2d16de2d"
+  },
+  {
     "date": "2026-08-09",
     "title": "오클로(Oklo) 그로브스 연구로 최초 임계 달성",
     "summary": "오클로의 그로브스(Groves) 연구용 원자로가 최초 임계(first criticality)에 도달했다.",
@@ -27923,4 +28010,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-11 07:09 KST";
+window.SMR_UPDATED = "2026-08-11 07:50 KST";
