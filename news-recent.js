@@ -46,6 +46,21 @@ window.SMR_NEWS = [
   "id": "d4931bb1"
  },
  {
+  "date": "2026-08-10",
+  "title": "한국 원안위, 스웨덴과 고준위폐기물·SMR 안전규제 협력 확대",
+  "summary": "한국 원자력안전위원회(KINS)가 스웨덴 규제기관과 고준위폐기물 관리 및 SMR 안전규제 협력을 확대하기로 결정했다.",
+  "summaryLong": "한국 원자력안전위원회(원안위)가 스웨덴과 원자력 안전 규제 분야에서 협력 범위를 확대하기로 결정했으며, 고준위폐기물(HLW) 관리 및 소형모듈원자로(SMR)의 안전규제에 관한 양국 규제기관 간 정보 교환, 기술 협력, 표준화 등을 추진하기로 합의했다. 이는 SMR 개발·도입 단계에서 국제 규제 협력의 필요성이 증대됨에 따라 국내 규제 역량 강화 및 국제 표준 부합성 확보를 목표로 한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "v.daum.net",
+  "url": "https://v.daum.net/v/20260810120155485",
+  "k": "원안위 스웨덴과 고준위폐기물 smr 안전규제 협력 확대",
+  "ko": 1,
+  "id": "792cb354"
+ },
+ {
   "date": "2026-08-09",
   "title": "오클로(Oklo) 그로브스 연구로 최초 임계 달성",
   "summary": "오클로의 그로브스(Groves) 연구용 원자로가 최초 임계(first criticality)에 도달했다.",
@@ -854,21 +869,6 @@ window.SMR_NEWS = [
   "id": "dc9e2cad"
  },
  {
-  "date": "2026-08-06",
-  "title": "미국 오클로(Oklo) 시험로 임계 및 딥피션(Deep Fission) 설계 승인, 혁신 SMR 가속화",
-  "summary": "오클로(Oklo)의 시험로가 임계에 도달하고 딥피션(Deep Fission) 설계가 승인되어 혁신 소형모듈원자로(SMR) 상용화가 가속화되고 있다.",
-  "summaryLong": "미국 오클로(Oklo)가 자신의 시험로에서 핵 임계 달성과 함께 차세대 원자로 설계인 딥피션(Deep Fission)이 설계 승인을 획득했다. 이 이중 성과는 혁신형 소형모듈원자로(SMR) 기술의 상용화 진전을 의미하며, 차세대 원전 시장 형성을 가속화할 것으로 전망된다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5507",
-  "k": "미국 오클로 시험로 임계 및 딥피션 설계 승인 혁신 smr 가속화",
-  "ko": 1,
-  "id": "559b1991"
- },
- {
   "date": "2026-08-05",
   "title": "엔터지, 홀텍 SMR-300 배치 검토",
   "summary": "홀텍 인터내셔널(Holtec International)이 미국 전력회사 엔터지(Entergy)와 한국 현대건설과 양해각서를 체결하여 SMR-300 소형모듈원자로의 배치 기회를 평가한다.",
@@ -1365,5 +1365,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-10 14:40 KST";
-window.SMR_TOTAL = 1920;
+window.SMR_UPDATED = "2026-08-10 15:03 KST";
+window.SMR_TOTAL = 1922;

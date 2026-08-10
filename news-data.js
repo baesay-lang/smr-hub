@@ -53,6 +53,21 @@ window.SMR_NEWS = [
     "id": "d4931bb1"
   },
   {
+    "date": "2026-08-10",
+    "title": "한국 원안위, 스웨덴과 고준위폐기물·SMR 안전규제 협력 확대",
+    "summary": "한국 원자력안전위원회(KINS)가 스웨덴 규제기관과 고준위폐기물 관리 및 SMR 안전규제 협력을 확대하기로 결정했다.",
+    "summaryLong": "한국 원자력안전위원회(원안위)가 스웨덴과 원자력 안전 규제 분야에서 협력 범위를 확대하기로 결정했으며, 고준위폐기물(HLW) 관리 및 소형모듈원자로(SMR)의 안전규제에 관한 양국 규제기관 간 정보 교환, 기술 협력, 표준화 등을 추진하기로 합의했다. 이는 SMR 개발·도입 단계에서 국제 규제 협력의 필요성이 증대됨에 따라 국내 규제 역량 강화 및 국제 표준 부합성 확보를 목표로 한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260810120155485",
+    "k": "원안위 스웨덴과 고준위폐기물 smr 안전규제 협력 확대",
+    "ko": 1,
+    "id": "792cb354"
+  },
+  {
     "date": "2026-08-09",
     "title": "오클로(Oklo) 그로브스 연구로 최초 임계 달성",
     "summary": "오클로의 그로브스(Groves) 연구용 원자로가 최초 임계(first criticality)에 도달했다.",
@@ -1072,6 +1087,20 @@ window.SMR_NEWS = [
     "url": "https://x-energy.com/news/x-energy-centrus-sign-haleu-supplyagreement-for-xe-100-advanced-small-modular-reactor-development/",
     "k": "x energy centrus sign haleu supply agreement for xe 100 advanced small modular reactor development x energy com",
     "id": "4f331613"
+  },
+  {
+    "date": "2026-08-06",
+    "title": "미국 정부, 오클로(Oklo) 원자로 승인 — 에너지 패권 강화",
+    "summary": "미국 정부가 오클로의 원자로를 승인하여 에너지 패권 강화 의제를 추진하고 있다.",
+    "summaryLong": "미국 정부가 오클로(Oklo)의 소형모듈원자로(SMR) 개발 프로젝트를 승인했다. 이는 미국의 에너지 자립 및 원자력 기술 패권 강화 정책의 일환으로 평가된다. 승인 내용과 구체적 일정, 프로젝트 규모 등은 제공된 스니펫에서 확인되지 않으나, 미국 정부의 공식적 인허가 결정으로 보인다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "nam.org",
+    "url": "https://nam.org/u-s-government-clears-oklo-reactor-advancing-energy-dominance-agenda/",
+    "k": "u s government clears oklo reactor advancing energy dominance agenda",
+    "id": "b62bd064"
   },
   {
     "date": "2026-08-05",
@@ -27894,4 +27923,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-10 14:40 KST";
+window.SMR_UPDATED = "2026-08-10 15:03 KST";
