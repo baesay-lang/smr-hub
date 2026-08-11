@@ -8,6 +8,36 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-08-11",
+    "title": "전남·광주, 호남 반도체 전력 공급 대안으로 SMR 검토",
+    "summary": "전남·광주 지역이 호남권 반도체 산업의 전력 공급 대안으로 소형모듈원자로(SMR)를 검토하기 위해 기장의 혁신형 SMR(i-SMR) 유치 사례를 현장 간담회를 통해 청취했다.",
+    "summaryLong": "전남·광주 지역의 호남권 반도체 산업 전력 공급 문제 해결 방안으로 소형모듈원자로(SMR)의 활용 가능성을 검토하기 위해, 지난 7일 고리원자력본부 인접 지역인 길천리 마을회관에서 현장 간담회가 열렸다. 전남광주 SMR-AI 에너지 포럼 회원 13명을 포함한 참석자들은 기장이 혁신형 SMR(i-SMR) 부지로 선정된 유치 과정과 주민 수용성 확보 경험을 한국수력원자력(한수원) 고리본부 및 기장군 관계자로부터 청취했다. 호남권이 경주와의 경쟁에서 SMR 부지 유치를 추진하는 배경에는 반도체 산업의 안정적 전력 공급 확보 필요성이 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "",
+    "region": "KR",
+    "source": "전기신문 - 전체기사",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=371132",
+    "k": "전남 광주 반도체 전력 대안 smr 주목 기장서 유치 노하우 청취",
+    "ko": 1,
+    "id": "7b5c9d1f"
+  },
+  {
+    "date": "2026-08-11",
+    "title": "미국 아칸소주 전력난 해결책으로 원전 선정, 한국 SMR 도입 시사점",
+    "summary": "미국 아칸소(Arkansas)주의 전력난 해결 방안으로 원전이 선정되었으며, 이는 한국의 SMR 도입에 시사점을 제시한다.",
+    "summaryLong": "미국 아칸소(Arkansas)주에서 지역의 전력난 해결을 위해 원자력발전소를 솔루션으로 선정했다는 보도이다. 기사는 이러한 미국의 사례가 한국의 소형모듈원자로(SMR) 도입 정책에 시사점을 제공할 수 있음을 언급하고 있다. SMR의 정책적 도입과 활용에 관한 내용으로, 한국의 에너지 정책 전환과 SMR 도입 추진을 보여주는 사례 보도이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5561",
+    "k": "미국 아칸소 전력난 해결사로 원전 낙점 한국 smr 도입 시사점",
+    "ko": 1,
+    "id": "4b968ca5"
+  },
+  {
     "date": "2026-08-10",
     "title": "HD현대, 테라파워와 SMR 협력 확대",
     "summary": "현대중공업(HD현대)이 테라파워(TerraPower)와 소형모듈원자로(SMR) 분야 협력을 확대하고 있다.",
@@ -211,6 +241,78 @@ window.SMR_NEWS = [
     "k": "사이언스게시판 원안위 스웨덴과 smr 안전규제 등 논의",
     "ko": 1,
     "id": "028598a6"
+  },
+  {
+    "date": "2026-08-10",
+    "title": "오클로의 그로브스(Groves) 원자로, 텍사스에서 1년 이내 임계 달성",
+    "summary": "오클로(Oklo)가 개발 중인 그로브스(Groves) 원자로가 텍사스에서 1년 이내에 임계(first criticality)에 도달했다.",
+    "summaryLong": "오클로(Oklo)가 개발 중인 그로브스(Groves) 소형모듈원자로가 미국 텍사스에서 빠른 진도로 개발되어 1년 이내에 임계(first criticality)를 달성했다. 이는 첨단 소형로의 실제 건설 및 시운전 진행 상황을 보여주는 중요한 마일스톤으로, 오클로의 기술 개발 능력과 프로젝트 일정 이행을 입증하는 사례다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "eciks.org",
+    "url": "https://eciks.org/20117-oklo-groves-reactor-criticality-texas",
+    "k": "oklo s groves reactor achieves first criticality in under a year in texas",
+    "id": "87b10c4b"
+  },
+  {
+    "date": "2026-08-10",
+    "title": "해드론 에너지, 테라파워 전 최고운영책임자 에릭 윌리엄스 엔지니어링 담당 영입",
+    "summary": "해드론 에너지(Hadron Energy)가 테라파워(TerraPower) 전 최고운영책임자(COO) 에릭 윌리엄스를 엔지니어링 리더로 영입했다.",
+    "summaryLong": "해드론 에너지(Hadron Energy)가 테라파워(TerraPower)의 전 최고운영책임자(COO) 에릭 윌리엄스를 엔지니어링 부문 책임자로 고용했다. 이는 테라파워와 같은 선진 원자로 기술 개발사에서 경험 있는 경영진을 영입하는 조직 강화 사항으로, 해드론 에너지의 첨단로 개발 역량 강화를 보여주는 인사 사항이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Hadron Energy",
+    "region": "US",
+    "source": "citybiz.co",
+    "url": "https://www.citybiz.co/article/886323/hadron-energy-hires-former-terrapower-coo-eric-williams-to-lead-engineering/",
+    "k": "hadron energy hires former terrapower coo eric williams to lead engineering",
+    "id": "3ff7af30"
+  },
+  {
+    "date": "2026-08-10",
+    "title": "체코에 건설될 소형모듈원자로는 어떤 노형인가?",
+    "summary": "체코(Czechia)에 건설될 소형모듈원자로(SMR)의 노형과 개발사 선택에 관한 보도다.",
+    "summaryLong": "체코(Czechia)가 국내 에너지 안보와 탈탄소 정책의 일환으로 소형모듈원자로(SMR) 도입을 추진하면서, 실제 건설될 원자로의 노형(PWR, SFR, HTGR 등)과 개발사 선정 현황에 대한 기사다. 구체적인 계약 상대사나 노형 명시는 제목·스니펫에 없으나, 유럽의 SMR 도입 정책 추진 현황을 보여주는 기사로, 국제 SMR 시장과 정책 동향을 반영한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "EU",
+    "source": "oenergetice.cz",
+    "url": "https://oenergetice.cz/en/zpravodajstvi/which-small-modular-reactors-will-be-built-in-czechia",
+    "k": "which small modular reactors will be built in czechia",
+    "id": "3eb3bfd0"
+  },
+  {
+    "date": "2026-08-10",
+    "title": "미국 지하 1.6km 원자로 승인…한국 SMR 산업이 주목할 점",
+    "summary": "미국이 지하 1.6km에 건설될 원자로를 승인하면서 한국 소형모듈원자로(SMR) 산업에 주는 함의에 대한 분석 기사다.",
+    "summaryLong": "미국 규제당국이 지하 깊숙이(1.6km) 건설될 소형모듈원자로(SMR) 또는 첨단로 원자로의 설계·건설·운영을 승인함으로써 차세대 원자로의 안전 및 규제 기준 선례를 제시했다. 이 사건은 미국의 첨단로 상용화 전략과 새로운 원자로 개념(예: 심지층 배치, 패시브 안전)에 대한 규제 수용성을 보여준다. 한국은 이 사례를 통해 자국의 SMR 인허가 및 안전 기준 수립 시 참고할 국제 선례를 얻게 되며, 차세대 원자로 산업의 조기 진입 방안을 모색할 수 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5555",
+    "k": "미국 지하 1 6km 원자로 승인 한국 smr 산업이 주목할 점",
+    "ko": 1,
+    "id": "479447c2"
+  },
+  {
+    "date": "2026-08-10",
+    "title": "K-AMPC·SMR 세제 전환의 의미: 무탄소 에너지 제조 생태계 재설계를 향한 정책 전환",
+    "summary": "한국 첨단제조산업전략(K-AMPC)과 소형모듈원자로(SMR) 관련 세제 정책 전환을 통해 무탄소 에너지 제조 생태계 재설계를 추진하고 있다.",
+    "summaryLong": "한국 정부의 첨단제조산업전략(K-AMPC)과 소형모듈원자로(SMR) 분야에서 세제 정책 전환이 이루어지고 있다는 분석 보도이다. 이는 무탄소·청정 에너지 제조 기반 산업 생태계를 재설계하기 위한 국책 정책 차원의 전환을 의미한다. SMR 산업의 육성과 경쟁력 강화를 위해 조세 지원, 규제 개선, 투자 장려 등 정부 정책이 종합적으로 추진되고 있음을 반영하는 정책 이슈이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "eanews.kr",
+    "url": "https://www.eanews.kr/news/986665",
+    "k": "k ampc smr 세제 전환의 의미 무탄소 에너지 제조 생태계 재설계를 향한 정책 전환",
+    "ko": 1,
+    "id": "2a16d974"
   },
   {
     "date": "2026-08-09",
@@ -28110,4 +28212,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-11 08:21 KST";
+window.SMR_UPDATED = "2026-08-11 13:50 KST";
