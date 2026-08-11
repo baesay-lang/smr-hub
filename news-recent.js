@@ -308,6 +308,21 @@ window.SMR_NEWS = [
   "id": "2a16d974"
  },
  {
+  "date": "2026-08-10",
+  "title": "원안위, 스웨덴과 방사성폐기물·소형모듈원자로(SMR) 안전 규제 논의",
+  "summary": "원자력안전위원회(원안위)가 스웨덴과 방사성폐기물 및 소형모듈원자로(SMR) 안전 규제에 관해 협력을 논의한다.",
+  "summaryLong": "한국의 원자력안전위원회(원안위)가 스웨덴 원자력 규제 기관과 방사성폐기물 처리 및 소형모듈원자로(SMR) 안전 규제 분야에서의 협력을 논의했다. 이는 국내 SMR 및 첨단로 개발에 필요한 규제 체계 정비와 국제 기준 동향 파악을 위한 정책 차원의 협의로, SMR 개발 생태계 조성의 일환이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "newsis.com",
+  "url": "https://www.newsis.com/view/NISX20260810_0003742268",
+  "k": "원안위 스웨덴과 방사성폐기물 smr 안전 규제 논의",
+  "ko": 1,
+  "id": "7693f002"
+ },
+ {
   "date": "2026-08-09",
   "title": "오클로(Oklo) 그로브스 연구로 최초 임계 달성",
   "summary": "오클로의 그로브스(Groves) 연구용 원자로가 최초 임계(first criticality)에 도달했다.",
@@ -852,20 +867,6 @@ window.SMR_NEWS = [
   "url": "https://ts2.tech/en/oklo-nyseoklo-achieves-reactor-criticality-4-2-billion-valuation-requires-commercial-validation/",
   "k": "oklo nyse oklo achieves reactor criticality 4 2 billion valuation requires commercial validation",
   "id": "a5f44feb"
- },
- {
-  "date": "2026-08-07",
-  "title": "오클로, 동위원소 시험원자로 임계 달성",
-  "summary": "오클로(Oklo)가 자사의 동위원소 시험용 소형모듈원자로에서 임계(criticality)를 달성했다.",
-  "summaryLong": "오클로는 자신의 동위원소 시험원자로(Isotope Test Reactor)에서 처음 임계에 도달했다고 미국핵학회(American Nuclear Society, ANS)를 통해 발표했다. 임계 달성은 원자로 개발의 주요 기술 마일스톤으로, 원자로가 자체 핵분열 반응을 유지할 수 있음을 입증하는 것이다. 이는 오클로의 소형모듈원자로 기술 개발 진행 상황을 보여주는 확인된 기술 성과 보도다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "오클로",
-  "region": "US",
-  "source": "ans.org",
-  "url": "https://www.ans.org/news/article-8277/oklos-isotope-test-reactor-achieves-criticality/",
-  "k": "oklo s isotope test reactor achieves criticality american nuclear society ans",
-  "id": "c57975ce"
  },
  {
   "date": "2026-08-07",
@@ -1423,5 +1424,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-11 13:50 KST";
-window.SMR_TOTAL = 1942;
+window.SMR_UPDATED = "2026-08-11 14:18 KST";
+window.SMR_TOTAL = 1943;
