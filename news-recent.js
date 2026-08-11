@@ -251,6 +251,20 @@ window.SMR_NEWS = [
   "id": "edcd0fb8"
  },
  {
+  "date": "2026-08-11",
+  "title": "엑스에너지(X-Energy)의 TRISO-X, 오크리지 연구소(Oak Ridge Lab)와의 핵연료 연구 파트너십 확대",
+  "summary": "엑스에너지(X-Energy)가 TRISO-X 핵연료 관련 미국 오크리지 국립연구소(Oak Ridge National Laboratory)와의 협력을 지속·확대하기로 했다.",
+  "summaryLong": "엑스에너지(X-Energy)의 자회사 TRISO-X가 미국 에너지부(DOE) 산하 오크리지 국립연구소(Oak Ridge National Laboratory)와의 핵연료 연구 파트너십을 계속 진행하기로 결정했다. 이는 고온가스로(HTGR) 및 첨단로용 TRISO 연료 개발·인증을 위한 기술 협력을 의미하며, 양 기관 간 장기적 협력 강화를 보여주는 사례이다.",
+  "cat": "기술",
+  "type": "HTGR",
+  "dev": "X-Energy",
+  "region": "US",
+  "source": "marketscreener.com",
+  "url": "https://www.marketscreener.com/news/x-energy-s-triso-x-extends-nuclear-fuel-research-partnership-with-oak-ridge-lab-ce7859dbd889f725",
+  "k": "x energy s triso x extends nuclear fuel research partnership with oak ridge lab",
+  "id": "3ba5d0fb"
+ },
+ {
   "date": "2026-08-10",
   "title": "HD현대, 테라파워와 SMR 협력 확대",
   "summary": "현대중공업(HD현대)이 테라파워(TerraPower)와 소형모듈원자로(SMR) 분야 협력을 확대하고 있다.",
@@ -860,21 +874,6 @@ window.SMR_NEWS = [
   "id": "14a2db31"
  },
  {
-  "date": "2026-08-08",
-  "title": "골드만삭스 \"SMR·원전에 수조 달러 유입\"…폴란드 첫 원전 협상은 진통",
-  "summary": "골드만삭스(Goldman Sachs)가 소형모듈원자로(SMR)와 원전에 수조 달러의 자금이 유입될 것으로 전망했으며, 폴란드의 첫 원전 도입 협상은 어려움을 겪고 있다.",
-  "summaryLong": "골드만삭스(Goldman Sachs)가 소형모듈원자로(SMR)와 원자력 발전 전반에 대규모 자금 유입이 있을 것으로 예측했다. 동시에 폴란드(Poland)가 첫 원자력 발전소 도입을 추진 중이나 협상 과정에서 어려움을 겪고 있는 상황을 보도하고 있다. 이는 글로벌 SMR 투자 트렌드와 유럽 원전 정책 변화를 함께 다루는 정책·투자 관련 보도다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "EU",
-  "source": "g-enews.com",
-  "url": "https://www.g-enews.com/article/Global-Biz/2026/08/202608090644081785fbbec65dfb_1",
-  "k": "골드만삭스 smr 원전 수조 달러 유입 폴란드 첫 원전 협상은 진통",
-  "ko": 1,
-  "id": "135f3e33"
- },
- {
   "date": "2026-08-07",
   "title": "엑스에너지(X-energy), 센트러스에너지와 우라늄 공급 계약 체결",
   "summary": "미국의 소형모듈원자로 개발사 엑스에너지가 센트러스에너지와 우라늄 공급 계약을 체결했다.",
@@ -1444,5 +1443,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-12 07:55 KST";
-window.SMR_TOTAL = 1960;
+window.SMR_UPDATED = "2026-08-12 08:25 KST";
+window.SMR_TOTAL = 1961;

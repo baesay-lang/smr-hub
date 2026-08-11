@@ -258,6 +258,20 @@ window.SMR_NEWS = [
     "id": "edcd0fb8"
   },
   {
+    "date": "2026-08-11",
+    "title": "엑스에너지(X-Energy)의 TRISO-X, 오크리지 연구소(Oak Ridge Lab)와의 핵연료 연구 파트너십 확대",
+    "summary": "엑스에너지(X-Energy)가 TRISO-X 핵연료 관련 미국 오크리지 국립연구소(Oak Ridge National Laboratory)와의 협력을 지속·확대하기로 했다.",
+    "summaryLong": "엑스에너지(X-Energy)의 자회사 TRISO-X가 미국 에너지부(DOE) 산하 오크리지 국립연구소(Oak Ridge National Laboratory)와의 핵연료 연구 파트너십을 계속 진행하기로 결정했다. 이는 고온가스로(HTGR) 및 첨단로용 TRISO 연료 개발·인증을 위한 기술 협력을 의미하며, 양 기관 간 장기적 협력 강화를 보여주는 사례이다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "marketscreener.com",
+    "url": "https://www.marketscreener.com/news/x-energy-s-triso-x-extends-nuclear-fuel-research-partnership-with-oak-ridge-lab-ce7859dbd889f725",
+    "k": "x energy s triso x extends nuclear fuel research partnership with oak ridge lab",
+    "id": "3ba5d0fb"
+  },
+  {
     "date": "2026-08-10",
     "title": "HD현대, 테라파워와 SMR 협력 확대",
     "summary": "현대중공업(HD현대)이 테라파워(TerraPower)와 소형모듈원자로(SMR) 분야 협력을 확대하고 있다.",
@@ -28477,4 +28491,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-12 07:55 KST";
+window.SMR_UPDATED = "2026-08-12 08:25 KST";
