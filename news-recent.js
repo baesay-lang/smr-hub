@@ -176,6 +176,81 @@ window.SMR_NEWS = [
   "id": "220a9790"
  },
  {
+  "date": "2026-08-11",
+  "title": "TRISO-X, 오크리지 국립연구소(ORNL)와 연료 연구 파트너십 확대",
+  "summary": "트리소엑스(TRISO-X)와 오크리지 국립연구소(Oak Ridge National Laboratory)가 첨단 핵 연료 연구 파트너십을 연장했다.",
+  "summaryLong": "엑스에너지(X-Energy) 자회사인 트리소엑스(TRISO-X)와 미국 오크리지 국립연구소(Oak Ridge National Laboratory, ORNL)가 첨단 핵 연료 연구 파트너십을 연장했다. 이는 소형모듈원자로 및 첨단로의 핵심 연료 기술인 TRISO(tri-structural isotropic) 연료 개발을 지속적으로 추진하는 것으로, SMR 기술 발전에 중요한 진전이다.",
+  "cat": "기술",
+  "type": "HTGR",
+  "dev": "X-Energy",
+  "region": "US",
+  "source": "x-energy.com",
+  "url": "https://x-energy.com/news/triso-x-and-oak-ridge-national-laboratory-extend-advanced-nuclear-fuel-research-partnership/",
+  "k": "triso x and oak ridge national laboratory extend advanced nuclear fuel research partnership x energy",
+  "id": "0d30416c"
+ },
+ {
+  "date": "2026-08-11",
+  "title": "인도 비하르주(Bihar) 23억 달러 규모 소형모듈원자로(SMR) 추진",
+  "summary": "인도 비하르주가 23억 달러 규모의 소형모듈원자로(SMR) 사업을 추진하며 한국 원전수출의 기회로 평가된다.",
+  "summaryLong": "인도 비하르주(Bihar)가 23억 달러(약 2,900억 원) 규모의 소형모듈원자로(SMR) 사업을 추진 중이다. 인도의 이러한 첨단원전 개발 계획은 한국 원전 기업들의 수출 기회로 주목받고 있으며, 기술 협력과 부품 공급 등을 통한 한국 원전산업의 해외 진출 가능성을 보여준다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "JP",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5584",
+  "k": "인도 비하르주 23억불 smr 추진 한국 원전수출 청신호",
+  "ko": 1,
+  "id": "c2af4ce0"
+ },
+ {
+  "date": "2026-08-11",
+  "title": "빌 게이츠 방한과 두산·현대중공업의 미국 소형모듈원자로(SMR) 부품 공급",
+  "summary": "빌 게이츠의 방한을 계기로 두산과 현대중공업(HD현대)이 미국 소형모듈원자로(SMR) 사업에서 부품을 공급하고 있다.",
+  "summaryLong": "빌 게이츠의 방한 소식이 두산과 현대중공업(HD현대)에 대한 관심을 높이고 있다. 두 회사는 테라파워(TerraPower)와 같은 미국 첨단원자로 개발사의 소형모듈원자로(SMR) 프로젝트에 부품과 기술을 공급하고 있으며, 이는 한국 중공업계의 글로벌 원전산업 참여 확대를 의미한다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "US",
+  "source": "sisajournal-e.com",
+  "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=423013",
+  "k": "빌 게이츠 방한에 들썩인 두산 hd현대 원자로 속엔 이미 k 중공업",
+  "ko": 1,
+  "id": "b08e7b13"
+ },
+ {
+  "date": "2026-08-11",
+  "title": "발라르 애토믹스(Valar Atomics), 소형모듈원자로(SMR) 시리즈 B에서 12억 달러 조달",
+  "summary": "소형모듈원자로(SMR) 개발사 발라르 애토믹스(Valar Atomics)가 시리즈 B 펀딩에서 12억 달러를 조달하며 인공지능(AI) 전력 수요 대응을 목표로 한다.",
+  "summaryLong": "소형모듈원자로(SMR) 개발사 발라르 애토믹스(Valar Atomics)가 시리즈 B 펀딩 라운드에서 12억 달러(약 1조 5,600억 원)의 투자 자금을 조달했다. 조달 자금은 SMR 설계 개발 가속화 및 실증·상용화 추진에 사용될 예정이며, 데이터센터와 인공지능(AI) 산업의 전력 수요 증가에 대응하기 위한 청정에너지 공급을 목표로 하고 있다.",
+  "cat": "투자",
+  "type": "General",
+  "dev": "Valar Atomics",
+  "region": "US",
+  "source": "newsyonhap.com",
+  "url": "https://newsyonhap.com/news/119050",
+  "k": "valar atomics smr 시리즈 b서 12억 달러 조달 ai 전력난 해소 목표",
+  "ko": 1,
+  "id": "1c9429e0"
+ },
+ {
+  "date": "2026-08-11",
+  "title": "빌 게이츠 방한, 소형원전 공급망 논의",
+  "summary": "테라파워(TerraPower) 회장 빌 게이츠가 한국을 방문하여 소형모듈원자로(SMR) 공급망 구축을 위한 협력을 논의했다.",
+  "summaryLong": "테라파워(TerraPower)의 빌 게이츠 회장이 1년 만에 한국을 방문하여 소형모듈원자로(SMR) 공급망 확대를 위한 협력 방안을 논의했다. 이는 테라파워의 나트륨냉각고속로(SFR) 기술 상용화를 앞두고, 한국 산업체와의 부품 공급 및 파트너십 구축을 모색하는 움직임으로 보인다. 방한을 통해 국내 원전 관련 기업 및 정부 관계자들과 공급망 협력 방안을 논의한 것으로 파악된다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "KR",
+  "source": "news.nate.com",
+  "url": "https://news.nate.com/view/20260811n23561",
+  "k": "빌 게이츠 1년 만에 방한 소형원전 공급망 머리 맞댄다",
+  "ko": 1,
+  "op": 1,
+  "id": "edcd0fb8"
+ },
+ {
   "date": "2026-08-10",
   "title": "HD현대, 테라파워와 SMR 협력 확대",
   "summary": "현대중공업(HD현대)이 테라파워(TerraPower)와 소형모듈원자로(SMR) 분야 협력을 확대하고 있다.",
@@ -801,36 +876,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-08-07",
-  "title": "인도, 국내 소형모듈원자로 개발에 200억 루피 투자 추진",
-  "summary": "인도가 자국 소형모듈원자로(SMR) 개발을 위해 200억 인도 루피(INR 20,000 Crore) 규모의 국책 지원을 추진 중이다.",
-  "summaryLong": "인도가 핵에너지 산업 고도화 미션의 일환으로 자국 소형모듈원자로(SMR) 개발에 200억 인도 루피(INR 20,000 Crore) 규모의 자금 지원을 가속화하고 있다. 이는 인도의 주요 에너지 정책 프로그램으로서 국내 SMR 기술 자립과 산업 육성을 목표로 한다. 솔라쿼터(SolarQuarter) 보도에 따른 정부 정책 공시로, 인도 내 SMR 개발 생태계 조성의 중요한 정책적 신호다.",
-  "cat": "정책",
-  "type": "General",
-  "dev": "",
-  "region": "JP",
-  "source": "solarquarter.com",
-  "url": "https://solarquarter.com/2026/08/07/india-accelerates-nuclear-energy-mission-with-inr-20000-crore-push-for-indigenous-small-modular-reactors/",
-  "k": "india accelerates nuclear energy mission with inr 20 000 crore push for indigenous small modular reactors",
-  "id": "a3248115"
- },
- {
-  "date": "2026-08-07",
-  "title": "싱가포르, 한국과 SMR 협력 및 아세안(ASEAN) 파워그리드 구축 검토",
-  "summary": "싱가포르 국무장관이 한국과의 소형모듈원자로(SMR) 협력 및 동남아 전력망 연계 구축을 언급했다.",
-  "summaryLong": "싱가포르 국무장관이 한국(Korea)과의 소형모듈원자로(SMR) 협력 추진과 아세안(ASEAN) 국가들을 연결하는 파워그리드(전력망) 구축 구상을 밝혔다. 이는 한국의 SMR 기술과 전력 공급 인프라를 동남아시아 지역에 확대하는 협력 방향을 시사하는 발언으로, 정부 간 전략적 에너지 협력의 가능성을 제시한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "munhwa.com",
-  "url": "https://www.munhwa.com/article/11607997",
-  "k": "싱가포르 국무장관 과 smr협력 아세안 파워그리드 구축",
-  "ko": 1,
-  "op": 1,
-  "id": "5f208f44"
- },
- {
-  "date": "2026-08-07",
   "title": "엑스에너지(X-energy), 센트러스에너지와 우라늄 공급 계약 체결",
   "summary": "미국의 소형모듈원자로 개발사 엑스에너지가 센트러스에너지와 우라늄 공급 계약을 체결했다.",
   "summaryLong": "DL이앤씨의 협력사인 미국 소형모듈원자로 개발사 엑스에너지(X-energy)가 한국수력원전과 포스코가 참여한 센트러스에너지(Centrus Energy)와 우라늄 공급 계약을 체결했다. 이는 소형모듈원자로 운영에 필수적인 연료 공급망을 확보하기 위한 전략적 계약으로, 엑스에너지의 상용화 진행 과정을 보여주는 중요한 협력 사례이다.",
@@ -843,37 +888,6 @@ window.SMR_NEWS = [
   "k": "dl이앤씨 smr 협력사 x에너지 한수원 포스코 동맹 센트러스에너지와 우라늄 계약 체결",
   "ko": 1,
   "id": "13af938d"
- },
- {
-  "date": "2026-08-07",
-  "title": "소형모듈원자로 상용화는 언제쯤일까",
-  "summary": "소형모듈원자로의 상용화 시점에 대한 신문 사설 평론.",
-  "summaryLong": "내일신문의 사설로서 소형모듈원자로(SMR) 기술의 상용화 전망과 일정에 대해 다루고 있다. 국내 에너지 정책 차원에서 SMR의 역할과 상용화 가능성을 제기하는 의견 기사이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "연합뉴스 최신기사",
-  "url": "https://www.yna.co.kr/view/AKR20260807081000011",
-  "k": "전국 주요 신문 사설 7일 석간",
-  "ko": 1,
-  "op": 1,
-  "id": "d596b5dd"
- },
- {
-  "date": "2026-08-07",
-  "title": "한수원 협력사 오클로, SMR 연구용 원자로 임계 상태 도달",
-  "summary": "한국수력원자력(한수원)의 협력사인 미국의 오클로(Oklo)가 소형모듈원자로 연구용 원자로가 임계 상태에 도달했으며, 미국 에너지부(DOE)가 이를 중요한 이정표로 평가했다.",
-  "summaryLong": "한국수력원자력(한수원)의 협력사인 미국 오클로(Oklo)가 자사 SMR 연구용 원자로의 임계(critical) 상태 도달을 발표했다. 미국 에너지부(DOE)는 이를 중요한 기술 이정표로 평가했으며, 이는 오클로의 고속로 기술 개발 진전과 함께 한-미 원자력 협력의 구체적 성과를 보여주는 사례이다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "businesspost.co.kr",
-  "url": "https://www.businesspost.co.kr/BP?command=article_view&num=444208",
-  "k": "한수원 협력사 미국 오클로 smr 연구용 원자로 임계 상태 도달 미 에너지부 중요한 이정표",
-  "ko": 1,
-  "id": "a1298967"
  },
  {
   "date": "2026-08-07",
@@ -916,21 +930,6 @@ window.SMR_NEWS = [
   "url": "https://www.energyintel.com/0000019f-dd0d-d1b0-a7ff-ff9dd4610000",
   "k": "centrus inks haleu supply deal with x energy",
   "id": "f3a1362c"
- },
- {
-  "date": "2026-08-07",
-  "title": "한수원 협력사 오클로(Oklo) SMR 연구용 원자로 임계 상태 달성, 미국 에너지부(DOE) \"주요 이정표\" 평가",
-  "summary": "미국의 오클로(Oklo)가 개발한 소형모듈원자로(SMR) 연구용 원자로가 임계 상태에 도달했으며, 미국 에너지부(DOE)가 이를 중요한 이정표로 평가했다.",
-  "summaryLong": "한국수력원자력(한수원)의 협력사로 알려진 미국 오클로(Oklo)가 자사의 소형모듈원자로(SMR) 연구용 원자로 프로젝트를 통해 임계 상태(criticality) 도달이라는 주요 기술 마일스톤을 달성했다. 미국 에너지부(DOE)는 이 성과를 중요한 이정표로 평가했으며, 이는 오클로의 SMR 기술 개발이 설계 단계를 넘어 실제 운영 검증 단계로 진입했음을 의미한다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "businesspost.co.kr",
-  "url": "https://www.businesspost.co.kr/BP?command=article_view&num=444208",
-  "k": "한수원 협력사 미국 오클로 smr 연구용 원자로 임계 상태 도달 미국 에너지부 중요한 이정표",
-  "ko": 1,
-  "id": "a1298967"
  },
  {
   "date": "2026-08-06",
@@ -1445,5 +1444,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-12 07:21 KST";
-window.SMR_TOTAL = 1955;
+window.SMR_UPDATED = "2026-08-12 07:55 KST";
+window.SMR_TOTAL = 1960;

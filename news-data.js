@@ -183,6 +183,81 @@ window.SMR_NEWS = [
     "id": "220a9790"
   },
   {
+    "date": "2026-08-11",
+    "title": "TRISO-X, 오크리지 국립연구소(ORNL)와 연료 연구 파트너십 확대",
+    "summary": "트리소엑스(TRISO-X)와 오크리지 국립연구소(Oak Ridge National Laboratory)가 첨단 핵 연료 연구 파트너십을 연장했다.",
+    "summaryLong": "엑스에너지(X-Energy) 자회사인 트리소엑스(TRISO-X)와 미국 오크리지 국립연구소(Oak Ridge National Laboratory, ORNL)가 첨단 핵 연료 연구 파트너십을 연장했다. 이는 소형모듈원자로 및 첨단로의 핵심 연료 기술인 TRISO(tri-structural isotropic) 연료 개발을 지속적으로 추진하는 것으로, SMR 기술 발전에 중요한 진전이다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "x-energy.com",
+    "url": "https://x-energy.com/news/triso-x-and-oak-ridge-national-laboratory-extend-advanced-nuclear-fuel-research-partnership/",
+    "k": "triso x and oak ridge national laboratory extend advanced nuclear fuel research partnership x energy",
+    "id": "0d30416c"
+  },
+  {
+    "date": "2026-08-11",
+    "title": "인도 비하르주(Bihar) 23억 달러 규모 소형모듈원자로(SMR) 추진",
+    "summary": "인도 비하르주가 23억 달러 규모의 소형모듈원자로(SMR) 사업을 추진하며 한국 원전수출의 기회로 평가된다.",
+    "summaryLong": "인도 비하르주(Bihar)가 23억 달러(약 2,900억 원) 규모의 소형모듈원자로(SMR) 사업을 추진 중이다. 인도의 이러한 첨단원전 개발 계획은 한국 원전 기업들의 수출 기회로 주목받고 있으며, 기술 협력과 부품 공급 등을 통한 한국 원전산업의 해외 진출 가능성을 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "JP",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5584",
+    "k": "인도 비하르주 23억불 smr 추진 한국 원전수출 청신호",
+    "ko": 1,
+    "id": "c2af4ce0"
+  },
+  {
+    "date": "2026-08-11",
+    "title": "빌 게이츠 방한과 두산·현대중공업의 미국 소형모듈원자로(SMR) 부품 공급",
+    "summary": "빌 게이츠의 방한을 계기로 두산과 현대중공업(HD현대)이 미국 소형모듈원자로(SMR) 사업에서 부품을 공급하고 있다.",
+    "summaryLong": "빌 게이츠의 방한 소식이 두산과 현대중공업(HD현대)에 대한 관심을 높이고 있다. 두 회사는 테라파워(TerraPower)와 같은 미국 첨단원자로 개발사의 소형모듈원자로(SMR) 프로젝트에 부품과 기술을 공급하고 있으며, 이는 한국 중공업계의 글로벌 원전산업 참여 확대를 의미한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "sisajournal-e.com",
+    "url": "https://www.sisajournal-e.com/news/articleView.html?idxno=423013",
+    "k": "빌 게이츠 방한에 들썩인 두산 hd현대 원자로 속엔 이미 k 중공업",
+    "ko": 1,
+    "id": "b08e7b13"
+  },
+  {
+    "date": "2026-08-11",
+    "title": "발라르 애토믹스(Valar Atomics), 소형모듈원자로(SMR) 시리즈 B에서 12억 달러 조달",
+    "summary": "소형모듈원자로(SMR) 개발사 발라르 애토믹스(Valar Atomics)가 시리즈 B 펀딩에서 12억 달러를 조달하며 인공지능(AI) 전력 수요 대응을 목표로 한다.",
+    "summaryLong": "소형모듈원자로(SMR) 개발사 발라르 애토믹스(Valar Atomics)가 시리즈 B 펀딩 라운드에서 12억 달러(약 1조 5,600억 원)의 투자 자금을 조달했다. 조달 자금은 SMR 설계 개발 가속화 및 실증·상용화 추진에 사용될 예정이며, 데이터센터와 인공지능(AI) 산업의 전력 수요 증가에 대응하기 위한 청정에너지 공급을 목표로 하고 있다.",
+    "cat": "투자",
+    "type": "General",
+    "dev": "Valar Atomics",
+    "region": "US",
+    "source": "newsyonhap.com",
+    "url": "https://newsyonhap.com/news/119050",
+    "k": "valar atomics smr 시리즈 b서 12억 달러 조달 ai 전력난 해소 목표",
+    "ko": 1,
+    "id": "1c9429e0"
+  },
+  {
+    "date": "2026-08-11",
+    "title": "빌 게이츠 방한, 소형원전 공급망 논의",
+    "summary": "테라파워(TerraPower) 회장 빌 게이츠가 한국을 방문하여 소형모듈원자로(SMR) 공급망 구축을 위한 협력을 논의했다.",
+    "summaryLong": "테라파워(TerraPower)의 빌 게이츠 회장이 1년 만에 한국을 방문하여 소형모듈원자로(SMR) 공급망 확대를 위한 협력 방안을 논의했다. 이는 테라파워의 나트륨냉각고속로(SFR) 기술 상용화를 앞두고, 한국 산업체와의 부품 공급 및 파트너십 구축을 모색하는 움직임으로 보인다. 방한을 통해 국내 원전 관련 기업 및 정부 관계자들과 공급망 협력 방안을 논의한 것으로 파악된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "KR",
+    "source": "news.nate.com",
+    "url": "https://news.nate.com/view/20260811n23561",
+    "k": "빌 게이츠 1년 만에 방한 소형원전 공급망 머리 맞댄다",
+    "ko": 1,
+    "op": 1,
+    "id": "edcd0fb8"
+  },
+  {
     "date": "2026-08-10",
     "title": "HD현대, 테라파워와 SMR 협력 확대",
     "summary": "현대중공업(HD현대)이 테라파워(TerraPower)와 소형모듈원자로(SMR) 분야 협력을 확대하고 있다.",
@@ -28402,4 +28477,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-12 07:21 KST";
+window.SMR_UPDATED = "2026-08-12 07:55 KST";
