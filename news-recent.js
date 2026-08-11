@@ -323,6 +323,36 @@ window.SMR_NEWS = [
   "id": "7693f002"
  },
  {
+  "date": "2026-08-10",
+  "title": "원자력안전위원회, 스웨덴과 고준위폐기물·소형모듈원자로(SMR) 안전규제 협력",
+  "summary": "원자력안전위원회(원안위)가 스웨덴과 고준위폐기물 및 소형모듈원자로(SMR)의 안전규제 분야에서 협력을 추진한다.",
+  "summaryLong": "한국 원자력안전위원회(원안위)가 스웨덴의 원자력 규제 당국과 고준위폐기물 처분 및 소형모듈원자로(SMR) 안전규제 분야에서 협력을 강화하기로 합의했다. 이는 '기술 빗장'이라 불리던 규제·안전 정보 공유를 확대하는 정책적 전환이다. 양국 간 안전 규제 기준 및 인허가 절차 정보 교환을 통해 SMR과 고준위폐기물 처리 기술 발전을 상호 지원하려는 의도이다. 이러한 협력은 국내 SMR 기술 개발 환경 개선과 국제 규제 표준 조화에 기여할 것으로 예상된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "skenews.kr",
+  "url": "https://www.skenews.kr/news/articleView.html?idxno=52777",
+  "k": "고준위 방폐장 smr 기술 빗장 푼다 원안위 스웨덴과 안전규제 맞손",
+  "ko": 1,
+  "id": "36389131"
+ },
+ {
+  "date": "2026-08-10",
+  "title": "중국 창장(Changjiang) 원전 4호기 제어실 가동, 대형원전·소형모듈원자로(SMR) 동시 구축",
+  "summary": "중국이 창장(Changjiang) 원전 4호기 제어실을 가동하면서 대형원전과 소형모듈원자로(SMR)를 동시에 추진 중이다.",
+  "summaryLong": "중국의 창장(Changjiang) 원전 4호기 제어실이 가동을 시작했다. 중국은 이와 동시에 소형모듈원자로(SMR) 개발도 병행하며 대형 및 소형 원자로를 전략적으로 동시 구축하는 방식을 추진하고 있다. 제어실 가동은 해당 호기의 운영 준비 단계 진입을 의미한다. 이는 중국의 원자력 에너지 포트폴리오 다양화 및 전력망 공급 안정화 전략의 일환이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "JP",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5552",
+  "k": "창장 원전 4호기 제어실 가동 대형원전 smr 동시 구축 눈길",
+  "ko": 1,
+  "id": "42943fe3"
+ },
+ {
   "date": "2026-08-09",
   "title": "오클로(Oklo) 그로브스 연구로 최초 임계 달성",
   "summary": "오클로의 그로브스(Groves) 연구용 원자로가 최초 임계(first criticality)에 도달했다.",
@@ -839,34 +869,6 @@ window.SMR_NEWS = [
   "url": "https://nam.org/oklo-achievement-advances-americas-nuclear-energy-future/",
   "k": "oklo achievement advances america s nuclear energy future national association of manufacturers",
   "id": "4a89aa03"
- },
- {
-  "date": "2026-08-07",
-  "title": "오클로, 그로브스 시험로 첫 임계 달성, 유동성 30억 달러",
-  "summary": "오클로(Oklo)가 그로브스(Groves) 시험로에서 첫 임계(first criticality)를 달성했으며 30억 달러 규모의 유동성을 확보했다.",
-  "summaryLong": "오클로는 Q2 2026 실적 보고에서 자사의 그로브스 시험로가 첫 임계 상태에 도달했음을 공식 발표했다. 이는 미국 에너지부(DOE) 핵연료 시범 프로그램 하에서 진행 중인 프로젝트의 주요 마일스톤으로, 설계·허가·건설 후 실제 운영 가능성을 검증하는 단계다. 동시에 30억 달러 규모의 자금 유동성을 확보하여 향후 프로젝트 가속화를 추진할 계획이다. 이 성과는 소형모듈원자로(SMR) 및 첨단로 분야의 상용화 진전을 보여주는 사례다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "오클로(Oklo)",
-  "region": "US",
-  "source": "investing.com",
-  "url": "https://www.investing.com/news/company-news/oklo-q2-2026-slides-first-criticality-achieved-3b-liquidity-93CH-4846923",
-  "k": "oklo q2 2026 slides first criticality achieved 3b liquidity",
-  "id": "2226367c"
- },
- {
-  "date": "2026-08-07",
-  "title": "오클로 그로브스(Groves) 원자로 임계(Criticality) 달성, 42억 달러 밸류에이션 상용화 검증 필요",
-  "summary": "오클로의 그로브스 원자로가 임계(criticality) 상태에 도달했으나 42억 달러 밸류에이션은 상용화 입증이 필요하다는 평가다.",
-  "summaryLong": "오클로(Oklo)의 그로브스(Groves) 원자로가 임계(criticality) 달성이라는 기술적 마일스톤을 기록했으며, 이는 원자로가 자체 유지 핵반응 상태에 진입했음을 의미한다. 현재 시장은 오클로를 42억 달러로 평가하고 있으나, 이러한 밸류에이션이 정당화되려면 실제 상용 운영의 성공적 입증이 필수적이라는 분석이다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "ts2.tech",
-  "url": "https://ts2.tech/en/oklo-nyseoklo-achieves-reactor-criticality-4-2-billion-valuation-requires-commercial-validation/",
-  "k": "oklo nyse oklo achieves reactor criticality 4 2 billion valuation requires commercial validation",
-  "id": "a5f44feb"
  },
  {
   "date": "2026-08-07",
@@ -1424,5 +1426,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-11 14:18 KST";
-window.SMR_TOTAL = 1943;
+window.SMR_UPDATED = "2026-08-11 14:43 KST";
+window.SMR_TOTAL = 1945;
