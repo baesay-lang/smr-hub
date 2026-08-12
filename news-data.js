@@ -8,6 +8,36 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-08-12",
+    "title": "오클로(Oklo), 첫 임계 달성 및 초기 원자로 판매 후 8.5% 상승",
+    "summary": "오클로(Oklo)가 첫 임계(first criticality) 달성과 초기 소형모듈원자로(SMR) 판매를 발표하며 주가가 8.5% 상승했다.",
+    "summaryLong": "미국 SMR 개발사 오클로(Oklo)가 자사 원자로의 첫 임계 달성과 초기 상용 판매 계약을 발표했으며, 이 소식에 주가가 8.5% 상승했다. 첫 임계는 원자로 개발의 중요한 기술적 마일스톤으로, 설계된 핵분열 연쇄반응이 실제로 작동함을 입증하는 것이다. 이는 오클로의 상용화 추진 경로에서 주요 진전이며, 향후 규제 승인과 추가 고객 확보 가능성을 시장이 긍정적으로 평가한 것으로 보인다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/why-oklo-oklo-8-5-014026517.html",
+    "k": "why oklo oklo is up 8 5 after first criticality and initial reactor sales and what s next",
+    "id": "a3e1de31"
+  },
+  {
+    "date": "2026-08-12",
+    "title": "AI 데이터센터 수요 급증, HD현대가 힘센엔진·SMR로 공략",
+    "summary": "현대중공업(HD현대)이 소형모듈원자로(SMR)를 AI 데이터센터 수요 대응에 활용하는 전략.",
+    "summaryLong": "파이낸셜포스트(Financial Post) 보도에 따르면, 현대중공업(HD현대)이 AI 데이터센터의 급증하는 전력 수요를 배경으로 소형모듈원자로(SMR) 사업을 강화하고 있다. 기업은 SMR을 핵심 전력 솔루션으로 위치시켜 데이터센터 시장을 공략할 계획이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "HD현대",
+    "region": "KR",
+    "source": "financialpost.co.kr",
+    "url": "https://www.financialpost.co.kr/news/articleView.html?idxno=270126",
+    "k": "ai 데이터센터 슈퍼사이클 hd현대가 힘센엔진 smr로 쓸어담는다",
+    "ko": 1,
+    "op": 1,
+    "id": "f336a676"
+  },
+  {
     "date": "2026-08-11",
     "title": "전남·광주, 호남 반도체 전력 공급 대안으로 SMR 검토",
     "summary": "전남·광주 지역이 호남권 반도체 산업의 전력 공급 대안으로 소형모듈원자로(SMR)를 검토하기 위해 기장의 혁신형 SMR(i-SMR) 유치 사례를 현장 간담회를 통해 청취했다.",
@@ -592,6 +622,37 @@ window.SMR_NEWS = [
     "k": "창장 원전 4호기 제어실 가동 대형원전 smr 동시 구축 눈길",
     "ko": 1,
     "id": "42943fe3"
+  },
+  {
+    "date": "2026-08-10",
+    "title": "원안위, 스웨덴 원자력 규제기관과 방폐물·SMR 협력 강화",
+    "summary": "원자력안전위원회(원안위)와 스웨덴 원자력 규제기관이 방사성폐기물 및 소형모듈원자로(SMR) 분야 협력을 강화.",
+    "summaryLong": "에너지안전신문 보도에 따르면, 한국의 원자력안전위원회(원안위)와 스웨덴의 원자력 규제기관이 방사성폐기물 관리 및 소형모듈원자로(SMR) 분야에서 협력 관계를 강화하기로 합의했다. 이는 양국 간 원자력 규제·정책 협력의 확대를 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5546",
+    "k": "원안위 스웨덴 원자력 규제기관 방폐물 smr 협력 강화",
+    "ko": 1,
+    "id": "c4913af2"
+  },
+  {
+    "date": "2026-08-10",
+    "title": "패션기업 할렛, 달 표면 초소형 마이크로원자로 개발 추진",
+    "summary": "패션기업 할렛(Hallett)이 달(Moon) 표면 활용을 위한 초소형 마이크로원자로(Micro reactor) 개발에 착수.",
+    "summaryLong": "에너지안전신문 보도에 따르면, 패션기업인 할렛(Hallett)이 달 표면 에너지 공급을 위한 초소형 마이크로원자로(Micro reactor) 개발 사업에 나섰다. 이는 우주 탐사 및 달 기지 운영을 위한 차세대 에너지 솔루션으로 추진되고 있다.",
+    "cat": "기술",
+    "type": "Micro",
+    "dev": "할렛",
+    "region": "",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5558",
+    "k": "패션기업 할렛 달 표면 초소형 마이크로원자로 개발 나선다",
+    "ko": 1,
+    "op": 1,
+    "id": "4c944fa1"
   },
   {
     "date": "2026-08-09",
@@ -28491,4 +28552,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-12 08:25 KST";
+window.SMR_UPDATED = "2026-08-12 14:15 KST";
