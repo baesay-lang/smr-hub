@@ -31,6 +31,20 @@ window.SMR_NEWS = [
   "id": "f336a676"
  },
  {
+  "date": "2026-08-12",
+  "title": "테라파워의 나트륨(Natrium) 원전, 와이오밍주 석탄 지역 재개발 선도",
+  "summary": "빌 게이츠의 테라파워(TerraPower)가 추진 중인 40억 달러 규모 나트륨(Natrium) 원전 프로젝트가 와이오밍주의 석탄 산업 지역을 새로운 산업 중심지로 변모시키고 있다.",
+  "summaryLong": "빌 게이츠(Bill Gates)가 후원하는 첨단로 개발사 테라파워(TerraPower)의 40억 달러(USD 4bn) 규모 나트륨(Natrium) 고속로 발전소 프로젝트가 와이오밍주의 석탄 산업 지역 재개발을 주도하고 있다는 보도다. 나트륨은 테라파워의 차세대 소듐냉각고속로(SFR) 기술을 기반으로 하며, 지역 경제 전환과 청정에너지 산업 육성이라는 의미를 갖는다. 건설 리뷰(Construction Review)는 이 프로젝트의 대규모 투자와 지역 영향을 다루고 있다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "US",
+  "source": "constructionreviewonline.com",
+  "url": "https://constructionreviewonline.com/4bn-natrium-nuclear-power-plant-bill-gatess-terrapower-venture-reshapes-wyoming-coal-town/",
+  "k": "4bn natrium nuclear power plant bill gates s terrapower venture reshapes wyoming coal town",
+  "id": "14811f5f"
+ },
+ {
   "date": "2026-08-11",
   "title": "전남·광주, 호남 반도체 전력 공급 대안으로 SMR 검토",
   "summary": "전남·광주 지역이 호남권 반도체 산업의 전력 공급 대안으로 소형모듈원자로(SMR)를 검토하기 위해 기장의 혁신형 SMR(i-SMR) 유치 사례를 현장 간담회를 통해 청취했다.",
@@ -863,21 +877,6 @@ window.SMR_NEWS = [
   "id": "d3f59150"
  },
  {
-  "date": "2026-08-08",
-  "title": "주간 원자력: 8월 3~8일 SMR 세제지원·해외사업 확대",
-  "summary": "한국의 SMR 세제지원 정책과 해외사업 확대가 원전산업 투자 기반을 확충하고 있습니다.",
-  "summaryLong": "정부가 소형모듈원자로(SMR) 산업에 대한 세제지원을 추진하고 해외사업 확대를 지원함으로써 원전산업의 투자 기반을 넓히고 있습니다. 이는 국내 SMR 개발사들의 글로벌 경쟁력 강화와 상용화 기반 조성을 목표로 하는 정책 기조를 반영합니다. 구체적인 세제지원 규모나 해외사업 대상국은 제목에 명시되지 않았습니다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "knpnews.com",
-  "url": "http://www.knpnews.com/news/articleViewAmp.html?idxno=34259",
-  "k": "주간 원자력 8월 3 8일 smr 세제지원 해외사업 확대 원전산업 투자 기반 넓어져",
-  "ko": 1,
-  "id": "eff89981"
- },
- {
   "date": "2026-08-07",
   "title": "엑스에너지(X-energy), 센트러스에너지와 우라늄 공급 계약 체결",
   "summary": "미국의 소형모듈원자로 개발사 엑스에너지가 센트러스에너지와 우라늄 공급 계약을 체결했다.",
@@ -1432,5 +1431,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-12 15:05 KST";
-window.SMR_TOTAL = 1966;
+window.SMR_UPDATED = "2026-08-13 07:21 KST";
+window.SMR_TOTAL = 1968;

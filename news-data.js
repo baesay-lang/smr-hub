@@ -38,6 +38,20 @@ window.SMR_NEWS = [
     "id": "f336a676"
   },
   {
+    "date": "2026-08-12",
+    "title": "테라파워의 나트륨(Natrium) 원전, 와이오밍주 석탄 지역 재개발 선도",
+    "summary": "빌 게이츠의 테라파워(TerraPower)가 추진 중인 40억 달러 규모 나트륨(Natrium) 원전 프로젝트가 와이오밍주의 석탄 산업 지역을 새로운 산업 중심지로 변모시키고 있다.",
+    "summaryLong": "빌 게이츠(Bill Gates)가 후원하는 첨단로 개발사 테라파워(TerraPower)의 40억 달러(USD 4bn) 규모 나트륨(Natrium) 고속로 발전소 프로젝트가 와이오밍주의 석탄 산업 지역 재개발을 주도하고 있다는 보도다. 나트륨은 테라파워의 차세대 소듐냉각고속로(SFR) 기술을 기반으로 하며, 지역 경제 전환과 청정에너지 산업 육성이라는 의미를 갖는다. 건설 리뷰(Construction Review)는 이 프로젝트의 대규모 투자와 지역 영향을 다루고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "constructionreviewonline.com",
+    "url": "https://constructionreviewonline.com/4bn-natrium-nuclear-power-plant-bill-gatess-terrapower-venture-reshapes-wyoming-coal-town/",
+    "k": "4bn natrium nuclear power plant bill gates s terrapower venture reshapes wyoming coal town",
+    "id": "14811f5f"
+  },
+  {
     "date": "2026-08-11",
     "title": "전남·광주, 호남 반도체 전력 공급 대안으로 SMR 검토",
     "summary": "전남·광주 지역이 호남권 반도체 산업의 전력 공급 대안으로 소형모듈원자로(SMR)를 검토하기 위해 기장의 혁신형 SMR(i-SMR) 유치 사례를 현장 간담회를 통해 청취했다.",
@@ -1745,6 +1759,20 @@ window.SMR_NEWS = [
     "url": "https://nam.org/u-s-government-clears-oklo-reactor-advancing-energy-dominance-agenda/",
     "k": "u s government clears oklo reactor advancing energy dominance agenda",
     "id": "b62bd064"
+  },
+  {
+    "date": "2026-08-06",
+    "title": "오클로(Oklo)의 동위원소 시험로 임계 달성",
+    "summary": "오클로가 동위원소 시험로(Isotope Test Reactor)의 임계(criticality) 달성을 발표했다.",
+    "summaryLong": "오클로(Oklo)가 자사의 동위원소 시험로(Isotope Test Reactor)가 임계에 도달했음을 미국핵학회(ANS) 뉴스와이어를 통해 발표했다. 이는 오클로의 고급 원자로 기술 개발의 주요 마일스톤으로, 시험용 소형 반응로의 운영 능력을 입증하는 중요한 기술 성과이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "ans.org",
+    "url": "https://www.ans.org/news/article-8277/oklos-isotope-test-reactor-achieves-criticality/",
+    "k": "oklo s isotope test reactor achieves criticality ans nuclear newswire american nuclear society ans",
+    "id": "c57975ce"
   },
   {
     "date": "2026-08-05",
@@ -28567,4 +28595,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-12 15:05 KST";
+window.SMR_UPDATED = "2026-08-13 07:21 KST";
