@@ -655,6 +655,21 @@ window.SMR_NEWS = [
     "id": "4c944fa1"
   },
   {
+    "date": "2026-08-10",
+    "title": "원안위, 스웨덴과 방폐물·SMR 안전규제 협력 논의",
+    "summary": "원자력안전위원회(원안위)가 스웨덴과 소형모듈원자로(SMR) 안전규제 분야에서 협력을 논의한다.",
+    "summaryLong": "한국의 원자력안전위원회(원안위)가 스웨덴과 방사성폐기물 처리 및 소형모듈원자로(SMR) 안전규제 분야에서 협력을 논의하는 국제 규제 교류를 진행했다. 이는 SMR 도입에 있어 핵심인 안전규제 체계 마련을 위한 정부 간 협력으로, SMR 상용화의 제도적 기반 조성을 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "snakorea.com",
+    "url": "http://www.snakorea.com/news/articleView.html?idxno=1041774",
+    "k": "원안위 스웨덴과 방폐물 smr 안전규제 협력 논의",
+    "ko": 1,
+    "id": "0ea4837a"
+  },
+  {
     "date": "2026-08-09",
     "title": "오클로(Oklo) 그로브스 연구로 최초 임계 달성",
     "summary": "오클로의 그로브스(Groves) 연구용 원자로가 최초 임계(first criticality)에 도달했다.",
@@ -28552,4 +28567,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-12 14:15 KST";
+window.SMR_UPDATED = "2026-08-12 14:44 KST";

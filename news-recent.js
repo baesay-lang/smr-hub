@@ -648,6 +648,21 @@ window.SMR_NEWS = [
   "id": "4c944fa1"
  },
  {
+  "date": "2026-08-10",
+  "title": "원안위, 스웨덴과 방폐물·SMR 안전규제 협력 논의",
+  "summary": "원자력안전위원회(원안위)가 스웨덴과 소형모듈원자로(SMR) 안전규제 분야에서 협력을 논의한다.",
+  "summaryLong": "한국의 원자력안전위원회(원안위)가 스웨덴과 방사성폐기물 처리 및 소형모듈원자로(SMR) 안전규제 분야에서 협력을 논의하는 국제 규제 교류를 진행했다. 이는 SMR 도입에 있어 핵심인 안전규제 체계 마련을 위한 정부 간 협력으로, SMR 상용화의 제도적 기반 조성을 의미한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "snakorea.com",
+  "url": "http://www.snakorea.com/news/articleView.html?idxno=1041774",
+  "k": "원안위 스웨덴과 방폐물 smr 안전규제 협력 논의",
+  "ko": 1,
+  "id": "0ea4837a"
+ },
+ {
   "date": "2026-08-09",
   "title": "오클로(Oklo) 그로브스 연구로 최초 임계 달성",
   "summary": "오클로의 그로브스(Groves) 연구용 원자로가 최초 임계(first criticality)에 도달했다.",
@@ -861,21 +876,6 @@ window.SMR_NEWS = [
   "k": "주간 원자력 8월 3 8일 smr 세제지원 해외사업 확대 원전산업 투자 기반 넓어져",
   "ko": 1,
   "id": "eff89981"
- },
- {
-  "date": "2026-08-08",
-  "title": "트럼프 행정부, 미국 첨단원자로 임계 목표 초과 달성",
-  "summary": "미국이 첨단 원자로 개발의 임계 목표를 초과 달성하며 한국 SMR 전략에 영향을 미치고 있습니다.",
-  "summaryLong": "트럼프 행정부가 미국의 첨단 원자로 개발 목표를 초과 달성함으로써 글로벌 SMR·첨단로 시장에서의 미국의 리더십을 강화했습니다. 이러한 미국의 기술 진전과 정책 지원은 한국의 SMR 전략 수립과 국제 경쟁 구도에 직접적인 영향을 미칠 것으로 전망됩니다. 구체적인 임계 목표 수치나 달성 프로젝트명은 제공되지 않았습니다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "newsyonhap.com",
-  "url": "https://newsyonhap.com/news/118383",
-  "k": "트럼프 행정부 미국 첨단 원자로 임계 목표 초과 달성 한국 smr 전략에 미칠 영향",
-  "ko": 1,
-  "id": "d024548c"
  },
  {
   "date": "2026-08-07",
@@ -1432,5 +1432,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-12 14:15 KST";
-window.SMR_TOTAL = 1965;
+window.SMR_UPDATED = "2026-08-12 14:44 KST";
+window.SMR_TOTAL = 1966;
