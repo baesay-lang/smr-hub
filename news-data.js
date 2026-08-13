@@ -8,6 +8,35 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-08-13",
+    "title": "인도, 2033년까지 자국산 SMR 5기 목표",
+    "summary": "인도 정부가 2033년까지 자국 개발 소형모듈원자로 5기 배치를 목표로 한다고 발표했다.",
+    "summaryLong": "인도의 지텐드라 싱(Jitendra Singh) 장관이 인도 하원(Lok Sabha)에서 2033년까지 인도 자체 기술로 개발한 소형모듈원자로(SMR) 5기 배치를 목표로 하고 있음을 밝혔다. 이는 인도의 원자력 발전 확대 및 차세대 원전 기술 자립 전략의 일환이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "JP",
+    "source": "timesofindia.indiatimes.com",
+    "url": "https://timesofindia.indiatimes.com/india/5-indigenous-small-modular-reactors-targeted-by-2033-jitendra-singh-tells-ls/articleshow/133195746.cms",
+    "k": "5 indigenous small modular reactors targeted by 2033 jitendra singh tells ls",
+    "id": "bfd9ca63"
+  },
+  {
+    "date": "2026-08-13",
+    "title": "한국 원전산업 '팀코리아' 구성, 규제협력·SMR로 글로벌 수출 추진",
+    "summary": "한국이 규제협력과 SMR을 중심으로 '팀코리아'를 구성하여 원전 글로벌 수출을 강화하는 전략을 추진한다.",
+    "summaryLong": "한국 정부와 원전산업계가 'K-원전 팀코리아' 체계를 가동하여 국제 규제협력과 소형모듈원자로(SMR) 개발을 양축으로 글로벌 수출 목표를 추진하고 있다. 이는 대형 원전 외에 SMR을 차세대 수출 전략의 핵심으로 삼고 있으며, 규제 표준화와 산업 협력을 결합한 통합 전략을 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "etnews.com",
+    "url": "https://www.etnews.com/20260813000217",
+    "k": "k 원전 팀코리아 가동 규제협력 smr 쌍끌이로 글로벌 수출 정조준",
+    "ko": 1,
+    "id": "cfb9df8d"
+  },
+  {
     "date": "2026-08-12",
     "title": "오클로(Oklo), 첫 임계 달성 및 초기 원자로 판매 후 8.5% 상승",
     "summary": "오클로(Oklo)가 첫 임계(first criticality) 달성과 초기 소형모듈원자로(SMR) 판매를 발표하며 주가가 8.5% 상승했다.",
@@ -276,6 +305,51 @@ window.SMR_NEWS = [
     "k": "정부 2035년 경수형 smr 상용화 추진 핵심광물 비축 1년분으로 확대",
     "ko": 1,
     "id": "0fefbaa3"
+  },
+  {
+    "date": "2026-08-12",
+    "title": "미래성장동력 7대 SEED에 소형모듈원자로·핵융합·재생에너지 포함",
+    "summary": "한국 정부가 미래성장동력 7대 SEED 프로젝트를 발표하며 소형모듈원자로(SMR)와 핵융합을 첨단기술 육성 대상으로 선정했다.",
+    "summaryLong": "과학기술정보통신부는 청와대 충무실에서 '미래성장동력 7대 SEED 보고회'를 개최하고 7대 SEED 프로젝트 추진 방안을 발표했다. 이 프로젝트는 소형모듈원자로(SMR), 핵융합, 재생에너지 등을 포함한 첨단기술을 대한민국의 미래성장동력으로 육성하기 위한 국가 차원의 사업이다. 한국수력원자력(한수원)의 i-SMR이 사례로 제시되며, 에너지기술과 공급망의 중요성, 첨단기술 확보 필요성에 대한 민간 전문가 제언이 반영되었다. 급증하는 전력수요와 탄소중립이라는 도전 속에서 첨단기술 확보가 경제·안보의 핵심 자산으로 위치지었다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "한수원",
+    "region": "KR",
+    "source": "투데이에너지 - 전체기사",
+    "url": "https://www.todayenergy.kr/news/articleView.html?idxno=301513",
+    "k": "미래성장동력 7대 seed에 smr 핵융합 재생에너지 포함",
+    "ko": 1,
+    "id": "9d37f9b3"
+  },
+  {
+    "date": "2026-08-12",
+    "title": "뉴스케일의 테네시밸리공사(TVA) 기회, 차기 성장 단계 개시 가능성",
+    "summary": "뉴스케일(NuScale)의 테네시밸리공사(TVA) 계약 기회가 회사의 다음 성장 단계를 열 수 있다는 분석 기사다.",
+    "summaryLong": "야후 파이낸스가 뉴스케일의 테네시밸리공사(TVA) 기회가 회사의 차기 성장 단계 개시를 가능하게 할 수 있다고 보도했다. TVA와의 계약은 뉴스케일의 소형모듈원자로 상용화를 위한 주요 계약 기회로, 미국 대형 공익사업 기관과의 협력을 의미한다. 이는 기술 상용화의 실질적 진전과 시장 진입을 나타내는 중요한 사업 발전이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/nuscales-tva-opportunity-unlock-next-145400324.html",
+    "k": "can nuscale s tva opportunity unlock its next growth phase",
+    "op": 1,
+    "id": "81b0e8ae"
+  },
+  {
+    "date": "2026-08-12",
+    "title": "정기선 HD현대 회장, 빌 게이츠와 SMR 협력 논의",
+    "summary": "HD현대 회장이 빌 게이츠와 만나 차세대 원전 및 선박용 SMR 협력을 논의한다.",
+    "summaryLong": "HD현대(현대중공업)의 정기선 회장이 마이크로소프트 창립자 빌 게이츠와 14일 만남을 갖고 차세대 원전과 선박용 소형모듈원자로(SMR) 분야의 협력 방안을 논의할 예정이다. 이는 한국의 주요 조선·에너지 기업이 글로벌 기술 리더와 SMR 사업 연대를 강화하는 움직임을 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "HD현대",
+    "region": "KR",
+    "source": "haesanews.com",
+    "url": "http://www.haesanews.com/news/articleView.html?idxno=150191",
+    "k": "정기선 14일 빌 게이츠 만난다 차세대 원전 선박용 smr 협력 논의",
+    "ko": 1,
+    "id": "56516e8c"
   },
   {
     "date": "2026-08-11",
@@ -908,6 +982,20 @@ window.SMR_NEWS = [
     "k": "원안위 스웨덴과 방폐물 smr 안전규제 협력 논의",
     "ko": 1,
     "id": "0ea4837a"
+  },
+  {
+    "date": "2026-08-10",
+    "title": "미국, 해상 운송용 SMR 추진",
+    "summary": "미국이 해상 운송 부문 원자력화를 위해 소형모듈원자로(SMR) 기술에 투자하고 있다.",
+    "summaryLong": "미국이 소형모듈원자로(SMR) 기술을 활용하여 해상 운송 부문의 원자력화를 추진하고 있다. 이는 해상 물류 산업의 탈탄소화 및 청정 에너지 전환 전략의 일환이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "yahoo.com",
+    "url": "https://www.yahoo.com/news/science/articles/america-betting-small-modular-reactors-210500148.html",
+    "k": "america is betting on small modular reactors to revive nuclear shipping",
+    "id": "cc73d5e4"
   },
   {
     "date": "2026-08-09",
@@ -16262,6 +16350,20 @@ window.SMR_NEWS = [
     "id": "4485a660"
   },
   {
+    "date": "2026-06-29",
+    "title": "오하이오 SMR 프로젝트, PJM 신청 및 GE 원자로 계약 진전",
+    "summary": "오하이오의 SMR 프로젝트가 PJM(펜실베니아-뉴저지-메릴랜드 전력거래소) 신청과 GE 원자로 계약으로 진행 중이다.",
+    "summaryLong": "오하이오의 소형모듈원자로(SMR) 프로젝트가 PJM(펜실베니아-뉴저지-메릴랜드 전력거래소) 전력 거래 신청을 진행하고 있으며, 제너럴일렉트릭(GE) 원자로 관련 계약을 체결했다. 이 프로젝트는 미국 내 SMR 상용화의 주요 마일스톤으로 진행되고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "GE",
+    "region": "US",
+    "source": "enr.com",
+    "url": "https://www.enr.com/articles/63237-ohio-smr-project-advances-with-pjm-filing-ge-reactor-deal",
+    "k": "ohio smr project advances with pjm filing ge reactor deal",
+    "id": "3dd89a22"
+  },
+  {
     "date": "2026-06-28",
     "title": "경주(Gyeongju), 한수원 도심 이전과 SMR 유치 재도전 해법 모색",
     "summary": "경주시가 한국수력원자력(한수원)의 도심 이전과 소형모듈원자로(SMR) 유치를 위한 추진 방안을 재검토하고 있다.",
@@ -28821,4 +28923,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-13 08:25 KST";
+window.SMR_UPDATED = "2026-08-13 14:19 KST";
