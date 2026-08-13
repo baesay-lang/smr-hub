@@ -321,6 +321,68 @@ window.SMR_NEWS = [
     "id": "88092296"
   },
   {
+    "date": "2026-08-13",
+    "title": "엑스에너지, 텍사스 원전 프로젝트 미국 에너지부 추가 자금 10억 달러 확보",
+    "summary": "엑스에너지(X-Energy)가 미국 에너지부(DOE)로부터 텍사스 원전 프로젝트를 위한 추가 자금 최대 10억 달러를 확보했다.",
+    "summaryLong": "엑스에너지(X-Energy)가 텍사스 고온가스로(HTGR) 프로젝트 개발을 위해 미국 에너지부(DOE)의 추가 공공 자금 최대 10억 달러를 지원받게 된다. 이는 정부의 첨단 원자로 개발 지원 정책의 일환으로, 소형모듈원자로(SMR)·첨단로 상용화 촉진을 목표로 한다. 해당 프로젝트는 산업 수요처와의 연계도 추진 중인 것으로 보인다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "엑스에너지(X-Energy)",
+    "region": "US",
+    "source": "energynow.com",
+    "url": "https://energynow.com/2026/08/x-energy-gets-additional-up-to-1-billion-public-us-funding-for-texas-nuclear-project/",
+    "k": "x energy gets additional up to 1 billion public us funding for texas nuclear project",
+    "id": "ab84af5c"
+  },
+  {
+    "date": "2026-08-13",
+    "title": "빌 게이츠 방한, SK·현대중공업과 SMR·핵융합 협력 논의",
+    "summary": "빌 게이츠가 1년 만에 한국을 방문하여 SK, 현대중공업과 SMR 및 핵융합 사업 협력을 논의했다.",
+    "summaryLong": "빌 게이츠가 1년 만에 한국을 재방문하여 정부 및 기업과 만나 소형모듈원자로(SMR) 사업과 핵융합 협력을 논의했다. SK 및 현대중공업(HD현대)과의 회동을 통해 SMR 관련 사업 협력 방안과 핵융합 기자재 분야의 협력 가능성을 제시했다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "SK, 현대중공업",
+    "region": "KR",
+    "source": "stock.mk.co.kr",
+    "url": "https://stock.mk.co.kr/news/view/1141692",
+    "k": "빌 게이츠 1년 만에 방한 sk hd현대 smr 넘어 핵융합까지 기회",
+    "ko": 1,
+    "op": 1,
+    "id": "9db3319e"
+  },
+  {
+    "date": "2026-08-13",
+    "title": "빌 게이츠 전용기 방문, 한국 기업들의 관심 고조",
+    "summary": "빌 게이츠가 전용기를 타고 한국을 방문해 한국 기업들이 SMR 협력 기회에 촉각을 곤두세운다.",
+    "summaryLong": "빌 게이츠가 전용기를 이용해 한국을 방문함으로써 한국의 주요 기업들이 SMR 분야의 국제 협력 기회에 높은 관심을 보이고 있다. 이는 테라파워(TerraPower)의 글로벌 확장 전략이 한국 산업에 미치는 영향력이 상당함을 의미하며, 국내 기업들이 SMR 공급망과 기술 협력의 핵심 파트너로 부상할 가능성을 시사한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "KR",
+    "source": "wikitree.co.kr",
+    "url": "https://www.wikitree.co.kr/articles/1152392",
+    "k": "전용기 타고 한국 온 빌 게이츠 한국 기업들이 촉각 세우는 이유",
+    "ko": 1,
+    "op": 1,
+    "id": "0974284a"
+  },
+  {
+    "date": "2026-08-13",
+    "title": "빌 게이츠 1년 만에 방한, 정부·재계와 SMR 협력 논의",
+    "summary": "빌 게이츠가 테라파워(TerraPower)의 최고경영자 자격으로 1년 만에 한국을 방문해 정부 및 재계와 소형모듈원자로(SMR) 협력을 논의했다.",
+    "summaryLong": "테라파워(TerraPower)의 빌 게이츠가 약 1년 만에 한국을 재방문해 정부 부처 및 재계 지도자들과 소형모듈원자로(SMR) 분야의 협력 방안에 대해 논의했다. 이번 면담은 미국의 첨단 SMR 기술 개발사와 한국 정부·산업계 간의 전략적 협력 가능성을 탐색하는 자리로, SMR 국제 협력 확대의 신호로 해석된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "KR",
+    "source": "daejonilbo.com",
+    "url": "https://www.daejonilbo.com/news/articleView.html?idxno=2294538",
+    "k": "빌 게이츠 1년 만에 한국행 정부 재계와 smr 협력 논의",
+    "ko": 1,
+    "op": 1,
+    "id": "9fe47201"
+  },
+  {
     "date": "2026-08-12",
     "title": "오클로(Oklo), 첫 임계 달성 및 초기 원자로 판매 후 8.5% 상승",
     "summary": "오클로(Oklo)가 첫 임계(first criticality) 달성과 초기 소형모듈원자로(SMR) 판매를 발표하며 주가가 8.5% 상승했다.",
@@ -680,6 +742,21 @@ window.SMR_NEWS = [
     "k": "정부 smr 2035년 상용화 추진 양자컴과 달 착륙도 속도",
     "ko": 1,
     "id": "7b07dfb4"
+  },
+  {
+    "date": "2026-08-12",
+    "title": "정부, SMR·핵융합·재생에너지 등 7대 첨단기술 국책 육성 추진",
+    "summary": "한국 정부가 SMR·핵융합·재생에너지 등을 미래 성장동력으로 선정하고, 2027년부터 민관 합동으로 SMR 상세설계에 착수하기로 결정했다.",
+    "summaryLong": "한국 정부는 12일 청와대에서 '미래성장동력 7대 시드(SEED) 보고회'를 열어 소형모듈원자로(SMR), 핵융합, 재생에너지, 양자, 우주·항공, 첨단바이오, 첨단 소재·부품을 국가 핵심 전략자산으로 지정했다. 이재명 대통령은 이들을 경제의 차세대 성장 엔진이자 핵심 전략자산으로 선포했으며, SMR 분야에서는 민관 협력을 바탕으로 기술개발과 실증을 가속화하고 2027년부터 민관 합동으로 SMR 상세설계에 착수할 예정이다.",
+    "cat": "정책",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "전기신문 - 전체기사",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=371245",
+    "k": "ai 다음 먹거리 키운다 smr 재생e 등 7대 시드 육성",
+    "ko": 1,
+    "id": "17d22d68"
   },
   {
     "date": "2026-08-11",
@@ -29253,4 +29330,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-14 07:22 KST";
+window.SMR_UPDATED = "2026-08-14 07:56 KST";
