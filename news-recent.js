@@ -30,6 +30,83 @@ window.SMR_NEWS = [
   "id": "cfb9df8d"
  },
  {
+  "date": "2026-08-13",
+  "title": "오클로(Oklo)의 소형모듈원자로 기술 진전",
+  "summary": "오클로(Oklo)가 소형모듈원자로(SMR) 기술에서 큰 진전을 이루었다는 보도이다.",
+  "summaryLong": "오클로(Oklo)가 소형모듈원자로(SMR) 기술 개발에서 중요한 진전을 이루었다. 모틀리풀(The Motley Fool)의 보도에 따르면 이 소식은 관련 상장지수펀드(ETF)에 긍정적인 영향을 미칠 것으로 전망하고 있다. 구체적인 기술 내용이나 마일스톤 정보는 제한적이다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "fool.com",
+  "url": "https://www.fool.com/investing/2026/08/12/oklo-just-made-big-progress-small-modular-nuclear/",
+  "k": "oklo just made big progress with small modular nuclear reactor technology that s great news for these 2 etfs",
+  "id": "f696ecdf"
+ },
+ {
+  "date": "2026-08-13",
+  "title": "정기선·빌 게이츠 회동, SMR·핵융합 분야 협력 모색",
+  "summary": "정기선 장관과 빌 게이츠(Bill Gates)가 만나 SMR 사업 외에도 핵융합 기자재 분야의 협력 가능성을 논의했다.",
+  "summaryLong": "정기선 산업통상자원부 장관이 테라파워(TerraPower) 회장 빌 게이츠(Bill Gates)와 면담하여 소형모듈원자로(SMR) 사업에 이어 핵융합 기자재 분야에서의 협력 가능성을 논의했다. 이는 한국이 첨단 원자력 기술 분야에서 국제적 협력을 강화하려는 노력을 보여준다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "KR",
+  "source": "ekoreanews.co.kr",
+  "url": "https://www.ekoreanews.co.kr/news/articleView.html?idxno=87494",
+  "k": "정기선 빌 게이츠 회동 smr 사업 이어 핵융합 기자재 분야 협력 가능성",
+  "ko": 1,
+  "op": 1,
+  "id": "5965981f"
+ },
+ {
+  "date": "2026-08-13",
+  "title": "정기선 HD현대 회장, 빌 게이츠와 면담…SMR 협력 강화 논의",
+  "summary": "HD현대(Hyundai Heavy Industries) 정기선 회장이 빌 게이츠와 만나 SMR 협력 방안을 논의할 예정이다.",
+  "summaryLong": "HD현대의 정기선 회장이 테라파워(TerraPower) 회장 빌 게이츠와 면담을 통해 SMR 개발 및 사업 협력을 강화하기로 했다. 이 회동은 두 회사 간 파트너십 진전을 위한 실질적 논의의 장이 될 것으로 예상된다. HD현대는 글로벌 SMR 시장에서의 입지 강화를 추진 중이며, 빌 게이츠의 테라파워와의 협력은 핵심 전략이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "HD현대",
+  "region": "KR",
+  "source": "ddaily.co.kr",
+  "url": "https://www.ddaily.co.kr/page/view/2026081310281673333",
+  "k": "정기선 hd현대 회장 빌 게이츠와 14일 만난다 smr 협력 강화 논의",
+  "ko": 1,
+  "id": "5da7e075"
+ },
+ {
+  "date": "2026-08-13",
+  "title": "빌 게이츠 방한…두산에너빌, 글로벌 SMR 파운드리 지위 강화",
+  "summary": "빌 게이츠가 한국을 방문하여 두산에너빌(Doosan Enerbility)의 글로벌 SMR 파운드리 역할 강화 논의가 예상된다.",
+  "summaryLong": "테라파워의 빌 게이츠가 한국을 방문하는 가운데, 두산에너빌이 글로벌 소형모듈원자로(SMR) '파운드리' 역할을 더욱 굳히기 위한 협력 논의가 예상된다. 파운드리 모델은 설계사와 제조사의 역할 분담을 통해 SMR의 효율적 개발·생산을 추진하는 전략이다. 두산에너빌은 한국의 원자력 제조 역량을 바탕으로 글로벌 SMR 시장에서 핵심 제조 파트너로서의 입지를 확대하려 하고 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "두산에너빌",
+  "region": "KR",
+  "source": "biz.newdaily.co.kr",
+  "url": "https://biz.newdaily.co.kr/site/data/html/2026/08/13/2026081300106.html",
+  "k": "빌 게이츠 내일 방한 두산에너빌 글로벌 smr 파운드리 굳히나",
+  "ko": 1,
+  "op": 1,
+  "id": "810d8d08"
+ },
+ {
+  "date": "2026-08-13",
+  "title": "빌 게이츠 방한, SK·현대중공업과 테라파워(TerraPower) SMR 상용화 논의",
+  "summary": "빌 게이츠 방한 시 SK와 현대중공업(HD현대)이 테라파워의 소형모듈원자로(SMR) 상용화 동맹 체결에 주목하고 있다.",
+  "summaryLong": "빌 게이츠 회장이 한국을 방문한 가운데 SK와 현대중공업이 테라파워의 소형모듈원자로(SMR) 사업에 전략적 관심을 보이고 있다. 테라파워는 차세대 핵연료와 혁신적 냉각 기술을 기반으로 한 첨단로 개발사로, 빌 게이츠가 투자한 기업이다. 국내 주요 에너지·건설 그룹들이 테라파워와의 기술 협력 및 상용화 파트너십 체결 가능성을 적극 검토 중인 것으로 알려졌다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "KR",
+  "source": "dailian.co.kr",
+  "url": "https://www.dailian.co.kr/news/view/1678085/?sc=rss",
+  "k": "빌 게이츠 방한에 sk hd현대 주목 테라파워 smr 상용화 동맹",
+  "ko": 1,
+  "op": 1,
+  "id": "ff2a621d"
+ },
+ {
   "date": "2026-08-12",
   "title": "오클로(Oklo), 첫 임계 달성 및 초기 원자로 판매 후 8.5% 상승",
   "summary": "오클로(Oklo)가 첫 임계(first criticality) 달성과 초기 소형모듈원자로(SMR) 판매를 발표하며 주가가 8.5% 상승했다.",
@@ -343,6 +420,21 @@ window.SMR_NEWS = [
   "k": "정기선 14일 빌 게이츠 만난다 차세대 원전 선박용 smr 협력 논의",
   "ko": 1,
   "id": "56516e8c"
+ },
+ {
+  "date": "2026-08-12",
+  "title": "40년 멈춘 미국 벨레폰테 원전, SMR 거점으로 재가동",
+  "summary": "미국(US)의 40년간 운영이 중단된 벨레폰테(Bellefonte) 원전이 소형모듈원자로(SMR) 시설로 전환되어 다시 가동될 예정이다.",
+  "summaryLong": "미국 테네시주의 벨레폰테 원전이 약 40년간의 운영 중단 이후 소형모듈원자로(SMR) 거점으로 재활용될 계획이다. 이 사업은 기존 원전 부지의 활용을 통해 SMR 상용화를 추진하는 대표적 사례로, 미국 정부와 원전 산업계의 SMR 정책 강화를 반영한다. 벨레폰테 부지의 인프라와 노하우를 활용한 SMR 사업화는 비용 절감과 사업 기간 단축 측면에서 효율성을 제공할 것으로 예상된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "US",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5618",
+  "k": "40년 멈춘 벨레폰테 원전 smr 거점으로 다시 뛴다",
+  "ko": 1,
+  "id": "159cab74"
  },
  {
   "date": "2026-08-11",
@@ -797,93 +889,6 @@ window.SMR_NEWS = [
   "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-q2-earnings-call-links-140000416.html",
   "k": "oklo q2 earnings call links higher cash use to execution",
   "id": "64ae7bf2"
- },
- {
-  "date": "2026-08-10",
-  "title": "원안위, 스웨덴과 소형모듈원자로 안전규제 논의",
-  "summary": "한국 원자력안전위원회(원안위)가 스웨덴과 소형모듈원자로(SMR) 안전규제 등 협력을 논의했다.",
-  "summaryLong": "한국 원자력안전위원회(원안위)가 스웨덴과 소형모듈원자로(SMR)의 안전규제 기준 및 인허가 체계에 대한 협력을 논의했다. 이는 양국 간 첨단원자로 규제 표준화 및 국제 협력을 추진하는 정책 차원의 논의로, 한국의 소형모듈원자로 인허가 체계 정비 및 국제 협력 강화를 나타낸다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "dongascience.com",
-  "url": "https://www.dongascience.com/ko/news/79362",
-  "k": "사이언스게시판 원안위 스웨덴과 smr 안전규제 등 논의",
-  "ko": 1,
-  "id": "028598a6"
- },
- {
-  "date": "2026-08-10",
-  "title": "오클로의 그로브스(Groves) 원자로, 텍사스에서 1년 이내 임계 달성",
-  "summary": "오클로(Oklo)가 개발 중인 그로브스(Groves) 원자로가 텍사스에서 1년 이내에 임계(first criticality)에 도달했다.",
-  "summaryLong": "오클로(Oklo)가 개발 중인 그로브스(Groves) 소형모듈원자로가 미국 텍사스에서 빠른 진도로 개발되어 1년 이내에 임계(first criticality)를 달성했다. 이는 첨단 소형로의 실제 건설 및 시운전 진행 상황을 보여주는 중요한 마일스톤으로, 오클로의 기술 개발 능력과 프로젝트 일정 이행을 입증하는 사례다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "eciks.org",
-  "url": "https://eciks.org/20117-oklo-groves-reactor-criticality-texas",
-  "k": "oklo s groves reactor achieves first criticality in under a year in texas",
-  "id": "87b10c4b"
- },
- {
-  "date": "2026-08-10",
-  "title": "해드론 에너지, 테라파워 전 최고운영책임자 에릭 윌리엄스 엔지니어링 담당 영입",
-  "summary": "해드론 에너지(Hadron Energy)가 테라파워(TerraPower) 전 최고운영책임자(COO) 에릭 윌리엄스를 엔지니어링 리더로 영입했다.",
-  "summaryLong": "해드론 에너지(Hadron Energy)가 테라파워(TerraPower)의 전 최고운영책임자(COO) 에릭 윌리엄스를 엔지니어링 부문 책임자로 고용했다. 이는 테라파워와 같은 선진 원자로 기술 개발사에서 경험 있는 경영진을 영입하는 조직 강화 사항으로, 해드론 에너지의 첨단로 개발 역량 강화를 보여주는 인사 사항이다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Hadron Energy",
-  "region": "US",
-  "source": "citybiz.co",
-  "url": "https://www.citybiz.co/article/886323/hadron-energy-hires-former-terrapower-coo-eric-williams-to-lead-engineering/",
-  "k": "hadron energy hires former terrapower coo eric williams to lead engineering",
-  "id": "3ff7af30"
- },
- {
-  "date": "2026-08-10",
-  "title": "체코에 건설될 소형모듈원자로는 어떤 노형인가?",
-  "summary": "체코(Czechia)에 건설될 소형모듈원자로(SMR)의 노형과 개발사 선택에 관한 보도다.",
-  "summaryLong": "체코(Czechia)가 국내 에너지 안보와 탈탄소 정책의 일환으로 소형모듈원자로(SMR) 도입을 추진하면서, 실제 건설될 원자로의 노형(PWR, SFR, HTGR 등)과 개발사 선정 현황에 대한 기사다. 구체적인 계약 상대사나 노형 명시는 제목·스니펫에 없으나, 유럽의 SMR 도입 정책 추진 현황을 보여주는 기사로, 국제 SMR 시장과 정책 동향을 반영한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "EU",
-  "source": "oenergetice.cz",
-  "url": "https://oenergetice.cz/en/zpravodajstvi/which-small-modular-reactors-will-be-built-in-czechia",
-  "k": "which small modular reactors will be built in czechia",
-  "id": "3eb3bfd0"
- },
- {
-  "date": "2026-08-10",
-  "title": "미국 지하 1.6km 원자로 승인…한국 SMR 산업이 주목할 점",
-  "summary": "미국이 지하 1.6km에 건설될 원자로를 승인하면서 한국 소형모듈원자로(SMR) 산업에 주는 함의에 대한 분석 기사다.",
-  "summaryLong": "미국 규제당국이 지하 깊숙이(1.6km) 건설될 소형모듈원자로(SMR) 또는 첨단로 원자로의 설계·건설·운영을 승인함으로써 차세대 원자로의 안전 및 규제 기준 선례를 제시했다. 이 사건은 미국의 첨단로 상용화 전략과 새로운 원자로 개념(예: 심지층 배치, 패시브 안전)에 대한 규제 수용성을 보여준다. 한국은 이 사례를 통해 자국의 SMR 인허가 및 안전 기준 수립 시 참고할 국제 선례를 얻게 되며, 차세대 원자로 산업의 조기 진입 방안을 모색할 수 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5555",
-  "k": "미국 지하 1 6km 원자로 승인 한국 smr 산업이 주목할 점",
-  "ko": 1,
-  "id": "479447c2"
- },
- {
-  "date": "2026-08-10",
-  "title": "K-AMPC·SMR 세제 전환의 의미: 무탄소 에너지 제조 생태계 재설계를 향한 정책 전환",
-  "summary": "한국 첨단제조산업전략(K-AMPC)과 소형모듈원자로(SMR) 관련 세제 정책 전환을 통해 무탄소 에너지 제조 생태계 재설계를 추진하고 있다.",
-  "summaryLong": "한국 정부의 첨단제조산업전략(K-AMPC)과 소형모듈원자로(SMR) 분야에서 세제 정책 전환이 이루어지고 있다는 분석 보도이다. 이는 무탄소·청정 에너지 제조 기반 산업 생태계를 재설계하기 위한 국책 정책 차원의 전환을 의미한다. SMR 산업의 육성과 경쟁력 강화를 위해 조세 지원, 규제 개선, 투자 장려 등 정부 정책이 종합적으로 추진되고 있음을 반영하는 정책 이슈이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "eanews.kr",
-  "url": "https://www.eanews.kr/news/986665",
-  "k": "k ampc smr 세제 전환의 의미 무탄소 에너지 제조 생태계 재설계를 향한 정책 전환",
-  "ko": 1,
-  "id": "2a16d974"
  },
  {
   "date": "2026-08-10",
@@ -1456,5 +1461,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-13 14:19 KST";
-window.SMR_TOTAL = 1990;
+window.SMR_UPDATED = "2026-08-13 14:47 KST";
+window.SMR_TOTAL = 1996;
