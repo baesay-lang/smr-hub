@@ -376,6 +376,36 @@ window.SMR_NEWS = [
   "id": "9fe47201"
  },
  {
+  "date": "2026-08-13",
+  "title": "다우·엑스에너지, 시드리프트 원전 프로젝트에 미국 에너지부(DOE) 10억 달러 펀딩 수령",
+  "summary": "다우(Dow)와 엑스에너지(X-Energy)가 텍사스 시드리프트(Seadrift)의 원전 프로젝트를 위해 미국 에너지부(DOE)로부터 10억 달러 규모의 펀딩을 받기로 했다.",
+  "summaryLong": "다우(Dow)와 엑스에너지(X-Energy)의 협력 프로젝트인 텍사스 시드리프트(Seadrift) 원전 개발사업이 미국 에너지부(DOE)로부터 최대 10억 달러 규모의 정부 펀딩을 지원받기로 확정되었다. 이는 산업용 고온 열 공급 등 첨단 원자력 기술의 상용화를 촉진하기 위한 정부 정책의 일환이다.",
+  "cat": "투자",
+  "type": "HTGR",
+  "dev": "X-Energy",
+  "region": "US",
+  "source": "hydrocarbonprocessing.com",
+  "url": "https://www.hydrocarbonprocessing.com/news/2026/08/dow-x-energy-to-receive-1-b-in-us-doe-funding-for-nuclear-power-project-at-seadrift/",
+  "k": "dow x energy to receive 1 b in u s doe funding for nuclear power project at seadrift",
+  "id": "b12d5425"
+ },
+ {
+  "date": "2026-08-13",
+  "title": "정기선·빌 게이츠 7개월 만에 재회, SMR 협력 논의",
+  "summary": "한국과 미국의 인물이 7개월 만에 만나 소형모듈원자로(SMR) 협력 방안을 논의하는 것으로 보인다.",
+  "summaryLong": "한국의 정기선 인물과 미국의 빌 게이츠가 7개월 만에 재회하여 소형모듈원자로(SMR) 분야의 협력 가능성을 논의하는 것으로 전해졌다. 구체적 협력 내용이나 일정은 명시되지 않으나, 양측이 SMR 사업에 대한 협력을 모색하는 중인 것으로 추정된다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "KR",
+  "source": "sisajournal.com",
+  "url": "https://www.sisajournal.com/news/articleView.html?idxno=383510",
+  "k": "정기선 빌 게이츠 7개월 만에 재회 smr 협력 머리 맞대나",
+  "ko": 1,
+  "op": 1,
+  "id": "68bdc8e2"
+ },
+ {
   "date": "2026-08-12",
   "title": "오클로(Oklo), 첫 임계 달성 및 초기 원자로 판매 후 8.5% 상승",
   "summary": "오클로(Oklo)가 첫 임계(first criticality) 달성과 초기 소형모듈원자로(SMR) 판매를 발표하며 주가가 8.5% 상승했다.",
@@ -867,36 +897,6 @@ window.SMR_NEWS = [
   "id": "8761fba7"
  },
  {
-  "date": "2026-08-11",
-  "title": "SMR 스타트업 발라르 애토믹스(Valar Atomics), 12억 달러 투자 유치",
-  "summary": "소형모듈원자로(SMR) 개발 스타트업 발라르 애토믹스(Valar Atomics)가 시리즈 B 펀딩라운드에서 12억 달러(약 1조 6,300억 원)의 투자를 유치했다.",
-  "summaryLong": "소형모듈원자로(SMR) 개발 스타트업 발라르 애토믹스(Valar Atomics)가 시리즈 B 펀딩라운드에서 12억 달러(약 1조 6,300억 원)의 투자 조달을 발표했다. 이는 SMR 스타트업으로는 상당한 규모의 펀딩으로, 기업의 사업 확장 및 상용화 추진 능력을 보여주는 지표다. 투자금은 원자로 설계 고도화, 제조 시설 구축, 규제 인허가 추진 등에 활용될 것으로 예상된다.",
-  "cat": "투자",
-  "type": "General",
-  "dev": "Valar Atomics",
-  "region": "US",
-  "source": "eanews.kr",
-  "url": "https://www.eanews.kr/news/987226",
-  "k": "smr 스타트업 valar atomics 12억 달러 약 1조6 300억 원 투자 유치의 의미",
-  "ko": 1,
-  "id": "336bbadc"
- },
- {
-  "date": "2026-08-11",
-  "title": "테라파워(TerraPower) SMR, 운영기간·핵폐기물 감량 특징",
-  "summary": "빌 게이츠가 지원하는 테라파워(TerraPower)의 소형모듈원자로(SMR)가 장시간 운영과 핵폐기물 감량이라는 기술적 특징을 갖춘다.",
-  "summaryLong": "빌 게이츠가 지원하는 테라파워(TerraPower)의 소형모듈원자로(SMR) 기술이 기존 대형 경수로 대비 10년 이상의 장시간 운영이 가능하고 핵폐기물 발생량을 크게 줄일 수 있다는 점을 소개한 기사다. 테라파워의 나트륨 냉각 고속로(SFR) 기술의 고유한 장점을 설명하고 있으며, 첨단로 기술의 경제성과 지속가능성을 강조하고 있다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "US",
-  "source": "enewstoday.co.kr",
-  "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2458143",
-  "k": "빌 게이츠 smr 뭐가 다르길래 10년 넘게 돌리고 핵폐기물 줄인다",
-  "ko": 1,
-  "id": "8d775c06"
- },
- {
   "date": "2026-08-10",
   "title": "안타레스의 마크-0 마이크로원자로 임계 달성",
   "summary": "안타레스(Antares)의 마크-0(Mark-0) 마이크로원자로가 아이다호 국립연구소(Idaho National Laboratory)에서 임계에 도달했다.",
@@ -925,21 +925,6 @@ window.SMR_NEWS = [
   "ko": 1,
   "op": 1,
   "id": "4c944fa1"
- },
- {
-  "date": "2026-08-07",
-  "title": "엑스에너지(X-energy), 센트러스에너지와 우라늄 공급 계약 체결",
-  "summary": "미국의 소형모듈원자로 개발사 엑스에너지가 센트러스에너지와 우라늄 공급 계약을 체결했다.",
-  "summaryLong": "DL이앤씨의 협력사인 미국 소형모듈원자로 개발사 엑스에너지(X-energy)가 한국수력원전과 포스코가 참여한 센트러스에너지(Centrus Energy)와 우라늄 공급 계약을 체결했다. 이는 소형모듈원자로 운영에 필수적인 연료 공급망을 확보하기 위한 전략적 계약으로, 엑스에너지의 상용화 진행 과정을 보여주는 중요한 협력 사례이다.",
-  "cat": "계약",
-  "type": "HTGR",
-  "dev": "엑스에너지",
-  "region": "US",
-  "source": "businesspost.co.kr",
-  "url": "https://www.businesspost.co.kr/BP?command=article_view&num=444196",
-  "k": "dl이앤씨 smr 협력사 x에너지 한수원 포스코 동맹 센트러스에너지와 우라늄 계약 체결",
-  "ko": 1,
-  "id": "13af938d"
  },
  {
   "date": "2026-08-07",
@@ -1439,5 +1424,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-14 07:56 KST";
-window.SMR_TOTAL = 2017;
+window.SMR_UPDATED = "2026-08-14 08:28 KST";
+window.SMR_TOTAL = 2020;

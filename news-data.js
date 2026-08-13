@@ -383,6 +383,36 @@ window.SMR_NEWS = [
     "id": "9fe47201"
   },
   {
+    "date": "2026-08-13",
+    "title": "다우·엑스에너지, 시드리프트 원전 프로젝트에 미국 에너지부(DOE) 10억 달러 펀딩 수령",
+    "summary": "다우(Dow)와 엑스에너지(X-Energy)가 텍사스 시드리프트(Seadrift)의 원전 프로젝트를 위해 미국 에너지부(DOE)로부터 10억 달러 규모의 펀딩을 받기로 했다.",
+    "summaryLong": "다우(Dow)와 엑스에너지(X-Energy)의 협력 프로젝트인 텍사스 시드리프트(Seadrift) 원전 개발사업이 미국 에너지부(DOE)로부터 최대 10억 달러 규모의 정부 펀딩을 지원받기로 확정되었다. 이는 산업용 고온 열 공급 등 첨단 원자력 기술의 상용화를 촉진하기 위한 정부 정책의 일환이다.",
+    "cat": "투자",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "hydrocarbonprocessing.com",
+    "url": "https://www.hydrocarbonprocessing.com/news/2026/08/dow-x-energy-to-receive-1-b-in-us-doe-funding-for-nuclear-power-project-at-seadrift/",
+    "k": "dow x energy to receive 1 b in u s doe funding for nuclear power project at seadrift",
+    "id": "b12d5425"
+  },
+  {
+    "date": "2026-08-13",
+    "title": "정기선·빌 게이츠 7개월 만에 재회, SMR 협력 논의",
+    "summary": "한국과 미국의 인물이 7개월 만에 만나 소형모듈원자로(SMR) 협력 방안을 논의하는 것으로 보인다.",
+    "summaryLong": "한국의 정기선 인물과 미국의 빌 게이츠가 7개월 만에 재회하여 소형모듈원자로(SMR) 분야의 협력 가능성을 논의하는 것으로 전해졌다. 구체적 협력 내용이나 일정은 명시되지 않으나, 양측이 SMR 사업에 대한 협력을 모색하는 중인 것으로 추정된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "KR",
+    "source": "sisajournal.com",
+    "url": "https://www.sisajournal.com/news/articleView.html?idxno=383510",
+    "k": "정기선 빌 게이츠 7개월 만에 재회 smr 협력 머리 맞대나",
+    "ko": 1,
+    "op": 1,
+    "id": "68bdc8e2"
+  },
+  {
     "date": "2026-08-12",
     "title": "오클로(Oklo), 첫 임계 달성 및 초기 원자로 판매 후 8.5% 상승",
     "summary": "오클로(Oklo)가 첫 임계(first criticality) 달성과 초기 소형모듈원자로(SMR) 판매를 발표하며 주가가 8.5% 상승했다.",
@@ -1021,6 +1051,20 @@ window.SMR_NEWS = [
     "url": "https://www.marketscreener.com/news/x-energy-s-triso-x-extends-nuclear-fuel-research-partnership-with-oak-ridge-lab-ce7859dbd889f725",
     "k": "x energy s triso x extends nuclear fuel research partnership with oak ridge lab",
     "id": "3ba5d0fb"
+  },
+  {
+    "date": "2026-08-11",
+    "title": "엑스에너지(X-energy)·오크리지 국립연구소, 첨단 핵연료 연구 파트너십 연장",
+    "summary": "엑스에너지(X-energy)의 TRISO-X와 오크리지 국립연구소(Oak Ridge National Laboratory)가 고급 핵연료 연구 협력을 연장했다.",
+    "summaryLong": "엑스에너지(X-energy)의 TRISO-X 사업부와 오크리지 국립연구소(Oak Ridge National Laboratory, ORNL)가 첨단 핵연료 개발 연구 파트너십을 연장하기로 합의했다. TRISO(트라이소) 연료는 고온가스로(HTGR) 및 마이크로로(Micro) 등 첨단로 개발에 필수적인 핵연료로, 이 협력은 엑스에너지의 Xe-100 고온가스로 상용화를 위한 핵연료 공급망 구축의 중요한 단계다. 두 기관의 협력 연장은 미국의 첨단 핵연료 기술 개발 정책과 SMR·첨단로 실현화 추진의 구체적 실행을 보여준다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "x-energy.com",
+    "url": "https://x-energy.com/news/triso-x-and-oak-ridge-national-laboratory-extend-advanced-nuclear-fuel-research-partnership/",
+    "k": "triso x and oak ridge national laboratory extend advanced nuclear fuel research partnership x energy com",
+    "id": "0d30416c"
   },
   {
     "date": "2026-08-10",
@@ -29330,4 +29374,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-14 07:56 KST";
+window.SMR_UPDATED = "2026-08-14 08:28 KST";
