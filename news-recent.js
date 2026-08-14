@@ -498,6 +498,36 @@ window.SMR_NEWS = [
   "id": "e981db06"
  },
  {
+  "date": "2026-08-14",
+  "title": "SK이노베이션·테라파워, 나트륨(Natrium) SMR 사업협력 합의",
+  "summary": "SK이노베이션과 테라파워가 나트륨 SMR의 글로벌 사업 확대와 국내 적용 검토를 위한 주요 조건 합의서를 체결했다. 양사는 AI 데이터센터 등 대규모 전력 수요에 대응하는 새로운 에너지 사업모델 구축에 나선다.",
+  "summaryLong": "SK이노베이션과 테라파워의 경영진이 만나 나트륨 SMR 사업 협력을 위한 주요 조건 합의서를 체결했다. SK이노베이션과 SK는 2022년 테라파워에 총 2억5000만달러를 공동 투자한 바 있으며, 이번 협력을 통해 AI 데이터센터를 비롯한 대규모 전력 수요 증가에 대응하기 위해 SMR을 중심으로 한 새로운 에너지 사업모델을 구축할 계획이다. 나트륨 SMR은 차세대 비경수형 소형모듈원자로로, 글로벌 시장 확대와 국내 적용 가능성을 함께 검토하고 있다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "SK이노베이션·테라파워",
+  "region": "KR",
+  "source": "에너지신문 - 전체기사",
+  "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=227474",
+  "k": "sk이노 테라파워 나트륨 smr 사업협력 ai 데이터센터 등 공략",
+  "ko": 1,
+  "id": "13ac889d"
+ },
+ {
+  "date": "2026-08-14",
+  "title": "빌 게이츠, AI 전력수요 대응 SMR 협력 본격화",
+  "summary": "테라파워 창립자 빌 게이츠가 한국 정재계와 연쇄 회동하며 AI 데이터센터 전력 수요 해결책으로서 소형모듈원자로 협력을 추진하고 있다.",
+  "summaryLong": "마이크로소프트(Microsoft) 공동창립자이자 차세대 원전업체 테라파워 창립자인 빌 게이츠 게이츠재단(Gates Foundation) 이사장이 한국 정부·산업계와의 연쇄 회동을 통해 소형모듈원자로를 AI 데이터센터의 전력 공급 솔루션으로 제시하며 협력 논의를 가속화하고 있다. 이는 테라파워의 나트륨냉각로 기술과 한국 기업들의 제조·건설 역량을 결합한 본격적인 사업화 전략으로 해석된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "테라파워",
+  "region": "KR",
+  "source": "연합뉴스 경제 최신기사",
+  "url": "https://www.yna.co.kr/view/AKR20260814130800003",
+  "k": "빌 게이츠 정재계 연쇄회동 ai 전력난 해법 smr 협력 본격화",
+  "ko": 1,
+  "id": "369a9e11"
+ },
+ {
   "date": "2026-08-13",
   "title": "인도, 2033년까지 자국산 SMR 5기 목표",
   "summary": "인도 정부가 2033년까지 자국 개발 소형모듈원자로 5기 배치를 목표로 한다고 발표했다.",
@@ -885,22 +915,6 @@ window.SMR_NEWS = [
   "url": "https://www.hydrocarbonprocessing.com/news/2026/08/dow-x-energy-to-receive-1-b-in-us-doe-funding-for-nuclear-power-project-at-seadrift/",
   "k": "dow x energy to receive 1 b in u s doe funding for nuclear power project at seadrift",
   "id": "b12d5425"
- },
- {
-  "date": "2026-08-13",
-  "title": "정기선·빌 게이츠 7개월 만에 재회, SMR 협력 논의",
-  "summary": "한국과 미국의 인물이 7개월 만에 만나 소형모듈원자로(SMR) 협력 방안을 논의하는 것으로 보인다.",
-  "summaryLong": "한국의 정기선 인물과 미국의 빌 게이츠가 7개월 만에 재회하여 소형모듈원자로(SMR) 분야의 협력 가능성을 논의하는 것으로 전해졌다. 구체적 협력 내용이나 일정은 명시되지 않으나, 양측이 SMR 사업에 대한 협력을 모색하는 중인 것으로 추정된다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "KR",
-  "source": "sisajournal.com",
-  "url": "https://www.sisajournal.com/news/articleView.html?idxno=383510",
-  "k": "정기선 빌 게이츠 7개월 만에 재회 smr 협력 머리 맞대나",
-  "ko": 1,
-  "op": 1,
-  "id": "68bdc8e2"
  },
  {
   "date": "2026-08-11",
@@ -1373,5 +1387,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-15 07:35 KST";
-window.SMR_TOTAL = 2062;
+window.SMR_UPDATED = "2026-08-15 08:04 KST";
+window.SMR_TOTAL = 2064;
