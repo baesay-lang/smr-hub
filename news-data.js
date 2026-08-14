@@ -446,6 +446,65 @@ window.SMR_NEWS = [
     "id": "f7914fde"
   },
   {
+    "date": "2026-08-14",
+    "title": "블루에너지·GE 버놀라 히타치, 텍사스에 2.5GW 가스-원전 복합발전소 협약",
+    "summary": "블루에너지(Blue Energy)와 GE 버놀라 히타치 원자력(GE Vernova Hitachi Nuclear Energy)이 텍사스 2.5GW 규모 가스-원전 복합발전소 개발 협약을 체결하고 2027년 최종투자결정을 목표로 하고 있다.",
+    "summaryLong": "블루에너지와 GE 버놀라 히타치 원자력이 텍사스에 2.5GW 규모의 가스와 원자력을 결합한 복합발전소 개발을 위한 협약을 체결했다. 이 프로젝트는 데이터센터와 첨단 제조시설 등 대규모 전력 수요 시설을 대상으로 하며, 양사는 2027년 최종투자결정(FID)을 목표로 협력을 진행할 계획이다. 가스와 첨단 원전의 결합을 통해 기저 부하 전력과 탄소 저감을 동시에 실현하는 새로운 에너지 솔루션 모델을 제시하는 사업이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Blue Energy, GE Vernova",
+    "region": "US",
+    "source": "Power Engineering",
+    "url": "https://www.power-eng.com/nuclear/first-gas-plus-nuclear-plant-for-data-centers-advanced-manufacturing-is-closer-to-becoming-a-reality/",
+    "k": "first gas plus nuclear plant for data centers advanced manufacturing is closer to becoming a reality",
+    "id": "d006958d"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "두산에너빌리티, 테라파워 SMR 핵심기기 수주…미국 초도기 공급",
+    "summary": "두산에너빌리티가 테라파워의 소형모듈원자로(SMR) 나트륨(Natrium) 초도호기에 들어갈 원자로 보호용기·지지구조물·내부구조물 등 핵심 기자재 제작을 수주했다.",
+    "summaryLong": "두산에너빌리티가 미국 테라파워와 소형모듈원자로(SMR) 나트륨 원자로의 핵심 기자재 제작 계약을 체결했다. 제작 대상은 원자로 보호용기, 원자로 지지구조물, 원자로 내부구조물이며, 이들은 미국 와이오밍주(Wyoming) 케머러(Kemmerer)에 건설 중인 테라파워의 초도 원전에 공급될 345MW 규모의 소듐냉각고속로(SFR) 나트륨에 적용된다. 이번 수주는 두산에너빌리티의 실제 제작 단계 진출을 의미하며, 향후 후속호기 및 다른 SMR 노형으로의 사업 확대 기반이 될 것으로 예상된다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Doosan, TerraPower",
+    "region": "US",
+    "source": "전기신문 - 전체기사",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=371310",
+    "k": "두산에너빌리티 테라파워 smr 핵심기기 수주 초도기 공급",
+    "ko": 1,
+    "id": "2c335fe1"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "빌 게이츠가 제시한 'SMR 동맹'…상업성의 벽 넘기",
+    "summary": "빌 게이츠 테라파워 회장의 방한을 계기로 한국의 SMR 동맹 추진과 상업화 과제에 대한 분석 기사.",
+    "summaryLong": "빌 게이츠(Bill Gates) 테라파워 회장의 방한을 배경으로 한국에서 소형모듈원자로(SMR) 산업 동맹 강화가 논의되고 있다. 기사는 SMR 기술의 가능성을 긍정하면서도 상업성 확보가 주요 과제임을 지적한다. 한국 기업들의 국제 협력 추진 의지가 높아지는 한편, 경제성 입증과 시장 형성이 선결 과제임을 강조한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "newsverse.kr",
+    "url": "https://www.newsverse.kr/news/articleView.html?idxno=11179",
+    "k": "오늘의 경제뉴스 방한 빌 게이츠가 띄운 smr 동맹 넘어야 할 상업성의 벽",
+    "ko": 1,
+    "id": "3061ce00"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "산업부 장관, 빌 게이츠와 면담…SMR 시장 진출 교두보 마련",
+    "summary": "산업통상자원부 장관이 테라파워 회장 빌 게이츠와 면담하여 한국 기업의 SMR 시장 진출을 논의했다.",
+    "summaryLong": "산업통상자원부 김정관 장관이 미국 테라파워의 회장 빌 게이츠(Bill Gates)와 면담하여 소형모듈원자로(SMR) 시장 개척과 한국 기업 진출 전략을 논의했다. 이 면담은 정부 차원에서 SMR 산업 육성 의지를 표현하고, 국제 협력 기반을 강화하는 신호로 평가된다. 한국 기업들의 글로벌 SMR 사업 참여 확대를 위한 정책적 지원 방향을 구체화하는 계기가 되고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "khan.co.kr",
+    "url": "https://www.khan.co.kr/article/202608141700001",
+    "k": "김정관 빌 게이츠 면담 smr 시장 한국 기업 진출 교두보 마련",
+    "ko": 1,
+    "id": "e981db06"
+  },
+  {
     "date": "2026-08-13",
     "title": "인도, 2033년까지 자국산 SMR 5기 목표",
     "summary": "인도 정부가 2033년까지 자국 개발 소형모듈원자로 5기 배치를 목표로 한다고 발표했다.",
@@ -938,6 +997,21 @@ window.SMR_NEWS = [
     "id": "6e2ec990"
   },
   {
+    "date": "2026-08-13",
+    "title": "뉴스케일, 원자력 에너지 표준 플랫폼으로 부상 가능성",
+    "summary": "뉴스케일(NuScale)이 원자력 에너지의 표준 플랫폼이 될 가능성을 제기한다.",
+    "summaryLong": "뉴스케일(NuScale)의 소형모듈원자로(SMR) 기술이 향후 원자력 에너지 산업의 표준 플랫폼이 될 수 있다는 전망이 제시되고 있다. 이는 뉴스케일의 설계인증 진행 및 다양한 고객 확보 등을 배경으로 한 것으로, 향후 SMR 시장의 성장 가능성을 시사하는 기사이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/08/13/nuscale-could-become-the-standard-platform-for-nuc/",
+    "k": "nuscale could become the standard platform for nuclear energy",
+    "op": 1,
+    "id": "a01be3a1"
+  },
+  {
     "date": "2026-08-12",
     "title": "오클로(Oklo), 첫 임계 달성 및 초기 원자로 판매 후 8.5% 상승",
     "summary": "오클로(Oklo)가 첫 임계(first criticality) 달성과 초기 소형모듈원자로(SMR) 판매를 발표하며 주가가 8.5% 상승했다.",
@@ -1327,6 +1401,21 @@ window.SMR_NEWS = [
     "k": "can nuscale s commercial potential justify its valuation",
     "op": 1,
     "id": "29cd9b8b"
+  },
+  {
+    "date": "2026-08-12",
+    "title": "한국원자력산업협회, 7대 SEED 프로젝트 SMR 선정 환영",
+    "summary": "한국 원전산업계가 정부의 SEED 프로젝트에 SMR이 선정된 것을 환영했다.",
+    "summaryLong": "한국원자력산업협회와 원전산업계가 정부의 7대 전략기술 SEED(SEED) 프로젝트에 소형모듈원자로(SMR)가 선정된 것을 긍정적으로 평가하고 환영했다. 이는 정부 차원의 SMR 산업 육성 정책이 공식화됨을 의미하며, 산업계의 협력 기반을 강화하는 정책 신호로 작용한다. 한국의 SMR 기술 개발과 상용화 추진이 국가 전략 차원에서 추진됨을 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5603",
+    "k": "한국원자력산업협회 등 원전산업계 7대 seed 프로젝트 smr 선정 환영",
+    "ko": 1,
+    "id": "109ee22c"
   },
   {
     "date": "2026-08-11",
@@ -29914,4 +30003,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-15 06:55 KST";
+window.SMR_UPDATED = "2026-08-15 07:35 KST";

@@ -439,6 +439,65 @@ window.SMR_NEWS = [
   "id": "f7914fde"
  },
  {
+  "date": "2026-08-14",
+  "title": "블루에너지·GE 버놀라 히타치, 텍사스에 2.5GW 가스-원전 복합발전소 협약",
+  "summary": "블루에너지(Blue Energy)와 GE 버놀라 히타치 원자력(GE Vernova Hitachi Nuclear Energy)이 텍사스 2.5GW 규모 가스-원전 복합발전소 개발 협약을 체결하고 2027년 최종투자결정을 목표로 하고 있다.",
+  "summaryLong": "블루에너지와 GE 버놀라 히타치 원자력이 텍사스에 2.5GW 규모의 가스와 원자력을 결합한 복합발전소 개발을 위한 협약을 체결했다. 이 프로젝트는 데이터센터와 첨단 제조시설 등 대규모 전력 수요 시설을 대상으로 하며, 양사는 2027년 최종투자결정(FID)을 목표로 협력을 진행할 계획이다. 가스와 첨단 원전의 결합을 통해 기저 부하 전력과 탄소 저감을 동시에 실현하는 새로운 에너지 솔루션 모델을 제시하는 사업이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "Blue Energy, GE Vernova",
+  "region": "US",
+  "source": "Power Engineering",
+  "url": "https://www.power-eng.com/nuclear/first-gas-plus-nuclear-plant-for-data-centers-advanced-manufacturing-is-closer-to-becoming-a-reality/",
+  "k": "first gas plus nuclear plant for data centers advanced manufacturing is closer to becoming a reality",
+  "id": "d006958d"
+ },
+ {
+  "date": "2026-08-14",
+  "title": "두산에너빌리티, 테라파워 SMR 핵심기기 수주…미국 초도기 공급",
+  "summary": "두산에너빌리티가 테라파워의 소형모듈원자로(SMR) 나트륨(Natrium) 초도호기에 들어갈 원자로 보호용기·지지구조물·내부구조물 등 핵심 기자재 제작을 수주했다.",
+  "summaryLong": "두산에너빌리티가 미국 테라파워와 소형모듈원자로(SMR) 나트륨 원자로의 핵심 기자재 제작 계약을 체결했다. 제작 대상은 원자로 보호용기, 원자로 지지구조물, 원자로 내부구조물이며, 이들은 미국 와이오밍주(Wyoming) 케머러(Kemmerer)에 건설 중인 테라파워의 초도 원전에 공급될 345MW 규모의 소듐냉각고속로(SFR) 나트륨에 적용된다. 이번 수주는 두산에너빌리티의 실제 제작 단계 진출을 의미하며, 향후 후속호기 및 다른 SMR 노형으로의 사업 확대 기반이 될 것으로 예상된다.",
+  "cat": "계약",
+  "type": "SFR",
+  "dev": "Doosan, TerraPower",
+  "region": "US",
+  "source": "전기신문 - 전체기사",
+  "url": "https://www.electimes.com/news/articleView.html?idxno=371310",
+  "k": "두산에너빌리티 테라파워 smr 핵심기기 수주 초도기 공급",
+  "ko": 1,
+  "id": "2c335fe1"
+ },
+ {
+  "date": "2026-08-14",
+  "title": "빌 게이츠가 제시한 'SMR 동맹'…상업성의 벽 넘기",
+  "summary": "빌 게이츠 테라파워 회장의 방한을 계기로 한국의 SMR 동맹 추진과 상업화 과제에 대한 분석 기사.",
+  "summaryLong": "빌 게이츠(Bill Gates) 테라파워 회장의 방한을 배경으로 한국에서 소형모듈원자로(SMR) 산업 동맹 강화가 논의되고 있다. 기사는 SMR 기술의 가능성을 긍정하면서도 상업성 확보가 주요 과제임을 지적한다. 한국 기업들의 국제 협력 추진 의지가 높아지는 한편, 경제성 입증과 시장 형성이 선결 과제임을 강조한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "newsverse.kr",
+  "url": "https://www.newsverse.kr/news/articleView.html?idxno=11179",
+  "k": "오늘의 경제뉴스 방한 빌 게이츠가 띄운 smr 동맹 넘어야 할 상업성의 벽",
+  "ko": 1,
+  "id": "3061ce00"
+ },
+ {
+  "date": "2026-08-14",
+  "title": "산업부 장관, 빌 게이츠와 면담…SMR 시장 진출 교두보 마련",
+  "summary": "산업통상자원부 장관이 테라파워 회장 빌 게이츠와 면담하여 한국 기업의 SMR 시장 진출을 논의했다.",
+  "summaryLong": "산업통상자원부 김정관 장관이 미국 테라파워의 회장 빌 게이츠(Bill Gates)와 면담하여 소형모듈원자로(SMR) 시장 개척과 한국 기업 진출 전략을 논의했다. 이 면담은 정부 차원에서 SMR 산업 육성 의지를 표현하고, 국제 협력 기반을 강화하는 신호로 평가된다. 한국 기업들의 글로벌 SMR 사업 참여 확대를 위한 정책적 지원 방향을 구체화하는 계기가 되고 있다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "khan.co.kr",
+  "url": "https://www.khan.co.kr/article/202608141700001",
+  "k": "김정관 빌 게이츠 면담 smr 시장 한국 기업 진출 교두보 마련",
+  "ko": 1,
+  "id": "e981db06"
+ },
+ {
   "date": "2026-08-13",
   "title": "인도, 2033년까지 자국산 SMR 5기 목표",
   "summary": "인도 정부가 2033년까지 자국 개발 소형모듈원자로 5기 배치를 목표로 한다고 발표했다.",
@@ -844,64 +903,6 @@ window.SMR_NEWS = [
   "id": "68bdc8e2"
  },
  {
-  "date": "2026-08-13",
-  "title": "엑스에너지(X-Energy), 텍사스 원전 프로젝트에 최대 10억 달러 추가 자금 획득",
-  "summary": "엑스에너지(X-Energy)가 텍사스 고온가스로(HTGR) 프로젝트를 위해 미국 정부로부터 최대 10억 달러의 추가 자금을 확보했다.",
-  "summaryLong": "엑스에너지(X-Energy)가 텍사스의 원전 프로젝트를 위해 미국 정부로부터 최대 10억 달러(USD 1B)의 추가 자금을 획득했다. 이는 미국 정부의 첨단로 개발 지원 정책의 일환이며, 엑스에너지의 고온가스로(HTGR) 기술 상용화를 위한 중요한 자금 조성이다.",
-  "cat": "기술",
-  "type": "HTGR",
-  "dev": "X-Energy",
-  "region": "US",
-  "source": "seekingalpha.com",
-  "url": "https://seekingalpha.com/news/4632952-x-energy-to-get-up-to-1b-additional-us-funding-for-texas-reactor-project",
-  "k": "x energy to get up to 1b additional u s funding for texas reactor project xe nasdaq",
-  "id": "8b93d00c"
- },
- {
-  "date": "2026-08-13",
-  "title": "정부, SMR·핵심광물·재생에너지 등 미래 전략기술에 장기투자 확대",
-  "summary": "정부가 소형모듈원자로(SMR), 핵융합, 양자 등 미래 전략기술 육성을 위해 기술개발 및 사업화 지원을 확대하는 '7대 SEED' 프로그램을 발표했다.",
-  "summaryLong": "산업통상자원부(산통부)가 청와대 충무실에서 '미래성장동력 7대 SEED(Strategic Emerging Engines for Disruptive Innovation) 보고회'를 개최하고, 혁신을 위한 전략적 투자가 필요한 미래 성장 엔진으로 소형모듈원자로(SMR), 핵융합, 핵심광물·소재·부품·장비, 재생에너지, 양자, 우주·항공, 첨단바이오 등 7개 분야를 선정했다. 정부는 이들 분야의 기술개발과 사업화를 집중 지원할 계획이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "이투뉴스 - 전체기사",
-  "url": "http://www.e2news.com/news/articleView.html?idxno=333202",
-  "k": "정부 핵심광물 smr 재생에너지 육성 확대",
-  "ko": 1,
-  "id": "d185ba79"
- },
- {
-  "date": "2026-08-13",
-  "title": "소형모듈원자로, 기존 핵발전소와의 차이점",
-  "summary": "소형모듈원자로(SMR)의 특징과 기존 대형 핵발전소와의 차이를 설명하는 기사다.",
-  "summaryLong": "비즈니스 스탠더드(Business Standard)의 기사로, 소형모듈원자로(SMR)의 정의와 기술적 특징, 기존 대형 핵발전소와의 차이점을 설명하는 일반 정보성 보도다. 구체적인 프로젝트나 정책, 계약 소식은 포함하지 않는다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "business-standard.com",
-  "url": "https://www.business-standard.com/industry/news/small-modular-reactors-how-they-differ-from-conventional-nuclear-plants-126081301147_1.html",
-  "k": "small modular reactors how they differ from conventional nuclear plants",
-  "id": "c2a4c5dd"
- },
- {
-  "date": "2026-08-13",
-  "title": "LIS테크놀로지스, 우라늄 시설 인수로 SMR 핵연료 시장 진출",
-  "summary": "미국 LIS테크놀로지스가 우라늄 시설을 인수하여 소형모듈원자로 핵연료 공급 시장에 진출했다.",
-  "summaryLong": "미국 LIS테크놀로지스(LIS Technologies)가 우라늄 관련 시설을 인수함으로써 소형모듈원자로(SMR) 핵연료 시장 공략에 나섰다. 이는 SMR 산업 성장에 따른 핵연료 공급망 확대 전략으로, 첨단로 상용화를 위한 전주기(核燃料 주기) 확보 움직임이다. 우라늄 시설 인수는 SMR의 경제성 및 공급 안정성 확보에 중요한 전략적 투자이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "LIS테크놀로지스",
-  "region": "US",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5651",
-  "k": "미 lis테크놀로지스 우라늄 시설 인수 smr 핵연료 시장 공략",
-  "ko": 1,
-  "id": "16921fab"
- },
- {
   "date": "2026-08-11",
   "title": "마이크로리액터 개발 기업 안타레스(Antares), 4억 7,000만 달러 자금 조달",
   "summary": "마이크로리액터 개발사 안타레스가 4억 7,000만 달러의 펀딩을 완료했다.",
@@ -1058,22 +1059,6 @@ window.SMR_NEWS = [
   "url": "https://igrownews.com/mcdermott-ulc-energy-latest-news/",
   "k": "mcdermott and ulc energy sign cooperation deal to advance rolls royce smr projects",
   "id": "ee78fa65"
- },
- {
-  "date": "2026-07-29",
-  "title": "태웅, 테라파워(TerraPower) SMR 2호기 추가 수주 추진",
-  "summary": "태웅이 미국의 테라파워(TerraPower) 소형모듈원자로(SMR) 1호기에 이어 2호기 추가 수주를 추진 중이다.",
-  "summaryLong": "한국 기업 태웅이 미국 테라파워(TerraPower)의 소형모듈원자로(SMR) 사업에서 1호기 수주에 이어 2호기 추가 수주를 적극 추진하고 있다. 이는 태웅이 해외 선도 SMR 개발사와의 협력을 확대하려는 전략으로 보이며, 국내 SMR 시장 참여자의 글로벌 역할 강화를 의미한다.",
-  "cat": "계약",
-  "type": "SFR",
-  "dev": "태웅",
-  "region": "US",
-  "source": "etoday.co.kr",
-  "url": "https://www.etoday.co.kr/news/view/2608419",
-  "k": "태웅 미 테라파워 smr 1호기 이어 2호기도 추가 수주 추진",
-  "ko": 1,
-  "op": 1,
-  "id": "e26410c9"
  },
  {
   "date": "2026-07-29",
@@ -1388,5 +1373,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-15 06:55 KST";
-window.SMR_TOTAL = 2056;
+window.SMR_UPDATED = "2026-08-15 07:35 KST";
+window.SMR_TOTAL = 2062;
