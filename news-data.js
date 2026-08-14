@@ -8,6 +8,97 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-08-14",
+    "title": "원자력안전기술원, 제1회 선진원자로 안전기술 심포지엄 개최",
+    "summary": "한국원자력안전기술원(KINS)이 9월 1~2일 부산에서 선진원자로 안전기술 심포지엄을 개최하며, SMR 표준설계인가 대응 현황 등을 논의한다.",
+    "summaryLong": "한국원자력안전기술원(KINS)은 9월 1~2일 부산 코모도호텔에서 '제1회 선진원자로 안전기술 심포지엄(Symposium on Advanced Reactor Safety Technology 2026)'을 개최한다. 규제기관·개발기관·연구기관 등 관련 전문가들이 참여하여 선진원자로 기술 동향과 안전규제 현안을 공유하며, 혁신형 SMR(소형모듈원자로) 표준설계인가 대응 현황 및 고유 설계특성 검증 방안 등을 논의한다. 또한 원자력 선박 국제 규제동향, 차세대 비경수형 원자로 적용성 검토 등 다양한 주제가 발표될 예정이며, 올해 첫 행사를 시작으로 매년 정례 행사를 추진할 계획이다.",
+    "cat": "인허가",
+    "type": "General",
+    "dev": "KINS",
+    "region": "KR",
+    "source": "이투뉴스 - 전체기사",
+    "url": "http://www.e2news.com/news/articleView.html?idxno=333250",
+    "k": "원자력안전기술원 내달 1일 첫 선진원자로 안전기술 심포지엄",
+    "ko": 1,
+    "id": "618d58ee"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "빌 게이츠, 테라파워의 차기 원전 사업에 한국 파트너 검토",
+    "summary": "테라파워의 창립자 빌 게이츠가 다음 단계 소형모듈원자로 사업 추진을 위해 한국 기업과의 파트너십을 모색하고 있다.",
+    "summaryLong": "테라파워의 창립자 빌 게이츠가 향후 SMR 사업 확대를 위해 한국의 산업 파트너와의 협력을 검토 중이라고 보도되었다. 이는 테라파워의 글로벌 공급망 확대 전략과 한국의 원자력 산업 기술·제조 역량에 대한 국제적 관심을 반영한다. 구체적인 파트너십 대상이나 프로젝트 일정은 기사에서 명시되지 않았다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "KR",
+    "source": "koreabizwire.com",
+    "url": "http://koreabizwire.com/bill-gates-looks-to-korean-partners-for-terrapowers-next-nuclear-push/357300",
+    "k": "bill gates looks to korean partners for terrapower s next nuclear push",
+    "op": 1,
+    "id": "f6d0f8d5"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "그리드위즈·알엑스, AI 데이터센터용 SMR 통합 솔루션 사업 MOU 체결",
+    "summary": "에너지테크 기업 그리드위즈와 SMR 전문기업 알엑스가 AI 데이터센터용 전력·냉각 솔루션 공동 개발을 위한 양해각서(MOU)를 체결했다.",
+    "summaryLong": "그리드위즈(대표 김구환)와 소형모듈원자로(SMR) 전문기업 알엑스(대표 이강헌)가 AI 데이터센터 등 대규모 전력 소비자를 대상으로 한 통합 전력·냉각 솔루션 사업 개발을 위해 업무협약(MOU)을 체결했다. 협약 기간은 체결일로부터 2년이며, 양사 합의 시 연장 가능하다. 이번 협약은 알엑스의 SMR 설계·인허가 역량과 그리드위즈의 전력망 유연성 기술을 결합하여 신규 사업 기회를 발굴하기 위해 추진되었다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "알엑스",
+    "region": "KR",
+    "source": "전기신문 - 전체기사",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=371320",
+    "k": "그리드위즈 smr 통해 ai dc 전력 냉각 솔루션 사업 개발 나선다",
+    "ko": 1,
+    "id": "3235a7ea"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "빌 게이츠, 한국 방문해 차세대 원자로 협력 논의",
+    "summary": "빌 게이츠(Bill Gates)가 한국을 방문하여 차세대 원자로 기술 협력을 논의했다.",
+    "summaryLong": "빌 게이츠(Bill Gates)가 한국을 방문해 차세대 소형모듈원자로(SMR) 등 첨단 원자로 기술 협력을 논의했다는 보도다. 구체적인 협력 내용이나 합의사항에 대한 상세 정보는 제목과 스니펫에서 제공되지 않는다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "테라파워",
+    "region": "KR",
+    "source": "koreajoongangdaily.com",
+    "url": "https://www.koreajoongangdaily.com/business/bill-gates-arrives-in-korea-to-discuss-cooperation-in-nextgeneration-nuclear-reactors/12824764",
+    "k": "bill gates arrives in korea to discuss cooperation in next generation nuclear reactors",
+    "op": 1,
+    "id": "f379fbb1"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "빌 게이츠 방한, 정부·재계와 SMR 협력 논의",
+    "summary": "테라파워 회장 빌 게이츠가 방한하여 한국 정부 및 기업과 소형모듈원자로 협력을 논의했다.",
+    "summaryLong": "테라파워(TerraPower) 회장 빌 게이츠가 한국을 방문하여 정부와 재계 지도자들과 소형모듈원자로(SMR) 및 첨단로 협력 방안을 논의했다. 이는 한미 간 핵심 에너지 기술 협력의 신호로, 한국 기업들의 글로벌 SMR 프로젝트 참여 확대를 시사한다. 빌 게이츠와의 고위급 접촉은 한국의 SMR 산업 전략 수립 과정에서 중요한 협상 기회를 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "테라파워",
+    "region": "KR",
+    "source": "dongascience.com",
+    "url": "https://www.dongascience.com/ko/news/79437",
+    "k": "빌 게이츠 방한 정부 재계와 smr 협력 논의",
+    "ko": 1,
+    "id": "4e910149"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "HD현대, 해상 원전 SMR 사업 추진…테라파워와 협력",
+    "summary": "HD현대가 빌 게이츠 창업자와의 회동을 통해 해상 부유식 SMR 사업 협력 가능성을 검토 중이다.",
+    "summaryLong": "HD현대가 테라파워 설립자 빌 게이츠와의 네 번째 회동에서 해상 부유식 SMR 사업 협력을 논의한 것으로 전해졌다. 조선·해양 분야 경쟁력을 보유한 HD현대가 차세대 원자력 시장 진출을 추진하고 있으며, 이는 기존 대형 조선사의 신사업 다각화 전략으로 평가된다. 다만 구체적인 계약 체결이나 협력 범위에 대한 공식 발표는 아직 이루어지지 않았다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "HD현대",
+    "region": "KR",
+    "source": "ebn.co.kr",
+    "url": "https://www.ebn.co.kr/news/articleView.html?idxno=1720430",
+    "k": "hd현대 정기선 바다 위 원전까지 smr 승부수 빌 게이츠와 네 번째 회동",
+    "ko": 1,
+    "op": 1,
+    "id": "e76556a5"
+  },
+  {
     "date": "2026-08-13",
     "title": "인도, 2033년까지 자국산 SMR 5기 목표",
     "summary": "인도 정부가 2033년까지 자국 개발 소형모듈원자로 5기 배치를 목표로 한다고 발표했다.",
@@ -411,6 +502,64 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "68bdc8e2"
+  },
+  {
+    "date": "2026-08-13",
+    "title": "엑스에너지(X-Energy), 텍사스 원전 프로젝트에 최대 10억 달러 추가 자금 획득",
+    "summary": "엑스에너지(X-Energy)가 텍사스 고온가스로(HTGR) 프로젝트를 위해 미국 정부로부터 최대 10억 달러의 추가 자금을 확보했다.",
+    "summaryLong": "엑스에너지(X-Energy)가 텍사스의 원전 프로젝트를 위해 미국 정부로부터 최대 10억 달러(USD 1B)의 추가 자금을 획득했다. 이는 미국 정부의 첨단로 개발 지원 정책의 일환이며, 엑스에너지의 고온가스로(HTGR) 기술 상용화를 위한 중요한 자금 조성이다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "seekingalpha.com",
+    "url": "https://seekingalpha.com/news/4632952-x-energy-to-get-up-to-1b-additional-us-funding-for-texas-reactor-project",
+    "k": "x energy to get up to 1b additional u s funding for texas reactor project xe nasdaq",
+    "id": "8b93d00c"
+  },
+  {
+    "date": "2026-08-13",
+    "title": "정부, SMR·핵심광물·재생에너지 등 미래 전략기술에 장기투자 확대",
+    "summary": "정부가 소형모듈원자로(SMR), 핵융합, 양자 등 미래 전략기술 육성을 위해 기술개발 및 사업화 지원을 확대하는 '7대 SEED' 프로그램을 발표했다.",
+    "summaryLong": "산업통상자원부(산통부)가 청와대 충무실에서 '미래성장동력 7대 SEED(Strategic Emerging Engines for Disruptive Innovation) 보고회'를 개최하고, 혁신을 위한 전략적 투자가 필요한 미래 성장 엔진으로 소형모듈원자로(SMR), 핵융합, 핵심광물·소재·부품·장비, 재생에너지, 양자, 우주·항공, 첨단바이오 등 7개 분야를 선정했다. 정부는 이들 분야의 기술개발과 사업화를 집중 지원할 계획이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "이투뉴스 - 전체기사",
+    "url": "http://www.e2news.com/news/articleView.html?idxno=333202",
+    "k": "정부 핵심광물 smr 재생에너지 육성 확대",
+    "ko": 1,
+    "id": "d185ba79"
+  },
+  {
+    "date": "2026-08-13",
+    "title": "소형모듈원자로, 기존 핵발전소와의 차이점",
+    "summary": "소형모듈원자로(SMR)의 특징과 기존 대형 핵발전소와의 차이를 설명하는 기사다.",
+    "summaryLong": "비즈니스 스탠더드(Business Standard)의 기사로, 소형모듈원자로(SMR)의 정의와 기술적 특징, 기존 대형 핵발전소와의 차이점을 설명하는 일반 정보성 보도다. 구체적인 프로젝트나 정책, 계약 소식은 포함하지 않는다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "business-standard.com",
+    "url": "https://www.business-standard.com/industry/news/small-modular-reactors-how-they-differ-from-conventional-nuclear-plants-126081301147_1.html",
+    "k": "small modular reactors how they differ from conventional nuclear plants",
+    "id": "c2a4c5dd"
+  },
+  {
+    "date": "2026-08-13",
+    "title": "LIS테크놀로지스, 우라늄 시설 인수로 SMR 핵연료 시장 진출",
+    "summary": "미국 LIS테크놀로지스가 우라늄 시설을 인수하여 소형모듈원자로 핵연료 공급 시장에 진출했다.",
+    "summaryLong": "미국 LIS테크놀로지스(LIS Technologies)가 우라늄 관련 시설을 인수함으로써 소형모듈원자로(SMR) 핵연료 시장 공략에 나섰다. 이는 SMR 산업 성장에 따른 핵연료 공급망 확대 전략으로, 첨단로 상용화를 위한 전주기(核燃料 주기) 확보 움직임이다. 우라늄 시설 인수는 SMR의 경제성 및 공급 안정성 확보에 중요한 전략적 투자이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "LIS테크놀로지스",
+    "region": "US",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5651",
+    "k": "미 lis테크놀로지스 우라늄 시설 인수 smr 핵연료 시장 공략",
+    "ko": 1,
+    "id": "16921fab"
   },
   {
     "date": "2026-08-12",
@@ -29374,4 +29523,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-14 08:28 KST";
+window.SMR_UPDATED = "2026-08-14 14:17 KST";
