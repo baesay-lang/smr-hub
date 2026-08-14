@@ -92,6 +92,83 @@ window.SMR_NEWS = [
   "id": "e76556a5"
  },
  {
+  "date": "2026-08-14",
+  "title": "한국원자력안전기술원(KINS), 제1회 선진원자로 안전기술 심포지엄 개최",
+  "summary": "한국원자력안전기술원(KINS)이 2026년 9월 1~2일 부산에서 '제1회 선진원자로 안전기술 심포지엄(SARST 2026)'을 개최하며 SMR 표준설계인가 및 차세대 비경수형 원자로 안전규제 이슈를 논의할 계획이다.",
+  "summaryLong": "한국원자력안전기술원(KINS)은 2026년 9월 1~2일 부산 코모도호텔에서 '제1회 선진원자로 안전기술 심포지엄(SARST 2026)'을 개최한다고 밝혔다. 이 행사는 규제기관, 개발기관, 연구기관 등 관련 전문가들이 한자리에 모여 선진원자로 기술 동향과 안전규제 현안을 공유하는 자리로 마련된다. 첫째 날 종합세션에서는 선진원자로 안전규제 현황, 혁신형 SMR(소형모듈원자로) 표준설계인가 대응 현황 및 고유 설계특성 검증 방안 등이 논의되고, 둘째 날 기술세션에서는 원자력 선박 국제 규제동향, 차세대 비경수형 원자로 적용성 검토 등 다양한 주제가 발표될 예정이다.",
+  "cat": "인허가",
+  "type": "General",
+  "dev": "KINS",
+  "region": "KR",
+  "source": "투데이에너지 - 전체기사",
+  "url": "https://www.todayenergy.kr/news/articleView.html?idxno=301588",
+  "k": "kins 제1회 선진원자로 안전기술 심포지엄 개최",
+  "ko": 1,
+  "id": "ac4dd79f"
+ },
+ {
+  "date": "2026-08-14",
+  "title": "미국 웨스팅하우스·아멘텀, AP1000·AP300 협력 확대 계약",
+  "summary": "미국 웨스팅하우스(Westinghouse)와 아멘텀(Amentum)이 AP1000 및 AP300 기술에 대한 협력을 확대하는 계약을 체결했다.",
+  "summaryLong": "미국의 웨스팅하우스(Westinghouse)와 아멘텀(Amentum)이 AP1000(대형 가압경수로) 및 AP300(소형모듈원자로·SMR) 기술 관련 협력을 확대하는 계약을 체결했다는 보도이다. 제목만으로는 구체적 계약 내용이 명확하지 않으나, AP300 SMR 기술 협력을 포함하는 점에서 SMR 관련 뉴스로 분류된다.",
+  "cat": "계약",
+  "type": "PWR",
+  "dev": "웨스팅하우스",
+  "region": "US",
+  "source": "theguru.co.kr",
+  "url": "https://www.theguru.co.kr/news/article.html?no=105826",
+  "k": "웨스팅하우스 아멘텀 ap1000 ap300 협력 확대 계약",
+  "ko": 1,
+  "id": "d4fbe6c1"
+ },
+ {
+  "date": "2026-08-14",
+  "title": "(사설) SMR 등 미래 전략산업…전기산업계 새로운 생태계 조성 필요",
+  "summary": "소형모듈원자로(SMR)와 핵융합을 미래 전략산업으로 지목한 정부 정책과 전기산업 생태계 구축의 필요성을 다룬 사설이다.",
+  "summaryLong": "한국 정부가 인공지능(AI) 이후의 미래 전략산업으로 소형모듈원자로(SMR)와 핵융합을 지목한 것을 배경으로, 전기산업계 전반의 새로운 생태계 형성을 촉구하는 사설이다. AI·데이터센터·반도체 공장 확산으로 전력 수요 급증 시 무탄소 안정 전원 확보와 수출산업 창출 측면에서 SMR과 핵융합의 전략적 중요성을 강조하고 있다. SMR 산업이 발전기·전기공사·송배전망·전력전자·계측제어 등 전기산업 전반에 새로운 시장을 창출할 20~30년 규모의 거대 산업 생태계임을 지적한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "전기신문 - 전체기사",
+  "url": "https://www.electimes.com/news/articleView.html?idxno=371288",
+  "k": "사설 smr 등 미래 전략산업 전기산업계 새로운 생태계 만들어야",
+  "ko": 1,
+  "op": 1,
+  "id": "0cb40703"
+ },
+ {
+  "date": "2026-08-14",
+  "title": "HD현대(Hyundai E&C)의 테라파워(TerraPower) SMR 전략 분석",
+  "summary": "HD현대 경영진이 테라파워와의 협력을 추진하는 것으로 보도됐다.",
+  "summaryLong": "기사는 HD현대 CEO 정기선이 빌 게이츠 테라파워 회장과 여러 차례 만남을 통해 소형모듈원자로(SMR) 사업 진출을 모색 중임을 시사하고 있다. 이는 한국 대형 건설사의 글로벌 SMR 시장 진출 전략을 반영하며, 미국 내 SMR 프로젝트 수주 가능성과 국제 협력 강화를 보여주는 움직임이다. 다만 구체적인 계약 체결이나 공식 발표는 보도에 명시되지 않았다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "HD현대",
+  "region": "US",
+  "source": "ekn.kr",
+  "url": "https://www.ekn.kr/web/view.php?key=20260814025292329",
+  "k": "정기선은 왜 빌 게이츠만 네 번 만났나 hd현대의 smr 우회로",
+  "ko": 1,
+  "op": 1,
+  "id": "32f5529f"
+ },
+ {
+  "date": "2026-08-14",
+  "title": "정부, '7대 SEED' 에너지 사업에 SMR·핵융합 선정…시민사회 반발",
+  "summary": "한국 정부가 전략적 에너지 사업(SEED)에 소형모듈원자로와 핵융합을 2개 선정해 논란이 발생했다.",
+  "summaryLong": "한국 정부는 7대 전략 에너지 사업(SEED) 중 소형모듈원자로(SMR)와 핵융합 2개 분야를 선정했으나, 시민사회단체에서 재생에너지 대비 원자력에 편중된 정책이라며 반발했다. 이는 정부의 SMR 육성 정책 의지를 보여주는 한편, 에너지 정책 방향을 둘러싼 사회적 논란이 진행 중임을 나타낸다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "skenews.kr",
+  "url": "https://www.skenews.kr/news/articleView.html?idxno=52799",
+  "k": "에너지이슈 재생에너지는 1개 묶고 원자력은 2자리 독식 7대 seed smr 핵융합 선정에 시민사회 폭발했다",
+  "ko": 1,
+  "id": "34479895"
+ },
+ {
   "date": "2026-08-13",
   "title": "인도, 2033년까지 자국산 SMR 5기 목표",
   "summary": "인도 정부가 2033년까지 자국 개발 소형모듈원자로 5기 배치를 목표로 한다고 발표했다.",
@@ -555,6 +632,21 @@ window.SMR_NEWS = [
   "id": "16921fab"
  },
  {
+  "date": "2026-08-13",
+  "title": "엑스에너지(X-energy), 텍사스 SMR 프로젝트 10억 달러 지원금 확보",
+  "summary": "미국 엑스에너지(X-energy)가 텍사스의 소형모듈원자로(SMR) 프로젝트를 위해 10억 달러의 정부 지원금을 확보했다.",
+  "summaryLong": "미국의 고온가스로(HTGR) 개발사 엑스에너지(X-energy)가 텍사스에서 추진 중인 소형모듈원자로(SMR) 프로젝트를 위해 10억 달러의 정부 지원금을 확보했다. 이 지원금 확보는 두산에너빌리티와 관계사인 DL(디엘)을 포함한 공급업체들에게 긍정적 신호가 될 것으로 예상된다.",
+  "cat": "정책",
+  "type": "HTGR",
+  "dev": "엑스에너지",
+  "region": "US",
+  "source": "theguru.co.kr",
+  "url": "https://www.theguru.co.kr/news/article.html?no=105801",
+  "k": "엑스에너지 텍사스 smr 10억 달러 지원금 확보 dl 두산에너빌 청신호",
+  "ko": 1,
+  "id": "c9f75842"
+ },
+ {
   "date": "2026-08-12",
   "title": "오클로(Oklo), 첫 임계 달성 및 초기 원자로 판매 후 8.5% 상승",
   "summary": "오클로(Oklo)가 첫 임계(first criticality) 달성과 초기 소형모듈원자로(SMR) 판매를 발표하며 주가가 8.5% 상승했다.",
@@ -810,97 +902,6 @@ window.SMR_NEWS = [
   "id": "5ff99459"
  },
  {
-  "date": "2026-08-12",
-  "title": "정부, 2035년 경수형 SMR 상용화 추진",
-  "summary": "정부가 2035년을 목표로 경수형 SMR 상용화를 추진하며 핵심광물 비축도 확대한다.",
-  "summaryLong": "한국 정부가 2035년 경수형 SMR(가압경수로형 소형모듈원자로) 상용화를 공식 목표로 설정하고 추진하기로 했다. 이와 함께 SMR 및 첨단산업에 필요한 핵심광물 비축을 기존 수준에서 1년분으로 확대하는 등 정책적 뒷받침도 강화된다. 이는 에너지 자립과 산업 경쟁력 확보를 위한 종합적 정책의 일환이다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "",
-  "region": "KR",
-  "source": "news.nate.com",
-  "url": "https://news.nate.com/view/20260812n30516",
-  "k": "정부 2035년 경수형 smr 상용화 추진 핵심광물 비축 1년분으로 확대",
-  "ko": 1,
-  "id": "0fefbaa3"
- },
- {
-  "date": "2026-08-12",
-  "title": "미래성장동력 7대 SEED에 소형모듈원자로·핵융합·재생에너지 포함",
-  "summary": "한국 정부가 미래성장동력 7대 SEED 프로젝트를 발표하며 소형모듈원자로(SMR)와 핵융합을 첨단기술 육성 대상으로 선정했다.",
-  "summaryLong": "과학기술정보통신부는 청와대 충무실에서 '미래성장동력 7대 SEED 보고회'를 개최하고 7대 SEED 프로젝트 추진 방안을 발표했다. 이 프로젝트는 소형모듈원자로(SMR), 핵융합, 재생에너지 등을 포함한 첨단기술을 대한민국의 미래성장동력으로 육성하기 위한 국가 차원의 사업이다. 한국수력원자력(한수원)의 i-SMR이 사례로 제시되며, 에너지기술과 공급망의 중요성, 첨단기술 확보 필요성에 대한 민간 전문가 제언이 반영되었다. 급증하는 전력수요와 탄소중립이라는 도전 속에서 첨단기술 확보가 경제·안보의 핵심 자산으로 위치지었다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "한수원",
-  "region": "KR",
-  "source": "투데이에너지 - 전체기사",
-  "url": "https://www.todayenergy.kr/news/articleView.html?idxno=301513",
-  "k": "미래성장동력 7대 seed에 smr 핵융합 재생에너지 포함",
-  "ko": 1,
-  "id": "9d37f9b3"
- },
- {
-  "date": "2026-08-12",
-  "title": "뉴스케일의 테네시밸리공사(TVA) 기회, 차기 성장 단계 개시 가능성",
-  "summary": "뉴스케일(NuScale)의 테네시밸리공사(TVA) 계약 기회가 회사의 다음 성장 단계를 열 수 있다는 분석 기사다.",
-  "summaryLong": "야후 파이낸스가 뉴스케일의 테네시밸리공사(TVA) 기회가 회사의 차기 성장 단계 개시를 가능하게 할 수 있다고 보도했다. TVA와의 계약은 뉴스케일의 소형모듈원자로 상용화를 위한 주요 계약 기회로, 미국 대형 공익사업 기관과의 협력을 의미한다. 이는 기술 상용화의 실질적 진전과 시장 진입을 나타내는 중요한 사업 발전이다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "NuScale",
-  "region": "US",
-  "source": "finance.yahoo.com",
-  "url": "https://finance.yahoo.com/markets/stocks/articles/nuscales-tva-opportunity-unlock-next-145400324.html",
-  "k": "can nuscale s tva opportunity unlock its next growth phase",
-  "op": 1,
-  "id": "81b0e8ae"
- },
- {
-  "date": "2026-08-12",
-  "title": "정기선 HD현대 회장, 빌 게이츠와 SMR 협력 논의",
-  "summary": "HD현대 회장이 빌 게이츠와 만나 차세대 원전 및 선박용 SMR 협력을 논의한다.",
-  "summaryLong": "HD현대(현대중공업)의 정기선 회장이 마이크로소프트 창립자 빌 게이츠와 14일 만남을 갖고 차세대 원전과 선박용 소형모듈원자로(SMR) 분야의 협력 방안을 논의할 예정이다. 이는 한국의 주요 조선·에너지 기업이 글로벌 기술 리더와 SMR 사업 연대를 강화하는 움직임을 보여준다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "HD현대",
-  "region": "KR",
-  "source": "haesanews.com",
-  "url": "http://www.haesanews.com/news/articleView.html?idxno=150191",
-  "k": "정기선 14일 빌 게이츠 만난다 차세대 원전 선박용 smr 협력 논의",
-  "ko": 1,
-  "id": "56516e8c"
- },
- {
-  "date": "2026-08-12",
-  "title": "40년 멈춘 미국 벨레폰테 원전, SMR 거점으로 재가동",
-  "summary": "미국(US)의 40년간 운영이 중단된 벨레폰테(Bellefonte) 원전이 소형모듈원자로(SMR) 시설로 전환되어 다시 가동될 예정이다.",
-  "summaryLong": "미국 테네시주의 벨레폰테 원전이 약 40년간의 운영 중단 이후 소형모듈원자로(SMR) 거점으로 재활용될 계획이다. 이 사업은 기존 원전 부지의 활용을 통해 SMR 상용화를 추진하는 대표적 사례로, 미국 정부와 원전 산업계의 SMR 정책 강화를 반영한다. 벨레폰테 부지의 인프라와 노하우를 활용한 SMR 사업화는 비용 절감과 사업 기간 단축 측면에서 효율성을 제공할 것으로 예상된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5618",
-  "k": "40년 멈춘 벨레폰테 원전 smr 거점으로 다시 뛴다",
-  "ko": 1,
-  "id": "159cab74"
- },
- {
-  "date": "2026-08-12",
-  "title": "뉴스케일파워(NuScale Power), 최대 1조원 규모 자본 조달 추진",
-  "summary": "미국의 소형모듈원자로 개발사 뉴스케일파워가 1조원대의 자본 조달을 추진 중이다.",
-  "summaryLong": "미국의 주요 소형모듈원자로(SMR) 개발사인 뉴스케일파워(NuScale Power)가 최대 1조원 규모의 자본 조달을 추진하고 있는 것으로 보도되었다. 이는 뉴스케일파워의 SMR 상용화 및 생산 확대를 위한 자금 조달 전략을 반영하며, 글로벌 SMR 산업의 투자 확대 추세를 보여준다. 뉴스케일파워는 미국 내 규제 승인 진전과 국제 시장 진출 가속화를 배경으로 대규모 펀딩을 추진 중인 것으로 분석된다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "NuScale",
-  "region": "US",
-  "source": "theguru.co.kr",
-  "url": "https://theguru.co.kr/news/article.html?no=105698",
-  "k": "smr 뉴스케일파워 최대 1조 자본 조달 추진",
-  "ko": 1,
-  "op": 1,
-  "id": "26591ddf"
- },
- {
   "date": "2026-08-11",
   "title": "마이크로리액터 개발 기업 안타레스(Antares), 4억 7,000만 달러 자금 조달",
   "summary": "마이크로리액터 개발사 안타레스가 4억 7,000만 달러의 펀딩을 완료했다.",
@@ -1043,20 +1044,6 @@ window.SMR_NEWS = [
   "url": "https://holtecinternational.com/hh-41-14/",
   "k": "holtec entergy and hyundai e c sign moa to evaluate potential smr 300 projects in gulf south region",
   "id": "fbfa8f26"
- },
- {
-  "date": "2026-07-31",
-  "title": "캐메코, 웨스팅하우스 IPO 계획 발표",
-  "summary": "캐메코(Cameco)와 브룩필드 재생에너지 파트너스(Brookfield Renewable Partners)의 합작사인 웨스팅하우스 일렉트릭(Westinghouse Electric Company)이 주식 상장을 위한 예비등록명세서를 미국 증권거래위원회(SEC)에 기밀 제출했다.",
-  "summaryLong": "웨스팅하우스 일렉트릭이 기업공개(IPO)를 추진하기 위해 미국 증권거래위원회(SEC)에 예비등록명세서를 비공개로 제출했다. 동사는 캐메코와 브룩필드 재생에너지 파트너스의 합작회사로, 가압경수로(PWR) 및 소형모듈원자로(SMR) 기술을 보유한 글로벌 원전 기업이다. 이번 상장은 핵에너지에 대한 전 세계적 수요 증가 속에서 추진되고 있으며, 자본 조달과 사업 확장의 계기가 될 것으로 예상된다.",
-  "cat": "계약",
-  "type": "General",
-  "dev": "Westinghouse",
-  "region": "US",
-  "source": "World Nuclear News",
-  "url": "https://www.world-nuclear-news.org/articles/cameco-announces-go-public-plans-for-westinghouse",
-  "k": "cameco announces ipo plan for westinghouse",
-  "id": "e07b3f30"
  },
  {
   "date": "2026-07-30",
@@ -1442,5 +1429,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-14 14:17 KST";
-window.SMR_TOTAL = 2030;
+window.SMR_UPDATED = "2026-08-14 14:46 KST";
+window.SMR_TOTAL = 2036;
