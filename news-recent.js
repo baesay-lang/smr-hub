@@ -169,6 +169,38 @@ window.SMR_NEWS = [
   "id": "34479895"
  },
  {
+  "date": "2026-08-14",
+  "title": "SMR의 기술력과 전망: 한국 원자력 기술의 세계적 인정",
+  "summary": "경희대학교 허균영 교수가 한국의 SMR 기술력과 대도시 원전 건설 가능성에 대해 소개하는 칼럼성 기사이다.",
+  "summaryLong": "경희대학교 원자력공학과 허균영 교수(원자력안전위원회(NRC) 전문위원장)가 소형모듈원자로(SMR)의 특징과 도시 지역 설치 가능성, 그리고 한국의 원자력 기술 경쟁력을 설명하는 칼럼이다. 이는 SMR이 도시 지역에도 건설 가능한 '꿈의 원전'으로 불리며 국제적으로 인정받고 있음을 강조하는 의견 기사로, 정책·규제 동향보다는 기술·교육 관점의 해설이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "science.ytn.co.kr",
+  "url": "https://science.ytn.co.kr/program/program_view.php?s_mcd=1679&key=202608140920281320&s_hcd=",
+  "k": "대도시에도 원전을 지을 수 있다고 꿈의 원전 smr 세계도 인정한 우리나라 기술력 허균영 경희대학교 원자력공학과 교수 원자력안전위원회 전문위원장",
+  "ko": 1,
+  "op": 1,
+  "id": "d62c546d"
+ },
+ {
+  "date": "2026-08-14",
+  "title": "AI 시대와 SMR: 포스코의 에너지 전략",
+  "summary": "포스코의 스마트 원자로(SMR) 사업과 AI 시대의 에너지 전략에 대한 칼럼이다.",
+  "summaryLong": "포스코(POSCO)의 스마트 원자로 사업 관련 시리즈 기사로, AI 시대의 에너지 수요와 소형모듈원자로(SMR)의 역할을 다루는 칼럼이다. 포스코의 에너지 전략 방향성을 제시하는 오피니언 성격의 기사이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "포스코",
+  "region": "KR",
+  "source": "businessplus.kr",
+  "url": "http://www.businessplus.kr/news/articleView.html?idxno=115496",
+  "k": "포스코 스마트 원자로 ai 시대와 smr 장인화의 에너지 전략",
+  "ko": 1,
+  "op": 1,
+  "id": "ffb5c46e"
+ },
+ {
   "date": "2026-08-13",
   "title": "인도, 2033년까지 자국산 SMR 5기 목표",
   "summary": "인도 정부가 2033년까지 자국 개발 소형모듈원자로 5기 배치를 목표로 한다고 발표했다.",
@@ -647,6 +679,20 @@ window.SMR_NEWS = [
   "id": "c9f75842"
  },
  {
+  "date": "2026-08-13",
+  "title": "엑스에너지, 2026년 2분기 실적 발표 및 HALEU·흑연 공급 계약 확대, 테네시 연료 캠퍼스 진전",
+  "summary": "엑스에너지가 2분기 실적을 발표하고 HALEU(고농축우라늄)·흑연 공급 계약을 확대하며 테네시(Tennessee) 연료 캠퍼스 개발을 진전시켰다.",
+  "summaryLong": "엑스에너지(X-Energy)가 2026년 2분기 실적을 발표하면서 고농축우라늄(HALEU) 및 흑연 공급 계약을 확대하고, 테네시(Tennessee) 지역 연료 캠퍼스(Fuel Campus) 개발을 추진 중이라고 공시했다. 고온가스로(HTGR) 연료 공급망 확보와 생산 인프라 조성은 엑스에너지의 상용화 전략의 핵심 요소로 평가된다.",
+  "cat": "기술",
+  "type": "HTGR",
+  "dev": "X-Energy",
+  "region": "US",
+  "source": "quiverquant.com",
+  "url": "https://www.quiverquant.com/news/X-energy+Reports+Second+Quarter+2026+Results%2C+Expands+HALEU+and+Graphite+Supply+Agreements+and+Advances+Tennessee+Fuel+Campus",
+  "k": "x energy reports second quarter 2026 results expands haleu and graphite supply agreements and advances tennessee fuel campus",
+  "id": "6e2ec990"
+ },
+ {
   "date": "2026-08-12",
   "title": "오클로(Oklo), 첫 임계 달성 및 초기 원자로 판매 후 8.5% 상승",
   "summary": "오클로(Oklo)가 첫 임계(first criticality) 달성과 초기 소형모듈원자로(SMR) 판매를 발표하며 주가가 8.5% 상승했다.",
@@ -855,51 +901,6 @@ window.SMR_NEWS = [
   "k": "분석 7대 seed 미래산업 승부수 기술개발 넘어 시장 선점 이 성패 가른다",
   "ko": 1,
   "id": "c17f7610"
- },
- {
-  "date": "2026-08-12",
-  "title": "정부, 7대 SEED 추진 방안 발표…SMR·양자·우주 등 미래 먹거리로",
-  "summary": "정부가 SMR·양자·우주 등을 포함한 7대 SEED(전략기술) 추진 방안을 발표했다.",
-  "summaryLong": "대한민국 정부가 7대 SEED(전략기술) 추진 방안을 공식 발표하며 SMR, 양자기술, 우주산업 등을 국가 미래 성장동력으로 지정했다. SMR은 차세대 에너지 기술로서 경제 활성화와 기술 자립화의 핵심 전략이다. 정부의 이번 정책 발표는 한국의 원전산업이 글로벌 시장에서 경쟁력을 갖추도록 지원하는 국책 프로그램으로, 향후 투자와 기술 개발을 가속화할 것으로 기대된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "korea.kr",
-  "url": "https://www.korea.kr/news/policyNewsView.do?newsId=148969972&pWise=sub&pWiseSub=R3",
-  "k": "정부 7대 seed 추진 방안 발표 smr 양자 우주 등 미래 먹거리로",
-  "ko": 1,
-  "id": "1afe8ef6"
- },
- {
-  "date": "2026-08-12",
-  "title": "경수형 SMR 상용화·달 착륙…정부, 7대 SEED 추진",
-  "summary": "정부가 경수형 SMR 상용화를 목표로 하는 7대 SEED 프로젝트를 추진한다.",
-  "summaryLong": "한국 정부가 경수형 SMR(가압경수로형 소형모듈원자로)의 상용화를 주요 목표로 하는 7대 SEED(전략 첨단기술) 프로젝트를 시작한다. 달 착륙과 함께 SMR 상용화는 국가의 핵심 미래 과제로 설정되었다. 이는 에너지 안보와 우주산업 등 여러 분야에서의 경쟁력 강화를 노린 통합 정책이다.",
-  "cat": "기술",
-  "type": "PWR",
-  "dev": "",
-  "region": "KR",
-  "source": "dailian.co.kr",
-  "url": "https://www.dailian.co.kr/news/view/1677748/%EA%B2%BD%EC%88%98%ED%98%95-SMR-%EC%83%81%EC%9A%A9%ED%99%94%EB%8B%AC-%EC%B0%A9%EB%A5%99%EC%A0%95%EB%B6%80-7%EB%8C%80-2026",
-  "k": "경수형 smr 상용화 달 착륙 정부 7대 seed 추진",
-  "ko": 1,
-  "id": "2453fc4f"
- },
- {
-  "date": "2026-08-12",
-  "title": "2035년 SMR 상용화·2030년 달 착륙…정부 '7대 SEED' 추진",
-  "summary": "정부가 2035년 SMR 상용화를 목표로 7대 SEED 프로젝트를 가동한다.",
-  "summaryLong": "한국 정부가 구체적인 일정을 명시한 7대 SEED(전략 첨단기술) 프로젝트를 공식 가동했다. 주요 목표는 2035년 SMR(소형모듈원자로) 상용화와 2030년 달 착륙 달성이다. 이는 중장기 국가 성장전략의 핵심으로, 에너지·우주 분야의 기술 자립을 목표로 한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "news1.kr",
-  "url": "https://www.news1.kr/it-science/general-science/6256615",
-  "k": "2035년 smr 상용화 2030년 달 착륙 정부 7대 seed 가동",
-  "ko": 1,
-  "id": "5ff99459"
  },
  {
   "date": "2026-08-11",
@@ -1429,5 +1430,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-14 14:46 KST";
-window.SMR_TOTAL = 2036;
+window.SMR_UPDATED = "2026-08-14 15:07 KST";
+window.SMR_TOTAL = 2039;

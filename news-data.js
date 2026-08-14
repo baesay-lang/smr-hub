@@ -176,6 +176,38 @@ window.SMR_NEWS = [
     "id": "34479895"
   },
   {
+    "date": "2026-08-14",
+    "title": "SMR의 기술력과 전망: 한국 원자력 기술의 세계적 인정",
+    "summary": "경희대학교 허균영 교수가 한국의 SMR 기술력과 대도시 원전 건설 가능성에 대해 소개하는 칼럼성 기사이다.",
+    "summaryLong": "경희대학교 원자력공학과 허균영 교수(원자력안전위원회(NRC) 전문위원장)가 소형모듈원자로(SMR)의 특징과 도시 지역 설치 가능성, 그리고 한국의 원자력 기술 경쟁력을 설명하는 칼럼이다. 이는 SMR이 도시 지역에도 건설 가능한 '꿈의 원전'으로 불리며 국제적으로 인정받고 있음을 강조하는 의견 기사로, 정책·규제 동향보다는 기술·교육 관점의 해설이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "science.ytn.co.kr",
+    "url": "https://science.ytn.co.kr/program/program_view.php?s_mcd=1679&key=202608140920281320&s_hcd=",
+    "k": "대도시에도 원전을 지을 수 있다고 꿈의 원전 smr 세계도 인정한 우리나라 기술력 허균영 경희대학교 원자력공학과 교수 원자력안전위원회 전문위원장",
+    "ko": 1,
+    "op": 1,
+    "id": "d62c546d"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "AI 시대와 SMR: 포스코의 에너지 전략",
+    "summary": "포스코의 스마트 원자로(SMR) 사업과 AI 시대의 에너지 전략에 대한 칼럼이다.",
+    "summaryLong": "포스코(POSCO)의 스마트 원자로 사업 관련 시리즈 기사로, AI 시대의 에너지 수요와 소형모듈원자로(SMR)의 역할을 다루는 칼럼이다. 포스코의 에너지 전략 방향성을 제시하는 오피니언 성격의 기사이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "포스코",
+    "region": "KR",
+    "source": "businessplus.kr",
+    "url": "http://www.businessplus.kr/news/articleView.html?idxno=115496",
+    "k": "포스코 스마트 원자로 ai 시대와 smr 장인화의 에너지 전략",
+    "ko": 1,
+    "op": 1,
+    "id": "ffb5c46e"
+  },
+  {
     "date": "2026-08-13",
     "title": "인도, 2033년까지 자국산 SMR 5기 목표",
     "summary": "인도 정부가 2033년까지 자국 개발 소형모듈원자로 5기 배치를 목표로 한다고 발표했다.",
@@ -652,6 +684,20 @@ window.SMR_NEWS = [
     "k": "엑스에너지 텍사스 smr 10억 달러 지원금 확보 dl 두산에너빌 청신호",
     "ko": 1,
     "id": "c9f75842"
+  },
+  {
+    "date": "2026-08-13",
+    "title": "엑스에너지, 2026년 2분기 실적 발표 및 HALEU·흑연 공급 계약 확대, 테네시 연료 캠퍼스 진전",
+    "summary": "엑스에너지가 2분기 실적을 발표하고 HALEU(고농축우라늄)·흑연 공급 계약을 확대하며 테네시(Tennessee) 연료 캠퍼스 개발을 진전시켰다.",
+    "summaryLong": "엑스에너지(X-Energy)가 2026년 2분기 실적을 발표하면서 고농축우라늄(HALEU) 및 흑연 공급 계약을 확대하고, 테네시(Tennessee) 지역 연료 캠퍼스(Fuel Campus) 개발을 추진 중이라고 공시했다. 고온가스로(HTGR) 연료 공급망 확보와 생산 인프라 조성은 엑스에너지의 상용화 전략의 핵심 요소로 평가된다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "quiverquant.com",
+    "url": "https://www.quiverquant.com/news/X-energy+Reports+Second+Quarter+2026+Results%2C+Expands+HALEU+and+Graphite+Supply+Agreements+and+Advances+Tennessee+Fuel+Campus",
+    "k": "x energy reports second quarter 2026 results expands haleu and graphite supply agreements and advances tennessee fuel campus",
+    "id": "6e2ec990"
   },
   {
     "date": "2026-08-12",
@@ -29615,4 +29661,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-14 14:46 KST";
+window.SMR_UPDATED = "2026-08-14 15:07 KST";
