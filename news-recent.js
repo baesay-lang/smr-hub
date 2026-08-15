@@ -164,6 +164,35 @@ window.SMR_NEWS = [
   "id": "421a5a88"
  },
  {
+  "date": "2026-08-15",
+  "title": "SK이노베이션, 테라파워와 나트륨(Natrium) SMR 배포 협력",
+  "summary": "SK이노베이션이 테라파워(TerraPower)와 나트륨냉각고속로(Natrium) 소형모듈원자로 배치를 위한 협력 계약을 체결했다.",
+  "summaryLong": "SK이노베이션과 테라파워(TerraPower)가 나트륨냉각고속로(Natrium) 기반 소형모듈원자로(SMR) 기술의 국내 배포를 위한 협력을 발표했다. 이 협력은 테라파워의 선진 원자로 기술을 한국 시장에 도입하고, 향후 상용화를 추진하기 위한 전략적 파트너십이다. 나트륨냉각 방식의 고온 발열 특성을 활용한 산업용 열·전력 공급이 주요 대상이 될 것으로 예상된다.",
+  "cat": "계약",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "KR",
+  "source": "thelec.net",
+  "url": "https://www.thelec.net/news/articleView.html?idxno=13108",
+  "k": "sk innovation terrapower to collaborate on natrium smr deployment",
+  "id": "8018d94d"
+ },
+ {
+  "date": "2026-08-15",
+  "title": "테라파워·현대건설·SK이노베이션, 차세대 나트륨 SMR 상용화 본격화",
+  "summary": "테라파워(TerraPower)·현대건설·SK이노베이션 컨소시엄이 나트륨 냉각 SMR의 상용화를 본격적으로 추진하기로 합의했다.",
+  "summaryLong": "테라파워(TerraPower)·현대건설·SK이노베이션의 3사 협력이 차세대 나트륨 냉각 소형모듈원자로(SMR)의 상용화 단계로 진입하고 있다. 이는 기존의 기술 협력에서 한 단계 발전한 것으로, 현대건설이 건설·엔지니어링 역할을 맡고 SK이노베이션이 나트륨 냉각로 기술을 제공하는 구조로 진행된다. 3사의 협력을 통해 글로벌 SMR 시장 선점을 목표로 하는 한국 기업들의 국제 전략을 보여주는 사례다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "SK이노",
+  "region": "KR",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5671",
+  "k": "테라파워 현대건설 sk 차세대 나트륨 smr 상용화 본격화",
+  "ko": 1,
+  "id": "a297793d"
+ },
+ {
   "date": "2026-08-14",
   "title": "원자력안전기술원, 제1회 선진원자로 안전기술 심포지엄 개최",
   "summary": "한국원자력안전기술원(KINS)이 9월 1~2일 부산에서 선진원자로 안전기술 심포지엄을 개최하며, SMR 표준설계인가 대응 현황 등을 논의한다.",
@@ -778,6 +807,35 @@ window.SMR_NEWS = [
   "id": "c047249e"
  },
  {
+  "date": "2026-08-14",
+  "title": "두산에너빌리티, 미국 테라파워에 SMR 핵심 부품 공급",
+  "summary": "두산에너빌리티(Doosan Enerbility)가 미국의 테라파워(TerraPower)에 소형모듈원자로(SMR) 핵심 부품을 공급하는 계약을 체결했다.",
+  "summaryLong": "두산에너빌리티가 미국의 테라파워에 소형모듈원자로(SMR) 핵심 부품을 공급하기로 결정했다. 이는 한국 기업이 미국의 첨단 원자로 개발사와 핵심 부품 공급 계약을 체결한 사례로, 국내 원전 산업의 국제 경쟁력을 보여주는 성과다.",
+  "cat": "계약",
+  "type": "SFR",
+  "dev": "Doosan",
+  "region": "US",
+  "source": "koreaherald.com",
+  "url": "https://www.koreaherald.com/article/10841652",
+  "k": "doosan enerbility to supply key smr components to us terrapower",
+  "id": "d18e88f3"
+ },
+ {
+  "date": "2026-08-14",
+  "title": "최태원·빌 게이츠, AI 전력 해법 논의…SK이노베이션-테라파워(TerraPower) SMR 협력 강화",
+  "summary": "SK그룹 회장 최태원과 빌 게이츠가 AI 전력 수요 해결 방안을 논의하며 SK이노베이션과 테라파워(TerraPower)의 SMR 협력을 강화하기로 합의했다.",
+  "summaryLong": "SK그룹 회장 최태원과 빌 게이츠 회장이 인공지능(AI) 시대의 전력 수급 문제 해결 방안을 논의하면서, SK이노베이션과 테라파워(TerraPower) 간의 소형모듈원자로(SMR) 협력을 한층 강화하기로 합의했다. 이는 글로벌 기업 지도자들이 AI 데이터센터의 급증하는 전력 수요를 원자력 SMR로 해결하려는 전략적 접근을 보여준다. SK이노베이션의 나트륨 냉각 SMR 기술이 글로벌 에너지 전환 과제 해결의 핵심 수단으로 인식되고 있음을 반영한다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "SK이노",
+  "region": "KR",
+  "source": "m.ekn.kr",
+  "url": "https://m.ekn.kr/view.php?key=20260814028483046",
+  "k": "최태원 빌 게이츠 ai 전력 해법 논의 sk이노 테라파워 smr 협력 강화",
+  "ko": 1,
+  "id": "78789879"
+ },
+ {
   "date": "2026-08-13",
   "title": "인도, 2033년까지 자국산 SMR 5기 목표",
   "summary": "인도 정부가 2033년까지 자국 개발 소형모듈원자로 5기 배치를 목표로 한다고 발표했다.",
@@ -835,68 +893,6 @@ window.SMR_NEWS = [
   "ko": 1,
   "op": 1,
   "id": "5965981f"
- },
- {
-  "date": "2026-08-13",
-  "title": "정기선 HD현대 회장, 빌 게이츠와 면담…SMR 협력 강화 논의",
-  "summary": "HD현대(Hyundai Heavy Industries) 정기선 회장이 빌 게이츠와 만나 SMR 협력 방안을 논의할 예정이다.",
-  "summaryLong": "HD현대의 정기선 회장이 테라파워(TerraPower) 회장 빌 게이츠와 면담을 통해 SMR 개발 및 사업 협력을 강화하기로 했다. 이 회동은 두 회사 간 파트너십 진전을 위한 실질적 논의의 장이 될 것으로 예상된다. HD현대는 글로벌 SMR 시장에서의 입지 강화를 추진 중이며, 빌 게이츠의 테라파워와의 협력은 핵심 전략이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "HD현대",
-  "region": "KR",
-  "source": "ddaily.co.kr",
-  "url": "https://www.ddaily.co.kr/page/view/2026081310281673333",
-  "k": "정기선 hd현대 회장 빌 게이츠와 14일 만난다 smr 협력 강화 논의",
-  "ko": 1,
-  "id": "5da7e075"
- },
- {
-  "date": "2026-08-13",
-  "title": "빌 게이츠 방한…두산에너빌, 글로벌 SMR 파운드리 지위 강화",
-  "summary": "빌 게이츠가 한국을 방문하여 두산에너빌(Doosan Enerbility)의 글로벌 SMR 파운드리 역할 강화 논의가 예상된다.",
-  "summaryLong": "테라파워의 빌 게이츠가 한국을 방문하는 가운데, 두산에너빌이 글로벌 소형모듈원자로(SMR) '파운드리' 역할을 더욱 굳히기 위한 협력 논의가 예상된다. 파운드리 모델은 설계사와 제조사의 역할 분담을 통해 SMR의 효율적 개발·생산을 추진하는 전략이다. 두산에너빌은 한국의 원자력 제조 역량을 바탕으로 글로벌 SMR 시장에서 핵심 제조 파트너로서의 입지를 확대하려 하고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "두산에너빌",
-  "region": "KR",
-  "source": "biz.newdaily.co.kr",
-  "url": "https://biz.newdaily.co.kr/site/data/html/2026/08/13/2026081300106.html",
-  "k": "빌 게이츠 내일 방한 두산에너빌 글로벌 smr 파운드리 굳히나",
-  "ko": 1,
-  "op": 1,
-  "id": "810d8d08"
- },
- {
-  "date": "2026-08-13",
-  "title": "빌 게이츠 방한, SK·현대중공업과 테라파워(TerraPower) SMR 상용화 논의",
-  "summary": "빌 게이츠 방한 시 SK와 현대중공업(HD현대)이 테라파워의 소형모듈원자로(SMR) 상용화 동맹 체결에 주목하고 있다.",
-  "summaryLong": "빌 게이츠 회장이 한국을 방문한 가운데 SK와 현대중공업이 테라파워의 소형모듈원자로(SMR) 사업에 전략적 관심을 보이고 있다. 테라파워는 차세대 핵연료와 혁신적 냉각 기술을 기반으로 한 첨단로 개발사로, 빌 게이츠가 투자한 기업이다. 국내 주요 에너지·건설 그룹들이 테라파워와의 기술 협력 및 상용화 파트너십 체결 가능성을 적극 검토 중인 것으로 알려졌다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "KR",
-  "source": "dailian.co.kr",
-  "url": "https://www.dailian.co.kr/news/view/1678085/?sc=rss",
-  "k": "빌 게이츠 방한에 sk hd현대 주목 테라파워 smr 상용화 동맹",
-  "ko": 1,
-  "op": 1,
-  "id": "ff2a621d"
- },
- {
-  "date": "2026-08-13",
-  "title": "현대중공업 회장, 빌 게이츠와 재회…소형모듈원자로(SMR) 동맹 강화",
-  "summary": "현대중공업(HD현대) 회장과 빌 게이츠(Bill Gates)가 약 7개월 만에 재회하며 소형모듈원자로(SMR) 사업 협력을 강화하고 있다.",
-  "summaryLong": "현대중공업(HD현대) 정기선 회장이 테라파워(TerraPower) 회장 빌 게이츠와 7개월 만에 재회했다. 양측은 소형모듈원자로(SMR) 분야의 전략적 파트너십을 지속적으로 논의하며 협력을 심화시키고 있다. 현대중공업은 첨단로 기술 개발과 국제 프로젝트 수주를 추진하고 있으며, 이번 만남은 글로벌 SMR 시장에서의 입지 강화 의지를 나타내고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "현대중공업",
-  "region": "KR",
-  "source": "alphabiz.co.kr",
-  "url": "https://www.alphabiz.co.kr/news/articleView.html?idxno=170558",
-  "k": "정기선 hd현대 회장 빌 게이츠와 7개월 만에 재회 smr 동맹 강화",
-  "ko": 1,
-  "id": "6b6ef8b2"
  },
  {
   "date": "2026-08-13",
@@ -1394,5 +1390,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-16 07:33 KST";
-window.SMR_TOTAL = 2082;
+window.SMR_UPDATED = "2026-08-16 08:03 KST";
+window.SMR_TOTAL = 2086;
