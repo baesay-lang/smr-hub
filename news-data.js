@@ -141,6 +141,36 @@ window.SMR_NEWS = [
     "id": "a0977617"
   },
   {
+    "date": "2026-08-15",
+    "title": "정기선-빌 게이츠 네 번째 회동, HD현대 'SMR 핵심 파트너' 지위 강화",
+    "summary": "HD현대 회장 정기선과 테라파워 창업자 빌 게이츠가 네 번째 회동을 통해 SMR 협력을 심화시키고 있다.",
+    "summaryLong": "HD현대의 정기선 회장과 테라파워(TerraPower)의 창업자 겸 회장 빌 게이츠가 네 번째 회동을 가지며, HD현대의 테라파워 내 '핵심 파트너' 입지를 강화하고 있다. 반복되는 고위급 회동은 양사 간 소형모듈원자로(SMR) 협력이 단순 부품 공급을 넘어 전략적 동반자 관계로 발전하고 있음을 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "HD현대",
+    "region": "US",
+    "source": "newslock.co.kr",
+    "url": "http://www.newslock.co.kr/news/articleView.html?idxno=134433",
+    "k": "정기선 빌 게이츠 네 번째 회동 hd현대 smr 핵심 파트너 입지 굳힌다",
+    "ko": 1,
+    "id": "a93b2012"
+  },
+  {
+    "date": "2026-08-15",
+    "title": "빌 게이츠, 한국 원전 공급망 주목…테라파워 SMR, AI 전력시장 겨냥",
+    "summary": "테라파워(TerraPower)가 한국 원전 공급망을 활용하여 소형모듈원자로(SMR)를 개발·공급하고, AI 시장의 전력수요 충당을 목표로 하고 있다.",
+    "summaryLong": "빌 게이츠가 이끄는 테라파워(TerraPower)가 한국의 원자력 공급망에 주목하고 협력을 강화하는 한편, 개발 중인 소형모듈원자로(SMR)로 인공지능(AI) 분야의 급증하는 전력수요를 충당하겠다는 전략을 추진 중이다. 한국 기업들과의 협력은 테라파워의 상용화 일정을 앞당기고 공급망 안정성을 높이는 데 기여하고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "aitimes.kr",
+    "url": "https://www.aitimes.kr/news/articleView.html?idxno=41466",
+    "k": "빌 게이츠 한국 원전 공급망에 러브콜 테라파워 smr ai 전력시장 정조준",
+    "ko": 1,
+    "id": "421a5a88"
+  },
+  {
     "date": "2026-08-14",
     "title": "원자력안전기술원, 제1회 선진원자로 안전기술 심포지엄 개최",
     "summary": "한국원자력안전기술원(KINS)이 9월 1~2일 부산에서 선진원자로 안전기술 심포지엄을 개최하며, SMR 표준설계인가 대응 현황 등을 논의한다.",
@@ -30268,4 +30298,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-16 06:50 KST";
+window.SMR_UPDATED = "2026-08-16 07:33 KST";
