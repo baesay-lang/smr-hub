@@ -75,6 +75,65 @@ window.SMR_NEWS = [
   "id": "89d48a36"
  },
  {
+  "date": "2026-08-15",
+  "title": "오클로(Oklo), 메타(Meta) 데이터센터 전력 공급 파트너십 체결",
+  "summary": "오클로(Oklo)가 메타(Meta)와 데이터센터 전력 공급을 위한 파트너십을 체결했다.",
+  "summaryLong": "오클로(Oklo)가 메타(Meta)와 마이크로원자로를 통한 데이터센터 전력 공급 협력을 발표했다. 이는 오클로의 마이크로원자로 기술이 대규모 데이터센터의 전력 수요를 충족하기 위해 실제 기업과의 장기 공급 계약 추진으로 이어지는 중요한 사업화 마일스톤이다. 기사는 이러한 장기 계약 추진 과정에서의 시간 소요와 투자자 인내심 필요성도 언급하고 있다.",
+  "cat": "계약",
+  "type": "SFR",
+  "dev": "Oklo",
+  "region": "US",
+  "source": "nai500.com",
+  "url": "https://nai500.com/blog/2026/08/nuclear-newcomer-oklo-partners-with-meta-to-power-data-centers-a-thirty-year-marathon-tests-investor-patience/",
+  "k": "nuclear newcomer oklo partners with meta to power data centers a thirty year marathon tests investor patience",
+  "id": "d5af1f64"
+ },
+ {
+  "date": "2026-08-15",
+  "title": "일본 청년 58.3% 원전 재가동·교체 찬성…SMR 기대감 70%",
+  "summary": "일본 청년층의 58.3%가 원전 재가동과 교체를 지지하며, 70%가 소형모듈원자로(SMR)에 높은 기대감을 보이고 있다.",
+  "summaryLong": "일본의 청년층을 대상으로 한 여론조사에서 58.3%가 원자력발전소의 재가동 및 교체를 찬성하는 것으로 나타났으며, 소형모듈원자로(SMR)에 대해서는 70%가 기대감을 표현했다. 이는 일본에서 SMR에 대한 사회적 수용성이 높아지고 있음을 보여주는 결과로, SMR 도입 추진에 유리한 여론 환경을 제시한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "JP",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5672",
+  "k": "일본 청년 58 3 원전 재가동 교체 찬성 smr 기대감 70",
+  "ko": 1,
+  "id": "9f977484"
+ },
+ {
+  "date": "2026-08-15",
+  "title": "미국(US) 버지니아 캠벨카운티 SMR 추진…주민들 송전망·용수 우려",
+  "summary": "미국 버지니아 주 캠벨카운티에서 추진 중인 SMR 프로젝트에 대해 지역 주민들이 인프라와 환경 영향을 우려하고 있다.",
+  "summaryLong": "미국(US) 버지니아(Virginia) 주 캠벨카운티(Campbell County)에서 소형모듈원자로(SMR) 프로젝트가 추진되고 있는 가운데, 지역 주민들이 송전망 확충과 냉각수 용수 확보 등 인프라 관련 우려를 제기하고 있다. SMR의 지역사회 수용성 확보가 미국 내 프로젝트 추진의 중요한 과제임을 보여주며, 지역 주민의 이해와 동의가 상용화 추진에 필수적임을 시사한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "US",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5674",
+  "k": "버지니아 캠벨카운티 smr 추진 주민들 송전망 용수 우려",
+  "ko": 1,
+  "id": "9d97715e"
+ },
+ {
+  "date": "2026-08-15",
+  "title": "미국(US) 에너지부(DOE), 엑스에너지(X-energy) SMR 프로젝트에 10억 달러 추가 지원",
+  "summary": "미국 에너지부(DOE)가 엑스에너지의 소형모듈원자로 개발 프로젝트에 10억 달러 규모의 추가 자금을 지원한다.",
+  "summaryLong": "미국(US) 에너지부(DOE)가 엑스에너지(X-energy)의 소형모듈원자로(SMR) 개발 프로젝트에 10억 달러 규모의 추가 정부 보조금을 지원하기로 결정했다. 이는 미국 연방정부의 차세대 원전 기술 상용화 추진 의지를 보여주며, 엑스에너지의 고온가스로(HTGR) 방식 SMR 개발이 미국 국책 프로그램의 중심에 있음을 의미한다. 정부 자금 지원 강화는 SMR의 상용화 일정 가속화와 기술 개발 실현 가능성 상승을 의미한다.",
+  "cat": "기술",
+  "type": "HTGR",
+  "dev": "엑스에너지",
+  "region": "US",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5673",
+  "k": "에너지부 x 에너지 smr 프로젝트에 10억 달러 추가 지원",
+  "ko": 1,
+  "id": "a0977617"
+ },
+ {
   "date": "2026-08-14",
   "title": "원자력안전기술원, 제1회 선진원자로 안전기술 심포지엄 개최",
   "summary": "한국원자력안전기술원(KINS)이 9월 1~2일 부산에서 선진원자로 안전기술 심포지엄을 개최하며, SMR 표준설계인가 대응 현황 등을 논의한다.",
@@ -660,6 +719,35 @@ window.SMR_NEWS = [
   "id": "6df00eff"
  },
  {
+  "date": "2026-08-14",
+  "title": "빌 게이츠 방문, HD현대의 원자로 용기 사업 박차",
+  "summary": "빌 게이츠와의 논의가 HD현대의 원자력 반응기 용기 사업 추진을 촉발했다.",
+  "summaryLong": "빌 게이츠(Bill Gates)의 한국 방문과 관련 논의가 HD현대의 원자로 용기 제조 사업 추진을 가속화하고 있다. 테라파워(TerraPower)와의 협력을 통해 소형모듈원자로(SMR) 공급망 확대에 나서고 있다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "HD현대, 테라파워",
+  "region": "KR",
+  "source": "tradewindsnews.com",
+  "url": "https://www.tradewindsnews.com/shipyards/bill-gates-talks-spur-hd-hyundai-push-into-nuclear-reactor-vessels/2-1-2029182",
+  "k": "bill gates talks spur hd hyundai push into nuclear reactor vessels",
+  "id": "cddf3e42"
+ },
+ {
+  "date": "2026-08-14",
+  "title": "빌 게이츠, 한국 방문해 정부·산업계와 SMR 협력 논의",
+  "summary": "빌 게이츠가 한국을 방문하여 정부 및 산업계와 소형모듈원자로(SMR) 협력을 논의했다.",
+  "summaryLong": "빌 게이츠(Bill Gates)가 한국을 방문하여 정부 및 산업계와 소형모듈원자로(SMR) 협력 방안을 논의했다. 테라파워(TerraPower)의 사업 추진과 한국 기업들과의 협력 강화를 위한 고위급 면담이 이루어졌다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "테라파워",
+  "region": "KR",
+  "source": "dongascience.com",
+  "url": "https://www.dongascience.com/en/news/79437",
+  "k": "bill gates visits south korea to discuss smr cooperation with government and industry",
+  "ko": 1,
+  "id": "c047249e"
+ },
+ {
   "date": "2026-08-13",
   "title": "인도, 2033년까지 자국산 SMR 5기 목표",
   "summary": "인도 정부가 2033년까지 자국 개발 소형모듈원자로 5기 배치를 목표로 한다고 발표했다.",
@@ -814,51 +902,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-08-13",
-  "title": "정기선 HD현대 회장, 빌 게이츠와 SMR 동맹 확대 협의",
-  "summary": "HD현대 정기선 회장이 빌 게이츠와 만나 소형모듈원자로(SMR) 사업의 동맹 확대를 주목하고 있다.",
-  "summaryLong": "HD현대의 정기선 회장이 빌 게이츠와 한국에서 재회하여 소형모듈원자로(SMR) 분야의 협력 관계 확대를 논의했다. 테라파워를 주도하는 빌 게이츠와의 협력은 한국의 원자력 기술 수준을 글로벌 시장에 선보이고, 조선 기술과의 결합을 통한 SMR 경쟁력 강화를 목표로 한다. 양측의 파트너십 확대는 한국의 에너지 산업 미래 먹거리 확보에 중요한 계기로 평가되고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "HD현대",
-  "region": "KR",
-  "source": "edaily.co.kr",
-  "url": "https://www.edaily.co.kr/News/Read?newsId=04047526645546992&mediaCodeNo=257",
-  "k": "정기선 hd현대 회장 빌 게이츠와 14일 재회 smr 동맹 확대 주목",
-  "ko": 1,
-  "op": 1,
-  "id": "914a0328"
- },
- {
-  "date": "2026-08-13",
-  "title": "이명박 전 대통령, SMR·양자 등 7대 미래 엔진에 전략 투자 제안",
-  "summary": "정부가 소형모듈원자로(SMR) 등을 포함한 7대 미래 기술에 전략적 투자를 추진하는 정책을 발표했다.",
-  "summaryLong": "대통령이 기술이 국력임을 강조하며, 소형모듈원자로(SMR)와 양자컴퓨터 등 7대 미래 에너지·기술 분야에 대한 전략적 투자를 발표했다. 이는 한국 정부가 글로벌 에너지 전환 시대에 선제적으로 대응하고, SMR을 국가 차원의 차세대 에너지 기술로 집중 육성하겠다는 의지를 보여주는 정책 선언이다. 해당 정책은 한국의 SMR 개발 및 상용화 로드맵 추진에 정부 지원이 뒷받침될 것임을 의미한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "m-economynews.com",
-  "url": "https://www.m-economynews.com/news/article.html?no=69693",
-  "k": "대통령 기술이 국력 smr 양자 등 7대 미래 엔진에 전략 투자",
-  "ko": 1,
-  "id": "4a092463"
- },
- {
-  "date": "2026-08-13",
-  "title": "블루에너지·GE버놀라 히타치, 텍사스 2.5GW 가스·핵융합 프로젝트 엔지니어링 단계 진입",
-  "summary": "블루에너지(Blue Energy)와 GE버놀라 히타치 원자력(GE Vernova Hitachi Nuclear Energy)이 텍사스 빅토리아(Victoria)의 2.5GW 가스·핵융합 전력 프로젝트 협력 계약을 체결하고 엔지니어링, 인허가, 안전분석 단계로 진행한다.",
-  "summaryLong": "블루에너지와 GE버놀라 히타치 원자력이 8월 13일 발표한 협력 계약에 따라 텍사스 빅토리아에 계획된 2.5GW 규모의 가스·핵융합 전력 프로젝트가 구체적 엔지니어링, 인허가, 안전분석 단계로 진입했다. 데이터센터 전력 개념으로 주목받던 이 프로젝트는 초기 협력 발표 단계에서 본격 개발 단계로 전환되며, 엔지니어링 정의와 규제 승인 절차가 진행될 예정이다. 이는 혁신적 소형 원자로 기술이 실제 산업 프로젝트에 적용되는 사례로 의미가 있다.",
-  "cat": "계약",
-  "type": "General",
-  "dev": "GE Vernova Hitachi",
-  "region": "US",
-  "source": "POWER Magazine",
-  "url": "https://www.powermag.com/texas-2-5-gw-gas-plus-nuclear-project-proceeds-to-engineering-licensing-phase/",
-  "k": "texas 2 5 gw gas plus nuclear project proceeds to engineering licensing phase",
-  "id": "7eaa0d3e"
- },
- {
-  "date": "2026-08-13",
   "title": "엑스에너지, 2026년 2분기 실적 발표 및 우라늄 농축 공급 계약 체결",
   "summary": "엑스에너지(X-Energy)가 2026년 2분기 매출 5,460만 달러 실적을 발표하고 센트러스 에너지(Centrus Energy)와 고농축저농축 우라늄(HALEU) 농축 서비스 장기 공급 계약을 체결했다.",
   "summaryLong": "엑스에너지가 2026년 2분기 매출 및 보조금 수입 5,460만 달러를 기록했다고 발표했으며, 이는 2025년 2분기 2,150만 달러 대비 증가한 수치이다. 또한 센트러스 에너지와 고농축저농축 우라늄(HALEU) 농축 서비스 장기 공급 계약을 체결하고, SGL카본(SGL Carbon)과의 협력 계약을 확대하기로 합의했다. 이는 엑스에너지의 고온가스로(HTGR) 개발이 상용화 단계로 진전되고 있음을 보여주는 중요한 성과이다.",
@@ -884,20 +927,6 @@ window.SMR_NEWS = [
   "url": "https://etfdb.com/nuclear-energy-content-hub/xenergy-centrus-partner-uranium-enrichment/",
   "k": "x energy centrus partner on uranium enrichment how nukz plays the nuclear value chain",
   "id": "28af135e"
- },
- {
-  "date": "2026-08-13",
-  "title": "미국, 엑스에너지 원자로에 최대 21.5억 달러 지원",
-  "summary": "미국이 엑스에너지 원자로 개발 프로젝트에 최대 21.5억 달러 규모의 정부 지원을 결정했다.",
-  "summaryLong": "미국 정부가 엑스에너지의 고온가스로(HTGR) 개발 프로젝트에 최대 21.5억 달러 규모의 공적 자금 지원을 하기로 결정했다. 이는 미국 에너지부(DOE)의 첨단 원자로 개발 지원 정책의 일환으로, 차세대 원자로 기술 상용화 촉진을 목표로 한다. 이 규모의 정부 지원은 엑스에너지의 기술 개발과 프로젝트 건설을 가속화하는 중요한 동력이 될 것으로 예상된다.",
-  "cat": "정책",
-  "type": "HTGR",
-  "dev": "X-Energy",
-  "region": "US",
-  "source": "oilprice.com",
-  "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Backs-X-Energy-Reactor-With-Up-to-215-Billion.html",
-  "k": "u s backs x energy reactor with up to 2 15 billion crude oil prices today",
-  "id": "26996a92"
  },
  {
   "date": "2026-08-13",
@@ -1313,21 +1342,6 @@ window.SMR_NEWS = [
   "id": "1164ecf0"
  },
  {
-  "date": "2026-06-22",
-  "title": "오클로(Oklo) 주가 최고점 대비 70% 하락…핵심 과제는 규제 승인",
-  "summary": "소형모듈원자로·첨단로 개발사 오클로(Oklo)의 주가가 최고점에서 70% 하락했으며, 회사의 성공을 위해서는 규제 진전이 필수적이라는 분석이 제시되고 있다.",
-  "summaryLong": "소형모듈원자로(SMR)·용융염로 개발사 오클로(Oklo)의 주가가 최고점 대비 70% 급락했다. 업계 분석에 따르면 오클로를 포함한 뉴스케일(NuScale), 엑스에너지(X-energy), 테라파워(TerraPower), 카이로스(Kairos Power), 롤스로이스 SMR(Rolls-Royce SMR) 등 첨단로 개발사들의 성공을 위해서는 규제 당국의 설계 승인 및 상용화 허가 등 규제 진전이 절대적 조건이다. 현재 낮은 주가에도 불구하고 규제 진전 여부가 이들 회사의 향후 전망을 결정할 핵심 변수로 작용하고 있다.",
-  "cat": "인허가",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "tikr.com",
-  "url": "https://www.tikr.com/blog/oklo-stock-has-fallen-70-from-its-peak-here-is-what-it-would-take-for-the-nuclear-bet-to-pay-off",
-  "k": "oklo stock has fallen 70 from its peak here is what it would take for the nuclear bet to pay off",
-  "op": 1,
-  "id": "07b2ef53"
- },
- {
   "date": "2026-06-03",
   "title": "한국 i-SMRDA, 터키 Nuclean과 SMR 협력 협약 체결",
   "summary": "한국의 i-SMRDA(i-Small Modular Reactor Development Alliance)와 터키의 Nuclean이 소형모듈원자로(SMR) 개발·보급을 위한 협력 양해각서를 체결했다.",
@@ -1382,5 +1396,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-15 14:05 KST";
-window.SMR_TOTAL = 2074;
+window.SMR_UPDATED = "2026-08-16 06:50 KST";
+window.SMR_TOTAL = 2080;

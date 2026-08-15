@@ -82,6 +82,65 @@ window.SMR_NEWS = [
     "id": "89d48a36"
   },
   {
+    "date": "2026-08-15",
+    "title": "오클로(Oklo), 메타(Meta) 데이터센터 전력 공급 파트너십 체결",
+    "summary": "오클로(Oklo)가 메타(Meta)와 데이터센터 전력 공급을 위한 파트너십을 체결했다.",
+    "summaryLong": "오클로(Oklo)가 메타(Meta)와 마이크로원자로를 통한 데이터센터 전력 공급 협력을 발표했다. 이는 오클로의 마이크로원자로 기술이 대규모 데이터센터의 전력 수요를 충족하기 위해 실제 기업과의 장기 공급 계약 추진으로 이어지는 중요한 사업화 마일스톤이다. 기사는 이러한 장기 계약 추진 과정에서의 시간 소요와 투자자 인내심 필요성도 언급하고 있다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "nai500.com",
+    "url": "https://nai500.com/blog/2026/08/nuclear-newcomer-oklo-partners-with-meta-to-power-data-centers-a-thirty-year-marathon-tests-investor-patience/",
+    "k": "nuclear newcomer oklo partners with meta to power data centers a thirty year marathon tests investor patience",
+    "id": "d5af1f64"
+  },
+  {
+    "date": "2026-08-15",
+    "title": "일본 청년 58.3% 원전 재가동·교체 찬성…SMR 기대감 70%",
+    "summary": "일본 청년층의 58.3%가 원전 재가동과 교체를 지지하며, 70%가 소형모듈원자로(SMR)에 높은 기대감을 보이고 있다.",
+    "summaryLong": "일본의 청년층을 대상으로 한 여론조사에서 58.3%가 원자력발전소의 재가동 및 교체를 찬성하는 것으로 나타났으며, 소형모듈원자로(SMR)에 대해서는 70%가 기대감을 표현했다. 이는 일본에서 SMR에 대한 사회적 수용성이 높아지고 있음을 보여주는 결과로, SMR 도입 추진에 유리한 여론 환경을 제시한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "JP",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5672",
+    "k": "일본 청년 58 3 원전 재가동 교체 찬성 smr 기대감 70",
+    "ko": 1,
+    "id": "9f977484"
+  },
+  {
+    "date": "2026-08-15",
+    "title": "미국(US) 버지니아 캠벨카운티 SMR 추진…주민들 송전망·용수 우려",
+    "summary": "미국 버지니아 주 캠벨카운티에서 추진 중인 SMR 프로젝트에 대해 지역 주민들이 인프라와 환경 영향을 우려하고 있다.",
+    "summaryLong": "미국(US) 버지니아(Virginia) 주 캠벨카운티(Campbell County)에서 소형모듈원자로(SMR) 프로젝트가 추진되고 있는 가운데, 지역 주민들이 송전망 확충과 냉각수 용수 확보 등 인프라 관련 우려를 제기하고 있다. SMR의 지역사회 수용성 확보가 미국 내 프로젝트 추진의 중요한 과제임을 보여주며, 지역 주민의 이해와 동의가 상용화 추진에 필수적임을 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5674",
+    "k": "버지니아 캠벨카운티 smr 추진 주민들 송전망 용수 우려",
+    "ko": 1,
+    "id": "9d97715e"
+  },
+  {
+    "date": "2026-08-15",
+    "title": "미국(US) 에너지부(DOE), 엑스에너지(X-energy) SMR 프로젝트에 10억 달러 추가 지원",
+    "summary": "미국 에너지부(DOE)가 엑스에너지의 소형모듈원자로 개발 프로젝트에 10억 달러 규모의 추가 자금을 지원한다.",
+    "summaryLong": "미국(US) 에너지부(DOE)가 엑스에너지(X-energy)의 소형모듈원자로(SMR) 개발 프로젝트에 10억 달러 규모의 추가 정부 보조금을 지원하기로 결정했다. 이는 미국 연방정부의 차세대 원전 기술 상용화 추진 의지를 보여주며, 엑스에너지의 고온가스로(HTGR) 방식 SMR 개발이 미국 국책 프로그램의 중심에 있음을 의미한다. 정부 자금 지원 강화는 SMR의 상용화 일정 가속화와 기술 개발 실현 가능성 상승을 의미한다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "엑스에너지",
+    "region": "US",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5673",
+    "k": "에너지부 x 에너지 smr 프로젝트에 10억 달러 추가 지원",
+    "ko": 1,
+    "id": "a0977617"
+  },
+  {
     "date": "2026-08-14",
     "title": "원자력안전기술원, 제1회 선진원자로 안전기술 심포지엄 개최",
     "summary": "한국원자력안전기술원(KINS)이 9월 1~2일 부산에서 선진원자로 안전기술 심포지엄을 개최하며, SMR 표준설계인가 대응 현황 등을 논의한다.",
@@ -665,6 +724,35 @@ window.SMR_NEWS = [
     "url": "https://www.upi.com/Top_News/World-News/2026/08/14/doosan-enerbility-terrapower-nuclear-equipment-contract/4361786740958/",
     "k": "doosan enerbility wins terrapower nuclear equipment contract",
     "id": "6df00eff"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "빌 게이츠 방문, HD현대의 원자로 용기 사업 박차",
+    "summary": "빌 게이츠와의 논의가 HD현대의 원자력 반응기 용기 사업 추진을 촉발했다.",
+    "summaryLong": "빌 게이츠(Bill Gates)의 한국 방문과 관련 논의가 HD현대의 원자로 용기 제조 사업 추진을 가속화하고 있다. 테라파워(TerraPower)와의 협력을 통해 소형모듈원자로(SMR) 공급망 확대에 나서고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "HD현대, 테라파워",
+    "region": "KR",
+    "source": "tradewindsnews.com",
+    "url": "https://www.tradewindsnews.com/shipyards/bill-gates-talks-spur-hd-hyundai-push-into-nuclear-reactor-vessels/2-1-2029182",
+    "k": "bill gates talks spur hd hyundai push into nuclear reactor vessels",
+    "id": "cddf3e42"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "빌 게이츠, 한국 방문해 정부·산업계와 SMR 협력 논의",
+    "summary": "빌 게이츠가 한국을 방문하여 정부 및 산업계와 소형모듈원자로(SMR) 협력을 논의했다.",
+    "summaryLong": "빌 게이츠(Bill Gates)가 한국을 방문하여 정부 및 산업계와 소형모듈원자로(SMR) 협력 방안을 논의했다. 테라파워(TerraPower)의 사업 추진과 한국 기업들과의 협력 강화를 위한 고위급 면담이 이루어졌다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "테라파워",
+    "region": "KR",
+    "source": "dongascience.com",
+    "url": "https://www.dongascience.com/en/news/79437",
+    "k": "bill gates visits south korea to discuss smr cooperation with government and industry",
+    "ko": 1,
+    "id": "c047249e"
   },
   {
     "date": "2026-08-13",
@@ -30180,4 +30268,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-15 14:05 KST";
+window.SMR_UPDATED = "2026-08-16 06:50 KST";
