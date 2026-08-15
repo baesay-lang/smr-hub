@@ -67,6 +67,21 @@ window.SMR_NEWS = [
     "id": "9e58ce00"
   },
   {
+    "date": "2026-08-15",
+    "title": "SK이노베이션·테라파워(TerraPower), 나트륨(Natrium) SMR 사업협력 합의",
+    "summary": "SK이노베이션과 테라파워가 소듐냉각 소형모듈원자로(SMR) '나트륨' 사업의 글로벌 확대 및 국내 적용 가능성 검토를 위한 사업협력 주요 조건 합의서를 체결했다.",
+    "summaryLong": "SK이노베이션의 추형욱 대표이사와 테라파워의 크리스 르베크(Chris Levesque) CEO가 14일 서울에서 만나 나트륨 SMR 사업 협력 및 차세대 SMR의 글로벌 시장 진출을 위한 주요 조건 합의서를 체결했다. 두 회사는 테라파워의 차세대 비경수형 소형모듈원자로인 나트륨의 국내 적용 가능성을 검토하고 글로벌 사업 확대를 추진하기로 합의했다. SK이노베이션과 SK주식회사는 2022년 테라파워에 총 2억5000만달러를 공동 투자한 바 있으며, 이번 협력은 이러한 투자 기반 위에서 사업화로 진전되는 단계다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "SK이노베이션, 테라파워",
+    "region": "KR",
+    "source": "투데이에너지 - 전체기사",
+    "url": "https://www.todayenergy.kr/news/articleView.html?idxno=301613",
+    "k": "sk이노 테라파워 나트륨 smr 사업협력 맞손",
+    "ko": 1,
+    "id": "89d48a36"
+  },
+  {
     "date": "2026-08-14",
     "title": "원자력안전기술원, 제1회 선진원자로 안전기술 심포지엄 개최",
     "summary": "한국원자력안전기술원(KINS)이 9월 1~2일 부산에서 선진원자로 안전기술 심포지엄을 개최하며, SMR 표준설계인가 대응 현황 등을 논의한다.",
@@ -636,6 +651,20 @@ window.SMR_NEWS = [
     "k": "두산에너빌리티 차세대 원전 공급망 선점 일보 전진",
     "ko": 1,
     "id": "0caa3f01"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "두산에너빌리티, 테라파워 원자력 장비 계약 수주",
+    "summary": "두산에너빌리티(Doosan Enerbility)가 테라파워의 원자력 장비 계약을 수주했다.",
+    "summaryLong": "두산에너빌리티가 테라파워의 원자력 장비 공급 계약을 수주했다고 보도되었다. 구체적인 장비 사양, 납기일정, 계약 규모 등은 스니펫에 포함되어 있지 않으나, 한국의 주요 원자력 부품 공급업체가 미국 SMR 개발사와의 계약을 확보하는 의미 있는 성과다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "두산에너빌리티, 테라파워",
+    "region": "KR",
+    "source": "upi.com",
+    "url": "https://www.upi.com/Top_News/World-News/2026/08/14/doosan-enerbility-terrapower-nuclear-equipment-contract/4361786740958/",
+    "k": "doosan enerbility wins terrapower nuclear equipment contract",
+    "id": "6df00eff"
   },
   {
     "date": "2026-08-13",
@@ -30151,4 +30180,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-15 13:42 KST";
+window.SMR_UPDATED = "2026-08-15 14:05 KST";
