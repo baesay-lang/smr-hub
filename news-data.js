@@ -8,6 +8,35 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-08-15",
+    "title": "테라파워, 8기 나트륨 원자로 EPC로 현대중공업 계약",
+    "summary": "테라파워가 8기의 나트륨(Natrium) 원자로 건설을 위해 현대중공업을 엔지니어링·조달·건설(EPC) 계약자로 선정했다.",
+    "summaryLong": "테라파워가 고속로 기술인 나트륨(Natrium) 원자로 8기의 엔지니어링·조달·건설(EPC) 사업을 현대중공업에 의뢰하는 계약을 체결했다. 현대중공업은 테라파워의 소형모듈원자로 전 지구적 배치를 위한 주요 산업 파트너로서 다중 기기 설계, 제조 및 건설 업무를 담당하게 된다. 이는 테라파워의 차세대 원자로 상용화 추진에 있어 중요한 산업협력 이정표를 의미한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "neutronbytes.com",
+    "url": "https://neutronbytes.com/2026/08/14/terrapower-signs-hyundai-as-epc-for-eight-natrium-reactors/",
+    "k": "terrapower signs hyundai as epc for eight natrium reactors",
+    "id": "f5cc0eff"
+  },
+  {
+    "date": "2026-08-15",
+    "title": "산업부-테라파워(TerraPower), 4세대 SMR 글로벌 공급망 협력 본격화",
+    "summary": "산업통상자원부와 테라파워(TerraPower)가 4세대 소형모듈원자로(SMR) 글로벌 공급망 협력을 강화하고 있으며, 한국의 원전 파운드리 생태계와 결합을 추진 중이다.",
+    "summaryLong": "산업통상자원부와 미국의 테라파워(TerraPower)가 4세대 소형모듈원자로(SMR) 글로벌 공급망 협력을 본격화하고 있다. 양측은 한국의 원자력 부품·기자재 제조 생태계를 테라파워의 SMR 사업과 연계하여 한국 원전 기술의 글로벌 경쟁력을 강화하려는 계획이다. 이는 테라파워의 SMR 상용화 추진 과정에서 한국 기업들의 참여 확대와 공급망 다각화를 의미하며, 한국 원전 산업의 신성장 동력 창출로 평가된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "mtnews.net",
+    "url": "http://www.mtnews.net/news/articleView.html?idxno=25665",
+    "k": "산업부 테라파워 4세대 smr 글로벌 공급망 협력 본격화 원전 파운드리 생태계 결합 추진",
+    "ko": 1,
+    "id": "54476e88"
+  },
+  {
     "date": "2026-08-14",
     "title": "원자력안전기술원, 제1회 선진원자로 안전기술 심포지엄 개최",
     "summary": "한국원자력안전기술원(KINS)이 9월 1~2일 부산에서 선진원자로 안전기술 심포지엄을 개최하며, SMR 표준설계인가 대응 현황 등을 논의한다.",
@@ -533,6 +562,35 @@ window.SMR_NEWS = [
     "k": "빌 게이츠 정재계 연쇄회동 ai 전력난 해법 smr 협력 본격화",
     "ko": 1,
     "id": "369a9e11"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "한국 원전 기업들, 테라파워(TerraPower) SMR 사업 공급망 확대",
+    "summary": "SK, HD현대 등 국내 대기업이 빌 게이츠가 이끄는 테라파워의 소형모듈원자로(SMR) 사업에 투자와 기자재 제작으로 참여하며 미국 시장 진출을 추진 중이다.",
+    "summaryLong": "산업통상자원부 장관과 테라파워 이사회 의장 빌 게이츠가 서울에서 만나 한국 기업의 테라파워 SMR 사업 참여 확대 방안을 논의했다. 현재 SK와 HD현대(Hyundai) 등이 테라파워에 재무적 투자를 통해 협력하고 있으며, 향후 기자재 제작에서 시공·운영과 중소·중견 원전기업까지 참여 범위를 확대할 계획이다. 이를 통해 한국 원전 공급망의 새로운 수출시장을 확보한다는 구상이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "SK, HD현대",
+    "region": "US",
+    "source": "에너지신문 - 전체기사",
+    "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=227473",
+    "k": "k 원전 공급망 빌 게이츠 smr 타고 시장 입성한다",
+    "ko": 1,
+    "id": "0cac7d98"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "테라파워-SK이노베이션, 글로벌 SMR 사업 예비협약 체결",
+    "summary": "미국 테라파워와 한국 SK이노베이션이 글로벌 소형모듈원자로 사업에 대한 예비협약(MOU)을 체결했다.",
+    "summaryLong": "테라파워와 SK이노베이션이 글로벌 소형모듈원자로(SMR) 프로젝트에 관한 예비협약을 체결했다고 발표했다. 양사는 이 협약을 통해 나트륨 원자로 등 차세대 원자로 기술의 국제 배치 및 상용화 추진에 협력하기로 합의했다. 이는 한국 에너지 기업이 글로벌 차세대 원전 시장에 진출하기 위한 중요한 계약으로, 향후 본협약으로 발전할 가능성이 높다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "KR",
+    "source": "energynow.com",
+    "url": "https://energynow.com/2026/08/u-s-terrapower-south-koreas-sk-innovation-sign-preliminary-deal-on-global-smr-projects/",
+    "k": "u s terrapower south korea s sk innovation sign preliminary deal on global smr projects",
+    "id": "244a25b1"
   },
   {
     "date": "2026-08-13",
@@ -30033,4 +30091,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-15 08:04 KST";
+window.SMR_UPDATED = "2026-08-15 13:06 KST";
