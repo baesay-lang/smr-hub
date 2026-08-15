@@ -37,6 +37,36 @@ window.SMR_NEWS = [
     "id": "54476e88"
   },
   {
+    "date": "2026-08-15",
+    "title": "정부, 미래경쟁력 확보 위해 '7대 SEED' 발표…SMR 포함",
+    "summary": "정부가 미래 국가경쟁력 확보를 위해 발표한 '7대 SEED' 전략에 소형모듈원자로(SMR)가 포함되어, 10~20년 후 독자적 국가 지위 확보를 목표로 한다.",
+    "summaryLong": "정부가 저성장 기조와 AI 기술패권 경쟁 속에서 기존 산업만으로는 미래를 담보할 수 없다고 판단, SMR(소형모듈원자로), 핵융합, 양자, 우주·항공, 첨단바이오, 재생에너지 고효율화, 핵심광물·소부장 강화 등 7대 SEED를 범정부적 장기투자 전략으로 발표했다. 3대 메가 프로젝트(반도체, 피지컬 AI, AI 데이터센터)와 함께 아직 시장이 형성되지 않았지만 장기 파급력이 큰 분야들을 선제적으로 육성해 미래 먹거리를 확보하려는 전략이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "투데이에너지 - 전체기사",
+    "url": "https://www.todayenergy.kr/news/articleView.html?idxno=301618",
+    "k": "심층해설 7대 seed 로 10 20년 뒤의 국가경쟁력 심는다",
+    "ko": 1,
+    "id": "90d4953b"
+  },
+  {
+    "date": "2026-08-15",
+    "title": "SMR, 정부 정책과 기업 투자로 새 성장동력 부상",
+    "summary": "정부의 SMR 지원 정책과 기업들의 투자로 소형모듈원자로가 새로운 성장동력으로 주목받고 있다.",
+    "summaryLong": "정부의 정책적 지원과 민간 기업들의 활발한 투자로 소형모듈원자로(SMR)가 국내 에너지 산업의 새로운 성장동력으로 부상하고 있다. SK이노베이션 등 주요 기업들이 첨단 원자로 개발에 나서고 있으며, 정부도 관련 규제 정비와 지원 정책을 강화하고 있는 상황이다. 이는 탄소중립 목표 달성과 에너지 자립성 강화를 위한 국가 전략의 일환으로 평가된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "mediapen.com",
+    "url": "https://www.mediapen.com/news/view/1116698",
+    "k": "정부 키우고 기업은 뛴다 smr 새 성장동력 부상",
+    "ko": 1,
+    "id": "9e58ce00"
+  },
+  {
     "date": "2026-08-14",
     "title": "원자력안전기술원, 제1회 선진원자로 안전기술 심포지엄 개최",
     "summary": "한국원자력안전기술원(KINS)이 9월 1~2일 부산에서 선진원자로 안전기술 심포지엄을 개최하며, SMR 표준설계인가 대응 현황 등을 논의한다.",
@@ -591,6 +621,21 @@ window.SMR_NEWS = [
     "url": "https://energynow.com/2026/08/u-s-terrapower-south-koreas-sk-innovation-sign-preliminary-deal-on-global-smr-projects/",
     "k": "u s terrapower south korea s sk innovation sign preliminary deal on global smr projects",
     "id": "244a25b1"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "두산에너빌리티, 테라파워(TerraPower) 나트륨 원자로 핵심 부품 수주",
+    "summary": "두산에너빌리티가 테라파워의 나트륨(Natrium) 소형모듈원자로(SMR) 프로젝트에서 원자로 보호용기, 지지구조물, 내부구조물을 공급하기로 결정됐다.",
+    "summaryLong": "두산에너빌리티는 미국 빌 게이츠가 주도하는 테라파워(TerraPower)가 미국 와이오밍주 케머러에 건설하는 나트륨(Natrium) 소형모듈원자로(SMR) 프로젝트에서 원자로 보호용기, 원자로 지지구조물, 원자로 내부구조물을 공급한다고 발표했다. 이번 수주는 향후 후속호기 및 다른 SMR 노형으로의 사업 확대를 위한 교두보 역할을 할 것으로 예상되며, 글로벌 SMR 시장이 기술개발 단계에서 실제 건설·제조 단계로 전환되는 시점에서 우리 기업의 국제 공급망 경쟁력을 입증하는 의미를 갖는다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "두산에너빌리티",
+    "region": "KR",
+    "source": "에너지신문 - 전체기사",
+    "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=227463",
+    "k": "두산에너빌리티 차세대 원전 공급망 선점 일보 전진",
+    "ko": 1,
+    "id": "0caa3f01"
   },
   {
     "date": "2026-08-13",
@@ -1504,6 +1549,21 @@ window.SMR_NEWS = [
     "k": "한국원자력산업협회 등 원전산업계 7대 seed 프로젝트 smr 선정 환영",
     "ko": 1,
     "id": "109ee22c"
+  },
+  {
+    "date": "2026-08-12",
+    "title": "원자력산업협회, SMR 7대 SEED 프로젝트 선정 환영",
+    "summary": "한국 원자력산업협회가 소형모듈원자로(SMR)가 정부의 7대 SEED 프로젝트로 선정된 것을 환영했다.",
+    "summaryLong": "한국 원자력산업협회가 소형모듈원자로(SMR)가 정부의 7대 SEED(전략형 핵심사업) 프로젝트에 선정된 것을 긍정적으로 평가하고 환영 성명을 발표했다. 이는 한국 정부가 SMR을 국책 첨단 기술 프로젝트로 공식 지정한 것으로, SMR 산업 육성을 위한 정부 정책 강화를 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "e-platform.net",
+    "url": "http://www.e-platform.net/news/articleView.html?idxno=104525",
+    "k": "원자력산업협회 smr 7대 seed 프로젝트 선정 환영",
+    "ko": 1,
+    "id": "419d426a"
   },
   {
     "date": "2026-08-11",
@@ -30091,4 +30151,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-15 13:06 KST";
+window.SMR_UPDATED = "2026-08-15 13:42 KST";

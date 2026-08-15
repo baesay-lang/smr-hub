@@ -30,6 +30,36 @@ window.SMR_NEWS = [
   "id": "54476e88"
  },
  {
+  "date": "2026-08-15",
+  "title": "정부, 미래경쟁력 확보 위해 '7대 SEED' 발표…SMR 포함",
+  "summary": "정부가 미래 국가경쟁력 확보를 위해 발표한 '7대 SEED' 전략에 소형모듈원자로(SMR)가 포함되어, 10~20년 후 독자적 국가 지위 확보를 목표로 한다.",
+  "summaryLong": "정부가 저성장 기조와 AI 기술패권 경쟁 속에서 기존 산업만으로는 미래를 담보할 수 없다고 판단, SMR(소형모듈원자로), 핵융합, 양자, 우주·항공, 첨단바이오, 재생에너지 고효율화, 핵심광물·소부장 강화 등 7대 SEED를 범정부적 장기투자 전략으로 발표했다. 3대 메가 프로젝트(반도체, 피지컬 AI, AI 데이터센터)와 함께 아직 시장이 형성되지 않았지만 장기 파급력이 큰 분야들을 선제적으로 육성해 미래 먹거리를 확보하려는 전략이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "투데이에너지 - 전체기사",
+  "url": "https://www.todayenergy.kr/news/articleView.html?idxno=301618",
+  "k": "심층해설 7대 seed 로 10 20년 뒤의 국가경쟁력 심는다",
+  "ko": 1,
+  "id": "90d4953b"
+ },
+ {
+  "date": "2026-08-15",
+  "title": "SMR, 정부 정책과 기업 투자로 새 성장동력 부상",
+  "summary": "정부의 SMR 지원 정책과 기업들의 투자로 소형모듈원자로가 새로운 성장동력으로 주목받고 있다.",
+  "summaryLong": "정부의 정책적 지원과 민간 기업들의 활발한 투자로 소형모듈원자로(SMR)가 국내 에너지 산업의 새로운 성장동력으로 부상하고 있다. SK이노베이션 등 주요 기업들이 첨단 원자로 개발에 나서고 있으며, 정부도 관련 규제 정비와 지원 정책을 강화하고 있는 상황이다. 이는 탄소중립 목표 달성과 에너지 자립성 강화를 위한 국가 전략의 일환으로 평가된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "mediapen.com",
+  "url": "https://www.mediapen.com/news/view/1116698",
+  "k": "정부 키우고 기업은 뛴다 smr 새 성장동력 부상",
+  "ko": 1,
+  "id": "9e58ce00"
+ },
+ {
   "date": "2026-08-14",
   "title": "원자력안전기술원, 제1회 선진원자로 안전기술 심포지엄 개최",
   "summary": "한국원자력안전기술원(KINS)이 9월 1~2일 부산에서 선진원자로 안전기술 심포지엄을 개최하며, SMR 표준설계인가 대응 현황 등을 논의한다.",
@@ -586,6 +616,21 @@ window.SMR_NEWS = [
   "id": "244a25b1"
  },
  {
+  "date": "2026-08-14",
+  "title": "두산에너빌리티, 테라파워(TerraPower) 나트륨 원자로 핵심 부품 수주",
+  "summary": "두산에너빌리티가 테라파워의 나트륨(Natrium) 소형모듈원자로(SMR) 프로젝트에서 원자로 보호용기, 지지구조물, 내부구조물을 공급하기로 결정됐다.",
+  "summaryLong": "두산에너빌리티는 미국 빌 게이츠가 주도하는 테라파워(TerraPower)가 미국 와이오밍주 케머러에 건설하는 나트륨(Natrium) 소형모듈원자로(SMR) 프로젝트에서 원자로 보호용기, 원자로 지지구조물, 원자로 내부구조물을 공급한다고 발표했다. 이번 수주는 향후 후속호기 및 다른 SMR 노형으로의 사업 확대를 위한 교두보 역할을 할 것으로 예상되며, 글로벌 SMR 시장이 기술개발 단계에서 실제 건설·제조 단계로 전환되는 시점에서 우리 기업의 국제 공급망 경쟁력을 입증하는 의미를 갖는다.",
+  "cat": "계약",
+  "type": "SFR",
+  "dev": "두산에너빌리티",
+  "region": "KR",
+  "source": "에너지신문 - 전체기사",
+  "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=227463",
+  "k": "두산에너빌리티 차세대 원전 공급망 선점 일보 전진",
+  "ko": 1,
+  "id": "0caa3f01"
+ },
+ {
   "date": "2026-08-13",
   "title": "인도, 2033년까지 자국산 SMR 5기 목표",
   "summary": "인도 정부가 2033년까지 자국 개발 소형모듈원자로 5기 배치를 목표로 한다고 발표했다.",
@@ -856,50 +901,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-08-13",
-  "title": "빌 게이츠 방한, 정부·산업계와 SMR 협력 논의",
-  "summary": "마이크로소프트(MS) 공동창업자이자 테라파워(TerraPower) 창업자인 빌 게이츠가 한국을 방문하여 정부 및 산업계와 소형모듈원자로(SMR) 협력을 논의할 예정이다.",
-  "summaryLong": "마이크로소프트(MS) 공동창업자이자 차세대 원전 기업 테라파워(TerraPower) 창업자인 빌 게이츠 게이츠재단(Gates Foundation) 이사장이 한국을 방문한다. 기업과 정부 간 SMR 협력 논의를 예정하고 있으며, 이는 테라파워의 한국 시장 진출 또는 협력 가능성을 시사한다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "KR",
-  "source": "연합뉴스 최신기사",
-  "url": "https://www.yna.co.kr/view/AKR20260813168500017",
-  "k": "빌 게이츠 1년 만에 방한 정 재계와 smr 협력 논의",
-  "ko": 1,
-  "op": 1,
-  "id": "8ae872df"
- },
- {
-  "date": "2026-08-13",
-  "title": "ELQ S.A., 우크라이나 특수목적법인 인수로 소형모듈원자로 사업 추진",
-  "summary": "ELQ S.A.가 우크라이나의 특수목적법인(SPV)을 인수하여 소형모듈원자로(SMR) 프로젝트 개발을 추진한다.",
-  "summaryLong": "ELQ S.A.가 우크라이나의 특수목적법인(SPV)을 인수함으로써 소형모듈원자로(SMR) 관련 프로젝트 개발을 본격적으로 추진한다. 이는 우크라이나 지역에서의 SMR 사업 포트폴리오 확대를 의미한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "ELQ S.A.",
-  "region": "EU",
-  "source": "tipranks.com",
-  "url": "https://www.tipranks.com/news/company-announcements/elq-s-a-acquires-ukrainian-spv-to-drive-small-modular-reactor-projects",
-  "k": "elq s a acquires ukrainian spv to drive small modular reactor projects",
-  "id": "51dee545"
- },
- {
-  "date": "2026-08-13",
-  "title": "인도, 2033년까지 자체 개발 소형모듈원자로 5기 이상 추진 계획",
-  "summary": "인도가 2033년까지 자국 기술로 개발한 소형모듈원자로(SMR) 5기 이상을 건설할 계획을 밝혔다.",
-  "summaryLong": "인도 정부가 2033년까지 자체 개발 기술의 소형모듈원자로(SMR) 최소 5기 이상을 완성할 계획을 수립했다. 이는 인도의 에너지 안보 강화 및 자립적 원자력 산업 육성 전략의 일환이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "JP",
-  "source": "business-standard.com",
-  "url": "https://www.business-standard.com/india-news/india-five-indigenous-small-modular-reactors-2033-nuclear-energy-mission-126081300850_1.html",
-  "k": "india plans at least five indigenous small modular reactors by 2033",
-  "id": "88092296"
- },
- {
-  "date": "2026-08-13",
   "title": "다우·엑스에너지, 시드리프트 원전 프로젝트에 미국 에너지부(DOE) 10억 달러 펀딩 수령",
   "summary": "다우(Dow)와 엑스에너지(X-Energy)가 텍사스 시드리프트(Seadrift)의 원전 프로젝트를 위해 미국 에너지부(DOE)로부터 10억 달러 규모의 펀딩을 받기로 했다.",
   "summaryLong": "다우(Dow)와 엑스에너지(X-Energy)의 협력 프로젝트인 텍사스 시드리프트(Seadrift) 원전 개발사업이 미국 에너지부(DOE)로부터 최대 10억 달러 규모의 정부 펀딩을 지원받기로 확정되었다. 이는 산업용 고온 열 공급 등 첨단 원자력 기술의 상용화를 촉진하기 위한 정부 정책의 일환이다.",
@@ -983,22 +984,6 @@ window.SMR_NEWS = [
   "url": "https://www.powermag.com/curio-nuscale-framatome-join-to-support-fuel-solution-for-advanced-reactors/",
   "k": "curio nuscale framatome join to support fuel solution for advanced reactors",
   "id": "8c7ace4e"
- },
- {
-  "date": "2026-08-06",
-  "title": "태웅, 미국 테라파워(TerraPower) SMR 2호기 추가 수주 추진",
-  "summary": "태웅이 미국 테라파워의 소형모듈원자로 2호기 추가 수주를 추진 중이다.",
-  "summaryLong": "한국 철강 기업 태웅이 미국의 첨단로 개발사 테라파워(TerraPower)의 소형모듈원자로(SMR) 2호기에 대한 추가 수주를 추진하고 있다. 이는 태웅의 SMR 관련 사업 포트폴리오 확대를 의미하며, 글로벌 SMR 시장에서 한국 공급업체의 입지 강화를 보여주는 사례다. 구체적인 계약 체결 시점과 규모는 추가 확인이 필요하다.",
-  "cat": "계약",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "US",
-  "source": "snmnews.com",
-  "url": "http://www.snmnews.com/news/articleView.html?idxno=573017",
-  "k": "태웅 테라파워 smr 2호기 추가 수주 추진",
-  "ko": 1,
-  "op": 1,
-  "id": "6a125756"
  },
  {
   "date": "2026-08-05",
@@ -1383,5 +1368,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-15 13:06 KST";
-window.SMR_TOTAL = 2068;
+window.SMR_UPDATED = "2026-08-15 13:42 KST";
+window.SMR_TOTAL = 2072;
