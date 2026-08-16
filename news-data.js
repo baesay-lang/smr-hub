@@ -216,6 +216,21 @@ window.SMR_NEWS = [
     "id": "d1645cb5"
   },
   {
+    "date": "2026-08-15",
+    "title": "오클로(Oklo)의 마이크로리액터, 핵에너지 붐을 선도할 위치",
+    "summary": "오클로의 마이크로리액터가 핵에너지 성장 기회를 활용하기에 유리한 위치에 있다.",
+    "summaryLong": "오클로(Oklo)의 초소형모듈원자로(마이크로리액터) 기술이 현재의 핵에너지 붐 속에서 시장 기회를 잡기에 좋은 입지를 가지고 있다는 분석이다. 오클로의 고속로(Fast Reactor) 기술과 사업 전략이 시장 수요와 정책 지원 환경의 변화에 부합하고 있음을 나타낸다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "intellectia.ai",
+    "url": "https://intellectia.ai/news/stock/oklos-microreactors-position-it-for-nuclear-energy-boom",
+    "k": "oklo s microreactors position it for nuclear energy boom",
+    "op": 1,
+    "id": "219216e4"
+  },
+  {
     "date": "2026-08-14",
     "title": "원자력안전기술원, 제1회 선진원자로 안전기술 심포지엄 개최",
     "summary": "한국원자력안전기술원(KINS)이 9월 1~2일 부산에서 선진원자로 안전기술 심포지엄을 개최하며, SMR 표준설계인가 대응 현황 등을 논의한다.",
@@ -873,6 +888,20 @@ window.SMR_NEWS = [
     "id": "938914bd"
   },
   {
+    "date": "2026-08-14",
+    "title": "테라파워, 한국 지도자와의 회담 이후 나트륨 원자로 배치 가속화",
+    "summary": "테라파워(TerraPower)가 한국 지도자들과의 주요 회담을 통해 나트륨(Natrium) 원자로의 글로벌 배치를 가속화하고 있다.",
+    "summaryLong": "테라파워(TerraPower)는 한국의 주요 지도자들과의 획기적 회담을 거쳐 고속냉각 나트륨 원자로(Natrium Reactor) 기술의 글로벌 배치 계획을 가속화하고 있다. 이는 테라파워의 첨단 원자로 기술이 국제 시장에서의 수용성을 높이고, 특히 아시아 태평양 지역으로의 확대 가능성을 시사한다. 회담 내용상 한국 정부 및 주요 에너지 관계자들과의 협력 논의가 이루어졌을 것으로 보인다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "prnewswire.com",
+    "url": "https://www.prnewswire.com/news-releases/terrapower-accelerates-natrium-reactor-deployment-following-landmark-meetings-with-korean-leaders-302851765.html",
+    "k": "terrapower accelerates natrium reactor deployment following landmark meetings with korean leaders",
+    "id": "2e69f572"
+  },
+  {
     "date": "2026-08-13",
     "title": "인도, 2033년까지 자국산 SMR 5기 목표",
     "summary": "인도 정부가 2033년까지 자국 개발 소형모듈원자로 5기 배치를 목표로 한다고 발표했다.",
@@ -1392,6 +1421,20 @@ window.SMR_NEWS = [
     "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Backs-X-Energy-Reactor-With-Up-to-215-Billion.html",
     "k": "u s backs x energy reactor with up to 2 15 billion",
     "id": "26996a92"
+  },
+  {
+    "date": "2026-08-13",
+    "title": "엑스에너지(X-Energy) Q2 실적 발표 하이라이트",
+    "summary": "엑스에너지의 2분기 실적 발표에서 주요 성과가 공개되었다.",
+    "summaryLong": "엑스에너지(X-Energy)가 2분기 실적을 발표했으며, 고온가스로(HTGR) 기술 개발 및 사업 진행 현황에 대한 상세 내용이 공개되었다. 이는 엑스에너지의 재정 상황, 기술 진전, 계약 현황 등 사업 현황을 반영한다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/x-energy-q2-earnings-call-190421323.html",
+    "k": "x energy q2 earnings call highlights",
+    "id": "6df1aba2"
   },
   {
     "date": "2026-08-12",
@@ -30430,4 +30473,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-16 13:10 KST";
+window.SMR_UPDATED = "2026-08-16 13:46 KST";
