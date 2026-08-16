@@ -902,6 +902,35 @@ window.SMR_NEWS = [
     "id": "2e69f572"
   },
   {
+    "date": "2026-08-14",
+    "title": "HD 현대·테라파워·현대 E&C, 차세대 원자력 시장 진출 협력",
+    "summary": "HD 현대(HD Hyundai), 테라파워(TerraPower), 현대 E&C(Hyundai E&C)가 차세대 핵 시장 변혁을 위한 협력을 발표했다.",
+    "summaryLong": "HD 현대, 테라파워(TerraPower), 현대 E&C(Hyundai E&C)가 차세대 원자력 시장 변혁을 목표로 협력 관계를 설정했다고 PR 뉴스와이어(PR Newswire)를 통해 발표했다. 이는 테라파워의 소형모듈원자로(SMR) 및 첨단로 글로벌 확산 전략에 한국 기업들이 참여하는 주요 파트너십 체결이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "테라파워",
+    "region": "KR",
+    "source": "prnewswire.com",
+    "url": "https://www.prnewswire.com/news-releases/hd-hyundai-terrapower-and-hyundai-ec-set-out-to-transform-the-next-generation-nuclear-market-302851746.html",
+    "k": "hd hyundai terrapower and hyundai e c set out to transform the next generation nuclear market",
+    "id": "7fadd3d7"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "두산에너빌리티, 테라파워 345MW급 SMR 구조물 제작 수주",
+    "summary": "두산에너빌리티가 테라파워의 미국 와이오밍주 케머러 초도 소형모듈원자로(345MW급) 핵심 기자재 제작을 수주했다.",
+    "summaryLong": "두산에너빌리티가 테라파워의 미국 와이오밍주 케머러 소재 345MW급 차세대 나트륨 냉각 소형모듈원자로(SMR) 초도 호기 건설을 위한 나트륨 원자로 보호용기, 지지구조물, 내부 구조물 제작 사업을 수주했다. 두산에너빌리티는 2024년 말 설계 적합성 검토 계약을 체결한 후, 설계 개선사항을 개발·적용하여 설계 성숙도를 끌어올린 결과 이번 제작 발주를 수주한 것이다. 이는 테라파워의 원자로 기술과 두산의 제조 역량을 결합한 협력의 구체적 성과이다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "두산에너빌리티, 테라파워",
+    "region": "KR",
+    "source": "이투뉴스 - 전체기사",
+    "url": "http://www.e2news.com/news/articleView.html?idxno=333245",
+    "k": "두산에너빌리티 테라파워 345mw급 smr 구조물 제작 수주",
+    "ko": 1,
+    "id": "628f9918"
+  },
+  {
     "date": "2026-08-13",
     "title": "인도, 2033년까지 자국산 SMR 5기 목표",
     "summary": "인도 정부가 2033년까지 자국 개발 소형모듈원자로 5기 배치를 목표로 한다고 발표했다.",
@@ -30473,4 +30502,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-16 13:46 KST";
+window.SMR_UPDATED = "2026-08-16 14:14 KST";
