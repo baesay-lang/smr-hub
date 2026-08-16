@@ -193,6 +193,22 @@ window.SMR_NEWS = [
   "id": "a297793d"
  },
  {
+  "date": "2026-08-15",
+  "title": "K-원전, 향후 10년 한국 수출 이끌 초대형 전략산업으로 부상",
+  "summary": "한국의 대형 원전과 SMR이 향후 10년 한국 수출 산업의 핵심으로 주목받고 있다는 기획 기사다.",
+  "summaryLong": "코리아포스트 기획 특집으로 대형 원전에서 소형모듈원자로(SMR)까지 한국 원전 산업의 전략적 가치와 수출 전망을 다룬다. 테라파워 등 글로벌 SMR 프로젝트에 한국 기업의 참여 확대와 함께, K-원전이 향후 10년 한국의 주요 수출 전략산업으로 부상하고 있음을 강조하는 정책·산업 동향 분석이다.",
+  "cat": "투자",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "koreapost.co.kr",
+  "url": "https://www.koreapost.co.kr/news/articleView.html?idxno=88266",
+  "k": "특집 향후 10년 한국의 수출을 이끌 차세대 산업 시리즈 no 4 원전 smr 대형 원전에서 smr까지 k 원전 향후 10년 한국 수출 이끌 초대형 전략산업 으로 부상",
+  "ko": 1,
+  "op": 1,
+  "id": "d1645cb5"
+ },
+ {
   "date": "2026-08-14",
   "title": "원자력안전기술원, 제1회 선진원자로 안전기술 심포지엄 개최",
   "summary": "한국원자력안전기술원(KINS)이 9월 1~2일 부산에서 선진원자로 안전기술 심포지엄을 개최하며, SMR 표준설계인가 대응 현황 등을 논의한다.",
@@ -836,6 +852,20 @@ window.SMR_NEWS = [
   "id": "78789879"
  },
  {
+  "date": "2026-08-14",
+  "title": "두산에너빌리티, 테라파워 나트륨(Natrium) 원자로 장비 수주",
+  "summary": "두산에너빌리티(Doosan Enerbility)가 테라파워(TerraPower)의 나트륨(Natrium) 원자로 장비 공급 계약을 체결했다.",
+  "summaryLong": "두산에너빌리티(Doosan Enerbility)가 미국의 첨단로 개발사 테라파워(TerraPower)의 나트륨(Natrium) 소듐냉각고속로(SFR) 원자로 개발 프로젝트에서 주요 장비 공급 계약을 수주했다. 이는 한국 기업이 미국 첨단로 개발에 본격 참여하는 의미 있는 계약으로, 테라파워의 나트륨(Natrium) 원자로 상용화 추진에 중요한 진전을 나타낸다.",
+  "cat": "계약",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "US",
+  "source": "thelec.net",
+  "url": "https://www.thelec.net/news/articleView.html?idxno=13078",
+  "k": "doosan enerbility wins order for terrapower s natrium reactor equipment",
+  "id": "938914bd"
+ },
+ {
   "date": "2026-08-13",
   "title": "인도, 2033년까지 자국산 SMR 5기 목표",
   "summary": "인도 정부가 2033년까지 자국 개발 소형모듈원자로 5기 배치를 목표로 한다고 발표했다.",
@@ -863,36 +893,6 @@ window.SMR_NEWS = [
   "k": "k 원전 팀코리아 가동 규제협력 smr 쌍끌이로 글로벌 수출 정조준",
   "ko": 1,
   "id": "cfb9df8d"
- },
- {
-  "date": "2026-08-13",
-  "title": "오클로(Oklo)의 소형모듈원자로 기술 진전",
-  "summary": "오클로(Oklo)가 소형모듈원자로(SMR) 기술에서 큰 진전을 이루었다는 보도이다.",
-  "summaryLong": "오클로(Oklo)가 소형모듈원자로(SMR) 기술 개발에서 중요한 진전을 이루었다. 모틀리풀(The Motley Fool)의 보도에 따르면 이 소식은 관련 상장지수펀드(ETF)에 긍정적인 영향을 미칠 것으로 전망하고 있다. 구체적인 기술 내용이나 마일스톤 정보는 제한적이다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "fool.com",
-  "url": "https://www.fool.com/investing/2026/08/12/oklo-just-made-big-progress-small-modular-nuclear/",
-  "k": "oklo just made big progress with small modular nuclear reactor technology that s great news for these 2 etfs",
-  "id": "f696ecdf"
- },
- {
-  "date": "2026-08-13",
-  "title": "정기선·빌 게이츠 회동, SMR·핵융합 분야 협력 모색",
-  "summary": "정기선 장관과 빌 게이츠(Bill Gates)가 만나 SMR 사업 외에도 핵융합 기자재 분야의 협력 가능성을 논의했다.",
-  "summaryLong": "정기선 산업통상자원부 장관이 테라파워(TerraPower) 회장 빌 게이츠(Bill Gates)와 면담하여 소형모듈원자로(SMR) 사업에 이어 핵융합 기자재 분야에서의 협력 가능성을 논의했다. 이는 한국이 첨단 원자력 기술 분야에서 국제적 협력을 강화하려는 노력을 보여준다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "KR",
-  "source": "ekoreanews.co.kr",
-  "url": "https://www.ekoreanews.co.kr/news/articleView.html?idxno=87494",
-  "k": "정기선 빌 게이츠 회동 smr 사업 이어 핵융합 기자재 분야 협력 가능성",
-  "ko": 1,
-  "op": 1,
-  "id": "5965981f"
  },
  {
   "date": "2026-08-13",
@@ -1390,5 +1390,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-16 08:03 KST";
-window.SMR_TOTAL = 2086;
+window.SMR_UPDATED = "2026-08-16 13:10 KST";
+window.SMR_TOTAL = 2091;

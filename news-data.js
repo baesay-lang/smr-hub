@@ -200,6 +200,22 @@ window.SMR_NEWS = [
     "id": "a297793d"
   },
   {
+    "date": "2026-08-15",
+    "title": "K-원전, 향후 10년 한국 수출 이끌 초대형 전략산업으로 부상",
+    "summary": "한국의 대형 원전과 SMR이 향후 10년 한국 수출 산업의 핵심으로 주목받고 있다는 기획 기사다.",
+    "summaryLong": "코리아포스트 기획 특집으로 대형 원전에서 소형모듈원자로(SMR)까지 한국 원전 산업의 전략적 가치와 수출 전망을 다룬다. 테라파워 등 글로벌 SMR 프로젝트에 한국 기업의 참여 확대와 함께, K-원전이 향후 10년 한국의 주요 수출 전략산업으로 부상하고 있음을 강조하는 정책·산업 동향 분석이다.",
+    "cat": "투자",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "koreapost.co.kr",
+    "url": "https://www.koreapost.co.kr/news/articleView.html?idxno=88266",
+    "k": "특집 향후 10년 한국의 수출을 이끌 차세대 산업 시리즈 no 4 원전 smr 대형 원전에서 smr까지 k 원전 향후 10년 한국 수출 이끌 초대형 전략산업 으로 부상",
+    "ko": 1,
+    "op": 1,
+    "id": "d1645cb5"
+  },
+  {
     "date": "2026-08-14",
     "title": "원자력안전기술원, 제1회 선진원자로 안전기술 심포지엄 개최",
     "summary": "한국원자력안전기술원(KINS)이 9월 1~2일 부산에서 선진원자로 안전기술 심포지엄을 개최하며, SMR 표준설계인가 대응 현황 등을 논의한다.",
@@ -843,6 +859,20 @@ window.SMR_NEWS = [
     "id": "78789879"
   },
   {
+    "date": "2026-08-14",
+    "title": "두산에너빌리티, 테라파워 나트륨(Natrium) 원자로 장비 수주",
+    "summary": "두산에너빌리티(Doosan Enerbility)가 테라파워(TerraPower)의 나트륨(Natrium) 원자로 장비 공급 계약을 체결했다.",
+    "summaryLong": "두산에너빌리티(Doosan Enerbility)가 미국의 첨단로 개발사 테라파워(TerraPower)의 나트륨(Natrium) 소듐냉각고속로(SFR) 원자로 개발 프로젝트에서 주요 장비 공급 계약을 수주했다. 이는 한국 기업이 미국 첨단로 개발에 본격 참여하는 의미 있는 계약으로, 테라파워의 나트륨(Natrium) 원자로 상용화 추진에 중요한 진전을 나타낸다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "thelec.net",
+    "url": "https://www.thelec.net/news/articleView.html?idxno=13078",
+    "k": "doosan enerbility wins order for terrapower s natrium reactor equipment",
+    "id": "938914bd"
+  },
+  {
     "date": "2026-08-13",
     "title": "인도, 2033년까지 자국산 SMR 5기 목표",
     "summary": "인도 정부가 2033년까지 자국 개발 소형모듈원자로 5기 배치를 목표로 한다고 발표했다.",
@@ -1350,6 +1380,20 @@ window.SMR_NEWS = [
     "id": "a01be3a1"
   },
   {
+    "date": "2026-08-13",
+    "title": "미국, 엑스에너지(X-Energy) 원자로에 최대 21.5억 달러 지원",
+    "summary": "미국 정부가 엑스에너지의 고온가스로(HTGR) 원자로 개발에 최대 21.5억 달러의 자금을 지원하기로 결정했다.",
+    "summaryLong": "미국 정부가 엑스에너지의 첨단 원자로 사업에 최대 21.5억 달러의 연방 자금을 지원하기로 확정했다. 이는 미국의 소형모듈원자로 및 차세대 원자로 기술 개발 정책의 일환으로, 에너지 안보 강화와 탈탄소화 목표 달성을 위한 투자이다. 엑스에너지는 고온가스로 기술 개발의 선두 주자로 평가받고 있다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "oilprice.com",
+    "url": "https://oilprice.com/Latest-Energy-News/World-News/US-Backs-X-Energy-Reactor-With-Up-to-215-Billion.html",
+    "k": "u s backs x energy reactor with up to 2 15 billion",
+    "id": "26996a92"
+  },
+  {
     "date": "2026-08-12",
     "title": "오클로(Oklo), 첫 임계 달성 및 초기 원자로 판매 후 8.5% 상승",
     "summary": "오클로(Oklo)가 첫 임계(first criticality) 달성과 초기 소형모듈원자로(SMR) 판매를 발표하며 주가가 8.5% 상승했다.",
@@ -1769,6 +1813,21 @@ window.SMR_NEWS = [
     "k": "원자력산업협회 smr 7대 seed 프로젝트 선정 환영",
     "ko": 1,
     "id": "419d426a"
+  },
+  {
+    "date": "2026-08-12",
+    "title": "원자력산업협회, SMR이 7대 SEED(씨드) 프로젝트 선정 환영",
+    "summary": "원자력산업협회가 소형모듈원자로(SMR)가 정부의 7대 SEED 프로젝트에 선정된 것을 환영했다.",
+    "summaryLong": "원자력산업협회가 소형모듈원자로(SMR) 개발이 정부의 전략적 육성 대상인 7대 SEED 프로젝트로 선정된 것을 환영하는 입장을 밝혔다. 이는 한국 정부가 SMR을 미래 에너지 기술로서 국책 프로젝트 수준으로 지원하겠다는 의지를 보여주는 것으로, SMR 산업 생태계 조성과 기술 경쟁력 확보에 긍정적 신호가 될 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "pgnkorea.com",
+    "url": "http://www.pgnkorea.com/news/articleView.html?idxno=34658",
+    "k": "원자력산업 smr 7대 seed 프로젝트 선정 환영",
+    "ko": 1,
+    "id": "3e0a719b"
   },
   {
     "date": "2026-08-11",
@@ -20231,6 +20290,21 @@ window.SMR_NEWS = [
     "ko": 1
   },
   {
+    "date": "2026-06-20",
+    "title": "소형모듈원자로, 국가안보 우선순위로 부상",
+    "summary": "소형모듈원자로가 미국의 국가안보 정책 우선순위로 인식되고 있다는 분석 기사다.",
+    "summaryLong": "오일프라이스(Oilprice) 기고문으로, 소형모듈원자로(SMR)가 에너지 안보와 국방 산업 지원 측면에서 미국 정책의 우선순위가 되고 있는 상황을 다룬다. 미국의 에너지·국방 정책 전환과 SMR의 전략적 중요성이 부각되는 시점의 정책 동향 분석이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "oilprice.com",
+    "url": "https://oilprice.com/Alternative-Energy/Nuclear-Power/Why-Small-Modular-Reactors-Are-Becoming-a-National-Security-Priority.html",
+    "k": "why small modular reactors are becoming a national security priority",
+    "op": 1,
+    "id": "cf9e0dd4"
+  },
+  {
     "date": "2026-06-19",
     "title": "신규 원전 부지 선정, 원전산업 재도약의 기회",
     "summary": "전력 안보 수요 증가로 대형원전과 소형모듈원자로(SMR)가 주요국 에너지 정책의 중심으로 올라오고 있다.",
@@ -30356,4 +30430,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-16 08:03 KST";
+window.SMR_UPDATED = "2026-08-16 13:10 KST";
