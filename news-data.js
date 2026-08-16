@@ -68,6 +68,83 @@ window.SMR_NEWS = [
     "id": "d5ee9093"
   },
   {
+    "date": "2026-08-16",
+    "title": "최태원·빌 게이츠 SMR 동맹 심화, AI 전력 핵심 파트너로",
+    "summary": "SK그룹 최태원 회장과 테라파워 빌 게이츠 이사회 의장이 1년 내 두 차례 회동하며 협력을 심화하고 있다.",
+    "summaryLong": "SK그룹 최태원 회장과 테라파워(TerraPower)의 빌 게이츠 이사회 의장이 최근 1년 사이 두 차례 회동하면서 양사 간 소형모듈원자로(SMR) 협력이 심화되고 있다. 이는 인공지능(AI) 데이터센터의 전력 수요 증가라는 배경 속에서, SK그룹이 테라파워의 차세대 원자로 사업에서 핵심 파트너로 자리잡고 있음을 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "SK그룹, 테라파워",
+    "region": "US",
+    "source": "연합뉴스 최신기사",
+    "url": "https://www.yna.co.kr/view/AKR20260816024400003",
+    "k": "깊어지는 최태원 빌 게이츠 smr 동맹 ai 전력 핵심파트너",
+    "ko": 1,
+    "id": "cee050d1"
+  },
+  {
+    "date": "2026-08-16",
+    "title": "두산에너빌리티, 미국 테라파워 차세대 SMR 핵심 기자재 수주",
+    "summary": "두산에너빌리티가 테라파워(TerraPower)로부터 차세대 소형모듈원자로(SMR)의 핵심 기자재 제작 계약을 수주했다.",
+    "summaryLong": "두산에너빌리티가 미국의 테라파워(TerraPower)로부터 차세대 소형모듈원자로(SMR) 사업의 핵심 기자재를 제작·공급하는 계약을 체결했다. 이는 빌 게이츠가 설립한 테라파워가 한국의 원전 기자재 공급망을 선택한 것으로, 한국 기업의 글로벌 SMR 공급망에서의 위상을 높이는 계약이다. 두산에너빌리티는 테라파워와의 이번 기자재 공급 계약을 통해 차세대 원자로 시장에 본격 진출하게 된다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "두산에너빌리티, 테라파워",
+    "region": "US",
+    "source": "segye.com",
+    "url": "https://www.segye.com/newsView/20260816509334",
+    "k": "두산에너빌리티 테라파워 차세대 smr 핵심 기자재 수주",
+    "ko": 1,
+    "id": "689aef18"
+  },
+  {
+    "date": "2026-08-16",
+    "title": "테라파워(TerraPower)에 한국 SMR 생산거점 활용 제안",
+    "summary": "테라파워에 한국의 소형모듈원자로(SMR) 생산거점 활용을 제안하는 논의가 진행 중이다.",
+    "summaryLong": "한국 측이 미국의 선진 SMR 개발사인 테라파워(TerraPower)에 한국의 SMR 생산거점 활용을 제안했다. 이는 한국의 원전 제조 역량을 바탕으로 글로벌 SMR 시장 진출을 모색하는 전략적 제안으로, 양국 간 SMR 협력의 가능성을 보여준다. 제안의 구체적 진행 상황은 미확인 상태이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "energytimes.kr",
+    "url": "https://www.energytimes.kr/news/articleView.html?idxno=70667",
+    "k": "테라파워에 smr 생산거점 활용 제안",
+    "ko": 1,
+    "op": 1,
+    "id": "0dee6fdb"
+  },
+  {
+    "date": "2026-08-16",
+    "title": "HD현대, 빌 게이츠와 손잡고 글로벌 SMR 생태계 선점 가속화",
+    "summary": "HD현대가 빌 게이츠의 테라파워와 협력하여 글로벌 SMR 시장 진출을 강화하고 있다.",
+    "summaryLong": "HD현대가 마이크로소프트 창립자 빌 게이츠가 투자한 테라파워(TerraPower)와 손잡고 글로벌 소형모듈원자로(SMR) 생태계 선점을 가속화하고 있다. HD현대는 한국의 유력한 원전 제조업체로서 테라파워의 기술과 글로벌 네트워크를 활용하여 국제 시장 진출을 전략적으로 추진하고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "HD현대, TerraPower",
+    "region": "KR",
+    "source": "kairnews.com",
+    "url": "https://www.kairnews.com/news/513051",
+    "k": "hd현대 빌 게이츠와 손잡고 글로벌 smr 생태계 선점 가속화",
+    "ko": 1,
+    "op": 1,
+    "id": "954d14da"
+  },
+  {
+    "date": "2026-08-16",
+    "title": "원전 복귀 나선 서방…스페인 수명연장·미국 가스 결합 SMR",
+    "summary": "서방국들이 원자력 에너지 복귀 추진 중이며, 스페인의 수명연장과 미국의 가스 결합 소형모듈원자로가 주요 사례다.",
+    "summaryLong": "서방 국가들이 에너지 안보와 탄소중립을 위해 원자력 정책을 재강화하고 있다. 스페인은 기존 원전의 수명을 연장하고, 미국은 가스와 결합한 소형모듈원자로(SMR) 기술을 추진하는 등 다양한 전략을 전개 중이다. 이는 에너지 가격 상승, 전력 수급 불안정, 탄소감축 의무 심화 등이 배경이며, SMR 등 첨단로 기술이 이러한 정책 변화의 핵심 수단으로 주목받고 있음을 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "g-enews.com",
+    "url": "https://www.g-enews.com/article/Global-Biz/2026/08/202608161103313619fbbec65dfb_1",
+    "k": "원전 복귀 나선 서방 스페인 수명연장 가스 결합 smr",
+    "ko": 1,
+    "id": "428b56fa"
+  },
+  {
     "date": "2026-08-15",
     "title": "테라파워, 8기 나트륨 원자로 EPC로 현대중공업 계약",
     "summary": "테라파워가 8기의 나트륨(Natrium) 원자로 건설을 위해 현대중공업을 엔지니어링·조달·건설(EPC) 계약자로 선정했다.",
@@ -1032,6 +1109,50 @@ window.SMR_NEWS = [
     "k": "한국을 smr 생산기지 로 정부 빌 게이츠와 공급망 협력",
     "ko": 1,
     "id": "0588bc5d"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "SK·현대중공업, 테라파워(TerraPower)와 첨단원전 협력 강화",
+    "summary": "SK와 현대중공업이 미국의 테라파워와 글로벌 첨단원전 프로젝트에서 협력을 확대한다.",
+    "summaryLong": "SK와 현대중공업(HD Hyundai)이 미국 첨단원전 개발사 테라파워(TerraPower)와의 협력 관계를 강화하는 파트너십을 발표했다. 양사는 글로벌 소형모듈원자로(SMR) 및 첨단원전 프로젝트에서의 공동 협력을 추진할 예정이다. 이는 한국 주요 에너지·건설 기업들이 차세대 원전 기술 시장 진출을 가속화하는 흐름의 일환이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower, SK, 현대중공업",
+    "region": "US",
+    "source": "koreaherald.com",
+    "url": "https://www.koreaherald.com/article/10841956",
+    "k": "sk hd hyundai bolster ties with terrapower on advanced nuclear projects",
+    "id": "806e9c66"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "HD현대, 미국 SMR 시장 선점 가속화…테라파워·현대건설과 협력",
+    "summary": "HD현대 정기선 회장이 테라파워 빌 게이츠 창업자, 현대건설 대표와 서울에서 만나 차세대 나트륨 원자로 협력을 심화했다.",
+    "summaryLong": "HD현대, 테라파워(TerraPower), 현대건설의 경영진들이 서울에서 만나 지난 5월 체결한 '차세대 나트륨 원자로 사업 협력을 위한 3자 업무협약' 이후 구체적인 추진 사항을 논의했다. 정기선 HD현대 회장, 빌 게이츠 테라파워 창업자 겸 회장, 크리스 르베크(Chris Levesque) 테라파워 최고경영자, 이한우 현대건설 대표가 참석했으며, 육상 원자로의 상용화를 위한 다각도의 협력 방안을 검토했다. 이는 한국 건설·에너지 기업과 미국 선도 SMR 개발사 간 전략적 파트너십이 본격화되는 것을 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "HD현대, 테라파워, 현대건설",
+    "region": "US",
+    "source": "에너지데일리 - 전체기사",
+    "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=202264",
+    "k": "hd현대 미국 smr 시장 선점 속도 낸다",
+    "ko": 1,
+    "id": "ff9e34b2"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "두산에너빌리티, 미국 테라파워와 SMR 핵심 기자재 제작 계약 체결",
+    "summary": "두산에너빌리티가 테라파워와 소형모듈원자로 핵심 기자재 제작 계약을 공식 체결했다.",
+    "summaryLong": "두산에너빌리티가 미국의 테라파워(TerraPower)와 소형모듈원자로(SMR) 핵심 기자재 제작 계약을 공식 체결했다. 공식 보도자료를 통해 발표된 이 계약은 두산에너빌리티의 글로벌 SMR 부품 공급사로서의 지위를 확립하는 주요 이정표이며, 한국 원전 산업의 국제화 전략 가속을 보여준다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "두산에너빌리티, TerraPower",
+    "region": "KR",
+    "source": "doosannewsroom.com",
+    "url": "https://www.doosannewsroom.com/?p=51708&cat=8",
+    "k": "보도자료 두산에너빌리티 테라파워와 smr 핵심 기자재 제작 계약 체결",
+    "ko": 1,
+    "id": "17b86a7d"
   },
   {
     "date": "2026-08-13",
@@ -30605,4 +30726,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-17 07:32 KST";
+window.SMR_UPDATED = "2026-08-17 08:02 KST";
