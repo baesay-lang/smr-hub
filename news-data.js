@@ -8,6 +8,66 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-08-16",
+    "title": "뉴스케일 파트너, 테네시계곡공사(TVA) 협상 진전",
+    "summary": "뉴스케일(NuScale)의 파트너가 미국 역사상 최대 규모의 원전 배치 프로그램으로 평가되는 테네시계곡공사(TVA)와의 협상을 진전시키고 있다.",
+    "summaryLong": "뉴스케일(NuScale)의 파트너사가 테네시계곡공사(TVA)와의 협상을 진행 중이며, 이것이 미국 역사상 최대 규모의 원전 배치 프로그램으로 평가받고 있다. TVA와의 계약이 성사될 경우 소형모듈원자로(SMR) 보급의 대규모 프로젝트가 될 것으로 예상된다. 현재 협상이 진전 단계에 있는 것으로 보도되고 있으며, 이는 미국 내 SMR 사업화의 중요한 계기가 될 수 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "pulse2.com",
+    "url": "https://pulse2.com/nuscale-partner-advances-tva-talks-for-potentially-largest-nuclear-deployment-program-in-u-s-history/",
+    "k": "nuscale partner advances tva talks for potentially largest nuclear deployment program in u s history",
+    "op": 1,
+    "id": "86aebd7a"
+  },
+  {
+    "date": "2026-08-16",
+    "title": "인도 BARC·NPCIL, 300 MWe 소형모듈원자로 상세설계보고서 발표",
+    "summary": "인도 원자력연구위원회(BARC)와 인도원자력공사(NPCIL)가 국산 300 MWe급 소형모듈원자로의 상세설계보고서(DPR)를 공개했다.",
+    "summaryLong": "인도 원자력연구위원회(BARC)와 인도원자력공사(NPCIL)가 300 MWe급 자체 개발 소형모듈원자로의 상세설계보고서(DPR, Detailed Project Report)를 발표했다. 이는 인도의 독자적인 SMR 기술 개발 진전을 보여주는 사례로, 설계 단계를 거쳐 실제 건설·운영으로 나아가기 위한 기초 문서다. 상세설계보고서는 원전 사업의 경제성, 기술 타당성, 안전 분석 등을 담은 핵심 인허가 자료로 기능한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "BARC, NPCIL",
+    "region": "JP",
+    "source": "powerpeakdigest.com",
+    "url": "https://powerpeakdigest.com/india-bsmr-300-dpr-indigenous-smr/",
+    "k": "barc npcil release dpr for 300 mwe indigenous small modular reactor",
+    "id": "caf51dc9"
+  },
+  {
+    "date": "2026-08-16",
+    "title": "파라과이, 미국과 SMR 등 민간 원자력 협력 추진",
+    "summary": "파라과이가 예상되는 전력 부족에 대응하기 위해 미국과 소형모듈원자로 등 민간 원자력 협력을 추진하기로 했다.",
+    "summaryLong": "파라과이 정부가 향후 전력 공급 부족 전망에 대응하기 위해 미국과 소형모듈원자로(SMR) 등 민간 원자력 에너지 협력을 진행하기로 결정했다. 이는 라틴아메리카 지역에서 SMR이 전력 확보의 대안으로 주목받고 있음을 보여주며, 미국과 개도국 간 에너지 협력이 확대되는 추세를 반영한다. 파라과이의 참여는 글로벌 SMR 시장 다변화와 지역별 수요 창출 가능성을 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "theguru.co.kr",
+    "url": "https://www.theguru.co.kr/news/article.html?no=105778",
+    "k": "파라과이 전력 부족 전망에 미국과 smr 등 민간 원자력 협력하기로",
+    "ko": 1,
+    "id": "ec965687"
+  },
+  {
+    "date": "2026-08-16",
+    "title": "수출입은행, 빌 게이츠와 SMR 상용화 협력 논의",
+    "summary": "수출입은행이 빌 게이츠와 소형모듈원자로 상용화 협력을 논의했다.",
+    "summaryLong": "한국의 수출입은행(수은)이 테라파워의 회장 빌 게이츠와 소형모듈원자로(SMR) 상용화 협력 방안을 논의했다. 이는 한국의 정책금융기관이 글로벌 SMR 개발사와 협력 채널을 구축하는 의미 있는 움직임으로, 한국 기업과 기술의 해외 진출을 금융 차원에서 지원하려는 전략을 보여준다. 향후 구체적인 협력 방안 도출에 따라 한국의 SMR 산업 국제화가 가속화될 전망이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "테라파워",
+    "region": "KR",
+    "source": "fnnews.com",
+    "url": "https://www.fnnews.com/news/202608161810286668",
+    "k": "수은 빌 게이츠와 smr 상용화 협력 논의",
+    "ko": 1,
+    "op": 1,
+    "id": "d5ee9093"
+  },
+  {
     "date": "2026-08-15",
     "title": "테라파워, 8기 나트륨 원자로 EPC로 현대중공업 계약",
     "summary": "테라파워가 8기의 나트륨(Natrium) 원자로 건설을 위해 현대중공업을 엔지니어링·조달·건설(EPC) 계약자로 선정했다.",
@@ -929,6 +989,34 @@ window.SMR_NEWS = [
     "k": "두산에너빌리티 테라파워 345mw급 smr 구조물 제작 수주",
     "ko": 1,
     "id": "628f9918"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "테라파워(TerraPower), 글로벌 확대 주요 계약 발표",
+    "summary": "테라파워(TerraPower)가 첨단로의 글로벌 보급을 위한 주요 계약들을 체결했다.",
+    "summaryLong": "테라파워(TerraPower)는 자사의 첨단 원자로를 전 세계적으로 확대하기 위한 핵심 계약들을 발표했다. 이는 기술 협력, 공급 계약, 또는 파트너십 등 사업 추진의 구체적 단계를 의미하는 것으로 보인다. 글로벌 확대 전략의 일환으로 추진되는 이러한 계약들은 첨단로 산업의 실질적 진전을 나타내는 주요 뉴스다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "nucnet.org",
+    "url": "https://www.nucnet.org/news/terrapower-announces-key-agreements-in-push-for-global-rollout-of-reactors-8-5-2026",
+    "k": "terrapower announces key agreements in push for global rollout of reactors",
+    "id": "54c339e4"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "두산 에너빌리티, 테라파워로부터 SMR 장비 공급 계약 확보",
+    "summary": "두산 에너빌리티가 테라파워(TerraPower)로부터 소형모듈원자로(SMR) 장비 공급 계약을 수주.",
+    "summaryLong": "연합뉴스(Yonhap News Agency) 보도에 따르면 두산 에너빌리티가 테라파워(TerraPower)로부터 소형모듈원자로(SMR) 관련 장비 공급 계약을 확보했음. 이는 한국 주요 중공업 기업이 미국 SMR 개발사의 부품·장비 공급업체로 참여하는 실질적인 사업 계약으로, 나트륨 냉각 고속로(SFR) 기술 협력의 구체적 진전을 의미함.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "en.yna.co.kr",
+    "url": "https://en.yna.co.kr/view/AEN20260814002300320",
+    "k": "doosan enerbility secures smr equipment deal from terrapower",
+    "id": "2d0acea8"
   },
   {
     "date": "2026-08-13",
@@ -30502,4 +30590,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-16 14:14 KST";
+window.SMR_UPDATED = "2026-08-17 06:49 KST";

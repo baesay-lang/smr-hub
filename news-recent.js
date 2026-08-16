@@ -1,6 +1,66 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-08-16",
+  "title": "뉴스케일 파트너, 테네시계곡공사(TVA) 협상 진전",
+  "summary": "뉴스케일(NuScale)의 파트너가 미국 역사상 최대 규모의 원전 배치 프로그램으로 평가되는 테네시계곡공사(TVA)와의 협상을 진전시키고 있다.",
+  "summaryLong": "뉴스케일(NuScale)의 파트너사가 테네시계곡공사(TVA)와의 협상을 진행 중이며, 이것이 미국 역사상 최대 규모의 원전 배치 프로그램으로 평가받고 있다. TVA와의 계약이 성사될 경우 소형모듈원자로(SMR) 보급의 대규모 프로젝트가 될 것으로 예상된다. 현재 협상이 진전 단계에 있는 것으로 보도되고 있으며, 이는 미국 내 SMR 사업화의 중요한 계기가 될 수 있다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "NuScale",
+  "region": "US",
+  "source": "pulse2.com",
+  "url": "https://pulse2.com/nuscale-partner-advances-tva-talks-for-potentially-largest-nuclear-deployment-program-in-u-s-history/",
+  "k": "nuscale partner advances tva talks for potentially largest nuclear deployment program in u s history",
+  "op": 1,
+  "id": "86aebd7a"
+ },
+ {
+  "date": "2026-08-16",
+  "title": "인도 BARC·NPCIL, 300 MWe 소형모듈원자로 상세설계보고서 발표",
+  "summary": "인도 원자력연구위원회(BARC)와 인도원자력공사(NPCIL)가 국산 300 MWe급 소형모듈원자로의 상세설계보고서(DPR)를 공개했다.",
+  "summaryLong": "인도 원자력연구위원회(BARC)와 인도원자력공사(NPCIL)가 300 MWe급 자체 개발 소형모듈원자로의 상세설계보고서(DPR, Detailed Project Report)를 발표했다. 이는 인도의 독자적인 SMR 기술 개발 진전을 보여주는 사례로, 설계 단계를 거쳐 실제 건설·운영으로 나아가기 위한 기초 문서다. 상세설계보고서는 원전 사업의 경제성, 기술 타당성, 안전 분석 등을 담은 핵심 인허가 자료로 기능한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "BARC, NPCIL",
+  "region": "JP",
+  "source": "powerpeakdigest.com",
+  "url": "https://powerpeakdigest.com/india-bsmr-300-dpr-indigenous-smr/",
+  "k": "barc npcil release dpr for 300 mwe indigenous small modular reactor",
+  "id": "caf51dc9"
+ },
+ {
+  "date": "2026-08-16",
+  "title": "파라과이, 미국과 SMR 등 민간 원자력 협력 추진",
+  "summary": "파라과이가 예상되는 전력 부족에 대응하기 위해 미국과 소형모듈원자로 등 민간 원자력 협력을 추진하기로 했다.",
+  "summaryLong": "파라과이 정부가 향후 전력 공급 부족 전망에 대응하기 위해 미국과 소형모듈원자로(SMR) 등 민간 원자력 에너지 협력을 진행하기로 결정했다. 이는 라틴아메리카 지역에서 SMR이 전력 확보의 대안으로 주목받고 있음을 보여주며, 미국과 개도국 간 에너지 협력이 확대되는 추세를 반영한다. 파라과이의 참여는 글로벌 SMR 시장 다변화와 지역별 수요 창출 가능성을 시사한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "US",
+  "source": "theguru.co.kr",
+  "url": "https://www.theguru.co.kr/news/article.html?no=105778",
+  "k": "파라과이 전력 부족 전망에 미국과 smr 등 민간 원자력 협력하기로",
+  "ko": 1,
+  "id": "ec965687"
+ },
+ {
+  "date": "2026-08-16",
+  "title": "수출입은행, 빌 게이츠와 SMR 상용화 협력 논의",
+  "summary": "수출입은행이 빌 게이츠와 소형모듈원자로 상용화 협력을 논의했다.",
+  "summaryLong": "한국의 수출입은행(수은)이 테라파워의 회장 빌 게이츠와 소형모듈원자로(SMR) 상용화 협력 방안을 논의했다. 이는 한국의 정책금융기관이 글로벌 SMR 개발사와 협력 채널을 구축하는 의미 있는 움직임으로, 한국 기업과 기술의 해외 진출을 금융 차원에서 지원하려는 전략을 보여준다. 향후 구체적인 협력 방안 도출에 따라 한국의 SMR 산업 국제화가 가속화될 전망이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "테라파워",
+  "region": "KR",
+  "source": "fnnews.com",
+  "url": "https://www.fnnews.com/news/202608161810286668",
+  "k": "수은 빌 게이츠와 smr 상용화 협력 논의",
+  "ko": 1,
+  "op": 1,
+  "id": "d5ee9093"
+ },
+ {
   "date": "2026-08-15",
   "title": "테라파워, 8기 나트륨 원자로 EPC로 현대중공업 계약",
   "summary": "테라파워가 8기의 나트륨(Natrium) 원자로 건설을 위해 현대중공업을 엔지니어링·조달·건설(EPC) 계약자로 선정했다.",
@@ -838,63 +898,6 @@ window.SMR_NEWS = [
   "id": "c047249e"
  },
  {
-  "date": "2026-08-14",
-  "title": "두산에너빌리티, 미국 테라파워에 SMR 핵심 부품 공급",
-  "summary": "두산에너빌리티(Doosan Enerbility)가 미국의 테라파워(TerraPower)에 소형모듈원자로(SMR) 핵심 부품을 공급하는 계약을 체결했다.",
-  "summaryLong": "두산에너빌리티가 미국의 테라파워에 소형모듈원자로(SMR) 핵심 부품을 공급하기로 결정했다. 이는 한국 기업이 미국의 첨단 원자로 개발사와 핵심 부품 공급 계약을 체결한 사례로, 국내 원전 산업의 국제 경쟁력을 보여주는 성과다.",
-  "cat": "계약",
-  "type": "SFR",
-  "dev": "Doosan",
-  "region": "US",
-  "source": "koreaherald.com",
-  "url": "https://www.koreaherald.com/article/10841652",
-  "k": "doosan enerbility to supply key smr components to us terrapower",
-  "id": "d18e88f3"
- },
- {
-  "date": "2026-08-14",
-  "title": "최태원·빌 게이츠, AI 전력 해법 논의…SK이노베이션-테라파워(TerraPower) SMR 협력 강화",
-  "summary": "SK그룹 회장 최태원과 빌 게이츠가 AI 전력 수요 해결 방안을 논의하며 SK이노베이션과 테라파워(TerraPower)의 SMR 협력을 강화하기로 합의했다.",
-  "summaryLong": "SK그룹 회장 최태원과 빌 게이츠 회장이 인공지능(AI) 시대의 전력 수급 문제 해결 방안을 논의하면서, SK이노베이션과 테라파워(TerraPower) 간의 소형모듈원자로(SMR) 협력을 한층 강화하기로 합의했다. 이는 글로벌 기업 지도자들이 AI 데이터센터의 급증하는 전력 수요를 원자력 SMR로 해결하려는 전략적 접근을 보여준다. SK이노베이션의 나트륨 냉각 SMR 기술이 글로벌 에너지 전환 과제 해결의 핵심 수단으로 인식되고 있음을 반영한다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "SK이노",
-  "region": "KR",
-  "source": "m.ekn.kr",
-  "url": "https://m.ekn.kr/view.php?key=20260814028483046",
-  "k": "최태원 빌 게이츠 ai 전력 해법 논의 sk이노 테라파워 smr 협력 강화",
-  "ko": 1,
-  "id": "78789879"
- },
- {
-  "date": "2026-08-14",
-  "title": "두산에너빌리티, 테라파워 나트륨(Natrium) 원자로 장비 수주",
-  "summary": "두산에너빌리티(Doosan Enerbility)가 테라파워(TerraPower)의 나트륨(Natrium) 원자로 장비 공급 계약을 체결했다.",
-  "summaryLong": "두산에너빌리티(Doosan Enerbility)가 미국의 첨단로 개발사 테라파워(TerraPower)의 나트륨(Natrium) 소듐냉각고속로(SFR) 원자로 개발 프로젝트에서 주요 장비 공급 계약을 수주했다. 이는 한국 기업이 미국 첨단로 개발에 본격 참여하는 의미 있는 계약으로, 테라파워의 나트륨(Natrium) 원자로 상용화 추진에 중요한 진전을 나타낸다.",
-  "cat": "계약",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "US",
-  "source": "thelec.net",
-  "url": "https://www.thelec.net/news/articleView.html?idxno=13078",
-  "k": "doosan enerbility wins order for terrapower s natrium reactor equipment",
-  "id": "938914bd"
- },
- {
-  "date": "2026-08-14",
-  "title": "테라파워, 한국 지도자와의 회담 이후 나트륨 원자로 배치 가속화",
-  "summary": "테라파워(TerraPower)가 한국 지도자들과의 주요 회담을 통해 나트륨(Natrium) 원자로의 글로벌 배치를 가속화하고 있다.",
-  "summaryLong": "테라파워(TerraPower)는 한국의 주요 지도자들과의 획기적 회담을 거쳐 고속냉각 나트륨 원자로(Natrium Reactor) 기술의 글로벌 배치 계획을 가속화하고 있다. 이는 테라파워의 첨단 원자로 기술이 국제 시장에서의 수용성을 높이고, 특히 아시아 태평양 지역으로의 확대 가능성을 시사한다. 회담 내용상 한국 정부 및 주요 에너지 관계자들과의 협력 논의가 이루어졌을 것으로 보인다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "US",
-  "source": "prnewswire.com",
-  "url": "https://www.prnewswire.com/news-releases/terrapower-accelerates-natrium-reactor-deployment-following-landmark-meetings-with-korean-leaders-302851765.html",
-  "k": "terrapower accelerates natrium reactor deployment following landmark meetings with korean leaders",
-  "id": "2e69f572"
- },
- {
   "date": "2026-08-13",
   "title": "엑스에너지, 2026년 2분기 실적 발표 및 우라늄 농축 공급 계약 체결",
   "summary": "엑스에너지(X-Energy)가 2026년 2분기 매출 5,460만 달러 실적을 발표하고 센트러스 에너지(Centrus Energy)와 고농축저농축 우라늄(HALEU) 농축 서비스 장기 공급 계약을 체결했다.",
@@ -1390,5 +1393,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-16 14:14 KST";
-window.SMR_TOTAL = 2096;
+window.SMR_UPDATED = "2026-08-17 06:49 KST";
+window.SMR_TOTAL = 2102;
