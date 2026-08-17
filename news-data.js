@@ -187,6 +187,50 @@ window.SMR_NEWS = [
     "id": "2901c7c6"
   },
   {
+    "date": "2026-08-17",
+    "title": "오클로(Oklo), 229일 만에 원자로 건설 완료 '세계 신기록'",
+    "summary": "오클로(Oklo)가 229일간의 초단기 공사로 원자로를 완성했으며, CEO가 이를 세계 신기록으로 평가하고 있다.",
+    "summaryLong": "오클로(Oklo)의 CEO가 자사의 소형모듈원자로(SMR) 건설이 229일 만에 완료되었다고 발표하며, 이를 세계 신기록으로 주장하고 있다. SMR의 빠른 건설 시간 우위를 입증하는 중요한 마일스톤으로, 첨단로의 제조·건설 효율성을 보여주는 사례다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/energy/articles/oklo-built-nuclear-reactor-229-161000450.html",
+    "k": "oklo built a nuclear reactor in 229 days here s why the ceo calls it a world record",
+    "id": "8d6af3c2"
+  },
+  {
+    "date": "2026-08-17",
+    "title": "U-10Zr 금속연료 다공성 연구, 소듐냉각고속로 설계 지원",
+    "summary": "아이다호 국립연구소(INL)와 MIT가 U-10Zr 금속연료의 다공성을 3차원 분석하여 고속로 연료 설계에 새로운 통찰을 제공했다.",
+    "summaryLong": "미국 아이다호 국립연구소(Idaho National Laboratory, INL)와 매사추세츠공과대학(MIT)의 연구팀이 우라늄-지르코늄 합금(U-10Zr)의 조사(照射) 후 다공성 특성을 3차원 영상 기법으로 연구하여 핵분열 재료의 부풀림, 열 전달, 피복관 상호작용에 대한 새로운 이해를 제시했다. U-10Zr는 역사적 소듐냉각고속로(SFR) 시험에서 광범위하게 검증되었으며, 이번 연구는 차세대 고속로 금속연료 설계 최적화에 기여할 수 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-08-17/article-8300/study-mapping-u10zr-porosity-informs-metallic-fuel-design/",
+    "k": "study mapping u 10zr porosity informs metallic fuel design",
+    "id": "2056b787"
+  },
+  {
+    "date": "2026-08-17",
+    "title": "[에너지 이슈] 빌 게이츠의 정재계 접촉 SMR 판촉전 분석",
+    "summary": "빌 게이츠가 SMR을 AI 전력난 해법으로 정계·재계에 제시하면서, 한국의 기술 리스크 이전 가능성을 진단하는 칼럼.",
+    "summaryLong": "이 기사는 빌 게이츠(Bill Gates)가 한국의 정치인과 경제인들을 만나면서 SMR을 AI 데이터센터의 전력 솔루션으로 판촉하고 있는 현상을 분석하는 의견기사이다. AI 급증에 따른 전력 수요 증가 속에서 SMR이 해법이 될 수 있다는 긍정론과 선진국의 미성숙한 기술을 한국이 도입할 경우의 기술 리스크를 함께 제시하고 있다. SMR 정책과 국제 협력의 의미를 평가하는 내용으로, 추측·평가 성격의 칼럼이지만 SMR 시장 동향과 한국의 정책 방향에 관한 유의미한 분석을 담고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "테라파워(TerraPower)",
+    "region": "KR",
+    "source": "skenews.kr",
+    "url": "https://www.skenews.kr/news/articleView.html?idxno=52816",
+    "k": "에너지이슈 빌 게이츠 정재계 잇단 접촉 smr 판촉전 ai 전력난 해법 인가 기술 리스크 한국 이전 인가",
+    "ko": 1,
+    "op": 1,
+    "id": "2e01cfa5"
+  },
+  {
     "date": "2026-08-16",
     "title": "뉴스케일 파트너, 테네시계곡공사(TVA) 협상 진전",
     "summary": "뉴스케일(NuScale)의 파트너가 미국 역사상 최대 규모의 원전 배치 프로그램으로 평가되는 테네시계곡공사(TVA)와의 협상을 진전시키고 있다.",
@@ -1450,6 +1494,21 @@ window.SMR_NEWS = [
     "id": "5721bda1"
   },
   {
+    "date": "2026-08-14",
+    "title": "두산에너빌리티, 테라파워(TerraPower)와 SMR 기자재 제작 계약",
+    "summary": "두산에너빌리티가 빌 게이츠 설립 미국 기업 테라파워(TerraPower)와 소형모듈원자로(SMR) 핵심 기자재 제작 계약을 체결했다.",
+    "summaryLong": "두산에너빌리티가 미국 테라파워(TerraPower)와 소형모듈원자로(SMR) 핵심 기자재 제작에 관한 계약을 공식 체결했다. 테라파워는 빌 게이츠가 설립한 선진 원전 기술 기업으로, 이번 계약을 통해 두산에너빌리티는 미국의 SMR 실증 및 상용화 프로젝트에 핵심 부품 공급사로 참여하게 된다. 이는 한국 원전 기업의 글로벌 SMR 공급망 확대를 의미하는 중요한 계약이다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "두산에너빌리티, TerraPower",
+    "region": "KR|US",
+    "source": "biz.chosun.com",
+    "url": "https://biz.chosun.com/industry/company/2026/08/14/34E2TTFEW5FUNGW5R2PM2IA5WA/",
+    "k": "두산에너빌리티 빌 게이츠 설립 테라파워와 smr 핵심 기자재 제작 계약 체결 조선비즈",
+    "ko": 1,
+    "id": "922d6360"
+  },
+  {
     "date": "2026-08-13",
     "title": "인도, 2033년까지 자국산 SMR 5기 목표",
     "summary": "인도 정부가 2033년까지 자국 개발 소형모듈원자로 5기 배치를 목표로 한다고 발표했다.",
@@ -1998,6 +2057,21 @@ window.SMR_NEWS = [
     "k": "두산에너빌리티 미국 테라파워 smr 핵심 기자재 수주",
     "ko": 1,
     "id": "f73389a3"
+  },
+  {
+    "date": "2026-08-13",
+    "title": "두산에너빌, 테라파워(TerraPower) SMR 핵심 기자재 공급 계약",
+    "summary": "두산에너빌이 빌 게이츠의 테라파워에 소형모듈원자로의 핵심 기자재를 공급하는 계약을 체결했다.",
+    "summaryLong": "한국의 두산에너빌이 테라파워의 소형모듈원자로(SMR) 프로젝트에 필요한 핵심 기자재를 공급하기로 계약했다. 이는 두산에너빌이 글로벌 SMR 시장에서 중요한 공급자로서의 입지를 확보했음을 의미한다. 테라파워가 개발 중인 나트륨냉각고속로(SFR) 기술에 한국의 원전 부품 제조 역량이 결집되고 있으며, 이는 한국 원전 산업의 국제 경쟁력을 강화하는 중요한 계약으로 평가된다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "두산",
+    "region": "US",
+    "source": "mt.co.kr",
+    "url": "https://www.mt.co.kr/industry/2026/08/14/2026081408391581212",
+    "k": "두산에너빌 빌 게이츠의 테라파워에 smr 핵심 기자재 공급 머니투데이",
+    "ko": 1,
+    "id": "729bdd86"
   },
   {
     "date": "2026-08-12",
@@ -31051,4 +31125,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-18 06:54 KST";
+window.SMR_UPDATED = "2026-08-18 07:35 KST";
