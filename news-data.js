@@ -23,6 +23,36 @@ window.SMR_NEWS = [
     "id": "736de4c9"
   },
   {
+    "date": "2026-08-17",
+    "title": "미국 블루·GE히타치 2.5GW 가스·SMR 개발, 한국 i-SMR 주목",
+    "summary": "미국의 블루(Blue), GE히타치(GE Hitachi)가 2.5GW급 가스·SMR을 개발하는 가운데 한국의 i-SMR이 주목받고 있다.",
+    "summaryLong": "미국의 블루(Blue)와 GE히타치(GE Hitachi)가 2.5GW급 가스 및 소형모듈원자로(SMR) 기술 개발을 추진하고 있다. 이러한 국제 동향 속에서 한국의 i-SMR(integrated SMR) 기술도 국내외 관심을 받고 있다. 기사는 주요 SMR 개발사들의 동향을 비교하며 한국 기술의 경쟁력을 언급하고 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "",
+    "region": "",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5692",
+    "k": "블루 ge히타치 2 5gw 가스 smr i smr 주목",
+    "ko": 1,
+    "id": "9f8869fa"
+  },
+  {
+    "date": "2026-08-17",
+    "title": "스위스 원전 재개 국민투표 통과, 한국 원전·SMR 수출 기회 확대",
+    "summary": "스위스의 원전 재개 국민투표 결과가 한국의 원전 및 소형모듈원자로(SMR) 수출 시장 확대로 이어질 전망이다.",
+    "summaryLong": "스위스가 원전 재개를 지지하는 국민투표 결과를 얻음으로써 유럽 에너지 정책에 변화가 예상된다. 이에 따라 한국의 원전 기술과 소형모듈원자로(SMR) 기술이 유럽 시장 진출의 새로운 기회를 맞이할 수 있을 것으로 전망된다. 스위스를 포함한 유럽의 에너지 전환 정책 변화가 한국 원전 산업에 긍정적 신호가 될 것으로 평가되고 있다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "EU",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5690",
+    "k": "스위스 원전 재개 국민투표로 원전 smr 수출길 열린다",
+    "ko": 1,
+    "id": "9d8866d4"
+  },
+  {
     "date": "2026-08-16",
     "title": "뉴스케일 파트너, 테네시계곡공사(TVA) 협상 진전",
     "summary": "뉴스케일(NuScale)의 파트너가 미국 역사상 최대 규모의 원전 배치 프로그램으로 평가되는 테네시계곡공사(TVA)와의 협상을 진전시키고 있다.",
@@ -1242,6 +1272,50 @@ window.SMR_NEWS = [
     "id": "7e6cb897"
   },
   {
+    "date": "2026-08-14",
+    "title": "테라파워(TerraPower)·SK이노베이션, 예비 SMR 협력 양해각서 체결",
+    "summary": "테라파워와 SK이노베이션이 소형모듈원자로(SMR) 사업 협력을 위한 예비 양해각서를 체결했다.",
+    "summaryLong": "미국의 첨단로 개발사 테라파워(TerraPower)와 한국의 SK이노베이션이 소형모듈원자로(SMR) 사업 협력을 위한 예비 양해각서를 체결했다. 이 협력은 양사가 SMR 개발 및 상용화를 위한 기초적 합의를 이루었음을 의미한다. 두 회사는 기술 개발과 글로벌 시장 진출을 목표로 협력을 진행할 것으로 예상된다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "TerraPower, SK이노베이션",
+    "region": "US",
+    "source": "indexbox.io",
+    "url": "https://www.indexbox.io/blog/terrapower-and-sk-innovation-sign-preliminary-smr-agreement/",
+    "k": "terrapower and sk innovation sign preliminary smr agreement smr news news and statistics",
+    "id": "47c0c956"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "두산에너빌리티, 테라파워 SMR 핵심 기자재 제작 수주",
+    "summary": "두산에너빌리티가 테라파워(TerraPower)의 소형모듈원자로(SMR) 핵심 기자재 제작을 수주했다.",
+    "summaryLong": "한국의 두산에너빌리티가 미국의 첨단로 개발사 테라파워(TerraPower)로부터 소형모듈원자로(SMR)의 핵심 기자재 제작 수주를 확보했다. 이는 한국 기업이 글로벌 SMR 프로젝트에 부품·기자재 공급업체로 참여하는 성과로, 국내 원전 산업의 국제 경쟁력 강화를 의미한다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "두산에너빌리티, TerraPower",
+    "region": "KR",
+    "source": "epj.co.kr",
+    "url": "https://www.epj.co.kr/news/articleView.html?idxno=39178",
+    "k": "두산에너빌리티 테라파워 smr 핵심 기자재 제작 수주",
+    "ko": 1,
+    "id": "155b6c06"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "두산에너빌리티, 테라파워 SMR 기자개 제작 계약",
+    "summary": "두산에너빌리티가 테라파워의 소형모듈원자로(SMR) 핵심 기자개 제작 계약을 체결했다.",
+    "summaryLong": "두산에너빌리티(Doosan Enerbility)가 미국의 테라파워(TerraPower)와 소형모듈원자로(SMR)의 핵심 부품인 기자개(steam generator) 제작을 위한 공급 계약을 체결했다. 이는 한국 원전 부품 제조업체가 글로벌 첨단 SMR 개발 프로젝트에 참여하는 중요한 사례로, 한국의 원자력 기술과 제조 능력의 국제 경쟁력을 입증하는 계약이다. 두산에너빌리티는 이를 통해 글로벌 SMR 시장에서의 입지를 강화할 것으로 예상된다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "두산에너빌리티·테라파워",
+    "region": "KR",
+    "source": "thecommoditiesnews.com",
+    "url": "https://www.thecommoditiesnews.com/news/articleView.html?idxno=11663",
+    "k": "두산에너빌리티 테라파워 smr 기자개 제작 계약",
+    "ko": 1,
+    "id": "5721bda1"
+  },
+  {
     "date": "2026-08-13",
     "title": "인도, 2033년까지 자국산 SMR 5기 목표",
     "summary": "인도 정부가 2033년까지 자국 개발 소형모듈원자로 5기 배치를 목표로 한다고 발표했다.",
@@ -2226,6 +2300,21 @@ window.SMR_NEWS = [
     "k": "원자력산업 smr 7대 seed 프로젝트 선정 환영",
     "ko": 1,
     "id": "3e0a719b"
+  },
+  {
+    "date": "2026-08-12",
+    "title": "원자력산업협회, 'SMR' 7대 SEED 프로젝트 선정 환영",
+    "summary": "원자력산업협회가 소형모듈원자로(SMR)가 정부의 7대 SEED 프로젝트에 선정된 것을 환영한다는 입장을 표명했다.",
+    "summaryLong": "한국 원자력산업협회가 소형모듈원자로(SMR)가 정부의 7대 SEED(신성장동력·핵심기술) 프로젝트에 선정된 것을 환영하는 입장을 밝혔다. 이는 한국 정부가 SMR을 차세대 에너지 기술로 지정하여 정책적·재정적 지원을 강화하겠다는 신호로, SMR 산업 발전에 긍정적 영향을 미칠 것으로 예상된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "energydaily.co.kr",
+    "url": "https://www.energydaily.co.kr/news/articleView.html?idxno=202179",
+    "k": "원자력산업협회 7대 seed 프로젝트 smr 선정 환영한다",
+    "ko": 1,
+    "id": "4b9f0ff9"
   },
   {
     "date": "2026-08-11",
@@ -30828,4 +30917,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-17 13:54 KST";
+window.SMR_UPDATED = "2026-08-17 14:23 KST";
