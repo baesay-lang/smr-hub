@@ -1213,6 +1213,35 @@ window.SMR_NEWS = [
     "id": "464e7797"
   },
   {
+    "date": "2026-08-14",
+    "title": "SK이노베이션, 테라파워 나트륨 SMR 협력 확대",
+    "summary": "SK이노베이션(SK Innovation)이 테라파워(TerraPower)의 나트륨냉각고속로(Natrium) SMR 협력을 확대하는 계약.",
+    "summaryLong": "비즈니스코리아(Businesskorea)가 SK이노베이션(SK Innovation)이 테라파워(TerraPower)와 나트륨냉각고속로(Natrium) 소형모듈원자로(SMR) 사업 협력을 확대한다고 보도했다. 이는 한국 기업과 미국 첨단로 개발사 간의 전략적 파트너십 확대로, SMR 글로벌 공급망 구축의 진전을 의미한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "테라파워(TerraPower)",
+    "region": "KR",
+    "source": "businesskorea.co.kr",
+    "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=274901",
+    "k": "sk innovation expands natrium smr cooperations with terrapower",
+    "id": "85933486"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "두산에너빌리티, 미국 테라파워 SMR 핵심 기자재 수주",
+    "summary": "두산에너빌리티가 미국 테라파워(TerraPower)의 소형모듈원자로(SMR) 프로젝트를 위한 핵심 기자재 수주를 확보했다.",
+    "summaryLong": "두산에너빌리티가 미국의 테라파워(TerraPower) 소형모듈원자로(SMR) 개발 사업에서 핵심 기자재 제작 공급 계약을 체결했다. 이는 한국 기업이 글로벌 SMR 개발 프로젝트의 주요 공급처로 선정된 사례로, 한국의 원전 부품 제조 기술과 생산 능력이 국제 시장에서 인정받고 있음을 의미한다. 두산에너빌리티의 첨단로 관련 사업 포트폴리오 확대와 국제 경쟁력 강화의 신호이다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "두산에너빌리티",
+    "region": "US",
+    "source": "news.einfomax.co.kr",
+    "url": "https://news.einfomax.co.kr/news/articleView.html?idxno=4430141",
+    "k": "두산에너빌리티 테라파워 smr 핵심 기자재 수주",
+    "ko": 1,
+    "id": "7e6cb897"
+  },
+  {
     "date": "2026-08-13",
     "title": "인도, 2033년까지 자국산 SMR 5기 목표",
     "summary": "인도 정부가 2033년까지 자국 개발 소형모듈원자로 5기 배치를 목표로 한다고 발표했다.",
@@ -30799,4 +30828,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-17 13:13 KST";
+window.SMR_UPDATED = "2026-08-17 13:54 KST";
