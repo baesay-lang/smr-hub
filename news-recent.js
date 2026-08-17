@@ -1,6 +1,21 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-08-17",
+  "title": "뉴스케일, 미국 테네시계곡청(TVA)과 6~8GW 규모 잠재 계약",
+  "summary": "뉴스케일(NuScale)이 미국 테네시계곡청(TVA)과 체결 검토 중인 SMR 계약이 6~8GW 규모로 미국 역사상 최대 규모 원전 건설이 될 가능성을 제시.",
+  "summaryLong": "모틀리 풀(The Motley Fool)이 보도한 바에 따르면, 뉴스케일(NuScale)이 미국 테네시계곡청(TVA)과 협의 중인 소형모듈원자로(SMR) 계약이 6~8GW 규모에 이를 수 있으며, 이는 미국 역사상 최대 규모의 원전 건설이 될 것이라는 CEO의 주장을 소개하고 있다. 다만 제목이 '잠재적(Potential)' 거래를 언급하므로 확정되지 않은 상태이다.",
+  "cat": "기술",
+  "type": "PWR",
+  "dev": "NuScale",
+  "region": "US",
+  "source": "fool.com",
+  "url": "https://www.fool.com/investing/2026/08/16/nuscales-potential-tva-deal-could-be-6-to-8-gigawa/",
+  "k": "nuscale s potential tva deal could be 6 to 8 gigawatts here s why the ceo calls it the largest nuclear build out in u s history",
+  "op": 1,
+  "id": "736de4c9"
+ },
+ {
   "date": "2026-08-16",
   "title": "뉴스케일 파트너, 테네시계곡공사(TVA) 협상 진전",
   "summary": "뉴스케일(NuScale)의 파트너가 미국 역사상 최대 규모의 원전 배치 프로그램으로 평가되는 테네시계곡공사(TVA)와의 협상을 진전시키고 있다.",
@@ -136,6 +151,21 @@ window.SMR_NEWS = [
   "k": "원전 복귀 나선 서방 스페인 수명연장 가스 결합 smr",
   "ko": 1,
   "id": "428b56fa"
+ },
+ {
+  "date": "2026-08-16",
+  "title": "컴퍼니케이 발굴 SMR 기업 알엑스, TIPS 스케일업 선정",
+  "summary": "벤처캐피탈 컴퍼니케이가 발굴한 SMR 스타트업 알엑스(RX)가 정부 스케일업 펀딩 프로그램(TIPS)에 선정됐다.",
+  "summaryLong": "소형모듈원자로(SMR) 분야 스타트업 알엑스(RX)가 정부의 기술혁신스타트업육성(TIPS) 스케일업 프로그램에 선정되었다. 동사는 벤처캐피탈 컴퍼니케이(Companykai)가 발굴한 기업으로, 본 선정은 한국의 SMR 기술 스타트업이 국가 정책 지원을 받게 되는 것을 의미한다. TIPS 프로그램의 자금 지원을 통해 알엑스의 사업 확대 및 기술 개발이 가속화될 것으로 예상된다.",
+  "cat": "투자",
+  "type": "General",
+  "dev": "RX",
+  "region": "KR",
+  "source": "dealsite.co.kr",
+  "url": "https://dealsite.co.kr/articles/167267",
+  "k": "컴퍼니케이 발굴한 smr 알엑스 스케일업 팁스 선정",
+  "ko": 1,
+  "id": "580db286"
  },
  {
   "date": "2026-08-15",
@@ -873,36 +903,6 @@ window.SMR_NEWS = [
   "id": "13ac889d"
  },
  {
-  "date": "2026-08-14",
-  "title": "빌 게이츠, AI 전력수요 대응 SMR 협력 본격화",
-  "summary": "테라파워 창립자 빌 게이츠가 한국 정재계와 연쇄 회동하며 AI 데이터센터 전력 수요 해결책으로서 소형모듈원자로 협력을 추진하고 있다.",
-  "summaryLong": "마이크로소프트(Microsoft) 공동창립자이자 차세대 원전업체 테라파워 창립자인 빌 게이츠 게이츠재단(Gates Foundation) 이사장이 한국 정부·산업계와의 연쇄 회동을 통해 소형모듈원자로를 AI 데이터센터의 전력 공급 솔루션으로 제시하며 협력 논의를 가속화하고 있다. 이는 테라파워의 나트륨냉각로 기술과 한국 기업들의 제조·건설 역량을 결합한 본격적인 사업화 전략으로 해석된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "테라파워",
-  "region": "KR",
-  "source": "연합뉴스 경제 최신기사",
-  "url": "https://www.yna.co.kr/view/AKR20260814130800003",
-  "k": "빌 게이츠 정재계 연쇄회동 ai 전력난 해법 smr 협력 본격화",
-  "ko": 1,
-  "id": "369a9e11"
- },
- {
-  "date": "2026-08-14",
-  "title": "한국 원전 기업들, 테라파워(TerraPower) SMR 사업 공급망 확대",
-  "summary": "SK, HD현대 등 국내 대기업이 빌 게이츠가 이끄는 테라파워의 소형모듈원자로(SMR) 사업에 투자와 기자재 제작으로 참여하며 미국 시장 진출을 추진 중이다.",
-  "summaryLong": "산업통상자원부 장관과 테라파워 이사회 의장 빌 게이츠가 서울에서 만나 한국 기업의 테라파워 SMR 사업 참여 확대 방안을 논의했다. 현재 SK와 HD현대(Hyundai) 등이 테라파워에 재무적 투자를 통해 협력하고 있으며, 향후 기자재 제작에서 시공·운영과 중소·중견 원전기업까지 참여 범위를 확대할 계획이다. 이를 통해 한국 원전 공급망의 새로운 수출시장을 확보한다는 구상이다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "SK, HD현대",
-  "region": "US",
-  "source": "에너지신문 - 전체기사",
-  "url": "https://www.energy-news.co.kr/news/articleView.html?idxno=227473",
-  "k": "k 원전 공급망 빌 게이츠 smr 타고 시장 입성한다",
-  "ko": 1,
-  "id": "0cac7d98"
- },
- {
   "date": "2026-08-13",
   "title": "엑스에너지, 2026년 2분기 실적 발표 및 우라늄 농축 공급 계약 체결",
   "summary": "엑스에너지(X-Energy)가 2026년 2분기 매출 5,460만 달러 실적을 발표하고 센트러스 에너지(Centrus Energy)와 고농축저농축 우라늄(HALEU) 농축 서비스 장기 공급 계약을 체결했다.",
@@ -1398,5 +1398,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-17 08:02 KST";
-window.SMR_TOTAL = 2111;
+window.SMR_UPDATED = "2026-08-17 13:13 KST";
+window.SMR_TOTAL = 2116;

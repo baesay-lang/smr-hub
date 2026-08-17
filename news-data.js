@@ -8,6 +8,21 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-08-17",
+    "title": "뉴스케일, 미국 테네시계곡청(TVA)과 6~8GW 규모 잠재 계약",
+    "summary": "뉴스케일(NuScale)이 미국 테네시계곡청(TVA)과 체결 검토 중인 SMR 계약이 6~8GW 규모로 미국 역사상 최대 규모 원전 건설이 될 가능성을 제시.",
+    "summaryLong": "모틀리 풀(The Motley Fool)이 보도한 바에 따르면, 뉴스케일(NuScale)이 미국 테네시계곡청(TVA)과 협의 중인 소형모듈원자로(SMR) 계약이 6~8GW 규모에 이를 수 있으며, 이는 미국 역사상 최대 규모의 원전 건설이 될 것이라는 CEO의 주장을 소개하고 있다. 다만 제목이 '잠재적(Potential)' 거래를 언급하므로 확정되지 않은 상태이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "NuScale",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/08/16/nuscales-potential-tva-deal-could-be-6-to-8-gigawa/",
+    "k": "nuscale s potential tva deal could be 6 to 8 gigawatts here s why the ceo calls it the largest nuclear build out in u s history",
+    "op": 1,
+    "id": "736de4c9"
+  },
+  {
     "date": "2026-08-16",
     "title": "뉴스케일 파트너, 테네시계곡공사(TVA) 협상 진전",
     "summary": "뉴스케일(NuScale)의 파트너가 미국 역사상 최대 규모의 원전 배치 프로그램으로 평가되는 테네시계곡공사(TVA)와의 협상을 진전시키고 있다.",
@@ -143,6 +158,21 @@ window.SMR_NEWS = [
     "k": "원전 복귀 나선 서방 스페인 수명연장 가스 결합 smr",
     "ko": 1,
     "id": "428b56fa"
+  },
+  {
+    "date": "2026-08-16",
+    "title": "컴퍼니케이 발굴 SMR 기업 알엑스, TIPS 스케일업 선정",
+    "summary": "벤처캐피탈 컴퍼니케이가 발굴한 SMR 스타트업 알엑스(RX)가 정부 스케일업 펀딩 프로그램(TIPS)에 선정됐다.",
+    "summaryLong": "소형모듈원자로(SMR) 분야 스타트업 알엑스(RX)가 정부의 기술혁신스타트업육성(TIPS) 스케일업 프로그램에 선정되었다. 동사는 벤처캐피탈 컴퍼니케이(Companykai)가 발굴한 기업으로, 본 선정은 한국의 SMR 기술 스타트업이 국가 정책 지원을 받게 되는 것을 의미한다. TIPS 프로그램의 자금 지원을 통해 알엑스의 사업 확대 및 기술 개발이 가속화될 것으로 예상된다.",
+    "cat": "투자",
+    "type": "General",
+    "dev": "RX",
+    "region": "KR",
+    "source": "dealsite.co.kr",
+    "url": "https://dealsite.co.kr/articles/167267",
+    "k": "컴퍼니케이 발굴한 smr 알엑스 스케일업 팁스 선정",
+    "ko": 1,
+    "id": "580db286"
   },
   {
     "date": "2026-08-15",
@@ -1155,6 +1185,34 @@ window.SMR_NEWS = [
     "id": "17b86a7d"
   },
   {
+    "date": "2026-08-14",
+    "title": "테라파워, 한국 파트너와 협력 확대",
+    "summary": "테라파워(TerraPower)가 한국 파트너사들과의 협력을 확대하고 있다.",
+    "summaryLong": "월드 뉴클리어 뉴스(World Nuclear News)가 보도한 바에 따르면, 테라파워(TerraPower)가 한국 파트너사들과의 협력을 확대하고 있다. 구체적 내용은 제목만으로는 명확하지 않지만, 나트륨냉각고속로(SFR) 개발사인 테라파워의 한반도 시장 진출 및 기술 협력을 의미하는 것으로 추정된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "KR",
+    "source": "world-nuclear-news.org",
+    "url": "https://world-nuclear-news.org/articles/terrapower-expands-cooperation-with-korean-partners",
+    "k": "terrapower expands cooperation with korean partners world nuclear news org",
+    "id": "d069037d"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "테라파워(TerraPower), SK이노베이션과 글로벌 SMR 사업 협력",
+    "summary": "미국 테라파워와 한국 SK이노베이션이 글로벌 SMR 프로젝트에서 팀을 이루기로 합의.",
+    "summaryLong": "미국의 테라파워(TerraPower)와 한국의 SK이노베이션이 글로벌 소형모듈원자로(SMR) 프로젝트에서 협력하기로 합의했다. 두 기업의 파트너십을 통해 국제 SMR 시장 진출을 추진하는 전략적 계약으로, SMR 개발·사업화의 주요 마일스톤이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "turkiyetoday.com",
+    "url": "https://www.turkiyetoday.com/business/us-terrapower-s-koreas-sk-innovation-team-up-on-global-smr-projects-3226086",
+    "k": "us terrapower s korea s sk innovation team up on global smr projects",
+    "id": "464e7797"
+  },
+  {
     "date": "2026-08-13",
     "title": "인도, 2033년까지 자국산 SMR 5기 목표",
     "summary": "인도 정부가 2033년까지 자국 개발 소형모듈원자로 5기 배치를 목표로 한다고 발표했다.",
@@ -1688,6 +1746,21 @@ window.SMR_NEWS = [
     "url": "https://finance.yahoo.com/energy/articles/x-energy-q2-earnings-call-190421323.html",
     "k": "x energy q2 earnings call highlights",
     "id": "6df1aba2"
+  },
+  {
+    "date": "2026-08-13",
+    "title": "두산에너빌리티, 테라파워(TerraPower) SMR 핵심 기자재 수주",
+    "summary": "두산에너빌리티가 미국 테라파워의 소형모듈원자로(SMR) 사업을 위해 핵심 기자재 수주를 확보했다.",
+    "summaryLong": "두산에너빌리티가 미국 테라파워(TerraPower)의 소형모듈원자로(SMR) 프로젝트에 필요한 핵심 기자재 제작을 수주했다. 이는 한국 원전 기업이 글로벌 차세대 원자로 시장에 진입하는 중요한 계약이다. 두산에너빌리티의 기술력이 테라파워로부터 인정받은 결과로, 향후 한국 원전 기자재 산업의 수출 확대를 기대할 수 있다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "두산에너빌리티",
+    "region": "KR",
+    "source": "yna.co.kr",
+    "url": "https://www.yna.co.kr/view/AKR20260814026600003",
+    "k": "두산에너빌리티 미국 테라파워 smr 핵심 기자재 수주",
+    "ko": 1,
+    "id": "f73389a3"
   },
   {
     "date": "2026-08-12",
@@ -30726,4 +30799,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-17 08:02 KST";
+window.SMR_UPDATED = "2026-08-17 13:13 KST";
