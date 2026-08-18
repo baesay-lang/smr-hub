@@ -257,6 +257,93 @@ window.SMR_NEWS = [
     "id": "3002648d"
   },
   {
+    "date": "2026-08-18",
+    "title": "BWRX-300 소형모듈원자로",
+    "summary": "BWRX-300 소형모듈원자로에 관한 정보가 데이터센터 다이나믹스(Data Center Dynamics)에서 다루어졌다.",
+    "summaryLong": "BWRX-300 소형모듈원자로(SMR)는 GE 자회사인 지 뉴클리어 에너지(GE Nuclear Energy)가 개발 중인 소형모듈원자로다. 관련 뉴스가 데이터센터 다이나믹스(Data Center Dynamics)에서 보도되었으나, 제시된 스니펫이 제목만 있어 구체적 내용은 불명이다. 소형모듈원자로 개발사의 공식 뉴스 대상으로 포함된다.",
+    "cat": "기술",
+    "type": "BWR",
+    "dev": "GE",
+    "region": "US",
+    "source": "datacenterdynamics.com",
+    "url": "https://www.datacenterdynamics.com/en/tags/bwrx-300-small-modular-reactor/",
+    "k": "bwrx 300 small modular reactor",
+    "id": "78120680"
+  },
+  {
+    "date": "2026-08-18",
+    "title": "테라파워, 나트륨 원자로 배치 가속화 위해 신규 협력 추진",
+    "summary": "빌 게이츠 지원 테라파워(TerraPower)가 나트륨(Natrium) 원자로 배치 가속화를 위해 두 건의 신규 협력을 진행 중이다.",
+    "summaryLong": "테라파워(TerraPower)는 나트륨(Natrium) 소형모듈원자로의 배치 일정을 가속화하기 위해 두 건의 신규 협력을 체결하고자 한다. 빌 게이츠(Bill Gates)가 지원하는 테라파워는 금속냉각 소형모듈원자로 개발의 주요 플레이어로, 국제 협력 확대를 통해 상용화 속도를 높이려는 전략을 추진 중이다. 제시된 스니펫이 제목만 있어 협력 대상이나 구체 내용은 미상이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "power-eng.com",
+    "url": "https://www.power-eng.com/nuclear/bill-gates-terrapower-hopes-to-accelerate-natrium-reactor-deployment-with-two-new-collaborations/",
+    "k": "bill gates terrapower hopes to accelerate natrium reactor deployment with two new collaborations power eng com",
+    "id": "6d8bf927"
+  },
+  {
+    "date": "2026-08-18",
+    "title": "현대건설(Hyundai E&C), 테라파워 원자로 최대 8기 수주 예정",
+    "summary": "현대건설(Hyundai E&C)이 테라파워(TerraPower)의 나트륨냉각 원자로 최대 8기 건설을 수주하기로 선정되었다.",
+    "summaryLong": "테라파워(TerraPower)와 현대건설(Hyundai E&C)이 나트륨냉각(Natrium) 원자로 최대 8기의 건설 계약을 체결했다. 이는 한국 주요 건설사가 첨단로 프로젝트에 참여하는 국제 협력사례로, 테라파워의 상용화 진전과 함께 한국 건설·원자력 산업의 글로벌 역할 확대를 시사한다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "koreaherald.com",
+    "url": "https://www.koreaherald.com/article/10844179",
+    "k": "hyundai e c tapped for up to 8 terrapower reactors",
+    "id": "4ce70724"
+  },
+  {
+    "date": "2026-08-18",
+    "title": "오클로 핵연료 전략: HALEU, 센트러스, 재활용, 잉여 플루토늄",
+    "summary": "오클로의 고농축우라늄(HALEU) 조달 전략과 센트러스(Centrus) 연계, 연료 재활용, 잉여 플루토늄 활용 방안을 설명하는 기술 해설.",
+    "summaryLong": "MEXC가 오클로(Oklo)의 핵연료 조달 및 활용 전략을 상세히 분석한 콘텐츠. 고농축우라늄(HALEU) 확보, 센트러스(Centrus)와의 협력, 사용 후 연료 재활용, 잉여 플루토늄 재활용 등 첨단 연료 사이클 전략을 다루고 있으며, 오클로의 기술 경쟁력의 핵심 요소인 연료 조달 방식을 설명한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Oklo",
+    "region": "US",
+    "source": "mexc.com",
+    "url": "https://www.mexc.com/learn/article/oklo-nuclear-fuel-strategy-explained-haleu-centrus-fuel-recycling-and-surplus-plutonium/1",
+    "k": "oklo nuclear fuel strategy explained haleu centrus fuel recycling and surplus plutonium",
+    "id": "6259b324"
+  },
+  {
+    "date": "2026-08-18",
+    "title": "선박에서 원전까지···HD현대(HD Hyundai), 미국 SMR(소형모듈원자로) 시장 정조준",
+    "summary": "HD현대와 두산에너빌리티(Doosan Enerbility)가 테라파워(TerraPower)의 차세대 SMR 사업에 협력하며 미국 시장 진출을 추진하고 있다.",
+    "summaryLong": "HD현대, 두산에너빌리티, SK이노베이션(SK Innovation) 등 한국 기업들이 빌 게이츠(Bill Gates)가 후원하는 테라파워(TerraPower)의 나트륨 냉각 고속로(SFR) 기반 SMR(소형모듈원자로) 사업에 참여하고 있다. 두산에너빌리티는 테라파워의 핵심 기자재 수주를 확보했고, SK이노베이션은 글로벌 사업협력 추진, HD현대와 현대건설은 미국 시장 진출을 위한 기본협약을 체결했다. 이는 한국 기업들이 SMR 초도호기 수주는 놓쳤지만 차세대 SMR 상용화 단계에서 글로벌 시장 확보를 노리는 전략으로 평가된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower, HD현대, 두산, SK이노",
+    "region": "US|KR",
+    "source": "viva100.com",
+    "url": "https://www.viva100.com/article/20260818500796",
+    "k": "선박서 원전까지 hd현대 smr 시장 정조준",
+    "ko": 1,
+    "id": "174360b3"
+  },
+  {
+    "date": "2026-08-18",
+    "title": "르베크(LeBec) CEO \"한·미 SMR 동맹 기반으로 영국·동남아 등에 수백기 건설\"",
+    "summary": "르베크 CEO가 한·미 SMR 동맹을 바탕으로 영국과 동남아시아 등에 수백기의 소형모듈원자로 건설 계획을 밝혔다.",
+    "summaryLong": "르베크(LeBec)의 CEO가 한국과 미국의 SMR 동맹을 기반으로 영국(UK)과 동남아시아 지역 등에 수백기 규모의 소형모듈원자로(SMR) 건설을 추진할 계획임을 공개했다. 이는 한·미 에너지 협력 강화와 글로벌 SMR 시장 확대의 신호로 평가되며, 해당 지역의 에너지 수급 안정화와 탄소중립 달성을 목표로 한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "르베크",
+    "region": "US",
+    "source": "hankyung.com",
+    "url": "https://www.hankyung.com/article/2026081879571",
+    "k": "단독 르베크 ceo 한 미 smr동맹 기반으로 동남아 등에 수백기 건설",
+    "ko": 1,
+    "op": 1,
+    "id": "07b77cbb"
+  },
+  {
     "date": "2026-08-17",
     "title": "뉴스케일, 미국 테네시계곡청(TVA)과 6~8GW 규모 잠재 계약",
     "summary": "뉴스케일(NuScale)이 미국 테네시계곡청(TVA)과 체결 검토 중인 SMR 계약이 6~8GW 규모로 미국 역사상 최대 규모 원전 건설이 될 가능성을 제시.",
@@ -2427,6 +2514,21 @@ window.SMR_NEWS = [
     "k": "두산에너빌 빌 게이츠의 테라파워에 smr 핵심 기자재 공급 머니투데이",
     "ko": 1,
     "id": "729bdd86"
+  },
+  {
+    "date": "2026-08-13",
+    "title": "두산에너빌, 미국 테라파워 SMR에 핵심 기자재 공급",
+    "summary": "두산에너빌이 테라파워의 미국 소형모듈원자로(SMR) 원자력발전소에 핵심 기자재를 공급한다.",
+    "summaryLong": "두산에너빌이 테라파워(TerraPower)의 미국 소형모듈원자로(SMR) 원자력발전소 프로젝트에 핵심 기자재를 공급하기로 결정했다. 이는 한국의 주요 원전 부품 제조사가 글로벌 SMR 시장에 본격 진출하는 사례다. 두산에너빌의 기자재 공급 계약은 한국 기업들의 SMR 벨류체인 참여가 구체적으로 진행 중임을 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "두산에너빌, 테라파워",
+    "region": "US",
+    "source": "biz.heraldcorp.com",
+    "url": "https://biz.heraldcorp.com/article/10840995",
+    "k": "두산에너빌 테라파워 원자력 발전소에 smr 핵심 기자재 공급",
+    "ko": 1,
+    "id": "e0f10448"
   },
   {
     "date": "2026-08-12",
@@ -31480,4 +31582,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-19 06:53 KST";
+window.SMR_UPDATED = "2026-08-19 07:36 KST";
