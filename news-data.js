@@ -8,6 +8,20 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-08-18",
+    "title": "현대건설(Hyundai E&C), 테라파워(TerraPower) 나트륨(Natrium) SMR 최대 8기 EPC 우선 수주",
+    "summary": "현대건설이 테라파워의 나트륨 소형모듈원자로(SMR) 최대 8기에 대한 EPC(설계·조달·시공) 사업 우선권을 획득.",
+    "summaryLong": "현대건설(Hyundai E&C)이 테라파워(TerraPower)의 나트륨(Natrium) 소형모듈원자로(SMR) 최대 8기에 대한 EPC(설계·조달·시공) 우선 역할을 수주했다는 소식. 이는 테라파워의 고속로(SFR) 기반 SMR 상용화 프로젝트 추진의 핵심 계약으로, 한국 기업의 첨단로 국제 사업 진출을 의미하는 중요한 파트너십 계약.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "biz.chosun.com",
+    "url": "https://biz.chosun.com/en/en-realestate/2026/08/18/LVZQSPQHZRCW3IRQETS5JYC6AE/",
+    "k": "hyundai e c wins priority epc role for up to eight terrapower natrium smrs chosunbiz",
+    "id": "6450e8f6"
+  },
+  {
     "date": "2026-08-17",
     "title": "뉴스케일, 미국 테네시계곡청(TVA)과 6~8GW 규모 잠재 계약",
     "summary": "뉴스케일(NuScale)이 미국 테네시계곡청(TVA)과 체결 검토 중인 SMR 계약이 6~8GW 규모로 미국 역사상 최대 규모 원전 건설이 될 가능성을 제시.",
@@ -231,6 +245,51 @@ window.SMR_NEWS = [
     "id": "2e01cfa5"
   },
   {
+    "date": "2026-08-17",
+    "title": "엑스에너지, 오크리지와 TRISO-X 핵연료 파트너십 갱신",
+    "summary": "엑스에너지(X-energy)가 오크리지(Oak Ridge) 국립연구소와 TRISO-X 핵연료 공급 파트너십을 갱신했다.",
+    "summaryLong": "엑스에너지(X-energy)의 TRISO-X 사업부가 오크리지(Oak Ridge) 국립연구소와의 핵연료 공급 파트너십을 갱신했다. 이를 통해 국내 첨단 핵연료 공급망 강화에 기여할 것으로 예상되며, 고온가스로(HTGR) 등 첨단로 개발에 필수적인 연료 공급 체인 확보를 의미한다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-energy",
+    "region": "US",
+    "source": "energiesmedia.com",
+    "url": "https://energiesmedia.com/x-energys-triso-x-oak-ridge-fuel-nuclear-supply/",
+    "k": "x energy s triso x renews oak ridge fuel partnership to strengthen the domestic advanced nuclear supply chain",
+    "id": "479b3c18"
+  },
+  {
+    "date": "2026-08-17",
+    "title": "미국 듀크에너지, SMR·대형원전 검토 중 한국 공급망 주목",
+    "summary": "미국 주요 전력사 듀크에너지(Duke Energy)가 SMR 도입을 검토하며 한국 공급망에 관심을 보이고 있다.",
+    "summaryLong": "미국의 주요 전력사 듀크에너지(Duke Energy)가 소형모듈원자로(SMR)와 대형원전 도입 검토를 진행 중이며, 한국 원전 공급망을 주요 협력 대상으로 주목하고 있다. 이는 글로벌 SMR 시장 성장에 따른 한국 기업들의 국제 수주 기회 확대를 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5704",
+    "k": "미국 듀크에너지 smr 대형원전 검토 공급망 주목",
+    "ko": 1,
+    "op": 1,
+    "id": "b107acce"
+  },
+  {
+    "date": "2026-08-17",
+    "title": "김정관 장관, 빌 게이츠와 만나 '한국 원전기업의 테라파워 핵심 공급망 역할' 강조",
+    "summary": "산업통상자원부 김정관 장관이 빌 게이츠와 면담하여 한국 기업의 테라파워 공급망 역할을 논의했다.",
+    "summaryLong": "산업통상자원부 김정관 장관이 빌 게이츠 테라파워(TerraPower) 회장과 만나 한국 원전 기업들이 테라파워의 핵심 공급망 파트너로 참여하는 방안을 논의했다. 이는 정부 차원에서 한국 기업의 글로벌 SMR·첨단로 사업 진출을 적극 지원하는 정책적 움직임으로 평가된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "",
+    "region": "KR",
+    "source": "inpnews.kr",
+    "url": "https://www.inpnews.kr/news/articleView.html?idxno=7476",
+    "k": "김정관 장관 빌 게이츠 만나 원전기업 테라파워 핵심 공급망으로",
+    "ko": 1,
+    "id": "6243f58f"
+  },
+  {
     "date": "2026-08-16",
     "title": "뉴스케일 파트너, 테네시계곡공사(TVA) 협상 진전",
     "summary": "뉴스케일(NuScale)의 파트너가 미국 역사상 최대 규모의 원전 배치 프로그램으로 평가되는 테네시계곡공사(TVA)와의 협상을 진전시키고 있다.",
@@ -381,6 +440,22 @@ window.SMR_NEWS = [
     "k": "컴퍼니케이 발굴한 smr 알엑스 스케일업 팁스 선정",
     "ko": 1,
     "id": "580db286"
+  },
+  {
+    "date": "2026-08-16",
+    "title": "빌 게이츠의 테라파워 vs 한국 SMR 경쟁력 비교",
+    "summary": "빌 게이츠가 주도하는 테라파워와 한국 SMR의 기술 경쟁력을 비교 분석하는 기사다.",
+    "summaryLong": "미국의 테라파워가 한국에 협력을 제의하면서 테라파워의 나트륨 냉각 소형모듈원자로(SMR) 기술과 한국이 개발 중인 SMR의 경쟁력을 비교하는 기사다. 빌 게이츠가 설립한 테라파워의 기술력과 시장 진출 전략, 그리고 한국 기업들의 대응 전략을 다루고 있다. 국제 SMR 시장에서 한국의 위치와 경쟁 가능성을 점검하는 내용이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "테라파워",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/20260817063645627",
+    "k": "에 smr 러브콜 보낸 빌 게이츠 테라파워 vs k smr 경쟁력은",
+    "ko": 1,
+    "op": 1,
+    "id": "a825b7db"
   },
   {
     "date": "2026-08-15",
@@ -1507,6 +1582,21 @@ window.SMR_NEWS = [
     "k": "두산에너빌리티 빌 게이츠 설립 테라파워와 smr 핵심 기자재 제작 계약 체결 조선비즈",
     "ko": 1,
     "id": "922d6360"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "두산에너빌리티, 미국 테라파워와 SMR 핵심 기자재 제작 수주",
+    "summary": "두산에너빌리티가 미국의 테라파워로부터 소형모듈원자로(SMR) 핵심 기자재 제작을 수주했다.",
+    "summaryLong": "두산에너빌리티가 미국의 테라파워로부터 소형모듈원자로(SMR)의 핵심 기자재 제작 수주를 확보했다. 이는 테라파워의 첨단 나트륨 냉각 원자로 프로젝트의 부품 공급 계약으로, 한국 기업이 국제 SMR 개발에 직접 참여하는 계약이다. 이번 수주는 한국의 원자력 기술력과 제조 역량을 국제 시장에 입증하는 사례이다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "두산에너빌리티, 테라파워",
+    "region": "KR",
+    "source": "v.daum.net",
+    "url": "https://v.daum.net/v/zWZvQ1d8yl",
+    "k": "두산에너빌리티 테라파워와 smr 핵심 기자재 제작 수주",
+    "ko": 1,
+    "id": "2e88ed1c"
   },
   {
     "date": "2026-08-13",
@@ -31125,4 +31215,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-18 08:03 KST";
+window.SMR_UPDATED = "2026-08-18 13:09 KST";
