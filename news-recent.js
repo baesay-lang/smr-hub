@@ -337,6 +337,34 @@ window.SMR_NEWS = [
   "id": "07b77cbb"
  },
  {
+  "date": "2026-08-18",
+  "title": "테라파워, 현대건설·SK이노베이션과 글로벌 SMR 사업 파트너십",
+  "summary": "테라파워가 현대건설과 SK이노베이션과 손잡고 글로벌 소형모듈원자로 사업을 추진한다.",
+  "summaryLong": "테라파워(TerraPower)가 현대건설(Hyundai E&C)과 SK이노베이션(SK Innovation)을 파트너로 선정하여 글로벌 소형모듈원자로(SMR) 사업 전개를 추진하고 있다. 이는 테라파워의 첨단로 기술을 한국의 주요 건설사 및 에너지 기업과 협력하여 국제 시장에 확대하려는 전략적 파트너십이다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "US",
+  "source": "kedglobal.com",
+  "url": "https://www.kedglobal.com/energy/newsView/ked202608180009",
+  "k": "terrapower taps hyundai e c sk innovation for global smr rollout",
+  "id": "16e643b0"
+ },
+ {
+  "date": "2026-08-18",
+  "title": "현대건설(Hyundai E&C), 테라파워(TerraPower) 최대 8기 차세대 원자로 EPC 우선권 확보",
+  "summary": "현대건설이 테라파워(TerraPower)의 차세대 원자로 최대 8기에 대한 EPC(설계·조달·건설) 우선권을 확보했다.",
+  "summaryLong": "현대건설(Hyundai E&C)이 테라파워(TerraPower)의 차세대 원자로 개발 프로젝트에서 최대 8기에 대한 EPC(설계·조달·건설) 우선권을 획득했다. 이는 테라파워의 첨단 원자로 상용화 진전을 보여주는 사건으로, 현대건설이 글로벌 SMR·첨단로 시장 진출을 추진하고 있음을 의미한다. 해당 계약은 테라파워의 미국 내 프로젝트 추진과 한국 기업의 국제 협력 확대를 반영한다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "US",
+  "source": "finance.biggo.com",
+  "url": "https://finance.biggo.com/news/c236ef2f-e025-47f0-9e43-660ad987b34e",
+  "k": "hyundai e c secures priority epc rights for up to 8 terrapower next gen nuclear reactors",
+  "id": "a6464f36"
+ },
+ {
   "date": "2026-08-17",
   "title": "뉴스케일, 미국 테네시계곡청(TVA)과 6~8GW 규모 잠재 계약",
   "summary": "뉴스케일(NuScale)이 미국 테네시계곡청(TVA)과 체결 검토 중인 SMR 계약이 6~8GW 규모로 미국 역사상 최대 규모 원전 건설이 될 가능성을 제시.",
@@ -861,36 +889,6 @@ window.SMR_NEWS = [
   "id": "d5af1f64"
  },
  {
-  "date": "2026-08-15",
-  "title": "일본 청년 58.3% 원전 재가동·교체 찬성…SMR 기대감 70%",
-  "summary": "일본 청년층의 58.3%가 원전 재가동과 교체를 지지하며, 70%가 소형모듈원자로(SMR)에 높은 기대감을 보이고 있다.",
-  "summaryLong": "일본의 청년층을 대상으로 한 여론조사에서 58.3%가 원자력발전소의 재가동 및 교체를 찬성하는 것으로 나타났으며, 소형모듈원자로(SMR)에 대해서는 70%가 기대감을 표현했다. 이는 일본에서 SMR에 대한 사회적 수용성이 높아지고 있음을 보여주는 결과로, SMR 도입 추진에 유리한 여론 환경을 제시한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "JP",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5672",
-  "k": "일본 청년 58 3 원전 재가동 교체 찬성 smr 기대감 70",
-  "ko": 1,
-  "id": "9f977484"
- },
- {
-  "date": "2026-08-15",
-  "title": "미국(US) 버지니아 캠벨카운티 SMR 추진…주민들 송전망·용수 우려",
-  "summary": "미국 버지니아 주 캠벨카운티에서 추진 중인 SMR 프로젝트에 대해 지역 주민들이 인프라와 환경 영향을 우려하고 있다.",
-  "summaryLong": "미국(US) 버지니아(Virginia) 주 캠벨카운티(Campbell County)에서 소형모듈원자로(SMR) 프로젝트가 추진되고 있는 가운데, 지역 주민들이 송전망 확충과 냉각수 용수 확보 등 인프라 관련 우려를 제기하고 있다. SMR의 지역사회 수용성 확보가 미국 내 프로젝트 추진의 중요한 과제임을 보여주며, 지역 주민의 이해와 동의가 상용화 추진에 필수적임을 시사한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5674",
-  "k": "버지니아 캠벨카운티 smr 추진 주민들 송전망 용수 우려",
-  "ko": 1,
-  "id": "9d97715e"
- },
- {
   "date": "2026-08-14",
   "title": "미국 웨스팅하우스·아멘텀, AP1000·AP300 협력 확대 계약",
   "summary": "미국 웨스팅하우스(Westinghouse)와 아멘텀(Amentum)이 AP1000 및 AP300 기술에 대한 협력을 확대하는 계약을 체결했다.",
@@ -1371,5 +1369,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-19 07:36 KST";
-window.SMR_TOTAL = 2169;
+window.SMR_UPDATED = "2026-08-19 08:05 KST";
+window.SMR_TOTAL = 2171;

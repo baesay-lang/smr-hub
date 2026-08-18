@@ -344,6 +344,34 @@ window.SMR_NEWS = [
     "id": "07b77cbb"
   },
   {
+    "date": "2026-08-18",
+    "title": "테라파워, 현대건설·SK이노베이션과 글로벌 SMR 사업 파트너십",
+    "summary": "테라파워가 현대건설과 SK이노베이션과 손잡고 글로벌 소형모듈원자로 사업을 추진한다.",
+    "summaryLong": "테라파워(TerraPower)가 현대건설(Hyundai E&C)과 SK이노베이션(SK Innovation)을 파트너로 선정하여 글로벌 소형모듈원자로(SMR) 사업 전개를 추진하고 있다. 이는 테라파워의 첨단로 기술을 한국의 주요 건설사 및 에너지 기업과 협력하여 국제 시장에 확대하려는 전략적 파트너십이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "kedglobal.com",
+    "url": "https://www.kedglobal.com/energy/newsView/ked202608180009",
+    "k": "terrapower taps hyundai e c sk innovation for global smr rollout",
+    "id": "16e643b0"
+  },
+  {
+    "date": "2026-08-18",
+    "title": "현대건설(Hyundai E&C), 테라파워(TerraPower) 최대 8기 차세대 원자로 EPC 우선권 확보",
+    "summary": "현대건설이 테라파워(TerraPower)의 차세대 원자로 최대 8기에 대한 EPC(설계·조달·건설) 우선권을 확보했다.",
+    "summaryLong": "현대건설(Hyundai E&C)이 테라파워(TerraPower)의 차세대 원자로 개발 프로젝트에서 최대 8기에 대한 EPC(설계·조달·건설) 우선권을 획득했다. 이는 테라파워의 첨단 원자로 상용화 진전을 보여주는 사건으로, 현대건설이 글로벌 SMR·첨단로 시장 진출을 추진하고 있음을 의미한다. 해당 계약은 테라파워의 미국 내 프로젝트 추진과 한국 기업의 국제 협력 확대를 반영한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "finance.biggo.com",
+    "url": "https://finance.biggo.com/news/c236ef2f-e025-47f0-9e43-660ad987b34e",
+    "k": "hyundai e c secures priority epc rights for up to 8 terrapower next gen nuclear reactors",
+    "id": "a6464f36"
+  },
+  {
     "date": "2026-08-17",
     "title": "뉴스케일, 미국 테네시계곡청(TVA)과 6~8GW 규모 잠재 계약",
     "summary": "뉴스케일(NuScale)이 미국 테네시계곡청(TVA)과 체결 검토 중인 SMR 계약이 6~8GW 규모로 미국 역사상 최대 규모 원전 건설이 될 가능성을 제시.",
@@ -31582,4 +31610,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-19 07:36 KST";
+window.SMR_UPDATED = "2026-08-19 08:05 KST";
