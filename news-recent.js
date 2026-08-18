@@ -15,6 +15,36 @@ window.SMR_NEWS = [
   "id": "6450e8f6"
  },
  {
+  "date": "2026-08-18",
+  "title": "현대건설, 테라파워 차세대 원전 최대 8기 설계·조달·시공 우선권 확보",
+  "summary": "현대건설이 미국의 테라파워(TerraPower)가 추진하는 차세대 원전 최대 8기에 대한 설계·조달·시공(EPC) 우선권을 체결했다.",
+  "summaryLong": "현대건설은 미국 에너지 기업 테라파워(TerraPower)가 추가로 추진하는 차세대 원전 최대 8기에 대한 설계·조달·시공(EPC) 우선권 계약을 체결했다. 이는 테라파워의 나트륨냉각고속로(SFR) 상용화 확대에 따른 시공 파트너십으로, 현대건설이 첨단 원자로 건설 시장에 진입하는 의미 있는 계약이다. 계약 세부 내용과 일정은 기사에 구체적으로 명시되지 않았다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "US",
+  "source": "연합뉴스 최신기사",
+  "url": "https://www.yna.co.kr/view/AKR20260818077200003",
+  "k": "현대건설 테라파워 원전 최대 8기 설계 조달 시공 우선권",
+  "ko": 1,
+  "id": "31e34479"
+ },
+ {
+  "date": "2026-08-18",
+  "title": "SK이노-테라파워, 나트륨 SMR 사업협력 합의",
+  "summary": "SK이노베이션(SK Innovation)과 테라파워(TerraPower)가 나트륨 냉각 소형모듈원자로(SMR) 사업협력을 합의했다.",
+  "summaryLong": "SK이노베이션(SK Innovation)과 미국의 테라파워(TerraPower)가 나트륨 냉각 소형모듈원자로(SMR) 사업협력을 합의했다. 차세대 첨단 나트륨냉각로(SFR) 기술을 기반으로 한반국 기술 경쟁력을 글로벌 시장에 확산하려는 전략적 협력이다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "SK Innovation, TerraPower",
+  "region": "KR",
+  "source": "blog.naver.com",
+  "url": "https://blog.naver.com/PostView.naver?blogId=dealsite&logNo=224381523373&redirect=Dlog",
+  "k": "sk이노 테라파워 나트륨 smr 사업협력 합의 네이버 블로그",
+  "ko": 1,
+  "id": "bb90d49d"
+ },
+ {
   "date": "2026-08-17",
   "title": "뉴스케일, 미국 테네시계곡청(TVA)과 6~8GW 규모 잠재 계약",
   "summary": "뉴스케일(NuScale)이 미국 테네시계곡청(TVA)과 체결 검토 중인 SMR 계약이 6~8GW 규모로 미국 역사상 최대 규모 원전 건설이 될 가능성을 제시.",
@@ -874,35 +904,6 @@ window.SMR_NEWS = [
   "id": "ffb5c46e"
  },
  {
-  "date": "2026-08-14",
-  "title": "테라파워, 현대엔지니어링·SK이노와 나트륨 SMR 협력 확대",
-  "summary": "미국 SMR 개발사 테라파워(TerraPower)가 현대엔지니어링&컨스트럭션과 SK이노베이션과 나트륨(Natrium) 원자로 기술의 개발·상용화를 위한 협력 계약을 체결했다.",
-  "summaryLong": "테라파워가 한국의 현대엔지니어링&컨스트럭션과 SK이노베이션과 협력 계약을 체결하고 소듐냉각고속로(SFR) 기술인 나트륨(Natrium) 원자로의 글로벌 사업 확대에 나선다. 이번 계약은 미국, 한국 및 선별된 국제 시장에서 나트륨 기술의 개발 및 상용화를 추진하는 내용을 담고 있다. SK이노베이션은 2022년 테라파워에 2억5000만달러를 공동 투자한 2대 주주로서 추가 협력을 강화하고 있다. 이를 통해 한국 기업의 글로벌 SMR 공급망 진출이 가속화될 것으로 예상된다.",
-  "cat": "계약",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "US",
-  "source": "World Nuclear News",
-  "url": "https://www.world-nuclear-news.org/articles/terrapower-expands-cooperation-with-korean-partners",
-  "k": "terrapower expands cooperation with korean partners",
-  "id": "e4269a5c"
- },
- {
-  "date": "2026-08-14",
-  "title": "SK이노, 테라파워와 나트륨 SMR 글로벌 사업 협력 합의",
-  "summary": "SK이노베이션이 테라파워와 나트륨(Natrium) SMR의 글로벌 사업 확대 및 한국 사업 모델 적용을 위한 합의서를 체결했다.",
-  "summaryLong": "SK이노베이션이 테라파워와 나트륨(Natrium) 소형모듈원자로 사업 협력 및 글로벌 시장 진출을 위한 합의서를 체결했다. SK이노베이션과 SK주식회사는 2022년 테라파워에 2억5000만달러를 공동 투자해 2대 주주가 되었으며, 이번 합의를 통해 테라파워의 미국 건설 사업과 한국형 사업 모델 적용을 추진한다. AI 데이터센터 등 대규모 전력 수요 증가에 대응하기 위해 SMR 중심의 새로운 에너지 사업 모델 구축을 목표로 하고 있다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "KR",
-  "source": "이투뉴스 - 전체기사",
-  "url": "http://www.e2news.com/news/articleView.html?idxno=333283",
-  "k": "sk이노 테라파워 k 나트륨 smr 사업 공동행보",
-  "ko": 1,
-  "id": "e0724a5e"
- },
- {
   "date": "2026-08-13",
   "title": "엑스에너지, 2026년 2분기 실적 발표 및 우라늄 농축 공급 계약 체결",
   "summary": "엑스에너지(X-Energy)가 2026년 2분기 매출 5,460만 달러 실적을 발표하고 센트러스 에너지(Centrus Energy)와 고농축저농축 우라늄(HALEU) 농축 서비스 장기 공급 계약을 체결했다.",
@@ -1384,5 +1385,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-18 13:09 KST";
-window.SMR_TOTAL = 2144;
+window.SMR_UPDATED = "2026-08-18 13:46 KST";
+window.SMR_TOTAL = 2148;

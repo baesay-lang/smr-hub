@@ -22,6 +22,36 @@ window.SMR_NEWS = [
     "id": "6450e8f6"
   },
   {
+    "date": "2026-08-18",
+    "title": "현대건설, 테라파워 차세대 원전 최대 8기 설계·조달·시공 우선권 확보",
+    "summary": "현대건설이 미국의 테라파워(TerraPower)가 추진하는 차세대 원전 최대 8기에 대한 설계·조달·시공(EPC) 우선권을 체결했다.",
+    "summaryLong": "현대건설은 미국 에너지 기업 테라파워(TerraPower)가 추가로 추진하는 차세대 원전 최대 8기에 대한 설계·조달·시공(EPC) 우선권 계약을 체결했다. 이는 테라파워의 나트륨냉각고속로(SFR) 상용화 확대에 따른 시공 파트너십으로, 현대건설이 첨단 원자로 건설 시장에 진입하는 의미 있는 계약이다. 계약 세부 내용과 일정은 기사에 구체적으로 명시되지 않았다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "연합뉴스 최신기사",
+    "url": "https://www.yna.co.kr/view/AKR20260818077200003",
+    "k": "현대건설 테라파워 원전 최대 8기 설계 조달 시공 우선권",
+    "ko": 1,
+    "id": "31e34479"
+  },
+  {
+    "date": "2026-08-18",
+    "title": "SK이노-테라파워, 나트륨 SMR 사업협력 합의",
+    "summary": "SK이노베이션(SK Innovation)과 테라파워(TerraPower)가 나트륨 냉각 소형모듈원자로(SMR) 사업협력을 합의했다.",
+    "summaryLong": "SK이노베이션(SK Innovation)과 미국의 테라파워(TerraPower)가 나트륨 냉각 소형모듈원자로(SMR) 사업협력을 합의했다. 차세대 첨단 나트륨냉각로(SFR) 기술을 기반으로 한반국 기술 경쟁력을 글로벌 시장에 확산하려는 전략적 협력이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "SK Innovation, TerraPower",
+    "region": "KR",
+    "source": "blog.naver.com",
+    "url": "https://blog.naver.com/PostView.naver?blogId=dealsite&logNo=224381523373&redirect=Dlog",
+    "k": "sk이노 테라파워 나트륨 smr 사업협력 합의 네이버 블로그",
+    "ko": 1,
+    "id": "bb90d49d"
+  },
+  {
     "date": "2026-08-17",
     "title": "뉴스케일, 미국 테네시계곡청(TVA)과 6~8GW 규모 잠재 계약",
     "summary": "뉴스케일(NuScale)이 미국 테네시계곡청(TVA)과 체결 검토 중인 SMR 계약이 6~8GW 규모로 미국 역사상 최대 규모 원전 건설이 될 가능성을 제시.",
@@ -1597,6 +1627,36 @@ window.SMR_NEWS = [
     "k": "두산에너빌리티 테라파워와 smr 핵심 기자재 제작 수주",
     "ko": 1,
     "id": "2e88ed1c"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "SK이노베이션, 테라파워와 SMR 협력 강화·미국 실증 사업 참여",
+    "summary": "SK이노베이션이 테라파워(TerraPower)와의 소형모듈원자로(SMR) 협력을 강화하고 미국 실증 사업에 참여하기로 했다.",
+    "summaryLong": "SK이노베이션이 소형모듈원자로(SMR) 개발사 테라파워(TerraPower)와의 기술 협력을 강화하며 미국 내 SMR 실증 사업에 직접 참여하기로 발표했다. 이는 한국 대형 에너지 기업이 미국의 선진 SMR 프로젝트에 파트너로 진입하는 의미 있는 발걸음이며, 한국 원전 기술의 국제화 및 미국 에너지 시장 진출을 가속화할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "SK이노베이션, TerraPower",
+    "region": "KR|US",
+    "source": "khan.co.kr",
+    "url": "https://www.khan.co.kr/article/202608141800001",
+    "k": "sk이노베이션 테라파워와 smr 협력 강화 미국 실증 사업 참여",
+    "ko": 1,
+    "id": "39c8cf51"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "테라파워 방한, HD현대·SK와 SMR 협력 강화",
+    "summary": "테라파워(TerraPower) 대표가 한국을 방문하여 HD현대 및 SK와 소형모듈원자로(SMR) 협력을 강화하는 계획을 논의했다.",
+    "summaryLong": "빌 게이츠가 후원하는 소형모듈원자로(SMR) 개발사 테라파워(TerraPower)의 경영진이 한국을 방문하여 HD현대(Hyundai Heavy Industries)와 SK이노베이션 등 주요 한국 에너지·조선 기업들과 협력 강화 논의를 추진했다. 이는 미국 SMR 사업에 한국 파트너사들의 참여를 확대하고 '동맹' 관계를 구축하려는 전략적 움직임으로, 향후 미국 내 SMR 실증·상용화 단계에서 한국 기업들의 역할 확대가 예상된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower, HD현대, SK이노베이션",
+    "region": "US|KR",
+    "source": "news.bizwatch.co.kr",
+    "url": "https://news.bizwatch.co.kr/article/industry/2026/08/14/0044",
+    "k": "테라파워 빌게이츠 방한 hd현대 sk와 smr 동맹 강화 속도",
+    "ko": 1,
+    "id": "f1947b0f"
   },
   {
     "date": "2026-08-13",
@@ -31215,4 +31275,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-18 13:09 KST";
+window.SMR_UPDATED = "2026-08-18 13:46 KST";
