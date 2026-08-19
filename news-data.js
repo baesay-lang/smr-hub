@@ -8,6 +8,95 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-08-19",
+    "title": "HD현대, 테라파워(TerraPower) 나트륨냉각로 공급망에 참여",
+    "summary": "빌 게이츠가 설립한 미국 테라파워의 소듐냉각고속로(SFR) 'NATRIUM' 원자로 제조에 HD현대가 첫 진출하며, 4세대 SMR의 등장이 원전 주기기 제조 산업의 진입장벽을 낮추고 있다.",
+    "summaryLong": "HD현대가 미국 테라파워(TerraPower)의 소듐냉각고속로(SFR) 원자로 공급망에 포함되어 원자로 제작에 처음 진출했다. 테라파워가 개발한 'NATRIUM'은 액체 나트륨을 냉각재로 사용해 낮은 압력에서 운전하는 4세대 소형모듈원자로(SMR)로, 전통적인 가압경수로(PWR)와 달라진 제조 역량 요구로 인해 새로운 사업자의 참여가 가능해졌다. 한국에서는 두산에너빌리티가 오랫동안 주기기 제작을 독점해왔으나, 비경수로(非經水爐) 기술의 등장이 원전 제조업의 경계를 무너뜨린 것으로 평가된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "전기신문 - 전체기사",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=371393",
+    "k": "테라파워에 hd현대가 왜 4세대 smr이 허문 장벽",
+    "ko": 1,
+    "id": "991ef0c0"
+  },
+  {
+    "date": "2026-08-19",
+    "title": "TVA·카이로스파워·구글, 동부 테네시 AI 붐 대비 핵심 협력",
+    "summary": "테네시밸리공사(TVA), 카이로스파워(Kairos Power), 구글이 동부 테네시의 AI 수요 증가에 대응하기 위해 협력한다.",
+    "summaryLong": "미국 테네시밸리공사(TVA), 고온가스로(HTGR) 개발사 카이로스파워(Kairos Power), 구글이 동부 테네시 지역의 인공지능(AI) 수요 증가에 대응하기 위해 파트너십을 구성했다. 이 협력은 SMR 기술을 이용한 핵에너지 공급으로 데이터센터 등의 전력 수요를 지속적으로 충족시키려는 전략이다.",
+    "cat": "기술",
+    "type": "FHR",
+    "dev": "Kairos Power",
+    "region": "US",
+    "source": "wbir.com",
+    "url": "https://www.wbir.com/article/news/local/oak-ridge-anderson/tva-kairos-power-google-partner-nuclear-demand-east-tennessee-ai-boom/51-37c22cc4-139d-4379-9996-0be378320892",
+    "k": "tva kairos power google partner to sustain nuclear demand in east tn during ai boom",
+    "id": "e988f5cb"
+  },
+  {
+    "date": "2026-08-19",
+    "title": "테라파워, 데이터센터 원자로 계약 공개 및 2027년 2번째 단위 계획",
+    "summary": "테라파워(TerraPower)가 데이터센터용 원자로 계약을 공개하고 2027년에 두 번째 원전 단위를 계획 중이다.",
+    "summaryLong": "테라파워(TerraPower)가 데이터센터용 소형모듈원자로(SMR) 계약 내용을 공개하고, 2027년에 두 번째 원전 유닛 배치를 목표로 하고 있다. 이는 AI 및 데이터센터의 전력 수요 증가에 대응하는 테라파워의 공급망 확대 전략을 보여준다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "briefs.co",
+    "url": "https://www.briefs.co/news/terrapower-to-reveal-data-center-reactor-deal-second-unit-in/",
+    "k": "terrapower to reveal data center reactor deal second unit in 2027",
+    "id": "b70307bc"
+  },
+  {
+    "date": "2026-08-19",
+    "title": "프라마톰, 첨단원자로 연료 시장 진출…10% 농축연료 제조 허가 획득",
+    "summary": "프라마톰이 미국에서 10% 농축도 저농축연료 제조 승인을 획득하여 첨단원자로 연료 시장 진출.",
+    "summaryLong": "프라마톰이 미국 원자력규제위원회(NRC)로부터 10% 농축도의 저농축우라늄 연료 제조 인가를 획득하고 첨단원자로 시장 진출을 추진 중. 이는 소형모듈원자로(SMR) 및 첨단원자로 개발에 필수적인 연료 공급망 확보로, 뉴스케일, 오클로 등 차세대 원자로 개발사들의 상용화를 지원하는 주요 인허가 성과.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "Framatome",
+    "region": "US",
+    "source": "inpnews.kr",
+    "url": "https://www.inpnews.kr/news/articleView.html?idxno=7513",
+    "k": "프라마톰 첨단원자로 연료시장 성큼 10 농축연료 제조 승인",
+    "ko": 1,
+    "id": "59e51491"
+  },
+  {
+    "date": "2026-08-19",
+    "title": "두산에너빌리티, 테라파워(TerraPower)와 SMR 핵심 기자재 제작 계약 체결",
+    "summary": "두산에너빌리티가 미국의 테라파워(TerraPower)와 SMR 핵심 기자재 제작 계약을 체결했다.",
+    "summaryLong": "두산에너빌리티는 빌 게이츠가 후원하는 미국 에너지 기업 테라파워(TerraPower)와 소형모듈원자로(SMR) 핵심 기자재 제작을 위한 계약을 체결했다. 이 계약은 두산에너빌리티가 테라파워의 SMR 사업에 부품 공급업체로서 참여한다는 의미이며, 한국 기업의 글로벌 SMR 밸류체인 편입을 의미한다. 이는 양국 원전 산업의 협력을 강화하는 중요한 거래이다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "두산에너빌리티",
+    "region": "US|KR",
+    "source": "koreasprint.com",
+    "url": "https://www.koreasprint.com/news/articleView.html?idxno=17554",
+    "k": "두산에너빌리티 미국 테라파워와 smr 핵심 기자재 제작 계약 체결",
+    "ko": 1,
+    "id": "19536d23"
+  },
+  {
+    "date": "2026-08-19",
+    "title": "[논평] SMR 건설 가능이 저렴한 전기 생산을 보장하지는 않는다",
+    "summary": "SMR 기술 실현과 경제성 달성은 별개의 문제라는 비판적 관점의 분석 기사이다.",
+    "summaryLong": "SMR 기술이 건설 가능한 수준에 도달했다고 해서 저렴한 전기 생산이 자동으로 실현되는 것은 아니라는 비판적 관점의 기사이다. 소형모듈원자로의 기술적 진전에도 불구하고 경제성, 규제 인허가, 운영 비용 등 다각적인 과제가 남아 있다는 점을 지적한다. 이는 SMR 사업의 현실적 전망과 한계를 다루는 의견 칼럼이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "businessplus.kr",
+    "url": "http://www.businessplus.kr/news/articleView.html?idxno=115606",
+    "k": "시선 smr 지을 수 있다고 싼 전기 가 눈 앞에 온 것은 아니다",
+    "ko": 1,
+    "op": 1,
+    "id": "97607609"
+  },
+  {
     "date": "2026-08-18",
     "title": "현대건설(Hyundai E&C), 테라파워(TerraPower) 나트륨(Natrium) SMR 최대 8기 EPC 우선 수주",
     "summary": "현대건설이 테라파워의 나트륨 소형모듈원자로(SMR) 최대 8기에 대한 EPC(설계·조달·시공) 사업 우선권을 획득.",
@@ -372,6 +461,51 @@ window.SMR_NEWS = [
     "id": "a6464f36"
   },
   {
+    "date": "2026-08-18",
+    "title": "테라파워, 올해 중 2번째 원전 계획 발표 예정",
+    "summary": "빌 게이츠가 지원하는 테라파워(TerraPower)가 올해 중 2번째 원전 건설 계획을 발표할 것으로 보인다.",
+    "summaryLong": "테라파워(TerraPower)가 올해 중 두 번째 원전 프로젝트를 발표할 것으로 예상되고 있다. 블룸버그 보도에 따르면 이는 회사의 고급로(Advanced Reactor) 배치 가속화 전략의 일환으로, 기존 프로젝트에 이어 추가 사업 확대를 의미한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "bloomberg.com",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-18/gates-backed-terrapower-to-announce-second-nuke-plant-this-year",
+    "k": "gates backed terrapower to announce second nuclear plant this year",
+    "op": 1,
+    "id": "c827888d"
+  },
+  {
+    "date": "2026-08-18",
+    "title": "한국 SMR, '양산 체제' 시동",
+    "summary": "한국의 소형모듈원자로(SMR) 사업이 본격적인 양산 단계로 진입하고 있다.",
+    "summaryLong": "빌 게이츠가 주목하는 한국의 SMR 기술이 양산 체제로 전환되고 있다. 한국 원전 산업이 소형모듈원자로의 상용화를 위해 대량 생산 시스템을 갖추기 시작했으며, 이는 글로벌 SMR 시장에서 한국의 경쟁력을 강화하는 신호로 평가된다. 양산 체제 진입은 기술 개발에서 실질적인 사업화로의 전환을 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "greened.kr",
+    "url": "https://www.greened.kr/news/articleView.html?idxno=347912",
+    "k": "빌 게이츠가 찜한 k원전 smr 양산 체제 시동",
+    "ko": 1,
+    "id": "ca248ff9"
+  },
+  {
+    "date": "2026-08-18",
+    "title": "투자에서 상용화로…글로벌 SMR 밸류체인에서 한국의 위치",
+    "summary": "글로벌 SMR 시장이 투자 단계에서 상용화 단계로 진입하면서 한국 원전이 차지할 위치를 분석한다.",
+    "summaryLong": "세계 소형모듈원자로(SMR) 산업이 초기 투자 단계에서 본격적인 상용화 단계로 전환되고 있는 가운데, 한국 원전 기업들이 글로벌 SMR 밸류체인 내에서 어떤 역할과 위치를 가질지를 분석하는 기사이다. 한국의 기술력, 제조 역량, 국제 협력 현황 등을 종합적으로 평가하여 한국 산업의 전략적 위치를 제시한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "goodkyung.com",
+    "url": "https://www.goodkyung.com/news/articleView.html?idxno=290367",
+    "k": "투자에서 상용화로 글로벌 smr 밸류체인서 k원전이 차지할 위치",
+    "ko": 1,
+    "id": "c89391fb"
+  },
+  {
     "date": "2026-08-17",
     "title": "뉴스케일, 미국 테네시계곡청(TVA)과 6~8GW 규모 잠재 계약",
     "summary": "뉴스케일(NuScale)이 미국 테네시계곡청(TVA)과 체결 검토 중인 SMR 계약이 6~8GW 규모로 미국 역사상 최대 규모 원전 건설이 될 가능성을 제시.",
@@ -638,6 +772,20 @@ window.SMR_NEWS = [
     "k": "김정관 장관 빌 게이츠 만나 원전기업 테라파워 핵심 공급망으로",
     "ko": 1,
     "id": "6243f58f"
+  },
+  {
+    "date": "2026-08-17",
+    "title": "테라파워, 한국과 나트륨 동맹 구축",
+    "summary": "테라파워(TerraPower)가 나트륨 냉각 고속로(Natrium) 기술 확산을 위해 한국과 협력 관계를 구축했다.",
+    "summaryLong": "테라파워(TerraPower)가 소듐냉각고속로(Natrium) 기술과 관련하여 한국과 협력 동맹을 체결했다는 보도다. 이는 테라파워의 고급 원자로 기술 국제 확산 전략의 일환으로, 한국 파트너와의 협력을 통해 아시아 태평양 지역으로의 기술 이전 및 상용화를 추진하는 중요한 계약이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "테라파워",
+    "region": "KR",
+    "source": "neimagazine.com",
+    "url": "https://www.neimagazine.com/news/terrapower-builds-korean-natrium-alliance/",
+    "k": "terrapower builds korean natrium alliance",
+    "id": "11c562ed"
   },
   {
     "date": "2026-08-16",
@@ -15679,6 +15827,20 @@ window.SMR_NEWS = [
     "source": "china.usembassy-china.org.cn",
     "url": "https://china.usembassy-china.org.cn/the-u-s-japan-and-the-republic-of-korea-sign-a-trilateral-memorandum-of-cooperation-on-small-modular-reactor-deployments-in-other-countries/",
     "k": "the united states japan and the republic of korea sign a trilateral memorandum of cooperation on small modular reactor deployments in other countries",
+    "id": "adfbfe5e"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "미국·일본·한국, 소형모듈원자로 해외 배치 협력 양해각서 체결",
+    "summary": "미국, 일본, 한국이 소형모듈원자로의 국제 배치 협력에 관한 3자 양해각서(MOU)를 체결.",
+    "summaryLong": "미국, 일본, 대한민국이 소형모듈원자로의 다른 국가에 대한 배치 및 협력을 주제로 3자 간 협력 양해각서를 공식 서명. 이는 SMR의 국제 전개를 위한 정부 간 정책 차원의 협력 체계 구축으로, 각국의 SMR 발전 정책 및 국제 표준화를 추진하는 국책 프로그램 성격.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "china.usembassy-china.org.cn",
+    "url": "https://china.usembassy-china.org.cn/the-u-s-japan-and-the-republic-of-korea-sign-a-trilateral-memorandum-of-cooperation-on-small-modular-reactor-deployments-in-other-countries/",
+    "k": "the united states japan and the republic of korea sign a trilateral memorandum of cooperation on small modular reactor deployments in other countries china usembassy china org cn",
     "id": "adfbfe5e"
   },
   {
@@ -31610,4 +31772,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-19 08:05 KST";
+window.SMR_UPDATED = "2026-08-19 13:09 KST";
