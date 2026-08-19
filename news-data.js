@@ -326,6 +326,36 @@ window.SMR_NEWS = [
     "id": "58e512fe"
   },
   {
+    "date": "2026-08-19",
+    "title": "HD현대-테라파워-현대건설 미국 SMR 시장 진출",
+    "summary": "HD현대, 테라파워(TerraPower), 현대건설이 미국 소형모듈원자로(SMR) 시장 진출을 위한 협력을 추진하고 있다.",
+    "summaryLong": "HD현대와 현대건설이 테라파워(TerraPower)와 함께 미국의 소형모듈원자로(SMR) 시장 진출 협력을 구체화하고 있다. HD현대의 원자력 기술력과 현대건설의 건설 역량을 활용해 테라파워의 차세대 원자로 프로젝트에 참여할 계획이다. 이는 한국 대형 그룹들이 글로벌 SMR 시장에 본격적으로 진입하는 신호로 평가된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "HD현대, TerraPower, 현대건설",
+    "region": "KR|US",
+    "source": "koreasprint.com",
+    "url": "https://www.koreasprint.com/news/articleView.html?idxno=17572",
+    "k": "hd현대 테라파워 현대건설 미국 smr 시장 속도 내",
+    "ko": 1,
+    "id": "af4e4917"
+  },
+  {
+    "date": "2026-08-19",
+    "title": "차세대 SMR 공급망 한국 기업들이 주도…SK·HD현대·두산",
+    "summary": "SK, HD현대, 두산 등 한국 기업들이 차세대 소형모듈원자로(SMR) 공급망 확보에 적극적으로 나서고 있다.",
+    "summaryLong": "SK이노베이션, HD현대, 두산 등 한국의 주요 기업들이 테라파워(TerraPower)와의 협력을 통해 차세대 소형모듈원자로(SMR) 공급망의 핵심 역할을 확보하려 하고 있다. 나트륨 냉각로, 부품 제조, 건설 등 가치사슬의 각 단계에서 한국 기업의 역할을 강화하는 전략으로, 글로벌 SMR 시장이 본격화할 때를 대비하는 선제적 움직임이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "SK이노베이션, HD현대, 두산",
+    "region": "KR|US",
+    "source": "sidae.com",
+    "url": "https://www.sidae.com/article/2026081914104054531",
+    "k": "차세대 smr 공급망 한국이 잡는다 sk hd현대 두산 잰걸음",
+    "ko": 1,
+    "id": "e7d0301c"
+  },
+  {
     "date": "2026-08-18",
     "title": "현대건설(Hyundai E&C), 테라파워(TerraPower) 나트륨(Natrium) SMR 최대 8기 EPC 우선 수주",
     "summary": "현대건설이 테라파워의 나트륨 소형모듈원자로(SMR) 최대 8기에 대한 EPC(설계·조달·시공) 사업 우선권을 획득.",
@@ -821,6 +851,37 @@ window.SMR_NEWS = [
     "k": "hd현대 현대건설 테라파워 손잡고 미국 smr 시장 선점 추진 나트륨 원전사업 수행 위한 기본협약 체결",
     "ko": 1,
     "id": "989e2211"
+  },
+  {
+    "date": "2026-08-18",
+    "title": "테라파워·SK·HD현대·두산 SMR 사업 협력 구체화",
+    "summary": "빌 게이츠의 테라파워(TerraPower)와 SK그룹, HD현대, 두산이 소형모듈원자로(SMR) 사업에서 협력을 구체화하고 있다.",
+    "summaryLong": "테라파워(TerraPower)와 SK이노베이션, HD현대, 두산이 글로벌 소형모듈원자로(SMR) 사업에서 협력 체계를 구체화하고 있다. 한국의 주요 에너지·건설·기술 기업들이 미국의 첨단 SMR 개발사와 손잡고 설계, 부품 공급, 건설 등 전 분야에서 파트너십을 강화 중이다. 이는 차세대 원자로 시장에서 한국 기업의 영향력을 확대하려는 전략적 움직임으로 평가된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower, SK이노베이션, HD현대, 두산",
+    "region": "KR|US",
+    "source": "marketnews.co.kr",
+    "url": "http://www.marketnews.co.kr/news/articleView.html?idxno=74232",
+    "k": "빌 게이츠의 테라파워 sk hd현대 두산 smr 사업 협력 구체화",
+    "ko": 1,
+    "id": "c5c22029"
+  },
+  {
+    "date": "2026-08-18",
+    "title": "르베크(Lebec) CEO \"'K-나트륨' 4세대 SMR이 AI시대 새 전력원 될 것\"",
+    "summary": "르베크 CEO가 한국의 나트륨냉각 소형모듈원자로(K-나트륨)가 인공지능(AI) 시대의 주요 전력원이 될 것으로 전망했다.",
+    "summaryLong": "르베크(Lebec) CEO가 한국의 나트륨냉각 소형모듈원자로(K-나트륨)가 4세대 고급 원자로 기술로서 인공지능(AI) 시대의 새로운 전력원이 될 것으로 예측했다. 이는 한국의 소듐냉각고속로(SFR) 기술이 차세대 에너지 수요 충족에 적합하다는 긍정적 평가를 반영한다. 다만 제시된 내용은 CEO의 전망 발언으로, 구체적인 개발 일정이나 상용화 계획은 명시되지 않았다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "Lebec",
+    "region": "KR",
+    "source": "hankyung.com",
+    "url": "https://www.hankyung.com/article/2026081878781",
+    "k": "단독 르베크 ceo 4세대 smr k 나트륨 원전 넘어 ai시대 새 전력원 될 것",
+    "ko": 1,
+    "op": 1,
+    "id": "f96f73b7"
   },
   {
     "date": "2026-08-17",
@@ -2487,6 +2548,36 @@ window.SMR_NEWS = [
     "k": "테라파워 빌게이츠 방한 hd현대 sk와 smr 동맹 강화 속도",
     "ko": 1,
     "id": "f1947b0f"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "미국 SMR에 탑재된 한국산 부품 - '메이드 인 코리아' 원전 기술",
+    "summary": "빌 게이츠의 테라파워 SMR 프로젝트에 한국산 원전 기술 및 부품이 공급되고 있다.",
+    "summaryLong": "빌 게이츠가 지원하는 테라파워(TerraPower)의 소형모듈원자로(SMR) 사업에 한국산 원전 기술과 부품이 통합되고 있다. 이는 한국의 선진 원전 기술이 미국의 차세대 원자로 개발에 실질적으로 기여하고 있음을 보여주며, 글로벌 SMR 시장에서 한국 기업의 경쟁력을 입증한다. 구체적인 부품 범위와 공급 현황에 대한 세부 사항은 추가 확인이 필요하다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "economist.co.kr",
+    "url": "https://economist.co.kr/article/view/ecn202608140075",
+    "k": "빌 게이츠 원자로 뜯어보니 메이드 인 코리아 smr에 올라탄 k원전",
+    "ko": 1,
+    "id": "8303da83"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "HD현대, 테라파워·현대건설과 SMR 협력 강화",
+    "summary": "HD현대(HD Hyundai)가 테라파워(TerraPower)와 현대건설과의 협력을 통해 소형모듈원자로(SMR) 개발 및 상용화를 가속화한다.",
+    "summaryLong": "HD현대(HD Hyundai)가 테라파워(TerraPower) 및 현대건설과의 협력을 강화하여 차세대 소형모듈원자로(SMR) 개발 속도를 높이고 있다. 이 삼자 협력은 미국의 첨단 원자로 기술과 한국의 건설·제조 역량을 결합하여 글로벌 SMR 시장 진출을 가속화하려는 전략이다. 구체적인 협력 내용, 투자 규모, 일정 등의 세부 사항은 보도에서 추가로 확인이 필요하다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "mt.co.kr",
+    "url": "https://www.mt.co.kr/industry/2026/08/14/2026081415033485118",
+    "k": "hd현대 테라파워 현대건설과 smr 협력 차세대 원자로 속도 머니투데이",
+    "ko": 1,
+    "id": "caadd99f"
   },
   {
     "date": "2026-08-13",
@@ -32149,4 +32240,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-20 07:35 KST";
+window.SMR_UPDATED = "2026-08-20 08:05 KST";

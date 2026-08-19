@@ -319,6 +319,36 @@ window.SMR_NEWS = [
   "id": "58e512fe"
  },
  {
+  "date": "2026-08-19",
+  "title": "HD현대-테라파워-현대건설 미국 SMR 시장 진출",
+  "summary": "HD현대, 테라파워(TerraPower), 현대건설이 미국 소형모듈원자로(SMR) 시장 진출을 위한 협력을 추진하고 있다.",
+  "summaryLong": "HD현대와 현대건설이 테라파워(TerraPower)와 함께 미국의 소형모듈원자로(SMR) 시장 진출 협력을 구체화하고 있다. HD현대의 원자력 기술력과 현대건설의 건설 역량을 활용해 테라파워의 차세대 원자로 프로젝트에 참여할 계획이다. 이는 한국 대형 그룹들이 글로벌 SMR 시장에 본격적으로 진입하는 신호로 평가된다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "HD현대, TerraPower, 현대건설",
+  "region": "KR|US",
+  "source": "koreasprint.com",
+  "url": "https://www.koreasprint.com/news/articleView.html?idxno=17572",
+  "k": "hd현대 테라파워 현대건설 미국 smr 시장 속도 내",
+  "ko": 1,
+  "id": "af4e4917"
+ },
+ {
+  "date": "2026-08-19",
+  "title": "차세대 SMR 공급망 한국 기업들이 주도…SK·HD현대·두산",
+  "summary": "SK, HD현대, 두산 등 한국 기업들이 차세대 소형모듈원자로(SMR) 공급망 확보에 적극적으로 나서고 있다.",
+  "summaryLong": "SK이노베이션, HD현대, 두산 등 한국의 주요 기업들이 테라파워(TerraPower)와의 협력을 통해 차세대 소형모듈원자로(SMR) 공급망의 핵심 역할을 확보하려 하고 있다. 나트륨 냉각로, 부품 제조, 건설 등 가치사슬의 각 단계에서 한국 기업의 역할을 강화하는 전략으로, 글로벌 SMR 시장이 본격화할 때를 대비하는 선제적 움직임이다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "SK이노베이션, HD현대, 두산",
+  "region": "KR|US",
+  "source": "sidae.com",
+  "url": "https://www.sidae.com/article/2026081914104054531",
+  "k": "차세대 smr 공급망 한국이 잡는다 sk hd현대 두산 잰걸음",
+  "ko": 1,
+  "id": "e7d0301c"
+ },
+ {
   "date": "2026-08-18",
   "title": "현대건설(Hyundai E&C), 테라파워(TerraPower) 나트륨(Natrium) SMR 최대 8기 EPC 우선 수주",
   "summary": "현대건설이 테라파워의 나트륨 소형모듈원자로(SMR) 최대 8기에 대한 EPC(설계·조달·시공) 사업 우선권을 획득.",
@@ -816,6 +846,37 @@ window.SMR_NEWS = [
   "id": "989e2211"
  },
  {
+  "date": "2026-08-18",
+  "title": "테라파워·SK·HD현대·두산 SMR 사업 협력 구체화",
+  "summary": "빌 게이츠의 테라파워(TerraPower)와 SK그룹, HD현대, 두산이 소형모듈원자로(SMR) 사업에서 협력을 구체화하고 있다.",
+  "summaryLong": "테라파워(TerraPower)와 SK이노베이션, HD현대, 두산이 글로벌 소형모듈원자로(SMR) 사업에서 협력 체계를 구체화하고 있다. 한국의 주요 에너지·건설·기술 기업들이 미국의 첨단 SMR 개발사와 손잡고 설계, 부품 공급, 건설 등 전 분야에서 파트너십을 강화 중이다. 이는 차세대 원자로 시장에서 한국 기업의 영향력을 확대하려는 전략적 움직임으로 평가된다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "TerraPower, SK이노베이션, HD현대, 두산",
+  "region": "KR|US",
+  "source": "marketnews.co.kr",
+  "url": "http://www.marketnews.co.kr/news/articleView.html?idxno=74232",
+  "k": "빌 게이츠의 테라파워 sk hd현대 두산 smr 사업 협력 구체화",
+  "ko": 1,
+  "id": "c5c22029"
+ },
+ {
+  "date": "2026-08-18",
+  "title": "르베크(Lebec) CEO \"'K-나트륨' 4세대 SMR이 AI시대 새 전력원 될 것\"",
+  "summary": "르베크 CEO가 한국의 나트륨냉각 소형모듈원자로(K-나트륨)가 인공지능(AI) 시대의 주요 전력원이 될 것으로 전망했다.",
+  "summaryLong": "르베크(Lebec) CEO가 한국의 나트륨냉각 소형모듈원자로(K-나트륨)가 4세대 고급 원자로 기술로서 인공지능(AI) 시대의 새로운 전력원이 될 것으로 예측했다. 이는 한국의 소듐냉각고속로(SFR) 기술이 차세대 에너지 수요 충족에 적합하다는 긍정적 평가를 반영한다. 다만 제시된 내용은 CEO의 전망 발언으로, 구체적인 개발 일정이나 상용화 계획은 명시되지 않았다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "Lebec",
+  "region": "KR",
+  "source": "hankyung.com",
+  "url": "https://www.hankyung.com/article/2026081878781",
+  "k": "단독 르베크 ceo 4세대 smr k 나트륨 원전 넘어 ai시대 새 전력원 될 것",
+  "ko": 1,
+  "op": 1,
+  "id": "f96f73b7"
+ },
+ {
   "date": "2026-08-17",
   "title": "뉴스케일, 미국 테네시계곡청(TVA)과 6~8GW 규모 잠재 계약",
   "summary": "뉴스케일(NuScale)이 미국 테네시계곡청(TVA)과 체결 검토 중인 SMR 계약이 6~8GW 규모로 미국 역사상 최대 규모 원전 건설이 될 가능성을 제시.",
@@ -844,35 +905,6 @@ window.SMR_NEWS = [
   "k": "블루 ge히타치 2 5gw 가스 smr i smr 주목",
   "ko": 1,
   "id": "9f8869fa"
- },
- {
-  "date": "2026-08-17",
-  "title": "스위스 원전 재개 국민투표 통과, 한국 원전·SMR 수출 기회 확대",
-  "summary": "스위스의 원전 재개 국민투표 결과가 한국의 원전 및 소형모듈원자로(SMR) 수출 시장 확대로 이어질 전망이다.",
-  "summaryLong": "스위스가 원전 재개를 지지하는 국민투표 결과를 얻음으로써 유럽 에너지 정책에 변화가 예상된다. 이에 따라 한국의 원전 기술과 소형모듈원자로(SMR) 기술이 유럽 시장 진출의 새로운 기회를 맞이할 수 있을 것으로 전망된다. 스위스를 포함한 유럽의 에너지 전환 정책 변화가 한국 원전 산업에 긍정적 신호가 될 것으로 평가되고 있다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "EU",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5690",
-  "k": "스위스 원전 재개 국민투표로 원전 smr 수출길 열린다",
-  "ko": 1,
-  "id": "9d8866d4"
- },
- {
-  "date": "2026-08-17",
-  "title": "블루에너지·GE 버노바, 텍사스 2.5GW 가스-핵융합 발전소 협력 심화",
-  "summary": "블루에너지(Blue Energy)와 GE 버노바 히타치 원자력(GE Vernova Hitachi Nuclear Energy)이 텍사스에 2.5GW 규모의 가스-핵융합 발전소 구축을 위한 협력 다음 단계를 시작하는 계약을 체결했다.",
-  "summaryLong": "블루에너지와 GE 버노바 히타치 원자력이 향후 협력을 본격화하기 위한 계약을 서명했다. 양사는 텍사스(Texas)에 2.5GW 규모의 가스와 핵에너지를 결합한 하이브리드 발전소 구축을 목표로 하고 있다. 이번 계약은 기존 협력 관계를 한 단계 높인 것으로, 향후 설계·인허가·건설 단계로 진행될 예정이다. 첨단로 기술을 기존 가스발전과 결합하는 새로운 시장 진출 모델을 제시하는 의미를 갖는다.",
-  "cat": "계약",
-  "type": "General",
-  "dev": "Blue Energy, GE Vernova",
-  "region": "US",
-  "source": "World Nuclear News",
-  "url": "https://www.world-nuclear-news.org/articles/blue-energy-ge-vernova-take-gas-plus-nuclear-collaboration-to-next-stage",
-  "k": "blue energy ge vernova take gas plus nuclear collaboration to next stage",
-  "id": "cd036dc8"
  },
  {
   "date": "2026-08-17",
@@ -1354,5 +1386,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-20 07:35 KST";
-window.SMR_TOTAL = 2208;
+window.SMR_UPDATED = "2026-08-20 08:05 KST";
+window.SMR_TOTAL = 2214;
