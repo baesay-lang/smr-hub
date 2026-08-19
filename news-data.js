@@ -97,6 +97,34 @@ window.SMR_NEWS = [
     "id": "97607609"
   },
   {
+    "date": "2026-08-19",
+    "title": "구글, TVA, 카이로스 파워 테네시주 첨단핵에너지 프로젝트 협력",
+    "summary": "구글, 테네시계곡공사(TVA), 카이로스 파워(Kairos Power)가 테네시주에서 첨단핵에너지 프로젝트를 공동 추진합니다.",
+    "summaryLong": "구글(Google), 테네시계곡공사(Tennessee Valley Authority, TVA), 카이로스 파워(Kairos Power)가 테네시주에서 첨단핵에너지 프로젝트를 협력하기로 합의했습니다. 이는 대형 기술 기업과 지역 전력공사, 소형모듈원자로(SMR) 개발사 간의 파트너십으로, 미국 내 첨단로 상용화 진출의 구체적 사례입니다. 카이로스 파워는 용융염 냉각 고온가스로(FHR) 기술을 개발 중입니다.",
+    "cat": "기술",
+    "type": "FHR",
+    "dev": "Kairos Power",
+    "region": "US",
+    "source": "wbir.com",
+    "url": "https://www.wbir.com/video/news/local/oak-ridge-anderson/google-tva-kairos-power-team-up-on-advanced-nuclear-energy-project-in-tennessee/51-c6de3c7f-53e8-4b85-a0d7-5cf95a05e14c",
+    "k": "google tva kairos power team up on advanced nuclear energy project in tennessee",
+    "id": "c61c0bbf"
+  },
+  {
+    "date": "2026-08-19",
+    "title": "공매도 세력, 소형모듈원자로 기업 베팅으로 수십억 달러 수익 - 파이낸셜 타임즈",
+    "summary": "공매도 거래자들이 소형모듈원자로(SMR) 개발사들을 대상으로 한 공매도 포지션에서 수십억 달러의 이익을 얻었습니다.",
+    "summaryLong": "파이낸셜 타임즈(FT)가 보도한 바에 따르면, 공매도 세력이 소형모듈원자로(SMR) 관련 기업들에 대해 매도 포지션을 유지하면서 수십억 달러 규모의 수익을 올렸습니다. 이는 SMR 산업의 주가 부진과 시장의 회의적 전망을 반영하는 소식으로, 뉴스케일(NuScale), 오클로(Oklo) 등 주요 SMR 개발사들의 주가 약세를 배경으로 합니다. 산업 전체의 투자 환경과 시장 신뢰도를 보여주는 기사입니다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "seekingalpha.com",
+    "url": "https://seekingalpha.com/news/4634594-short-sellers-have-reaped-billions-in-profits-from-betting-against-small-modular-reactor",
+    "k": "short sellers have reaped billions in profits from betting against small modular reactor firms ft",
+    "id": "e3cf9ca2"
+  },
+  {
     "date": "2026-08-18",
     "title": "현대건설(Hyundai E&C), 테라파워(TerraPower) 나트륨(Natrium) SMR 최대 8기 EPC 우선 수주",
     "summary": "현대건설이 테라파워의 나트륨 소형모듈원자로(SMR) 최대 8기에 대한 EPC(설계·조달·시공) 사업 우선권을 획득.",
@@ -5424,6 +5452,21 @@ window.SMR_NEWS = [
     "k": "nuscale power faces earnings test as commercialization lags by investing com",
     "op": 1,
     "id": "36490522"
+  },
+  {
+    "date": "2026-08-05",
+    "title": "정부, 소형모듈원자로(SMR) 선제적 인허가 체계 구축",
+    "summary": "대한민국 정부가 미래형 소형모듈원자로(SMR)에 대한 사전적 규제 인증 체계를 마련하고 있다.",
+    "summaryLong": "정부가 소형모듈원자로(SMR) 및 고급원자로(Advanced Reactor) 도입 촉진을 위해 선제적 인허가 체계를 구축하기로 발표했다. 이는 기존 대형 경수로 기준의 규제 틀을 SMR의 특성에 맞게 개선하려는 정책 추진이다. 설계인증(Design Certification), 부지 사전평가(VDR) 등 신형로에 맞춘 규제 절차를 조기에 정비함으로써, 2030년대 SMR 상용화 목표를 뒷받침할 계획이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "korea.kr",
+    "url": "https://www.korea.kr/multi/visualNewsView.do?newsId=148969429&pWise=sub&pWiseSub=R6",
+    "k": "미래 신형원자로 smr 선제적 인허가 체계 구축",
+    "ko": 1,
+    "id": "ca050270"
   },
   {
     "date": "2026-08-04",
@@ -31772,4 +31815,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-19 13:09 KST";
+window.SMR_UPDATED = "2026-08-19 13:47 KST";

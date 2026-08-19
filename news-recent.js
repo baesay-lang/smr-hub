@@ -90,6 +90,34 @@ window.SMR_NEWS = [
   "id": "97607609"
  },
  {
+  "date": "2026-08-19",
+  "title": "구글, TVA, 카이로스 파워 테네시주 첨단핵에너지 프로젝트 협력",
+  "summary": "구글, 테네시계곡공사(TVA), 카이로스 파워(Kairos Power)가 테네시주에서 첨단핵에너지 프로젝트를 공동 추진합니다.",
+  "summaryLong": "구글(Google), 테네시계곡공사(Tennessee Valley Authority, TVA), 카이로스 파워(Kairos Power)가 테네시주에서 첨단핵에너지 프로젝트를 협력하기로 합의했습니다. 이는 대형 기술 기업과 지역 전력공사, 소형모듈원자로(SMR) 개발사 간의 파트너십으로, 미국 내 첨단로 상용화 진출의 구체적 사례입니다. 카이로스 파워는 용융염 냉각 고온가스로(FHR) 기술을 개발 중입니다.",
+  "cat": "기술",
+  "type": "FHR",
+  "dev": "Kairos Power",
+  "region": "US",
+  "source": "wbir.com",
+  "url": "https://www.wbir.com/video/news/local/oak-ridge-anderson/google-tva-kairos-power-team-up-on-advanced-nuclear-energy-project-in-tennessee/51-c6de3c7f-53e8-4b85-a0d7-5cf95a05e14c",
+  "k": "google tva kairos power team up on advanced nuclear energy project in tennessee",
+  "id": "c61c0bbf"
+ },
+ {
+  "date": "2026-08-19",
+  "title": "공매도 세력, 소형모듈원자로 기업 베팅으로 수십억 달러 수익 - 파이낸셜 타임즈",
+  "summary": "공매도 거래자들이 소형모듈원자로(SMR) 개발사들을 대상으로 한 공매도 포지션에서 수십억 달러의 이익을 얻었습니다.",
+  "summaryLong": "파이낸셜 타임즈(FT)가 보도한 바에 따르면, 공매도 세력이 소형모듈원자로(SMR) 관련 기업들에 대해 매도 포지션을 유지하면서 수십억 달러 규모의 수익을 올렸습니다. 이는 SMR 산업의 주가 부진과 시장의 회의적 전망을 반영하는 소식으로, 뉴스케일(NuScale), 오클로(Oklo) 등 주요 SMR 개발사들의 주가 약세를 배경으로 합니다. 산업 전체의 투자 환경과 시장 신뢰도를 보여주는 기사입니다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "US",
+  "source": "seekingalpha.com",
+  "url": "https://seekingalpha.com/news/4634594-short-sellers-have-reaped-billions-in-profits-from-betting-against-small-modular-reactor",
+  "k": "short sellers have reaped billions in profits from betting against small modular reactor firms ft",
+  "id": "e3cf9ca2"
+ },
+ {
   "date": "2026-08-18",
   "title": "현대건설(Hyundai E&C), 테라파워(TerraPower) 나트륨(Natrium) SMR 최대 8기 EPC 우선 수주",
   "summary": "현대건설이 테라파워의 나트륨 소형모듈원자로(SMR) 최대 8기에 대한 EPC(설계·조달·시공) 사업 우선권을 획득.",
@@ -856,37 +884,6 @@ window.SMR_NEWS = [
   "id": "cee050d1"
  },
  {
-  "date": "2026-08-16",
-  "title": "두산에너빌리티, 미국 테라파워 차세대 SMR 핵심 기자재 수주",
-  "summary": "두산에너빌리티가 테라파워(TerraPower)로부터 차세대 소형모듈원자로(SMR)의 핵심 기자재 제작 계약을 수주했다.",
-  "summaryLong": "두산에너빌리티가 미국의 테라파워(TerraPower)로부터 차세대 소형모듈원자로(SMR) 사업의 핵심 기자재를 제작·공급하는 계약을 체결했다. 이는 빌 게이츠가 설립한 테라파워가 한국의 원전 기자재 공급망을 선택한 것으로, 한국 기업의 글로벌 SMR 공급망에서의 위상을 높이는 계약이다. 두산에너빌리티는 테라파워와의 이번 기자재 공급 계약을 통해 차세대 원자로 시장에 본격 진출하게 된다.",
-  "cat": "계약",
-  "type": "SFR",
-  "dev": "두산에너빌리티, 테라파워",
-  "region": "US",
-  "source": "segye.com",
-  "url": "https://www.segye.com/newsView/20260816509334",
-  "k": "두산에너빌리티 테라파워 차세대 smr 핵심 기자재 수주",
-  "ko": 1,
-  "id": "689aef18"
- },
- {
-  "date": "2026-08-16",
-  "title": "테라파워(TerraPower)에 한국 SMR 생산거점 활용 제안",
-  "summary": "테라파워에 한국의 소형모듈원자로(SMR) 생산거점 활용을 제안하는 논의가 진행 중이다.",
-  "summaryLong": "한국 측이 미국의 선진 SMR 개발사인 테라파워(TerraPower)에 한국의 SMR 생산거점 활용을 제안했다. 이는 한국의 원전 제조 역량을 바탕으로 글로벌 SMR 시장 진출을 모색하는 전략적 제안으로, 양국 간 SMR 협력의 가능성을 보여준다. 제안의 구체적 진행 상황은 미확인 상태이다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "US",
-  "source": "energytimes.kr",
-  "url": "https://www.energytimes.kr/news/articleView.html?idxno=70667",
-  "k": "테라파워에 smr 생산거점 활용 제안",
-  "ko": 1,
-  "op": 1,
-  "id": "0dee6fdb"
- },
- {
   "date": "2026-08-15",
   "title": "오클로(Oklo), 메타(Meta) 데이터센터 전력 공급 파트너십 체결",
   "summary": "오클로(Oklo)가 메타(Meta)와 데이터센터 전력 공급을 위한 파트너십을 체결했다.",
@@ -1169,21 +1166,6 @@ window.SMR_NEWS = [
   "id": "58c9c3e0"
  },
  {
-  "date": "2026-07-23",
-  "title": "카이로스 파워, 7월 28일 오크릿지 원자로 논의 예정",
-  "summary": "카이로스 파워(Kairos Power)의 지도부가 오크릿지(Oak Ridge) 원자로 사업에 대해 논의할 예정이다.",
-  "summaryLong": "카이로스 파워(Kairos Power)의 경영진이 7월 28일 오크릿지(Oak Ridge)에서 해당 지역의 원자로 사업을 논의하기로 했다. 구체적인 안건이나 상세 내용은 스니펫에 제시되지 않았으나, 카이로스의 용융염냉각 고온가스로(FHR) 기술 개발 및 지역 배치 계획과 관련된 논의로 추정된다.",
-  "cat": "기술",
-  "type": "FHR",
-  "dev": "Kairos",
-  "region": "US",
-  "source": "oakridger.com",
-  "url": "https://www.oakridger.com/story/news/local/2026/07/23/kairos-power-leader-to-discuss-oak-ridge-reactor/91025147007/",
-  "k": "kairos power leader to discuss oak ridge reactor july 28",
-  "op": 1,
-  "id": "77082721"
- },
- {
   "date": "2026-07-22",
   "title": "나투라 리소스(Natura Resources) 용융염로, 미국 안전설계 인증 획득",
   "summary": "나투라 리소스(Natura Resources)의 액체 연료 고급 원자로가 미국 에너지부(DOE) 안전설계 인증을 획득하여 텍사스주 애빌린 크리스천 대학교(Abilene Christian University)에서 첫 배치 단계로 나아갔다.",
@@ -1366,5 +1348,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-19 13:09 KST";
-window.SMR_TOTAL = 2182;
+window.SMR_UPDATED = "2026-08-19 13:47 KST";
+window.SMR_TOTAL = 2185;
