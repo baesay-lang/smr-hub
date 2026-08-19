@@ -118,6 +118,35 @@ window.SMR_NEWS = [
   "id": "e3cf9ca2"
  },
  {
+  "date": "2026-08-19",
+  "title": "카이로스 파워와 오크리지 국립연구소, 원전 산업 재도약을 위한 인력양성 협력",
+  "summary": "카이로스 파워(Kairos Power)와 오크리지 국립연구소(ORNL)가 소형모듈원자로 르네상스 시대를 대비한 노동자 교육 및 인력양성을 위한 협력을 추진한다.",
+  "summaryLong": "카이로스 파워(Kairos Power)와 미국 오크리지 국립연구소(Oak Ridge National Laboratory, ORNL)가 원전 산업의 부흥과 소형모듈원자로(SMR) 보급을 대비하기 위한 노동자 교육 및 훈련 프로그램을 공동으로 개발하고 있다. 이는 'Creating a blueprint'라는 테마로 추진되며, SMR 및 첨단원자로 건설·운영에 필요한 기술 인력 양성을 위한 파트너십이다. 원전 인력 부족 문제 해결과 SMR 산업 생태계 조성에 기여할 것으로 예상된다.",
+  "cat": "기술",
+  "type": "FHR",
+  "dev": "Kairos",
+  "region": "US",
+  "source": "wate.com",
+  "url": "https://www.wate.com/news/top-stories/creating-a-blueprint-kairos-power-ornl-to-train-workers-for-nuclear-renaissance/",
+  "k": "creating a blueprint kairos power ornl to train workers for nuclear renaissance",
+  "id": "e537f0ed"
+ },
+ {
+  "date": "2026-08-19",
+  "title": "현대건설, 테라파워(TerraPower) 8기 EPC 우선협상권 확보",
+  "summary": "현대건설이 테라파워의 소형모듈원자로 8기 건설에 대한 EPC(설계·조달·시공) 우선협상권을 획득했다.",
+  "summaryLong": "현대건설이 미국 첨단로 개발사 테라파워(TerraPower)의 소형모듈원자로 8기 건설사업에 대한 EPC(설계·조달·시공) 우선협상권을 확보했다. 이는 한국 건설사가 북미 첨단로 시장에 진출하는 계기가 되며, 테라파워의 상용화 추진 과정에서 주요 글로벌 파트너로 현대건설의 위치를 확인시켜준다. 향후 구체적인 계약 체결과 사업 추진 일정이 주목된다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "현대건설",
+  "region": "US",
+  "source": "pulse.mk.co.kr",
+  "url": "https://pulse.mk.co.kr/news/english/12130820",
+  "k": "hyundai e c wins epc priority for 8 terrapower reactors",
+  "ko": 1,
+  "id": "a853e083"
+ },
+ {
   "date": "2026-08-18",
   "title": "현대건설(Hyundai E&C), 테라파워(TerraPower) 나트륨(Natrium) SMR 최대 8기 EPC 우선 수주",
   "summary": "현대건설이 테라파워의 나트륨 소형모듈원자로(SMR) 최대 8기에 대한 EPC(설계·조달·시공) 사업 우선권을 획득.",
@@ -527,6 +556,20 @@ window.SMR_NEWS = [
   "id": "c89391fb"
  },
  {
+  "date": "2026-08-18",
+  "title": "테라파워, 첨단원자로 배치 가속화",
+  "summary": "테라파워(TerraPower)가 첨단원자로 상용화 추진을 가속화하고 있다.",
+  "summaryLong": "빌 게이츠가 후원하는 테라파워(TerraPower)가 첨단원자로(advanced reactor) 배치·상용화 일정을 가속화하고 있다는 보도이다. 제목과 스니펫만으로는 구체적인 프로젝트명·장소·일정을 특정하기 어렵지만, 회사의 주요 전략 추진 현황을 나타내는 기술·사업 진전 소식이다. 첨단로 개발사의 상용화 가속화 전략을 보여주는 항목이다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "US",
+  "source": "tomorrowsworldtoday.com",
+  "url": "https://www.tomorrowsworldtoday.com/nuclear/terrapower-accelerates-advanced-reactor-deployment/",
+  "k": "terrapower accelerates advanced reactor deployment",
+  "id": "8845d954"
+ },
+ {
   "date": "2026-08-17",
   "title": "뉴스케일, 미국 테네시계곡청(TVA)과 6~8GW 규모 잠재 계약",
   "summary": "뉴스케일(NuScale)이 미국 테네시계곡청(TVA)과 체결 검토 중인 SMR 계약이 6~8GW 규모로 미국 역사상 최대 규모 원전 건설이 될 가능성을 제시.",
@@ -838,52 +881,6 @@ window.SMR_NEWS = [
   "id": "caf51dc9"
  },
  {
-  "date": "2026-08-16",
-  "title": "파라과이, 미국과 SMR 등 민간 원자력 협력 추진",
-  "summary": "파라과이가 예상되는 전력 부족에 대응하기 위해 미국과 소형모듈원자로 등 민간 원자력 협력을 추진하기로 했다.",
-  "summaryLong": "파라과이 정부가 향후 전력 공급 부족 전망에 대응하기 위해 미국과 소형모듈원자로(SMR) 등 민간 원자력 에너지 협력을 진행하기로 결정했다. 이는 라틴아메리카 지역에서 SMR이 전력 확보의 대안으로 주목받고 있음을 보여주며, 미국과 개도국 간 에너지 협력이 확대되는 추세를 반영한다. 파라과이의 참여는 글로벌 SMR 시장 다변화와 지역별 수요 창출 가능성을 시사한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "theguru.co.kr",
-  "url": "https://www.theguru.co.kr/news/article.html?no=105778",
-  "k": "파라과이 전력 부족 전망에 미국과 smr 등 민간 원자력 협력하기로",
-  "ko": 1,
-  "id": "ec965687"
- },
- {
-  "date": "2026-08-16",
-  "title": "수출입은행, 빌 게이츠와 SMR 상용화 협력 논의",
-  "summary": "수출입은행이 빌 게이츠와 소형모듈원자로 상용화 협력을 논의했다.",
-  "summaryLong": "한국의 수출입은행(수은)이 테라파워의 회장 빌 게이츠와 소형모듈원자로(SMR) 상용화 협력 방안을 논의했다. 이는 한국의 정책금융기관이 글로벌 SMR 개발사와 협력 채널을 구축하는 의미 있는 움직임으로, 한국 기업과 기술의 해외 진출을 금융 차원에서 지원하려는 전략을 보여준다. 향후 구체적인 협력 방안 도출에 따라 한국의 SMR 산업 국제화가 가속화될 전망이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "테라파워",
-  "region": "KR",
-  "source": "fnnews.com",
-  "url": "https://www.fnnews.com/news/202608161810286668",
-  "k": "수은 빌 게이츠와 smr 상용화 협력 논의",
-  "ko": 1,
-  "op": 1,
-  "id": "d5ee9093"
- },
- {
-  "date": "2026-08-16",
-  "title": "최태원·빌 게이츠 SMR 동맹 심화, AI 전력 핵심 파트너로",
-  "summary": "SK그룹 최태원 회장과 테라파워 빌 게이츠 이사회 의장이 1년 내 두 차례 회동하며 협력을 심화하고 있다.",
-  "summaryLong": "SK그룹 최태원 회장과 테라파워(TerraPower)의 빌 게이츠 이사회 의장이 최근 1년 사이 두 차례 회동하면서 양사 간 소형모듈원자로(SMR) 협력이 심화되고 있다. 이는 인공지능(AI) 데이터센터의 전력 수요 증가라는 배경 속에서, SK그룹이 테라파워의 차세대 원자로 사업에서 핵심 파트너로 자리잡고 있음을 보여준다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "SK그룹, 테라파워",
-  "region": "US",
-  "source": "연합뉴스 최신기사",
-  "url": "https://www.yna.co.kr/view/AKR20260816024400003",
-  "k": "깊어지는 최태원 빌 게이츠 smr 동맹 ai 전력 핵심파트너",
-  "ko": 1,
-  "id": "cee050d1"
- },
- {
   "date": "2026-08-15",
   "title": "오클로(Oklo), 메타(Meta) 데이터센터 전력 공급 파트너십 체결",
   "summary": "오클로(Oklo)가 메타(Meta)와 데이터센터 전력 공급을 위한 파트너십을 체결했다.",
@@ -1152,20 +1149,6 @@ window.SMR_NEWS = [
   "id": "b9932a2f"
  },
  {
-  "date": "2026-07-24",
-  "title": "BWXT, 카이로스 파워, 와이오밍주 원자력산업 미래에 기대",
-  "summary": "BWXT와 카이로스 파워(Kairos Power)가 와이오밍주의 원자력산업 발전에 대한 기대감을 표했다.",
-  "summaryLong": "BWXT와 첨단 소형모듈원자로(SMR) 개발사 카이로스 파워(Kairos Power)가 와이오밍주에서의 원자력산업 미래에 대한 기대감을 표현했다. 두 기업 모두 지역 내 원자력 프로젝트 발전 가능성에 긍정적인 입장을 보이고 있다.",
-  "cat": "기술",
-  "type": "FHR",
-  "dev": "BWXT, Kairos",
-  "region": "US",
-  "source": "gillettenewsrecord.com",
-  "url": "https://www.gillettenewsrecord.com/news/local/article_e480b468-1c5d-447e-8ea3-98b484593fc9.html",
-  "k": "bwxt kairos power excited about future of nuclear industry in wyoming",
-  "id": "58c9c3e0"
- },
- {
   "date": "2026-07-22",
   "title": "나투라 리소스(Natura Resources) 용융염로, 미국 안전설계 인증 획득",
   "summary": "나투라 리소스(Natura Resources)의 액체 연료 고급 원자로가 미국 에너지부(DOE) 안전설계 인증을 획득하여 텍사스주 애빌린 크리스천 대학교(Abilene Christian University)에서 첫 배치 단계로 나아갔다.",
@@ -1348,5 +1331,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-19 13:47 KST";
-window.SMR_TOTAL = 2185;
+window.SMR_UPDATED = "2026-08-19 14:16 KST";
+window.SMR_TOTAL = 2189;

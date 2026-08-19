@@ -125,6 +125,35 @@ window.SMR_NEWS = [
     "id": "e3cf9ca2"
   },
   {
+    "date": "2026-08-19",
+    "title": "카이로스 파워와 오크리지 국립연구소, 원전 산업 재도약을 위한 인력양성 협력",
+    "summary": "카이로스 파워(Kairos Power)와 오크리지 국립연구소(ORNL)가 소형모듈원자로 르네상스 시대를 대비한 노동자 교육 및 인력양성을 위한 협력을 추진한다.",
+    "summaryLong": "카이로스 파워(Kairos Power)와 미국 오크리지 국립연구소(Oak Ridge National Laboratory, ORNL)가 원전 산업의 부흥과 소형모듈원자로(SMR) 보급을 대비하기 위한 노동자 교육 및 훈련 프로그램을 공동으로 개발하고 있다. 이는 'Creating a blueprint'라는 테마로 추진되며, SMR 및 첨단원자로 건설·운영에 필요한 기술 인력 양성을 위한 파트너십이다. 원전 인력 부족 문제 해결과 SMR 산업 생태계 조성에 기여할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "FHR",
+    "dev": "Kairos",
+    "region": "US",
+    "source": "wate.com",
+    "url": "https://www.wate.com/news/top-stories/creating-a-blueprint-kairos-power-ornl-to-train-workers-for-nuclear-renaissance/",
+    "k": "creating a blueprint kairos power ornl to train workers for nuclear renaissance",
+    "id": "e537f0ed"
+  },
+  {
+    "date": "2026-08-19",
+    "title": "현대건설, 테라파워(TerraPower) 8기 EPC 우선협상권 확보",
+    "summary": "현대건설이 테라파워의 소형모듈원자로 8기 건설에 대한 EPC(설계·조달·시공) 우선협상권을 획득했다.",
+    "summaryLong": "현대건설이 미국 첨단로 개발사 테라파워(TerraPower)의 소형모듈원자로 8기 건설사업에 대한 EPC(설계·조달·시공) 우선협상권을 확보했다. 이는 한국 건설사가 북미 첨단로 시장에 진출하는 계기가 되며, 테라파워의 상용화 추진 과정에서 주요 글로벌 파트너로 현대건설의 위치를 확인시켜준다. 향후 구체적인 계약 체결과 사업 추진 일정이 주목된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "현대건설",
+    "region": "US",
+    "source": "pulse.mk.co.kr",
+    "url": "https://pulse.mk.co.kr/news/english/12130820",
+    "k": "hyundai e c wins epc priority for 8 terrapower reactors",
+    "ko": 1,
+    "id": "a853e083"
+  },
+  {
     "date": "2026-08-18",
     "title": "현대건설(Hyundai E&C), 테라파워(TerraPower) 나트륨(Natrium) SMR 최대 8기 EPC 우선 수주",
     "summary": "현대건설이 테라파워의 나트륨 소형모듈원자로(SMR) 최대 8기에 대한 EPC(설계·조달·시공) 사업 우선권을 획득.",
@@ -532,6 +561,20 @@ window.SMR_NEWS = [
     "k": "투자에서 상용화로 글로벌 smr 밸류체인서 k원전이 차지할 위치",
     "ko": 1,
     "id": "c89391fb"
+  },
+  {
+    "date": "2026-08-18",
+    "title": "테라파워, 첨단원자로 배치 가속화",
+    "summary": "테라파워(TerraPower)가 첨단원자로 상용화 추진을 가속화하고 있다.",
+    "summaryLong": "빌 게이츠가 후원하는 테라파워(TerraPower)가 첨단원자로(advanced reactor) 배치·상용화 일정을 가속화하고 있다는 보도이다. 제목과 스니펫만으로는 구체적인 프로젝트명·장소·일정을 특정하기 어렵지만, 회사의 주요 전략 추진 현황을 나타내는 기술·사업 진전 소식이다. 첨단로 개발사의 상용화 가속화 전략을 보여주는 항목이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "tomorrowsworldtoday.com",
+    "url": "https://www.tomorrowsworldtoday.com/nuclear/terrapower-accelerates-advanced-reactor-deployment/",
+    "k": "terrapower accelerates advanced reactor deployment",
+    "id": "8845d954"
   },
   {
     "date": "2026-08-17",
@@ -1205,6 +1248,21 @@ window.SMR_NEWS = [
     "k": "oklo s microreactors position it for nuclear energy boom",
     "op": 1,
     "id": "219216e4"
+  },
+  {
+    "date": "2026-08-15",
+    "title": "차세대 나트륨 SMR 협력 본격화…테라파워-SK이노, 합의서 체결",
+    "summary": "테라파워(TerraPower)와 SK이노베이션(SK Innovation)이 나트륨 냉각 소형모듈원자로(SMR) 협력 합의서를 체결했다.",
+    "summaryLong": "테라파워(TerraPower)와 SK이노베이션(SK Innovation)이 차세대 나트륨 냉각 소형모듈원자로(SMR) 개발을 위한 협력 합의서를 체결했다. 이 협력은 소듐냉각고속로(SFR) 기술 기반의 글로벌 SMR 사업을 추진하는 내용을 담고 있으며, 한국 기업의 에너지 기술 확보와 글로벌 시장 진출을 가속화하는 의미가 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "테라파워, SK이노베이션",
+    "region": "KR",
+    "source": "kookje.co.kr",
+    "url": "https://www.kookje.co.kr/news2011/asp/newsbody.asp?code=0200&key=20260816.99099004151",
+    "k": "차세대 나트륨 smr 협력 본격화 테라파워 sk이노 합의서 체결",
+    "ko": 1,
+    "id": "a014ed45"
   },
   {
     "date": "2026-08-14",
@@ -31815,4 +31873,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-19 13:47 KST";
+window.SMR_UPDATED = "2026-08-19 14:16 KST";
