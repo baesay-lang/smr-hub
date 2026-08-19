@@ -793,6 +793,36 @@ window.SMR_NEWS = [
     "id": "ad94c71e"
   },
   {
+    "date": "2026-08-18",
+    "title": "현대건설, 테라파워와 협력해 글로벌 SMR 프로젝트 시동",
+    "summary": "현대건설이 테라파워(TerraPower)와 협력하여 글로벌 소형모듈원자로(SMR) 프로젝트를 시작한다.",
+    "summaryLong": "현대건설이 테라파워(TerraPower)와의 협력을 통해 글로벌 소형모듈원자로(SMR) 프로젝트를 추진하기로 결정했다. 두 회사 간의 파트너십은 SMR 기술 개발 및 상용화를 목표로 한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "현대건설·TerraPower",
+    "region": "KR",
+    "source": "m-i.kr",
+    "url": "https://www.m-i.kr/news/articleView.html?idxno=1403128",
+    "k": "현대건설 테라파워와 협력 글로벌smr 프로젝트 시동건다",
+    "ko": 1,
+    "id": "931407af"
+  },
+  {
+    "date": "2026-08-18",
+    "title": "HD현대-현대건설, 테라파워(TerraPower)와 나트륨 원전사업 기본협약 체결",
+    "summary": "HD현대와 현대건설이 테라파워(TerraPower)와 소형모듈원자로(SMR) 공급망 구축을 위한 기본협약을 체결하고 미국 시장 진출을 추진한다.",
+    "summaryLong": "HD현대와 현대건설이 빌 게이츠(Bill Gates)가 주도하는 미국의 소형모듈원자로(SMR) 개발사 테라파워(TerraPower)와 나트륨냉각고속로(SFR) 사업 수행을 위한 기본협약을 체결했다. 이 협력을 통해 한국 기업들은 테라파워의 고속로 프로젝트에 부품 및 건설 서비스를 공급하고 미국의 차세대 원자로 시장 선점을 추진할 계획이다. 협약은 양사의 기술과 건설 역량을 결합하여 미국 SMR 시장 확대에 기여하는 한편, 한국 원전 기술의 국제 경쟁력을 입증하는 계기가 된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "HD현대, 현대건설",
+    "region": "US",
+    "source": "wsobi.com",
+    "url": "http://www.wsobi.com/news/articleView.html?idxno=316601",
+    "k": "hd현대 현대건설 테라파워 손잡고 미국 smr 시장 선점 추진 나트륨 원전사업 수행 위한 기본협약 체결",
+    "ko": 1,
+    "id": "989e2211"
+  },
+  {
     "date": "2026-08-17",
     "title": "뉴스케일, 미국 테네시계곡청(TVA)과 6~8GW 규모 잠재 계약",
     "summary": "뉴스케일(NuScale)이 미국 테네시계곡청(TVA)과 체결 검토 중인 SMR 계약이 6~8GW 규모로 미국 역사상 최대 규모 원전 건설이 될 가능성을 제시.",
@@ -32119,4 +32149,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-20 06:55 KST";
+window.SMR_UPDATED = "2026-08-20 07:35 KST";
