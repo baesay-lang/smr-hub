@@ -385,6 +385,21 @@ window.SMR_NEWS = [
     "id": "4f2e278a"
   },
   {
+    "date": "2026-08-19",
+    "title": "현대건설, 글로벌 원전 '슈퍼사이클' 진입 준비 — SMR 시장 초격차 확보",
+    "summary": "현대건설이 글로벌 원전 시장의 슈퍼사이클에 대응하며 SMR 시장에서 경쟁력을 확보하려고 추진 중이다.",
+    "summaryLong": "현대건설이 글로벌 원전 산업의 성장기('슈퍼사이클')에 진입하기 위해 준비를 강화하고 있다. 이한우 회장을 중심으로 소형모듈원자로(SMR) 시장에서 기술적 우위('초격차')를 확보하는 데 주력하고 있다. 한국 건설사로서 국내외 SMR 프로젝트 수주를 위한 기술 개발과 사업 역량 강화가 진행 중인 것으로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "현대건설",
+    "region": "KR",
+    "source": "businesspost.co.kr",
+    "url": "https://www.businesspost.co.kr/BP?command=article_view&num=445107",
+    "k": "현대건설 글로벌 원전 슈퍼사이클 올라탈 준비 착착 이한우 smr 시장서 초격차 확보 담금질",
+    "ko": 1,
+    "id": "bfd73bc6"
+  },
+  {
     "date": "2026-08-18",
     "title": "현대건설(Hyundai E&C), 테라파워(TerraPower) 나트륨(Natrium) SMR 최대 8기 EPC 우선 수주",
     "summary": "현대건설이 테라파워의 나트륨 소형모듈원자로(SMR) 최대 8기에 대한 EPC(설계·조달·시공) 사업 우선권을 획득.",
@@ -911,6 +926,21 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "f96f73b7"
+  },
+  {
+    "date": "2026-08-18",
+    "title": "SK이노·테라파워, 차세대 나트륨 SMR 협력 강화",
+    "summary": "SK이노베이션과 테라파워(TerraPower)가 소듐냉각 고속로(SFR) 기술 협력을 확대하며 AI 전력 사업을 추진한다.",
+    "summaryLong": "SK이노베이션과 미국의 테라파워(TerraPower)가 차세대 나트륨(소듐) 냉각 소형모듈원자로(SMR) 개발·사업화에서 협력을 강화하고 있다. 두 회사는 이를 통해 AI 데이터센터 등의 증가하는 전력 수요에 대응하는 '풀스택' 전력사업 확장을 추진하고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "SK이노·TerraPower",
+    "region": "KR",
+    "source": "sandannews.co.kr",
+    "url": "https://www.sandannews.co.kr/news/articleView.html?idxno=11044",
+    "k": "sk이노 테라파워 차세대 나트륨 smr 협력 ai 풀스택 전력사업 확장",
+    "ko": 1,
+    "id": "81dc657d"
   },
   {
     "date": "2026-08-17",
@@ -2651,6 +2681,21 @@ window.SMR_NEWS = [
     "k": "hd현대 테라파워 현대건설과 smr 협력 차세대 원자로 속도 머니투데이",
     "ko": 1,
     "id": "caadd99f"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "정기선·빌 게이츠 SMR 협력…HD현대, 테라파워와 나트륨 원자로 상용화 박차",
+    "summary": "HD현대가 테라파워와 함께 나트륨 냉각 원자로(SFR) 상용화를 가속화하며 정기선 회장과 빌 게이츠의 SMR 협력 체계 강화.",
+    "summaryLong": "HD현대(Hyundai Heavy Industries)는 테라파워와 나트륨 냉각 소형모듈원자로(SFR) 상용화 사업을 추진 중이며, 회사 정기선 회장과 테라파워 창업자 빌 게이츠(Bill Gates)의 협력을 통해 기술 개발과 시장 진출을 가속화하고 있습니다. 이는 한국 원전 산업이 차세대 에너지 기술 개발에 주도적 역할을 하려는 전략의 일환으로, 글로벌 에너지 시장에서의 경쟁력 강화를 목표로 합니다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "HD현대, 테라파워",
+    "region": "KR",
+    "source": "biz.newdaily.co.kr",
+    "url": "https://biz.newdaily.co.kr/site/data/html/2026/08/14/2026081400241.html",
+    "k": "정기선 빌 게이츠 smr 한배 hd현대 테라파워와 나트륨 원자로 상용화 박차",
+    "ko": 1,
+    "id": "66461f92"
   },
   {
     "date": "2026-08-13",
@@ -32327,4 +32372,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-20 13:09 KST";
+window.SMR_UPDATED = "2026-08-20 13:48 KST";

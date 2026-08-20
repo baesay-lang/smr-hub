@@ -378,6 +378,21 @@ window.SMR_NEWS = [
   "id": "4f2e278a"
  },
  {
+  "date": "2026-08-19",
+  "title": "현대건설, 글로벌 원전 '슈퍼사이클' 진입 준비 — SMR 시장 초격차 확보",
+  "summary": "현대건설이 글로벌 원전 시장의 슈퍼사이클에 대응하며 SMR 시장에서 경쟁력을 확보하려고 추진 중이다.",
+  "summaryLong": "현대건설이 글로벌 원전 산업의 성장기('슈퍼사이클')에 진입하기 위해 준비를 강화하고 있다. 이한우 회장을 중심으로 소형모듈원자로(SMR) 시장에서 기술적 우위('초격차')를 확보하는 데 주력하고 있다. 한국 건설사로서 국내외 SMR 프로젝트 수주를 위한 기술 개발과 사업 역량 강화가 진행 중인 것으로 보인다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "현대건설",
+  "region": "KR",
+  "source": "businesspost.co.kr",
+  "url": "https://www.businesspost.co.kr/BP?command=article_view&num=445107",
+  "k": "현대건설 글로벌 원전 슈퍼사이클 올라탈 준비 착착 이한우 smr 시장서 초격차 확보 담금질",
+  "ko": 1,
+  "id": "bfd73bc6"
+ },
+ {
   "date": "2026-08-18",
   "title": "현대건설(Hyundai E&C), 테라파워(TerraPower) 나트륨(Natrium) SMR 최대 8기 EPC 우선 수주",
   "summary": "현대건설이 테라파워의 나트륨 소형모듈원자로(SMR) 최대 8기에 대한 EPC(설계·조달·시공) 사업 우선권을 획득.",
@@ -858,21 +873,6 @@ window.SMR_NEWS = [
   "k": "현대건설 테라파워와 협력 글로벌smr 프로젝트 시동건다",
   "ko": 1,
   "id": "931407af"
- },
- {
-  "date": "2026-08-18",
-  "title": "HD현대-현대건설, 테라파워(TerraPower)와 나트륨 원전사업 기본협약 체결",
-  "summary": "HD현대와 현대건설이 테라파워(TerraPower)와 소형모듈원자로(SMR) 공급망 구축을 위한 기본협약을 체결하고 미국 시장 진출을 추진한다.",
-  "summaryLong": "HD현대와 현대건설이 빌 게이츠(Bill Gates)가 주도하는 미국의 소형모듈원자로(SMR) 개발사 테라파워(TerraPower)와 나트륨냉각고속로(SFR) 사업 수행을 위한 기본협약을 체결했다. 이 협력을 통해 한국 기업들은 테라파워의 고속로 프로젝트에 부품 및 건설 서비스를 공급하고 미국의 차세대 원자로 시장 선점을 추진할 계획이다. 협약은 양사의 기술과 건설 역량을 결합하여 미국 SMR 시장 확대에 기여하는 한편, 한국 원전 기술의 국제 경쟁력을 입증하는 계기가 된다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "HD현대, 현대건설",
-  "region": "US",
-  "source": "wsobi.com",
-  "url": "http://www.wsobi.com/news/articleView.html?idxno=316601",
-  "k": "hd현대 현대건설 테라파워 손잡고 미국 smr 시장 선점 추진 나트륨 원전사업 수행 위한 기본협약 체결",
-  "ko": 1,
-  "id": "989e2211"
  },
  {
   "date": "2026-08-18",
@@ -1400,5 +1400,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-20 13:09 KST";
-window.SMR_TOTAL = 2220;
+window.SMR_UPDATED = "2026-08-20 13:48 KST";
+window.SMR_TOTAL = 2223;
