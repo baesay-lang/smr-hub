@@ -31,6 +31,94 @@ window.SMR_NEWS = [
   "id": "d8cd518a"
  },
  {
+  "date": "2026-08-20",
+  "title": "카이로스파워(Kairos Power), 핵융합 인력 양성 프로그램 NuCAMP 출범",
+  "summary": "카이로스파워가 고온불화염 냉각 원자로 시설 완공에 앞서 오크리지(Oak Ridge) 지역 인력 양성을 위해 여러 기관과 양해각서를 체결하고 NuCAMP 프로그램을 출범했다.",
+  "summaryLong": "카이로스파워(Kairos Power)가 테네시주 오크리지(Oak Ridge)에 건설 중인 고온불화염(fluoride salt–cooled) 냉각 원자로 시설의 완공을 앞두고, 지역 인력 양성을 위해 오크리지 국립연구소(Oak Ridge National Laboratory), 테네시 녹스빌 대학교(University of Tennessee–Knoxville), 고급복합재료제조연구소(Institute for Advanced Composites Manufacturing) 등 여러 지역 기관과 양해각서(MOU)를 체결했다. 이를 통해 NuCAMP 프로그램을 출범하여 새로운 원자력 산업 일자리 기회에 대비한 지역 인력 양성에 나섰다. 첨단로(고온불화염냉각로, FHR) 개발사의 공식 파트너십 체결 발표이다.",
+  "cat": "계약",
+  "type": "FHR",
+  "dev": "Kairos",
+  "region": "US",
+  "source": "ANS Newswire",
+  "url": "https://www.ans.org/news/2026-08-20/article-8310/kairos-power-others-launch-nucamp-to-develop-nuclear-workforce/",
+  "k": "kairos power others launch nucamp to develop nuclear workforce",
+  "id": "c76bf9f0"
+ },
+ {
+  "date": "2026-08-20",
+  "title": "테라파워(TerraPower), AI 데이터센터용 제2호 원전 발표 예정",
+  "summary": "빌 게이츠 지원 테라파워가 AI 데이터센터 전력 공급용 제2호 원전 발표를 준비 중이다.",
+  "summaryLong": "빌 게이츠(Bill Gates)의 지원을 받는 테라파워(TerraPower)가 AI 데이터센터의 전력 수요를 충족하기 위한 제2호 원전 계획을 발표할 예정이다. 첨단 원자력 기술을 활용한 데이터센터 전력 공급 사업 확대를 의미한다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "US",
+  "source": "theaiinsider.tech",
+  "url": "https://theaiinsider.tech/2026/08/20/bill-gates-backed-terrapower-to-announce-second-nuclear-plant-aimed-at-ai-data-centers/",
+  "k": "bill gates backed terrapower to announce second nuclear plant aimed at ai data centers",
+  "op": 1,
+  "id": "8af951f5"
+ },
+ {
+  "date": "2026-08-20",
+  "title": "코퍼스크리스티 항만, 소형모듈원자로 해양 기술 탐색 협약 체결",
+  "summary": "텍사스의 코퍼스크리스티(Corpus Christi) 항만이 미국 교통부 해사청과 소형모듈원자로(SMR) 기반 해양 전력 시스템 탐색을 위한 협약을 체결했다.",
+  "summaryLong": "텍사스주 코퍼스크리스티(Corpus Christi) 항만이 미국 교통부(Department of Transportation) 해사청(Maritime Administration)과 협약을 체결하여 소형모듈원자로(SMR), 마이크로그리드, 첨단 선박 추진 시스템의 해양 응용을 탐색하기로 했다. 항만은 또한 코어파워(Core Power)와 협력하여 해당 부지의 해양 원전 적용 타당성 연구를 수행할 예정이다. 이는 SMR의 해양·항만 에너지 공급 분야로의 활용 가능성을 검토하는 중요한 정책 협력 사례이다.",
+  "cat": "기술",
+  "type": "Micro",
+  "dev": "Core Power",
+  "region": "US",
+  "source": "World Nuclear News",
+  "url": "https://www.world-nuclear-news.org/articles/second-us-port-to-explore-nuclear-maritime-technologies",
+  "k": "second us port to explore nuclear maritime technologies",
+  "id": "0dddab4b"
+ },
+ {
+  "date": "2026-08-20",
+  "title": "부유식 SMR의 경쟁력은 표준 개발에서 완성된다",
+  "summary": "부유식 소형모듈원자로의 시장 경쟁력이 국제 표준 수립 과정에서 결정된다는 분석이다.",
+  "summaryLong": "해상 부유식 소형모듈원자로(SMR)의 경쟁력 구조를 분석한 기사로, 국제 표준화 과정이 향후 시장 점유율 결정의 핵심 요소임을 지적한다. 첨단로 설계인증(GDA·VDR) 및 규제 표준화가 상용화 성공을 좌우하는 메커니즘을 다루고 있으며, 정책·규제 측면의 중요성을 강조하는 산업 분석 콘텐츠이다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "",
+  "source": "newstomato.com",
+  "url": "https://www.newstomato.com/ReadNews.aspx?no=1310854",
+  "k": "해상원전 패권 부유식 smr의 경쟁력은 표준 에서 완성된다",
+  "ko": 1,
+  "id": "cd038c48"
+ },
+ {
+  "date": "2026-08-20",
+  "title": "이재명 정부의 '7대 SEED' 전략에 SMR·핵융합 포함",
+  "summary": "이재명 정부의 미래전략 '7대 SEED' 정책에 SMR과 핵융합이 핵심 기술로 선정되었다.",
+  "summaryLong": "이재명 경기도 정부가 추진하는 미래 산업 전략 '7대 SEED'에 소형모듈원자로(SMR)와 핵융합이 인공지능(AI)을 뒷받침하는 에너지 기반 기술로 포함되었다. 이는 SMR이 정부의 국책 전략 프로그램의 핵심 기술로 공식 인정된 사례로, 정책 차원에서의 지원과 투자 확대를 시사한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "inpnews.kr",
+  "url": "https://www.inpnews.kr/news/articleView.html?idxno=7525",
+  "k": "ai가 끌고 smr 핵융합이 받친다 이재명 정부가 심은 7대 seed",
+  "ko": 1,
+  "id": "cbec83cc"
+ },
+ {
+  "date": "2026-08-20",
+  "title": "국립창원대 SMR² 플랫폼 국가연구소, 원전기업과 SMR 산업 생태계 구축",
+  "summary": "국립창원대의 SMR² 플랫폼 국가연구소가 원전기업과 협력하여 SMR 산업 생태계를 조성하고 있다.",
+  "summaryLong": "국립창원대(Changwon National University)의 SMR² 플랫폼이 국가연구소로 지정되어 원전 관련 기업들과 협력하는 소형모듈원자로(SMR) 산업 생태계 구축을 추진하고 있다. 정부 지원의 국책 연구기관으로 지정되어 업계와 기술 인프라를 연계하는 역할을 하며, 국내 SMR 산업 육성의 정책적 기반이 된다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "veritas-a.com",
+  "url": "https://www.veritas-a.com/news/articleView.html?idxno=623846",
+  "k": "국립창원대 smr 플랫폼 국가연구소 원전기업과 smr 산업 생태계 구축",
+  "ko": 1,
+  "id": "e0be3d36"
+ },
+ {
   "date": "2026-08-19",
   "title": "HD현대, 테라파워(TerraPower) 나트륨냉각로 공급망에 참여",
   "summary": "빌 게이츠가 설립한 미국 테라파워의 소듐냉각고속로(SFR) 'NATRIUM' 원자로 제조에 HD현대가 첫 진출하며, 4세대 SMR의 등장이 원전 주기기 제조 산업의 진입장벽을 낮추고 있다.",
@@ -423,6 +511,21 @@ window.SMR_NEWS = [
   "id": "bfd73bc6"
  },
  {
+  "date": "2026-08-19",
+  "title": "서울대·GS에너지, 민간 주도 SMR 시대 정책토론회 개최",
+  "summary": "서울대와 GS에너지가 민간 중심의 소형모듈원자로 산업 활성화를 주제로 정책토론회를 개최했다.",
+  "summaryLong": "서울대학교(Seoul National University)와 GS에너지가 민간 주도형 소형모듈원자로(SMR) 시대의 도래를 주제로 정책토론회를 개최했다. 학계와 에너지 기업이 협력하여 SMR 상용화를 위한 정책 방향과 산업 전략을 논의하는 자리로, 정부 정책 수립과 민간 투자 확대의 기초가 되는 산업 정책 이슈를 다룬다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5757",
+  "k": "민간 주도 smr 시대 열리나 서울대 gs에너지 정책토론회 개최",
+  "ko": 1,
+  "id": "3013adae"
+ },
+ {
   "date": "2026-08-18",
   "title": "현대건설(Hyundai E&C), 테라파워(TerraPower) 나트륨(Natrium) SMR 최대 8기 EPC 우선 수주",
   "summary": "현대건설이 테라파워의 나트륨 소형모듈원자로(SMR) 최대 8기에 대한 EPC(설계·조달·시공) 사업 우선권을 획득.",
@@ -774,79 +877,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-08-18",
-  "title": "현대건설(Hyundai E&C), 테라파워(TerraPower) 최대 8기 차세대 원자로 EPC 우선권 확보",
-  "summary": "현대건설이 테라파워(TerraPower)의 차세대 원자로 최대 8기에 대한 EPC(설계·조달·건설) 우선권을 확보했다.",
-  "summaryLong": "현대건설(Hyundai E&C)이 테라파워(TerraPower)의 차세대 원자로 개발 프로젝트에서 최대 8기에 대한 EPC(설계·조달·건설) 우선권을 획득했다. 이는 테라파워의 첨단 원자로 상용화 진전을 보여주는 사건으로, 현대건설이 글로벌 SMR·첨단로 시장 진출을 추진하고 있음을 의미한다. 해당 계약은 테라파워의 미국 내 프로젝트 추진과 한국 기업의 국제 협력 확대를 반영한다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "US",
-  "source": "finance.biggo.com",
-  "url": "https://finance.biggo.com/news/c236ef2f-e025-47f0-9e43-660ad987b34e",
-  "k": "hyundai e c secures priority epc rights for up to 8 terrapower next gen nuclear reactors",
-  "id": "a6464f36"
- },
- {
-  "date": "2026-08-18",
-  "title": "테라파워, 올해 중 2번째 원전 계획 발표 예정",
-  "summary": "빌 게이츠가 지원하는 테라파워(TerraPower)가 올해 중 2번째 원전 건설 계획을 발표할 것으로 보인다.",
-  "summaryLong": "테라파워(TerraPower)가 올해 중 두 번째 원전 프로젝트를 발표할 것으로 예상되고 있다. 블룸버그 보도에 따르면 이는 회사의 고급로(Advanced Reactor) 배치 가속화 전략의 일환으로, 기존 프로젝트에 이어 추가 사업 확대를 의미한다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "US",
-  "source": "bloomberg.com",
-  "url": "https://www.bloomberg.com/news/articles/2026-08-18/gates-backed-terrapower-to-announce-second-nuke-plant-this-year",
-  "k": "gates backed terrapower to announce second nuclear plant this year",
-  "op": 1,
-  "id": "c827888d"
- },
- {
-  "date": "2026-08-18",
-  "title": "한국 SMR, '양산 체제' 시동",
-  "summary": "한국의 소형모듈원자로(SMR) 사업이 본격적인 양산 단계로 진입하고 있다.",
-  "summaryLong": "빌 게이츠가 주목하는 한국의 SMR 기술이 양산 체제로 전환되고 있다. 한국 원전 산업이 소형모듈원자로의 상용화를 위해 대량 생산 시스템을 갖추기 시작했으며, 이는 글로벌 SMR 시장에서 한국의 경쟁력을 강화하는 신호로 평가된다. 양산 체제 진입은 기술 개발에서 실질적인 사업화로의 전환을 의미한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "greened.kr",
-  "url": "https://www.greened.kr/news/articleView.html?idxno=347912",
-  "k": "빌 게이츠가 찜한 k원전 smr 양산 체제 시동",
-  "ko": 1,
-  "id": "ca248ff9"
- },
- {
-  "date": "2026-08-18",
-  "title": "투자에서 상용화로…글로벌 SMR 밸류체인에서 한국의 위치",
-  "summary": "글로벌 SMR 시장이 투자 단계에서 상용화 단계로 진입하면서 한국 원전이 차지할 위치를 분석한다.",
-  "summaryLong": "세계 소형모듈원자로(SMR) 산업이 초기 투자 단계에서 본격적인 상용화 단계로 전환되고 있는 가운데, 한국 원전 기업들이 글로벌 SMR 밸류체인 내에서 어떤 역할과 위치를 가질지를 분석하는 기사이다. 한국의 기술력, 제조 역량, 국제 협력 현황 등을 종합적으로 평가하여 한국 산업의 전략적 위치를 제시한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "KR",
-  "source": "goodkyung.com",
-  "url": "https://www.goodkyung.com/news/articleView.html?idxno=290367",
-  "k": "투자에서 상용화로 글로벌 smr 밸류체인서 k원전이 차지할 위치",
-  "ko": 1,
-  "id": "c89391fb"
- },
- {
-  "date": "2026-08-18",
-  "title": "테라파워, 첨단원자로 배치 가속화",
-  "summary": "테라파워(TerraPower)가 첨단원자로 상용화 추진을 가속화하고 있다.",
-  "summaryLong": "빌 게이츠가 후원하는 테라파워(TerraPower)가 첨단원자로(advanced reactor) 배치·상용화 일정을 가속화하고 있다는 보도이다. 제목과 스니펫만으로는 구체적인 프로젝트명·장소·일정을 특정하기 어렵지만, 회사의 주요 전략 추진 현황을 나타내는 기술·사업 진전 소식이다. 첨단로 개발사의 상용화 가속화 전략을 보여주는 항목이다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "US",
-  "source": "tomorrowsworldtoday.com",
-  "url": "https://www.tomorrowsworldtoday.com/nuclear/terrapower-accelerates-advanced-reactor-deployment/",
-  "k": "terrapower accelerates advanced reactor deployment",
-  "id": "8845d954"
- },
- {
-  "date": "2026-08-18",
   "title": "웨스팅하우스(Westinghouse)의 eVinci™ 마이크로원자로, 임계 시험으로 진전",
   "summary": "웨스팅하우스(Westinghouse)의 eVinci™ 마이크로원자로가 핵임계 시험을 통해 기술 마일스톤을 달성하고 있다.",
   "summaryLong": "웨스팅하우스(Westinghouse)의 자체 정보 사이트에서 공식 발표한 내용으로, eVinci™ 마이크로원자로 프로젝트가 임계 시험(criticality tests)을 진행·완료하면서 기술 개발을 진전시키고 있음을 보여준다. 마이크로원자로(마이크로 원자로)의 시운전 및 핵심 기술 마일스톤에 해당하는 공식 발표다.",
@@ -858,21 +888,6 @@ window.SMR_NEWS = [
   "url": "https://info.westinghousenuclear.com/blog/advancing-the-evinci-microreactor-through-criticality-tests",
   "k": "advancing the evinci microreactor through criticality tests",
   "id": "85d106bb"
- },
- {
-  "date": "2026-08-18",
-  "title": "SK이노베이션, 테라파워(TerraPower) '투자자'에서 SMR 사업자로 전환…AI 전력시장 겨냥",
-  "summary": "SK이노베이션이 테라파워(TerraPower)의 투자자 역할에서 벗어나 직접 소형모듈원자로(SMR) 사업 주체로 전환하며 AI 전력시장을 목표로 하고 있다.",
-  "summaryLong": "한국의 SK이노베이션이 테라파워(TerraPower)와의 관계를 재정의하여 단순 투자자 위치에서 벗어나 SMR 개발·사업화의 직접 담당자로 전환하는 것으로 보도되었다. 이는 AI 데이터센터 등 고전력 수요처를 겨냥한 SMR 시장 공략의 일환으로 해석되며, SK이노베이션의 에너지 사업 포트폴리오 확대와 핵에너지 사업화 의지를 나타낸다. 구체적인 사업 구조, 투자 규모, 개발 일정 등은 추가 공개 정보 필요.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "SK이노베이션",
-  "region": "KR",
-  "source": "news2day.co.kr",
-  "url": "https://www.news2day.co.kr/article/20260818500113",
-  "k": "sk이노 테라파워 투자자 서 smr 사업자로 ai 전력시장 노린다",
-  "ko": 1,
-  "id": "10ecb678"
  },
  {
   "date": "2026-08-18",
@@ -1033,20 +1048,6 @@ window.SMR_NEWS = [
   "url": "https://stockstotrade.com/news/nuscale-power-corporation-smr-news-2026_08_13/",
   "k": "smr stock grinds higher as nuscale locks in key contracts",
   "id": "af1562a5"
- },
- {
-  "date": "2026-08-11",
-  "title": "마이크로리액터 개발 기업 안타레스(Antares), 4억 7,000만 달러 자금 조달",
-  "summary": "마이크로리액터 개발사 안타레스가 4억 7,000만 달러의 펀딩을 완료했다.",
-  "summaryLong": "초소형 원자로(마이크로리액터) 개발 기업 안타레스(Antares)가 4억 7,000만 달러(약 4.7억 달러)의 자금을 조달했다. 이는 마이크로리액터 기술의 상용화를 위한 중요한 자금 조달로, 미국 내 첨단 원자로 개발 시장의 성장을 보여주는 사례이다.",
-  "cat": "투자",
-  "type": "Micro",
-  "dev": "Antares",
-  "region": "US",
-  "source": "Power Engineering",
-  "url": "https://www.power-eng.com/nuclear/is-it-the-future-yet-factor-this-brief/",
-  "k": "is it the future yet",
-  "id": "11fb0f3c"
  },
  {
   "date": "2026-08-07",
@@ -1400,5 +1401,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-20 14:17 KST";
-window.SMR_TOTAL = 2229;
+window.SMR_UPDATED = "2026-08-21 06:57 KST";
+window.SMR_TOTAL = 2238;

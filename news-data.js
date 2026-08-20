@@ -38,6 +38,94 @@ window.SMR_NEWS = [
     "id": "d8cd518a"
   },
   {
+    "date": "2026-08-20",
+    "title": "카이로스파워(Kairos Power), 핵융합 인력 양성 프로그램 NuCAMP 출범",
+    "summary": "카이로스파워가 고온불화염 냉각 원자로 시설 완공에 앞서 오크리지(Oak Ridge) 지역 인력 양성을 위해 여러 기관과 양해각서를 체결하고 NuCAMP 프로그램을 출범했다.",
+    "summaryLong": "카이로스파워(Kairos Power)가 테네시주 오크리지(Oak Ridge)에 건설 중인 고온불화염(fluoride salt–cooled) 냉각 원자로 시설의 완공을 앞두고, 지역 인력 양성을 위해 오크리지 국립연구소(Oak Ridge National Laboratory), 테네시 녹스빌 대학교(University of Tennessee–Knoxville), 고급복합재료제조연구소(Institute for Advanced Composites Manufacturing) 등 여러 지역 기관과 양해각서(MOU)를 체결했다. 이를 통해 NuCAMP 프로그램을 출범하여 새로운 원자력 산업 일자리 기회에 대비한 지역 인력 양성에 나섰다. 첨단로(고온불화염냉각로, FHR) 개발사의 공식 파트너십 체결 발표이다.",
+    "cat": "계약",
+    "type": "FHR",
+    "dev": "Kairos",
+    "region": "US",
+    "source": "ANS Newswire",
+    "url": "https://www.ans.org/news/2026-08-20/article-8310/kairos-power-others-launch-nucamp-to-develop-nuclear-workforce/",
+    "k": "kairos power others launch nucamp to develop nuclear workforce",
+    "id": "c76bf9f0"
+  },
+  {
+    "date": "2026-08-20",
+    "title": "테라파워(TerraPower), AI 데이터센터용 제2호 원전 발표 예정",
+    "summary": "빌 게이츠 지원 테라파워가 AI 데이터센터 전력 공급용 제2호 원전 발표를 준비 중이다.",
+    "summaryLong": "빌 게이츠(Bill Gates)의 지원을 받는 테라파워(TerraPower)가 AI 데이터센터의 전력 수요를 충족하기 위한 제2호 원전 계획을 발표할 예정이다. 첨단 원자력 기술을 활용한 데이터센터 전력 공급 사업 확대를 의미한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "theaiinsider.tech",
+    "url": "https://theaiinsider.tech/2026/08/20/bill-gates-backed-terrapower-to-announce-second-nuclear-plant-aimed-at-ai-data-centers/",
+    "k": "bill gates backed terrapower to announce second nuclear plant aimed at ai data centers",
+    "op": 1,
+    "id": "8af951f5"
+  },
+  {
+    "date": "2026-08-20",
+    "title": "코퍼스크리스티 항만, 소형모듈원자로 해양 기술 탐색 협약 체결",
+    "summary": "텍사스의 코퍼스크리스티(Corpus Christi) 항만이 미국 교통부 해사청과 소형모듈원자로(SMR) 기반 해양 전력 시스템 탐색을 위한 협약을 체결했다.",
+    "summaryLong": "텍사스주 코퍼스크리스티(Corpus Christi) 항만이 미국 교통부(Department of Transportation) 해사청(Maritime Administration)과 협약을 체결하여 소형모듈원자로(SMR), 마이크로그리드, 첨단 선박 추진 시스템의 해양 응용을 탐색하기로 했다. 항만은 또한 코어파워(Core Power)와 협력하여 해당 부지의 해양 원전 적용 타당성 연구를 수행할 예정이다. 이는 SMR의 해양·항만 에너지 공급 분야로의 활용 가능성을 검토하는 중요한 정책 협력 사례이다.",
+    "cat": "기술",
+    "type": "Micro",
+    "dev": "Core Power",
+    "region": "US",
+    "source": "World Nuclear News",
+    "url": "https://www.world-nuclear-news.org/articles/second-us-port-to-explore-nuclear-maritime-technologies",
+    "k": "second us port to explore nuclear maritime technologies",
+    "id": "0dddab4b"
+  },
+  {
+    "date": "2026-08-20",
+    "title": "부유식 SMR의 경쟁력은 표준 개발에서 완성된다",
+    "summary": "부유식 소형모듈원자로의 시장 경쟁력이 국제 표준 수립 과정에서 결정된다는 분석이다.",
+    "summaryLong": "해상 부유식 소형모듈원자로(SMR)의 경쟁력 구조를 분석한 기사로, 국제 표준화 과정이 향후 시장 점유율 결정의 핵심 요소임을 지적한다. 첨단로 설계인증(GDA·VDR) 및 규제 표준화가 상용화 성공을 좌우하는 메커니즘을 다루고 있으며, 정책·규제 측면의 중요성을 강조하는 산업 분석 콘텐츠이다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "",
+    "source": "newstomato.com",
+    "url": "https://www.newstomato.com/ReadNews.aspx?no=1310854",
+    "k": "해상원전 패권 부유식 smr의 경쟁력은 표준 에서 완성된다",
+    "ko": 1,
+    "id": "cd038c48"
+  },
+  {
+    "date": "2026-08-20",
+    "title": "이재명 정부의 '7대 SEED' 전략에 SMR·핵융합 포함",
+    "summary": "이재명 정부의 미래전략 '7대 SEED' 정책에 SMR과 핵융합이 핵심 기술로 선정되었다.",
+    "summaryLong": "이재명 경기도 정부가 추진하는 미래 산업 전략 '7대 SEED'에 소형모듈원자로(SMR)와 핵융합이 인공지능(AI)을 뒷받침하는 에너지 기반 기술로 포함되었다. 이는 SMR이 정부의 국책 전략 프로그램의 핵심 기술로 공식 인정된 사례로, 정책 차원에서의 지원과 투자 확대를 시사한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "inpnews.kr",
+    "url": "https://www.inpnews.kr/news/articleView.html?idxno=7525",
+    "k": "ai가 끌고 smr 핵융합이 받친다 이재명 정부가 심은 7대 seed",
+    "ko": 1,
+    "id": "cbec83cc"
+  },
+  {
+    "date": "2026-08-20",
+    "title": "국립창원대 SMR² 플랫폼 국가연구소, 원전기업과 SMR 산업 생태계 구축",
+    "summary": "국립창원대의 SMR² 플랫폼 국가연구소가 원전기업과 협력하여 SMR 산업 생태계를 조성하고 있다.",
+    "summaryLong": "국립창원대(Changwon National University)의 SMR² 플랫폼이 국가연구소로 지정되어 원전 관련 기업들과 협력하는 소형모듈원자로(SMR) 산업 생태계 구축을 추진하고 있다. 정부 지원의 국책 연구기관으로 지정되어 업계와 기술 인프라를 연계하는 역할을 하며, 국내 SMR 산업 육성의 정책적 기반이 된다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "veritas-a.com",
+    "url": "https://www.veritas-a.com/news/articleView.html?idxno=623846",
+    "k": "국립창원대 smr 플랫폼 국가연구소 원전기업과 smr 산업 생태계 구축",
+    "ko": 1,
+    "id": "e0be3d36"
+  },
+  {
     "date": "2026-08-19",
     "title": "HD현대, 테라파워(TerraPower) 나트륨냉각로 공급망에 참여",
     "summary": "빌 게이츠가 설립한 미국 테라파워의 소듐냉각고속로(SFR) 'NATRIUM' 원자로 제조에 HD현대가 첫 진출하며, 4세대 SMR의 등장이 원전 주기기 제조 산업의 진입장벽을 낮추고 있다.",
@@ -428,6 +516,21 @@ window.SMR_NEWS = [
     "k": "현대건설 글로벌 원전 슈퍼사이클 올라탈 준비 착착 이한우 smr 시장서 초격차 확보 담금질",
     "ko": 1,
     "id": "bfd73bc6"
+  },
+  {
+    "date": "2026-08-19",
+    "title": "서울대·GS에너지, 민간 주도 SMR 시대 정책토론회 개최",
+    "summary": "서울대와 GS에너지가 민간 중심의 소형모듈원자로 산업 활성화를 주제로 정책토론회를 개최했다.",
+    "summaryLong": "서울대학교(Seoul National University)와 GS에너지가 민간 주도형 소형모듈원자로(SMR) 시대의 도래를 주제로 정책토론회를 개최했다. 학계와 에너지 기업이 협력하여 SMR 상용화를 위한 정책 방향과 산업 전략을 논의하는 자리로, 정부 정책 수립과 민간 투자 확대의 기초가 되는 산업 정책 이슈를 다룬다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5757",
+    "k": "민간 주도 smr 시대 열리나 서울대 gs에너지 정책토론회 개최",
+    "ko": 1,
+    "id": "3013adae"
   },
   {
     "date": "2026-08-18",
@@ -1342,6 +1445,21 @@ window.SMR_NEWS = [
     "k": "sk이노베이션 테라파워 k 나트륨 맞손 글로벌 smr 공략",
     "ko": 1,
     "id": "6143f3fc"
+  },
+  {
+    "date": "2026-08-17",
+    "title": "HD현대·현대건설, 미국 테라파워와 협력해 미국 SMR 시장 진출 확대",
+    "summary": "HD현대와 현대건설이 테라파워(TerraPower)와 손잡고 미국 소형모듈원자로(SMR) 시장 진출을 확대하는 협력을 추진한다.",
+    "summaryLong": "HD현대와 현대건설이 미국의 테라파워(TerraPower)와 협력하여 미국 소형모듈원자로(SMR) 시장 진출을 확대한다는 발표이다. 이는 한국과 미국의 원전 산업 동맹 강화를 의미하며, 한국 건설·중공업 기업들이 글로벌 SMR 밸류체인에 진입하는 계약성 협력이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "HD현대, 현대건설, TerraPower",
+    "region": "US",
+    "source": "munhwa.com",
+    "url": "https://www.munhwa.com/article/11609935",
+    "k": "hd현대 현대건설 테라파워와 손잡고 미국 smr 시장 진출 확대 원전동맹 강화",
+    "ko": 1,
+    "id": "f52d75aa"
   },
   {
     "date": "2026-08-16",
@@ -2771,6 +2889,20 @@ window.SMR_NEWS = [
     "k": "정기선 빌 게이츠 smr 한배 hd현대 테라파워와 나트륨 원자로 상용화 박차",
     "ko": 1,
     "id": "66461f92"
+  },
+  {
+    "date": "2026-08-14",
+    "title": "아르곤국립연구소와 IAEA, 소형모듈원자로 설계·배치 교육과정 개최",
+    "summary": "미국 아르곤국립연구소(Argonne National Laboratory)와 국제원자력기구(IAEA)가 소형모듈원자로의 설계 및 배치에 관한 전문 교육 프로그램을 공동 개최했다.",
+    "summaryLong": "미국의 아르곤국립연구소(Argonne National Laboratory)와 국제원자력기구(IAEA)가 소형모듈원자로(SMR)의 설계와 배치에 관한 국제 교육 프로그램을 협력하여 운영했다. 이 교육과정은 SMR 기술의 국제적 표준화와 인적 역량 구축을 촉진하는 중요한 기술 교육 협력 사례로, 전 세계 SMR 산업 생태계의 성숙도 제고에 기여한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "anl.gov",
+    "url": "https://www.anl.gov/sss/article/the-power-of-collaboration-argonne-and-iaea-host-school-about-design-and-deployment-of-small-modular",
+    "k": "the power of collaboration argonne and iaea host school about design and deployment of small modular reactors",
+    "id": "f2d4e39f"
   },
   {
     "date": "2026-08-13",
@@ -32461,4 +32593,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-20 14:17 KST";
+window.SMR_UPDATED = "2026-08-21 06:57 KST";
