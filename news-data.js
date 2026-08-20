@@ -140,6 +140,20 @@ window.SMR_NEWS = [
     "id": "47607bcb"
   },
   {
+    "date": "2026-08-20",
+    "title": "빌 게이츠의 방한, 한국의 SMR 야심에 미치는 영향",
+    "summary": "빌 게이츠(Bill Gates)의 방한이 한국의 소형모듈원자로 사업 추진에 미칠 영향을 분석하는 기사이다.",
+    "summaryLong": "테라파워(TerraPower)의 회장이자 마이크로소프트 창립자인 빌 게이츠의 한국 방문이 한국의 소형모듈원자로(SMR) 사업 추진에 어떤 의미를 지니는지를 다룬 보도이다. 게이츠의 방한은 테라파워와 SK이노베이션 간 협력 심화, K-나트륨 모델의 글로벌 검증, 그리고 한국이 SMR 분야에서 추구하는 선진국 지위 확보와 관련이 있을 것으로 예상된다. 이는 한국의 원자력 정책과 기업 전략이 국제적 수준에서 어떻게 위상을 갖고 있는지를 보여주는 신호로 해석될 수 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "테라파워",
+    "region": "KR",
+    "source": "koreaherald.com",
+    "url": "https://www.koreaherald.com/article/10847063",
+    "k": "why gates visit matters for korea s smr ambitions",
+    "id": "0cf7c03b"
+  },
+  {
     "date": "2026-08-19",
     "title": "HD현대, 테라파워(TerraPower) 나트륨냉각로 공급망에 참여",
     "summary": "빌 게이츠가 설립한 미국 테라파워의 소듐냉각고속로(SFR) 'NATRIUM' 원자로 제조에 HD현대가 첫 진출하며, 4세대 SMR의 등장이 원전 주기기 제조 산업의 진입장벽을 낮추고 있다.",
@@ -574,6 +588,20 @@ window.SMR_NEWS = [
     "url": "https://www.wbir.com/article/news/local/oak-ridge-anderson/tva-kairos-power-google-partner-nuclear-demand-east-tennessee-ai-boom/51-37c22cc4-139d-4379-9996-0be378320892",
     "k": "kairos power announces new partnership to develop nuclear manufacturing",
     "id": "e988f5cb"
+  },
+  {
+    "date": "2026-08-19",
+    "title": "카이로스 파워, NuCAMP 플랫폼 출시…지역 원전 기술인력 양성 및 첨단로 배치 가속화",
+    "summary": "카이로스 파워(Kairos Power)가 NuCAMP 플랫폼을 출시하여 지역 핵기술 인력 양성과 첨단원자로 배치 가속화를 추진한다.",
+    "summaryLong": "카이로스 파워(Kairos Power)가 NuCAMP 플랫폼을 출시했다. 이 플랫폼은 지역의 원전 관련 기술직(nuclear trades) 양성과 첨단원자로 배치 가속화를 목표로 한다. 이는 첨단로 상용화 추진 과정에서 지역 인력 인프라 구축을 위한 정책적 노력이다.",
+    "cat": "기술",
+    "type": "FHR",
+    "dev": "Kairos",
+    "region": "US",
+    "source": "teknovation.biz",
+    "url": "https://www.teknovation.biz/kairos-power-launches-nucamp/",
+    "k": "kairos power launches nucamp to advance local nuclear trades accelerate advanced nuclear reactor deployment",
+    "id": "fdaa0728"
   },
   {
     "date": "2026-08-18",
@@ -1535,6 +1563,21 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "cdcfb5e9"
+  },
+  {
+    "date": "2026-08-17",
+    "title": "SK이노베이션·테라파워, '한국형 나트륨 SMR' 협력, AI 데이터센터·글로벌 공략",
+    "summary": "SK이노베이션과 테라파워(TerraPower)가 한국형 나트륨냉각 소형모듈원자로(SFR) 개발에 협력하며 AI 데이터센터 시장을 겨냥한다.",
+    "summaryLong": "SK이노베이션과 테라파워가 한국형 나트륨냉각 소형모듈원자로(SFR) 공동 개발에 협력하여 인공지능(AI) 데이터센터의 전력 공급 시장을 글로벌하게 공략하기로 했다. 이는 테라파워의 나트륨냉각 고속로(SFR) 기술과 SK이노베이션의 국내 원전 산업 기반을 결합한 협력이며, 앞서 발표된 두 번째 프로젝트와 연계된 구체적 협력 내용을 보도한 기사이다. 한국 기업의 첨단 원자로 기술 수출 전략의 핵심 사업이다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "KR",
+    "source": "shinailbo.co.kr",
+    "url": "https://www.shinailbo.co.kr/news/articleView.html?idxno=5052013",
+    "k": "sk이노 테라파워 k 나트륨 smr 협력 ai 데이터센터 글로벌 공략",
+    "ko": 1,
+    "id": "9d114c28"
   },
   {
     "date": "2026-08-16",
@@ -32668,4 +32711,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-21 07:37 KST";
+window.SMR_UPDATED = "2026-08-21 08:09 KST";

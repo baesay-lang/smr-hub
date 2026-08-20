@@ -133,6 +133,20 @@ window.SMR_NEWS = [
   "id": "47607bcb"
  },
  {
+  "date": "2026-08-20",
+  "title": "빌 게이츠의 방한, 한국의 SMR 야심에 미치는 영향",
+  "summary": "빌 게이츠(Bill Gates)의 방한이 한국의 소형모듈원자로 사업 추진에 미칠 영향을 분석하는 기사이다.",
+  "summaryLong": "테라파워(TerraPower)의 회장이자 마이크로소프트 창립자인 빌 게이츠의 한국 방문이 한국의 소형모듈원자로(SMR) 사업 추진에 어떤 의미를 지니는지를 다룬 보도이다. 게이츠의 방한은 테라파워와 SK이노베이션 간 협력 심화, K-나트륨 모델의 글로벌 검증, 그리고 한국이 SMR 분야에서 추구하는 선진국 지위 확보와 관련이 있을 것으로 예상된다. 이는 한국의 원자력 정책과 기업 전략이 국제적 수준에서 어떻게 위상을 갖고 있는지를 보여주는 신호로 해석될 수 있다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "테라파워",
+  "region": "KR",
+  "source": "koreaherald.com",
+  "url": "https://www.koreaherald.com/article/10847063",
+  "k": "why gates visit matters for korea s smr ambitions",
+  "id": "0cf7c03b"
+ },
+ {
   "date": "2026-08-19",
   "title": "HD현대, 테라파워(TerraPower) 나트륨냉각로 공급망에 참여",
   "summary": "빌 게이츠가 설립한 미국 테라파워의 소듐냉각고속로(SFR) 'NATRIUM' 원자로 제조에 HD현대가 첫 진출하며, 4세대 SMR의 등장이 원전 주기기 제조 산업의 진입장벽을 낮추고 있다.",
@@ -569,6 +583,20 @@ window.SMR_NEWS = [
   "id": "e988f5cb"
  },
  {
+  "date": "2026-08-19",
+  "title": "카이로스 파워, NuCAMP 플랫폼 출시…지역 원전 기술인력 양성 및 첨단로 배치 가속화",
+  "summary": "카이로스 파워(Kairos Power)가 NuCAMP 플랫폼을 출시하여 지역 핵기술 인력 양성과 첨단원자로 배치 가속화를 추진한다.",
+  "summaryLong": "카이로스 파워(Kairos Power)가 NuCAMP 플랫폼을 출시했다. 이 플랫폼은 지역의 원전 관련 기술직(nuclear trades) 양성과 첨단원자로 배치 가속화를 목표로 한다. 이는 첨단로 상용화 추진 과정에서 지역 인력 인프라 구축을 위한 정책적 노력이다.",
+  "cat": "기술",
+  "type": "FHR",
+  "dev": "Kairos",
+  "region": "US",
+  "source": "teknovation.biz",
+  "url": "https://www.teknovation.biz/kairos-power-launches-nucamp/",
+  "k": "kairos power launches nucamp to advance local nuclear trades accelerate advanced nuclear reactor deployment",
+  "id": "fdaa0728"
+ },
+ {
   "date": "2026-08-18",
   "title": "현대건설(Hyundai E&C), 테라파워(TerraPower) 나트륨(Natrium) SMR 최대 8기 EPC 우선 수주",
   "summary": "현대건설이 테라파워의 나트륨 소형모듈원자로(SMR) 최대 8기에 대한 EPC(설계·조달·시공) 사업 우선권을 획득.",
@@ -844,34 +872,6 @@ window.SMR_NEWS = [
   "url": "https://www.power-eng.com/nuclear/bill-gates-terrapower-hopes-to-accelerate-natrium-reactor-deployment-with-two-new-collaborations/",
   "k": "bill gates terrapower hopes to accelerate natrium reactor deployment with two new collaborations power eng com",
   "id": "6d8bf927"
- },
- {
-  "date": "2026-08-18",
-  "title": "현대건설(Hyundai E&C), 테라파워 원자로 최대 8기 수주 예정",
-  "summary": "현대건설(Hyundai E&C)이 테라파워(TerraPower)의 나트륨냉각 원자로 최대 8기 건설을 수주하기로 선정되었다.",
-  "summaryLong": "테라파워(TerraPower)와 현대건설(Hyundai E&C)이 나트륨냉각(Natrium) 원자로 최대 8기의 건설 계약을 체결했다. 이는 한국 주요 건설사가 첨단로 프로젝트에 참여하는 국제 협력사례로, 테라파워의 상용화 진전과 함께 한국 건설·원자력 산업의 글로벌 역할 확대를 시사한다.",
-  "cat": "계약",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "US",
-  "source": "koreaherald.com",
-  "url": "https://www.koreaherald.com/article/10844179",
-  "k": "hyundai e c tapped for up to 8 terrapower reactors",
-  "id": "4ce70724"
- },
- {
-  "date": "2026-08-18",
-  "title": "오클로 핵연료 전략: HALEU, 센트러스, 재활용, 잉여 플루토늄",
-  "summary": "오클로의 고농축우라늄(HALEU) 조달 전략과 센트러스(Centrus) 연계, 연료 재활용, 잉여 플루토늄 활용 방안을 설명하는 기술 해설.",
-  "summaryLong": "MEXC가 오클로(Oklo)의 핵연료 조달 및 활용 전략을 상세히 분석한 콘텐츠. 고농축우라늄(HALEU) 확보, 센트러스(Centrus)와의 협력, 사용 후 연료 재활용, 잉여 플루토늄 재활용 등 첨단 연료 사이클 전략을 다루고 있으며, 오클로의 기술 경쟁력의 핵심 요소인 연료 조달 방식을 설명한다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "Oklo",
-  "region": "US",
-  "source": "mexc.com",
-  "url": "https://www.mexc.com/learn/article/oklo-nuclear-fuel-strategy-explained-haleu-centrus-fuel-recycling-and-surplus-plutonium/1",
-  "k": "oklo nuclear fuel strategy explained haleu centrus fuel recycling and surplus plutonium",
-  "id": "6259b324"
  },
  {
   "date": "2026-08-18",
@@ -1399,5 +1399,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-21 07:37 KST";
-window.SMR_TOTAL = 2243;
+window.SMR_UPDATED = "2026-08-21 08:09 KST";
+window.SMR_TOTAL = 2246;
