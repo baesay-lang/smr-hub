@@ -356,6 +356,35 @@ window.SMR_NEWS = [
     "id": "e7d0301c"
   },
   {
+    "date": "2026-08-19",
+    "title": "테라파워, AI 데이터센터 전력 공급 위해 와이오밍주 착공",
+    "summary": "테라파워(TerraPower)가 AI 데이터센터 전력을 공급하기 위한 와이오밍(Wyoming)주 프로젝트 착공식을 진행했다.",
+    "summaryLong": "테라파워(TerraPower)가 AI 데이터센터 붐에 대응하기 위한 와이오밍(Wyoming)주 신규 원전 프로젝트 착공식을 개최했다. 이는 테라파워의 실제 건설 진행 상황을 보도한 뉴스로, SMR·첨단로 개발사의 사업 마일스톤을 다룬 기술·사업 진전 소식에 해당한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "startupfortune.com",
+    "url": "https://startupfortune.com/terrapower-breaks-ground-in-wyoming-to-power-the-ai-data-center-boom/",
+    "k": "terrapower breaks ground in wyoming to power the ai data center boom",
+    "id": "54501df4"
+  },
+  {
+    "date": "2026-08-19",
+    "title": "미국 SMR 기업 카이로스파워(Kairos Power), 협력체 출범···삼성물산도 합류",
+    "summary": "미국의 소형모듈원자로 개발사 카이로스파워가 협력체를 출범하며 삼성물산이 참여했다.",
+    "summaryLong": "미국의 소형모듈원자로(SMR) 개발사 카이로스파워(Kairos Power)가 협력체를 공식 출범시켰으며, 한국의 삼성물산(Samsung Engineering)이 이에 합류했다. 이는 카이로스파워의 고온가스로(HTGR) 기술 개발과 상용화를 위해 국제 파트너십을 확대하는 전략의 일환으로, 삼성물산의 건설·엔지니어링 역량과 결합하여 글로벌 SMR 시장 진출을 가속화할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "FHR",
+    "dev": "Kairos",
+    "region": "US",
+    "source": "theguru.co.kr",
+    "url": "https://theguru.co.kr/mobile/article.html?no=106019",
+    "k": "smr 기업 카이로스파워 협력체 출범 삼성물산도 합류",
+    "ko": 1,
+    "id": "4f2e278a"
+  },
+  {
     "date": "2026-08-18",
     "title": "현대건설(Hyundai E&C), 테라파워(TerraPower) 나트륨(Natrium) SMR 최대 8기 EPC 우선 수주",
     "summary": "현대건설이 테라파워의 나트륨 소형모듈원자로(SMR) 최대 8기에 대한 EPC(설계·조달·시공) 사업 우선권을 획득.",
@@ -1194,6 +1223,50 @@ window.SMR_NEWS = [
     "k": "상용화 전 테라파워 smr에 국내기업 원전 보증까지 붙는다",
     "ko": 1,
     "id": "9e06e985"
+  },
+  {
+    "date": "2026-08-17",
+    "title": "테라파워(TerraPower), 현대건설(Hyundai E&C)·에스케이이노베이션(SK Innovation)과 새로운 계약 체결로 한국 관계 심화",
+    "summary": "테라파워(TerraPower)가 현대건설(Hyundai E&C)과 에스케이이노베이션(SK Innovation)과의 새로운 계약을 통해 한국과의 협력을 확대하고 있다.",
+    "summaryLong": "빌 게이츠 지원 첨단 원자력 기업 테라파워(TerraPower)가 한국의 건설사 현대건설(Hyundai E&C)과 에너지 기업 에스케이이노베이션(SK Innovation)과 새로운 계약 또는 파트너십을 체결함으로써 한국 시장과의 협력 관계를 한층 심화시키고 있다. 이는 소형모듈원자로(SMR) 및 첨단로의 국제적 확산 전략의 일환으로, 아시아 태평양 지역 진출을 강화하는 중요한 계약 소식이다. 구체적인 계약 내용과 일정은 추가 공개를 기다리고 있다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "KR",
+    "source": "igrownews.com",
+    "url": "https://igrownews.com/terrapower-latest-news/",
+    "k": "terrapower deepens korea ties with new hyundai e c and sk innovation deals",
+    "id": "c1414231"
+  },
+  {
+    "date": "2026-08-17",
+    "title": "최태원 회장·빌 게이츠, SMR 동맹 강화···AI 전력시장 정조준",
+    "summary": "최태원 SK 회장과 빌 게이츠가 소형모듈원자로(SMR) 협력을 강화하며 AI 전력 수요 시장을 겨냥한다.",
+    "summaryLong": "SK그룹의 최태원 회장과 빌 게이츠(Bill Gates)가 소형모듈원자로(SMR) 분야 협력을 강화하기로 했다. 이는 인공지능(AI) 데이터센터 등 증가하는 전력수요에 대응하기 위해 SMR 기술과 투자를 결집하는 전략으로, 테라파워(TerraPower) 등 게이츠 관련 원자력 기업들과 SK의 협력이 확대될 것으로 보인다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "ajunews.com",
+    "url": "https://www.ajunews.com/view/20260817123641378",
+    "k": "최태원 빌 게이츠 smr 동맹 강화 ai 전력시장 정조준",
+    "ko": 1,
+    "id": "e7464b7b"
+  },
+  {
+    "date": "2026-08-17",
+    "title": "SK이노베이션-테라파워 'K-나트륨' SMR 협력",
+    "summary": "SK이노베이션과 테라파워(TerraPower)가 K-나트륨 기반 SMR 사업에서 전략적 협력을 강화하는 합작을 추진.",
+    "summaryLong": "SK이노베이션과 테라파워(TerraPower)가 K-나트륨 기반의 소형모듈원자로(SMR) 사업에 대한 협력을 강화하고 있습니다. 양사는 글로벌 시장 공략을 위해 차세대 나트륨냉각 SMR(SFR) 기술 개발 및 사업모델 구축에 함께 나서고 있으며, 이는 한국의 원전 기술과 테라파워의 혁신 역량을 결합한 전략적 파트너십입니다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "SK이노베이션, 테라파워",
+    "region": "KR",
+    "source": "inpnews.kr",
+    "url": "https://www.inpnews.kr/news/articleView.html?idxno=7477",
+    "k": "sk이노베이션 테라파워 k 나트륨 맞손 글로벌 smr 공략",
+    "ko": 1,
+    "id": "6143f3fc"
   },
   {
     "date": "2026-08-16",
@@ -16310,6 +16383,20 @@ window.SMR_NEWS = [
     "url": "https://china.usembassy-china.org.cn/the-u-s-japan-and-the-republic-of-korea-sign-a-trilateral-memorandum-of-cooperation-on-small-modular-reactor-deployments-in-other-countries/",
     "k": "the united states japan and the republic of korea sign a trilateral memorandum of cooperation on small modular reactor deployments in other countries china usembassy china org cn",
     "id": "adfbfe5e"
+  },
+  {
+    "date": "2026-07-07",
+    "title": "루비오 국무장관, 일본·한국 외교장관과 소형모듈원자로(SMR) 협력 양해각서 체결",
+    "summary": "미국 국무장관이 일본, 한국 외교장관과 함께 소형모듈원자로 협력을 위한 양해각서 체결식에 참석했다.",
+    "summaryLong": "마르코 루비오(Marco Rubio) 미국 국무장관이 일본과 한국의 외교장관과 함께 소형모듈원자로(SMR) 협력을 위한 양해각서 체결식에 참석했다. 이는 세 국가 간 원자력 협력을 확대하고 SMR 기술 개발 및 상용화를 추진하기 위한 공식적인 약속을 담은 것으로, 인도태평양 지역의 에너지 안보와 기후 대응을 강화하는 전략의 일환으로 평가된다.",
+    "cat": "계약",
+    "type": "General",
+    "dev": "",
+    "region": "US",
+    "source": "china.usembassy-china.org.cn",
+    "url": "https://china.usembassy-china.org.cn/secretary-rubio-with-japanese-foreign-minister-and-korea-foreign-minister-at-a-small-modular-reactor-memorandum-of-cooperation-signing-ceremony/",
+    "k": "secretary rubio with japanese foreign minister and korea foreign minister at a small modular reactor memorandum of cooperation signing ceremony china usembassy china org cn",
+    "id": "ca389b5d"
   },
   {
     "date": "2026-07-06",
@@ -32240,4 +32327,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-20 08:05 KST";
+window.SMR_UPDATED = "2026-08-20 13:09 KST";

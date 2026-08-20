@@ -349,6 +349,35 @@ window.SMR_NEWS = [
   "id": "e7d0301c"
  },
  {
+  "date": "2026-08-19",
+  "title": "테라파워, AI 데이터센터 전력 공급 위해 와이오밍주 착공",
+  "summary": "테라파워(TerraPower)가 AI 데이터센터 전력을 공급하기 위한 와이오밍(Wyoming)주 프로젝트 착공식을 진행했다.",
+  "summaryLong": "테라파워(TerraPower)가 AI 데이터센터 붐에 대응하기 위한 와이오밍(Wyoming)주 신규 원전 프로젝트 착공식을 개최했다. 이는 테라파워의 실제 건설 진행 상황을 보도한 뉴스로, SMR·첨단로 개발사의 사업 마일스톤을 다룬 기술·사업 진전 소식에 해당한다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "US",
+  "source": "startupfortune.com",
+  "url": "https://startupfortune.com/terrapower-breaks-ground-in-wyoming-to-power-the-ai-data-center-boom/",
+  "k": "terrapower breaks ground in wyoming to power the ai data center boom",
+  "id": "54501df4"
+ },
+ {
+  "date": "2026-08-19",
+  "title": "미국 SMR 기업 카이로스파워(Kairos Power), 협력체 출범···삼성물산도 합류",
+  "summary": "미국의 소형모듈원자로 개발사 카이로스파워가 협력체를 출범하며 삼성물산이 참여했다.",
+  "summaryLong": "미국의 소형모듈원자로(SMR) 개발사 카이로스파워(Kairos Power)가 협력체를 공식 출범시켰으며, 한국의 삼성물산(Samsung Engineering)이 이에 합류했다. 이는 카이로스파워의 고온가스로(HTGR) 기술 개발과 상용화를 위해 국제 파트너십을 확대하는 전략의 일환으로, 삼성물산의 건설·엔지니어링 역량과 결합하여 글로벌 SMR 시장 진출을 가속화할 것으로 예상된다.",
+  "cat": "기술",
+  "type": "FHR",
+  "dev": "Kairos",
+  "region": "US",
+  "source": "theguru.co.kr",
+  "url": "https://theguru.co.kr/mobile/article.html?no=106019",
+  "k": "smr 기업 카이로스파워 협력체 출범 삼성물산도 합류",
+  "ko": 1,
+  "id": "4f2e278a"
+ },
+ {
   "date": "2026-08-18",
   "title": "현대건설(Hyundai E&C), 테라파워(TerraPower) 나트륨(Natrium) SMR 최대 8기 EPC 우선 수주",
   "summary": "현대건설이 테라파워의 나트륨 소형모듈원자로(SMR) 최대 8기에 대한 EPC(설계·조달·시공) 사업 우선권을 획득.",
@@ -844,21 +873,6 @@ window.SMR_NEWS = [
   "k": "hd현대 현대건설 테라파워 손잡고 미국 smr 시장 선점 추진 나트륨 원전사업 수행 위한 기본협약 체결",
   "ko": 1,
   "id": "989e2211"
- },
- {
-  "date": "2026-08-18",
-  "title": "테라파워·SK·HD현대·두산 SMR 사업 협력 구체화",
-  "summary": "빌 게이츠의 테라파워(TerraPower)와 SK그룹, HD현대, 두산이 소형모듈원자로(SMR) 사업에서 협력을 구체화하고 있다.",
-  "summaryLong": "테라파워(TerraPower)와 SK이노베이션, HD현대, 두산이 글로벌 소형모듈원자로(SMR) 사업에서 협력 체계를 구체화하고 있다. 한국의 주요 에너지·건설·기술 기업들이 미국의 첨단 SMR 개발사와 손잡고 설계, 부품 공급, 건설 등 전 분야에서 파트너십을 강화 중이다. 이는 차세대 원자로 시장에서 한국 기업의 영향력을 확대하려는 전략적 움직임으로 평가된다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower, SK이노베이션, HD현대, 두산",
-  "region": "KR|US",
-  "source": "marketnews.co.kr",
-  "url": "http://www.marketnews.co.kr/news/articleView.html?idxno=74232",
-  "k": "빌 게이츠의 테라파워 sk hd현대 두산 smr 사업 협력 구체화",
-  "ko": 1,
-  "id": "c5c22029"
  },
  {
   "date": "2026-08-18",
@@ -1386,5 +1400,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-20 08:05 KST";
-window.SMR_TOTAL = 2214;
+window.SMR_UPDATED = "2026-08-20 13:09 KST";
+window.SMR_TOTAL = 2220;
