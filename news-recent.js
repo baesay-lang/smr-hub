@@ -119,6 +119,20 @@ window.SMR_NEWS = [
   "id": "e0be3d36"
  },
  {
+  "date": "2026-08-20",
+  "title": "카이로스파워 등 NuCAMP 출범으로 원자력 인력 개발",
+  "summary": "카이로스파워와 여러 기관이 원자력 인력 개발을 위한 NuCAMP 프로그램을 출범했다.",
+  "summaryLong": "카이로스파워(Kairos Power)를 포함한 여러 기관이 NuCAMP 프로그램을 공동 출범하여 원자력 인력 양성 및 지역 핵 기술 인력 개발을 추진한다. 이 프로그램은 첨단 원자로 배치 가속화를 목표로 하며, 미국 원자력학회(ANS) 등과 협력하여 진행된다.",
+  "cat": "기술",
+  "type": "FHR",
+  "dev": "카이로스파워",
+  "region": "US",
+  "source": "ans.org",
+  "url": "https://www.ans.org/news/article-8310/kairos-power-others-launch-nucamp-to-develop-nuclear-workforce/",
+  "k": "kairos power others launch nucamp to develop nuclear workforce ans nuclear newswire american nuclear society ans",
+  "id": "47607bcb"
+ },
+ {
   "date": "2026-08-19",
   "title": "HD현대, 테라파워(TerraPower) 나트륨냉각로 공급망에 참여",
   "summary": "빌 게이츠가 설립한 미국 테라파워의 소듐냉각고속로(SFR) 'NATRIUM' 원자로 제조에 HD현대가 첫 진출하며, 4세대 SMR의 등장이 원전 주기기 제조 산업의 진입장벽을 낮추고 있다.",
@@ -526,6 +540,35 @@ window.SMR_NEWS = [
   "id": "3013adae"
  },
  {
+  "date": "2026-08-19",
+  "title": "오클로 vs 엑스에너지: 신규 원자력 IPO 어느 것이 더 나은가",
+  "summary": "오클로와 엑스에너지의 IPO 상장 후 투자 매력도를 비교 분석한 기사다.",
+  "summaryLong": "야후 파이낸스에서 오클로(Oklo)와 엑스에너지(X-energy)의 신규 원자력 IPO(기업공개) 중 투자 가치가 높은 기업을 비교 분석하고 있다. 두 소형모듈원자로(SMR)·첨단로 개발사의 성장 전망과 재무 상황, 기술 진도 등을 검토하는 투자자 분석 보도이다.",
+  "cat": "투자",
+  "type": "HTGR",
+  "dev": "",
+  "region": "US",
+  "source": "finance.yahoo.com",
+  "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-vs-x-energy-nuclear-113000730.html",
+  "k": "oklo vs x energy is the new nuclear ipo the better buy",
+  "op": 1,
+  "id": "f2c2ac7f"
+ },
+ {
+  "date": "2026-08-19",
+  "title": "카이로스파워, 핵연료 제조 개발 파트너십 발표",
+  "summary": "카이로스파워(Kairos Power)가 핵연료 제조 개발을 위한 새로운 파트너십을 체결했다.",
+  "summaryLong": "카이로스파워(Kairos Power)가 핵연료 제조 개발을 위한 새로운 파트너십을 발표했다. 구체적인 파트너사와 세부 내용은 제공된 정보에서 확인되지 않으나, 회사의 핵심 사업인 용융염로(Fluoride salt-cooled High-temperature Reactor) 개발과 관련된 제조 능력 확보 차원의 전략적 협력으로 보인다. 이는 소형모듈원자로(SMR) 및 첨단로 사업의 상용화 추진 과정에서 공급망 구축의 중요한 단계로 평가된다.",
+  "cat": "기술",
+  "type": "FHR",
+  "dev": "Kairos Power",
+  "region": "US",
+  "source": "wbir.com",
+  "url": "https://www.wbir.com/article/news/local/oak-ridge-anderson/tva-kairos-power-google-partner-nuclear-demand-east-tennessee-ai-boom/51-37c22cc4-139d-4379-9996-0be378320892",
+  "k": "kairos power announces new partnership to develop nuclear manufacturing",
+  "id": "e988f5cb"
+ },
+ {
   "date": "2026-08-18",
   "title": "현대건설(Hyundai E&C), 테라파워(TerraPower) 나트륨(Natrium) SMR 최대 8기 EPC 우선 수주",
   "summary": "현대건설이 테라파워의 나트륨 소형모듈원자로(SMR) 최대 8기에 대한 EPC(설계·조달·시공) 사업 우선권을 획득.",
@@ -829,51 +872,6 @@ window.SMR_NEWS = [
   "url": "https://www.mexc.com/learn/article/oklo-nuclear-fuel-strategy-explained-haleu-centrus-fuel-recycling-and-surplus-plutonium/1",
   "k": "oklo nuclear fuel strategy explained haleu centrus fuel recycling and surplus plutonium",
   "id": "6259b324"
- },
- {
-  "date": "2026-08-18",
-  "title": "선박에서 원전까지···HD현대(HD Hyundai), 미국 SMR(소형모듈원자로) 시장 정조준",
-  "summary": "HD현대와 두산에너빌리티(Doosan Enerbility)가 테라파워(TerraPower)의 차세대 SMR 사업에 협력하며 미국 시장 진출을 추진하고 있다.",
-  "summaryLong": "HD현대, 두산에너빌리티, SK이노베이션(SK Innovation) 등 한국 기업들이 빌 게이츠(Bill Gates)가 후원하는 테라파워(TerraPower)의 나트륨 냉각 고속로(SFR) 기반 SMR(소형모듈원자로) 사업에 참여하고 있다. 두산에너빌리티는 테라파워의 핵심 기자재 수주를 확보했고, SK이노베이션은 글로벌 사업협력 추진, HD현대와 현대건설은 미국 시장 진출을 위한 기본협약을 체결했다. 이는 한국 기업들이 SMR 초도호기 수주는 놓쳤지만 차세대 SMR 상용화 단계에서 글로벌 시장 확보를 노리는 전략으로 평가된다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower, HD현대, 두산, SK이노",
-  "region": "US|KR",
-  "source": "viva100.com",
-  "url": "https://www.viva100.com/article/20260818500796",
-  "k": "선박서 원전까지 hd현대 smr 시장 정조준",
-  "ko": 1,
-  "id": "174360b3"
- },
- {
-  "date": "2026-08-18",
-  "title": "르베크(LeBec) CEO \"한·미 SMR 동맹 기반으로 영국·동남아 등에 수백기 건설\"",
-  "summary": "르베크 CEO가 한·미 SMR 동맹을 바탕으로 영국과 동남아시아 등에 수백기의 소형모듈원자로 건설 계획을 밝혔다.",
-  "summaryLong": "르베크(LeBec)의 CEO가 한국과 미국의 SMR 동맹을 기반으로 영국(UK)과 동남아시아 지역 등에 수백기 규모의 소형모듈원자로(SMR) 건설을 추진할 계획임을 공개했다. 이는 한·미 에너지 협력 강화와 글로벌 SMR 시장 확대의 신호로 평가되며, 해당 지역의 에너지 수급 안정화와 탄소중립 달성을 목표로 한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "르베크",
-  "region": "US",
-  "source": "hankyung.com",
-  "url": "https://www.hankyung.com/article/2026081879571",
-  "k": "단독 르베크 ceo 한 미 smr동맹 기반으로 동남아 등에 수백기 건설",
-  "ko": 1,
-  "op": 1,
-  "id": "07b77cbb"
- },
- {
-  "date": "2026-08-18",
-  "title": "테라파워, 현대건설·SK이노베이션과 글로벌 SMR 사업 파트너십",
-  "summary": "테라파워가 현대건설과 SK이노베이션과 손잡고 글로벌 소형모듈원자로 사업을 추진한다.",
-  "summaryLong": "테라파워(TerraPower)가 현대건설(Hyundai E&C)과 SK이노베이션(SK Innovation)을 파트너로 선정하여 글로벌 소형모듈원자로(SMR) 사업 전개를 추진하고 있다. 이는 테라파워의 첨단로 기술을 한국의 주요 건설사 및 에너지 기업과 협력하여 국제 시장에 확대하려는 전략적 파트너십이다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "US",
-  "source": "kedglobal.com",
-  "url": "https://www.kedglobal.com/energy/newsView/ked202608180009",
-  "k": "terrapower taps hyundai e c sk innovation for global smr rollout",
-  "id": "16e643b0"
  },
  {
   "date": "2026-08-18",
@@ -1401,5 +1399,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-21 06:57 KST";
-window.SMR_TOTAL = 2238;
+window.SMR_UPDATED = "2026-08-21 07:37 KST";
+window.SMR_TOTAL = 2243;

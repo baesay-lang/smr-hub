@@ -126,6 +126,20 @@ window.SMR_NEWS = [
     "id": "e0be3d36"
   },
   {
+    "date": "2026-08-20",
+    "title": "카이로스파워 등 NuCAMP 출범으로 원자력 인력 개발",
+    "summary": "카이로스파워와 여러 기관이 원자력 인력 개발을 위한 NuCAMP 프로그램을 출범했다.",
+    "summaryLong": "카이로스파워(Kairos Power)를 포함한 여러 기관이 NuCAMP 프로그램을 공동 출범하여 원자력 인력 양성 및 지역 핵 기술 인력 개발을 추진한다. 이 프로그램은 첨단 원자로 배치 가속화를 목표로 하며, 미국 원자력학회(ANS) 등과 협력하여 진행된다.",
+    "cat": "기술",
+    "type": "FHR",
+    "dev": "카이로스파워",
+    "region": "US",
+    "source": "ans.org",
+    "url": "https://www.ans.org/news/article-8310/kairos-power-others-launch-nucamp-to-develop-nuclear-workforce/",
+    "k": "kairos power others launch nucamp to develop nuclear workforce ans nuclear newswire american nuclear society ans",
+    "id": "47607bcb"
+  },
+  {
     "date": "2026-08-19",
     "title": "HD현대, 테라파워(TerraPower) 나트륨냉각로 공급망에 참여",
     "summary": "빌 게이츠가 설립한 미국 테라파워의 소듐냉각고속로(SFR) 'NATRIUM' 원자로 제조에 HD현대가 첫 진출하며, 4세대 SMR의 등장이 원전 주기기 제조 산업의 진입장벽을 낮추고 있다.",
@@ -531,6 +545,35 @@ window.SMR_NEWS = [
     "k": "민간 주도 smr 시대 열리나 서울대 gs에너지 정책토론회 개최",
     "ko": 1,
     "id": "3013adae"
+  },
+  {
+    "date": "2026-08-19",
+    "title": "오클로 vs 엑스에너지: 신규 원자력 IPO 어느 것이 더 나은가",
+    "summary": "오클로와 엑스에너지의 IPO 상장 후 투자 매력도를 비교 분석한 기사다.",
+    "summaryLong": "야후 파이낸스에서 오클로(Oklo)와 엑스에너지(X-energy)의 신규 원자력 IPO(기업공개) 중 투자 가치가 높은 기업을 비교 분석하고 있다. 두 소형모듈원자로(SMR)·첨단로 개발사의 성장 전망과 재무 상황, 기술 진도 등을 검토하는 투자자 분석 보도이다.",
+    "cat": "투자",
+    "type": "HTGR",
+    "dev": "",
+    "region": "US",
+    "source": "finance.yahoo.com",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/oklo-vs-x-energy-nuclear-113000730.html",
+    "k": "oklo vs x energy is the new nuclear ipo the better buy",
+    "op": 1,
+    "id": "f2c2ac7f"
+  },
+  {
+    "date": "2026-08-19",
+    "title": "카이로스파워, 핵연료 제조 개발 파트너십 발표",
+    "summary": "카이로스파워(Kairos Power)가 핵연료 제조 개발을 위한 새로운 파트너십을 체결했다.",
+    "summaryLong": "카이로스파워(Kairos Power)가 핵연료 제조 개발을 위한 새로운 파트너십을 발표했다. 구체적인 파트너사와 세부 내용은 제공된 정보에서 확인되지 않으나, 회사의 핵심 사업인 용융염로(Fluoride salt-cooled High-temperature Reactor) 개발과 관련된 제조 능력 확보 차원의 전략적 협력으로 보인다. 이는 소형모듈원자로(SMR) 및 첨단로 사업의 상용화 추진 과정에서 공급망 구축의 중요한 단계로 평가된다.",
+    "cat": "기술",
+    "type": "FHR",
+    "dev": "Kairos Power",
+    "region": "US",
+    "source": "wbir.com",
+    "url": "https://www.wbir.com/article/news/local/oak-ridge-anderson/tva-kairos-power-google-partner-nuclear-demand-east-tennessee-ai-boom/51-37c22cc4-139d-4379-9996-0be378320892",
+    "k": "kairos power announces new partnership to develop nuclear manufacturing",
+    "id": "e988f5cb"
   },
   {
     "date": "2026-08-18",
@@ -1460,6 +1503,38 @@ window.SMR_NEWS = [
     "k": "hd현대 현대건설 테라파워와 손잡고 미국 smr 시장 진출 확대 원전동맹 강화",
     "ko": 1,
     "id": "f52d75aa"
+  },
+  {
+    "date": "2026-08-17",
+    "title": "SK이노베이션·테라파워, '한국형 나트륨냉각' SMR 사업모델 검토",
+    "summary": "SK이노베이션과 테라파워가 한국형 나트륨냉각 소형모듈원자로의 사업모델을 공동 검토 중이다.",
+    "summaryLong": "SK이노베이션(SK Innovation)과 테라파워(TerraPower)가 한국형 나트륨냉각고속로(SFR) 기반의 소형모듈원자로(SMR) 사업모델을 검토하고 있다고 보도되었다. 이는 테라파워의 고속로 기술과 SK이노베이션의 국내 원자력 기반시설이 결합된 국제 협력 프로젝트로, 한국 내 첨단원자로 개발과 산업화의 중요한 파트너십을 의미한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "테라파워",
+    "region": "KR",
+    "source": "daily.hankooki.com",
+    "url": "https://daily.hankooki.com/news/articleView.html?idxno=1396389",
+    "k": "sk이노베이션 테라파워 k 나트륨 smr 사업모델 검토",
+    "ko": 1,
+    "op": 1,
+    "id": "e2b4d376"
+  },
+  {
+    "date": "2026-08-17",
+    "title": "빌 게이츠 테라파워 SMR 협력과 한국 원전의 미래",
+    "summary": "테라파워(TerraPower)와의 SMR 협력 동향과 한국 원전 산업의 연계 가능성을 다룬 기사.",
+    "summaryLong": "빌 게이츠(Bill Gates)가 지원하는 테라파워(TerraPower)의 소형모듈원자로(SMR) 사업과 한국 원전 산업의 협력 가능성에 대한 전망을 담은 기사이다. 테라파워의 기술 및 사업 동향이 한국 원전 산업과 어떻게 연결될 수 있는지에 대한 분석을 제시한다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "2news.co.kr",
+    "url": "https://www.2news.co.kr/news/articleView.html?idxno=21400",
+    "k": "빌 게이츠 테라파워 smr 협력과 한국 원전의 미래",
+    "ko": 1,
+    "op": 1,
+    "id": "cdcfb5e9"
   },
   {
     "date": "2026-08-16",
@@ -32593,4 +32668,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-21 06:57 KST";
+window.SMR_UPDATED = "2026-08-21 07:37 KST";
