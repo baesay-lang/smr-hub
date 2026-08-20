@@ -1,6 +1,36 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-08-20",
+  "title": "AI가 이끌고 SMR·핵융합이 받친다···정부의 '7대 전략기술 SEED' 발표",
+  "summary": "한국 정부가 소형모듈원자로(SMR)과 핵융합을 포함한 7대 전략기술 SEED 프로그램을 선정 발표했다.",
+  "summaryLong": "한국 정부가 인공지능(AI)을 중심으로 소형모듈원자로(SMR)과 핵융합을 포함한 7대 전략기술 SEED(전략기술) 프로그램을 발표했다. 이는 미래 에너지 안보와 산업 경쟁력 강화를 위해 SMR을 국가 전략기술로 선정한 정책 발표로, 국내 SMR 산업 육성과 투자 확대의 신호를 의미한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "inpnews.kr",
+  "url": "https://www.inpnews.kr/news/articleView.html?idxno=7525",
+  "k": "ai가 끌고 smr 핵융합이 받친다 정부가 심은 7대 seed",
+  "ko": 1,
+  "id": "cbec83cc"
+ },
+ {
+  "date": "2026-08-20",
+  "title": "수은, 테라파워와 금융동맹 체결…원전 수주 경쟁에서 금융이 관건",
+  "summary": "수출입은행(수은)이 빌 게이츠의 테라파워(TerraPower)와 금융 협력 동맹을 체결하며 SMR 원전 사업의 금융 지원 기반을 마련했다.",
+  "summaryLong": "수출입은행(수은)이 빌 게이츠(Bill Gates)가 주도하는 테라파워(TerraPower)와 금융동맹을 체결했다. 이는 한국의 금융 기관이 글로벌 SMR 개발 선도 기업과 협력하여 원전 수주 경쟁력을 강화하기 위한 전략적 파트너십이다. 원전 수주에서 금융 지원의 중요성이 강조되는 가운데, 수은의 테라파워 협력이 한국의 SMR 사업 추진에 실질적인 자금 및 인허가 지원 기반을 제공할 것으로 예상된다.",
+  "cat": "계약",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "KR",
+  "source": "goodkyung.com",
+  "url": "https://www.goodkyung.com/news/articleView.html?idxno=290449",
+  "k": "줌 이기업 원전 수주 금융이 가른다 빌 게이츠 만난 수은 테라파워와 금융동맹",
+  "ko": 1,
+  "id": "d8cd518a"
+ },
+ {
   "date": "2026-08-19",
   "title": "HD현대, 테라파워(TerraPower) 나트륨냉각로 공급망에 참여",
   "summary": "빌 게이츠가 설립한 미국 테라파워의 소듐냉각고속로(SFR) 'NATRIUM' 원자로 제조에 HD현대가 첫 진출하며, 4세대 SMR의 등장이 원전 주기기 제조 산업의 진입장벽을 낮추고 있다.",
@@ -846,36 +876,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-08-18",
-  "title": "빌 게이츠·최태원 손잡았다…SK이노, 테라파워 SMR 글로벌 사업 공동 추진",
-  "summary": "SK이노베이션이 테라파워와 소형모듈원자로 글로벌 사업을 공동으로 추진하기로 합의했다.",
-  "summaryLong": "SK그룹 최태원 회장과 테라파워(TerraPower) 창립자 빌 게이츠(Bill Gates)가 협력하여 SK이노베이션과 테라파워가 소형모듈원자로(SMR) 글로벌 사업 공동 추진을 결정했다. 양사는 나트륨냉각고속로(SFR) 기술 기반의 국제 상용화 전략을 함께 전개할 예정이다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "SK이노",
-  "region": "KR",
-  "source": "kmnanews.com",
-  "url": "https://www.kmnanews.com/news/articleView.html?idxno=10738",
-  "k": "빌 게이츠 최태원 손잡았다 sk이노 테라파워 smr 글로벌 사업 공동 추진",
-  "ko": 1,
-  "id": "ad94c71e"
- },
- {
-  "date": "2026-08-18",
-  "title": "현대건설, 테라파워와 협력해 글로벌 SMR 프로젝트 시동",
-  "summary": "현대건설이 테라파워(TerraPower)와 협력하여 글로벌 소형모듈원자로(SMR) 프로젝트를 시작한다.",
-  "summaryLong": "현대건설이 테라파워(TerraPower)와의 협력을 통해 글로벌 소형모듈원자로(SMR) 프로젝트를 추진하기로 결정했다. 두 회사 간의 파트너십은 SMR 기술 개발 및 상용화를 목표로 한다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "현대건설·TerraPower",
-  "region": "KR",
-  "source": "m-i.kr",
-  "url": "https://www.m-i.kr/news/articleView.html?idxno=1403128",
-  "k": "현대건설 테라파워와 협력 글로벌smr 프로젝트 시동건다",
-  "ko": 1,
-  "id": "931407af"
- },
- {
-  "date": "2026-08-18",
   "title": "르베크(Lebec) CEO \"'K-나트륨' 4세대 SMR이 AI시대 새 전력원 될 것\"",
   "summary": "르베크 CEO가 한국의 나트륨냉각 소형모듈원자로(K-나트륨)가 인공지능(AI) 시대의 주요 전력원이 될 것으로 전망했다.",
   "summaryLong": "르베크(Lebec) CEO가 한국의 나트륨냉각 소형모듈원자로(K-나트륨)가 4세대 고급 원자로 기술로서 인공지능(AI) 시대의 새로운 전력원이 될 것으로 예측했다. 이는 한국의 소듐냉각고속로(SFR) 기술이 차세대 에너지 수요 충족에 적합하다는 긍정적 평가를 반영한다. 다만 제시된 내용은 CEO의 전망 발언으로, 구체적인 개발 일정이나 상용화 계획은 명시되지 않았다.",
@@ -1400,5 +1400,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-20 13:48 KST";
-window.SMR_TOTAL = 2223;
+window.SMR_UPDATED = "2026-08-20 14:17 KST";
+window.SMR_TOTAL = 2229;

@@ -8,6 +8,36 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-08-20",
+    "title": "AI가 이끌고 SMR·핵융합이 받친다···정부의 '7대 전략기술 SEED' 발표",
+    "summary": "한국 정부가 소형모듈원자로(SMR)과 핵융합을 포함한 7대 전략기술 SEED 프로그램을 선정 발표했다.",
+    "summaryLong": "한국 정부가 인공지능(AI)을 중심으로 소형모듈원자로(SMR)과 핵융합을 포함한 7대 전략기술 SEED(전략기술) 프로그램을 발표했다. 이는 미래 에너지 안보와 산업 경쟁력 강화를 위해 SMR을 국가 전략기술로 선정한 정책 발표로, 국내 SMR 산업 육성과 투자 확대의 신호를 의미한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "inpnews.kr",
+    "url": "https://www.inpnews.kr/news/articleView.html?idxno=7525",
+    "k": "ai가 끌고 smr 핵융합이 받친다 정부가 심은 7대 seed",
+    "ko": 1,
+    "id": "cbec83cc"
+  },
+  {
+    "date": "2026-08-20",
+    "title": "수은, 테라파워와 금융동맹 체결…원전 수주 경쟁에서 금융이 관건",
+    "summary": "수출입은행(수은)이 빌 게이츠의 테라파워(TerraPower)와 금융 협력 동맹을 체결하며 SMR 원전 사업의 금융 지원 기반을 마련했다.",
+    "summaryLong": "수출입은행(수은)이 빌 게이츠(Bill Gates)가 주도하는 테라파워(TerraPower)와 금융동맹을 체결했다. 이는 한국의 금융 기관이 글로벌 SMR 개발 선도 기업과 협력하여 원전 수주 경쟁력을 강화하기 위한 전략적 파트너십이다. 원전 수주에서 금융 지원의 중요성이 강조되는 가운데, 수은의 테라파워 협력이 한국의 SMR 사업 추진에 실질적인 자금 및 인허가 지원 기반을 제공할 것으로 예상된다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "KR",
+    "source": "goodkyung.com",
+    "url": "https://www.goodkyung.com/news/articleView.html?idxno=290449",
+    "k": "줌 이기업 원전 수주 금융이 가른다 빌 게이츠 만난 수은 테라파워와 금융동맹",
+    "ko": 1,
+    "id": "d8cd518a"
+  },
+  {
     "date": "2026-08-19",
     "title": "HD현대, 테라파워(TerraPower) 나트륨냉각로 공급망에 참여",
     "summary": "빌 게이츠가 설립한 미국 테라파워의 소듐냉각고속로(SFR) 'NATRIUM' 원자로 제조에 HD현대가 첫 진출하며, 4세대 SMR의 등장이 원전 주기기 제조 산업의 진입장벽을 낮추고 있다.",
@@ -943,6 +973,21 @@ window.SMR_NEWS = [
     "id": "81dc657d"
   },
   {
+    "date": "2026-08-18",
+    "title": "최태원·정기선, 빌 게이츠와 회동…SMR 사업 박차",
+    "summary": "SK그룹 최태원 회장과 한국전력 정기선 사장이 빌 게이츠와 만나 SMR 사업 협력을 논의했다.",
+    "summaryLong": "SK그룹의 최태원 회장과 한국전력공사(KEPCO)의 정기선 사장이 빌 게이츠(Bill Gates)와 면담하여 소형모듈원자로(SMR) 사업 협력 방안을 논의했다. 한국의 주요 에너지 기업 경영진이 글로벌 SMR 개발 선도자와의 전략적 면담을 통해 SMR 사업 추진을 가속화하고 있음을 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "SK이노베이션",
+    "region": "KR",
+    "source": "futurechosun.com",
+    "url": "https://futurechosun.com/archives/157754",
+    "k": "최태원 정기선 빌 게이츠와 만나 smr 사업 속도",
+    "ko": 1,
+    "id": "c3f994ae"
+  },
+  {
     "date": "2026-08-17",
     "title": "뉴스케일, 미국 테네시계곡청(TVA)과 6~8GW 규모 잠재 계약",
     "summary": "뉴스케일(NuScale)이 미국 테네시계곡청(TVA)과 체결 검토 중인 SMR 계약이 6~8GW 규모로 미국 역사상 최대 규모 원전 건설이 될 가능성을 제시.",
@@ -1465,6 +1510,36 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "a825b7db"
+  },
+  {
+    "date": "2026-08-16",
+    "title": "SK이노-테라파워, K-나트륨 SMR 사업모델 협력 강화",
+    "summary": "SK이노베이션과 테라파워(TerraPower)가 한국형 나트륨 냉각 소형모듈원자로(K-나트륨 SMR) 사업모델 협력을 강화하고 있다.",
+    "summaryLong": "SK이노베이션과 테라파워(TerraPower)가 한국형 나트륨 냉각 소형모듈원자로(K-나트륨 SMR) 개발을 위한 사업모델 협력을 강화하기로 했다. 나트륨 냉각 고속로(SFR) 기술을 기반으로 한 차세대 SMR 개발에서 한국 기업과 글로벌 개발사의 본격적인 협력이 시작되고 있으며, 이는 한국의 SMR 상용화 추진의 핵심 사업으로 자리잡고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "SK이노베이션",
+    "region": "KR",
+    "source": "energytimes.kr",
+    "url": "https://www.energytimes.kr/news/articleView.html?idxno=70666",
+    "k": "sk이노 테라파워 k 나트륨 smr 사업모델 협력 강화",
+    "ko": 1,
+    "id": "0cee6e48"
+  },
+  {
+    "date": "2026-08-16",
+    "title": "빌 게이츠 방한, K-SMR 공급망 현실화…SK·HD현대·두산, 테라파워(TerraPower)와 협력 확대",
+    "summary": "테라파워(TerraPower) 회장 빌 게이츠의 방한을 계기로 SK, 현대중공업(HD현대), 두산 등 한국 기업들이 테라파워와의 SMR 협력을 확대한다.",
+    "summaryLong": "테라파워(TerraPower) 회장 빌 게이츠가 한국을 방문하면서 SK이노베이션, 현대중공업(HD현대), 두산 등 한국 주요 산업체와의 소형모듈원자로(SMR) 협력이 구체화되고 있다. 부품 공급, 건설, 공급망 구축 등 밸류체인 전반에 걸친 협력 확대를 통해 K-SMR의 상용화와 글로벌 경쟁력 강화를 추진하는 단계로 평가된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "SK, 현대중공업, 두산, 테라파워",
+    "region": "KR",
+    "source": "koreaittimes.com",
+    "url": "https://www.koreaittimes.com/news/articleView.html?idxno=156163",
+    "k": "빌 게이츠 방한 k smr 공급망 현실화 sk hd현대 두산 테라파워와 협력 확대",
+    "ko": 1,
+    "id": "e460924a"
   },
   {
     "date": "2026-08-15",
@@ -4005,6 +4080,20 @@ window.SMR_NEWS = [
     "url": "https://x-energy.com/news/triso-x-and-oak-ridge-national-laboratory-extend-advanced-nuclear-fuel-research-partnership/",
     "k": "triso x and oak ridge national laboratory extend advanced nuclear fuel research partnership x energy com",
     "id": "0d30416c"
+  },
+  {
+    "date": "2026-08-11",
+    "title": "엑스에너지, 첨단원자력혁신 가속화 - 아마존 웹 서비스(AWS) 협력",
+    "summary": "엑스에너지(X-Energy)가 아마존 웹 서비스(AWS)와 협력하여 첨단원자력 혁신을 가속화하고 있다.",
+    "summaryLong": "엑스에너지(X-Energy)가 아마존 웹 서비스(AWS)와의 협력을 통해 첨단원자력 기술 혁신을 진행 중이다. 이는 고온가스로(HTGR) 기술 개발사인 엑스에너지의 기술 발전과 산업 파트너십 확대를 보여주는 소식으로, 첨단 소형모듈원자로(SMR) 생태계 구축의 일환이다.",
+    "cat": "기술",
+    "type": "HTGR",
+    "dev": "X-Energy",
+    "region": "US",
+    "source": "aws.amazon.com",
+    "url": "https://aws.amazon.com/solutions/case-studies/x-energy-nuclear-innovation/",
+    "k": "x energy accelerating advanced nuclear innovation",
+    "id": "11f39d40"
   },
   {
     "date": "2026-08-10",
@@ -32372,4 +32461,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-20 13:48 KST";
+window.SMR_UPDATED = "2026-08-20 14:17 KST";
