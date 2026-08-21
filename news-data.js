@@ -332,6 +332,21 @@ window.SMR_NEWS = [
     "id": "3a2aedb7"
   },
   {
+    "date": "2026-08-20",
+    "title": "현대건설, 나트륨 냉각 SMR '투트랙' 추진…테라파워(TerraPower) 협력·원천기술 확보",
+    "summary": "현대건설이 테라파워(TerraPower)와의 협력을 통해 나트륨 냉각 소형모듈원자로(SFR-SMR) 개발을 진행하고 원천기술 확보에 나서고 있다.",
+    "summaryLong": "현대건설이 나트륨 냉각 소형모듈원자로(SFR-SMR) 개발을 '투트랙' 전략으로 진행 중이며, 이는 미국의 테라파워(TerraPower)와의 협력과 자체 원천기술 확보 양쪽을 병행하는 것으로 보인다. 고온·고압 나트륨 냉각 기술은 종래 대형로와 차별화된 첨단 원자로 기술로, 현대건설의 국제 기술 제휴와 독자 개발 노력이 동시에 진행되고 있다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "현대건설",
+    "region": "KR",
+    "source": "dealsite.co.kr",
+    "url": "https://dealsite.co.kr/articles/167496",
+    "k": "현대건설 나트륨 smr 투트랙 테라파워 협력 원천기술 확보",
+    "ko": 1,
+    "id": "403e9c64"
+  },
+  {
     "date": "2026-08-19",
     "title": "HD현대, 테라파워(TerraPower) 나트륨냉각로 공급망에 참여",
     "summary": "빌 게이츠가 설립한 미국 테라파워의 소듐냉각고속로(SFR) 'NATRIUM' 원자로 제조에 HD현대가 첫 진출하며, 4세대 SMR의 등장이 원전 주기기 제조 산업의 진입장벽을 낮추고 있다.",
@@ -33025,4 +33040,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-22 06:52 KST";
+window.SMR_UPDATED = "2026-08-22 07:34 KST";

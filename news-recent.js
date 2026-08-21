@@ -325,6 +325,21 @@ window.SMR_NEWS = [
   "id": "3a2aedb7"
  },
  {
+  "date": "2026-08-20",
+  "title": "현대건설, 나트륨 냉각 SMR '투트랙' 추진…테라파워(TerraPower) 협력·원천기술 확보",
+  "summary": "현대건설이 테라파워(TerraPower)와의 협력을 통해 나트륨 냉각 소형모듈원자로(SFR-SMR) 개발을 진행하고 원천기술 확보에 나서고 있다.",
+  "summaryLong": "현대건설이 나트륨 냉각 소형모듈원자로(SFR-SMR) 개발을 '투트랙' 전략으로 진행 중이며, 이는 미국의 테라파워(TerraPower)와의 협력과 자체 원천기술 확보 양쪽을 병행하는 것으로 보인다. 고온·고압 나트륨 냉각 기술은 종래 대형로와 차별화된 첨단 원자로 기술로, 현대건설의 국제 기술 제휴와 독자 개발 노력이 동시에 진행되고 있다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "현대건설",
+  "region": "KR",
+  "source": "dealsite.co.kr",
+  "url": "https://dealsite.co.kr/articles/167496",
+  "k": "현대건설 나트륨 smr 투트랙 테라파워 협력 원천기술 확보",
+  "ko": 1,
+  "id": "403e9c64"
+ },
+ {
   "date": "2026-08-19",
   "title": "HD현대, 테라파워(TerraPower) 나트륨냉각로 공급망에 참여",
   "summary": "빌 게이츠가 설립한 미국 테라파워의 소듐냉각고속로(SFR) 'NATRIUM' 원자로 제조에 HD현대가 첫 진출하며, 4세대 SMR의 등장이 원전 주기기 제조 산업의 진입장벽을 낮추고 있다.",
@@ -865,20 +880,6 @@ window.SMR_NEWS = [
  },
  {
   "date": "2026-08-18",
-  "title": "테라파워(TerraPower), 현대건설·SK이노베이션과 나트륨로 개발 협력",
-  "summary": "빌 게이츠가 설립한 테라파워(TerraPower)가 현대건설(Hyundai Engineering & Construction)과 SK이노베이션(SK Innovation)과 협력 계약을 체결하여 미국과 한국에서 나트륨 냉각 고속로(Natrium) 개발을 추진한다.",
-  "summaryLong": "테라파워(TerraPower)가 서울에서 한국 기업인 현대건설(Hyundai Engineering & Construction)과 SK이노베이션(SK Innovation)과 계약을 체결했다. 이 협력을 통해 미국과 한국에서 나트륨 냉각 고속로(Natrium) 원자로 배치를 가속화할 계획이다. 이번 계약은 첨단 원자력 기술 배포를 강화하고 한반도와 북미 지역에서의 SMR·첨단로 사업 확대를 의미한다.",
-  "cat": "계약",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "US",
-  "source": "Power Engineering",
-  "url": "https://www.power-eng.com/nuclear/bill-gates-terrapower-hopes-to-accelerate-natrium-reactor-deployment-with-two-new-collaborations/",
-  "k": "bill gates terrapower hopes to accelerate natrium reactor deployment with two new collaborations",
-  "id": "6d8bf927"
- },
- {
-  "date": "2026-08-18",
   "title": "칼레이도스 마이크로원자로, 아이다호로 이동 시작",
   "summary": "래디언트(Radiant)의 1 MWe 마이크로원자로가 캘리포니아에서 아이다호국립연구소(INL) DOME 시험대로 운송되고 있다.",
   "summaryLong": "래디언트(Radiant)의 칼레이도스(Kaleidos) 마이크로원자로(1 MWe급)가 캘리포니아에서 아이다호주(Idaho)의 아이다호국립연구소(INL) DOME 시험대로의 운송을 시작했다. 이 마이크로원자로는 운송 가능하도록 설계된 소형 첨단로이며, INL의 주요 시험 인프라에서 성능 검증이 진행될 예정이다. 이는 마이크로원자로의 제조 완료 및 실제 현장 배치 단계로의 진전을 의미하는 중요한 마일스톤이다.",
@@ -904,20 +905,6 @@ window.SMR_NEWS = [
   "url": "https://www.datacenterdynamics.com/en/tags/bwrx-300-small-modular-reactor/",
   "k": "bwrx 300 small modular reactor",
   "id": "78120680"
- },
- {
-  "date": "2026-08-18",
-  "title": "테라파워, 나트륨 원자로 배치 가속화 위해 신규 협력 추진",
-  "summary": "빌 게이츠 지원 테라파워(TerraPower)가 나트륨(Natrium) 원자로 배치 가속화를 위해 두 건의 신규 협력을 진행 중이다.",
-  "summaryLong": "테라파워(TerraPower)는 나트륨(Natrium) 소형모듈원자로의 배치 일정을 가속화하기 위해 두 건의 신규 협력을 체결하고자 한다. 빌 게이츠(Bill Gates)가 지원하는 테라파워는 금속냉각 소형모듈원자로 개발의 주요 플레이어로, 국제 협력 확대를 통해 상용화 속도를 높이려는 전략을 추진 중이다. 제시된 스니펫이 제목만 있어 협력 대상이나 구체 내용은 미상이다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "US",
-  "source": "power-eng.com",
-  "url": "https://www.power-eng.com/nuclear/bill-gates-terrapower-hopes-to-accelerate-natrium-reactor-deployment-with-two-new-collaborations/",
-  "k": "bill gates terrapower hopes to accelerate natrium reactor deployment with two new collaborations power eng com",
-  "id": "6d8bf927"
  },
  {
   "date": "2026-08-18",
@@ -1415,5 +1402,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-22 06:52 KST";
-window.SMR_TOTAL = 2267;
+window.SMR_UPDATED = "2026-08-22 07:34 KST";
+window.SMR_TOTAL = 2268;
