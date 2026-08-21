@@ -1,6 +1,21 @@
 /* news-recent.js — AUTO-GENERATED subset of news-data.js (do not edit; see track-news.mjs writeRecent) */
 window.SMR_NEWS = [
  {
+  "date": "2026-08-21",
+  "title": "기장 해수담수화시설, 원전·소형모듈원전(SMR) 연계 청정수소 생산 거점으로 육성",
+  "summary": "한국수소에너지기술연구조합이 부산 기장 담수화시설을 원전과 소형모듈원전(SMR)을 연계한 국가 청정수소 생산 거점으로 활용하는 정책 제안서를 부산시에 제출했다.",
+  "summaryLong": "한국수소에너지기술연구조합(이사장 이욱태)이 10년 이상 활용 방안을 모색하던 부산 기장 해수담수화시설을 원전과 소형모듈원전(SMR)을 연계한 국가 청정수소 생산 거점으로 육성하는 내용의 정책 제안서를 부산시에 제출했다. 일일 4만5000㎥ 규모의 국내 최대급 역삼투압(RO) 방식 담수화시설을 물·수소 융합산업의 핵심 인프라로 활용하되, 공업용수 공급은 경제성이 높은 하수 재이용수로 별도 추진하는 방안이다. 조합은 이러한 접근이 부산의 산업 경쟁력을 장기적으로 높일 수 있다고 설명했다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "전기신문 - 전체기사",
+  "url": "https://www.electimes.com/news/articleView.html?idxno=371436",
+  "k": "기장 담수화시설 새 활용안 공업용수는 정관에서 기장은 핑크수소 거점으로",
+  "ko": 1,
+  "id": "a681e554"
+ },
+ {
   "date": "2026-08-20",
   "title": "AI가 이끌고 SMR·핵융합이 받친다···정부의 '7대 전략기술 SEED' 발표",
   "summary": "한국 정부가 소형모듈원자로(SMR)과 핵융합을 포함한 7대 전략기술 SEED 프로그램을 선정 발표했다.",
@@ -145,6 +160,21 @@ window.SMR_NEWS = [
   "url": "https://www.koreaherald.com/article/10847063",
   "k": "why gates visit matters for korea s smr ambitions",
   "id": "0cf7c03b"
+ },
+ {
+  "date": "2026-08-20",
+  "title": "오리온이엔씨, 원전 장비·소형모듈원전(SMR)으로 매출 증대 추진, 프리IPO 본격화",
+  "summary": "오리온이엔씨가 원전 장비와 소형모듈원전(SMR) 사업을 앞세워 매출 성장을 추진 중이며 기업공개(IPO) 준비를 본격화하고 있다.",
+  "summaryLong": "오리온이엔씨가 원전 장비 및 소형모듈원전(SMR) 관련 사업을 핵심 성장 동력으로 삼아 매출 증대를 추진하고 있으며, 기업공개(IPO) 전 단계인 프리IPO 절차를 본격화하고 있다. 이는 국내 소형모듈원전(SMR) 산업의 공급망 확대와 관련 기업들의 시장 진출 움직임을 반영한다.",
+  "cat": "투자",
+  "type": "General",
+  "dev": "오리온이엔씨",
+  "region": "KR",
+  "source": "newstopkorea.com",
+  "url": "https://www.newstopkorea.com/news/articleView.html?idxno=47168",
+  "k": "오리온이엔씨 원전 장비 smr 앞세워 매출 점프업 프리ipo 본격화",
+  "ko": 1,
+  "id": "3a2aedb7"
  },
  {
   "date": "2026-08-19",
@@ -597,6 +627,36 @@ window.SMR_NEWS = [
   "id": "fdaa0728"
  },
  {
+  "date": "2026-08-19",
+  "title": "카이로스 파워(Kairos Power), 동부 테네시(East Tennessee)의 원자력 제조용 누캠프(NuCAMP) 협력 발표",
+  "summary": "카이로스 파워(Kairos Power)가 동부 테네시(East Tennessee)에서 원자력 제조를 위한 누캠프(NuCAMP) 협력을 발표했다.",
+  "summaryLong": "카이로스 파워(Kairos Power)가 동부 테네시(East Tennessee)의 원자력 제조 프로젝트를 위한 누캠프(NuCAMP) 협력을 발표했다. 이는 소형모듈원자로(SMR) 개발사의 주요 파트너십 체결로, 원자력 제조 역량 확대와 지역 산업 구축을 의미한다. 해당 협력을 통해 카이로스 파워(Kairos Power)는 미국 내 소형모듈원자로(SMR) 상용화 기반을 강화할 것으로 전망된다.",
+  "cat": "기술",
+  "type": "FHR",
+  "dev": "Kairos",
+  "region": "US",
+  "source": "igrownews.com",
+  "url": "https://igrownews.com/kairos-power-latest-news/",
+  "k": "kairos power announces nucamp collaboration for nuclear manufacturing in east tennessee",
+  "id": "039308c3"
+ },
+ {
+  "date": "2026-08-19",
+  "title": "테라파워, SK이노베이션·현대건설·두산에너빌리티와 협업해 두 번째 소형모듈원전(SMR) 프로젝트 발표 예정",
+  "summary": "테라파워(TerraPower)가 SK이노베이션, 현대건설, 두산에너빌리티와 협업한 두 번째 소형모듈원전(SMR) 프로젝트를 발표할 예정이며, 데이터센터 전력 공급을 목표로 한다.",
+  "summaryLong": "테라파워(TerraPower)가 SK이노베이션, 현대건설, 두산에너빌리티와의 협업을 통해 두 번째 소형모듈원전(SMR) 프로젝트를 발표할 예정이다. 이 프로젝트는 데이터센터에 전력을 공급하는 것을 목표로 하고 있어, 첨단로 기술의 실제 응용 사례로 주목된다. 한국 주요 에너지·건설 기업들의 협력이 국제 소형모듈원전(SMR) 시장에서의 입지를 강화할 것으로 예상된다.",
+  "cat": "기술",
+  "type": "SFR",
+  "dev": "TerraPower",
+  "region": "US",
+  "source": "businesspost.co.kr",
+  "url": "https://www.businesspost.co.kr/BP?command=article_view&num=445056",
+  "k": "sk이노베이션 현대건설 두산에너빌리티 협업 테라파워 두 번째 smr 프로젝트 발표 예정 데이터센터에 전력 공급",
+  "ko": 1,
+  "op": 1,
+  "id": "d2fb39bf"
+ },
+ {
   "date": "2026-08-18",
   "title": "현대건설(Hyundai E&C), 테라파워(TerraPower) 나트륨(Natrium) SMR 최대 8기 EPC 우선 수주",
   "summary": "현대건설이 테라파워의 나트륨 소형모듈원자로(SMR) 최대 8기에 대한 EPC(설계·조달·시공) 사업 우선권을 획득.",
@@ -814,36 +874,6 @@ window.SMR_NEWS = [
   "k": "inl smr 사이버보안 서밋 설계 공급망 방어 논의",
   "ko": 1,
   "id": "2c049cd8"
- },
- {
-  "date": "2026-08-18",
-  "title": "미국(US) 필그림 원전 폐쇄 후 소형모듈원자로(SMR) 논의…전 생애주기 정책 시급",
-  "summary": "미국의 필그림 원전 폐쇄 이후 소형모듈원자로 도입에 대한 논의가 진행 중이며, 전체 생애주기를 아우르는 정책 수립의 필요성이 대두되고 있다.",
-  "summaryLong": "미국의 필그림 원전이 폐쇄됨에 따라 소형모듈원자로(SMR) 도입 가능성에 대한 논의가 활발해지고 있다. 이러한 배경 속에서 소형모듈원자로의 성공적인 도입과 운영을 위해서는 건설부터 폐기에 이르기까지 전 생애주기를 포괄하는 체계적인 정책 수립이 시급한 것으로 지적되고 있다. 이는 기존 대형원전과는 다른 소형모듈원자로만의 특성을 고려한 맞춤형 정책 개발의 필요성을 반영한다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5621",
-  "k": "필그림 원전 폐쇄 후 smr 논의 전 생애주기 정책 시급",
-  "ko": 1,
-  "id": "1ea37564"
- },
- {
-  "date": "2026-08-18",
-  "title": "미국(US) 팬코(FANCO), 고강화 저농축 우라늄(HALEU) 연료공장 미국원자력규제위원회(NRC) 협의 진전",
-  "summary": "팬코(FANCO)가 고강화 저농축 우라늄(HALEU) 연료공장 건설을 위해 미국원자력규제위원회(NRC)와의 협의를 진행 중이며 진전을 보이고 있다.",
-  "summaryLong": "소형모듈원자로(SMR) 및 첨단로용 핵연료 공급을 담당할 팬코(FANCO)가 고강화 저농축 우라늄(HALEU) 연료공장 설립을 위해 미국원자력규제위원회(NRC)와의 인허가 협의를 진행하고 있다. 이번 협의의 진전은 미국의 첨단원자력 생태계 구축, 특히 연료 공급망 확보 측면에서 중요한 진전으로 평가된다. HALEU 연료의 확보는 고효율 소형모듈원자로 및 첨단로의 상용화에 필수적인 요소이다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "FANCO",
-  "region": "US",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5727",
-  "k": "fanco haleu 연료공장 nrc 협의 진전",
-  "ko": 1,
-  "id": "3002648d"
  },
  {
   "date": "2026-08-18",
@@ -1399,5 +1429,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-21 08:09 KST";
-window.SMR_TOTAL = 2246;
+window.SMR_UPDATED = "2026-08-21 13:10 KST";
+window.SMR_TOTAL = 2254;

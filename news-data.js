@@ -8,6 +8,21 @@
    ============================================================ */
 window.SMR_NEWS = [
   {
+    "date": "2026-08-21",
+    "title": "기장 해수담수화시설, 원전·소형모듈원전(SMR) 연계 청정수소 생산 거점으로 육성",
+    "summary": "한국수소에너지기술연구조합이 부산 기장 담수화시설을 원전과 소형모듈원전(SMR)을 연계한 국가 청정수소 생산 거점으로 활용하는 정책 제안서를 부산시에 제출했다.",
+    "summaryLong": "한국수소에너지기술연구조합(이사장 이욱태)이 10년 이상 활용 방안을 모색하던 부산 기장 해수담수화시설을 원전과 소형모듈원전(SMR)을 연계한 국가 청정수소 생산 거점으로 육성하는 내용의 정책 제안서를 부산시에 제출했다. 일일 4만5000㎥ 규모의 국내 최대급 역삼투압(RO) 방식 담수화시설을 물·수소 융합산업의 핵심 인프라로 활용하되, 공업용수 공급은 경제성이 높은 하수 재이용수로 별도 추진하는 방안이다. 조합은 이러한 접근이 부산의 산업 경쟁력을 장기적으로 높일 수 있다고 설명했다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "전기신문 - 전체기사",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=371436",
+    "k": "기장 담수화시설 새 활용안 공업용수는 정관에서 기장은 핑크수소 거점으로",
+    "ko": 1,
+    "id": "a681e554"
+  },
+  {
     "date": "2026-08-20",
     "title": "AI가 이끌고 SMR·핵융합이 받친다···정부의 '7대 전략기술 SEED' 발표",
     "summary": "한국 정부가 소형모듈원자로(SMR)과 핵융합을 포함한 7대 전략기술 SEED 프로그램을 선정 발표했다.",
@@ -152,6 +167,21 @@ window.SMR_NEWS = [
     "url": "https://www.koreaherald.com/article/10847063",
     "k": "why gates visit matters for korea s smr ambitions",
     "id": "0cf7c03b"
+  },
+  {
+    "date": "2026-08-20",
+    "title": "오리온이엔씨, 원전 장비·소형모듈원전(SMR)으로 매출 증대 추진, 프리IPO 본격화",
+    "summary": "오리온이엔씨가 원전 장비와 소형모듈원전(SMR) 사업을 앞세워 매출 성장을 추진 중이며 기업공개(IPO) 준비를 본격화하고 있다.",
+    "summaryLong": "오리온이엔씨가 원전 장비 및 소형모듈원전(SMR) 관련 사업을 핵심 성장 동력으로 삼아 매출 증대를 추진하고 있으며, 기업공개(IPO) 전 단계인 프리IPO 절차를 본격화하고 있다. 이는 국내 소형모듈원전(SMR) 산업의 공급망 확대와 관련 기업들의 시장 진출 움직임을 반영한다.",
+    "cat": "투자",
+    "type": "General",
+    "dev": "오리온이엔씨",
+    "region": "KR",
+    "source": "newstopkorea.com",
+    "url": "https://www.newstopkorea.com/news/articleView.html?idxno=47168",
+    "k": "오리온이엔씨 원전 장비 smr 앞세워 매출 점프업 프리ipo 본격화",
+    "ko": 1,
+    "id": "3a2aedb7"
   },
   {
     "date": "2026-08-19",
@@ -602,6 +632,36 @@ window.SMR_NEWS = [
     "url": "https://www.teknovation.biz/kairos-power-launches-nucamp/",
     "k": "kairos power launches nucamp to advance local nuclear trades accelerate advanced nuclear reactor deployment",
     "id": "fdaa0728"
+  },
+  {
+    "date": "2026-08-19",
+    "title": "카이로스 파워(Kairos Power), 동부 테네시(East Tennessee)의 원자력 제조용 누캠프(NuCAMP) 협력 발표",
+    "summary": "카이로스 파워(Kairos Power)가 동부 테네시(East Tennessee)에서 원자력 제조를 위한 누캠프(NuCAMP) 협력을 발표했다.",
+    "summaryLong": "카이로스 파워(Kairos Power)가 동부 테네시(East Tennessee)의 원자력 제조 프로젝트를 위한 누캠프(NuCAMP) 협력을 발표했다. 이는 소형모듈원자로(SMR) 개발사의 주요 파트너십 체결로, 원자력 제조 역량 확대와 지역 산업 구축을 의미한다. 해당 협력을 통해 카이로스 파워(Kairos Power)는 미국 내 소형모듈원자로(SMR) 상용화 기반을 강화할 것으로 전망된다.",
+    "cat": "기술",
+    "type": "FHR",
+    "dev": "Kairos",
+    "region": "US",
+    "source": "igrownews.com",
+    "url": "https://igrownews.com/kairos-power-latest-news/",
+    "k": "kairos power announces nucamp collaboration for nuclear manufacturing in east tennessee",
+    "id": "039308c3"
+  },
+  {
+    "date": "2026-08-19",
+    "title": "테라파워, SK이노베이션·현대건설·두산에너빌리티와 협업해 두 번째 소형모듈원전(SMR) 프로젝트 발표 예정",
+    "summary": "테라파워(TerraPower)가 SK이노베이션, 현대건설, 두산에너빌리티와 협업한 두 번째 소형모듈원전(SMR) 프로젝트를 발표할 예정이며, 데이터센터 전력 공급을 목표로 한다.",
+    "summaryLong": "테라파워(TerraPower)가 SK이노베이션, 현대건설, 두산에너빌리티와의 협업을 통해 두 번째 소형모듈원전(SMR) 프로젝트를 발표할 예정이다. 이 프로젝트는 데이터센터에 전력을 공급하는 것을 목표로 하고 있어, 첨단로 기술의 실제 응용 사례로 주목된다. 한국 주요 에너지·건설 기업들의 협력이 국제 소형모듈원전(SMR) 시장에서의 입지를 강화할 것으로 예상된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "US",
+    "source": "businesspost.co.kr",
+    "url": "https://www.businesspost.co.kr/BP?command=article_view&num=445056",
+    "k": "sk이노베이션 현대건설 두산에너빌리티 협업 테라파워 두 번째 smr 프로젝트 발표 예정 데이터센터에 전력 공급",
+    "ko": 1,
+    "op": 1,
+    "id": "d2fb39bf"
   },
   {
     "date": "2026-08-18",
@@ -1162,6 +1222,21 @@ window.SMR_NEWS = [
     "id": "c3f994ae"
   },
   {
+    "date": "2026-08-18",
+    "title": "[WIKI ENERGY] 깊어지는 SK-테라파워 협력 - 아시아 소형모듈원전(SMR) 시장 정조준",
+    "summary": "SK와 테라파워(TerraPower)의 협력이 심화되면서 아시아 소형모듈원전(SMR) 시장을 타겟으로 하고 있다.",
+    "summaryLong": "SK그룹과 테라파워(TerraPower) 간의 협력이 점진적으로 심화되고 있으며, 이를 통해 아시아 지역의 소형모듈원전(SMR) 시장 진출을 본격적으로 추진하고 있다. 한미 협력의 확대가 국제 소형모듈원전(SMR) 시장에서의 경쟁력 강화로 이어질 것으로 전망된다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "SK, TerraPower",
+    "region": "KR",
+    "source": "wikileaks-kr.org",
+    "url": "http://www.wikileaks-kr.org/news/articleView.html?idxno=191071",
+    "k": "wiki energy 깊어지는 sk 테라파워 협력 아시아 smr 시장 정조준",
+    "ko": 1,
+    "id": "75d8261c"
+  },
+  {
     "date": "2026-08-17",
     "title": "뉴스케일, 미국 테네시계곡청(TVA)과 6~8GW 규모 잠재 계약",
     "summary": "뉴스케일(NuScale)이 미국 테네시계곡청(TVA)과 체결 검토 중인 SMR 계약이 6~8GW 규모로 미국 역사상 최대 규모 원전 건설이 될 가능성을 제시.",
@@ -1578,6 +1653,52 @@ window.SMR_NEWS = [
     "k": "sk이노 테라파워 k 나트륨 smr 협력 ai 데이터센터 글로벌 공략",
     "ko": 1,
     "id": "9d114c28"
+  },
+  {
+    "date": "2026-08-17",
+    "title": "한미 소형모듈원전(SMR) 동맹, 최태원과 빌 게이츠 - AI 시대 신뢰할 파트너",
+    "summary": "최태원 회장과 빌 게이츠가 한미 소형모듈원전(SMR) 동맹을 통해 AI 시대의 신뢰할 협력 파트너로 주목받고 있다.",
+    "summaryLong": "SK그룹의 최태원 회장과 빌 게이츠가 한미 소형모듈원전(SMR) 동맹의 중심 인물로, AI 시대 에너지 솔루션 분야에서 신뢰할 수 있는 협력 파트너로 주목받고 있다. 이는 한국과 미국의 소형모듈원전(SMR) 기술 협력과 시장 전략이 깊어지고 있음을 보여준다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "SK",
+    "region": "KR",
+    "source": "mt.co.kr",
+    "url": "https://www.mt.co.kr/industry/2026/08/17/2026081708193811178",
+    "k": "한미 smr 동맹 최태원과 빌 게이츠 ai 시대 믿을 파트너 머니투데이",
+    "ko": 1,
+    "id": "4a0ad013"
+  },
+  {
+    "date": "2026-08-17",
+    "title": "한국 원전, 테라파워 소형모듈원전(SMR) 밸류체인 진입 - 초도호기 넘어 후속 수주 기대",
+    "summary": "한국 원전 기업이 테라파워(TerraPower)의 소형모듈원전(SMR) 밸류체인에 진입했으며, 초도호기 이후 후속 수주를 기대하고 있다.",
+    "summaryLong": "한국의 원전 관련 기업이 테라파워(TerraPower)의 소형모듈원전(SMR) 공급망에 참여하게 되었으며, 이는 초도호기 건설을 시작으로 향후 후속 프로젝트에서의 추가 수주를 기대할 수 있는 기반이 마련되었음을 의미한다. 한국 원전 산업이 국제 소형모듈원전(SMR) 시장으로의 진출을 본격화하는 신호로 평가된다.",
+    "cat": "계약",
+    "type": "SFR",
+    "dev": "TerraPower",
+    "region": "KR",
+    "source": "metroseoul.co.kr",
+    "url": "https://www.metroseoul.co.kr/article/20260817500252",
+    "k": "k 원전 테라파워 smr 밸류체인 진입 초도호기 넘어 후속 수주 기대",
+    "ko": 1,
+    "id": "cc422db3"
+  },
+  {
+    "date": "2026-08-17",
+    "title": "SK이노베이션, 테라파워(TerraPower)와 'K-나트륨' SMR 사업모델 검토",
+    "summary": "SK이노베이션이 테라파워(TerraPower)와 함께 K-나트륨 SMR의 사업모델을 검토 중이다.",
+    "summaryLong": "SK이노베이션이 미국의 고속로 개발사 테라파워(TerraPower)와 협력하여 'K-나트륨'으로 명명된 소형모듈원자로(SMR) 사업모델을 검토하고 있다. 이는 나트륨냉각 고속로(SFR) 기술을 기반으로 한 것으로 보이며, 양사가 사업화 전략을 논의하는 단계로 추정된다. 검토 중인 사업모델의 구체적 내용이나 진행 일정은 아직 공개되지 않았다.",
+    "cat": "기술",
+    "type": "SFR",
+    "dev": "SK이노베이션, 테라파워",
+    "region": "KR",
+    "source": "pinpointnews.co.kr",
+    "url": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=477971",
+    "k": "sk이노베이션 테라파워와 k 나트륨 smr 사업모델 검토",
+    "ko": 1,
+    "op": 1,
+    "id": "82748536"
   },
   {
     "date": "2026-08-16",
@@ -32711,4 +32832,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-21 08:09 KST";
+window.SMR_UPDATED = "2026-08-21 13:10 KST";
