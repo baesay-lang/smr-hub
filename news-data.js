@@ -33040,4 +33040,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-22 07:34 KST";
+window.SMR_UPDATED = "2026-08-22 08:03 KST";
