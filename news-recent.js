@@ -992,19 +992,19 @@ window.SMR_NEWS = [
   "id": "7d612467"
  },
  {
-  "date": "2026-08-16",
-  "title": "뉴스케일 파트너, 테네시계곡공사(TVA) 협상 진전",
-  "summary": "뉴스케일(NuScale)의 파트너가 미국 역사상 최대 규모의 원전 배치 프로그램으로 평가되는 테네시계곡공사(TVA)와의 협상을 진전시키고 있다.",
-  "summaryLong": "뉴스케일(NuScale)의 파트너사가 테네시계곡공사(TVA)와의 협상을 진행 중이며, 이것이 미국 역사상 최대 규모의 원전 배치 프로그램으로 평가받고 있다. TVA와의 계약이 성사될 경우 소형모듈원자로(SMR) 보급의 대규모 프로젝트가 될 것으로 예상된다. 현재 협상이 진전 단계에 있는 것으로 보도되고 있으며, 이는 미국 내 SMR 사업화의 중요한 계기가 될 수 있다.",
+  "date": "2026-08-17",
+  "title": "뉴스케일, 매출 99% 감소에도 현금 9억 달러 증가",
+  "summary": "뉴스케일의 매출이 99% 급락했지만 현금 보유량은 9억 달러 증가했다.",
+  "summaryLong": "뉴스케일(NuScale)의 최근 매출이 99% 감소했음에도 불구하고 현금 자산이 9억 달러(USD 900 million) 증가했다. 모틀리 풀(The Motley Fool)은 이를 회사의 자금 조달 성공과 재무 전략을 보여주는 핵심 사건으로 분석하고 있다.",
   "cat": "기술",
   "type": "PWR",
-  "dev": "NuScale",
+  "dev": "뉴스케일",
   "region": "US",
-  "source": "pulse2.com",
-  "url": "https://pulse2.com/nuscale-partner-advances-tva-talks-for-potentially-largest-nuclear-deployment-program-in-u-s-history/",
-  "k": "nuscale partner advances tva talks for potentially largest nuclear deployment program in u s history",
+  "source": "fool.com",
+  "url": "https://www.fool.com/investing/2026/08/17/nuscales-revenue-fell-99-its-cash-pile-grew-by-900/",
+  "k": "nuscale s revenue fell 99 its cash pile grew by 900 million here s why that s the real story",
   "op": 1,
-  "id": "86aebd7a"
+  "id": "2cfd94f3"
  },
  {
   "date": "2026-08-15",
@@ -1429,5 +1429,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-21 13:10 KST";
-window.SMR_TOTAL = 2254;
+window.SMR_UPDATED = "2026-08-21 13:50 KST";
+window.SMR_TOTAL = 2256;

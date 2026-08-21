@@ -1701,6 +1701,21 @@ window.SMR_NEWS = [
     "id": "82748536"
   },
   {
+    "date": "2026-08-17",
+    "title": "뉴스케일, 매출 99% 감소에도 현금 9억 달러 증가",
+    "summary": "뉴스케일의 매출이 99% 급락했지만 현금 보유량은 9억 달러 증가했다.",
+    "summaryLong": "뉴스케일(NuScale)의 최근 매출이 99% 감소했음에도 불구하고 현금 자산이 9억 달러(USD 900 million) 증가했다. 모틀리 풀(The Motley Fool)은 이를 회사의 자금 조달 성공과 재무 전략을 보여주는 핵심 사건으로 분석하고 있다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "뉴스케일",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/08/17/nuscales-revenue-fell-99-its-cash-pile-grew-by-900/",
+    "k": "nuscale s revenue fell 99 its cash pile grew by 900 million here s why that s the real story",
+    "op": 1,
+    "id": "2cfd94f3"
+  },
+  {
     "date": "2026-08-16",
     "title": "뉴스케일 파트너, 테네시계곡공사(TVA) 협상 진전",
     "summary": "뉴스케일(NuScale)의 파트너가 미국 역사상 최대 규모의 원전 배치 프로그램으로 평가되는 테네시계곡공사(TVA)와의 협상을 진전시키고 있다.",
@@ -1897,6 +1912,21 @@ window.SMR_NEWS = [
     "k": "빌 게이츠 방한 k smr 공급망 현실화 sk hd현대 두산 테라파워와 협력 확대",
     "ko": 1,
     "id": "e460924a"
+  },
+  {
+    "date": "2026-08-16",
+    "title": "뉴스케일 주가, 52주 고점 대비 83% 하락",
+    "summary": "뉴스케일의 주가가 52주 고점에서 83% 하락하며 투자자 손실이 발생했다.",
+    "summaryLong": "뉴스케일(NuScale) 주가가 52주 최고가 대비 83% 하락하면서 투자자의 손실이 심화되고 있다. 1만 달러를 투자했던 투자자는 현재 약 1,650달러(USD 1,650) 수준의 가치만 남아있게 되었다. 이는 초기 공모 후 SMR 개발사의 주가 변동성을 보여주는 사례이다.",
+    "cat": "기술",
+    "type": "PWR",
+    "dev": "뉴스케일",
+    "region": "US",
+    "source": "fool.com",
+    "url": "https://www.fool.com/investing/2026/08/16/10000-in-nuscale-at-its-52-week-high-is-worth-abou/",
+    "k": "10 000 in nuscale at its 52 week high is worth about 1 650 today",
+    "op": 1,
+    "id": "a622f234"
   },
   {
     "date": "2026-08-15",
@@ -32832,4 +32862,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-21 13:10 KST";
+window.SMR_UPDATED = "2026-08-21 13:50 KST";
