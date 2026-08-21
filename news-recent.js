@@ -16,6 +16,21 @@ window.SMR_NEWS = [
   "id": "a681e554"
  },
  {
+  "date": "2026-08-21",
+  "title": "한국원자력안전기술원 인사 발령",
+  "summary": "한국원자력안전기술원(KINS)이 비경수형 SMR 규제사업 PM 신임.",
+  "summaryLong": "한국원자력안전기술원(KINS)이 인사 발령을 통해 비경수형 소형모듈원자로(SMR) 규제사업 프로젝트 매니저(PM)를 신규 임명했다. 이는 국내 SMR 규제 기반 정비 및 설계인증·인허가 준비를 강화하려는 정부의 정책적 의지를 반영하는 인사 조치다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "KINS",
+  "region": "KR",
+  "source": "전기신문 - 전체기사",
+  "url": "https://www.electimes.com/news/articleView.html?idxno=371507",
+  "k": "인사 한국원자력안전기술원",
+  "ko": 1,
+  "id": "3ae85e7b"
+ },
+ {
   "date": "2026-08-20",
   "title": "AI가 이끌고 SMR·핵융합이 받친다···정부의 '7대 전략기술 SEED' 발표",
   "summary": "한국 정부가 소형모듈원자로(SMR)과 핵융합을 포함한 7대 전략기술 SEED 프로그램을 선정 발표했다.",
@@ -657,6 +672,21 @@ window.SMR_NEWS = [
   "id": "d2fb39bf"
  },
  {
+  "date": "2026-08-19",
+  "title": "한국원자력산업협회, 원자력산업 8월호 발간···SMR 전략기술 조명",
+  "summary": "한국원자력산업협회가 8월호에서 소형모듈원자로(SMR)의 전략기술을 특집으로 다룸.",
+  "summaryLong": "한국원자력산업협회가 원자력산업 8월호를 발간하여 소형모듈원자로(SMR)의 전략기술을 주요 주제로 조명했다. 국내 원자력산업계의 동향과 정책 방향을 종합적으로 담은 정기간행물 발행으로, SMR 기술의 전략적 중요성 강조와 산업 활성화를 위한 정보 공유를 목적으로 한다.",
+  "cat": "기술",
+  "type": "General",
+  "dev": "",
+  "region": "KR",
+  "source": "esnews.kr",
+  "url": "https://www.esnews.kr/news/articleView.html?idxno=5744",
+  "k": "한국원자력산업협회 원자력산업 8월호 발간 smr 전략기술 조명",
+  "ko": 1,
+  "id": "311170aa"
+ },
+ {
   "date": "2026-08-18",
   "title": "현대건설(Hyundai E&C), 테라파워(TerraPower) 나트륨(Natrium) SMR 최대 8기 EPC 우선 수주",
   "summary": "현대건설이 테라파워의 나트륨 소형모듈원자로(SMR) 최대 8기에 대한 EPC(설계·조달·시공) 사업 우선권을 획득.",
@@ -844,36 +874,6 @@ window.SMR_NEWS = [
   "ko": 1,
   "op": 1,
   "id": "f96f73b7"
- },
- {
-  "date": "2026-08-18",
-  "title": "테라파워 나트륨냉각로 11월 사전검토 착수…한국형 4세대 SMR은 언제?",
-  "summary": "테라파워(TerraPower)의 나트륨냉각 소형모듈원자로(SFR)가 11월 사전검토(VDR)를 시작하며, 한국형 4세대 SMR 개발 진척 상황이 주목되고 있다.",
-  "summaryLong": "테라파워(TerraPower)가 개발 중인 나트륨냉각 소형모듈원자로(SFR)가 미국 원자력규제위원회(NRC)의 사전검토(VDR, Vendor Design Review) 절차를 11월부터 시작하기로 예정되어 있다. 이는 테라파워 SFR이 본격적인 인허가 절차로 진입하는 단계이며, 한편 한국형 4세대 SMR(소듐냉각 고속로)의 개발 일정과 인허가 계획이 상대적으로 뒤처지고 있다는 점을 부각시키고 있다. 한국 정부와 산업계는 국내 SMR 기술 개발을 가속화하고 국제 경쟁력을 확보하기 위한 정책 강화의 필요성이 제기되고 있다.",
-  "cat": "기술",
-  "type": "SFR",
-  "dev": "TerraPower",
-  "region": "US",
-  "source": "enewstoday.co.kr",
-  "url": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2460257",
-  "k": "테라파워 나트륨 11월 사전검토 착수 한국형 4세대 smr 은 언제",
-  "ko": 1,
-  "id": "bcdc1a6b"
- },
- {
-  "date": "2026-08-18",
-  "title": "미국 INL, SMR 사이버보안 서밋 개최…설계·공급망 방어 논의",
-  "summary": "미국 아이다호국립연구소(INL)가 소형모듈원자로(SMR)의 사이버보안 서밋을 개최하여 설계 및 공급망 방어 방안을 논의했다.",
-  "summaryLong": "미국 아이다호국립연구소(INL)가 소형모듈원자로(SMR)의 사이버보안 강화를 목표로 하는 전문가 서밋을 개최했다. 서밋에서는 SMR 설계 단계부터 적용할 사이버보안 표준·기술, 공급망 보호 방안, 운영 중 보안 위협 대응 전략 등을 논의했다. 이는 SMR이 분산형·소규모 배치 특성으로 인해 기존 대형 원전보다 공급망 위험과 사이버 공격 노출이 높을 수 있다는 우려에 따른 선제적 정책 추진으로, 향후 SMR 설계 기준 및 규제 표준에 반영될 것으로 예상된다.",
-  "cat": "기술",
-  "type": "General",
-  "dev": "",
-  "region": "US",
-  "source": "esnews.kr",
-  "url": "https://www.esnews.kr/news/articleView.html?idxno=5733",
-  "k": "inl smr 사이버보안 서밋 설계 공급망 방어 논의",
-  "ko": 1,
-  "id": "2c049cd8"
  },
  {
   "date": "2026-08-18",
@@ -1429,5 +1429,5 @@ window.SMR_NEWS = [
   "ko": 1
  }
 ];
-window.SMR_UPDATED = "2026-08-21 13:50 KST";
-window.SMR_TOTAL = 2256;
+window.SMR_UPDATED = "2026-08-21 14:17 KST";
+window.SMR_TOTAL = 2258;

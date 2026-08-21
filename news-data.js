@@ -23,6 +23,21 @@ window.SMR_NEWS = [
     "id": "a681e554"
   },
   {
+    "date": "2026-08-21",
+    "title": "한국원자력안전기술원 인사 발령",
+    "summary": "한국원자력안전기술원(KINS)이 비경수형 SMR 규제사업 PM 신임.",
+    "summaryLong": "한국원자력안전기술원(KINS)이 인사 발령을 통해 비경수형 소형모듈원자로(SMR) 규제사업 프로젝트 매니저(PM)를 신규 임명했다. 이는 국내 SMR 규제 기반 정비 및 설계인증·인허가 준비를 강화하려는 정부의 정책적 의지를 반영하는 인사 조치다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "KINS",
+    "region": "KR",
+    "source": "전기신문 - 전체기사",
+    "url": "https://www.electimes.com/news/articleView.html?idxno=371507",
+    "k": "인사 한국원자력안전기술원",
+    "ko": 1,
+    "id": "3ae85e7b"
+  },
+  {
     "date": "2026-08-20",
     "title": "AI가 이끌고 SMR·핵융합이 받친다···정부의 '7대 전략기술 SEED' 발표",
     "summary": "한국 정부가 소형모듈원자로(SMR)과 핵융합을 포함한 7대 전략기술 SEED 프로그램을 선정 발표했다.",
@@ -662,6 +677,21 @@ window.SMR_NEWS = [
     "ko": 1,
     "op": 1,
     "id": "d2fb39bf"
+  },
+  {
+    "date": "2026-08-19",
+    "title": "한국원자력산업협회, 원자력산업 8월호 발간···SMR 전략기술 조명",
+    "summary": "한국원자력산업협회가 8월호에서 소형모듈원자로(SMR)의 전략기술을 특집으로 다룸.",
+    "summaryLong": "한국원자력산업협회가 원자력산업 8월호를 발간하여 소형모듈원자로(SMR)의 전략기술을 주요 주제로 조명했다. 국내 원자력산업계의 동향과 정책 방향을 종합적으로 담은 정기간행물 발행으로, SMR 기술의 전략적 중요성 강조와 산업 활성화를 위한 정보 공유를 목적으로 한다.",
+    "cat": "기술",
+    "type": "General",
+    "dev": "",
+    "region": "KR",
+    "source": "esnews.kr",
+    "url": "https://www.esnews.kr/news/articleView.html?idxno=5744",
+    "k": "한국원자력산업협회 원자력산업 8월호 발간 smr 전략기술 조명",
+    "ko": 1,
+    "id": "311170aa"
   },
   {
     "date": "2026-08-18",
@@ -32862,4 +32892,4 @@ window.SMR_NEWS = [
     "id": "8f99b91a"
   }
 ];
-window.SMR_UPDATED = "2026-08-21 13:50 KST";
+window.SMR_UPDATED = "2026-08-21 14:17 KST";
